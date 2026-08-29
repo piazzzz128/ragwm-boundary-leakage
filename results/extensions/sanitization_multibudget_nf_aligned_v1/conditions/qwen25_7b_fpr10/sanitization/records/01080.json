@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2306",
+  "source_doc_id": "MED-2306",
+  "title": "Healthy lifestyle behaviors and all-cause mortality among adults in the United States.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Healthy lifestyle behaviors and all-cause mortality among adults in the United States.\nOBJECTIVE: To examine the links between three fundamental healthy lifestyle behaviors (not smoking, healthy diet, and adequate physical activity) and all-cause mortality in a national sample of adults in the United States. METHOD: We used data from 8375 U.S. participants aged ≥ 20 years of the National Health and Nutrition Examination Survey 1999-2002 who were followed through 2006. RESULTS: During a mean follow-up of 5.7 years, 745 deaths occurred. Compared with their counterparts, the risk for all-cause mortality was reduced by 56% (95% confidence interval [CI]: 35%-70%) among adults who were nonsmokers, 47% (95% CI: 36%, 57%) among adults who were physically active, and 26% (95% CI: 4%, 42%) among adults who consumed a healthy diet. Compared with participants who had no healthy behaviors, the risk decreased progressively as the number of healthy behaviors increased. Adjusted hazard ratios and 95% confidence interval were 0.60 (0.38, 0.95), 0.45 (0.30, 0.67), and 0.18 (0.11, 0.29) for 1, 2, and 3 healthy behaviors, respectively. CONCLUSION: Adults who do not smoke, consume a healthy diet, and engage in sufficient physical activity can substantially reduce their risk for early death. Published by Elsevier Inc.",
+  "sanitized_text": "Healthy lifestyle behaviors and all-cause mortality among adults in the United States.\nOBJECTIVE: To examine the links between three fundamental healthy lifestyle behaviors (not smoking, healthy diet, and adequate physical activity) and all-cause mortality in a national sample of adults in the United States. METHOD: We used data from 8375 U.S. participants aged ≥ 20 years of the National Health and Nutrition Examination Survey 1999-2002 who were followed through 2006. RESULTS: During a mean follow-up of 5.7 years, 745 deaths occurred. Compared with their counterparts, the risk for all-cause mortality was reduced by 56% (95% confidence interval [CI]: 35%-70%) among adults who were nonsmokers, 47% (95% CI: 36%, 57%) among adults who were physically active, and 26% (95% CI: 4%, 42%) among adults who consumed a healthy diet. Compared with participants who had no healthy behaviors, the risk decreased progressively as the number of healthy behaviors increased. Adjusted hazard ratios and 95% confidence interval were 0.60 (0.38, 0.95), 0.45 (0.30, 0.67), and 0.18 (0.11, 0.29) for 1, 2, and 3 healthy behaviors, respectively. CONCLUSION: Adults who do not smoke, consume a healthy diet, and engage in sufficient physical activity can substantially reduce their risk for early death. Published by Elsevier Inc.",
+  "modified": false,
+  "original_char_count": 1317,
+  "sanitized_char_count": 1317,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1291,
+      "boundary_end": 1317,
+      "context": "To examine the links between three fundamental healthy lifestyle behaviors (not smoking, healthy diet, and adequate physical activity) and all-cause mortality in a national sample of adults in the United States. METHOD: We used data from 8375 U.S. participants aged ≥ 20 years of the National Health and Nutrition Examination Survey 1999-2002 who were followed through 2006. RESULTS: During a mean follow-up of 5.7 years, 745 deaths occurred. Compared with their counterparts, the risk for all-cause mortality was reduced by 56% (95% confidence interval [CI]: 35%-70%) among adults who were nonsmokers, 47% (95% CI: 36%, 57%) among adults who were physically active, and 26% (95% CI: 4%, 42%) among adults who consumed a healthy diet. Compared with participants who had no healthy behaviors, the risk decreased progressively as the number of healthy behaviors increased. Adjusted hazard ratios and 95% confidence interval were 0.60 (0.38, 0.95), 0.45 (0.30, 0.67), and 0.18 (0.11, 0.29) for 1, 2, and 3 healthy behaviors, respectively. CONCLUSION: Adults who do not smoke, consume a healthy diet, and engage in sufficient physical activity can substantially reduce their risk for early death.",
+      "target": "Published by Elsevier Inc.",
+      "loss_target": 2.3177590370178223,
+      "loss_target_given_context": 0.6600671410560608,
+      "delta_loss": 1.6576918959617615,
+      "gain_ratio": 0.7152132165104852,
+      "score": -0.7152132165104852,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

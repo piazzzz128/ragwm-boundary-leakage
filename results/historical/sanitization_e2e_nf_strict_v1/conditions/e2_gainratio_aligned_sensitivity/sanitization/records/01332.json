@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2679",
+  "source_doc_id": "MED-2679",
+  "title": "Commercial hickory-smoke flavouring is a human lymphoblast mutagen but does not induce lung adenomas in newborn mice.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Commercial hickory-smoke flavouring is a human lymphoblast mutagen but does not induce lung adenomas in newborn mice.\nCommercial aqueous wood-smoke flavouring induced significant increases in the 6-thioguanine resistance mutation frequency of TK6 human lymphoblasts at 0.1 microliter flavouring/ml of cell suspension. This corresponds to 6 micrograms/ml of dissolved 'solids' as determined by fully drying the aqueous flavouring in a vacuum desiccator. In AHH-1 human lymphoblasts, which contain a cytochrome P-450 monooxygenase system, mutations were induced at 0.3 microliter/ml, corresponding to 18 microliters/ml of dissolved 'solids'. The flavouring did not induce 8-azaguanine resistant mutations in Salmonella typhimurium at concentrations up to 1.5 microliter/ml. At higher concentrations the flavouring was toxic to bacteria. The flavouring did not induce lung adenomas or other tumours in newborn mice when injected ip with total doses of up to 26 microliters over a 3-wk period. Toxicity to the kidney, colon and rectum was observed in some mice at 15 wk of age.",
+  "sanitized_text": "Commercial hickory-smoke flavouring is a human lymphoblast mutagen but does not induce lung adenomas in newborn mice.\nCommercial aqueous wood-smoke flavouring induced significant increases in the 6-thioguanine resistance mutation frequency of TK6 human lymphoblasts at 0.1 microliter flavouring/ml of cell suspension. This corresponds to 6 micrograms/ml of dissolved 'solids' as determined by fully drying the aqueous flavouring in a vacuum desiccator. In AHH-1 human lymphoblasts, which contain a cytochrome P-450 monooxygenase system, mutations were induced at 0.3 microliter/ml, corresponding to 18 microliters/ml of dissolved 'solids'. The flavouring did not induce 8-azaguanine resistant mutations in Salmonella typhimurium at concentrations up to 1.5 microliter/ml. At higher concentrations the flavouring was toxic to bacteria. The flavouring did not induce lung adenomas or other tumours in newborn mice when injected ip with total doses of up to 26 microliters over a 3-wk period. Toxicity to the kidney, colon and rectum was observed in some mice at 15 wk of age.",
+  "modified": false,
+  "original_char_count": 1073,
+  "sanitized_char_count": 1073,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 990,
+      "boundary_end": 1073,
+      "context": "Commercial hickory-smoke flavouring is a human lymphoblast mutagen but does not induce lung adenomas in newborn mice. Commercial aqueous wood-smoke flavouring induced significant increases in the 6-thioguanine resistance mutation frequency of TK6 human lymphoblasts at 0.1 microliter flavouring/ml of cell suspension. This corresponds to 6 micrograms/ml of dissolved 'solids' as determined by fully drying the aqueous flavouring in a vacuum desiccator. In AHH-1 human lymphoblasts, which contain a cytochrome P-450 monooxygenase system, mutations were induced at 0.3 microliter/ml, corresponding to 18 microliters/ml of dissolved 'solids'. The flavouring did not induce 8-azaguanine resistant mutations in Salmonella typhimurium at concentrations up to 1.5 microliter/ml. At higher concentrations the flavouring was toxic to bacteria. The flavouring did not induce lung adenomas or other tumours in newborn mice when injected ip with total doses of up to 26 microliters over a 3-wk period.",
+      "target": "Toxicity to the kidney, colon and rectum was observed in some mice at 15 wk of age.",
+      "loss_target": 3.405719518661499,
+      "loss_target_given_context": 2.259545087814331,
+      "delta_loss": 1.146174430847168,
+      "gain_ratio": 0.3365439885952888,
+      "score": -0.3365439885952888,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

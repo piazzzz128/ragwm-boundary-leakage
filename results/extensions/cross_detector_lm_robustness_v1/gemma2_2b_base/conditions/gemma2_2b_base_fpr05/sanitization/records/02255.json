@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4001",
+  "source_doc_id": "MED-4001",
+  "title": "An Open-Label Pilot Study to Assess the Efficacy and Safety of Virgin Coconut Oil in Reducing Visceral Adiposity",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "An Open-Label Pilot Study to Assess the Efficacy and Safety of Virgin Coconut Oil in Reducing Visceral Adiposity\nIntroduction. This is an open-label pilot study on four weeks of virgin coconut oil (VCO) to investigate its efficacy in weight reduction and its safety of use in 20 obese but healthy Malay volunteers. Methodology. Efficacy was assessed by measuring weight and associated anthropometric parameters and lipid profile one week before and one week after VCO intake. Safety was assessed by comparing organ function tests one week before and one week after intake of VCO. Paired t-test was used to analyse any differences in all the measurable variables. Results. Only waist circumference (WC) was significantly reduced with a mean reduction of 2.86 cm or 0.97% from initial measurement (P = .02). WC reduction was only seen in males (P < .05). There was no change in the lipid profile. There was a small reduction in creatinine and alanine transferase levels. Conclusion. VCO is efficacious for WC reduction especially in males and it is safe for use in humans.",
+  "sanitized_text": "An Open-Label Pilot Study to Assess the Efficacy and Safety of Virgin Coconut Oil in Reducing Visceral Adiposity\nIntroduction. This is an open-label pilot study on four weeks of virgin coconut oil (VCO) to investigate its efficacy in weight reduction and its safety of use in 20 obese but healthy Malay volunteers. Methodology. Efficacy was assessed by measuring weight and associated anthropometric parameters and lipid profile one week before and one week after VCO intake. Safety was assessed by comparing organ function tests one week before and one week after intake of VCO. Paired t-test was used to analyse any differences in all the measurable variables. Results. Only waist circumference (WC) was significantly reduced with a mean reduction of 2.86 cm or 0.97% from initial measurement (P = .02). WC reduction was only seen in males (P < .05). There was no change in the lipid profile. There was a small reduction in creatinine and alanine transferase levels. Conclusion. VCO is efficacious for WC reduction especially in males and it is safe for use in humans.",
+  "modified": false,
+  "original_char_count": 1070,
+  "sanitized_char_count": 1070,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 981,
+      "boundary_end": 1070,
+      "context": "An Open-Label Pilot Study to Assess the Efficacy and Safety of Virgin Coconut Oil in Reducing Visceral Adiposity Introduction. This is an open-label pilot study on four weeks of virgin coconut oil (VCO) to investigate its efficacy in weight reduction and its safety of use in 20 obese but healthy Malay volunteers. Methodology. Efficacy was assessed by measuring weight and associated anthropometric parameters and lipid profile one week before and one week after VCO intake. Safety was assessed by comparing organ function tests one week before and one week after intake of VCO. Paired t-test was used to analyse any differences in all the measurable variables. Results. Only waist circumference (WC) was significantly reduced with a mean reduction of 2.86 cm or 0.97% from initial measurement (P = .02). WC reduction was only seen in males (P < .05). There was no change in the lipid profile. There was a small reduction in creatinine and alanine transferase levels. Conclusion.",
+      "target": "VCO is efficacious for WC reduction especially in males and it is safe for use in humans.",
+      "loss_target": 9.743597030639648,
+      "loss_target_given_context": 3.4253416061401367,
+      "delta_loss": 6.318255424499512,
+      "gain_ratio": 0.6484520454439124,
+      "score": -0.6484520454439124,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

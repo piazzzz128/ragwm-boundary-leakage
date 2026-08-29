@@ -1,0 +1,42 @@
+[
+  {
+    "Dataset": "TREC-COVID",
+    "Method": "Contriever + Cosine",
+    "Model": "Contriever",
+    "ROC-AUC": 0.6890600865734825,
+    "PR-AUC": 0.6640681192289757,
+    "N": 458
+  },
+  {
+    "Dataset": "TREC-COVID",
+    "Method": "DeltaLoss",
+    "Model": "distilgpt2",
+    "ROC-AUC": 0.7797143456455826,
+    "PR-AUC": 0.8094132369286255,
+    "N": 458
+  },
+  {
+    "Dataset": "TREC-COVID",
+    "Method": "GainRatio",
+    "Model": "distilgpt2",
+    "ROC-AUC": 0.8018725806144048,
+    "PR-AUC": 0.8234481980955601,
+    "N": 458
+  },
+  {
+    "Dataset": "TREC-COVID",
+    "Method": "DeltaLoss",
+    "Model": "gpt2-medium",
+    "ROC-AUC": 0.8442916801739098,
+    "PR-AUC": 0.8770118521548758,
+    "N": 458
+  },
+  {
+    "Dataset": "TREC-COVID",
+    "Method": "GainRatio",
+    "Model": "gpt2-medium",
+    "ROC-AUC": 0.8771953242691788,
+    "PR-AUC": 0.8994825440490688,
+    "N": 458
+  }
+]

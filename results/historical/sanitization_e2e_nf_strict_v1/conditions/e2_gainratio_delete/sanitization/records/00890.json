@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2087",
+  "source_doc_id": "MED-2087",
+  "title": "Diethylstilboestrol--a long-term legacy.",
+  "original_text": "Diethylstilboestrol--a long-term legacy.\nDiethylstilboestrol (DES) is an endocrine disrupter which causes cancer in rodents. It was prescribed in large amounts to treat women with gynaecological problems; some of the daughters of these women subsequently developed a rare cancer (vaginal clear cell adenocarcinoma) while genital abnormalities were found in some of the sons. It was used for decades in livestock feed and this may have contaminated the food chain leading to the exposure of the more general population. DES appears to cause epigenetic effects in animals and there is some evidence that this also occurs in man. The mechanisms of carcinogenesis are complex and the effects are difficult to prove due to the background of dietary and environmental phyto- and xenooestrogens. It has been suggested that, like other endocrine disrupters, DES may have acted as an obesogen in the human population. Copyright © 2012 Elsevier Ireland Ltd. All rights reserved.",
+  "sanitized_text": "Diethylstilboestrol--a long-term legacy.\nDiethylstilboestrol (DES) is an endocrine disrupter which causes cancer in rodents. It was prescribed in large amounts to treat women with gynaecological problems; some of the daughters of these women subsequently developed a rare cancer (vaginal clear cell adenocarcinoma) while genital abnormalities were found in some of the sons. It was used for decades in livestock feed and this may have contaminated the food chain leading to the exposure of the more general population. DES appears to cause epigenetic effects in animals and there is some evidence that this also occurs in man. The mechanisms of carcinogenesis are complex and the effects are difficult to prove due to the background of dietary and environmental phyto- and xenooestrogens. It has been suggested that, like other endocrine disrupters, DES may have acted as an obesogen in the human population.",
+  "modified": true,
+  "original_char_count": 968,
+  "sanitized_char_count": 908,
+  "deleted_char_count": 60,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 909,
+      "boundary_end": 947,
+      "context": "Diethylstilboestrol--a long-term legacy. Diethylstilboestrol (DES) is an endocrine disrupter which causes cancer in rodents. It was prescribed in large amounts to treat women with gynaecological problems; some of the daughters of these women subsequently developed a rare cancer (vaginal clear cell adenocarcinoma) while genital abnormalities were found in some of the sons. It was used for decades in livestock feed and this may have contaminated the food chain leading to the exposure of the more general population. DES appears to cause epigenetic effects in animals and there is some evidence that this also occurs in man. The mechanisms of carcinogenesis are complex and the effects are difficult to prove due to the background of dietary and environmental phyto- and xenooestrogens. It has been suggested that, like other endocrine disrupters, DES may have acted as an obesogen in the human population.",
+      "target": "Copyright © 2012 Elsevier Ireland Ltd.",
+      "loss_target": 1.3645259141921997,
+      "loss_target_given_context": 1.7572665214538574,
+      "delta_loss": -0.3927406072616577,
+      "gain_ratio": -0.287822021683011,
+      "score": 0.287822021683011,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 789,
+      "boundary_end": 908,
+      "context": "Diethylstilboestrol--a long-term legacy. Diethylstilboestrol (DES) is an endocrine disrupter which causes cancer in rodents. It was prescribed in large amounts to treat women with gynaecological problems; some of the daughters of these women subsequently developed a rare cancer (vaginal clear cell adenocarcinoma) while genital abnormalities were found in some of the sons. It was used for decades in livestock feed and this may have contaminated the food chain leading to the exposure of the more general population. DES appears to cause epigenetic effects in animals and there is some evidence that this also occurs in man. The mechanisms of carcinogenesis are complex and the effects are difficult to prove due to the background of dietary and environmental phyto- and xenooestrogens.",
+      "target": "It has been suggested that, like other endocrine disrupters, DES may have acted as an obesogen in the human population.",
+      "loss_target": 2.4843268394470215,
+      "loss_target_given_context": 2.0230159759521484,
+      "delta_loss": 0.46131086349487305,
+      "gain_ratio": 0.18568847551377532,
+      "score": -0.18568847551377532,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 909,
+      "target": "Copyright © 2012 Elsevier Ireland Ltd.",
+      "score": 0.287822021683011,
+      "deleted_suffix": "Copyright © 2012 Elsevier Ireland Ltd. All rights reserved.",
+      "deleted_char_count": 59
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

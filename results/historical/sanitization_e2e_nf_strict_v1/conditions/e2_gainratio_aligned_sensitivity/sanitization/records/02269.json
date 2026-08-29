@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4028",
+  "source_doc_id": "MED-4028",
+  "title": "Dietary advice in dental practice.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary advice in dental practice.\nThis paper aims to provide dental health professionals with practical advice to pass on to patients about diet and dental health. Sugars are the most important dietary factor contributing to dental caries. Different foods carry different dental health risks; those containing non-milk, extrinsic sugars are potentially the most damaging. In the UK, sugared soft drinks and confectionery contribute approximately 50% to total intake of non-milk extrinsic sugars. Patients should be encouraged to reduce the frequency of intake of sugary foods. Intake of acidic foods and drinks contributes to dental erosion and consumption of such foods should also be limited. Dietary advice to dental patients should be positive and personalized if possible and can be in line with dietary recommendations for general health. These are to increase the consumption of starchy staple foods (eg bread, potatoes and unsweetened cereals), vegetables and fruit and to reduce the consumption of sugary and fatty foods.",
+  "sanitized_text": "Dietary advice in dental practice.\nThis paper aims to provide dental health professionals with practical advice to pass on to patients about diet and dental health. Sugars are the most important dietary factor contributing to dental caries. Different foods carry different dental health risks; those containing non-milk, extrinsic sugars are potentially the most damaging. In the UK, sugared soft drinks and confectionery contribute approximately 50% to total intake of non-milk extrinsic sugars. Patients should be encouraged to reduce the frequency of intake of sugary foods. Intake of acidic foods and drinks contributes to dental erosion and consumption of such foods should also be limited. Dietary advice to dental patients should be positive and personalized if possible and can be in line with dietary recommendations for general health. These are to increase the consumption of starchy staple foods (eg bread, potatoes and unsweetened cereals), vegetables and fruit and to reduce the consumption of sugary and fatty foods.",
+  "modified": false,
+  "original_char_count": 1031,
+  "sanitized_char_count": 1031,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 846,
+      "boundary_end": 1031,
+      "context": "Dietary advice in dental practice. This paper aims to provide dental health professionals with practical advice to pass on to patients about diet and dental health. Sugars are the most important dietary factor contributing to dental caries. Different foods carry different dental health risks; those containing non-milk, extrinsic sugars are potentially the most damaging. In the UK, sugared soft drinks and confectionery contribute approximately 50% to total intake of non-milk extrinsic sugars. Patients should be encouraged to reduce the frequency of intake of sugary foods. Intake of acidic foods and drinks contributes to dental erosion and consumption of such foods should also be limited. Dietary advice to dental patients should be positive and personalized if possible and can be in line with dietary recommendations for general health.",
+      "target": "These are to increase the consumption of starchy staple foods (eg bread, potatoes and unsweetened cereals), vegetables and fruit and to reduce the consumption of sugary and fatty foods.",
+      "loss_target": 2.2858734130859375,
+      "loss_target_given_context": 1.5537514686584473,
+      "delta_loss": 0.7321219444274902,
+      "gain_ratio": 0.3202810532885646,
+      "score": -0.3202810532885646,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

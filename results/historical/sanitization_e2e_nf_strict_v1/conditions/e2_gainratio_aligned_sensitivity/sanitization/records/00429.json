@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1523",
+  "source_doc_id": "MED-1523",
+  "title": "A near fatal case of high dose peppermint oil ingestion- Lessons learnt",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A near fatal case of high dose peppermint oil ingestion- Lessons learnt\nPeppermint oil is easily available as a constituent of medicines. A near fatal case due to ingestion of toxic dose of oral peppermint oil is being reported. The patient came in a comatosed state and was in shock. She was managed with mechanical ventilation and ionotropes. Her vital parameters reached normal within 8 hours and became conscious by 24 hours. The side effects of peppermint oil are considered to be mild but this case report warns that ingestion of oral toxic doses of peppermint oil could be dangerous.",
+  "sanitized_text": "A near fatal case of high dose peppermint oil ingestion- Lessons learnt\nPeppermint oil is easily available as a constituent of medicines. A near fatal case due to ingestion of toxic dose of oral peppermint oil is being reported. The patient came in a comatosed state and was in shock. She was managed with mechanical ventilation and ionotropes. Her vital parameters reached normal within 8 hours and became conscious by 24 hours. The side effects of peppermint oil are considered to be mild but this case report warns that ingestion of oral toxic doses of peppermint oil could be dangerous.",
+  "modified": false,
+  "original_char_count": 590,
+  "sanitized_char_count": 590,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 430,
+      "boundary_end": 590,
+      "context": "A near fatal case of high dose peppermint oil ingestion- Lessons learnt Peppermint oil is easily available as a constituent of medicines. A near fatal case due to ingestion of toxic dose of oral peppermint oil is being reported. The patient came in a comatosed state and was in shock. She was managed with mechanical ventilation and ionotropes. Her vital parameters reached normal within 8 hours and became conscious by 24 hours.",
+      "target": "The side effects of peppermint oil are considered to be mild but this case report warns that ingestion of oral toxic doses of peppermint oil could be dangerous.",
+      "loss_target": 3.363429546356201,
+      "loss_target_given_context": 2.0394906997680664,
+      "delta_loss": 1.3239388465881348,
+      "gain_ratio": 0.39362764355282387,
+      "score": -0.39362764355282387,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

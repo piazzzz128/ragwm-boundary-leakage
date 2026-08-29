@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3953",
+  "source_doc_id": "MED-3953",
+  "title": "An evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "An evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration.\nAn evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration consolidates the safety and efficacy data available in the scientific literature using a validated, reproducible grading rationale. This article includes written and statistical analysis of clinical trials, plus a compilation of expert opinion, folkloric precedent, history, pharmacology, kinetics/dynamics, interactions, adverse effects, toxicology, and dosing.",
+  "sanitized_text": "An evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration.\nAn evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration consolidates the safety and efficacy data available in the scientific literature using a validated, reproducible grading rationale.",
+  "modified": true,
+  "original_char_count": 583,
+  "sanitized_char_count": 352,
+  "deleted_char_count": 231,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 353,
+      "boundary_end": 583,
+      "context": "An evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration. An evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration consolidates the safety and efficacy data available in the scientific literature using a validated, reproducible grading rationale.",
+      "target": "This article includes written and statistical analysis of clinical trials, plus a compilation of expert opinion, folkloric precedent, history, pharmacology, kinetics/dynamics, interactions, adverse effects, toxicology, and dosing.",
+      "loss_target": 3.204869031906128,
+      "loss_target_given_context": 2.8259363174438477,
+      "delta_loss": 0.3789327144622803,
+      "gain_ratio": 0.1182365677629286,
+      "score": -0.1182365677629286,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 111,
+      "boundary_end": 352,
+      "context": "An evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration.",
+      "target": "An evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration consolidates the safety and efficacy data available in the scientific literature using a validated, reproducible grading rationale.",
+      "loss_target": 2.569385290145874,
+      "loss_target_given_context": 1.6868408918380737,
+      "delta_loss": 0.8825443983078003,
+      "gain_ratio": 0.3434846465777403,
+      "score": -0.3434846465777403,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 353,
+      "target": "This article includes written and statistical analysis of clinical trials, plus a compilation of expert opinion, folkloric precedent, history, pharmacology, kinetics/dynamics, interactions, adverse effects, toxicology, and dosing.",
+      "score": -0.1182365677629286,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "This article includes written and statistical analysis of clinical trials, plus a compilation of expert opinion, folkloric precedent, history, pharmacology, kinetics/dynamics, interactions, adverse effects, toxicology, and dosing.",
+      "deleted_char_count": 230
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

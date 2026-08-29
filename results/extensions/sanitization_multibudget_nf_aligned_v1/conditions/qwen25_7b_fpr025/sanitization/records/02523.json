@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4374",
+  "source_doc_id": "MED-4374",
+  "title": "Health food store recommendations for breast cancer patients.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Health food store recommendations for breast cancer patients.\nCONTEXT: Despite cancer patients' widespread and growing use of complementary and alternative medicine, minimal attention has been paid to the role of health food stores in the \"supply side\" of this phenomenon. OBJECTIVE: To gain a better understanding of health food store personnel's recommendations for breast cancer patient care. DESIGN: Researcher posing as the daughter of a breast cancer patient and surveying health food store personnel on their product recommendations for cancer care. SETTING: Oahu, Hawaii, summer 1998. PARTICIPANTS: All health food stores (N = 40) offering products for cancer patients. MAIN OUTCOME MEASURES: Recommended products and services, proposed mechanism of action, and costs. RESULTS: Store personnel readily provided information and product recommendations, with shark cartilage being the most frequent. Suggested mechanisms of action drew on traditional healing, scientific, and pseudoscientific rationales. Costs for recommended dosages varied multifold across stores and brands. CONCLUSIONS: Retailers supplying supplements can play an important role in the network of \"authorities\" for patients with breast and other cancers, as they readily provide advice and recommend products. The reasons why patients seek health food store remedies are useful in developing approaches to patient education. Physicians and other providers are in a key position to assist cancer patients in making informed choices when considering health store products.",
+  "sanitized_text": "Health food store recommendations for breast cancer patients.\nCONTEXT: Despite cancer patients' widespread and growing use of complementary and alternative medicine, minimal attention has been paid to the role of health food stores in the \"supply side\" of this phenomenon. OBJECTIVE: To gain a better understanding of health food store personnel's recommendations for breast cancer patient care. DESIGN: Researcher posing as the daughter of a breast cancer patient and surveying health food store personnel on their product recommendations for cancer care. SETTING: Oahu, Hawaii, summer 1998. PARTICIPANTS: All health food stores (N = 40) offering products for cancer patients. MAIN OUTCOME MEASURES: Recommended products and services, proposed mechanism of action, and costs. RESULTS: Store personnel readily provided information and product recommendations, with shark cartilage being the most frequent. Suggested mechanisms of action drew on traditional healing, scientific, and pseudoscientific rationales. Costs for recommended dosages varied multifold across stores and brands. CONCLUSIONS: Retailers supplying supplements can play an important role in the network of \"authorities\" for patients with breast and other cancers, as they readily provide advice and recommend products. The reasons why patients seek health food store remedies are useful in developing approaches to patient education. Physicians and other providers are in a key position to assist cancer patients in making informed choices when considering health store products.",
+  "modified": false,
+  "original_char_count": 1547,
+  "sanitized_char_count": 1547,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1402,
+      "boundary_end": 1547,
+      "context": "role of health food stores in the \"supply side\" of this phenomenon. OBJECTIVE: To gain a better understanding of health food store personnel's recommendations for breast cancer patient care. DESIGN: Researcher posing as the daughter of a breast cancer patient and surveying health food store personnel on their product recommendations for cancer care. SETTING: Oahu, Hawaii, summer 1998. PARTICIPANTS: All health food stores (N = 40) offering products for cancer patients. MAIN OUTCOME MEASURES: Recommended products and services, proposed mechanism of action, and costs. RESULTS: Store personnel readily provided information and product recommendations, with shark cartilage being the most frequent. Suggested mechanisms of action drew on traditional healing, scientific, and pseudoscientific rationales. Costs for recommended dosages varied multifold across stores and brands. CONCLUSIONS: Retailers supplying supplements can play an important role in the network of \"authorities\" for patients with breast and other cancers, as they readily provide advice and recommend products. The reasons why patients seek health food store remedies are useful in developing approaches to patient education.",
+      "target": "Physicians and other providers are in a key position to assist cancer patients in making informed choices when considering health store products.",
+      "loss_target": 3.090031147003174,
+      "loss_target_given_context": 2.0063037872314453,
+      "delta_loss": 1.0837273597717285,
+      "gain_ratio": 0.35071729319711464,
+      "score": -0.35071729319711464,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

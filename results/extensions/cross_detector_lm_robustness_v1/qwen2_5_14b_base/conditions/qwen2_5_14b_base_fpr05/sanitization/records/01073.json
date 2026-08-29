@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2298",
+  "source_doc_id": "MED-2298",
+  "title": "A guide to exercise prescription.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A guide to exercise prescription.\nExercise is a fundamental component of good health. The American College of Sports Medicine and \"Exercise is Medicine\" recommend treating exercise as a vital sign, and assessing and prescribing physical activity at every medical visit. Meeting the recommended goals of physical activity results in a significant reduction in all-cause mortality. Physicians can improve health by prescribing exercise. Copyright © 2013 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "A guide to exercise prescription.\nExercise is a fundamental component of good health. The American College of Sports Medicine and \"Exercise is Medicine\" recommend treating exercise as a vital sign, and assessing and prescribing physical activity at every medical visit. Meeting the recommended goals of physical activity results in a significant reduction in all-cause mortality. Physicians can improve health by prescribing exercise. Copyright © 2013 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 486,
+  "sanitized_char_count": 486,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 435,
+      "boundary_end": 465,
+      "context": "A guide to exercise prescription. Exercise is a fundamental component of good health. The American College of Sports Medicine and \"Exercise is Medicine\" recommend treating exercise as a vital sign, and assessing and prescribing physical activity at every medical visit. Meeting the recommended goals of physical activity results in a significant reduction in all-cause mortality. Physicians can improve health by prescribing exercise.",
+      "target": "Copyright © 2013 Elsevier Inc.",
+      "loss_target": 1.0642712116241455,
+      "loss_target_given_context": 0.2847915291786194,
+      "delta_loss": 0.7794796824455261,
+      "gain_ratio": 0.7324069973254191,
+      "score": -0.7324069973254191,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

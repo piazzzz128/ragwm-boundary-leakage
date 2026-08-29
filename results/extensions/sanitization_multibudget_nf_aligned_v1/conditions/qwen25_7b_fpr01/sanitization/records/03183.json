@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5124",
+  "source_doc_id": "MED-5124",
+  "title": "Egg Consumption and Cardiovascular Disease and Mortality The Physicians' Health Study",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Egg Consumption and Cardiovascular Disease and Mortality The Physicians' Health Study\nBackground Reduction in dietary cholesterol is recommended to prevent cardiovascular disease (CVD). Although eggs are important sources of cholesterol and other nutrients, limited and inconsistent data are available on the effects of egg consumption on the risk of CVD and mortality. Objectives To examine the association between egg consumption and the risk of CVD and mortality. Design Prospective cohort study of 21,327 participants from the Physicians' Health Study I. Egg consumption was assessed using a simple abbreviated food questionnaire. We used Cox regression to estimate relative risks. Results After an average follow up of 20 years, a total of 1,550 new myocardial infarction (MI), 1,342 incident strokes, and 5,169 deaths occurred in this cohort. Egg consumption was not associated with incident MI or stroke in a multivariable Cox regression. In contrast, adjusted hazard ratios (95% CI) for mortality were 1.0 (reference), 0.94 (0.87-1.02), 1.03 (0.95-1.11), 1.05 (0.93-1.19), and 1.23 (1.11-1.36) for egg consumption of <1, 1, 2-4, 5-6, and 7+ per week, respectively, (p for trend <0.0001). This association was stronger among diabetic subjects with a 2-fold increased risk of death comparing the highest to the lowest category of egg consumption than non-diabetic subjects (HR: 1.22 (1.09-1.35) (p for interaction 0.09). Conclusions Our data suggest that infrequent egg consumption does not influence the risk of CVD and only confers a modest increased risk for total mortality in male physicians. In addition, egg consumption was positively related to mortality and such relation was stronger among diabetic subjects in this selective population. The measurement of dietary factors includes the consumption of eggs.",
+  "sanitized_text": "Egg Consumption and Cardiovascular Disease and Mortality The Physicians' Health Study\nBackground Reduction in dietary cholesterol is recommended to prevent cardiovascular disease (CVD). Although eggs are important sources of cholesterol and other nutrients, limited and inconsistent data are available on the effects of egg consumption on the risk of CVD and mortality. Objectives To examine the association between egg consumption and the risk of CVD and mortality. Design Prospective cohort study of 21,327 participants from the Physicians' Health Study I. Egg consumption was assessed using a simple abbreviated food questionnaire. We used Cox regression to estimate relative risks. Results After an average follow up of 20 years, a total of 1,550 new myocardial infarction (MI), 1,342 incident strokes, and 5,169 deaths occurred in this cohort. Egg consumption was not associated with incident MI or stroke in a multivariable Cox regression. In contrast, adjusted hazard ratios (95% CI) for mortality were 1.0 (reference), 0.94 (0.87-1.02), 1.03 (0.95-1.11), 1.05 (0.93-1.19), and 1.23 (1.11-1.36) for egg consumption of <1, 1, 2-4, 5-6, and 7+ per week, respectively, (p for trend <0.0001). This association was stronger among diabetic subjects with a 2-fold increased risk of death comparing the highest to the lowest category of egg consumption than non-diabetic subjects (HR: 1.22 (1.09-1.35) (p for interaction 0.09). Conclusions Our data suggest that infrequent egg consumption does not influence the risk of CVD and only confers a modest increased risk for total mortality in male physicians. In addition, egg consumption was positively related to mortality and such relation was stronger among diabetic subjects in this selective population. The measurement of dietary factors includes the consumption of eggs.",
+  "modified": false,
+  "original_char_count": 1822,
+  "sanitized_char_count": 1822,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1754,
+      "boundary_end": 1822,
+      "context": "I. Egg consumption was assessed using a simple abbreviated food questionnaire. We used Cox regression to estimate relative risks. Results After an average follow up of 20 years, a total of 1,550 new myocardial infarction (MI), 1,342 incident strokes, and 5,169 deaths occurred in this cohort. Egg consumption was not associated with incident MI or stroke in a multivariable Cox regression. In contrast, adjusted hazard ratios (95% CI) for mortality were 1.0 (reference), 0.94 (0.87-1.02), 1.03 (0.95-1.11), 1.05 (0.93-1.19), and 1.23 (1.11-1.36) for egg consumption of <1, 1, 2-4, 5-6, and 7+ per week, respectively, (p for trend <0.0001). This association was stronger among diabetic subjects with a 2-fold increased risk of death comparing the highest to the lowest category of egg consumption than non-diabetic subjects (HR: 1.22 (1.09-1.35) (p for interaction 0.09). Conclusions Our data suggest that infrequent egg consumption does not influence the risk of CVD and only confers a modest increased risk for total mortality in male physicians. In addition, egg consumption was positively related to mortality and such relation was stronger among diabetic subjects in this selective population.",
+      "target": "The measurement of dietary factors includes the consumption of eggs.",
+      "loss_target": 4.868102073669434,
+      "loss_target_given_context": 3.029940128326416,
+      "delta_loss": 1.8381619453430176,
+      "gain_ratio": 0.3775931394876165,
+      "score": -0.3775931394876165,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

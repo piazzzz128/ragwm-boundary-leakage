@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2300",
+  "source_doc_id": "MED-2300",
+  "title": "Exercise and longevity.",
+  "original_text": "Exercise and longevity.\nAging is a natural and complex physiological process influenced by many factors, some of which are modifiable. As the number of older individuals continues to increase, it is important to develop interventions that can be easily implemented and contribute to \"successful aging\". In addition to a healthy diet and psychosocial well-being, the benefits of regular exercise on mortality, and the prevention and control of chronic disease affecting both life expectancy and quality of life are well established. We summarize the benefits of regular exercise on longevity, present the current knowledge regarding potential mechanisms, and outline the main recommendations. Exercise can partially reverse the effects of the aging process on physiological functions and preserve functional reserve in the elderly. Numerous studies have shown that maintaining a minimum quantity and quality of exercise decreases the risk of death, prevents the development of certain cancers, lowers the risk of osteoporosis and increases longevity. Training programs should include exercises aimed at improving cardiorespiratory fitness and muscle function, as well as flexibility and balance. Though the benefits of physical activity appear to be directly linked to the notion of training volume and intensity, further research is required in the elderly, in order to develop more precise recommendations, bearing in mind that the main aim is to foster long-term adherence to physical activity in this growing population. Copyright © 2012 Elsevier Ireland Ltd. All rights reserved.",
+  "sanitized_text": "Exercise and longevity.\nAging is a natural and complex physiological process influenced by many factors, some of which are modifiable. As the number of older individuals continues to increase, it is important to develop interventions that can be easily implemented and contribute to \"successful aging\". In addition to a healthy diet and psychosocial well-being, the benefits of regular exercise on mortality, and the prevention and control of chronic disease affecting both life expectancy and quality of life are well established. We summarize the benefits of regular exercise on longevity, present the current knowledge regarding potential mechanisms, and outline the main recommendations. Exercise can partially reverse the effects of the aging process on physiological functions and preserve functional reserve in the elderly. Numerous studies have shown that maintaining a minimum quantity and quality of exercise decreases the risk of death, prevents the development of certain cancers, lowers the risk of osteoporosis and increases longevity. Training programs should include exercises aimed at improving cardiorespiratory fitness and muscle function, as well as flexibility and balance. Though the benefits of physical activity appear to be directly linked to the notion of training volume and intensity, further research is required in the elderly, in order to develop more precise recommendations, bearing in mind that the main aim is to foster long-term adherence to physical activity in this growing population.",
+  "modified": true,
+  "original_char_count": 1583,
+  "sanitized_char_count": 1523,
+  "deleted_char_count": 60,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1524,
+      "boundary_end": 1562,
+      "context": "diet and psychosocial well-being, the benefits of regular exercise on mortality, and the prevention and control of chronic disease affecting both life expectancy and quality of life are well established. We summarize the benefits of regular exercise on longevity, present the current knowledge regarding potential mechanisms, and outline the main recommendations. Exercise can partially reverse the effects of the aging process on physiological functions and preserve functional reserve in the elderly. Numerous studies have shown that maintaining a minimum quantity and quality of exercise decreases the risk of death, prevents the development of certain cancers, lowers the risk of osteoporosis and increases longevity. Training programs should include exercises aimed at improving cardiorespiratory fitness and muscle function, as well as flexibility and balance. Though the benefits of physical activity appear to be directly linked to the notion of training volume and intensity, further research is required in the elderly, in order to develop more precise recommendations, bearing in mind that the main aim is to foster long-term adherence to physical activity in this growing population.",
+      "target": "Copyright © 2012 Elsevier Ireland Ltd.",
+      "loss_target": 1.3645259141921997,
+      "loss_target_given_context": 1.4799224138259888,
+      "delta_loss": -0.11539649963378906,
+      "gain_ratio": -0.08456893228158578,
+      "score": 0.08456893228158578,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1195,
+      "boundary_end": 1523,
+      "context": "Exercise and longevity. Aging is a natural and complex physiological process influenced by many factors, some of which are modifiable. As the number of older individuals continues to increase, it is important to develop interventions that can be easily implemented and contribute to \"successful aging\". In addition to a healthy diet and psychosocial well-being, the benefits of regular exercise on mortality, and the prevention and control of chronic disease affecting both life expectancy and quality of life are well established. We summarize the benefits of regular exercise on longevity, present the current knowledge regarding potential mechanisms, and outline the main recommendations. Exercise can partially reverse the effects of the aging process on physiological functions and preserve functional reserve in the elderly. Numerous studies have shown that maintaining a minimum quantity and quality of exercise decreases the risk of death, prevents the development of certain cancers, lowers the risk of osteoporosis and increases longevity. Training programs should include exercises aimed at improving cardiorespiratory fitness and muscle function, as well as flexibility and balance.",
+      "target": "Though the benefits of physical activity appear to be directly linked to the notion of training volume and intensity, further research is required in the elderly, in order to develop more precise recommendations, bearing in mind that the main aim is to foster long-term adherence to physical activity in this growing population.",
+      "loss_target": 2.6126720905303955,
+      "loss_target_given_context": 2.3322978019714355,
+      "delta_loss": 0.28037428855895996,
+      "gain_ratio": 0.10731323290633135,
+      "score": -0.10731323290633135,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1524,
+      "target": "Copyright © 2012 Elsevier Ireland Ltd.",
+      "score": 0.08456893228158578,
+      "deleted_suffix": "Copyright © 2012 Elsevier Ireland Ltd. All rights reserved.",
+      "deleted_char_count": 59
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

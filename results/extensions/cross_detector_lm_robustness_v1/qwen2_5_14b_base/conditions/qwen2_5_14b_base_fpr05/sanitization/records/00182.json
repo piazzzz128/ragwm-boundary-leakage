@@ -1,0 +1,86 @@
+{
+  "internal_id": "MED-1234",
+  "source_doc_id": "MED-1234",
+  "title": "Cardiovascular benefits of dietary fiber.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cardiovascular benefits of dietary fiber.\nThe relationship between dietary fiber and risk of cardiovascular disease (CVD) has been extensively studied. There is considerable epidemiological evidence indicating an inverse association between dietary fiber intake and CVD risk. The association has been found to be stronger for cereal fiber than for fruit or vegetable fiber, and several studies have also found increased whole grain consumption to be associated with CVD risk reduction. In light of this evidence, recent US dietary guidelines have endorsed increased consumption of fiber rich whole grains. Regular consumption of dietary fiber, particularly fiber from cereal sources, may improve CVD health through multiple mechanisms including lipid reduction, body weight regulation, improved glucose metabolism, blood pressure control, and reduction of chronic inflammation. Future research should focus on various food sources of fiber, including different types of whole grains, legumes, fruits, vegetables, and nuts, as well as resistant starch in relation to CVD risk and weight control; explore the biological mechanisms underlying the cardioprotective effect of fiber-rich diets; and study different ethnic groups and populations with varying sources of dietary fiber. Dietary Factors serve as the metrics for the National Pilot Study.",
+  "sanitized_text": "Cardiovascular benefits of dietary fiber.\nThe relationship between dietary fiber and risk of cardiovascular disease (CVD) has been extensively studied. There is considerable epidemiological evidence indicating an inverse association between dietary fiber intake and CVD risk. The association has been found to be stronger for cereal fiber than for fruit or vegetable fiber, and several studies have also found increased whole grain consumption to be associated with CVD risk reduction. In light of this evidence, recent US dietary guidelines have endorsed increased consumption of fiber rich whole grains. Regular consumption of dietary fiber, particularly fiber from cereal sources, may improve CVD health through multiple mechanisms including lipid reduction, body weight regulation, improved glucose metabolism, blood pressure control, and reduction of chronic inflammation.",
+  "modified": true,
+  "original_char_count": 1344,
+  "sanitized_char_count": 877,
+  "deleted_char_count": 467,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1278,
+      "boundary_end": 1344,
+      "context": "and risk of cardiovascular disease (CVD) has been extensively studied. There is considerable epidemiological evidence indicating an inverse association between dietary fiber intake and CVD risk. The association has been found to be stronger for cereal fiber than for fruit or vegetable fiber, and several studies have also found increased whole grain consumption to be associated with CVD risk reduction. In light of this evidence, recent US dietary guidelines have endorsed increased consumption of fiber rich whole grains. Regular consumption of dietary fiber, particularly fiber from cereal sources, may improve CVD health through multiple mechanisms including lipid reduction, body weight regulation, improved glucose metabolism, blood pressure control, and reduction of chronic inflammation. Future research should focus on various food sources of fiber, including different types of whole grains, legumes, fruits, vegetables, and nuts, as well as resistant starch in relation to CVD risk and weight control; explore the biological mechanisms underlying the cardioprotective effect of fiber-rich diets; and study different ethnic groups and populations with varying sources of dietary fiber.",
+      "target": "Dietary Factors serve as the metrics for the National Pilot Study.",
+      "loss_target": 5.343209266662598,
+      "loss_target_given_context": 4.930050849914551,
+      "delta_loss": 0.4131584167480469,
+      "gain_ratio": 0.0773240193540292,
+      "score": -0.0773240193540292,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 878,
+      "boundary_end": 1277,
+      "context": "Cardiovascular benefits of dietary fiber. The relationship between dietary fiber and risk of cardiovascular disease (CVD) has been extensively studied. There is considerable epidemiological evidence indicating an inverse association between dietary fiber intake and CVD risk. The association has been found to be stronger for cereal fiber than for fruit or vegetable fiber, and several studies have also found increased whole grain consumption to be associated with CVD risk reduction. In light of this evidence, recent US dietary guidelines have endorsed increased consumption of fiber rich whole grains. Regular consumption of dietary fiber, particularly fiber from cereal sources, may improve CVD health through multiple mechanisms including lipid reduction, body weight regulation, improved glucose metabolism, blood pressure control, and reduction of chronic inflammation.",
+      "target": "Future research should focus on various food sources of fiber, including different types of whole grains, legumes, fruits, vegetables, and nuts, as well as resistant starch in relation to CVD risk and weight control; explore the biological mechanisms underlying the cardioprotective effect of fiber-rich diets; and study different ethnic groups and populations with varying sources of dietary fiber.",
+      "loss_target": 2.0526297092437744,
+      "loss_target_given_context": 1.7442409992218018,
+      "delta_loss": 0.30838871002197266,
+      "gain_ratio": 0.15024079045196545,
+      "score": -0.15024079045196545,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 606,
+      "boundary_end": 877,
+      "context": "Cardiovascular benefits of dietary fiber. The relationship between dietary fiber and risk of cardiovascular disease (CVD) has been extensively studied. There is considerable epidemiological evidence indicating an inverse association between dietary fiber intake and CVD risk. The association has been found to be stronger for cereal fiber than for fruit or vegetable fiber, and several studies have also found increased whole grain consumption to be associated with CVD risk reduction. In light of this evidence, recent US dietary guidelines have endorsed increased consumption of fiber rich whole grains.",
+      "target": "Regular consumption of dietary fiber, particularly fiber from cereal sources, may improve CVD health through multiple mechanisms including lipid reduction, body weight regulation, improved glucose metabolism, blood pressure control, and reduction of chronic inflammation.",
+      "loss_target": 2.1689279079437256,
+      "loss_target_given_context": 1.5309175252914429,
+      "delta_loss": 0.6380103826522827,
+      "gain_ratio": 0.2941593311218698,
+      "score": -0.2941593311218698,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1278,
+      "target": "Dietary Factors serve as the metrics for the National Pilot Study.",
+      "score": -0.0773240193540292,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Dietary Factors serve as the metrics for the National Pilot Study.",
+      "deleted_char_count": 66
+    },
+    {
+      "step": 2,
+      "boundary_start": 878,
+      "target": "Future research should focus on various food sources of fiber, including different types of whole grains, legumes, fruits, vegetables, and nuts, as well as resistant starch in relation to CVD risk and weight control; explore the biological mechanisms underlying the cardioprotective effect of fiber-rich diets; and study different ethnic groups and populations with varying sources of dietary fiber.",
+      "score": -0.15024079045196545,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Future research should focus on various food sources of fiber, including different types of whole grains, legumes, fruits, vegetables, and nuts, as well as resistant starch in relation to CVD risk and weight control; explore the biological mechanisms underlying the cardioprotective effect of fiber-rich diets; and study different ethnic groups and populations with varying sources of dietary fiber.",
+      "deleted_char_count": 399
+    }
+  ],
+  "deletion_step_count": 2,
+  "stop_reason": "score_below_threshold"
+}

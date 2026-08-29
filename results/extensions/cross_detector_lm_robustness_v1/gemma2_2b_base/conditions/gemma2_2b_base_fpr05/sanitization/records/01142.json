@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2385",
+  "source_doc_id": "MED-2385",
+  "title": "Concentration of mercury in hair of diseased people in Japan.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Concentration of mercury in hair of diseased people in Japan.\nThe purpose of this investigation was to estimate the total hair mercury of diseased people (not including patients of mercury poisoning such as Minamata disease). Hair samples were collected from 133 diseased volunteers in Tokyo and the surrounding areas from Oct. 1992 to June 1993. The total mercury concentrations in the hair of ordinary diseased people (atopic dermatitis, asthma, dementia, cerebral infarct, osteoporosis, hypertension and diabetes) were from 2.08 ppm to 36.5 ppm. Those values were considerably higher than that of healthy people of the same age groups. However, the uptake routes and the metabolic mechanism of high hair mercury concentrations in diseased people are not clear.",
+  "sanitized_text": "Concentration of mercury in hair of diseased people in Japan.\nThe purpose of this investigation was to estimate the total hair mercury of diseased people (not including patients of mercury poisoning such as Minamata disease). Hair samples were collected from 133 diseased volunteers in Tokyo and the surrounding areas from Oct. 1992 to June 1993. The total mercury concentrations in the hair of ordinary diseased people (atopic dermatitis, asthma, dementia, cerebral infarct, osteoporosis, hypertension and diabetes) were from 2.08 ppm to 36.5 ppm. Those values were considerably higher than that of healthy people of the same age groups. However, the uptake routes and the metabolic mechanism of high hair mercury concentrations in diseased people are not clear.",
+  "modified": false,
+  "original_char_count": 763,
+  "sanitized_char_count": 763,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 639,
+      "boundary_end": 763,
+      "context": "Concentration of mercury in hair of diseased people in Japan. The purpose of this investigation was to estimate the total hair mercury of diseased people (not including patients of mercury poisoning such as Minamata disease). Hair samples were collected from 133 diseased volunteers in Tokyo and the surrounding areas from Oct. 1992 to June 1993. The total mercury concentrations in the hair of ordinary diseased people (atopic dermatitis, asthma, dementia, cerebral infarct, osteoporosis, hypertension and diabetes) were from 2.08 ppm to 36.5 ppm. Those values were considerably higher than that of healthy people of the same age groups.",
+      "target": "However, the uptake routes and the metabolic mechanism of high hair mercury concentrations in diseased people are not clear.",
+      "loss_target": 10.216658592224121,
+      "loss_target_given_context": 4.6078972816467285,
+      "delta_loss": 5.608761310577393,
+      "gain_ratio": 0.5489819650865313,
+      "score": -0.5489819650865313,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

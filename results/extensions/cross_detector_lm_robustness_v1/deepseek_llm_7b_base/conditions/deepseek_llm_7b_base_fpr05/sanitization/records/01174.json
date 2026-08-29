@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2428",
+  "source_doc_id": "MED-2428",
+  "title": "Women and statin use: a women's health advocacy perspective.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Women and statin use: a women's health advocacy perspective.\nThis paper is based on a longer report on the benefits, safety and modalities of information representation with regard to women and statin use, situated within the historical context of Women's Health Movement which has advocated for unbiased, appropriate medical research and prescribing for women based on the goals of full-disclosure, informed consent, evidence-based medicine and gender-based analysis. The evidence base for prescribing statins for women, especially for primary prevention is weak, yet Canadian data suggest that half of all prescriptions are for women. Safety meta-analyses do not disaggregate for women; do not consider female vulnerability to statin induced muscle problems, and women-centred concerns such as breast-cancer, miscarriage or birth defects are under-researched. Many trials have not published their non-cardiac serious adverse event data. These factors suggest that the standards of full-disclosure, informed consent, evidence-based prescribing and gender-based analysis are not being met and women should proceed with caution.",
+  "sanitized_text": "Women and statin use: a women's health advocacy perspective.\nThis paper is based on a longer report on the benefits, safety and modalities of information representation with regard to women and statin use, situated within the historical context of Women's Health Movement which has advocated for unbiased, appropriate medical research and prescribing for women based on the goals of full-disclosure, informed consent, evidence-based medicine and gender-based analysis. The evidence base for prescribing statins for women, especially for primary prevention is weak, yet Canadian data suggest that half of all prescriptions are for women. Safety meta-analyses do not disaggregate for women; do not consider female vulnerability to statin induced muscle problems, and women-centred concerns such as breast-cancer, miscarriage or birth defects are under-researched. Many trials have not published their non-cardiac serious adverse event data. These factors suggest that the standards of full-disclosure, informed consent, evidence-based prescribing and gender-based analysis are not being met and women should proceed with caution.",
+  "modified": false,
+  "original_char_count": 1127,
+  "sanitized_char_count": 1127,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 939,
+      "boundary_end": 1127,
+      "context": "Women and statin use: a women's health advocacy perspective. This paper is based on a longer report on the benefits, safety and modalities of information representation with regard to women and statin use, situated within the historical context of Women's Health Movement which has advocated for unbiased, appropriate medical research and prescribing for women based on the goals of full-disclosure, informed consent, evidence-based medicine and gender-based analysis. The evidence base for prescribing statins for women, especially for primary prevention is weak, yet Canadian data suggest that half of all prescriptions are for women. Safety meta-analyses do not disaggregate for women; do not consider female vulnerability to statin induced muscle problems, and women-centred concerns such as breast-cancer, miscarriage or birth defects are under-researched. Many trials have not published their non-cardiac serious adverse event data.",
+      "target": "These factors suggest that the standards of full-disclosure, informed consent, evidence-based prescribing and gender-based analysis are not being met and women should proceed with caution.",
+      "loss_target": 2.959355354309082,
+      "loss_target_given_context": 1.410028100013733,
+      "delta_loss": 1.5493272542953491,
+      "gain_ratio": 0.5235353882187187,
+      "score": -0.5235353882187187,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4831",
+  "source_doc_id": "MED-4831",
+  "title": "Effects of plant-based diets on plasma lipids.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of plant-based diets on plasma lipids.\nDyslipidemia is a primary risk factor for cardiovascular disease, peripheral vascular disease, and stroke. Current guidelines recommend diet as first-line therapy for patients with elevated plasma cholesterol concentrations. However, what constitutes an optimal dietary regimen remains a matter of controversy. Large prospective trials have demonstrated that populations following plant-based diets, particularly vegetarian and vegan diets, are at lower risk for ischemic heart disease mortality. The investigators therefore reviewed the published scientific research to determine the effectiveness of plant-based diets in modifying plasma lipid concentrations. Twenty-seven randomized controlled and observational trials were included. Of the 4 types of plant-based diets considered, interventions testing a combination diet (a vegetarian or vegan diet combined with nuts, soy, and/or fiber) demonstrated the greatest effects (up to 35% plasma low-density lipoprotein cholesterol reduction), followed by vegan and ovolactovegetarian diets. Interventions allowing small amounts of lean meat demonstrated less dramatic reductions in total cholesterol and low-density lipoprotein levels. In conclusion, plant-based dietary interventions are effective in lowering plasma cholesterol concentrations.",
+  "sanitized_text": "Effects of plant-based diets on plasma lipids.\nDyslipidemia is a primary risk factor for cardiovascular disease, peripheral vascular disease, and stroke. Current guidelines recommend diet as first-line therapy for patients with elevated plasma cholesterol concentrations. However, what constitutes an optimal dietary regimen remains a matter of controversy. Large prospective trials have demonstrated that populations following plant-based diets, particularly vegetarian and vegan diets, are at lower risk for ischemic heart disease mortality. The investigators therefore reviewed the published scientific research to determine the effectiveness of plant-based diets in modifying plasma lipid concentrations. Twenty-seven randomized controlled and observational trials were included. Of the 4 types of plant-based diets considered, interventions testing a combination diet (a vegetarian or vegan diet combined with nuts, soy, and/or fiber) demonstrated the greatest effects (up to 35% plasma low-density lipoprotein cholesterol reduction), followed by vegan and ovolactovegetarian diets. Interventions allowing small amounts of lean meat demonstrated less dramatic reductions in total cholesterol and low-density lipoprotein levels. In conclusion, plant-based dietary interventions are effective in lowering plasma cholesterol concentrations.",
+  "modified": false,
+  "original_char_count": 1342,
+  "sanitized_char_count": 1342,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1233,
+      "boundary_end": 1342,
+      "context": "lipids. Dyslipidemia is a primary risk factor for cardiovascular disease, peripheral vascular disease, and stroke. Current guidelines recommend diet as first-line therapy for patients with elevated plasma cholesterol concentrations. However, what constitutes an optimal dietary regimen remains a matter of controversy. Large prospective trials have demonstrated that populations following plant-based diets, particularly vegetarian and vegan diets, are at lower risk for ischemic heart disease mortality. The investigators therefore reviewed the published scientific research to determine the effectiveness of plant-based diets in modifying plasma lipid concentrations. Twenty-seven randomized controlled and observational trials were included. Of the 4 types of plant-based diets considered, interventions testing a combination diet (a vegetarian or vegan diet combined with nuts, soy, and/or fiber) demonstrated the greatest effects (up to 35% plasma low-density lipoprotein cholesterol reduction), followed by vegan and ovolactovegetarian diets. Interventions allowing small amounts of lean meat demonstrated less dramatic reductions in total cholesterol and low-density lipoprotein levels.",
+      "target": "In conclusion, plant-based dietary interventions are effective in lowering plasma cholesterol concentrations.",
+      "loss_target": 2.975196599960327,
+      "loss_target_given_context": 0.8345131278038025,
+      "delta_loss": 2.1406834721565247,
+      "gain_ratio": 0.719509921524201,
+      "score": -0.719509921524201,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

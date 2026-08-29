@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5061",
+  "source_doc_id": "MED-5061",
+  "title": "Humans have antibodies reactive with Bovine leukemia virus.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Humans have antibodies reactive with Bovine leukemia virus.\nBovine leukemia virus (BLV) is an oncogenic retrovirus that commonly infects cattle and causes B cell leukosis in 1-5% of infected cattle. BLV-infected cells are present in marketed beef and dairy products. In the decade after the discovery of BLV in 1969, studies using agar gel immunodiffusion and complement fixation assays failed to find antibodies to BLV in human sera. This led to the prevailing opinion that exposure of humans to BLV and/or the potential for infection are not significant and therefore the virus is not a public health hazard. We reexamined this issue using more sensitive immunological techniques available today. Using immunoblotting to test the sera of 257 humans for antibodies of four isotypes (IgG1, IgM, IgA, and IgG4) to the BLV capsid antigen (p24), we detected at least one antibody isotype reactive with BLV in 74% of the human sera tested. The specificity of the reactivity was strongly suggested by competition studies and by ruling out cross-reacting antibodies to other chronic human viruses. Our results suggest that antibodies reactive with the BLV capsid antigen may serve as a biomarker for exposure to BLV and this exposure may be widespread. The results do not necessarily mean that humans are actually infected with BLV; the antibodies could be a response to heat-denatured BLV antigens consumed in food. They do, however, suggest that further studies in this area could be important.",
+  "sanitized_text": "Humans have antibodies reactive with Bovine leukemia virus.\nBovine leukemia virus (BLV) is an oncogenic retrovirus that commonly infects cattle and causes B cell leukosis in 1-5% of infected cattle. BLV-infected cells are present in marketed beef and dairy products. In the decade after the discovery of BLV in 1969, studies using agar gel immunodiffusion and complement fixation assays failed to find antibodies to BLV in human sera. This led to the prevailing opinion that exposure of humans to BLV and/or the potential for infection are not significant and therefore the virus is not a public health hazard. We reexamined this issue using more sensitive immunological techniques available today. Using immunoblotting to test the sera of 257 humans for antibodies of four isotypes (IgG1, IgM, IgA, and IgG4) to the BLV capsid antigen (p24), we detected at least one antibody isotype reactive with BLV in 74% of the human sera tested. The specificity of the reactivity was strongly suggested by competition studies and by ruling out cross-reacting antibodies to other chronic human viruses. Our results suggest that antibodies reactive with the BLV capsid antigen may serve as a biomarker for exposure to BLV and this exposure may be widespread. The results do not necessarily mean that humans are actually infected with BLV; the antibodies could be a response to heat-denatured BLV antigens consumed in food. They do, however, suggest that further studies in this area could be important.",
+  "modified": false,
+  "original_char_count": 1490,
+  "sanitized_char_count": 1490,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1411,
+      "boundary_end": 1490,
+      "context": "cells are present in marketed beef and dairy products. In the decade after the discovery of BLV in 1969, studies using agar gel immunodiffusion and complement fixation assays failed to find antibodies to BLV in human sera. This led to the prevailing opinion that exposure of humans to BLV and/or the potential for infection are not significant and therefore the virus is not a public health hazard. We reexamined this issue using more sensitive immunological techniques available today. Using immunoblotting to test the sera of 257 humans for antibodies of four isotypes (IgG1, IgM, IgA, and IgG4) to the BLV capsid antigen (p24), we detected at least one antibody isotype reactive with BLV in 74% of the human sera tested. The specificity of the reactivity was strongly suggested by competition studies and by ruling out cross-reacting antibodies to other chronic human viruses. Our results suggest that antibodies reactive with the BLV capsid antigen may serve as a biomarker for exposure to BLV and this exposure may be widespread. The results do not necessarily mean that humans are actually infected with BLV; the antibodies could be a response to heat-denatured BLV antigens consumed in food.",
+      "target": "They do, however, suggest that further studies in this area could be important.",
+      "loss_target": 2.787027597427368,
+      "loss_target_given_context": 1.717454433441162,
+      "delta_loss": 1.069573163986206,
+      "gain_ratio": 0.38376841512925847,
+      "score": -0.38376841512925847,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

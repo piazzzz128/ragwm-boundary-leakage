@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4872",
+  "source_doc_id": "MED-4872",
+  "title": "Safety considerations and potential interactions of vitamins: should vitamins be considered drugs?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Safety considerations and potential interactions of vitamins: should vitamins be considered drugs?\nOBJECTIVE: To examine adverse effects, adverse events, and potential interactions of vitamins in light of their current prevalence of use, and to discuss whether vitamins should be considered over-the-counter drugs or natural health products/dietary supplements. DATA SOURCES: We performed a MEDLINE/PubMed search, explored 4 online databases (Medline Plus, Drug Digest, Natural Medicine Comprehensive Database, and the database of the University of Maryland), and examined reference lists of included studies published from 1966 through October 2009. STUDY SELECTION AND DATA EXTRACTION: The studies were reviewed, with an emphasis on randomized controlled clinical trials. We included articles with the most clinically important information with regard to adverse events and interactions. DATA SYNTHESIS: Vitamins are used by over one third of the North American population. Vitamins have documented adverse effects and toxicities, and most have documented interactions with drugs. While some vitamins (biotin, pantothenic acid, riboflavin, thiamine, vitamin B(12), vitamin K) have minor and reversible adverse effects, others, such as fat-soluble vitamins (A, E, D), can cause serious adverse events. Two water-soluble vitamins, folic acid and niacin, can also have significant toxicities and adverse events. CONCLUSIONS: Our recommendation is that vitamins A, E, D, folic acid, and niacin should be categorized as over-the-counter medications. Labeling of vitamins, especially those intended for children and other vulnerable groups, should include information on possible toxicities, dosing, recommended upper intake limits, and concurrent use with other products. Vitamin A should be excluded from multivitamin supplements and food fortificants.",
+  "sanitized_text": "Safety considerations and potential interactions of vitamins: should vitamins be considered drugs?\nOBJECTIVE: To examine adverse effects, adverse events, and potential interactions of vitamins in light of their current prevalence of use, and to discuss whether vitamins should be considered over-the-counter drugs or natural health products/dietary supplements. DATA SOURCES: We performed a MEDLINE/PubMed search, explored 4 online databases (Medline Plus, Drug Digest, Natural Medicine Comprehensive Database, and the database of the University of Maryland), and examined reference lists of included studies published from 1966 through October 2009. STUDY SELECTION AND DATA EXTRACTION: The studies were reviewed, with an emphasis on randomized controlled clinical trials. We included articles with the most clinically important information with regard to adverse events and interactions. DATA SYNTHESIS: Vitamins are used by over one third of the North American population. Vitamins have documented adverse effects and toxicities, and most have documented interactions with drugs. While some vitamins (biotin, pantothenic acid, riboflavin, thiamine, vitamin B(12), vitamin K) have minor and reversible adverse effects, others, such as fat-soluble vitamins (A, E, D), can cause serious adverse events. Two water-soluble vitamins, folic acid and niacin, can also have significant toxicities and adverse events. CONCLUSIONS: Our recommendation is that vitamins A, E, D, folic acid, and niacin should be categorized as over-the-counter medications. Labeling of vitamins, especially those intended for children and other vulnerable groups, should include information on possible toxicities, dosing, recommended upper intake limits, and concurrent use with other products. Vitamin A should be excluded from multivitamin supplements and food fortificants.",
+  "modified": false,
+  "original_char_count": 1850,
+  "sanitized_char_count": 1850,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1769,
+      "boundary_end": 1850,
+      "context": "reference lists of included studies published from 1966 through October 2009. STUDY SELECTION AND DATA EXTRACTION: The studies were reviewed, with an emphasis on randomized controlled clinical trials. We included articles with the most clinically important information with regard to adverse events and interactions. DATA SYNTHESIS: Vitamins are used by over one third of the North American population. Vitamins have documented adverse effects and toxicities, and most have documented interactions with drugs. While some vitamins (biotin, pantothenic acid, riboflavin, thiamine, vitamin B(12), vitamin K) have minor and reversible adverse effects, others, such as fat-soluble vitamins (A, E, D), can cause serious adverse events. Two water-soluble vitamins, folic acid and niacin, can also have significant toxicities and adverse events. CONCLUSIONS: Our recommendation is that vitamins A, E, D, folic acid, and niacin should be categorized as over-the-counter medications. Labeling of vitamins, especially those intended for children and other vulnerable groups, should include information on possible toxicities, dosing, recommended upper intake limits, and concurrent use with other products.",
+      "target": "Vitamin A should be excluded from multivitamin supplements and food fortificants.",
+      "loss_target": 2.7522661685943604,
+      "loss_target_given_context": 2.1061320304870605,
+      "delta_loss": 0.6461341381072998,
+      "gain_ratio": 0.23476440813763808,
+      "score": -0.23476440813763808,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

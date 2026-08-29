@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3022",
+  "source_doc_id": "MED-3022",
+  "title": "The many faces of methylmercury poisoning.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The many faces of methylmercury poisoning.\nMethylmercury (MM) is a very potent neurotoxic agent. Its role in polluting the environment is well documented. A vast amount of study over the past several decades has finally provided insight into many aspects of its effect. Exposure to MM may be through ingestion of poisoned fish or inadvertent misuse of grain treated with the poison as a fungicide. Major epidemics have occurred in Japan (Fetal Minamata disease), Iraq, Pakistan, Guatemala, and Ghana. Sporadic incidences have occurred in the United States and Canada. There is no effective antidote to counteract the effect of MM on the central nervous system, although the information documented should provide hope for more effective therapy in acute cases.",
+  "sanitized_text": "The many faces of methylmercury poisoning.\nMethylmercury (MM) is a very potent neurotoxic agent. Its role in polluting the environment is well documented. A vast amount of study over the past several decades has finally provided insight into many aspects of its effect. Exposure to MM may be through ingestion of poisoned fish or inadvertent misuse of grain treated with the poison as a fungicide. Major epidemics have occurred in Japan (Fetal Minamata disease), Iraq, Pakistan, Guatemala, and Ghana. Sporadic incidences have occurred in the United States and Canada. There is no effective antidote to counteract the effect of MM on the central nervous system, although the information documented should provide hope for more effective therapy in acute cases.",
+  "modified": false,
+  "original_char_count": 759,
+  "sanitized_char_count": 759,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 568,
+      "boundary_end": 759,
+      "context": "The many faces of methylmercury poisoning. Methylmercury (MM) is a very potent neurotoxic agent. Its role in polluting the environment is well documented. A vast amount of study over the past several decades has finally provided insight into many aspects of its effect. Exposure to MM may be through ingestion of poisoned fish or inadvertent misuse of grain treated with the poison as a fungicide. Major epidemics have occurred in Japan (Fetal Minamata disease), Iraq, Pakistan, Guatemala, and Ghana. Sporadic incidences have occurred in the United States and Canada.",
+      "target": "There is no effective antidote to counteract the effect of MM on the central nervous system, although the information documented should provide hope for more effective therapy in acute cases.",
+      "loss_target": 3.4820287227630615,
+      "loss_target_given_context": 2.5134382247924805,
+      "delta_loss": 0.968590497970581,
+      "gain_ratio": 0.2781684400357228,
+      "score": -0.2781684400357228,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

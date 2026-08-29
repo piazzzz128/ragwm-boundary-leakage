@@ -1,0 +1,75 @@
+{
+  "internal_id": "MED-1803",
+  "source_doc_id": "MED-1803",
+  "title": "A framework for identification of infections that contribute to human obesity.",
+  "original_text": "A framework for identification of infections that contribute to human obesity.\nWHO has declared obesity to be a global epidemic. Obesity management strategies mainly target behavioural components of the disorder, but are only marginally effective. A comprehensive understanding of the causative factors of obesity might provide more effective management approaches. Several microbes are causatively and correlatively linked with obesity in animals and human beings. If infections contribute to human obesity, then entirely different prevention and treatment strategies and public health policies could be needed to address this subtype of the disorder. Ethical reasons preclude experimental infection of human beings with candidate microbes to unequivocally determine their contribution to obesity. As an alternative, the available information about the adipogenic human adenovirus Ad36 has been used to create a template that can be used to examine comprehensively the contributions of specific candidate microbes to human obesity. Clinicians should be aware of infectobesity (obesity of infectious origin), and its potential importance in effective obesity management. Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "A framework for identification of infections that contribute to human obesity.\nWHO has declared obesity to be a global epidemic. Obesity management strategies mainly target behavioural components of the disorder, but are only marginally effective. A comprehensive understanding of the causative factors of obesity might provide more effective management approaches. Several microbes are causatively and correlatively linked with obesity in animals and human beings. If infections contribute to human obesity, then entirely different prevention and treatment strategies and public health policies could be needed to address this subtype of the disorder. Ethical reasons preclude experimental infection of human beings with candidate microbes to unequivocally determine their contribution to obesity. As an alternative, the available information about the adipogenic human adenovirus Ad36 has been used to create a template that can be used to examine comprehensively the contributions of specific candidate microbes to human obesity.",
+  "modified": true,
+  "original_char_count": 1222,
+  "sanitized_char_count": 1032,
+  "deleted_char_count": 190,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1171,
+      "boundary_end": 1201,
+      "context": "A framework for identification of infections that contribute to human obesity. WHO has declared obesity to be a global epidemic. Obesity management strategies mainly target behavioural components of the disorder, but are only marginally effective. A comprehensive understanding of the causative factors of obesity might provide more effective management approaches. Several microbes are causatively and correlatively linked with obesity in animals and human beings. If infections contribute to human obesity, then entirely different prevention and treatment strategies and public health policies could be needed to address this subtype of the disorder. Ethical reasons preclude experimental infection of human beings with candidate microbes to unequivocally determine their contribution to obesity. As an alternative, the available information about the adipogenic human adenovirus Ad36 has been used to create a template that can be used to examine comprehensively the contributions of specific candidate microbes to human obesity. Clinicians should be aware of infectobesity (obesity of infectious origin), and its potential importance in effective obesity management.",
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "loss_target": 1.2711169719696045,
+      "loss_target_given_context": 1.4652212858200073,
+      "delta_loss": -0.19410431385040283,
+      "gain_ratio": -0.15270373862575123,
+      "score": 0.15270373862575123,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1033,
+      "boundary_end": 1170,
+      "context": "A framework for identification of infections that contribute to human obesity. WHO has declared obesity to be a global epidemic. Obesity management strategies mainly target behavioural components of the disorder, but are only marginally effective. A comprehensive understanding of the causative factors of obesity might provide more effective management approaches. Several microbes are causatively and correlatively linked with obesity in animals and human beings. If infections contribute to human obesity, then entirely different prevention and treatment strategies and public health policies could be needed to address this subtype of the disorder. Ethical reasons preclude experimental infection of human beings with candidate microbes to unequivocally determine their contribution to obesity. As an alternative, the available information about the adipogenic human adenovirus Ad36 has been used to create a template that can be used to examine comprehensively the contributions of specific candidate microbes to human obesity.",
+      "target": "Clinicians should be aware of infectobesity (obesity of infectious origin), and its potential importance in effective obesity management.",
+      "loss_target": 3.1231510639190674,
+      "loss_target_given_context": 3.168433904647827,
+      "delta_loss": -0.045282840728759766,
+      "gain_ratio": -0.0144990875567629,
+      "score": 0.0144990875567629,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 799,
+      "boundary_end": 1032,
+      "context": "A framework for identification of infections that contribute to human obesity. WHO has declared obesity to be a global epidemic. Obesity management strategies mainly target behavioural components of the disorder, but are only marginally effective. A comprehensive understanding of the causative factors of obesity might provide more effective management approaches. Several microbes are causatively and correlatively linked with obesity in animals and human beings. If infections contribute to human obesity, then entirely different prevention and treatment strategies and public health policies could be needed to address this subtype of the disorder. Ethical reasons preclude experimental infection of human beings with candidate microbes to unequivocally determine their contribution to obesity.",
+      "target": "As an alternative, the available information about the adipogenic human adenovirus Ad36 has been used to create a template that can be used to examine comprehensively the contributions of specific candidate microbes to human obesity.",
+      "loss_target": 3.2112913131713867,
+      "loss_target_given_context": 2.4921162128448486,
+      "delta_loss": 0.7191751003265381,
+      "gain_ratio": 0.22395199631275423,
+      "score": -0.22395199631275423,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1171,
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "score": 0.15270373862575123,
+      "deleted_suffix": "Copyright © 2011 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    },
+    {
+      "step": 2,
+      "boundary_start": 1033,
+      "target": "Clinicians should be aware of infectobesity (obesity of infectious origin), and its potential importance in effective obesity management.",
+      "score": 0.0144990875567629,
+      "deleted_suffix": "Clinicians should be aware of infectobesity (obesity of infectious origin), and its potential importance in effective obesity management.",
+      "deleted_char_count": 137
+    }
+  ],
+  "deletion_step_count": 2,
+  "stop_reason": "score_below_threshold"
+}

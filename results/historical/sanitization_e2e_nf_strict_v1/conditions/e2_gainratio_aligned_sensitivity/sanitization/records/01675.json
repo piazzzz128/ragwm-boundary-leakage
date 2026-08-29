@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3248",
+  "source_doc_id": "MED-3248",
+  "title": "Retinal arterial changes correlate with cerebral small-vessel disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Retinal arterial changes correlate with cerebral small-vessel disease.\nOBJECTIVE: To examine the relation between retinal artery disease and cerebral small-vessel disease (SVD). METHODS: In a prospective cohort of patients with symptomatic atherosclerotic disease, the authors performed retinal photographs and brain MRI. Two ophthalmologists, not aware of the MR results, independently assessed retinal arterial narrowing, crossings, sclerosis, and tortuosity according to standard scoring lists. Two observers independently assessed white matter lesions (WML) and lacunar infarcts on the MR images. Lesions were considered abnormal only when both ophthalmologists or MR raters agreed. Cerebral SVD was defined as the presence of WML or lacunar infarcts. RESULTS: In 179 patients, retinal photographs and brain MRI were performed. Of the 108 patients with MR signs of SVD, 92% had at least one retinal vascular abnormality; of the 71 patients without SVD, 77% had retinal pathology (p < 0.01). All types of retinal vascular pathology occurred more frequently in patients with SVD, but only retinal arterial narrowing and sclerosis differed significantly. In the 109 normotensive patients, the presence of any retinal vascular change correlated with signs of SVD (p = 0.01). CONCLUSION: Pathologic changes in the retinal arteries parallel changes in the small cerebral arteries that cause WML and lacunes, both in hypertensive and in normotensive patients.",
+  "sanitized_text": "Retinal arterial changes correlate with cerebral small-vessel disease.\nOBJECTIVE: To examine the relation between retinal artery disease and cerebral small-vessel disease (SVD). METHODS: In a prospective cohort of patients with symptomatic atherosclerotic disease, the authors performed retinal photographs and brain MRI. Two ophthalmologists, not aware of the MR results, independently assessed retinal arterial narrowing, crossings, sclerosis, and tortuosity according to standard scoring lists. Two observers independently assessed white matter lesions (WML) and lacunar infarcts on the MR images. Lesions were considered abnormal only when both ophthalmologists or MR raters agreed. Cerebral SVD was defined as the presence of WML or lacunar infarcts. RESULTS: In 179 patients, retinal photographs and brain MRI were performed. Of the 108 patients with MR signs of SVD, 92% had at least one retinal vascular abnormality; of the 71 patients without SVD, 77% had retinal pathology (p < 0.01). All types of retinal vascular pathology occurred more frequently in patients with SVD, but only retinal arterial narrowing and sclerosis differed significantly. In the 109 normotensive patients, the presence of any retinal vascular change correlated with signs of SVD (p = 0.01). CONCLUSION: Pathologic changes in the retinal arteries parallel changes in the small cerebral arteries that cause WML and lacunes, both in hypertensive and in normotensive patients.",
+  "modified": false,
+  "original_char_count": 1456,
+  "sanitized_char_count": 1456,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1275,
+      "boundary_end": 1456,
+      "context": "To examine the relation between retinal artery disease and cerebral small-vessel disease (SVD). METHODS: In a prospective cohort of patients with symptomatic atherosclerotic disease, the authors performed retinal photographs and brain MRI. Two ophthalmologists, not aware of the MR results, independently assessed retinal arterial narrowing, crossings, sclerosis, and tortuosity according to standard scoring lists. Two observers independently assessed white matter lesions (WML) and lacunar infarcts on the MR images. Lesions were considered abnormal only when both ophthalmologists or MR raters agreed. Cerebral SVD was defined as the presence of WML or lacunar infarcts. RESULTS: In 179 patients, retinal photographs and brain MRI were performed. Of the 108 patients with MR signs of SVD, 92% had at least one retinal vascular abnormality; of the 71 patients without SVD, 77% had retinal pathology (p < 0.01). All types of retinal vascular pathology occurred more frequently in patients with SVD, but only retinal arterial narrowing and sclerosis differed significantly. In the 109 normotensive patients, the presence of any retinal vascular change correlated with signs of SVD (p = 0.01).",
+      "target": "CONCLUSION: Pathologic changes in the retinal arteries parallel changes in the small cerebral arteries that cause WML and lacunes, both in hypertensive and in normotensive patients.",
+      "loss_target": 2.73600697517395,
+      "loss_target_given_context": 1.5495340824127197,
+      "delta_loss": 1.1864728927612305,
+      "gain_ratio": 0.4336512675322389,
+      "score": -0.4336512675322389,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

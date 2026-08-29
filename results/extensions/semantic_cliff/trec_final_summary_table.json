@@ -1,0 +1,58 @@
+[
+  {
+    "dataset": "TREC-COVID",
+    "method": "Contriever + Cosine",
+    "model": "Contriever",
+    "roc_auc": 0.6890600865734825,
+    "pr_auc": 0.6640681192289757,
+    "n": 458
+  },
+  {
+    "dataset": "TREC-COVID",
+    "method": "DeltaLoss",
+    "model": "distilgpt2",
+    "roc_auc": 0.7797143456455826,
+    "pr_auc": 0.8094132369286255,
+    "n": 458
+  },
+  {
+    "dataset": "TREC-COVID",
+    "method": "GainRatio",
+    "model": "distilgpt2",
+    "roc_auc": 0.8018725806144048,
+    "pr_auc": 0.8234481980955601,
+    "n": 458
+  },
+  {
+    "dataset": "TREC-COVID",
+    "method": "DeltaLoss",
+    "model": "gpt2-medium",
+    "roc_auc": 0.8442916801739098,
+    "pr_auc": 0.8770118521548758,
+    "n": 458
+  },
+  {
+    "dataset": "TREC-COVID",
+    "method": "GainRatio",
+    "model": "gpt2-medium",
+    "roc_auc": 0.8771953242691788,
+    "pr_auc": 0.8994825440490688,
+    "n": 458
+  },
+  {
+    "dataset": "TREC-COVID",
+    "method": "DeltaLoss",
+    "model": "Qwen2.5-7B",
+    "roc_auc": 0.9588489922007589,
+    "pr_auc": 0.9662752462404227,
+    "n": 458
+  },
+  {
+    "dataset": "TREC-COVID",
+    "method": "GainRatio",
+    "model": "Qwen2.5-7B",
+    "roc_auc": 0.9778989721782575,
+    "pr_auc": 0.9779521269725521,
+    "n": 458
+  }
+]

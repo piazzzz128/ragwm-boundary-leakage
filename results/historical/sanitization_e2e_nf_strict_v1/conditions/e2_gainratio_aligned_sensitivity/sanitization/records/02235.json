@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3974",
+  "source_doc_id": "MED-3974",
+  "title": "The economic burden of non-influenza-related viral respiratory tract infection in the United States.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The economic burden of non-influenza-related viral respiratory tract infection in the United States.\nBACKGROUND: Viral respiratory tract infection (VRTI) is the most common illness in humans. Despite the high incidence, the economic impact of non-influenza-related VRTI has not been rigorously explored. Our objectives were to obtain an updated incidence of non-influenza-related VRTI in the United States and to quantify the health care resource use (direct costs) and productivity losses (indirect costs) associated with these infections. METHODS: A nationwide telephone survey of US households (N = 4051) was conducted between November 3, 2000, and February 12, 2001 to obtain a representative estimate of the self-reported incidence of non-influenza-related VRTI and related treatment patterns. Direct treatment costs measured included outpatient clinician encounters, use of over-the-counter and prescription drugs, and associated infectious complications of non-influenza-related VRTI. Absenteeism estimates for infected individuals and parents of infected children were extrapolated from National Health Interview Survey data. RESULTS: Of survey respondents, 72% reported a non-influenza-related VRTI within the past year. Respondents who experienced a self-reported non-influenza-related VRTI averaged 2.5 episodes annually. When these rates are extrapolated to the entire US population, approximately 500 million non-influenza-related VRTI episodes occur per year. Similarly, if the treatment patterns reported by the respondents are extended to the population, the total economic impact of non-influenza-related VRTI approaches $40 billion annually (direct costs, $17 billion per year; and indirect costs, $22.5 billion per year). CONCLUSIONS: Largely because of the high attack rate, non-influenza-related VRTI imposes a greater economic burden than many other clinical conditions. The pending availability of effective antiviral therapies warrants increased attention be paid to this common and expensive illness.",
+  "sanitized_text": "The economic burden of non-influenza-related viral respiratory tract infection in the United States.\nBACKGROUND: Viral respiratory tract infection (VRTI) is the most common illness in humans. Despite the high incidence, the economic impact of non-influenza-related VRTI has not been rigorously explored. Our objectives were to obtain an updated incidence of non-influenza-related VRTI in the United States and to quantify the health care resource use (direct costs) and productivity losses (indirect costs) associated with these infections. METHODS: A nationwide telephone survey of US households (N = 4051) was conducted between November 3, 2000, and February 12, 2001 to obtain a representative estimate of the self-reported incidence of non-influenza-related VRTI and related treatment patterns. Direct treatment costs measured included outpatient clinician encounters, use of over-the-counter and prescription drugs, and associated infectious complications of non-influenza-related VRTI. Absenteeism estimates for infected individuals and parents of infected children were extrapolated from National Health Interview Survey data. RESULTS: Of survey respondents, 72% reported a non-influenza-related VRTI within the past year. Respondents who experienced a self-reported non-influenza-related VRTI averaged 2.5 episodes annually. When these rates are extrapolated to the entire US population, approximately 500 million non-influenza-related VRTI episodes occur per year. Similarly, if the treatment patterns reported by the respondents are extended to the population, the total economic impact of non-influenza-related VRTI approaches $40 billion annually (direct costs, $17 billion per year; and indirect costs, $22.5 billion per year). CONCLUSIONS: Largely because of the high attack rate, non-influenza-related VRTI imposes a greater economic burden than many other clinical conditions. The pending availability of effective antiviral therapies warrants increased attention be paid to this common and expensive illness.",
+  "modified": false,
+  "original_char_count": 2025,
+  "sanitized_char_count": 2025,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1893,
+      "boundary_end": 2025,
+      "context": "estimate of the self-reported incidence of non-influenza-related VRTI and related treatment patterns. Direct treatment costs measured included outpatient clinician encounters, use of over-the-counter and prescription drugs, and associated infectious complications of non-influenza-related VRTI. Absenteeism estimates for infected individuals and parents of infected children were extrapolated from National Health Interview Survey data. RESULTS: Of survey respondents, 72% reported a non-influenza-related VRTI within the past year. Respondents who experienced a self-reported non-influenza-related VRTI averaged 2.5 episodes annually. When these rates are extrapolated to the entire US population, approximately 500 million non-influenza-related VRTI episodes occur per year. Similarly, if the treatment patterns reported by the respondents are extended to the population, the total economic impact of non-influenza-related VRTI approaches $40 billion annually (direct costs, $17 billion per year; and indirect costs, $22.5 billion per year). CONCLUSIONS: Largely because of the high attack rate, non-influenza-related VRTI imposes a greater economic burden than many other clinical conditions.",
+      "target": "The pending availability of effective antiviral therapies warrants increased attention be paid to this common and expensive illness.",
+      "loss_target": 3.8112075328826904,
+      "loss_target_given_context": 2.6285338401794434,
+      "delta_loss": 1.182673692703247,
+      "gain_ratio": 0.31031469225941255,
+      "score": -0.31031469225941255,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

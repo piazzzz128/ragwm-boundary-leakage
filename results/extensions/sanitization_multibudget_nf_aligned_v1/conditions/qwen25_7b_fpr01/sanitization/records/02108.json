@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3807",
+  "source_doc_id": "MED-3807",
+  "title": "Artemisia dracunculus L. (tarragon): a critical review of its traditional use, chemical composition, pharmacology, and safety.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Artemisia dracunculus L. (tarragon): a critical review of its traditional use, chemical composition, pharmacology, and safety.\nArtemisia dracunculus L. (tarragon) has a long history of use as a spice and remedy. Two well-described \"cultivars\" (Russian and French) are used widely and differ in ploidy level, morphology, and chemistry. Key biologically active secondary metabolites are essential oils (0.15-3.1%), coumarins (>1%), flavonoids, and phenolcarbonic acids. In vivo studies mainly in rodents, particularly from Russian sources, highlight potential anti-inflammatory, hepatoprotective, and antihyperglycemic effects. Despite concerns about the toxic effects of two of its main constituents, estragole (up to 82%) and methyleugenol (up to 39%), no acute toxicity or mutagenic activity has been reported at doses relevant for human consumption. Water extracts of A. dracunculus contain very low amounts of estragole and methyleugenol and, therefore, are considered to pose a very limited risk. Overall, a stronger focus on clinical studies and precise taxonomic and phytochemical definition of the source material will be essential for future research efforts.",
+  "sanitized_text": "Artemisia dracunculus L. (tarragon): a critical review of its traditional use, chemical composition, pharmacology, and safety.\nArtemisia dracunculus L. (tarragon) has a long history of use as a spice and remedy. Two well-described \"cultivars\" (Russian and French) are used widely and differ in ploidy level, morphology, and chemistry. Key biologically active secondary metabolites are essential oils (0.15-3.1%), coumarins (>1%), flavonoids, and phenolcarbonic acids. In vivo studies mainly in rodents, particularly from Russian sources, highlight potential anti-inflammatory, hepatoprotective, and antihyperglycemic effects. Despite concerns about the toxic effects of two of its main constituents, estragole (up to 82%) and methyleugenol (up to 39%), no acute toxicity or mutagenic activity has been reported at doses relevant for human consumption. Water extracts of A. dracunculus contain very low amounts of estragole and methyleugenol and, therefore, are considered to pose a very limited risk. Overall, a stronger focus on clinical studies and precise taxonomic and phytochemical definition of the source material will be essential for future research efforts.",
+  "modified": false,
+  "original_char_count": 1167,
+  "sanitized_char_count": 1167,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1001,
+      "boundary_end": 1167,
+      "context": "Artemisia dracunculus L. (tarragon): a critical review of its traditional use, chemical composition, pharmacology, and safety. Artemisia dracunculus L. (tarragon) has a long history of use as a spice and remedy. Two well-described \"cultivars\" (Russian and French) are used widely and differ in ploidy level, morphology, and chemistry. Key biologically active secondary metabolites are essential oils (0.15-3.1%), coumarins (>1%), flavonoids, and phenolcarbonic acids. In vivo studies mainly in rodents, particularly from Russian sources, highlight potential anti-inflammatory, hepatoprotective, and antihyperglycemic effects. Despite concerns about the toxic effects of two of its main constituents, estragole (up to 82%) and methyleugenol (up to 39%), no acute toxicity or mutagenic activity has been reported at doses relevant for human consumption. Water extracts of A. dracunculus contain very low amounts of estragole and methyleugenol and, therefore, are considered to pose a very limited risk.",
+      "target": "Overall, a stronger focus on clinical studies and precise taxonomic and phytochemical definition of the source material will be essential for future research efforts.",
+      "loss_target": 3.2383456230163574,
+      "loss_target_given_context": 2.5321240425109863,
+      "delta_loss": 0.7062215805053711,
+      "gain_ratio": 0.2180809779802197,
+      "score": -0.2180809779802197,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

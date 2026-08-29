@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4535",
+  "source_doc_id": "MED-4535",
+  "title": "Detection of toxic heavy metals and pesticide residue in herbal plants which are commonly used in the herbal formulations.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Detection of toxic heavy metals and pesticide residue in herbal plants which are commonly used in the herbal formulations.\nHerbal formulations are getting popular throughout the world and commercialized extensively for various medicinal properties. WHO has emphasized the need for quality assurance of herbal products, including testing of heavy metals and pesticides residues. In view of WHO guidelines, single herbal drugs used in herbal formulations were collected from local market, for testing heavy metals and persistent pesticides residue. Therefore, in the present case, we have examined few local samples of certain herbs viz. Emblica officinalis, Terminalia chebula, Terminalia belerica, and Withania somnifera. The present studies were selected for estimation of four heavy metals namely Arsenic, Cadmium, Lead, and Mercury. Apart from these, pesticide residue Viz. Organochlorine pesticides, Organophosphorus pesticides, and Pyrethroids were analyzed in the four samples of single crude drugs. Heavy metals and pesticide residue were found below detection limits in all the samples.",
+  "sanitized_text": "Detection of toxic heavy metals and pesticide residue in herbal plants which are commonly used in the herbal formulations.\nHerbal formulations are getting popular throughout the world and commercialized extensively for various medicinal properties. WHO has emphasized the need for quality assurance of herbal products, including testing of heavy metals and pesticides residues. In view of WHO guidelines, single herbal drugs used in herbal formulations were collected from local market, for testing heavy metals and persistent pesticides residue. Therefore, in the present case, we have examined few local samples of certain herbs viz. Emblica officinalis, Terminalia chebula, Terminalia belerica, and Withania somnifera. The present studies were selected for estimation of four heavy metals namely Arsenic, Cadmium, Lead, and Mercury. Apart from these, pesticide residue Viz. Organochlorine pesticides, Organophosphorus pesticides, and Pyrethroids were analyzed in the four samples of single crude drugs. Heavy metals and pesticide residue were found below detection limits in all the samples.",
+  "modified": false,
+  "original_char_count": 1094,
+  "sanitized_char_count": 1094,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1006,
+      "boundary_end": 1094,
+      "context": "Detection of toxic heavy metals and pesticide residue in herbal plants which are commonly used in the herbal formulations. Herbal formulations are getting popular throughout the world and commercialized extensively for various medicinal properties. WHO has emphasized the need for quality assurance of herbal products, including testing of heavy metals and pesticides residues. In view of WHO guidelines, single herbal drugs used in herbal formulations were collected from local market, for testing heavy metals and persistent pesticides residue. Therefore, in the present case, we have examined few local samples of certain herbs viz. Emblica officinalis, Terminalia chebula, Terminalia belerica, and Withania somnifera. The present studies were selected for estimation of four heavy metals namely Arsenic, Cadmium, Lead, and Mercury. Apart from these, pesticide residue Viz. Organochlorine pesticides, Organophosphorus pesticides, and Pyrethroids were analyzed in the four samples of single crude drugs.",
+      "target": "Heavy metals and pesticide residue were found below detection limits in all the samples.",
+      "loss_target": 8.999942779541016,
+      "loss_target_given_context": 2.9922826290130615,
+      "delta_loss": 6.007660150527954,
+      "gain_ratio": 0.667522038493931,
+      "score": -0.667522038493931,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

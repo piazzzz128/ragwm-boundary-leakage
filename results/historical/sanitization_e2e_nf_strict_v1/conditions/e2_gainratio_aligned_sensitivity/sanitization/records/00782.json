@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1957",
+  "source_doc_id": "MED-1957",
+  "title": "PCDD and PCDF contamination in catfish feed from Arkansas, USA.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "PCDD and PCDF contamination in catfish feed from Arkansas, USA.\nOne combined catfish feed sample from Arkansas, USA, and its eight ingredients were analyzed for PCDDs and PCDFs. One of the ingredients, soybean meal, was highly contaminated by PCDDs, especially the toxic 2,3,7,8-substituted congeners, e.g., 7.3 pg/g dry weight or 370 pg/g lipid for the 2,3,7,8-tetra CDD. The I-TEQ value for the soybean meal was 11.4 pg/g dry weight or 576 pg/g fat. The corresponding values for the combined catfish feed concentrations were approximately 3 times lower. The congener pattern, the congener profile and the ratio sigma PCDDs/sigma PCDFs for the soybean meal were quite unique. We are not aware of any environmental sample or technical product with similar characteristics. As a result, natural formation of the PCDDs found in the soybean meal cannot be ruled out.",
+  "sanitized_text": "PCDD and PCDF contamination in catfish feed from Arkansas, USA.\nOne combined catfish feed sample from Arkansas, USA, and its eight ingredients were analyzed for PCDDs and PCDFs. One of the ingredients, soybean meal, was highly contaminated by PCDDs, especially the toxic 2,3,7,8-substituted congeners, e.g., 7.3 pg/g dry weight or 370 pg/g lipid for the 2,3,7,8-tetra CDD. The I-TEQ value for the soybean meal was 11.4 pg/g dry weight or 576 pg/g fat. The corresponding values for the combined catfish feed concentrations were approximately 3 times lower. The congener pattern, the congener profile and the ratio sigma PCDDs/sigma PCDFs for the soybean meal were quite unique. We are not aware of any environmental sample or technical product with similar characteristics. As a result, natural formation of the PCDDs found in the soybean meal cannot be ruled out.",
+  "modified": false,
+  "original_char_count": 863,
+  "sanitized_char_count": 863,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 773,
+      "boundary_end": 863,
+      "context": "PCDD and PCDF contamination in catfish feed from Arkansas, USA. One combined catfish feed sample from Arkansas, USA, and its eight ingredients were analyzed for PCDDs and PCDFs. One of the ingredients, soybean meal, was highly contaminated by PCDDs, especially the toxic 2,3,7,8-substituted congeners, e.g., 7.3 pg/g dry weight or 370 pg/g lipid for the 2,3,7,8-tetra CDD. The I-TEQ value for the soybean meal was 11.4 pg/g dry weight or 576 pg/g fat. The corresponding values for the combined catfish feed concentrations were approximately 3 times lower. The congener pattern, the congener profile and the ratio sigma PCDDs/sigma PCDFs for the soybean meal were quite unique. We are not aware of any environmental sample or technical product with similar characteristics.",
+      "target": "As a result, natural formation of the PCDDs found in the soybean meal cannot be ruled out.",
+      "loss_target": 3.5976181030273438,
+      "loss_target_given_context": 1.725888967514038,
+      "delta_loss": 1.8717291355133057,
+      "gain_ratio": 0.5202689896235158,
+      "score": -0.5202689896235158,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

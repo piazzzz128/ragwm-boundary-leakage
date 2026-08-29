@@ -1,0 +1,55 @@
+
+Experiment:
+GainRatio-guided watermark sanitization
+
+Dataset:
+NFCorpus strict v1
+
+Watermarked corpus size:
+3633 documents
+
+Boundary detector:
+Qwen2.5-7B local
+
+RAG-WM verifier:
+gpt-4o-mini
+
+Retriever:
+Contriever
+
+Similarity:
+Cosine
+
+Retrieval top-k:
+5
+
+Verification queries:
+30
+
+Verification seed:
+633
+
+Boundary-selection policy:
+Validation-calibrated threshold at estimated clean FPR = 5%
+
+Primary sanitization:
+Delete the complete suffix beginning at the selected boundary
+
+Oracle reference:
+WSN_before = 26
+WSN_oracle = 5
+
+Primary metrics:
+WSN
+Paired attack success rate
+Oracle gap closure
+Modified-document count
+Deleted-token ratio
+Content-level watermark retrieval rate
+
+Random baseline:
+Budget matched to GainRatio deletion
+Multiple seeds
+
+Utility:
+NFCorpus retrieval performance and retrieval overlap

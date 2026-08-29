@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-5069",
+  "source_doc_id": "MED-5069",
+  "title": "From beans to berries and beyond: teamwork between plant chemicals for protection of optimal human health.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "From beans to berries and beyond: teamwork between plant chemicals for protection of optimal human health.\nIt is now well known to consumers around the world that certain fruits and vegetables can help prevent or treat chronic human diseases. But, what many people don't fully appreciate is that it is not a single component in these plant-derived foods, but rather complex mixtures of interacting natural chemicals, that produce such powerful health-protective effects. These natural components accumulate simultaneously together in a plant, and provide a multifaceted defensive strategy for both the plant, and the human consumer. In order to investigate the strength of natural chemical cooperation in highly-pigmented, flavonoid-rich functional foods, our lab has relied on analysis of both whole fruits, and continuous, reliable plant cell culture production systems which accumulate anthocyanins and proanthocyanidins in high concentrations. Successive rounds of relatively gentle, rapid, and large-volume fractionations are linked to bioassay of complex to simple mixtures and semi-purified compounds. By means of this strategy, additive interactions or synergies between related compounds in health maintenance can be sorted out. Interestingly, phytochemical interactions between the same classes of compounds intensify the efficacy of flavonoid-rich fruits against multiple, not necessarily discrete, human disease conditions including CVD, cancer, metabolic syndrome, and others.",
+  "sanitized_text": "From beans to berries and beyond: teamwork between plant chemicals for protection of optimal human health.\nIt is now well known to consumers around the world that certain fruits and vegetables can help prevent or treat chronic human diseases. But, what many people don't fully appreciate is that it is not a single component in these plant-derived foods, but rather complex mixtures of interacting natural chemicals, that produce such powerful health-protective effects. These natural components accumulate simultaneously together in a plant, and provide a multifaceted defensive strategy for both the plant, and the human consumer. In order to investigate the strength of natural chemical cooperation in highly-pigmented, flavonoid-rich functional foods, our lab has relied on analysis of both whole fruits, and continuous, reliable plant cell culture production systems which accumulate anthocyanins and proanthocyanidins in high concentrations. Successive rounds of relatively gentle, rapid, and large-volume fractionations are linked to bioassay of complex to simple mixtures and semi-purified compounds. By means of this strategy, additive interactions or synergies between related compounds in health maintenance can be sorted out.",
+  "modified": true,
+  "original_char_count": 1489,
+  "sanitized_char_count": 1237,
+  "deleted_char_count": 252,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1238,
+      "boundary_end": 1489,
+      "context": "between plant chemicals for protection of optimal human health. It is now well known to consumers around the world that certain fruits and vegetables can help prevent or treat chronic human diseases. But, what many people don't fully appreciate is that it is not a single component in these plant-derived foods, but rather complex mixtures of interacting natural chemicals, that produce such powerful health-protective effects. These natural components accumulate simultaneously together in a plant, and provide a multifaceted defensive strategy for both the plant, and the human consumer. In order to investigate the strength of natural chemical cooperation in highly-pigmented, flavonoid-rich functional foods, our lab has relied on analysis of both whole fruits, and continuous, reliable plant cell culture production systems which accumulate anthocyanins and proanthocyanidins in high concentrations. Successive rounds of relatively gentle, rapid, and large-volume fractionations are linked to bioassay of complex to simple mixtures and semi-purified compounds. By means of this strategy, additive interactions or synergies between related compounds in health maintenance can be sorted out.",
+      "target": "Interestingly, phytochemical interactions between the same classes of compounds intensify the efficacy of flavonoid-rich fruits against multiple, not necessarily discrete, human disease conditions including CVD, cancer, metabolic syndrome, and others.",
+      "loss_target": 3.0690672397613525,
+      "loss_target_given_context": 2.5756514072418213,
+      "delta_loss": 0.49341583251953125,
+      "gain_ratio": 0.1607706165987744,
+      "score": -0.1607706165987744,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1109,
+      "boundary_end": 1237,
+      "context": "From beans to berries and beyond: teamwork between plant chemicals for protection of optimal human health. It is now well known to consumers around the world that certain fruits and vegetables can help prevent or treat chronic human diseases. But, what many people don't fully appreciate is that it is not a single component in these plant-derived foods, but rather complex mixtures of interacting natural chemicals, that produce such powerful health-protective effects. These natural components accumulate simultaneously together in a plant, and provide a multifaceted defensive strategy for both the plant, and the human consumer. In order to investigate the strength of natural chemical cooperation in highly-pigmented, flavonoid-rich functional foods, our lab has relied on analysis of both whole fruits, and continuous, reliable plant cell culture production systems which accumulate anthocyanins and proanthocyanidins in high concentrations. Successive rounds of relatively gentle, rapid, and large-volume fractionations are linked to bioassay of complex to simple mixtures and semi-purified compounds.",
+      "target": "By means of this strategy, additive interactions or synergies between related compounds in health maintenance can be sorted out.",
+      "loss_target": 4.104356288909912,
+      "loss_target_given_context": 3.082534074783325,
+      "delta_loss": 1.021822214126587,
+      "gain_ratio": 0.24896040747914105,
+      "score": -0.24896040747914105,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1238,
+      "target": "Interestingly, phytochemical interactions between the same classes of compounds intensify the efficacy of flavonoid-rich fruits against multiple, not necessarily discrete, human disease conditions including CVD, cancer, metabolic syndrome, and others.",
+      "score": -0.1607706165987744,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Interestingly, phytochemical interactions between the same classes of compounds intensify the efficacy of flavonoid-rich fruits against multiple, not necessarily discrete, human disease conditions including CVD, cancer, metabolic syndrome, and others.",
+      "deleted_char_count": 251
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

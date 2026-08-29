@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1248",
+  "source_doc_id": "MED-1248",
+  "title": "Patients' attitudes to rectal drug administration.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Patients' attitudes to rectal drug administration.\nOne hundred adult patients attending for day case surgery were surveyed by anonymous questionnaire in order to determine their attitudes to rectal drug administration. Fifty four patients did not want an analgesic drug (diclofenac sodium) administered rectally whilst under anaesthesia, all preferring to take it orally if available. Ninety eight patients thought that drugs administered per rectum should always be discussed with them beforehand and a few had very strong feelings about this route of administration. We suggest that prescribers of rectal diclofenac should always discuss it with patients pre-operatively. Whilst many are happy to have suppositories, some young patients are sensitive about this and prefer to take such medication by mouth.",
+  "sanitized_text": "Patients' attitudes to rectal drug administration.\nOne hundred adult patients attending for day case surgery were surveyed by anonymous questionnaire in order to determine their attitudes to rectal drug administration. Fifty four patients did not want an analgesic drug (diclofenac sodium) administered rectally whilst under anaesthesia, all preferring to take it orally if available. Ninety eight patients thought that drugs administered per rectum should always be discussed with them beforehand and a few had very strong feelings about this route of administration. We suggest that prescribers of rectal diclofenac should always discuss it with patients pre-operatively.",
+  "modified": true,
+  "original_char_count": 808,
+  "sanitized_char_count": 673,
+  "deleted_char_count": 135,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 674,
+      "boundary_end": 808,
+      "context": "Patients' attitudes to rectal drug administration. One hundred adult patients attending for day case surgery were surveyed by anonymous questionnaire in order to determine their attitudes to rectal drug administration. Fifty four patients did not want an analgesic drug (diclofenac sodium) administered rectally whilst under anaesthesia, all preferring to take it orally if available. Ninety eight patients thought that drugs administered per rectum should always be discussed with them beforehand and a few had very strong feelings about this route of administration. We suggest that prescribers of rectal diclofenac should always discuss it with patients pre-operatively.",
+      "target": "Whilst many are happy to have suppositories, some young patients are sensitive about this and prefer to take such medication by mouth.",
+      "loss_target": 3.479607343673706,
+      "loss_target_given_context": 2.792999267578125,
+      "delta_loss": 0.686608076095581,
+      "gain_ratio": 0.1973234357445265,
+      "score": -0.1973234357445265,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 569,
+      "boundary_end": 673,
+      "context": "Patients' attitudes to rectal drug administration. One hundred adult patients attending for day case surgery were surveyed by anonymous questionnaire in order to determine their attitudes to rectal drug administration. Fifty four patients did not want an analgesic drug (diclofenac sodium) administered rectally whilst under anaesthesia, all preferring to take it orally if available. Ninety eight patients thought that drugs administered per rectum should always be discussed with them beforehand and a few had very strong feelings about this route of administration.",
+      "target": "We suggest that prescribers of rectal diclofenac should always discuss it with patients pre-operatively.",
+      "loss_target": 3.5209314823150635,
+      "loss_target_given_context": 1.9386531114578247,
+      "delta_loss": 1.5822783708572388,
+      "gain_ratio": 0.44939198016340487,
+      "score": -0.44939198016340487,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 674,
+      "target": "Whilst many are happy to have suppositories, some young patients are sensitive about this and prefer to take such medication by mouth.",
+      "score": -0.1973234357445265,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Whilst many are happy to have suppositories, some young patients are sensitive about this and prefer to take such medication by mouth.",
+      "deleted_char_count": 134
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

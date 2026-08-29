@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2255",
+  "source_doc_id": "MED-2255",
+  "title": "Dietary Cadmium Intake and the Risk of Cancer: A Meta-Analysis",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary Cadmium Intake and the Risk of Cancer: A Meta-Analysis\nBackground Diet is a major source of cadmium intake among the non-smoking general population. Recent studies have determined that cadmium exposure may produce adverse health effects at lower exposure levels than previously predicted. We conducted a meta-analysis to combine and analyze the results of previous studies that have investigated the association of dietary cadmium intake and cancer risk. Methods We searched PubMed, EMBASE, and MEDLINE database for case-control and cohort studies that assessed the association of dietary cadmium intake and cancer risk. We performed a meta-analysis using eight eligible studies to summarize the data and summary relative risks (RRs) and 95% confidence intervals (CIs) were calculated using a random effects model. Results Overall, dietary cadmium intake showed no statistically significant association with cancer risk (RR = 1.10; 95% CI: 0.99–1.22, for highest vs. lowest dietary cadmium group). However, there was strong evidence of heterogeneity, and subgroup analyses were conducted using the study design, geographical location, and cancer type. In subgroup analyses, the positive associations between dietary cadmium intake and cancer risk were observed among studies with Western populations (RR = 1.15; 95% CI: 1.08–1.23) and studies investigating some hormone-related cancers (prostate, breast, and endometrial cancers). Conclusion Our analysis found a positive association between dietary cadmium intake and cancer risk among studies conducted in Western countries, particularly with hormone-related cancers. Additional experimental and epidemiological studies are required to verify our findings.",
+  "sanitized_text": "Dietary Cadmium Intake and the Risk of Cancer: A Meta-Analysis\nBackground Diet is a major source of cadmium intake among the non-smoking general population. Recent studies have determined that cadmium exposure may produce adverse health effects at lower exposure levels than previously predicted. We conducted a meta-analysis to combine and analyze the results of previous studies that have investigated the association of dietary cadmium intake and cancer risk. Methods We searched PubMed, EMBASE, and MEDLINE database for case-control and cohort studies that assessed the association of dietary cadmium intake and cancer risk. We performed a meta-analysis using eight eligible studies to summarize the data and summary relative risks (RRs) and 95% confidence intervals (CIs) were calculated using a random effects model. Results Overall, dietary cadmium intake showed no statistically significant association with cancer risk (RR = 1.10; 95% CI: 0.99–1.22, for highest vs. lowest dietary cadmium group). However, there was strong evidence of heterogeneity, and subgroup analyses were conducted using the study design, geographical location, and cancer type. In subgroup analyses, the positive associations between dietary cadmium intake and cancer risk were observed among studies with Western populations (RR = 1.15; 95% CI: 1.08–1.23) and studies investigating some hormone-related cancers (prostate, breast, and endometrial cancers). Conclusion Our analysis found a positive association between dietary cadmium intake and cancer risk among studies conducted in Western countries, particularly with hormone-related cancers. Additional experimental and epidemiological studies are required to verify our findings.",
+  "modified": false,
+  "original_char_count": 1716,
+  "sanitized_char_count": 1716,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1628,
+      "boundary_end": 1716,
+      "context": "cadmium intake and cancer risk. Methods We searched PubMed, EMBASE, and MEDLINE database for case-control and cohort studies that assessed the association of dietary cadmium intake and cancer risk. We performed a meta-analysis using eight eligible studies to summarize the data and summary relative risks (RRs) and 95% confidence intervals (CIs) were calculated using a random effects model. Results Overall, dietary cadmium intake showed no statistically significant association with cancer risk (RR = 1.10; 95% CI: 0.99–1.22, for highest vs. lowest dietary cadmium group). However, there was strong evidence of heterogeneity, and subgroup analyses were conducted using the study design, geographical location, and cancer type. In subgroup analyses, the positive associations between dietary cadmium intake and cancer risk were observed among studies with Western populations (RR = 1.15; 95% CI: 1.08–1.23) and studies investigating some hormone-related cancers (prostate, breast, and endometrial cancers). Conclusion Our analysis found a positive association between dietary cadmium intake and cancer risk among studies conducted in Western countries, particularly with hormone-related cancers.",
+      "target": "Additional experimental and epidemiological studies are required to verify our findings.",
+      "loss_target": 2.922602891921997,
+      "loss_target_given_context": 1.6775803565979004,
+      "delta_loss": 1.2450225353240967,
+      "gain_ratio": 0.425997845538752,
+      "score": -0.425997845538752,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

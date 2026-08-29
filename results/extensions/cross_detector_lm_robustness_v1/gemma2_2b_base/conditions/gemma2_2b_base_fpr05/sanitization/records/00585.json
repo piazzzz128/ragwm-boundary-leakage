@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1704",
+  "source_doc_id": "MED-1704",
+  "title": "Alzheimer's disease is incurable but preventable.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Alzheimer's disease is incurable but preventable.\nThe dramatic rising incidence and costs of Alzheimer's disease (AD) require that research efforts and funding be primarily directed on either finding a cure or applying preventive measures to curb this disorder. A cure for AD appears unlikely when significant cognitive loss has occurred because the neuronal networks that controlled the perturbed cognitive abilities are either dead or irreversibly damaged and replacing them, even if it were technically possible, would not reconstruct the intellectual identity of the host. Prevention of risk factors to sporadic AD is a more realistic stratagem and treatment, when indicated, ideally should begin in cognitively intact individuals as part of a mass screening effort. Prevention of modifiable risk factors to AD is cost-effective because it reduces hospice or hospital stay, repeated doctor visits, and long-term care. Presently, neurocognitive and neuroimaging tests are used with partial success in identifying persons at higher risk of AD but these tests can not pinpoint either a cause or a specific intervention that could attenuate disease progress. We previously proposed that carotid artery ultrasound +echocardiography together with ankle-brachail index (CAUSE+ABI) as mass screening tests in asymptomatic persons could detect not only cardio-cerebrovascular risk factors to AD, but also identify an indicated intervention. CAUSE+ABI are simple to perform, cost-effective, non-invasive, and reasonably accurate for the intended purpose. Additionally, detection of cardio-cerebrovasacular abnormalities long before expression of cognitive deterioration allows higher success rate with earlier treatment. Evidence-based medicine is recommended for optimizing clinical decision-making in evaluating AD risk factors and their treatment.",
+  "sanitized_text": "Alzheimer's disease is incurable but preventable.\nThe dramatic rising incidence and costs of Alzheimer's disease (AD) require that research efforts and funding be primarily directed on either finding a cure or applying preventive measures to curb this disorder. A cure for AD appears unlikely when significant cognitive loss has occurred because the neuronal networks that controlled the perturbed cognitive abilities are either dead or irreversibly damaged and replacing them, even if it were technically possible, would not reconstruct the intellectual identity of the host. Prevention of risk factors to sporadic AD is a more realistic stratagem and treatment, when indicated, ideally should begin in cognitively intact individuals as part of a mass screening effort. Prevention of modifiable risk factors to AD is cost-effective because it reduces hospice or hospital stay, repeated doctor visits, and long-term care. Presently, neurocognitive and neuroimaging tests are used with partial success in identifying persons at higher risk of AD but these tests can not pinpoint either a cause or a specific intervention that could attenuate disease progress. We previously proposed that carotid artery ultrasound +echocardiography together with ankle-brachail index (CAUSE+ABI) as mass screening tests in asymptomatic persons could detect not only cardio-cerebrovascular risk factors to AD, but also identify an indicated intervention. CAUSE+ABI are simple to perform, cost-effective, non-invasive, and reasonably accurate for the intended purpose. Additionally, detection of cardio-cerebrovasacular abnormalities long before expression of cognitive deterioration allows higher success rate with earlier treatment. Evidence-based medicine is recommended for optimizing clinical decision-making in evaluating AD risk factors and their treatment.",
+  "modified": false,
+  "original_char_count": 1844,
+  "sanitized_char_count": 1844,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1715,
+      "boundary_end": 1844,
+      "context": "would not reconstruct the intellectual identity of the host. Prevention of risk factors to sporadic AD is a more realistic stratagem and treatment, when indicated, ideally should begin in cognitively intact individuals as part of a mass screening effort. Prevention of modifiable risk factors to AD is cost-effective because it reduces hospice or hospital stay, repeated doctor visits, and long-term care. Presently, neurocognitive and neuroimaging tests are used with partial success in identifying persons at higher risk of AD but these tests can not pinpoint either a cause or a specific intervention that could attenuate disease progress. We previously proposed that carotid artery ultrasound +echocardiography together with ankle-brachail index (CAUSE+ABI) as mass screening tests in asymptomatic persons could detect not only cardio-cerebrovascular risk factors to AD, but also identify an indicated intervention. CAUSE+ABI are simple to perform, cost-effective, non-invasive, and reasonably accurate for the intended purpose. Additionally, detection of cardio-cerebrovasacular abnormalities long before expression of cognitive deterioration allows higher success rate with earlier treatment.",
+      "target": "Evidence-based medicine is recommended for optimizing clinical decision-making in evaluating AD risk factors and their treatment.",
+      "loss_target": 8.556495666503906,
+      "loss_target_given_context": 4.1952643394470215,
+      "delta_loss": 4.361231327056885,
+      "gain_ratio": 0.5096983037261138,
+      "score": -0.5096983037261138,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2475",
+  "source_doc_id": "MED-2475",
+  "title": "The effects of exclusion of dietary egg and milk in the management of asthmatic children: a pilot study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The effects of exclusion of dietary egg and milk in the management of asthmatic children: a pilot study.\nCurrent understanding of the use of exclusion diets in the management of asthma in children is limited and controversial. The aim of this study was to examine the effects of excluding eggs and milk on the occurrence of symptoms in children with asthma and involved 22 children aged between three and 14 years clinically diagnosed as having mild to moderate disease. The investigation was single blind and prospective, and parents were given the option of volunteering to join the 'experiment' group, avoiding eggs, milk and their products for eight weeks, or the 'control' group, who consumed their customary food. Thirteen children were recruited to the experimental group and nine to the control group. A trained paediatrician at the beginning and end of the study period assessed the children. A seven-day assessment of food intake was made before, during and immediately after the period of dietary intervention in both groups. A blood sample was taken from each child for determination of food specific antibodies and in those children who could do so, the peak expiratory flow rate (PEFR) was measured. Based on the recommended nutrient intake (RNI), the mean percentage energy intake of the children in the experimental group was significantly lower (p < 0.05) in the experimental group. After the eight-week study period and compared with baseline values, the mean serum anti-ovalbumin IgG and anti-beta lactoglobulin IgG concentrations were statistically significantly reduced (p < 0.05) for both in the experimental group. In contrast, the values for anti-ovalbumin IgG in the control group were significantly increased and those for anti-beta lactoglobulin IgG were practically unchanged. The total IgE values were unchanged in both groups. Over the study period, the PEFR in those children in the experimental group able to perform the test was significantly increased, but no such change was noted in the children in the control group who could do the test. These results suggest that even over the short time period of eight weeks, an egg- and milk-free diet can reduce atopic symptoms and improve lung function in asthmatic children.",
+  "sanitized_text": "The effects of exclusion of dietary egg and milk in the management of asthmatic children: a pilot study.\nCurrent understanding of the use of exclusion diets in the management of asthma in children is limited and controversial. The aim of this study was to examine the effects of excluding eggs and milk on the occurrence of symptoms in children with asthma and involved 22 children aged between three and 14 years clinically diagnosed as having mild to moderate disease. The investigation was single blind and prospective, and parents were given the option of volunteering to join the 'experiment' group, avoiding eggs, milk and their products for eight weeks, or the 'control' group, who consumed their customary food. Thirteen children were recruited to the experimental group and nine to the control group. A trained paediatrician at the beginning and end of the study period assessed the children. A seven-day assessment of food intake was made before, during and immediately after the period of dietary intervention in both groups. A blood sample was taken from each child for determination of food specific antibodies and in those children who could do so, the peak expiratory flow rate (PEFR) was measured. Based on the recommended nutrient intake (RNI), the mean percentage energy intake of the children in the experimental group was significantly lower (p < 0.05) in the experimental group. After the eight-week study period and compared with baseline values, the mean serum anti-ovalbumin IgG and anti-beta lactoglobulin IgG concentrations were statistically significantly reduced (p < 0.05) for both in the experimental group. In contrast, the values for anti-ovalbumin IgG in the control group were significantly increased and those for anti-beta lactoglobulin IgG were practically unchanged. The total IgE values were unchanged in both groups. Over the study period, the PEFR in those children in the experimental group able to perform the test was significantly increased, but no such change was noted in the children in the control group who could do the test. These results suggest that even over the short time period of eight weeks, an egg- and milk-free diet can reduce atopic symptoms and improve lung function in asthmatic children.",
+  "modified": false,
+  "original_char_count": 2253,
+  "sanitized_char_count": 2253,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 2076,
+      "boundary_end": 2253,
+      "context": "assessed the children. A seven-day assessment of food intake was made before, during and immediately after the period of dietary intervention in both groups. A blood sample was taken from each child for determination of food specific antibodies and in those children who could do so, the peak expiratory flow rate (PEFR) was measured. Based on the recommended nutrient intake (RNI), the mean percentage energy intake of the children in the experimental group was significantly lower (p < 0.05) in the experimental group. After the eight-week study period and compared with baseline values, the mean serum anti-ovalbumin IgG and anti-beta lactoglobulin IgG concentrations were statistically significantly reduced (p < 0.05) for both in the experimental group. In contrast, the values for anti-ovalbumin IgG in the control group were significantly increased and those for anti-beta lactoglobulin IgG were practically unchanged. The total IgE values were unchanged in both groups. Over the study period, the PEFR in those children in the experimental group able to perform the test was significantly increased, but no such change was noted in the children in the control group who could do the test.",
+      "target": "These results suggest that even over the short time period of eight weeks, an egg- and milk-free diet can reduce atopic symptoms and improve lung function in asthmatic children.",
+      "loss_target": 2.2700417041778564,
+      "loss_target_given_context": 1.4822202920913696,
+      "delta_loss": 0.7878214120864868,
+      "gain_ratio": 0.34705151479664686,
+      "score": -0.34705151479664686,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

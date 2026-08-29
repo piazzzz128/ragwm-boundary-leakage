@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1378",
+  "source_doc_id": "MED-1378",
+  "title": "Longevity and diet. Myth or pragmatism?",
+  "original_text": "Longevity and diet. Myth or pragmatism?\nLongevity is a very complex phenomenon, because many environmental, behavioral, socio-demographic and dietary factors influence the physiological pathways of aging and life-expectancy. Nutrition has been recognized to have an important impact on overall mortality and morbidity; and its role in extending life expectancy has been the object of extensive scientific research. This paper reviews the pathophysiological mechanisms that potentially link aging with diet and the scientific evidence supporting the anti-aging effect of the traditional Mediterranean diet, as well as of some specific foods. The diet and several of its components have additionally been shown to have beneficial effects on the co-morbidities typical of elderly populations. Furthermore, the epigenetic effects of diet on the aging process - through calorie restriction and the consumption of foods like red wine, orange juice, probiotics and prebiotics - have attracted scientific interest. Some, such as dark chocolate, red wine, nuts, beans, avocados are being promoted as anti-aging foods, due to their anti-oxidative and anti-inflammatory properties. Finally, an important moderator in the relationship between diet, longevity and human health remains the socio-economic status of individual, as a healthy diet, due to its higher cost, is closely related to higher financial and educational status. Copyright © 2013 Elsevier Ireland Ltd. All rights reserved.",
+  "sanitized_text": "Longevity and diet. Myth or pragmatism?\nLongevity is a very complex phenomenon, because many environmental, behavioral, socio-demographic and dietary factors influence the physiological pathways of aging and life-expectancy. Nutrition has been recognized to have an important impact on overall mortality and morbidity; and its role in extending life expectancy has been the object of extensive scientific research. This paper reviews the pathophysiological mechanisms that potentially link aging with diet and the scientific evidence supporting the anti-aging effect of the traditional Mediterranean diet, as well as of some specific foods. The diet and several of its components have additionally been shown to have beneficial effects on the co-morbidities typical of elderly populations. Furthermore, the epigenetic effects of diet on the aging process - through calorie restriction and the consumption of foods like red wine, orange juice, probiotics and prebiotics - have attracted scientific interest. Some, such as dark chocolate, red wine, nuts, beans, avocados are being promoted as anti-aging foods, due to their anti-oxidative and anti-inflammatory properties. Finally, an important moderator in the relationship between diet, longevity and human health remains the socio-economic status of individual, as a healthy diet, due to its higher cost, is closely related to higher financial and educational status.",
+  "modified": true,
+  "original_char_count": 1478,
+  "sanitized_char_count": 1418,
+  "deleted_char_count": 60,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1419,
+      "boundary_end": 1457,
+      "context": "Nutrition has been recognized to have an important impact on overall mortality and morbidity; and its role in extending life expectancy has been the object of extensive scientific research. This paper reviews the pathophysiological mechanisms that potentially link aging with diet and the scientific evidence supporting the anti-aging effect of the traditional Mediterranean diet, as well as of some specific foods. The diet and several of its components have additionally been shown to have beneficial effects on the co-morbidities typical of elderly populations. Furthermore, the epigenetic effects of diet on the aging process - through calorie restriction and the consumption of foods like red wine, orange juice, probiotics and prebiotics - have attracted scientific interest. Some, such as dark chocolate, red wine, nuts, beans, avocados are being promoted as anti-aging foods, due to their anti-oxidative and anti-inflammatory properties. Finally, an important moderator in the relationship between diet, longevity and human health remains the socio-economic status of individual, as a healthy diet, due to its higher cost, is closely related to higher financial and educational status.",
+      "target": "Copyright © 2013 Elsevier Ireland Ltd.",
+      "loss_target": 1.4003496170043945,
+      "loss_target_given_context": 1.56400728225708,
+      "delta_loss": -0.16365766525268555,
+      "gain_ratio": -0.1168691470082874,
+      "score": 0.1168691470082874,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1171,
+      "boundary_end": 1418,
+      "context": "Longevity and diet. Myth or pragmatism? Longevity is a very complex phenomenon, because many environmental, behavioral, socio-demographic and dietary factors influence the physiological pathways of aging and life-expectancy. Nutrition has been recognized to have an important impact on overall mortality and morbidity; and its role in extending life expectancy has been the object of extensive scientific research. This paper reviews the pathophysiological mechanisms that potentially link aging with diet and the scientific evidence supporting the anti-aging effect of the traditional Mediterranean diet, as well as of some specific foods. The diet and several of its components have additionally been shown to have beneficial effects on the co-morbidities typical of elderly populations. Furthermore, the epigenetic effects of diet on the aging process - through calorie restriction and the consumption of foods like red wine, orange juice, probiotics and prebiotics - have attracted scientific interest. Some, such as dark chocolate, red wine, nuts, beans, avocados are being promoted as anti-aging foods, due to their anti-oxidative and anti-inflammatory properties.",
+      "target": "Finally, an important moderator in the relationship between diet, longevity and human health remains the socio-economic status of individual, as a healthy diet, due to its higher cost, is closely related to higher financial and educational status.",
+      "loss_target": 3.100802421569824,
+      "loss_target_given_context": 2.785324811935425,
+      "delta_loss": 0.3154776096343994,
+      "gain_ratio": 0.10174063572702079,
+      "score": -0.10174063572702079,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1419,
+      "target": "Copyright © 2013 Elsevier Ireland Ltd.",
+      "score": 0.1168691470082874,
+      "deleted_suffix": "Copyright © 2013 Elsevier Ireland Ltd. All rights reserved.",
+      "deleted_char_count": 59
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

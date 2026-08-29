@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2430",
+  "source_doc_id": "MED-2430",
+  "title": "beta-Sitosterol enhances tamoxifen effectiveness on breast cancer cells by affecting ceramide metabolism.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "beta-Sitosterol enhances tamoxifen effectiveness on breast cancer cells by affecting ceramide metabolism.\nThe objective of this study was to investigate the effects of the dietary phytosterol beta-sitosterol (SIT) and the antiestrogen drug tamoxifen (TAM) on cell growth and ceramide (CER) metabolism in MCF-7 and MDA-MB-231 human breast cancer cells. The MCF-7 and MDA-MB-231 cell lines were studied as models of estrogen receptor positive and estrogen receptor negative breast cancer cells. Growth of both cell lines as determined using the sulforhodamine B assay was inhibited by treatment with 16 microM SIT but only MCF-7 cell growth was inhibited by treatment with 1 microM TAM. The combination of SIT and TAM further inhibited growth in both cell lines, most significantly in MDA-MB-231 cells. CER is a proapoptotic signal and CER levels were increased in both MCF-7 and MDA-MB-231 cells by individual treatment with SIT and TAM and the combined treatment raised cellular CER content even further. SIT and TAM raised CER levels by different means. SIT potently activated de novo CER synthesis in both MCF-7 and MDA-MB-231 cells by stimulating serine palmitoyltransferase activity; whereas TAM promoted CER accumulation in both cell types by inhibiting CER glycosylation. These results suggest that the combination regimen of dietary SIT and TAM chemotherapy may be beneficial in the management of breast cancer patients.",
+  "sanitized_text": "beta-Sitosterol enhances tamoxifen effectiveness on breast cancer cells by affecting ceramide metabolism.\nThe objective of this study was to investigate the effects of the dietary phytosterol beta-sitosterol (SIT) and the antiestrogen drug tamoxifen (TAM) on cell growth and ceramide (CER) metabolism in MCF-7 and MDA-MB-231 human breast cancer cells. The MCF-7 and MDA-MB-231 cell lines were studied as models of estrogen receptor positive and estrogen receptor negative breast cancer cells. Growth of both cell lines as determined using the sulforhodamine B assay was inhibited by treatment with 16 microM SIT but only MCF-7 cell growth was inhibited by treatment with 1 microM TAM. The combination of SIT and TAM further inhibited growth in both cell lines, most significantly in MDA-MB-231 cells. CER is a proapoptotic signal and CER levels were increased in both MCF-7 and MDA-MB-231 cells by individual treatment with SIT and TAM and the combined treatment raised cellular CER content even further. SIT and TAM raised CER levels by different means. SIT potently activated de novo CER synthesis in both MCF-7 and MDA-MB-231 cells by stimulating serine palmitoyltransferase activity; whereas TAM promoted CER accumulation in both cell types by inhibiting CER glycosylation. These results suggest that the combination regimen of dietary SIT and TAM chemotherapy may be beneficial in the management of breast cancer patients.",
+  "modified": false,
+  "original_char_count": 1427,
+  "sanitized_char_count": 1427,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1278,
+      "boundary_end": 1427,
+      "context": "ceramide metabolism. The objective of this study was to investigate the effects of the dietary phytosterol beta-sitosterol (SIT) and the antiestrogen drug tamoxifen (TAM) on cell growth and ceramide (CER) metabolism in MCF-7 and MDA-MB-231 human breast cancer cells. The MCF-7 and MDA-MB-231 cell lines were studied as models of estrogen receptor positive and estrogen receptor negative breast cancer cells. Growth of both cell lines as determined using the sulforhodamine B assay was inhibited by treatment with 16 microM SIT but only MCF-7 cell growth was inhibited by treatment with 1 microM TAM. The combination of SIT and TAM further inhibited growth in both cell lines, most significantly in MDA-MB-231 cells. CER is a proapoptotic signal and CER levels were increased in both MCF-7 and MDA-MB-231 cells by individual treatment with SIT and TAM and the combined treatment raised cellular CER content even further. SIT and TAM raised CER levels by different means. SIT potently activated de novo CER synthesis in both MCF-7 and MDA-MB-231 cells by stimulating serine palmitoyltransferase activity; whereas TAM promoted CER accumulation in both cell types by inhibiting CER glycosylation.",
+      "target": "These results suggest that the combination regimen of dietary SIT and TAM chemotherapy may be beneficial in the management of breast cancer patients.",
+      "loss_target": 3.4526760578155518,
+      "loss_target_given_context": 1.7566381692886353,
+      "delta_loss": 1.6960378885269165,
+      "gain_ratio": 0.49122415776241984,
+      "score": -0.49122415776241984,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

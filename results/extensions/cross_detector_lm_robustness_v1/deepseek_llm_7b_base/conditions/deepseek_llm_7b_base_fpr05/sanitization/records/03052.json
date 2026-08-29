@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4987",
+  "source_doc_id": "MED-4987",
+  "title": "The safety of rosiglitazone in the treatment of type 2 diabetes.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The safety of rosiglitazone in the treatment of type 2 diabetes.\nBACKGROUND: Cardiovascular disease is the leading cause of mortality among adults with Type 2 diabetes. The thiazolidinediones including rosiglitazone are approved for the treatment of Type 2 diabetes on the basis of their ability to lower blood sugar and surrogate markers of cardiovascular disease. OBJECTIVES: To ascertain the cardiovascular, skeletal and hematologic safety profile of rosiglitazone. METHODS: Synthesis of evidence from recent trials, systematic reviews, meta-analysis, regulatory documents and clinical trials registries of manufacturers. CONCLUSION: Rosiglitazone increases the risk of heart failure, myocardial infarction and fractures (in women) with Type 2 diabetes.",
+  "sanitized_text": "The safety of rosiglitazone in the treatment of type 2 diabetes.\nBACKGROUND: Cardiovascular disease is the leading cause of mortality among adults with Type 2 diabetes. The thiazolidinediones including rosiglitazone are approved for the treatment of Type 2 diabetes on the basis of their ability to lower blood sugar and surrogate markers of cardiovascular disease. OBJECTIVES: To ascertain the cardiovascular, skeletal and hematologic safety profile of rosiglitazone. METHODS: Synthesis of evidence from recent trials, systematic reviews, meta-analysis, regulatory documents and clinical trials registries of manufacturers. CONCLUSION: Rosiglitazone increases the risk of heart failure, myocardial infarction and fractures (in women) with Type 2 diabetes.",
+  "modified": false,
+  "original_char_count": 756,
+  "sanitized_char_count": 756,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 625,
+      "boundary_end": 756,
+      "context": "The safety of rosiglitazone in the treatment of type 2 diabetes. BACKGROUND: Cardiovascular disease is the leading cause of mortality among adults with Type 2 diabetes. The thiazolidinediones including rosiglitazone are approved for the treatment of Type 2 diabetes on the basis of their ability to lower blood sugar and surrogate markers of cardiovascular disease. OBJECTIVES: To ascertain the cardiovascular, skeletal and hematologic safety profile of rosiglitazone. METHODS: Synthesis of evidence from recent trials, systematic reviews, meta-analysis, regulatory documents and clinical trials registries of manufacturers.",
+      "target": "CONCLUSION: Rosiglitazone increases the risk of heart failure, myocardial infarction and fractures (in women) with Type 2 diabetes.",
+      "loss_target": 1.852324366569519,
+      "loss_target_given_context": 1.1397958993911743,
+      "delta_loss": 0.7125284671783447,
+      "gain_ratio": 0.38466722137761344,
+      "score": -0.38466722137761344,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

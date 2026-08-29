@@ -1,0 +1,78 @@
+{
+  "experiment_role": "same_position_conditional_nll_baseline",
+  "record_count": 446,
+  "labels": {
+    "1": 223,
+    "0": 223
+  },
+  "score_direction": "larger_is_more_suspicious",
+  "metrics": {
+    "target_only_nll": {
+      "roc_auc": 0.8793460556214684,
+      "pr_auc": 0.8542782877227595,
+      "best_f1": 0.8361344537815126,
+      "tpr_at_fpr_0.01": 0.13901345291479822,
+      "tpr_at_fpr_0.05": 0.4304932735426009,
+      "tpr_at_fpr_0.1": 0.6278026905829597
+    },
+    "conditional_nll": {
+      "roc_auc": 0.9770757505680789,
+      "pr_auc": 0.977796839450465,
+      "best_f1": 0.926829268292683,
+      "tpr_at_fpr_0.01": 0.7085201793721974,
+      "tpr_at_fpr_0.05": 0.8699551569506726,
+      "tpr_at_fpr_0.1": 0.9417040358744395
+    },
+    "gainratio_recomputed_same_environment": {
+      "roc_auc": 0.9483400028152587,
+      "pr_auc": 0.9504339241289328,
+      "best_f1": 0.8685968819599109,
+      "tpr_at_fpr_0.01": 0.5964125560538116,
+      "tpr_at_fpr_0.05": 0.757847533632287,
+      "tpr_at_fpr_0.1": 0.8251121076233184
+    }
+  },
+  "full_environment_parity": {
+    "target_max_abs_error": 0.07981061935424805,
+    "target_mean_abs_error": 0.009234660409491158,
+    "conditional_max_abs_error": 0.03946733474731445,
+    "conditional_mean_abs_error": 0.00787392773168504,
+    "gainratio_max_abs_error": 0.016661272173192965,
+    "gainratio_mean_abs_error": 0.003034960017001958,
+    "conditional_pearson": 0.9999697845726261,
+    "gainratio_pearson": 0.9998031755050272
+  },
+  "paired_source_document_cluster_bootstrap": {
+    "replicates_requested": 5000,
+    "seed": 20260828,
+    "cluster_count": 359,
+    "roc_auc_difference_conditional_minus_gainratio": {
+      "replicates_valid": 5000,
+      "mean": 0.028792447147104053,
+      "ci95_percentile": [
+        0.010465629053801707,
+        0.04897975317707326
+      ]
+    },
+    "pr_auc_difference_conditional_minus_gainratio": {
+      "replicates_valid": 5000,
+      "mean": 0.027396548443419995,
+      "ci95_percentile": [
+        0.008780487097130177,
+        0.049719016875478285
+      ]
+    }
+  },
+  "current_scores": "/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/localization/nfcorpus_same_position_current_scores.json",
+  "current_scores_sha256": "e2731376e3ee937df81c6cfb71192f8eafffc943932c3987fcbe2c80e0757fc3",
+  "frozen_scores": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/aligned_sensitivity/nfcorpus_aligned_scores.json",
+  "frozen_scores_sha256": "e1c7dbc745a83b473883ccf9c0d6a3c43c1bb7a14fa9f0dda1551b08f92dd218",
+  "environment": {
+    "python": "3.12.3",
+    "torch": "2.7.1+cu128",
+    "transformers": "4.44.2",
+    "numpy": "1.26.4",
+    "sklearn": "1.8.0",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4097",
+  "source_doc_id": "MED-4097",
+  "title": "Green Tea and Breast Cancer",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Green Tea and Breast Cancer\nThe identification of modifiable lifestyle factors that could reduce the risk of breast cancer is a research priority. Despite the enormous chemo preventive potential of green tea and compelling evidence from animal studies, its role in breast cancer development in humans is still unclear. Part of the uncertainty is related to the relatively small number of epidemiological studies on green tea and breast cancer and that the overall results from case-control studies and prospective cohort studies are discordant. In addition, the mechanisms by which green tea intake may influence risk of breast cancer in humans remains not well studied. We review the human studies that have evaluated the relationship between green tea intake and four biomarkers (sex steroid hormones, mammographic density, insulin-like growth factor, adiponectin) that are believed to be important in breast cancer development. Results from these biomarker studies are also inconclusive. Limitations of human studies and areas of further investigations are discussed.",
+  "sanitized_text": "Green Tea and Breast Cancer\nThe identification of modifiable lifestyle factors that could reduce the risk of breast cancer is a research priority. Despite the enormous chemo preventive potential of green tea and compelling evidence from animal studies, its role in breast cancer development in humans is still unclear. Part of the uncertainty is related to the relatively small number of epidemiological studies on green tea and breast cancer and that the overall results from case-control studies and prospective cohort studies are discordant. In addition, the mechanisms by which green tea intake may influence risk of breast cancer in humans remains not well studied. We review the human studies that have evaluated the relationship between green tea intake and four biomarkers (sex steroid hormones, mammographic density, insulin-like growth factor, adiponectin) that are believed to be important in breast cancer development. Results from these biomarker studies are also inconclusive. Limitations of human studies and areas of further investigations are discussed.",
+  "modified": false,
+  "original_char_count": 1070,
+  "sanitized_char_count": 1070,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 991,
+      "boundary_end": 1070,
+      "context": "Green Tea and Breast Cancer The identification of modifiable lifestyle factors that could reduce the risk of breast cancer is a research priority. Despite the enormous chemo preventive potential of green tea and compelling evidence from animal studies, its role in breast cancer development in humans is still unclear. Part of the uncertainty is related to the relatively small number of epidemiological studies on green tea and breast cancer and that the overall results from case-control studies and prospective cohort studies are discordant. In addition, the mechanisms by which green tea intake may influence risk of breast cancer in humans remains not well studied. We review the human studies that have evaluated the relationship between green tea intake and four biomarkers (sex steroid hormones, mammographic density, insulin-like growth factor, adiponectin) that are believed to be important in breast cancer development. Results from these biomarker studies are also inconclusive.",
+      "target": "Limitations of human studies and areas of further investigations are discussed.",
+      "loss_target": 3.489804267883301,
+      "loss_target_given_context": 1.7413578033447266,
+      "delta_loss": 1.7484464645385742,
+      "gain_ratio": 0.5010156244662608,
+      "score": -0.5010156244662608,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

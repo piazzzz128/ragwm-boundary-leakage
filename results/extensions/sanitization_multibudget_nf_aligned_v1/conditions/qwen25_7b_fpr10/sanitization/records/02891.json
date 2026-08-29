@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4811",
+  "source_doc_id": "MED-4811",
+  "title": "Fish-induced keriorrhea.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Fish-induced keriorrhea.\nMany deep-sea fishes store large amounts of wax esters in their body for buoyancy control. Some of them are frequently caught as by-catch of tuna and other fishes. The most noteworthy ones include escolar and oilfish. The accumulation of the indigestible wax esters in the rectum through consumption of these fish engenders discharges or leakage per rectum as orange or brownish green oil, but without noticeable loss of water. This physiological response is called keriorrhea, which is variously described as \"oily diarrhea,\" \"oily orange diarrhea,\" or \"orange oily leakage\" by the mass media and bloggers on the internet. Outbreaks of keriorrhea have been repeatedly reported across continents. Additional symptoms including nausea, vomiting, abdominal cramps, and diarrhea were complained by the victims. They are probably due to anxiety or panic when suffering from keriorrhea. Escolar and oilfish are banned from import and sale in Italy, Japan, and South Korea. Rapid detection of the two fishes is imperative to ensure proper labeling and safeguarding of the public before and after any keriorrhea outbreak.",
+  "sanitized_text": "Fish-induced keriorrhea.\nMany deep-sea fishes store large amounts of wax esters in their body for buoyancy control. Some of them are frequently caught as by-catch of tuna and other fishes. The most noteworthy ones include escolar and oilfish. The accumulation of the indigestible wax esters in the rectum through consumption of these fish engenders discharges or leakage per rectum as orange or brownish green oil, but without noticeable loss of water. This physiological response is called keriorrhea, which is variously described as \"oily diarrhea,\" \"oily orange diarrhea,\" or \"orange oily leakage\" by the mass media and bloggers on the internet. Outbreaks of keriorrhea have been repeatedly reported across continents. Additional symptoms including nausea, vomiting, abdominal cramps, and diarrhea were complained by the victims. They are probably due to anxiety or panic when suffering from keriorrhea. Escolar and oilfish are banned from import and sale in Italy, Japan, and South Korea. Rapid detection of the two fishes is imperative to ensure proper labeling and safeguarding of the public before and after any keriorrhea outbreak.",
+  "modified": false,
+  "original_char_count": 1139,
+  "sanitized_char_count": 1139,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 993,
+      "boundary_end": 1139,
+      "context": "Fish-induced keriorrhea. Many deep-sea fishes store large amounts of wax esters in their body for buoyancy control. Some of them are frequently caught as by-catch of tuna and other fishes. The most noteworthy ones include escolar and oilfish. The accumulation of the indigestible wax esters in the rectum through consumption of these fish engenders discharges or leakage per rectum as orange or brownish green oil, but without noticeable loss of water. This physiological response is called keriorrhea, which is variously described as \"oily diarrhea,\" \"oily orange diarrhea,\" or \"orange oily leakage\" by the mass media and bloggers on the internet. Outbreaks of keriorrhea have been repeatedly reported across continents. Additional symptoms including nausea, vomiting, abdominal cramps, and diarrhea were complained by the victims. They are probably due to anxiety or panic when suffering from keriorrhea. Escolar and oilfish are banned from import and sale in Italy, Japan, and South Korea.",
+      "target": "Rapid detection of the two fishes is imperative to ensure proper labeling and safeguarding of the public before and after any keriorrhea outbreak.",
+      "loss_target": 3.858922243118286,
+      "loss_target_given_context": 2.378521203994751,
+      "delta_loss": 1.4804010391235352,
+      "gain_ratio": 0.3836306994170644,
+      "score": -0.3836306994170644,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

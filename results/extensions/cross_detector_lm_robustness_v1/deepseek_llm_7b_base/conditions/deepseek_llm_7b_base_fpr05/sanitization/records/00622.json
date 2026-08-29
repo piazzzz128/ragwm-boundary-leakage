@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1746",
+  "source_doc_id": "MED-1746",
+  "title": "The impact of altered herbicide residues in transgenic herbicide-resistant crops on standard setting for herbicide residues.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The impact of altered herbicide residues in transgenic herbicide-resistant crops on standard setting for herbicide residues.\nThe global area covered with transgenic (genetically modified) crops has rapidly increased since their introduction in the mid-1990s. Most of these crops have been rendered herbicide resistant, for which it can be envisaged that the modification has an impact on the profile and level of herbicide residues within these crops. In this article, the four main categories of herbicide resistance, including resistance to acetolactate-synthase inhibitors, bromoxynil, glufosinate and glyphosate, are reviewed. The topics considered are the molecular mechanism underlying the herbicide resistance, the nature and levels of the residues formed and their impact on the residue definition and maximum residue limits (MRLs) defined by the Codex Alimentarius Commission and national authorities. No general conclusions can be drawn concerning the nature and level of residues, which has to be done on a case-by-case basis. International residue definitions and MRLs are still lacking for some herbicide-crop combinations, and harmonisation is therefore recommended. Copyright © 2011 Society of Chemical Industry.",
+  "sanitized_text": "The impact of altered herbicide residues in transgenic herbicide-resistant crops on standard setting for herbicide residues.\nThe global area covered with transgenic (genetically modified) crops has rapidly increased since their introduction in the mid-1990s. Most of these crops have been rendered herbicide resistant, for which it can be envisaged that the modification has an impact on the profile and level of herbicide residues within these crops. In this article, the four main categories of herbicide resistance, including resistance to acetolactate-synthase inhibitors, bromoxynil, glufosinate and glyphosate, are reviewed. The topics considered are the molecular mechanism underlying the herbicide resistance, the nature and levels of the residues formed and their impact on the residue definition and maximum residue limits (MRLs) defined by the Codex Alimentarius Commission and national authorities. No general conclusions can be drawn concerning the nature and level of residues, which has to be done on a case-by-case basis. International residue definitions and MRLs are still lacking for some herbicide-crop combinations, and harmonisation is therefore recommended. Copyright © 2011 Society of Chemical Industry.",
+  "modified": false,
+  "original_char_count": 1227,
+  "sanitized_char_count": 1227,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1181,
+      "boundary_end": 1227,
+      "context": "The impact of altered herbicide residues in transgenic herbicide-resistant crops on standard setting for herbicide residues. The global area covered with transgenic (genetically modified) crops has rapidly increased since their introduction in the mid-1990s. Most of these crops have been rendered herbicide resistant, for which it can be envisaged that the modification has an impact on the profile and level of herbicide residues within these crops. In this article, the four main categories of herbicide resistance, including resistance to acetolactate-synthase inhibitors, bromoxynil, glufosinate and glyphosate, are reviewed. The topics considered are the molecular mechanism underlying the herbicide resistance, the nature and levels of the residues formed and their impact on the residue definition and maximum residue limits (MRLs) defined by the Codex Alimentarius Commission and national authorities. No general conclusions can be drawn concerning the nature and level of residues, which has to be done on a case-by-case basis. International residue definitions and MRLs are still lacking for some herbicide-crop combinations, and harmonisation is therefore recommended.",
+      "target": "Copyright © 2011 Society of Chemical Industry.",
+      "loss_target": 1.7333898544311523,
+      "loss_target_given_context": 0.8625236749649048,
+      "delta_loss": 0.8708661794662476,
+      "gain_ratio": 0.5024064132139738,
+      "score": -0.5024064132139738,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

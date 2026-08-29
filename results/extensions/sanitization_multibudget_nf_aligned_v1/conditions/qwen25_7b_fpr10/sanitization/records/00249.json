@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1315",
+  "source_doc_id": "MED-1315",
+  "title": "Primary and acquired resistance of colorectal cancer cells to anti-EGFR antibodies converge on MEK/ERK pathway activation and can be overcome by co...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Primary and acquired resistance of colorectal cancer cells to anti-EGFR antibodies converge on MEK/ERK pathway activation and can be overcome by co...\nPURPOSE: The EGFR-independent activation of the RAS/RAF/MEK/MAPK pathway is one of the resistance mechanisms to cetuximab. EXPERIMENTAL DESIGN: We have evaluated, in vitro and in vivo, the effects of BAY 86-9766, a selective MEK1/2 inhibitor, in a panel of human colorectal cancer cell lines with primary or acquired resistance to cetuximab. RESULTS: Among the colorectal cancer cell lines, five with a KRAS mutation (LOVO, HCT116, HCT15, SW620, and SW480) and one with a BRAF mutation (HT29) were resistant to the antiproliferative effects of cetuximab, whereas two cells (GEO and SW48) were highly sensitive. Treatment with BAY 86-9766 determined dose-dependent growth inhibition in all cancer cells, including two human colorectal cancer cells with acquired resistance to cetuximab (GEO-CR and SW48-CR), with the exception of HCT15 cells. Combined treatment with cetuximab and BAY 86-9766 induced a synergistic antiproliferative and apoptotic effects with blockade in the MAPK and AKT pathway in cells with either primary or acquired resistance to cetuximab. The synergistic antiproliferative effects were confirmed using other two selective MEK1/2 inhibitors, selumetinib and pimasertib, in combination with cetuximab. Moreover, inhibition of MEK expression by siRNA restored cetuximab sensitivity in resistant cells. In nude mice bearing established human HCT15, HCT116, SW48-CR, and GEO-CR xenografts, the combined treatment with cetuximab and BAY 86-9766 caused significant tumor growth inhibition and increased mice survival. CONCLUSION: These results suggest that activation of MEK is involved in both primary and acquired resistance to cetuximab and the inhibition of EGFR and MEK could be a strategy for overcoming anti-EGFR resistance in patients with colorectal cancer. ©2014 American Association for Cancer Research.",
+  "sanitized_text": "Primary and acquired resistance of colorectal cancer cells to anti-EGFR antibodies converge on MEK/ERK pathway activation and can be overcome by co...\nPURPOSE: The EGFR-independent activation of the RAS/RAF/MEK/MAPK pathway is one of the resistance mechanisms to cetuximab. EXPERIMENTAL DESIGN: We have evaluated, in vitro and in vivo, the effects of BAY 86-9766, a selective MEK1/2 inhibitor, in a panel of human colorectal cancer cell lines with primary or acquired resistance to cetuximab. RESULTS: Among the colorectal cancer cell lines, five with a KRAS mutation (LOVO, HCT116, HCT15, SW620, and SW480) and one with a BRAF mutation (HT29) were resistant to the antiproliferative effects of cetuximab, whereas two cells (GEO and SW48) were highly sensitive. Treatment with BAY 86-9766 determined dose-dependent growth inhibition in all cancer cells, including two human colorectal cancer cells with acquired resistance to cetuximab (GEO-CR and SW48-CR), with the exception of HCT15 cells. Combined treatment with cetuximab and BAY 86-9766 induced a synergistic antiproliferative and apoptotic effects with blockade in the MAPK and AKT pathway in cells with either primary or acquired resistance to cetuximab. The synergistic antiproliferative effects were confirmed using other two selective MEK1/2 inhibitors, selumetinib and pimasertib, in combination with cetuximab. Moreover, inhibition of MEK expression by siRNA restored cetuximab sensitivity in resistant cells. In nude mice bearing established human HCT15, HCT116, SW48-CR, and GEO-CR xenografts, the combined treatment with cetuximab and BAY 86-9766 caused significant tumor growth inhibition and increased mice survival. CONCLUSION: These results suggest that activation of MEK is involved in both primary and acquired resistance to cetuximab and the inhibition of EGFR and MEK could be a strategy for overcoming anti-EGFR resistance in patients with colorectal cancer. ©2014 American Association for Cancer Research.",
+  "modified": false,
+  "original_char_count": 1981,
+  "sanitized_char_count": 1981,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1934,
+      "boundary_end": 1981,
+      "context": "were highly sensitive. Treatment with BAY 86-9766 determined dose-dependent growth inhibition in all cancer cells, including two human colorectal cancer cells with acquired resistance to cetuximab (GEO-CR and SW48-CR), with the exception of HCT15 cells. Combined treatment with cetuximab and BAY 86-9766 induced a synergistic antiproliferative and apoptotic effects with blockade in the MAPK and AKT pathway in cells with either primary or acquired resistance to cetuximab. The synergistic antiproliferative effects were confirmed using other two selective MEK1/2 inhibitors, selumetinib and pimasertib, in combination with cetuximab. Moreover, inhibition of MEK expression by siRNA restored cetuximab sensitivity in resistant cells. In nude mice bearing established human HCT15, HCT116, SW48-CR, and GEO-CR xenografts, the combined treatment with cetuximab and BAY 86-9766 caused significant tumor growth inhibition and increased mice survival. CONCLUSION: These results suggest that activation of MEK is involved in both primary and acquired resistance to cetuximab and the inhibition of EGFR and MEK could be a strategy for overcoming anti-EGFR resistance in patients with colorectal cancer.",
+      "target": "©2014 American Association for Cancer Research.",
+      "loss_target": 1.783616304397583,
+      "loss_target_given_context": 0.9003745317459106,
+      "delta_loss": 0.8832417726516724,
+      "gain_ratio": 0.49519718477230873,
+      "score": -0.49519718477230873,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2051",
+  "source_doc_id": "MED-2051",
+  "title": "Economic evaluation of direct-acting antiviral therapy in chronic hepatitis C.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Economic evaluation of direct-acting antiviral therapy in chronic hepatitis C.\nIn 2011, the protease inhibitors boceprevir and telaprevir were approved in the United States and European Union for the treatment of hepatitis C infection. While remarkably effective, the newly approved therapies are also accompanied by additional side effects and considerable costs. Understanding the balance between costs and effectiveness is critical to making decisions about the optimal use of these new agents, especially for health care systems constrained by rising costs. Our goal for this review is to facilitate an understanding of the importance of cost-effectiveness analyses in guiding policy decisions about the use of newly approved drugs as well as future therapies for hepatitis C.",
+  "sanitized_text": "Economic evaluation of direct-acting antiviral therapy in chronic hepatitis C.\nIn 2011, the protease inhibitors boceprevir and telaprevir were approved in the United States and European Union for the treatment of hepatitis C infection. While remarkably effective, the newly approved therapies are also accompanied by additional side effects and considerable costs. Understanding the balance between costs and effectiveness is critical to making decisions about the optimal use of these new agents, especially for health care systems constrained by rising costs. Our goal for this review is to facilitate an understanding of the importance of cost-effectiveness analyses in guiding policy decisions about the use of newly approved drugs as well as future therapies for hepatitis C.",
+  "modified": false,
+  "original_char_count": 780,
+  "sanitized_char_count": 780,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 562,
+      "boundary_end": 780,
+      "context": "Economic evaluation of direct-acting antiviral therapy in chronic hepatitis C. In 2011, the protease inhibitors boceprevir and telaprevir were approved in the United States and European Union for the treatment of hepatitis C infection. While remarkably effective, the newly approved therapies are also accompanied by additional side effects and considerable costs. Understanding the balance between costs and effectiveness is critical to making decisions about the optimal use of these new agents, especially for health care systems constrained by rising costs.",
+      "target": "Our goal for this review is to facilitate an understanding of the importance of cost-effectiveness analyses in guiding policy decisions about the use of newly approved drugs as well as future therapies for hepatitis C.",
+      "loss_target": 2.61541485786438,
+      "loss_target_given_context": 1.928658366203308,
+      "delta_loss": 0.6867564916610718,
+      "gain_ratio": 0.26258032816325116,
+      "score": -0.26258032816325116,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

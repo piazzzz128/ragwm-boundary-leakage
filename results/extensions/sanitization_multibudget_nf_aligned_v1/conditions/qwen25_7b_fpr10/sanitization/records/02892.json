@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4812",
+  "source_doc_id": "MED-4812",
+  "title": "Much meat, much malady: changing perceptions of the epidemiology of hepatitis E.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Much meat, much malady: changing perceptions of the epidemiology of hepatitis E.\nHepatitis E, which is caused by hepatitis E virus (HEV), may now be considered a zoonosis as well as an anthroponosis. Pigs, boars and deer have been identified as reservoirs, and their flesh and entrails--as meat and offal--as vehicles of HEV transmission. Shellfish also act as vehicles. Dietary, gastronomic and culinary preferences influence how extensively HEV conveyed by these vehicles can be inactivated before their ingestion by the host. Another route of infection is paved by HEV that is enterically shed by humans and by live animals into the environment. Although anthroponotic transmission of HEV is primarily environmental, zoonotic transmission may proceed along both foodborne and environmental routes.",
+  "sanitized_text": "Much meat, much malady: changing perceptions of the epidemiology of hepatitis E.\nHepatitis E, which is caused by hepatitis E virus (HEV), may now be considered a zoonosis as well as an anthroponosis. Pigs, boars and deer have been identified as reservoirs, and their flesh and entrails--as meat and offal--as vehicles of HEV transmission. Shellfish also act as vehicles. Dietary, gastronomic and culinary preferences influence how extensively HEV conveyed by these vehicles can be inactivated before their ingestion by the host. Another route of infection is paved by HEV that is enterically shed by humans and by live animals into the environment. Although anthroponotic transmission of HEV is primarily environmental, zoonotic transmission may proceed along both foodborne and environmental routes.",
+  "modified": false,
+  "original_char_count": 800,
+  "sanitized_char_count": 800,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 649,
+      "boundary_end": 800,
+      "context": "Much meat, much malady: changing perceptions of the epidemiology of hepatitis E. Hepatitis E, which is caused by hepatitis E virus (HEV), may now be considered a zoonosis as well as an anthroponosis. Pigs, boars and deer have been identified as reservoirs, and their flesh and entrails--as meat and offal--as vehicles of HEV transmission. Shellfish also act as vehicles. Dietary, gastronomic and culinary preferences influence how extensively HEV conveyed by these vehicles can be inactivated before their ingestion by the host. Another route of infection is paved by HEV that is enterically shed by humans and by live animals into the environment.",
+      "target": "Although anthroponotic transmission of HEV is primarily environmental, zoonotic transmission may proceed along both foodborne and environmental routes.",
+      "loss_target": 3.0925066471099854,
+      "loss_target_given_context": 2.099247455596924,
+      "delta_loss": 0.9932591915130615,
+      "gain_ratio": 0.3211825566943514,
+      "score": -0.3211825566943514,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

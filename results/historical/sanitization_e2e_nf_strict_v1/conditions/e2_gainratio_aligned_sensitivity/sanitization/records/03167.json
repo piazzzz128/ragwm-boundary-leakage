@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5107",
+  "source_doc_id": "MED-5107",
+  "title": "Diet and acne.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet and acne.\nAcne is caused by the action of dihydrotestosterone, derived from endogenous and exogenous precursors, likely acting synergistically with insulin-like growth factor-1. These sources and interactions are discussed. Both a mechanism of action and recommended dietary changes that limit ingestion and production of these hormones are proposed.",
+  "sanitized_text": "Diet and acne.\nAcne is caused by the action of dihydrotestosterone, derived from endogenous and exogenous precursors, likely acting synergistically with insulin-like growth factor-1. These sources and interactions are discussed. Both a mechanism of action and recommended dietary changes that limit ingestion and production of these hormones are proposed.",
+  "modified": false,
+  "original_char_count": 355,
+  "sanitized_char_count": 355,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 229,
+      "boundary_end": 355,
+      "context": "Diet and acne. Acne is caused by the action of dihydrotestosterone, derived from endogenous and exogenous precursors, likely acting synergistically with insulin-like growth factor-1. These sources and interactions are discussed.",
+      "target": "Both a mechanism of action and recommended dietary changes that limit ingestion and production of these hormones are proposed.",
+      "loss_target": 4.369248390197754,
+      "loss_target_given_context": 3.2038919925689697,
+      "delta_loss": 1.1653563976287842,
+      "gain_ratio": 0.26671781815911816,
+      "score": -0.26671781815911816,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

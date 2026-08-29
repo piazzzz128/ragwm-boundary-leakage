@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1890",
+  "source_doc_id": "MED-1890",
+  "title": "Dietary cholesterol from eggs increases the ratio of total cholesterol to high-density lipoprotein cholesterol in humans: a meta-analysis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary cholesterol from eggs increases the ratio of total cholesterol to high-density lipoprotein cholesterol in humans: a meta-analysis.\nBACKGROUND: Several epidemiologic studies found no effect of egg consumption on the risk of coronary heart disease. It is possible that the adverse effect of eggs on LDL-cholesterol is offset by their favorable effect on HDL cholesterol. OBJECTIVE: The objective was to review the effect of dietary cholesterol on the ratio of total to HDL cholesterol. DESIGN: Studies were identified by MEDLINE and Biological s searches (from 1974 to June 1999) and by reviewing reference lists. In addition, we included data from a more recently published study. Studies were included if they had a crossover or parallel design with a control group, if the experimental diets differed only in the amount of dietary cholesterol or number of eggs and were fed for > or =14 d, and if HDL-cholesterol concentrations were reported. Of the 222 studies identified, 17 studies involving 556 subjects met these criteria. RESULTS: The addition of 100 mg dietary cholesterol/d increased the ratio of total to HDL cholesterol by 0.020 units (95% CI: 0.010, 0.030), total cholesterol concentrations by 0.056 mmol/L (2.2 mg/dL) (95% CI: 0.046, 0.065 mmol/L; 1.8, 2.5 mg/dL), and HDL-cholesterol concentrations by 0.008 mmol/L (0.3 mg/dL) (95% CI: 0.005, 0.010 mmol/L; 0.2, 0.4 mg/dL). CONCLUSIONS: Dietary cholesterol raises the ratio of total to HDL cholesterol and, therefore, adversely affects the cholesterol profile. The advice to limit cholesterol intake by reducing consumption of eggs and other cholesterol-rich foods may therefore still be valid.",
+  "sanitized_text": "Dietary cholesterol from eggs increases the ratio of total cholesterol to high-density lipoprotein cholesterol in humans: a meta-analysis.\nBACKGROUND: Several epidemiologic studies found no effect of egg consumption on the risk of coronary heart disease. It is possible that the adverse effect of eggs on LDL-cholesterol is offset by their favorable effect on HDL cholesterol. OBJECTIVE: The objective was to review the effect of dietary cholesterol on the ratio of total to HDL cholesterol. DESIGN: Studies were identified by MEDLINE and Biological s searches (from 1974 to June 1999) and by reviewing reference lists. In addition, we included data from a more recently published study. Studies were included if they had a crossover or parallel design with a control group, if the experimental diets differed only in the amount of dietary cholesterol or number of eggs and were fed for > or =14 d, and if HDL-cholesterol concentrations were reported. Of the 222 studies identified, 17 studies involving 556 subjects met these criteria. RESULTS: The addition of 100 mg dietary cholesterol/d increased the ratio of total to HDL cholesterol by 0.020 units (95% CI: 0.010, 0.030), total cholesterol concentrations by 0.056 mmol/L (2.2 mg/dL) (95% CI: 0.046, 0.065 mmol/L; 1.8, 2.5 mg/dL), and HDL-cholesterol concentrations by 0.008 mmol/L (0.3 mg/dL) (95% CI: 0.005, 0.010 mmol/L; 0.2, 0.4 mg/dL). CONCLUSIONS: Dietary cholesterol raises the ratio of total to HDL cholesterol and, therefore, adversely affects the cholesterol profile. The advice to limit cholesterol intake by reducing consumption of eggs and other cholesterol-rich foods may therefore still be valid.",
+  "modified": false,
+  "original_char_count": 1666,
+  "sanitized_char_count": 1666,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1533,
+      "boundary_end": 1666,
+      "context": "their favorable effect on HDL cholesterol. OBJECTIVE: The objective was to review the effect of dietary cholesterol on the ratio of total to HDL cholesterol. DESIGN: Studies were identified by MEDLINE and Biological s searches (from 1974 to June 1999) and by reviewing reference lists. In addition, we included data from a more recently published study. Studies were included if they had a crossover or parallel design with a control group, if the experimental diets differed only in the amount of dietary cholesterol or number of eggs and were fed for > or =14 d, and if HDL-cholesterol concentrations were reported. Of the 222 studies identified, 17 studies involving 556 subjects met these criteria. RESULTS: The addition of 100 mg dietary cholesterol/d increased the ratio of total to HDL cholesterol by 0.020 units (95% CI: 0.010, 0.030), total cholesterol concentrations by 0.056 mmol/L (2.2 mg/dL) (95% CI: 0.046, 0.065 mmol/L; 1.8, 2.5 mg/dL), and HDL-cholesterol concentrations by 0.008 mmol/L (0.3 mg/dL) (95% CI: 0.005, 0.010 mmol/L; 0.2, 0.4 mg/dL). CONCLUSIONS: Dietary cholesterol raises the ratio of total to HDL cholesterol and, therefore, adversely affects the cholesterol profile.",
+      "target": "The advice to limit cholesterol intake by reducing consumption of eggs and other cholesterol-rich foods may therefore still be valid.",
+      "loss_target": 3.2183830738067627,
+      "loss_target_given_context": 1.8685826063156128,
+      "delta_loss": 1.34980046749115,
+      "gain_ratio": 0.41940329554821487,
+      "score": -0.41940329554821487,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

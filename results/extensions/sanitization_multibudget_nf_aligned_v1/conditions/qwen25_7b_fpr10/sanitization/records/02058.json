@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3753",
+  "source_doc_id": "MED-3753",
+  "title": "What's in placebos: who knows? Analysis of randomized, controlled trials.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "What's in placebos: who knows? Analysis of randomized, controlled trials.\nBACKGROUND: No regulations govern placebo composition. The composition of placebos can influence trial outcomes and merits reporting. PURPOSE: To assess how often investigators specify the composition of placebos in randomized, placebo-controlled trials. DATA SOURCES: 4 English-language general and internal medicine journals with high impact factors. STUDY SELECTION: 3 reviewers screened titles and abstracts of the journals to identify randomized, placebo-controlled trials published from January 2008 to December 2009. DATA EXTRACTION: Reviewers independently abstracted data from the introduction and methods sections of identified articles, recording treatment type (pill, injection, or other) and whether placebo composition was stated. Discrepancies were resolved by consensus. DATA SYNTHESIS: Most studies did not disclose the composition of the study placebo. Disclosure was less common for pills than for injections and other treatments (8.2% vs. 26.7%; P = 0.002). LIMITATION: Journals with high impact factors may not be representative. CONCLUSION: Placebos were seldom described in randomized, controlled trials of pills or capsules. Because the nature of the placebo can influence trial outcomes, placebo formulation should be disclosed in reports of placebo-controlled trials.",
+  "sanitized_text": "What's in placebos: who knows? Analysis of randomized, controlled trials.\nBACKGROUND: No regulations govern placebo composition. The composition of placebos can influence trial outcomes and merits reporting. PURPOSE: To assess how often investigators specify the composition of placebos in randomized, placebo-controlled trials. DATA SOURCES: 4 English-language general and internal medicine journals with high impact factors. STUDY SELECTION: 3 reviewers screened titles and abstracts of the journals to identify randomized, placebo-controlled trials published from January 2008 to December 2009. DATA EXTRACTION: Reviewers independently abstracted data from the introduction and methods sections of identified articles, recording treatment type (pill, injection, or other) and whether placebo composition was stated. Discrepancies were resolved by consensus. DATA SYNTHESIS: Most studies did not disclose the composition of the study placebo. Disclosure was less common for pills than for injections and other treatments (8.2% vs. 26.7%; P = 0.002). LIMITATION: Journals with high impact factors may not be representative. CONCLUSION: Placebos were seldom described in randomized, controlled trials of pills or capsules. Because the nature of the placebo can influence trial outcomes, placebo formulation should be disclosed in reports of placebo-controlled trials.",
+  "modified": false,
+  "original_char_count": 1367,
+  "sanitized_char_count": 1367,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1223,
+      "boundary_end": 1367,
+      "context": "knows? Analysis of randomized, controlled trials. BACKGROUND: No regulations govern placebo composition. The composition of placebos can influence trial outcomes and merits reporting. PURPOSE: To assess how often investigators specify the composition of placebos in randomized, placebo-controlled trials. DATA SOURCES: 4 English-language general and internal medicine journals with high impact factors. STUDY SELECTION: 3 reviewers screened titles and abstracts of the journals to identify randomized, placebo-controlled trials published from January 2008 to December 2009. DATA EXTRACTION: Reviewers independently abstracted data from the introduction and methods sections of identified articles, recording treatment type (pill, injection, or other) and whether placebo composition was stated. Discrepancies were resolved by consensus. DATA SYNTHESIS: Most studies did not disclose the composition of the study placebo. Disclosure was less common for pills than for injections and other treatments (8.2% vs. 26.7%; P = 0.002). LIMITATION: Journals with high impact factors may not be representative. CONCLUSION: Placebos were seldom described in randomized, controlled trials of pills or capsules.",
+      "target": "Because the nature of the placebo can influence trial outcomes, placebo formulation should be disclosed in reports of placebo-controlled trials.",
+      "loss_target": 3.333731174468994,
+      "loss_target_given_context": 1.4778996706008911,
+      "delta_loss": 1.855831503868103,
+      "gain_ratio": 0.5566830097401915,
+      "score": -0.5566830097401915,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

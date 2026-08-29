@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-758",
+  "source_doc_id": "MED-758",
+  "title": "Low-Risk Lifestyle Behaviors and All-Cause Mortality: Findings From the National Health and Nutrition Examination Survey III Mortality Study",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Low-Risk Lifestyle Behaviors and All-Cause Mortality: Findings From the National Health and Nutrition Examination Survey III Mortality Study\nObjectives. We examined the relationship between 4 low-risk behaviors—never smoked, healthy diet, adequate physical activity, and moderate alcohol consumption—and mortality in a representative sample of people in the United States. Methods. We used data from 16958 participants aged 17 years and older in the National Health and Nutrition Examination Survey III Mortality Study from 1988 to 2006. Results. The number of low-risk behaviors was inversely related to the risk for mortality. Compared with participants who had no low-risk behaviors, those who had all 4 experienced reduced all-cause mortality (adjusted hazard ratio [AHR]=0.37; 95% confidence interval [CI]=0.28, 0.49), mortality from malignant neoplasms (AHR=0.34; 95% CI=0.20, 0.56), major cardiovascular disease (AHR=0.35; 95% CI=0.24, 0.50), and other causes (AHR=0.43; 95% CI=0.25, 0.74). The rate advancement periods, representing the equivalent risk from a certain number of years of chronological age, for participants who had all 4 high-risk behaviors compared with those who had none were 11.1 years for all-cause mortality, 14.4 years for malignant neoplasms, 9.9 years for major cardiovascular disease, and 10.6 years for other causes. Conclusions. Low-risk lifestyle factors exert a powerful and beneficial effect on mortality.",
+  "sanitized_text": "Low-Risk Lifestyle Behaviors and All-Cause Mortality: Findings From the National Health and Nutrition Examination Survey III Mortality Study\nObjectives. We examined the relationship between 4 low-risk behaviors—never smoked, healthy diet, adequate physical activity, and moderate alcohol consumption—and mortality in a representative sample of people in the United States. Methods. We used data from 16958 participants aged 17 years and older in the National Health and Nutrition Examination Survey III Mortality Study from 1988 to 2006. Results. The number of low-risk behaviors was inversely related to the risk for mortality. Compared with participants who had no low-risk behaviors, those who had all 4 experienced reduced all-cause mortality (adjusted hazard ratio [AHR]=0.37; 95% confidence interval [CI]=0.28, 0.49), mortality from malignant neoplasms (AHR=0.34; 95% CI=0.20, 0.56), major cardiovascular disease (AHR=0.35; 95% CI=0.24, 0.50), and other causes (AHR=0.43; 95% CI=0.25, 0.74). The rate advancement periods, representing the equivalent risk from a certain number of years of chronological age, for participants who had all 4 high-risk behaviors compared with those who had none were 11.1 years for all-cause mortality, 14.4 years for malignant neoplasms, 9.9 years for major cardiovascular disease, and 10.6 years for other causes. Conclusions. Low-risk lifestyle factors exert a powerful and beneficial effect on mortality.",
+  "modified": false,
+  "original_char_count": 1444,
+  "sanitized_char_count": 1444,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1365,
+      "boundary_end": 1444,
+      "context": "the relationship between 4 low-risk behaviors—never smoked, healthy diet, adequate physical activity, and moderate alcohol consumption—and mortality in a representative sample of people in the United States. Methods. We used data from 16958 participants aged 17 years and older in the National Health and Nutrition Examination Survey III Mortality Study from 1988 to 2006. Results. The number of low-risk behaviors was inversely related to the risk for mortality. Compared with participants who had no low-risk behaviors, those who had all 4 experienced reduced all-cause mortality (adjusted hazard ratio [AHR]=0.37; 95% confidence interval [CI]=0.28, 0.49), mortality from malignant neoplasms (AHR=0.34; 95% CI=0.20, 0.56), major cardiovascular disease (AHR=0.35; 95% CI=0.24, 0.50), and other causes (AHR=0.43; 95% CI=0.25, 0.74). The rate advancement periods, representing the equivalent risk from a certain number of years of chronological age, for participants who had all 4 high-risk behaviors compared with those who had none were 11.1 years for all-cause mortality, 14.4 years for malignant neoplasms, 9.9 years for major cardiovascular disease, and 10.6 years for other causes. Conclusions.",
+      "target": "Low-risk lifestyle factors exert a powerful and beneficial effect on mortality.",
+      "loss_target": 3.7089593410491943,
+      "loss_target_given_context": 1.7575987577438354,
+      "delta_loss": 1.9513605833053589,
+      "gain_ratio": 0.5261207804864628,
+      "score": -0.5261207804864628,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4496",
+  "source_doc_id": "MED-4496",
+  "title": "The effect of fruit and vegetable intake on risk for coronary heart disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The effect of fruit and vegetable intake on risk for coronary heart disease.\nBACKGROUND: Many constituents of fruits and vegetables may reduce the risk for coronary heart disease, but data on the relationship between fruit and vegetable consumption and risk for coronary heart disease are sparse. OBJECTIVE: To evaluate the association of fruit and vegetable consumption with risk for coronary heart disease. DESIGN: Prospective cohort study. SETTING: The Nurses' Health Study and the Health Professionals' Follow-Up Study. PARTICIPANTS: 84 251 women 34 to 59 years of age who were followed for 14 years and 42 148 men 40 to 75 years who were followed for 8 years. All were free of diagnosed cardiovascular disease, cancer, and diabetes at baseline. MEASUREMENTS: The main outcome measure was incidence of nonfatal myocardial infarction or fatal coronary heart disease (1127 cases in women and 1063 cases in men). Diet was assessed by using food-frequency questionnaires. RESULTS: After adjustment for standard cardiovascular risk factors, persons in the highest quintile of fruit and vegetable intake had a relative risk for coronary heart disease of 0.80 (95% CI, 0.69 to 0.93) compared with those in the lowest quintile of intake. Each 1-serving/d increase in intake of fruits or vegetables was associated with a 4% lower risk for coronary heart disease (relative risk, 0.96 [CI, 0.94 to 0.99]; P = 0.01, test for trend). Green leafy vegetables (relative risk with 1-serving/d increase, 0.77 [CI, 0.64 to 0.93]), and vitamin C-rich fruits and vegetables (relative risk with 1-serving/d increase, 0.94 [CI, 0.88 to 0.99]) contributed most to the apparent protective effect of total fruit and vegetable intake. CONCLUSIONS: Consumption of fruits and vegetables, particularly green leafy vegetables and vitamin C-rich fruits and vegetables, appears to have a protective effect against coronary heart disease.",
+  "sanitized_text": "The effect of fruit and vegetable intake on risk for coronary heart disease.\nBACKGROUND: Many constituents of fruits and vegetables may reduce the risk for coronary heart disease, but data on the relationship between fruit and vegetable consumption and risk for coronary heart disease are sparse. OBJECTIVE: To evaluate the association of fruit and vegetable consumption with risk for coronary heart disease. DESIGN: Prospective cohort study. SETTING: The Nurses' Health Study and the Health Professionals' Follow-Up Study. PARTICIPANTS: 84 251 women 34 to 59 years of age who were followed for 14 years and 42 148 men 40 to 75 years who were followed for 8 years. All were free of diagnosed cardiovascular disease, cancer, and diabetes at baseline. MEASUREMENTS: The main outcome measure was incidence of nonfatal myocardial infarction or fatal coronary heart disease (1127 cases in women and 1063 cases in men). Diet was assessed by using food-frequency questionnaires. RESULTS: After adjustment for standard cardiovascular risk factors, persons in the highest quintile of fruit and vegetable intake had a relative risk for coronary heart disease of 0.80 (95% CI, 0.69 to 0.93) compared with those in the lowest quintile of intake. Each 1-serving/d increase in intake of fruits or vegetables was associated with a 4% lower risk for coronary heart disease (relative risk, 0.96 [CI, 0.94 to 0.99]; P = 0.01, test for trend). Green leafy vegetables (relative risk with 1-serving/d increase, 0.77 [CI, 0.64 to 0.93]), and vitamin C-rich fruits and vegetables (relative risk with 1-serving/d increase, 0.94 [CI, 0.88 to 0.99]) contributed most to the apparent protective effect of total fruit and vegetable intake. CONCLUSIONS: Consumption of fruits and vegetables, particularly green leafy vegetables and vitamin C-rich fruits and vegetables, appears to have a protective effect against coronary heart disease.",
+  "modified": false,
+  "original_char_count": 1908,
+  "sanitized_char_count": 1908,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1712,
+      "boundary_end": 1908,
+      "context": "Study. PARTICIPANTS: 84 251 women 34 to 59 years of age who were followed for 14 years and 42 148 men 40 to 75 years who were followed for 8 years. All were free of diagnosed cardiovascular disease, cancer, and diabetes at baseline. MEASUREMENTS: The main outcome measure was incidence of nonfatal myocardial infarction or fatal coronary heart disease (1127 cases in women and 1063 cases in men). Diet was assessed by using food-frequency questionnaires. RESULTS: After adjustment for standard cardiovascular risk factors, persons in the highest quintile of fruit and vegetable intake had a relative risk for coronary heart disease of 0.80 (95% CI, 0.69 to 0.93) compared with those in the lowest quintile of intake. Each 1-serving/d increase in intake of fruits or vegetables was associated with a 4% lower risk for coronary heart disease (relative risk, 0.96 [CI, 0.94 to 0.99]; P = 0.01, test for trend). Green leafy vegetables (relative risk with 1-serving/d increase, 0.77 [CI, 0.64 to 0.93]), and vitamin C-rich fruits and vegetables (relative risk with 1-serving/d increase, 0.94 [CI, 0.88 to 0.99]) contributed most to the apparent protective effect of total fruit and vegetable intake.",
+      "target": "CONCLUSIONS: Consumption of fruits and vegetables, particularly green leafy vegetables and vitamin C-rich fruits and vegetables, appears to have a protective effect against coronary heart disease.",
+      "loss_target": 1.5441703796386719,
+      "loss_target_given_context": 0.5912836790084839,
+      "delta_loss": 0.952886700630188,
+      "gain_ratio": 0.6170865036623476,
+      "score": -0.6170865036623476,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

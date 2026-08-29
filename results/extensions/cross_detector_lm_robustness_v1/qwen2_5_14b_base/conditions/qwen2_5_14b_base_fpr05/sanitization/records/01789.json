@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3447",
+  "source_doc_id": "MED-3447",
+  "title": "Seaweed prevents breast cancer?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Seaweed prevents breast cancer?\nTo investigate the chemopreventive effects of seaweed on breast cancer, we have been studying the relationship between iodine and breast cancer. We found earlier that the seaweed, wakame, showed a suppressive effect on the proliferation of DMBA (dimethylbenz(a)anthracene)-induced rat mammary tumors, possibly via apoptosis induction. In the present study, powdered mekabu was placed in distilled water, and left to stand for 24 h at 4 degrees C. The filtered supernatant was used as mekabu solution. It showed an extremely strong suppressive effect on rat mammary carcinogenesis when used in daily drinking water, without toxicity. In vitro, mekabu solution strongly induced apoptosis in 3 kinds of human breast cancer cells. These effects were stronger than those of a chemotherapeutic agent widely used to treat human breast cancer. Furthermore, no apoptosis induction was observed in normal human mammary cells. In Japan, mekabu is widely consumed as a safe, inexpensive food. Our results suggest that mekabu has potential for chemoprevention of human breast cancer.",
+  "sanitized_text": "Seaweed prevents breast cancer?\nTo investigate the chemopreventive effects of seaweed on breast cancer, we have been studying the relationship between iodine and breast cancer. We found earlier that the seaweed, wakame, showed a suppressive effect on the proliferation of DMBA (dimethylbenz(a)anthracene)-induced rat mammary tumors, possibly via apoptosis induction. In the present study, powdered mekabu was placed in distilled water, and left to stand for 24 h at 4 degrees C. The filtered supernatant was used as mekabu solution. It showed an extremely strong suppressive effect on rat mammary carcinogenesis when used in daily drinking water, without toxicity. In vitro, mekabu solution strongly induced apoptosis in 3 kinds of human breast cancer cells. These effects were stronger than those of a chemotherapeutic agent widely used to treat human breast cancer. Furthermore, no apoptosis induction was observed in normal human mammary cells. In Japan, mekabu is widely consumed as a safe, inexpensive food. Our results suggest that mekabu has potential for chemoprevention of human breast cancer.",
+  "modified": false,
+  "original_char_count": 1102,
+  "sanitized_char_count": 1102,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1013,
+      "boundary_end": 1102,
+      "context": "Seaweed prevents breast cancer? To investigate the chemopreventive effects of seaweed on breast cancer, we have been studying the relationship between iodine and breast cancer. We found earlier that the seaweed, wakame, showed a suppressive effect on the proliferation of DMBA (dimethylbenz(a)anthracene)-induced rat mammary tumors, possibly via apoptosis induction. In the present study, powdered mekabu was placed in distilled water, and left to stand for 24 h at 4 degrees C. The filtered supernatant was used as mekabu solution. It showed an extremely strong suppressive effect on rat mammary carcinogenesis when used in daily drinking water, without toxicity. In vitro, mekabu solution strongly induced apoptosis in 3 kinds of human breast cancer cells. These effects were stronger than those of a chemotherapeutic agent widely used to treat human breast cancer. Furthermore, no apoptosis induction was observed in normal human mammary cells. In Japan, mekabu is widely consumed as a safe, inexpensive food.",
+      "target": "Our results suggest that mekabu has potential for chemoprevention of human breast cancer.",
+      "loss_target": 2.8754560947418213,
+      "loss_target_given_context": 0.7678049802780151,
+      "delta_loss": 2.107651114463806,
+      "gain_ratio": 0.7329797586956535,
+      "score": -0.7329797586956535,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

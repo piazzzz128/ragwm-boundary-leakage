@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-843",
+  "source_doc_id": "MED-843",
+  "title": "Treatment of vulvovaginal candidiasis with boric acid powder.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Treatment of vulvovaginal candidiasis with boric acid powder.\nA double-blind comparison was made of the use of 14 daily intravaginal gelatin capsules containing 600 mg of boric acid powder versus the use of identical capsules containing 100,000 U nystatin diluted to volume with cornstarch for the treatment of vulvovaginal candidiasis albicans. Cure rates for boric acid were 92% at 7 to 10 days after treatment and 72% at 30 days, whereas the nystatin cure rates were 64% at 7 to 10 days and 50% at 30 days. The speed of alleviation of signs and symptoms was similar for the two drugs. There were no untoward side effects, and cervical cytologic features were not affected. In vitro studies found boric acid to be fungistatic and its effectiveness to be unrelated to pH. Blood boron analyses indicated little absorption from the vagina and a half-life of less than 12 hours. Acceptance by the patients was better than for \"messy\" vaginal creams, and self-made capsules containing boric acid powder are inexpensive (31 cents for fourteen) compared with the costly medication commonly prescribed.",
+  "sanitized_text": "Treatment of vulvovaginal candidiasis with boric acid powder.\nA double-blind comparison was made of the use of 14 daily intravaginal gelatin capsules containing 600 mg of boric acid powder versus the use of identical capsules containing 100,000 U nystatin diluted to volume with cornstarch for the treatment of vulvovaginal candidiasis albicans. Cure rates for boric acid were 92% at 7 to 10 days after treatment and 72% at 30 days, whereas the nystatin cure rates were 64% at 7 to 10 days and 50% at 30 days. The speed of alleviation of signs and symptoms was similar for the two drugs. There were no untoward side effects, and cervical cytologic features were not affected. In vitro studies found boric acid to be fungistatic and its effectiveness to be unrelated to pH. Blood boron analyses indicated little absorption from the vagina and a half-life of less than 12 hours. Acceptance by the patients was better than for \"messy\" vaginal creams, and self-made capsules containing boric acid powder are inexpensive (31 cents for fourteen) compared with the costly medication commonly prescribed.",
+  "modified": false,
+  "original_char_count": 1096,
+  "sanitized_char_count": 1096,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 877,
+      "boundary_end": 1096,
+      "context": "Treatment of vulvovaginal candidiasis with boric acid powder. A double-blind comparison was made of the use of 14 daily intravaginal gelatin capsules containing 600 mg of boric acid powder versus the use of identical capsules containing 100,000 U nystatin diluted to volume with cornstarch for the treatment of vulvovaginal candidiasis albicans. Cure rates for boric acid were 92% at 7 to 10 days after treatment and 72% at 30 days, whereas the nystatin cure rates were 64% at 7 to 10 days and 50% at 30 days. The speed of alleviation of signs and symptoms was similar for the two drugs. There were no untoward side effects, and cervical cytologic features were not affected. In vitro studies found boric acid to be fungistatic and its effectiveness to be unrelated to pH. Blood boron analyses indicated little absorption from the vagina and a half-life of less than 12 hours.",
+      "target": "Acceptance by the patients was better than for \"messy\" vaginal creams, and self-made capsules containing boric acid powder are inexpensive (31 cents for fourteen) compared with the costly medication commonly prescribed.",
+      "loss_target": 4.130112648010254,
+      "loss_target_given_context": 3.095672130584717,
+      "delta_loss": 1.034440517425537,
+      "gain_ratio": 0.25046302742466237,
+      "score": -0.25046302742466237,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

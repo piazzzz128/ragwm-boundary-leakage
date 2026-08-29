@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-930",
+  "source_doc_id": "MED-930",
+  "title": "Organochlorine pesticide air-water exchange and bioconcentration in krill in the Ross Sea.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Organochlorine pesticide air-water exchange and bioconcentration in krill in the Ross Sea.\nMean hexachlorobenzene (HCB) and hexachlorocyclohexane (HCH) concentrations, measured in seawater and air samples, confirmed the decline in levels of these compounds in Antarctic air and water. However, low alpha/gamma-HCH ratios in air at the beginning of the sampling period suggest a predominance of fresh lindane entering the Antarctic atmosphere during the Austral spring probably due to current use in the Southern Hemisphere. Water-air fugacity ratios demonstrate the potential for HCH gas deposition to coastal Antarctic seas, while the water-air fugacity ratios for HCB imply that volatilization does not account for the observed decrease of HCB in surface seawater. HCH concentrations found in krill samples were correlated with seawater concentrations indicative of bioconcentration of HCHs from seawater.",
+  "sanitized_text": "Organochlorine pesticide air-water exchange and bioconcentration in krill in the Ross Sea.\nMean hexachlorobenzene (HCB) and hexachlorocyclohexane (HCH) concentrations, measured in seawater and air samples, confirmed the decline in levels of these compounds in Antarctic air and water. However, low alpha/gamma-HCH ratios in air at the beginning of the sampling period suggest a predominance of fresh lindane entering the Antarctic atmosphere during the Austral spring probably due to current use in the Southern Hemisphere. Water-air fugacity ratios demonstrate the potential for HCH gas deposition to coastal Antarctic seas, while the water-air fugacity ratios for HCB imply that volatilization does not account for the observed decrease of HCB in surface seawater. HCH concentrations found in krill samples were correlated with seawater concentrations indicative of bioconcentration of HCHs from seawater.",
+  "modified": false,
+  "original_char_count": 907,
+  "sanitized_char_count": 907,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 767,
+      "boundary_end": 907,
+      "context": "Organochlorine pesticide air-water exchange and bioconcentration in krill in the Ross Sea. Mean hexachlorobenzene (HCB) and hexachlorocyclohexane (HCH) concentrations, measured in seawater and air samples, confirmed the decline in levels of these compounds in Antarctic air and water. However, low alpha/gamma-HCH ratios in air at the beginning of the sampling period suggest a predominance of fresh lindane entering the Antarctic atmosphere during the Austral spring probably due to current use in the Southern Hemisphere. Water-air fugacity ratios demonstrate the potential for HCH gas deposition to coastal Antarctic seas, while the water-air fugacity ratios for HCB imply that volatilization does not account for the observed decrease of HCB in surface seawater.",
+      "target": "HCH concentrations found in krill samples were correlated with seawater concentrations indicative of bioconcentration of HCHs from seawater.",
+      "loss_target": 3.3569741249084473,
+      "loss_target_given_context": 1.7952766418457031,
+      "delta_loss": 1.5616974830627441,
+      "gain_ratio": 0.4652098660740602,
+      "score": -0.4652098660740602,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

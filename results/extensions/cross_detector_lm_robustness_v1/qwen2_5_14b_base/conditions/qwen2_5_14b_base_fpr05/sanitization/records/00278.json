@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1347",
+  "source_doc_id": "MED-1347",
+  "title": "Antidepressants and the placebo response.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Antidepressants and the placebo response.\nAIMS: To evaluate new generation antidepressants in relation to the placebo response. METHODS: I review meta-analyses in which response to antidepressant medication and response to placebo were calculated. RESULTS: All but one of these meta-analyses included unpublished as well as published trials. Most trials failed to show a significant advantage of SSRIs over inert placebo, and the differences between drug and placebo are not clinically significant for most depressed patients. Documents obtained from the U.S. Food and Drug Administration (FDA) revealed an explicit decision to keep this information from the public and from prescribing physicians. CONCLUSIONS: Because they do not incur drug risks, exercise and psychotherapy, which show at benefits at least equal to those of antidepressants, may be a better treatment choice for depressed individuals. The treatment of depression often involves pharmacological approaches.",
+  "sanitized_text": "Antidepressants and the placebo response.\nAIMS: To evaluate new generation antidepressants in relation to the placebo response. METHODS: I review meta-analyses in which response to antidepressant medication and response to placebo were calculated. RESULTS: All but one of these meta-analyses included unpublished as well as published trials. Most trials failed to show a significant advantage of SSRIs over inert placebo, and the differences between drug and placebo are not clinically significant for most depressed patients. Documents obtained from the U.S. Food and Drug Administration (FDA) revealed an explicit decision to keep this information from the public and from prescribing physicians. CONCLUSIONS: Because they do not incur drug risks, exercise and psychotherapy, which show at benefits at least equal to those of antidepressants, may be a better treatment choice for depressed individuals. The treatment of depression often involves pharmacological approaches.",
+  "modified": false,
+  "original_char_count": 975,
+  "sanitized_char_count": 975,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 905,
+      "boundary_end": 975,
+      "context": "Antidepressants and the placebo response. AIMS: To evaluate new generation antidepressants in relation to the placebo response. METHODS: I review meta-analyses in which response to antidepressant medication and response to placebo were calculated. RESULTS: All but one of these meta-analyses included unpublished as well as published trials. Most trials failed to show a significant advantage of SSRIs over inert placebo, and the differences between drug and placebo are not clinically significant for most depressed patients. Documents obtained from the U.S. Food and Drug Administration (FDA) revealed an explicit decision to keep this information from the public and from prescribing physicians. CONCLUSIONS: Because they do not incur drug risks, exercise and psychotherapy, which show at benefits at least equal to those of antidepressants, may be a better treatment choice for depressed individuals.",
+      "target": "The treatment of depression often involves pharmacological approaches.",
+      "loss_target": 3.7557525634765625,
+      "loss_target_given_context": 2.678123950958252,
+      "delta_loss": 1.0776286125183105,
+      "gain_ratio": 0.2869274783961777,
+      "score": -0.2869274783961777,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

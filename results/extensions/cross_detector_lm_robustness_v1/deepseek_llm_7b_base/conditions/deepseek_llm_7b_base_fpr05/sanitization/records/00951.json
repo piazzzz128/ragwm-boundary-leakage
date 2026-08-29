@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2157",
+  "source_doc_id": "MED-2157",
+  "title": "Hepatocellular carcinoma and other liver lesions.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Hepatocellular carcinoma and other liver lesions.\nPatients with cirrhosis are at greatest risk for development of hepatocellular carcinoma (HCC) and should undergo semiannual surveillance using ultrasound, with or without alpha fetoprotein. Patients with positive surveillance testing should undergo contrast-enhanced MRI or 4-phase CT for diagnostic evaluation. There are therapeutic options for most patients with any tumor stage; however, treatment decisions must be individualized after accounting for degree of liver dysfunction and patient performance status. A multidisciplinary approach to care is recommended for optimal communication and treatment delivery. The aim of this review is to provide an up-to-date summary of the diagnosis and management of HCC. Copyright © 2014 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Hepatocellular carcinoma and other liver lesions.\nPatients with cirrhosis are at greatest risk for development of hepatocellular carcinoma (HCC) and should undergo semiannual surveillance using ultrasound, with or without alpha fetoprotein. Patients with positive surveillance testing should undergo contrast-enhanced MRI or 4-phase CT for diagnostic evaluation. There are therapeutic options for most patients with any tumor stage; however, treatment decisions must be individualized after accounting for degree of liver dysfunction and patient performance status. A multidisciplinary approach to care is recommended for optimal communication and treatment delivery. The aim of this review is to provide an up-to-date summary of the diagnosis and management of HCC. Copyright © 2014 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 818,
+  "sanitized_char_count": 818,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 767,
+      "boundary_end": 797,
+      "context": "Hepatocellular carcinoma and other liver lesions. Patients with cirrhosis are at greatest risk for development of hepatocellular carcinoma (HCC) and should undergo semiannual surveillance using ultrasound, with or without alpha fetoprotein. Patients with positive surveillance testing should undergo contrast-enhanced MRI or 4-phase CT for diagnostic evaluation. There are therapeutic options for most patients with any tumor stage; however, treatment decisions must be individualized after accounting for degree of liver dysfunction and patient performance status. A multidisciplinary approach to care is recommended for optimal communication and treatment delivery. The aim of this review is to provide an up-to-date summary of the diagnosis and management of HCC.",
+      "target": "Copyright © 2014 Elsevier Inc.",
+      "loss_target": 1.245052456855774,
+      "loss_target_given_context": 0.4540964663028717,
+      "delta_loss": 0.7909559905529022,
+      "gain_ratio": 0.6352792496392994,
+      "score": -0.6352792496392994,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

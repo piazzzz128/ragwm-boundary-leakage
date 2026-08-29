@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4192",
+  "source_doc_id": "MED-4192",
+  "title": "Psychological and neuroendocrinological effects of odor of saffron (Crocus sativus).",
+  "original_text": "Psychological and neuroendocrinological effects of odor of saffron (Crocus sativus).\nAIM: The purpose of this study was to clarify the effects of saffron odor on symptoms unique to women, such as premenstrual syndrome (PMS), dysmenorrhea (menstrual pain) and irregular menstruation. MATERIALS AND METHODS: Thirty-five women with a normal sense of smell were exposed to saffron odor for 20 min. Saliva samples were then collected to measure levels of cortisol (C), testosterone (T) and 17-β estradiol (E) by enzyme immunoassay, and the State-Trait Anxiety Inventory (STAI) was administered as a psychological test. RESULTS: Saffron odor significantly decreased C levels after short-term stimulation (20 min) in both follicular and luteal phases. E level after exposure to saffron odor was increased in both the follicular- and luteal-phase groups. STAI score decreased in the follicular and luteal phases in the saffron group. CONCLUSIONS: The present findings support the existence of physiological and psychological effects of saffron odor in women. Our results indicate that saffron odor exert some effects in the treatment of PMS, dysmenorrhea and irregular menstruation. This is the first report to suggest that saffron odor may be effective in treating menstrual distress. Copyright © 2010 Elsevier GmbH. All rights reserved.",
+  "sanitized_text": "Psychological and neuroendocrinological effects of odor of saffron (Crocus sativus).\nAIM: The purpose of this study was to clarify the effects of saffron odor on symptoms unique to women, such as premenstrual syndrome (PMS), dysmenorrhea (menstrual pain) and irregular menstruation. MATERIALS AND METHODS: Thirty-five women with a normal sense of smell were exposed to saffron odor for 20 min. Saliva samples were then collected to measure levels of cortisol (C), testosterone (T) and 17-β estradiol (E) by enzyme immunoassay, and the State-Trait Anxiety Inventory (STAI) was administered as a psychological test. RESULTS: Saffron odor significantly decreased C levels after short-term stimulation (20 min) in both follicular and luteal phases. E level after exposure to saffron odor was increased in both the follicular- and luteal-phase groups. STAI score decreased in the follicular and luteal phases in the saffron group. CONCLUSIONS: The present findings support the existence of physiological and psychological effects of saffron odor in women. Our results indicate that saffron odor exert some effects in the treatment of PMS, dysmenorrhea and irregular menstruation. This is the first report to suggest that saffron odor may be effective in treating menstrual distress.",
+  "modified": true,
+  "original_char_count": 1330,
+  "sanitized_char_count": 1277,
+  "deleted_char_count": 53,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1278,
+      "boundary_end": 1309,
+      "context": "AIM: The purpose of this study was to clarify the effects of saffron odor on symptoms unique to women, such as premenstrual syndrome (PMS), dysmenorrhea (menstrual pain) and irregular menstruation. MATERIALS AND METHODS: Thirty-five women with a normal sense of smell were exposed to saffron odor for 20 min. Saliva samples were then collected to measure levels of cortisol (C), testosterone (T) and 17-β estradiol (E) by enzyme immunoassay, and the State-Trait Anxiety Inventory (STAI) was administered as a psychological test. RESULTS: Saffron odor significantly decreased C levels after short-term stimulation (20 min) in both follicular and luteal phases. E level after exposure to saffron odor was increased in both the follicular- and luteal-phase groups. STAI score decreased in the follicular and luteal phases in the saffron group. CONCLUSIONS: The present findings support the existence of physiological and psychological effects of saffron odor in women. Our results indicate that saffron odor exert some effects in the treatment of PMS, dysmenorrhea and irregular menstruation. This is the first report to suggest that saffron odor may be effective in treating menstrual distress.",
+      "target": "Copyright © 2010 Elsevier GmbH.",
+      "loss_target": 1.8217401504516602,
+      "loss_target_given_context": 1.9356521368026733,
+      "delta_loss": -0.11391198635101318,
+      "gain_ratio": -0.06252921763994235,
+      "score": 0.06252921763994235,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1175,
+      "boundary_end": 1277,
+      "context": "Psychological and neuroendocrinological effects of odor of saffron (Crocus sativus). AIM: The purpose of this study was to clarify the effects of saffron odor on symptoms unique to women, such as premenstrual syndrome (PMS), dysmenorrhea (menstrual pain) and irregular menstruation. MATERIALS AND METHODS: Thirty-five women with a normal sense of smell were exposed to saffron odor for 20 min. Saliva samples were then collected to measure levels of cortisol (C), testosterone (T) and 17-β estradiol (E) by enzyme immunoassay, and the State-Trait Anxiety Inventory (STAI) was administered as a psychological test. RESULTS: Saffron odor significantly decreased C levels after short-term stimulation (20 min) in both follicular and luteal phases. E level after exposure to saffron odor was increased in both the follicular- and luteal-phase groups. STAI score decreased in the follicular and luteal phases in the saffron group. CONCLUSIONS: The present findings support the existence of physiological and psychological effects of saffron odor in women. Our results indicate that saffron odor exert some effects in the treatment of PMS, dysmenorrhea and irregular menstruation.",
+      "target": "This is the first report to suggest that saffron odor may be effective in treating menstrual distress.",
+      "loss_target": 3.32413387298584,
+      "loss_target_given_context": 2.1292972564697266,
+      "delta_loss": 1.1948366165161133,
+      "gain_ratio": 0.3594429894133217,
+      "score": -0.3594429894133217,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1278,
+      "target": "Copyright © 2010 Elsevier GmbH.",
+      "score": 0.06252921763994235,
+      "deleted_suffix": "Copyright © 2010 Elsevier GmbH. All rights reserved.",
+      "deleted_char_count": 52
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

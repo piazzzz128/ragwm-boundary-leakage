@@ -1,0 +1,50 @@
+{
+  "dataset": "nfcorpus_strict_v1",
+  "experiment_role": "aligned_scoring_sensitivity",
+  "method": "GainRatio",
+  "model": "Qwen2.5-7B",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "max_context_tokens": 1024,
+  "max_target_tokens": 128,
+  "n_input": 446,
+  "n_scored": 446,
+  "n_failed": 0,
+  "positive_inject": 223,
+  "negative_clean": 223,
+  "record_gain_ratio": {
+    "roc_auc": 0.9471937903436627,
+    "pr_auc": 0.9490177842066673,
+    "tpr_at_fpr_1": 0.6098654708520179,
+    "tpr_at_fpr_5": 0.7713004484304933,
+    "tpr_at_fpr_10": 0.8295964125560538,
+    "best_f1": 0.869179600886918
+  },
+  "record_delta_loss": {
+    "roc_auc": 0.812724969333789,
+    "pr_auc": 0.8443128413655926,
+    "tpr_at_fpr_1": 0.4260089686098655,
+    "tpr_at_fpr_5": 0.515695067264574,
+    "tpr_at_fpr_10": 0.5515695067264574,
+    "best_f1": 0.7404580152671757
+  },
+  "gain_ratio_mean_inject": 0.09211000548837317,
+  "gain_ratio_mean_clean": 0.3810181903053465,
+  "group_mean_gain_ratio": {
+    "roc_auc": 0.9752995391705069,
+    "pr_auc": 0.9093294994333148,
+    "tpr_at_fpr_1": 0.72,
+    "tpr_at_fpr_5": 0.84,
+    "tpr_at_fpr_10": 0.88,
+    "best_f1": 0.8484848484848485
+  },
+  "group_median_gain_ratio": {
+    "roc_auc": 0.9686635944700461,
+    "pr_auc": 0.8948457519199935,
+    "tpr_at_fpr_1": 0.66,
+    "tpr_at_fpr_5": 0.82,
+    "tpr_at_fpr_10": 0.86,
+    "best_f1": 0.8247422680412372
+  }
+}

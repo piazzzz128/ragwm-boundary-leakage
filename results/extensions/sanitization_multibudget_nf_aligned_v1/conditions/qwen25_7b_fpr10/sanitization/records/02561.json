@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4418",
+  "source_doc_id": "MED-4418",
+  "title": "Toxicology and risk assessment of coumarin: focus on human data.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Toxicology and risk assessment of coumarin: focus on human data.\nCoumarin is a secondary phytochemical with hepatotoxic and carcinogenic properties. For the carcinogenic effect, a genotoxic mechanism was considered possible, but was discounted by the European Food Safety Authority in 2004 based on new evidence. This allowed the derivation of a tolerable daily intake (TDI) for the first time, and a value of 0.1 mg/kg body weight was arrived at based on animal hepatotoxicity data. However, clinical data on hepatotoxicity from patients treated with coumarin as medicinal drug is also available. This data revealed a subgroup of the human population being more susceptible for the hepatotoxic effect than the animal species investigated. The cause of the high susceptibility is currently unknown; possible mechanisms are discussed. Using the human data, a TDI of 0.1 mg/kg body weight was derived, confirming that of the European Food Safety Authority. Nutritional exposure may be considerably, and is mainly due to use of cassia cinnamon, which is a popular spice especially, used for cookies and sweet dishes. To estimate exposure to coumarin during the Christmas season in Germany, a telephone survey was performed with more than 1000 randomly selected persons. Heavy consumers of cassia cinnamon may reach a daily coumarin intake corresponding to the TDI.",
+  "sanitized_text": "Toxicology and risk assessment of coumarin: focus on human data.\nCoumarin is a secondary phytochemical with hepatotoxic and carcinogenic properties. For the carcinogenic effect, a genotoxic mechanism was considered possible, but was discounted by the European Food Safety Authority in 2004 based on new evidence. This allowed the derivation of a tolerable daily intake (TDI) for the first time, and a value of 0.1 mg/kg body weight was arrived at based on animal hepatotoxicity data. However, clinical data on hepatotoxicity from patients treated with coumarin as medicinal drug is also available. This data revealed a subgroup of the human population being more susceptible for the hepatotoxic effect than the animal species investigated. The cause of the high susceptibility is currently unknown; possible mechanisms are discussed. Using the human data, a TDI of 0.1 mg/kg body weight was derived, confirming that of the European Food Safety Authority. Nutritional exposure may be considerably, and is mainly due to use of cassia cinnamon, which is a popular spice especially, used for cookies and sweet dishes. To estimate exposure to coumarin during the Christmas season in Germany, a telephone survey was performed with more than 1000 randomly selected persons. Heavy consumers of cassia cinnamon may reach a daily coumarin intake corresponding to the TDI.",
+  "modified": false,
+  "original_char_count": 1361,
+  "sanitized_char_count": 1361,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1267,
+      "boundary_end": 1361,
+      "context": "is a secondary phytochemical with hepatotoxic and carcinogenic properties. For the carcinogenic effect, a genotoxic mechanism was considered possible, but was discounted by the European Food Safety Authority in 2004 based on new evidence. This allowed the derivation of a tolerable daily intake (TDI) for the first time, and a value of 0.1 mg/kg body weight was arrived at based on animal hepatotoxicity data. However, clinical data on hepatotoxicity from patients treated with coumarin as medicinal drug is also available. This data revealed a subgroup of the human population being more susceptible for the hepatotoxic effect than the animal species investigated. The cause of the high susceptibility is currently unknown; possible mechanisms are discussed. Using the human data, a TDI of 0.1 mg/kg body weight was derived, confirming that of the European Food Safety Authority. Nutritional exposure may be considerably, and is mainly due to use of cassia cinnamon, which is a popular spice especially, used for cookies and sweet dishes. To estimate exposure to coumarin during the Christmas season in Germany, a telephone survey was performed with more than 1000 randomly selected persons.",
+      "target": "Heavy consumers of cassia cinnamon may reach a daily coumarin intake corresponding to the TDI.",
+      "loss_target": 3.8673148155212402,
+      "loss_target_given_context": 1.3228219747543335,
+      "delta_loss": 2.5444928407669067,
+      "gain_ratio": 0.6579482049288397,
+      "score": -0.6579482049288397,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

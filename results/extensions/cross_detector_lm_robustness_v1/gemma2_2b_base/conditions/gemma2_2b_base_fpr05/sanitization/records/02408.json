@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4205",
+  "source_doc_id": "MED-4205",
+  "title": "Chemical safety of meat and meat products.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Chemical safety of meat and meat products.\nSince the Second World War the consumer behaviour in developed countries changed drastically. Primarily there existed the demand for sufficient food after a period of starvation, afterwards the desire for higher quality was arising, whereas today most people ask for safe and healthy food with high quality. Therefore a united approach comprising consistent standards, sound science and robust controls is required to ensure consumers' health and to maintain consumers' confidence and satisfaction. Chemical analysis along the whole food chain downstream (tracking) from primary production to the consumer and upstream (tracing) from the consumer to primary production is an important prerequisite to ensure food safety and quality. In this frame the focus of the following paper is the \"chemical safety of meat and meat products\" taking into account inorganic as well as organic residues and contaminants, the use of nitrite in meat products, the incidence of veterinary drugs, as well as a Failure Mode and Effect Analysis (FMEA) system assessing (prioritizing) vulnerable food chain steps to decrease or eliminate vulnerability.",
+  "sanitized_text": "Chemical safety of meat and meat products.\nSince the Second World War the consumer behaviour in developed countries changed drastically. Primarily there existed the demand for sufficient food after a period of starvation, afterwards the desire for higher quality was arising, whereas today most people ask for safe and healthy food with high quality. Therefore a united approach comprising consistent standards, sound science and robust controls is required to ensure consumers' health and to maintain consumers' confidence and satisfaction. Chemical analysis along the whole food chain downstream (tracking) from primary production to the consumer and upstream (tracing) from the consumer to primary production is an important prerequisite to ensure food safety and quality. In this frame the focus of the following paper is the \"chemical safety of meat and meat products\" taking into account inorganic as well as organic residues and contaminants, the use of nitrite in meat products, the incidence of veterinary drugs, as well as a Failure Mode and Effect Analysis (FMEA) system assessing (prioritizing) vulnerable food chain steps to decrease or eliminate vulnerability.",
+  "modified": false,
+  "original_char_count": 1174,
+  "sanitized_char_count": 1174,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 776,
+      "boundary_end": 1174,
+      "context": "Chemical safety of meat and meat products. Since the Second World War the consumer behaviour in developed countries changed drastically. Primarily there existed the demand for sufficient food after a period of starvation, afterwards the desire for higher quality was arising, whereas today most people ask for safe and healthy food with high quality. Therefore a united approach comprising consistent standards, sound science and robust controls is required to ensure consumers' health and to maintain consumers' confidence and satisfaction. Chemical analysis along the whole food chain downstream (tracking) from primary production to the consumer and upstream (tracing) from the consumer to primary production is an important prerequisite to ensure food safety and quality.",
+      "target": "In this frame the focus of the following paper is the \"chemical safety of meat and meat products\" taking into account inorganic as well as organic residues and contaminants, the use of nitrite in meat products, the incidence of veterinary drugs, as well as a Failure Mode and Effect Analysis (FMEA) system assessing (prioritizing) vulnerable food chain steps to decrease or eliminate vulnerability.",
+      "loss_target": 7.2580342292785645,
+      "loss_target_given_context": 5.90201473236084,
+      "delta_loss": 1.3560194969177246,
+      "gain_ratio": 0.18683013252370823,
+      "score": -0.18683013252370823,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

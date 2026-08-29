@@ -1,0 +1,27 @@
+{
+  "experiment_role": "trec_covid_e0_watermarked_verification",
+  "verify_num": 3,
+  "verify_seed": 633,
+  "database_path": "/root/autodl-tmp/ragwm_storage/chromadb_db",
+  "collection": "trec-covid_contriever_cosine",
+  "inputs": {
+    "wmunit": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_trec_covid_aligned_v1/conditions/e0_smoke/basepath/wm_prepare/trec-covid/wmunit.json",
+      "type": "list",
+      "length": 256,
+      "sha256": "f10c332d4acb9d3d0ae135346eb85978da298ac3b3da30a4067dbee12710bca6"
+    },
+    "wmuint_doc": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_trec_covid_aligned_v1/conditions/e0_smoke/basepath/wm_generate/trec-covid/10/wmuint_doc.json",
+      "type": "list",
+      "length": 256,
+      "sha256": "3208c3b66b3f7ec350f499a9fd89807e6dd564e8f0ea4f59a85c2cad47c75d63"
+    },
+    "wmuint_inject": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_trec_covid_aligned_v1/conditions/e0_smoke/basepath/wm_generate/trec-covid/10/wmuint_inject.json",
+      "type": "list",
+      "length": 50,
+      "sha256": "28c94133acdbe753fa249d888c6fbe88e9b5874b7ec2897d8429cee20148f006"
+    }
+  }
+}

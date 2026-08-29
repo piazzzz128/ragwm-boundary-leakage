@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-909",
+  "source_doc_id": "MED-909",
+  "title": "A study on degradation kinetics of ascorbic acid in amla (Phyllanthus emblica L.) during cooking.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A study on degradation kinetics of ascorbic acid in amla (Phyllanthus emblica L.) during cooking.\nThe kinetics of ascorbic acid degradation in amla (Phyllanthus emblica L.) as well as in pure ascorbic acid solutions at initial concentrations present in amla over a temperature range of 50-120 degrees C (steady-state temperature) has been studied. The ascorbic acid degradation followed first-order reaction kinetics where the rate constant increased with an increase in temperature. The temperature dependence of degradation was adequately modeled by the Arrhenius equation. The activation energies were found to be 4.09 kcal/mole for amla and 4.49 kcal/mole for pure vitamin solution. The degradation kinetics of ascorbic acid was also evaluated in normal open pan cooking, pressure-cooking and a newly developed and patented fuel-efficient EcoCooker (unsteady state heating process). A mathematical model was developed using the steady-state kinetic parameters obtained to predict the losses of ascorbic acid from the time-temperature data of the unsteady state heating processing method. The results obtained indicate the ascorbic acid degradation is of a similar order of magnitude in all the methods of cooking.",
+  "sanitized_text": "A study on degradation kinetics of ascorbic acid in amla (Phyllanthus emblica L.) during cooking.\nThe kinetics of ascorbic acid degradation in amla (Phyllanthus emblica L.) as well as in pure ascorbic acid solutions at initial concentrations present in amla over a temperature range of 50-120 degrees C (steady-state temperature) has been studied. The ascorbic acid degradation followed first-order reaction kinetics where the rate constant increased with an increase in temperature. The temperature dependence of degradation was adequately modeled by the Arrhenius equation. The activation energies were found to be 4.09 kcal/mole for amla and 4.49 kcal/mole for pure vitamin solution. The degradation kinetics of ascorbic acid was also evaluated in normal open pan cooking, pressure-cooking and a newly developed and patented fuel-efficient EcoCooker (unsteady state heating process). A mathematical model was developed using the steady-state kinetic parameters obtained to predict the losses of ascorbic acid from the time-temperature data of the unsteady state heating processing method. The results obtained indicate the ascorbic acid degradation is of a similar order of magnitude in all the methods of cooking.",
+  "modified": false,
+  "original_char_count": 1217,
+  "sanitized_char_count": 1217,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1092,
+      "boundary_end": 1217,
+      "context": "A study on degradation kinetics of ascorbic acid in amla (Phyllanthus emblica L.) during cooking. The kinetics of ascorbic acid degradation in amla (Phyllanthus emblica L.) as well as in pure ascorbic acid solutions at initial concentrations present in amla over a temperature range of 50-120 degrees C (steady-state temperature) has been studied. The ascorbic acid degradation followed first-order reaction kinetics where the rate constant increased with an increase in temperature. The temperature dependence of degradation was adequately modeled by the Arrhenius equation. The activation energies were found to be 4.09 kcal/mole for amla and 4.49 kcal/mole for pure vitamin solution. The degradation kinetics of ascorbic acid was also evaluated in normal open pan cooking, pressure-cooking and a newly developed and patented fuel-efficient EcoCooker (unsteady state heating process). A mathematical model was developed using the steady-state kinetic parameters obtained to predict the losses of ascorbic acid from the time-temperature data of the unsteady state heating processing method.",
+      "target": "The results obtained indicate the ascorbic acid degradation is of a similar order of magnitude in all the methods of cooking.",
+      "loss_target": 3.3543715476989746,
+      "loss_target_given_context": 1.8794273138046265,
+      "delta_loss": 1.4749442338943481,
+      "gain_ratio": 0.43970806838798987,
+      "score": -0.43970806838798987,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1538",
+  "source_doc_id": "MED-1538",
+  "title": "A premeal snack of raisins decreases mealtime food intake more than grapes in young children.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A premeal snack of raisins decreases mealtime food intake more than grapes in young children.\nThe effect of a premeal snack of grapes, raisins, or a mix of almonds and raisins, compared with a water control, on food intake (FI) was examined in 8- to 11-year-old normal-weight (15th to 85th percentile) children. Children randomly received 1 of 4 ad libitum (Experiment 1: 13 boys, 13 girls) or fixed-calorie (150 kcal; Experiment 2: 13 boys, 13 girls) treatments, followed by an ad libitum pizza meal 30 min later. Appetite was measured throughout the study, and FI was measured at 30 min. The ad libitum consumption (Experiment 1) of raisins reduced pizza intake (p < 0.037), compared with water (26%), grapes (22%), and the mixed snack (15%). Cumulative energy intake (in kcal: snack + pizza) was lower after water and raisins than after either grapes or the mixed snack (p < 0.031). As a fixed-calorie (150 kcal) snack (Experiment 2), raisins reduced pizza intake, compared with water (∼11%, p = 0.005), and resulted in a cumulative intake similar to water; however, both grapes and the mixed snack resulted in higher cumulative intakes (p < 0.015). Appetite was lower after all caloric ad libitum snacks (p < 0.003) and after fixed amounts of grapes and the mixed snack (p < 0.037), compared with water. In conclusion, consumption of a premeal snack of raisins, but not grapes or a mix of raisins and almonds, reduces meal-time energy intake and does not lead to increased cumulative energy intake in children.",
+  "sanitized_text": "A premeal snack of raisins decreases mealtime food intake more than grapes in young children.\nThe effect of a premeal snack of grapes, raisins, or a mix of almonds and raisins, compared with a water control, on food intake (FI) was examined in 8- to 11-year-old normal-weight (15th to 85th percentile) children. Children randomly received 1 of 4 ad libitum (Experiment 1: 13 boys, 13 girls) or fixed-calorie (150 kcal; Experiment 2: 13 boys, 13 girls) treatments, followed by an ad libitum pizza meal 30 min later. Appetite was measured throughout the study, and FI was measured at 30 min. The ad libitum consumption (Experiment 1) of raisins reduced pizza intake (p < 0.037), compared with water (26%), grapes (22%), and the mixed snack (15%). Cumulative energy intake (in kcal: snack + pizza) was lower after water and raisins than after either grapes or the mixed snack (p < 0.031). As a fixed-calorie (150 kcal) snack (Experiment 2), raisins reduced pizza intake, compared with water (∼11%, p = 0.005), and resulted in a cumulative intake similar to water; however, both grapes and the mixed snack resulted in higher cumulative intakes (p < 0.015). Appetite was lower after all caloric ad libitum snacks (p < 0.003) and after fixed amounts of grapes and the mixed snack (p < 0.037), compared with water. In conclusion, consumption of a premeal snack of raisins, but not grapes or a mix of raisins and almonds, reduces meal-time energy intake and does not lead to increased cumulative energy intake in children.",
+  "modified": false,
+  "original_char_count": 1514,
+  "sanitized_char_count": 1514,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1308,
+      "boundary_end": 1514,
+      "context": "a premeal snack of grapes, raisins, or a mix of almonds and raisins, compared with a water control, on food intake (FI) was examined in 8- to 11-year-old normal-weight (15th to 85th percentile) children. Children randomly received 1 of 4 ad libitum (Experiment 1: 13 boys, 13 girls) or fixed-calorie (150 kcal; Experiment 2: 13 boys, 13 girls) treatments, followed by an ad libitum pizza meal 30 min later. Appetite was measured throughout the study, and FI was measured at 30 min. The ad libitum consumption (Experiment 1) of raisins reduced pizza intake (p < 0.037), compared with water (26%), grapes (22%), and the mixed snack (15%). Cumulative energy intake (in kcal: snack + pizza) was lower after water and raisins than after either grapes or the mixed snack (p < 0.031). As a fixed-calorie (150 kcal) snack (Experiment 2), raisins reduced pizza intake, compared with water (∼11%, p = 0.005), and resulted in a cumulative intake similar to water; however, both grapes and the mixed snack resulted in higher cumulative intakes (p < 0.015). Appetite was lower after all caloric ad libitum snacks (p < 0.003) and after fixed amounts of grapes and the mixed snack (p < 0.037), compared with water.",
+      "target": "In conclusion, consumption of a premeal snack of raisins, but not grapes or a mix of raisins and almonds, reduces meal-time energy intake and does not lead to increased cumulative energy intake in children.",
+      "loss_target": 2.576115369796753,
+      "loss_target_given_context": 1.145689845085144,
+      "delta_loss": 1.4304255247116089,
+      "gain_ratio": 0.555264543460437,
+      "score": -0.555264543460437,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

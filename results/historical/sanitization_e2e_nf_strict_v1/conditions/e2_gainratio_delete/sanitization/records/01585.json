@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3109",
+  "source_doc_id": "MED-3109",
+  "title": "You AhR what you eat: linking diet and immunity.",
+  "original_text": "You AhR what you eat: linking diet and immunity.\nThe aryl hydrocarbon receptor (AhR) is responsible for the toxic effects of environmental pollutants such as dioxin, but little is known about its normal physiological functions. Li et al. (2011) now show that specific dietary compounds present in cruciferous vegetables act through the AhR to promote intestinal immune function, revealing AhR as a critical link between diet and immunity. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "You AhR what you eat: linking diet and immunity.\nThe aryl hydrocarbon receptor (AhR) is responsible for the toxic effects of environmental pollutants such as dioxin, but little is known about its normal physiological functions. Li et al. (2011) now show that specific dietary compounds present in cruciferous vegetables act through the AhR to promote intestinal immune function, revealing AhR as a critical link between diet and immunity.",
+  "modified": true,
+  "original_char_count": 490,
+  "sanitized_char_count": 438,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 439,
+      "boundary_end": 469,
+      "context": "You AhR what you eat: linking diet and immunity. The aryl hydrocarbon receptor (AhR) is responsible for the toxic effects of environmental pollutants such as dioxin, but little is known about its normal physiological functions. Li et al. (2011) now show that specific dietary compounds present in cruciferous vegetables act through the AhR to promote intestinal immune function, revealing AhR as a critical link between diet and immunity.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.1415737867355347,
+      "loss_target_given_context": 1.1809910535812378,
+      "delta_loss": -0.039417266845703125,
+      "gain_ratio": -0.03452888223583117,
+      "score": 0.03452888223583117,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 238,
+      "boundary_end": 438,
+      "context": "You AhR what you eat: linking diet and immunity. The aryl hydrocarbon receptor (AhR) is responsible for the toxic effects of environmental pollutants such as dioxin, but little is known about its normal physiological functions. Li et al.",
+      "target": "(2011) now show that specific dietary compounds present in cruciferous vegetables act through the AhR to promote intestinal immune function, revealing AhR as a critical link between diet and immunity.",
+      "loss_target": 2.938464641571045,
+      "loss_target_given_context": 1.921311378479004,
+      "delta_loss": 1.017153263092041,
+      "gain_ratio": 0.3461512684897314,
+      "score": -0.3461512684897314,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 439,
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "score": 0.03452888223583117,
+      "deleted_suffix": "Copyright © 2011 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

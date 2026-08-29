@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2928",
+  "source_doc_id": "MED-2928",
+  "title": "ASH 50th Anniversary Review: Human natural killer cells",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "ASH 50th Anniversary Review: Human natural killer cells\nNatural killer (NK) cells were discovered more than 30 years ago. NK cells are large granular lymphocytes that belong to the innate immune system because unlike T or B lymphocytes of the adaptive or antigen-specific immune system, NK cells do not rearrange T-cell receptor or immunoglobulin genes from their germline configuration. During the past 2 decades there has been a substantial gain in our understanding of what and how NK-cells “see,” lending important insights into their functions and purpose in normal immune surveillance. The most recent discoveries in NK-cell receptor biology have fueled translational research that has led to remarkable results in treating human malignancy.",
+  "sanitized_text": "ASH 50th Anniversary Review: Human natural killer cells\nNatural killer (NK) cells were discovered more than 30 years ago. NK cells are large granular lymphocytes that belong to the innate immune system because unlike T or B lymphocytes of the adaptive or antigen-specific immune system, NK cells do not rearrange T-cell receptor or immunoglobulin genes from their germline configuration. During the past 2 decades there has been a substantial gain in our understanding of what and how NK-cells “see,” lending important insights into their functions and purpose in normal immune surveillance. The most recent discoveries in NK-cell receptor biology have fueled translational research that has led to remarkable results in treating human malignancy.",
+  "modified": false,
+  "original_char_count": 747,
+  "sanitized_char_count": 747,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 592,
+      "boundary_end": 747,
+      "context": "ASH 50th Anniversary Review: Human natural killer cells Natural killer (NK) cells were discovered more than 30 years ago. NK cells are large granular lymphocytes that belong to the innate immune system because unlike T or B lymphocytes of the adaptive or antigen-specific immune system, NK cells do not rearrange T-cell receptor or immunoglobulin genes from their germline configuration. During the past 2 decades there has been a substantial gain in our understanding of what and how NK-cells “see,” lending important insights into their functions and purpose in normal immune surveillance.",
+      "target": "The most recent discoveries in NK-cell receptor biology have fueled translational research that has led to remarkable results in treating human malignancy.",
+      "loss_target": 9.487505912780762,
+      "loss_target_given_context": 4.795217514038086,
+      "delta_loss": 4.692288398742676,
+      "gain_ratio": 0.4945755440765126,
+      "score": -0.4945755440765126,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

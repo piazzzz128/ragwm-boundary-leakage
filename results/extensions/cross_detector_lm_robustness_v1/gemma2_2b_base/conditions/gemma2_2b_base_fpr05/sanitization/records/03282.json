@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5226",
+  "source_doc_id": "MED-5226",
+  "title": "Effect of diet on excretion of estrogens in pre- and postmenopausal women.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of diet on excretion of estrogens in pre- and postmenopausal women.\nFecal, urinary, and plasma estrogens and plasma androgens were studied in healthy pre- and postmenopausal vegetarian and omnivorous women. Dietary histories of the subjects revealed that omnivores consumed a higher percentage of total protein and fat from animal sources. The total 72-hr fecal excretion as measured by dry weight was higher for vegetarians. Preliminary results indicate that vegetarian women excrete 2 to 3 times more estrogens in feces than do omnivores and that omnivores have about 50% higher mean plasma level of unconjugated estrone and estradiol than vegetarians. Estriol-3-glucuronide, a compound that is formed upon reabsorption of free estriol from the intestine, is found in lower concentrations in the urine of vegetarians. These data suggest that in vegetarians a greater amount of the biliary estrogens escape reabsorption and are excreted with the feces. The differences in estrogen metabolism may explain the lower incidence of breast cancer in vegetarian women.",
+  "sanitized_text": "Effect of diet on excretion of estrogens in pre- and postmenopausal women.\nFecal, urinary, and plasma estrogens and plasma androgens were studied in healthy pre- and postmenopausal vegetarian and omnivorous women. Dietary histories of the subjects revealed that omnivores consumed a higher percentage of total protein and fat from animal sources. The total 72-hr fecal excretion as measured by dry weight was higher for vegetarians. Preliminary results indicate that vegetarian women excrete 2 to 3 times more estrogens in feces than do omnivores and that omnivores have about 50% higher mean plasma level of unconjugated estrone and estradiol than vegetarians. Estriol-3-glucuronide, a compound that is formed upon reabsorption of free estriol from the intestine, is found in lower concentrations in the urine of vegetarians. These data suggest that in vegetarians a greater amount of the biliary estrogens escape reabsorption and are excreted with the feces. The differences in estrogen metabolism may explain the lower incidence of breast cancer in vegetarian women.",
+  "modified": false,
+  "original_char_count": 1069,
+  "sanitized_char_count": 1069,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 961,
+      "boundary_end": 1069,
+      "context": "Effect of diet on excretion of estrogens in pre- and postmenopausal women. Fecal, urinary, and plasma estrogens and plasma androgens were studied in healthy pre- and postmenopausal vegetarian and omnivorous women. Dietary histories of the subjects revealed that omnivores consumed a higher percentage of total protein and fat from animal sources. The total 72-hr fecal excretion as measured by dry weight was higher for vegetarians. Preliminary results indicate that vegetarian women excrete 2 to 3 times more estrogens in feces than do omnivores and that omnivores have about 50% higher mean plasma level of unconjugated estrone and estradiol than vegetarians. Estriol-3-glucuronide, a compound that is formed upon reabsorption of free estriol from the intestine, is found in lower concentrations in the urine of vegetarians. These data suggest that in vegetarians a greater amount of the biliary estrogens escape reabsorption and are excreted with the feces.",
+      "target": "The differences in estrogen metabolism may explain the lower incidence of breast cancer in vegetarian women.",
+      "loss_target": 9.140899658203125,
+      "loss_target_given_context": 3.303560733795166,
+      "delta_loss": 5.837338924407959,
+      "gain_ratio": 0.6385956681156082,
+      "score": -0.6385956681156082,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

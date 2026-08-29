@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1873",
+  "source_doc_id": "MED-1873",
+  "title": "Dietary saturated fat intake is negatively associated with weight maintenance among the PREMIER participants.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary saturated fat intake is negatively associated with weight maintenance among the PREMIER participants.\nResearch finding on the composition of macronutrient intakes on body weight has not been consistent. Furthermore, little research has examined the impact of subcomponents of macronutrients such as saturated fat or plant protein on body weight. The purpose of this report was to examine the impact of saturated fat, animal and plant protein, and other macronutrient intakes at the end of an intensive intervention on subsequent follow-up body weight. This is a secondary, observational data analysis using data from PREMIER, an 18-month randomized clinical trial that enrolled a total of 810 participants. Participants completed group and individual sessions designed to help them improve blood pressure (BP) control by making lifestyle changes. Dietary intakes were assessed by two 24-h diet recalls at baseline, 6, and 18 months. Body weight and physical fitness were monitored regularly. Regression models were used to examine the impact of animal or plant protein and other macronutrient intakes on subsequent body weight. After controlling for potential confounders, none of the calorie-contributing nutrient intakes at baseline was associated with subsequent weight at 6 or 18 months. However, a greater intake of saturated fat at 6 months was associated with higher weight at 18 months (P = 0.002). A greater intake of plant protein at 6 month was marginally associated with lower absolute weight at 18 month (P = 0.069). We conclude that macronutrient intakes before the intervention were not associated with subsequent body weight at 6 or 18 months. However, a lower saturated fat intake achieved after 6-month intervention predicts a lower body weight at 18 months and thus greater weight-loss maintenance.",
+  "sanitized_text": "Dietary saturated fat intake is negatively associated with weight maintenance among the PREMIER participants.\nResearch finding on the composition of macronutrient intakes on body weight has not been consistent. Furthermore, little research has examined the impact of subcomponents of macronutrients such as saturated fat or plant protein on body weight. The purpose of this report was to examine the impact of saturated fat, animal and plant protein, and other macronutrient intakes at the end of an intensive intervention on subsequent follow-up body weight. This is a secondary, observational data analysis using data from PREMIER, an 18-month randomized clinical trial that enrolled a total of 810 participants. Participants completed group and individual sessions designed to help them improve blood pressure (BP) control by making lifestyle changes. Dietary intakes were assessed by two 24-h diet recalls at baseline, 6, and 18 months. Body weight and physical fitness were monitored regularly. Regression models were used to examine the impact of animal or plant protein and other macronutrient intakes on subsequent body weight. After controlling for potential confounders, none of the calorie-contributing nutrient intakes at baseline was associated with subsequent weight at 6 or 18 months. However, a greater intake of saturated fat at 6 months was associated with higher weight at 18 months (P = 0.002). A greater intake of plant protein at 6 month was marginally associated with lower absolute weight at 18 month (P = 0.069). We conclude that macronutrient intakes before the intervention were not associated with subsequent body weight at 6 or 18 months. However, a lower saturated fat intake achieved after 6-month intervention predicts a lower body weight at 18 months and thus greater weight-loss maintenance.",
+  "modified": false,
+  "original_char_count": 1825,
+  "sanitized_char_count": 1825,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1668,
+      "boundary_end": 1825,
+      "context": "intakes at the end of an intensive intervention on subsequent follow-up body weight. This is a secondary, observational data analysis using data from PREMIER, an 18-month randomized clinical trial that enrolled a total of 810 participants. Participants completed group and individual sessions designed to help them improve blood pressure (BP) control by making lifestyle changes. Dietary intakes were assessed by two 24-h diet recalls at baseline, 6, and 18 months. Body weight and physical fitness were monitored regularly. Regression models were used to examine the impact of animal or plant protein and other macronutrient intakes on subsequent body weight. After controlling for potential confounders, none of the calorie-contributing nutrient intakes at baseline was associated with subsequent weight at 6 or 18 months. However, a greater intake of saturated fat at 6 months was associated with higher weight at 18 months (P = 0.002). A greater intake of plant protein at 6 month was marginally associated with lower absolute weight at 18 month (P = 0.069). We conclude that macronutrient intakes before the intervention were not associated with subsequent body weight at 6 or 18 months.",
+      "target": "However, a lower saturated fat intake achieved after 6-month intervention predicts a lower body weight at 18 months and thus greater weight-loss maintenance.",
+      "loss_target": 3.2724626064300537,
+      "loss_target_given_context": 1.8141109943389893,
+      "delta_loss": 1.4583516120910645,
+      "gain_ratio": 0.445643476330502,
+      "score": -0.445643476330502,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

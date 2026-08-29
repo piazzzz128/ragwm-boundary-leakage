@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4940",
+  "source_doc_id": "MED-4940",
+  "title": "2,3,7,8-Tetrachlorodibenzo-p-dioxin in maternal breast milk and newborn head circumference.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "2,3,7,8-Tetrachlorodibenzo-p-dioxin in maternal breast milk and newborn head circumference.\nDioxins are known to affect infant growth and neurodevelopment in both humans and animals. In this study, we examined the relationship between neonatal head circumference, which is related to fetal brain development, and the concentration of dioxins in breast milk as an indicator of maternal exposure. A total of 42 milk samples were obtained on the fifth to eighth postpartum day from mothers in Japan exposed to dioxins in the environment. The levels of seven dioxins and 10 furan isomers were measured in each milk sample using an HR-GC/MS system. The relationships between the concentration of each dioxin isomer and newborn size, including head circumference, were then investigated after adjustment for confounding factors. The concentration of 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD), the most toxic dioxin isomer, negatively correlated with newborn head circumference, even after adjustment for gestational age, infant sex, parity and other confounding factors. However, there were no significant relationships between the concentration of other dioxin and furan isomers in maternal breast milk and infant height, weight and chest circumference at birth. These facts suggested that fetal brain development might be influenced by maternal exposure to TCDD in the environment.",
+  "sanitized_text": "2,3,7,8-Tetrachlorodibenzo-p-dioxin in maternal breast milk and newborn head circumference.\nDioxins are known to affect infant growth and neurodevelopment in both humans and animals. In this study, we examined the relationship between neonatal head circumference, which is related to fetal brain development, and the concentration of dioxins in breast milk as an indicator of maternal exposure. A total of 42 milk samples were obtained on the fifth to eighth postpartum day from mothers in Japan exposed to dioxins in the environment. The levels of seven dioxins and 10 furan isomers were measured in each milk sample using an HR-GC/MS system. The relationships between the concentration of each dioxin isomer and newborn size, including head circumference, were then investigated after adjustment for confounding factors. The concentration of 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD), the most toxic dioxin isomer, negatively correlated with newborn head circumference, even after adjustment for gestational age, infant sex, parity and other confounding factors. However, there were no significant relationships between the concentration of other dioxin and furan isomers in maternal breast milk and infant height, weight and chest circumference at birth. These facts suggested that fetal brain development might be influenced by maternal exposure to TCDD in the environment.",
+  "modified": false,
+  "original_char_count": 1378,
+  "sanitized_char_count": 1378,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1259,
+      "boundary_end": 1378,
+      "context": "and newborn head circumference. Dioxins are known to affect infant growth and neurodevelopment in both humans and animals. In this study, we examined the relationship between neonatal head circumference, which is related to fetal brain development, and the concentration of dioxins in breast milk as an indicator of maternal exposure. A total of 42 milk samples were obtained on the fifth to eighth postpartum day from mothers in Japan exposed to dioxins in the environment. The levels of seven dioxins and 10 furan isomers were measured in each milk sample using an HR-GC/MS system. The relationships between the concentration of each dioxin isomer and newborn size, including head circumference, were then investigated after adjustment for confounding factors. The concentration of 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD), the most toxic dioxin isomer, negatively correlated with newborn head circumference, even after adjustment for gestational age, infant sex, parity and other confounding factors. However, there were no significant relationships between the concentration of other dioxin and furan isomers in maternal breast milk and infant height, weight and chest circumference at birth.",
+      "target": "These facts suggested that fetal brain development might be influenced by maternal exposure to TCDD in the environment.",
+      "loss_target": 3.301649570465088,
+      "loss_target_given_context": 1.8132461309432983,
+      "delta_loss": 1.4884034395217896,
+      "gain_ratio": 0.450806000986993,
+      "score": -0.450806000986993,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

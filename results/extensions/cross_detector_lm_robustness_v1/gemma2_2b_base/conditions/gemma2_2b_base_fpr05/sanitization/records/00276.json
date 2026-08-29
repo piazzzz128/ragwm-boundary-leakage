@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1344",
+  "source_doc_id": "MED-1344",
+  "title": "Deception as treatment: the case of depression.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Deception as treatment: the case of depression.\nIs it ever right to prescribe placebos to patients in clinical practice? The General Medical Council is ambivalent about the issue; the American Medical Association asserts that placebos can be administered only if the patient is (somehow) 'informed'. The potential problem with placebos is that they may involve deception: indeed, if this is the case, an ethical tension arises over the patient's autonomy and the physician's requirement to be open and honest, and the notion that medical care should be the primary concern. This paper examines the case of depression as an entry point for understanding the complexities of the prescription of placebos. Recent important meta-analyses of antidepressants claim that they are not significantly more effective in a clinical setting than placebos. Given that antidepressants have numerous adverse side effects and are hugely expensive, this provocative research has serious potential ethical and practical implications for patients and medical providers. Should placebos be prescribed in place of antidepressants? The case of depression highlights another important issue which medical ethical codes have hitherto overlooked: well-being is not synonymous with being realistic about oneself, one's circumstances and the future. While severely depressed individuals are unduly pessimistic about themselves and the world around them, treatment of depressed individuals can be deemed successful when patients have successfully attained those positive illusions that are indicative of psychological health. This is exactly what successful psychological treatments of depression seem to achieve. It is therefore possible that there may be a limited unavoidable role for deception in medicine.",
+  "sanitized_text": "Deception as treatment: the case of depression.\nIs it ever right to prescribe placebos to patients in clinical practice? The General Medical Council is ambivalent about the issue; the American Medical Association asserts that placebos can be administered only if the patient is (somehow) 'informed'. The potential problem with placebos is that they may involve deception: indeed, if this is the case, an ethical tension arises over the patient's autonomy and the physician's requirement to be open and honest, and the notion that medical care should be the primary concern. This paper examines the case of depression as an entry point for understanding the complexities of the prescription of placebos. Recent important meta-analyses of antidepressants claim that they are not significantly more effective in a clinical setting than placebos. Given that antidepressants have numerous adverse side effects and are hugely expensive, this provocative research has serious potential ethical and practical implications for patients and medical providers. Should placebos be prescribed in place of antidepressants? The case of depression highlights another important issue which medical ethical codes have hitherto overlooked: well-being is not synonymous with being realistic about oneself, one's circumstances and the future. While severely depressed individuals are unduly pessimistic about themselves and the world around them, treatment of depressed individuals can be deemed successful when patients have successfully attained those positive illusions that are indicative of psychological health. This is exactly what successful psychological treatments of depression seem to achieve. It is therefore possible that there may be a limited unavoidable role for deception in medicine.",
+  "modified": false,
+  "original_char_count": 1781,
+  "sanitized_char_count": 1781,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1685,
+      "boundary_end": 1781,
+      "context": "to be open and honest, and the notion that medical care should be the primary concern. This paper examines the case of depression as an entry point for understanding the complexities of the prescription of placebos. Recent important meta-analyses of antidepressants claim that they are not significantly more effective in a clinical setting than placebos. Given that antidepressants have numerous adverse side effects and are hugely expensive, this provocative research has serious potential ethical and practical implications for patients and medical providers. Should placebos be prescribed in place of antidepressants? The case of depression highlights another important issue which medical ethical codes have hitherto overlooked: well-being is not synonymous with being realistic about oneself, one's circumstances and the future. While severely depressed individuals are unduly pessimistic about themselves and the world around them, treatment of depressed individuals can be deemed successful when patients have successfully attained those positive illusions that are indicative of psychological health. This is exactly what successful psychological treatments of depression seem to achieve.",
+      "target": "It is therefore possible that there may be a limited unavoidable role for deception in medicine.",
+      "loss_target": 8.030765533447266,
+      "loss_target_given_context": 4.8214311599731445,
+      "delta_loss": 3.209334373474121,
+      "gain_ratio": 0.39962994313650324,
+      "score": -0.39962994313650324,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

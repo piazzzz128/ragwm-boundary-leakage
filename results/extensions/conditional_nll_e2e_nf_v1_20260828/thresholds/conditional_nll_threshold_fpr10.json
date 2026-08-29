@@ -1,0 +1,21 @@
+{
+  "method": "conditional_nll",
+  "budget_id": "fpr10",
+  "target_clean_fpr": 0.1,
+  "threshold": 2.4420993328094482,
+  "score_direction": "larger_is_more_suspicious",
+  "same_target_positions": "t2_through_tn",
+  "seed": 20260714,
+  "group_split": true,
+  "calibration_fraction": 0.7,
+  "calibration_group_count": 164,
+  "holdout_group_count": 53,
+  "calibration_record_count": 169,
+  "holdout_record_count": 54,
+  "calibration_empirical_fpr": 0.10059171597633136,
+  "holdout_empirical_fpr": 0.14814814814814814,
+  "diagnostic_injected_tpr": 0.9461883408071748,
+  "score_file": "/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/localization/nfcorpus_same_position_current_scores.json",
+  "score_file_sha256": "e2731376e3ee937df81c6cfb71192f8eafffc943932c3987fcbe2c80e0757fc3",
+  "freeze_guard": "threshold_not_tuned_with_verifier_or_retrieval_utility"
+}

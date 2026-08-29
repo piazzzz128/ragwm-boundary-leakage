@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2816",
+  "source_doc_id": "MED-2816",
+  "title": "Plant-derived health: the effects of turmeric and curcuminoids.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Plant-derived health: the effects of turmeric and curcuminoids.\nPlants contain numerous polyphenols, which have been shown to reduce inflammation and hereby to increase resistance to disease. Examples of such polyphenols are isothiocyanates in cabbage and broccoli, epigallocatechin in green tee, capsaicin in chili peppers, chalones, rutin and naringenin in apples, resveratrol in red wine and fresh peanuts and curcumin/curcuminoids in turmeric. Most diseases are maintained by a sustained discreet but obvious increased systemic inflammation. Many studies suggest that the effect of treatment can be improved by a combination of restriction in intake of proinflammatory molecules such as advanced glycation end products (AGE), advanced lipoperoxidation end products (ALE), and rich supply of antiinflammatory molecules such as plant polyphenols. To the polyphenols with a bulk of experimental documentation belong the curcuminoid family and especially its main ingredient, curcumin. This review summarizes the present knowledge about these turmericderived ingredients, which have proven to be strong antioxidants and inhibitors of cyclooxigenase-2 (COX-2), lipoxygenase (LOX) and nuclear factor kappa B (NF-kappaB) but also AGE. A plethora of clinical effects are reported in various experimental diseases, but clinical studies in humans are few. It is suggested that supply of polyphenols and particularly curcuminoids might be value as complement to pharmaceutical treatment, but also prebiotic treatment, in conditions proven to be rather therapy-resistant such as Crohn's, long-stayed patients in intensive care units, but also in conditions such as cancer, liver cirrhosis, chronic renal disease, chronic obstructive lung disease, diabetes and Alzheimer's disease.",
+  "sanitized_text": "Plant-derived health: the effects of turmeric and curcuminoids.\nPlants contain numerous polyphenols, which have been shown to reduce inflammation and hereby to increase resistance to disease. Examples of such polyphenols are isothiocyanates in cabbage and broccoli, epigallocatechin in green tee, capsaicin in chili peppers, chalones, rutin and naringenin in apples, resveratrol in red wine and fresh peanuts and curcumin/curcuminoids in turmeric. Most diseases are maintained by a sustained discreet but obvious increased systemic inflammation. Many studies suggest that the effect of treatment can be improved by a combination of restriction in intake of proinflammatory molecules such as advanced glycation end products (AGE), advanced lipoperoxidation end products (ALE), and rich supply of antiinflammatory molecules such as plant polyphenols. To the polyphenols with a bulk of experimental documentation belong the curcuminoid family and especially its main ingredient, curcumin. This review summarizes the present knowledge about these turmericderived ingredients, which have proven to be strong antioxidants and inhibitors of cyclooxigenase-2 (COX-2), lipoxygenase (LOX) and nuclear factor kappa B (NF-kappaB) but also AGE. A plethora of clinical effects are reported in various experimental diseases, but clinical studies in humans are few.",
+  "modified": true,
+  "original_char_count": 1772,
+  "sanitized_char_count": 1349,
+  "deleted_char_count": 423,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1350,
+      "boundary_end": 1772,
+      "context": "hereby to increase resistance to disease. Examples of such polyphenols are isothiocyanates in cabbage and broccoli, epigallocatechin in green tee, capsaicin in chili peppers, chalones, rutin and naringenin in apples, resveratrol in red wine and fresh peanuts and curcumin/curcuminoids in turmeric. Most diseases are maintained by a sustained discreet but obvious increased systemic inflammation. Many studies suggest that the effect of treatment can be improved by a combination of restriction in intake of proinflammatory molecules such as advanced glycation end products (AGE), advanced lipoperoxidation end products (ALE), and rich supply of antiinflammatory molecules such as plant polyphenols. To the polyphenols with a bulk of experimental documentation belong the curcuminoid family and especially its main ingredient, curcumin. This review summarizes the present knowledge about these turmericderived ingredients, which have proven to be strong antioxidants and inhibitors of cyclooxigenase-2 (COX-2), lipoxygenase (LOX) and nuclear factor kappa B (NF-kappaB) but also AGE. A plethora of clinical effects are reported in various experimental diseases, but clinical studies in humans are few.",
+      "target": "It is suggested that supply of polyphenols and particularly curcuminoids might be value as complement to pharmaceutical treatment, but also prebiotic treatment, in conditions proven to be rather therapy-resistant such as Crohn's, long-stayed patients in intensive care units, but also in conditions such as cancer, liver cirrhosis, chronic renal disease, chronic obstructive lung disease, diabetes and Alzheimer's disease.",
+      "loss_target": 3.0778861045837402,
+      "loss_target_given_context": 2.564206123352051,
+      "delta_loss": 0.5136799812316895,
+      "gain_ratio": 0.16689375882580315,
+      "score": -0.16689375882580315,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1232,
+      "boundary_end": 1349,
+      "context": "of turmeric and curcuminoids. Plants contain numerous polyphenols, which have been shown to reduce inflammation and hereby to increase resistance to disease. Examples of such polyphenols are isothiocyanates in cabbage and broccoli, epigallocatechin in green tee, capsaicin in chili peppers, chalones, rutin and naringenin in apples, resveratrol in red wine and fresh peanuts and curcumin/curcuminoids in turmeric. Most diseases are maintained by a sustained discreet but obvious increased systemic inflammation. Many studies suggest that the effect of treatment can be improved by a combination of restriction in intake of proinflammatory molecules such as advanced glycation end products (AGE), advanced lipoperoxidation end products (ALE), and rich supply of antiinflammatory molecules such as plant polyphenols. To the polyphenols with a bulk of experimental documentation belong the curcuminoid family and especially its main ingredient, curcumin. This review summarizes the present knowledge about these turmericderived ingredients, which have proven to be strong antioxidants and inhibitors of cyclooxigenase-2 (COX-2), lipoxygenase (LOX) and nuclear factor kappa B (NF-kappaB) but also AGE.",
+      "target": "A plethora of clinical effects are reported in various experimental diseases, but clinical studies in humans are few.",
+      "loss_target": 3.8614695072174072,
+      "loss_target_given_context": 2.7933309078216553,
+      "delta_loss": 1.068138599395752,
+      "gain_ratio": 0.27661453687496745,
+      "score": -0.27661453687496745,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1350,
+      "target": "It is suggested that supply of polyphenols and particularly curcuminoids might be value as complement to pharmaceutical treatment, but also prebiotic treatment, in conditions proven to be rather therapy-resistant such as Crohn's, long-stayed patients in intensive care units, but also in conditions such as cancer, liver cirrhosis, chronic renal disease, chronic obstructive lung disease, diabetes and Alzheimer's disease.",
+      "score": -0.16689375882580315,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "It is suggested that supply of polyphenols and particularly curcuminoids might be value as complement to pharmaceutical treatment, but also prebiotic treatment, in conditions proven to be rather therapy-resistant such as Crohn's, long-stayed patients in intensive care units, but also in conditions such as cancer, liver cirrhosis, chronic renal disease, chronic obstructive lung disease, diabetes and Alzheimer's disease.",
+      "deleted_char_count": 422
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

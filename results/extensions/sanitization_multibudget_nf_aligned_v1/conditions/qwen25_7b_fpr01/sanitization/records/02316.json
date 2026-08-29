@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4100",
+  "source_doc_id": "MED-4100",
+  "title": "The deadly quartet. Upper-body obesity, glucose intolerance, hypertriglyceridemia, and hypertension.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The deadly quartet. Upper-body obesity, glucose intolerance, hypertriglyceridemia, and hypertension.\nThe contribution of obesity to cardiovascular risk has not been adequately appreciated because of a failure to recognize the involvement of upper-body predominance of body weight with hypertension, diabetes, and hypertriglyceridemia even in the absence of significant overall obesity. This article examines the evidence that upper-body obesity, as usually induced by caloric excess in the presence of androgens, mediates these problems by way of hyperinsulinemia. Because of these interrelationships, there is a need to identify and prevent upper-body obesity or, failing that, to provide therapies that will control the associated problems without aggravating hyperinsulinemia.",
+  "sanitized_text": "The deadly quartet. Upper-body obesity, glucose intolerance, hypertriglyceridemia, and hypertension.\nThe contribution of obesity to cardiovascular risk has not been adequately appreciated because of a failure to recognize the involvement of upper-body predominance of body weight with hypertension, diabetes, and hypertriglyceridemia even in the absence of significant overall obesity. This article examines the evidence that upper-body obesity, as usually induced by caloric excess in the presence of androgens, mediates these problems by way of hyperinsulinemia. Because of these interrelationships, there is a need to identify and prevent upper-body obesity or, failing that, to provide therapies that will control the associated problems without aggravating hyperinsulinemia.",
+  "modified": false,
+  "original_char_count": 779,
+  "sanitized_char_count": 779,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 565,
+      "boundary_end": 779,
+      "context": "The deadly quartet. Upper-body obesity, glucose intolerance, hypertriglyceridemia, and hypertension. The contribution of obesity to cardiovascular risk has not been adequately appreciated because of a failure to recognize the involvement of upper-body predominance of body weight with hypertension, diabetes, and hypertriglyceridemia even in the absence of significant overall obesity. This article examines the evidence that upper-body obesity, as usually induced by caloric excess in the presence of androgens, mediates these problems by way of hyperinsulinemia.",
+      "target": "Because of these interrelationships, there is a need to identify and prevent upper-body obesity or, failing that, to provide therapies that will control the associated problems without aggravating hyperinsulinemia.",
+      "loss_target": 3.081803321838379,
+      "loss_target_given_context": 2.0097784996032715,
+      "delta_loss": 1.0720248222351074,
+      "gain_ratio": 0.3478563393836618,
+      "score": -0.3478563393836618,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5324",
+  "source_doc_id": "MED-5324",
+  "title": "Effects of a high-fat meal on pulmonary function in healthy subjects.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of a high-fat meal on pulmonary function in healthy subjects.\nObesity has important health consequences, including elevating risk for heart disease, diabetes, and cancer. A high-fat diet is known to contribute to obesity. Little is known regarding the effect of a high-fat diet on pulmonary function, despite the dramatic increase in the prevalence of respiratory ailments (e.g., asthma). The purpose of our study was to determine whether a high-fat meal (HFM) would increase airway inflammation and decrease pulmonary function in healthy subjects. Pulmonary function tests (PFT) (forced expiratory volume in 1-s, forced vital capacity, forced expiratory flow at 25-75% of vital capacity) and exhaled nitric oxide (eNO; airway inflammation) were performed in 20 healthy (10 men, 10 women), inactive subjects (age 21.9 +/- 0.4 years) pre and 2 h post HFM (1 g fat/1 kg body weight; 74.2 +/- 4.1 g fat). Total cholesterol, triglycerides, and C-reactive protein (CRP; systemic inflammation) were determined via a venous blood sample pre and post HFM. Body composition was measured via dual energy X-ray absorptiometry. The HFM significantly increased total cholesterol by 4 +/- 1%, and triglycerides by 93 +/- 3%. ENO also increased (p < 0.05) due to the HFM by 19 +/- 1% (pre 17.2 +/- 1.6; post 20.6 +/- 1.7 ppb). ENO and triglycerides were significantly related at baseline and post-HFM (r = 0.82, 0.72 respectively). Despite the increased eNO, PFT or CRP did not change (p > 0.05) with the HFM. These results demonstrate that a HFM, which leads to significant increases in total cholesterol, and especially triglycerides, increases exhaled NO. This suggests that a high-fat diet may contribute to chronic inflammatory diseases of the airway and lung.",
+  "sanitized_text": "Effects of a high-fat meal on pulmonary function in healthy subjects.\nObesity has important health consequences, including elevating risk for heart disease, diabetes, and cancer. A high-fat diet is known to contribute to obesity. Little is known regarding the effect of a high-fat diet on pulmonary function, despite the dramatic increase in the prevalence of respiratory ailments (e.g., asthma). The purpose of our study was to determine whether a high-fat meal (HFM) would increase airway inflammation and decrease pulmonary function in healthy subjects. Pulmonary function tests (PFT) (forced expiratory volume in 1-s, forced vital capacity, forced expiratory flow at 25-75% of vital capacity) and exhaled nitric oxide (eNO; airway inflammation) were performed in 20 healthy (10 men, 10 women), inactive subjects (age 21.9 +/- 0.4 years) pre and 2 h post HFM (1 g fat/1 kg body weight; 74.2 +/- 4.1 g fat). Total cholesterol, triglycerides, and C-reactive protein (CRP; systemic inflammation) were determined via a venous blood sample pre and post HFM. Body composition was measured via dual energy X-ray absorptiometry. The HFM significantly increased total cholesterol by 4 +/- 1%, and triglycerides by 93 +/- 3%. ENO also increased (p < 0.05) due to the HFM by 19 +/- 1% (pre 17.2 +/- 1.6; post 20.6 +/- 1.7 ppb). ENO and triglycerides were significantly related at baseline and post-HFM (r = 0.82, 0.72 respectively). Despite the increased eNO, PFT or CRP did not change (p > 0.05) with the HFM. These results demonstrate that a HFM, which leads to significant increases in total cholesterol, and especially triglycerides, increases exhaled NO. This suggests that a high-fat diet may contribute to chronic inflammatory diseases of the airway and lung.",
+  "modified": false,
+  "original_char_count": 1758,
+  "sanitized_char_count": 1758,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1652,
+      "boundary_end": 1758,
+      "context": "meal (HFM) would increase airway inflammation and decrease pulmonary function in healthy subjects. Pulmonary function tests (PFT) (forced expiratory volume in 1-s, forced vital capacity, forced expiratory flow at 25-75% of vital capacity) and exhaled nitric oxide (eNO; airway inflammation) were performed in 20 healthy (10 men, 10 women), inactive subjects (age 21.9 +/- 0.4 years) pre and 2 h post HFM (1 g fat/1 kg body weight; 74.2 +/- 4.1 g fat). Total cholesterol, triglycerides, and C-reactive protein (CRP; systemic inflammation) were determined via a venous blood sample pre and post HFM. Body composition was measured via dual energy X-ray absorptiometry. The HFM significantly increased total cholesterol by 4 +/- 1%, and triglycerides by 93 +/- 3%. ENO also increased (p < 0.05) due to the HFM by 19 +/- 1% (pre 17.2 +/- 1.6; post 20.6 +/- 1.7 ppb). ENO and triglycerides were significantly related at baseline and post-HFM (r = 0.82, 0.72 respectively). Despite the increased eNO, PFT or CRP did not change (p > 0.05) with the HFM. These results demonstrate that a HFM, which leads to significant increases in total cholesterol, and especially triglycerides, increases exhaled NO.",
+      "target": "This suggests that a high-fat diet may contribute to chronic inflammatory diseases of the airway and lung.",
+      "loss_target": 2.8486154079437256,
+      "loss_target_given_context": 1.5440256595611572,
+      "delta_loss": 1.3045897483825684,
+      "gain_ratio": 0.45797328229867545,
+      "score": -0.45797328229867545,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,176 @@
+{
+  "status": "complete",
+  "conditional_localization": {
+    "roc_auc": 0.9770757505680789,
+    "pr_auc": 0.977796839450465,
+    "best_f1": 0.926829268292683,
+    "tpr_at_fpr_0.01": 0.7085201793721974,
+    "tpr_at_fpr_0.05": 0.8699551569506726,
+    "tpr_at_fpr_0.1": 0.9417040358744395
+  },
+  "budget_edits": {
+    "fpr01": {
+      "documents": 101,
+      "characters": 9874
+    },
+    "fpr025": {
+      "documents": 138,
+      "characters": 15578
+    },
+    "fpr05": {
+      "documents": 285,
+      "characters": 42944
+    },
+    "fpr10": {
+      "documents": 563,
+      "characters": 112382
+    }
+  },
+  "unified_verifier": {
+    "watermarked_wsn": 25,
+    "oracle_wsn": 4,
+    "conditions_vs_watermarked": {
+      "oracle_restore": {
+        "wsn": 4,
+        "yes_to_no": 23,
+        "no_to_yes": 2,
+        "mcnemar_exact_two_sided_p": 1.9431114196777344e-05,
+        "paired_attack_success_rate_among_baseline_positive": 0.92
+      },
+      "gainratio_fpr01": {
+        "wsn": 20,
+        "yes_to_no": 5,
+        "no_to_yes": 0,
+        "mcnemar_exact_two_sided_p": 0.0625,
+        "paired_attack_success_rate_among_baseline_positive": 0.2
+      },
+      "gainratio_fpr025": {
+        "wsn": 22,
+        "yes_to_no": 3,
+        "no_to_yes": 0,
+        "mcnemar_exact_two_sided_p": 0.25,
+        "paired_attack_success_rate_among_baseline_positive": 0.12
+      },
+      "gainratio_fpr05": {
+        "wsn": 21,
+        "yes_to_no": 4,
+        "no_to_yes": 0,
+        "mcnemar_exact_two_sided_p": 0.125,
+        "paired_attack_success_rate_among_baseline_positive": 0.16
+      },
+      "gainratio_fpr10": {
+        "wsn": 17,
+        "yes_to_no": 8,
+        "no_to_yes": 0,
+        "mcnemar_exact_two_sided_p": 0.0078125,
+        "paired_attack_success_rate_among_baseline_positive": 0.32
+      },
+      "conditional_nll_fpr01": {
+        "wsn": 20,
+        "yes_to_no": 6,
+        "no_to_yes": 1,
+        "mcnemar_exact_two_sided_p": 0.125,
+        "paired_attack_success_rate_among_baseline_positive": 0.24
+      },
+      "conditional_nll_fpr025": {
+        "wsn": 17,
+        "yes_to_no": 8,
+        "no_to_yes": 0,
+        "mcnemar_exact_two_sided_p": 0.0078125,
+        "paired_attack_success_rate_among_baseline_positive": 0.32
+      },
+      "conditional_nll_fpr05": {
+        "wsn": 15,
+        "yes_to_no": 10,
+        "no_to_yes": 0,
+        "mcnemar_exact_two_sided_p": 0.001953125,
+        "paired_attack_success_rate_among_baseline_positive": 0.4
+      },
+      "conditional_nll_fpr10": {
+        "wsn": 10,
+        "yes_to_no": 15,
+        "no_to_yes": 0,
+        "mcnemar_exact_two_sided_p": 6.103515625e-05,
+        "paired_attack_success_rate_among_baseline_positive": 0.6
+      },
+      "random_fpr05_seed101": {
+        "wsn": 21,
+        "yes_to_no": 4,
+        "no_to_yes": 0,
+        "mcnemar_exact_two_sided_p": 0.125,
+        "paired_attack_success_rate_among_baseline_positive": 0.16
+      },
+      "random_fpr05_seed202": {
+        "wsn": 25,
+        "yes_to_no": 1,
+        "no_to_yes": 1,
+        "mcnemar_exact_two_sided_p": 1.0,
+        "paired_attack_success_rate_among_baseline_positive": 0.04
+      },
+      "random_fpr05_seed303": {
+        "wsn": 23,
+        "yes_to_no": 2,
+        "no_to_yes": 0,
+        "mcnemar_exact_two_sided_p": 0.5,
+        "paired_attack_success_rate_among_baseline_positive": 0.08
+      },
+      "random_fpr05_seed404": {
+        "wsn": 22,
+        "yes_to_no": 4,
+        "no_to_yes": 1,
+        "mcnemar_exact_two_sided_p": 0.375,
+        "paired_attack_success_rate_among_baseline_positive": 0.16
+      },
+      "random_fpr05_seed505": {
+        "wsn": 25,
+        "yes_to_no": 0,
+        "no_to_yes": 0,
+        "mcnemar_exact_two_sided_p": 1.0,
+        "paired_attack_success_rate_among_baseline_positive": 0.0
+      }
+    },
+    "conditional_vs_gainratio_same_budget": {
+      "fpr01": {
+        "wsn": 20,
+        "yes_to_no": 2,
+        "no_to_yes": 2,
+        "mcnemar_exact_two_sided_p": 1.0,
+        "paired_attack_success_rate_among_baseline_positive": 0.1
+      },
+      "fpr025": {
+        "wsn": 17,
+        "yes_to_no": 5,
+        "no_to_yes": 0,
+        "mcnemar_exact_two_sided_p": 0.0625,
+        "paired_attack_success_rate_among_baseline_positive": 0.22727272727272727
+      },
+      "fpr05": {
+        "wsn": 15,
+        "yes_to_no": 8,
+        "no_to_yes": 2,
+        "mcnemar_exact_two_sided_p": 0.109375,
+        "paired_attack_success_rate_among_baseline_positive": 0.38095238095238093
+      },
+      "fpr10": {
+        "wsn": 10,
+        "yes_to_no": 10,
+        "no_to_yes": 3,
+        "mcnemar_exact_two_sided_p": 0.09228515625,
+        "paired_attack_success_rate_among_baseline_positive": 0.5882352941176471
+      }
+    },
+    "random_fpr05_wsn": {
+      "values": [
+        21,
+        25,
+        23,
+        22,
+        25
+      ],
+      "mean": 23.2,
+      "min": 21,
+      "max": 25
+    }
+  }
+}
+CONDITIONAL NLL RESULT COLLECTION PASS

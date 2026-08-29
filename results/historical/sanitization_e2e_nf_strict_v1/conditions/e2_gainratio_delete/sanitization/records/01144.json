@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2388",
+  "source_doc_id": "MED-2388",
+  "title": "Simultaneous exposure of non-diabetics to high levels of dioxins and mercury increases their risk of insulin resistance.",
+  "original_text": "Simultaneous exposure of non-diabetics to high levels of dioxins and mercury increases their risk of insulin resistance.\nInsulin resistance and the defective function of pancreatic β-cells can occur several years before the development of type 2 diabetes. It is necessary to investigate and clarify the integrated effects of moderate-to-high exposure to dioxins and mercury on the pancreatic endocrine function. This cross-sectional study investigated 1449 non-diabetic residents near a deserted pentachlorophenol and chloralkali factory. Metabolic syndrome related factors were measured to examine associations with serum dioxin and blood mercury. We also investigated associations between insulin resistance (HOMA-IR > 75th percentile), defective pancreatic β-cells function (HOMA β-cell > 75th percentile), serum dioxins and blood mercury. After adjusting for confounding factors, we found that insulin resistance increased with serum dioxins (b = 0.13, P < 0.001) and blood mercury (b = 0.01, P < 0.001). Moreover, participants with higher serum dioxins or blood mercury were at a significantly increasing risk for insulin resistance (P(trend) < 0.001). The joint highest tertile of serum dioxins and blood mercury was associated with elevated HOMA-IR at 11 times the odds of the joint lowest tertile (AOR 11.00, 95% CI: 4.87, 26.63). We hypothesize that simultaneous exposure to dioxins and mercury heightens the risk of insulin resistance more than does individual exposure. Copyright © 2010 Elsevier B.V. All rights reserved.",
+  "sanitized_text": "Simultaneous exposure of non-diabetics to high levels of dioxins and mercury increases their risk of insulin resistance.\nInsulin resistance and the defective function of pancreatic β-cells can occur several years before the development of type 2 diabetes. It is necessary to investigate and clarify the integrated effects of moderate-to-high exposure to dioxins and mercury on the pancreatic endocrine function. This cross-sectional study investigated 1449 non-diabetic residents near a deserted pentachlorophenol and chloralkali factory. Metabolic syndrome related factors were measured to examine associations with serum dioxin and blood mercury. We also investigated associations between insulin resistance (HOMA-IR > 75th percentile), defective pancreatic β-cells function (HOMA β-cell > 75th percentile), serum dioxins and blood mercury. After adjusting for confounding factors, we found that insulin resistance increased with serum dioxins (b = 0.13, P < 0.001) and blood mercury (b = 0.01, P < 0.001). Moreover, participants with higher serum dioxins or blood mercury were at a significantly increasing risk for insulin resistance (P(trend) < 0.001). The joint highest tertile of serum dioxins and blood mercury was associated with elevated HOMA-IR at 11 times the odds of the joint lowest tertile (AOR 11.00, 95% CI: 4.87, 26.63). We hypothesize that simultaneous exposure to dioxins and mercury heightens the risk of insulin resistance more than does individual exposure.",
+  "modified": true,
+  "original_char_count": 1532,
+  "sanitized_char_count": 1480,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1481,
+      "boundary_end": 1511,
+      "context": "and clarify the integrated effects of moderate-to-high exposure to dioxins and mercury on the pancreatic endocrine function. This cross-sectional study investigated 1449 non-diabetic residents near a deserted pentachlorophenol and chloralkali factory. Metabolic syndrome related factors were measured to examine associations with serum dioxin and blood mercury. We also investigated associations between insulin resistance (HOMA-IR > 75th percentile), defective pancreatic β-cells function (HOMA β-cell > 75th percentile), serum dioxins and blood mercury. After adjusting for confounding factors, we found that insulin resistance increased with serum dioxins (b = 0.13, P < 0.001) and blood mercury (b = 0.01, P < 0.001). Moreover, participants with higher serum dioxins or blood mercury were at a significantly increasing risk for insulin resistance (P(trend) < 0.001). The joint highest tertile of serum dioxins and blood mercury was associated with elevated HOMA-IR at 11 times the odds of the joint lowest tertile (AOR 11.00, 95% CI: 4.87, 26.63). We hypothesize that simultaneous exposure to dioxins and mercury heightens the risk of insulin resistance more than does individual exposure.",
+      "target": "Copyright © 2010 Elsevier B.V.",
+      "loss_target": 1.000447154045105,
+      "loss_target_given_context": 1.6585884094238281,
+      "delta_loss": -0.6581412553787231,
+      "gain_ratio": -0.6578470963885125,
+      "score": 0.6578470963885125,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1339,
+      "boundary_end": 1480,
+      "context": "and the defective function of pancreatic β-cells can occur several years before the development of type 2 diabetes. It is necessary to investigate and clarify the integrated effects of moderate-to-high exposure to dioxins and mercury on the pancreatic endocrine function. This cross-sectional study investigated 1449 non-diabetic residents near a deserted pentachlorophenol and chloralkali factory. Metabolic syndrome related factors were measured to examine associations with serum dioxin and blood mercury. We also investigated associations between insulin resistance (HOMA-IR > 75th percentile), defective pancreatic β-cells function (HOMA β-cell > 75th percentile), serum dioxins and blood mercury. After adjusting for confounding factors, we found that insulin resistance increased with serum dioxins (b = 0.13, P < 0.001) and blood mercury (b = 0.01, P < 0.001). Moreover, participants with higher serum dioxins or blood mercury were at a significantly increasing risk for insulin resistance (P(trend) < 0.001). The joint highest tertile of serum dioxins and blood mercury was associated with elevated HOMA-IR at 11 times the odds of the joint lowest tertile (AOR 11.00, 95% CI: 4.87, 26.63).",
+      "target": "We hypothesize that simultaneous exposure to dioxins and mercury heightens the risk of insulin resistance more than does individual exposure.",
+      "loss_target": 3.0266475677490234,
+      "loss_target_given_context": 1.946053147315979,
+      "delta_loss": 1.0805944204330444,
+      "gain_ratio": 0.3570268411649604,
+      "score": -0.3570268411649604,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1481,
+      "target": "Copyright © 2010 Elsevier B.V.",
+      "score": 0.6578470963885125,
+      "deleted_suffix": "Copyright © 2010 Elsevier B.V. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

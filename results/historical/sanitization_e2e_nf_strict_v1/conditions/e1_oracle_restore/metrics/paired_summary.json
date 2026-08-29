@@ -1,0 +1,22 @@
+{
+  "comparison": "e0_watermarked_before_vs_e1_oracle_restore",
+  "dataset": "nfcorpus_strict_v1",
+  "api_model": "gpt-4o-mini",
+  "verify_seed": 633,
+  "total": 30,
+  "before_WSN": 26,
+  "after_WSN": 5,
+  "absolute_WSN_drop": 21,
+  "relative_WSN_reduction": 0.8076923076923077,
+  "before_relation_recovered": 25,
+  "after_relation_recovered": 6,
+  "relation_recovered_drop": 19,
+  "paired_baseline_positive_count": 26,
+  "paired_broken_count": 23,
+  "paired_retained_count": 3,
+  "paired_attack_success_rate": 0.8846153846153846,
+  "false_gain_count": 2,
+  "after_unknown_count": 0,
+  "oracle_verification_failed_WSN_le_2": false,
+  "run_valid": true
+}

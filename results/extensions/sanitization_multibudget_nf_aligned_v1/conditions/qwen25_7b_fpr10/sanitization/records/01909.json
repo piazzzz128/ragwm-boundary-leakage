@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3585",
+  "source_doc_id": "MED-3585",
+  "title": "The spermicidal potency of Coca-Cola and Pepsi-Cola.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The spermicidal potency of Coca-Cola and Pepsi-Cola.\nThe inhibitory effect of Old Coke, caffeine-free New Coke, New Coke, Diet Coke and Pepsi-Cola on human sperm motility was studied with a trans-membrane migration method. None of them could decrease sperm motility to less than 70% of control within one hour. A previous study which claimed a marked variation of spermicidal potencies among different formulations of Coca-Cola could not be confirmed. Even if cola has a spermicidal effect, its potency is relatively weak as compared with other well-known spermicidal agents.",
+  "sanitized_text": "The spermicidal potency of Coca-Cola and Pepsi-Cola.\nThe inhibitory effect of Old Coke, caffeine-free New Coke, New Coke, Diet Coke and Pepsi-Cola on human sperm motility was studied with a trans-membrane migration method. None of them could decrease sperm motility to less than 70% of control within one hour. A previous study which claimed a marked variation of spermicidal potencies among different formulations of Coca-Cola could not be confirmed. Even if cola has a spermicidal effect, its potency is relatively weak as compared with other well-known spermicidal agents.",
+  "modified": false,
+  "original_char_count": 575,
+  "sanitized_char_count": 575,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 452,
+      "boundary_end": 575,
+      "context": "The spermicidal potency of Coca-Cola and Pepsi-Cola. The inhibitory effect of Old Coke, caffeine-free New Coke, New Coke, Diet Coke and Pepsi-Cola on human sperm motility was studied with a trans-membrane migration method. None of them could decrease sperm motility to less than 70% of control within one hour. A previous study which claimed a marked variation of spermicidal potencies among different formulations of Coca-Cola could not be confirmed.",
+      "target": "Even if cola has a spermicidal effect, its potency is relatively weak as compared with other well-known spermicidal agents.",
+      "loss_target": 2.851924180984497,
+      "loss_target_given_context": 1.5952508449554443,
+      "delta_loss": 1.2566733360290527,
+      "gain_ratio": 0.4406405136602346,
+      "score": -0.4406405136602346,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

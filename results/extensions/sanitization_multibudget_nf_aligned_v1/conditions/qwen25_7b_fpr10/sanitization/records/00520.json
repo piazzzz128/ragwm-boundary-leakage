@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1627",
+  "source_doc_id": "MED-1627",
+  "title": "Sweetened Beverages, Coffee, and Tea and Depression Risk among Older US Adults",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Sweetened Beverages, Coffee, and Tea and Depression Risk among Older US Adults\nSweetened beverages, coffee, and tea are the most consumed non-alcoholic beverages and may have important health consequences. We prospectively evaluated the consumption of various types of beverages assessed in 1995–1996 in relation to self-reported depression diagnosis after 2000 among 263,923 participants of the NIH-AARP Diet and Health Study. Odds ratios (OR) and 95% confidence intervals (CI) were derived from multivariate logistic regressions. The OR (95% CI) comparing ≥4 cans/cups per day with none were 1.30 (95%CI: 1.17–1.44) for soft drinks, 1.38 (1.15–1.65) for fruit drinks, and 0.91 (0.84–0.98) for coffee (all P for trend<0.0001). Null associations were observed for iced-tea and hot tea. In stratified analyses by drinkers of primarily diet versus regular beverages, the ORs were 1.31 (1.16–1.47) for diet versus 1.22 (1.03–1.45) for regular soft drinks, 1.51 (1.18–1.92) for diet versus 1.08 (0.79–1.46) for regular fruit drinks, and 1.25 (1.10–1.41) for diet versus 0.94 (0.83–1.08) for regular sweetened iced-tea. Finally, compared to nondrinkers, drinking coffee or tea without any sweetener was associated with a lower risk for depression, adding artificial sweeteners, but not sugar or honey, was associated with higher risks. Frequent consumption of sweetened beverages, especially diet drinks, may increase depression risk among older adults, whereas coffee consumption may lower the risk.",
+  "sanitized_text": "Sweetened Beverages, Coffee, and Tea and Depression Risk among Older US Adults\nSweetened beverages, coffee, and tea are the most consumed non-alcoholic beverages and may have important health consequences. We prospectively evaluated the consumption of various types of beverages assessed in 1995–1996 in relation to self-reported depression diagnosis after 2000 among 263,923 participants of the NIH-AARP Diet and Health Study. Odds ratios (OR) and 95% confidence intervals (CI) were derived from multivariate logistic regressions. The OR (95% CI) comparing ≥4 cans/cups per day with none were 1.30 (95%CI: 1.17–1.44) for soft drinks, 1.38 (1.15–1.65) for fruit drinks, and 0.91 (0.84–0.98) for coffee (all P for trend<0.0001). Null associations were observed for iced-tea and hot tea. In stratified analyses by drinkers of primarily diet versus regular beverages, the ORs were 1.31 (1.16–1.47) for diet versus 1.22 (1.03–1.45) for regular soft drinks, 1.51 (1.18–1.92) for diet versus 1.08 (0.79–1.46) for regular fruit drinks, and 1.25 (1.10–1.41) for diet versus 0.94 (0.83–1.08) for regular sweetened iced-tea. Finally, compared to nondrinkers, drinking coffee or tea without any sweetener was associated with a lower risk for depression, adding artificial sweeteners, but not sugar or honey, was associated with higher risks. Frequent consumption of sweetened beverages, especially diet drinks, may increase depression risk among older adults, whereas coffee consumption may lower the risk.",
+  "modified": false,
+  "original_char_count": 1495,
+  "sanitized_char_count": 1495,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1331,
+      "boundary_end": 1495,
+      "context": "non-alcoholic beverages and may have important health consequences. We prospectively evaluated the consumption of various types of beverages assessed in 1995–1996 in relation to self-reported depression diagnosis after 2000 among 263,923 participants of the NIH-AARP Diet and Health Study. Odds ratios (OR) and 95% confidence intervals (CI) were derived from multivariate logistic regressions. The OR (95% CI) comparing ≥4 cans/cups per day with none were 1.30 (95%CI: 1.17–1.44) for soft drinks, 1.38 (1.15–1.65) for fruit drinks, and 0.91 (0.84–0.98) for coffee (all P for trend<0.0001). Null associations were observed for iced-tea and hot tea. In stratified analyses by drinkers of primarily diet versus regular beverages, the ORs were 1.31 (1.16–1.47) for diet versus 1.22 (1.03–1.45) for regular soft drinks, 1.51 (1.18–1.92) for diet versus 1.08 (0.79–1.46) for regular fruit drinks, and 1.25 (1.10–1.41) for diet versus 0.94 (0.83–1.08) for regular sweetened iced-tea. Finally, compared to nondrinkers, drinking coffee or tea without any sweetener was associated with a lower risk for depression, adding artificial sweeteners, but not sugar or honey, was associated with higher risks.",
+      "target": "Frequent consumption of sweetened beverages, especially diet drinks, may increase depression risk among older adults, whereas coffee consumption may lower the risk.",
+      "loss_target": 2.3856914043426514,
+      "loss_target_given_context": 1.475579023361206,
+      "delta_loss": 0.9101123809814453,
+      "gain_ratio": 0.38148789039721415,
+      "score": -0.38148789039721415,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

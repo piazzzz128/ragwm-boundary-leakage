@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-917",
+  "source_doc_id": "MED-917",
+  "title": "Effect of freezing and storage on the phenolics, ellagitannins, flavonoids, and antioxidant capacity of red raspberries.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of freezing and storage on the phenolics, ellagitannins, flavonoids, and antioxidant capacity of red raspberries.\nScottish-grown red raspberries are a rich source of vitamin C and phenolics, most notably, the anthocyanins cyanidin-3-sophoroside, cyanidin-3-(2(G)-glucosylrutinoside), and cyanidin-3-glucoside, and two ellagitannins, sanguiin H-6 and lambertianin C, which are present together with trace levels of flavonols, ellagic acid, and hydroxycinnamates. The antioxidant capacity of the fresh fruit and the levels of vitamin C and phenolics were not affected by freezing. When fruit were stored at 4 degrees C for 3 days and then at 18 degrees C for 24 h, mimicking the route fresh fruit takes after harvest to the supermarket and onto the consumer's table, anthocyanin levels were unaffected while vitamin C levels declined and those of elligitannins increased, and overall, there was no effect on the antioxidant capacity of the fruit. It is concluded, therefore, that freshly picked, fresh commercial, and frozen raspberries all contain similar levels of phytochemicals and antioxidants per serving.",
+  "sanitized_text": "Effect of freezing and storage on the phenolics, ellagitannins, flavonoids, and antioxidant capacity of red raspberries.\nScottish-grown red raspberries are a rich source of vitamin C and phenolics, most notably, the anthocyanins cyanidin-3-sophoroside, cyanidin-3-(2(G)-glucosylrutinoside), and cyanidin-3-glucoside, and two ellagitannins, sanguiin H-6 and lambertianin C, which are present together with trace levels of flavonols, ellagic acid, and hydroxycinnamates. The antioxidant capacity of the fresh fruit and the levels of vitamin C and phenolics were not affected by freezing. When fruit were stored at 4 degrees C for 3 days and then at 18 degrees C for 24 h, mimicking the route fresh fruit takes after harvest to the supermarket and onto the consumer's table, anthocyanin levels were unaffected while vitamin C levels declined and those of elligitannins increased, and overall, there was no effect on the antioxidant capacity of the fruit. It is concluded, therefore, that freshly picked, fresh commercial, and frozen raspberries all contain similar levels of phytochemicals and antioxidants per serving.",
+  "modified": false,
+  "original_char_count": 1116,
+  "sanitized_char_count": 1116,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 952,
+      "boundary_end": 1116,
+      "context": "Effect of freezing and storage on the phenolics, ellagitannins, flavonoids, and antioxidant capacity of red raspberries. Scottish-grown red raspberries are a rich source of vitamin C and phenolics, most notably, the anthocyanins cyanidin-3-sophoroside, cyanidin-3-(2(G)-glucosylrutinoside), and cyanidin-3-glucoside, and two ellagitannins, sanguiin H-6 and lambertianin C, which are present together with trace levels of flavonols, ellagic acid, and hydroxycinnamates. The antioxidant capacity of the fresh fruit and the levels of vitamin C and phenolics were not affected by freezing. When fruit were stored at 4 degrees C for 3 days and then at 18 degrees C for 24 h, mimicking the route fresh fruit takes after harvest to the supermarket and onto the consumer's table, anthocyanin levels were unaffected while vitamin C levels declined and those of elligitannins increased, and overall, there was no effect on the antioxidant capacity of the fruit.",
+      "target": "It is concluded, therefore, that freshly picked, fresh commercial, and frozen raspberries all contain similar levels of phytochemicals and antioxidants per serving.",
+      "loss_target": 2.995335817337036,
+      "loss_target_given_context": 2.241070508956909,
+      "delta_loss": 0.754265308380127,
+      "gain_ratio": 0.25181327049021723,
+      "score": -0.25181327049021723,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

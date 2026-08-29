@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5054",
+  "source_doc_id": "MED-5054",
+  "title": "The potential toxicity of artificial sweeteners.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The potential toxicity of artificial sweeteners.\nSince their discovery, the safety of artificial sweeteners has been controversial. Artificial sweeteners provide the sweetness of sugar without the calories. As public health attention has turned to reversing the obesity epidemic in the United States, more individuals of all ages are choosing to use these products. These choices may be beneficial for those who cannot tolerate sugar in their diets (e.g., diabetics). However, scientists disagree about the relationships between sweeteners and lymphomas, leukemias, cancers of the bladder and brain, chronic fatigue syndrome, Parkinson's disease, Alzheimer's disease, multiple sclerosis, autism, and systemic lupus. Recently these substances have received increased attention due to their effects on glucose regulation. Occupational health nurses need accurate and timely information to counsel individuals regarding the use of these substances. This article provides an overview of types of artificial sweeteners, sweetener history, chemical structure, biological fate, physiological effects, published animal and human studies, and current standards and regulations.",
+  "sanitized_text": "The potential toxicity of artificial sweeteners.\nSince their discovery, the safety of artificial sweeteners has been controversial. Artificial sweeteners provide the sweetness of sugar without the calories. As public health attention has turned to reversing the obesity epidemic in the United States, more individuals of all ages are choosing to use these products. These choices may be beneficial for those who cannot tolerate sugar in their diets (e.g., diabetics). However, scientists disagree about the relationships between sweeteners and lymphomas, leukemias, cancers of the bladder and brain, chronic fatigue syndrome, Parkinson's disease, Alzheimer's disease, multiple sclerosis, autism, and systemic lupus. Recently these substances have received increased attention due to their effects on glucose regulation. Occupational health nurses need accurate and timely information to counsel individuals regarding the use of these substances. This article provides an overview of types of artificial sweeteners, sweetener history, chemical structure, biological fate, physiological effects, published animal and human studies, and current standards and regulations.",
+  "modified": false,
+  "original_char_count": 1168,
+  "sanitized_char_count": 1168,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 946,
+      "boundary_end": 1168,
+      "context": "The potential toxicity of artificial sweeteners. Since their discovery, the safety of artificial sweeteners has been controversial. Artificial sweeteners provide the sweetness of sugar without the calories. As public health attention has turned to reversing the obesity epidemic in the United States, more individuals of all ages are choosing to use these products. These choices may be beneficial for those who cannot tolerate sugar in their diets (e.g., diabetics). However, scientists disagree about the relationships between sweeteners and lymphomas, leukemias, cancers of the bladder and brain, chronic fatigue syndrome, Parkinson's disease, Alzheimer's disease, multiple sclerosis, autism, and systemic lupus. Recently these substances have received increased attention due to their effects on glucose regulation. Occupational health nurses need accurate and timely information to counsel individuals regarding the use of these substances.",
+      "target": "This article provides an overview of types of artificial sweeteners, sweetener history, chemical structure, biological fate, physiological effects, published animal and human studies, and current standards and regulations.",
+      "loss_target": 7.155010223388672,
+      "loss_target_given_context": 4.320148944854736,
+      "delta_loss": 2.8348612785339355,
+      "gain_ratio": 0.39620646093099804,
+      "score": -0.39620646093099804,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

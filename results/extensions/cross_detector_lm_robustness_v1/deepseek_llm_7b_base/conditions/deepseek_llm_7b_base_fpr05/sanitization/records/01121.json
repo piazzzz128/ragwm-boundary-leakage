@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2361",
+  "source_doc_id": "MED-2361",
+  "title": "Southern Tick-Associated Rash Illness (STARI) in the North: STARI following a tick bite in Long Island, New York.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Southern Tick-Associated Rash Illness (STARI) in the North: STARI following a tick bite in Long Island, New York.\nThe most common clinical manifestation of Lyme disease is the characteristic rash, erythema migrans (EM). In the 1980s EM-like eruptions were reported in Missouri and other southeastern states. The EM-like eruptions, which were of unknown etiology, often followed the bite of the Lone Star tick (Amblyomma americanum) and the rash is called STARI (southern tick-associated rash illness). Although the Lone Star tick is found in the Lyme disease-endemic areas of New England and Mid-Atlantic regions of the United States, STARI has been reported only once from the Northeast and Mid-Atlantic regions. We report a child from Connecticut who visited Long Island, New York, and developed a rash that was thought to be EM. Because the patient failed to respond to antibiotics used to treat Lyme disease, an investigation ensued, and the diagnosis of STARI was established.",
+  "sanitized_text": "Southern Tick-Associated Rash Illness (STARI) in the North: STARI following a tick bite in Long Island, New York.\nThe most common clinical manifestation of Lyme disease is the characteristic rash, erythema migrans (EM). In the 1980s EM-like eruptions were reported in Missouri and other southeastern states. The EM-like eruptions, which were of unknown etiology, often followed the bite of the Lone Star tick (Amblyomma americanum) and the rash is called STARI (southern tick-associated rash illness). Although the Lone Star tick is found in the Lyme disease-endemic areas of New England and Mid-Atlantic regions of the United States, STARI has been reported only once from the Northeast and Mid-Atlantic regions. We report a child from Connecticut who visited Long Island, New York, and developed a rash that was thought to be EM. Because the patient failed to respond to antibiotics used to treat Lyme disease, an investigation ensued, and the diagnosis of STARI was established.",
+  "modified": false,
+  "original_char_count": 981,
+  "sanitized_char_count": 981,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 832,
+      "boundary_end": 981,
+      "context": "Southern Tick-Associated Rash Illness (STARI) in the North: STARI following a tick bite in Long Island, New York. The most common clinical manifestation of Lyme disease is the characteristic rash, erythema migrans (EM). In the 1980s EM-like eruptions were reported in Missouri and other southeastern states. The EM-like eruptions, which were of unknown etiology, often followed the bite of the Lone Star tick (Amblyomma americanum) and the rash is called STARI (southern tick-associated rash illness). Although the Lone Star tick is found in the Lyme disease-endemic areas of New England and Mid-Atlantic regions of the United States, STARI has been reported only once from the Northeast and Mid-Atlantic regions. We report a child from Connecticut who visited Long Island, New York, and developed a rash that was thought to be EM.",
+      "target": "Because the patient failed to respond to antibiotics used to treat Lyme disease, an investigation ensued, and the diagnosis of STARI was established.",
+      "loss_target": 2.7197418212890625,
+      "loss_target_given_context": 1.651125431060791,
+      "delta_loss": 1.0686163902282715,
+      "gain_ratio": 0.3929109674541772,
+      "score": -0.3929109674541772,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

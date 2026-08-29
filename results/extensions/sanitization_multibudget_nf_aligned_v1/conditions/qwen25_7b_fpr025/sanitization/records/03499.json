@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-844",
+  "source_doc_id": "MED-844",
+  "title": "Antifungal agents vs. boric acid for treating chronic mycotic vulvovaginitis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Antifungal agents vs. boric acid for treating chronic mycotic vulvovaginitis.\nNinety-two women with chronic mycotic vaginal infections were followed with microscopic examination of the vaginal discharge during prolonged therapy with antifungal agents and boric acid. A microscopic picture unique to chronic mycotic vaginitis was observed, representing the cytologic reaction of the mucous membrane to chronic yeast infection. This diagnostic tool proved extremely effective in detecting both symptomatic and residual, subclinical mycotic infection and provided a highly predictive measure of the probability of relapse. The ineffectiveness of conventional antifungal agents appeared to be the main reason for chronic mycotic infections. In contrast, boric acid was effective in curing 98% of the patients who had previously failed to respond to the most commonly used antifungal agents and was clearly indicated as the treatment of choice for prophylaxis.",
+  "sanitized_text": "Antifungal agents vs. boric acid for treating chronic mycotic vulvovaginitis.\nNinety-two women with chronic mycotic vaginal infections were followed with microscopic examination of the vaginal discharge during prolonged therapy with antifungal agents and boric acid. A microscopic picture unique to chronic mycotic vaginitis was observed, representing the cytologic reaction of the mucous membrane to chronic yeast infection. This diagnostic tool proved extremely effective in detecting both symptomatic and residual, subclinical mycotic infection and provided a highly predictive measure of the probability of relapse. The ineffectiveness of conventional antifungal agents appeared to be the main reason for chronic mycotic infections. In contrast, boric acid was effective in curing 98% of the patients who had previously failed to respond to the most commonly used antifungal agents and was clearly indicated as the treatment of choice for prophylaxis.",
+  "modified": false,
+  "original_char_count": 955,
+  "sanitized_char_count": 955,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 737,
+      "boundary_end": 955,
+      "context": "Antifungal agents vs. boric acid for treating chronic mycotic vulvovaginitis. Ninety-two women with chronic mycotic vaginal infections were followed with microscopic examination of the vaginal discharge during prolonged therapy with antifungal agents and boric acid. A microscopic picture unique to chronic mycotic vaginitis was observed, representing the cytologic reaction of the mucous membrane to chronic yeast infection. This diagnostic tool proved extremely effective in detecting both symptomatic and residual, subclinical mycotic infection and provided a highly predictive measure of the probability of relapse. The ineffectiveness of conventional antifungal agents appeared to be the main reason for chronic mycotic infections.",
+      "target": "In contrast, boric acid was effective in curing 98% of the patients who had previously failed to respond to the most commonly used antifungal agents and was clearly indicated as the treatment of choice for prophylaxis.",
+      "loss_target": 2.4824016094207764,
+      "loss_target_given_context": 1.517953872680664,
+      "delta_loss": 0.9644477367401123,
+      "gain_ratio": 0.3885139830235402,
+      "score": -0.3885139830235402,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

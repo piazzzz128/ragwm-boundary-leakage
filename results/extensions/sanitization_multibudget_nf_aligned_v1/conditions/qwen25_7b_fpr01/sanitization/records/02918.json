@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4839",
+  "source_doc_id": "MED-4839",
+  "title": "Migrating fish bone presenting as acute onset of neck lump.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Migrating fish bone presenting as acute onset of neck lump.\nWe encountered a 62-year-old woman with a progressively worsening sore throat and a sharp lump located in her left upper neck, which appeared several hours before admission. After questioning, she underwent rigid esophagoscopy at a local hospital for suspected fish bone impaction but this gave a negative result. Unusual signs caused us to arrange a computed tomography scan, which showed that a foreign body had penetrated the left sternocleidomastoid muscle to the subcutaneous layer, with extensive emphysema in the neck. We extracted the foreign body with a 1-cm horizontal incision of the neck under general anesthesia. The patient returned to a normal diet and was discharged on day 5 of hospitalization without further morbidity. This is another rare case of a migrating foreign body presenting as a neck lump. On reviewing the literature, most cases involving subcutaneously migrating fish bones show development of a neck lump several weeks to months after ingestion, with relatively stable conditions. However, our case showed a neck lump 1 day after ingestion with acute toxic symptoms.",
+  "sanitized_text": "Migrating fish bone presenting as acute onset of neck lump.\nWe encountered a 62-year-old woman with a progressively worsening sore throat and a sharp lump located in her left upper neck, which appeared several hours before admission. After questioning, she underwent rigid esophagoscopy at a local hospital for suspected fish bone impaction but this gave a negative result. Unusual signs caused us to arrange a computed tomography scan, which showed that a foreign body had penetrated the left sternocleidomastoid muscle to the subcutaneous layer, with extensive emphysema in the neck. We extracted the foreign body with a 1-cm horizontal incision of the neck under general anesthesia. The patient returned to a normal diet and was discharged on day 5 of hospitalization without further morbidity. This is another rare case of a migrating foreign body presenting as a neck lump. On reviewing the literature, most cases involving subcutaneously migrating fish bones show development of a neck lump several weeks to months after ingestion, with relatively stable conditions. However, our case showed a neck lump 1 day after ingestion with acute toxic symptoms.",
+  "modified": false,
+  "original_char_count": 1158,
+  "sanitized_char_count": 1158,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1073,
+      "boundary_end": 1158,
+      "context": "Migrating fish bone presenting as acute onset of neck lump. We encountered a 62-year-old woman with a progressively worsening sore throat and a sharp lump located in her left upper neck, which appeared several hours before admission. After questioning, she underwent rigid esophagoscopy at a local hospital for suspected fish bone impaction but this gave a negative result. Unusual signs caused us to arrange a computed tomography scan, which showed that a foreign body had penetrated the left sternocleidomastoid muscle to the subcutaneous layer, with extensive emphysema in the neck. We extracted the foreign body with a 1-cm horizontal incision of the neck under general anesthesia. The patient returned to a normal diet and was discharged on day 5 of hospitalization without further morbidity. This is another rare case of a migrating foreign body presenting as a neck lump. On reviewing the literature, most cases involving subcutaneously migrating fish bones show development of a neck lump several weeks to months after ingestion, with relatively stable conditions.",
+      "target": "However, our case showed a neck lump 1 day after ingestion with acute toxic symptoms.",
+      "loss_target": 4.361356735229492,
+      "loss_target_given_context": 2.050346851348877,
+      "delta_loss": 2.3110098838806152,
+      "gain_ratio": 0.5298832505979384,
+      "score": -0.5298832505979384,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

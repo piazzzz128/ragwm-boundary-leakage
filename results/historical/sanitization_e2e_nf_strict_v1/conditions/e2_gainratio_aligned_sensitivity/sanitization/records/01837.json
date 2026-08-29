@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3499",
+  "source_doc_id": "MED-3499",
+  "title": "Carrageenans and their use in meat products.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Carrageenans and their use in meat products.\nCarrageenans are sulfated linear polysaccharides of D-galactose and 3,6-anhydro-D-galactose extracted from red seaweeds. They have been used by the food industry for their gelling, thickening, and stabilizing properties, and more recently by the meat industry for reduced fat products. Meat is a complex system of muscle tissue, connective tissue, fat, and water; during processing, numerous interactions occur among all these components. These interactions are responsible for the functional properties of the meat system. In meat products, carrageenans contribute to gel formation and water retention. Their addition is of special interest in low-fat meat products because fat reduction often leads to unacceptable, tough textures. When carrageenans are incorporated in these formulations, they improve the textural characteristics of the product by decreasing toughness and increasing juiciness. Although carrageenan interactions with milk proteins have been studied extensively, the mechanism by which carrageenans interact with meat proteins and the other meat components is not fully understood.",
+  "sanitized_text": "Carrageenans and their use in meat products.\nCarrageenans are sulfated linear polysaccharides of D-galactose and 3,6-anhydro-D-galactose extracted from red seaweeds. They have been used by the food industry for their gelling, thickening, and stabilizing properties, and more recently by the meat industry for reduced fat products. Meat is a complex system of muscle tissue, connective tissue, fat, and water; during processing, numerous interactions occur among all these components. These interactions are responsible for the functional properties of the meat system. In meat products, carrageenans contribute to gel formation and water retention. Their addition is of special interest in low-fat meat products because fat reduction often leads to unacceptable, tough textures. When carrageenans are incorporated in these formulations, they improve the textural characteristics of the product by decreasing toughness and increasing juiciness. Although carrageenan interactions with milk proteins have been studied extensively, the mechanism by which carrageenans interact with meat proteins and the other meat components is not fully understood.",
+  "modified": false,
+  "original_char_count": 1146,
+  "sanitized_char_count": 1146,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 944,
+      "boundary_end": 1146,
+      "context": "Carrageenans and their use in meat products. Carrageenans are sulfated linear polysaccharides of D-galactose and 3,6-anhydro-D-galactose extracted from red seaweeds. They have been used by the food industry for their gelling, thickening, and stabilizing properties, and more recently by the meat industry for reduced fat products. Meat is a complex system of muscle tissue, connective tissue, fat, and water; during processing, numerous interactions occur among all these components. These interactions are responsible for the functional properties of the meat system. In meat products, carrageenans contribute to gel formation and water retention. Their addition is of special interest in low-fat meat products because fat reduction often leads to unacceptable, tough textures. When carrageenans are incorporated in these formulations, they improve the textural characteristics of the product by decreasing toughness and increasing juiciness.",
+      "target": "Although carrageenan interactions with milk proteins have been studied extensively, the mechanism by which carrageenans interact with meat proteins and the other meat components is not fully understood.",
+      "loss_target": 2.3505542278289795,
+      "loss_target_given_context": 1.4224623441696167,
+      "delta_loss": 0.9280918836593628,
+      "gain_ratio": 0.3948395968369416,
+      "score": -0.3948395968369416,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

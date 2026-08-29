@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1804",
+  "source_doc_id": "MED-1804",
+  "title": "Human adenovirus-36 and childhood obesity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Human adenovirus-36 and childhood obesity.\nThere is increasing evidence that obesity in humans is associated with infection with human adenovirus-36 (Adv36). Infection of experimental animals with Adv36 demonstrates that this virus causes obesity. Human studies have shown a prevalence of Adv36 infection of 30% or greater in obese adult humans, but a correlation with obesity has not always been demonstrated. In contrast, three published studies and one presented study with a total of 559 children all show that there is an increase in prevalence of Adv36 infection in obese children (28%) compared to non-obese children (10%). The explanation for the apparently more robust correlation of Adv36 infection with obesity in children vs. adults is not clear. The data in animals and people suggests that Adv36 has contributed to the worldwide increase in childhood obesity. More research is needed to identify prevalences and consequences of Adv36 infection in people of all age groups and geographic locations.",
+  "sanitized_text": "Human adenovirus-36 and childhood obesity.\nThere is increasing evidence that obesity in humans is associated with infection with human adenovirus-36 (Adv36). Infection of experimental animals with Adv36 demonstrates that this virus causes obesity. Human studies have shown a prevalence of Adv36 infection of 30% or greater in obese adult humans, but a correlation with obesity has not always been demonstrated. In contrast, three published studies and one presented study with a total of 559 children all show that there is an increase in prevalence of Adv36 infection in obese children (28%) compared to non-obese children (10%). The explanation for the apparently more robust correlation of Adv36 infection with obesity in children vs. adults is not clear. The data in animals and people suggests that Adv36 has contributed to the worldwide increase in childhood obesity. More research is needed to identify prevalences and consequences of Adv36 infection in people of all age groups and geographic locations.",
+  "modified": false,
+  "original_char_count": 1011,
+  "sanitized_char_count": 1011,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 874,
+      "boundary_end": 1011,
+      "context": "Human adenovirus-36 and childhood obesity. There is increasing evidence that obesity in humans is associated with infection with human adenovirus-36 (Adv36). Infection of experimental animals with Adv36 demonstrates that this virus causes obesity. Human studies have shown a prevalence of Adv36 infection of 30% or greater in obese adult humans, but a correlation with obesity has not always been demonstrated. In contrast, three published studies and one presented study with a total of 559 children all show that there is an increase in prevalence of Adv36 infection in obese children (28%) compared to non-obese children (10%). The explanation for the apparently more robust correlation of Adv36 infection with obesity in children vs. adults is not clear. The data in animals and people suggests that Adv36 has contributed to the worldwide increase in childhood obesity.",
+      "target": "More research is needed to identify prevalences and consequences of Adv36 infection in people of all age groups and geographic locations.",
+      "loss_target": 3.2040061950683594,
+      "loss_target_given_context": 2.1106042861938477,
+      "delta_loss": 1.0934019088745117,
+      "gain_ratio": 0.3412608597815721,
+      "score": -0.3412608597815721,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

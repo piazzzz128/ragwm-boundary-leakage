@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3469",
+  "source_doc_id": "MED-3469",
+  "title": "Postprandial glycemic response to orange juice and nondiet cola: is there a difference?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Postprandial glycemic response to orange juice and nondiet cola: is there a difference?\nThe purpose of this study was to compare the effects of unsweetened fruit juice and regular, decaffeinated soda on postprandial serum glucose levels in individuals with non-insulin-dependent diabetes mellitus (NIDDM) when these liquids are ingested separately as part of mixed meals. Eighteen individuals with NIDDM consumed three test breakfasts calculated using the diabetic exchange meal-planning system. Foods were identical in each of the breakfasts except for foods in the fruit exchange. Carbohydrate-equivalent amounts of fresh orange slices, unsweetened orange juice, and regular, decaffeinated Coke were consumed in breakfasts 1, 2, and 3, respectively. Serum glucose samples were drawn at fasting and 1, 2, and 3 hours postprandially. No difference was found in the postprandial serum glucose response when Coke versus orange juice was consumed in the breakfast. These findings question the appropriateness of using unsweetened fruit juices in routine meal planning for individuals with NIDDM.",
+  "sanitized_text": "Postprandial glycemic response to orange juice and nondiet cola: is there a difference?\nThe purpose of this study was to compare the effects of unsweetened fruit juice and regular, decaffeinated soda on postprandial serum glucose levels in individuals with non-insulin-dependent diabetes mellitus (NIDDM) when these liquids are ingested separately as part of mixed meals. Eighteen individuals with NIDDM consumed three test breakfasts calculated using the diabetic exchange meal-planning system. Foods were identical in each of the breakfasts except for foods in the fruit exchange. Carbohydrate-equivalent amounts of fresh orange slices, unsweetened orange juice, and regular, decaffeinated Coke were consumed in breakfasts 1, 2, and 3, respectively. Serum glucose samples were drawn at fasting and 1, 2, and 3 hours postprandially. No difference was found in the postprandial serum glucose response when Coke versus orange juice was consumed in the breakfast. These findings question the appropriateness of using unsweetened fruit juices in routine meal planning for individuals with NIDDM.",
+  "modified": false,
+  "original_char_count": 1092,
+  "sanitized_char_count": 1092,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 962,
+      "boundary_end": 1092,
+      "context": "Postprandial glycemic response to orange juice and nondiet cola: is there a difference? The purpose of this study was to compare the effects of unsweetened fruit juice and regular, decaffeinated soda on postprandial serum glucose levels in individuals with non-insulin-dependent diabetes mellitus (NIDDM) when these liquids are ingested separately as part of mixed meals. Eighteen individuals with NIDDM consumed three test breakfasts calculated using the diabetic exchange meal-planning system. Foods were identical in each of the breakfasts except for foods in the fruit exchange. Carbohydrate-equivalent amounts of fresh orange slices, unsweetened orange juice, and regular, decaffeinated Coke were consumed in breakfasts 1, 2, and 3, respectively. Serum glucose samples were drawn at fasting and 1, 2, and 3 hours postprandially. No difference was found in the postprandial serum glucose response when Coke versus orange juice was consumed in the breakfast.",
+      "target": "These findings question the appropriateness of using unsweetened fruit juices in routine meal planning for individuals with NIDDM.",
+      "loss_target": 3.2798125743865967,
+      "loss_target_given_context": 1.3422832489013672,
+      "delta_loss": 1.9375293254852295,
+      "gain_ratio": 0.5907439164713837,
+      "score": -0.5907439164713837,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1613",
+  "source_doc_id": "MED-1613",
+  "title": "Taiwanese vegetarians have higher insulin sensitivity than omnivores.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Taiwanese vegetarians have higher insulin sensitivity than omnivores.\nThe present study was designed to examine the effects of habitual consumption of Taiwanese vegetarian diets on hormonal secretion, and on lipid and glycaemic control. Of the ninety-eight healthy female adults recruited from Hualien, Taiwan (aged 31-45 years), forty-nine were Buddhist lactovegetarians and forty-nine were omnivores. Dietary intakes were measured, and blood levels of nutrients and hormones were analysed. Vegetarians consumed less energy, fat and protein, but more fibre than the omnivores. Compared with the omnivores, the vegetarians had, on average, lower BMI and smaller waist circumference. Except for slightly lower levels of thyroxine (T4) in vegetarians, vegetarians and omnivores both showed similar levels of triiodothyronine (T3), free T4, thyroid-stimulating hormone, T3:T4 ratio and cortisol. Compared with the omnivores, the vegetarians had significantly lower levels of fasting insulin (median: 35.3 v. 50.6 pmol/l) and plasma glucose (mean: 4.7 (se 0.05) v. 4.9 (se 0.05) mmol/l). Insulin resistance, as calculated by the homeostasis model assessment method, was significantly lower in the vegetarians than in the omnivores (median: 1.10 v. 1.56), while beta-cell function was not different between the two groups. BMI and diet were both independent predictors for insulin resistance, and contributed 18 and 15 % of the variation in insulin resistance, respectively. In conclusion, Taiwanese vegetarians had lower glucose and insulin levels and higher insulin sensitivity than did the omnivores. Diet and lower BMI were partially responsible for the high insulin sensitivity observed in young Taiwanese vegetarians.",
+  "sanitized_text": "Taiwanese vegetarians have higher insulin sensitivity than omnivores.\nThe present study was designed to examine the effects of habitual consumption of Taiwanese vegetarian diets on hormonal secretion, and on lipid and glycaemic control. Of the ninety-eight healthy female adults recruited from Hualien, Taiwan (aged 31-45 years), forty-nine were Buddhist lactovegetarians and forty-nine were omnivores. Dietary intakes were measured, and blood levels of nutrients and hormones were analysed. Vegetarians consumed less energy, fat and protein, but more fibre than the omnivores. Compared with the omnivores, the vegetarians had, on average, lower BMI and smaller waist circumference. Except for slightly lower levels of thyroxine (T4) in vegetarians, vegetarians and omnivores both showed similar levels of triiodothyronine (T3), free T4, thyroid-stimulating hormone, T3:T4 ratio and cortisol. Compared with the omnivores, the vegetarians had significantly lower levels of fasting insulin (median: 35.3 v. 50.6 pmol/l) and plasma glucose (mean: 4.7 (se 0.05) v. 4.9 (se 0.05) mmol/l). Insulin resistance, as calculated by the homeostasis model assessment method, was significantly lower in the vegetarians than in the omnivores (median: 1.10 v. 1.56), while beta-cell function was not different between the two groups. BMI and diet were both independent predictors for insulin resistance, and contributed 18 and 15 % of the variation in insulin resistance, respectively. In conclusion, Taiwanese vegetarians had lower glucose and insulin levels and higher insulin sensitivity than did the omnivores. Diet and lower BMI were partially responsible for the high insulin sensitivity observed in young Taiwanese vegetarians.",
+  "modified": false,
+  "original_char_count": 1718,
+  "sanitized_char_count": 1718,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1599,
+      "boundary_end": 1718,
+      "context": "Dietary intakes were measured, and blood levels of nutrients and hormones were analysed. Vegetarians consumed less energy, fat and protein, but more fibre than the omnivores. Compared with the omnivores, the vegetarians had, on average, lower BMI and smaller waist circumference. Except for slightly lower levels of thyroxine (T4) in vegetarians, vegetarians and omnivores both showed similar levels of triiodothyronine (T3), free T4, thyroid-stimulating hormone, T3:T4 ratio and cortisol. Compared with the omnivores, the vegetarians had significantly lower levels of fasting insulin (median: 35.3 v. 50.6 pmol/l) and plasma glucose (mean: 4.7 (se 0.05) v. 4.9 (se 0.05) mmol/l). Insulin resistance, as calculated by the homeostasis model assessment method, was significantly lower in the vegetarians than in the omnivores (median: 1.10 v. 1.56), while beta-cell function was not different between the two groups. BMI and diet were both independent predictors for insulin resistance, and contributed 18 and 15 % of the variation in insulin resistance, respectively. In conclusion, Taiwanese vegetarians had lower glucose and insulin levels and higher insulin sensitivity than did the omnivores.",
+      "target": "Diet and lower BMI were partially responsible for the high insulin sensitivity observed in young Taiwanese vegetarians.",
+      "loss_target": 3.524989366531372,
+      "loss_target_given_context": 2.0895285606384277,
+      "delta_loss": 1.4354608058929443,
+      "gain_ratio": 0.40722415208459295,
+      "score": -0.40722415208459295,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

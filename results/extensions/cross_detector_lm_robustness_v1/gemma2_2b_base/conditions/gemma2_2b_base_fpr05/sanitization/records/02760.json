@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4663",
+  "source_doc_id": "MED-4663",
+  "title": "Hyperthyroidism caused by excessive consumption of sausages.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Hyperthyroidism caused by excessive consumption of sausages.\nHyperthyroidism results from excessive production of thyroid hormones. This is usually caused by Graves disease, but exogenous thyroid hormones can lead to similar symptoms. Recognition of the latter is difficult as excessive intake of thyroid hormone is not usually admitted nor recognised. To our knowledge, exogenous hyperthyroidism caused by thyroid-contaminated food has been described twice, but not in the Netherlands. A 77-year-old man presented at the Outpatient Department of Internal Medicine with lab values revealing hyperthyroidism. There were no abnormal findings at the physical examination. Antibodies against the thyroidstimulating hormone (TSH) receptor were not detectable. Thyroid scintigraphy with 123I showed an uptake of less than 1%. Silent thyroiditis was diagnosed and the natural course was awaited, but with no improvement in the thyroid values. The thyroglobulin was very low. Further anamnesis revealed an excessive daily consumption of sausages. Thyroid hormones were detectable in these sausages. After the patient stopped eating them, he became and remained euthyroid. The case stipulates the importance of a thorough anamnesis.",
+  "sanitized_text": "Hyperthyroidism caused by excessive consumption of sausages.\nHyperthyroidism results from excessive production of thyroid hormones. This is usually caused by Graves disease, but exogenous thyroid hormones can lead to similar symptoms. Recognition of the latter is difficult as excessive intake of thyroid hormone is not usually admitted nor recognised. To our knowledge, exogenous hyperthyroidism caused by thyroid-contaminated food has been described twice, but not in the Netherlands. A 77-year-old man presented at the Outpatient Department of Internal Medicine with lab values revealing hyperthyroidism. There were no abnormal findings at the physical examination. Antibodies against the thyroidstimulating hormone (TSH) receptor were not detectable. Thyroid scintigraphy with 123I showed an uptake of less than 1%. Silent thyroiditis was diagnosed and the natural course was awaited, but with no improvement in the thyroid values. The thyroglobulin was very low. Further anamnesis revealed an excessive daily consumption of sausages. Thyroid hormones were detectable in these sausages. After the patient stopped eating them, he became and remained euthyroid. The case stipulates the importance of a thorough anamnesis.",
+  "modified": false,
+  "original_char_count": 1223,
+  "sanitized_char_count": 1223,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1164,
+      "boundary_end": 1223,
+      "context": "Hyperthyroidism caused by excessive consumption of sausages. Hyperthyroidism results from excessive production of thyroid hormones. This is usually caused by Graves disease, but exogenous thyroid hormones can lead to similar symptoms. Recognition of the latter is difficult as excessive intake of thyroid hormone is not usually admitted nor recognised. To our knowledge, exogenous hyperthyroidism caused by thyroid-contaminated food has been described twice, but not in the Netherlands. A 77-year-old man presented at the Outpatient Department of Internal Medicine with lab values revealing hyperthyroidism. There were no abnormal findings at the physical examination. Antibodies against the thyroidstimulating hormone (TSH) receptor were not detectable. Thyroid scintigraphy with 123I showed an uptake of less than 1%. Silent thyroiditis was diagnosed and the natural course was awaited, but with no improvement in the thyroid values. The thyroglobulin was very low. Further anamnesis revealed an excessive daily consumption of sausages. Thyroid hormones were detectable in these sausages. After the patient stopped eating them, he became and remained euthyroid.",
+      "target": "The case stipulates the importance of a thorough anamnesis.",
+      "loss_target": 9.228328704833984,
+      "loss_target_given_context": 4.672382354736328,
+      "delta_loss": 4.555946350097656,
+      "gain_ratio": 0.4936913818112222,
+      "score": -0.4936913818112222,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

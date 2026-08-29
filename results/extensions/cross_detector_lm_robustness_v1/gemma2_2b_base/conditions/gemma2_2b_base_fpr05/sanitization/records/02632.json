@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4502",
+  "source_doc_id": "MED-4502",
+  "title": "Lifestyle recommendations to reduce the risk of kidney stones.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Lifestyle recommendations to reduce the risk of kidney stones.\nKidney stones are increasingly common in wealthy industrialized countries. The most frequent form (80%) is idiopathic calcium stone disease. Eating habits and lifestyle have a direct effect on the lithogenic urinary risk factors and the pathogenesis of this condition. A diet characterized by a high intake of fluids, fruits, and vegetables; a low consumption of salt and protein; and a balanced intake of calcium, fats, and carbohydrates constitutes an efficacious approach to the prevention and treatment of this illness. A correct body weight, regular exercise, and a reduction in stressful life events are also useful preventive actions. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Lifestyle recommendations to reduce the risk of kidney stones.\nKidney stones are increasingly common in wealthy industrialized countries. The most frequent form (80%) is idiopathic calcium stone disease. Eating habits and lifestyle have a direct effect on the lithogenic urinary risk factors and the pathogenesis of this condition. A diet characterized by a high intake of fluids, fruits, and vegetables; a low consumption of salt and protein; and a balanced intake of calcium, fats, and carbohydrates constitutes an efficacious approach to the prevention and treatment of this illness. A correct body weight, regular exercise, and a reduction in stressful life events are also useful preventive actions. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 756,
+  "sanitized_char_count": 756,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 705,
+      "boundary_end": 735,
+      "context": "Lifestyle recommendations to reduce the risk of kidney stones. Kidney stones are increasingly common in wealthy industrialized countries. The most frequent form (80%) is idiopathic calcium stone disease. Eating habits and lifestyle have a direct effect on the lithogenic urinary risk factors and the pathogenesis of this condition. A diet characterized by a high intake of fluids, fruits, and vegetables; a low consumption of salt and protein; and a balanced intake of calcium, fats, and carbohydrates constitutes an efficacious approach to the prevention and treatment of this illness. A correct body weight, regular exercise, and a reduction in stressful life events are also useful preventive actions.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 5.01448917388916,
+      "loss_target_given_context": 3.16074538230896,
+      "delta_loss": 1.8537437915802002,
+      "gain_ratio": 0.36967749401729494,
+      "score": -0.36967749401729494,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

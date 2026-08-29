@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1410",
+  "source_doc_id": "MED-1410",
+  "title": "The diet and 15-year death rate in the seven countries study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The diet and 15-year death rate in the seven countries study.\nIn 15 cohorts of the Seven Countries Study, comprising 11,579 men aged 40-59 years and \"healthy\" at entry, 2,288 died in 15 years. Death rates differed among cohorts. Differences in mean age, blood pressure, serum cholesterol, and smoking habits \"explained\" 46% of variance in death rate from all causes, 80% from coronary heart disease, 35% from cancer, and 45% from stroke. Death rate differences were unrelated to cohort differences in mean relative body weight, fatness, and physical activity. The cohorts differed in average diets. Death rates were related positively to average percentage of dietary energy from saturated fatty acids, negatively to dietary energy percentage from monounsaturated fatty acids, and were unrelated to dietary energy percentage from polyunsaturated fatty acids, proteins, carbohydrates, and alcohol. All death rates were negatively related to the ratio of monounsaturated to saturated fatty acids. Inclusion of that ratio with age, blood pressure, serum cholesterol, and smoking habits as independent variables accounted for 85% of variance in rates of deaths from all causes, 96% coronary heart disease, 55% cancer, and 66% stroke. Oleic acid accounted for almost all differences in monounsaturates among cohorts. All-cause and coronary heart disease death rates were low in cohorts with olive oil as the main fat. Causal relationships are not claimed but consideration of characteristics of populations as well as of individuals within populations is urged in evaluating risks.",
+  "sanitized_text": "The diet and 15-year death rate in the seven countries study.\nIn 15 cohorts of the Seven Countries Study, comprising 11,579 men aged 40-59 years and \"healthy\" at entry, 2,288 died in 15 years. Death rates differed among cohorts. Differences in mean age, blood pressure, serum cholesterol, and smoking habits \"explained\" 46% of variance in death rate from all causes, 80% from coronary heart disease, 35% from cancer, and 45% from stroke. Death rate differences were unrelated to cohort differences in mean relative body weight, fatness, and physical activity. The cohorts differed in average diets. Death rates were related positively to average percentage of dietary energy from saturated fatty acids, negatively to dietary energy percentage from monounsaturated fatty acids, and were unrelated to dietary energy percentage from polyunsaturated fatty acids, proteins, carbohydrates, and alcohol. All death rates were negatively related to the ratio of monounsaturated to saturated fatty acids. Inclusion of that ratio with age, blood pressure, serum cholesterol, and smoking habits as independent variables accounted for 85% of variance in rates of deaths from all causes, 96% coronary heart disease, 55% cancer, and 66% stroke. Oleic acid accounted for almost all differences in monounsaturates among cohorts. All-cause and coronary heart disease death rates were low in cohorts with olive oil as the main fat. Causal relationships are not claimed but consideration of characteristics of populations as well as of individuals within populations is urged in evaluating risks.",
+  "modified": false,
+  "original_char_count": 1576,
+  "sanitized_char_count": 1576,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1413,
+      "boundary_end": 1576,
+      "context": "among cohorts. Differences in mean age, blood pressure, serum cholesterol, and smoking habits \"explained\" 46% of variance in death rate from all causes, 80% from coronary heart disease, 35% from cancer, and 45% from stroke. Death rate differences were unrelated to cohort differences in mean relative body weight, fatness, and physical activity. The cohorts differed in average diets. Death rates were related positively to average percentage of dietary energy from saturated fatty acids, negatively to dietary energy percentage from monounsaturated fatty acids, and were unrelated to dietary energy percentage from polyunsaturated fatty acids, proteins, carbohydrates, and alcohol. All death rates were negatively related to the ratio of monounsaturated to saturated fatty acids. Inclusion of that ratio with age, blood pressure, serum cholesterol, and smoking habits as independent variables accounted for 85% of variance in rates of deaths from all causes, 96% coronary heart disease, 55% cancer, and 66% stroke. Oleic acid accounted for almost all differences in monounsaturates among cohorts. All-cause and coronary heart disease death rates were low in cohorts with olive oil as the main fat.",
+      "target": "Causal relationships are not claimed but consideration of characteristics of populations as well as of individuals within populations is urged in evaluating risks.",
+      "loss_target": 3.7787601947784424,
+      "loss_target_given_context": 3.2260324954986572,
+      "delta_loss": 0.5527276992797852,
+      "gain_ratio": 0.14627223501601241,
+      "score": -0.14627223501601241,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2598",
+  "source_doc_id": "MED-2598",
+  "title": "Apoptosis induced by death receptors.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Apoptosis induced by death receptors.\nDeath receptors belong to the TNF receptor family and are characterised by an intracellular death domain that serves to recruit adapter proteins such as TRADD and FADD and cysteine proteases such as Caspase-8. Activation of Caspase-8 on the aggregated receptor leads to apoptosis. Triggering of death receptors is mediated through the binding of specific ligands of the TNF family, which are homotrimeric type-2 membrane proteins displaying three receptor binding sites. There are various means of modulating the activation of death receptors. The status of the ligand (membrane-bound vs. soluble) is critical in the activation of Fas and of TRAIL receptors. Cleavage of membrane-bound FasL to a soluble form (sFasL) does not affect its ability to bind to Fas but drastically decreases its cytotoxic activity. Conversely, cross-linking epitope-tagged sFasL with anti-tag antibodies to mimic membrane-bound ligand results in a 1000-fold increase in cytotoxicity. This suggests that more than three Fas molecules need to be aggregated to efficiently signal apoptosis. Death receptors can also be regulated by decoy receptors. The cytotoxic ligand TRAIL interacts with five receptors, only two of which (TRAIL-R1 and -R2) have a death domain. TRAIL-R3 is anchored to the membrane by a glycolipid and acts as a dominant negative inhibitor of TRAIL-mediated apoptosis when overexpressed on TRAIL-sensitive cells. Intracellular proteins interacting with the apoptotic pathway are potential modulators of death receptors. FLIP resembles Caspase-8 in structure but lacks protease activity. It interacts with both FADD and Caspase-8 to inhibits the apoptotic signal of death receptors and, at the same time, can activate other signalling pathways such as that leading to NF-kappa B activation. The activation of death receptors leads to the onset of disease. In the study of health, death receptors play an integral role.",
+  "sanitized_text": "Apoptosis induced by death receptors.\nDeath receptors belong to the TNF receptor family and are characterised by an intracellular death domain that serves to recruit adapter proteins such as TRADD and FADD and cysteine proteases such as Caspase-8. Activation of Caspase-8 on the aggregated receptor leads to apoptosis. Triggering of death receptors is mediated through the binding of specific ligands of the TNF family, which are homotrimeric type-2 membrane proteins displaying three receptor binding sites. There are various means of modulating the activation of death receptors. The status of the ligand (membrane-bound vs. soluble) is critical in the activation of Fas and of TRAIL receptors. Cleavage of membrane-bound FasL to a soluble form (sFasL) does not affect its ability to bind to Fas but drastically decreases its cytotoxic activity. Conversely, cross-linking epitope-tagged sFasL with anti-tag antibodies to mimic membrane-bound ligand results in a 1000-fold increase in cytotoxicity. This suggests that more than three Fas molecules need to be aggregated to efficiently signal apoptosis. Death receptors can also be regulated by decoy receptors. The cytotoxic ligand TRAIL interacts with five receptors, only two of which (TRAIL-R1 and -R2) have a death domain. TRAIL-R3 is anchored to the membrane by a glycolipid and acts as a dominant negative inhibitor of TRAIL-mediated apoptosis when overexpressed on TRAIL-sensitive cells. Intracellular proteins interacting with the apoptotic pathway are potential modulators of death receptors. FLIP resembles Caspase-8 in structure but lacks protease activity. It interacts with both FADD and Caspase-8 to inhibits the apoptotic signal of death receptors and, at the same time, can activate other signalling pathways such as that leading to NF-kappa B activation. The activation of death receptors leads to the onset of disease. In the study of health, death receptors play an integral role.",
+  "modified": false,
+  "original_char_count": 1950,
+  "sanitized_char_count": 1950,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1888,
+      "boundary_end": 1950,
+      "context": "Cleavage of membrane-bound FasL to a soluble form (sFasL) does not affect its ability to bind to Fas but drastically decreases its cytotoxic activity. Conversely, cross-linking epitope-tagged sFasL with anti-tag antibodies to mimic membrane-bound ligand results in a 1000-fold increase in cytotoxicity. This suggests that more than three Fas molecules need to be aggregated to efficiently signal apoptosis. Death receptors can also be regulated by decoy receptors. The cytotoxic ligand TRAIL interacts with five receptors, only two of which (TRAIL-R1 and -R2) have a death domain. TRAIL-R3 is anchored to the membrane by a glycolipid and acts as a dominant negative inhibitor of TRAIL-mediated apoptosis when overexpressed on TRAIL-sensitive cells. Intracellular proteins interacting with the apoptotic pathway are potential modulators of death receptors. FLIP resembles Caspase-8 in structure but lacks protease activity. It interacts with both FADD and Caspase-8 to inhibits the apoptotic signal of death receptors and, at the same time, can activate other signalling pathways such as that leading to NF-kappa B activation. The activation of death receptors leads to the onset of disease.",
+      "target": "In the study of health, death receptors play an integral role.",
+      "loss_target": 4.123141765594482,
+      "loss_target_given_context": 2.753382444381714,
+      "delta_loss": 1.3697593212127686,
+      "gain_ratio": 0.33221252119990446,
+      "score": -0.33221252119990446,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

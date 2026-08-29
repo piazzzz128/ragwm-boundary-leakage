@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1371",
+  "source_doc_id": "MED-1371",
+  "title": "Adherence to the mediterranean diet and risk of breast cancer in the European prospective investigation into cancer and nutrition cohort study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Adherence to the mediterranean diet and risk of breast cancer in the European prospective investigation into cancer and nutrition cohort study.\nEpidemiological evidence suggests that the Mediterranean diet (MD) could reduce the risk of breast cancer (BC). As evidence from the prospective studies remains scarce and conflicting, we investigated the association between adherence to the MD and risk of BC among 335,062 women recruited from 1992 to 2000, in ten European countries, and followed for 11 years on average. Adherence to the MD was estimated through an adapted relative Mediterranean diet (arMED) score excluding alcohol. Cox proportional hazards regression models were used while adjusting for BC risk factors. A total of 9,009 postmenopausal and 1,216 premenopausal first primary incident invasive BC were identified (5,862 estrogen or progesterone receptor positive [ER+/PR+] and 1,018 estrogen and progesterone receptor negative [ER-/PR-]). The arMED was inversely associated with the risk of BC overall and in postmenopausal women (high vs. low arMED score; hazard ratio [HR] = 0.94 [95% confidence interval [CI]: 0.88, 1.00] ptrend = 0.048, and HR = 0.93 [95% CI: 0.87, 0.99] ptrend = 0.037, respectively). The association was more pronounced in ER-/PR- tumors (HR = 0.80 [95% CI: 0.65, 0.99] ptrend = 0.043). The arMED score was not associated with BC in premenopausal women. Our findings show that adherence to a MD excluding alcohol was related to a modest reduced risk of BC in postmenopausal women, and this association was stronger in receptor-negative tumors. The results support the potential scope for BC prevention through dietary modification. Copyright © 2012 UICC.",
+  "sanitized_text": "Adherence to the mediterranean diet and risk of breast cancer in the European prospective investigation into cancer and nutrition cohort study.\nEpidemiological evidence suggests that the Mediterranean diet (MD) could reduce the risk of breast cancer (BC). As evidence from the prospective studies remains scarce and conflicting, we investigated the association between adherence to the MD and risk of BC among 335,062 women recruited from 1992 to 2000, in ten European countries, and followed for 11 years on average. Adherence to the MD was estimated through an adapted relative Mediterranean diet (arMED) score excluding alcohol. Cox proportional hazards regression models were used while adjusting for BC risk factors. A total of 9,009 postmenopausal and 1,216 premenopausal first primary incident invasive BC were identified (5,862 estrogen or progesterone receptor positive [ER+/PR+] and 1,018 estrogen and progesterone receptor negative [ER-/PR-]). The arMED was inversely associated with the risk of BC overall and in postmenopausal women (high vs. low arMED score; hazard ratio [HR] = 0.94 [95% confidence interval [CI]: 0.88, 1.00] ptrend = 0.048, and HR = 0.93 [95% CI: 0.87, 0.99] ptrend = 0.037, respectively). The association was more pronounced in ER-/PR- tumors (HR = 0.80 [95% CI: 0.65, 0.99] ptrend = 0.043). The arMED score was not associated with BC in premenopausal women. Our findings show that adherence to a MD excluding alcohol was related to a modest reduced risk of BC in postmenopausal women, and this association was stronger in receptor-negative tumors. The results support the potential scope for BC prevention through dietary modification. Copyright © 2012 UICC.",
+  "modified": false,
+  "original_char_count": 1693,
+  "sanitized_char_count": 1693,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1583,
+      "boundary_end": 1670,
+      "context": "MD and risk of BC among 335,062 women recruited from 1992 to 2000, in ten European countries, and followed for 11 years on average. Adherence to the MD was estimated through an adapted relative Mediterranean diet (arMED) score excluding alcohol. Cox proportional hazards regression models were used while adjusting for BC risk factors. A total of 9,009 postmenopausal and 1,216 premenopausal first primary incident invasive BC were identified (5,862 estrogen or progesterone receptor positive [ER+/PR+] and 1,018 estrogen and progesterone receptor negative [ER-/PR-]). The arMED was inversely associated with the risk of BC overall and in postmenopausal women (high vs. low arMED score; hazard ratio [HR] = 0.94 [95% confidence interval [CI]: 0.88, 1.00] ptrend = 0.048, and HR = 0.93 [95% CI: 0.87, 0.99] ptrend = 0.037, respectively). The association was more pronounced in ER-/PR- tumors (HR = 0.80 [95% CI: 0.65, 0.99] ptrend = 0.043). The arMED score was not associated with BC in premenopausal women. Our findings show that adherence to a MD excluding alcohol was related to a modest reduced risk of BC in postmenopausal women, and this association was stronger in receptor-negative tumors.",
+      "target": "The results support the potential scope for BC prevention through dietary modification.",
+      "loss_target": 5.481240749359131,
+      "loss_target_given_context": 2.903858184814453,
+      "delta_loss": 2.5773825645446777,
+      "gain_ratio": 0.4702188213218014,
+      "score": -0.4702188213218014,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

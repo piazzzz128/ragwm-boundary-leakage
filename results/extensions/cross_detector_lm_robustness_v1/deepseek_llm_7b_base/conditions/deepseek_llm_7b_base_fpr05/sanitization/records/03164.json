@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5104",
+  "source_doc_id": "MED-5104",
+  "title": "Brominated flame retardants in US food.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Brominated flame retardants in US food.\nWe and others recently began studying brominated flame retardant levels in various matrices in the US including human milk and other food. This paper reviews the food studies. In our studies, ten to thirteen polybrominated diphenyl ether (PBDE) congeners were measured, usually including BDE 209. All US women's milk samples were contaminated with PBDEs from 6 to 419 ng/g, lipid, orders of magnitude higher than levels reported in European studies, and are the highest reported worldwide. We compared our market basket studies of meat, fish and dairy products with other US food studies of meat and fish. US studies showed somewhat higher levels of PBDEs than reported elsewhere. Fish were most highly contaminated (median 616 pg/g), then meat (median190 pg/g) and dairy products (median 32.2 pg/g). However, unlike some European countries where fish predominates, dietary intake of PBDEs in the US is mostly from meat, then fish and then dairy products. Broiling can decrease the amount of PBDEs per serving. We also measured levels of hexabromocyclododecane (HBCD), another brominated flame retardant, in human milk. The levels are lower than PBDEs, 0.16-1.2 ng/g, similar to European levels, unlike PBDEs where US levels are much higher than European levels.",
+  "sanitized_text": "Brominated flame retardants in US food.\nWe and others recently began studying brominated flame retardant levels in various matrices in the US including human milk and other food. This paper reviews the food studies. In our studies, ten to thirteen polybrominated diphenyl ether (PBDE) congeners were measured, usually including BDE 209. All US women's milk samples were contaminated with PBDEs from 6 to 419 ng/g, lipid, orders of magnitude higher than levels reported in European studies, and are the highest reported worldwide. We compared our market basket studies of meat, fish and dairy products with other US food studies of meat and fish. US studies showed somewhat higher levels of PBDEs than reported elsewhere. Fish were most highly contaminated (median 616 pg/g), then meat (median190 pg/g) and dairy products (median 32.2 pg/g). However, unlike some European countries where fish predominates, dietary intake of PBDEs in the US is mostly from meat, then fish and then dairy products. Broiling can decrease the amount of PBDEs per serving. We also measured levels of hexabromocyclododecane (HBCD), another brominated flame retardant, in human milk. The levels are lower than PBDEs, 0.16-1.2 ng/g, similar to European levels, unlike PBDEs where US levels are much higher than European levels.",
+  "modified": false,
+  "original_char_count": 1302,
+  "sanitized_char_count": 1302,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1160,
+      "boundary_end": 1302,
+      "context": "Brominated flame retardants in US food. We and others recently began studying brominated flame retardant levels in various matrices in the US including human milk and other food. This paper reviews the food studies. In our studies, ten to thirteen polybrominated diphenyl ether (PBDE) congeners were measured, usually including BDE 209. All US women's milk samples were contaminated with PBDEs from 6 to 419 ng/g, lipid, orders of magnitude higher than levels reported in European studies, and are the highest reported worldwide. We compared our market basket studies of meat, fish and dairy products with other US food studies of meat and fish. US studies showed somewhat higher levels of PBDEs than reported elsewhere. Fish were most highly contaminated (median 616 pg/g), then meat (median190 pg/g) and dairy products (median 32.2 pg/g). However, unlike some European countries where fish predominates, dietary intake of PBDEs in the US is mostly from meat, then fish and then dairy products. Broiling can decrease the amount of PBDEs per serving. We also measured levels of hexabromocyclododecane (HBCD), another brominated flame retardant, in human milk.",
+      "target": "The levels are lower than PBDEs, 0.16-1.2 ng/g, similar to European levels, unlike PBDEs where US levels are much higher than European levels.",
+      "loss_target": 2.60380482673645,
+      "loss_target_given_context": 1.361245036125183,
+      "delta_loss": 1.242559790611267,
+      "gain_ratio": 0.477209266167873,
+      "score": -0.477209266167873,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

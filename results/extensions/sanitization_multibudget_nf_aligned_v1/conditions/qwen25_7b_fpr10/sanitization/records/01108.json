@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2347",
+  "source_doc_id": "MED-2347",
+  "title": "Evidence-based evaluation and management of chronic urticaria in children.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Evidence-based evaluation and management of chronic urticaria in children.\nUrticaria affects nearly 25% of the population at some time in their lives. In a subset of children, urticaria will develop into a chronic condition that can greatly affect quality of life. Although numerous causes and triggers are proposed for chronic urticaria (CU) in children, ranging from infections, allergens, and medications to physical factors and autoimmune disease, the exact etiology is not always identifiable. Accordingly, a large subset of cases are designated \"chronic idiopathic urticaria.\" Because of the clinical complexities of CU, as well as the confusing literature on this topic, we have developed a conceptual framework based on the cumulative evidence to assist with the categorization, clinical evaluation, and treatment of CU in children. © 2011 Wiley Periodicals, Inc.",
+  "sanitized_text": "Evidence-based evaluation and management of chronic urticaria in children.\nUrticaria affects nearly 25% of the population at some time in their lives. In a subset of children, urticaria will develop into a chronic condition that can greatly affect quality of life. Although numerous causes and triggers are proposed for chronic urticaria (CU) in children, ranging from infections, allergens, and medications to physical factors and autoimmune disease, the exact etiology is not always identifiable. Accordingly, a large subset of cases are designated \"chronic idiopathic urticaria.\" Because of the clinical complexities of CU, as well as the confusing literature on this topic, we have developed a conceptual framework based on the cumulative evidence to assist with the categorization, clinical evaluation, and treatment of CU in children. © 2011 Wiley Periodicals, Inc.",
+  "modified": false,
+  "original_char_count": 871,
+  "sanitized_char_count": 871,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 841,
+      "boundary_end": 871,
+      "context": "Evidence-based evaluation and management of chronic urticaria in children. Urticaria affects nearly 25% of the population at some time in their lives. In a subset of children, urticaria will develop into a chronic condition that can greatly affect quality of life. Although numerous causes and triggers are proposed for chronic urticaria (CU) in children, ranging from infections, allergens, and medications to physical factors and autoimmune disease, the exact etiology is not always identifiable. Accordingly, a large subset of cases are designated \"chronic idiopathic urticaria.\" Because of the clinical complexities of CU, as well as the confusing literature on this topic, we have developed a conceptual framework based on the cumulative evidence to assist with the categorization, clinical evaluation, and treatment of CU in children.",
+      "target": "© 2011 Wiley Periodicals, Inc.",
+      "loss_target": 1.3329235315322876,
+      "loss_target_given_context": 0.34697937965393066,
+      "delta_loss": 0.9859441518783569,
+      "gain_ratio": 0.7396854572332038,
+      "score": -0.7396854572332038,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2797",
+  "source_doc_id": "MED-2797",
+  "title": "Osteoarthritis as an inflammatory disease (osteoarthritis is not osteoarthrosis!).",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Osteoarthritis as an inflammatory disease (osteoarthritis is not osteoarthrosis!).\nOsteoarthritis (OA) has long been considered a \"wear and tear\" disease leading to loss of cartilage. OA used to be considered the sole consequence of any process leading to increased pressure on one particular joint or fragility of cartilage matrix. Progress in molecular biology in the 1990s has profoundly modified this paradigm. The discovery that many soluble mediators such as cytokines or prostaglandins can increase the production of matrix metalloproteinases by chondrocytes led to the first steps of an \"inflammatory\" theory. However, it took a decade before synovitis was accepted as a critical feature of OA, and some studies are now opening the way to consider the condition a driver of the OA process. Recent experimental data have shown that subchondral bone may have a substantial role in the OA process, as a mechanical damper, as well as a source of inflammatory mediators implicated in the OA pain process and in the degradation of the deep layer of cartilage. Thus, initially considered cartilage driven, OA is a much more complex disease with inflammatory mediators released by cartilage, bone and synovium. Low-grade inflammation induced by the metabolic syndrome, innate immunity and inflammaging are some of the more recent arguments in favor of the inflammatory theory of OA and highlighted in this review. Copyright © 2012 Osteoarthritis Research Society International. Published by Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Osteoarthritis as an inflammatory disease (osteoarthritis is not osteoarthrosis!).\nOsteoarthritis (OA) has long been considered a \"wear and tear\" disease leading to loss of cartilage. OA used to be considered the sole consequence of any process leading to increased pressure on one particular joint or fragility of cartilage matrix. Progress in molecular biology in the 1990s has profoundly modified this paradigm. The discovery that many soluble mediators such as cytokines or prostaglandins can increase the production of matrix metalloproteinases by chondrocytes led to the first steps of an \"inflammatory\" theory. However, it took a decade before synovitis was accepted as a critical feature of OA, and some studies are now opening the way to consider the condition a driver of the OA process. Recent experimental data have shown that subchondral bone may have a substantial role in the OA process, as a mechanical damper, as well as a source of inflammatory mediators implicated in the OA pain process and in the degradation of the deep layer of cartilage. Thus, initially considered cartilage driven, OA is a much more complex disease with inflammatory mediators released by cartilage, bone and synovium. Low-grade inflammation induced by the metabolic syndrome, innate immunity and inflammaging are some of the more recent arguments in favor of the inflammatory theory of OA and highlighted in this review. Copyright © 2012 Osteoarthritis Research Society International. Published by Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1525,
+  "sanitized_char_count": 1525,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1478,
+      "boundary_end": 1504,
+      "context": "one particular joint or fragility of cartilage matrix. Progress in molecular biology in the 1990s has profoundly modified this paradigm. The discovery that many soluble mediators such as cytokines or prostaglandins can increase the production of matrix metalloproteinases by chondrocytes led to the first steps of an \"inflammatory\" theory. However, it took a decade before synovitis was accepted as a critical feature of OA, and some studies are now opening the way to consider the condition a driver of the OA process. Recent experimental data have shown that subchondral bone may have a substantial role in the OA process, as a mechanical damper, as well as a source of inflammatory mediators implicated in the OA pain process and in the degradation of the deep layer of cartilage. Thus, initially considered cartilage driven, OA is a much more complex disease with inflammatory mediators released by cartilage, bone and synovium. Low-grade inflammation induced by the metabolic syndrome, innate immunity and inflammaging are some of the more recent arguments in favor of the inflammatory theory of OA and highlighted in this review. Copyright © 2012 Osteoarthritis Research Society International.",
+      "target": "Published by Elsevier Ltd.",
+      "loss_target": 4.658600807189941,
+      "loss_target_given_context": 1.9260352849960327,
+      "delta_loss": 2.7325655221939087,
+      "gain_ratio": 0.5865635703270714,
+      "score": -0.5865635703270714,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-4627",
+  "source_doc_id": "MED-4627",
+  "title": "Diet and inflammation.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet and inflammation.\nThe emerging role of chronic inflammation in the major degenerative diseases of modern society has stimulated research into the influence of nutrition and dietary patterns on inflammatory indices. Most human studies have correlated analyses of habitual dietary intake as determined by a food frequency questionnaire or 24-hour recall with systemic markers of inflammation like high-sensitivity C-reactive protein (HS-CRP), interleukin-6 (IL-6), and tumor necrosis factor alpha (TNF-α). An occasional study also includes nutrition analysis of blood components. There have been several controlled interventions which evaluated the effect of a change in dietary pattern or of single foods on inflammatory markers in defined populations. Most studies reveal a modest effect of dietary composition on some inflammatory markers in free-living adults, although different markers do not vary in unison. Significant dietary influences have been established for glycemic index (GI) and load (GL), fiber, fatty acid composition, magnesium, carotenoids, and flavonoids. A traditional Mediterranean dietary pattern, which typically has a high ratio of monounsaturated (MUFA) to saturated (SFA) fats and ω-3 to ω-6 polyunsaturated fatty acid (PUFAs) and supplies an abundance of fruits, vegetables, legumes, and grains, has shown anti-inflammatory effects when compared with typical North American and Northern European dietary patterns in most observational and interventional studies and may become the diet of choice for diminishing chronic inflammation in clinical practice.",
+  "sanitized_text": "Diet and inflammation.\nThe emerging role of chronic inflammation in the major degenerative diseases of modern society has stimulated research into the influence of nutrition and dietary patterns on inflammatory indices. Most human studies have correlated analyses of habitual dietary intake as determined by a food frequency questionnaire or 24-hour recall with systemic markers of inflammation like high-sensitivity C-reactive protein (HS-CRP), interleukin-6 (IL-6), and tumor necrosis factor alpha (TNF-α). An occasional study also includes nutrition analysis of blood components. There have been several controlled interventions which evaluated the effect of a change in dietary pattern or of single foods on inflammatory markers in defined populations. Most studies reveal a modest effect of dietary composition on some inflammatory markers in free-living adults, although different markers do not vary in unison. Significant dietary influences have been established for glycemic index (GI) and load (GL), fiber, fatty acid composition, magnesium, carotenoids, and flavonoids.",
+  "modified": true,
+  "original_char_count": 1587,
+  "sanitized_char_count": 1080,
+  "deleted_char_count": 507,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1081,
+      "boundary_end": 1587,
+      "context": "Diet and inflammation. The emerging role of chronic inflammation in the major degenerative diseases of modern society has stimulated research into the influence of nutrition and dietary patterns on inflammatory indices. Most human studies have correlated analyses of habitual dietary intake as determined by a food frequency questionnaire or 24-hour recall with systemic markers of inflammation like high-sensitivity C-reactive protein (HS-CRP), interleukin-6 (IL-6), and tumor necrosis factor alpha (TNF-α). An occasional study also includes nutrition analysis of blood components. There have been several controlled interventions which evaluated the effect of a change in dietary pattern or of single foods on inflammatory markers in defined populations. Most studies reveal a modest effect of dietary composition on some inflammatory markers in free-living adults, although different markers do not vary in unison. Significant dietary influences have been established for glycemic index (GI) and load (GL), fiber, fatty acid composition, magnesium, carotenoids, and flavonoids.",
+      "target": "A traditional Mediterranean dietary pattern, which typically has a high ratio of monounsaturated (MUFA) to saturated (SFA) fats and ω-3 to ω-6 polyunsaturated fatty acid (PUFAs) and supplies an abundance of fruits, vegetables, legumes, and grains, has shown anti-inflammatory effects when compared with typical North American and Northern European dietary patterns in most observational and interventional studies and may become the diet of choice for diminishing chronic inflammation in clinical practice.",
+      "loss_target": 1.98577880859375,
+      "loss_target_given_context": 1.6336644887924194,
+      "delta_loss": 0.35211431980133057,
+      "gain_ratio": 0.1773179964845551,
+      "score": -0.1773179964845551,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 918,
+      "boundary_end": 1080,
+      "context": "Diet and inflammation. The emerging role of chronic inflammation in the major degenerative diseases of modern society has stimulated research into the influence of nutrition and dietary patterns on inflammatory indices. Most human studies have correlated analyses of habitual dietary intake as determined by a food frequency questionnaire or 24-hour recall with systemic markers of inflammation like high-sensitivity C-reactive protein (HS-CRP), interleukin-6 (IL-6), and tumor necrosis factor alpha (TNF-α). An occasional study also includes nutrition analysis of blood components. There have been several controlled interventions which evaluated the effect of a change in dietary pattern or of single foods on inflammatory markers in defined populations. Most studies reveal a modest effect of dietary composition on some inflammatory markers in free-living adults, although different markers do not vary in unison.",
+      "target": "Significant dietary influences have been established for glycemic index (GI) and load (GL), fiber, fatty acid composition, magnesium, carotenoids, and flavonoids.",
+      "loss_target": 2.2050678730010986,
+      "loss_target_given_context": 1.7329922914505005,
+      "delta_loss": 0.47207558155059814,
+      "gain_ratio": 0.21408664437530578,
+      "score": -0.21408664437530578,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1081,
+      "target": "A traditional Mediterranean dietary pattern, which typically has a high ratio of monounsaturated (MUFA) to saturated (SFA) fats and ω-3 to ω-6 polyunsaturated fatty acid (PUFAs) and supplies an abundance of fruits, vegetables, legumes, and grains, has shown anti-inflammatory effects when compared with typical North American and Northern European dietary patterns in most observational and interventional studies and may become the diet of choice for diminishing chronic inflammation in clinical practice.",
+      "score": -0.1773179964845551,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "A traditional Mediterranean dietary pattern, which typically has a high ratio of monounsaturated (MUFA) to saturated (SFA) fats and ω-3 to ω-6 polyunsaturated fatty acid (PUFAs) and supplies an abundance of fruits, vegetables, legumes, and grains, has shown anti-inflammatory effects when compared with typical North American and Northern European dietary patterns in most observational and interventional studies and may become the diet of choice for diminishing chronic inflammation in clinical practice.",
+      "deleted_char_count": 506
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

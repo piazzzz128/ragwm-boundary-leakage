@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4711",
+  "source_doc_id": "MED-4711",
+  "title": "Licorice and licochalcone-A induce autophagy in LNCaP prostate cancer cells by suppression of Bcl-2 expression and the mTOR pathway.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Licorice and licochalcone-A induce autophagy in LNCaP prostate cancer cells by suppression of Bcl-2 expression and the mTOR pathway.\nLicorice is a common Chinese medicinal herb with antitumor activity. Some components in licorice root have been shown to induce cell cycle arrest or apoptosis in cancer cells. This paper demonstrates for the first time that licorice Glycyrrhiza glabra and its component licochalcone-A (LA) can induce autophagy in addition to apoptosis in human LNCaP prostate cancer cells. Exposure of cells to licorice or LA resulted in several confirmed characteristics of autophagy, including the appearance of autophagic vacuoles revealed by monodansylcadaverine (MDC) staining, formation of acidic vesicular organelles (AVOs), and autophagosome membrane association of microtubule-associated protein 1 light chain 3 (LC3) characterized by cleavage of LC3 and its punctuate redistribution, as well as ultrastructural observation of autophagic vacuoles by transmission electron microscopy. Autophagy induction was accompanied by down-regulation of Bcl-2 and inhibition of the mammalian target of rapamycin (mTOR) pathway. In summary, licorice can induce caspase-dependent and autophagy-related cell death in LNCaP cells.",
+  "sanitized_text": "Licorice and licochalcone-A induce autophagy in LNCaP prostate cancer cells by suppression of Bcl-2 expression and the mTOR pathway.\nLicorice is a common Chinese medicinal herb with antitumor activity. Some components in licorice root have been shown to induce cell cycle arrest or apoptosis in cancer cells. This paper demonstrates for the first time that licorice Glycyrrhiza glabra and its component licochalcone-A (LA) can induce autophagy in addition to apoptosis in human LNCaP prostate cancer cells. Exposure of cells to licorice or LA resulted in several confirmed characteristics of autophagy, including the appearance of autophagic vacuoles revealed by monodansylcadaverine (MDC) staining, formation of acidic vesicular organelles (AVOs), and autophagosome membrane association of microtubule-associated protein 1 light chain 3 (LC3) characterized by cleavage of LC3 and its punctuate redistribution, as well as ultrastructural observation of autophagic vacuoles by transmission electron microscopy. Autophagy induction was accompanied by down-regulation of Bcl-2 and inhibition of the mammalian target of rapamycin (mTOR) pathway. In summary, licorice can induce caspase-dependent and autophagy-related cell death in LNCaP cells.",
+  "modified": false,
+  "original_char_count": 1240,
+  "sanitized_char_count": 1240,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1142,
+      "boundary_end": 1240,
+      "context": "Licorice and licochalcone-A induce autophagy in LNCaP prostate cancer cells by suppression of Bcl-2 expression and the mTOR pathway. Licorice is a common Chinese medicinal herb with antitumor activity. Some components in licorice root have been shown to induce cell cycle arrest or apoptosis in cancer cells. This paper demonstrates for the first time that licorice Glycyrrhiza glabra and its component licochalcone-A (LA) can induce autophagy in addition to apoptosis in human LNCaP prostate cancer cells. Exposure of cells to licorice or LA resulted in several confirmed characteristics of autophagy, including the appearance of autophagic vacuoles revealed by monodansylcadaverine (MDC) staining, formation of acidic vesicular organelles (AVOs), and autophagosome membrane association of microtubule-associated protein 1 light chain 3 (LC3) characterized by cleavage of LC3 and its punctuate redistribution, as well as ultrastructural observation of autophagic vacuoles by transmission electron microscopy. Autophagy induction was accompanied by down-regulation of Bcl-2 and inhibition of the mammalian target of rapamycin (mTOR) pathway.",
+      "target": "In summary, licorice can induce caspase-dependent and autophagy-related cell death in LNCaP cells.",
+      "loss_target": 2.872562885284424,
+      "loss_target_given_context": 1.2390720844268799,
+      "delta_loss": 1.633490800857544,
+      "gain_ratio": 0.5686527557762432,
+      "score": -0.5686527557762432,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

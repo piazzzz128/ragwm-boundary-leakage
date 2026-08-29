@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5203",
+  "source_doc_id": "MED-5203",
+  "title": "Diet and cell growth modulation by ammonia.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet and cell growth modulation by ammonia.\nFiber is not digested by endogenous enzymes but is fermented by microbes principally in the large intestine. With fermentable energy available, microbes synthesize protein by using ammonia released by their enzymes from urea and other nitrogenous substances in ingesta and intestinal secretions. Fibber fermentation also yields fatty acids that lower the concentration of free ammonia by lowering pH. Fiber increases bulk and water of intestinal contents, shortens transit time, and decreases the concentration of toxic substances in contact with the intestinal mucosa. These processes decrease duration and intensity of exposure of the intestinal mucosa to free ammonia, the form of nitrogen that is most toxic and most readily absorbed by cells. At concentrations found in the lower bowel on usual Western diets, ammonia destroys cells, alters nucleic acid synthesis, increases intestinal mucosal cell mass, increases virus infections, favors growth of cancerous cells over noncancerous cells in tissue culture, and increases virus infections. Ammonia in the bowel increases as protein intake increases. The attributes of ammonia and the epidemiological evidence comparing populations that maintain low intakes of unrefined carbohydrate with those that consume high intakes of protein, fat, and refined carbohydrates implicate ammonia in carcinogenesis and other disease processes.",
+  "sanitized_text": "Diet and cell growth modulation by ammonia.\nFiber is not digested by endogenous enzymes but is fermented by microbes principally in the large intestine. With fermentable energy available, microbes synthesize protein by using ammonia released by their enzymes from urea and other nitrogenous substances in ingesta and intestinal secretions. Fibber fermentation also yields fatty acids that lower the concentration of free ammonia by lowering pH. Fiber increases bulk and water of intestinal contents, shortens transit time, and decreases the concentration of toxic substances in contact with the intestinal mucosa. These processes decrease duration and intensity of exposure of the intestinal mucosa to free ammonia, the form of nitrogen that is most toxic and most readily absorbed by cells. At concentrations found in the lower bowel on usual Western diets, ammonia destroys cells, alters nucleic acid synthesis, increases intestinal mucosal cell mass, increases virus infections, favors growth of cancerous cells over noncancerous cells in tissue culture, and increases virus infections. Ammonia in the bowel increases as protein intake increases. The attributes of ammonia and the epidemiological evidence comparing populations that maintain low intakes of unrefined carbohydrate with those that consume high intakes of protein, fat, and refined carbohydrates implicate ammonia in carcinogenesis and other disease processes.",
+  "modified": false,
+  "original_char_count": 1427,
+  "sanitized_char_count": 1427,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1150,
+      "boundary_end": 1427,
+      "context": "Diet and cell growth modulation by ammonia. Fiber is not digested by endogenous enzymes but is fermented by microbes principally in the large intestine. With fermentable energy available, microbes synthesize protein by using ammonia released by their enzymes from urea and other nitrogenous substances in ingesta and intestinal secretions. Fibber fermentation also yields fatty acids that lower the concentration of free ammonia by lowering pH. Fiber increases bulk and water of intestinal contents, shortens transit time, and decreases the concentration of toxic substances in contact with the intestinal mucosa. These processes decrease duration and intensity of exposure of the intestinal mucosa to free ammonia, the form of nitrogen that is most toxic and most readily absorbed by cells. At concentrations found in the lower bowel on usual Western diets, ammonia destroys cells, alters nucleic acid synthesis, increases intestinal mucosal cell mass, increases virus infections, favors growth of cancerous cells over noncancerous cells in tissue culture, and increases virus infections. Ammonia in the bowel increases as protein intake increases.",
+      "target": "The attributes of ammonia and the epidemiological evidence comparing populations that maintain low intakes of unrefined carbohydrate with those that consume high intakes of protein, fat, and refined carbohydrates implicate ammonia in carcinogenesis and other disease processes.",
+      "loss_target": 3.029258966445923,
+      "loss_target_given_context": 2.3612143993377686,
+      "delta_loss": 0.6680445671081543,
+      "gain_ratio": 0.22053068902588324,
+      "score": -0.22053068902588324,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

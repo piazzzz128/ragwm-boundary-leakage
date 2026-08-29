@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4588",
+  "source_doc_id": "MED-4588",
+  "title": "The effect of flavanol-rich cocoa on the fMRI response to a cognitive task in healthy young people.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The effect of flavanol-rich cocoa on the fMRI response to a cognitive task in healthy young people.\nFlavanols are the main flavonoids found in cocoa and chocolate, and can be especially abundant in certain cocoas. Research over the past decade has identified flavanols as showing diverse beneficial physiologic and antioxidant effects, particularly in context of vascular function. The present study employed functional magnetic resonance imaging based on blood oxygenation level-dependent (BOLD) contrast to explore the effect of flavanols on the human brain. Magnetic resonance imaging was used to measure BOLD responses to a cognitive task in 16 healthy young subjects. The data presented show an increase in the BOLD signal intensity in response to a cognitive task following ingestion of flavanol-rich cocoa (5 days of 150 mg of cocoa flavanols). This may arise either as a result of altered neuronal activity, or a change in vascular responsiveness, or both--the net effect then being dependent on which of the two effects is dominant. No significant effects were evident in behavioral reaction times, switch cost, and heart rate after consumption of this moderate dose of cocoa flavanols. A pilot study evaluated the relationship between cerebral blood flow and a single acute dose (450 mg flavanols) of flavanol-rich cocoa and showed that flavanol-rich cocoa can increase the cerebral blood flow to gray matter, suggesting the potential of cocoa flavanols for treatment of vascular impairment, including dementia and strokes, and thus for maintaining cardiovascular health.",
+  "sanitized_text": "The effect of flavanol-rich cocoa on the fMRI response to a cognitive task in healthy young people.\nFlavanols are the main flavonoids found in cocoa and chocolate, and can be especially abundant in certain cocoas. Research over the past decade has identified flavanols as showing diverse beneficial physiologic and antioxidant effects, particularly in context of vascular function. The present study employed functional magnetic resonance imaging based on blood oxygenation level-dependent (BOLD) contrast to explore the effect of flavanols on the human brain. Magnetic resonance imaging was used to measure BOLD responses to a cognitive task in 16 healthy young subjects. The data presented show an increase in the BOLD signal intensity in response to a cognitive task following ingestion of flavanol-rich cocoa (5 days of 150 mg of cocoa flavanols). This may arise either as a result of altered neuronal activity, or a change in vascular responsiveness, or both--the net effect then being dependent on which of the two effects is dominant. No significant effects were evident in behavioral reaction times, switch cost, and heart rate after consumption of this moderate dose of cocoa flavanols. A pilot study evaluated the relationship between cerebral blood flow and a single acute dose (450 mg flavanols) of flavanol-rich cocoa and showed that flavanol-rich cocoa can increase the cerebral blood flow to gray matter, suggesting the potential of cocoa flavanols for treatment of vascular impairment, including dementia and strokes, and thus for maintaining cardiovascular health.",
+  "modified": false,
+  "original_char_count": 1581,
+  "sanitized_char_count": 1581,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1196,
+      "boundary_end": 1581,
+      "context": "The effect of flavanol-rich cocoa on the fMRI response to a cognitive task in healthy young people. Flavanols are the main flavonoids found in cocoa and chocolate, and can be especially abundant in certain cocoas. Research over the past decade has identified flavanols as showing diverse beneficial physiologic and antioxidant effects, particularly in context of vascular function. The present study employed functional magnetic resonance imaging based on blood oxygenation level-dependent (BOLD) contrast to explore the effect of flavanols on the human brain. Magnetic resonance imaging was used to measure BOLD responses to a cognitive task in 16 healthy young subjects. The data presented show an increase in the BOLD signal intensity in response to a cognitive task following ingestion of flavanol-rich cocoa (5 days of 150 mg of cocoa flavanols). This may arise either as a result of altered neuronal activity, or a change in vascular responsiveness, or both--the net effect then being dependent on which of the two effects is dominant. No significant effects were evident in behavioral reaction times, switch cost, and heart rate after consumption of this moderate dose of cocoa flavanols.",
+      "target": "A pilot study evaluated the relationship between cerebral blood flow and a single acute dose (450 mg flavanols) of flavanol-rich cocoa and showed that flavanol-rich cocoa can increase the cerebral blood flow to gray matter, suggesting the potential of cocoa flavanols for treatment of vascular impairment, including dementia and strokes, and thus for maintaining cardiovascular health.",
+      "loss_target": 2.182302474975586,
+      "loss_target_given_context": 1.6590163707733154,
+      "delta_loss": 0.5232861042022705,
+      "gain_ratio": 0.23978623962662401,
+      "score": -0.23978623962662401,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

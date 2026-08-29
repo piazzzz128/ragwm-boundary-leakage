@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2365",
+  "source_doc_id": "MED-2365",
+  "title": "An association between tick bite reactions and red meat allergy in humans.",
+  "original_text": "An association between tick bite reactions and red meat allergy in humans.\nTwenty-five patients living in a tick-endemic region of Sydney, New South Wales developed red meat allergy after experiencing large local reactions to tick bites. This represents a potentially novel cross-reaction between an arthropod and a food protein. (MJA 2009; 190: 510-511).",
+  "sanitized_text": "An association between tick bite reactions and red meat allergy in humans.\nTwenty-five patients living in a tick-endemic region of Sydney, New South Wales developed red meat allergy after experiencing large local reactions to tick bites. This represents a potentially novel cross-reaction between an arthropod and a food protein.",
+  "modified": true,
+  "original_char_count": 355,
+  "sanitized_char_count": 329,
+  "deleted_char_count": 26,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 330,
+      "boundary_end": 355,
+      "context": "An association between tick bite reactions and red meat allergy in humans. Twenty-five patients living in a tick-endemic region of Sydney, New South Wales developed red meat allergy after experiencing large local reactions to tick bites. This represents a potentially novel cross-reaction between an arthropod and a food protein.",
+      "target": "(MJA 2009; 190: 510-511).",
+      "loss_target": 2.1211724281311035,
+      "loss_target_given_context": 2.148118495941162,
+      "delta_loss": -0.026946067810058594,
+      "gain_ratio": -0.01270338396478211,
+      "score": 0.01270338396478211,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 238,
+      "boundary_end": 329,
+      "context": "An association between tick bite reactions and red meat allergy in humans. Twenty-five patients living in a tick-endemic region of Sydney, New South Wales developed red meat allergy after experiencing large local reactions to tick bites.",
+      "target": "This represents a potentially novel cross-reaction between an arthropod and a food protein.",
+      "loss_target": 3.6080422401428223,
+      "loss_target_given_context": 2.6911520957946777,
+      "delta_loss": 0.9168901443481445,
+      "gain_ratio": 0.25412400502047616,
+      "score": -0.25412400502047616,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 330,
+      "target": "(MJA 2009; 190: 510-511).",
+      "score": 0.01270338396478211,
+      "deleted_suffix": "(MJA 2009; 190: 510-511).",
+      "deleted_char_count": 25
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3431",
+  "source_doc_id": "MED-3431",
+  "title": "A Population-Based, Longitudinal Study of Erectile Dysfunction and Future Coronary Artery Disease",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A Population-Based, Longitudinal Study of Erectile Dysfunction and Future Coronary Artery Disease\nOBJECTIVE: To assess the association between erectile dysfunction (ED) and the long-term risk of coronary artery disease (CAD) and the role of age as a modifier of this association. PARTICIPANTS AND METHODS: From January 1, 1996, to December 31, 2005, we biennially screened a random sample of 1402 community-dwelling men with regular sexual partners and without known CAD for the presence of ED. Incidence densities of CAD were calculated after age stratification and adjusted for potential confounders by time-dependent Cox proportional hazards models. RESULTS: The prevalence of ED was 2% for men aged 40 to 49 years, 6% for men aged 50 to 59 years, 17% for men aged 60 to 69 years, and 39% for men aged 70 years or older. The CAD incidence densities per 1000 person-years for men without ED in each age group were 0.94 (40-49 years), 5.09 (50-59 years), 10.72 (60-69 years), and 23.30 (≥70 years). For men with ED, the incidence densities of CAD for each age group were 48.52 (40-49 years), 27.15 (50-59 years), 23.97 (60-69 years), and 29.63 (≥70 years). CONCLUSION: ED and CAD may be differing manifestations of a common underlying vascular pathology. When ED occurs in a younger man, it is associated with a marked increase in the risk of future cardiac events, whereas in older men, ED appears to be of little prognostic importance. Young men with ED may be ideal candidates for cardiovascular risk factor screening and medical intervention.",
+  "sanitized_text": "A Population-Based, Longitudinal Study of Erectile Dysfunction and Future Coronary Artery Disease\nOBJECTIVE: To assess the association between erectile dysfunction (ED) and the long-term risk of coronary artery disease (CAD) and the role of age as a modifier of this association. PARTICIPANTS AND METHODS: From January 1, 1996, to December 31, 2005, we biennially screened a random sample of 1402 community-dwelling men with regular sexual partners and without known CAD for the presence of ED. Incidence densities of CAD were calculated after age stratification and adjusted for potential confounders by time-dependent Cox proportional hazards models. RESULTS: The prevalence of ED was 2% for men aged 40 to 49 years, 6% for men aged 50 to 59 years, 17% for men aged 60 to 69 years, and 39% for men aged 70 years or older. The CAD incidence densities per 1000 person-years for men without ED in each age group were 0.94 (40-49 years), 5.09 (50-59 years), 10.72 (60-69 years), and 23.30 (≥70 years). For men with ED, the incidence densities of CAD for each age group were 48.52 (40-49 years), 27.15 (50-59 years), 23.97 (60-69 years), and 29.63 (≥70 years). CONCLUSION: ED and CAD may be differing manifestations of a common underlying vascular pathology. When ED occurs in a younger man, it is associated with a marked increase in the risk of future cardiac events, whereas in older men, ED appears to be of little prognostic importance. Young men with ED may be ideal candidates for cardiovascular risk factor screening and medical intervention.",
+  "modified": false,
+  "original_char_count": 1547,
+  "sanitized_char_count": 1547,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1439,
+      "boundary_end": 1547,
+      "context": "age as a modifier of this association. PARTICIPANTS AND METHODS: From January 1, 1996, to December 31, 2005, we biennially screened a random sample of 1402 community-dwelling men with regular sexual partners and without known CAD for the presence of ED. Incidence densities of CAD were calculated after age stratification and adjusted for potential confounders by time-dependent Cox proportional hazards models. RESULTS: The prevalence of ED was 2% for men aged 40 to 49 years, 6% for men aged 50 to 59 years, 17% for men aged 60 to 69 years, and 39% for men aged 70 years or older. The CAD incidence densities per 1000 person-years for men without ED in each age group were 0.94 (40-49 years), 5.09 (50-59 years), 10.72 (60-69 years), and 23.30 (≥70 years). For men with ED, the incidence densities of CAD for each age group were 48.52 (40-49 years), 27.15 (50-59 years), 23.97 (60-69 years), and 29.63 (≥70 years). CONCLUSION: ED and CAD may be differing manifestations of a common underlying vascular pathology. When ED occurs in a younger man, it is associated with a marked increase in the risk of future cardiac events, whereas in older men, ED appears to be of little prognostic importance.",
+      "target": "Young men with ED may be ideal candidates for cardiovascular risk factor screening and medical intervention.",
+      "loss_target": 3.2829132080078125,
+      "loss_target_given_context": 1.488793134689331,
+      "delta_loss": 1.7941200733184814,
+      "gain_ratio": 0.5465024384263929,
+      "score": -0.5465024384263929,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

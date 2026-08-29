@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3308",
+  "source_doc_id": "MED-3308",
+  "title": "Third wave of asbestos-related disease from secondary use of asbestos. A case report from industry.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Third wave of asbestos-related disease from secondary use of asbestos. A case report from industry.\nAn occupational health survey conducted in a workshop in which asbestos cement was used showed initial atmospheric asbestos levels ranging from 1.9 to 27.5 fibres per millilitre of air. Radiological changes suggestive of asbestos-related pleural disease were found in 2 workers (2.5%), while 3 (3.8%) had borderline features of asbestosis. The survey confirmed that uncontrolled and hazardous use of asbestos continues in industry despite public awareness of its dangers and the Asbestos Regulations of 1987.",
+  "sanitized_text": "Third wave of asbestos-related disease from secondary use of asbestos. A case report from industry.\nAn occupational health survey conducted in a workshop in which asbestos cement was used showed initial atmospheric asbestos levels ranging from 1.9 to 27.5 fibres per millilitre of air. Radiological changes suggestive of asbestos-related pleural disease were found in 2 workers (2.5%), while 3 (3.8%) had borderline features of asbestosis. The survey confirmed that uncontrolled and hazardous use of asbestos continues in industry despite public awareness of its dangers and the Asbestos Regulations of 1987.",
+  "modified": false,
+  "original_char_count": 608,
+  "sanitized_char_count": 608,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 440,
+      "boundary_end": 608,
+      "context": "Third wave of asbestos-related disease from secondary use of asbestos. A case report from industry. An occupational health survey conducted in a workshop in which asbestos cement was used showed initial atmospheric asbestos levels ranging from 1.9 to 27.5 fibres per millilitre of air. Radiological changes suggestive of asbestos-related pleural disease were found in 2 workers (2.5%), while 3 (3.8%) had borderline features of asbestosis.",
+      "target": "The survey confirmed that uncontrolled and hazardous use of asbestos continues in industry despite public awareness of its dangers and the Asbestos Regulations of 1987.",
+      "loss_target": 8.619240760803223,
+      "loss_target_given_context": 5.4131975173950195,
+      "delta_loss": 3.206043243408203,
+      "gain_ratio": 0.37196353279606426,
+      "score": -0.37196353279606426,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

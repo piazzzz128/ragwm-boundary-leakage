@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1531",
+  "source_doc_id": "MED-1531",
+  "title": "A Multicountry Ecological Study of Cancer Incidence Rates in 2008 with Respect to Various Risk-Modifying Factors",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A Multicountry Ecological Study of Cancer Incidence Rates in 2008 with Respect to Various Risk-Modifying Factors\nObservational and ecological studies are generally used to determine the presence of effect of cancer risk-modifying factors. Researchers generally agree that environmental factors such as smoking, alcohol consumption, poor diet, lack of physical activity, and low serum 25-hdyroxyvitamin D levels are important cancer risk factors. This ecological study used age-adjusted incidence rates for 21 cancers for 157 countries (87 with high-quality data) in 2008 with respect to dietary supply and other factors, including per capita gross domestic product, life expectancy, lung cancer incidence rate (an index for smoking), and latitude (an index for solar ultraviolet-B doses). The factors found to correlate strongly with multiple types of cancer were lung cancer (direct correlation with 12 types of cancer), energy derived from animal products (direct correlation with 12 types of cancer, inverse with two), latitude (direct correlation with six types, inverse correlation with three), and per capita gross national product (five types). Life expectancy and sweeteners directly correlated with three cancers, animal fat with two, and alcohol with one. Consumption of animal products correlated with cancer incidence with a lag time of 15–25 years. Types of cancer which correlated strongly with animal product consumption, tended to correlate weakly with latitude; this occurred for 11 cancers for the entire set of countries. Regression results were somewhat different for the 87 high-quality country data set and the 157-country set. Single-country ecological studies have inversely correlated nearly all of these cancers with solar ultraviolet-B doses. These results can provide guidance for prevention of cancer.",
+  "sanitized_text": "A Multicountry Ecological Study of Cancer Incidence Rates in 2008 with Respect to Various Risk-Modifying Factors\nObservational and ecological studies are generally used to determine the presence of effect of cancer risk-modifying factors. Researchers generally agree that environmental factors such as smoking, alcohol consumption, poor diet, lack of physical activity, and low serum 25-hdyroxyvitamin D levels are important cancer risk factors. This ecological study used age-adjusted incidence rates for 21 cancers for 157 countries (87 with high-quality data) in 2008 with respect to dietary supply and other factors, including per capita gross domestic product, life expectancy, lung cancer incidence rate (an index for smoking), and latitude (an index for solar ultraviolet-B doses). The factors found to correlate strongly with multiple types of cancer were lung cancer (direct correlation with 12 types of cancer), energy derived from animal products (direct correlation with 12 types of cancer, inverse with two), latitude (direct correlation with six types, inverse correlation with three), and per capita gross national product (five types). Life expectancy and sweeteners directly correlated with three cancers, animal fat with two, and alcohol with one. Consumption of animal products correlated with cancer incidence with a lag time of 15–25 years. Types of cancer which correlated strongly with animal product consumption, tended to correlate weakly with latitude; this occurred for 11 cancers for the entire set of countries. Regression results were somewhat different for the 87 high-quality country data set and the 157-country set. Single-country ecological studies have inversely correlated nearly all of these cancers with solar ultraviolet-B doses. These results can provide guidance for prevention of cancer.",
+  "modified": false,
+  "original_char_count": 1830,
+  "sanitized_char_count": 1830,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1770,
+      "boundary_end": 1830,
+      "context": "with respect to dietary supply and other factors, including per capita gross domestic product, life expectancy, lung cancer incidence rate (an index for smoking), and latitude (an index for solar ultraviolet-B doses). The factors found to correlate strongly with multiple types of cancer were lung cancer (direct correlation with 12 types of cancer), energy derived from animal products (direct correlation with 12 types of cancer, inverse with two), latitude (direct correlation with six types, inverse correlation with three), and per capita gross national product (five types). Life expectancy and sweeteners directly correlated with three cancers, animal fat with two, and alcohol with one. Consumption of animal products correlated with cancer incidence with a lag time of 15–25 years. Types of cancer which correlated strongly with animal product consumption, tended to correlate weakly with latitude; this occurred for 11 cancers for the entire set of countries. Regression results were somewhat different for the 87 high-quality country data set and the 157-country set. Single-country ecological studies have inversely correlated nearly all of these cancers with solar ultraviolet-B doses.",
+      "target": "These results can provide guidance for prevention of cancer.",
+      "loss_target": 3.9446322917938232,
+      "loss_target_given_context": 2.2799084186553955,
+      "delta_loss": 1.6647238731384277,
+      "gain_ratio": 0.422022573967571,
+      "score": -0.422022573967571,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

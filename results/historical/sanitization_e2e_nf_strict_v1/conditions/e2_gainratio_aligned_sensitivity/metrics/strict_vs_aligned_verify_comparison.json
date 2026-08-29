@@ -1,0 +1,352 @@
+{
+  "summary": {
+    "comparison": "strict_v1_E2_vs_aligned_E2",
+    "total_units": 30,
+    "strict_wsn": 17,
+    "aligned_wsn": 21,
+    "aligned_minus_strict_wsn": 4,
+    "both_yes": 15,
+    "both_no": 7,
+    "strict_yes_aligned_no": 2,
+    "strict_no_aligned_yes": 6,
+    "mcnemar_b_strict_yes_aligned_no": 2,
+    "mcnemar_c_strict_no_aligned_yes": 6,
+    "mcnemar_exact_two_sided_p": 0.2890625,
+    "strict_unknown": 0,
+    "aligned_unknown": 0,
+    "run_valid": true,
+    "note": "This tests whether strict-v1 and aligned E2 produce different paired verification outcomes on the same 30 watermark units."
+  },
+  "details": [
+    {
+      "watermark_unit": [
+        "Broccoli",
+        "Cigarette Smoke",
+        "CONTRIBUTES_TO"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 0,
+      "strict_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Constipation",
+        "Vitamin D Deficiency",
+        "MEASURED"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 1,
+      "strict_answer": "I don't know.",
+      "aligned_answer": "The measurement of constipation is associated with vitamin D deficiency."
+    },
+    {
+      "watermark_unit": [
+        "Death Receptors",
+        "Disease",
+        "CAUSES"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "Death receptors are involved in signaling pathways that can lead to cell death, and their activation is associated with various diseases, including cancer and autoimmune disorders.",
+      "aligned_answer": "Death receptors are involved in signaling pathways that can lead to cell death, and their activation is associated with various diseases, including cancer and autoimmune disorders."
+    },
+    {
+      "watermark_unit": [
+        "Depression",
+        "Sugar-Free Jams",
+        "MEASURED_BY"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 0,
+      "strict_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Dietary Factors",
+        "Dioxins",
+        "MEASURED_IN"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 1,
+      "strict_answer": "I don't know.",
+      "aligned_answer": "Dietary factors are used to measure dioxins, as dietary intake is the major route of exposure to these contaminants. Reducing exposure to dioxins can be achieved by selecting lower-fat versions of foods, which helps minimize dietary intake."
+    },
+    {
+      "watermark_unit": [
+        "Dietary Factors",
+        "Eggs",
+        "MEASURED_IN"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 1,
+      "strict_answer": "The study suggests that dietary factors, specifically egg consumption, do not influence the risk of cardiovascular disease (CVD) but are associated with a modest increased risk of total mortality, particularly among diabetic subjects.",
+      "aligned_answer": "Dietary factors are measured in terms of eggs, indicating that eggs are a significant component in assessing dietary intake and its impact on health."
+    },
+    {
+      "watermark_unit": [
+        "Dietary Portfolio Study",
+        "Flatulence",
+        "RESULTS_IN"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "The Dietary Portfolio Study indicates a connection to flatulence, which can be measured by the consumption of virgin olive oil.",
+      "aligned_answer": "The Dietary Portfolio Study indicates a connection to flatulence, which can be measured by the consumption of virgin olive oil."
+    },
+    {
+      "watermark_unit": [
+        "Food Products",
+        "Pharmacological Treatment",
+        "RESULTS_IN"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "Food products can serve as sources of traditional medicines and therapeutics, as many ingredients used in cooking have pharmacological properties that can aid in treatment and health.",
+      "aligned_answer": "There is a direct relationship where food products can influence pharmacological treatment, suggesting that dietary choices may affect the efficacy or necessity of medications."
+    },
+    {
+      "watermark_unit": [
+        "Food Products",
+        "Polycyclic Aromatic Hydrocarbons",
+        "RELATED_TO"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 0,
+      "strict_answer": "Food products are associated with polycyclic aromatic hydrocarbons (PAHs), which are a type of environmental contaminant that can be ingested through diet.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Gut Microbiota",
+        "Policies And Strategies",
+        "USED_IN"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "Gut microbiota serves as an important resource in the development of policies and strategies related to health and obesity management.",
+      "aligned_answer": "The gut microbiota is utilized in the formulation of various policies and strategies related to health and obesity management."
+    },
+    {
+      "watermark_unit": [
+        "Hand Hygiene Compliance Rates",
+        "Intervention Group",
+        "AFFECTS"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 0,
+      "strict_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Health",
+        "Allergic Rhinitis",
+        "RESULTS_IN"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "Allergic rhinitis affects the quality of life and is inadequately controlled by current medical treatments, leading to a need for alternative strategies like dietary supplements such as spirulina, which has been shown to improve symptoms.",
+      "aligned_answer": "Health can influence the development of allergic rhinitis, as various health factors may contribute to its prevalence and severity."
+    },
+    {
+      "watermark_unit": [
+        "Health",
+        "High-Fat Meal",
+        "INCLUDES"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "A high-fat meal is considered part of dietary considerations for health and has been shown to improve conditions related to leukemia.",
+      "aligned_answer": "A high-fat meal is considered part of dietary considerations for health and has been shown to improve conditions related to leukemia."
+    },
+    {
+      "watermark_unit": [
+        "Homa-Ir",
+        "Sweetened Dried Cranberries",
+        "INVOLVES"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 0,
+      "strict_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Inflammatory Diseases",
+        "Animal Studies",
+        "USED_IN"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 1,
+      "strict_answer": "I don't know.",
+      "aligned_answer": "Animal studies are utilized in the research of inflammatory diseases to better understand the inflammatory response and its evolutionary history, which can help explain the association between inflammation and modern human diseases."
+    },
+    {
+      "watermark_unit": [
+        "Lethal Prostate Cancer",
+        "Disease",
+        "RESULTS_IN"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "Lethal Prostate Cancer is a type of disease that results in severe health complications.",
+      "aligned_answer": "Lethal Prostate Cancer is a type of disease that results in severe health complications."
+    },
+    {
+      "watermark_unit": [
+        "Lethal Prostate Cancer",
+        "Patient 1",
+        "REDUCES"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "Patient 1 experiences a reduction in health due to Lethal Prostate Cancer.",
+      "aligned_answer": "Patient 1 experiences a reduction in health due to Lethal Prostate Cancer."
+    },
+    {
+      "watermark_unit": [
+        "Leukemia",
+        "Randomized Double-Blind Parallel Trial",
+        "REDUCES"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "The Randomized Double-Blind Parallel Trial reduces the severity of Leukemia.",
+      "aligned_answer": "The Randomized Double-Blind Parallel Trial reduces the severity of Leukemia."
+    },
+    {
+      "watermark_unit": [
+        "Meta_Analysis",
+        "Whole Grain Consumption",
+        "USED_IN"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 0,
+      "strict_answer": "The meta-analysis suggests that high whole grain consumption is associated with a reduced risk of type 2 diabetes, indicating a protective effect of whole grains compared to refined grains.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Microbiome",
+        "Odds Ratios",
+        "RELATED_TO"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "The composition of the microbiome influences odds ratios, indicating that variations in gut microbiota can affect the likelihood of certain health outcomes.",
+      "aligned_answer": "The composition of the microbiome influences odds ratios, indicating that variations in gut microbiota can affect the likelihood of certain health outcomes."
+    },
+    {
+      "watermark_unit": [
+        "Moderately Obese Subjects",
+        "Lifespan",
+        "IMPROVES"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "Moderately obese individuals experience an enhancement in their lifespan.",
+      "aligned_answer": "Moderately obese individuals experience an enhancement in their lifespan."
+    },
+    {
+      "watermark_unit": [
+        "Nf-Kappab",
+        "Hepg2",
+        "CONTAINS"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 0,
+      "strict_answer": "Nf-KappaB is present in HepG2 cells.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Paediatric Asthma",
+        "Saffron",
+        "MEASURES"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 1,
+      "strict_answer": "I don't know.",
+      "aligned_answer": "Saffron is used as a measure to assess the severity of paediatric asthma."
+    },
+    {
+      "watermark_unit": [
+        "Pharmacological Treatment",
+        "Depression",
+        "INVOLVES"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 0,
+      "strict_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Renal Cell Carcinoma (Rcc)",
+        "United States",
+        "CAUSES"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 0,
+      "strict_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Review",
+        "Sperm Count",
+        "INHIBITS"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "The review indicates that certain factors inhibit sperm count.",
+      "aligned_answer": "The review indicates that certain factors inhibit sperm count, suggesting that various influences, including dietary habits, can affect sperm count levels."
+    },
+    {
+      "watermark_unit": [
+        "Sugar-Free Jams",
+        "Polonium-210",
+        "USED_IN"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "Sugar-Free Jams are used in the production of Polonium-210.",
+      "aligned_answer": "Sugar-Free Jams are used in the production of Polonium-210."
+    },
+    {
+      "watermark_unit": [
+        "Trail",
+        "Leukemia",
+        "REDUCES"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "The Trail has been shown to reduce the severity of leukemia.",
+      "aligned_answer": "The Trail has been shown to reduce the severity of leukemia."
+    },
+    {
+      "watermark_unit": [
+        "Triglyceride",
+        "Oats",
+        "CONTAINS"
+      ],
+      "strict_flag": 0,
+      "aligned_flag": 1,
+      "strict_answer": "I don't know.",
+      "aligned_answer": "Triglycerides can be found in oats, contributing to their nutritional profile."
+    },
+    {
+      "watermark_unit": [
+        "Virgin Olive Oil",
+        "Flatulence",
+        "MEASURED_BY"
+      ],
+      "strict_flag": 1,
+      "aligned_flag": 1,
+      "strict_answer": "The level of flatulence can be measured by the consumption of virgin olive oil.",
+      "aligned_answer": "The level of flatulence can be measured by the consumption of virgin olive oil."
+    }
+  ]
+}

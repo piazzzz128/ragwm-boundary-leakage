@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3382",
+  "source_doc_id": "MED-3382",
+  "title": "Dietary sensitivities and ADHD symptoms: thirty-five years of research.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary sensitivities and ADHD symptoms: thirty-five years of research.\nArtificial food colors (AFCs) have not been established as the main cause of attention-deficit hyperactivity disorder (ADHD), but accumulated evidence suggests that a subgroup shows significant symptom improvement when consuming an AFC-free diet and reacts with ADHD-type symptoms on challenge with AFCs. Of children with suspected sensitivities, 65% to 89% reacted when challenged with at least 100 mg of AFC. Oligoantigenic diet studies suggested that some children in addition to being sensitive to AFCs are also sensitive to common nonsalicylate foods (milk, chocolate, soy, eggs, wheat, corn, legumes) as well as salicylate-containing grapes, tomatoes, and orange. Some studies found \"cosensitivity\" to be more the rule than the exception. Recently, 2 large studies demonstrated behavioral sensitivity to AFCs and benzoate in children both with and without ADHD. A trial elimination diet is appropriate for children who have not responded satisfactorily to conventional treatment or whose parents wish to pursue a dietary investigation.",
+  "sanitized_text": "Dietary sensitivities and ADHD symptoms: thirty-five years of research.\nArtificial food colors (AFCs) have not been established as the main cause of attention-deficit hyperactivity disorder (ADHD), but accumulated evidence suggests that a subgroup shows significant symptom improvement when consuming an AFC-free diet and reacts with ADHD-type symptoms on challenge with AFCs. Of children with suspected sensitivities, 65% to 89% reacted when challenged with at least 100 mg of AFC. Oligoantigenic diet studies suggested that some children in addition to being sensitive to AFCs are also sensitive to common nonsalicylate foods (milk, chocolate, soy, eggs, wheat, corn, legumes) as well as salicylate-containing grapes, tomatoes, and orange. Some studies found \"cosensitivity\" to be more the rule than the exception. Recently, 2 large studies demonstrated behavioral sensitivity to AFCs and benzoate in children both with and without ADHD.",
+  "modified": true,
+  "original_char_count": 1113,
+  "sanitized_char_count": 939,
+  "deleted_char_count": 174,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 940,
+      "boundary_end": 1113,
+      "context": "Dietary sensitivities and ADHD symptoms: thirty-five years of research. Artificial food colors (AFCs) have not been established as the main cause of attention-deficit hyperactivity disorder (ADHD), but accumulated evidence suggests that a subgroup shows significant symptom improvement when consuming an AFC-free diet and reacts with ADHD-type symptoms on challenge with AFCs. Of children with suspected sensitivities, 65% to 89% reacted when challenged with at least 100 mg of AFC. Oligoantigenic diet studies suggested that some children in addition to being sensitive to AFCs are also sensitive to common nonsalicylate foods (milk, chocolate, soy, eggs, wheat, corn, legumes) as well as salicylate-containing grapes, tomatoes, and orange. Some studies found \"cosensitivity\" to be more the rule than the exception. Recently, 2 large studies demonstrated behavioral sensitivity to AFCs and benzoate in children both with and without ADHD.",
+      "target": "A trial elimination diet is appropriate for children who have not responded satisfactorily to conventional treatment or whose parents wish to pursue a dietary investigation.",
+      "loss_target": 3.052786350250244,
+      "loss_target_given_context": 2.684002637863159,
+      "delta_loss": 0.36878371238708496,
+      "gain_ratio": 0.12080233271380256,
+      "score": -0.12080233271380256,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 817,
+      "boundary_end": 939,
+      "context": "Dietary sensitivities and ADHD symptoms: thirty-five years of research. Artificial food colors (AFCs) have not been established as the main cause of attention-deficit hyperactivity disorder (ADHD), but accumulated evidence suggests that a subgroup shows significant symptom improvement when consuming an AFC-free diet and reacts with ADHD-type symptoms on challenge with AFCs. Of children with suspected sensitivities, 65% to 89% reacted when challenged with at least 100 mg of AFC. Oligoantigenic diet studies suggested that some children in addition to being sensitive to AFCs are also sensitive to common nonsalicylate foods (milk, chocolate, soy, eggs, wheat, corn, legumes) as well as salicylate-containing grapes, tomatoes, and orange. Some studies found \"cosensitivity\" to be more the rule than the exception.",
+      "target": "Recently, 2 large studies demonstrated behavioral sensitivity to AFCs and benzoate in children both with and without ADHD.",
+      "loss_target": 4.041720390319824,
+      "loss_target_given_context": 2.5652520656585693,
+      "delta_loss": 1.4764683246612549,
+      "gain_ratio": 0.36530689460792237,
+      "score": -0.36530689460792237,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 940,
+      "target": "A trial elimination diet is appropriate for children who have not responded satisfactorily to conventional treatment or whose parents wish to pursue a dietary investigation.",
+      "score": -0.12080233271380256,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "A trial elimination diet is appropriate for children who have not responded satisfactorily to conventional treatment or whose parents wish to pursue a dietary investigation.",
+      "deleted_char_count": 173
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,32 @@
+{
+  "experiment_role": "canonical_nfcorpus_aligned_multibudget_preflight_v1",
+  "python": "3.12.3",
+  "torch": "2.3.0+cu121",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "scores": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/aligned_sensitivity/nfcorpus_aligned_scores.json",
+  "scores_sha256": "e1c7dbc745a83b473883ccf9c0d6a3c43c1bb7a14fa9f0dda1551b08f92dd218",
+  "score_count": 446,
+  "label_counts": {
+    "clean": 223,
+    "injected": 223
+  },
+  "rows_missing_score_aligned": 0,
+  "attack_input": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e2_gainratio_delete/corpus/watermarked_attack_input.jsonl",
+  "attack_input_sha256": "52c72f64043e4a668b5084b75ac0cfa92f63b77c3493875cf788ee5021da8e38",
+  "attack_input_count": 3633,
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-7B",
+  "existing_fpr05": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e2_gainratio_aligned_sensitivity/scores/fixed_threshold_fpr05_aligned.json",
+  "existing_fpr05_threshold": -0.1832180580405571,
+  "checks": {
+    "scores_hash_matches_frozen": true,
+    "attack_input_hash_matches_frozen": true,
+    "score_count_is_446": true,
+    "labels_are_223_plus_223": true,
+    "all_rows_have_score_aligned": true,
+    "attack_input_count_is_3633": true,
+    "existing_fpr05_threshold_matches": true,
+    "cuda_available": true
+  },
+  "pass": true
+}

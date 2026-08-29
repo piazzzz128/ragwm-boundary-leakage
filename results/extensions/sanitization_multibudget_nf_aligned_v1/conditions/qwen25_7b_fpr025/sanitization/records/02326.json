@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4115",
+  "source_doc_id": "MED-4115",
+  "title": "The rise and fall of horror autotoxicus and forbidden clones.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The rise and fall of horror autotoxicus and forbidden clones.\nCui and associates show that healthy individuals have natural autoantibodies (NAAs) specific for myeloperoxidase, proteinase 3, and glomerular basement membrane (GBM) with the same specificity as anti-neutrophil cytoplasmic antibodies and anti-GBM antibodies that are pathogenic. Although Ehrlich proposed horror autotoxicus and Burnet envisioned elimination of forbidden clones, NAAs are present in all healthy individuals and play beneficial homeostatic roles. Pathogenic autoimmunity is dysregulation of natural homeostatic autoimmunity rather than onset of a previously absent self-recognition.",
+  "sanitized_text": "The rise and fall of horror autotoxicus and forbidden clones.\nCui and associates show that healthy individuals have natural autoantibodies (NAAs) specific for myeloperoxidase, proteinase 3, and glomerular basement membrane (GBM) with the same specificity as anti-neutrophil cytoplasmic antibodies and anti-GBM antibodies that are pathogenic. Although Ehrlich proposed horror autotoxicus and Burnet envisioned elimination of forbidden clones, NAAs are present in all healthy individuals and play beneficial homeostatic roles. Pathogenic autoimmunity is dysregulation of natural homeostatic autoimmunity rather than onset of a previously absent self-recognition.",
+  "modified": false,
+  "original_char_count": 660,
+  "sanitized_char_count": 660,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 525,
+      "boundary_end": 660,
+      "context": "The rise and fall of horror autotoxicus and forbidden clones. Cui and associates show that healthy individuals have natural autoantibodies (NAAs) specific for myeloperoxidase, proteinase 3, and glomerular basement membrane (GBM) with the same specificity as anti-neutrophil cytoplasmic antibodies and anti-GBM antibodies that are pathogenic. Although Ehrlich proposed horror autotoxicus and Burnet envisioned elimination of forbidden clones, NAAs are present in all healthy individuals and play beneficial homeostatic roles.",
+      "target": "Pathogenic autoimmunity is dysregulation of natural homeostatic autoimmunity rather than onset of a previously absent self-recognition.",
+      "loss_target": 2.9926669597625732,
+      "loss_target_given_context": 2.083385467529297,
+      "delta_loss": 0.9092814922332764,
+      "gain_ratio": 0.3038365125350986,
+      "score": -0.3038365125350986,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3451",
+  "source_doc_id": "MED-3451",
+  "title": "Could a vegetarian diet reduce exercise-induced oxidative stress? A review of the literature.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Could a vegetarian diet reduce exercise-induced oxidative stress? A review of the literature.\nOxidative stress is a natural physiological process that describes an imbalance between free radical production and the ability of the antioxidant defence system of the body to neutralize free radicals. Free radicals can be beneficial as they may promote wound healing and contribute to a healthy immune response. However, free radicals can have a detrimental impact when they interfere with the regulation of apoptosis and thus play a role in the promotion of some cancers and conditions such as cardiovascular disease. Antioxidants are molecules that reduce the damage associated with oxidative stress by counteracting free radicals. Regular exercise is a vital component of a healthy lifestyle, although it can increase oxidative stress. As a typical vegetarian diet comprises a wide range of antioxidant-rich foods, it is plausible that the consumption of these foods will result in an enhanced antioxidant system capable of reducing exercise-induced oxidative stress. In addition, a relationship between a vegetarian diet and lower risks of cardiovascular disease and some cancers has been established. This review explores the current available evidence linking exercise, vegetarians, antioxidants, and oxidative stress. In the preparation of Vegetarian Products, Extra Virgin Olive Oil is utilized. Researchers measure dioxins with respect to dietary factors.",
+  "sanitized_text": "Could a vegetarian diet reduce exercise-induced oxidative stress? A review of the literature.\nOxidative stress is a natural physiological process that describes an imbalance between free radical production and the ability of the antioxidant defence system of the body to neutralize free radicals. Free radicals can be beneficial as they may promote wound healing and contribute to a healthy immune response. However, free radicals can have a detrimental impact when they interfere with the regulation of apoptosis and thus play a role in the promotion of some cancers and conditions such as cardiovascular disease. Antioxidants are molecules that reduce the damage associated with oxidative stress by counteracting free radicals. Regular exercise is a vital component of a healthy lifestyle, although it can increase oxidative stress. As a typical vegetarian diet comprises a wide range of antioxidant-rich foods, it is plausible that the consumption of these foods will result in an enhanced antioxidant system capable of reducing exercise-induced oxidative stress. In addition, a relationship between a vegetarian diet and lower risks of cardiovascular disease and some cancers has been established. This review explores the current available evidence linking exercise, vegetarians, antioxidants, and oxidative stress. In the preparation of Vegetarian Products, Extra Virgin Olive Oil is utilized.",
+  "modified": true,
+  "original_char_count": 1460,
+  "sanitized_char_count": 1399,
+  "deleted_char_count": 61,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1400,
+      "boundary_end": 1460,
+      "context": "and the ability of the antioxidant defence system of the body to neutralize free radicals. Free radicals can be beneficial as they may promote wound healing and contribute to a healthy immune response. However, free radicals can have a detrimental impact when they interfere with the regulation of apoptosis and thus play a role in the promotion of some cancers and conditions such as cardiovascular disease. Antioxidants are molecules that reduce the damage associated with oxidative stress by counteracting free radicals. Regular exercise is a vital component of a healthy lifestyle, although it can increase oxidative stress. As a typical vegetarian diet comprises a wide range of antioxidant-rich foods, it is plausible that the consumption of these foods will result in an enhanced antioxidant system capable of reducing exercise-induced oxidative stress. In addition, a relationship between a vegetarian diet and lower risks of cardiovascular disease and some cancers has been established. This review explores the current available evidence linking exercise, vegetarians, antioxidants, and oxidative stress. In the preparation of Vegetarian Products, Extra Virgin Olive Oil is utilized.",
+      "target": "Researchers measure dioxins with respect to dietary factors.",
+      "loss_target": 4.980308532714844,
+      "loss_target_given_context": 4.570168495178223,
+      "delta_loss": 0.4101400375366211,
+      "gain_ratio": 0.08235233517009585,
+      "score": -0.08235233517009585,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1321,
+      "boundary_end": 1399,
+      "context": "physiological process that describes an imbalance between free radical production and the ability of the antioxidant defence system of the body to neutralize free radicals. Free radicals can be beneficial as they may promote wound healing and contribute to a healthy immune response. However, free radicals can have a detrimental impact when they interfere with the regulation of apoptosis and thus play a role in the promotion of some cancers and conditions such as cardiovascular disease. Antioxidants are molecules that reduce the damage associated with oxidative stress by counteracting free radicals. Regular exercise is a vital component of a healthy lifestyle, although it can increase oxidative stress. As a typical vegetarian diet comprises a wide range of antioxidant-rich foods, it is plausible that the consumption of these foods will result in an enhanced antioxidant system capable of reducing exercise-induced oxidative stress. In addition, a relationship between a vegetarian diet and lower risks of cardiovascular disease and some cancers has been established. This review explores the current available evidence linking exercise, vegetarians, antioxidants, and oxidative stress.",
+      "target": "In the preparation of Vegetarian Products, Extra Virgin Olive Oil is utilized.",
+      "loss_target": 4.182026386260986,
+      "loss_target_given_context": 3.561805248260498,
+      "delta_loss": 0.6202211380004883,
+      "gain_ratio": 0.14830636651123758,
+      "score": -0.14830636651123758,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1400,
+      "target": "Researchers measure dioxins with respect to dietary factors.",
+      "score": -0.08235233517009585,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Researchers measure dioxins with respect to dietary factors.",
+      "deleted_char_count": 60
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

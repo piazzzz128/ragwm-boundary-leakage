@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5235",
+  "source_doc_id": "MED-5235",
+  "title": "Meat consumption, diabetes, and its complications.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Meat consumption, diabetes, and its complications.\nSeveral prospective studies have reported that risk of type 2 diabetes (T2DM) is elevated in meat consumers, especially when processed meats are consumed. Elevated risks of coronary heart disease (CHD) and stroke in meat consumers have also been reported. In this overview, the evidence regarding meat consumption and the risk of diabetes, both type 1 diabetes (T1DM) and T2DM and their macro- and microvascular complications, is reviewed. For T2DM, we performed a new meta-analysis including publications up to October 2012. For T1DM, only a few studies have reported increased risks for meat consumers or for high intake of saturated fatty acids and nitrates and nitrites. For T2DM, CHD, and stroke, the evidence is strongest. Per 100 g of total meat, the pooled relative risk (RR) for T2DM is 1.15 (95 % CI 1.07-1.24), for (unprocessed) red meat 1.13 (95 % CI 1.03-1.23), and for poultry 1.04 (95 % CI 0.99-1.33); per 50 g of processed meat, the pooled RR is 1.32 (95 % CI 1.19-1.48). Hence, the strongest association regarding T2DM is observed for processed (red) meat. A similar observation has been made for CHD. For stroke, however, a recent meta-analysis shows moderately elevated risks for meat consumers, for processed as well as for fresh meats. For the microvascular complications of diabetes, few prospective data were available, but suggestions for elevated risks can be derived from findings on hyperglycemia and hypertension. The results are discussed in the light of the typical nutrients and other compounds present in meat--that is, saturated and trans fatty acids, dietary cholesterol, protein and amino acids, heme-iron, sodium, nitrites and nitrosamines, and advanced glycation end products. In light of these findings, a diet moderate to low in red meat, unprocessed and lean, and prepared at moderate temperatures is probably the best choice from the public health point of view.",
+  "sanitized_text": "Meat consumption, diabetes, and its complications.\nSeveral prospective studies have reported that risk of type 2 diabetes (T2DM) is elevated in meat consumers, especially when processed meats are consumed. Elevated risks of coronary heart disease (CHD) and stroke in meat consumers have also been reported. In this overview, the evidence regarding meat consumption and the risk of diabetes, both type 1 diabetes (T1DM) and T2DM and their macro- and microvascular complications, is reviewed. For T2DM, we performed a new meta-analysis including publications up to October 2012. For T1DM, only a few studies have reported increased risks for meat consumers or for high intake of saturated fatty acids and nitrates and nitrites. For T2DM, CHD, and stroke, the evidence is strongest. Per 100 g of total meat, the pooled relative risk (RR) for T2DM is 1.15 (95 % CI 1.07-1.24), for (unprocessed) red meat 1.13 (95 % CI 1.03-1.23), and for poultry 1.04 (95 % CI 0.99-1.33); per 50 g of processed meat, the pooled RR is 1.32 (95 % CI 1.19-1.48). Hence, the strongest association regarding T2DM is observed for processed (red) meat. A similar observation has been made for CHD. For stroke, however, a recent meta-analysis shows moderately elevated risks for meat consumers, for processed as well as for fresh meats. For the microvascular complications of diabetes, few prospective data were available, but suggestions for elevated risks can be derived from findings on hyperglycemia and hypertension. The results are discussed in the light of the typical nutrients and other compounds present in meat--that is, saturated and trans fatty acids, dietary cholesterol, protein and amino acids, heme-iron, sodium, nitrites and nitrosamines, and advanced glycation end products. In light of these findings, a diet moderate to low in red meat, unprocessed and lean, and prepared at moderate temperatures is probably the best choice from the public health point of view.",
+  "modified": false,
+  "original_char_count": 1954,
+  "sanitized_char_count": 1954,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1765,
+      "boundary_end": 1954,
+      "context": "2012. For T1DM, only a few studies have reported increased risks for meat consumers or for high intake of saturated fatty acids and nitrates and nitrites. For T2DM, CHD, and stroke, the evidence is strongest. Per 100 g of total meat, the pooled relative risk (RR) for T2DM is 1.15 (95 % CI 1.07-1.24), for (unprocessed) red meat 1.13 (95 % CI 1.03-1.23), and for poultry 1.04 (95 % CI 0.99-1.33); per 50 g of processed meat, the pooled RR is 1.32 (95 % CI 1.19-1.48). Hence, the strongest association regarding T2DM is observed for processed (red) meat. A similar observation has been made for CHD. For stroke, however, a recent meta-analysis shows moderately elevated risks for meat consumers, for processed as well as for fresh meats. For the microvascular complications of diabetes, few prospective data were available, but suggestions for elevated risks can be derived from findings on hyperglycemia and hypertension. The results are discussed in the light of the typical nutrients and other compounds present in meat--that is, saturated and trans fatty acids, dietary cholesterol, protein and amino acids, heme-iron, sodium, nitrites and nitrosamines, and advanced glycation end products.",
+      "target": "In light of these findings, a diet moderate to low in red meat, unprocessed and lean, and prepared at moderate temperatures is probably the best choice from the public health point of view.",
+      "loss_target": 2.7719171047210693,
+      "loss_target_given_context": 2.241116523742676,
+      "delta_loss": 0.5308005809783936,
+      "gain_ratio": 0.19149222755411605,
+      "score": -0.19149222755411605,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5047",
+  "source_doc_id": "MED-5047",
+  "title": "The Association between Concentrations of Green Tea and Blood Glucose Levels",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The Association between Concentrations of Green Tea and Blood Glucose Levels\nOur objective was to examine whether habitual green tea consumption is associated with blood glucose levels and other biomarkers of glucose metabolism. We conducted a cross-sectional study of 35 male volunteers, 23–63 years old and residing in Shizuoka Prefecture in Japan. Biochemical data were measured and we conducted a questionnaire survey on health, lifestyle, and nutrition, as well as frequency of consumption and concentrations (1%, 2%, and 3%) of green tea. Men who consumed a 3% concentration of green tea showed lower mean values of fasting blood glucose and fructosamine than those who consumed a 1% concentration. Fasting blood glucose levels were found to be significantly associated with green tea concentration (β = −0.14, p = 0.03). However, green tea consumption frequency showed no significant differences in mean levels of blood glucose, fructosamine and hemoglobin A1c. In conclusion, our findings suggest that the consumption of green tea at a high concentration has the potential to reduce blood glucose levels.",
+  "sanitized_text": "The Association between Concentrations of Green Tea and Blood Glucose Levels\nOur objective was to examine whether habitual green tea consumption is associated with blood glucose levels and other biomarkers of glucose metabolism. We conducted a cross-sectional study of 35 male volunteers, 23–63 years old and residing in Shizuoka Prefecture in Japan. Biochemical data were measured and we conducted a questionnaire survey on health, lifestyle, and nutrition, as well as frequency of consumption and concentrations (1%, 2%, and 3%) of green tea. Men who consumed a 3% concentration of green tea showed lower mean values of fasting blood glucose and fructosamine than those who consumed a 1% concentration. Fasting blood glucose levels were found to be significantly associated with green tea concentration (β = −0.14, p = 0.03). However, green tea consumption frequency showed no significant differences in mean levels of blood glucose, fructosamine and hemoglobin A1c. In conclusion, our findings suggest that the consumption of green tea at a high concentration has the potential to reduce blood glucose levels.",
+  "modified": false,
+  "original_char_count": 1112,
+  "sanitized_char_count": 1112,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 969,
+      "boundary_end": 1112,
+      "context": "The Association between Concentrations of Green Tea and Blood Glucose Levels Our objective was to examine whether habitual green tea consumption is associated with blood glucose levels and other biomarkers of glucose metabolism. We conducted a cross-sectional study of 35 male volunteers, 23–63 years old and residing in Shizuoka Prefecture in Japan. Biochemical data were measured and we conducted a questionnaire survey on health, lifestyle, and nutrition, as well as frequency of consumption and concentrations (1%, 2%, and 3%) of green tea. Men who consumed a 3% concentration of green tea showed lower mean values of fasting blood glucose and fructosamine than those who consumed a 1% concentration. Fasting blood glucose levels were found to be significantly associated with green tea concentration (β = −0.14, p = 0.03). However, green tea consumption frequency showed no significant differences in mean levels of blood glucose, fructosamine and hemoglobin A1c.",
+      "target": "In conclusion, our findings suggest that the consumption of green tea at a high concentration has the potential to reduce blood glucose levels.",
+      "loss_target": 2.522714138031006,
+      "loss_target_given_context": 1.0313407182693481,
+      "delta_loss": 1.4913734197616577,
+      "gain_ratio": 0.5911781272711636,
+      "score": -0.5911781272711636,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

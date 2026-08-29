@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2341",
+  "source_doc_id": "MED-2341",
+  "title": "Beef, pork, and milk allergy (cross reactivity with each other and pet allergies).",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Beef, pork, and milk allergy (cross reactivity with each other and pet allergies).\nOBJECTIVE: The purposes of this study were to examine milk allergic patients to determine concomitant reactivity between milk, beef, pork and cat and dog dander and other common inhalant allergens. METHODS: 19 patients were selected according to their Immuno-CAP results, which had increased Ig-E levels against milk, pork or beef. Patients were also tested against Johnson grass, short ragweed, cat/dog dander and d. farina. RESULTS: Pearson's test revealed strong correlation between beef and pork, beef and milk, pork and milk Ig-E counts (consecutively r2 = 0.89, r2 = 0.81, r2 = 0.60 and p < 0.01. All cat allergic patients also appeared to be allergic to either beef/pork meat or milk. The correlation between pork and dog dander Ig-E counts was also significant (r2 = 0.38, p < 0.01). No correlation detected between milk-meat-pet and grass-weed-dust allergies. DISCUSSION AND CONCLUSION: Patients who are known to have pet allergies may need to be screened for meat and milk allergy. Milk allergic patients may also need to avoid cows and pork meat.",
+  "sanitized_text": "Beef, pork, and milk allergy (cross reactivity with each other and pet allergies).\nOBJECTIVE: The purposes of this study were to examine milk allergic patients to determine concomitant reactivity between milk, beef, pork and cat and dog dander and other common inhalant allergens. METHODS: 19 patients were selected according to their Immuno-CAP results, which had increased Ig-E levels against milk, pork or beef. Patients were also tested against Johnson grass, short ragweed, cat/dog dander and d. farina. RESULTS: Pearson's test revealed strong correlation between beef and pork, beef and milk, pork and milk Ig-E counts (consecutively r2 = 0.89, r2 = 0.81, r2 = 0.60 and p < 0.01. All cat allergic patients also appeared to be allergic to either beef/pork meat or milk. The correlation between pork and dog dander Ig-E counts was also significant (r2 = 0.38, p < 0.01). No correlation detected between milk-meat-pet and grass-weed-dust allergies. DISCUSSION AND CONCLUSION: Patients who are known to have pet allergies may need to be screened for meat and milk allergy. Milk allergic patients may also need to avoid cows and pork meat.",
+  "modified": false,
+  "original_char_count": 1140,
+  "sanitized_char_count": 1140,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1075,
+      "boundary_end": 1140,
+      "context": "Beef, pork, and milk allergy (cross reactivity with each other and pet allergies). OBJECTIVE: The purposes of this study were to examine milk allergic patients to determine concomitant reactivity between milk, beef, pork and cat and dog dander and other common inhalant allergens. METHODS: 19 patients were selected according to their Immuno-CAP results, which had increased Ig-E levels against milk, pork or beef. Patients were also tested against Johnson grass, short ragweed, cat/dog dander and d. farina. RESULTS: Pearson's test revealed strong correlation between beef and pork, beef and milk, pork and milk Ig-E counts (consecutively r2 = 0.89, r2 = 0.81, r2 = 0.60 and p < 0.01. All cat allergic patients also appeared to be allergic to either beef/pork meat or milk. The correlation between pork and dog dander Ig-E counts was also significant (r2 = 0.38, p < 0.01). No correlation detected between milk-meat-pet and grass-weed-dust allergies. DISCUSSION AND CONCLUSION: Patients who are known to have pet allergies may need to be screened for meat and milk allergy.",
+      "target": "Milk allergic patients may also need to avoid cows and pork meat.",
+      "loss_target": 4.0998125076293945,
+      "loss_target_given_context": 2.2302258014678955,
+      "delta_loss": 1.869586706161499,
+      "gain_ratio": 0.4560176112157229,
+      "score": -0.4560176112157229,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

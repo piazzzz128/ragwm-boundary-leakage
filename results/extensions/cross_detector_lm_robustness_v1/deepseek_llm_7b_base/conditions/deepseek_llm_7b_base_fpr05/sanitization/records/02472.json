@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4309",
+  "source_doc_id": "MED-4309",
+  "title": "HPLC analysis of serotonin, tryptamine, tyramine, and the hydroxycinnamic acid amides of serotonin and tyramine in food vegetables.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "HPLC analysis of serotonin, tryptamine, tyramine, and the hydroxycinnamic acid amides of serotonin and tyramine in food vegetables.\nBiogenic monoamines such as serotonin, tryptamine, and tyramine function as neurotransmitters and mitogenic factors in animals and are involved in flowering, morphogenesis, and protection from and adaptation to environmental changes in plants. In plants, serotonin and tyramine are conjugated to form phenolic compounds via thioester linkages during the synthesis of hydroxycinnamic acid amides, including p-coumaroylserotonin (CS), feruloylserotonin (FS), p-coumaroyltyramine (CT), and feruloyltyramine (FT). In this study, we determined the amounts of the biogenic monoamines CS, FS, CT, and FT in commonly consumed vegetables using high-performance liquid chromatography. Serotonin, tryptamine, and tyramine were detected in all vegetables tested. The serotonin levels ranged from 1.8 to 294 microg/g of dry weight, the tryptamine levels ranged from 0.8 to 372 microg/g of dry weight, and the tyramine levels ranged from 1.4 to 286 microg/g of dry weight. The highest serotonin and tryptamine contents were found in tomato and cherry tomato (140.3-222 microg/g of dry weight), while paprika and green pepper had higher tyramine contents than the other vegetables (286 and 141.5 microg/g of dry weight, respectively). Overall, the levels of CS, FS, CT, and FT ranged from 0.03 to 13.8 microg/g of dry weight, with green onion possessing the highest levels of CS (0.69 microg/g of dry weight), FT (1.99 microg/g of dry weight), and CT (13.85 microg/g of dry weight).",
+  "sanitized_text": "HPLC analysis of serotonin, tryptamine, tyramine, and the hydroxycinnamic acid amides of serotonin and tyramine in food vegetables.\nBiogenic monoamines such as serotonin, tryptamine, and tyramine function as neurotransmitters and mitogenic factors in animals and are involved in flowering, morphogenesis, and protection from and adaptation to environmental changes in plants. In plants, serotonin and tyramine are conjugated to form phenolic compounds via thioester linkages during the synthesis of hydroxycinnamic acid amides, including p-coumaroylserotonin (CS), feruloylserotonin (FS), p-coumaroyltyramine (CT), and feruloyltyramine (FT). In this study, we determined the amounts of the biogenic monoamines CS, FS, CT, and FT in commonly consumed vegetables using high-performance liquid chromatography. Serotonin, tryptamine, and tyramine were detected in all vegetables tested. The serotonin levels ranged from 1.8 to 294 microg/g of dry weight, the tryptamine levels ranged from 0.8 to 372 microg/g of dry weight, and the tyramine levels ranged from 1.4 to 286 microg/g of dry weight. The highest serotonin and tryptamine contents were found in tomato and cherry tomato (140.3-222 microg/g of dry weight), while paprika and green pepper had higher tyramine contents than the other vegetables (286 and 141.5 microg/g of dry weight, respectively). Overall, the levels of CS, FS, CT, and FT ranged from 0.03 to 13.8 microg/g of dry weight, with green onion possessing the highest levels of CS (0.69 microg/g of dry weight), FT (1.99 microg/g of dry weight), and CT (13.85 microg/g of dry weight).",
+  "modified": false,
+  "original_char_count": 1599,
+  "sanitized_char_count": 1599,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1352,
+      "boundary_end": 1599,
+      "context": "such as serotonin, tryptamine, and tyramine function as neurotransmitters and mitogenic factors in animals and are involved in flowering, morphogenesis, and protection from and adaptation to environmental changes in plants. In plants, serotonin and tyramine are conjugated to form phenolic compounds via thioester linkages during the synthesis of hydroxycinnamic acid amides, including p-coumaroylserotonin (CS), feruloylserotonin (FS), p-coumaroyltyramine (CT), and feruloyltyramine (FT). In this study, we determined the amounts of the biogenic monoamines CS, FS, CT, and FT in commonly consumed vegetables using high-performance liquid chromatography. Serotonin, tryptamine, and tyramine were detected in all vegetables tested. The serotonin levels ranged from 1.8 to 294 microg/g of dry weight, the tryptamine levels ranged from 0.8 to 372 microg/g of dry weight, and the tyramine levels ranged from 1.4 to 286 microg/g of dry weight. The highest serotonin and tryptamine contents were found in tomato and cherry tomato (140.3-222 microg/g of dry weight), while paprika and green pepper had higher tyramine contents than the other vegetables (286 and 141.5 microg/g of dry weight, respectively).",
+      "target": "Overall, the levels of CS, FS, CT, and FT ranged from 0.03 to 13.8 microg/g of dry weight, with green onion possessing the highest levels of CS (0.69 microg/g of dry weight), FT (1.99 microg/g of dry weight), and CT (13.85 microg/g of dry weight).",
+      "loss_target": 1.6826128959655762,
+      "loss_target_given_context": 0.8751097917556763,
+      "delta_loss": 0.8075031042098999,
+      "gain_ratio": 0.479910207597993,
+      "score": -0.479910207597993,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

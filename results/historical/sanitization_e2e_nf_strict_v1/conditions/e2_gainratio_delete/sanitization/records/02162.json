@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3884",
+  "source_doc_id": "MED-3884",
+  "title": "The 2009 Garrod lecture: the evolution of antimicrobial resistance: a Darwinian perspective.",
+  "original_text": "The 2009 Garrod lecture: the evolution of antimicrobial resistance: a Darwinian perspective.\nMicrobes have evolved over 3.5 billion years and are arguably the most adaptable organisms on earth. Restricted genetically by their inability to reproduce sexually, bacteria have acquired several additional mechanisms by which to exchange genetic material horizontally. Such mechanisms have allowed bacteria to inhabit some of the most inhospitable environments on earth. It is thus hardly surprising that when faced with a barrage of inimical chemicals (antibiotics) they have responded with an equal and opposite force. This article compares and contrasts the evolution of antimicrobial resistance to beta-lactam antibiotics over the last 70 years in two bacterial species, namely Staphylococcus aureus, a highly evolved human pathogen, and Pseudomonas aeruginosa, an opportunistic nosocomial pathogen.",
+  "sanitized_text": "The 2009 Garrod lecture: the evolution of antimicrobial resistance: a Darwinian perspective.\nMicrobes have evolved over 3.5 billion years and are arguably the most adaptable organisms on earth. Restricted genetically by their inability to reproduce sexually, bacteria have acquired several additional mechanisms by which to exchange genetic material horizontally. Such mechanisms have allowed bacteria to inhabit some of the most inhospitable environments on earth. It is thus hardly surprising that when faced with a barrage of inimical chemicals (antibiotics) they have responded with an equal and opposite force.",
+  "modified": true,
+  "original_char_count": 898,
+  "sanitized_char_count": 615,
+  "deleted_char_count": 283,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 616,
+      "boundary_end": 898,
+      "context": "The 2009 Garrod lecture: the evolution of antimicrobial resistance: a Darwinian perspective. Microbes have evolved over 3.5 billion years and are arguably the most adaptable organisms on earth. Restricted genetically by their inability to reproduce sexually, bacteria have acquired several additional mechanisms by which to exchange genetic material horizontally. Such mechanisms have allowed bacteria to inhabit some of the most inhospitable environments on earth. It is thus hardly surprising that when faced with a barrage of inimical chemicals (antibiotics) they have responded with an equal and opposite force.",
+      "target": "This article compares and contrasts the evolution of antimicrobial resistance to beta-lactam antibiotics over the last 70 years in two bacterial species, namely Staphylococcus aureus, a highly evolved human pathogen, and Pseudomonas aeruginosa, an opportunistic nosocomial pathogen.",
+      "loss_target": 1.4528952836990356,
+      "loss_target_given_context": 1.5499743223190308,
+      "delta_loss": -0.09707903861999512,
+      "gain_ratio": -0.06681764316340423,
+      "score": 0.06681764316340423,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 466,
+      "boundary_end": 615,
+      "context": "The 2009 Garrod lecture: the evolution of antimicrobial resistance: a Darwinian perspective. Microbes have evolved over 3.5 billion years and are arguably the most adaptable organisms on earth. Restricted genetically by their inability to reproduce sexually, bacteria have acquired several additional mechanisms by which to exchange genetic material horizontally. Such mechanisms have allowed bacteria to inhabit some of the most inhospitable environments on earth.",
+      "target": "It is thus hardly surprising that when faced with a barrage of inimical chemicals (antibiotics) they have responded with an equal and opposite force.",
+      "loss_target": 3.3410496711730957,
+      "loss_target_given_context": 2.46394419670105,
+      "delta_loss": 0.8771054744720459,
+      "gain_ratio": 0.262523925351903,
+      "score": -0.262523925351903,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 616,
+      "target": "This article compares and contrasts the evolution of antimicrobial resistance to beta-lactam antibiotics over the last 70 years in two bacterial species, namely Staphylococcus aureus, a highly evolved human pathogen, and Pseudomonas aeruginosa, an opportunistic nosocomial pathogen.",
+      "score": 0.06681764316340423,
+      "deleted_suffix": "This article compares and contrasts the evolution of antimicrobial resistance to beta-lactam antibiotics over the last 70 years in two bacterial species, namely Staphylococcus aureus, a highly evolved human pathogen, and Pseudomonas aeruginosa, an opportunistic nosocomial pathogen.",
+      "deleted_char_count": 282
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4873",
+  "source_doc_id": "MED-4873",
+  "title": "Hypervitaminosis A inducing intra-hepatic cholestasis--a rare case report.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Hypervitaminosis A inducing intra-hepatic cholestasis--a rare case report.\nThe use of over-the-counter supplements is commonplace in today's health conscious society. We present an unusual case of intrahepatic cholestasis caused by vitamin A intoxication. The patient consumed one Herbalife shake with two multivitamin tablets of the same brand for 12 years. When calculated this equated to more than the recommended daily allowance for vitamin A consumption. Deranged liver function tests were consistent with a cholestatic process. Liver biopsy was obtained and revealed features pathognomonic of vitamin A toxicity, without the usual fibrosis. When the supplements were ceased, his jaundice and alkaline phosphatase completely normalized. This case highlights the importance of health care providers documenting non-prescribed dietary supplements and considering them in the etiology of cholestatic liver disease. Copyright 2009 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Hypervitaminosis A inducing intra-hepatic cholestasis--a rare case report.\nThe use of over-the-counter supplements is commonplace in today's health conscious society. We present an unusual case of intrahepatic cholestasis caused by vitamin A intoxication. The patient consumed one Herbalife shake with two multivitamin tablets of the same brand for 12 years. When calculated this equated to more than the recommended daily allowance for vitamin A consumption. Deranged liver function tests were consistent with a cholestatic process. Liver biopsy was obtained and revealed features pathognomonic of vitamin A toxicity, without the usual fibrosis. When the supplements were ceased, his jaundice and alkaline phosphatase completely normalized. This case highlights the importance of health care providers documenting non-prescribed dietary supplements and considering them in the etiology of cholestatic liver disease. Copyright 2009 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 966,
+  "sanitized_char_count": 966,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 917,
+      "boundary_end": 945,
+      "context": "Hypervitaminosis A inducing intra-hepatic cholestasis--a rare case report. The use of over-the-counter supplements is commonplace in today's health conscious society. We present an unusual case of intrahepatic cholestasis caused by vitamin A intoxication. The patient consumed one Herbalife shake with two multivitamin tablets of the same brand for 12 years. When calculated this equated to more than the recommended daily allowance for vitamin A consumption. Deranged liver function tests were consistent with a cholestatic process. Liver biopsy was obtained and revealed features pathognomonic of vitamin A toxicity, without the usual fibrosis. When the supplements were ceased, his jaundice and alkaline phosphatase completely normalized. This case highlights the importance of health care providers documenting non-prescribed dietary supplements and considering them in the etiology of cholestatic liver disease.",
+      "target": "Copyright 2009 Elsevier Inc.",
+      "loss_target": 1.5476009845733643,
+      "loss_target_given_context": 0.8094037175178528,
+      "delta_loss": 0.7381972670555115,
+      "gain_ratio": 0.4769945705733797,
+      "score": -0.4769945705733797,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

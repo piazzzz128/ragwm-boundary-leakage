@@ -1,0 +1,24 @@
+{
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "note": "Ground truth is used only after attack completion for audit, never for selection.",
+  "document_count": 3633,
+  "known_watermark_text_count": 222,
+  "watermarked_document_count_by_exact_scan": 143,
+  "modified_document_count": 174,
+  "true_positive_modified_watermarked": 79,
+  "false_positive_modified_clean": 95,
+  "false_negative_unmodified_watermarked": 64,
+  "true_negative_unmodified_clean": 3395,
+  "document_precision": 0.4540229885057471,
+  "document_recall": 0.5524475524475524,
+  "clean_document_modification_rate": 0.027220630372492838,
+  "exact_watermark_occurrences_before": 223,
+  "exact_watermark_occurrences_after": 130,
+  "exact_watermark_occurrence_removal_rate": 0.4170403587443946,
+  "documents_with_any_exact_watermark_after": 67,
+  "fully_cleaned_watermarked_document_count": 76,
+  "fully_cleaned_watermarked_document_rate": 0.5314685314685315,
+  "partially_cleaned_watermarked_document_count": 3
+}
+ALIGNED POSTHOC GROUND-TRUTH AUDIT PASS

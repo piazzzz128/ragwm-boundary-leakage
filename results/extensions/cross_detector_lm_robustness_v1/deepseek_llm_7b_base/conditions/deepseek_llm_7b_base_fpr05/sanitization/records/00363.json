@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1449",
+  "source_doc_id": "MED-1449",
+  "title": "Workplace wellness programs can generate savings.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Workplace wellness programs can generate savings.\nAmid soaring health spending, there is growing interest in workplace disease prevention and wellness programs to improve health and lower costs. In a critical meta-analysis of the literature on costs and savings associated with such programs, we found that medical costs fall by about $3.27 for every dollar spent on wellness programs and that absenteeism costs fall by about $2.73 for every dollar spent. Although further exploration of the mechanisms at work and broader applicability of the findings is needed, this return on investment suggests that the wider adoption of such programs could prove beneficial for budgets and productivity as well as health outcomes.",
+  "sanitized_text": "Workplace wellness programs can generate savings.\nAmid soaring health spending, there is growing interest in workplace disease prevention and wellness programs to improve health and lower costs. In a critical meta-analysis of the literature on costs and savings associated with such programs, we found that medical costs fall by about $3.27 for every dollar spent on wellness programs and that absenteeism costs fall by about $2.73 for every dollar spent. Although further exploration of the mechanisms at work and broader applicability of the findings is needed, this return on investment suggests that the wider adoption of such programs could prove beneficial for budgets and productivity as well as health outcomes.",
+  "modified": false,
+  "original_char_count": 719,
+  "sanitized_char_count": 719,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 456,
+      "boundary_end": 719,
+      "context": "Workplace wellness programs can generate savings. Amid soaring health spending, there is growing interest in workplace disease prevention and wellness programs to improve health and lower costs. In a critical meta-analysis of the literature on costs and savings associated with such programs, we found that medical costs fall by about $3.27 for every dollar spent on wellness programs and that absenteeism costs fall by about $2.73 for every dollar spent.",
+      "target": "Although further exploration of the mechanisms at work and broader applicability of the findings is needed, this return on investment suggests that the wider adoption of such programs could prove beneficial for budgets and productivity as well as health outcomes.",
+      "loss_target": 3.116365671157837,
+      "loss_target_given_context": 2.6193883419036865,
+      "delta_loss": 0.4969773292541504,
+      "gain_ratio": 0.1594733679213923,
+      "score": -0.1594733679213923,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

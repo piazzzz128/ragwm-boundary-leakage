@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1127",
+  "source_doc_id": "MED-1127",
+  "title": "Rheumatoid arthritis is caused by Proteus: the molecular mimicry theory and Karl Popper.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Rheumatoid arthritis is caused by Proteus: the molecular mimicry theory and Karl Popper.\nRheumatoid arthritis is a crippling and disabling joint disease affecting over 20 million people. It occurs predominantly in women and smokers, and affects the HLA-DR1/4 individuals who carry the \"shared epitope\" of amino acids EQRRAA. The cause of this disease was investigated by the methods of the philosopher of science Karl Popper who suggested that scientific research should be based on bold conjectures and critical refutations. The \"Popper sequences\" generate new facts which then change or alter the original problem. The new facts must then be explained by any new theory. Using the \"molecular mimicry\" model, it was found that Proteus bacteria possess an amino acid sequence ESRRAL in haemolysin which resembles the, shared epitope, and another sequence in urease which resembles type XI collagen. Antibodies to Proteus bacteria have been found in 14 different countries. It would appear that rheumatoid arthritis is caused by an upper urinary tract infection by Proteus bacteria. Anti-Proteus therapy should be assessed in the management of this disease separately or in conjunction with existing modalities of therapy.",
+  "sanitized_text": "Rheumatoid arthritis is caused by Proteus: the molecular mimicry theory and Karl Popper.\nRheumatoid arthritis is a crippling and disabling joint disease affecting over 20 million people. It occurs predominantly in women and smokers, and affects the HLA-DR1/4 individuals who carry the \"shared epitope\" of amino acids EQRRAA. The cause of this disease was investigated by the methods of the philosopher of science Karl Popper who suggested that scientific research should be based on bold conjectures and critical refutations. The \"Popper sequences\" generate new facts which then change or alter the original problem. The new facts must then be explained by any new theory. Using the \"molecular mimicry\" model, it was found that Proteus bacteria possess an amino acid sequence ESRRAL in haemolysin which resembles the, shared epitope, and another sequence in urease which resembles type XI collagen. Antibodies to Proteus bacteria have been found in 14 different countries. It would appear that rheumatoid arthritis is caused by an upper urinary tract infection by Proteus bacteria. Anti-Proteus therapy should be assessed in the management of this disease separately or in conjunction with existing modalities of therapy.",
+  "modified": false,
+  "original_char_count": 1221,
+  "sanitized_char_count": 1221,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1082,
+      "boundary_end": 1221,
+      "context": "Rheumatoid arthritis is caused by Proteus: the molecular mimicry theory and Karl Popper. Rheumatoid arthritis is a crippling and disabling joint disease affecting over 20 million people. It occurs predominantly in women and smokers, and affects the HLA-DR1/4 individuals who carry the \"shared epitope\" of amino acids EQRRAA. The cause of this disease was investigated by the methods of the philosopher of science Karl Popper who suggested that scientific research should be based on bold conjectures and critical refutations. The \"Popper sequences\" generate new facts which then change or alter the original problem. The new facts must then be explained by any new theory. Using the \"molecular mimicry\" model, it was found that Proteus bacteria possess an amino acid sequence ESRRAL in haemolysin which resembles the, shared epitope, and another sequence in urease which resembles type XI collagen. Antibodies to Proteus bacteria have been found in 14 different countries. It would appear that rheumatoid arthritis is caused by an upper urinary tract infection by Proteus bacteria.",
+      "target": "Anti-Proteus therapy should be assessed in the management of this disease separately or in conjunction with existing modalities of therapy.",
+      "loss_target": 3.7702584266662598,
+      "loss_target_given_context": 2.779960870742798,
+      "delta_loss": 0.9902975559234619,
+      "gain_ratio": 0.2626603919029241,
+      "score": -0.2626603919029241,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

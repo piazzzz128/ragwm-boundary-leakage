@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3429",
+  "source_doc_id": "MED-3429",
+  "title": "Lifestyle/dietary recommendations for erectile dysfunction and female sexual dysfunction.",
+  "original_text": "Lifestyle/dietary recommendations for erectile dysfunction and female sexual dysfunction.\nSexual problems are diffuse in both genders. Although epidemiologic evidence seems to support a role for lifestyle factors in erectile dysfunction, limited data are available suggesting the treatment of underlying risk factors may improve erectile dysfunction. The results are sparse regarding associations between lifestyle factors and female sexual dysfunction, and conclusions regarding influence of healthy behaviors on female sexual dysfunction cannot be made before more studies have been performed. Beyond the specific effects on sexual dysfunctions in men and women, adoption of these measures promotes a healthier life and increased well-being, which may help reduce the burden of sexual dysfunction. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Lifestyle/dietary recommendations for erectile dysfunction and female sexual dysfunction.\nSexual problems are diffuse in both genders. Although epidemiologic evidence seems to support a role for lifestyle factors in erectile dysfunction, limited data are available suggesting the treatment of underlying risk factors may improve erectile dysfunction. The results are sparse regarding associations between lifestyle factors and female sexual dysfunction, and conclusions regarding influence of healthy behaviors on female sexual dysfunction cannot be made before more studies have been performed. Beyond the specific effects on sexual dysfunctions in men and women, adoption of these measures promotes a healthier life and increased well-being, which may help reduce the burden of sexual dysfunction.",
+  "modified": true,
+  "original_char_count": 851,
+  "sanitized_char_count": 799,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 800,
+      "boundary_end": 830,
+      "context": "Lifestyle/dietary recommendations for erectile dysfunction and female sexual dysfunction. Sexual problems are diffuse in both genders. Although epidemiologic evidence seems to support a role for lifestyle factors in erectile dysfunction, limited data are available suggesting the treatment of underlying risk factors may improve erectile dysfunction. The results are sparse regarding associations between lifestyle factors and female sexual dysfunction, and conclusions regarding influence of healthy behaviors on female sexual dysfunction cannot be made before more studies have been performed. Beyond the specific effects on sexual dysfunctions in men and women, adoption of these measures promotes a healthier life and increased well-being, which may help reduce the burden of sexual dysfunction.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.1415737867355347,
+      "loss_target_given_context": 1.5037761926651,
+      "delta_loss": -0.36220240592956543,
+      "gain_ratio": -0.3172833943264641,
+      "score": 0.3172833943264641,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 596,
+      "boundary_end": 799,
+      "context": "Lifestyle/dietary recommendations for erectile dysfunction and female sexual dysfunction. Sexual problems are diffuse in both genders. Although epidemiologic evidence seems to support a role for lifestyle factors in erectile dysfunction, limited data are available suggesting the treatment of underlying risk factors may improve erectile dysfunction. The results are sparse regarding associations between lifestyle factors and female sexual dysfunction, and conclusions regarding influence of healthy behaviors on female sexual dysfunction cannot be made before more studies have been performed.",
+      "target": "Beyond the specific effects on sexual dysfunctions in men and women, adoption of these measures promotes a healthier life and increased well-being, which may help reduce the burden of sexual dysfunction.",
+      "loss_target": 2.939873695373535,
+      "loss_target_given_context": 2.7899882793426514,
+      "delta_loss": 0.1498854160308838,
+      "gain_ratio": 0.050983624319220835,
+      "score": -0.050983624319220835,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 800,
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "score": 0.3172833943264641,
+      "deleted_suffix": "Copyright © 2011 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

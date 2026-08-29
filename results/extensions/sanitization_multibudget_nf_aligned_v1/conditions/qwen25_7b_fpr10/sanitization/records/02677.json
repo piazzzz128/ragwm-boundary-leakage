@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4556",
+  "source_doc_id": "MED-4556",
+  "title": "Tolerable upper intake levels for trans fat, saturated fat, and cholesterol.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Tolerable upper intake levels for trans fat, saturated fat, and cholesterol.\nTolerable upper intake levels (ULs) set by the Institute of Medicine (IOM) are important, in part because they are used for estimating the percentage of the population at potential risk of adverse effects from excessive nutrient intake. The IOM did not set ULs for trans fat, saturated fat, and cholesterol because any intake level above 0% of energy increased LDL cholesterol concentration and these three food components are unavoidable in ordinary diets. The purpose of the analysis presented in this review was to evaluate clinical trial and prospective observational data that were not previously considered for setting a UL with the aim of determining whether the current UL model could be used for saturated fat, trans fat, and cholesterol. The results of this analysis confirm the limitations of the risk assessment model for setting ULs because of its inability to identify a UL for food components, such as cholesterol, that lack an intake threshold associated with increased chronic disease risk. © 2011 International Life Sciences Institute.",
+  "sanitized_text": "Tolerable upper intake levels for trans fat, saturated fat, and cholesterol.\nTolerable upper intake levels (ULs) set by the Institute of Medicine (IOM) are important, in part because they are used for estimating the percentage of the population at potential risk of adverse effects from excessive nutrient intake. The IOM did not set ULs for trans fat, saturated fat, and cholesterol because any intake level above 0% of energy increased LDL cholesterol concentration and these three food components are unavoidable in ordinary diets. The purpose of the analysis presented in this review was to evaluate clinical trial and prospective observational data that were not previously considered for setting a UL with the aim of determining whether the current UL model could be used for saturated fat, trans fat, and cholesterol. The results of this analysis confirm the limitations of the risk assessment model for setting ULs because of its inability to identify a UL for food components, such as cholesterol, that lack an intake threshold associated with increased chronic disease risk. © 2011 International Life Sciences Institute.",
+  "modified": false,
+  "original_char_count": 1130,
+  "sanitized_char_count": 1130,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1085,
+      "boundary_end": 1130,
+      "context": "Tolerable upper intake levels for trans fat, saturated fat, and cholesterol. Tolerable upper intake levels (ULs) set by the Institute of Medicine (IOM) are important, in part because they are used for estimating the percentage of the population at potential risk of adverse effects from excessive nutrient intake. The IOM did not set ULs for trans fat, saturated fat, and cholesterol because any intake level above 0% of energy increased LDL cholesterol concentration and these three food components are unavoidable in ordinary diets. The purpose of the analysis presented in this review was to evaluate clinical trial and prospective observational data that were not previously considered for setting a UL with the aim of determining whether the current UL model could be used for saturated fat, trans fat, and cholesterol. The results of this analysis confirm the limitations of the risk assessment model for setting ULs because of its inability to identify a UL for food components, such as cholesterol, that lack an intake threshold associated with increased chronic disease risk.",
+      "target": "© 2011 International Life Sciences Institute.",
+      "loss_target": 2.0511574745178223,
+      "loss_target_given_context": 0.7725944519042969,
+      "delta_loss": 1.2785630226135254,
+      "gain_ratio": 0.6233373295310175,
+      "score": -0.6233373295310175,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

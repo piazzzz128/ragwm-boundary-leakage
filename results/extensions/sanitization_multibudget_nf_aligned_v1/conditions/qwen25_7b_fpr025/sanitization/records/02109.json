@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3808",
+  "source_doc_id": "MED-3808",
+  "title": "Risk assessment of consumption of methylchavicol and tarragon: the genotoxic potential in vivo and in vitro.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Risk assessment of consumption of methylchavicol and tarragon: the genotoxic potential in vivo and in vitro.\nMethylchavicol (or estragole), a natural flavouring substance present in tarragon, was confirmed as a genotoxic chemical in the in vitro UDS test in cultured rat hepatocytes and in the in vivo UDS test in hepatocytes of exposed rats. Deep-frozen tarragon was clearly less genotoxic than methylchavicol at equivalent dose levels, and desiccated tarragon was negative. Both forms of tarragon tested in vitro have the ability to decrease significantly the genotoxicity of methylchavicol added to the culture medium at concentrations </=10 muM for deep-frozen and </=55 muM for desiccated tarragon. The decrease may be attributed to antimutagenic properties of tarragon leaves and/or to adsorption of methylchavicol, which would decrease its bioavailability. Desiccated tarragon powder was not genotoxic in the in vivo UDS test when administered up to the maximum dose of 6.25 g/kg bw (18.75 mg/kg bw of methylchavicol). In vivo, desiccated tarragon did not show antimutagenic properties, because it did not decrease the genotoxicity of methylchavicol added at high concentrations. Considering the low exposure level at the maximum daily tarragon consumption, the rapid detoxification and excretion in humans and the no-genotoxic-effect-level of methylchavicol by the oral route when given to rats as tarragon leaves, a high margin of exposure exists. We can conclude that tarragon consumption presents no genotoxic risk to humans. Copyright © 2009 Elsevier B.V. All rights reserved.",
+  "sanitized_text": "Risk assessment of consumption of methylchavicol and tarragon: the genotoxic potential in vivo and in vitro.\nMethylchavicol (or estragole), a natural flavouring substance present in tarragon, was confirmed as a genotoxic chemical in the in vitro UDS test in cultured rat hepatocytes and in the in vivo UDS test in hepatocytes of exposed rats. Deep-frozen tarragon was clearly less genotoxic than methylchavicol at equivalent dose levels, and desiccated tarragon was negative. Both forms of tarragon tested in vitro have the ability to decrease significantly the genotoxicity of methylchavicol added to the culture medium at concentrations </=10 muM for deep-frozen and </=55 muM for desiccated tarragon. The decrease may be attributed to antimutagenic properties of tarragon leaves and/or to adsorption of methylchavicol, which would decrease its bioavailability. Desiccated tarragon powder was not genotoxic in the in vivo UDS test when administered up to the maximum dose of 6.25 g/kg bw (18.75 mg/kg bw of methylchavicol). In vivo, desiccated tarragon did not show antimutagenic properties, because it did not decrease the genotoxicity of methylchavicol added at high concentrations. Considering the low exposure level at the maximum daily tarragon consumption, the rapid detoxification and excretion in humans and the no-genotoxic-effect-level of methylchavicol by the oral route when given to rats as tarragon leaves, a high margin of exposure exists. We can conclude that tarragon consumption presents no genotoxic risk to humans.",
+  "modified": true,
+  "original_char_count": 1588,
+  "sanitized_char_count": 1536,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1537,
+      "boundary_end": 1567,
+      "context": "rats. Deep-frozen tarragon was clearly less genotoxic than methylchavicol at equivalent dose levels, and desiccated tarragon was negative. Both forms of tarragon tested in vitro have the ability to decrease significantly the genotoxicity of methylchavicol added to the culture medium at concentrations </=10 muM for deep-frozen and </=55 muM for desiccated tarragon. The decrease may be attributed to antimutagenic properties of tarragon leaves and/or to adsorption of methylchavicol, which would decrease its bioavailability. Desiccated tarragon powder was not genotoxic in the in vivo UDS test when administered up to the maximum dose of 6.25 g/kg bw (18.75 mg/kg bw of methylchavicol). In vivo, desiccated tarragon did not show antimutagenic properties, because it did not decrease the genotoxicity of methylchavicol added at high concentrations. Considering the low exposure level at the maximum daily tarragon consumption, the rapid detoxification and excretion in humans and the no-genotoxic-effect-level of methylchavicol by the oral route when given to rats as tarragon leaves, a high margin of exposure exists. We can conclude that tarragon consumption presents no genotoxic risk to humans.",
+      "target": "Copyright © 2009 Elsevier B.V.",
+      "loss_target": 1.0576701164245605,
+      "loss_target_given_context": 0.9432145953178406,
+      "delta_loss": 0.11445552110671997,
+      "gain_ratio": 0.10821476311880239,
+      "score": -0.10821476311880239,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1457,
+      "boundary_end": 1536,
+      "context": "cultured rat hepatocytes and in the in vivo UDS test in hepatocytes of exposed rats. Deep-frozen tarragon was clearly less genotoxic than methylchavicol at equivalent dose levels, and desiccated tarragon was negative. Both forms of tarragon tested in vitro have the ability to decrease significantly the genotoxicity of methylchavicol added to the culture medium at concentrations </=10 muM for deep-frozen and </=55 muM for desiccated tarragon. The decrease may be attributed to antimutagenic properties of tarragon leaves and/or to adsorption of methylchavicol, which would decrease its bioavailability. Desiccated tarragon powder was not genotoxic in the in vivo UDS test when administered up to the maximum dose of 6.25 g/kg bw (18.75 mg/kg bw of methylchavicol). In vivo, desiccated tarragon did not show antimutagenic properties, because it did not decrease the genotoxicity of methylchavicol added at high concentrations. Considering the low exposure level at the maximum daily tarragon consumption, the rapid detoxification and excretion in humans and the no-genotoxic-effect-level of methylchavicol by the oral route when given to rats as tarragon leaves, a high margin of exposure exists.",
+      "target": "We can conclude that tarragon consumption presents no genotoxic risk to humans.",
+      "loss_target": 4.141912937164307,
+      "loss_target_given_context": 1.319104790687561,
+      "delta_loss": 2.8228081464767456,
+      "gain_ratio": 0.6815228106676079,
+      "score": -0.6815228106676079,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1537,
+      "target": "Copyright © 2009 Elsevier B.V.",
+      "score": -0.10821476311880239,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Copyright © 2009 Elsevier B.V. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

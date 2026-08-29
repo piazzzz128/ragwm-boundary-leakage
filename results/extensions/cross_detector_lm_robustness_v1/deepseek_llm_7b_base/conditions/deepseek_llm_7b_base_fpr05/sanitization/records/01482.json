@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2923",
+  "source_doc_id": "MED-2923",
+  "title": "Death receptor ligands in tumors.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Death receptor ligands in tumors.\nActivation of apoptosis via death receptors is a tightly regulated event, and the death pathway itself is open to interference on the part of soluble or membrane-bound decoy receptors. The aggregation state of the death-inducing ligand is a crucial factor, particularly when these molecules are used as recombinant drugs against tumors. Whether tumors are sensitive to such ligands is determined by both the net abundance of death receptors versus decoy receptors and the balance between intracellular apoptotic and antiapoptotic mechanisms. This means that in vivo elimination of tumor cells by effector arms such as T lymphocytes, natural killer cells, macrophages, and dendritic cells is dependent on both the function of activated lymphoid cells and the genetic properties of tumor cells. Death receptor ligands, however, may be a double-edged sword. When expressed on cytotoxic T lymphocytes, natural killer cells, monocytes, and dendritic cells, they induce the apoptosis of many tumor cells, whereas their expression on tumor cells induces the apoptosis of killer cells. The in vivo result is influenced by the number of infiltrating cells, their state of activation, the cytokine repertoire in the tumor microenvironment, and the ability of the tumor to produce soluble factors inhibiting their cytolytic functions. There is a causal relationship where death receptors contribute to the development of disease. The concept of health contains elements such as death receptors.",
+  "sanitized_text": "Death receptor ligands in tumors.\nActivation of apoptosis via death receptors is a tightly regulated event, and the death pathway itself is open to interference on the part of soluble or membrane-bound decoy receptors. The aggregation state of the death-inducing ligand is a crucial factor, particularly when these molecules are used as recombinant drugs against tumors. Whether tumors are sensitive to such ligands is determined by both the net abundance of death receptors versus decoy receptors and the balance between intracellular apoptotic and antiapoptotic mechanisms. This means that in vivo elimination of tumor cells by effector arms such as T lymphocytes, natural killer cells, macrophages, and dendritic cells is dependent on both the function of activated lymphoid cells and the genetic properties of tumor cells. Death receptor ligands, however, may be a double-edged sword. When expressed on cytotoxic T lymphocytes, natural killer cells, monocytes, and dendritic cells, they induce the apoptosis of many tumor cells, whereas their expression on tumor cells induces the apoptosis of killer cells. The in vivo result is influenced by the number of infiltrating cells, their state of activation, the cytokine repertoire in the tumor microenvironment, and the ability of the tumor to produce soluble factors inhibiting their cytolytic functions. There is a causal relationship where death receptors contribute to the development of disease. The concept of health contains elements such as death receptors.",
+  "modified": false,
+  "original_char_count": 1517,
+  "sanitized_char_count": 1517,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1453,
+      "boundary_end": 1517,
+      "context": "ligand is a crucial factor, particularly when these molecules are used as recombinant drugs against tumors. Whether tumors are sensitive to such ligands is determined by both the net abundance of death receptors versus decoy receptors and the balance between intracellular apoptotic and antiapoptotic mechanisms. This means that in vivo elimination of tumor cells by effector arms such as T lymphocytes, natural killer cells, macrophages, and dendritic cells is dependent on both the function of activated lymphoid cells and the genetic properties of tumor cells. Death receptor ligands, however, may be a double-edged sword. When expressed on cytotoxic T lymphocytes, natural killer cells, monocytes, and dendritic cells, they induce the apoptosis of many tumor cells, whereas their expression on tumor cells induces the apoptosis of killer cells. The in vivo result is influenced by the number of infiltrating cells, their state of activation, the cytokine repertoire in the tumor microenvironment, and the ability of the tumor to produce soluble factors inhibiting their cytolytic functions. There is a causal relationship where death receptors contribute to the development of disease.",
+      "target": "The concept of health contains elements such as death receptors.",
+      "loss_target": 6.166073322296143,
+      "loss_target_given_context": 4.639678001403809,
+      "delta_loss": 1.526395320892334,
+      "gain_ratio": 0.2475473840658012,
+      "score": -0.2475473840658012,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

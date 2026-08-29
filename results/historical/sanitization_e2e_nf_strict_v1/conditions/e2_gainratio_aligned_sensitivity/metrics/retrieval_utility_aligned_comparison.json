@@ -1,0 +1,71 @@
+{
+  "dataset": "nfcorpus",
+  "split": "test",
+  "retriever": "contriever",
+  "query_count": 323,
+  "baseline_name": "e0_watermarked",
+  "metrics": {
+    "e0_watermarked": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2687027194786402,
+      "map_at_100": 0.11743996477913154,
+      "recall_at_100": 0.2573323754306869,
+      "mrr_at_10": 0.45503218831392206
+    },
+    "e1_oracle": {
+      "query_count": 323,
+      "ndcg_at_10": 0.25547701041586607,
+      "map_at_100": 0.10968227204691017,
+      "recall_at_100": 0.254047503113562,
+      "mrr_at_10": 0.43542434517666717
+    },
+    "e2_strict_v1": {
+      "query_count": 323,
+      "ndcg_at_10": 0.268397880678645,
+      "map_at_100": 0.11903577701906369,
+      "recall_at_100": 0.25536648144831825,
+      "mrr_at_10": 0.45413533834586467
+    },
+    "e2_aligned": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2567342448794071,
+      "map_at_100": 0.11319862302029655,
+      "recall_at_100": 0.24805799430906136,
+      "mrr_at_10": 0.43295247923730895
+    }
+  },
+  "metric_deltas_vs_baseline": {
+    "e1_oracle": {
+      "ndcg_at_10": -0.01322570906277415,
+      "map_at_100": -0.007757692732221377,
+      "recall_at_100": -0.003284872317124876,
+      "mrr_at_10": -0.019607843137254888
+    },
+    "e2_strict_v1": {
+      "ndcg_at_10": -0.0003048387999952107,
+      "map_at_100": 0.0015958122399321456,
+      "recall_at_100": -0.0019658939823686272,
+      "mrr_at_10": -0.0008968499680573894
+    },
+    "e2_aligned": {
+      "ndcg_at_10": -0.011968474599233114,
+      "map_at_100": -0.0042413417588349905,
+      "recall_at_100": -0.009274381121625513,
+      "mrr_at_10": -0.022079709076613108
+    }
+  },
+  "retrieval_overlap": {
+    "e1_oracle": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.7030959752321981,
+      "mean_top100_overlap_fraction_vs_baseline": 0.755046439628483
+    },
+    "e2_strict_v1": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.8696594427244582,
+      "mean_top100_overlap_fraction_vs_baseline": 0.8848916408668731
+    },
+    "e2_aligned": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.8544891640866873,
+      "mean_top100_overlap_fraction_vs_baseline": 0.893343653250774
+    }
+  }
+}

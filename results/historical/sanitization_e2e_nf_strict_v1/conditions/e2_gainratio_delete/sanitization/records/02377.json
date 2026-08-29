@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4169",
+  "source_doc_id": "MED-4169",
+  "title": "PCDD/Fs and dioxin-like PCBs in human milk and estimation of infants' daily intake: a review.",
+  "original_text": "PCDD/Fs and dioxin-like PCBs in human milk and estimation of infants' daily intake: a review.\nThis paper reviews the recent scientific literature on PCDDs, PCDFs and dioxin-like PCBs in human milk. All the papers reporting levels of these contaminants in human breast milk published from January 2000 to January 2009 and available on the www.sciencedirect.com web site were identified and included. The aim was (1) to study levels of PCDDs, PCDFs and PCBs in human milk in mothers from different geographical areas and assess infant exposure to these contaminants; (2) to study the effect of variables such as the mother's age, number of deliveries, dietary and smoking habits and her own nutrition in infancy, and the environment, on levels of the contaminants in breast milk; (3) to study time patterns, and (4) to identify data gaps. Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "PCDD/Fs and dioxin-like PCBs in human milk and estimation of infants' daily intake: a review.\nThis paper reviews the recent scientific literature on PCDDs, PCDFs and dioxin-like PCBs in human milk. All the papers reporting levels of these contaminants in human breast milk published from January 2000 to January 2009 and available on the www.sciencedirect.com web site were identified and included. The aim was (1) to study levels of PCDDs, PCDFs and PCBs in human milk in mothers from different geographical areas and assess infant exposure to these contaminants; (2) to study the effect of variables such as the mother's age, number of deliveries, dietary and smoking habits and her own nutrition in infancy, and the environment, on levels of the contaminants in breast milk; (3) to study time patterns, and (4) to identify data gaps.",
+  "modified": true,
+  "original_char_count": 888,
+  "sanitized_char_count": 836,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 837,
+      "boundary_end": 867,
+      "context": "PCDD/Fs and dioxin-like PCBs in human milk and estimation of infants' daily intake: a review. This paper reviews the recent scientific literature on PCDDs, PCDFs and dioxin-like PCBs in human milk. All the papers reporting levels of these contaminants in human breast milk published from January 2000 to January 2009 and available on the www.sciencedirect.com web site were identified and included. The aim was (1) to study levels of PCDDs, PCDFs and PCBs in human milk in mothers from different geographical areas and assess infant exposure to these contaminants; (2) to study the effect of variables such as the mother's age, number of deliveries, dietary and smoking habits and her own nutrition in infancy, and the environment, on levels of the contaminants in breast milk; (3) to study time patterns, and (4) to identify data gaps.",
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "loss_target": 1.2711169719696045,
+      "loss_target_given_context": 1.9247318506240845,
+      "delta_loss": -0.65361487865448,
+      "gain_ratio": -0.5142051385260785,
+      "score": 0.5142051385260785,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 399,
+      "boundary_end": 836,
+      "context": "PCDD/Fs and dioxin-like PCBs in human milk and estimation of infants' daily intake: a review. This paper reviews the recent scientific literature on PCDDs, PCDFs and dioxin-like PCBs in human milk. All the papers reporting levels of these contaminants in human breast milk published from January 2000 to January 2009 and available on the www.sciencedirect.com web site were identified and included.",
+      "target": "The aim was (1) to study levels of PCDDs, PCDFs and PCBs in human milk in mothers from different geographical areas and assess infant exposure to these contaminants; (2) to study the effect of variables such as the mother's age, number of deliveries, dietary and smoking habits and her own nutrition in infancy, and the environment, on levels of the contaminants in breast milk; (3) to study time patterns, and (4) to identify data gaps.",
+      "loss_target": 2.2182013988494873,
+      "loss_target_given_context": 2.0122592449188232,
+      "delta_loss": 0.20594215393066406,
+      "gain_ratio": 0.09284195476455831,
+      "score": -0.09284195476455831,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 837,
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "score": 0.5142051385260785,
+      "deleted_suffix": "Copyright © 2011 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

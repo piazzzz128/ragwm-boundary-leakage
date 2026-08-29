@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3374",
+  "source_doc_id": "MED-3374",
+  "title": "Attractive names sustain increased vegetable intake in schools.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Attractive names sustain increased vegetable intake in schools.\nOBJECTIVE: This study will determine if the selective use of attractive names can be a sustainable, scalable means to increase the selection of vegetables in school lunchrooms. METHODS: Study 1 paired an attractive name with carrots in five elementary schools (n=147) and measured selection and consumption over a week compared to controls. Study 2 tracked food sales of vegetables in two elementary schools (n=1017) that were systematically attractively named or not named over a two-month period. Both studies were conducted in New York in 2011. RESULTS: Study 1 found that elementary students ate twice the percentage of their carrots if attractively named as \"X-ray Vision Carrots,\" than if un-named or generically named as the \"Food of the Day.\" Study 2 found that elementary school students were 16% more likely to persistently choose more hot vegetable dishes (p<0.001) when they were given fun or attractive names. DISCUSSION: Attractive names effectively and persistently increased healthy food consumption in elementary schools. The scalability of this is underscored by the success of Study 2, which was implemented and executed for negligible cost by a high school student volunteer. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Attractive names sustain increased vegetable intake in schools.\nOBJECTIVE: This study will determine if the selective use of attractive names can be a sustainable, scalable means to increase the selection of vegetables in school lunchrooms. METHODS: Study 1 paired an attractive name with carrots in five elementary schools (n=147) and measured selection and consumption over a week compared to controls. Study 2 tracked food sales of vegetables in two elementary schools (n=1017) that were systematically attractively named or not named over a two-month period. Both studies were conducted in New York in 2011. RESULTS: Study 1 found that elementary students ate twice the percentage of their carrots if attractively named as \"X-ray Vision Carrots,\" than if un-named or generically named as the \"Food of the Day.\" Study 2 found that elementary school students were 16% more likely to persistently choose more hot vegetable dishes (p<0.001) when they were given fun or attractive names. DISCUSSION: Attractive names effectively and persistently increased healthy food consumption in elementary schools. The scalability of this is underscored by the success of Study 2, which was implemented and executed for negligible cost by a high school student volunteer. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1311,
+  "sanitized_char_count": 1311,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1260,
+      "boundary_end": 1290,
+      "context": "OBJECTIVE: This study will determine if the selective use of attractive names can be a sustainable, scalable means to increase the selection of vegetables in school lunchrooms. METHODS: Study 1 paired an attractive name with carrots in five elementary schools (n=147) and measured selection and consumption over a week compared to controls. Study 2 tracked food sales of vegetables in two elementary schools (n=1017) that were systematically attractively named or not named over a two-month period. Both studies were conducted in New York in 2011. RESULTS: Study 1 found that elementary students ate twice the percentage of their carrots if attractively named as \"X-ray Vision Carrots,\" than if un-named or generically named as the \"Food of the Day.\" Study 2 found that elementary school students were 16% more likely to persistently choose more hot vegetable dishes (p<0.001) when they were given fun or attractive names. DISCUSSION: Attractive names effectively and persistently increased healthy food consumption in elementary schools. The scalability of this is underscored by the success of Study 2, which was implemented and executed for negligible cost by a high school student volunteer.",
+      "target": "Copyright © 2012 Elsevier Inc.",
+      "loss_target": 1.084797978401184,
+      "loss_target_given_context": 0.39972051978111267,
+      "delta_loss": 0.6850774586200714,
+      "gain_ratio": 0.6315253828457205,
+      "score": -0.6315253828457205,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3953",
+  "source_doc_id": "MED-3953",
+  "title": "An evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "An evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration.\nAn evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration consolidates the safety and efficacy data available in the scientific literature using a validated, reproducible grading rationale. This article includes written and statistical analysis of clinical trials, plus a compilation of expert opinion, folkloric precedent, history, pharmacology, kinetics/dynamics, interactions, adverse effects, toxicology, and dosing.",
+  "sanitized_text": "An evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration.\nAn evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration consolidates the safety and efficacy data available in the scientific literature using a validated, reproducible grading rationale. This article includes written and statistical analysis of clinical trials, plus a compilation of expert opinion, folkloric precedent, history, pharmacology, kinetics/dynamics, interactions, adverse effects, toxicology, and dosing.",
+  "modified": false,
+  "original_char_count": 583,
+  "sanitized_char_count": 583,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 353,
+      "boundary_end": 583,
+      "context": "An evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration. An evidence-based systematic review of acai (Euterpe oleracea) by the Natural Standard Research Collaboration consolidates the safety and efficacy data available in the scientific literature using a validated, reproducible grading rationale.",
+      "target": "This article includes written and statistical analysis of clinical trials, plus a compilation of expert opinion, folkloric precedent, history, pharmacology, kinetics/dynamics, interactions, adverse effects, toxicology, and dosing.",
+      "loss_target": 2.4805305004119873,
+      "loss_target_given_context": 1.3929449319839478,
+      "delta_loss": 1.0875855684280396,
+      "gain_ratio": 0.43844877869770366,
+      "score": -0.43844877869770366,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3601",
+  "source_doc_id": "MED-3601",
+  "title": "Children as guinea pigs: historical perspective.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Children as guinea pigs: historical perspective.\nExperimentation involving children is not a new phenomenon. Children have been used as research subjects in a diverse set of experiments, including the trials of new vaccines and sera, in efforts to understand normal pediatric anatomy and physiology and in the development of new drugs and procedures. Concern about child participants in research is also not a new development. For more than a century, critics of medical research have called attention to the fact that children and other vulnerable populations--pregnant women, prisoners, the mentally ill--have too often served as the unwitting and unwilling subjects of medical experiments. This paper looks at several early cases in which children participated, including the first trial of cowpox vaccine, the first human trial of rabies vaccine, and the first treatment of Listerian wound antisepsis. The history of concern for children, especially institutionalized children, in medical research is considered along with the development of regulations or guidelines, including the Declaration of Helsinki (1964).",
+  "sanitized_text": "Children as guinea pigs: historical perspective.\nExperimentation involving children is not a new phenomenon. Children have been used as research subjects in a diverse set of experiments, including the trials of new vaccines and sera, in efforts to understand normal pediatric anatomy and physiology and in the development of new drugs and procedures. Concern about child participants in research is also not a new development. For more than a century, critics of medical research have called attention to the fact that children and other vulnerable populations--pregnant women, prisoners, the mentally ill--have too often served as the unwitting and unwilling subjects of medical experiments. This paper looks at several early cases in which children participated, including the first trial of cowpox vaccine, the first human trial of rabies vaccine, and the first treatment of Listerian wound antisepsis. The history of concern for children, especially institutionalized children, in medical research is considered along with the development of regulations or guidelines, including the Declaration of Helsinki (1964).",
+  "modified": false,
+  "original_char_count": 1118,
+  "sanitized_char_count": 1118,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 906,
+      "boundary_end": 1118,
+      "context": "Children as guinea pigs: historical perspective. Experimentation involving children is not a new phenomenon. Children have been used as research subjects in a diverse set of experiments, including the trials of new vaccines and sera, in efforts to understand normal pediatric anatomy and physiology and in the development of new drugs and procedures. Concern about child participants in research is also not a new development. For more than a century, critics of medical research have called attention to the fact that children and other vulnerable populations--pregnant women, prisoners, the mentally ill--have too often served as the unwitting and unwilling subjects of medical experiments. This paper looks at several early cases in which children participated, including the first trial of cowpox vaccine, the first human trial of rabies vaccine, and the first treatment of Listerian wound antisepsis.",
+      "target": "The history of concern for children, especially institutionalized children, in medical research is considered along with the development of regulations or guidelines, including the Declaration of Helsinki (1964).",
+      "loss_target": 2.708749294281006,
+      "loss_target_given_context": 2.0618553161621094,
+      "delta_loss": 0.6468939781188965,
+      "gain_ratio": 0.23881648238346995,
+      "score": -0.23881648238346995,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

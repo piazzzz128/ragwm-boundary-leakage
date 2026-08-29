@@ -1,0 +1,105 @@
+{
+  "internal_id": "MED-2489",
+  "source_doc_id": "MED-2489",
+  "title": "Agricultural policies, food and public health",
+  "original_text": "Agricultural policies, food and public health\nA historical view on how our agricultural systems evolved and how they are contributing to obesity and disease. The lifespan of moderately obese subjects tends to improve. One can find eggs utilized in various preparations featuring oats. Oats contain triglycerides, which are a type of fat. Dietary factors are measured in terms of eggs.",
+  "sanitized_text": "Agricultural policies, food and public health\nA historical view on how our agricultural systems evolved and how they are contributing to obesity and disease.",
+  "modified": true,
+  "original_char_count": 384,
+  "sanitized_char_count": 157,
+  "deleted_char_count": 227,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 338,
+      "boundary_end": 384,
+      "context": "Agricultural policies, food and public health A historical view on how our agricultural systems evolved and how they are contributing to obesity and disease. The lifespan of moderately obese subjects tends to improve. One can find eggs utilized in various preparations featuring oats. Oats contain triglycerides, which are a type of fat.",
+      "target": "Dietary factors are measured in terms of eggs.",
+      "loss_target": 4.321353435516357,
+      "loss_target_given_context": 4.363534450531006,
+      "delta_loss": -0.04218101501464844,
+      "gain_ratio": -0.009761065750366758,
+      "score": 0.009761065750366758,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 285,
+      "boundary_end": 337,
+      "context": "Agricultural policies, food and public health A historical view on how our agricultural systems evolved and how they are contributing to obesity and disease. The lifespan of moderately obese subjects tends to improve. One can find eggs utilized in various preparations featuring oats.",
+      "target": "Oats contain triglycerides, which are a type of fat.",
+      "loss_target": 2.2495813369750977,
+      "loss_target_given_context": 2.5546951293945312,
+      "delta_loss": -0.3051137924194336,
+      "gain_ratio": -0.13563136722573688,
+      "score": 0.13563136722573688,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 218,
+      "boundary_end": 284,
+      "context": "Agricultural policies, food and public health A historical view on how our agricultural systems evolved and how they are contributing to obesity and disease. The lifespan of moderately obese subjects tends to improve.",
+      "target": "One can find eggs utilized in various preparations featuring oats.",
+      "loss_target": 5.99755334854126,
+      "loss_target_given_context": 6.73898458480835,
+      "delta_loss": -0.7414312362670898,
+      "gain_ratio": -0.12362228281761306,
+      "score": 0.12362228281761306,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 4,
+      "boundary_start": 158,
+      "boundary_end": 217,
+      "context": "Agricultural policies, food and public health A historical view on how our agricultural systems evolved and how they are contributing to obesity and disease.",
+      "target": "The lifespan of moderately obese subjects tends to improve.",
+      "loss_target": 5.982265949249268,
+      "loss_target_given_context": 6.573158264160156,
+      "delta_loss": -0.5908923149108887,
+      "gain_ratio": -0.09877399632910695,
+      "score": 0.09877399632910695,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 338,
+      "target": "Dietary factors are measured in terms of eggs.",
+      "score": 0.009761065750366758,
+      "deleted_suffix": "Dietary factors are measured in terms of eggs.",
+      "deleted_char_count": 46
+    },
+    {
+      "step": 2,
+      "boundary_start": 285,
+      "target": "Oats contain triglycerides, which are a type of fat.",
+      "score": 0.13563136722573688,
+      "deleted_suffix": "Oats contain triglycerides, which are a type of fat.",
+      "deleted_char_count": 52
+    },
+    {
+      "step": 3,
+      "boundary_start": 218,
+      "target": "One can find eggs utilized in various preparations featuring oats.",
+      "score": 0.12362228281761306,
+      "deleted_suffix": "One can find eggs utilized in various preparations featuring oats.",
+      "deleted_char_count": 66
+    },
+    {
+      "step": 4,
+      "boundary_start": 158,
+      "target": "The lifespan of moderately obese subjects tends to improve.",
+      "score": 0.09877399632910695,
+      "deleted_suffix": "The lifespan of moderately obese subjects tends to improve.",
+      "deleted_char_count": 59
+    }
+  ],
+  "deletion_step_count": 4,
+  "stop_reason": "empty_context"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1712",
+  "source_doc_id": "MED-1712",
+  "title": "Dietary restriction reduces insulin-like growth factor I levels, which modulates apoptosis, cell proliferation, and tumor progression in p53-defici...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary restriction reduces insulin-like growth factor I levels, which modulates apoptosis, cell proliferation, and tumor progression in p53-defici...\nDiet contributes to over one-third of cancer deaths in the Western world, yet the factors in the diet that influence cancer are not elucidated. A reduction in caloric intake dramatically slows cancer progression in rodents, and this may be a major contribution to dietary effects on cancer. Insulin-like growth factor I (IGF-I) is lowered during dietary restriction (DR) in both humans and rats. Because IGF-I modulates cell proliferation, apoptosis, and tumorigenesis, the mechanisms behind the protective effects of DR may depend on the reduction of this multifaceted growth factor. To test this hypothesis, IGF-I was restored during DR to ascertain if lowering of IGF-I was central to slowing bladder cancer progression during DR. Heterozygous p53-deficient mice received a bladder carcinogen, p-cresidine, to induce preneoplasia. After confirmation of bladder urothelial preneoplasia, the mice were divided into three groups: (a) ad libitum; (b) 20% DR; and (c) 20% DR plus IGF-I (IGF-I/DR). Serum IGF-I was lowered 24% by DR but was completely restored in the IGF-I/DR-treated mice using recombinant IGF-I administered via osmotic minipumps. Although tumor progression was decreased by DR, restoration of IGF-I serum levels in DR-treated mice increased the stage of the cancers. Furthermore, IGF-I modulated tumor progression independent of changes in body weight. Rates of apoptosis in the preneoplastic lesions were 10 times higher in DR-treated mice compared to those in IGF/DR- and ad libitum-treated mice. Administration of IGF-I to DR-treated mice also stimulated cell proliferation 6-fold in hyperplastic foci. In conclusion, DR lowered IGF-I levels, thereby favoring apoptosis over cell proliferation and ultimately slowing tumor progression. This is the first mechanistic study demonstrating that IGF-I supplementation abrogates the protective effect of DR on neoplastic progression.",
+  "sanitized_text": "Dietary restriction reduces insulin-like growth factor I levels, which modulates apoptosis, cell proliferation, and tumor progression in p53-defici...\nDiet contributes to over one-third of cancer deaths in the Western world, yet the factors in the diet that influence cancer are not elucidated. A reduction in caloric intake dramatically slows cancer progression in rodents, and this may be a major contribution to dietary effects on cancer. Insulin-like growth factor I (IGF-I) is lowered during dietary restriction (DR) in both humans and rats. Because IGF-I modulates cell proliferation, apoptosis, and tumorigenesis, the mechanisms behind the protective effects of DR may depend on the reduction of this multifaceted growth factor. To test this hypothesis, IGF-I was restored during DR to ascertain if lowering of IGF-I was central to slowing bladder cancer progression during DR. Heterozygous p53-deficient mice received a bladder carcinogen, p-cresidine, to induce preneoplasia. After confirmation of bladder urothelial preneoplasia, the mice were divided into three groups: (a) ad libitum; (b) 20% DR; and (c) 20% DR plus IGF-I (IGF-I/DR). Serum IGF-I was lowered 24% by DR but was completely restored in the IGF-I/DR-treated mice using recombinant IGF-I administered via osmotic minipumps. Although tumor progression was decreased by DR, restoration of IGF-I serum levels in DR-treated mice increased the stage of the cancers. Furthermore, IGF-I modulated tumor progression independent of changes in body weight. Rates of apoptosis in the preneoplastic lesions were 10 times higher in DR-treated mice compared to those in IGF/DR- and ad libitum-treated mice. Administration of IGF-I to DR-treated mice also stimulated cell proliferation 6-fold in hyperplastic foci. In conclusion, DR lowered IGF-I levels, thereby favoring apoptosis over cell proliferation and ultimately slowing tumor progression. This is the first mechanistic study demonstrating that IGF-I supplementation abrogates the protective effect of DR on neoplastic progression.",
+  "modified": false,
+  "original_char_count": 2048,
+  "sanitized_char_count": 2048,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1907,
+      "boundary_end": 2048,
+      "context": "multifaceted growth factor. To test this hypothesis, IGF-I was restored during DR to ascertain if lowering of IGF-I was central to slowing bladder cancer progression during DR. Heterozygous p53-deficient mice received a bladder carcinogen, p-cresidine, to induce preneoplasia. After confirmation of bladder urothelial preneoplasia, the mice were divided into three groups: (a) ad libitum; (b) 20% DR; and (c) 20% DR plus IGF-I (IGF-I/DR). Serum IGF-I was lowered 24% by DR but was completely restored in the IGF-I/DR-treated mice using recombinant IGF-I administered via osmotic minipumps. Although tumor progression was decreased by DR, restoration of IGF-I serum levels in DR-treated mice increased the stage of the cancers. Furthermore, IGF-I modulated tumor progression independent of changes in body weight. Rates of apoptosis in the preneoplastic lesions were 10 times higher in DR-treated mice compared to those in IGF/DR- and ad libitum-treated mice. Administration of IGF-I to DR-treated mice also stimulated cell proliferation 6-fold in hyperplastic foci. In conclusion, DR lowered IGF-I levels, thereby favoring apoptosis over cell proliferation and ultimately slowing tumor progression.",
+      "target": "This is the first mechanistic study demonstrating that IGF-I supplementation abrogates the protective effect of DR on neoplastic progression.",
+      "loss_target": 3.0728399753570557,
+      "loss_target_given_context": 1.5574167966842651,
+      "delta_loss": 1.5154231786727905,
+      "gain_ratio": 0.493166969587052,
+      "score": -0.493166969587052,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

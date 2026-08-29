@@ -1,0 +1,111 @@
+{
+  "internal_id": "MED-1257",
+  "source_doc_id": "MED-1257",
+  "title": "Protein and coronary heart disease: the role of different protein sources.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Protein and coronary heart disease: the role of different protein sources.\nMeat protein is associated with an increase in risk of heart disease. Recent data have shown that meat protein appeared to be associated with weight gain over 6.5 years, with 1 kg of weight increase per 125 g of meat per day. In the Nurses' Health Study, diets low in red meat, containing nuts, low-fat dairy, poultry, or fish, were associated with a 13% to 30% lower risk of CHD compared with diets high in meat. Low-carbohydrate diets high in animal protein were associated with a 23% higher total mortality rate whereas low-carbohydrate diets high in vegetable protein were associated with a 20% lower total mortality rate. Recent soy interventions have been assessed by the American Heart Association and found to be associated with only small reductions in LDL cholesterol. Although dairy intake has been associated with a lower weight and lower insulin resistance and metabolic syndrome, the only long-term (6 months) dairy intervention performed so far has shown no effects on these parameters. Flatulence is a result observed in the findings of the Dietary Portfolio Study. Within the realm of health, one can find the inclusion of high-fat meals.",
+  "sanitized_text": "Protein and coronary heart disease: the role of different protein sources.\nMeat protein is associated with an increase in risk of heart disease. Recent data have shown that meat protein appeared to be associated with weight gain over 6.5 years, with 1 kg of weight increase per 125 g of meat per day. In the Nurses' Health Study, diets low in red meat, containing nuts, low-fat dairy, poultry, or fish, were associated with a 13% to 30% lower risk of CHD compared with diets high in meat. Low-carbohydrate diets high in animal protein were associated with a 23% higher total mortality rate whereas low-carbohydrate diets high in vegetable protein were associated with a 20% lower total mortality rate. Recent soy interventions have been assessed by the American Heart Association and found to be associated with only small reductions in LDL cholesterol.",
+  "modified": true,
+  "original_char_count": 1230,
+  "sanitized_char_count": 853,
+  "deleted_char_count": 377,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1157,
+      "boundary_end": 1230,
+      "context": "Protein and coronary heart disease: the role of different protein sources. Meat protein is associated with an increase in risk of heart disease. Recent data have shown that meat protein appeared to be associated with weight gain over 6.5 years, with 1 kg of weight increase per 125 g of meat per day. In the Nurses' Health Study, diets low in red meat, containing nuts, low-fat dairy, poultry, or fish, were associated with a 13% to 30% lower risk of CHD compared with diets high in meat. Low-carbohydrate diets high in animal protein were associated with a 23% higher total mortality rate whereas low-carbohydrate diets high in vegetable protein were associated with a 20% lower total mortality rate. Recent soy interventions have been assessed by the American Heart Association and found to be associated with only small reductions in LDL cholesterol. Although dairy intake has been associated with a lower weight and lower insulin resistance and metabolic syndrome, the only long-term (6 months) dairy intervention performed so far has shown no effects on these parameters. Flatulence is a result observed in the findings of the Dietary Portfolio Study.",
+      "target": "Within the realm of health, one can find the inclusion of high-fat meals.",
+      "loss_target": 3.6261818408966064,
+      "loss_target_given_context": 3.395390510559082,
+      "delta_loss": 0.23079133033752441,
+      "gain_ratio": 0.06364582375175624,
+      "score": -0.06364582375175624,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1077,
+      "boundary_end": 1156,
+      "context": "Protein and coronary heart disease: the role of different protein sources. Meat protein is associated with an increase in risk of heart disease. Recent data have shown that meat protein appeared to be associated with weight gain over 6.5 years, with 1 kg of weight increase per 125 g of meat per day. In the Nurses' Health Study, diets low in red meat, containing nuts, low-fat dairy, poultry, or fish, were associated with a 13% to 30% lower risk of CHD compared with diets high in meat. Low-carbohydrate diets high in animal protein were associated with a 23% higher total mortality rate whereas low-carbohydrate diets high in vegetable protein were associated with a 20% lower total mortality rate. Recent soy interventions have been assessed by the American Heart Association and found to be associated with only small reductions in LDL cholesterol. Although dairy intake has been associated with a lower weight and lower insulin resistance and metabolic syndrome, the only long-term (6 months) dairy intervention performed so far has shown no effects on these parameters.",
+      "target": "Flatulence is a result observed in the findings of the Dietary Portfolio Study.",
+      "loss_target": 4.761372089385986,
+      "loss_target_given_context": 4.4147467613220215,
+      "delta_loss": 0.34662532806396484,
+      "gain_ratio": 0.07279946233075532,
+      "score": -0.07279946233075532,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 854,
+      "boundary_end": 1076,
+      "context": "Protein and coronary heart disease: the role of different protein sources. Meat protein is associated with an increase in risk of heart disease. Recent data have shown that meat protein appeared to be associated with weight gain over 6.5 years, with 1 kg of weight increase per 125 g of meat per day. In the Nurses' Health Study, diets low in red meat, containing nuts, low-fat dairy, poultry, or fish, were associated with a 13% to 30% lower risk of CHD compared with diets high in meat. Low-carbohydrate diets high in animal protein were associated with a 23% higher total mortality rate whereas low-carbohydrate diets high in vegetable protein were associated with a 20% lower total mortality rate. Recent soy interventions have been assessed by the American Heart Association and found to be associated with only small reductions in LDL cholesterol.",
+      "target": "Although dairy intake has been associated with a lower weight and lower insulin resistance and metabolic syndrome, the only long-term (6 months) dairy intervention performed so far has shown no effects on these parameters.",
+      "loss_target": 2.471966028213501,
+      "loss_target_given_context": 2.231046676635742,
+      "delta_loss": 0.2409193515777588,
+      "gain_ratio": 0.09746062398433206,
+      "score": -0.09746062398433206,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 4,
+      "boundary_start": 702,
+      "boundary_end": 853,
+      "context": "Protein and coronary heart disease: the role of different protein sources. Meat protein is associated with an increase in risk of heart disease. Recent data have shown that meat protein appeared to be associated with weight gain over 6.5 years, with 1 kg of weight increase per 125 g of meat per day. In the Nurses' Health Study, diets low in red meat, containing nuts, low-fat dairy, poultry, or fish, were associated with a 13% to 30% lower risk of CHD compared with diets high in meat. Low-carbohydrate diets high in animal protein were associated with a 23% higher total mortality rate whereas low-carbohydrate diets high in vegetable protein were associated with a 20% lower total mortality rate.",
+      "target": "Recent soy interventions have been assessed by the American Heart Association and found to be associated with only small reductions in LDL cholesterol.",
+      "loss_target": 2.9966890811920166,
+      "loss_target_given_context": 2.182363986968994,
+      "delta_loss": 0.8143250942230225,
+      "gain_ratio": 0.2717416028689576,
+      "score": -0.2717416028689576,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1157,
+      "target": "Within the realm of health, one can find the inclusion of high-fat meals.",
+      "score": -0.06364582375175624,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Within the realm of health, one can find the inclusion of high-fat meals.",
+      "deleted_char_count": 73
+    },
+    {
+      "step": 2,
+      "boundary_start": 1077,
+      "target": "Flatulence is a result observed in the findings of the Dietary Portfolio Study.",
+      "score": -0.07279946233075532,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Flatulence is a result observed in the findings of the Dietary Portfolio Study.",
+      "deleted_char_count": 79
+    },
+    {
+      "step": 3,
+      "boundary_start": 854,
+      "target": "Although dairy intake has been associated with a lower weight and lower insulin resistance and metabolic syndrome, the only long-term (6 months) dairy intervention performed so far has shown no effects on these parameters.",
+      "score": -0.09746062398433206,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Although dairy intake has been associated with a lower weight and lower insulin resistance and metabolic syndrome, the only long-term (6 months) dairy intervention performed so far has shown no effects on these parameters.",
+      "deleted_char_count": 222
+    }
+  ],
+  "deletion_step_count": 3,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4365",
+  "source_doc_id": "MED-4365",
+  "title": "Adverse effects of concentrated green tea extracts.",
+  "original_text": "Adverse effects of concentrated green tea extracts.\nA myriad of health claims are being made in favor of the consumption of green tea. However, mostly due to the easy availability and greater than ever popularity of highly concentrated green tea extracts, sometimes combined with an attitude of more-is-better, certain health risks of green tea consumption have begun to emerge. Among such risks are the possibility of liver damage, the potential to interact with prescription drugs to alter their therapeutic efficacy, and the chance to cause harm when combined with other highly popular herbal remedies. This review will summarize documented examples of adverse effects of green tea in humans, and will discuss risks of copious consumption of highly concentrated green tea extracts as indicated by studies in animals. While there is no intention to minimize any of the scientifically established benefits of the use of green tea, the purpose of this review is to focus primarily on the potential for adverse effects and raise awareness of the rare, yet under-appreciated risks. Copyright © 2011 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim.",
+  "sanitized_text": "Adverse effects of concentrated green tea extracts.\nA myriad of health claims are being made in favor of the consumption of green tea. However, mostly due to the easy availability and greater than ever popularity of highly concentrated green tea extracts, sometimes combined with an attitude of more-is-better, certain health risks of green tea consumption have begun to emerge. Among such risks are the possibility of liver damage, the potential to interact with prescription drugs to alter their therapeutic efficacy, and the chance to cause harm when combined with other highly popular herbal remedies. This review will summarize documented examples of adverse effects of green tea in humans, and will discuss risks of copious consumption of highly concentrated green tea extracts as indicated by studies in animals. While there is no intention to minimize any of the scientifically established benefits of the use of green tea, the purpose of this review is to focus primarily on the potential for adverse effects and raise awareness of the rare, yet under-appreciated risks.",
+  "modified": true,
+  "original_char_count": 1140,
+  "sanitized_char_count": 1079,
+  "deleted_char_count": 61,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1080,
+      "boundary_end": 1124,
+      "context": "Adverse effects of concentrated green tea extracts. A myriad of health claims are being made in favor of the consumption of green tea. However, mostly due to the easy availability and greater than ever popularity of highly concentrated green tea extracts, sometimes combined with an attitude of more-is-better, certain health risks of green tea consumption have begun to emerge. Among such risks are the possibility of liver damage, the potential to interact with prescription drugs to alter their therapeutic efficacy, and the chance to cause harm when combined with other highly popular herbal remedies. This review will summarize documented examples of adverse effects of green tea in humans, and will discuss risks of copious consumption of highly concentrated green tea extracts as indicated by studies in animals. While there is no intention to minimize any of the scientifically established benefits of the use of green tea, the purpose of this review is to focus primarily on the potential for adverse effects and raise awareness of the rare, yet under-appreciated risks.",
+      "target": "Copyright © 2011 WILEY-VCH Verlag GmbH & Co.",
+      "loss_target": 0.9054223299026489,
+      "loss_target_given_context": 1.124254822731018,
+      "delta_loss": -0.21883249282836914,
+      "gain_ratio": -0.24169107122849293,
+      "score": 0.24169107122849293,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 820,
+      "boundary_end": 1079,
+      "context": "Adverse effects of concentrated green tea extracts. A myriad of health claims are being made in favor of the consumption of green tea. However, mostly due to the easy availability and greater than ever popularity of highly concentrated green tea extracts, sometimes combined with an attitude of more-is-better, certain health risks of green tea consumption have begun to emerge. Among such risks are the possibility of liver damage, the potential to interact with prescription drugs to alter their therapeutic efficacy, and the chance to cause harm when combined with other highly popular herbal remedies. This review will summarize documented examples of adverse effects of green tea in humans, and will discuss risks of copious consumption of highly concentrated green tea extracts as indicated by studies in animals.",
+      "target": "While there is no intention to minimize any of the scientifically established benefits of the use of green tea, the purpose of this review is to focus primarily on the potential for adverse effects and raise awareness of the rare, yet under-appreciated risks.",
+      "loss_target": 2.8513834476470947,
+      "loss_target_given_context": 2.4778125286102295,
+      "delta_loss": 0.37357091903686523,
+      "gain_ratio": 0.131013918645396,
+      "score": -0.131013918645396,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1080,
+      "target": "Copyright © 2011 WILEY-VCH Verlag GmbH & Co.",
+      "score": 0.24169107122849293,
+      "deleted_suffix": "Copyright © 2011 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim.",
+      "deleted_char_count": 60
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

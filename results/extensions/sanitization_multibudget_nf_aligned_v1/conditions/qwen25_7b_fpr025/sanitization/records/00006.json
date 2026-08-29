@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1006",
+  "source_doc_id": "MED-1006",
+  "title": "Treatment of abdominal pain in irritable bowel syndrome.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Treatment of abdominal pain in irritable bowel syndrome.\nFunctional abdominal pain in the context of irritable bowel syndrome (IBS) is a challenging problem for primary care physicians, gastroenterologists and pain specialists. We review the evidence for the current and future non-pharmacological and pharmacological treatment options targeting the central nervous system and the gastrointestinal tract. Cognitive interventions such as cognitive behavioral therapy and hypnotherapy have demonstrated excellent results in IBS patients, but the limited availability and labor-intensive nature limit their routine use in daily practice. In patients who are refractory to first-line therapy, tricyclic antidepressants (TCA) and selective serotonin reuptake inhibitors are both effective to obtain symptomatic relief, but only TCAs have been shown to improve abdominal pain in meta-analyses. A diet low in fermentable carbohydrates and polyols (FODMAP) seems effective in subgroups of patients to reduce abdominal pain, bloating, and to improve the stool pattern. The evidence for fiber is limited and only isphagula may be somewhat beneficial. The efficacy of probiotics is difficult to interpret since several strains in different quantities have been used across studies. Antispasmodics, including peppermint oil, are still considered the first-line treatment for abdominal pain in IBS. Second-line therapies for diarrhea-predominant IBS include the non-absorbable antibiotic rifaximin and the 5HT3 antagonists alosetron and ramosetron, although the use of the former is restricted because of the rare risk of ischemic colitis. In laxative-resistant, constipation-predominant IBS, the chloride-secretion stimulating drugs lubiprostone and linaclotide, a guanylate cyclase C agonist that also has direct analgesic effects, reduce abdominal pain and improve the stool pattern.",
+  "sanitized_text": "Treatment of abdominal pain in irritable bowel syndrome.\nFunctional abdominal pain in the context of irritable bowel syndrome (IBS) is a challenging problem for primary care physicians, gastroenterologists and pain specialists. We review the evidence for the current and future non-pharmacological and pharmacological treatment options targeting the central nervous system and the gastrointestinal tract. Cognitive interventions such as cognitive behavioral therapy and hypnotherapy have demonstrated excellent results in IBS patients, but the limited availability and labor-intensive nature limit their routine use in daily practice. In patients who are refractory to first-line therapy, tricyclic antidepressants (TCA) and selective serotonin reuptake inhibitors are both effective to obtain symptomatic relief, but only TCAs have been shown to improve abdominal pain in meta-analyses. A diet low in fermentable carbohydrates and polyols (FODMAP) seems effective in subgroups of patients to reduce abdominal pain, bloating, and to improve the stool pattern. The evidence for fiber is limited and only isphagula may be somewhat beneficial. The efficacy of probiotics is difficult to interpret since several strains in different quantities have been used across studies. Antispasmodics, including peppermint oil, are still considered the first-line treatment for abdominal pain in IBS. Second-line therapies for diarrhea-predominant IBS include the non-absorbable antibiotic rifaximin and the 5HT3 antagonists alosetron and ramosetron, although the use of the former is restricted because of the rare risk of ischemic colitis. In laxative-resistant, constipation-predominant IBS, the chloride-secretion stimulating drugs lubiprostone and linaclotide, a guanylate cyclase C agonist that also has direct analgesic effects, reduce abdominal pain and improve the stool pattern.",
+  "modified": false,
+  "original_char_count": 1873,
+  "sanitized_char_count": 1873,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1627,
+      "boundary_end": 1873,
+      "context": "such as cognitive behavioral therapy and hypnotherapy have demonstrated excellent results in IBS patients, but the limited availability and labor-intensive nature limit their routine use in daily practice. In patients who are refractory to first-line therapy, tricyclic antidepressants (TCA) and selective serotonin reuptake inhibitors are both effective to obtain symptomatic relief, but only TCAs have been shown to improve abdominal pain in meta-analyses. A diet low in fermentable carbohydrates and polyols (FODMAP) seems effective in subgroups of patients to reduce abdominal pain, bloating, and to improve the stool pattern. The evidence for fiber is limited and only isphagula may be somewhat beneficial. The efficacy of probiotics is difficult to interpret since several strains in different quantities have been used across studies. Antispasmodics, including peppermint oil, are still considered the first-line treatment for abdominal pain in IBS. Second-line therapies for diarrhea-predominant IBS include the non-absorbable antibiotic rifaximin and the 5HT3 antagonists alosetron and ramosetron, although the use of the former is restricted because of the rare risk of ischemic colitis.",
+      "target": "In laxative-resistant, constipation-predominant IBS, the chloride-secretion stimulating drugs lubiprostone and linaclotide, a guanylate cyclase C agonist that also has direct analgesic effects, reduce abdominal pain and improve the stool pattern.",
+      "loss_target": 2.363368034362793,
+      "loss_target_given_context": 1.5786941051483154,
+      "delta_loss": 0.7846739292144775,
+      "gain_ratio": 0.3320151232501712,
+      "score": -0.3320151232501712,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

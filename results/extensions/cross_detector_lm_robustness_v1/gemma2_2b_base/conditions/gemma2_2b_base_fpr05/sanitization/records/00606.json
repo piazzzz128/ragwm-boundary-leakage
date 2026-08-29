@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1726",
+  "source_doc_id": "MED-1726",
+  "title": "Major Pesticides Are More Toxic to Human Cells Than Their Declared Active Principles",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Major Pesticides Are More Toxic to Human Cells Than Their Declared Active Principles\nPesticides are used throughout the world as mixtures called formulations. They contain adjuvants, which are often kept confidential and are called inerts by the manufacturing companies, plus a declared active principle, which is usually tested alone. We tested the toxicity of 9 pesticides, comparing active principles and their formulations, on three human cell lines (HepG2, HEK293, and JEG3). Glyphosate, isoproturon, fluroxypyr, pirimicarb, imidacloprid, acetamiprid, tebuconazole, epoxiconazole, and prochloraz constitute, respectively, the active principles of 3 major herbicides, 3 insecticides, and 3 fungicides. We measured mitochondrial activities, membrane degradations, and caspases 3/7 activities. Fungicides were the most toxic from concentrations 300–600 times lower than agricultural dilutions, followed by herbicides and then insecticides, with very similar profiles in all cell types. Despite its relatively benign reputation, Roundup was among the most toxic herbicides and insecticides tested. Most importantly, 8 formulations out of 9 were up to one thousand times more toxic than their active principles. Our results challenge the relevance of the acceptable daily intake for pesticides because this norm is calculated from the toxicity of the active principle alone. Chronic tests on pesticides may not reflect relevant environmental exposures if only one ingredient of these mixtures is tested alone.",
+  "sanitized_text": "Major Pesticides Are More Toxic to Human Cells Than Their Declared Active Principles\nPesticides are used throughout the world as mixtures called formulations. They contain adjuvants, which are often kept confidential and are called inerts by the manufacturing companies, plus a declared active principle, which is usually tested alone. We tested the toxicity of 9 pesticides, comparing active principles and their formulations, on three human cell lines (HepG2, HEK293, and JEG3). Glyphosate, isoproturon, fluroxypyr, pirimicarb, imidacloprid, acetamiprid, tebuconazole, epoxiconazole, and prochloraz constitute, respectively, the active principles of 3 major herbicides, 3 insecticides, and 3 fungicides. We measured mitochondrial activities, membrane degradations, and caspases 3/7 activities. Fungicides were the most toxic from concentrations 300–600 times lower than agricultural dilutions, followed by herbicides and then insecticides, with very similar profiles in all cell types. Despite its relatively benign reputation, Roundup was among the most toxic herbicides and insecticides tested. Most importantly, 8 formulations out of 9 were up to one thousand times more toxic than their active principles. Our results challenge the relevance of the acceptable daily intake for pesticides because this norm is calculated from the toxicity of the active principle alone. Chronic tests on pesticides may not reflect relevant environmental exposures if only one ingredient of these mixtures is tested alone.",
+  "modified": false,
+  "original_char_count": 1509,
+  "sanitized_char_count": 1509,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1375,
+      "boundary_end": 1509,
+      "context": "which are often kept confidential and are called inerts by the manufacturing companies, plus a declared active principle, which is usually tested alone. We tested the toxicity of 9 pesticides, comparing active principles and their formulations, on three human cell lines (HepG2, HEK293, and JEG3). Glyphosate, isoproturon, fluroxypyr, pirimicarb, imidacloprid, acetamiprid, tebuconazole, epoxiconazole, and prochloraz constitute, respectively, the active principles of 3 major herbicides, 3 insecticides, and 3 fungicides. We measured mitochondrial activities, membrane degradations, and caspases 3/7 activities. Fungicides were the most toxic from concentrations 300–600 times lower than agricultural dilutions, followed by herbicides and then insecticides, with very similar profiles in all cell types. Despite its relatively benign reputation, Roundup was among the most toxic herbicides and insecticides tested. Most importantly, 8 formulations out of 9 were up to one thousand times more toxic than their active principles. Our results challenge the relevance of the acceptable daily intake for pesticides because this norm is calculated from the toxicity of the active principle alone.",
+      "target": "Chronic tests on pesticides may not reflect relevant environmental exposures if only one ingredient of these mixtures is tested alone.",
+      "loss_target": 10.580811500549316,
+      "loss_target_given_context": 4.937983989715576,
+      "delta_loss": 5.64282751083374,
+      "gain_ratio": 0.5333076305669736,
+      "score": -0.5333076305669736,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

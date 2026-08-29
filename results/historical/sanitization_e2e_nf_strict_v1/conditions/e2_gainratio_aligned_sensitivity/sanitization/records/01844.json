@@ -1,0 +1,111 @@
+{
+  "internal_id": "MED-3507",
+  "source_doc_id": "MED-3507",
+  "title": "Postinfectious functional gastrointestinal disorders.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Postinfectious functional gastrointestinal disorders.\nFunctional gastrointestinal disorders are associated with low health-related quality of life and high resource utilization. Postinfectious irritable bowel syndrome (PI-IBS) is a functional gastrointestinal disorder defined as the acute onset of new IBS symptoms in an individual who has not previously met the Rome criteria for IBS, immediately after an acute illness characterized by 2 or more of the following: fever, vomiting, diarrhea, or a positive bacterial stool culture. Although the pathophysiological mechanisms involved in PI-IBS are currently unknown, it is believed that a transitory inflammation leads to subtle but permanent changes in the structure and function of the digestive system that induce symptoms. This review considers recent evidence surrounding the role of inflammatory mediators in the development of hypersensitivity, along with the mediators and mechanisms of abdominal pain and discomfort once the acute inflammation has cleared. Recent data suggest that anatomic changes to mast cells-nerve fibers are necessary, but not sufficient to induce symptoms. It is now possible to estimate the risk of developing PI-FGID based on the presence and relative severity of different risk factors, including prolonged duration of initial illness, toxicity of infecting bacterial strain, smoking, mucosal markers of inflammation, female sex, depression, hypochondriasis, and adverse life events in the preceding 3 months.",
+  "sanitized_text": "Postinfectious functional gastrointestinal disorders.\nFunctional gastrointestinal disorders are associated with low health-related quality of life and high resource utilization. Postinfectious irritable bowel syndrome (PI-IBS) is a functional gastrointestinal disorder defined as the acute onset of new IBS symptoms in an individual who has not previously met the Rome criteria for IBS, immediately after an acute illness characterized by 2 or more of the following: fever, vomiting, diarrhea, or a positive bacterial stool culture. Although the pathophysiological mechanisms involved in PI-IBS are currently unknown, it is believed that a transitory inflammation leads to subtle but permanent changes in the structure and function of the digestive system that induce symptoms.",
+  "modified": true,
+  "original_char_count": 1495,
+  "sanitized_char_count": 777,
+  "deleted_char_count": 718,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1140,
+      "boundary_end": 1495,
+      "context": "Postinfectious functional gastrointestinal disorders. Functional gastrointestinal disorders are associated with low health-related quality of life and high resource utilization. Postinfectious irritable bowel syndrome (PI-IBS) is a functional gastrointestinal disorder defined as the acute onset of new IBS symptoms in an individual who has not previously met the Rome criteria for IBS, immediately after an acute illness characterized by 2 or more of the following: fever, vomiting, diarrhea, or a positive bacterial stool culture. Although the pathophysiological mechanisms involved in PI-IBS are currently unknown, it is believed that a transitory inflammation leads to subtle but permanent changes in the structure and function of the digestive system that induce symptoms. This review considers recent evidence surrounding the role of inflammatory mediators in the development of hypersensitivity, along with the mediators and mechanisms of abdominal pain and discomfort once the acute inflammation has cleared. Recent data suggest that anatomic changes to mast cells-nerve fibers are necessary, but not sufficient to induce symptoms.",
+      "target": "It is now possible to estimate the risk of developing PI-FGID based on the presence and relative severity of different risk factors, including prolonged duration of initial illness, toxicity of infecting bacterial strain, smoking, mucosal markers of inflammation, female sex, depression, hypochondriasis, and adverse life events in the preceding 3 months.",
+      "loss_target": 2.899941921234131,
+      "loss_target_given_context": 2.388101816177368,
+      "delta_loss": 0.5118401050567627,
+      "gain_ratio": 0.17650012274691987,
+      "score": -0.17650012274691987,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1017,
+      "boundary_end": 1139,
+      "context": "Postinfectious functional gastrointestinal disorders. Functional gastrointestinal disorders are associated with low health-related quality of life and high resource utilization. Postinfectious irritable bowel syndrome (PI-IBS) is a functional gastrointestinal disorder defined as the acute onset of new IBS symptoms in an individual who has not previously met the Rome criteria for IBS, immediately after an acute illness characterized by 2 or more of the following: fever, vomiting, diarrhea, or a positive bacterial stool culture. Although the pathophysiological mechanisms involved in PI-IBS are currently unknown, it is believed that a transitory inflammation leads to subtle but permanent changes in the structure and function of the digestive system that induce symptoms. This review considers recent evidence surrounding the role of inflammatory mediators in the development of hypersensitivity, along with the mediators and mechanisms of abdominal pain and discomfort once the acute inflammation has cleared.",
+      "target": "Recent data suggest that anatomic changes to mast cells-nerve fibers are necessary, but not sufficient to induce symptoms.",
+      "loss_target": 3.563800096511841,
+      "loss_target_given_context": 3.07047438621521,
+      "delta_loss": 0.49332571029663086,
+      "gain_ratio": 0.13842687494719075,
+      "score": -0.13842687494719075,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 778,
+      "boundary_end": 1016,
+      "context": "Postinfectious functional gastrointestinal disorders. Functional gastrointestinal disorders are associated with low health-related quality of life and high resource utilization. Postinfectious irritable bowel syndrome (PI-IBS) is a functional gastrointestinal disorder defined as the acute onset of new IBS symptoms in an individual who has not previously met the Rome criteria for IBS, immediately after an acute illness characterized by 2 or more of the following: fever, vomiting, diarrhea, or a positive bacterial stool culture. Although the pathophysiological mechanisms involved in PI-IBS are currently unknown, it is believed that a transitory inflammation leads to subtle but permanent changes in the structure and function of the digestive system that induce symptoms.",
+      "target": "This review considers recent evidence surrounding the role of inflammatory mediators in the development of hypersensitivity, along with the mediators and mechanisms of abdominal pain and discomfort once the acute inflammation has cleared.",
+      "loss_target": 3.2022366523742676,
+      "loss_target_given_context": 2.7176787853240967,
+      "delta_loss": 0.4845578670501709,
+      "gain_ratio": 0.15131856875440486,
+      "score": -0.15131856875440486,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 4,
+      "boundary_start": 533,
+      "boundary_end": 777,
+      "context": "Postinfectious functional gastrointestinal disorders. Functional gastrointestinal disorders are associated with low health-related quality of life and high resource utilization. Postinfectious irritable bowel syndrome (PI-IBS) is a functional gastrointestinal disorder defined as the acute onset of new IBS symptoms in an individual who has not previously met the Rome criteria for IBS, immediately after an acute illness characterized by 2 or more of the following: fever, vomiting, diarrhea, or a positive bacterial stool culture.",
+      "target": "Although the pathophysiological mechanisms involved in PI-IBS are currently unknown, it is believed that a transitory inflammation leads to subtle but permanent changes in the structure and function of the digestive system that induce symptoms.",
+      "loss_target": 2.6549394130706787,
+      "loss_target_given_context": 1.872649073600769,
+      "delta_loss": 0.7822903394699097,
+      "gain_ratio": 0.2946546861365547,
+      "score": -0.2946546861365547,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1140,
+      "target": "It is now possible to estimate the risk of developing PI-FGID based on the presence and relative severity of different risk factors, including prolonged duration of initial illness, toxicity of infecting bacterial strain, smoking, mucosal markers of inflammation, female sex, depression, hypochondriasis, and adverse life events in the preceding 3 months.",
+      "score": -0.17650012274691987,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "It is now possible to estimate the risk of developing PI-FGID based on the presence and relative severity of different risk factors, including prolonged duration of initial illness, toxicity of infecting bacterial strain, smoking, mucosal markers of inflammation, female sex, depression, hypochondriasis, and adverse life events in the preceding 3 months.",
+      "deleted_char_count": 355
+    },
+    {
+      "step": 2,
+      "boundary_start": 1017,
+      "target": "Recent data suggest that anatomic changes to mast cells-nerve fibers are necessary, but not sufficient to induce symptoms.",
+      "score": -0.13842687494719075,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Recent data suggest that anatomic changes to mast cells-nerve fibers are necessary, but not sufficient to induce symptoms.",
+      "deleted_char_count": 122
+    },
+    {
+      "step": 3,
+      "boundary_start": 778,
+      "target": "This review considers recent evidence surrounding the role of inflammatory mediators in the development of hypersensitivity, along with the mediators and mechanisms of abdominal pain and discomfort once the acute inflammation has cleared.",
+      "score": -0.15131856875440486,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "This review considers recent evidence surrounding the role of inflammatory mediators in the development of hypersensitivity, along with the mediators and mechanisms of abdominal pain and discomfort once the acute inflammation has cleared.",
+      "deleted_char_count": 238
+    }
+  ],
+  "deletion_step_count": 3,
+  "stop_reason": "score_below_threshold"
+}

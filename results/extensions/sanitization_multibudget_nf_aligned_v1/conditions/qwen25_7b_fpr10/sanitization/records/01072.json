@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2297",
+  "source_doc_id": "MED-2297",
+  "title": "Prescribing exercise as preventive therapy",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Prescribing exercise as preventive therapy\nEnergy expenditure of about 1000 kcal (4200 kJ) per week (equivalent to walking 1 hour 5 days a week) is associated with significant health benefits. Health benefits can be achieved through structured or nonstructured physical activity, accumulated throughout the day (even through short 10-minute bouts) on most days of the week. In this article we outline the means of evaluating cardiovascular and musculoskeletal fitness, the methods of evaluating physical activity levels, the current recommendations for exercise (including intensity, type, time and frequency) and the resources available for patients and physicians interested in learning more about the evaluation of physical activity and fitness levels and the prescription of exercise.",
+  "sanitized_text": "Prescribing exercise as preventive therapy\nEnergy expenditure of about 1000 kcal (4200 kJ) per week (equivalent to walking 1 hour 5 days a week) is associated with significant health benefits. Health benefits can be achieved through structured or nonstructured physical activity, accumulated throughout the day (even through short 10-minute bouts) on most days of the week.",
+  "modified": true,
+  "original_char_count": 788,
+  "sanitized_char_count": 373,
+  "deleted_char_count": 415,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 374,
+      "boundary_end": 788,
+      "context": "Prescribing exercise as preventive therapy Energy expenditure of about 1000 kcal (4200 kJ) per week (equivalent to walking 1 hour 5 days a week) is associated with significant health benefits. Health benefits can be achieved through structured or nonstructured physical activity, accumulated throughout the day (even through short 10-minute bouts) on most days of the week.",
+      "target": "In this article we outline the means of evaluating cardiovascular and musculoskeletal fitness, the methods of evaluating physical activity levels, the current recommendations for exercise (including intensity, type, time and frequency) and the resources available for patients and physicians interested in learning more about the evaluation of physical activity and fitness levels and the prescription of exercise.",
+      "loss_target": 2.4891116619110107,
+      "loss_target_given_context": 2.158315896987915,
+      "delta_loss": 0.3307957649230957,
+      "gain_ratio": 0.13289711746765426,
+      "score": -0.13289711746765426,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 193,
+      "boundary_end": 373,
+      "context": "Prescribing exercise as preventive therapy Energy expenditure of about 1000 kcal (4200 kJ) per week (equivalent to walking 1 hour 5 days a week) is associated with significant health benefits.",
+      "target": "Health benefits can be achieved through structured or nonstructured physical activity, accumulated throughout the day (even through short 10-minute bouts) on most days of the week.",
+      "loss_target": 2.9348607063293457,
+      "loss_target_given_context": 2.2990074157714844,
+      "delta_loss": 0.6358532905578613,
+      "gain_ratio": 0.21665535580158019,
+      "score": -0.21665535580158019,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 374,
+      "target": "In this article we outline the means of evaluating cardiovascular and musculoskeletal fitness, the methods of evaluating physical activity levels, the current recommendations for exercise (including intensity, type, time and frequency) and the resources available for patients and physicians interested in learning more about the evaluation of physical activity and fitness levels and the prescription of exercise.",
+      "score": -0.13289711746765426,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "In this article we outline the means of evaluating cardiovascular and musculoskeletal fitness, the methods of evaluating physical activity levels, the current recommendations for exercise (including intensity, type, time and frequency) and the resources available for patients and physicians interested in learning more about the evaluation of physical activity and fitness levels and the prescription of exercise.",
+      "deleted_char_count": 414
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

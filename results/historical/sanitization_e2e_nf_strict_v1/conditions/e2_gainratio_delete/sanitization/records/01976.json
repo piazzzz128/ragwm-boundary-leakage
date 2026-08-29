@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3662",
+  "source_doc_id": "MED-3662",
+  "title": "Biological activities of lavender essential oil.",
+  "original_text": "Biological activities of lavender essential oil.\nEssential oils distilled from members of the genus Lavandula have been used both cosmetically and therapeutically for centuries with the most commonly used species being L. angustifolia, L. latifolia, L. stoechas and L. x intermedia. Although there is considerable anecdotal information about the biological activity of these oils much of this has not been substantiated by scientific or clinical evidence. Among the claims made for lavender oil are that is it antibacterial, antifungal, carminative (smooth muscle relaxing), sedative, antidepressive and effective for burns and insect bites. In this review we detail the current state of knowledge about the effect of lavender oils on psychological and physiological parameters and its use as an antimicrobial agent. Although the data are still inconclusive and often controversial, there does seem to be both scientific and clinical data that support the traditional uses of lavender. However, methodological and oil identification problems have severely hampered the evaluation of the therapeutic significance of much of the research on Lavandula spp. These issues need to be resolved before we have a true picture of the biological activities of lavender essential oil. Copyright 2002 John Wiley & Sons, Ltd.",
+  "sanitized_text": "Biological activities of lavender essential oil.\nEssential oils distilled from members of the genus Lavandula have been used both cosmetically and therapeutically for centuries with the most commonly used species being L. angustifolia, L. latifolia, L. stoechas and L. x intermedia. Although there is considerable anecdotal information about the biological activity of these oils much of this has not been substantiated by scientific or clinical evidence. Among the claims made for lavender oil are that is it antibacterial, antifungal, carminative (smooth muscle relaxing), sedative, antidepressive and effective for burns and insect bites. In this review we detail the current state of knowledge about the effect of lavender oils on psychological and physiological parameters and its use as an antimicrobial agent. Although the data are still inconclusive and often controversial, there does seem to be both scientific and clinical data that support the traditional uses of lavender. However, methodological and oil identification problems have severely hampered the evaluation of the therapeutic significance of much of the research on Lavandula spp. These issues need to be resolved before we have a true picture of the biological activities of lavender essential oil.",
+  "modified": true,
+  "original_char_count": 1311,
+  "sanitized_char_count": 1272,
+  "deleted_char_count": 39,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1273,
+      "boundary_end": 1311,
+      "context": "from members of the genus Lavandula have been used both cosmetically and therapeutically for centuries with the most commonly used species being L. angustifolia, L. latifolia, L. stoechas and L. x intermedia. Although there is considerable anecdotal information about the biological activity of these oils much of this has not been substantiated by scientific or clinical evidence. Among the claims made for lavender oil are that is it antibacterial, antifungal, carminative (smooth muscle relaxing), sedative, antidepressive and effective for burns and insect bites. In this review we detail the current state of knowledge about the effect of lavender oils on psychological and physiological parameters and its use as an antimicrobial agent. Although the data are still inconclusive and often controversial, there does seem to be both scientific and clinical data that support the traditional uses of lavender. However, methodological and oil identification problems have severely hampered the evaluation of the therapeutic significance of much of the research on Lavandula spp. These issues need to be resolved before we have a true picture of the biological activities of lavender essential oil.",
+      "target": "Copyright 2002 John Wiley & Sons, Ltd.",
+      "loss_target": 1.192203164100647,
+      "loss_target_given_context": 1.3096873760223389,
+      "delta_loss": -0.1174842119216919,
+      "gain_ratio": -0.09854378469991526,
+      "score": 0.09854378469991526,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1154,
+      "boundary_end": 1272,
+      "context": "Biological activities of lavender essential oil. Essential oils distilled from members of the genus Lavandula have been used both cosmetically and therapeutically for centuries with the most commonly used species being L. angustifolia, L. latifolia, L. stoechas and L. x intermedia. Although there is considerable anecdotal information about the biological activity of these oils much of this has not been substantiated by scientific or clinical evidence. Among the claims made for lavender oil are that is it antibacterial, antifungal, carminative (smooth muscle relaxing), sedative, antidepressive and effective for burns and insect bites. In this review we detail the current state of knowledge about the effect of lavender oils on psychological and physiological parameters and its use as an antimicrobial agent. Although the data are still inconclusive and often controversial, there does seem to be both scientific and clinical data that support the traditional uses of lavender. However, methodological and oil identification problems have severely hampered the evaluation of the therapeutic significance of much of the research on Lavandula spp.",
+      "target": "These issues need to be resolved before we have a true picture of the biological activities of lavender essential oil.",
+      "loss_target": 3.1744866371154785,
+      "loss_target_given_context": 1.9826445579528809,
+      "delta_loss": 1.1918420791625977,
+      "gain_ratio": 0.375444037227252,
+      "score": -0.375444037227252,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1273,
+      "target": "Copyright 2002 John Wiley & Sons, Ltd.",
+      "score": 0.09854378469991526,
+      "deleted_suffix": "Copyright 2002 John Wiley & Sons, Ltd.",
+      "deleted_char_count": 38
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

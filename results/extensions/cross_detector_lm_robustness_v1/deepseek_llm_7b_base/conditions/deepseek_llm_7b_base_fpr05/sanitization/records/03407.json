@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5357",
+  "source_doc_id": "MED-5357",
+  "title": "Can rye intake decrease risk of human breast cancer?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Can rye intake decrease risk of human breast cancer?\nBackground Rye contains more fibre and bioactive compounds than other cereals used for bread production. The fibre and compounds of the fibre complex could provide protection against breast cancer (BC). Objective To review the evidence and theoretical background for a role of rye and some of its components in the prevention of BC. Design A short review based to a great extent on the work by scientists in the Nordic countries. Results Some of the possible mechanisms by which the fibre complex could reduce BC risk are presented. The fibre through its effect on fermentation increases esterification of bile acids reducing toxicity of the free bile acids and is involved in the production of butyrate with potential anticancer effects including BC. The fibre reduces the enterohepatic circulation of the oestrogens leading to lower plasma oestrogen concentrations. The fibre complex contains bioactive compounds such as lignans and alkylresorcinols that are antioxidative and potentially anticarcinogenic. In addition, vitamins, minerals, and phytic acid in rye may provide protection against BC. Conclusion Rye products made from wholegrain rye flour are likely to contribute to reduced BC risk.",
+  "sanitized_text": "Can rye intake decrease risk of human breast cancer?\nBackground Rye contains more fibre and bioactive compounds than other cereals used for bread production. The fibre and compounds of the fibre complex could provide protection against breast cancer (BC). Objective To review the evidence and theoretical background for a role of rye and some of its components in the prevention of BC. Design A short review based to a great extent on the work by scientists in the Nordic countries. Results Some of the possible mechanisms by which the fibre complex could reduce BC risk are presented. The fibre through its effect on fermentation increases esterification of bile acids reducing toxicity of the free bile acids and is involved in the production of butyrate with potential anticancer effects including BC. The fibre reduces the enterohepatic circulation of the oestrogens leading to lower plasma oestrogen concentrations. The fibre complex contains bioactive compounds such as lignans and alkylresorcinols that are antioxidative and potentially anticarcinogenic. In addition, vitamins, minerals, and phytic acid in rye may provide protection against BC. Conclusion Rye products made from wholegrain rye flour are likely to contribute to reduced BC risk.",
+  "modified": false,
+  "original_char_count": 1252,
+  "sanitized_char_count": 1252,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1153,
+      "boundary_end": 1252,
+      "context": "Can rye intake decrease risk of human breast cancer? Background Rye contains more fibre and bioactive compounds than other cereals used for bread production. The fibre and compounds of the fibre complex could provide protection against breast cancer (BC). Objective To review the evidence and theoretical background for a role of rye and some of its components in the prevention of BC. Design A short review based to a great extent on the work by scientists in the Nordic countries. Results Some of the possible mechanisms by which the fibre complex could reduce BC risk are presented. The fibre through its effect on fermentation increases esterification of bile acids reducing toxicity of the free bile acids and is involved in the production of butyrate with potential anticancer effects including BC. The fibre reduces the enterohepatic circulation of the oestrogens leading to lower plasma oestrogen concentrations. The fibre complex contains bioactive compounds such as lignans and alkylresorcinols that are antioxidative and potentially anticarcinogenic. In addition, vitamins, minerals, and phytic acid in rye may provide protection against BC.",
+      "target": "Conclusion Rye products made from wholegrain rye flour are likely to contribute to reduced BC risk.",
+      "loss_target": 3.663940906524658,
+      "loss_target_given_context": 1.8102298974990845,
+      "delta_loss": 1.8537110090255737,
+      "gain_ratio": 0.5059336534943917,
+      "score": -0.5059336534943917,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5015",
+  "source_doc_id": "MED-5015",
+  "title": "The intravenous use of coconut water.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The intravenous use of coconut water.\nMedical resources routinely used for intravenous hydration and resuscitation of critically ill patients may be limited in remote regions of the world. When faced with these shortages, physicians have had to improvise with the available resources, or simply do without. We report the successful use of coconut water as a short-term intravenous hydration fluid for a Solomon Island patient, a laboratory analysis of the local coconuts, and a review of previously documented intravenous coconut use.",
+  "sanitized_text": "The intravenous use of coconut water.\nMedical resources routinely used for intravenous hydration and resuscitation of critically ill patients may be limited in remote regions of the world. When faced with these shortages, physicians have had to improvise with the available resources, or simply do without. We report the successful use of coconut water as a short-term intravenous hydration fluid for a Solomon Island patient, a laboratory analysis of the local coconuts, and a review of previously documented intravenous coconut use.",
+  "modified": false,
+  "original_char_count": 534,
+  "sanitized_char_count": 534,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 307,
+      "boundary_end": 534,
+      "context": "The intravenous use of coconut water. Medical resources routinely used for intravenous hydration and resuscitation of critically ill patients may be limited in remote regions of the world. When faced with these shortages, physicians have had to improvise with the available resources, or simply do without.",
+      "target": "We report the successful use of coconut water as a short-term intravenous hydration fluid for a Solomon Island patient, a laboratory analysis of the local coconuts, and a review of previously documented intravenous coconut use.",
+      "loss_target": 3.066535472869873,
+      "loss_target_given_context": 2.167727470397949,
+      "delta_loss": 0.8988080024719238,
+      "gain_ratio": 0.2931021051032415,
+      "score": -0.2931021051032415,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

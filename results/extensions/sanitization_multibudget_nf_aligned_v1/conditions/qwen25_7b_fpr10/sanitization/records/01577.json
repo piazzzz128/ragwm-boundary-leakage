@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3099",
+  "source_doc_id": "MED-3099",
+  "title": "The aryl hydrocarbon receptor and its xenobiotic ligands: a fundamental trigger for cardiovascular diseases.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The aryl hydrocarbon receptor and its xenobiotic ligands: a fundamental trigger for cardiovascular diseases.\nThis review reconsiders a major cause of cardiovascular diseases, tobacco smoking, as the activation of the Aryl hydrocarbon Receptor (AhR), also known as the dioxin receptor, by aryl hydrocarbons from the tar fraction of tobacco in various organs of the cardiovascular domain. This concept sheds new light on well-known albeit controversial epidemiological concepts such as the Mediterranean diet and the French paradox. We also review the discovery that resveratrol, a natural AhR antagonist, may be of interest in the prevention and treatment of cardiovascular diseases.",
+  "sanitized_text": "The aryl hydrocarbon receptor and its xenobiotic ligands: a fundamental trigger for cardiovascular diseases.\nThis review reconsiders a major cause of cardiovascular diseases, tobacco smoking, as the activation of the Aryl hydrocarbon Receptor (AhR), also known as the dioxin receptor, by aryl hydrocarbons from the tar fraction of tobacco in various organs of the cardiovascular domain. This concept sheds new light on well-known albeit controversial epidemiological concepts such as the Mediterranean diet and the French paradox. We also review the discovery that resveratrol, a natural AhR antagonist, may be of interest in the prevention and treatment of cardiovascular diseases.",
+  "modified": false,
+  "original_char_count": 682,
+  "sanitized_char_count": 682,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 531,
+      "boundary_end": 682,
+      "context": "The aryl hydrocarbon receptor and its xenobiotic ligands: a fundamental trigger for cardiovascular diseases. This review reconsiders a major cause of cardiovascular diseases, tobacco smoking, as the activation of the Aryl hydrocarbon Receptor (AhR), also known as the dioxin receptor, by aryl hydrocarbons from the tar fraction of tobacco in various organs of the cardiovascular domain. This concept sheds new light on well-known albeit controversial epidemiological concepts such as the Mediterranean diet and the French paradox.",
+      "target": "We also review the discovery that resveratrol, a natural AhR antagonist, may be of interest in the prevention and treatment of cardiovascular diseases.",
+      "loss_target": 3.069507360458374,
+      "loss_target_given_context": 1.7741377353668213,
+      "delta_loss": 1.2953696250915527,
+      "gain_ratio": 0.42201222312694286,
+      "score": -0.42201222312694286,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5196",
+  "source_doc_id": "MED-5196",
+  "title": "Dairy products and risk of Parkinson’s disease",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dairy products and risk of Parkinson’s disease\nThe authors prospectively investigated the association between dairy intake and risk of Parkinson’s disease among 57,689 men and 73,175 women from the Cancer Prevention Study II Nutrition Cohort from the American Cancer Society. A total of 250 men and 138 women with Parkinson’s disease were identified during the follow-up (1992–2001). Dairy consumption was positively associated with the risk of Parkinson’s disease: compared with the lowest intake quintile, the corresponding relative risks (RRs) for quintiles 2–5 were 1.4, 1.4, 1.4, and 1.6 (95 percent confidence interval (CI): 1.1–2.2; p for trend=0.05). A higher risk among dairy consumers was found in both men and women, although the association in women appeared non-linear. The meta-analysis of all prospective studies confirmed a moderately elevated risk of Parkinson’s disease among individuals with high dairy consumption: the RRs between extreme intake categories were 1.6 (95 percent CI: 1.3–2.0) for men and women combined, 1.8 for men (95 percent CI: 1.4–2.4), and 1.3 for women (95 percent CI: 0.8–2.1). These data suggest that dairy consumption may increase the risk of Parkinson’s disease, particularly in men. More studies are needed to further examine these findings and to explore the underlying mechanisms.",
+  "sanitized_text": "Dairy products and risk of Parkinson’s disease\nThe authors prospectively investigated the association between dairy intake and risk of Parkinson’s disease among 57,689 men and 73,175 women from the Cancer Prevention Study II Nutrition Cohort from the American Cancer Society. A total of 250 men and 138 women with Parkinson’s disease were identified during the follow-up (1992–2001). Dairy consumption was positively associated with the risk of Parkinson’s disease: compared with the lowest intake quintile, the corresponding relative risks (RRs) for quintiles 2–5 were 1.4, 1.4, 1.4, and 1.6 (95 percent confidence interval (CI): 1.1–2.2; p for trend=0.05). A higher risk among dairy consumers was found in both men and women, although the association in women appeared non-linear. The meta-analysis of all prospective studies confirmed a moderately elevated risk of Parkinson’s disease among individuals with high dairy consumption: the RRs between extreme intake categories were 1.6 (95 percent CI: 1.3–2.0) for men and women combined, 1.8 for men (95 percent CI: 1.4–2.4), and 1.3 for women (95 percent CI: 0.8–2.1). These data suggest that dairy consumption may increase the risk of Parkinson’s disease, particularly in men. More studies are needed to further examine these findings and to explore the underlying mechanisms.",
+  "modified": false,
+  "original_char_count": 1329,
+  "sanitized_char_count": 1329,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1230,
+      "boundary_end": 1329,
+      "context": "disease The authors prospectively investigated the association between dairy intake and risk of Parkinson’s disease among 57,689 men and 73,175 women from the Cancer Prevention Study II Nutrition Cohort from the American Cancer Society. A total of 250 men and 138 women with Parkinson’s disease were identified during the follow-up (1992–2001). Dairy consumption was positively associated with the risk of Parkinson’s disease: compared with the lowest intake quintile, the corresponding relative risks (RRs) for quintiles 2–5 were 1.4, 1.4, 1.4, and 1.6 (95 percent confidence interval (CI): 1.1–2.2; p for trend=0.05). A higher risk among dairy consumers was found in both men and women, although the association in women appeared non-linear. The meta-analysis of all prospective studies confirmed a moderately elevated risk of Parkinson’s disease among individuals with high dairy consumption: the RRs between extreme intake categories were 1.6 (95 percent CI: 1.3–2.0) for men and women combined, 1.8 for men (95 percent CI: 1.4–2.4), and 1.3 for women (95 percent CI: 0.8–2.1). These data suggest that dairy consumption may increase the risk of Parkinson’s disease, particularly in men.",
+      "target": "More studies are needed to further examine these findings and to explore the underlying mechanisms.",
+      "loss_target": 2.5008485317230225,
+      "loss_target_given_context": 1.6234192848205566,
+      "delta_loss": 0.8774292469024658,
+      "gain_ratio": 0.35085261493143644,
+      "score": -0.35085261493143644,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

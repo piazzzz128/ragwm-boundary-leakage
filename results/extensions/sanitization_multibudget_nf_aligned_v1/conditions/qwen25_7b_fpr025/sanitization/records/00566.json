@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1681",
+  "source_doc_id": "MED-1681",
+  "title": "Diet, lifestyle, and the risk of type 2 diabetes mellitus in women.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet, lifestyle, and the risk of type 2 diabetes mellitus in women.\nBACKGROUND: Previous studies have examined individual dietary and lifestyle factors in relation to type 2 diabetes, but the combined effects of these factors are largely unknown. METHODS: We followed 84,941 female nurses from 1980 to 1996; these women were free of diagnosed cardiovascular disease, diabetes, and cancer at base line. Information about their diet and lifestyle was updated periodically. A low-risk group was defined according to a combination of five variables: a bodymass index (the weight in kilograms divided by the square of the height in meters) of less than 25; a diet high in cereal fiber and polyunsaturated fat and low in trans fat and glycemic load (which reflects the effect of diet on the blood glucose level); engagement in moderate-to-vigorous physical activity for at least half an hour per day; no current smoking; and the consumption of an average of at least half a drink of an alcoholic beverage per day. RESULTS: During 16 years of follow-up, we documented 3300 new cases of type 2 diabetes. Overweight or obesity was the single most important predictor of diabetes. Lack of exercise, a poor diet, current smoking, and abstinence from alcohol use were all associated with a significantly increased risk of diabetes, even after adjustment for the body-mass index. As compared with the rest of the cohort, women in the low-risk group (3.4 percent of the women) had a relative risk of diabetes of 0.09 (95 percent confidence interval, 0.05 to 0.17). A total of 91 percent of the cases of diabetes in this cohort (95 percent confidence interval, 83 to 95) could be attributed to habits and forms of behavior that did not conform to the low-risk pattern. CONCLUSIONS: Our findings support the hypothesis that the vast majority of cases of type 2 diabetes could be prevented by the adoption of a healthier lifestyle.",
+  "sanitized_text": "Diet, lifestyle, and the risk of type 2 diabetes mellitus in women.\nBACKGROUND: Previous studies have examined individual dietary and lifestyle factors in relation to type 2 diabetes, but the combined effects of these factors are largely unknown. METHODS: We followed 84,941 female nurses from 1980 to 1996; these women were free of diagnosed cardiovascular disease, diabetes, and cancer at base line. Information about their diet and lifestyle was updated periodically. A low-risk group was defined according to a combination of five variables: a bodymass index (the weight in kilograms divided by the square of the height in meters) of less than 25; a diet high in cereal fiber and polyunsaturated fat and low in trans fat and glycemic load (which reflects the effect of diet on the blood glucose level); engagement in moderate-to-vigorous physical activity for at least half an hour per day; no current smoking; and the consumption of an average of at least half a drink of an alcoholic beverage per day. RESULTS: During 16 years of follow-up, we documented 3300 new cases of type 2 diabetes. Overweight or obesity was the single most important predictor of diabetes. Lack of exercise, a poor diet, current smoking, and abstinence from alcohol use were all associated with a significantly increased risk of diabetes, even after adjustment for the body-mass index. As compared with the rest of the cohort, women in the low-risk group (3.4 percent of the women) had a relative risk of diabetes of 0.09 (95 percent confidence interval, 0.05 to 0.17). A total of 91 percent of the cases of diabetes in this cohort (95 percent confidence interval, 83 to 95) could be attributed to habits and forms of behavior that did not conform to the low-risk pattern. CONCLUSIONS: Our findings support the hypothesis that the vast majority of cases of type 2 diabetes could be prevented by the adoption of a healthier lifestyle.",
+  "modified": false,
+  "original_char_count": 1914,
+  "sanitized_char_count": 1914,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1754,
+      "boundary_end": 1914,
+      "context": "index (the weight in kilograms divided by the square of the height in meters) of less than 25; a diet high in cereal fiber and polyunsaturated fat and low in trans fat and glycemic load (which reflects the effect of diet on the blood glucose level); engagement in moderate-to-vigorous physical activity for at least half an hour per day; no current smoking; and the consumption of an average of at least half a drink of an alcoholic beverage per day. RESULTS: During 16 years of follow-up, we documented 3300 new cases of type 2 diabetes. Overweight or obesity was the single most important predictor of diabetes. Lack of exercise, a poor diet, current smoking, and abstinence from alcohol use were all associated with a significantly increased risk of diabetes, even after adjustment for the body-mass index. As compared with the rest of the cohort, women in the low-risk group (3.4 percent of the women) had a relative risk of diabetes of 0.09 (95 percent confidence interval, 0.05 to 0.17). A total of 91 percent of the cases of diabetes in this cohort (95 percent confidence interval, 83 to 95) could be attributed to habits and forms of behavior that did not conform to the low-risk pattern.",
+      "target": "CONCLUSIONS: Our findings support the hypothesis that the vast majority of cases of type 2 diabetes could be prevented by the adoption of a healthier lifestyle.",
+      "loss_target": 1.7460358142852783,
+      "loss_target_given_context": 0.8467212915420532,
+      "delta_loss": 0.8993145227432251,
+      "gain_ratio": 0.5150607538433284,
+      "score": -0.5150607538433284,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

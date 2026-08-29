@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4794",
+  "source_doc_id": "MED-4794",
+  "title": "Community-acquired methicillin-resistant Staphylococcus aureus: what do we need to know?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Community-acquired methicillin-resistant Staphylococcus aureus: what do we need to know?\nCommunity-associated methicillin-resistant Staphylococcus aureus (CA-MRSA) has become a matter of concern worldwide, in particular in the USA. For the analysis of emergence and spread, clear definitions based on epidemiological origin are needed for discrimination between CA-MRSA, healthcare-associated community MRSA, and healthcare-associated MRSA (HA-MRSA). Although its role in pathogenesis is currently under debate, the capability for Panton-Valentine leukocidin formation is associated with the majority of CA-MRSA isolates from North America and from Europe. Most CA-MRSA isolates are attributed to clonal lineages different from HA-MRSA; there are, however, clonal lineages from which both HA-MRSA and CA-MRSA have been reported (e.g. ST1, ST5, ST8, and ST22); CA-MRSA ST8 (USA300), which is most frequent in the USA, has meanwhile been reported from Europe. CA-MRSA ST80 is widely disseminated in Europe; because of its pronounced oxacillin heteroresistance phenotype, cefoxitin-based assays are advisable for reliable detection. So far, CA-MRSA infections seem to be much less frequent in Europe than in the USA, where patients with particular predispositions and low social status are at especial risk.",
+  "sanitized_text": "Community-acquired methicillin-resistant Staphylococcus aureus: what do we need to know?\nCommunity-associated methicillin-resistant Staphylococcus aureus (CA-MRSA) has become a matter of concern worldwide, in particular in the USA. For the analysis of emergence and spread, clear definitions based on epidemiological origin are needed for discrimination between CA-MRSA, healthcare-associated community MRSA, and healthcare-associated MRSA (HA-MRSA). Although its role in pathogenesis is currently under debate, the capability for Panton-Valentine leukocidin formation is associated with the majority of CA-MRSA isolates from North America and from Europe. Most CA-MRSA isolates are attributed to clonal lineages different from HA-MRSA; there are, however, clonal lineages from which both HA-MRSA and CA-MRSA have been reported (e.g. ST1, ST5, ST8, and ST22); CA-MRSA ST8 (USA300), which is most frequent in the USA, has meanwhile been reported from Europe. CA-MRSA ST80 is widely disseminated in Europe; because of its pronounced oxacillin heteroresistance phenotype, cefoxitin-based assays are advisable for reliable detection. So far, CA-MRSA infections seem to be much less frequent in Europe than in the USA, where patients with particular predispositions and low social status are at especial risk.",
+  "modified": false,
+  "original_char_count": 1304,
+  "sanitized_char_count": 1304,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1130,
+      "boundary_end": 1304,
+      "context": "Community-acquired methicillin-resistant Staphylococcus aureus: what do we need to know? Community-associated methicillin-resistant Staphylococcus aureus (CA-MRSA) has become a matter of concern worldwide, in particular in the USA. For the analysis of emergence and spread, clear definitions based on epidemiological origin are needed for discrimination between CA-MRSA, healthcare-associated community MRSA, and healthcare-associated MRSA (HA-MRSA). Although its role in pathogenesis is currently under debate, the capability for Panton-Valentine leukocidin formation is associated with the majority of CA-MRSA isolates from North America and from Europe. Most CA-MRSA isolates are attributed to clonal lineages different from HA-MRSA; there are, however, clonal lineages from which both HA-MRSA and CA-MRSA have been reported (e.g. ST1, ST5, ST8, and ST22); CA-MRSA ST8 (USA300), which is most frequent in the USA, has meanwhile been reported from Europe. CA-MRSA ST80 is widely disseminated in Europe; because of its pronounced oxacillin heteroresistance phenotype, cefoxitin-based assays are advisable for reliable detection.",
+      "target": "So far, CA-MRSA infections seem to be much less frequent in Europe than in the USA, where patients with particular predispositions and low social status are at especial risk.",
+      "loss_target": 2.862027406692505,
+      "loss_target_given_context": 1.9949884414672852,
+      "delta_loss": 0.8670389652252197,
+      "gain_ratio": 0.30294572413868365,
+      "score": -0.30294572413868365,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2699",
+  "source_doc_id": "MED-2699",
+  "title": "The Free Radical Theory of Aging Revisited: The Cell Signaling Disruption Theory of Aging",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The Free Radical Theory of Aging Revisited: The Cell Signaling Disruption Theory of Aging\nSignificance: The free radical theory of aging has provided a theoretical framework for an enormous amount of work leading to significant advances in our understanding of aging. Up to the turn of the century, the theory received abundant support from observations coming from fields as far apart as comparative physiology or molecular biology. Recent Advances: Work from many laboratories supports the theory, for instance showing that overexpression of antioxidant enzymes results in increases in life-span. But other labs have shown that in some cases, there is an increased oxidative stress and increased longevity. The discovery that free radicals can not only cause molecular damage to cells, but also serve as signals; led to the proposal that they act as modulators of physiological processes. For instance, reactive oxygen species (ROS) stimulate physiological adaptations to physical exercise. Critical Issues: A critical blow to the free radical theory of aging came from epidemiological studies showing that antioxidant supplementation did not lower the incidence of many age-associated diseases but, in some cases, increased the risk of death. Moreover, recent molecular evidence has shown that increasing generation of ROS, in some cases, increases longevity. Future Directions: Gerontologists interested in free radical biology are at a crossroads and clearly new insights are required to clarify the role of ROS in the process of aging. The hurdles are, no doubt, very high, but the intellectual and practical promise of these studies is of such magnitude that we feel that all efforts will be generously rewarding. Antioxid. Redox Signal. 19, 779–787.",
+  "sanitized_text": "The Free Radical Theory of Aging Revisited: The Cell Signaling Disruption Theory of Aging\nSignificance: The free radical theory of aging has provided a theoretical framework for an enormous amount of work leading to significant advances in our understanding of aging. Up to the turn of the century, the theory received abundant support from observations coming from fields as far apart as comparative physiology or molecular biology. Recent Advances: Work from many laboratories supports the theory, for instance showing that overexpression of antioxidant enzymes results in increases in life-span. But other labs have shown that in some cases, there is an increased oxidative stress and increased longevity. The discovery that free radicals can not only cause molecular damage to cells, but also serve as signals; led to the proposal that they act as modulators of physiological processes. For instance, reactive oxygen species (ROS) stimulate physiological adaptations to physical exercise. Critical Issues: A critical blow to the free radical theory of aging came from epidemiological studies showing that antioxidant supplementation did not lower the incidence of many age-associated diseases but, in some cases, increased the risk of death. Moreover, recent molecular evidence has shown that increasing generation of ROS, in some cases, increases longevity. Future Directions: Gerontologists interested in free radical biology are at a crossroads and clearly new insights are required to clarify the role of ROS in the process of aging.",
+  "modified": true,
+  "original_char_count": 1757,
+  "sanitized_char_count": 1541,
+  "deleted_char_count": 216,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1542,
+      "boundary_end": 1720,
+      "context": "coming from fields as far apart as comparative physiology or molecular biology. Recent Advances: Work from many laboratories supports the theory, for instance showing that overexpression of antioxidant enzymes results in increases in life-span. But other labs have shown that in some cases, there is an increased oxidative stress and increased longevity. The discovery that free radicals can not only cause molecular damage to cells, but also serve as signals; led to the proposal that they act as modulators of physiological processes. For instance, reactive oxygen species (ROS) stimulate physiological adaptations to physical exercise. Critical Issues: A critical blow to the free radical theory of aging came from epidemiological studies showing that antioxidant supplementation did not lower the incidence of many age-associated diseases but, in some cases, increased the risk of death. Moreover, recent molecular evidence has shown that increasing generation of ROS, in some cases, increases longevity. Future Directions: Gerontologists interested in free radical biology are at a crossroads and clearly new insights are required to clarify the role of ROS in the process of aging.",
+      "target": "The hurdles are, no doubt, very high, but the intellectual and practical promise of these studies is of such magnitude that we feel that all efforts will be generously rewarding.",
+      "loss_target": 3.450259208679199,
+      "loss_target_given_context": 2.9261434078216553,
+      "delta_loss": 0.524115800857544,
+      "gain_ratio": 0.15190621027519316,
+      "score": -0.15190621027519316,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1363,
+      "boundary_end": 1541,
+      "context": "framework for an enormous amount of work leading to significant advances in our understanding of aging. Up to the turn of the century, the theory received abundant support from observations coming from fields as far apart as comparative physiology or molecular biology. Recent Advances: Work from many laboratories supports the theory, for instance showing that overexpression of antioxidant enzymes results in increases in life-span. But other labs have shown that in some cases, there is an increased oxidative stress and increased longevity. The discovery that free radicals can not only cause molecular damage to cells, but also serve as signals; led to the proposal that they act as modulators of physiological processes. For instance, reactive oxygen species (ROS) stimulate physiological adaptations to physical exercise. Critical Issues: A critical blow to the free radical theory of aging came from epidemiological studies showing that antioxidant supplementation did not lower the incidence of many age-associated diseases but, in some cases, increased the risk of death. Moreover, recent molecular evidence has shown that increasing generation of ROS, in some cases, increases longevity.",
+      "target": "Future Directions: Gerontologists interested in free radical biology are at a crossroads and clearly new insights are required to clarify the role of ROS in the process of aging.",
+      "loss_target": 3.003257989883423,
+      "loss_target_given_context": 1.925887107849121,
+      "delta_loss": 1.0773708820343018,
+      "gain_ratio": 0.3587340433833731,
+      "score": -0.3587340433833731,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1542,
+      "target": "The hurdles are, no doubt, very high, but the intellectual and practical promise of these studies is of such magnitude that we feel that all efforts will be generously rewarding.",
+      "score": -0.15190621027519316,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "The hurdles are, no doubt, very high, but the intellectual and practical promise of these studies is of such magnitude that we feel that all efforts will be generously rewarding. Antioxid. Redox Signal. 19, 779–787.",
+      "deleted_char_count": 215
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

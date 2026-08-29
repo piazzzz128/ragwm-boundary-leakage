@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4106",
+  "source_doc_id": "MED-4106",
+  "title": "Potassium intake, stroke, and cardiovascular disease a meta-analysis of prospective studies.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Potassium intake, stroke, and cardiovascular disease a meta-analysis of prospective studies.\nOBJECTIVES: The objective of this study was to assess the relation between the level of habitual potassium intake and the incidence of cardiovascular disease (CVD). BACKGROUND: Prospective cohort studies have evaluated the relationship between habitual potassium intake and incidence of vascular disease, but their results have not been not entirely consistent. METHODS: We performed a systematic search for prospective studies published, without language restrictions (1966 to December 2009). Criteria for inclusion were prospective adult population study, assessment of baseline potassium intake, assessment of vascular events as outcome, and follow-up of at least 4 years. For each study, relative risks (RRs) and 95% confidence intervals (CIs) were extracted and pooled using a random-effect model, weighted for the inverse of the variance. Heterogeneity, publication bias, subgroup, and meta-regression analyses were performed. RESULTS: Eleven studies were identified, providing 15 cohort samples that included 247,510 male and female participants (follow-up 5 to 19 years), 7,066 strokes, 3,058 coronary heart disease (CHD) events, and 2,497 total CVD events. Potassium intake was assessed by 24-h dietary recall (n = 2), food frequency questionnaire (n = 6), or 24-h urinary excretion (n = 3). In the pooled analysis, a 1.64-g (42 mmol) per day higher potassium intake was associated with a 21% lower risk of stroke (RR: 0.79; 95% CI: 0.68 to 0.90; p = 0.0007), with a trend toward lower risk of CHD and total CVD that attained statistical significance after the exclusion of a single cohort, based on sensitivity analysis (RR: 0.93; 95% CI: 0.87 to 0.99; p = 0.03 and RR: 0.74; 95% CI: 0.60 to 0.91; p = 0.0037). CONCLUSIONS: Higher dietary potassium intake is associated with lower rates of stroke and might also reduce the risk of CHD and total CVD. These results support recommendations for higher consumption of potassium-rich foods to prevent vascular diseases. Copyright © 2011 American College of Cardiology Foundation. Published by Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Potassium intake, stroke, and cardiovascular disease a meta-analysis of prospective studies.\nOBJECTIVES: The objective of this study was to assess the relation between the level of habitual potassium intake and the incidence of cardiovascular disease (CVD). BACKGROUND: Prospective cohort studies have evaluated the relationship between habitual potassium intake and incidence of vascular disease, but their results have not been not entirely consistent. METHODS: We performed a systematic search for prospective studies published, without language restrictions (1966 to December 2009). Criteria for inclusion were prospective adult population study, assessment of baseline potassium intake, assessment of vascular events as outcome, and follow-up of at least 4 years. For each study, relative risks (RRs) and 95% confidence intervals (CIs) were extracted and pooled using a random-effect model, weighted for the inverse of the variance. Heterogeneity, publication bias, subgroup, and meta-regression analyses were performed. RESULTS: Eleven studies were identified, providing 15 cohort samples that included 247,510 male and female participants (follow-up 5 to 19 years), 7,066 strokes, 3,058 coronary heart disease (CHD) events, and 2,497 total CVD events. Potassium intake was assessed by 24-h dietary recall (n = 2), food frequency questionnaire (n = 6), or 24-h urinary excretion (n = 3). In the pooled analysis, a 1.64-g (42 mmol) per day higher potassium intake was associated with a 21% lower risk of stroke (RR: 0.79; 95% CI: 0.68 to 0.90; p = 0.0007), with a trend toward lower risk of CHD and total CVD that attained statistical significance after the exclusion of a single cohort, based on sensitivity analysis (RR: 0.93; 95% CI: 0.87 to 0.99; p = 0.03 and RR: 0.74; 95% CI: 0.60 to 0.91; p = 0.0037). CONCLUSIONS: Higher dietary potassium intake is associated with lower rates of stroke and might also reduce the risk of CHD and total CVD. These results support recommendations for higher consumption of potassium-rich foods to prevent vascular diseases. Copyright © 2011 American College of Cardiology Foundation. Published by Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 2175,
+  "sanitized_char_count": 2175,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 2128,
+      "boundary_end": 2154,
+      "context": "variance. Heterogeneity, publication bias, subgroup, and meta-regression analyses were performed. RESULTS: Eleven studies were identified, providing 15 cohort samples that included 247,510 male and female participants (follow-up 5 to 19 years), 7,066 strokes, 3,058 coronary heart disease (CHD) events, and 2,497 total CVD events. Potassium intake was assessed by 24-h dietary recall (n = 2), food frequency questionnaire (n = 6), or 24-h urinary excretion (n = 3). In the pooled analysis, a 1.64-g (42 mmol) per day higher potassium intake was associated with a 21% lower risk of stroke (RR: 0.79; 95% CI: 0.68 to 0.90; p = 0.0007), with a trend toward lower risk of CHD and total CVD that attained statistical significance after the exclusion of a single cohort, based on sensitivity analysis (RR: 0.93; 95% CI: 0.87 to 0.99; p = 0.03 and RR: 0.74; 95% CI: 0.60 to 0.91; p = 0.0037). CONCLUSIONS: Higher dietary potassium intake is associated with lower rates of stroke and might also reduce the risk of CHD and total CVD. These results support recommendations for higher consumption of potassium-rich foods to prevent vascular diseases. Copyright © 2011 American College of Cardiology Foundation.",
+      "target": "Published by Elsevier Inc.",
+      "loss_target": 2.3177590370178223,
+      "loss_target_given_context": 0.07322156429290771,
+      "delta_loss": 2.2445374727249146,
+      "gain_ratio": 0.9684084656241404,
+      "score": -0.9684084656241404,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

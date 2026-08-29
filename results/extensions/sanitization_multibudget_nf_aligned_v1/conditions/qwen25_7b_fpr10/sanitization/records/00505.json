@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1612",
+  "source_doc_id": "MED-1612",
+  "title": "Effect of protein ingestion on the glucose and insulin response to a standardized oral glucose load.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of protein ingestion on the glucose and insulin response to a standardized oral glucose load.\nType II diabetic subjects were given 50 g protein, 50 g glucose, or 50 g glucose with 50 g protein as a single meal in random sequence. The plasma glucose and insulin response was determined over the subsequent 5 h. The plasma glucose area above the baseline following a glucose meal was reduced 34% when protein was given with the glucose. When protein was given alone, the glucose concentration remained stable for 2 h and then declined. The insulin area following glucose was only modestly greater than with a protein meal (97 +/- 35, 83 +/- 19 microU X h/ml, respectively). When glucose was given with protein, the mean insulin area was considerably greater than when glucose or protein was given alone (247 +/- 33 microU X h/ml). When various amounts of protein were given with 50 g glucose, the insulin area response was essentially first order. Subsequently, subjects were given 50 g glucose or 50 g glucose with 50 g protein as two meals 4 h apart in random sequence. The insulin areas were not significantly different for each meal but were higher when protein + glucose was given. After the second glucose meal the plasma glucose area was 33% less than after the first meal. Following the second glucose + protein meal the plasma glucose area was markedly reduced, being only 7% as large as after the first meal. These data indicate that protein given with glucose will increase insulin secretion and reduce the plasma glucose rise in at least some type II diabetic persons.",
+  "sanitized_text": "Effect of protein ingestion on the glucose and insulin response to a standardized oral glucose load.\nType II diabetic subjects were given 50 g protein, 50 g glucose, or 50 g glucose with 50 g protein as a single meal in random sequence. The plasma glucose and insulin response was determined over the subsequent 5 h. The plasma glucose area above the baseline following a glucose meal was reduced 34% when protein was given with the glucose. When protein was given alone, the glucose concentration remained stable for 2 h and then declined. The insulin area following glucose was only modestly greater than with a protein meal (97 +/- 35, 83 +/- 19 microU X h/ml, respectively). When glucose was given with protein, the mean insulin area was considerably greater than when glucose or protein was given alone (247 +/- 33 microU X h/ml). When various amounts of protein were given with 50 g glucose, the insulin area response was essentially first order. Subsequently, subjects were given 50 g glucose or 50 g glucose with 50 g protein as two meals 4 h apart in random sequence. The insulin areas were not significantly different for each meal but were higher when protein + glucose was given. After the second glucose meal the plasma glucose area was 33% less than after the first meal. Following the second glucose + protein meal the plasma glucose area was markedly reduced, being only 7% as large as after the first meal. These data indicate that protein given with glucose will increase insulin secretion and reduce the plasma glucose rise in at least some type II diabetic persons.",
+  "modified": false,
+  "original_char_count": 1585,
+  "sanitized_char_count": 1585,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1424,
+      "boundary_end": 1585,
+      "context": "sequence. The plasma glucose and insulin response was determined over the subsequent 5 h. The plasma glucose area above the baseline following a glucose meal was reduced 34% when protein was given with the glucose. When protein was given alone, the glucose concentration remained stable for 2 h and then declined. The insulin area following glucose was only modestly greater than with a protein meal (97 +/- 35, 83 +/- 19 microU X h/ml, respectively). When glucose was given with protein, the mean insulin area was considerably greater than when glucose or protein was given alone (247 +/- 33 microU X h/ml). When various amounts of protein were given with 50 g glucose, the insulin area response was essentially first order. Subsequently, subjects were given 50 g glucose or 50 g glucose with 50 g protein as two meals 4 h apart in random sequence. The insulin areas were not significantly different for each meal but were higher when protein + glucose was given. After the second glucose meal the plasma glucose area was 33% less than after the first meal. Following the second glucose + protein meal the plasma glucose area was markedly reduced, being only 7% as large as after the first meal.",
+      "target": "These data indicate that protein given with glucose will increase insulin secretion and reduce the plasma glucose rise in at least some type II diabetic persons.",
+      "loss_target": 3.382984161376953,
+      "loss_target_given_context": 1.8684077262878418,
+      "delta_loss": 1.5145764350891113,
+      "gain_ratio": 0.4477042642944694,
+      "score": -0.4477042642944694,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

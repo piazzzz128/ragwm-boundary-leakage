@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1860",
+  "source_doc_id": "MED-1860",
+  "title": "The effects of sour tea (Hibiscus sabdariffa) on hypertension in patients with type II diabetes.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The effects of sour tea (Hibiscus sabdariffa) on hypertension in patients with type II diabetes.\nTo compare the antihypertensive effectiveness of sour tea (ST; Hibiscus sabdariffa) with black tea (BT) infusion in diabetic patients, this double-blind randomized controlled trial was carried out. Sixty diabetic patients with mild hypertension, without taking antihypertensive or antihyperlipidaemic medicines, were recruited in the study. The patients were randomly allocated to the ST and BT groups and instructed to drink ST and BT infusions two times a day for 1 month. Their blood pressure (BP) was measured on days 0, 15 and 30 of the study. The mean of systolic BP (SBP) in the ST group decreased from 134.4+/-11.8 mm Hg at the beginning of the study to 112.7+/-5.7 mm Hg after 1 month (P-value <0.001), whereas this measure changed from 118.6+/-14.9 to 127.3+/-8.7 mm Hg (P-value=0.002) in the BT group during the same period. The intervention had no statistically significant effect on the mean of diastolic BP (DBP) in either the ST or BT group. The mean pulse pressure (PP) of the patients in the ST group decreased from 52.2+/-12.2 to 34.5+/-9.3 mm Hg (P-value <0.001) during the study, whereas in the BT group, it increased from 41.9+/-11.7 to 47.3+/-9.6 mm Hg (P-value=0.01). In conclusion, consuming ST infusion had positive effects on BP in type II diabetic patients with mild hypertension. This study supports the results of similar studies in which antihypertensive effects have been shown for ST.",
+  "sanitized_text": "The effects of sour tea (Hibiscus sabdariffa) on hypertension in patients with type II diabetes.\nTo compare the antihypertensive effectiveness of sour tea (ST; Hibiscus sabdariffa) with black tea (BT) infusion in diabetic patients, this double-blind randomized controlled trial was carried out. Sixty diabetic patients with mild hypertension, without taking antihypertensive or antihyperlipidaemic medicines, were recruited in the study. The patients were randomly allocated to the ST and BT groups and instructed to drink ST and BT infusions two times a day for 1 month. Their blood pressure (BP) was measured on days 0, 15 and 30 of the study. The mean of systolic BP (SBP) in the ST group decreased from 134.4+/-11.8 mm Hg at the beginning of the study to 112.7+/-5.7 mm Hg after 1 month (P-value <0.001), whereas this measure changed from 118.6+/-14.9 to 127.3+/-8.7 mm Hg (P-value=0.002) in the BT group during the same period. The intervention had no statistically significant effect on the mean of diastolic BP (DBP) in either the ST or BT group. The mean pulse pressure (PP) of the patients in the ST group decreased from 52.2+/-12.2 to 34.5+/-9.3 mm Hg (P-value <0.001) during the study, whereas in the BT group, it increased from 41.9+/-11.7 to 47.3+/-9.6 mm Hg (P-value=0.01). In conclusion, consuming ST infusion had positive effects on BP in type II diabetic patients with mild hypertension. This study supports the results of similar studies in which antihypertensive effects have been shown for ST.",
+  "modified": false,
+  "original_char_count": 1513,
+  "sanitized_char_count": 1513,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1405,
+      "boundary_end": 1513,
+      "context": "in diabetic patients, this double-blind randomized controlled trial was carried out. Sixty diabetic patients with mild hypertension, without taking antihypertensive or antihyperlipidaemic medicines, were recruited in the study. The patients were randomly allocated to the ST and BT groups and instructed to drink ST and BT infusions two times a day for 1 month. Their blood pressure (BP) was measured on days 0, 15 and 30 of the study. The mean of systolic BP (SBP) in the ST group decreased from 134.4+/-11.8 mm Hg at the beginning of the study to 112.7+/-5.7 mm Hg after 1 month (P-value <0.001), whereas this measure changed from 118.6+/-14.9 to 127.3+/-8.7 mm Hg (P-value=0.002) in the BT group during the same period. The intervention had no statistically significant effect on the mean of diastolic BP (DBP) in either the ST or BT group. The mean pulse pressure (PP) of the patients in the ST group decreased from 52.2+/-12.2 to 34.5+/-9.3 mm Hg (P-value <0.001) during the study, whereas in the BT group, it increased from 41.9+/-11.7 to 47.3+/-9.6 mm Hg (P-value=0.01). In conclusion, consuming ST infusion had positive effects on BP in type II diabetic patients with mild hypertension.",
+      "target": "This study supports the results of similar studies in which antihypertensive effects have been shown for ST.",
+      "loss_target": 3.1140406131744385,
+      "loss_target_given_context": 1.7848093509674072,
+      "delta_loss": 1.3292312622070312,
+      "gain_ratio": 0.4268509718799136,
+      "score": -0.4268509718799136,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

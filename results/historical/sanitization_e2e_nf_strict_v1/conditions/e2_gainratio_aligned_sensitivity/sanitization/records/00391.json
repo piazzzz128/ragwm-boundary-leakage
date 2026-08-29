@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1484",
+  "source_doc_id": "MED-1484",
+  "title": "Estimating Health Care-Associated Infections and Deaths in U.S. Hospitals, 2002",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Estimating Health Care-Associated Infections and Deaths in U.S. Hospitals, 2002\nSYNOPSIS Objective The purpose of this study was to provide a national estimate of the number of healthcare-associated infections (HAI) and deaths in United States hospitals. Methods No single source of nationally representative data on HAIs is currently available. The authors used a multi-step approach and three data sources. The main source of data was the National Nosocomial Infections Surveillance (NNIS) system, data from 1990–2002, conducted by the Centers for Disease Control and Prevention. Data from the National Hospital Discharge Survey (for 2002) and the American Hospital Association Survey (for 2000) were used to supplement NNIS data. The percentage of patients with an HAI whose death was determined to be caused or associated with the HAI from NNIS data was used to estimate the number of deaths. Results In 2002, the estimated number of HAIs in U.S. hospitals, adjusted to include federal facilities, was approximately 1.7 million: 33,269 HAIs among newborns in high-risk nurseries, 19,059 among newborns in well-baby nurseries, 417,946 among adults and children in ICUs, and 1,266,851 among adults and children outside of ICUs. The estimated deaths associated with HAIs in U.S. hospitals were 98,987: of these, 35,967 were for pneumonia, 30,665 for bloodstream infections, 13,088 for urinary tract infections, 8,205 for surgical site infections, and 11,062 for infections of other sites. Conclusion HAIs in hospitals are a significant cause of morbidity and mortality in the United States. The method described for estimating the number of HAIs makes the best use of existing data at the national level.",
+  "sanitized_text": "Estimating Health Care-Associated Infections and Deaths in U.S. Hospitals, 2002\nSYNOPSIS Objective The purpose of this study was to provide a national estimate of the number of healthcare-associated infections (HAI) and deaths in United States hospitals. Methods No single source of nationally representative data on HAIs is currently available. The authors used a multi-step approach and three data sources. The main source of data was the National Nosocomial Infections Surveillance (NNIS) system, data from 1990–2002, conducted by the Centers for Disease Control and Prevention. Data from the National Hospital Discharge Survey (for 2002) and the American Hospital Association Survey (for 2000) were used to supplement NNIS data. The percentage of patients with an HAI whose death was determined to be caused or associated with the HAI from NNIS data was used to estimate the number of deaths. Results In 2002, the estimated number of HAIs in U.S. hospitals, adjusted to include federal facilities, was approximately 1.7 million: 33,269 HAIs among newborns in high-risk nurseries, 19,059 among newborns in well-baby nurseries, 417,946 among adults and children in ICUs, and 1,266,851 among adults and children outside of ICUs. The estimated deaths associated with HAIs in U.S. hospitals were 98,987: of these, 35,967 were for pneumonia, 30,665 for bloodstream infections, 13,088 for urinary tract infections, 8,205 for surgical site infections, and 11,062 for infections of other sites. Conclusion HAIs in hospitals are a significant cause of morbidity and mortality in the United States. The method described for estimating the number of HAIs makes the best use of existing data at the national level.",
+  "modified": false,
+  "original_char_count": 1705,
+  "sanitized_char_count": 1705,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1592,
+      "boundary_end": 1705,
+      "context": "data sources. The main source of data was the National Nosocomial Infections Surveillance (NNIS) system, data from 1990–2002, conducted by the Centers for Disease Control and Prevention. Data from the National Hospital Discharge Survey (for 2002) and the American Hospital Association Survey (for 2000) were used to supplement NNIS data. The percentage of patients with an HAI whose death was determined to be caused or associated with the HAI from NNIS data was used to estimate the number of deaths. Results In 2002, the estimated number of HAIs in U.S. hospitals, adjusted to include federal facilities, was approximately 1.7 million: 33,269 HAIs among newborns in high-risk nurseries, 19,059 among newborns in well-baby nurseries, 417,946 among adults and children in ICUs, and 1,266,851 among adults and children outside of ICUs. The estimated deaths associated with HAIs in U.S. hospitals were 98,987: of these, 35,967 were for pneumonia, 30,665 for bloodstream infections, 13,088 for urinary tract infections, 8,205 for surgical site infections, and 11,062 for infections of other sites. Conclusion HAIs in hospitals are a significant cause of morbidity and mortality in the United States.",
+      "target": "The method described for estimating the number of HAIs makes the best use of existing data at the national level.",
+      "loss_target": 3.246314525604248,
+      "loss_target_given_context": 1.858406662940979,
+      "delta_loss": 1.387907862663269,
+      "gain_ratio": 0.42753339262619133,
+      "score": -0.42753339262619133,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

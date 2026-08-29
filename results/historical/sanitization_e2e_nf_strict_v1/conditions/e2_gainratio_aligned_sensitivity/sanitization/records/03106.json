@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5042",
+  "source_doc_id": "MED-5042",
+  "title": "Flavanols, the Kuna, Cocoa Consumption, and Nitric Oxide",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Flavanols, the Kuna, Cocoa Consumption, and Nitric Oxide\nThe Kuna Indians who reside in an archipelago on the Caribbean Coast of Panama have very low blood pressure levels, live longer than other Panamanians, and have a reduced frequency of myocardial infarction, stroke, diabetes mellitus, and cancer -- at least on their death certificates. One outstanding feature of their diet includes a very high intake of flavanol-rich cocoa. Flavonoids in cocoa activate nitric oxide synthesis in healthy humans. The possibility that the high flavanol intake protects the Kuna against high blood pressure, ischemic heart disease, stroke, diabetes mellitus, and cancer is sufficiently intriguing and sufficiently important that large, randomized controlled clinical trials should be pursued.",
+  "sanitized_text": "Flavanols, the Kuna, Cocoa Consumption, and Nitric Oxide\nThe Kuna Indians who reside in an archipelago on the Caribbean Coast of Panama have very low blood pressure levels, live longer than other Panamanians, and have a reduced frequency of myocardial infarction, stroke, diabetes mellitus, and cancer -- at least on their death certificates. One outstanding feature of their diet includes a very high intake of flavanol-rich cocoa. Flavonoids in cocoa activate nitric oxide synthesis in healthy humans. The possibility that the high flavanol intake protects the Kuna against high blood pressure, ischemic heart disease, stroke, diabetes mellitus, and cancer is sufficiently intriguing and sufficiently important that large, randomized controlled clinical trials should be pursued.",
+  "modified": false,
+  "original_char_count": 781,
+  "sanitized_char_count": 781,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 504,
+      "boundary_end": 781,
+      "context": "Flavanols, the Kuna, Cocoa Consumption, and Nitric Oxide The Kuna Indians who reside in an archipelago on the Caribbean Coast of Panama have very low blood pressure levels, live longer than other Panamanians, and have a reduced frequency of myocardial infarction, stroke, diabetes mellitus, and cancer -- at least on their death certificates. One outstanding feature of their diet includes a very high intake of flavanol-rich cocoa. Flavonoids in cocoa activate nitric oxide synthesis in healthy humans.",
+      "target": "The possibility that the high flavanol intake protects the Kuna against high blood pressure, ischemic heart disease, stroke, diabetes mellitus, and cancer is sufficiently intriguing and sufficiently important that large, randomized controlled clinical trials should be pursued.",
+      "loss_target": 2.8079636096954346,
+      "loss_target_given_context": 1.7942029237747192,
+      "delta_loss": 1.0137606859207153,
+      "gain_ratio": 0.36103056407866796,
+      "score": -0.36103056407866796,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

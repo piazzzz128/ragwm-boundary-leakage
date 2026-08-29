@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4838",
+  "source_doc_id": "MED-4838",
+  "title": "Cholesterol gallstone disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cholesterol gallstone disease.\nWith a prevalence of 10-15% in adults in Europe and the USA, gallstones are the most common digestive disease needing admission to hospital in the West. The interplay between interprandial and postprandial physiological responses to endogenous and dietary lipids underscores the importance of coordinated hepatobiliary and gastrointestinal functions to prevent crystallisation and precipitation of excess biliary cholesterol. Indeed, identifying the metabolic and transcriptional pathways that drive the regulation of biliary lipid secretion has been a major achievement in the field. We highlight scientific advances in protein and gene regulation of cholesterol absorption, synthesis, and catabolism, and biliary lipid secretion with respect to the pathogenesis of cholesterol gallstone disease. We discuss the physical-chemical mechanisms of gallstone formation in bile and the active role of the gallbladder and the intestine. We also discuss gaps in our knowledge of the pathogenesis of gallstone formation and the potential for gene targeting in therapy.",
+  "sanitized_text": "Cholesterol gallstone disease.\nWith a prevalence of 10-15% in adults in Europe and the USA, gallstones are the most common digestive disease needing admission to hospital in the West. The interplay between interprandial and postprandial physiological responses to endogenous and dietary lipids underscores the importance of coordinated hepatobiliary and gastrointestinal functions to prevent crystallisation and precipitation of excess biliary cholesterol. Indeed, identifying the metabolic and transcriptional pathways that drive the regulation of biliary lipid secretion has been a major achievement in the field. We highlight scientific advances in protein and gene regulation of cholesterol absorption, synthesis, and catabolism, and biliary lipid secretion with respect to the pathogenesis of cholesterol gallstone disease. We discuss the physical-chemical mechanisms of gallstone formation in bile and the active role of the gallbladder and the intestine. We also discuss gaps in our knowledge of the pathogenesis of gallstone formation and the potential for gene targeting in therapy.",
+  "modified": false,
+  "original_char_count": 1091,
+  "sanitized_char_count": 1091,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 962,
+      "boundary_end": 1091,
+      "context": "Cholesterol gallstone disease. With a prevalence of 10-15% in adults in Europe and the USA, gallstones are the most common digestive disease needing admission to hospital in the West. The interplay between interprandial and postprandial physiological responses to endogenous and dietary lipids underscores the importance of coordinated hepatobiliary and gastrointestinal functions to prevent crystallisation and precipitation of excess biliary cholesterol. Indeed, identifying the metabolic and transcriptional pathways that drive the regulation of biliary lipid secretion has been a major achievement in the field. We highlight scientific advances in protein and gene regulation of cholesterol absorption, synthesis, and catabolism, and biliary lipid secretion with respect to the pathogenesis of cholesterol gallstone disease. We discuss the physical-chemical mechanisms of gallstone formation in bile and the active role of the gallbladder and the intestine.",
+      "target": "We also discuss gaps in our knowledge of the pathogenesis of gallstone formation and the potential for gene targeting in therapy.",
+      "loss_target": 3.082829713821411,
+      "loss_target_given_context": 1.8890821933746338,
+      "delta_loss": 1.1937475204467773,
+      "gain_ratio": 0.38722460572336737,
+      "score": -0.38722460572336737,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

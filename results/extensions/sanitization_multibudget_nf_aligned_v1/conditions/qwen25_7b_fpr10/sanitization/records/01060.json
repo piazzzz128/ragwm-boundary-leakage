@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2282",
+  "source_doc_id": "MED-2282",
+  "title": "Mortality with upper gastrointestinal bleeding and perforation: effects of time and NSAID use",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Mortality with upper gastrointestinal bleeding and perforation: effects of time and NSAID use\nBackground Some people who suffer an upper gastrointestinal bleed or perforation die. The mortality rate was estimated at 12% in studies published before 1997, but a systematic survey of more recent data is needed. Better treatment is likely to have reduced mortality. An estimate of mortality is helpful in explaining to patients the risks of therapy, especially with NSAIDs. Methods A systematic review of studies published before 1997, and between 1997 and 2008. Any study architecture was acceptable if it reported on cases who died from any cause of upper gastrointestinal bleed or perforation. Analyses were conducted separately for all cases, and those prescribed NSAID or aspirin. Results Information was available for 61,067 cases (81% published since 1997) of whom 5,001 died. The mortality rate in all cases fell significantly, from 11.6% (95% confidence interval, 11.0 to 12.2) in pre-1997 studies to 7.4% (7.2 to 7.6) in those published since 1997. In 5,526 patients taking NSAID or aspirin, mortality increased, from 14.7% (13.6 to 15.8) before 1997 to 20.9% (18.8 to 22.9) since 1997. Conclusion Upper gastrointestinal bleed or perforation still carries a finite risk of death. Differences in study architecture, population characteristics, risk factors, definition of mortality, and reporting of outcomes impose limitations on interpreting effect size. Data published since 1997 suggest that mortality in patients suffering from an upper gastrointestinal bleed or perforation has fallen to 1 in 13 overall, but remains higher at about 1 in 5 in those exposed to NSAID or aspirin.",
+  "sanitized_text": "Mortality with upper gastrointestinal bleeding and perforation: effects of time and NSAID use\nBackground Some people who suffer an upper gastrointestinal bleed or perforation die. The mortality rate was estimated at 12% in studies published before 1997, but a systematic survey of more recent data is needed. Better treatment is likely to have reduced mortality. An estimate of mortality is helpful in explaining to patients the risks of therapy, especially with NSAIDs. Methods A systematic review of studies published before 1997, and between 1997 and 2008. Any study architecture was acceptable if it reported on cases who died from any cause of upper gastrointestinal bleed or perforation. Analyses were conducted separately for all cases, and those prescribed NSAID or aspirin. Results Information was available for 61,067 cases (81% published since 1997) of whom 5,001 died. The mortality rate in all cases fell significantly, from 11.6% (95% confidence interval, 11.0 to 12.2) in pre-1997 studies to 7.4% (7.2 to 7.6) in those published since 1997. In 5,526 patients taking NSAID or aspirin, mortality increased, from 14.7% (13.6 to 15.8) before 1997 to 20.9% (18.8 to 22.9) since 1997. Conclusion Upper gastrointestinal bleed or perforation still carries a finite risk of death. Differences in study architecture, population characteristics, risk factors, definition of mortality, and reporting of outcomes impose limitations on interpreting effect size. Data published since 1997 suggest that mortality in patients suffering from an upper gastrointestinal bleed or perforation has fallen to 1 in 13 overall, but remains higher at about 1 in 5 in those exposed to NSAID or aspirin.",
+  "modified": false,
+  "original_char_count": 1689,
+  "sanitized_char_count": 1689,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1463,
+      "boundary_end": 1689,
+      "context": "survey of more recent data is needed. Better treatment is likely to have reduced mortality. An estimate of mortality is helpful in explaining to patients the risks of therapy, especially with NSAIDs. Methods A systematic review of studies published before 1997, and between 1997 and 2008. Any study architecture was acceptable if it reported on cases who died from any cause of upper gastrointestinal bleed or perforation. Analyses were conducted separately for all cases, and those prescribed NSAID or aspirin. Results Information was available for 61,067 cases (81% published since 1997) of whom 5,001 died. The mortality rate in all cases fell significantly, from 11.6% (95% confidence interval, 11.0 to 12.2) in pre-1997 studies to 7.4% (7.2 to 7.6) in those published since 1997. In 5,526 patients taking NSAID or aspirin, mortality increased, from 14.7% (13.6 to 15.8) before 1997 to 20.9% (18.8 to 22.9) since 1997. Conclusion Upper gastrointestinal bleed or perforation still carries a finite risk of death. Differences in study architecture, population characteristics, risk factors, definition of mortality, and reporting of outcomes impose limitations on interpreting effect size.",
+      "target": "Data published since 1997 suggest that mortality in patients suffering from an upper gastrointestinal bleed or perforation has fallen to 1 in 13 overall, but remains higher at about 1 in 5 in those exposed to NSAID or aspirin.",
+      "loss_target": 2.3481810092926025,
+      "loss_target_given_context": 1.227656364440918,
+      "delta_loss": 1.1205246448516846,
+      "gain_ratio": 0.47718836001882425,
+      "score": -0.47718836001882425,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4463",
+  "source_doc_id": "MED-4463",
+  "title": "Phenethyl isothiocyanate sensitizes human cervical cancer cells to apoptosis induced by cisplatin",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Phenethyl isothiocyanate sensitizes human cervical cancer cells to apoptosis induced by cisplatin\nNaturally-occurring chemopreventive agent phenethyl isothiocyanate (PEITC), derived primarily from watercress, has been shown to inhibit cell growth and induce apoptosis in cancer cells. In this study, we examined the potential of PEITC in enhancing cisplatin-induced apoptosis in cervical cancer cells. HeLa cells were exposed to PEITC, cisplatin or both. Pretreatment of cells with PEITC strongly enhanced cisplatin-induced cytotoxicity. PEITC activated the mitogen-activated protein kinases, including JNK, ERK, and p38. The synergistic induction of apoptosis was significantly attenuated by MEK1/2 inhibitor U0126, but not by JNK or p38 inhibitor, suggesting that ERK activation is responsible for the synergistic effect. We found that NF-κB signaling pathway is not involved in the synergistic effect. Sulforaphane and benzyl isothiocyanate, two other members of the isothiocyanate family, also sensitize HeLa cells to apoptosis induced by cisplatin. Furthermore, we found that the synergistic effect was not seen in normal cells. Finally, we demonstrated that Noxa induction was associated with apoptosis induced by PEITC plus cisplatin. Taken together, this study shows that PEITC can sensitize cancer cells to apoptosis induced by cisplatin and this effect is mediated through ERK activation, suggesting the potential of PEITC to be used as an adjuvant with cisplatin in combination therapeutic treatments.",
+  "sanitized_text": "Phenethyl isothiocyanate sensitizes human cervical cancer cells to apoptosis induced by cisplatin\nNaturally-occurring chemopreventive agent phenethyl isothiocyanate (PEITC), derived primarily from watercress, has been shown to inhibit cell growth and induce apoptosis in cancer cells. In this study, we examined the potential of PEITC in enhancing cisplatin-induced apoptosis in cervical cancer cells. HeLa cells were exposed to PEITC, cisplatin or both. Pretreatment of cells with PEITC strongly enhanced cisplatin-induced cytotoxicity. PEITC activated the mitogen-activated protein kinases, including JNK, ERK, and p38. The synergistic induction of apoptosis was significantly attenuated by MEK1/2 inhibitor U0126, but not by JNK or p38 inhibitor, suggesting that ERK activation is responsible for the synergistic effect. We found that NF-κB signaling pathway is not involved in the synergistic effect. Sulforaphane and benzyl isothiocyanate, two other members of the isothiocyanate family, also sensitize HeLa cells to apoptosis induced by cisplatin. Furthermore, we found that the synergistic effect was not seen in normal cells. Finally, we demonstrated that Noxa induction was associated with apoptosis induced by PEITC plus cisplatin. Taken together, this study shows that PEITC can sensitize cancer cells to apoptosis induced by cisplatin and this effect is mediated through ERK activation, suggesting the potential of PEITC to be used as an adjuvant with cisplatin in combination therapeutic treatments.",
+  "modified": false,
+  "original_char_count": 1512,
+  "sanitized_char_count": 1512,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1242,
+      "boundary_end": 1512,
+      "context": "cervical cancer cells to apoptosis induced by cisplatin Naturally-occurring chemopreventive agent phenethyl isothiocyanate (PEITC), derived primarily from watercress, has been shown to inhibit cell growth and induce apoptosis in cancer cells. In this study, we examined the potential of PEITC in enhancing cisplatin-induced apoptosis in cervical cancer cells. HeLa cells were exposed to PEITC, cisplatin or both. Pretreatment of cells with PEITC strongly enhanced cisplatin-induced cytotoxicity. PEITC activated the mitogen-activated protein kinases, including JNK, ERK, and p38. The synergistic induction of apoptosis was significantly attenuated by MEK1/2 inhibitor U0126, but not by JNK or p38 inhibitor, suggesting that ERK activation is responsible for the synergistic effect. We found that NF-κB signaling pathway is not involved in the synergistic effect. Sulforaphane and benzyl isothiocyanate, two other members of the isothiocyanate family, also sensitize HeLa cells to apoptosis induced by cisplatin. Furthermore, we found that the synergistic effect was not seen in normal cells. Finally, we demonstrated that Noxa induction was associated with apoptosis induced by PEITC plus cisplatin.",
+      "target": "Taken together, this study shows that PEITC can sensitize cancer cells to apoptosis induced by cisplatin and this effect is mediated through ERK activation, suggesting the potential of PEITC to be used as an adjuvant with cisplatin in combination therapeutic treatments.",
+      "loss_target": 8.50720500946045,
+      "loss_target_given_context": 2.8642311096191406,
+      "delta_loss": 5.642973899841309,
+      "gain_ratio": 0.6633170228724983,
+      "score": -0.6633170228724983,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

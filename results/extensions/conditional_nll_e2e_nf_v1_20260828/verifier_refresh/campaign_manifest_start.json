@@ -1,0 +1,23 @@
+{
+  "start_utc": "2026-08-28T14:26:31.454458+00:00",
+  "conditions": {
+    "watermarked": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/restored/strict_snapshot/root/autodl-tmp/ragwm_storage/chromadb_db",
+    "oracle_restore": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e1_oracle_clean",
+    "gainratio_fpr01": "/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/vectorstores/qwen25_7b_fpr01",
+    "gainratio_fpr025": "/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/vectorstores/qwen25_7b_fpr025",
+    "gainratio_fpr05": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e2_gainratio_aligned_sensitivity",
+    "gainratio_fpr10": "/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/vectorstores/qwen25_7b_fpr10",
+    "conditional_nll_fpr01": "/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/vectorstores/conditional_nll_fpr01",
+    "conditional_nll_fpr025": "/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/vectorstores/conditional_nll_fpr025",
+    "conditional_nll_fpr05": "/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/vectorstores/conditional_nll_fpr05",
+    "conditional_nll_fpr10": "/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/vectorstores/conditional_nll_fpr10",
+    "random_fpr05_seed101": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e3_random_aligned_v2_seed_101",
+    "random_fpr05_seed202": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e3_random_aligned_v2_seed_202",
+    "random_fpr05_seed303": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e3_random_aligned_v2_seed_303",
+    "random_fpr05_seed404": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e3_random_aligned_v2_seed_404",
+    "random_fpr05_seed505": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e3_random_aligned_v2_seed_505"
+  },
+  "verify_num": 30,
+  "verify_seed": 633,
+  "provider_model": "ephone:gpt-4o-mini (repo alias: gpt4o_mini_e2e)"
+}

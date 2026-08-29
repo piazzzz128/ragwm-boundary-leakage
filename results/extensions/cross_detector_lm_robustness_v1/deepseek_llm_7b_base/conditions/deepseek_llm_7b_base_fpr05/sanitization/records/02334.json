@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4125",
+  "source_doc_id": "MED-4125",
+  "title": "Human gut microbiota does not ferment erythritol.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Human gut microbiota does not ferment erythritol.\nErythritol, a naturally occurring polyol, is gaining attention as a bulk sweetener for human nutrition. Industrially, it is produced from glucose by fermentation. From various studies it is known to be non-cariogenic. Moreover, it is rapidly absorbed in the small intestine and quantitatively excreted in the urine. Only about 10 % enters the colon. Earlier in vitro experiments showed that erythritol remained unfermented for a fermentation period of 12 h. In order to investigate whether fresh human intestinal microbiota is able to adapt its enzyme activities to erythritol, a 24 h lasting fermentation was carried out under well-standardised in vitro conditions. For comparison maltitol, lactulose and blank (faecal inoculum only) were incubated as well. Fermentation patterns were established by following total gas production, hydrogen accumulation, changes in pH value, SCFA production and substrate degradation. Taking all fermentation parameters into account, erythritol turned out to be completely resistant to bacterial attack within 24 h, thus excluding an adaptation within that period. Since under in vivo conditions more easily fermentable substrates enter the colon continuously, it seems very unlikely that erythritol will be fermented in vivo.",
+  "sanitized_text": "Human gut microbiota does not ferment erythritol.\nErythritol, a naturally occurring polyol, is gaining attention as a bulk sweetener for human nutrition. Industrially, it is produced from glucose by fermentation. From various studies it is known to be non-cariogenic. Moreover, it is rapidly absorbed in the small intestine and quantitatively excreted in the urine. Only about 10 % enters the colon. Earlier in vitro experiments showed that erythritol remained unfermented for a fermentation period of 12 h. In order to investigate whether fresh human intestinal microbiota is able to adapt its enzyme activities to erythritol, a 24 h lasting fermentation was carried out under well-standardised in vitro conditions. For comparison maltitol, lactulose and blank (faecal inoculum only) were incubated as well. Fermentation patterns were established by following total gas production, hydrogen accumulation, changes in pH value, SCFA production and substrate degradation. Taking all fermentation parameters into account, erythritol turned out to be completely resistant to bacterial attack within 24 h, thus excluding an adaptation within that period. Since under in vivo conditions more easily fermentable substrates enter the colon continuously, it seems very unlikely that erythritol will be fermented in vivo.",
+  "modified": false,
+  "original_char_count": 1311,
+  "sanitized_char_count": 1311,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1150,
+      "boundary_end": 1311,
+      "context": "Human gut microbiota does not ferment erythritol. Erythritol, a naturally occurring polyol, is gaining attention as a bulk sweetener for human nutrition. Industrially, it is produced from glucose by fermentation. From various studies it is known to be non-cariogenic. Moreover, it is rapidly absorbed in the small intestine and quantitatively excreted in the urine. Only about 10 % enters the colon. Earlier in vitro experiments showed that erythritol remained unfermented for a fermentation period of 12 h. In order to investigate whether fresh human intestinal microbiota is able to adapt its enzyme activities to erythritol, a 24 h lasting fermentation was carried out under well-standardised in vitro conditions. For comparison maltitol, lactulose and blank (faecal inoculum only) were incubated as well. Fermentation patterns were established by following total gas production, hydrogen accumulation, changes in pH value, SCFA production and substrate degradation. Taking all fermentation parameters into account, erythritol turned out to be completely resistant to bacterial attack within 24 h, thus excluding an adaptation within that period.",
+      "target": "Since under in vivo conditions more easily fermentable substrates enter the colon continuously, it seems very unlikely that erythritol will be fermented in vivo.",
+      "loss_target": 3.6019787788391113,
+      "loss_target_given_context": 2.1498873233795166,
+      "delta_loss": 1.4520914554595947,
+      "gain_ratio": 0.4031371489444455,
+      "score": -0.4031371489444455,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

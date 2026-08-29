@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3494",
+  "source_doc_id": "MED-3494",
+  "title": "Reducing the fat content in ground beef without sacrificing quality: a review.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Reducing the fat content in ground beef without sacrificing quality: a review.\nAmericans are becoming more health conscious in their food choices and many are interested in reducing dietary fat intake. Fat replacers can affect meat flavor both by adding flavors of their own, by reducing the original aroma-generating substrate (fat) and by altering release of aroma compounds. When fat is removed from meat, water is generally added to replace it. Water-binding compounds can be added to prevent the added water from cooking out or evaporating and to prevent patty shrinkage. Fat replacers are generally classified by their composition: protein-based replacers including whey, soy and collagen, lipid-based substances such as soy lecithin which function as emulsifiers maintaining the fat that is retained distributed in the product, and carbohydrate-based substances including flours (wheat, soy, oat), starches (potato, modified corn starch, tapioca) and gums (carrageenan, xanthin). Duplication of the characteristics contributed by fat often requires a combination of replacers to address juiciness and texture (firmness) without negatively impacting flavor. Published by Elsevier Ltd.",
+  "sanitized_text": "Reducing the fat content in ground beef without sacrificing quality: a review.\nAmericans are becoming more health conscious in their food choices and many are interested in reducing dietary fat intake. Fat replacers can affect meat flavor both by adding flavors of their own, by reducing the original aroma-generating substrate (fat) and by altering release of aroma compounds. When fat is removed from meat, water is generally added to replace it. Water-binding compounds can be added to prevent the added water from cooking out or evaporating and to prevent patty shrinkage. Fat replacers are generally classified by their composition: protein-based replacers including whey, soy and collagen, lipid-based substances such as soy lecithin which function as emulsifiers maintaining the fat that is retained distributed in the product, and carbohydrate-based substances including flours (wheat, soy, oat), starches (potato, modified corn starch, tapioca) and gums (carrageenan, xanthin). Duplication of the characteristics contributed by fat often requires a combination of replacers to address juiciness and texture (firmness) without negatively impacting flavor. Published by Elsevier Ltd.",
+  "modified": false,
+  "original_char_count": 1190,
+  "sanitized_char_count": 1190,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1164,
+      "boundary_end": 1190,
+      "context": "Reducing the fat content in ground beef without sacrificing quality: a review. Americans are becoming more health conscious in their food choices and many are interested in reducing dietary fat intake. Fat replacers can affect meat flavor both by adding flavors of their own, by reducing the original aroma-generating substrate (fat) and by altering release of aroma compounds. When fat is removed from meat, water is generally added to replace it. Water-binding compounds can be added to prevent the added water from cooking out or evaporating and to prevent patty shrinkage. Fat replacers are generally classified by their composition: protein-based replacers including whey, soy and collagen, lipid-based substances such as soy lecithin which function as emulsifiers maintaining the fat that is retained distributed in the product, and carbohydrate-based substances including flours (wheat, soy, oat), starches (potato, modified corn starch, tapioca) and gums (carrageenan, xanthin). Duplication of the characteristics contributed by fat often requires a combination of replacers to address juiciness and texture (firmness) without negatively impacting flavor.",
+      "target": "Published by Elsevier Ltd.",
+      "loss_target": 2.177363634109497,
+      "loss_target_given_context": 1.022181749343872,
+      "delta_loss": 1.155181884765625,
+      "gain_ratio": 0.5305415534039053,
+      "score": -0.5305415534039053,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

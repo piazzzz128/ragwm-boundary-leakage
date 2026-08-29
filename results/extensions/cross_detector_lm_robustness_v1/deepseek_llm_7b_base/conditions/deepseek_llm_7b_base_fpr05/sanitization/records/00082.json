@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1116",
+  "source_doc_id": "MED-1116",
+  "title": "Molecular mimicry between HLA-DR alleles associated with rheumatoid arthritis and Proteus mirabilis as the Aetiological basis for autoimmunity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Molecular mimicry between HLA-DR alleles associated with rheumatoid arthritis and Proteus mirabilis as the Aetiological basis for autoimmunity.\nMolecular mimicry is one of the pathological mechanisms proposed to explain the association between microorganisms and autoimmune diseases. This review deals with the association between bacteria and rheumatic diseases with a special emphasis on rheumatoid arthritis where upper urinary tract infection by Proteus mirabilis is the possible cause of this severe, arthritic condition. Prospective trials involving anti-Proteus therapy should be carried out.",
+  "sanitized_text": "Molecular mimicry between HLA-DR alleles associated with rheumatoid arthritis and Proteus mirabilis as the Aetiological basis for autoimmunity.\nMolecular mimicry is one of the pathological mechanisms proposed to explain the association between microorganisms and autoimmune diseases. This review deals with the association between bacteria and rheumatic diseases with a special emphasis on rheumatoid arthritis where upper urinary tract infection by Proteus mirabilis is the possible cause of this severe, arthritic condition. Prospective trials involving anti-Proteus therapy should be carried out.",
+  "modified": false,
+  "original_char_count": 599,
+  "sanitized_char_count": 599,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 527,
+      "boundary_end": 599,
+      "context": "Molecular mimicry between HLA-DR alleles associated with rheumatoid arthritis and Proteus mirabilis as the Aetiological basis for autoimmunity. Molecular mimicry is one of the pathological mechanisms proposed to explain the association between microorganisms and autoimmune diseases. This review deals with the association between bacteria and rheumatic diseases with a special emphasis on rheumatoid arthritis where upper urinary tract infection by Proteus mirabilis is the possible cause of this severe, arthritic condition.",
+      "target": "Prospective trials involving anti-Proteus therapy should be carried out.",
+      "loss_target": 4.026366710662842,
+      "loss_target_given_context": 2.2813572883605957,
+      "delta_loss": 1.745009422302246,
+      "gain_ratio": 0.43339555179636713,
+      "score": -0.43339555179636713,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

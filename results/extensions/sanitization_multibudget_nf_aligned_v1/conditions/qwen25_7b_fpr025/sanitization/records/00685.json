@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1818",
+  "source_doc_id": "MED-1818",
+  "title": "Nutrient-based dietary patterns and pancreatic cancer risk.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Nutrient-based dietary patterns and pancreatic cancer risk.\nPURPOSE: Few data are available on the role of combinations of foods and/or nutrients on pancreatic cancer risk. To add further information on dietary patterns potentially associated to pancreatic cancer, we applied an exploratory principal component factor analysis on 28 major nutrients derived from an Italian case-control study. METHODS: Cases were 326 incident pancreatic cancer cases and controls 652 frequency-matched controls admitted to hospital for non-neoplastic diseases. Dietary information was collected through a validated and reproducible food frequency questionnaire. Multiple logistic regression models adjusted for sociodemographic variables and major recognized risk factors for pancreatic cancer were used to estimate the odds ratios (OR) of pancreatic cancer for each dietary pattern. RESULTS: We identified four dietary patterns-named \"animal products,\" \"unsaturated fats,\" \"vitamins and fiber,\" and \"starch rich,\" that explain 75% of the total variance in nutrient intake in this population. After allowing for all the four patterns, positive associations were found for the animal products and the starch rich patterns, the OR for the highest versus the lowest quartiles being 2.03 (95% confidence interval [CI], 1.29-3.19) and 1.69 (95% CI, 1.02-2.79), respectively; an inverse association emerged for the vitamins and fiber pattern (OR, 0.55; 95% CI, 0.35-0.86), whereas no association was observed for the unsaturated fats pattern (OR, 1.13; 95% CI, 0.71-1.78). CONCLUSIONS: A diet characterized by a high consumption of meat and other animal products, as well as of (refined) cereals and sugars, is positively associated with pancreatic cancer risk, whereas a diet rich in fruit and vegetables is inversely associated. Copyright © 2013 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Nutrient-based dietary patterns and pancreatic cancer risk.\nPURPOSE: Few data are available on the role of combinations of foods and/or nutrients on pancreatic cancer risk. To add further information on dietary patterns potentially associated to pancreatic cancer, we applied an exploratory principal component factor analysis on 28 major nutrients derived from an Italian case-control study. METHODS: Cases were 326 incident pancreatic cancer cases and controls 652 frequency-matched controls admitted to hospital for non-neoplastic diseases. Dietary information was collected through a validated and reproducible food frequency questionnaire. Multiple logistic regression models adjusted for sociodemographic variables and major recognized risk factors for pancreatic cancer were used to estimate the odds ratios (OR) of pancreatic cancer for each dietary pattern. RESULTS: We identified four dietary patterns-named \"animal products,\" \"unsaturated fats,\" \"vitamins and fiber,\" and \"starch rich,\" that explain 75% of the total variance in nutrient intake in this population. After allowing for all the four patterns, positive associations were found for the animal products and the starch rich patterns, the OR for the highest versus the lowest quartiles being 2.03 (95% confidence interval [CI], 1.29-3.19) and 1.69 (95% CI, 1.02-2.79), respectively; an inverse association emerged for the vitamins and fiber pattern (OR, 0.55; 95% CI, 0.35-0.86), whereas no association was observed for the unsaturated fats pattern (OR, 1.13; 95% CI, 0.71-1.78). CONCLUSIONS: A diet characterized by a high consumption of meat and other animal products, as well as of (refined) cereals and sugars, is positively associated with pancreatic cancer risk, whereas a diet rich in fruit and vegetables is inversely associated.",
+  "modified": true,
+  "original_char_count": 1859,
+  "sanitized_char_count": 1807,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1808,
+      "boundary_end": 1838,
+      "context": "food frequency questionnaire. Multiple logistic regression models adjusted for sociodemographic variables and major recognized risk factors for pancreatic cancer were used to estimate the odds ratios (OR) of pancreatic cancer for each dietary pattern. RESULTS: We identified four dietary patterns-named \"animal products,\" \"unsaturated fats,\" \"vitamins and fiber,\" and \"starch rich,\" that explain 75% of the total variance in nutrient intake in this population. After allowing for all the four patterns, positive associations were found for the animal products and the starch rich patterns, the OR for the highest versus the lowest quartiles being 2.03 (95% confidence interval [CI], 1.29-3.19) and 1.69 (95% CI, 1.02-2.79), respectively; an inverse association emerged for the vitamins and fiber pattern (OR, 0.55; 95% CI, 0.35-0.86), whereas no association was observed for the unsaturated fats pattern (OR, 1.13; 95% CI, 0.71-1.78). CONCLUSIONS: A diet characterized by a high consumption of meat and other animal products, as well as of (refined) cereals and sugars, is positively associated with pancreatic cancer risk, whereas a diet rich in fruit and vegetables is inversely associated.",
+      "target": "Copyright © 2013 Elsevier Inc.",
+      "loss_target": 1.0089970827102661,
+      "loss_target_given_context": 0.9203571081161499,
+      "delta_loss": 0.08863997459411621,
+      "gain_ratio": 0.08784958461527011,
+      "score": -0.08784958461527011,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1550,
+      "boundary_end": 1807,
+      "context": "from an Italian case-control study. METHODS: Cases were 326 incident pancreatic cancer cases and controls 652 frequency-matched controls admitted to hospital for non-neoplastic diseases. Dietary information was collected through a validated and reproducible food frequency questionnaire. Multiple logistic regression models adjusted for sociodemographic variables and major recognized risk factors for pancreatic cancer were used to estimate the odds ratios (OR) of pancreatic cancer for each dietary pattern. RESULTS: We identified four dietary patterns-named \"animal products,\" \"unsaturated fats,\" \"vitamins and fiber,\" and \"starch rich,\" that explain 75% of the total variance in nutrient intake in this population. After allowing for all the four patterns, positive associations were found for the animal products and the starch rich patterns, the OR for the highest versus the lowest quartiles being 2.03 (95% confidence interval [CI], 1.29-3.19) and 1.69 (95% CI, 1.02-2.79), respectively; an inverse association emerged for the vitamins and fiber pattern (OR, 0.55; 95% CI, 0.35-0.86), whereas no association was observed for the unsaturated fats pattern (OR, 1.13; 95% CI, 0.71-1.78).",
+      "target": "CONCLUSIONS: A diet characterized by a high consumption of meat and other animal products, as well as of (refined) cereals and sugars, is positively associated with pancreatic cancer risk, whereas a diet rich in fruit and vegetables is inversely associated.",
+      "loss_target": 1.6861186027526855,
+      "loss_target_given_context": 1.039115309715271,
+      "delta_loss": 0.6470032930374146,
+      "gain_ratio": 0.38372347709179205,
+      "score": -0.38372347709179205,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1808,
+      "target": "Copyright © 2013 Elsevier Inc.",
+      "score": -0.08784958461527011,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Copyright © 2013 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

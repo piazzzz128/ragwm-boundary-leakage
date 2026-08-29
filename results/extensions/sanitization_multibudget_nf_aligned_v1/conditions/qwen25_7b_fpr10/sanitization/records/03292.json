@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5237",
+  "source_doc_id": "MED-5237",
+  "title": "mTOR: from growth signal integration to cancer, diabetes and ageing",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "mTOR: from growth signal integration to cancer, diabetes and ageing\nPreface In all eukaryotes, the target of rapamycin (TOR) signaling pathway couples energy and nutrient abundance to the execution of cell growth and division, owing to the ability of TOR protein kinase to simultaneously sense energy, nutrients and stress, and, in metazoan, growth factors. Mammalian TOR complexes 1 and 2 (mTORC1 and mTORC2) exert their actions by regulating other important kinases, such as S6K and Akt. In the last few years, a significant advance in our understanding of the regulation and functions of mTOR has revealed its critical involvement in the onset and progression of diabetes, cancer and ageing.",
+  "sanitized_text": "mTOR: from growth signal integration to cancer, diabetes and ageing\nPreface In all eukaryotes, the target of rapamycin (TOR) signaling pathway couples energy and nutrient abundance to the execution of cell growth and division, owing to the ability of TOR protein kinase to simultaneously sense energy, nutrients and stress, and, in metazoan, growth factors. Mammalian TOR complexes 1 and 2 (mTORC1 and mTORC2) exert their actions by regulating other important kinases, such as S6K and Akt. In the last few years, a significant advance in our understanding of the regulation and functions of mTOR has revealed its critical involvement in the onset and progression of diabetes, cancer and ageing.",
+  "modified": false,
+  "original_char_count": 694,
+  "sanitized_char_count": 694,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 490,
+      "boundary_end": 694,
+      "context": "mTOR: from growth signal integration to cancer, diabetes and ageing Preface In all eukaryotes, the target of rapamycin (TOR) signaling pathway couples energy and nutrient abundance to the execution of cell growth and division, owing to the ability of TOR protein kinase to simultaneously sense energy, nutrients and stress, and, in metazoan, growth factors. Mammalian TOR complexes 1 and 2 (mTORC1 and mTORC2) exert their actions by regulating other important kinases, such as S6K and Akt.",
+      "target": "In the last few years, a significant advance in our understanding of the regulation and functions of mTOR has revealed its critical involvement in the onset and progression of diabetes, cancer and ageing.",
+      "loss_target": 2.414295196533203,
+      "loss_target_given_context": 1.4654967784881592,
+      "delta_loss": 0.948798418045044,
+      "gain_ratio": 0.39299188409415176,
+      "score": -0.39299188409415176,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

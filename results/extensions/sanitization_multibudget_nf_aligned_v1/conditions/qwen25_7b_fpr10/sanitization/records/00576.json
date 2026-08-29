@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1693",
+  "source_doc_id": "MED-1693",
+  "title": "Tomatoes and cardiovascular health.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Tomatoes and cardiovascular health.\nDiet is believed to play a complex role in the development of cardiovascular disease, the leading cause of death in the Western world. Tomatoes, the second most produced and consumed vegetable nationwide, are a rich source of lycopene, beta-carotene, folate, potassium, vitamin C, flavonoids, and vitamin E. The processing of tomatoes may significantly affect the bioavailability of these nutrients. Homogenization, heat treatment, and the incorporation of oil in processed tomato products leads to increased lycopene bioavailability, while some of the same processes cause significant loss of other nutrients. Nutrient content is also affected by variety and maturity. Many of these nutrients may function individually, or in concert, to protect lipoproteins and vascular cells from oxidation, the most widely accepted theory for the genesis of atherosclerosis. This hypothesis has been supported by in vitro, limited in vivo, and many epidemiological studies that associate reduced cardiovascular risk with consumption of antioxidant-rich foods. Other cardioprotective functions provided by the nutrients in tomatoes may include the reduction of low-density lipoprotein (LDL) cholesterol, homocysteine, platelet aggregation, and blood pressure. Because tomatoes include several nutrients associated with theoretical or proven effects and are widely consumed year round, they may be considered a valuable component of a cardioprotective diet.",
+  "sanitized_text": "Tomatoes and cardiovascular health.\nDiet is believed to play a complex role in the development of cardiovascular disease, the leading cause of death in the Western world. Tomatoes, the second most produced and consumed vegetable nationwide, are a rich source of lycopene, beta-carotene, folate, potassium, vitamin C, flavonoids, and vitamin E. The processing of tomatoes may significantly affect the bioavailability of these nutrients. Homogenization, heat treatment, and the incorporation of oil in processed tomato products leads to increased lycopene bioavailability, while some of the same processes cause significant loss of other nutrients. Nutrient content is also affected by variety and maturity. Many of these nutrients may function individually, or in concert, to protect lipoproteins and vascular cells from oxidation, the most widely accepted theory for the genesis of atherosclerosis. This hypothesis has been supported by in vitro, limited in vivo, and many epidemiological studies that associate reduced cardiovascular risk with consumption of antioxidant-rich foods. Other cardioprotective functions provided by the nutrients in tomatoes may include the reduction of low-density lipoprotein (LDL) cholesterol, homocysteine, platelet aggregation, and blood pressure. Because tomatoes include several nutrients associated with theoretical or proven effects and are widely consumed year round, they may be considered a valuable component of a cardioprotective diet.",
+  "modified": false,
+  "original_char_count": 1479,
+  "sanitized_char_count": 1479,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1283,
+      "boundary_end": 1479,
+      "context": "development of cardiovascular disease, the leading cause of death in the Western world. Tomatoes, the second most produced and consumed vegetable nationwide, are a rich source of lycopene, beta-carotene, folate, potassium, vitamin C, flavonoids, and vitamin E. The processing of tomatoes may significantly affect the bioavailability of these nutrients. Homogenization, heat treatment, and the incorporation of oil in processed tomato products leads to increased lycopene bioavailability, while some of the same processes cause significant loss of other nutrients. Nutrient content is also affected by variety and maturity. Many of these nutrients may function individually, or in concert, to protect lipoproteins and vascular cells from oxidation, the most widely accepted theory for the genesis of atherosclerosis. This hypothesis has been supported by in vitro, limited in vivo, and many epidemiological studies that associate reduced cardiovascular risk with consumption of antioxidant-rich foods. Other cardioprotective functions provided by the nutrients in tomatoes may include the reduction of low-density lipoprotein (LDL) cholesterol, homocysteine, platelet aggregation, and blood pressure.",
+      "target": "Because tomatoes include several nutrients associated with theoretical or proven effects and are widely consumed year round, they may be considered a valuable component of a cardioprotective diet.",
+      "loss_target": 3.181835651397705,
+      "loss_target_given_context": 2.419788360595703,
+      "delta_loss": 0.762047290802002,
+      "gain_ratio": 0.23949926215304446,
+      "score": -0.23949926215304446,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4482",
+  "source_doc_id": "MED-4482",
+  "title": "Meat consumption, Cooking Practices, Meat Mutagens and Risk of Prostate Cancer",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Meat consumption, Cooking Practices, Meat Mutagens and Risk of Prostate Cancer\nConsumption of red meat, particularly well done meat, has been associated with increased prostate cancer risk. High temperature cooking methods such as grilling and barbequeing may produce heterocyclic amines (HCAs) and polycyclic aromatic hydrocarbons (PAHs) which are known carcinogens. We assessed the association with meat consumption and estimated HCA and PAH exposure in a population-based case-control study of prostate cancer. Newly diagnosed cases aged 40–79 years (531 advanced cases, 195 localized cases) and 527 controls were asked about dietary intake, including usual meat cooking methods and doneness levels. Odds ratios (OR) and 95% confidence intervals (CI) were calculated using multivariate logistic regression. For advanced prostate cancer, but not localized disease, increased risks were associated with higher consumption of hamburgers (OR=1.79. CI=1.10–2.92), processed meat (OR=1.57, CI=1.04, 2.36), grilled red meat (OR=1.63, CI=0.99–2.68), and well done red meat (OR=1.52, CI=0.93–2.46), and intermediate intake of 2-amino-1-methyl1-6-phenylimidazo[4,5-b]pyridine (PhIP) (quartile 2 vs. 1: OR=1.41, CI=0.98–2.01; quartile 3 vs. 1: OR=1.42, CI=0.98–2.04), but not for higher intake. White meat consumption was not associated with prostate cancer. These findings provide further evidence that consumption of processed meat and red meat cooked at high temperature is associated with increased risk of advanced, but not localized prostate cancer.",
+  "sanitized_text": "Meat consumption, Cooking Practices, Meat Mutagens and Risk of Prostate Cancer\nConsumption of red meat, particularly well done meat, has been associated with increased prostate cancer risk. High temperature cooking methods such as grilling and barbequeing may produce heterocyclic amines (HCAs) and polycyclic aromatic hydrocarbons (PAHs) which are known carcinogens. We assessed the association with meat consumption and estimated HCA and PAH exposure in a population-based case-control study of prostate cancer. Newly diagnosed cases aged 40–79 years (531 advanced cases, 195 localized cases) and 527 controls were asked about dietary intake, including usual meat cooking methods and doneness levels. Odds ratios (OR) and 95% confidence intervals (CI) were calculated using multivariate logistic regression. For advanced prostate cancer, but not localized disease, increased risks were associated with higher consumption of hamburgers (OR=1.79. CI=1.10–2.92), processed meat (OR=1.57, CI=1.04, 2.36), grilled red meat (OR=1.63, CI=0.99–2.68), and well done red meat (OR=1.52, CI=0.93–2.46), and intermediate intake of 2-amino-1-methyl1-6-phenylimidazo[4,5-b]pyridine (PhIP) (quartile 2 vs. 1: OR=1.41, CI=0.98–2.01; quartile 3 vs. 1: OR=1.42, CI=0.98–2.04), but not for higher intake. White meat consumption was not associated with prostate cancer. These findings provide further evidence that consumption of processed meat and red meat cooked at high temperature is associated with increased risk of advanced, but not localized prostate cancer.",
+  "modified": false,
+  "original_char_count": 1547,
+  "sanitized_char_count": 1547,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1351,
+      "boundary_end": 1547,
+      "context": "with increased prostate cancer risk. High temperature cooking methods such as grilling and barbequeing may produce heterocyclic amines (HCAs) and polycyclic aromatic hydrocarbons (PAHs) which are known carcinogens. We assessed the association with meat consumption and estimated HCA and PAH exposure in a population-based case-control study of prostate cancer. Newly diagnosed cases aged 40–79 years (531 advanced cases, 195 localized cases) and 527 controls were asked about dietary intake, including usual meat cooking methods and doneness levels. Odds ratios (OR) and 95% confidence intervals (CI) were calculated using multivariate logistic regression. For advanced prostate cancer, but not localized disease, increased risks were associated with higher consumption of hamburgers (OR=1.79. CI=1.10–2.92), processed meat (OR=1.57, CI=1.04, 2.36), grilled red meat (OR=1.63, CI=0.99–2.68), and well done red meat (OR=1.52, CI=0.93–2.46), and intermediate intake of 2-amino-1-methyl1-6-phenylimidazo[4,5-b]pyridine (PhIP) (quartile 2 vs. 1: OR=1.41, CI=0.98–2.01; quartile 3 vs. 1: OR=1.42, CI=0.98–2.04), but not for higher intake. White meat consumption was not associated with prostate cancer.",
+      "target": "These findings provide further evidence that consumption of processed meat and red meat cooked at high temperature is associated with increased risk of advanced, but not localized prostate cancer.",
+      "loss_target": 2.50333571434021,
+      "loss_target_given_context": 0.9422932863235474,
+      "delta_loss": 1.5610424280166626,
+      "gain_ratio": 0.6235849307283573,
+      "score": -0.6235849307283573,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

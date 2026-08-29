@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3599",
+  "source_doc_id": "MED-3599",
+  "title": "Updated estimate of trans fat intake by the US population.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Updated estimate of trans fat intake by the US population.\nThe dietary intake of industrially-produced trans fatty acids (IP-TFA) was estimated for the US population (aged 2 years or more), children (aged 2-5 years) and teenage boys (aged 13-18 years) using the 2003-2006 National Health and Nutrition Examination Survey (NHANES) food consumption database, market share information and trans fat levels based on label survey data and analytical data for packaged and in-store purchased foods. For fast foods, a Monte Carlo model was used to estimate IP-TFA intake. Further, the intake of trans fat was also estimated using trans fat levels reported in the US Department of Agriculture (USDA) National Nutrient Database for Standard Reference, Release 22 (SR 22, 2009) and the 2003-2006 NHANES food consumption database. The cumulative intake of IP-TFA was estimated to be 1.3 g per person per day (g/p/d) at the mean for the US population. Based on this estimate, the mean dietary intake of IP-TFA has decreased significantly from that cited in the 2003 US Food and Drug Administration (FDA) final rule that established labelling requirements for trans fat (4.6 g/p/d for adults). Although the overall intake of IP-TFA has decreased as a result of the implementation of labelling requirements, individuals with certain dietary habits may still consume high levels of IP-TFA if certain brands or types of food products are frequently chosen.",
+  "sanitized_text": "Updated estimate of trans fat intake by the US population.\nThe dietary intake of industrially-produced trans fatty acids (IP-TFA) was estimated for the US population (aged 2 years or more), children (aged 2-5 years) and teenage boys (aged 13-18 years) using the 2003-2006 National Health and Nutrition Examination Survey (NHANES) food consumption database, market share information and trans fat levels based on label survey data and analytical data for packaged and in-store purchased foods. For fast foods, a Monte Carlo model was used to estimate IP-TFA intake. Further, the intake of trans fat was also estimated using trans fat levels reported in the US Department of Agriculture (USDA) National Nutrient Database for Standard Reference, Release 22 (SR 22, 2009) and the 2003-2006 NHANES food consumption database. The cumulative intake of IP-TFA was estimated to be 1.3 g per person per day (g/p/d) at the mean for the US population. Based on this estimate, the mean dietary intake of IP-TFA has decreased significantly from that cited in the 2003 US Food and Drug Administration (FDA) final rule that established labelling requirements for trans fat (4.6 g/p/d for adults). Although the overall intake of IP-TFA has decreased as a result of the implementation of labelling requirements, individuals with certain dietary habits may still consume high levels of IP-TFA if certain brands or types of food products are frequently chosen.",
+  "modified": false,
+  "original_char_count": 1440,
+  "sanitized_char_count": 1440,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1181,
+      "boundary_end": 1440,
+      "context": "Updated estimate of trans fat intake by the US population. The dietary intake of industrially-produced trans fatty acids (IP-TFA) was estimated for the US population (aged 2 years or more), children (aged 2-5 years) and teenage boys (aged 13-18 years) using the 2003-2006 National Health and Nutrition Examination Survey (NHANES) food consumption database, market share information and trans fat levels based on label survey data and analytical data for packaged and in-store purchased foods. For fast foods, a Monte Carlo model was used to estimate IP-TFA intake. Further, the intake of trans fat was also estimated using trans fat levels reported in the US Department of Agriculture (USDA) National Nutrient Database for Standard Reference, Release 22 (SR 22, 2009) and the 2003-2006 NHANES food consumption database. The cumulative intake of IP-TFA was estimated to be 1.3 g per person per day (g/p/d) at the mean for the US population. Based on this estimate, the mean dietary intake of IP-TFA has decreased significantly from that cited in the 2003 US Food and Drug Administration (FDA) final rule that established labelling requirements for trans fat (4.6 g/p/d for adults).",
+      "target": "Although the overall intake of IP-TFA has decreased as a result of the implementation of labelling requirements, individuals with certain dietary habits may still consume high levels of IP-TFA if certain brands or types of food products are frequently chosen.",
+      "loss_target": 2.6656153202056885,
+      "loss_target_given_context": 1.6240284442901611,
+      "delta_loss": 1.0415868759155273,
+      "gain_ratio": 0.39074913323770766,
+      "score": -0.39074913323770766,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2595",
+  "source_doc_id": "MED-2595",
+  "title": "Health benefits of nut consumption with special reference to body weight control.",
+  "original_text": "Health benefits of nut consumption with special reference to body weight control.\nNuts are an integral part of the Mediterranean food patterns, and their incorporation into the regular diets of human beings is believed to provide many health benefits. The recent recognition of nuts as \"heart-healthy\" foods by the U.S. Food and Drug Administration has given a major boost to the positive image of nuts. Nut consumption has been associated with several health benefits, such as antioxidant, hypocholesterolemic, cardioprotective, anticancer, anti-inflammatory, and antidiabetic benefits, among other functional properties. However, although nuts possess these many health benefits, their consumption has been hampered by a lack of adequate information regarding those benefits. In addition, because nuts are energy-dense foods with high-fat content, there is a misconception among consumers that increased consumption may lead to unwanted gain in body weight with the risk of developing overweight/obesity. Nonetheless, available epidemiologic studies and short-term controlled feeding trials have supported the theory that the inclusion of nuts in the typical diet does not induce weight gain, despite an expected increase in total caloric intake. To address the misperception about nuts and body weight gain, the present review focuses mainly on the relation between nut consumption and body weight gain, in the context of the many health benefits of nuts. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Health benefits of nut consumption with special reference to body weight control.\nNuts are an integral part of the Mediterranean food patterns, and their incorporation into the regular diets of human beings is believed to provide many health benefits. The recent recognition of nuts as \"heart-healthy\" foods by the U.S. Food and Drug Administration has given a major boost to the positive image of nuts. Nut consumption has been associated with several health benefits, such as antioxidant, hypocholesterolemic, cardioprotective, anticancer, anti-inflammatory, and antidiabetic benefits, among other functional properties. However, although nuts possess these many health benefits, their consumption has been hampered by a lack of adequate information regarding those benefits. In addition, because nuts are energy-dense foods with high-fat content, there is a misconception among consumers that increased consumption may lead to unwanted gain in body weight with the risk of developing overweight/obesity. Nonetheless, available epidemiologic studies and short-term controlled feeding trials have supported the theory that the inclusion of nuts in the typical diet does not induce weight gain, despite an expected increase in total caloric intake. To address the misperception about nuts and body weight gain, the present review focuses mainly on the relation between nut consumption and body weight gain, in the context of the many health benefits of nuts.",
+  "modified": true,
+  "original_char_count": 1510,
+  "sanitized_char_count": 1458,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1459,
+      "boundary_end": 1489,
+      "context": "recognition of nuts as \"heart-healthy\" foods by the U.S. Food and Drug Administration has given a major boost to the positive image of nuts. Nut consumption has been associated with several health benefits, such as antioxidant, hypocholesterolemic, cardioprotective, anticancer, anti-inflammatory, and antidiabetic benefits, among other functional properties. However, although nuts possess these many health benefits, their consumption has been hampered by a lack of adequate information regarding those benefits. In addition, because nuts are energy-dense foods with high-fat content, there is a misconception among consumers that increased consumption may lead to unwanted gain in body weight with the risk of developing overweight/obesity. Nonetheless, available epidemiologic studies and short-term controlled feeding trials have supported the theory that the inclusion of nuts in the typical diet does not induce weight gain, despite an expected increase in total caloric intake. To address the misperception about nuts and body weight gain, the present review focuses mainly on the relation between nut consumption and body weight gain, in the context of the many health benefits of nuts.",
+      "target": "Copyright © 2012 Elsevier Inc.",
+      "loss_target": 1.084797978401184,
+      "loss_target_given_context": 1.7548083066940308,
+      "delta_loss": -0.6700103282928467,
+      "gain_ratio": -0.6176360406573886,
+      "score": 0.6176360406573886,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1249,
+      "boundary_end": 1458,
+      "context": "to body weight control. Nuts are an integral part of the Mediterranean food patterns, and their incorporation into the regular diets of human beings is believed to provide many health benefits. The recent recognition of nuts as \"heart-healthy\" foods by the U.S. Food and Drug Administration has given a major boost to the positive image of nuts. Nut consumption has been associated with several health benefits, such as antioxidant, hypocholesterolemic, cardioprotective, anticancer, anti-inflammatory, and antidiabetic benefits, among other functional properties. However, although nuts possess these many health benefits, their consumption has been hampered by a lack of adequate information regarding those benefits. In addition, because nuts are energy-dense foods with high-fat content, there is a misconception among consumers that increased consumption may lead to unwanted gain in body weight with the risk of developing overweight/obesity. Nonetheless, available epidemiologic studies and short-term controlled feeding trials have supported the theory that the inclusion of nuts in the typical diet does not induce weight gain, despite an expected increase in total caloric intake.",
+      "target": "To address the misperception about nuts and body weight gain, the present review focuses mainly on the relation between nut consumption and body weight gain, in the context of the many health benefits of nuts.",
+      "loss_target": 2.611414670944214,
+      "loss_target_given_context": 1.8242499828338623,
+      "delta_loss": 0.7871646881103516,
+      "gain_ratio": 0.30143228376125153,
+      "score": -0.30143228376125153,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1459,
+      "target": "Copyright © 2012 Elsevier Inc.",
+      "score": 0.6176360406573886,
+      "deleted_suffix": "Copyright © 2012 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

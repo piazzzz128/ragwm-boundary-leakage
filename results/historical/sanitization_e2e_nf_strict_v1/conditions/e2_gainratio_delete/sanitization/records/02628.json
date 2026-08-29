@@ -1,0 +1,30 @@
+{
+  "internal_id": "MED-4497",
+  "source_doc_id": "MED-4497",
+  "title": "The case of the purple colon.",
+  "original_text": "The case of the purple colon.\nPurple discoloration of the large bowel at autopsy was related to beetroot ingestion and post-mortem changes.",
+  "sanitized_text": "The case of the purple colon.\nPurple discoloration of the large bowel at autopsy was related to beetroot ingestion and post-mortem changes.",
+  "modified": false,
+  "original_char_count": 139,
+  "sanitized_char_count": 139,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 30,
+      "boundary_end": 139,
+      "context": "The case of the purple colon.",
+      "target": "Purple discoloration of the large bowel at autopsy was related to beetroot ingestion and post-mortem changes.",
+      "loss_target": 3.525784492492676,
+      "loss_target_given_context": 3.2847211360931396,
+      "delta_loss": 0.24106335639953613,
+      "gain_ratio": 0.06837155161151327,
+      "score": -0.06837155161151327,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

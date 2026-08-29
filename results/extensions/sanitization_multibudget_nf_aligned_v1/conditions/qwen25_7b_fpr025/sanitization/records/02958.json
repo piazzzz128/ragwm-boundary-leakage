@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4879",
+  "source_doc_id": "MED-4879",
+  "title": "Estimating age of humans based on telomere shortening.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Estimating age of humans based on telomere shortening.\nTo estimate age using DNA based on telomere shortening, we determined the terminal restriction fragment (TRF) length, as telomere length, using Southern blot analysis of peripheral human blood and blood stains. All blood stains had been stored at room temperature for 5 months. The average TRF length clearly showed a tendency to shortening with aging. The formula for age estimation was based on a correlation between average TRF length and age of the subjects. The estimated age calculated from TRF length widely depends on environmental and genetic factors. However, as long as the DNA is well preserved, use of our method is feasible regardless of age of the subject and can give a rough estimation of age of subjects in forensic samples that carry no morphological information. Copyright 2002 Elsevier Science Ireland Ltd.",
+  "sanitized_text": "Estimating age of humans based on telomere shortening.\nTo estimate age using DNA based on telomere shortening, we determined the terminal restriction fragment (TRF) length, as telomere length, using Southern blot analysis of peripheral human blood and blood stains. All blood stains had been stored at room temperature for 5 months. The average TRF length clearly showed a tendency to shortening with aging. The formula for age estimation was based on a correlation between average TRF length and age of the subjects. The estimated age calculated from TRF length widely depends on environmental and genetic factors. However, as long as the DNA is well preserved, use of our method is feasible regardless of age of the subject and can give a rough estimation of age of subjects in forensic samples that carry no morphological information. Copyright 2002 Elsevier Science Ireland Ltd.",
+  "modified": false,
+  "original_char_count": 882,
+  "sanitized_char_count": 882,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 838,
+      "boundary_end": 882,
+      "context": "Estimating age of humans based on telomere shortening. To estimate age using DNA based on telomere shortening, we determined the terminal restriction fragment (TRF) length, as telomere length, using Southern blot analysis of peripheral human blood and blood stains. All blood stains had been stored at room temperature for 5 months. The average TRF length clearly showed a tendency to shortening with aging. The formula for age estimation was based on a correlation between average TRF length and age of the subjects. The estimated age calculated from TRF length widely depends on environmental and genetic factors. However, as long as the DNA is well preserved, use of our method is feasible regardless of age of the subject and can give a rough estimation of age of subjects in forensic samples that carry no morphological information.",
+      "target": "Copyright 2002 Elsevier Science Ireland Ltd.",
+      "loss_target": 1.692482352256775,
+      "loss_target_given_context": 1.0371454954147339,
+      "delta_loss": 0.655336856842041,
+      "gain_ratio": 0.38720454365045964,
+      "score": -0.38720454365045964,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

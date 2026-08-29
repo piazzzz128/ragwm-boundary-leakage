@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3502",
+  "source_doc_id": "MED-3502",
+  "title": "Review of harmful gastrointestinal effects of carrageenan in animal experiments.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Review of harmful gastrointestinal effects of carrageenan in animal experiments.\nIn this article I review the association between exposure to carrageenan and the occurrence of colonic ulcerations and gastrointestinal neoplasms in animal models. Although the International Agency for Research on Cancer in 1982 identified sufficient evidence for the carcinogenicity of degraded carrageenan in animals to regard it as posing a carcinogenic risk to humans, carrageenan is still used widely as a thickener, stabilizer, and texturizer in a variety of processed foods prevalent in the Western diet. I reviewed experimental data pertaining to carrageenan's effects with particular attention to the occurrence of ulcerations and neoplasms in association with exposure to carrageenan. In addition, I reviewed from established sources mechanisms for production of degraded carrageenan from undegraded or native carrageenan and data with regard to carrageenan intake. Review of these data demonstrated that exposure to undegraded as well as to degraded carrageenan was associated with the occurrence of intestinal ulcerations and neoplasms. This association may be attributed to contamination of undegraded carrageenan by components of low molecular weight, spontaneous metabolism of undegraded carrageenan by acid hydrolysis under conditions of normal digestion, or the interactions with intestinal bacteria. Although in 1972, the U.S. Food and Drug Administration considered restricting dietary carrageenan to an average molecular weight > 100,000, this resolution did not prevail, and no subsequent regulation has restricted use. Because of the acknowledged carcinogenic properties of degraded carrageenan in animal models and the cancer-promoting effects of undegraded carrageenan in experimental models, the widespread use of carrageenan in the Western diet should be reconsidered.",
+  "sanitized_text": "Review of harmful gastrointestinal effects of carrageenan in animal experiments.\nIn this article I review the association between exposure to carrageenan and the occurrence of colonic ulcerations and gastrointestinal neoplasms in animal models. Although the International Agency for Research on Cancer in 1982 identified sufficient evidence for the carcinogenicity of degraded carrageenan in animals to regard it as posing a carcinogenic risk to humans, carrageenan is still used widely as a thickener, stabilizer, and texturizer in a variety of processed foods prevalent in the Western diet. I reviewed experimental data pertaining to carrageenan's effects with particular attention to the occurrence of ulcerations and neoplasms in association with exposure to carrageenan. In addition, I reviewed from established sources mechanisms for production of degraded carrageenan from undegraded or native carrageenan and data with regard to carrageenan intake. Review of these data demonstrated that exposure to undegraded as well as to degraded carrageenan was associated with the occurrence of intestinal ulcerations and neoplasms. This association may be attributed to contamination of undegraded carrageenan by components of low molecular weight, spontaneous metabolism of undegraded carrageenan by acid hydrolysis under conditions of normal digestion, or the interactions with intestinal bacteria. Although in 1972, the U.S. Food and Drug Administration considered restricting dietary carrageenan to an average molecular weight > 100,000, this resolution did not prevail, and no subsequent regulation has restricted use. Because of the acknowledged carcinogenic properties of degraded carrageenan in animal models and the cancer-promoting effects of undegraded carrageenan in experimental models, the widespread use of carrageenan in the Western diet should be reconsidered.",
+  "modified": false,
+  "original_char_count": 1875,
+  "sanitized_char_count": 1875,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1622,
+      "boundary_end": 1875,
+      "context": "a carcinogenic risk to humans, carrageenan is still used widely as a thickener, stabilizer, and texturizer in a variety of processed foods prevalent in the Western diet. I reviewed experimental data pertaining to carrageenan's effects with particular attention to the occurrence of ulcerations and neoplasms in association with exposure to carrageenan. In addition, I reviewed from established sources mechanisms for production of degraded carrageenan from undegraded or native carrageenan and data with regard to carrageenan intake. Review of these data demonstrated that exposure to undegraded as well as to degraded carrageenan was associated with the occurrence of intestinal ulcerations and neoplasms. This association may be attributed to contamination of undegraded carrageenan by components of low molecular weight, spontaneous metabolism of undegraded carrageenan by acid hydrolysis under conditions of normal digestion, or the interactions with intestinal bacteria. Although in 1972, the U.S. Food and Drug Administration considered restricting dietary carrageenan to an average molecular weight > 100,000, this resolution did not prevail, and no subsequent regulation has restricted use.",
+      "target": "Because of the acknowledged carcinogenic properties of degraded carrageenan in animal models and the cancer-promoting effects of undegraded carrageenan in experimental models, the widespread use of carrageenan in the Western diet should be reconsidered.",
+      "loss_target": 2.0784926414489746,
+      "loss_target_given_context": 1.1038790941238403,
+      "delta_loss": 0.9746135473251343,
+      "gain_ratio": 0.4689040162517507,
+      "score": -0.4689040162517507,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

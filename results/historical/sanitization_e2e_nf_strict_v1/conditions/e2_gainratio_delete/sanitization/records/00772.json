@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1947",
+  "source_doc_id": "MED-1947",
+  "title": "Role of curcumin in idiopathic inflammatory orbital pseudotumours.",
+  "original_text": "Role of curcumin in idiopathic inflammatory orbital pseudotumours.\nThe present report, describes for the first time the clinical efficacy of curcumin, the active constituent of rhizomes of Curcuma longa, in the treatment of patients suffering from idiopathic inflammatory orbital pseudotumours. Curcumin was administered orally at a dose of 375 mg/3 times/day orally for a period of 6-22 months in eight patients. They were followed up for a period of 2 years at 3 monthly intervals. Five patients completed the study, out of which four recovered completely and in one patient the swelling regressed completely but some limitation of movement persisted. No side effect was noted in any patient and there was no recurrence. It is suggested that curcumin could be used as a safe and effective drug in the treatment of idiopathic inflammatory orbital pseudotumours. Copyright 2000 John Wiley & Sons, Ltd.",
+  "sanitized_text": "Role of curcumin in idiopathic inflammatory orbital pseudotumours.\nThe present report, describes for the first time the clinical efficacy of curcumin, the active constituent of rhizomes of Curcuma longa, in the treatment of patients suffering from idiopathic inflammatory orbital pseudotumours. Curcumin was administered orally at a dose of 375 mg/3 times/day orally for a period of 6-22 months in eight patients. They were followed up for a period of 2 years at 3 monthly intervals. Five patients completed the study, out of which four recovered completely and in one patient the swelling regressed completely but some limitation of movement persisted. No side effect was noted in any patient and there was no recurrence. It is suggested that curcumin could be used as a safe and effective drug in the treatment of idiopathic inflammatory orbital pseudotumours.",
+  "modified": true,
+  "original_char_count": 901,
+  "sanitized_char_count": 862,
+  "deleted_char_count": 39,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 863,
+      "boundary_end": 901,
+      "context": "Role of curcumin in idiopathic inflammatory orbital pseudotumours. The present report, describes for the first time the clinical efficacy of curcumin, the active constituent of rhizomes of Curcuma longa, in the treatment of patients suffering from idiopathic inflammatory orbital pseudotumours. Curcumin was administered orally at a dose of 375 mg/3 times/day orally for a period of 6-22 months in eight patients. They were followed up for a period of 2 years at 3 monthly intervals. Five patients completed the study, out of which four recovered completely and in one patient the swelling regressed completely but some limitation of movement persisted. No side effect was noted in any patient and there was no recurrence. It is suggested that curcumin could be used as a safe and effective drug in the treatment of idiopathic inflammatory orbital pseudotumours.",
+      "target": "Copyright 2000 John Wiley & Sons, Ltd.",
+      "loss_target": 1.240435242652893,
+      "loss_target_given_context": 1.681661605834961,
+      "delta_loss": -0.44122636318206787,
+      "gain_ratio": -0.35570285977881944,
+      "score": 0.35570285977881944,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 723,
+      "boundary_end": 862,
+      "context": "Role of curcumin in idiopathic inflammatory orbital pseudotumours. The present report, describes for the first time the clinical efficacy of curcumin, the active constituent of rhizomes of Curcuma longa, in the treatment of patients suffering from idiopathic inflammatory orbital pseudotumours. Curcumin was administered orally at a dose of 375 mg/3 times/day orally for a period of 6-22 months in eight patients. They were followed up for a period of 2 years at 3 monthly intervals. Five patients completed the study, out of which four recovered completely and in one patient the swelling regressed completely but some limitation of movement persisted. No side effect was noted in any patient and there was no recurrence.",
+      "target": "It is suggested that curcumin could be used as a safe and effective drug in the treatment of idiopathic inflammatory orbital pseudotumours.",
+      "loss_target": 2.2440807819366455,
+      "loss_target_given_context": 1.0265908241271973,
+      "delta_loss": 1.2174899578094482,
+      "gain_ratio": 0.5425339264118435,
+      "score": -0.5425339264118435,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 863,
+      "target": "Copyright 2000 John Wiley & Sons, Ltd.",
+      "score": 0.35570285977881944,
+      "deleted_suffix": "Copyright 2000 John Wiley & Sons, Ltd.",
+      "deleted_char_count": 38
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

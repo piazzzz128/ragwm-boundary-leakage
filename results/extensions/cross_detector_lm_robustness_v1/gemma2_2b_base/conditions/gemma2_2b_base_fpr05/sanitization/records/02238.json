@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3977",
+  "source_doc_id": "MED-3977",
+  "title": "Survival following an acute coronary syndrome: a pet theory put to the test.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Survival following an acute coronary syndrome: a pet theory put to the test.\nOBJECTIVE: The aim of this study was to revisit findings from previous studies reporting that pet ownership improves outcome following an admission for acute coronary syndrome (ACS). METHOD: Four hundred and twenty-four patients admitted to a cardiac unit with an ACS completed questions regarding pet ownership in hospital. Rates of cardiac death and readmission were assessed 1 year following hospitalization. RESULTS: Pet owners were more likely to experience a death or readmission following their hospitalization, after controlling for key psychosocial and medical covariates. When dog and cat owners were considered separately, cat ownership was significantly associated with increased risk of death or readmission. CONCLUSION: In this independent study, pet ownership at baseline, and cat ownership in particular, was associated with increased cardiac morbidity and mortality in the year following an admission for an acute coronary syndrome, a finding contrary to previous reports.",
+  "sanitized_text": "Survival following an acute coronary syndrome: a pet theory put to the test.\nOBJECTIVE: The aim of this study was to revisit findings from previous studies reporting that pet ownership improves outcome following an admission for acute coronary syndrome (ACS). METHOD: Four hundred and twenty-four patients admitted to a cardiac unit with an ACS completed questions regarding pet ownership in hospital. Rates of cardiac death and readmission were assessed 1 year following hospitalization. RESULTS: Pet owners were more likely to experience a death or readmission following their hospitalization, after controlling for key psychosocial and medical covariates. When dog and cat owners were considered separately, cat ownership was significantly associated with increased risk of death or readmission. CONCLUSION: In this independent study, pet ownership at baseline, and cat ownership in particular, was associated with increased cardiac morbidity and mortality in the year following an admission for an acute coronary syndrome, a finding contrary to previous reports.",
+  "modified": false,
+  "original_char_count": 1066,
+  "sanitized_char_count": 1066,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 799,
+      "boundary_end": 1066,
+      "context": "Survival following an acute coronary syndrome: a pet theory put to the test. OBJECTIVE: The aim of this study was to revisit findings from previous studies reporting that pet ownership improves outcome following an admission for acute coronary syndrome (ACS). METHOD: Four hundred and twenty-four patients admitted to a cardiac unit with an ACS completed questions regarding pet ownership in hospital. Rates of cardiac death and readmission were assessed 1 year following hospitalization. RESULTS: Pet owners were more likely to experience a death or readmission following their hospitalization, after controlling for key psychosocial and medical covariates. When dog and cat owners were considered separately, cat ownership was significantly associated with increased risk of death or readmission.",
+      "target": "CONCLUSION: In this independent study, pet ownership at baseline, and cat ownership in particular, was associated with increased cardiac morbidity and mortality in the year following an admission for an acute coronary syndrome, a finding contrary to previous reports.",
+      "loss_target": 6.965461730957031,
+      "loss_target_given_context": 3.288801670074463,
+      "delta_loss": 3.6766600608825684,
+      "gain_ratio": 0.5278415420103683,
+      "score": -0.5278415420103683,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3932",
+  "source_doc_id": "MED-3932",
+  "title": "Caffeine and risk of Parkinson disease in a large cohort of men and women",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Caffeine and risk of Parkinson disease in a large cohort of men and women\nBackground Caffeine consumption has been associated with a reduced risk of Parkinson disease. The association is strong and consistent in men, but uncertain in women, possibly because of an interaction with hormone replacement therapy. We sought to confirm these findings using data on Parkinson disease incidence in the CPS II Nutrition Cohort, a large prospective study of men and women. Methods We conducted a prospective study of caffeine intake and risk of PD within the Cancer Prevention Study II Nutrition Cohort. Intakes of coffee and other sources of caffeine were assessed at baseline. Incident cases of PD (n = 317; 197 men and 120 women) were confirmed by treating physicians and medical record review. Relative risks (RR) were estimated using proportional hazards models, adjusting for age, smoking and alcohol consumption. Results After adjustment for age, smoking and alcohol intake, high caffeine consumption was associated with a reduced risk of PD. The relative risk comparing the 5th to the 1st quintile of caffeine intake was 0.43 (CI: 0.26, 0.71, p-trend = <0.002) in men, and 0.61 (95% CI: 0.34, 1.09; p for trend =0.05) in women. Among women, this association was stronger among never users of hormone replacement therapy (RR=0.32) than among ever users (RR=0.81, p-interaction = 0.15). Consumption of decaffeinated coffee was not associated with PD risk. Conclusion Findings from this large prospective study of men and women are consistent with a protective effect of caffeine intake on PD incidence, with an attenuating influence of hormone replacement therapy in women.",
+  "sanitized_text": "Caffeine and risk of Parkinson disease in a large cohort of men and women\nBackground Caffeine consumption has been associated with a reduced risk of Parkinson disease. The association is strong and consistent in men, but uncertain in women, possibly because of an interaction with hormone replacement therapy. We sought to confirm these findings using data on Parkinson disease incidence in the CPS II Nutrition Cohort, a large prospective study of men and women. Methods We conducted a prospective study of caffeine intake and risk of PD within the Cancer Prevention Study II Nutrition Cohort. Intakes of coffee and other sources of caffeine were assessed at baseline. Incident cases of PD (n = 317; 197 men and 120 women) were confirmed by treating physicians and medical record review. Relative risks (RR) were estimated using proportional hazards models, adjusting for age, smoking and alcohol consumption. Results After adjustment for age, smoking and alcohol intake, high caffeine consumption was associated with a reduced risk of PD. The relative risk comparing the 5th to the 1st quintile of caffeine intake was 0.43 (CI: 0.26, 0.71, p-trend = <0.002) in men, and 0.61 (95% CI: 0.34, 1.09; p for trend =0.05) in women. Among women, this association was stronger among never users of hormone replacement therapy (RR=0.32) than among ever users (RR=0.81, p-interaction = 0.15). Consumption of decaffeinated coffee was not associated with PD risk. Conclusion Findings from this large prospective study of men and women are consistent with a protective effect of caffeine intake on PD incidence, with an attenuating influence of hormone replacement therapy in women.",
+  "modified": false,
+  "original_char_count": 1670,
+  "sanitized_char_count": 1670,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1453,
+      "boundary_end": 1670,
+      "context": "of an interaction with hormone replacement therapy. We sought to confirm these findings using data on Parkinson disease incidence in the CPS II Nutrition Cohort, a large prospective study of men and women. Methods We conducted a prospective study of caffeine intake and risk of PD within the Cancer Prevention Study II Nutrition Cohort. Intakes of coffee and other sources of caffeine were assessed at baseline. Incident cases of PD (n = 317; 197 men and 120 women) were confirmed by treating physicians and medical record review. Relative risks (RR) were estimated using proportional hazards models, adjusting for age, smoking and alcohol consumption. Results After adjustment for age, smoking and alcohol intake, high caffeine consumption was associated with a reduced risk of PD. The relative risk comparing the 5th to the 1st quintile of caffeine intake was 0.43 (CI: 0.26, 0.71, p-trend = <0.002) in men, and 0.61 (95% CI: 0.34, 1.09; p for trend =0.05) in women. Among women, this association was stronger among never users of hormone replacement therapy (RR=0.32) than among ever users (RR=0.81, p-interaction = 0.15). Consumption of decaffeinated coffee was not associated with PD risk.",
+      "target": "Conclusion Findings from this large prospective study of men and women are consistent with a protective effect of caffeine intake on PD incidence, with an attenuating influence of hormone replacement therapy in women.",
+      "loss_target": 2.8154540061950684,
+      "loss_target_given_context": 1.3916618824005127,
+      "delta_loss": 1.4237921237945557,
+      "gain_ratio": 0.5057060497744492,
+      "score": -0.5057060497744492,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

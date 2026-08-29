@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2822",
+  "source_doc_id": "MED-2822",
+  "title": "A randomized, pilot study to assess the efficacy and safety of curcumin in patients with active rheumatoid arthritis.",
+  "original_text": "A randomized, pilot study to assess the efficacy and safety of curcumin in patients with active rheumatoid arthritis.\nCurcumin is known to possess potent antiinflammatory and antiarthritic properties. This pilot clinical study evaluated the safety and effectiveness of curcumin alone, and in combination with diclofenac sodium in patients with active rheumatoid arthritis (RA). Forty-five patients diagnosed with RA were randomized into three groups with patients receiving curcumin (500 mg) and diclofenac sodium (50 mg) alone or their combination. The primary endpoints were reduction in Disease Activity Score (DAS) 28. The secondary endpoints included American College of Rheumatology (ACR) criteria for reduction in tenderness and swelling of joint scores. Patients in all three treatment groups showed statistically significant changes in their DAS scores. Interestingly, the curcumin group showed the highest percentage of improvement in overall DAS and ACR scores (ACR 20, 50 and 70) and these scores were significantly better than the patients in the diclofenac sodium group. More importantly, curcumin treatment was found to be safe and did not relate with any adverse events. Our study provides the first evidence for the safety and superiority of curcumin treatment in patients with active RA, and highlights the need for future large-scale trials to validate these findings in patients with RA and other arthritic conditions. Copyright © 2012 John Wiley & Sons, Ltd.",
+  "sanitized_text": "A randomized, pilot study to assess the efficacy and safety of curcumin in patients with active rheumatoid arthritis.\nCurcumin is known to possess potent antiinflammatory and antiarthritic properties. This pilot clinical study evaluated the safety and effectiveness of curcumin alone, and in combination with diclofenac sodium in patients with active rheumatoid arthritis (RA). Forty-five patients diagnosed with RA were randomized into three groups with patients receiving curcumin (500 mg) and diclofenac sodium (50 mg) alone or their combination. The primary endpoints were reduction in Disease Activity Score (DAS) 28. The secondary endpoints included American College of Rheumatology (ACR) criteria for reduction in tenderness and swelling of joint scores. Patients in all three treatment groups showed statistically significant changes in their DAS scores. Interestingly, the curcumin group showed the highest percentage of improvement in overall DAS and ACR scores (ACR 20, 50 and 70) and these scores were significantly better than the patients in the diclofenac sodium group. More importantly, curcumin treatment was found to be safe and did not relate with any adverse events. Our study provides the first evidence for the safety and superiority of curcumin treatment in patients with active RA, and highlights the need for future large-scale trials to validate these findings in patients with RA and other arthritic conditions.",
+  "modified": true,
+  "original_char_count": 1479,
+  "sanitized_char_count": 1438,
+  "deleted_char_count": 41,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1439,
+      "boundary_end": 1479,
+      "context": "safety and effectiveness of curcumin alone, and in combination with diclofenac sodium in patients with active rheumatoid arthritis (RA). Forty-five patients diagnosed with RA were randomized into three groups with patients receiving curcumin (500 mg) and diclofenac sodium (50 mg) alone or their combination. The primary endpoints were reduction in Disease Activity Score (DAS) 28. The secondary endpoints included American College of Rheumatology (ACR) criteria for reduction in tenderness and swelling of joint scores. Patients in all three treatment groups showed statistically significant changes in their DAS scores. Interestingly, the curcumin group showed the highest percentage of improvement in overall DAS and ACR scores (ACR 20, 50 and 70) and these scores were significantly better than the patients in the diclofenac sodium group. More importantly, curcumin treatment was found to be safe and did not relate with any adverse events. Our study provides the first evidence for the safety and superiority of curcumin treatment in patients with active RA, and highlights the need for future large-scale trials to validate these findings in patients with RA and other arthritic conditions.",
+      "target": "Copyright © 2012 John Wiley & Sons, Ltd.",
+      "loss_target": 0.862214982509613,
+      "loss_target_given_context": 1.3301492929458618,
+      "delta_loss": -0.4679343104362488,
+      "gain_ratio": -0.5427118757253,
+      "score": 0.5427118757253,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1187,
+      "boundary_end": 1438,
+      "context": "A randomized, pilot study to assess the efficacy and safety of curcumin in patients with active rheumatoid arthritis. Curcumin is known to possess potent antiinflammatory and antiarthritic properties. This pilot clinical study evaluated the safety and effectiveness of curcumin alone, and in combination with diclofenac sodium in patients with active rheumatoid arthritis (RA). Forty-five patients diagnosed with RA were randomized into three groups with patients receiving curcumin (500 mg) and diclofenac sodium (50 mg) alone or their combination. The primary endpoints were reduction in Disease Activity Score (DAS) 28. The secondary endpoints included American College of Rheumatology (ACR) criteria for reduction in tenderness and swelling of joint scores. Patients in all three treatment groups showed statistically significant changes in their DAS scores. Interestingly, the curcumin group showed the highest percentage of improvement in overall DAS and ACR scores (ACR 20, 50 and 70) and these scores were significantly better than the patients in the diclofenac sodium group. More importantly, curcumin treatment was found to be safe and did not relate with any adverse events.",
+      "target": "Our study provides the first evidence for the safety and superiority of curcumin treatment in patients with active RA, and highlights the need for future large-scale trials to validate these findings in patients with RA and other arthritic conditions.",
+      "loss_target": 2.185230255126953,
+      "loss_target_given_context": 1.669926643371582,
+      "delta_loss": 0.5153036117553711,
+      "gain_ratio": 0.23581204339742862,
+      "score": -0.23581204339742862,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1439,
+      "target": "Copyright © 2012 John Wiley & Sons, Ltd.",
+      "score": 0.5427118757253,
+      "deleted_suffix": "Copyright © 2012 John Wiley & Sons, Ltd.",
+      "deleted_char_count": 40
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

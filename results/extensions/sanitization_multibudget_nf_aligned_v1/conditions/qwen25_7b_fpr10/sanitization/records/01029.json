@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2248",
+  "source_doc_id": "MED-2248",
+  "title": "Trace element status in healthy subjects switching from a mixed to a lactovegetarian diet for 12 mo.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Trace element status in healthy subjects switching from a mixed to a lactovegetarian diet for 12 mo.\nThe consequences of a change from a mixed to a lactovegetarian diet for 12 mo on trace element concentrations in plasma, hair, urine, and feces were studied in 16 women and 4 men. After the diet shift, intakes of zinc and magnesium did not change but that of selenium decreased by 40%. Three months after the diet shift, plasma and hair concentrations of zinc, copper, and selenium had decreased but those of magnesium had increased and the concentrations of mercury, lead, and cadmium in hair were lower. Also, the excretion of zinc, copper, and magnesium in urine, and that of selenium in urine and feces had decreased. Only small changes occurred during the remaining lactovegetarian-diet period. Three years later trace element concentrations had reverted towards baseline concentrations; copper values were similar to baseline concentrations but data for magnesium were slightly higher, and more complex patterns were observed for zinc and selenium. It is concluded that a shift to a lactovegetarian diet changes trace element status.",
+  "sanitized_text": "Trace element status in healthy subjects switching from a mixed to a lactovegetarian diet for 12 mo.\nThe consequences of a change from a mixed to a lactovegetarian diet for 12 mo on trace element concentrations in plasma, hair, urine, and feces were studied in 16 women and 4 men. After the diet shift, intakes of zinc and magnesium did not change but that of selenium decreased by 40%. Three months after the diet shift, plasma and hair concentrations of zinc, copper, and selenium had decreased but those of magnesium had increased and the concentrations of mercury, lead, and cadmium in hair were lower. Also, the excretion of zinc, copper, and magnesium in urine, and that of selenium in urine and feces had decreased. Only small changes occurred during the remaining lactovegetarian-diet period. Three years later trace element concentrations had reverted towards baseline concentrations; copper values were similar to baseline concentrations but data for magnesium were slightly higher, and more complex patterns were observed for zinc and selenium. It is concluded that a shift to a lactovegetarian diet changes trace element status.",
+  "modified": false,
+  "original_char_count": 1140,
+  "sanitized_char_count": 1140,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1056,
+      "boundary_end": 1140,
+      "context": "Trace element status in healthy subjects switching from a mixed to a lactovegetarian diet for 12 mo. The consequences of a change from a mixed to a lactovegetarian diet for 12 mo on trace element concentrations in plasma, hair, urine, and feces were studied in 16 women and 4 men. After the diet shift, intakes of zinc and magnesium did not change but that of selenium decreased by 40%. Three months after the diet shift, plasma and hair concentrations of zinc, copper, and selenium had decreased but those of magnesium had increased and the concentrations of mercury, lead, and cadmium in hair were lower. Also, the excretion of zinc, copper, and magnesium in urine, and that of selenium in urine and feces had decreased. Only small changes occurred during the remaining lactovegetarian-diet period. Three years later trace element concentrations had reverted towards baseline concentrations; copper values were similar to baseline concentrations but data for magnesium were slightly higher, and more complex patterns were observed for zinc and selenium.",
+      "target": "It is concluded that a shift to a lactovegetarian diet changes trace element status.",
+      "loss_target": 3.69132661819458,
+      "loss_target_given_context": 0.9156380891799927,
+      "delta_loss": 2.7756885290145874,
+      "gain_ratio": 0.7519487750916419,
+      "score": -0.7519487750916419,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

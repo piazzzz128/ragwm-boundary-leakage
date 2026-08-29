@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4000",
+  "source_doc_id": "MED-4000",
+  "title": "Coconut oil predicts a beneficial lipid profile in pre-menopausal women in the Philippines",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Coconut oil predicts a beneficial lipid profile in pre-menopausal women in the Philippines\nCoconut oil is a common edible oil in many countries, and there is mixed evidence for its effects on lipid profiles and cardiovascular disease risk. Here we examine the association between coconut oil consumption and lipid profiles in a cohort of 1,839 Filipino women (age 35–69 years) participating in the Cebu Longitudinal Health and Nutrition Survey, a community based study in Metropolitan Cebu City. Coconut oil intake was measured as individual coconut oil intake calculated using two 24-hour dietary recalls (9.54 ± 8.92 grams). Cholesterol profiles were measured in plasma samples collected after an overnight fast. Mean lipid values in this sample were total cholesterol (TC) (186.52 ± 38.86 mg/dL), high density lipoprotein cholesterol (HDL-c) (40.85 ± 10.30 mg/dL), low density lipoprotein cholesterol (LDL-c) (119.42 ± 33.21 mg/dL), triglycerides (130.75 ± 85.29 mg/dL) and the TC/HDL ratio (4.80 ± 1.41). Linear regression models were used to estimate the association between coconut oil intake and each plasma lipid outcome after adjusting for total energy intake, age, body mass index (BMI), number of pregnancies, education, menopausal status, household assets and urban residency. Dietary coconut oil intake was positively associated with HDL-c levels.",
+  "sanitized_text": "Coconut oil predicts a beneficial lipid profile in pre-menopausal women in the Philippines\nCoconut oil is a common edible oil in many countries, and there is mixed evidence for its effects on lipid profiles and cardiovascular disease risk. Here we examine the association between coconut oil consumption and lipid profiles in a cohort of 1,839 Filipino women (age 35–69 years) participating in the Cebu Longitudinal Health and Nutrition Survey, a community based study in Metropolitan Cebu City. Coconut oil intake was measured as individual coconut oil intake calculated using two 24-hour dietary recalls (9.54 ± 8.92 grams). Cholesterol profiles were measured in plasma samples collected after an overnight fast. Mean lipid values in this sample were total cholesterol (TC) (186.52 ± 38.86 mg/dL), high density lipoprotein cholesterol (HDL-c) (40.85 ± 10.30 mg/dL), low density lipoprotein cholesterol (LDL-c) (119.42 ± 33.21 mg/dL), triglycerides (130.75 ± 85.29 mg/dL) and the TC/HDL ratio (4.80 ± 1.41). Linear regression models were used to estimate the association between coconut oil intake and each plasma lipid outcome after adjusting for total energy intake, age, body mass index (BMI), number of pregnancies, education, menopausal status, household assets and urban residency. Dietary coconut oil intake was positively associated with HDL-c levels.",
+  "modified": false,
+  "original_char_count": 1360,
+  "sanitized_char_count": 1360,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1289,
+      "boundary_end": 1360,
+      "context": "Coconut oil is a common edible oil in many countries, and there is mixed evidence for its effects on lipid profiles and cardiovascular disease risk. Here we examine the association between coconut oil consumption and lipid profiles in a cohort of 1,839 Filipino women (age 35–69 years) participating in the Cebu Longitudinal Health and Nutrition Survey, a community based study in Metropolitan Cebu City. Coconut oil intake was measured as individual coconut oil intake calculated using two 24-hour dietary recalls (9.54 ± 8.92 grams). Cholesterol profiles were measured in plasma samples collected after an overnight fast. Mean lipid values in this sample were total cholesterol (TC) (186.52 ± 38.86 mg/dL), high density lipoprotein cholesterol (HDL-c) (40.85 ± 10.30 mg/dL), low density lipoprotein cholesterol (LDL-c) (119.42 ± 33.21 mg/dL), triglycerides (130.75 ± 85.29 mg/dL) and the TC/HDL ratio (4.80 ± 1.41). Linear regression models were used to estimate the association between coconut oil intake and each plasma lipid outcome after adjusting for total energy intake, age, body mass index (BMI), number of pregnancies, education, menopausal status, household assets and urban residency.",
+      "target": "Dietary coconut oil intake was positively associated with HDL-c levels.",
+      "loss_target": 3.249239444732666,
+      "loss_target_given_context": 0.8071259260177612,
+      "delta_loss": 2.442113518714905,
+      "gain_ratio": 0.7515954303317993,
+      "score": -0.7515954303317993,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

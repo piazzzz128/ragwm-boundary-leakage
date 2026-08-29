@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5159",
+  "source_doc_id": "MED-5159",
+  "title": "CANNABIS USE AND RISK OF LUNG CANCER: A CASE-CONTROL STUDY",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "CANNABIS USE AND RISK OF LUNG CANCER: A CASE-CONTROL STUDY\nAim: To determine the risk of lung cancer associated with cannabis smoking. Methods: A case-control study of lung cancer in adults ≤55 years of age was conducted in eight district health boards in New Zealand. Cases were identified from the New Zealand Cancer Registry and hospital databases. Controls were randomly selected from the electoral roll, with frequency matching to cases in 5-year age groups and district health boards. Interviewer administered questionnaires were used to assess possible risk factors including cannabis use. The relative risk of lung cancer associated with cannabis smoking was estimated by logistic regression. Results: There were 79 cases of lung cancer and 324 controls. The risk of lung cancer increased 8% (95% CI 2% to 15%) for each joint-year of cannabis smoking, after adjustment for confounding variables including cigarette smoking, and 7% (95% CI 5% to 9%) for each pack-year of cigarette smoking, after adjustment for confounding variables including cannabis smoking. The highest tertile of cannabis use was associated with an increased risk of lung cancer RR=5.7 (95% CI 1.5 to 21.6), after adjustment for confounding variables including cigarette smoking. Conclusions: Long term cannabis use increases the risk of lung cancer in young adults.",
+  "sanitized_text": "CANNABIS USE AND RISK OF LUNG CANCER: A CASE-CONTROL STUDY\nAim: To determine the risk of lung cancer associated with cannabis smoking. Methods: A case-control study of lung cancer in adults ≤55 years of age was conducted in eight district health boards in New Zealand. Cases were identified from the New Zealand Cancer Registry and hospital databases. Controls were randomly selected from the electoral roll, with frequency matching to cases in 5-year age groups and district health boards. Interviewer administered questionnaires were used to assess possible risk factors including cannabis use. The relative risk of lung cancer associated with cannabis smoking was estimated by logistic regression. Results: There were 79 cases of lung cancer and 324 controls. The risk of lung cancer increased 8% (95% CI 2% to 15%) for each joint-year of cannabis smoking, after adjustment for confounding variables including cigarette smoking, and 7% (95% CI 5% to 9%) for each pack-year of cigarette smoking, after adjustment for confounding variables including cannabis smoking. The highest tertile of cannabis use was associated with an increased risk of lung cancer RR=5.7 (95% CI 1.5 to 21.6), after adjustment for confounding variables including cigarette smoking. Conclusions: Long term cannabis use increases the risk of lung cancer in young adults.",
+  "modified": false,
+  "original_char_count": 1345,
+  "sanitized_char_count": 1345,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1259,
+      "boundary_end": 1345,
+      "context": "Aim: To determine the risk of lung cancer associated with cannabis smoking. Methods: A case-control study of lung cancer in adults ≤55 years of age was conducted in eight district health boards in New Zealand. Cases were identified from the New Zealand Cancer Registry and hospital databases. Controls were randomly selected from the electoral roll, with frequency matching to cases in 5-year age groups and district health boards. Interviewer administered questionnaires were used to assess possible risk factors including cannabis use. The relative risk of lung cancer associated with cannabis smoking was estimated by logistic regression. Results: There were 79 cases of lung cancer and 324 controls. The risk of lung cancer increased 8% (95% CI 2% to 15%) for each joint-year of cannabis smoking, after adjustment for confounding variables including cigarette smoking, and 7% (95% CI 5% to 9%) for each pack-year of cigarette smoking, after adjustment for confounding variables including cannabis smoking. The highest tertile of cannabis use was associated with an increased risk of lung cancer RR=5.7 (95% CI 1.5 to 21.6), after adjustment for confounding variables including cigarette smoking.",
+      "target": "Conclusions: Long term cannabis use increases the risk of lung cancer in young adults.",
+      "loss_target": 2.7348101139068604,
+      "loss_target_given_context": 1.0386316776275635,
+      "delta_loss": 1.6961784362792969,
+      "gain_ratio": 0.6202179916090013,
+      "score": -0.6202179916090013,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

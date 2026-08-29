@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2619",
+  "source_doc_id": "MED-2619",
+  "title": "Genotoxic and mutagenic effects of erythrosine B, a xanthene food dye, on HepG2 cells.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Genotoxic and mutagenic effects of erythrosine B, a xanthene food dye, on HepG2 cells.\nErythrosine (ErB) is a xanthene and an US Food and Drug Administration approved dye used in foods, drugs and cosmetics. Although its utilization is permitted, ErB is described as inhibitor of enzymes and protein-protein interactions and is toxic to pituitary and spermatogenesis processes. However, the genotoxicity and mutagenicity of ErB is inconclusive in the literature. This study aimed to analyze the genotoxicity of this dye using the alkaline comet assay and is the first investigation to evaluate ErB mutagenicity using the cytokinesis block micronucleus cytome (CBMN-Cyt) assay in HepG2 cells. These cells were chosen because they produce phase I and phase II enzymes that can mimic in vivo metabolism. The cells were treated with seven concentrations (0.1-70.0 μg mL(-1)) of ErB, and the results showed genotoxicity at the two highest concentrations and mutagenicity at six concentrations. Furthermore, as micronuclei result from clastogenic and aneugenic processes, while comet assay is often considered more sensitive and detects DNA single strain breaks, we suggest that an aneugenic is responsible for the observed damage. Although ErB is approved for use in the food, cosmetic and pharmaceutical industries, it must be used carefully because it damages the DNA structure. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Genotoxic and mutagenic effects of erythrosine B, a xanthene food dye, on HepG2 cells.\nErythrosine (ErB) is a xanthene and an US Food and Drug Administration approved dye used in foods, drugs and cosmetics. Although its utilization is permitted, ErB is described as inhibitor of enzymes and protein-protein interactions and is toxic to pituitary and spermatogenesis processes. However, the genotoxicity and mutagenicity of ErB is inconclusive in the literature. This study aimed to analyze the genotoxicity of this dye using the alkaline comet assay and is the first investigation to evaluate ErB mutagenicity using the cytokinesis block micronucleus cytome (CBMN-Cyt) assay in HepG2 cells. These cells were chosen because they produce phase I and phase II enzymes that can mimic in vivo metabolism. The cells were treated with seven concentrations (0.1-70.0 μg mL(-1)) of ErB, and the results showed genotoxicity at the two highest concentrations and mutagenicity at six concentrations. Furthermore, as micronuclei result from clastogenic and aneugenic processes, while comet assay is often considered more sensitive and detects DNA single strain breaks, we suggest that an aneugenic is responsible for the observed damage. Although ErB is approved for use in the food, cosmetic and pharmaceutical industries, it must be used carefully because it damages the DNA structure. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1426,
+  "sanitized_char_count": 1426,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1375,
+      "boundary_end": 1405,
+      "context": "in foods, drugs and cosmetics. Although its utilization is permitted, ErB is described as inhibitor of enzymes and protein-protein interactions and is toxic to pituitary and spermatogenesis processes. However, the genotoxicity and mutagenicity of ErB is inconclusive in the literature. This study aimed to analyze the genotoxicity of this dye using the alkaline comet assay and is the first investigation to evaluate ErB mutagenicity using the cytokinesis block micronucleus cytome (CBMN-Cyt) assay in HepG2 cells. These cells were chosen because they produce phase I and phase II enzymes that can mimic in vivo metabolism. The cells were treated with seven concentrations (0.1-70.0 μg mL(-1)) of ErB, and the results showed genotoxicity at the two highest concentrations and mutagenicity at six concentrations. Furthermore, as micronuclei result from clastogenic and aneugenic processes, while comet assay is often considered more sensitive and detects DNA single strain breaks, we suggest that an aneugenic is responsible for the observed damage. Although ErB is approved for use in the food, cosmetic and pharmaceutical industries, it must be used carefully because it damages the DNA structure.",
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "loss_target": 1.1579636335372925,
+      "loss_target_given_context": 0.4185315668582916,
+      "delta_loss": 0.7394320666790009,
+      "gain_ratio": 0.6385624256784462,
+      "score": -0.6385624256784462,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

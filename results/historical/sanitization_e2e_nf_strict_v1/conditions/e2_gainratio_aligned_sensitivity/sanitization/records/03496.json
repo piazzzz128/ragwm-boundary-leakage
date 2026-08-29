@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-841",
+  "source_doc_id": "MED-841",
+  "title": "Effect of dietary soy intake on breast cancer risk according to menopause and hormone receptor status.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of dietary soy intake on breast cancer risk according to menopause and hormone receptor status.\nBACKGROUND: Although high soy consumption may be associated with lower breast cancer risk in Asian populations, findings from epidemiological studies have been inconsistent. OBJECTIVE: We investigated the effects of soy intake on breast cancer risk among Korean women according to their menopausal and hormone receptor status. METHODS: We conducted a case-control study with 358 incident breast cancer patients and 360 age-matched controls with no history of malignant neoplasm. Dietary consumption of soy products was examined using a 103-item food frequency questionnaire. RESULTS: The estimated mean intakes of total soy and isoflavones from this study population were 76.5 g per day and 15.0 mg per day, respectively. Using a multivariate logistic regression model, we found a significant inverse association between soy intake and breast cancer risk, with a dose-response relationship (odds ratios (OR) (95% confidence interval (CI)) for the highest vs the lowest intake quartile: 0.36 (0.20-0.64)). When the data were stratified by menopausal status, the protective effect was observed only among postmenopausal women (OR (95% CI) for the highest vs the lowest intake quartile: 0.08 (0.03-0.22)). The association between soy and breast cancer risk did not differ according to estrogen receptor (ER)/progesterone receptor (PR) status, but the estimated intake of soy isoflavones showed an inverse association only among postmenopausal women with ER+/PR+ tumors. CONCLUSIONS: Our findings suggest that high consumption of soy might be related to lower risk of breast cancer and that the effect of soy intake could vary depending on several factors.",
+  "sanitized_text": "Effect of dietary soy intake on breast cancer risk according to menopause and hormone receptor status.\nBACKGROUND: Although high soy consumption may be associated with lower breast cancer risk in Asian populations, findings from epidemiological studies have been inconsistent. OBJECTIVE: We investigated the effects of soy intake on breast cancer risk among Korean women according to their menopausal and hormone receptor status. METHODS: We conducted a case-control study with 358 incident breast cancer patients and 360 age-matched controls with no history of malignant neoplasm. Dietary consumption of soy products was examined using a 103-item food frequency questionnaire. RESULTS: The estimated mean intakes of total soy and isoflavones from this study population were 76.5 g per day and 15.0 mg per day, respectively. Using a multivariate logistic regression model, we found a significant inverse association between soy intake and breast cancer risk, with a dose-response relationship (odds ratios (OR) (95% confidence interval (CI)) for the highest vs the lowest intake quartile: 0.36 (0.20-0.64)). When the data were stratified by menopausal status, the protective effect was observed only among postmenopausal women (OR (95% CI) for the highest vs the lowest intake quartile: 0.08 (0.03-0.22)). The association between soy and breast cancer risk did not differ according to estrogen receptor (ER)/progesterone receptor (PR) status, but the estimated intake of soy isoflavones showed an inverse association only among postmenopausal women with ER+/PR+ tumors. CONCLUSIONS: Our findings suggest that high consumption of soy might be related to lower risk of breast cancer and that the effect of soy intake could vary depending on several factors.",
+  "modified": false,
+  "original_char_count": 1755,
+  "sanitized_char_count": 1755,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1570,
+      "boundary_end": 1755,
+      "context": "according to their menopausal and hormone receptor status. METHODS: We conducted a case-control study with 358 incident breast cancer patients and 360 age-matched controls with no history of malignant neoplasm. Dietary consumption of soy products was examined using a 103-item food frequency questionnaire. RESULTS: The estimated mean intakes of total soy and isoflavones from this study population were 76.5 g per day and 15.0 mg per day, respectively. Using a multivariate logistic regression model, we found a significant inverse association between soy intake and breast cancer risk, with a dose-response relationship (odds ratios (OR) (95% confidence interval (CI)) for the highest vs the lowest intake quartile: 0.36 (0.20-0.64)). When the data were stratified by menopausal status, the protective effect was observed only among postmenopausal women (OR (95% CI) for the highest vs the lowest intake quartile: 0.08 (0.03-0.22)). The association between soy and breast cancer risk did not differ according to estrogen receptor (ER)/progesterone receptor (PR) status, but the estimated intake of soy isoflavones showed an inverse association only among postmenopausal women with ER+/PR+ tumors.",
+      "target": "CONCLUSIONS: Our findings suggest that high consumption of soy might be related to lower risk of breast cancer and that the effect of soy intake could vary depending on several factors.",
+      "loss_target": 2.1570706367492676,
+      "loss_target_given_context": 1.514367699623108,
+      "delta_loss": 0.6427029371261597,
+      "gain_ratio": 0.2979517342532283,
+      "score": -0.2979517342532283,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

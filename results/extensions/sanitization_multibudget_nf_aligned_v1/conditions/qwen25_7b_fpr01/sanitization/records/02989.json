@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-4914",
+  "source_doc_id": "MED-4914",
+  "title": "Potato glycoalkaloids: true safety or false sense of security?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Potato glycoalkaloids: true safety or false sense of security?\nAs one of the major agricultural crops, the cultivated potato is consumed each day by millions of people from diverse cultural backgrounds. A product of global importance, the potato tuber contains toxic glycoalkaloids (GAs) that cause sporadic outbreaks of poisoning in humans, as well as many livestock deaths. This article will discuss some aspects of the potato GAs, including their toxic effects and risk factors, methods of detection of GAs and biotechnological aspects of potato breeding. An attempt has been made to answer a question of vital importance - are potato GAs dangerous to humans and animals and, if so, to what extent? There is a significant involvement of illegal hormones in certain diseases.",
+  "sanitized_text": "Potato glycoalkaloids: true safety or false sense of security?\nAs one of the major agricultural crops, the cultivated potato is consumed each day by millions of people from diverse cultural backgrounds. A product of global importance, the potato tuber contains toxic glycoalkaloids (GAs) that cause sporadic outbreaks of poisoning in humans, as well as many livestock deaths. This article will discuss some aspects of the potato GAs, including their toxic effects and risk factors, methods of detection of GAs and biotechnological aspects of potato breeding. An attempt has been made to answer a question of vital importance - are potato GAs dangerous to humans and animals and, if so, to what extent?",
+  "modified": true,
+  "original_char_count": 777,
+  "sanitized_char_count": 701,
+  "deleted_char_count": 76,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 702,
+      "boundary_end": 777,
+      "context": "Potato glycoalkaloids: true safety or false sense of security? As one of the major agricultural crops, the cultivated potato is consumed each day by millions of people from diverse cultural backgrounds. A product of global importance, the potato tuber contains toxic glycoalkaloids (GAs) that cause sporadic outbreaks of poisoning in humans, as well as many livestock deaths. This article will discuss some aspects of the potato GAs, including their toxic effects and risk factors, methods of detection of GAs and biotechnological aspects of potato breeding. An attempt has been made to answer a question of vital importance - are potato GAs dangerous to humans and animals and, if so, to what extent?",
+      "target": "There is a significant involvement of illegal hormones in certain diseases.",
+      "loss_target": 5.109585285186768,
+      "loss_target_given_context": 5.144510746002197,
+      "delta_loss": -0.03492546081542969,
+      "gain_ratio": -0.006835282878374165,
+      "score": 0.006835282878374165,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 559,
+      "boundary_end": 701,
+      "context": "Potato glycoalkaloids: true safety or false sense of security? As one of the major agricultural crops, the cultivated potato is consumed each day by millions of people from diverse cultural backgrounds. A product of global importance, the potato tuber contains toxic glycoalkaloids (GAs) that cause sporadic outbreaks of poisoning in humans, as well as many livestock deaths. This article will discuss some aspects of the potato GAs, including their toxic effects and risk factors, methods of detection of GAs and biotechnological aspects of potato breeding.",
+      "target": "An attempt has been made to answer a question of vital importance - are potato GAs dangerous to humans and animals and, if so, to what extent?",
+      "loss_target": 3.2880659103393555,
+      "loss_target_given_context": 1.7454602718353271,
+      "delta_loss": 1.5426056385040283,
+      "gain_ratio": 0.46915289430582574,
+      "score": -0.46915289430582574,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 702,
+      "target": "There is a significant involvement of illegal hormones in certain diseases.",
+      "score": 0.006835282878374165,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "There is a significant involvement of illegal hormones in certain diseases.",
+      "deleted_char_count": 75
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

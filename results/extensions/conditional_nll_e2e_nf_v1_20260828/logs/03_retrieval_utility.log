@@ -1,0 +1,354 @@
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+  0%|                                                     | 0/3633 [00:00<?, ?it/s]100%|██████████████████████████████████████| 3633/3633 [00:00<00:00, 181017.91it/s]
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+encoded 32/323
+encoded 64/323
+encoded 96/323
+encoded 128/323
+encoded 160/323
+encoded 192/323
+encoded 224/323
+encoded 256/323
+encoded 288/323
+encoded 320/323
+encoded 323/323
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+{
+  "experiment_role": "frozen_ranking_retrieval_utility_and_paired_bootstrap",
+  "dataset": "nfcorpus",
+  "split": "test",
+  "retriever": "contriever",
+  "device": "cuda",
+  "query_count": 323,
+  "baseline_name": "watermarked",
+  "top_k": 100,
+  "n_boot": 5000,
+  "seed": 20260609,
+  "bootstrap_rng": "numpy.random.default_rng (PCG64)",
+  "collection_manifest": {
+    "watermarked": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/restored/strict_snapshot/root/autodl-tmp/ragwm_storage/chromadb_db",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    },
+    "conditional_nll_fpr01": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/vectorstores/conditional_nll_fpr01",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    },
+    "conditional_nll_fpr025": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/vectorstores/conditional_nll_fpr025",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    },
+    "conditional_nll_fpr05": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/vectorstores/conditional_nll_fpr05",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    },
+    "conditional_nll_fpr10": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/vectorstores/conditional_nll_fpr10",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    }
+  },
+  "ranking_sha256": "ab0a933db2d5495b2204e408a0847b38c5c4828053237f9839d3c26878635589",
+  "metrics": {
+    "watermarked": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2668241546925155,
+      "map_at_100": 0.11655388826304464,
+      "recall_at_100": 0.25741468862011707,
+      "mrr_at_10": 0.4503882254656248
+    },
+    "conditional_nll_fpr01": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2690933502451955,
+      "map_at_100": 0.11680939570435514,
+      "recall_at_100": 0.25600023259100846,
+      "mrr_at_10": 0.4513403607056858
+    },
+    "conditional_nll_fpr025": {
+      "query_count": 323,
+      "ndcg_at_10": 0.26792485596668175,
+      "map_at_100": 0.11615895415107129,
+      "recall_at_100": 0.2562214202028287,
+      "mrr_at_10": 0.4485441545039068
+    },
+    "conditional_nll_fpr05": {
+      "query_count": 323,
+      "ndcg_at_10": 0.26665867983812597,
+      "map_at_100": 0.11652068614748148,
+      "recall_at_100": 0.2554959803825995,
+      "mrr_at_10": 0.4470170524350091
+    },
+    "conditional_nll_fpr10": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2524960521573277,
+      "map_at_100": 0.11056789179303751,
+      "recall_at_100": 0.24777905390087165,
+      "mrr_at_10": 0.42989458941471326
+    }
+  },
+  "metric_deltas_vs_baseline": {
+    "conditional_nll_fpr01": {
+      "ndcg_at_10": 0.002269195552679977,
+      "map_at_100": 0.0002555074413105004,
+      "recall_at_100": -0.0014144560291085436,
+      "mrr_at_10": 0.0009521352400609368
+    },
+    "conditional_nll_fpr025": {
+      "ndcg_at_10": 0.00110070127416624,
+      "map_at_100": -0.0003949341119733503,
+      "recall_at_100": -0.0011932684172883728,
+      "mrr_at_10": -0.0018440709617180198
+    },
+    "conditional_nll_fpr05": {
+      "ndcg_at_10": -0.00016547485438958196,
+      "map_at_100": -3.320211556315603e-05,
+      "recall_at_100": -0.0019187082375175485,
+      "mrr_at_10": -0.0033711730306157563
+    },
+    "conditional_nll_fpr10": {
+      "ndcg_at_10": -0.014328102535187869,
+      "map_at_100": -0.005985996470007112,
+      "recall_at_100": -0.009635634719245455,
+      "mrr_at_10": -0.020493636050911593
+    }
+  },
+  "paired_bootstrap_differences_vs_baseline": {
+    "conditional_nll_fpr01": {
+      "ndcg_at_10": {
+        "observed_mean_difference_vs_baseline": 0.002269195552679977,
+        "bootstrap_95_percentile_ci": [
+          -0.0025889116620690478,
+          0.007678640505708222
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 25,
+        "query_level_negative_count": 53,
+        "query_level_tie_count": 245
+      },
+      "map_at_100": {
+        "observed_mean_difference_vs_baseline": 0.0002555074413105004,
+        "bootstrap_95_percentile_ci": [
+          -0.0016825922150814812,
+          0.0029200158048996636
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 77,
+        "query_level_negative_count": 151,
+        "query_level_tie_count": 95
+      },
+      "recall_at_100": {
+        "observed_mean_difference_vs_baseline": -0.0014144560291085436,
+        "bootstrap_95_percentile_ci": [
+          -0.009686432585439464,
+          0.008476220889896649
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 24,
+        "query_level_negative_count": 37,
+        "query_level_tie_count": 262
+      },
+      "mrr_at_10": {
+        "observed_mean_difference_vs_baseline": 0.0009521352400609368,
+        "bootstrap_95_percentile_ci": [
+          -0.011632881222664504,
+          0.014281445034154003
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 12,
+        "query_level_negative_count": 24,
+        "query_level_tie_count": 287
+      }
+    },
+    "conditional_nll_fpr025": {
+      "ndcg_at_10": {
+        "observed_mean_difference_vs_baseline": 0.00110070127416624,
+        "bootstrap_95_percentile_ci": [
+          -0.003948445366753476,
+          0.006676217576589169
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 28,
+        "query_level_negative_count": 60,
+        "query_level_tie_count": 235
+      },
+      "map_at_100": {
+        "observed_mean_difference_vs_baseline": -0.0003949341119733503,
+        "bootstrap_95_percentile_ci": [
+          -0.002464882492072043,
+          0.002336034667552795
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 79,
+        "query_level_negative_count": 153,
+        "query_level_tie_count": 91
+      },
+      "recall_at_100": {
+        "observed_mean_difference_vs_baseline": -0.0011932684172883728,
+        "bootstrap_95_percentile_ci": [
+          -0.00959232209736367,
+          0.00879487104877084
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 27,
+        "query_level_negative_count": 37,
+        "query_level_tie_count": 259
+      },
+      "mrr_at_10": {
+        "observed_mean_difference_vs_baseline": -0.0018440709617180198,
+        "bootstrap_95_percentile_ci": [
+          -0.01498860509115927,
+          0.012060604943731864
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 13,
+        "query_level_negative_count": 28,
+        "query_level_tie_count": 282
+      }
+    },
+    "conditional_nll_fpr05": {
+      "ndcg_at_10": {
+        "observed_mean_difference_vs_baseline": -0.00016547485438958196,
+        "bootstrap_95_percentile_ci": [
+          -0.005680028000040412,
+          0.005681043831674222
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 30,
+        "query_level_negative_count": 71,
+        "query_level_tie_count": 222
+      },
+      "map_at_100": {
+        "observed_mean_difference_vs_baseline": -3.320211556315603e-05,
+        "bootstrap_95_percentile_ci": [
+          -0.00245453802153122,
+          0.0028902051555076426
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 68,
+        "query_level_negative_count": 164,
+        "query_level_tie_count": 91
+      },
+      "recall_at_100": {
+        "observed_mean_difference_vs_baseline": -0.0019187082375175485,
+        "bootstrap_95_percentile_ci": [
+          -0.010254258092698636,
+          0.007957781658878383
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 30,
+        "query_level_negative_count": 44,
+        "query_level_tie_count": 249
+      },
+      "mrr_at_10": {
+        "observed_mean_difference_vs_baseline": -0.0033711730306157563,
+        "bootstrap_95_percentile_ci": [
+          -0.017522574819401445,
+          0.011189309056956104
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 13,
+        "query_level_negative_count": 33,
+        "query_level_tie_count": 277
+      }
+    },
+    "conditional_nll_fpr10": {
+      "ndcg_at_10": {
+        "observed_mean_difference_vs_baseline": -0.014328102535187869,
+        "bootstrap_95_percentile_ci": [
+          -0.02143289449492917,
+          -0.007114496492744341
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 36,
+        "query_level_negative_count": 103,
+        "query_level_tie_count": 184
+      },
+      "map_at_100": {
+        "observed_mean_difference_vs_baseline": -0.005985996470007112,
+        "bootstrap_95_percentile_ci": [
+          -0.009228630965730126,
+          -0.0025533119082164248
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 49,
+        "query_level_negative_count": 190,
+        "query_level_tie_count": 84
+      },
+      "recall_at_100": {
+        "observed_mean_difference_vs_baseline": -0.009635634719245455,
+        "bootstrap_95_percentile_ci": [
+          -0.017541240526421396,
+          -0.0016534235802887361
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 25,
+        "query_level_negative_count": 71,
+        "query_level_tie_count": 227
+      },
+      "mrr_at_10": {
+        "observed_mean_difference_vs_baseline": -0.020493636050911593,
+        "bootstrap_95_percentile_ci": [
+          -0.03849983414418399,
+          -0.002789909823578556
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 18,
+        "query_level_negative_count": 56,
+        "query_level_tie_count": 249
+      }
+    }
+  },
+  "retrieval_overlap": {
+    "conditional_nll_fpr01": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.9315789473684211,
+      "mean_top100_overlap_fraction_vs_baseline": 0.9229721362229102
+    },
+    "conditional_nll_fpr025": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.9229102167182662,
+      "mean_top100_overlap_fraction_vs_baseline": 0.9206811145510836
+    },
+    "conditional_nll_fpr05": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.9006191950464396,
+      "mean_top100_overlap_fraction_vs_baseline": 0.9065325077399381
+    },
+    "conditional_nll_fpr10": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.7913312693498452,
+      "mean_top100_overlap_fraction_vs_baseline": 0.8415479876160991
+    }
+  },
+  "interpretation_note": "All rankings, point estimates, per-query differences, and confidence intervals in this file derive from one frozen retrieval pass."
+}
+FROZEN RETRIEVAL UTILITY EVALUATION PASS

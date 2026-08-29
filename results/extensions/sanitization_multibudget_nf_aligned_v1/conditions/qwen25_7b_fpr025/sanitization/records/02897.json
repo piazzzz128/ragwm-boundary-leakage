@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4817",
+  "source_doc_id": "MED-4817",
+  "title": "Sporadic acute or fulminant hepatitis E in Hokkaido, Japan, may be food-borne, as suggested by the presence of hepatitis E virus in pig liver as food.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Sporadic acute or fulminant hepatitis E in Hokkaido, Japan, may be food-borne, as suggested by the presence of hepatitis E virus in pig liver as food.\nAmong ten patients who contracted sporadic acute or fulminant hepatitis E between 2001 and 2002 in Hokkaido, Japan, nine (90 %) had a history of consuming grilled or undercooked pig liver 2-8 weeks before the disease onset. We tested packages of raw pig liver sold in grocery stores as food in Hokkaido for the presence of hepatitis E virus (HEV) RNA by RT-PCR. Pig liver specimens from seven (1.9 %) of 363 packages had detectable HEV RNA. Partial sequence analyses revealed that the seven swine HEV isolates belonged to genotype III or IV. One swine HEV isolate (swJL145) from a packaged pig liver had 100 % identity with the HE-JA18 isolate recovered from an 86-year-old patient in Hokkaido. Two swine HEV isolates (swJL234 and swJL325) had 98.5-100 % identity with the HE-JA4 isolate obtained from a 44-year-old patient in Hokkaido. These results indicate that inadequately cooked pig liver may transmit HEV to humans.",
+  "sanitized_text": "Sporadic acute or fulminant hepatitis E in Hokkaido, Japan, may be food-borne, as suggested by the presence of hepatitis E virus in pig liver as food.\nAmong ten patients who contracted sporadic acute or fulminant hepatitis E between 2001 and 2002 in Hokkaido, Japan, nine (90 %) had a history of consuming grilled or undercooked pig liver 2-8 weeks before the disease onset. We tested packages of raw pig liver sold in grocery stores as food in Hokkaido for the presence of hepatitis E virus (HEV) RNA by RT-PCR. Pig liver specimens from seven (1.9 %) of 363 packages had detectable HEV RNA. Partial sequence analyses revealed that the seven swine HEV isolates belonged to genotype III or IV. One swine HEV isolate (swJL145) from a packaged pig liver had 100 % identity with the HE-JA18 isolate recovered from an 86-year-old patient in Hokkaido. Two swine HEV isolates (swJL234 and swJL325) had 98.5-100 % identity with the HE-JA4 isolate obtained from a 44-year-old patient in Hokkaido. These results indicate that inadequately cooked pig liver may transmit HEV to humans.",
+  "modified": false,
+  "original_char_count": 1073,
+  "sanitized_char_count": 1073,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 988,
+      "boundary_end": 1073,
+      "context": "Sporadic acute or fulminant hepatitis E in Hokkaido, Japan, may be food-borne, as suggested by the presence of hepatitis E virus in pig liver as food. Among ten patients who contracted sporadic acute or fulminant hepatitis E between 2001 and 2002 in Hokkaido, Japan, nine (90 %) had a history of consuming grilled or undercooked pig liver 2-8 weeks before the disease onset. We tested packages of raw pig liver sold in grocery stores as food in Hokkaido for the presence of hepatitis E virus (HEV) RNA by RT-PCR. Pig liver specimens from seven (1.9 %) of 363 packages had detectable HEV RNA. Partial sequence analyses revealed that the seven swine HEV isolates belonged to genotype III or IV. One swine HEV isolate (swJL145) from a packaged pig liver had 100 % identity with the HE-JA18 isolate recovered from an 86-year-old patient in Hokkaido. Two swine HEV isolates (swJL234 and swJL325) had 98.5-100 % identity with the HE-JA4 isolate obtained from a 44-year-old patient in Hokkaido.",
+      "target": "These results indicate that inadequately cooked pig liver may transmit HEV to humans.",
+      "loss_target": 3.4265975952148438,
+      "loss_target_given_context": 1.4167569875717163,
+      "delta_loss": 2.0098406076431274,
+      "gain_ratio": 0.586541183140331,
+      "score": -0.586541183140331,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

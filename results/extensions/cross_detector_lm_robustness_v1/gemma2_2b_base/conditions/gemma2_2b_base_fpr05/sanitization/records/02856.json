@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4772",
+  "source_doc_id": "MED-4772",
+  "title": "Non-anaemic pregnant women should not take iron supplements.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Non-anaemic pregnant women should not take iron supplements.\n(1) Iron-deficiency anaemia during pregnancy increases the risk of low birth weight and preterm birth; (2) In a randomised double-blind placebo-controlled trial, iron supplementation in pregnant women with haemoglobin levels of at least 13.2 g/100 ml at the beginning of the 2nd trimester was associated with low birth weight and maternal hypertension; (3) In a trial in women with haemoglobin levels of at least 11.5 g/100 ml who took supplemental iron, haemoglobin levels above 14.5 g/100 ml at 28 weeks of gestation were associated with an 8-fold increase in the risk of preterm birth and a 6-fold increase in the risk of low birth weight; (4) An epidemiological study showed a link between high maternal haemoglobin levels and low birth weight; (5) In practice, iron supplements should not be taken by pregnant women whose haemoglobin levels exceed 11 g/100 ml during the 1st and 3rd trimesters and 10.5 g/100 ml during the 2nd trimester.",
+  "sanitized_text": "Non-anaemic pregnant women should not take iron supplements.\n(1) Iron-deficiency anaemia during pregnancy increases the risk of low birth weight and preterm birth; (2) In a randomised double-blind placebo-controlled trial, iron supplementation in pregnant women with haemoglobin levels of at least 13.2 g/100 ml at the beginning of the 2nd trimester was associated with low birth weight and maternal hypertension; (3) In a trial in women with haemoglobin levels of at least 11.5 g/100 ml who took supplemental iron, haemoglobin levels above 14.5 g/100 ml at 28 weeks of gestation were associated with an 8-fold increase in the risk of preterm birth and a 6-fold increase in the risk of low birth weight; (4) An epidemiological study showed a link between high maternal haemoglobin levels and low birth weight; (5) In practice, iron supplements should not be taken by pregnant women whose haemoglobin levels exceed 11 g/100 ml during the 1st and 3rd trimesters and 10.5 g/100 ml during the 2nd trimester.",
+  "modified": false,
+  "original_char_count": 1003,
+  "sanitized_char_count": 1003,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 61,
+      "boundary_end": 1003,
+      "context": "Non-anaemic pregnant women should not take iron supplements.",
+      "target": "(1) Iron-deficiency anaemia during pregnancy increases the risk of low birth weight and preterm birth; (2) In a randomised double-blind placebo-controlled trial, iron supplementation in pregnant women with haemoglobin levels of at least 13.2 g/100 ml at the beginning of the 2nd trimester was associated with low birth weight and maternal hypertension; (3) In a trial in women with haemoglobin levels of at least 11.5 g/100 ml who took supplemental iron, haemoglobin levels above 14.5 g/100 ml at 28 weeks of gestation were associated with an 8-fold increase in the risk of preterm birth and a 6-fold increase in the risk of low birth weight; (4) An epidemiological study showed a link between high maternal haemoglobin levels and low birth weight; (5) In practice, iron supplements should not be taken by pregnant women whose haemoglobin levels exceed 11 g/100 ml during the 1st and 3rd trimesters and 10.5 g/100 ml during the 2nd trimester.",
+      "loss_target": 4.191990852355957,
+      "loss_target_given_context": 3.306110382080078,
+      "delta_loss": 0.8858804702758789,
+      "gain_ratio": 0.21132690921260044,
+      "score": -0.21132690921260044,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

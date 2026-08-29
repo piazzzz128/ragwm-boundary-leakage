@@ -1,0 +1,95 @@
+{
+  "internal_id": "MED-1037",
+  "source_doc_id": "MED-1037",
+  "title": "A brief journey into medical care and disease in ancient Egypt.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A brief journey into medical care and disease in ancient Egypt.\nAncient Egypt was one of the greatest civilizations to have arisen, becoming the cradle of scientific enquiry and social development over 3 millennia; undoubtedly its knowledge of medicine has been vastly underestimated. Few artefacts survive which describe the medical organization, but from the extent of the diseases afflicting that ancient populus there would have been much to study. Evidence from papyri, tomb bas reliefs and the writings of historians of antiquity tell of an intense interest in the sciences, humanities and medicine born of an educated society which had overcome the superstitions of its nomadic ancestors.",
+  "sanitized_text": "A brief journey into medical care and disease in ancient Egypt.",
+  "modified": true,
+  "original_char_count": 695,
+  "sanitized_char_count": 63,
+  "deleted_char_count": 632,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 453,
+      "boundary_end": 695,
+      "context": "A brief journey into medical care and disease in ancient Egypt. Ancient Egypt was one of the greatest civilizations to have arisen, becoming the cradle of scientific enquiry and social development over 3 millennia; undoubtedly its knowledge of medicine has been vastly underestimated. Few artefacts survive which describe the medical organization, but from the extent of the diseases afflicting that ancient populus there would have been much to study.",
+      "target": "Evidence from papyri, tomb bas reliefs and the writings of historians of antiquity tell of an intense interest in the sciences, humanities and medicine born of an educated society which had overcome the superstitions of its nomadic ancestors.",
+      "loss_target": 3.1608622074127197,
+      "loss_target_given_context": 2.742919683456421,
+      "delta_loss": 0.41794252395629883,
+      "gain_ratio": 0.13222421495507072,
+      "score": -0.13222421495507072,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 285,
+      "boundary_end": 452,
+      "context": "A brief journey into medical care and disease in ancient Egypt. Ancient Egypt was one of the greatest civilizations to have arisen, becoming the cradle of scientific enquiry and social development over 3 millennia; undoubtedly its knowledge of medicine has been vastly underestimated.",
+      "target": "Few artefacts survive which describe the medical organization, but from the extent of the diseases afflicting that ancient populus there would have been much to study.",
+      "loss_target": 4.056567668914795,
+      "loss_target_given_context": 3.5014328956604004,
+      "delta_loss": 0.5551347732543945,
+      "gain_ratio": 0.13684839464366758,
+      "score": -0.13684839464366758,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 64,
+      "boundary_end": 284,
+      "context": "A brief journey into medical care and disease in ancient Egypt.",
+      "target": "Ancient Egypt was one of the greatest civilizations to have arisen, becoming the cradle of scientific enquiry and social development over 3 millennia; undoubtedly its knowledge of medicine has been vastly underestimated.",
+      "loss_target": 3.0976874828338623,
+      "loss_target_given_context": 2.8607676029205322,
+      "delta_loss": 0.23691987991333008,
+      "gain_ratio": 0.07648282185541463,
+      "score": -0.07648282185541463,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 453,
+      "target": "Evidence from papyri, tomb bas reliefs and the writings of historians of antiquity tell of an intense interest in the sciences, humanities and medicine born of an educated society which had overcome the superstitions of its nomadic ancestors.",
+      "score": -0.13222421495507072,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Evidence from papyri, tomb bas reliefs and the writings of historians of antiquity tell of an intense interest in the sciences, humanities and medicine born of an educated society which had overcome the superstitions of its nomadic ancestors.",
+      "deleted_char_count": 242
+    },
+    {
+      "step": 2,
+      "boundary_start": 285,
+      "target": "Few artefacts survive which describe the medical organization, but from the extent of the diseases afflicting that ancient populus there would have been much to study.",
+      "score": -0.13684839464366758,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Few artefacts survive which describe the medical organization, but from the extent of the diseases afflicting that ancient populus there would have been much to study.",
+      "deleted_char_count": 167
+    },
+    {
+      "step": 3,
+      "boundary_start": 64,
+      "target": "Ancient Egypt was one of the greatest civilizations to have arisen, becoming the cradle of scientific enquiry and social development over 3 millennia; undoubtedly its knowledge of medicine has been vastly underestimated.",
+      "score": -0.07648282185541463,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Ancient Egypt was one of the greatest civilizations to have arisen, becoming the cradle of scientific enquiry and social development over 3 millennia; undoubtedly its knowledge of medicine has been vastly underestimated.",
+      "deleted_char_count": 220
+    }
+  ],
+  "deletion_step_count": 3,
+  "stop_reason": "empty_context"
+}

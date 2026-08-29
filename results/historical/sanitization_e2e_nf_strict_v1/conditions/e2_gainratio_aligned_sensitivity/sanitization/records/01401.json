@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2780",
+  "source_doc_id": "MED-2780",
+  "title": "Total and soluble oxalate content of some Indian spices.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Total and soluble oxalate content of some Indian spices.\nSpices, such as cinnamon, cloves, cardamom, garlic, ginger, cumin, coriander and turmeric are used all over the world as flavouring and colouring ingredients in Indian foods. Previous studies have shown that spices contain variable amounts of total oxalates but there are few reports of soluble oxalate contents. In this study, the total, soluble and insoluble oxalate contents of ten different spices commonly used in Indian cuisine were measured. Total oxalate content ranged from 194 (nutmeg) to 4,014 (green cardamom) mg/100 g DM, while the soluble oxalate contents ranged from 41 (nutmeg) to 3,977 (green cardamom) mg/100 g DM. Overall, the percentage of soluble oxalate content of the spices ranged from 4.7 to 99.1% of the total oxalate content which suggests that some spices present no risk to people liable to kidney stone formation, while other spices can supply significant amounts of soluble oxalates and therefore should be used in moderation.",
+  "sanitized_text": "Total and soluble oxalate content of some Indian spices.\nSpices, such as cinnamon, cloves, cardamom, garlic, ginger, cumin, coriander and turmeric are used all over the world as flavouring and colouring ingredients in Indian foods. Previous studies have shown that spices contain variable amounts of total oxalates but there are few reports of soluble oxalate contents. In this study, the total, soluble and insoluble oxalate contents of ten different spices commonly used in Indian cuisine were measured. Total oxalate content ranged from 194 (nutmeg) to 4,014 (green cardamom) mg/100 g DM, while the soluble oxalate contents ranged from 41 (nutmeg) to 3,977 (green cardamom) mg/100 g DM. Overall, the percentage of soluble oxalate content of the spices ranged from 4.7 to 99.1% of the total oxalate content which suggests that some spices present no risk to people liable to kidney stone formation, while other spices can supply significant amounts of soluble oxalates and therefore should be used in moderation.",
+  "modified": false,
+  "original_char_count": 1014,
+  "sanitized_char_count": 1014,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 690,
+      "boundary_end": 1014,
+      "context": "Total and soluble oxalate content of some Indian spices. Spices, such as cinnamon, cloves, cardamom, garlic, ginger, cumin, coriander and turmeric are used all over the world as flavouring and colouring ingredients in Indian foods. Previous studies have shown that spices contain variable amounts of total oxalates but there are few reports of soluble oxalate contents. In this study, the total, soluble and insoluble oxalate contents of ten different spices commonly used in Indian cuisine were measured. Total oxalate content ranged from 194 (nutmeg) to 4,014 (green cardamom) mg/100 g DM, while the soluble oxalate contents ranged from 41 (nutmeg) to 3,977 (green cardamom) mg/100 g DM.",
+      "target": "Overall, the percentage of soluble oxalate content of the spices ranged from 4.7 to 99.1% of the total oxalate content which suggests that some spices present no risk to people liable to kidney stone formation, while other spices can supply significant amounts of soluble oxalates and therefore should be used in moderation.",
+      "loss_target": 2.2454776763916016,
+      "loss_target_given_context": 1.541670799255371,
+      "delta_loss": 0.7038068771362305,
+      "gain_ratio": 0.3134330323279908,
+      "score": -0.3134330323279908,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

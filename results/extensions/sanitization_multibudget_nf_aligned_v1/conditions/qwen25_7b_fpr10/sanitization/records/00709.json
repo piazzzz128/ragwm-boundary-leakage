@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1847",
+  "source_doc_id": "MED-1847",
+  "title": "Gastro-intestinal availability of aluminium from tea.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Gastro-intestinal availability of aluminium from tea.\nThe in vitro speciation of aluminium (Al) in black tea infusion (pH 4.8) was assessed using 3000, 10,000 and 30,000 Da cut-off ultrafilters, and the effect of adding human gastric juice (pH 2.3) and then raising the pH to 6.5 were also studied. 78% Al in the tea infusion passed through the 3000-Da ultrafilter; this percentage increased to more than 90% with the addition of gastric juice at pH 2.3, but then reduced to approximately 5% when the incubate was adjusted to pH 6.5. The breakdown of tea-derived polyphenols to low molecular weight phenols in vivo was measured using high-resolution 1H nuclear magnetic resonance spectroscopic analysis of ileostomy effluent, but there was no evidence of low molecular weight breakdown products from the polyphenols of ingested tea in this effluent. These results suggest that only a small proportion of Al in tea is potentially available for absorption throughout the small bowel. It may be misleading to estimate systemic Al absorption from tea drinking simply from total urinary aluminium excretion as has been done previously.",
+  "sanitized_text": "Gastro-intestinal availability of aluminium from tea.\nThe in vitro speciation of aluminium (Al) in black tea infusion (pH 4.8) was assessed using 3000, 10,000 and 30,000 Da cut-off ultrafilters, and the effect of adding human gastric juice (pH 2.3) and then raising the pH to 6.5 were also studied. 78% Al in the tea infusion passed through the 3000-Da ultrafilter; this percentage increased to more than 90% with the addition of gastric juice at pH 2.3, but then reduced to approximately 5% when the incubate was adjusted to pH 6.5. The breakdown of tea-derived polyphenols to low molecular weight phenols in vivo was measured using high-resolution 1H nuclear magnetic resonance spectroscopic analysis of ileostomy effluent, but there was no evidence of low molecular weight breakdown products from the polyphenols of ingested tea in this effluent. These results suggest that only a small proportion of Al in tea is potentially available for absorption throughout the small bowel. It may be misleading to estimate systemic Al absorption from tea drinking simply from total urinary aluminium excretion as has been done previously.",
+  "modified": false,
+  "original_char_count": 1130,
+  "sanitized_char_count": 1130,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 982,
+      "boundary_end": 1130,
+      "context": "Gastro-intestinal availability of aluminium from tea. The in vitro speciation of aluminium (Al) in black tea infusion (pH 4.8) was assessed using 3000, 10,000 and 30,000 Da cut-off ultrafilters, and the effect of adding human gastric juice (pH 2.3) and then raising the pH to 6.5 were also studied. 78% Al in the tea infusion passed through the 3000-Da ultrafilter; this percentage increased to more than 90% with the addition of gastric juice at pH 2.3, but then reduced to approximately 5% when the incubate was adjusted to pH 6.5. The breakdown of tea-derived polyphenols to low molecular weight phenols in vivo was measured using high-resolution 1H nuclear magnetic resonance spectroscopic analysis of ileostomy effluent, but there was no evidence of low molecular weight breakdown products from the polyphenols of ingested tea in this effluent. These results suggest that only a small proportion of Al in tea is potentially available for absorption throughout the small bowel.",
+      "target": "It may be misleading to estimate systemic Al absorption from tea drinking simply from total urinary aluminium excretion as has been done previously.",
+      "loss_target": 4.029186725616455,
+      "loss_target_given_context": 2.73199725151062,
+      "delta_loss": 1.297189474105835,
+      "gain_ratio": 0.3219482149731763,
+      "score": -0.3219482149731763,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

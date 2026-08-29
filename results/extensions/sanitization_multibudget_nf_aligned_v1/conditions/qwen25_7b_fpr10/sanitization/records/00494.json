@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1600",
+  "source_doc_id": "MED-1600",
+  "title": "Beyond celery and starter culture: advances in natural/organic curing processes in the United States.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Beyond celery and starter culture: advances in natural/organic curing processes in the United States.\nOver the past 10years there has been ongoing development of curing processes with natural ingredients designed to meet consumer demand and regulatory requirements for natural and organic processed meats. Initially, these processes utilized celery concentrates with a high nitrate content combined with a nitrate-reducing starter culture. Subsequent advances included celery concentrates with the nitrate converted to nitrite by suppliers. Further, as questions developed concerning reduced concentration of preservatives and the microbiological safety of these processed meats, additional advances have resulted in a wide variety of ingredients and processes designed to provide supplementary antimicrobial effects for improved product safety. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Beyond celery and starter culture: advances in natural/organic curing processes in the United States.\nOver the past 10years there has been ongoing development of curing processes with natural ingredients designed to meet consumer demand and regulatory requirements for natural and organic processed meats. Initially, these processes utilized celery concentrates with a high nitrate content combined with a nitrate-reducing starter culture. Subsequent advances included celery concentrates with the nitrate converted to nitrite by suppliers. Further, as questions developed concerning reduced concentration of preservatives and the microbiological safety of these processed meats, additional advances have resulted in a wide variety of ingredients and processes designed to provide supplementary antimicrobial effects for improved product safety. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 897,
+  "sanitized_char_count": 897,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 846,
+      "boundary_end": 876,
+      "context": "Beyond celery and starter culture: advances in natural/organic curing processes in the United States. Over the past 10years there has been ongoing development of curing processes with natural ingredients designed to meet consumer demand and regulatory requirements for natural and organic processed meats. Initially, these processes utilized celery concentrates with a high nitrate content combined with a nitrate-reducing starter culture. Subsequent advances included celery concentrates with the nitrate converted to nitrite by suppliers. Further, as questions developed concerning reduced concentration of preservatives and the microbiological safety of these processed meats, additional advances have resulted in a wide variety of ingredients and processes designed to provide supplementary antimicrobial effects for improved product safety.",
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "loss_target": 1.1579636335372925,
+      "loss_target_given_context": 0.3517856001853943,
+      "delta_loss": 0.8061780333518982,
+      "gain_ratio": 0.6962032398972874,
+      "score": -0.6962032398972874,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

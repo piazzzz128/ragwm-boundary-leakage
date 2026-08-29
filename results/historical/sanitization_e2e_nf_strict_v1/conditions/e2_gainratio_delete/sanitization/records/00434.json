@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1528",
+  "source_doc_id": "MED-1528",
+  "title": "Effect of the vegetarian diet on non-communicable diseases.",
+  "original_text": "Effect of the vegetarian diet on non-communicable diseases.\nA vegetarian diet generally includes plenty of vegetables and fruits, which are rich in phytochemicals, antioxidants, fiber, magnesium, vitamins C and E, Fe³⁺, folic acid and n-6 polyunsaturated fatty acid (PUFA), and is low in cholesterol, total fat and saturated fatty acid, sodium, Fe²⁺, zinc, vitamin A, B₁₂ and D, and especially n-3 PUFA. Mortality from all-cause, ischemic heart disease, and circulatory and cerebrovascular diseases was significantly lower in vegetarians than in omnivorous populations. Compared with omnivores, the incidence of cancer and type 2 diabetes was also significantly lower in vegetarians. However, vegetarians have a number of increased risk factors for non-communicable diseases such as increased plasma homocysteine, mean platelet volume and platelet aggregability compared with omnivores, which are associated with low intake of vitamin B₁₂ and n-3 PUFA. Based on the present data, it would seem appropriate for vegetarians to carefully design their diet, specifically focusing on increasing their intake of vitamin B₁₂ and n-3 PUFA to further reduce already low mortality and morbidity from non-communicable diseases. © 2013 Society of Chemical Industry.",
+  "sanitized_text": "Effect of the vegetarian diet on non-communicable diseases.\nA vegetarian diet generally includes plenty of vegetables and fruits, which are rich in phytochemicals, antioxidants, fiber, magnesium, vitamins C and E, Fe³⁺, folic acid and n-6 polyunsaturated fatty acid (PUFA), and is low in cholesterol, total fat and saturated fatty acid, sodium, Fe²⁺, zinc, vitamin A, B₁₂ and D, and especially n-3 PUFA. Mortality from all-cause, ischemic heart disease, and circulatory and cerebrovascular diseases was significantly lower in vegetarians than in omnivorous populations. Compared with omnivores, the incidence of cancer and type 2 diabetes was also significantly lower in vegetarians. However, vegetarians have a number of increased risk factors for non-communicable diseases such as increased plasma homocysteine, mean platelet volume and platelet aggregability compared with omnivores, which are associated with low intake of vitamin B₁₂ and n-3 PUFA. Based on the present data, it would seem appropriate for vegetarians to carefully design their diet, specifically focusing on increasing their intake of vitamin B₁₂ and n-3 PUFA to further reduce already low mortality and morbidity from non-communicable diseases.",
+  "modified": true,
+  "original_char_count": 1253,
+  "sanitized_char_count": 1216,
+  "deleted_char_count": 37,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1217,
+      "boundary_end": 1253,
+      "context": "diet on non-communicable diseases. A vegetarian diet generally includes plenty of vegetables and fruits, which are rich in phytochemicals, antioxidants, fiber, magnesium, vitamins C and E, Fe³⁺, folic acid and n-6 polyunsaturated fatty acid (PUFA), and is low in cholesterol, total fat and saturated fatty acid, sodium, Fe²⁺, zinc, vitamin A, B₁₂ and D, and especially n-3 PUFA. Mortality from all-cause, ischemic heart disease, and circulatory and cerebrovascular diseases was significantly lower in vegetarians than in omnivorous populations. Compared with omnivores, the incidence of cancer and type 2 diabetes was also significantly lower in vegetarians. However, vegetarians have a number of increased risk factors for non-communicable diseases such as increased plasma homocysteine, mean platelet volume and platelet aggregability compared with omnivores, which are associated with low intake of vitamin B₁₂ and n-3 PUFA. Based on the present data, it would seem appropriate for vegetarians to carefully design their diet, specifically focusing on increasing their intake of vitamin B₁₂ and n-3 PUFA to further reduce already low mortality and morbidity from non-communicable diseases.",
+      "target": "© 2013 Society of Chemical Industry.",
+      "loss_target": 1.4054455757141113,
+      "loss_target_given_context": 1.401251196861267,
+      "delta_loss": 0.004194378852844238,
+      "gain_ratio": 0.0029843765744632703,
+      "score": -0.0029843765744632703,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 953,
+      "boundary_end": 1216,
+      "context": "Effect of the vegetarian diet on non-communicable diseases. A vegetarian diet generally includes plenty of vegetables and fruits, which are rich in phytochemicals, antioxidants, fiber, magnesium, vitamins C and E, Fe³⁺, folic acid and n-6 polyunsaturated fatty acid (PUFA), and is low in cholesterol, total fat and saturated fatty acid, sodium, Fe²⁺, zinc, vitamin A, B₁₂ and D, and especially n-3 PUFA. Mortality from all-cause, ischemic heart disease, and circulatory and cerebrovascular diseases was significantly lower in vegetarians than in omnivorous populations. Compared with omnivores, the incidence of cancer and type 2 diabetes was also significantly lower in vegetarians. However, vegetarians have a number of increased risk factors for non-communicable diseases such as increased plasma homocysteine, mean platelet volume and platelet aggregability compared with omnivores, which are associated with low intake of vitamin B₁₂ and n-3 PUFA.",
+      "target": "Based on the present data, it would seem appropriate for vegetarians to carefully design their diet, specifically focusing on increasing their intake of vitamin B₁₂ and n-3 PUFA to further reduce already low mortality and morbidity from non-communicable diseases.",
+      "loss_target": 2.7488853931427,
+      "loss_target_given_context": 1.915651559829712,
+      "delta_loss": 0.8332338333129883,
+      "gain_ratio": 0.30311697802736787,
+      "score": -0.30311697802736787,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1217,
+      "target": "© 2013 Society of Chemical Industry.",
+      "score": -0.0029843765744632703,
+      "deleted_suffix": "© 2013 Society of Chemical Industry.",
+      "deleted_char_count": 36
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

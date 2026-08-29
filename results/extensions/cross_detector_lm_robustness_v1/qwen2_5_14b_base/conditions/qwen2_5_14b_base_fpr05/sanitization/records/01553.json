@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3051",
+  "source_doc_id": "MED-3051",
+  "title": "Functional MRI of human hypothalamic responses following glucose ingestion.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Functional MRI of human hypothalamic responses following glucose ingestion.\nThe hypothalamus is intimately involved in the regulation of food intake, integrating multiple neural and hormonal signals. Several hypothalamic nuclei contain glucose-sensitive neurons, which play a crucial role in energy homeostasis. Although a few functional magnetic resonance imaging (fMRI) studies have indicated that glucose consumption has some effect on the neuronal activity levels in the hypothalamus, this matter has not been investigated extensively yet. For instance, dose-dependency of the hypothalamic responses to glucose ingestion has not been addressed. We measured the effects of two different glucose loads on neuronal activity levels in the human hypothalamus using fMRI. After an overnight fast, the hypothalamus of 15 normal weight men was scanned continuously for 37 min. After 7 min, subjects ingested either water or a glucose solution containing 25 or 75 g of glucose. We observed a prolonged decrease of the fMRI signal in the hypothalamus, which started shortly after subjects began drinking the glucose solution and lasted for at least 30 min. Moreover, the observed response was dose-dependent: a larger glucose load resulted in a larger signal decrease. This effect was most pronounced in the upper anterior hypothalamus. In the upper posterior hypothalamus, the signal decrease was similar for both glucose loads. No effect was found in the lower hypothalamus. We suggest a possible relation between the observed hypothalamic response and changes in the blood insulin concentration.",
+  "sanitized_text": "Functional MRI of human hypothalamic responses following glucose ingestion.\nThe hypothalamus is intimately involved in the regulation of food intake, integrating multiple neural and hormonal signals. Several hypothalamic nuclei contain glucose-sensitive neurons, which play a crucial role in energy homeostasis. Although a few functional magnetic resonance imaging (fMRI) studies have indicated that glucose consumption has some effect on the neuronal activity levels in the hypothalamus, this matter has not been investigated extensively yet. For instance, dose-dependency of the hypothalamic responses to glucose ingestion has not been addressed. We measured the effects of two different glucose loads on neuronal activity levels in the human hypothalamus using fMRI. After an overnight fast, the hypothalamus of 15 normal weight men was scanned continuously for 37 min. After 7 min, subjects ingested either water or a glucose solution containing 25 or 75 g of glucose. We observed a prolonged decrease of the fMRI signal in the hypothalamus, which started shortly after subjects began drinking the glucose solution and lasted for at least 30 min. Moreover, the observed response was dose-dependent: a larger glucose load resulted in a larger signal decrease. This effect was most pronounced in the upper anterior hypothalamus. In the upper posterior hypothalamus, the signal decrease was similar for both glucose loads. No effect was found in the lower hypothalamus. We suggest a possible relation between the observed hypothalamic response and changes in the blood insulin concentration.",
+  "modified": false,
+  "original_char_count": 1592,
+  "sanitized_char_count": 1592,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1471,
+      "boundary_end": 1592,
+      "context": "a crucial role in energy homeostasis. Although a few functional magnetic resonance imaging (fMRI) studies have indicated that glucose consumption has some effect on the neuronal activity levels in the hypothalamus, this matter has not been investigated extensively yet. For instance, dose-dependency of the hypothalamic responses to glucose ingestion has not been addressed. We measured the effects of two different glucose loads on neuronal activity levels in the human hypothalamus using fMRI. After an overnight fast, the hypothalamus of 15 normal weight men was scanned continuously for 37 min. After 7 min, subjects ingested either water or a glucose solution containing 25 or 75 g of glucose. We observed a prolonged decrease of the fMRI signal in the hypothalamus, which started shortly after subjects began drinking the glucose solution and lasted for at least 30 min. Moreover, the observed response was dose-dependent: a larger glucose load resulted in a larger signal decrease. This effect was most pronounced in the upper anterior hypothalamus. In the upper posterior hypothalamus, the signal decrease was similar for both glucose loads. No effect was found in the lower hypothalamus.",
+      "target": "We suggest a possible relation between the observed hypothalamic response and changes in the blood insulin concentration.",
+      "loss_target": 3.6534759998321533,
+      "loss_target_given_context": 1.9262088537216187,
+      "delta_loss": 1.7272671461105347,
+      "gain_ratio": 0.4727736397310091,
+      "score": -0.4727736397310091,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

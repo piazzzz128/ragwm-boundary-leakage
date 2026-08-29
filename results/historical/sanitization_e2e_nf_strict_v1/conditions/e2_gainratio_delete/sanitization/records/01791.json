@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3449",
+  "source_doc_id": "MED-3449",
+  "title": "Antigenotoxic activity of watercress extract in an in vitro mammalian system using comet assay.",
+  "original_text": "Antigenotoxic activity of watercress extract in an in vitro mammalian system using comet assay.\nWatercress (Cruciferae), an integral part of Mediterranean diets, is a nutritive food which is used in the treatment of several diseases. Oxidative DNA damage seems to play a crucial role in chronic, aging-related diseases and it is considered an important and probably carcinogenic factor. The aim of this work was to determine the impact of watercress extract on cell viability and its potential antigenotoxic properties against induced oxidative damage, using a comet assay and peripheral blood cells as an in vitro model. An aqueous extract of the leaves was prepared using a juice processor, centrifuged, filtered and preserved at -20 °C. Two concentrations of the aqueous extract (13.2 and 26.4 mg/mL) were assayed. No differences were found in cell viability between the control and treated groups at any time. Significant antigenotoxic effects were observed for both concentrations, expressed as the damage index (p = 0.005 at 30 min; p < 0.001 at 60 and 90 min), the percentage reductions in damage being similar between them (67.1-75.2% respectively). These results suggest that the consumption watercress in the diet is a powerful tool for improving health and the quality of life. Copyright © 2011 John Wiley & Sons, Ltd.",
+  "sanitized_text": "Antigenotoxic activity of watercress extract in an in vitro mammalian system using comet assay.\nWatercress (Cruciferae), an integral part of Mediterranean diets, is a nutritive food which is used in the treatment of several diseases. Oxidative DNA damage seems to play a crucial role in chronic, aging-related diseases and it is considered an important and probably carcinogenic factor. The aim of this work was to determine the impact of watercress extract on cell viability and its potential antigenotoxic properties against induced oxidative damage, using a comet assay and peripheral blood cells as an in vitro model. An aqueous extract of the leaves was prepared using a juice processor, centrifuged, filtered and preserved at -20 °C. Two concentrations of the aqueous extract (13.2 and 26.4 mg/mL) were assayed. No differences were found in cell viability between the control and treated groups at any time. Significant antigenotoxic effects were observed for both concentrations, expressed as the damage index (p = 0.005 at 30 min; p < 0.001 at 60 and 90 min), the percentage reductions in damage being similar between them (67.1-75.2% respectively). These results suggest that the consumption watercress in the diet is a powerful tool for improving health and the quality of life.",
+  "modified": true,
+  "original_char_count": 1329,
+  "sanitized_char_count": 1288,
+  "deleted_char_count": 41,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1289,
+      "boundary_end": 1329,
+      "context": "assay. Watercress (Cruciferae), an integral part of Mediterranean diets, is a nutritive food which is used in the treatment of several diseases. Oxidative DNA damage seems to play a crucial role in chronic, aging-related diseases and it is considered an important and probably carcinogenic factor. The aim of this work was to determine the impact of watercress extract on cell viability and its potential antigenotoxic properties against induced oxidative damage, using a comet assay and peripheral blood cells as an in vitro model. An aqueous extract of the leaves was prepared using a juice processor, centrifuged, filtered and preserved at -20 °C. Two concentrations of the aqueous extract (13.2 and 26.4 mg/mL) were assayed. No differences were found in cell viability between the control and treated groups at any time. Significant antigenotoxic effects were observed for both concentrations, expressed as the damage index (p = 0.005 at 30 min; p < 0.001 at 60 and 90 min), the percentage reductions in damage being similar between them (67.1-75.2% respectively). These results suggest that the consumption watercress in the diet is a powerful tool for improving health and the quality of life.",
+      "target": "Copyright © 2011 John Wiley & Sons, Ltd.",
+      "loss_target": 0.9106405973434448,
+      "loss_target_given_context": 1.2849165201187134,
+      "delta_loss": -0.37427592277526855,
+      "gain_ratio": -0.4110028960570399,
+      "score": 0.4110028960570399,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1158,
+      "boundary_end": 1288,
+      "context": "Antigenotoxic activity of watercress extract in an in vitro mammalian system using comet assay. Watercress (Cruciferae), an integral part of Mediterranean diets, is a nutritive food which is used in the treatment of several diseases. Oxidative DNA damage seems to play a crucial role in chronic, aging-related diseases and it is considered an important and probably carcinogenic factor. The aim of this work was to determine the impact of watercress extract on cell viability and its potential antigenotoxic properties against induced oxidative damage, using a comet assay and peripheral blood cells as an in vitro model. An aqueous extract of the leaves was prepared using a juice processor, centrifuged, filtered and preserved at -20 °C. Two concentrations of the aqueous extract (13.2 and 26.4 mg/mL) were assayed. No differences were found in cell viability between the control and treated groups at any time. Significant antigenotoxic effects were observed for both concentrations, expressed as the damage index (p = 0.005 at 30 min; p < 0.001 at 60 and 90 min), the percentage reductions in damage being similar between them (67.1-75.2% respectively).",
+      "target": "These results suggest that the consumption watercress in the diet is a powerful tool for improving health and the quality of life.",
+      "loss_target": 3.160928726196289,
+      "loss_target_given_context": 2.4985175132751465,
+      "delta_loss": 0.6624112129211426,
+      "gain_ratio": 0.20956221107783618,
+      "score": -0.20956221107783618,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1289,
+      "target": "Copyright © 2011 John Wiley & Sons, Ltd.",
+      "score": 0.4110028960570399,
+      "deleted_suffix": "Copyright © 2011 John Wiley & Sons, Ltd.",
+      "deleted_char_count": 40
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2645",
+  "source_doc_id": "MED-2645",
+  "title": "Reduction in penis size and plasma testosterone concentrations in juvenile alligators living in a contaminated environment.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Reduction in penis size and plasma testosterone concentrations in juvenile alligators living in a contaminated environment.\nThe development of the male reproductive ducts and external genitalia in vertebrates is dependent on elevated androgen concentrations during embryonic development and the period of postnatal growth. We have observed that a population of juvenile alligators living on Lake Apopka exhibit significantly smaller penis size (24% average decrease) and lower plasma concentrations of testosterone (70% lower concentrations) when compared to animals of similar size on Lake Woodruff. In addition to smaller phalli, no relationship exists between plasma testosterone concentrations and penile size in males from Lake Apopka, whereas a positive relationship exists for males from Lake Woodruff. The alligators on Lake Apopka are known to have elevated concentrations of the antiandrogenic DDT breakdown product p.p'-DDE stored in their fat. We suggest a number of hypotheses that could explain the modification in the phenotype of the juvenile male living in Lake Apopka. These modifications in phenotype include a smaller penis size, lower plasma androgen concentrations, and lack of responsiveness of the penis to the plasma androgens present.",
+  "sanitized_text": "Reduction in penis size and plasma testosterone concentrations in juvenile alligators living in a contaminated environment.\nThe development of the male reproductive ducts and external genitalia in vertebrates is dependent on elevated androgen concentrations during embryonic development and the period of postnatal growth. We have observed that a population of juvenile alligators living on Lake Apopka exhibit significantly smaller penis size (24% average decrease) and lower plasma concentrations of testosterone (70% lower concentrations) when compared to animals of similar size on Lake Woodruff. In addition to smaller phalli, no relationship exists between plasma testosterone concentrations and penile size in males from Lake Apopka, whereas a positive relationship exists for males from Lake Woodruff. The alligators on Lake Apopka are known to have elevated concentrations of the antiandrogenic DDT breakdown product p.p'-DDE stored in their fat. We suggest a number of hypotheses that could explain the modification in the phenotype of the juvenile male living in Lake Apopka. These modifications in phenotype include a smaller penis size, lower plasma androgen concentrations, and lack of responsiveness of the penis to the plasma androgens present.",
+  "modified": false,
+  "original_char_count": 1260,
+  "sanitized_char_count": 1260,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1087,
+      "boundary_end": 1260,
+      "context": "Reduction in penis size and plasma testosterone concentrations in juvenile alligators living in a contaminated environment. The development of the male reproductive ducts and external genitalia in vertebrates is dependent on elevated androgen concentrations during embryonic development and the period of postnatal growth. We have observed that a population of juvenile alligators living on Lake Apopka exhibit significantly smaller penis size (24% average decrease) and lower plasma concentrations of testosterone (70% lower concentrations) when compared to animals of similar size on Lake Woodruff. In addition to smaller phalli, no relationship exists between plasma testosterone concentrations and penile size in males from Lake Apopka, whereas a positive relationship exists for males from Lake Woodruff. The alligators on Lake Apopka are known to have elevated concentrations of the antiandrogenic DDT breakdown product p.p'-DDE stored in their fat. We suggest a number of hypotheses that could explain the modification in the phenotype of the juvenile male living in Lake Apopka.",
+      "target": "These modifications in phenotype include a smaller penis size, lower plasma androgen concentrations, and lack of responsiveness of the penis to the plasma androgens present.",
+      "loss_target": 3.0539047718048096,
+      "loss_target_given_context": 1.6947399377822876,
+      "delta_loss": 1.359164834022522,
+      "gain_ratio": 0.4450580275360967,
+      "score": -0.4450580275360967,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

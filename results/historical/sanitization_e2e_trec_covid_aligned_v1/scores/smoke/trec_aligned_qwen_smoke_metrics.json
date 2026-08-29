@@ -1,0 +1,105 @@
+{
+  "dataset": "trec-covid",
+  "experiment_role": "fresh_aligned_cross_dataset_boundary_scoring_v1",
+  "method": "GainRatio",
+  "model": "Qwen2.5-7B",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-7B",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "max_context_tokens": 1024,
+  "max_target_tokens": 128,
+  "n_boot": 500,
+  "bootstrap_seed": 20260609,
+  "limit_per_class": 10,
+  "n_input": 20,
+  "n_scored": 20,
+  "n_failed": 0,
+  "positive_injected": 10,
+  "negative_clean": 10,
+  "record_gain_ratio": {
+    "roc_auc": 0.93,
+    "pr_auc": 0.9272546897546897,
+    "tpr_at_fpr_1": 0.5,
+    "tpr_at_fpr_5": 0.5,
+    "tpr_at_fpr_10": 0.8,
+    "best_f1": 0.9090909090909091
+  },
+  "record_gain_ratio_stratified_bootstrap": {
+    "roc_auc": {
+      "estimate": 0.93,
+      "bootstrap_95_percentile_ci": [
+        0.7947500000000001,
+        1.0
+      ]
+    },
+    "pr_auc": {
+      "estimate": 0.9272546897546897,
+      "bootstrap_95_percentile_ci": [
+        0.8064134615384615,
+        1.0
+      ]
+    },
+    "tpr_at_fpr_1": {
+      "estimate": 0.5,
+      "bootstrap_95_percentile_ci": [
+        0.2,
+        1.0
+      ]
+    },
+    "tpr_at_fpr_5": {
+      "estimate": 0.5,
+      "bootstrap_95_percentile_ci": [
+        0.2,
+        1.0
+      ]
+    },
+    "tpr_at_fpr_10": {
+      "estimate": 0.8,
+      "bootstrap_95_percentile_ci": [
+        0.3,
+        1.0
+      ]
+    },
+    "best_f1": {
+      "estimate": 0.9090909090909091,
+      "bootstrap_95_percentile_ci": [
+        0.8333333333333333,
+        1.0
+      ]
+    }
+  },
+  "record_delta_loss": {
+    "roc_auc": 0.85,
+    "pr_auc": 0.8682783882783882,
+    "tpr_at_fpr_1": 0.4,
+    "tpr_at_fpr_5": 0.4,
+    "tpr_at_fpr_10": 0.7,
+    "best_f1": 0.8000000000000002
+  },
+  "group_gain_ratio": {
+    "group_count": 19,
+    "positive_group_count": 9,
+    "negative_group_count": 10,
+    "mean_reducer": {
+      "roc_auc": 0.9333333333333333,
+      "pr_auc": 0.9278138528138529,
+      "tpr_at_fpr_1": 0.5555555555555556,
+      "tpr_at_fpr_5": 0.5555555555555556,
+      "tpr_at_fpr_10": 0.7777777777777778,
+      "best_f1": 0.9
+    },
+    "median_reducer": {
+      "roc_auc": 0.9333333333333333,
+      "pr_auc": 0.9278138528138529,
+      "tpr_at_fpr_1": 0.5555555555555556,
+      "tpr_at_fpr_5": 0.5555555555555556,
+      "tpr_at_fpr_10": 0.7777777777777778,
+      "best_f1": 0.9
+    }
+  },
+  "gain_ratio_mean_injected": 0.10235670012126659,
+  "gain_ratio_mean_clean": 0.38956110082640427,
+  "run_valid": true,
+  "warning": "Cross-dataset aligned boundary result. Do not overwrite historical TREC results or the sealed NFCorpus strict-v1 main result."
+}

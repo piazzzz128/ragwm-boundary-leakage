@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4807",
+  "source_doc_id": "MED-4807",
+  "title": "Presence and Characterization of Shiga Toxin-Producing Escherichia coli and Other Potentially Diarrheagenic E. coli Strains in Retail Meats",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Presence and Characterization of Shiga Toxin-Producing Escherichia coli and Other Potentially Diarrheagenic E. coli Strains in Retail Meats\nTo determine the presence of Shiga toxin-producing Escherichia coli (STEC) and other potentially diarrheagenic E. coli strains in retail meats, 7,258 E. coli isolates collected by the U.S. National Antimicrobial Resistance Monitoring System (NARMS) retail meat program from 2002 to 2007 were screened for Shiga toxin genes. In addition, 1,275 of the E. coli isolates recovered in 2006 were examined for virulence genes specific for other diarrheagenic E. coli strains. Seventeen isolates (16 from ground beef and 1 from a pork chop) were positive for stx genes, including 5 positive for both stx1 and stx2, 2 positive for stx1, and 10 positive for stx2. The 17 STEC strains belonged to 10 serotypes: O83:H8, O8:H16, O15:H16, O15:H17, O88:H38, ONT:H51, ONT:H2, ONT:H10, ONT:H7, and ONT:H46. None of the STEC isolates contained eae, whereas seven carried enterohemorrhagic E. coli (EHEC) hlyA. All except one STEC isolate exhibited toxic effects on Vero cells. DNA sequence analysis showed that the stx2 genes from five STEC isolates encoded mucus-activatable Stx2d. Subtyping of the 17 STEC isolates by pulsed-field gel electrophoresis (PFGE) yielded 14 distinct restriction patterns. Among the 1,275 isolates from 2006, 11 atypical enteropathogenic E. coli (EPEC) isolates were identified in addition to 3 STEC isolates. This study demonstrated that retail meats, mainly ground beef, were contaminated with diverse STEC strains. The presence of atypical EPEC strains in retail meat is also of concern due to their potential to cause human infections.",
+  "sanitized_text": "Presence and Characterization of Shiga Toxin-Producing Escherichia coli and Other Potentially Diarrheagenic E. coli Strains in Retail Meats\nTo determine the presence of Shiga toxin-producing Escherichia coli (STEC) and other potentially diarrheagenic E. coli strains in retail meats, 7,258 E. coli isolates collected by the U.S. National Antimicrobial Resistance Monitoring System (NARMS) retail meat program from 2002 to 2007 were screened for Shiga toxin genes. In addition, 1,275 of the E. coli isolates recovered in 2006 were examined for virulence genes specific for other diarrheagenic E. coli strains. Seventeen isolates (16 from ground beef and 1 from a pork chop) were positive for stx genes, including 5 positive for both stx1 and stx2, 2 positive for stx1, and 10 positive for stx2. The 17 STEC strains belonged to 10 serotypes: O83:H8, O8:H16, O15:H16, O15:H17, O88:H38, ONT:H51, ONT:H2, ONT:H10, ONT:H7, and ONT:H46. None of the STEC isolates contained eae, whereas seven carried enterohemorrhagic E. coli (EHEC) hlyA. All except one STEC isolate exhibited toxic effects on Vero cells. DNA sequence analysis showed that the stx2 genes from five STEC isolates encoded mucus-activatable Stx2d. Subtyping of the 17 STEC isolates by pulsed-field gel electrophoresis (PFGE) yielded 14 distinct restriction patterns. Among the 1,275 isolates from 2006, 11 atypical enteropathogenic E. coli (EPEC) isolates were identified in addition to 3 STEC isolates. This study demonstrated that retail meats, mainly ground beef, were contaminated with diverse STEC strains. The presence of atypical EPEC strains in retail meat is also of concern due to their potential to cause human infections.",
+  "modified": false,
+  "original_char_count": 1690,
+  "sanitized_char_count": 1690,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1569,
+      "boundary_end": 1690,
+      "context": "System (NARMS) retail meat program from 2002 to 2007 were screened for Shiga toxin genes. In addition, 1,275 of the E. coli isolates recovered in 2006 were examined for virulence genes specific for other diarrheagenic E. coli strains. Seventeen isolates (16 from ground beef and 1 from a pork chop) were positive for stx genes, including 5 positive for both stx1 and stx2, 2 positive for stx1, and 10 positive for stx2. The 17 STEC strains belonged to 10 serotypes: O83:H8, O8:H16, O15:H16, O15:H17, O88:H38, ONT:H51, ONT:H2, ONT:H10, ONT:H7, and ONT:H46. None of the STEC isolates contained eae, whereas seven carried enterohemorrhagic E. coli (EHEC) hlyA. All except one STEC isolate exhibited toxic effects on Vero cells. DNA sequence analysis showed that the stx2 genes from five STEC isolates encoded mucus-activatable Stx2d. Subtyping of the 17 STEC isolates by pulsed-field gel electrophoresis (PFGE) yielded 14 distinct restriction patterns. Among the 1,275 isolates from 2006, 11 atypical enteropathogenic E. coli (EPEC) isolates were identified in addition to 3 STEC isolates. This study demonstrated that retail meats, mainly ground beef, were contaminated with diverse STEC strains.",
+      "target": "The presence of atypical EPEC strains in retail meat is also of concern due to their potential to cause human infections.",
+      "loss_target": 3.0498523712158203,
+      "loss_target_given_context": 1.3237806558609009,
+      "delta_loss": 1.7260717153549194,
+      "gain_ratio": 0.5659525463086015,
+      "score": -0.5659525463086015,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

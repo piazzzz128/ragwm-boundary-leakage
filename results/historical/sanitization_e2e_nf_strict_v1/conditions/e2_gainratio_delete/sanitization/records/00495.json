@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1601",
+  "source_doc_id": "MED-1601",
+  "title": "Survey of naturally and conventionally cured commercial frankfurters, ham, and bacon for physio-chemical characteristics that affect bacterial growth.",
+  "original_text": "Survey of naturally and conventionally cured commercial frankfurters, ham, and bacon for physio-chemical characteristics that affect bacterial growth.\nNatural and organic food regulations preclude the use of sodium nitrite/nitrate and other antimicrobials for processed meat products. Consequently, processors have begun to use natural nitrate/nitrite sources, such as celery juice/powder, sea salt, and turbinado sugar, to manufacture natural and organic products with cured meat characteristics but without sodium nitrite. The objective of this study was to compare physio-chemical characteristics that affect Clostridium perfringens and Listeria monocytogenes growth in naturally cured and traditionally cured commercial frankfurters, hams, and bacon. Correlations of specific product characteristics to pathogen growth varied between products and pathogens, though water activity, salt concentration, and product composition (moisture, protein and fat) were common intrinsic factors correlated to pathogen growth across products. Other frequently correlated traits were related to curing reactions such as % cured pigment. Residual nitrite and nitrate were significantly correlated to C. perfringens growth but only for the ham products. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Survey of naturally and conventionally cured commercial frankfurters, ham, and bacon for physio-chemical characteristics that affect bacterial growth.\nNatural and organic food regulations preclude the use of sodium nitrite/nitrate and other antimicrobials for processed meat products. Consequently, processors have begun to use natural nitrate/nitrite sources, such as celery juice/powder, sea salt, and turbinado sugar, to manufacture natural and organic products with cured meat characteristics but without sodium nitrite. The objective of this study was to compare physio-chemical characteristics that affect Clostridium perfringens and Listeria monocytogenes growth in naturally cured and traditionally cured commercial frankfurters, hams, and bacon. Correlations of specific product characteristics to pathogen growth varied between products and pathogens, though water activity, salt concentration, and product composition (moisture, protein and fat) were common intrinsic factors correlated to pathogen growth across products. Other frequently correlated traits were related to curing reactions such as % cured pigment. Residual nitrite and nitrate were significantly correlated to C. perfringens growth but only for the ham products.",
+  "modified": true,
+  "original_char_count": 1293,
+  "sanitized_char_count": 1241,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1242,
+      "boundary_end": 1272,
+      "context": "commercial frankfurters, ham, and bacon for physio-chemical characteristics that affect bacterial growth. Natural and organic food regulations preclude the use of sodium nitrite/nitrate and other antimicrobials for processed meat products. Consequently, processors have begun to use natural nitrate/nitrite sources, such as celery juice/powder, sea salt, and turbinado sugar, to manufacture natural and organic products with cured meat characteristics but without sodium nitrite. The objective of this study was to compare physio-chemical characteristics that affect Clostridium perfringens and Listeria monocytogenes growth in naturally cured and traditionally cured commercial frankfurters, hams, and bacon. Correlations of specific product characteristics to pathogen growth varied between products and pathogens, though water activity, salt concentration, and product composition (moisture, protein and fat) were common intrinsic factors correlated to pathogen growth across products. Other frequently correlated traits were related to curing reactions such as % cured pigment. Residual nitrite and nitrate were significantly correlated to C. perfringens growth but only for the ham products.",
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "loss_target": 1.1579636335372925,
+      "loss_target_given_context": 2.021106719970703,
+      "delta_loss": -0.8631430864334106,
+      "gain_ratio": -0.7453974040589876,
+      "score": 0.7453974040589876,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1192,
+      "boundary_end": 1241,
+      "context": "Survey of naturally and conventionally cured commercial frankfurters, ham, and bacon for physio-chemical characteristics that affect bacterial growth. Natural and organic food regulations preclude the use of sodium nitrite/nitrate and other antimicrobials for processed meat products. Consequently, processors have begun to use natural nitrate/nitrite sources, such as celery juice/powder, sea salt, and turbinado sugar, to manufacture natural and organic products with cured meat characteristics but without sodium nitrite. The objective of this study was to compare physio-chemical characteristics that affect Clostridium perfringens and Listeria monocytogenes growth in naturally cured and traditionally cured commercial frankfurters, hams, and bacon. Correlations of specific product characteristics to pathogen growth varied between products and pathogens, though water activity, salt concentration, and product composition (moisture, protein and fat) were common intrinsic factors correlated to pathogen growth across products. Other frequently correlated traits were related to curing reactions such as % cured pigment. Residual nitrite and nitrate were significantly correlated to C.",
+      "target": "perfringens growth but only for the ham products.",
+      "loss_target": 5.31839656829834,
+      "loss_target_given_context": 2.034348249435425,
+      "delta_loss": 3.284048318862915,
+      "gain_ratio": 0.6174884246952029,
+      "score": -0.6174884246952029,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1242,
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "score": 0.7453974040589876,
+      "deleted_suffix": "Copyright © 2012 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

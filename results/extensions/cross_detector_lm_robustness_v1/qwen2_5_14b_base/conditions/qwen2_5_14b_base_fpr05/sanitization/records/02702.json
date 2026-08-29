@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4594",
+  "source_doc_id": "MED-4594",
+  "title": "An overview of livestock-associated MRSA in agriculture.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "An overview of livestock-associated MRSA in agriculture.\nResearchers, veterinary and health care practitioners, and agricultural producers gathered in Johnston, Iowa, to attend the eighth annual Midwest Rural Agricultural Safety and Health Forum (MRASH), November 2009. Among several focus areas, four plenary talks were given on the current research being conducted examining methicillin-resistant Staphylococcus aureus (MRSA) on swine farms in the United States. These focused on prevalence of MRSA on farms, both in swine and in human workers; the presence of MRSA in air samples and in swine barn shower facilities; and the presence of methicillin-resistant and methicillin-sensitive S. aureus in retail meats. These findings begin to elucidate the overall picture of livestock-associated MRSA in the Midwestern United States.",
+  "sanitized_text": "An overview of livestock-associated MRSA in agriculture.\nResearchers, veterinary and health care practitioners, and agricultural producers gathered in Johnston, Iowa, to attend the eighth annual Midwest Rural Agricultural Safety and Health Forum (MRASH), November 2009. Among several focus areas, four plenary talks were given on the current research being conducted examining methicillin-resistant Staphylococcus aureus (MRSA) on swine farms in the United States. These focused on prevalence of MRSA on farms, both in swine and in human workers; the presence of MRSA in air samples and in swine barn shower facilities; and the presence of methicillin-resistant and methicillin-sensitive S. aureus in retail meats. These findings begin to elucidate the overall picture of livestock-associated MRSA in the Midwestern United States.",
+  "modified": false,
+  "original_char_count": 830,
+  "sanitized_char_count": 830,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 715,
+      "boundary_end": 830,
+      "context": "An overview of livestock-associated MRSA in agriculture. Researchers, veterinary and health care practitioners, and agricultural producers gathered in Johnston, Iowa, to attend the eighth annual Midwest Rural Agricultural Safety and Health Forum (MRASH), November 2009. Among several focus areas, four plenary talks were given on the current research being conducted examining methicillin-resistant Staphylococcus aureus (MRSA) on swine farms in the United States. These focused on prevalence of MRSA on farms, both in swine and in human workers; the presence of MRSA in air samples and in swine barn shower facilities; and the presence of methicillin-resistant and methicillin-sensitive S. aureus in retail meats.",
+      "target": "These findings begin to elucidate the overall picture of livestock-associated MRSA in the Midwestern United States.",
+      "loss_target": 2.7495224475860596,
+      "loss_target_given_context": 1.6667646169662476,
+      "delta_loss": 1.082757830619812,
+      "gain_ratio": 0.3937985054715295,
+      "score": -0.3937985054715295,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

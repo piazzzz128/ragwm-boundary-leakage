@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2578",
+  "source_doc_id": "MED-2578",
+  "title": "Dietary suppression of colonic cancer. Fiber or phytate?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary suppression of colonic cancer. Fiber or phytate?\nThe incidence of colonic cancer differs widely between various human populations. It has been suggested that dietary fiber content is of utmost importance and is inversely related to the occurrence of colonic cancer. However, high-fiber diets are not always correlated with low frequency of colonic cancer, suggesting the involvement of additional dietary constituents. Inositol hexaphosphate (phytic acid) is an abundant plant seed component present in many, but not all, fiber-rich diets. The authors have found that phytic acid is a potent inhibitor of iron-mediated generation of the hazardous oxidant, hydroxyl radical. Herein, the authors propose that inhibition of intracolonic hydroxyl radical generation, via the chelation of reactive iron by phytic acid, may help explain the suppression of colonic carcinogenesis and other inflammatory bowel diseases by diets rich in phytic acid.",
+  "sanitized_text": "Dietary suppression of colonic cancer. Fiber or phytate?\nThe incidence of colonic cancer differs widely between various human populations. It has been suggested that dietary fiber content is of utmost importance and is inversely related to the occurrence of colonic cancer. However, high-fiber diets are not always correlated with low frequency of colonic cancer, suggesting the involvement of additional dietary constituents. Inositol hexaphosphate (phytic acid) is an abundant plant seed component present in many, but not all, fiber-rich diets. The authors have found that phytic acid is a potent inhibitor of iron-mediated generation of the hazardous oxidant, hydroxyl radical. Herein, the authors propose that inhibition of intracolonic hydroxyl radical generation, via the chelation of reactive iron by phytic acid, may help explain the suppression of colonic carcinogenesis and other inflammatory bowel diseases by diets rich in phytic acid.",
+  "modified": false,
+  "original_char_count": 948,
+  "sanitized_char_count": 948,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 682,
+      "boundary_end": 948,
+      "context": "Dietary suppression of colonic cancer. Fiber or phytate? The incidence of colonic cancer differs widely between various human populations. It has been suggested that dietary fiber content is of utmost importance and is inversely related to the occurrence of colonic cancer. However, high-fiber diets are not always correlated with low frequency of colonic cancer, suggesting the involvement of additional dietary constituents. Inositol hexaphosphate (phytic acid) is an abundant plant seed component present in many, but not all, fiber-rich diets. The authors have found that phytic acid is a potent inhibitor of iron-mediated generation of the hazardous oxidant, hydroxyl radical.",
+      "target": "Herein, the authors propose that inhibition of intracolonic hydroxyl radical generation, via the chelation of reactive iron by phytic acid, may help explain the suppression of colonic carcinogenesis and other inflammatory bowel diseases by diets rich in phytic acid.",
+      "loss_target": 2.3155665397644043,
+      "loss_target_given_context": 1.4489359855651855,
+      "delta_loss": 0.8666305541992188,
+      "gain_ratio": 0.3742628593550991,
+      "score": -0.3742628593550991,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

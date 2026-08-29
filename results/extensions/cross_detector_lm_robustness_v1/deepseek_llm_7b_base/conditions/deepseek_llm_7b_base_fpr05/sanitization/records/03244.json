@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5188",
+  "source_doc_id": "MED-5188",
+  "title": "Meat intake and bladder cancer risk in 2 prospective cohort studies.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Meat intake and bladder cancer risk in 2 prospective cohort studies.\nBACKGROUND: Nitrosamines, which are known bladder carcinogens, or their precursors are found in certain meat items, and concentrations of these compounds are especially high in bacon. Only 3 cohort studies, all with <100 case subjects, have examined the relation between meat intake and bladder cancer, and few studies have examined the relation of different meat types with bladder cancer. OBJECTIVE: The aim was to examine the association between specific meat items and bladder cancer in 2 large prospective studies. DESIGN: We analyzed data from 2 cohorts with up to 22 y of follow-up and 808 incident bladder cancer cases. Detailed data on meat were obtained from multiple food-frequency questionnaires administered over time. Multivariate relative risks (RRs) and 95% CIs were estimated by using Cox proportional hazards models with control for potential confounders, including detailed smoking history. RESULTS: Men and women with a high intake of bacon (>/=5 servings/wk) had an elevated risk of bladder cancer compared with those who never ate bacon (multivariate RR = 1.59; 95% CI = 1.06, 2.37), although the overall association was not statistically significant (P for trend = 0.06). However, the association with bacon was stronger and became statistically significant after the removal of individuals who indicated having \"greatly\" changed their red meat (men) or bacon (women) intake during the 10 y before baseline (multivariate RR = 2.10; 95% CI = 1.24, 3.55; P for trend = 0.006). A positive association was also detected for intake of chicken without skin, but not for chicken with skin or for other meats, including processed meats, hot dogs, and hamburgers. CONCLUSIONS: In these 2 cohorts combined, frequent consumption of bacon was associated with an elevated risk of bladder cancer. Other studies with data on specific meat items are necessary to confirm our findings.",
+  "sanitized_text": "Meat intake and bladder cancer risk in 2 prospective cohort studies.\nBACKGROUND: Nitrosamines, which are known bladder carcinogens, or their precursors are found in certain meat items, and concentrations of these compounds are especially high in bacon. Only 3 cohort studies, all with <100 case subjects, have examined the relation between meat intake and bladder cancer, and few studies have examined the relation of different meat types with bladder cancer. OBJECTIVE: The aim was to examine the association between specific meat items and bladder cancer in 2 large prospective studies. DESIGN: We analyzed data from 2 cohorts with up to 22 y of follow-up and 808 incident bladder cancer cases. Detailed data on meat were obtained from multiple food-frequency questionnaires administered over time. Multivariate relative risks (RRs) and 95% CIs were estimated by using Cox proportional hazards models with control for potential confounders, including detailed smoking history. RESULTS: Men and women with a high intake of bacon (>/=5 servings/wk) had an elevated risk of bladder cancer compared with those who never ate bacon (multivariate RR = 1.59; 95% CI = 1.06, 2.37), although the overall association was not statistically significant (P for trend = 0.06). However, the association with bacon was stronger and became statistically significant after the removal of individuals who indicated having \"greatly\" changed their red meat (men) or bacon (women) intake during the 10 y before baseline (multivariate RR = 2.10; 95% CI = 1.24, 3.55; P for trend = 0.006). A positive association was also detected for intake of chicken without skin, but not for chicken with skin or for other meats, including processed meats, hot dogs, and hamburgers. CONCLUSIONS: In these 2 cohorts combined, frequent consumption of bacon was associated with an elevated risk of bladder cancer. Other studies with data on specific meat items are necessary to confirm our findings.",
+  "modified": false,
+  "original_char_count": 1960,
+  "sanitized_char_count": 1960,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1875,
+      "boundary_end": 1960,
+      "context": "bladder cancer cases. Detailed data on meat were obtained from multiple food-frequency questionnaires administered over time. Multivariate relative risks (RRs) and 95% CIs were estimated by using Cox proportional hazards models with control for potential confounders, including detailed smoking history. RESULTS: Men and women with a high intake of bacon (>/=5 servings/wk) had an elevated risk of bladder cancer compared with those who never ate bacon (multivariate RR = 1.59; 95% CI = 1.06, 2.37), although the overall association was not statistically significant (P for trend = 0.06). However, the association with bacon was stronger and became statistically significant after the removal of individuals who indicated having \"greatly\" changed their red meat (men) or bacon (women) intake during the 10 y before baseline (multivariate RR = 2.10; 95% CI = 1.24, 3.55; P for trend = 0.006). A positive association was also detected for intake of chicken without skin, but not for chicken with skin or for other meats, including processed meats, hot dogs, and hamburgers. CONCLUSIONS: In these 2 cohorts combined, frequent consumption of bacon was associated with an elevated risk of bladder cancer.",
+      "target": "Other studies with data on specific meat items are necessary to confirm our findings.",
+      "loss_target": 3.783792734146118,
+      "loss_target_given_context": 2.1533334255218506,
+      "delta_loss": 1.6304593086242676,
+      "gain_ratio": 0.43090608370551,
+      "score": -0.43090608370551,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

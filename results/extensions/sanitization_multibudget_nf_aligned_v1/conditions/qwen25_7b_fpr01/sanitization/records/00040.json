@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1042",
+  "source_doc_id": "MED-1042",
+  "title": "Colonic motility in man: features in normal subjects and in patients with chronic idiopathic constipation.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Colonic motility in man: features in normal subjects and in patients with chronic idiopathic constipation.\nThe human colon is still a relatively unknown viscus, especially concerning its motor activity. However, in recent years, techniques have been perfected that allow a better understanding of colonic motility, especially through prolonged recording periods. In this way, it has been demonstrated that the viscus contracts according to a circadian trend, is responsive to physiological stimuli (meals, sleep), and features high amplitude, propulsive contractions that are part of the complex dynamic of the defecatory process. These physiological properties and their alterations in patients with chronic idiopathic constipation are reviewed in this article.",
+  "sanitized_text": "Colonic motility in man: features in normal subjects and in patients with chronic idiopathic constipation.\nThe human colon is still a relatively unknown viscus, especially concerning its motor activity. However, in recent years, techniques have been perfected that allow a better understanding of colonic motility, especially through prolonged recording periods. In this way, it has been demonstrated that the viscus contracts according to a circadian trend, is responsive to physiological stimuli (meals, sleep), and features high amplitude, propulsive contractions that are part of the complex dynamic of the defecatory process. These physiological properties and their alterations in patients with chronic idiopathic constipation are reviewed in this article.",
+  "modified": false,
+  "original_char_count": 762,
+  "sanitized_char_count": 762,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 631,
+      "boundary_end": 762,
+      "context": "Colonic motility in man: features in normal subjects and in patients with chronic idiopathic constipation. The human colon is still a relatively unknown viscus, especially concerning its motor activity. However, in recent years, techniques have been perfected that allow a better understanding of colonic motility, especially through prolonged recording periods. In this way, it has been demonstrated that the viscus contracts according to a circadian trend, is responsive to physiological stimuli (meals, sleep), and features high amplitude, propulsive contractions that are part of the complex dynamic of the defecatory process.",
+      "target": "These physiological properties and their alterations in patients with chronic idiopathic constipation are reviewed in this article.",
+      "loss_target": 2.800656795501709,
+      "loss_target_given_context": 1.3910843133926392,
+      "delta_loss": 1.4095724821090698,
+      "gain_ratio": 0.5033006844583966,
+      "score": -0.5033006844583966,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

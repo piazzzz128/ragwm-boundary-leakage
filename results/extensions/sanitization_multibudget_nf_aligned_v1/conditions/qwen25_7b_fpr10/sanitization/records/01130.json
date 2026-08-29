@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2370",
+  "source_doc_id": "MED-2370",
+  "title": "Thematic review series: the pathogenesis of atherosclerosis: an interpretive history of the cholesterol controversy, part III: mechanistically defi...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Thematic review series: the pathogenesis of atherosclerosis: an interpretive history of the cholesterol controversy, part III: mechanistically defi...\nIn this third installment of the series, we point out that the absence of an explicit, detailed and plausible hypothesis linking hypercholesterolemia to the events in the artery wall was probably an important reason for continuing skepticism and for failure to treat elevated blood cholesterol levels. The rapid advances in understanding of lipoprotein metabolism in the 1950s and 1960s and the application of modern cellular biology in the 1970s provided the context for a modern consensus on pathogenetic mechanisms of atherogenesis.",
+  "sanitized_text": "Thematic review series: the pathogenesis of atherosclerosis: an interpretive history of the cholesterol controversy, part III: mechanistically defi...\nIn this third installment of the series, we point out that the absence of an explicit, detailed and plausible hypothesis linking hypercholesterolemia to the events in the artery wall was probably an important reason for continuing skepticism and for failure to treat elevated blood cholesterol levels.",
+  "modified": true,
+  "original_char_count": 686,
+  "sanitized_char_count": 452,
+  "deleted_char_count": 234,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 453,
+      "boundary_end": 686,
+      "context": "Thematic review series: the pathogenesis of atherosclerosis: an interpretive history of the cholesterol controversy, part III: mechanistically defi... In this third installment of the series, we point out that the absence of an explicit, detailed and plausible hypothesis linking hypercholesterolemia to the events in the artery wall was probably an important reason for continuing skepticism and for failure to treat elevated blood cholesterol levels.",
+      "target": "The rapid advances in understanding of lipoprotein metabolism in the 1950s and 1960s and the application of modern cellular biology in the 1970s provided the context for a modern consensus on pathogenetic mechanisms of atherogenesis.",
+      "loss_target": 2.0241029262542725,
+      "loss_target_given_context": 1.6153385639190674,
+      "delta_loss": 0.4087643623352051,
+      "gain_ratio": 0.20194840738244907,
+      "score": -0.20194840738244907,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 151,
+      "boundary_end": 452,
+      "context": "Thematic review series: the pathogenesis of atherosclerosis: an interpretive history of the cholesterol controversy, part III: mechanistically defi...",
+      "target": "In this third installment of the series, we point out that the absence of an explicit, detailed and plausible hypothesis linking hypercholesterolemia to the events in the artery wall was probably an important reason for continuing skepticism and for failure to treat elevated blood cholesterol levels.",
+      "loss_target": 3.1419918537139893,
+      "loss_target_given_context": 2.2782883644104004,
+      "delta_loss": 0.8637034893035889,
+      "gain_ratio": 0.2748904292296776,
+      "score": -0.2748904292296776,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 453,
+      "target": "The rapid advances in understanding of lipoprotein metabolism in the 1950s and 1960s and the application of modern cellular biology in the 1970s provided the context for a modern consensus on pathogenetic mechanisms of atherogenesis.",
+      "score": -0.20194840738244907,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "The rapid advances in understanding of lipoprotein metabolism in the 1950s and 1960s and the application of modern cellular biology in the 1970s provided the context for a modern consensus on pathogenetic mechanisms of atherogenesis.",
+      "deleted_char_count": 233
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

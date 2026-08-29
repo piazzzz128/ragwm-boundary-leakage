@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3694",
+  "source_doc_id": "MED-3694",
+  "title": "Recurrent Clostridium difficile colitis: case series involving 18 patients treated with donor stool administered via a nasogastric tube.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Recurrent Clostridium difficile colitis: case series involving 18 patients treated with donor stool administered via a nasogastric tube.\nClostridium difficile-associated diarrhea and colitis have emerged as major complications associated with use of systemic antimicrobials. In this study, the medical records for 18 subjects who received donor stool by nasogastric tube for recurrent C. difficile infection during a 9-year period at a single institution were retrospectively reviewed. During the period between the initial diagnosis of C. difficile colitis and the stool treatments, the 18 subjects received a total of 64 courses of antimicrobials (range, 2-7 courses; median, 3 courses). During the 90 days after receipt of treatment with stool, 2 patients died of unrelated illnesses. One of the 16 survivors experienced a single recurrence of C. difficile colitis during 90-day follow-up. No adverse effects associated with stool treatment were observed. Patients with recurrent C. difficile colitis may benefit from the introduction of stool from healthy donors via a nasogastric tube.",
+  "sanitized_text": "Recurrent Clostridium difficile colitis: case series involving 18 patients treated with donor stool administered via a nasogastric tube.\nClostridium difficile-associated diarrhea and colitis have emerged as major complications associated with use of systemic antimicrobials. In this study, the medical records for 18 subjects who received donor stool by nasogastric tube for recurrent C. difficile infection during a 9-year period at a single institution were retrospectively reviewed. During the period between the initial diagnosis of C. difficile colitis and the stool treatments, the 18 subjects received a total of 64 courses of antimicrobials (range, 2-7 courses; median, 3 courses). During the 90 days after receipt of treatment with stool, 2 patients died of unrelated illnesses. One of the 16 survivors experienced a single recurrence of C. difficile colitis during 90-day follow-up. No adverse effects associated with stool treatment were observed. Patients with recurrent C. difficile colitis may benefit from the introduction of stool from healthy donors via a nasogastric tube.",
+  "modified": false,
+  "original_char_count": 1090,
+  "sanitized_char_count": 1090,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 986,
+      "boundary_end": 1090,
+      "context": "Recurrent Clostridium difficile colitis: case series involving 18 patients treated with donor stool administered via a nasogastric tube. Clostridium difficile-associated diarrhea and colitis have emerged as major complications associated with use of systemic antimicrobials. In this study, the medical records for 18 subjects who received donor stool by nasogastric tube for recurrent C. difficile infection during a 9-year period at a single institution were retrospectively reviewed. During the period between the initial diagnosis of C. difficile colitis and the stool treatments, the 18 subjects received a total of 64 courses of antimicrobials (range, 2-7 courses; median, 3 courses). During the 90 days after receipt of treatment with stool, 2 patients died of unrelated illnesses. One of the 16 survivors experienced a single recurrence of C. difficile colitis during 90-day follow-up. No adverse effects associated with stool treatment were observed. Patients with recurrent C.",
+      "target": "difficile colitis may benefit from the introduction of stool from healthy donors via a nasogastric tube.",
+      "loss_target": 2.3370676040649414,
+      "loss_target_given_context": 0.939635694026947,
+      "delta_loss": 1.3974319100379944,
+      "gain_ratio": 0.5979424418905954,
+      "score": -0.5979424418905954,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

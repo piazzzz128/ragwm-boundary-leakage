@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2167",
+  "source_doc_id": "MED-2167",
+  "title": "Exploring the relationship between caffeine intake and essential tremor.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Exploring the relationship between caffeine intake and essential tremor.\nBACKGROUND: It has been suggested that environmental factors may be associated with essential tremor (ET). This study was carried out to evaluate the association of caffeine intake with ET. METHOD: In a case control study, patients diagnosed with ET and healthy controls underwent a standardized questionnaire interview to evaluate the exposure to coffee and tea intake. A multivariate logistic regression analysis was carried out to evaluate the association of caffeine intake and other environmental factors with risk of ET. RESULTS: 179 subjects including 79 ET patients and 100 controls matched for age, gender and ethnicity were included in the analysis. Univariate analysis revealed that caffeine consumption in ET patients was higher than control group (median and 90th percentile range: 2300 (0, 9000) mg-years versus 1500 (0, 6090) mg-years, p=0.01). However, the multivariate logistic regression analysis demonstrated that caffeine was no longer a significant factor associated with ET (p=0.119). There was no significant correlation between amount of caffeine intake and disease duration (Spearman's r=0.194; p=0.202) or total tremor score (Spearman's r=0.045; p=0.771) in ET patients. CONCLUSION: Caffeine consumption was not associated with risk of ET in our study population. Further studies are needed to investigate the significance of gene-environmental interaction in ET.",
+  "sanitized_text": "Exploring the relationship between caffeine intake and essential tremor.\nBACKGROUND: It has been suggested that environmental factors may be associated with essential tremor (ET). This study was carried out to evaluate the association of caffeine intake with ET. METHOD: In a case control study, patients diagnosed with ET and healthy controls underwent a standardized questionnaire interview to evaluate the exposure to coffee and tea intake. A multivariate logistic regression analysis was carried out to evaluate the association of caffeine intake and other environmental factors with risk of ET. RESULTS: 179 subjects including 79 ET patients and 100 controls matched for age, gender and ethnicity were included in the analysis. Univariate analysis revealed that caffeine consumption in ET patients was higher than control group (median and 90th percentile range: 2300 (0, 9000) mg-years versus 1500 (0, 6090) mg-years, p=0.01). However, the multivariate logistic regression analysis demonstrated that caffeine was no longer a significant factor associated with ET (p=0.119). There was no significant correlation between amount of caffeine intake and disease duration (Spearman's r=0.194; p=0.202) or total tremor score (Spearman's r=0.045; p=0.771) in ET patients. CONCLUSION: Caffeine consumption was not associated with risk of ET in our study population. Further studies are needed to investigate the significance of gene-environmental interaction in ET.",
+  "modified": false,
+  "original_char_count": 1462,
+  "sanitized_char_count": 1462,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1363,
+      "boundary_end": 1462,
+      "context": "tremor (ET). This study was carried out to evaluate the association of caffeine intake with ET. METHOD: In a case control study, patients diagnosed with ET and healthy controls underwent a standardized questionnaire interview to evaluate the exposure to coffee and tea intake. A multivariate logistic regression analysis was carried out to evaluate the association of caffeine intake and other environmental factors with risk of ET. RESULTS: 179 subjects including 79 ET patients and 100 controls matched for age, gender and ethnicity were included in the analysis. Univariate analysis revealed that caffeine consumption in ET patients was higher than control group (median and 90th percentile range: 2300 (0, 9000) mg-years versus 1500 (0, 6090) mg-years, p=0.01). However, the multivariate logistic regression analysis demonstrated that caffeine was no longer a significant factor associated with ET (p=0.119). There was no significant correlation between amount of caffeine intake and disease duration (Spearman's r=0.194; p=0.202) or total tremor score (Spearman's r=0.045; p=0.771) in ET patients. CONCLUSION: Caffeine consumption was not associated with risk of ET in our study population.",
+      "target": "Further studies are needed to investigate the significance of gene-environmental interaction in ET.",
+      "loss_target": 2.867877960205078,
+      "loss_target_given_context": 1.5921549797058105,
+      "delta_loss": 1.2757229804992676,
+      "gain_ratio": 0.4448316832868447,
+      "score": -0.4448316832868447,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

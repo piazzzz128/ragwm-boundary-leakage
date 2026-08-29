@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5257",
+  "source_doc_id": "MED-5257",
+  "title": "Tea consumption and cardiovascular disease risk.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Tea consumption and cardiovascular disease risk.\nBACKGROUND: The present analysis was conducted in response to inconsistent epidemiologic studies on the relation between consumption of tea and cardiovascular diseases. OBJECTIVE: We undertook a literature review of the consistency and strength of the associations between tea and cardiovascular diseases on the basis of published observational studies and meta-analyses addressing tea or tea flavonoids and cardiovascular disease risk. DESIGN: We performed a search in 3 databases for meta-analyses and compared them with studies they subsumed. We performed an additional search for subsequent studies to determine whether the conclusions were consistent. RESULTS: Many epidemiologic studies have been conducted and summarized in 5 meta-analyses on either tea consumption or flavonoid consumption and cardiovascular disease or the subset of stroke. Heterogeneity of effect was seen when the outcome included all cardiovascular diseases. In the case of stroke, a consistent, dose-response association with tea consumption on both incidence and mortality was noted with RRs of 0.80 (95% CI: 0.65, 0.98) for flavonoids and 0.79 (95% CI: 0.73, 0.85) for tea when high and low intakes were compared or the addition of 3 cups/d was estimated. CONCLUSION: Thus, the strength of this evidence supports the hypothesis that tea consumption might lower the risk of stroke.",
+  "sanitized_text": "Tea consumption and cardiovascular disease risk.\nBACKGROUND: The present analysis was conducted in response to inconsistent epidemiologic studies on the relation between consumption of tea and cardiovascular diseases. OBJECTIVE: We undertook a literature review of the consistency and strength of the associations between tea and cardiovascular diseases on the basis of published observational studies and meta-analyses addressing tea or tea flavonoids and cardiovascular disease risk. DESIGN: We performed a search in 3 databases for meta-analyses and compared them with studies they subsumed. We performed an additional search for subsequent studies to determine whether the conclusions were consistent. RESULTS: Many epidemiologic studies have been conducted and summarized in 5 meta-analyses on either tea consumption or flavonoid consumption and cardiovascular disease or the subset of stroke. Heterogeneity of effect was seen when the outcome included all cardiovascular diseases. In the case of stroke, a consistent, dose-response association with tea consumption on both incidence and mortality was noted with RRs of 0.80 (95% CI: 0.65, 0.98) for flavonoids and 0.79 (95% CI: 0.73, 0.85) for tea when high and low intakes were compared or the addition of 3 cups/d was estimated. CONCLUSION: Thus, the strength of this evidence supports the hypothesis that tea consumption might lower the risk of stroke.",
+  "modified": false,
+  "original_char_count": 1411,
+  "sanitized_char_count": 1411,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1287,
+      "boundary_end": 1411,
+      "context": "in response to inconsistent epidemiologic studies on the relation between consumption of tea and cardiovascular diseases. OBJECTIVE: We undertook a literature review of the consistency and strength of the associations between tea and cardiovascular diseases on the basis of published observational studies and meta-analyses addressing tea or tea flavonoids and cardiovascular disease risk. DESIGN: We performed a search in 3 databases for meta-analyses and compared them with studies they subsumed. We performed an additional search for subsequent studies to determine whether the conclusions were consistent. RESULTS: Many epidemiologic studies have been conducted and summarized in 5 meta-analyses on either tea consumption or flavonoid consumption and cardiovascular disease or the subset of stroke. Heterogeneity of effect was seen when the outcome included all cardiovascular diseases. In the case of stroke, a consistent, dose-response association with tea consumption on both incidence and mortality was noted with RRs of 0.80 (95% CI: 0.65, 0.98) for flavonoids and 0.79 (95% CI: 0.73, 0.85) for tea when high and low intakes were compared or the addition of 3 cups/d was estimated.",
+      "target": "CONCLUSION: Thus, the strength of this evidence supports the hypothesis that tea consumption might lower the risk of stroke.",
+      "loss_target": 2.6355366706848145,
+      "loss_target_given_context": 1.677852988243103,
+      "delta_loss": 0.9576836824417114,
+      "gain_ratio": 0.3633733095403556,
+      "score": -0.3633733095403556,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

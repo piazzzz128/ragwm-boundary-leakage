@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4439",
+  "source_doc_id": "MED-4439",
+  "title": "A case of fatal caffeine poisoning.",
+  "original_text": "A case of fatal caffeine poisoning.\nCaffeine is a natural alkaloid methylxanthine that is found in various plants such as coffee or tea. Symptoms of a severe overdose may present with hypokalemia, hyponatremia, ventricular arrhythmias, hypertension followed by hypotension, respiratory failure, seizures, rhabdomyolysis, ventricular fibrillation and finally circulatory collapse. A 21-year-old woman called for the ambulance herself soon after the ingestion of about 10,000 mg of caffeine. At the arrival of the ambulance, the patient went into cardiac arrest almost immediately. After a total resuscitation period of 34 min including seven counter-shocks and 2 mg epinephrine, the patient was stable enough to be transferred to the hospital. The patient soon went into VF again and received two more counter-shocks and 1 mg epinephrine and finally an intravenous bolus dose of 300 mg amiodarone. The initial arterial blood gas showed pH at 6.47, lactate at 33 mmol/l and potassium level at 2.3 mmol/l. Unfortunately, no blood samples for caffeine analysis were taken. Three days after hospital admission, the patient developed myoclonus, which did not respond to medical treatment. Excessive intake of caffeine may produce arrhythmias and pronounced hypokalemia and ensuing ventricular fibrillation. In case of counter-shock-resistant VF, it can be necessary to give an early loading dose of amiodarone. Furthermore, it may be beneficial to replace the potassium as early as possible. Epinephrine and buffer solutions used during resuscitation may further decrease blood potassium levels and should be administrated cautiously. Epinephrine can be replaced by other vasopressor drugs, such as vasopressin without effects on beta-receptors.",
+  "sanitized_text": "A case of fatal caffeine poisoning.\nCaffeine is a natural alkaloid methylxanthine that is found in various plants such as coffee or tea. Symptoms of a severe overdose may present with hypokalemia, hyponatremia, ventricular arrhythmias, hypertension followed by hypotension, respiratory failure, seizures, rhabdomyolysis, ventricular fibrillation and finally circulatory collapse. A 21-year-old woman called for the ambulance herself soon after the ingestion of about 10,000 mg of caffeine. At the arrival of the ambulance, the patient went into cardiac arrest almost immediately. After a total resuscitation period of 34 min including seven counter-shocks and 2 mg epinephrine, the patient was stable enough to be transferred to the hospital. The patient soon went into VF again and received two more counter-shocks and 1 mg epinephrine and finally an intravenous bolus dose of 300 mg amiodarone. The initial arterial blood gas showed pH at 6.47, lactate at 33 mmol/l and potassium level at 2.3 mmol/l. Unfortunately, no blood samples for caffeine analysis were taken. Three days after hospital admission, the patient developed myoclonus, which did not respond to medical treatment. Excessive intake of caffeine may produce arrhythmias and pronounced hypokalemia and ensuing ventricular fibrillation. In case of counter-shock-resistant VF, it can be necessary to give an early loading dose of amiodarone. Furthermore, it may be beneficial to replace the potassium as early as possible. Epinephrine and buffer solutions used during resuscitation may further decrease blood potassium levels and should be administrated cautiously.",
+  "modified": true,
+  "original_char_count": 1739,
+  "sanitized_char_count": 1628,
+  "deleted_char_count": 111,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1629,
+      "boundary_end": 1739,
+      "context": "soon after the ingestion of about 10,000 mg of caffeine. At the arrival of the ambulance, the patient went into cardiac arrest almost immediately. After a total resuscitation period of 34 min including seven counter-shocks and 2 mg epinephrine, the patient was stable enough to be transferred to the hospital. The patient soon went into VF again and received two more counter-shocks and 1 mg epinephrine and finally an intravenous bolus dose of 300 mg amiodarone. The initial arterial blood gas showed pH at 6.47, lactate at 33 mmol/l and potassium level at 2.3 mmol/l. Unfortunately, no blood samples for caffeine analysis were taken. Three days after hospital admission, the patient developed myoclonus, which did not respond to medical treatment. Excessive intake of caffeine may produce arrhythmias and pronounced hypokalemia and ensuing ventricular fibrillation. In case of counter-shock-resistant VF, it can be necessary to give an early loading dose of amiodarone. Furthermore, it may be beneficial to replace the potassium as early as possible. Epinephrine and buffer solutions used during resuscitation may further decrease blood potassium levels and should be administrated cautiously.",
+      "target": "Epinephrine can be replaced by other vasopressor drugs, such as vasopressin without effects on beta-receptors.",
+      "loss_target": 2.4174575805664062,
+      "loss_target_given_context": 2.5186078548431396,
+      "delta_loss": -0.1011502742767334,
+      "gain_ratio": -0.0418415922123581,
+      "score": 0.0418415922123581,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1486,
+      "boundary_end": 1628,
+      "context": "failure, seizures, rhabdomyolysis, ventricular fibrillation and finally circulatory collapse. A 21-year-old woman called for the ambulance herself soon after the ingestion of about 10,000 mg of caffeine. At the arrival of the ambulance, the patient went into cardiac arrest almost immediately. After a total resuscitation period of 34 min including seven counter-shocks and 2 mg epinephrine, the patient was stable enough to be transferred to the hospital. The patient soon went into VF again and received two more counter-shocks and 1 mg epinephrine and finally an intravenous bolus dose of 300 mg amiodarone. The initial arterial blood gas showed pH at 6.47, lactate at 33 mmol/l and potassium level at 2.3 mmol/l. Unfortunately, no blood samples for caffeine analysis were taken. Three days after hospital admission, the patient developed myoclonus, which did not respond to medical treatment. Excessive intake of caffeine may produce arrhythmias and pronounced hypokalemia and ensuing ventricular fibrillation. In case of counter-shock-resistant VF, it can be necessary to give an early loading dose of amiodarone. Furthermore, it may be beneficial to replace the potassium as early as possible.",
+      "target": "Epinephrine and buffer solutions used during resuscitation may further decrease blood potassium levels and should be administrated cautiously.",
+      "loss_target": 3.0398995876312256,
+      "loss_target_given_context": 2.665595293045044,
+      "delta_loss": 0.37430429458618164,
+      "gain_ratio": 0.12313047973990811,
+      "score": -0.12313047973990811,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1629,
+      "target": "Epinephrine can be replaced by other vasopressor drugs, such as vasopressin without effects on beta-receptors.",
+      "score": 0.0418415922123581,
+      "deleted_suffix": "Epinephrine can be replaced by other vasopressor drugs, such as vasopressin without effects on beta-receptors.",
+      "deleted_char_count": 110
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

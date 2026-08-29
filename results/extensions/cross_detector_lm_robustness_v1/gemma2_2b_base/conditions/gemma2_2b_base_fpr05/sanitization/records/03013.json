@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4941",
+  "source_doc_id": "MED-4941",
+  "title": "Dioxin May Promote Inflammation-Related Development of Endometriosis",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dioxin May Promote Inflammation-Related Development of Endometriosis\nLaboratory and population-based studies suggest that exposure to environmental toxicants may be one of several triggers for the development of endometriosis. We discuss evidence that modulation of the endometrial endocrine-immune interface could mechanistically link toxicant exposure to the development of this disease. Capsule Summary: Environmental toxicant exposure induces an inflammatory-like endometrial response that may promote the development of endometriosis. Dioxins are measured in relation to various dietary factors.",
+  "sanitized_text": "Dioxin May Promote Inflammation-Related Development of Endometriosis\nLaboratory and population-based studies suggest that exposure to environmental toxicants may be one of several triggers for the development of endometriosis. We discuss evidence that modulation of the endometrial endocrine-immune interface could mechanistically link toxicant exposure to the development of this disease. Capsule Summary: Environmental toxicant exposure induces an inflammatory-like endometrial response that may promote the development of endometriosis. Dioxins are measured in relation to various dietary factors.",
+  "modified": false,
+  "original_char_count": 600,
+  "sanitized_char_count": 600,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 540,
+      "boundary_end": 600,
+      "context": "Dioxin May Promote Inflammation-Related Development of Endometriosis Laboratory and population-based studies suggest that exposure to environmental toxicants may be one of several triggers for the development of endometriosis. We discuss evidence that modulation of the endometrial endocrine-immune interface could mechanistically link toxicant exposure to the development of this disease. Capsule Summary: Environmental toxicant exposure induces an inflammatory-like endometrial response that may promote the development of endometriosis.",
+      "target": "Dioxins are measured in relation to various dietary factors.",
+      "loss_target": 11.762556076049805,
+      "loss_target_given_context": 6.498598575592041,
+      "delta_loss": 5.263957500457764,
+      "gain_ratio": 0.4475181641153585,
+      "score": -0.4475181641153585,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

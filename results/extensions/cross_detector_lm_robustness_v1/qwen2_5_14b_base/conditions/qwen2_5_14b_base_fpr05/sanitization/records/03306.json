@@ -1,0 +1,86 @@
+{
+  "internal_id": "MED-5251",
+  "source_doc_id": "MED-5251",
+  "title": "Heavy coffee drinking and epilepsy.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Heavy coffee drinking and epilepsy.\nDietary habits have been rarely associated with seizure frequency in patients with epilepsy. We report a case of a man with a partial symptomatic epilepsy whose daily habit of heavy coffee drinking was associated with an increased seizure frequency. This patient witnessed a dramatic decrease in the frequency of his seizures after stopping coffee ingestion. Caffeine is a global stimulant and the reduction of its intake may help in the treatment of epilepsy. Using alcohol can result in sensations that are reminiscent of those caused by nutmeg. Individuals with dyslipidemia often have a history of ethanol intake.",
+  "sanitized_text": "Heavy coffee drinking and epilepsy.\nDietary habits have been rarely associated with seizure frequency in patients with epilepsy. We report a case of a man with a partial symptomatic epilepsy whose daily habit of heavy coffee drinking was associated with an increased seizure frequency. This patient witnessed a dramatic decrease in the frequency of his seizures after stopping coffee ingestion. Caffeine is a global stimulant and the reduction of its intake may help in the treatment of epilepsy.",
+  "modified": true,
+  "original_char_count": 653,
+  "sanitized_char_count": 496,
+  "deleted_char_count": 157,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 584,
+      "boundary_end": 653,
+      "context": "Heavy coffee drinking and epilepsy. Dietary habits have been rarely associated with seizure frequency in patients with epilepsy. We report a case of a man with a partial symptomatic epilepsy whose daily habit of heavy coffee drinking was associated with an increased seizure frequency. This patient witnessed a dramatic decrease in the frequency of his seizures after stopping coffee ingestion. Caffeine is a global stimulant and the reduction of its intake may help in the treatment of epilepsy. Using alcohol can result in sensations that are reminiscent of those caused by nutmeg.",
+      "target": "Individuals with dyslipidemia often have a history of ethanol intake.",
+      "loss_target": 2.6926708221435547,
+      "loss_target_given_context": 2.6552345752716064,
+      "delta_loss": 0.03743624687194824,
+      "gain_ratio": 0.013903016500972207,
+      "score": -0.013903016500972207,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 497,
+      "boundary_end": 583,
+      "context": "Heavy coffee drinking and epilepsy. Dietary habits have been rarely associated with seizure frequency in patients with epilepsy. We report a case of a man with a partial symptomatic epilepsy whose daily habit of heavy coffee drinking was associated with an increased seizure frequency. This patient witnessed a dramatic decrease in the frequency of his seizures after stopping coffee ingestion. Caffeine is a global stimulant and the reduction of its intake may help in the treatment of epilepsy.",
+      "target": "Using alcohol can result in sensations that are reminiscent of those caused by nutmeg.",
+      "loss_target": 4.014331340789795,
+      "loss_target_given_context": 3.586836814880371,
+      "delta_loss": 0.42749452590942383,
+      "gain_ratio": 0.10649208787666165,
+      "score": -0.10649208787666165,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 395,
+      "boundary_end": 496,
+      "context": "Heavy coffee drinking and epilepsy. Dietary habits have been rarely associated with seizure frequency in patients with epilepsy. We report a case of a man with a partial symptomatic epilepsy whose daily habit of heavy coffee drinking was associated with an increased seizure frequency. This patient witnessed a dramatic decrease in the frequency of his seizures after stopping coffee ingestion.",
+      "target": "Caffeine is a global stimulant and the reduction of its intake may help in the treatment of epilepsy.",
+      "loss_target": 2.8881442546844482,
+      "loss_target_given_context": 2.0182747840881348,
+      "delta_loss": 0.8698694705963135,
+      "gain_ratio": 0.3011862960741735,
+      "score": -0.3011862960741735,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 584,
+      "target": "Individuals with dyslipidemia often have a history of ethanol intake.",
+      "score": -0.013903016500972207,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Individuals with dyslipidemia often have a history of ethanol intake.",
+      "deleted_char_count": 69
+    },
+    {
+      "step": 2,
+      "boundary_start": 497,
+      "target": "Using alcohol can result in sensations that are reminiscent of those caused by nutmeg.",
+      "score": -0.10649208787666165,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Using alcohol can result in sensations that are reminiscent of those caused by nutmeg.",
+      "deleted_char_count": 86
+    }
+  ],
+  "deletion_step_count": 2,
+  "stop_reason": "score_below_threshold"
+}

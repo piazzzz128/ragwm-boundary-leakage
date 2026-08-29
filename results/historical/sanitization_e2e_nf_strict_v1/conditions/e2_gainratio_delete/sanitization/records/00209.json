@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1268",
+  "source_doc_id": "MED-1268",
+  "title": "Linking β-methylamino-L-alanine exposure to sporadic amyotrophic lateral sclerosis in Annapolis, MD.",
+  "original_text": "Linking β-methylamino-L-alanine exposure to sporadic amyotrophic lateral sclerosis in Annapolis, MD.\nMost amyotrophic lateral sclerosis (ALS) cases occur sporadically. Some environmental triggers have been implicated, including beta-methylamino-L-alanine (BMAA), a cyanobacteria produced neurotoxin. This study aimed to identify environmental risk factors common to three sporadic ALS patients who lived in Annapolis, Maryland, USA and developed the disease within a relatively short time and within close proximity to each other. A questionnaire was used to identify potential risk factors for ALS among the cohort of patients. One common factor among the ALS patients was the frequent consumption of blue crab. Samples of blue crab from the patients' local fish market were tested for BMAA using LC-MS/MS. BMAA was identified in these Chesapeake Bay blue crabs. We conclude that the presence of BMAA in the Chesapeake Bay food web and the lifetime consumption of blue crab contaminated with BMAA may be a common risk factor for sporadic ALS in all three patients. Copyright © 2013 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Linking β-methylamino-L-alanine exposure to sporadic amyotrophic lateral sclerosis in Annapolis, MD.\nMost amyotrophic lateral sclerosis (ALS) cases occur sporadically. Some environmental triggers have been implicated, including beta-methylamino-L-alanine (BMAA), a cyanobacteria produced neurotoxin. This study aimed to identify environmental risk factors common to three sporadic ALS patients who lived in Annapolis, Maryland, USA and developed the disease within a relatively short time and within close proximity to each other. A questionnaire was used to identify potential risk factors for ALS among the cohort of patients. One common factor among the ALS patients was the frequent consumption of blue crab. Samples of blue crab from the patients' local fish market were tested for BMAA using LC-MS/MS. BMAA was identified in these Chesapeake Bay blue crabs. We conclude that the presence of BMAA in the Chesapeake Bay food web and the lifetime consumption of blue crab contaminated with BMAA may be a common risk factor for sporadic ALS in all three patients.",
+  "modified": true,
+  "original_char_count": 1117,
+  "sanitized_char_count": 1065,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1066,
+      "boundary_end": 1096,
+      "context": "Linking β-methylamino-L-alanine exposure to sporadic amyotrophic lateral sclerosis in Annapolis, MD. Most amyotrophic lateral sclerosis (ALS) cases occur sporadically. Some environmental triggers have been implicated, including beta-methylamino-L-alanine (BMAA), a cyanobacteria produced neurotoxin. This study aimed to identify environmental risk factors common to three sporadic ALS patients who lived in Annapolis, Maryland, USA and developed the disease within a relatively short time and within close proximity to each other. A questionnaire was used to identify potential risk factors for ALS among the cohort of patients. One common factor among the ALS patients was the frequent consumption of blue crab. Samples of blue crab from the patients' local fish market were tested for BMAA using LC-MS/MS. BMAA was identified in these Chesapeake Bay blue crabs. We conclude that the presence of BMAA in the Chesapeake Bay food web and the lifetime consumption of blue crab contaminated with BMAA may be a common risk factor for sporadic ALS in all three patients.",
+      "target": "Copyright © 2013 Elsevier Ltd.",
+      "loss_target": 1.2036986351013184,
+      "loss_target_given_context": 1.45855712890625,
+      "delta_loss": -0.25485849380493164,
+      "gain_ratio": -0.2117294864120865,
+      "score": 0.2117294864120865,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 864,
+      "boundary_end": 1065,
+      "context": "Linking β-methylamino-L-alanine exposure to sporadic amyotrophic lateral sclerosis in Annapolis, MD. Most amyotrophic lateral sclerosis (ALS) cases occur sporadically. Some environmental triggers have been implicated, including beta-methylamino-L-alanine (BMAA), a cyanobacteria produced neurotoxin. This study aimed to identify environmental risk factors common to three sporadic ALS patients who lived in Annapolis, Maryland, USA and developed the disease within a relatively short time and within close proximity to each other. A questionnaire was used to identify potential risk factors for ALS among the cohort of patients. One common factor among the ALS patients was the frequent consumption of blue crab. Samples of blue crab from the patients' local fish market were tested for BMAA using LC-MS/MS. BMAA was identified in these Chesapeake Bay blue crabs.",
+      "target": "We conclude that the presence of BMAA in the Chesapeake Bay food web and the lifetime consumption of blue crab contaminated with BMAA may be a common risk factor for sporadic ALS in all three patients.",
+      "loss_target": 2.710021495819092,
+      "loss_target_given_context": 1.6853368282318115,
+      "delta_loss": 1.0246846675872803,
+      "gain_ratio": 0.37810942428616195,
+      "score": -0.37810942428616195,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1066,
+      "target": "Copyright © 2013 Elsevier Ltd.",
+      "score": 0.2117294864120865,
+      "deleted_suffix": "Copyright © 2013 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

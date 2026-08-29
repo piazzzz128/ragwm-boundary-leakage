@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2704",
+  "source_doc_id": "MED-2704",
+  "title": "Oxidative processes in meat and meat products: Quality implications.",
+  "original_text": "Oxidative processes in meat and meat products: Quality implications.\nLipid peroxidation is, in most instances, a free radical chain reaction that can be described in terms of initiation, propagation, branching and termination processes. With regard to lipid peroxidation, one of the most important questions concerns the source of the primary catalysts that initiate peroxidation in situ in muscle foods. When cells are injured, such as in muscle foods after slaughtering, lipid peroxidation is favored, and traces of O(2) and H(2)O(2), indicating lipid peroxides, are formed. The stability of a muscle food product will depend on the 'tone' of these peroxides and especially from the involvement of metal ions in the process. The cytosol contains not only prooxidants but also antioxidants and the tone of both affects the overall oxidation. Lipid peroxidation is one of the primary mechanisms of quality deterioration in foods and especially in meat products. The changes in quality can be manifested by deterioration in flavor, color, texture, nutritive value and the production of toxic compounds. Copyright © 1993. Published by Elsevier Ltd.",
+  "sanitized_text": "Oxidative processes in meat and meat products: Quality implications.\nLipid peroxidation is, in most instances, a free radical chain reaction that can be described in terms of initiation, propagation, branching and termination processes. With regard to lipid peroxidation, one of the most important questions concerns the source of the primary catalysts that initiate peroxidation in situ in muscle foods. When cells are injured, such as in muscle foods after slaughtering, lipid peroxidation is favored, and traces of O(2) and H(2)O(2), indicating lipid peroxides, are formed. The stability of a muscle food product will depend on the 'tone' of these peroxides and especially from the involvement of metal ions in the process. The cytosol contains not only prooxidants but also antioxidants and the tone of both affects the overall oxidation. Lipid peroxidation is one of the primary mechanisms of quality deterioration in foods and especially in meat products. The changes in quality can be manifested by deterioration in flavor, color, texture, nutritive value and the production of toxic compounds. Copyright © 1993.",
+  "modified": true,
+  "original_char_count": 1146,
+  "sanitized_char_count": 1119,
+  "deleted_char_count": 27,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1120,
+      "boundary_end": 1146,
+      "context": "Oxidative processes in meat and meat products: Quality implications. Lipid peroxidation is, in most instances, a free radical chain reaction that can be described in terms of initiation, propagation, branching and termination processes. With regard to lipid peroxidation, one of the most important questions concerns the source of the primary catalysts that initiate peroxidation in situ in muscle foods. When cells are injured, such as in muscle foods after slaughtering, lipid peroxidation is favored, and traces of O(2) and H(2)O(2), indicating lipid peroxides, are formed. The stability of a muscle food product will depend on the 'tone' of these peroxides and especially from the involvement of metal ions in the process. The cytosol contains not only prooxidants but also antioxidants and the tone of both affects the overall oxidation. Lipid peroxidation is one of the primary mechanisms of quality deterioration in foods and especially in meat products. The changes in quality can be manifested by deterioration in flavor, color, texture, nutritive value and the production of toxic compounds. Copyright © 1993.",
+      "target": "Published by Elsevier Ltd.",
+      "loss_target": 2.2897441387176514,
+      "loss_target_given_context": 2.2949588298797607,
+      "delta_loss": -0.005214691162109375,
+      "gain_ratio": -0.002277412167557643,
+      "score": 0.002277412167557643,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 962,
+      "boundary_end": 1101,
+      "context": "Oxidative processes in meat and meat products: Quality implications. Lipid peroxidation is, in most instances, a free radical chain reaction that can be described in terms of initiation, propagation, branching and termination processes. With regard to lipid peroxidation, one of the most important questions concerns the source of the primary catalysts that initiate peroxidation in situ in muscle foods. When cells are injured, such as in muscle foods after slaughtering, lipid peroxidation is favored, and traces of O(2) and H(2)O(2), indicating lipid peroxides, are formed. The stability of a muscle food product will depend on the 'tone' of these peroxides and especially from the involvement of metal ions in the process. The cytosol contains not only prooxidants but also antioxidants and the tone of both affects the overall oxidation. Lipid peroxidation is one of the primary mechanisms of quality deterioration in foods and especially in meat products.",
+      "target": "The changes in quality can be manifested by deterioration in flavor, color, texture, nutritive value and the production of toxic compounds.",
+      "loss_target": 3.113218069076538,
+      "loss_target_given_context": 2.389801263809204,
+      "delta_loss": 0.723416805267334,
+      "gain_ratio": 0.23236946118648166,
+      "score": -0.23236946118648166,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1120,
+      "target": "Published by Elsevier Ltd.",
+      "score": 0.002277412167557643,
+      "deleted_suffix": "Published by Elsevier Ltd.",
+      "deleted_char_count": 26
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

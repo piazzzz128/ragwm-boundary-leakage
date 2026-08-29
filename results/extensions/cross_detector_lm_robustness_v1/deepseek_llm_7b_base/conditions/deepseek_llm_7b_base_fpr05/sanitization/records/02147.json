@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3862",
+  "source_doc_id": "MED-3862",
+  "title": "Dietary factors and risk of breast cancer: combined analysis of 12 case-control studies.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary factors and risk of breast cancer: combined analysis of 12 case-control studies.\nWe conducted a combined analysis of the original data to evaluate the consistency of 12 case-control studies of diet and breast cancer. Our analysis shows a consistent, statistically significant, positive association between breast cancer risk and saturated fat intake in postmenopausal women (relative risk for highest vs. lowest quintile, 1.46; P less than .0001). A consistent protective effect for a number of markers of fruit and vegetable intake was demonstrated; vitamin C intake had the most consistent and statistically significant inverse association with breast cancer risk (relative risk for highest vs. lowest quintile, 0.69; P less than .0001). If these dietary associations represent causality, the attributable risk (i.e., the percentage of breast cancers that might be prevented by dietary modification) in the North American population is estimated to be 24% for postmenopausal women and 16% for premenopausal women. To gauge the outcomes of the National Pilot Study, researchers utilize Dietary Factors.",
+  "sanitized_text": "Dietary factors and risk of breast cancer: combined analysis of 12 case-control studies.\nWe conducted a combined analysis of the original data to evaluate the consistency of 12 case-control studies of diet and breast cancer. Our analysis shows a consistent, statistically significant, positive association between breast cancer risk and saturated fat intake in postmenopausal women (relative risk for highest vs. lowest quintile, 1.46; P less than .0001). A consistent protective effect for a number of markers of fruit and vegetable intake was demonstrated; vitamin C intake had the most consistent and statistically significant inverse association with breast cancer risk (relative risk for highest vs. lowest quintile, 0.69; P less than .0001). If these dietary associations represent causality, the attributable risk (i.e., the percentage of breast cancers that might be prevented by dietary modification) in the North American population is estimated to be 24% for postmenopausal women and 16% for premenopausal women.",
+  "modified": true,
+  "original_char_count": 1111,
+  "sanitized_char_count": 1023,
+  "deleted_char_count": 88,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1024,
+      "boundary_end": 1111,
+      "context": "Dietary factors and risk of breast cancer: combined analysis of 12 case-control studies. We conducted a combined analysis of the original data to evaluate the consistency of 12 case-control studies of diet and breast cancer. Our analysis shows a consistent, statistically significant, positive association between breast cancer risk and saturated fat intake in postmenopausal women (relative risk for highest vs. lowest quintile, 1.46; P less than .0001). A consistent protective effect for a number of markers of fruit and vegetable intake was demonstrated; vitamin C intake had the most consistent and statistically significant inverse association with breast cancer risk (relative risk for highest vs. lowest quintile, 0.69; P less than .0001). If these dietary associations represent causality, the attributable risk (i.e., the percentage of breast cancers that might be prevented by dietary modification) in the North American population is estimated to be 24% for postmenopausal women and 16% for premenopausal women.",
+      "target": "To gauge the outcomes of the National Pilot Study, researchers utilize Dietary Factors.",
+      "loss_target": 5.085479259490967,
+      "loss_target_given_context": 4.948667049407959,
+      "delta_loss": 0.1368122100830078,
+      "gain_ratio": 0.02690252051026988,
+      "score": -0.02690252051026988,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 748,
+      "boundary_end": 1023,
+      "context": "Dietary factors and risk of breast cancer: combined analysis of 12 case-control studies. We conducted a combined analysis of the original data to evaluate the consistency of 12 case-control studies of diet and breast cancer. Our analysis shows a consistent, statistically significant, positive association between breast cancer risk and saturated fat intake in postmenopausal women (relative risk for highest vs. lowest quintile, 1.46; P less than .0001). A consistent protective effect for a number of markers of fruit and vegetable intake was demonstrated; vitamin C intake had the most consistent and statistically significant inverse association with breast cancer risk (relative risk for highest vs. lowest quintile, 0.69; P less than .0001).",
+      "target": "If these dietary associations represent causality, the attributable risk (i.e., the percentage of breast cancers that might be prevented by dietary modification) in the North American population is estimated to be 24% for postmenopausal women and 16% for premenopausal women.",
+      "loss_target": 1.9348561763763428,
+      "loss_target_given_context": 1.448413610458374,
+      "delta_loss": 0.48644256591796875,
+      "gain_ratio": 0.2514101936139735,
+      "score": -0.2514101936139735,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1024,
+      "target": "To gauge the outcomes of the National Pilot Study, researchers utilize Dietary Factors.",
+      "score": -0.02690252051026988,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "To gauge the outcomes of the National Pilot Study, researchers utilize Dietary Factors.",
+      "deleted_char_count": 87
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

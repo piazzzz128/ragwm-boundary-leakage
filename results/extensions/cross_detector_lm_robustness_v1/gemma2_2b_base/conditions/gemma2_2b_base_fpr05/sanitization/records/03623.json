@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-988",
+  "source_doc_id": "MED-988",
+  "title": "Hypothesis: hyperhomocysteinemia is an indicator of oxidant stress.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Hypothesis: hyperhomocysteinemia is an indicator of oxidant stress.\nElevated plasma homocysteine levels are associated with an increased risk of atherosclerosis and thrombosis, as well as a variety of other pathologies such as birth defects, Alzheimer's disease and other dementias, osteoporosis, diabetes and renal disease. Homocysteine metabolism is catalyzed by a number of enzymes that require B-vitamins as cofactors, and homocysteine levels are particularly responsive to folate status. The predictive power of plasma homocysteine level as a risk factor for atherothrombotic orders raised the appealing hypothesis that reduction of homocysteine levels by vitamin supplementation might result in a commensurate reduction is the risk of atherothrombotic events. Unfortunately, most clinical trials failed to show a significant benefit of vitamin supplementation on cardiovascular events, in spite of significant lowering of plasma homocysteine levels. Thus, it is not clear whether homocysteine actually plays a causal role in many pathologies with which it is associated, or whether it is instead a marker for some other underlying mechanism. A large body of data links hyperhomocysteinemia and folate status with oxidant stress. In this article I review data that suggests that homocysteine not only promotes cellular and protein injury via oxidant mechanisms, but is also a marker for the presence of pathological oxidant stress. Thus, it is possible that hyperhomocysteinemia is not a common primary cause of atherothrombotic disorders in the general population, but rather a marker of systemic or endothelial oxidant stress that is a major mediator of these disorders. Published by Elsevier Ltd.",
+  "sanitized_text": "Hypothesis: hyperhomocysteinemia is an indicator of oxidant stress.\nElevated plasma homocysteine levels are associated with an increased risk of atherosclerosis and thrombosis, as well as a variety of other pathologies such as birth defects, Alzheimer's disease and other dementias, osteoporosis, diabetes and renal disease. Homocysteine metabolism is catalyzed by a number of enzymes that require B-vitamins as cofactors, and homocysteine levels are particularly responsive to folate status. The predictive power of plasma homocysteine level as a risk factor for atherothrombotic orders raised the appealing hypothesis that reduction of homocysteine levels by vitamin supplementation might result in a commensurate reduction is the risk of atherothrombotic events. Unfortunately, most clinical trials failed to show a significant benefit of vitamin supplementation on cardiovascular events, in spite of significant lowering of plasma homocysteine levels. Thus, it is not clear whether homocysteine actually plays a causal role in many pathologies with which it is associated, or whether it is instead a marker for some other underlying mechanism. A large body of data links hyperhomocysteinemia and folate status with oxidant stress. In this article I review data that suggests that homocysteine not only promotes cellular and protein injury via oxidant mechanisms, but is also a marker for the presence of pathological oxidant stress. Thus, it is possible that hyperhomocysteinemia is not a common primary cause of atherothrombotic disorders in the general population, but rather a marker of systemic or endothelial oxidant stress that is a major mediator of these disorders. Published by Elsevier Ltd.",
+  "modified": false,
+  "original_char_count": 1704,
+  "sanitized_char_count": 1704,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1678,
+      "boundary_end": 1704,
+      "context": "folate status. The predictive power of plasma homocysteine level as a risk factor for atherothrombotic orders raised the appealing hypothesis that reduction of homocysteine levels by vitamin supplementation might result in a commensurate reduction is the risk of atherothrombotic events. Unfortunately, most clinical trials failed to show a significant benefit of vitamin supplementation on cardiovascular events, in spite of significant lowering of plasma homocysteine levels. Thus, it is not clear whether homocysteine actually plays a causal role in many pathologies with which it is associated, or whether it is instead a marker for some other underlying mechanism. A large body of data links hyperhomocysteinemia and folate status with oxidant stress. In this article I review data that suggests that homocysteine not only promotes cellular and protein injury via oxidant mechanisms, but is also a marker for the presence of pathological oxidant stress. Thus, it is possible that hyperhomocysteinemia is not a common primary cause of atherothrombotic disorders in the general population, but rather a marker of systemic or endothelial oxidant stress that is a major mediator of these disorders.",
+      "target": "Published by Elsevier Ltd.",
+      "loss_target": 4.658600807189941,
+      "loss_target_given_context": 3.1141245365142822,
+      "delta_loss": 1.5444762706756592,
+      "gain_ratio": 0.331532220638429,
+      "score": -0.331532220638429,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

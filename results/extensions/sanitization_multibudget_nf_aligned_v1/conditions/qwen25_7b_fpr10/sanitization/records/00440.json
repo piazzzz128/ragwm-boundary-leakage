@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1534",
+  "source_doc_id": "MED-1534",
+  "title": "Glucose and insulin responses to manufactured and whole-food snacks.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Glucose and insulin responses to manufactured and whole-food snacks.\nTo determine whether realistic snacks containing added sugar evoke excessive insulin responses, 10 healthy subjects consumed four different snack meals, similar in fat and total energy content. Two snacks were based on sugary, manufactured products (chocolate-coated candy bar; cola drink with crisps) and two on whole foods (raisins and peanuts; bananas and peanuts). After the processed-food snacks, plasma-glucose levels tended to rise higher and to fall lower than after the whole-food snacks. The area under the plasma insulin curve was 70% greater after the manufactured snacks than after the raisin-peanut snack. The banana-peanut snack evoked an intermediate insulin response. One subject had pathological insulinaemia after both manufactured snacks but normal responses after both whole-food snacks. These findings suggest that foods and drinks containing added fiber-depleted sugars stress and sometimes overwhelm homeostatic mechanisms but also suggest that the insulin response to food is influenced by the physical state of the food.",
+  "sanitized_text": "Glucose and insulin responses to manufactured and whole-food snacks.\nTo determine whether realistic snacks containing added sugar evoke excessive insulin responses, 10 healthy subjects consumed four different snack meals, similar in fat and total energy content. Two snacks were based on sugary, manufactured products (chocolate-coated candy bar; cola drink with crisps) and two on whole foods (raisins and peanuts; bananas and peanuts). After the processed-food snacks, plasma-glucose levels tended to rise higher and to fall lower than after the whole-food snacks. The area under the plasma insulin curve was 70% greater after the manufactured snacks than after the raisin-peanut snack. The banana-peanut snack evoked an intermediate insulin response. One subject had pathological insulinaemia after both manufactured snacks but normal responses after both whole-food snacks.",
+  "modified": true,
+  "original_char_count": 1115,
+  "sanitized_char_count": 877,
+  "deleted_char_count": 238,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 878,
+      "boundary_end": 1115,
+      "context": "Glucose and insulin responses to manufactured and whole-food snacks. To determine whether realistic snacks containing added sugar evoke excessive insulin responses, 10 healthy subjects consumed four different snack meals, similar in fat and total energy content. Two snacks were based on sugary, manufactured products (chocolate-coated candy bar; cola drink with crisps) and two on whole foods (raisins and peanuts; bananas and peanuts). After the processed-food snacks, plasma-glucose levels tended to rise higher and to fall lower than after the whole-food snacks. The area under the plasma insulin curve was 70% greater after the manufactured snacks than after the raisin-peanut snack. The banana-peanut snack evoked an intermediate insulin response. One subject had pathological insulinaemia after both manufactured snacks but normal responses after both whole-food snacks.",
+      "target": "These findings suggest that foods and drinks containing added fiber-depleted sugars stress and sometimes overwhelm homeostatic mechanisms but also suggest that the insulin response to food is influenced by the physical state of the food.",
+      "loss_target": 3.717193126678467,
+      "loss_target_given_context": 2.985469102859497,
+      "delta_loss": 0.7317240238189697,
+      "gain_ratio": 0.19684853567799654,
+      "score": -0.19684853567799654,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 754,
+      "boundary_end": 877,
+      "context": "Glucose and insulin responses to manufactured and whole-food snacks. To determine whether realistic snacks containing added sugar evoke excessive insulin responses, 10 healthy subjects consumed four different snack meals, similar in fat and total energy content. Two snacks were based on sugary, manufactured products (chocolate-coated candy bar; cola drink with crisps) and two on whole foods (raisins and peanuts; bananas and peanuts). After the processed-food snacks, plasma-glucose levels tended to rise higher and to fall lower than after the whole-food snacks. The area under the plasma insulin curve was 70% greater after the manufactured snacks than after the raisin-peanut snack. The banana-peanut snack evoked an intermediate insulin response.",
+      "target": "One subject had pathological insulinaemia after both manufactured snacks but normal responses after both whole-food snacks.",
+      "loss_target": 4.826083660125732,
+      "loss_target_given_context": 1.8609540462493896,
+      "delta_loss": 2.9651296138763428,
+      "gain_ratio": 0.61439664595435,
+      "score": -0.61439664595435,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 878,
+      "target": "These findings suggest that foods and drinks containing added fiber-depleted sugars stress and sometimes overwhelm homeostatic mechanisms but also suggest that the insulin response to food is influenced by the physical state of the food.",
+      "score": -0.19684853567799654,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "These findings suggest that foods and drinks containing added fiber-depleted sugars stress and sometimes overwhelm homeostatic mechanisms but also suggest that the insulin response to food is influenced by the physical state of the food.",
+      "deleted_char_count": 237
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

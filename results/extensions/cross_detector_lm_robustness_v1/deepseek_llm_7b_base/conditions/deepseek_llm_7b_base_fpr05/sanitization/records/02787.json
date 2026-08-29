@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4694",
+  "source_doc_id": "MED-4694",
+  "title": "Total visual blindness is protective against breast cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Total visual blindness is protective against breast cancer.\nOBJECTIVE: Observational data, though sparse and based on small studies with limited ability to control for known breast cancer risk factors, support a lower risk of breast cancer in blind women compared to sighted women. Mechanisms influenced by ocular light perception, such as melatonin or circadian synchronization, are thought to account for this lower risk. METHODS: To evaluate whether blind women with no perception of light (NPL) have a lower prevalence of breast cancer compared to blind women with light perception (LP), we surveyed a cohort of 1,392 blind women living in North America (66 breast cancer cases). RESULTS: In multivariate-logistic regression models controlling for breast cancer risk factors, women with NPL had a significantly lower prevalence of breast cancer than women with LP (odds ratio, 0.43; 95% confidence interval, 0.21-0.85). We observed little difference in these associations when restricting to postmenopausal women, non-shift workers or when excluding women diagnosed with breast cancer within 2 or 4 years of onset of blindness. Blind women with NPL appear to have a lower risk of breast cancer, compared to blind women with LP. More research is needed to elucidate the impact of LP on circadian coordination and melatonin production in the blind and how these factors may relate to breast cancer risk.",
+  "sanitized_text": "Total visual blindness is protective against breast cancer.\nOBJECTIVE: Observational data, though sparse and based on small studies with limited ability to control for known breast cancer risk factors, support a lower risk of breast cancer in blind women compared to sighted women. Mechanisms influenced by ocular light perception, such as melatonin or circadian synchronization, are thought to account for this lower risk. METHODS: To evaluate whether blind women with no perception of light (NPL) have a lower prevalence of breast cancer compared to blind women with light perception (LP), we surveyed a cohort of 1,392 blind women living in North America (66 breast cancer cases). RESULTS: In multivariate-logistic regression models controlling for breast cancer risk factors, women with NPL had a significantly lower prevalence of breast cancer than women with LP (odds ratio, 0.43; 95% confidence interval, 0.21-0.85). We observed little difference in these associations when restricting to postmenopausal women, non-shift workers or when excluding women diagnosed with breast cancer within 2 or 4 years of onset of blindness. Blind women with NPL appear to have a lower risk of breast cancer, compared to blind women with LP. More research is needed to elucidate the impact of LP on circadian coordination and melatonin production in the blind and how these factors may relate to breast cancer risk.",
+  "modified": false,
+  "original_char_count": 1405,
+  "sanitized_char_count": 1405,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1232,
+      "boundary_end": 1405,
+      "context": "against breast cancer. OBJECTIVE: Observational data, though sparse and based on small studies with limited ability to control for known breast cancer risk factors, support a lower risk of breast cancer in blind women compared to sighted women. Mechanisms influenced by ocular light perception, such as melatonin or circadian synchronization, are thought to account for this lower risk. METHODS: To evaluate whether blind women with no perception of light (NPL) have a lower prevalence of breast cancer compared to blind women with light perception (LP), we surveyed a cohort of 1,392 blind women living in North America (66 breast cancer cases). RESULTS: In multivariate-logistic regression models controlling for breast cancer risk factors, women with NPL had a significantly lower prevalence of breast cancer than women with LP (odds ratio, 0.43; 95% confidence interval, 0.21-0.85). We observed little difference in these associations when restricting to postmenopausal women, non-shift workers or when excluding women diagnosed with breast cancer within 2 or 4 years of onset of blindness. Blind women with NPL appear to have a lower risk of breast cancer, compared to blind women with LP.",
+      "target": "More research is needed to elucidate the impact of LP on circadian coordination and melatonin production in the blind and how these factors may relate to breast cancer risk.",
+      "loss_target": 2.841750144958496,
+      "loss_target_given_context": 1.662567138671875,
+      "delta_loss": 1.179183006286621,
+      "gain_ratio": 0.4149495719666245,
+      "score": -0.4149495719666245,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

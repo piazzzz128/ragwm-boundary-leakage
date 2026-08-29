@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2106",
+  "source_doc_id": "MED-2106",
+  "title": "Bile acids as carcinogens in human gastrointestinal cancers.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Bile acids as carcinogens in human gastrointestinal cancers.\nBile acids were first proposed to be carcinogens in 1939 and 1940. On the basis of later work with rodent models, bile acids came to be regarded as cancer promoters rather than carcinogens. However, considerable indirect evidence, obtained more recently, supports the view that bile acids are carcinogens in humans. At least 15 reports, from 1980 through 2003, indicate that bile acids cause DNA damage. The mechanism is probably indirect, involving induction of oxidative stress and production of reactive oxygen species that then damage DNA. Repeated DNA damage likely increases the mutation rate, including the mutation rate of tumor suppressor genes and oncogenes. Additional reports, from 1994 through 2002, indicate that bile acids, at the increased concentrations accompanying a high fat diet, induce frequent apoptosis. Those cells within the exposed population with reduced apoptosis capability tend to survive and selectively proliferate. That bile acids cause DNA damage and may select for apoptosis-resistant cells (both leading to increased mutation), indicates that bile acids are likely carcinogens. In humans, an increased incidence of cancer of the laryngopharyngeal tract, esophagus, stomach, pancreas, the small intestine (near the Ampulla of Vater) and the colon are associated with high levels of bile acids. The much larger number of cell generations in the colonic (and, likely, other gastrointestinal) epithelia of humans compared to rodents may allow time for induction and selection of mutations leading to cancer in humans, although not in rodents.",
+  "sanitized_text": "Bile acids as carcinogens in human gastrointestinal cancers.\nBile acids were first proposed to be carcinogens in 1939 and 1940. On the basis of later work with rodent models, bile acids came to be regarded as cancer promoters rather than carcinogens. However, considerable indirect evidence, obtained more recently, supports the view that bile acids are carcinogens in humans. At least 15 reports, from 1980 through 2003, indicate that bile acids cause DNA damage. The mechanism is probably indirect, involving induction of oxidative stress and production of reactive oxygen species that then damage DNA. Repeated DNA damage likely increases the mutation rate, including the mutation rate of tumor suppressor genes and oncogenes. Additional reports, from 1994 through 2002, indicate that bile acids, at the increased concentrations accompanying a high fat diet, induce frequent apoptosis. Those cells within the exposed population with reduced apoptosis capability tend to survive and selectively proliferate. That bile acids cause DNA damage and may select for apoptosis-resistant cells (both leading to increased mutation), indicates that bile acids are likely carcinogens. In humans, an increased incidence of cancer of the laryngopharyngeal tract, esophagus, stomach, pancreas, the small intestine (near the Ampulla of Vater) and the colon are associated with high levels of bile acids. The much larger number of cell generations in the colonic (and, likely, other gastrointestinal) epithelia of humans compared to rodents may allow time for induction and selection of mutations leading to cancer in humans, although not in rodents.",
+  "modified": false,
+  "original_char_count": 1636,
+  "sanitized_char_count": 1636,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1391,
+      "boundary_end": 1636,
+      "context": "to be regarded as cancer promoters rather than carcinogens. However, considerable indirect evidence, obtained more recently, supports the view that bile acids are carcinogens in humans. At least 15 reports, from 1980 through 2003, indicate that bile acids cause DNA damage. The mechanism is probably indirect, involving induction of oxidative stress and production of reactive oxygen species that then damage DNA. Repeated DNA damage likely increases the mutation rate, including the mutation rate of tumor suppressor genes and oncogenes. Additional reports, from 1994 through 2002, indicate that bile acids, at the increased concentrations accompanying a high fat diet, induce frequent apoptosis. Those cells within the exposed population with reduced apoptosis capability tend to survive and selectively proliferate. That bile acids cause DNA damage and may select for apoptosis-resistant cells (both leading to increased mutation), indicates that bile acids are likely carcinogens. In humans, an increased incidence of cancer of the laryngopharyngeal tract, esophagus, stomach, pancreas, the small intestine (near the Ampulla of Vater) and the colon are associated with high levels of bile acids.",
+      "target": "The much larger number of cell generations in the colonic (and, likely, other gastrointestinal) epithelia of humans compared to rodents may allow time for induction and selection of mutations leading to cancer in humans, although not in rodents.",
+      "loss_target": 2.930879831314087,
+      "loss_target_given_context": 2.2235684394836426,
+      "delta_loss": 0.7073113918304443,
+      "gain_ratio": 0.2413307377100189,
+      "score": -0.2413307377100189,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

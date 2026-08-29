@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2005",
+  "source_doc_id": "MED-2005",
+  "title": "Microvascular complications. Retinopathy and nephropathy.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Microvascular complications. Retinopathy and nephropathy.\nDiabetic retinopathy and diabetic nephropathy extract an enormous toll on patients with diabetes and an enormous burden on the health care system. With aggressive control of glycemia and blood pressure, coupled with aggressive use of laser photocoagulation and treatment of microalbuminuria, these problems can largely be eliminated. In the future, specific interventions may emerge that will allow interdiction of the pathophysiologic processes that lead to initiation and progression of these microvascular complications. The challenge for the primary care physician and diabetologist is to attain excellent glycemic control and aggressive control of blood pressure, while assuring that every patient has appropriate dilated fundus examinations at least annually, preferably by an ophthalmologist or retinal specialist, and regular screening for microalbuminuria. With such medical management, appropriate intervention can occur to reduce the risk of blindness and renal failure and to lessen the burden from diabetic retinopathy and nephropathy.",
+  "sanitized_text": "Microvascular complications. Retinopathy and nephropathy.\nDiabetic retinopathy and diabetic nephropathy extract an enormous toll on patients with diabetes and an enormous burden on the health care system. With aggressive control of glycemia and blood pressure, coupled with aggressive use of laser photocoagulation and treatment of microalbuminuria, these problems can largely be eliminated. In the future, specific interventions may emerge that will allow interdiction of the pathophysiologic processes that lead to initiation and progression of these microvascular complications. The challenge for the primary care physician and diabetologist is to attain excellent glycemic control and aggressive control of blood pressure, while assuring that every patient has appropriate dilated fundus examinations at least annually, preferably by an ophthalmologist or retinal specialist, and regular screening for microalbuminuria. With such medical management, appropriate intervention can occur to reduce the risk of blindness and renal failure and to lessen the burden from diabetic retinopathy and nephropathy.",
+  "modified": false,
+  "original_char_count": 1106,
+  "sanitized_char_count": 1106,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 924,
+      "boundary_end": 1106,
+      "context": "Microvascular complications. Retinopathy and nephropathy. Diabetic retinopathy and diabetic nephropathy extract an enormous toll on patients with diabetes and an enormous burden on the health care system. With aggressive control of glycemia and blood pressure, coupled with aggressive use of laser photocoagulation and treatment of microalbuminuria, these problems can largely be eliminated. In the future, specific interventions may emerge that will allow interdiction of the pathophysiologic processes that lead to initiation and progression of these microvascular complications. The challenge for the primary care physician and diabetologist is to attain excellent glycemic control and aggressive control of blood pressure, while assuring that every patient has appropriate dilated fundus examinations at least annually, preferably by an ophthalmologist or retinal specialist, and regular screening for microalbuminuria.",
+      "target": "With such medical management, appropriate intervention can occur to reduce the risk of blindness and renal failure and to lessen the burden from diabetic retinopathy and nephropathy.",
+      "loss_target": 3.055734157562256,
+      "loss_target_given_context": 2.1193642616271973,
+      "delta_loss": 0.9363698959350586,
+      "gain_ratio": 0.30643041824098255,
+      "score": -0.30643041824098255,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

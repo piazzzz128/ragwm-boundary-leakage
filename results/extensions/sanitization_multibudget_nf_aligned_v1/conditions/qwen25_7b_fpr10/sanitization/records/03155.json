@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5094",
+  "source_doc_id": "MED-5094",
+  "title": "First record of human infection with the tapeworm Diphyllobothrium nihonkaiense in North America.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "First record of human infection with the tapeworm Diphyllobothrium nihonkaiense in North America.\nThe tapeworm Diphyllobothrium nihonkaiense (Cestoda: Diphyllobothriidea), originally described from Japan, is reported from a man in North America for the first time. Species identification was based on sequences of ribosomal (partial 18S rRNA) and mitochondrial (partial Cytochrome c Oxidase subunit I) genes of proglottids expelled from a Czech tourist who ate raw Pacific sockeye salmon (Oncorhynchus nerka) from British Columbia, Canada.",
+  "sanitized_text": "First record of human infection with the tapeworm Diphyllobothrium nihonkaiense in North America.\nThe tapeworm Diphyllobothrium nihonkaiense (Cestoda: Diphyllobothriidea), originally described from Japan, is reported from a man in North America for the first time. Species identification was based on sequences of ribosomal (partial 18S rRNA) and mitochondrial (partial Cytochrome c Oxidase subunit I) genes of proglottids expelled from a Czech tourist who ate raw Pacific sockeye salmon (Oncorhynchus nerka) from British Columbia, Canada.",
+  "modified": false,
+  "original_char_count": 539,
+  "sanitized_char_count": 539,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 265,
+      "boundary_end": 539,
+      "context": "First record of human infection with the tapeworm Diphyllobothrium nihonkaiense in North America. The tapeworm Diphyllobothrium nihonkaiense (Cestoda: Diphyllobothriidea), originally described from Japan, is reported from a man in North America for the first time.",
+      "target": "Species identification was based on sequences of ribosomal (partial 18S rRNA) and mitochondrial (partial Cytochrome c Oxidase subunit I) genes of proglottids expelled from a Czech tourist who ate raw Pacific sockeye salmon (Oncorhynchus nerka) from British Columbia, Canada.",
+      "loss_target": 2.1137216091156006,
+      "loss_target_given_context": 1.634173035621643,
+      "delta_loss": 0.4795485734939575,
+      "gain_ratio": 0.22687404596038774,
+      "score": -0.22687404596038774,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

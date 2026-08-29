@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-713",
+  "source_doc_id": "MED-713",
+  "title": "Effects of water extract of Hibiscus sabdariffa, Linn (Malvaceae) 'Roselle' on excretion of a diclofenac formulation.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of water extract of Hibiscus sabdariffa, Linn (Malvaceae) 'Roselle' on excretion of a diclofenac formulation.\nThe effect of beverages prepared from the dried calyx of the flowers of Hibiscus sabdariffa on the excretion of diclofenac was investigated using a controlled study in healthy human volunteers. A high pressure liquid chromatographic method was used to analyse the 8 h urine samples collected after the administration of diclofenac with 300 mL (equivalent to 8.18 mg anthocyanins) of the beverage administered daily for 3 days. An unpaired two-tailed t-test was used to analyse for significant difference observed in the amount of diclofenac excreted before and after administration of the beverage. There was a reduction in the amount of diclofenac excreted and the wide variability observed in the control with the water beverage of Hibiscus sabdariffa (p < 0.05). There is an increasing need to counsel patients against the use of plant beverages with drugs.",
+  "sanitized_text": "Effects of water extract of Hibiscus sabdariffa, Linn (Malvaceae) 'Roselle' on excretion of a diclofenac formulation.\nThe effect of beverages prepared from the dried calyx of the flowers of Hibiscus sabdariffa on the excretion of diclofenac was investigated using a controlled study in healthy human volunteers. A high pressure liquid chromatographic method was used to analyse the 8 h urine samples collected after the administration of diclofenac with 300 mL (equivalent to 8.18 mg anthocyanins) of the beverage administered daily for 3 days. An unpaired two-tailed t-test was used to analyse for significant difference observed in the amount of diclofenac excreted before and after administration of the beverage. There was a reduction in the amount of diclofenac excreted and the wide variability observed in the control with the water beverage of Hibiscus sabdariffa (p < 0.05). There is an increasing need to counsel patients against the use of plant beverages with drugs.",
+  "modified": false,
+  "original_char_count": 978,
+  "sanitized_char_count": 978,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 884,
+      "boundary_end": 978,
+      "context": "Effects of water extract of Hibiscus sabdariffa, Linn (Malvaceae) 'Roselle' on excretion of a diclofenac formulation. The effect of beverages prepared from the dried calyx of the flowers of Hibiscus sabdariffa on the excretion of diclofenac was investigated using a controlled study in healthy human volunteers. A high pressure liquid chromatographic method was used to analyse the 8 h urine samples collected after the administration of diclofenac with 300 mL (equivalent to 8.18 mg anthocyanins) of the beverage administered daily for 3 days. An unpaired two-tailed t-test was used to analyse for significant difference observed in the amount of diclofenac excreted before and after administration of the beverage. There was a reduction in the amount of diclofenac excreted and the wide variability observed in the control with the water beverage of Hibiscus sabdariffa (p < 0.05).",
+      "target": "There is an increasing need to counsel patients against the use of plant beverages with drugs.",
+      "loss_target": 9.605798721313477,
+      "loss_target_given_context": 4.736245155334473,
+      "delta_loss": 4.869553565979004,
+      "gain_ratio": 0.506938955026652,
+      "score": -0.506938955026652,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

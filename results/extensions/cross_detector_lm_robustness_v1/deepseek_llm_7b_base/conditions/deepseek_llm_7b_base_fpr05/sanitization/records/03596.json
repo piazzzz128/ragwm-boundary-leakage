@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-958",
+  "source_doc_id": "MED-958",
+  "title": "A comparative review of thermography as a breast cancer screening technique.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A comparative review of thermography as a breast cancer screening technique.\nBreast cancer is the most frequently diagnosed cancer of women in North America. Despite advances in treatment that have reduced mortality, breast cancer remains the second leading cause of cancer induced death. Several well established tools are used to screen for breast cancer including clinical breast exams, mammograms, and ultrasound. Thermography was first introduced as a screening tool in 1956 and was initially well accepted. However, after a 1977 study found thermography to lag behind other screening tools, the medical community lost interest in this diagnostic approach. This review discusses each screening tool with a focus brought to thermography. No single tool provides excellent predictability; however, a combination that incorporates thermography may boost both sensitivity and specificity. In light of technological advances and maturation of the thermographic industry, additional research is required to confirm the potential of this technology to provide an effective non-invasive, low risk adjunctive tool for the early detection of breast cancer.",
+  "sanitized_text": "A comparative review of thermography as a breast cancer screening technique.\nBreast cancer is the most frequently diagnosed cancer of women in North America. Despite advances in treatment that have reduced mortality, breast cancer remains the second leading cause of cancer induced death. Several well established tools are used to screen for breast cancer including clinical breast exams, mammograms, and ultrasound. Thermography was first introduced as a screening tool in 1956 and was initially well accepted. However, after a 1977 study found thermography to lag behind other screening tools, the medical community lost interest in this diagnostic approach. This review discusses each screening tool with a focus brought to thermography. No single tool provides excellent predictability; however, a combination that incorporates thermography may boost both sensitivity and specificity. In light of technological advances and maturation of the thermographic industry, additional research is required to confirm the potential of this technology to provide an effective non-invasive, low risk adjunctive tool for the early detection of breast cancer.",
+  "modified": false,
+  "original_char_count": 1151,
+  "sanitized_char_count": 1151,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 890,
+      "boundary_end": 1151,
+      "context": "A comparative review of thermography as a breast cancer screening technique. Breast cancer is the most frequently diagnosed cancer of women in North America. Despite advances in treatment that have reduced mortality, breast cancer remains the second leading cause of cancer induced death. Several well established tools are used to screen for breast cancer including clinical breast exams, mammograms, and ultrasound. Thermography was first introduced as a screening tool in 1956 and was initially well accepted. However, after a 1977 study found thermography to lag behind other screening tools, the medical community lost interest in this diagnostic approach. This review discusses each screening tool with a focus brought to thermography. No single tool provides excellent predictability; however, a combination that incorporates thermography may boost both sensitivity and specificity.",
+      "target": "In light of technological advances and maturation of the thermographic industry, additional research is required to confirm the potential of this technology to provide an effective non-invasive, low risk adjunctive tool for the early detection of breast cancer.",
+      "loss_target": 2.638821840286255,
+      "loss_target_given_context": 1.977434754371643,
+      "delta_loss": 0.6613870859146118,
+      "gain_ratio": 0.2506372638794234,
+      "score": -0.2506372638794234,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

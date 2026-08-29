@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-4687",
+  "source_doc_id": "MED-4687",
+  "title": "Vegetarian diets and public health: biomarker and redox connections.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vegetarian diets and public health: biomarker and redox connections.\nVegetarian diets are rich in antioxidant phytochemicals. However, they may not act as antioxidants in vivo, and yet still have important signaling and regulatory functions. Some may act as pro-oxidants, modulating cellular redox tone and oxidizing redox sensitive sites. In this review, evidence for health benefits of vegetarian diets is presented from different perspectives: epidemiological, biomarker, evolutionary, and public health, as well as antioxidant. From the perspective of molecular connections between diet and health, evidence of a role for plasma ascorbic acid as a biomarker for future disease risk is presented. Basic concepts of redox-based cell signaling are presented, and effects of antioxidant phytochemicals on signaling, especially via redox tone, sulfur switches and the Antioxidant Response Element (ARE), are explored. Sufficient scientific evidence exists for public health policy to promote a plant-rich diet for health promotion. This does not need to wait for science to provide all the answers as to why and how. However, action and interplay of dietary antioxidants in the nonequilibrium systems that control redox balance, cell signaling, and cell function provide rich ground for research to advance understanding of orthomolecular nutrition and provide science-based evidence to advance public health in our aging population.",
+  "sanitized_text": "Vegetarian diets and public health: biomarker and redox connections.\nVegetarian diets are rich in antioxidant phytochemicals. However, they may not act as antioxidants in vivo, and yet still have important signaling and regulatory functions. Some may act as pro-oxidants, modulating cellular redox tone and oxidizing redox sensitive sites. In this review, evidence for health benefits of vegetarian diets is presented from different perspectives: epidemiological, biomarker, evolutionary, and public health, as well as antioxidant. From the perspective of molecular connections between diet and health, evidence of a role for plasma ascorbic acid as a biomarker for future disease risk is presented. Basic concepts of redox-based cell signaling are presented, and effects of antioxidant phytochemicals on signaling, especially via redox tone, sulfur switches and the Antioxidant Response Element (ARE), are explored. Sufficient scientific evidence exists for public health policy to promote a plant-rich diet for health promotion. This does not need to wait for science to provide all the answers as to why and how.",
+  "modified": true,
+  "original_char_count": 1432,
+  "sanitized_char_count": 1115,
+  "deleted_char_count": 317,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1116,
+      "boundary_end": 1432,
+      "context": "Vegetarian diets and public health: biomarker and redox connections. Vegetarian diets are rich in antioxidant phytochemicals. However, they may not act as antioxidants in vivo, and yet still have important signaling and regulatory functions. Some may act as pro-oxidants, modulating cellular redox tone and oxidizing redox sensitive sites. In this review, evidence for health benefits of vegetarian diets is presented from different perspectives: epidemiological, biomarker, evolutionary, and public health, as well as antioxidant. From the perspective of molecular connections between diet and health, evidence of a role for plasma ascorbic acid as a biomarker for future disease risk is presented. Basic concepts of redox-based cell signaling are presented, and effects of antioxidant phytochemicals on signaling, especially via redox tone, sulfur switches and the Antioxidant Response Element (ARE), are explored. Sufficient scientific evidence exists for public health policy to promote a plant-rich diet for health promotion. This does not need to wait for science to provide all the answers as to why and how.",
+      "target": "However, action and interplay of dietary antioxidants in the nonequilibrium systems that control redox balance, cell signaling, and cell function provide rich ground for research to advance understanding of orthomolecular nutrition and provide science-based evidence to advance public health in our aging population.",
+      "loss_target": 3.464233160018921,
+      "loss_target_given_context": 3.100684404373169,
+      "delta_loss": 0.36354875564575195,
+      "gain_ratio": 0.10494350087098823,
+      "score": -0.10494350087098823,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1031,
+      "boundary_end": 1115,
+      "context": "Vegetarian diets and public health: biomarker and redox connections. Vegetarian diets are rich in antioxidant phytochemicals. However, they may not act as antioxidants in vivo, and yet still have important signaling and regulatory functions. Some may act as pro-oxidants, modulating cellular redox tone and oxidizing redox sensitive sites. In this review, evidence for health benefits of vegetarian diets is presented from different perspectives: epidemiological, biomarker, evolutionary, and public health, as well as antioxidant. From the perspective of molecular connections between diet and health, evidence of a role for plasma ascorbic acid as a biomarker for future disease risk is presented. Basic concepts of redox-based cell signaling are presented, and effects of antioxidant phytochemicals on signaling, especially via redox tone, sulfur switches and the Antioxidant Response Element (ARE), are explored. Sufficient scientific evidence exists for public health policy to promote a plant-rich diet for health promotion.",
+      "target": "This does not need to wait for science to provide all the answers as to why and how.",
+      "loss_target": 3.0496561527252197,
+      "loss_target_given_context": 2.3049275875091553,
+      "delta_loss": 0.7447285652160645,
+      "gain_ratio": 0.24420083049381272,
+      "score": -0.24420083049381272,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1116,
+      "target": "However, action and interplay of dietary antioxidants in the nonequilibrium systems that control redox balance, cell signaling, and cell function provide rich ground for research to advance understanding of orthomolecular nutrition and provide science-based evidence to advance public health in our aging population.",
+      "score": -0.10494350087098823,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "However, action and interplay of dietary antioxidants in the nonequilibrium systems that control redox balance, cell signaling, and cell function provide rich ground for research to advance understanding of orthomolecular nutrition and provide science-based evidence to advance public health in our aging population.",
+      "deleted_char_count": 316
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

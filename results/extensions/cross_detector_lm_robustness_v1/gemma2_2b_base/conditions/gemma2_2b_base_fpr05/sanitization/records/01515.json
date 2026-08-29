@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2985",
+  "source_doc_id": "MED-2985",
+  "title": "Phytate (myo-inositol hexaphosphate) and risk factors for osteoporosis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Phytate (myo-inositol hexaphosphate) and risk factors for osteoporosis.\nSeveral risk factors seem to play a role in the development of osteoporosis. Phytate is a naturally occurring compound that is ingested in significant amounts by those with diets rich in whole grains. The aim of this study was to evaluate phytate consumption as a risk factor in osteoporosis. In a first group of 1,473 volunteer subjects, bone mineral density was determined by means of dual radiological absorptiometry in the calcaneus. In a second group of 433 subjects (used for validation of results obtained for the first group), bone mineral density was determined in the lumbar column and the neck of the femur. Subjects were individually interviewed about selected osteoporosis risk factors. Dietary information related to phytate consumption was acquired by questionnaires conducted on two different occasions, the second between 2 and 3 months after performing the first one. One-way analysis of variance or Student's t test was used to determine statistical differences between groups. Bone mineral density increased with increasing phytate consumption. Multivariate linear regression analysis indicated that body weight and low phytate consumption were the risk factors with greatest influence on bone mineral density. Phytate consumption had a protective effect against osteoporosis, suggesting that low phytate consumption should be considered an osteoporosis risk factor.",
+  "sanitized_text": "Phytate (myo-inositol hexaphosphate) and risk factors for osteoporosis.\nSeveral risk factors seem to play a role in the development of osteoporosis. Phytate is a naturally occurring compound that is ingested in significant amounts by those with diets rich in whole grains. The aim of this study was to evaluate phytate consumption as a risk factor in osteoporosis. In a first group of 1,473 volunteer subjects, bone mineral density was determined by means of dual radiological absorptiometry in the calcaneus. In a second group of 433 subjects (used for validation of results obtained for the first group), bone mineral density was determined in the lumbar column and the neck of the femur. Subjects were individually interviewed about selected osteoporosis risk factors. Dietary information related to phytate consumption was acquired by questionnaires conducted on two different occasions, the second between 2 and 3 months after performing the first one. One-way analysis of variance or Student's t test was used to determine statistical differences between groups. Bone mineral density increased with increasing phytate consumption. Multivariate linear regression analysis indicated that body weight and low phytate consumption were the risk factors with greatest influence on bone mineral density. Phytate consumption had a protective effect against osteoporosis, suggesting that low phytate consumption should be considered an osteoporosis risk factor.",
+  "modified": false,
+  "original_char_count": 1458,
+  "sanitized_char_count": 1458,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1303,
+      "boundary_end": 1458,
+      "context": "a role in the development of osteoporosis. Phytate is a naturally occurring compound that is ingested in significant amounts by those with diets rich in whole grains. The aim of this study was to evaluate phytate consumption as a risk factor in osteoporosis. In a first group of 1,473 volunteer subjects, bone mineral density was determined by means of dual radiological absorptiometry in the calcaneus. In a second group of 433 subjects (used for validation of results obtained for the first group), bone mineral density was determined in the lumbar column and the neck of the femur. Subjects were individually interviewed about selected osteoporosis risk factors. Dietary information related to phytate consumption was acquired by questionnaires conducted on two different occasions, the second between 2 and 3 months after performing the first one. One-way analysis of variance or Student's t test was used to determine statistical differences between groups. Bone mineral density increased with increasing phytate consumption. Multivariate linear regression analysis indicated that body weight and low phytate consumption were the risk factors with greatest influence on bone mineral density.",
+      "target": "Phytate consumption had a protective effect against osteoporosis, suggesting that low phytate consumption should be considered an osteoporosis risk factor.",
+      "loss_target": 9.58427906036377,
+      "loss_target_given_context": 2.135221242904663,
+      "delta_loss": 7.4490578174591064,
+      "gain_ratio": 0.7772162904004987,
+      "score": -0.7772162904004987,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

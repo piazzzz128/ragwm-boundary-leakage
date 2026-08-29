@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2706",
+  "source_doc_id": "MED-2706",
+  "title": "Adverse effects of aromatherapy: a systematic review of case reports and case series.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Adverse effects of aromatherapy: a systematic review of case reports and case series.\nAIM: This systematic review was aimed at critically evaluating the evidence regarding the adverse effects associated with aromatherapy. METHOD: Five electronic databases were searched to identify all relevant case reports and case series. RESULTS: Forty two primary reports met our inclusion criteria. In total, 71 patients experienced adverse effects of aromatherapy. Adverse effects ranged from mild to severe and included one fatality. The most common adverse effect was dermatitis. Lavender, peppermint, tea tree oil and ylang-ylang were the most common essential oils responsible for adverse effects. CONCLUSION: Aromatherapy has the potential to cause adverse effects some of which are serious. Their frequency remains unknown. Lack of sufficiently convincing evidence regarding the effectiveness of aromatherapy combined with its potential to cause adverse effects questions the usefulness of this modality in any condition.",
+  "sanitized_text": "Adverse effects of aromatherapy: a systematic review of case reports and case series.\nAIM: This systematic review was aimed at critically evaluating the evidence regarding the adverse effects associated with aromatherapy. METHOD: Five electronic databases were searched to identify all relevant case reports and case series. RESULTS: Forty two primary reports met our inclusion criteria. In total, 71 patients experienced adverse effects of aromatherapy. Adverse effects ranged from mild to severe and included one fatality. The most common adverse effect was dermatitis. Lavender, peppermint, tea tree oil and ylang-ylang were the most common essential oils responsible for adverse effects. CONCLUSION: Aromatherapy has the potential to cause adverse effects some of which are serious. Their frequency remains unknown. Lack of sufficiently convincing evidence regarding the effectiveness of aromatherapy combined with its potential to cause adverse effects questions the usefulness of this modality in any condition.",
+  "modified": false,
+  "original_char_count": 1017,
+  "sanitized_char_count": 1017,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 820,
+      "boundary_end": 1017,
+      "context": "Adverse effects of aromatherapy: a systematic review of case reports and case series. AIM: This systematic review was aimed at critically evaluating the evidence regarding the adverse effects associated with aromatherapy. METHOD: Five electronic databases were searched to identify all relevant case reports and case series. RESULTS: Forty two primary reports met our inclusion criteria. In total, 71 patients experienced adverse effects of aromatherapy. Adverse effects ranged from mild to severe and included one fatality. The most common adverse effect was dermatitis. Lavender, peppermint, tea tree oil and ylang-ylang were the most common essential oils responsible for adverse effects. CONCLUSION: Aromatherapy has the potential to cause adverse effects some of which are serious. Their frequency remains unknown.",
+      "target": "Lack of sufficiently convincing evidence regarding the effectiveness of aromatherapy combined with its potential to cause adverse effects questions the usefulness of this modality in any condition.",
+      "loss_target": 2.9442739486694336,
+      "loss_target_given_context": 1.946029543876648,
+      "delta_loss": 0.9982444047927856,
+      "gain_ratio": 0.3390460338257277,
+      "score": -0.3390460338257277,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

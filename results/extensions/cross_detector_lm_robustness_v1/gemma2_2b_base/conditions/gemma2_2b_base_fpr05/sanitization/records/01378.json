@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2750",
+  "source_doc_id": "MED-2750",
+  "title": "Lack of benefit of dietary advice to men with angina: results of a controlled trial.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Lack of benefit of dietary advice to men with angina: results of a controlled trial.\nOBJECTIVE: To see whether mortality among men with angina can be reduced by dietary advice. DESIGN: A randomized controlled factorial trial. SETTING: Male patients of general practitioners in south Wales. SUBJECTS: A total of 3114 men under 70 y of age with angina. INTERVENTIONS: Subjects were randomly allocated to four groups: (1) advised to eat two portions of oily fish each week, or to take three fish oil capsules daily; (2) advised to eat more fruit, vegetables and oats; (3) given both the above types of advice; and (4) given no specific dietary advice. Mortality was ascertained after 3-9 y. RESULTS: Compliance was better with the fish advice than with the fruit advice. All-cause mortality was not reduced by either form of advice, and no other effects were attributable to fruit advice. Risk of cardiac death was higher among subjects advised to take oily fish than among those not so advised; the adjusted hazard ratio was 1.26 (95% confidence interval 1.00, 1.58; P=0.047), and even greater for sudden cardiac death (1.54; 95% CI 1.06, 2.23; P=0.025). The excess risk was largely located among the subgroup given fish oil capsules. There was no evidence that it was due to interactions with medication. CONCLUSIONS: Advice to eat more fruit was poorly complied with and had no detectable effect on mortality. Men advised to eat oily fish, and particularly those supplied with fish oil capsules, had a higher risk of cardiac death. This result is unexplained; it may arise from risk compensation or some other effect on patients' or doctors' behaviour.",
+  "sanitized_text": "Lack of benefit of dietary advice to men with angina: results of a controlled trial.\nOBJECTIVE: To see whether mortality among men with angina can be reduced by dietary advice. DESIGN: A randomized controlled factorial trial. SETTING: Male patients of general practitioners in south Wales. SUBJECTS: A total of 3114 men under 70 y of age with angina. INTERVENTIONS: Subjects were randomly allocated to four groups: (1) advised to eat two portions of oily fish each week, or to take three fish oil capsules daily; (2) advised to eat more fruit, vegetables and oats; (3) given both the above types of advice; and (4) given no specific dietary advice. Mortality was ascertained after 3-9 y. RESULTS: Compliance was better with the fish advice than with the fruit advice. All-cause mortality was not reduced by either form of advice, and no other effects were attributable to fruit advice. Risk of cardiac death was higher among subjects advised to take oily fish than among those not so advised; the adjusted hazard ratio was 1.26 (95% confidence interval 1.00, 1.58; P=0.047), and even greater for sudden cardiac death (1.54; 95% CI 1.06, 2.23; P=0.025). The excess risk was largely located among the subgroup given fish oil capsules. There was no evidence that it was due to interactions with medication. CONCLUSIONS: Advice to eat more fruit was poorly complied with and had no detectable effect on mortality. Men advised to eat oily fish, and particularly those supplied with fish oil capsules, had a higher risk of cardiac death. This result is unexplained; it may arise from risk compensation or some other effect on patients' or doctors' behaviour.",
+  "modified": false,
+  "original_char_count": 1652,
+  "sanitized_char_count": 1652,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1532,
+      "boundary_end": 1652,
+      "context": "age with angina. INTERVENTIONS: Subjects were randomly allocated to four groups: (1) advised to eat two portions of oily fish each week, or to take three fish oil capsules daily; (2) advised to eat more fruit, vegetables and oats; (3) given both the above types of advice; and (4) given no specific dietary advice. Mortality was ascertained after 3-9 y. RESULTS: Compliance was better with the fish advice than with the fruit advice. All-cause mortality was not reduced by either form of advice, and no other effects were attributable to fruit advice. Risk of cardiac death was higher among subjects advised to take oily fish than among those not so advised; the adjusted hazard ratio was 1.26 (95% confidence interval 1.00, 1.58; P=0.047), and even greater for sudden cardiac death (1.54; 95% CI 1.06, 2.23; P=0.025). The excess risk was largely located among the subgroup given fish oil capsules. There was no evidence that it was due to interactions with medication. CONCLUSIONS: Advice to eat more fruit was poorly complied with and had no detectable effect on mortality. Men advised to eat oily fish, and particularly those supplied with fish oil capsules, had a higher risk of cardiac death.",
+      "target": "This result is unexplained; it may arise from risk compensation or some other effect on patients' or doctors' behaviour.",
+      "loss_target": 8.670482635498047,
+      "loss_target_given_context": 4.553561210632324,
+      "delta_loss": 4.116921424865723,
+      "gain_ratio": 0.4748203298407552,
+      "score": -0.4748203298407552,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

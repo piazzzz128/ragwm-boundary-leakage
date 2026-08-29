@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2907",
+  "source_doc_id": "MED-2907",
+  "title": "Which Fish Should I Eat? Perspectives Influencing Fish Consumption Choices",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Which Fish Should I Eat? Perspectives Influencing Fish Consumption Choices\nBackground: Diverse perspectives have influenced fish consumption choices. Objectives: We summarized the issue of fish consumption choice from toxicological, nutritional, ecological, and economic points of view; identified areas of overlap and disagreement among these viewpoints; and reviewed effects of previous fish consumption advisories. Methods: We reviewed published scientific literature, public health guidelines, and advisories related to fish consumption, focusing on advisories targeted at U.S. populations. However, our conclusions apply to groups having similar fish consumption patterns. Discussion: There are many possible combinations of matters related to fish consumption, but few, if any, fish consumption patterns optimize all domains. Fish provides a rich source of protein and other nutrients, but because of contamination by methylmercury and other toxicants, higher fish intake often leads to greater toxicant exposure. Furthermore, stocks of wild fish are not adequate to meet the nutrient demands of the growing world population, and fish consumption choices also have a broad economic impact on the fishing industry. Most guidance does not account for ecological and economic impacts of different fish consumption choices. Conclusion: Despite the relative lack of information integrating the health, ecological, and economic impacts of different fish choices, clear and simple guidance is necessary to effect desired changes. Thus, more comprehensive advice can be developed to describe the multiple impacts of fish consumption. In addition, policy and fishery management inter-ventions will be necessary to ensure long-term availability of fish as an important source of human nutrition.",
+  "sanitized_text": "Which Fish Should I Eat? Perspectives Influencing Fish Consumption Choices\nBackground: Diverse perspectives have influenced fish consumption choices. Objectives: We summarized the issue of fish consumption choice from toxicological, nutritional, ecological, and economic points of view; identified areas of overlap and disagreement among these viewpoints; and reviewed effects of previous fish consumption advisories. Methods: We reviewed published scientific literature, public health guidelines, and advisories related to fish consumption, focusing on advisories targeted at U.S. populations. However, our conclusions apply to groups having similar fish consumption patterns. Discussion: There are many possible combinations of matters related to fish consumption, but few, if any, fish consumption patterns optimize all domains. Fish provides a rich source of protein and other nutrients, but because of contamination by methylmercury and other toxicants, higher fish intake often leads to greater toxicant exposure. Furthermore, stocks of wild fish are not adequate to meet the nutrient demands of the growing world population, and fish consumption choices also have a broad economic impact on the fishing industry. Most guidance does not account for ecological and economic impacts of different fish consumption choices. Conclusion: Despite the relative lack of information integrating the health, ecological, and economic impacts of different fish choices, clear and simple guidance is necessary to effect desired changes. Thus, more comprehensive advice can be developed to describe the multiple impacts of fish consumption. In addition, policy and fishery management inter-ventions will be necessary to ensure long-term availability of fish as an important source of human nutrition.",
+  "modified": false,
+  "original_char_count": 1791,
+  "sanitized_char_count": 1791,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1632,
+      "boundary_end": 1791,
+      "context": "published scientific literature, public health guidelines, and advisories related to fish consumption, focusing on advisories targeted at U.S. populations. However, our conclusions apply to groups having similar fish consumption patterns. Discussion: There are many possible combinations of matters related to fish consumption, but few, if any, fish consumption patterns optimize all domains. Fish provides a rich source of protein and other nutrients, but because of contamination by methylmercury and other toxicants, higher fish intake often leads to greater toxicant exposure. Furthermore, stocks of wild fish are not adequate to meet the nutrient demands of the growing world population, and fish consumption choices also have a broad economic impact on the fishing industry. Most guidance does not account for ecological and economic impacts of different fish consumption choices. Conclusion: Despite the relative lack of information integrating the health, ecological, and economic impacts of different fish choices, clear and simple guidance is necessary to effect desired changes. Thus, more comprehensive advice can be developed to describe the multiple impacts of fish consumption.",
+      "target": "In addition, policy and fishery management inter-ventions will be necessary to ensure long-term availability of fish as an important source of human nutrition.",
+      "loss_target": 7.5323166847229,
+      "loss_target_given_context": 3.976135492324829,
+      "delta_loss": 3.5561811923980713,
+      "gain_ratio": 0.4721231649235811,
+      "score": -0.4721231649235811,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

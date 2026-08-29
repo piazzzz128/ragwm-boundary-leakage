@@ -1,0 +1,86 @@
+{
+  "internal_id": "MED-1914",
+  "source_doc_id": "MED-1914",
+  "title": "Early life stress and telomere length: Investigating the connection and possible mechanisms",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Early life stress and telomere length: Investigating the connection and possible mechanisms\nHow can adverse experiences in early life, such as maltreatment, exert such powerful negative effects on health decades later? The answer may lie in changes to DNA. New research suggests that exposure to stress can accelerate the erosion of DNA segments called telomeres. Shorter telomere length correlates with chronological age and also disease morbidity and mortality. Thus, telomere erosion is a potential mechanism linking childhood stress to health problems later in life. However, an array of mechanistic, methodological, and basic biological questions must be addressed in order to translate telomere discoveries into clinical applications for monitoring health and predicting disease risk. This paper covers the current state of the science and lays out new research directions.",
+  "sanitized_text": "Early life stress and telomere length: Investigating the connection and possible mechanisms\nHow can adverse experiences in early life, such as maltreatment, exert such powerful negative effects on health decades later? The answer may lie in changes to DNA. New research suggests that exposure to stress can accelerate the erosion of DNA segments called telomeres. Shorter telomere length correlates with chronological age and also disease morbidity and mortality. Thus, telomere erosion is a potential mechanism linking childhood stress to health problems later in life.",
+  "modified": true,
+  "original_char_count": 879,
+  "sanitized_char_count": 570,
+  "deleted_char_count": 309,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 791,
+      "boundary_end": 879,
+      "context": "Early life stress and telomere length: Investigating the connection and possible mechanisms How can adverse experiences in early life, such as maltreatment, exert such powerful negative effects on health decades later? The answer may lie in changes to DNA. New research suggests that exposure to stress can accelerate the erosion of DNA segments called telomeres. Shorter telomere length correlates with chronological age and also disease morbidity and mortality. Thus, telomere erosion is a potential mechanism linking childhood stress to health problems later in life. However, an array of mechanistic, methodological, and basic biological questions must be addressed in order to translate telomere discoveries into clinical applications for monitoring health and predicting disease risk.",
+      "target": "This paper covers the current state of the science and lays out new research directions.",
+      "loss_target": 2.95166015625,
+      "loss_target_given_context": 2.4185452461242676,
+      "delta_loss": 0.5331149101257324,
+      "gain_ratio": 0.18061527476220016,
+      "score": -0.18061527476220016,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 571,
+      "boundary_end": 790,
+      "context": "Early life stress and telomere length: Investigating the connection and possible mechanisms How can adverse experiences in early life, such as maltreatment, exert such powerful negative effects on health decades later? The answer may lie in changes to DNA. New research suggests that exposure to stress can accelerate the erosion of DNA segments called telomeres. Shorter telomere length correlates with chronological age and also disease morbidity and mortality. Thus, telomere erosion is a potential mechanism linking childhood stress to health problems later in life.",
+      "target": "However, an array of mechanistic, methodological, and basic biological questions must be addressed in order to translate telomere discoveries into clinical applications for monitoring health and predicting disease risk.",
+      "loss_target": 2.7135326862335205,
+      "loss_target_given_context": 2.2073748111724854,
+      "delta_loss": 0.5061578750610352,
+      "gain_ratio": 0.18653096667267355,
+      "score": -0.18653096667267355,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 464,
+      "boundary_end": 570,
+      "context": "Early life stress and telomere length: Investigating the connection and possible mechanisms How can adverse experiences in early life, such as maltreatment, exert such powerful negative effects on health decades later? The answer may lie in changes to DNA. New research suggests that exposure to stress can accelerate the erosion of DNA segments called telomeres. Shorter telomere length correlates with chronological age and also disease morbidity and mortality.",
+      "target": "Thus, telomere erosion is a potential mechanism linking childhood stress to health problems later in life.",
+      "loss_target": 2.6447150707244873,
+      "loss_target_given_context": 1.2357637882232666,
+      "delta_loss": 1.4089512825012207,
+      "gain_ratio": 0.5327421838736132,
+      "score": -0.5327421838736132,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 791,
+      "target": "This paper covers the current state of the science and lays out new research directions.",
+      "score": -0.18061527476220016,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "This paper covers the current state of the science and lays out new research directions.",
+      "deleted_char_count": 88
+    },
+    {
+      "step": 2,
+      "boundary_start": 571,
+      "target": "However, an array of mechanistic, methodological, and basic biological questions must be addressed in order to translate telomere discoveries into clinical applications for monitoring health and predicting disease risk.",
+      "score": -0.18653096667267355,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "However, an array of mechanistic, methodological, and basic biological questions must be addressed in order to translate telomere discoveries into clinical applications for monitoring health and predicting disease risk.",
+      "deleted_char_count": 219
+    }
+  ],
+  "deletion_step_count": 2,
+  "stop_reason": "score_below_threshold"
+}

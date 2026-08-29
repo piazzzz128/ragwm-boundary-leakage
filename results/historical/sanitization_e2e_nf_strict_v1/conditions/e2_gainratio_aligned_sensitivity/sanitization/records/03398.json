@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5348",
+  "source_doc_id": "MED-5348",
+  "title": "Rye, lignans and human health.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Rye, lignans and human health.\nRye bran contains a high content not only of dietary fibre, but also of plant lignans and other bioactive compounds in the so-called dietary fibre complex. Blood concentrations of lignans such as enterolactone have been used as biomarkers of intake of lignan-rich plant food. At present,evidence from studies in human subjects does not warrant the conclusion that rye, whole grains orphyto-oestrogens protect against cancer. Some studies, however, have pointed in that direction,especially in relation to cancers of the upper digestive tract. A number of prospective epidemiological studies have clearly shown a protective effect of wholegrain cereals against myocardial infarctions. A corresponding protective effect against diabetes and ischaemic stroke(brain infarct) has also been demonstrated. It seems reasonable to assume that these protective effects are associated with one or more factors in the dietary fibre complex.",
+  "sanitized_text": "Rye, lignans and human health.\nRye bran contains a high content not only of dietary fibre, but also of plant lignans and other bioactive compounds in the so-called dietary fibre complex. Blood concentrations of lignans such as enterolactone have been used as biomarkers of intake of lignan-rich plant food. At present,evidence from studies in human subjects does not warrant the conclusion that rye, whole grains orphyto-oestrogens protect against cancer. Some studies, however, have pointed in that direction,especially in relation to cancers of the upper digestive tract. A number of prospective epidemiological studies have clearly shown a protective effect of wholegrain cereals against myocardial infarctions. A corresponding protective effect against diabetes and ischaemic stroke(brain infarct) has also been demonstrated. It seems reasonable to assume that these protective effects are associated with one or more factors in the dietary fibre complex.",
+  "modified": false,
+  "original_char_count": 959,
+  "sanitized_char_count": 959,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 830,
+      "boundary_end": 959,
+      "context": "Rye, lignans and human health. Rye bran contains a high content not only of dietary fibre, but also of plant lignans and other bioactive compounds in the so-called dietary fibre complex. Blood concentrations of lignans such as enterolactone have been used as biomarkers of intake of lignan-rich plant food. At present,evidence from studies in human subjects does not warrant the conclusion that rye, whole grains orphyto-oestrogens protect against cancer. Some studies, however, have pointed in that direction,especially in relation to cancers of the upper digestive tract. A number of prospective epidemiological studies have clearly shown a protective effect of wholegrain cereals against myocardial infarctions. A corresponding protective effect against diabetes and ischaemic stroke(brain infarct) has also been demonstrated.",
+      "target": "It seems reasonable to assume that these protective effects are associated with one or more factors in the dietary fibre complex.",
+      "loss_target": 3.0270633697509766,
+      "loss_target_given_context": 1.3856794834136963,
+      "delta_loss": 1.6413838863372803,
+      "gain_ratio": 0.5422363808896111,
+      "score": -0.5422363808896111,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1280",
+  "source_doc_id": "MED-1280",
+  "title": "Diverse taxa of cyanobacteria produce β-N-methylamino-l-alanine, a neurotoxic amino acid",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diverse taxa of cyanobacteria produce β-N-methylamino-l-alanine, a neurotoxic amino acid\nCyanobacteria can generate molecules hazardous to human health, but production of the known cyanotoxins is taxonomically sporadic. For example, members of a few genera produce hepatotoxic microcystins, whereas production of hepatotoxic nodularins appears to be limited to a single genus. Production of known neurotoxins has also been considered phylogenetically unpredictable. We report here that a single neurotoxin, β-N-methylamino-l-alanine, may be produced by all known groups of cyanobacteria, including cyanobacterial symbionts and free-living cyanobacteria. The ubiquity of cyanobacteria in terrestrial, as well as freshwater, brackish, and marine environments, suggests a potential for wide-spread human exposure.",
+  "sanitized_text": "Diverse taxa of cyanobacteria produce β-N-methylamino-l-alanine, a neurotoxic amino acid\nCyanobacteria can generate molecules hazardous to human health, but production of the known cyanotoxins is taxonomically sporadic. For example, members of a few genera produce hepatotoxic microcystins, whereas production of hepatotoxic nodularins appears to be limited to a single genus. Production of known neurotoxins has also been considered phylogenetically unpredictable. We report here that a single neurotoxin, β-N-methylamino-l-alanine, may be produced by all known groups of cyanobacteria, including cyanobacterial symbionts and free-living cyanobacteria. The ubiquity of cyanobacteria in terrestrial, as well as freshwater, brackish, and marine environments, suggests a potential for wide-spread human exposure.",
+  "modified": false,
+  "original_char_count": 810,
+  "sanitized_char_count": 810,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 654,
+      "boundary_end": 810,
+      "context": "Diverse taxa of cyanobacteria produce β-N-methylamino-l-alanine, a neurotoxic amino acid Cyanobacteria can generate molecules hazardous to human health, but production of the known cyanotoxins is taxonomically sporadic. For example, members of a few genera produce hepatotoxic microcystins, whereas production of hepatotoxic nodularins appears to be limited to a single genus. Production of known neurotoxins has also been considered phylogenetically unpredictable. We report here that a single neurotoxin, β-N-methylamino-l-alanine, may be produced by all known groups of cyanobacteria, including cyanobacterial symbionts and free-living cyanobacteria.",
+      "target": "The ubiquity of cyanobacteria in terrestrial, as well as freshwater, brackish, and marine environments, suggests a potential for wide-spread human exposure.",
+      "loss_target": 2.3724944591522217,
+      "loss_target_given_context": 1.9557896852493286,
+      "delta_loss": 0.41670477390289307,
+      "gain_ratio": 0.17563993555196616,
+      "score": -0.17563993555196616,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

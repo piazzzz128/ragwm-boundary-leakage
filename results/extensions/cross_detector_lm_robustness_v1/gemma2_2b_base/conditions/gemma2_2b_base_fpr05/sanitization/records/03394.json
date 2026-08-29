@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5344",
+  "source_doc_id": "MED-5344",
+  "title": "Risk factors for myocardial infarction in women and men: insights from the INTERHEART study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Risk factors for myocardial infarction in women and men: insights from the INTERHEART study.\nAIMS: Coronary heart disease (CHD) is a leading cause of death among men and women globally. Women develop CHD about 10 years later than men, yet the reasons for this are unclear. The purpose of this report is to determine if differences in risk factor distributions exist between women and men across various age categories to help explain why women develop acute MI later than men. METHODS AND RESULTS: We used the INTERHEART global case-control study including 27 098 participants from 52 countries, 6787 of whom were women. The median age of first acute MI was higher in women than men (65 vs. 56 years; P < 0.0001). Nine modifiable risk factors were associated with MI in women and men. Hypertension [2.95(2.66 -3.28) vs. 2.32(2.16-2.48)], diabetes [4.26(3.68-4.94) vs. 2.67(2.43-2.94), physical activity [0.48(0.41-0.57) vs. 0.77(0.71-0.83)], and moderate alcohol use [0.41(0.34-0.50) vs. 0.88(0.82-0.94)] were more strongly associated with MI among women than men. The association of abnormal lipids, current smoking, abdominal obesity, high risk diet, and psychosocial stress factors with MI was similar in women and men. Risk factors associations were generally stronger among younger individuals compared to older women and men. The population attributable risk (PAR) of all nine risk factors exceeded 94%, and was similar among women and men (96 vs. 93%). Men were significantly more likely to suffer a MI prior to 60 years of age than were women, however, after adjusting for levels of risk factors, the sex difference in the probability of MI cases occurring before the age of 60 years was reduced by more than 80%. CONCLUSION: Women experience their first acute MI on average 9 years later than men. Nine modifiable risk factors are significantly associated with acute MI in both men and women and explain greater than 90% of the PAR. The difference in age of first MI is largely explained by the higher risk factor levels at younger ages in men compared to women.",
+  "sanitized_text": "Risk factors for myocardial infarction in women and men: insights from the INTERHEART study.\nAIMS: Coronary heart disease (CHD) is a leading cause of death among men and women globally. Women develop CHD about 10 years later than men, yet the reasons for this are unclear. The purpose of this report is to determine if differences in risk factor distributions exist between women and men across various age categories to help explain why women develop acute MI later than men. METHODS AND RESULTS: We used the INTERHEART global case-control study including 27 098 participants from 52 countries, 6787 of whom were women. The median age of first acute MI was higher in women than men (65 vs. 56 years; P < 0.0001). Nine modifiable risk factors were associated with MI in women and men. Hypertension [2.95(2.66 -3.28) vs. 2.32(2.16-2.48)], diabetes [4.26(3.68-4.94) vs. 2.67(2.43-2.94), physical activity [0.48(0.41-0.57) vs. 0.77(0.71-0.83)], and moderate alcohol use [0.41(0.34-0.50) vs. 0.88(0.82-0.94)] were more strongly associated with MI among women than men. The association of abnormal lipids, current smoking, abdominal obesity, high risk diet, and psychosocial stress factors with MI was similar in women and men. Risk factors associations were generally stronger among younger individuals compared to older women and men. The population attributable risk (PAR) of all nine risk factors exceeded 94%, and was similar among women and men (96 vs. 93%). Men were significantly more likely to suffer a MI prior to 60 years of age than were women, however, after adjusting for levels of risk factors, the sex difference in the probability of MI cases occurring before the age of 60 years was reduced by more than 80%. CONCLUSION: Women experience their first acute MI on average 9 years later than men. Nine modifiable risk factors are significantly associated with acute MI in both men and women and explain greater than 90% of the PAR. The difference in age of first MI is largely explained by the higher risk factor levels at younger ages in men compared to women.",
+  "modified": false,
+  "original_char_count": 2071,
+  "sanitized_char_count": 2071,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1942,
+      "boundary_end": 2071,
+      "context": "were associated with MI in women and men. Hypertension [2.95(2.66 -3.28) vs. 2.32(2.16-2.48)], diabetes [4.26(3.68-4.94) vs. 2.67(2.43-2.94), physical activity [0.48(0.41-0.57) vs. 0.77(0.71-0.83)], and moderate alcohol use [0.41(0.34-0.50) vs. 0.88(0.82-0.94)] were more strongly associated with MI among women than men. The association of abnormal lipids, current smoking, abdominal obesity, high risk diet, and psychosocial stress factors with MI was similar in women and men. Risk factors associations were generally stronger among younger individuals compared to older women and men. The population attributable risk (PAR) of all nine risk factors exceeded 94%, and was similar among women and men (96 vs. 93%). Men were significantly more likely to suffer a MI prior to 60 years of age than were women, however, after adjusting for levels of risk factors, the sex difference in the probability of MI cases occurring before the age of 60 years was reduced by more than 80%. CONCLUSION: Women experience their first acute MI on average 9 years later than men. Nine modifiable risk factors are significantly associated with acute MI in both men and women and explain greater than 90% of the PAR.",
+      "target": "The difference in age of first MI is largely explained by the higher risk factor levels at younger ages in men compared to women.",
+      "loss_target": 8.450621604919434,
+      "loss_target_given_context": 2.3070507049560547,
+      "delta_loss": 6.143570899963379,
+      "gain_ratio": 0.7269963308245833,
+      "score": -0.7269963308245833,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

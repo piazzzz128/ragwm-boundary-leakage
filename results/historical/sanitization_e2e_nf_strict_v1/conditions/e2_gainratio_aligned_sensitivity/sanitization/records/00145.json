@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1190",
+  "source_doc_id": "MED-1190",
+  "title": "High high-density-lipoprotein cholesterol in African children and adults in a population free of coronary heart diseae.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "High high-density-lipoprotein cholesterol in African children and adults in a population free of coronary heart diseae.\nThe serum concentration of high-density lipoprotein cholesterol and the proportion it constitutes of total serum cholesterol are high in children and low in sufferers from coronary heart disease (CHD). Studies in elderly black Africans in Western Transvaal showed them to be free of CHD. HDL concentrations measured at birth and in groups of 10- to 12-year-olds, 16- to 18-year olds, and 60- to 69-year-olds showed mean values of 0.96, 1.71, 1.58, and 1.94 mmol/l (36, 66, 61, and 65 mg/100 ml) respectively; these concentrations constitued about 56%, 54%, and 45%, and 47%, of total cholesterol. Values thus did not fall from youth to age as they did in whites. Rural South African blacks live on a diet high in fibre and low in animal protein and fat; children are active; and adults remain active even when old. These high values of HDL may well be representative for a population that is active, used to a frugal traditional diet, and free from CHD.",
+  "sanitized_text": "High high-density-lipoprotein cholesterol in African children and adults in a population free of coronary heart diseae.\nThe serum concentration of high-density lipoprotein cholesterol and the proportion it constitutes of total serum cholesterol are high in children and low in sufferers from coronary heart disease (CHD). Studies in elderly black Africans in Western Transvaal showed them to be free of CHD. HDL concentrations measured at birth and in groups of 10- to 12-year-olds, 16- to 18-year olds, and 60- to 69-year-olds showed mean values of 0.96, 1.71, 1.58, and 1.94 mmol/l (36, 66, 61, and 65 mg/100 ml) respectively; these concentrations constitued about 56%, 54%, and 45%, and 47%, of total cholesterol. Values thus did not fall from youth to age as they did in whites. Rural South African blacks live on a diet high in fibre and low in animal protein and fat; children are active; and adults remain active even when old. These high values of HDL may well be representative for a population that is active, used to a frugal traditional diet, and free from CHD.",
+  "modified": false,
+  "original_char_count": 1073,
+  "sanitized_char_count": 1073,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 935,
+      "boundary_end": 1073,
+      "context": "High high-density-lipoprotein cholesterol in African children and adults in a population free of coronary heart diseae. The serum concentration of high-density lipoprotein cholesterol and the proportion it constitutes of total serum cholesterol are high in children and low in sufferers from coronary heart disease (CHD). Studies in elderly black Africans in Western Transvaal showed them to be free of CHD. HDL concentrations measured at birth and in groups of 10- to 12-year-olds, 16- to 18-year olds, and 60- to 69-year-olds showed mean values of 0.96, 1.71, 1.58, and 1.94 mmol/l (36, 66, 61, and 65 mg/100 ml) respectively; these concentrations constitued about 56%, 54%, and 45%, and 47%, of total cholesterol. Values thus did not fall from youth to age as they did in whites. Rural South African blacks live on a diet high in fibre and low in animal protein and fat; children are active; and adults remain active even when old.",
+      "target": "These high values of HDL may well be representative for a population that is active, used to a frugal traditional diet, and free from CHD.",
+      "loss_target": 3.508685827255249,
+      "loss_target_given_context": 2.3807764053344727,
+      "delta_loss": 1.1279094219207764,
+      "gain_ratio": 0.32146207367990814,
+      "score": -0.32146207367990814,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

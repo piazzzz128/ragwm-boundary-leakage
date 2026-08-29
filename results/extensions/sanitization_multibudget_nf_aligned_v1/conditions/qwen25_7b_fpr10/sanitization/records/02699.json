@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4590",
+  "source_doc_id": "MED-4590",
+  "title": "Apple juice prevents oxidative stress induced by amyloid-beta in culture.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Apple juice prevents oxidative stress induced by amyloid-beta in culture.\nIncreased oxidative stress contributes to the decline in cognitive performance during normal aging and in neurodegenerative conditions such as Alzheimer's disease. Dietary supplementation with fruits and vegetables that are high in antioxidant potential have in some cases compensated for oxidative stress. Herein, we examined whether apple juice could alleviate the neurotoxic consequences of exposure of cultured neuronal cells to amyloid-beta (Abeta), since at least a portion of the neurotoxicity of Abeta is due to oxidative stress. Apple juice concentrate (AJC; 70 degree brix) was diluted into culture medium of SH-SY-5Y human neuroblastoma cells that had been differentiated for 7 days with 5 microM retinoic acid concurrent with the addition of 20 microM Abeta. AJC prevented the increased generation of reactive oxygen species (ROS) normally induced by Abeta treatment under these conditions. AJC also prevented Abeta-induced calcium influx and apoptosis, each of which results in part due to increased ROS. These findings suggest that the antioxidant potential of apple products can prevent Abeta-induced oxidative damage.",
+  "sanitized_text": "Apple juice prevents oxidative stress induced by amyloid-beta in culture.\nIncreased oxidative stress contributes to the decline in cognitive performance during normal aging and in neurodegenerative conditions such as Alzheimer's disease. Dietary supplementation with fruits and vegetables that are high in antioxidant potential have in some cases compensated for oxidative stress. Herein, we examined whether apple juice could alleviate the neurotoxic consequences of exposure of cultured neuronal cells to amyloid-beta (Abeta), since at least a portion of the neurotoxicity of Abeta is due to oxidative stress. Apple juice concentrate (AJC; 70 degree brix) was diluted into culture medium of SH-SY-5Y human neuroblastoma cells that had been differentiated for 7 days with 5 microM retinoic acid concurrent with the addition of 20 microM Abeta. AJC prevented the increased generation of reactive oxygen species (ROS) normally induced by Abeta treatment under these conditions. AJC also prevented Abeta-induced calcium influx and apoptosis, each of which results in part due to increased ROS. These findings suggest that the antioxidant potential of apple products can prevent Abeta-induced oxidative damage.",
+  "modified": false,
+  "original_char_count": 1207,
+  "sanitized_char_count": 1207,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1092,
+      "boundary_end": 1207,
+      "context": "Apple juice prevents oxidative stress induced by amyloid-beta in culture. Increased oxidative stress contributes to the decline in cognitive performance during normal aging and in neurodegenerative conditions such as Alzheimer's disease. Dietary supplementation with fruits and vegetables that are high in antioxidant potential have in some cases compensated for oxidative stress. Herein, we examined whether apple juice could alleviate the neurotoxic consequences of exposure of cultured neuronal cells to amyloid-beta (Abeta), since at least a portion of the neurotoxicity of Abeta is due to oxidative stress. Apple juice concentrate (AJC; 70 degree brix) was diluted into culture medium of SH-SY-5Y human neuroblastoma cells that had been differentiated for 7 days with 5 microM retinoic acid concurrent with the addition of 20 microM Abeta. AJC prevented the increased generation of reactive oxygen species (ROS) normally induced by Abeta treatment under these conditions. AJC also prevented Abeta-induced calcium influx and apoptosis, each of which results in part due to increased ROS.",
+      "target": "These findings suggest that the antioxidant potential of apple products can prevent Abeta-induced oxidative damage.",
+      "loss_target": 3.6883182525634766,
+      "loss_target_given_context": 1.6576586961746216,
+      "delta_loss": 2.030659556388855,
+      "gain_ratio": 0.55056516746555,
+      "score": -0.55056516746555,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

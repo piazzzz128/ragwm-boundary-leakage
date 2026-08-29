@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-911",
+  "source_doc_id": "MED-911",
+  "title": "Swimming with death: Naegleria fowleri infections in recreational waters.",
+  "original_text": "Swimming with death: Naegleria fowleri infections in recreational waters.\nNaegleria fowleri is a free-living amoeba commonly found in warm freshwater environments such as hot springs, lakes, natural mineral water, and resort spas frequented by tourists. N. fowleri is the etiologic agent of primary amoebic meningoencephalitis (PAM), an acute fatal disease of the central nervous system that results in death in approximately seven days. Previously thought to be a rare condition, the number of reported PAM cases is increasing each year. PAM is difficult to diagnose because the clinical signs of the disease are similar to bacterial meningitis. Thus, the key to diagnosis is physician awareness and clinical suspicion. With the intent of creating awareness among travel medicine practitioners and the tourism industry, this review focuses on the presenting features of N. fowleri and PAM and offers insight into the prevention and treatment of the disease. Copyright © 2010 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Swimming with death: Naegleria fowleri infections in recreational waters.\nNaegleria fowleri is a free-living amoeba commonly found in warm freshwater environments such as hot springs, lakes, natural mineral water, and resort spas frequented by tourists. N. fowleri is the etiologic agent of primary amoebic meningoencephalitis (PAM), an acute fatal disease of the central nervous system that results in death in approximately seven days. Previously thought to be a rare condition, the number of reported PAM cases is increasing each year. PAM is difficult to diagnose because the clinical signs of the disease are similar to bacterial meningitis. Thus, the key to diagnosis is physician awareness and clinical suspicion. With the intent of creating awareness among travel medicine practitioners and the tourism industry, this review focuses on the presenting features of N. fowleri and PAM and offers insight into the prevention and treatment of the disease.",
+  "modified": true,
+  "original_char_count": 1010,
+  "sanitized_char_count": 958,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 959,
+      "boundary_end": 989,
+      "context": "Swimming with death: Naegleria fowleri infections in recreational waters. Naegleria fowleri is a free-living amoeba commonly found in warm freshwater environments such as hot springs, lakes, natural mineral water, and resort spas frequented by tourists. N. fowleri is the etiologic agent of primary amoebic meningoencephalitis (PAM), an acute fatal disease of the central nervous system that results in death in approximately seven days. Previously thought to be a rare condition, the number of reported PAM cases is increasing each year. PAM is difficult to diagnose because the clinical signs of the disease are similar to bacterial meningitis. Thus, the key to diagnosis is physician awareness and clinical suspicion. With the intent of creating awareness among travel medicine practitioners and the tourism industry, this review focuses on the presenting features of N. fowleri and PAM and offers insight into the prevention and treatment of the disease.",
+      "target": "Copyright © 2010 Elsevier Ltd.",
+      "loss_target": 1.1775972843170166,
+      "loss_target_given_context": 1.4872276782989502,
+      "delta_loss": -0.3096303939819336,
+      "gain_ratio": -0.26293402515913,
+      "score": 0.26293402515913,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 874,
+      "boundary_end": 958,
+      "context": "Swimming with death: Naegleria fowleri infections in recreational waters. Naegleria fowleri is a free-living amoeba commonly found in warm freshwater environments such as hot springs, lakes, natural mineral water, and resort spas frequented by tourists. N. fowleri is the etiologic agent of primary amoebic meningoencephalitis (PAM), an acute fatal disease of the central nervous system that results in death in approximately seven days. Previously thought to be a rare condition, the number of reported PAM cases is increasing each year. PAM is difficult to diagnose because the clinical signs of the disease are similar to bacterial meningitis. Thus, the key to diagnosis is physician awareness and clinical suspicion. With the intent of creating awareness among travel medicine practitioners and the tourism industry, this review focuses on the presenting features of N.",
+      "target": "fowleri and PAM and offers insight into the prevention and treatment of the disease.",
+      "loss_target": 3.6997716426849365,
+      "loss_target_given_context": 2.3032386302948,
+      "delta_loss": 1.3965330123901367,
+      "gain_ratio": 0.37746465113632477,
+      "score": -0.37746465113632477,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 959,
+      "target": "Copyright © 2010 Elsevier Ltd.",
+      "score": 0.26293402515913,
+      "deleted_suffix": "Copyright © 2010 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

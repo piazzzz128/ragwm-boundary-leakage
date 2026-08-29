@@ -1,0 +1,86 @@
+{
+  "internal_id": "MED-2719",
+  "source_doc_id": "MED-2719",
+  "title": "Why do individuals not lose more weight from an exercise intervention at a defined dose? An energy balance analysis",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Why do individuals not lose more weight from an exercise intervention at a defined dose? An energy balance analysis\nSummary Weight loss resulting from an exercise intervention tends to be lower than predicted. Modest weight loss can arise from an increase in energy intake, physiological reductions in resting energy expenditure, an increase in lean tissue or a decrease in non-exercise activity. Lower than expected, weight loss could also arise from weak and invalidated assumptions within predictive models. To investigate these causes, we systematically reviewed studies that monitored compliance to exercise prescriptions and measured exercise-induced change in body composition. Changed body energy stores were calculated to determine the deficit between total daily energy intake and energy expenditures. This information combined with available measurements was used to critically evaluate explanations for low exercise-induced weight loss. We conclude that the small magnitude of weight loss observed from the majority of evaluated exercise interventions is primarily due to low doses of prescribed exercise energy expenditures compounded by a concomitant increase in caloric intake. Lifespan is positively affected in individuals classified as moderately obese. Results from the Dietary Portfolio Study show an association with flatulence.",
+  "sanitized_text": "Why do individuals not lose more weight from an exercise intervention at a defined dose? An energy balance analysis\nSummary Weight loss resulting from an exercise intervention tends to be lower than predicted. Modest weight loss can arise from an increase in energy intake, physiological reductions in resting energy expenditure, an increase in lean tissue or a decrease in non-exercise activity. Lower than expected, weight loss could also arise from weak and invalidated assumptions within predictive models. To investigate these causes, we systematically reviewed studies that monitored compliance to exercise prescriptions and measured exercise-induced change in body composition. Changed body energy stores were calculated to determine the deficit between total daily energy intake and energy expenditures. This information combined with available measurements was used to critically evaluate explanations for low exercise-induced weight loss. We conclude that the small magnitude of weight loss observed from the majority of evaluated exercise interventions is primarily due to low doses of prescribed exercise energy expenditures compounded by a concomitant increase in caloric intake.",
+  "modified": true,
+  "original_char_count": 1349,
+  "sanitized_char_count": 1192,
+  "deleted_char_count": 157,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1272,
+      "boundary_end": 1349,
+      "context": "a defined dose? An energy balance analysis Summary Weight loss resulting from an exercise intervention tends to be lower than predicted. Modest weight loss can arise from an increase in energy intake, physiological reductions in resting energy expenditure, an increase in lean tissue or a decrease in non-exercise activity. Lower than expected, weight loss could also arise from weak and invalidated assumptions within predictive models. To investigate these causes, we systematically reviewed studies that monitored compliance to exercise prescriptions and measured exercise-induced change in body composition. Changed body energy stores were calculated to determine the deficit between total daily energy intake and energy expenditures. This information combined with available measurements was used to critically evaluate explanations for low exercise-induced weight loss. We conclude that the small magnitude of weight loss observed from the majority of evaluated exercise interventions is primarily due to low doses of prescribed exercise energy expenditures compounded by a concomitant increase in caloric intake. Lifespan is positively affected in individuals classified as moderately obese.",
+      "target": "Results from the Dietary Portfolio Study show an association with flatulence.",
+      "loss_target": 4.499484539031982,
+      "loss_target_given_context": 4.4845099449157715,
+      "delta_loss": 0.014974594116210938,
+      "gain_ratio": 0.0033280688012837503,
+      "score": -0.0033280688012837503,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1193,
+      "boundary_end": 1271,
+      "context": "Why do individuals not lose more weight from an exercise intervention at a defined dose? An energy balance analysis Summary Weight loss resulting from an exercise intervention tends to be lower than predicted. Modest weight loss can arise from an increase in energy intake, physiological reductions in resting energy expenditure, an increase in lean tissue or a decrease in non-exercise activity. Lower than expected, weight loss could also arise from weak and invalidated assumptions within predictive models. To investigate these causes, we systematically reviewed studies that monitored compliance to exercise prescriptions and measured exercise-induced change in body composition. Changed body energy stores were calculated to determine the deficit between total daily energy intake and energy expenditures. This information combined with available measurements was used to critically evaluate explanations for low exercise-induced weight loss. We conclude that the small magnitude of weight loss observed from the majority of evaluated exercise interventions is primarily due to low doses of prescribed exercise energy expenditures compounded by a concomitant increase in caloric intake.",
+      "target": "Lifespan is positively affected in individuals classified as moderately obese.",
+      "loss_target": 4.390951156616211,
+      "loss_target_given_context": 4.103766918182373,
+      "delta_loss": 0.2871842384338379,
+      "gain_ratio": 0.06540365132532015,
+      "score": -0.06540365132532015,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 949,
+      "boundary_end": 1192,
+      "context": "Why do individuals not lose more weight from an exercise intervention at a defined dose? An energy balance analysis Summary Weight loss resulting from an exercise intervention tends to be lower than predicted. Modest weight loss can arise from an increase in energy intake, physiological reductions in resting energy expenditure, an increase in lean tissue or a decrease in non-exercise activity. Lower than expected, weight loss could also arise from weak and invalidated assumptions within predictive models. To investigate these causes, we systematically reviewed studies that monitored compliance to exercise prescriptions and measured exercise-induced change in body composition. Changed body energy stores were calculated to determine the deficit between total daily energy intake and energy expenditures. This information combined with available measurements was used to critically evaluate explanations for low exercise-induced weight loss.",
+      "target": "We conclude that the small magnitude of weight loss observed from the majority of evaluated exercise interventions is primarily due to low doses of prescribed exercise energy expenditures compounded by a concomitant increase in caloric intake.",
+      "loss_target": 3.305243492126465,
+      "loss_target_given_context": 2.22078537940979,
+      "delta_loss": 1.0844581127166748,
+      "gain_ratio": 0.32810233657520244,
+      "score": -0.32810233657520244,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1272,
+      "target": "Results from the Dietary Portfolio Study show an association with flatulence.",
+      "score": -0.0033280688012837503,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Results from the Dietary Portfolio Study show an association with flatulence.",
+      "deleted_char_count": 77
+    },
+    {
+      "step": 2,
+      "boundary_start": 1193,
+      "target": "Lifespan is positively affected in individuals classified as moderately obese.",
+      "score": -0.06540365132532015,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Lifespan is positively affected in individuals classified as moderately obese.",
+      "deleted_char_count": 78
+    }
+  ],
+  "deletion_step_count": 2,
+  "stop_reason": "score_below_threshold"
+}

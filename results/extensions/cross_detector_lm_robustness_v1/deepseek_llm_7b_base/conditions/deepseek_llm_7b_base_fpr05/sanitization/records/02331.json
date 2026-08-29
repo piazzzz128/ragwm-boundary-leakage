@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4120",
+  "source_doc_id": "MED-4120",
+  "title": "Sucrose activates human taste pathways differently from artificial sweetener.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Sucrose activates human taste pathways differently from artificial sweetener.\nAnimal models suggest that sucrose activates taste afferents differently than non-caloric sweeteners. Little information exists how artificial sweeteners engage central taste pathways in the human brain. We assessed sucrose and sucralose taste pleasantness across a concentration gradient in 12 healthy control women and applied 10% sucrose and matched sucralose during functional magnet resonance imaging. The results indicate that (1) both sucrose and sucralose activate functionally connected primary taste pathways; (2) taste pleasantness predicts left insula response; (3) sucrose elicits a stronger brain response in the anterior insula, frontal operculum, striatum and anterior cingulate, compared to sucralose; (4) only sucrose, but not sucralose, stimulation engages dopaminergic midbrain areas in relation to the behavioral pleasantness response. Thus, brain response distinguishes the caloric from the non-caloric sweetener, although the conscious mind could not. This could have important implications on how effective artificial sweeteners are in their ability to substitute sugar intake.",
+  "sanitized_text": "Sucrose activates human taste pathways differently from artificial sweetener.\nAnimal models suggest that sucrose activates taste afferents differently than non-caloric sweeteners. Little information exists how artificial sweeteners engage central taste pathways in the human brain. We assessed sucrose and sucralose taste pleasantness across a concentration gradient in 12 healthy control women and applied 10% sucrose and matched sucralose during functional magnet resonance imaging. The results indicate that (1) both sucrose and sucralose activate functionally connected primary taste pathways; (2) taste pleasantness predicts left insula response; (3) sucrose elicits a stronger brain response in the anterior insula, frontal operculum, striatum and anterior cingulate, compared to sucralose; (4) only sucrose, but not sucralose, stimulation engages dopaminergic midbrain areas in relation to the behavioral pleasantness response. Thus, brain response distinguishes the caloric from the non-caloric sweetener, although the conscious mind could not. This could have important implications on how effective artificial sweeteners are in their ability to substitute sugar intake.",
+  "modified": false,
+  "original_char_count": 1179,
+  "sanitized_char_count": 1179,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1053,
+      "boundary_end": 1179,
+      "context": "Sucrose activates human taste pathways differently from artificial sweetener. Animal models suggest that sucrose activates taste afferents differently than non-caloric sweeteners. Little information exists how artificial sweeteners engage central taste pathways in the human brain. We assessed sucrose and sucralose taste pleasantness across a concentration gradient in 12 healthy control women and applied 10% sucrose and matched sucralose during functional magnet resonance imaging. The results indicate that (1) both sucrose and sucralose activate functionally connected primary taste pathways; (2) taste pleasantness predicts left insula response; (3) sucrose elicits a stronger brain response in the anterior insula, frontal operculum, striatum and anterior cingulate, compared to sucralose; (4) only sucrose, but not sucralose, stimulation engages dopaminergic midbrain areas in relation to the behavioral pleasantness response. Thus, brain response distinguishes the caloric from the non-caloric sweetener, although the conscious mind could not.",
+      "target": "This could have important implications on how effective artificial sweeteners are in their ability to substitute sugar intake.",
+      "loss_target": 3.3519575595855713,
+      "loss_target_given_context": 2.235332489013672,
+      "delta_loss": 1.1166250705718994,
+      "gain_ratio": 0.3331262555454182,
+      "score": -0.3331262555454182,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

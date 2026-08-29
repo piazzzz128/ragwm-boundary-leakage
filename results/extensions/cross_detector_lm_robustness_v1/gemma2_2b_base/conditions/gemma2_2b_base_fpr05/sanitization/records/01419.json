@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2803",
+  "source_doc_id": "MED-2803",
+  "title": "Dietary polyphenols and mechanisms of osteoarthritis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary polyphenols and mechanisms of osteoarthritis.\nOsteoarthritis is a condition caused in part by injury, loss of cartilage structure and function, and an imbalance in inflammatory and anti-inflammatory pathways. It primarily affects the articular cartilage and subchondral bone of synovial joints and results in joint failure, leading to pain upon weight bearing including walking and standing. There is no cure for osteoarthritis, as it is very difficult to restore the cartilage once it is destroyed. The goals of treatment are to relieve pain, maintain or improve joint mobility, increase the strength of the joints and minimize the disabling effects of the disease. Recent studies have shown an association between dietary polyphenols and the prevention of osteoarthritis-related musculoskeletal inflammation. This review discusses the effects of commonly consumed polyphenols, including curcumin, epigallocatechin gallate and green tea extract, resveratrol, nobiletin and citrus fruits, pomegranate, as well as genistein and soy protein, on osteoarthritis with an emphasis on molecular antiosteoarthritic mechanisms. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Dietary polyphenols and mechanisms of osteoarthritis.\nOsteoarthritis is a condition caused in part by injury, loss of cartilage structure and function, and an imbalance in inflammatory and anti-inflammatory pathways. It primarily affects the articular cartilage and subchondral bone of synovial joints and results in joint failure, leading to pain upon weight bearing including walking and standing. There is no cure for osteoarthritis, as it is very difficult to restore the cartilage once it is destroyed. The goals of treatment are to relieve pain, maintain or improve joint mobility, increase the strength of the joints and minimize the disabling effects of the disease. Recent studies have shown an association between dietary polyphenols and the prevention of osteoarthritis-related musculoskeletal inflammation. This review discusses the effects of commonly consumed polyphenols, including curcumin, epigallocatechin gallate and green tea extract, resveratrol, nobiletin and citrus fruits, pomegranate, as well as genistein and soy protein, on osteoarthritis with an emphasis on molecular antiosteoarthritic mechanisms. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1178,
+  "sanitized_char_count": 1178,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1127,
+      "boundary_end": 1157,
+      "context": "Dietary polyphenols and mechanisms of osteoarthritis. Osteoarthritis is a condition caused in part by injury, loss of cartilage structure and function, and an imbalance in inflammatory and anti-inflammatory pathways. It primarily affects the articular cartilage and subchondral bone of synovial joints and results in joint failure, leading to pain upon weight bearing including walking and standing. There is no cure for osteoarthritis, as it is very difficult to restore the cartilage once it is destroyed. The goals of treatment are to relieve pain, maintain or improve joint mobility, increase the strength of the joints and minimize the disabling effects of the disease. Recent studies have shown an association between dietary polyphenols and the prevention of osteoarthritis-related musculoskeletal inflammation. This review discusses the effects of commonly consumed polyphenols, including curcumin, epigallocatechin gallate and green tea extract, resveratrol, nobiletin and citrus fruits, pomegranate, as well as genistein and soy protein, on osteoarthritis with an emphasis on molecular antiosteoarthritic mechanisms.",
+      "target": "Copyright © 2012 Elsevier Inc.",
+      "loss_target": 4.378759860992432,
+      "loss_target_given_context": 2.825190544128418,
+      "delta_loss": 1.5535693168640137,
+      "gain_ratio": 0.3547966470378447,
+      "score": -0.3547966470378447,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

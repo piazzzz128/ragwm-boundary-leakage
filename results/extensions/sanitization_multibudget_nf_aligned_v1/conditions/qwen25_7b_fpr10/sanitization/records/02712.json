@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4606",
+  "source_doc_id": "MED-4606",
+  "title": "Does potassium sorbate induce genotoxic or mutagenic effects in lymphocytes?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Does potassium sorbate induce genotoxic or mutagenic effects in lymphocytes?\nThe present study evaluates the genotoxic potential of potassium sorbate (PS) in cultured and isolated human lymphocytes. To assess the damage caused by PS in humans, we designed in vitro experiments by measuring chromosomal aberrations (CAs), sister-chromatid exchanges (SCEs), micronucleus (MN) and comet assays. Lymphocytes were treated with negative control (sterile distilled water), positive control (MMC for cultured lymphocytes, and H(2)O(2) for isolated lymphocytes) and four concentrations (125, 250, 500, and 1000 microg/ml) of PS. According to the results, PS treatment significantly increases the CAs (with or without gaps at 500 and 1000 microg/ml concentrations) and SCEs (at 250, 500, 1000 microg/ml for 24h and 125, 250, 500, 1000 microg/ml for 48h) compared with vehicle control. Following treatment of the isolated lymphocytes for 1h, significant PS-induced DNA strand breaks were observed, at all concentrations. However, PS failed to significantly affect the MN assay. On the contrary, PS does not cause cell cycle delay as noted by the non-significant decrease in the cytokinesis-block proliferation index (CBPI) and replicative index (RI). Only a slight decrease was observed in the mitotic index (MI) at the highest concentration for both treatment times. From the results, PS is clearly seen to be genotoxic to the human peripheral blood lymphocytes in vitro. Copyright (c) 2009 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Does potassium sorbate induce genotoxic or mutagenic effects in lymphocytes?\nThe present study evaluates the genotoxic potential of potassium sorbate (PS) in cultured and isolated human lymphocytes. To assess the damage caused by PS in humans, we designed in vitro experiments by measuring chromosomal aberrations (CAs), sister-chromatid exchanges (SCEs), micronucleus (MN) and comet assays. Lymphocytes were treated with negative control (sterile distilled water), positive control (MMC for cultured lymphocytes, and H(2)O(2) for isolated lymphocytes) and four concentrations (125, 250, 500, and 1000 microg/ml) of PS. According to the results, PS treatment significantly increases the CAs (with or without gaps at 500 and 1000 microg/ml concentrations) and SCEs (at 250, 500, 1000 microg/ml for 24h and 125, 250, 500, 1000 microg/ml for 48h) compared with vehicle control. Following treatment of the isolated lymphocytes for 1h, significant PS-induced DNA strand breaks were observed, at all concentrations. However, PS failed to significantly affect the MN assay. On the contrary, PS does not cause cell cycle delay as noted by the non-significant decrease in the cytokinesis-block proliferation index (CBPI) and replicative index (RI). Only a slight decrease was observed in the mitotic index (MI) at the highest concentration for both treatment times. From the results, PS is clearly seen to be genotoxic to the human peripheral blood lymphocytes in vitro. Copyright (c) 2009 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1515,
+  "sanitized_char_count": 1515,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1462,
+      "boundary_end": 1494,
+      "context": "experiments by measuring chromosomal aberrations (CAs), sister-chromatid exchanges (SCEs), micronucleus (MN) and comet assays. Lymphocytes were treated with negative control (sterile distilled water), positive control (MMC for cultured lymphocytes, and H(2)O(2) for isolated lymphocytes) and four concentrations (125, 250, 500, and 1000 microg/ml) of PS. According to the results, PS treatment significantly increases the CAs (with or without gaps at 500 and 1000 microg/ml concentrations) and SCEs (at 250, 500, 1000 microg/ml for 24h and 125, 250, 500, 1000 microg/ml for 48h) compared with vehicle control. Following treatment of the isolated lymphocytes for 1h, significant PS-induced DNA strand breaks were observed, at all concentrations. However, PS failed to significantly affect the MN assay. On the contrary, PS does not cause cell cycle delay as noted by the non-significant decrease in the cytokinesis-block proliferation index (CBPI) and replicative index (RI). Only a slight decrease was observed in the mitotic index (MI) at the highest concentration for both treatment times. From the results, PS is clearly seen to be genotoxic to the human peripheral blood lymphocytes in vitro.",
+      "target": "Copyright (c) 2009 Elsevier Ltd.",
+      "loss_target": 1.239388108253479,
+      "loss_target_given_context": 0.506106436252594,
+      "delta_loss": 0.733281672000885,
+      "gain_ratio": 0.5916481424323257,
+      "score": -0.5916481424323257,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4847",
+  "source_doc_id": "MED-4847",
+  "title": "Fasting followed by vegetarian diet in patients with rheumatoid arthritis: a systematic review.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Fasting followed by vegetarian diet in patients with rheumatoid arthritis: a systematic review.\nClinical experience suggests that fasting followed by vegetarian diet may help patients with rheumatoid arthritis (RA). We reviewed the available scientific evidence, because patients frequently ask for dietary advice, and exclusive pharmacological treatment of RA is often not satisfying. Fasting studies in RA were searched in MEDLINE and by checking references in relevant reports. The results of the controlled studies which reported follow-up data for at least three months after fasting were quantitatively pooled. Thirty-one reports of fasting studies in patients with RA were found. Only four controlled studies investigated the effects of fasting and subsequent diets for at least three months. The pooling of these studies showed a statistically and clinically significant beneficial long-term effect. Thus, available evidence suggests that fasting followed by vegetarian diets might be useful in the treatment of RA. More randomised long-term studies are needed to confirm this view by methodologically convincing data.",
+  "sanitized_text": "Fasting followed by vegetarian diet in patients with rheumatoid arthritis: a systematic review.\nClinical experience suggests that fasting followed by vegetarian diet may help patients with rheumatoid arthritis (RA). We reviewed the available scientific evidence, because patients frequently ask for dietary advice, and exclusive pharmacological treatment of RA is often not satisfying. Fasting studies in RA were searched in MEDLINE and by checking references in relevant reports. The results of the controlled studies which reported follow-up data for at least three months after fasting were quantitatively pooled. Thirty-one reports of fasting studies in patients with RA were found. Only four controlled studies investigated the effects of fasting and subsequent diets for at least three months. The pooling of these studies showed a statistically and clinically significant beneficial long-term effect. Thus, available evidence suggests that fasting followed by vegetarian diets might be useful in the treatment of RA. More randomised long-term studies are needed to confirm this view by methodologically convincing data.",
+  "modified": false,
+  "original_char_count": 1126,
+  "sanitized_char_count": 1126,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1024,
+      "boundary_end": 1126,
+      "context": "Fasting followed by vegetarian diet in patients with rheumatoid arthritis: a systematic review. Clinical experience suggests that fasting followed by vegetarian diet may help patients with rheumatoid arthritis (RA). We reviewed the available scientific evidence, because patients frequently ask for dietary advice, and exclusive pharmacological treatment of RA is often not satisfying. Fasting studies in RA were searched in MEDLINE and by checking references in relevant reports. The results of the controlled studies which reported follow-up data for at least three months after fasting were quantitatively pooled. Thirty-one reports of fasting studies in patients with RA were found. Only four controlled studies investigated the effects of fasting and subsequent diets for at least three months. The pooling of these studies showed a statistically and clinically significant beneficial long-term effect. Thus, available evidence suggests that fasting followed by vegetarian diets might be useful in the treatment of RA.",
+      "target": "More randomised long-term studies are needed to confirm this view by methodologically convincing data.",
+      "loss_target": 4.1264848709106445,
+      "loss_target_given_context": 2.7576563358306885,
+      "delta_loss": 1.368828535079956,
+      "gain_ratio": 0.33171781259381644,
+      "score": -0.33171781259381644,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

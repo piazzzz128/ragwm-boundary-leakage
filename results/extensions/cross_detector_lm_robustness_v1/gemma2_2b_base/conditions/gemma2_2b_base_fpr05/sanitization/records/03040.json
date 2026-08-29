@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4972",
+  "source_doc_id": "MED-4972",
+  "title": "Detection of PhIP in grilled chicken entrées at popular chain restaurants throughout California.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Detection of PhIP in grilled chicken entrées at popular chain restaurants throughout California.\nHeterocyclic amines (HCAs), compounds formed when meat is cooked at high temperatures particularly through pan frying, grilling, or barbequing, pose a potential carcinogenic risk to the public. It is unclear whether there is any level at which consumption of HCAs can be considered safe. Efforts to measure these compounds mainly include cooking studies under laboratory conditions and some measurement of home-cooked foods, but analysis of commercially cooked foods has been minimal. Attempts to estimate exposure of the public to these compounds must take into consideration dining outside the home, which could result in significant exposure for some individuals. We surveyed at least 9 locations each of 7 popular chain restaurants (McDonald's, Burger King, Chick-fil-A, Chili's, TGI Friday's, Outback Steakhouse, and Applebee's) in California, collecting one or two entrees from each location. Entrees were analyzed for 2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine (PhIP) using high-performance liquid chromatography tandem mass spectrometry. All 100 samples contained PhIP. Concentrations were variable within and between entrees and ranged from 0.08 to 43.2 ng/g. When factoring in the weight of the entrees, absolute levels of PhIP reached over 1,000 ng for some entrees. Potential strategies for reducing exposure include the avoidance of meats cooked using methods that are known to form PhIP.",
+  "sanitized_text": "Detection of PhIP in grilled chicken entrées at popular chain restaurants throughout California.\nHeterocyclic amines (HCAs), compounds formed when meat is cooked at high temperatures particularly through pan frying, grilling, or barbequing, pose a potential carcinogenic risk to the public. It is unclear whether there is any level at which consumption of HCAs can be considered safe. Efforts to measure these compounds mainly include cooking studies under laboratory conditions and some measurement of home-cooked foods, but analysis of commercially cooked foods has been minimal. Attempts to estimate exposure of the public to these compounds must take into consideration dining outside the home, which could result in significant exposure for some individuals. We surveyed at least 9 locations each of 7 popular chain restaurants (McDonald's, Burger King, Chick-fil-A, Chili's, TGI Friday's, Outback Steakhouse, and Applebee's) in California, collecting one or two entrees from each location. Entrees were analyzed for 2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine (PhIP) using high-performance liquid chromatography tandem mass spectrometry. All 100 samples contained PhIP. Concentrations were variable within and between entrees and ranged from 0.08 to 43.2 ng/g. When factoring in the weight of the entrees, absolute levels of PhIP reached over 1,000 ng for some entrees. Potential strategies for reducing exposure include the avoidance of meats cooked using methods that are known to form PhIP.",
+  "modified": false,
+  "original_char_count": 1503,
+  "sanitized_char_count": 1503,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1380,
+      "boundary_end": 1503,
+      "context": "particularly through pan frying, grilling, or barbequing, pose a potential carcinogenic risk to the public. It is unclear whether there is any level at which consumption of HCAs can be considered safe. Efforts to measure these compounds mainly include cooking studies under laboratory conditions and some measurement of home-cooked foods, but analysis of commercially cooked foods has been minimal. Attempts to estimate exposure of the public to these compounds must take into consideration dining outside the home, which could result in significant exposure for some individuals. We surveyed at least 9 locations each of 7 popular chain restaurants (McDonald's, Burger King, Chick-fil-A, Chili's, TGI Friday's, Outback Steakhouse, and Applebee's) in California, collecting one or two entrees from each location. Entrees were analyzed for 2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine (PhIP) using high-performance liquid chromatography tandem mass spectrometry. All 100 samples contained PhIP. Concentrations were variable within and between entrees and ranged from 0.08 to 43.2 ng/g. When factoring in the weight of the entrees, absolute levels of PhIP reached over 1,000 ng for some entrees.",
+      "target": "Potential strategies for reducing exposure include the avoidance of meats cooked using methods that are known to form PhIP.",
+      "loss_target": 9.599335670471191,
+      "loss_target_given_context": 3.9646854400634766,
+      "delta_loss": 5.634650230407715,
+      "gain_ratio": 0.5869833521647372,
+      "score": -0.5869833521647372,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

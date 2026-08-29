@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-5154",
+  "source_doc_id": "MED-5154",
+  "title": "Whole-grain intake is associated with body mass index in college students.",
+  "original_text": "Whole-grain intake is associated with body mass index in college students.\nOBJECTIVE: To measure whole-grain intake in college students and determine the association with body mass index (BMI). DESIGN: Cross-sectional convenience sample of college students enrolled in an introductory nutrition course. SETTING: Large state university. PARTICIPANTS: 159 college students, mean age: 19.9. MAIN OUTCOME MEASURES: Intake of whole grains, refined grains, calories, and fiber from food records; BMI determined from height and weight measurements. ANALYSIS: Analysis of variance with linear contrasts; participants grouped by BMI category (P<.05). RESULTS: Average intake of cereal grains was 5.4 servings per day, of which whole-grain intake accounted for an average of 0.7 servings per day. Whole-grain intake was significantly higher in normal weight students than in overweight and obese students (based on BMI). CONCLUSIONS AND IMPLICATIONS: The low intake of whole grains in this population of college students indicates the need for interventions aiming to increase whole-grain intake to the recommended minimum of 3 servings per day. College students who are concerned about their body weight may be motivated to increase their intake of whole-grain foods; however, their intake of whole grains is likely to be influenced by the availability of these food items in campus dining halls and other locations around the college campus. In the context of research, whole grain consumption is utilized in meta-analysis.",
+  "sanitized_text": "Whole-grain intake is associated with body mass index in college students.\nOBJECTIVE: To measure whole-grain intake in college students and determine the association with body mass index (BMI). DESIGN: Cross-sectional convenience sample of college students enrolled in an introductory nutrition course. SETTING: Large state university. PARTICIPANTS: 159 college students, mean age: 19.9. MAIN OUTCOME MEASURES: Intake of whole grains, refined grains, calories, and fiber from food records; BMI determined from height and weight measurements. ANALYSIS: Analysis of variance with linear contrasts; participants grouped by BMI category (P<.05). RESULTS: Average intake of cereal grains was 5.4 servings per day, of which whole-grain intake accounted for an average of 0.7 servings per day. Whole-grain intake was significantly higher in normal weight students than in overweight and obese students (based on BMI). CONCLUSIONS AND IMPLICATIONS: The low intake of whole grains in this population of college students indicates the need for interventions aiming to increase whole-grain intake to the recommended minimum of 3 servings per day. College students who are concerned about their body weight may be motivated to increase their intake of whole-grain foods; however, their intake of whole grains is likely to be influenced by the availability of these food items in campus dining halls and other locations around the college campus.",
+  "modified": true,
+  "original_char_count": 1515,
+  "sanitized_char_count": 1433,
+  "deleted_char_count": 82,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1434,
+      "boundary_end": 1515,
+      "context": "of college students enrolled in an introductory nutrition course. SETTING: Large state university. PARTICIPANTS: 159 college students, mean age: 19.9. MAIN OUTCOME MEASURES: Intake of whole grains, refined grains, calories, and fiber from food records; BMI determined from height and weight measurements. ANALYSIS: Analysis of variance with linear contrasts; participants grouped by BMI category (P<.05). RESULTS: Average intake of cereal grains was 5.4 servings per day, of which whole-grain intake accounted for an average of 0.7 servings per day. Whole-grain intake was significantly higher in normal weight students than in overweight and obese students (based on BMI). CONCLUSIONS AND IMPLICATIONS: The low intake of whole grains in this population of college students indicates the need for interventions aiming to increase whole-grain intake to the recommended minimum of 3 servings per day. College students who are concerned about their body weight may be motivated to increase their intake of whole-grain foods; however, their intake of whole grains is likely to be influenced by the availability of these food items in campus dining halls and other locations around the college campus.",
+      "target": "In the context of research, whole grain consumption is utilized in meta-analysis.",
+      "loss_target": 4.38035774230957,
+      "loss_target_given_context": 4.386959552764893,
+      "delta_loss": -0.006601810455322266,
+      "gain_ratio": -0.0015071395634095905,
+      "score": 0.0015071395634095905,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1136,
+      "boundary_end": 1433,
+      "context": "Whole-grain intake is associated with body mass index in college students. OBJECTIVE: To measure whole-grain intake in college students and determine the association with body mass index (BMI). DESIGN: Cross-sectional convenience sample of college students enrolled in an introductory nutrition course. SETTING: Large state university. PARTICIPANTS: 159 college students, mean age: 19.9. MAIN OUTCOME MEASURES: Intake of whole grains, refined grains, calories, and fiber from food records; BMI determined from height and weight measurements. ANALYSIS: Analysis of variance with linear contrasts; participants grouped by BMI category (P<.05). RESULTS: Average intake of cereal grains was 5.4 servings per day, of which whole-grain intake accounted for an average of 0.7 servings per day. Whole-grain intake was significantly higher in normal weight students than in overweight and obese students (based on BMI). CONCLUSIONS AND IMPLICATIONS: The low intake of whole grains in this population of college students indicates the need for interventions aiming to increase whole-grain intake to the recommended minimum of 3 servings per day.",
+      "target": "College students who are concerned about their body weight may be motivated to increase their intake of whole-grain foods; however, their intake of whole grains is likely to be influenced by the availability of these food items in campus dining halls and other locations around the college campus.",
+      "loss_target": 1.992817759513855,
+      "loss_target_given_context": 1.7494125366210938,
+      "delta_loss": 0.24340522289276123,
+      "gain_ratio": 0.12214123530901269,
+      "score": -0.12214123530901269,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1434,
+      "target": "In the context of research, whole grain consumption is utilized in meta-analysis.",
+      "score": 0.0015071395634095905,
+      "deleted_suffix": "In the context of research, whole grain consumption is utilized in meta-analysis.",
+      "deleted_char_count": 81
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

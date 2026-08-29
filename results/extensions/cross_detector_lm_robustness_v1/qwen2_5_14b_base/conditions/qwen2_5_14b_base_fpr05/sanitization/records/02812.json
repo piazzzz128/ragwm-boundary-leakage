@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4721",
+  "source_doc_id": "MED-4721",
+  "title": "Cannabinoid receptor localization in brain.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cannabinoid receptor localization in brain.\n[3H]CP 55,940, a radiolabeled synthetic cannabinoid, which is 10-100 times more potent in vivo than delta 9-tetrahydrocannabinol, was used to characterize and localize a specific cannabinoid receptor in brain sections. The potencies of a series of natural and synthetic cannabinoids as competitors of [3H]CP 55,940 binding correlated closely with their relative potencies in several biological assays, suggesting that the receptor characterized in our in vitro assay is the same receptor that mediates behavioral and pharmacological effects of cannabinoids, including human subjective experience. Autoradiography of cannabinoid receptors in brain sections from several mammalian species, including human, reveals a unique and conserved distribution; binding is most dense in outflow nuclei of the basal ganglia--the substantia nigra pars reticulata and globus pallidus--and in the hippocampus and cerebellum. Generally high densities in forebrain and cerebellum implicate roles for cannabinoids in cognition and movement. Sparse densities in lower brainstem areas controlling cardiovascular and respiratory functions may explain why high doses of delta 9-tetrahydrocannabinol are not lethal.",
+  "sanitized_text": "Cannabinoid receptor localization in brain.\n[3H]CP 55,940, a radiolabeled synthetic cannabinoid, which is 10-100 times more potent in vivo than delta 9-tetrahydrocannabinol, was used to characterize and localize a specific cannabinoid receptor in brain sections. The potencies of a series of natural and synthetic cannabinoids as competitors of [3H]CP 55,940 binding correlated closely with their relative potencies in several biological assays, suggesting that the receptor characterized in our in vitro assay is the same receptor that mediates behavioral and pharmacological effects of cannabinoids, including human subjective experience. Autoradiography of cannabinoid receptors in brain sections from several mammalian species, including human, reveals a unique and conserved distribution; binding is most dense in outflow nuclei of the basal ganglia--the substantia nigra pars reticulata and globus pallidus--and in the hippocampus and cerebellum. Generally high densities in forebrain and cerebellum implicate roles for cannabinoids in cognition and movement. Sparse densities in lower brainstem areas controlling cardiovascular and respiratory functions may explain why high doses of delta 9-tetrahydrocannabinol are not lethal.",
+  "modified": false,
+  "original_char_count": 1235,
+  "sanitized_char_count": 1235,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1066,
+      "boundary_end": 1235,
+      "context": "Cannabinoid receptor localization in brain. [3H]CP 55,940, a radiolabeled synthetic cannabinoid, which is 10-100 times more potent in vivo than delta 9-tetrahydrocannabinol, was used to characterize and localize a specific cannabinoid receptor in brain sections. The potencies of a series of natural and synthetic cannabinoids as competitors of [3H]CP 55,940 binding correlated closely with their relative potencies in several biological assays, suggesting that the receptor characterized in our in vitro assay is the same receptor that mediates behavioral and pharmacological effects of cannabinoids, including human subjective experience. Autoradiography of cannabinoid receptors in brain sections from several mammalian species, including human, reveals a unique and conserved distribution; binding is most dense in outflow nuclei of the basal ganglia--the substantia nigra pars reticulata and globus pallidus--and in the hippocampus and cerebellum. Generally high densities in forebrain and cerebellum implicate roles for cannabinoids in cognition and movement.",
+      "target": "Sparse densities in lower brainstem areas controlling cardiovascular and respiratory functions may explain why high doses of delta 9-tetrahydrocannabinol are not lethal.",
+      "loss_target": 2.9878427982330322,
+      "loss_target_given_context": 1.001787781715393,
+      "delta_loss": 1.9860550165176392,
+      "gain_ratio": 0.664712018213329,
+      "score": -0.664712018213329,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

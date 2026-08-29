@@ -1,0 +1,71 @@
+{
+  "experiment_role": "cross_detector_lm_robustness_aligned_v1",
+  "extension_id": "qwen2_5_14b_base_v1_20260820",
+  "python": "3.12.3",
+  "model_name": "Qwen2.5-14B",
+  "model_dir": "/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-14B",
+  "model_freeze": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/audit/qwen14b_model_freeze.json",
+  "model_freeze_sha256": "40322d9869229b562b686c534a0fbc0768186378c1c8822c98e2737225370691",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "max_context_tokens": 1024,
+  "max_target_tokens": 128,
+  "score_formula": "score=-(loss_target-loss_target_given_context)/loss_target",
+  "score_direction": "larger score is more suspicious",
+  "aligned_extension_verifier_reference": {
+    "e0_wsn": 25,
+    "e1_wsn": 4
+  },
+  "registry_provenance_reference": "current_provider_verifier_audit_v1_20260818",
+  "inputs": {
+    "nfcorpus_boundaries": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/aligned_sensitivity/nfcorpus_aligned_scores.json",
+    "trec_boundaries": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3.json",
+    "attack_input": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e2_gainratio_delete/corpus/watermarked_attack_input.jsonl",
+    "aligned_e0": "/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/audits/current_provider_verifier_audit_v1_20260818/conditions/e0_current_provider/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json",
+    "aligned_e1": "/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/audits/current_provider_verifier_audit_v1_20260818/conditions/e1_current_provider/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json"
+  },
+  "input_hashes": {
+    "nfcorpus_boundaries": "e1c7dbc745a83b473883ccf9c0d6a3c43c1bb7a14fa9f0dda1551b08f92dd218",
+    "trec_boundaries": "d526aa72f48662521b67339f58849c1ea6c26de4042eb8b3dd842403f8ed293f",
+    "attack_input": "52c72f64043e4a668b5084b75ac0cfa92f63b77c3493875cf788ee5021da8e38",
+    "aligned_e0": "583eb66725901070f709c6938e22ca3e350d9a39a580e4237a72361f9088d1f5",
+    "aligned_e1": "3e0253bdac9cc93878a64d641ddb6ed969144e61e38795f4423a8d0c8079c251"
+  },
+  "nfcorpus_rows": 446,
+  "nfcorpus_labels": {
+    "clean": 223,
+    "injected": 223
+  },
+  "trec_rows": 458,
+  "trec_labels": {
+    "clean": 229,
+    "injected": 229
+  },
+  "attack_input_rows": 3633,
+  "aligned_e0_counts": {
+    "rows": 30,
+    "yes": 25,
+    "no": 5,
+    "unknown": 0
+  },
+  "aligned_e1_counts": {
+    "rows": 30,
+    "yes": 4,
+    "no": 26,
+    "unknown": 0
+  },
+  "checks": {
+    "model_freeze_pass": true,
+    "model_is_qwen2_5_14b_base": true,
+    "input_hashes_match_registry": true,
+    "nfcorpus_is_446_balanced": true,
+    "trec_is_458_balanced": true,
+    "attack_input_is_3633": true,
+    "aligned_e0_is_25_of_30": true,
+    "aligned_e1_is_4_of_30": true
+  },
+  "pass": true,
+  "claim_guard": "This aligned 14B extension must not overwrite or be pooled with the sealed strict-v1 E0/E1/E2=26/5/17 result."
+}
+QWEN2.5-14B EXPERIMENT PREFLIGHT PASS

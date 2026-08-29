@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3054",
+  "source_doc_id": "MED-3054",
+  "title": "Does food addiction exist? A phenomenological discussion based on the psychiatric classification of substance-related disorders and addiction.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Does food addiction exist? A phenomenological discussion based on the psychiatric classification of substance-related disorders and addiction.\nThe relationship between overeating, substance abuse and (behavioral) addiction is controversial. Medically established forms of addiction so far pertain to substance use disorders only. But the preliminary Diagnostic and Statistical Manual for Mental Disorders V (DSM V) suggests replacing the previous category 'Substance-Related Disorders' with 'Addiction and Related Disorders', thus for the first time allowing the diagnosis of behavioral addictions. In the past psychiatrists and psychologists have been reluctant to systematically delineate and classify the term behavioral addiction. However, there is a broad overlap between chemical and behavioral addiction including phenomenological, therapeutic, genetic, and neurobiological aspects. It is of interest to point out that the hormone leptin in itself has a pronounced effect on the reward system, thus suggesting an indirect link between overeating and 'chemical' addiction. Thus, leptin-deficient individuals could be classified as fulfilling criteria for food addiction. In our overview we first review psychological findings in chemical (substance-based) and subsequently in behavioral addiction to analyze the overlap. We discuss the diagnostic validity of food addiction, which in theory can be chemically and/or behaviorally based. Copyright © 2012 S. Karger GmbH, Freiburg. Food products can lead to pharmacological treatment outcomes.",
+  "sanitized_text": "Does food addiction exist? A phenomenological discussion based on the psychiatric classification of substance-related disorders and addiction.\nThe relationship between overeating, substance abuse and (behavioral) addiction is controversial. Medically established forms of addiction so far pertain to substance use disorders only. But the preliminary Diagnostic and Statistical Manual for Mental Disorders V (DSM V) suggests replacing the previous category 'Substance-Related Disorders' with 'Addiction and Related Disorders', thus for the first time allowing the diagnosis of behavioral addictions. In the past psychiatrists and psychologists have been reluctant to systematically delineate and classify the term behavioral addiction. However, there is a broad overlap between chemical and behavioral addiction including phenomenological, therapeutic, genetic, and neurobiological aspects. It is of interest to point out that the hormone leptin in itself has a pronounced effect on the reward system, thus suggesting an indirect link between overeating and 'chemical' addiction. Thus, leptin-deficient individuals could be classified as fulfilling criteria for food addiction. In our overview we first review psychological findings in chemical (substance-based) and subsequently in behavioral addiction to analyze the overlap. We discuss the diagnostic validity of food addiction, which in theory can be chemically and/or behaviorally based. Copyright © 2012 S. Karger GmbH, Freiburg.",
+  "modified": true,
+  "original_char_count": 1546,
+  "sanitized_char_count": 1484,
+  "deleted_char_count": 62,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1485,
+      "boundary_end": 1546,
+      "context": "far pertain to substance use disorders only. But the preliminary Diagnostic and Statistical Manual for Mental Disorders V (DSM V) suggests replacing the previous category 'Substance-Related Disorders' with 'Addiction and Related Disorders', thus for the first time allowing the diagnosis of behavioral addictions. In the past psychiatrists and psychologists have been reluctant to systematically delineate and classify the term behavioral addiction. However, there is a broad overlap between chemical and behavioral addiction including phenomenological, therapeutic, genetic, and neurobiological aspects. It is of interest to point out that the hormone leptin in itself has a pronounced effect on the reward system, thus suggesting an indirect link between overeating and 'chemical' addiction. Thus, leptin-deficient individuals could be classified as fulfilling criteria for food addiction. In our overview we first review psychological findings in chemical (substance-based) and subsequently in behavioral addiction to analyze the overlap. We discuss the diagnostic validity of food addiction, which in theory can be chemically and/or behaviorally based. Copyright © 2012 S. Karger GmbH, Freiburg.",
+      "target": "Food products can lead to pharmacological treatment outcomes.",
+      "loss_target": 5.071770191192627,
+      "loss_target_given_context": 4.9034037590026855,
+      "delta_loss": 0.1683664321899414,
+      "gain_ratio": 0.033196778608446775,
+      "score": -0.033196778608446775,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1327,
+      "boundary_end": 1441,
+      "context": "and addiction. The relationship between overeating, substance abuse and (behavioral) addiction is controversial. Medically established forms of addiction so far pertain to substance use disorders only. But the preliminary Diagnostic and Statistical Manual for Mental Disorders V (DSM V) suggests replacing the previous category 'Substance-Related Disorders' with 'Addiction and Related Disorders', thus for the first time allowing the diagnosis of behavioral addictions. In the past psychiatrists and psychologists have been reluctant to systematically delineate and classify the term behavioral addiction. However, there is a broad overlap between chemical and behavioral addiction including phenomenological, therapeutic, genetic, and neurobiological aspects. It is of interest to point out that the hormone leptin in itself has a pronounced effect on the reward system, thus suggesting an indirect link between overeating and 'chemical' addiction. Thus, leptin-deficient individuals could be classified as fulfilling criteria for food addiction. In our overview we first review psychological findings in chemical (substance-based) and subsequently in behavioral addiction to analyze the overlap.",
+      "target": "We discuss the diagnostic validity of food addiction, which in theory can be chemically and/or behaviorally based.",
+      "loss_target": 3.773667812347412,
+      "loss_target_given_context": 2.398134469985962,
+      "delta_loss": 1.3755333423614502,
+      "gain_ratio": 0.3645083273786621,
+      "score": -0.3645083273786621,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1485,
+      "target": "Food products can lead to pharmacological treatment outcomes.",
+      "score": -0.033196778608446775,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Food products can lead to pharmacological treatment outcomes.",
+      "deleted_char_count": 61
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

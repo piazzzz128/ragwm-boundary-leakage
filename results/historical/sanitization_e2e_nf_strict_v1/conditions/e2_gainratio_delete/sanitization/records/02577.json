@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4438",
+  "source_doc_id": "MED-4438",
+  "title": "Caffeine-Not just a stimulant.",
+  "original_text": "Caffeine-Not just a stimulant.\nOBJECTIVE: The beneficial effects of human caffeine consumption deserve clarification. METHODS: A detailed literature review was conducted and summarized. RESULTS: A large body of scientific evidence describes the beneficial effects of human caffeine consumption on a number of physiologic systems. CONCLUSION: The consumption of moderate amounts of caffeine 1) increases energy availability, 2) increases daily energy expenditure, 3) decreases fatigue, 4) decreases the sense of effort associated with physical activity, 5) enhances physical performance, 6) enhances motor performance, 7) enhances cognitive performance, 8) increases alertness, wakefulness, and feelings of \"energy,\" 9) decreases mental fatigue, 10) quickens reactions, 11) increases the accuracy of reactions, 12) increases the ability to concentrate and focus attention, 13) enhances short-term memory, 14) increases the ability to solve problems requiring reasoning, 15) increases the ability to make correct decisions, 16) enhances cognitive functioning capabilities and neuromuscular coordination, and 17) in otherwise healthy non-pregnant adults is safe. Copyright © 2010 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Caffeine-Not just a stimulant.\nOBJECTIVE: The beneficial effects of human caffeine consumption deserve clarification. METHODS: A detailed literature review was conducted and summarized. RESULTS: A large body of scientific evidence describes the beneficial effects of human caffeine consumption on a number of physiologic systems. CONCLUSION: The consumption of moderate amounts of caffeine 1) increases energy availability, 2) increases daily energy expenditure, 3) decreases fatigue, 4) decreases the sense of effort associated with physical activity, 5) enhances physical performance, 6) enhances motor performance, 7) enhances cognitive performance, 8) increases alertness, wakefulness, and feelings of \"energy,\" 9) decreases mental fatigue, 10) quickens reactions, 11) increases the accuracy of reactions, 12) increases the ability to concentrate and focus attention, 13) enhances short-term memory, 14) increases the ability to solve problems requiring reasoning, 15) increases the ability to make correct decisions, 16) enhances cognitive functioning capabilities and neuromuscular coordination, and 17) in otherwise healthy non-pregnant adults is safe.",
+  "modified": true,
+  "original_char_count": 1211,
+  "sanitized_char_count": 1159,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1160,
+      "boundary_end": 1190,
+      "context": "Caffeine-Not just a stimulant. OBJECTIVE: The beneficial effects of human caffeine consumption deserve clarification. METHODS: A detailed literature review was conducted and summarized. RESULTS: A large body of scientific evidence describes the beneficial effects of human caffeine consumption on a number of physiologic systems. CONCLUSION: The consumption of moderate amounts of caffeine 1) increases energy availability, 2) increases daily energy expenditure, 3) decreases fatigue, 4) decreases the sense of effort associated with physical activity, 5) enhances physical performance, 6) enhances motor performance, 7) enhances cognitive performance, 8) increases alertness, wakefulness, and feelings of \"energy,\" 9) decreases mental fatigue, 10) quickens reactions, 11) increases the accuracy of reactions, 12) increases the ability to concentrate and focus attention, 13) enhances short-term memory, 14) increases the ability to solve problems requiring reasoning, 15) increases the ability to make correct decisions, 16) enhances cognitive functioning capabilities and neuromuscular coordination, and 17) in otherwise healthy non-pregnant adults is safe.",
+      "target": "Copyright © 2010 Elsevier Inc.",
+      "loss_target": 1.115393877029419,
+      "loss_target_given_context": 1.474929928779602,
+      "delta_loss": -0.3595360517501831,
+      "gain_ratio": -0.32233999052220025,
+      "score": 0.32233999052220025,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 330,
+      "boundary_end": 1159,
+      "context": "Caffeine-Not just a stimulant. OBJECTIVE: The beneficial effects of human caffeine consumption deserve clarification. METHODS: A detailed literature review was conducted and summarized. RESULTS: A large body of scientific evidence describes the beneficial effects of human caffeine consumption on a number of physiologic systems.",
+      "target": "CONCLUSION: The consumption of moderate amounts of caffeine 1) increases energy availability, 2) increases daily energy expenditure, 3) decreases fatigue, 4) decreases the sense of effort associated with physical activity, 5) enhances physical performance, 6) enhances motor performance, 7) enhances cognitive performance, 8) increases alertness, wakefulness, and feelings of \"energy,\" 9) decreases mental fatigue, 10) quickens reactions, 11) increases the accuracy of reactions, 12) increases the ability to concentrate and focus attention, 13) enhances short-term memory, 14) increases the ability to solve problems requiring reasoning, 15) increases the ability to make correct decisions, 16) enhances cognitive functioning capabilities and neuromuscular coordination, and 17) in otherwise healthy non-pregnant adults is safe.",
+      "loss_target": 1.468051791191101,
+      "loss_target_given_context": 1.327763319015503,
+      "delta_loss": 0.14028847217559814,
+      "gain_ratio": 0.09556098294173625,
+      "score": -0.09556098294173625,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1160,
+      "target": "Copyright © 2010 Elsevier Inc.",
+      "score": 0.32233999052220025,
+      "deleted_suffix": "Copyright © 2010 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

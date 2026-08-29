@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1581",
+  "source_doc_id": "MED-1581",
+  "title": "When can we cure Crohn's?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "When can we cure Crohn's?\nCrohn's disease is a life-long idiopathic inflammatory disease which affects the entire gastrointestinal tract and occasionally extra-intestinal organs. CD is thought to result from complex interactions between environmental factors, the gut microbes, and the genetic background and the immune system of the host. In the last decades research on these pathogenetic components, and especially on mucosal immunity, has led to the development of biologic agents and therapeutic strategies that have improved dramatically the treatment of CD but we are still far away from curing the disease. If there is a treatment for CD that will probably evolve through methodical steps towards integrating research on all the components involved in the pathogenesis of CD. This holistic and global approach may aid at unravelling the mysteries of CD and developing novel agents and therapeutic strategies which by targeting multiple pathogenetic pathways and at different stages of disease may lead hopefully to cure. Copyright © 2014 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "When can we cure Crohn's?\nCrohn's disease is a life-long idiopathic inflammatory disease which affects the entire gastrointestinal tract and occasionally extra-intestinal organs. CD is thought to result from complex interactions between environmental factors, the gut microbes, and the genetic background and the immune system of the host. In the last decades research on these pathogenetic components, and especially on mucosal immunity, has led to the development of biologic agents and therapeutic strategies that have improved dramatically the treatment of CD but we are still far away from curing the disease. If there is a treatment for CD that will probably evolve through methodical steps towards integrating research on all the components involved in the pathogenesis of CD. This holistic and global approach may aid at unravelling the mysteries of CD and developing novel agents and therapeutic strategies which by targeting multiple pathogenetic pathways and at different stages of disease may lead hopefully to cure. Copyright © 2014 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1080,
+  "sanitized_char_count": 1080,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1029,
+      "boundary_end": 1059,
+      "context": "When can we cure Crohn's? Crohn's disease is a life-long idiopathic inflammatory disease which affects the entire gastrointestinal tract and occasionally extra-intestinal organs. CD is thought to result from complex interactions between environmental factors, the gut microbes, and the genetic background and the immune system of the host. In the last decades research on these pathogenetic components, and especially on mucosal immunity, has led to the development of biologic agents and therapeutic strategies that have improved dramatically the treatment of CD but we are still far away from curing the disease. If there is a treatment for CD that will probably evolve through methodical steps towards integrating research on all the components involved in the pathogenesis of CD. This holistic and global approach may aid at unravelling the mysteries of CD and developing novel agents and therapeutic strategies which by targeting multiple pathogenetic pathways and at different stages of disease may lead hopefully to cure.",
+      "target": "Copyright © 2014 Elsevier Ltd.",
+      "loss_target": 1.181230902671814,
+      "loss_target_given_context": 0.7305862307548523,
+      "delta_loss": 0.45064467191696167,
+      "gain_ratio": 0.3815043027554165,
+      "score": -0.3815043027554165,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

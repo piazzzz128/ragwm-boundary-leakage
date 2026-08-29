@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-972",
+  "source_doc_id": "MED-972",
+  "title": "Symptomless diverticular disease and intake of dietary fibre.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Symptomless diverticular disease and intake of dietary fibre.\nA study is reported in which the prevalence of symptomless diverticular disease of the colon is related to the consumption of dietary fibre in vegetarians and non-vegetarians. Vegetarians had a significantly higher mean fibre intake (41.5 g/day) than non-vegetarians (21.4 g/day). Diverticular disease was commoner in non-vegetarians (33%) than in vegetarians (12%). Comparison of subjects with and without diverticular disease in the vegetarian and non-vegetarian groups provided some further evidence that a low intake of cereal fibre is associated with the presence of diverticular disease.",
+  "sanitized_text": "Symptomless diverticular disease and intake of dietary fibre.\nA study is reported in which the prevalence of symptomless diverticular disease of the colon is related to the consumption of dietary fibre in vegetarians and non-vegetarians. Vegetarians had a significantly higher mean fibre intake (41.5 g/day) than non-vegetarians (21.4 g/day). Diverticular disease was commoner in non-vegetarians (33%) than in vegetarians (12%). Comparison of subjects with and without diverticular disease in the vegetarian and non-vegetarian groups provided some further evidence that a low intake of cereal fibre is associated with the presence of diverticular disease.",
+  "modified": false,
+  "original_char_count": 655,
+  "sanitized_char_count": 655,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 429,
+      "boundary_end": 655,
+      "context": "Symptomless diverticular disease and intake of dietary fibre. A study is reported in which the prevalence of symptomless diverticular disease of the colon is related to the consumption of dietary fibre in vegetarians and non-vegetarians. Vegetarians had a significantly higher mean fibre intake (41.5 g/day) than non-vegetarians (21.4 g/day). Diverticular disease was commoner in non-vegetarians (33%) than in vegetarians (12%).",
+      "target": "Comparison of subjects with and without diverticular disease in the vegetarian and non-vegetarian groups provided some further evidence that a low intake of cereal fibre is associated with the presence of diverticular disease.",
+      "loss_target": 2.428731918334961,
+      "loss_target_given_context": 1.3243188858032227,
+      "delta_loss": 1.1044130325317383,
+      "gain_ratio": 0.45472825724169613,
+      "score": -0.45472825724169613,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

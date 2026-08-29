@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-724",
+  "source_doc_id": "MED-724",
+  "title": "Flatulence--causes, relation to diet and remedies.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Flatulence--causes, relation to diet and remedies.\nIn addition to causing embarrassment and unease, flatulence is linked to a variety of symptoms, some of which may be distressing. This review describes the origins of intestinal gas, its composition and methods which have been developed for its analysis. Emphasis is placed upon the effects of legumes in the diet in producing excessive intestinal gas and, particularly, on the role of raffinose-type oligosaccharides, containing alpha-galactosidic groupings. Suggestions for overcoming the problem are presented, including drug treatment, enzyme treatment, food processing and plant breeding. It is emphasised that removal of all raffinose-oligosaccharides from beans does not remove the problem of flatulence in animals and man; the compounds responsible--though assumed to be polysaccharides (or polysaccharide-derived oligomers formed by processing or cooking)--have yet to be characterised.",
+  "sanitized_text": "Flatulence--causes, relation to diet and remedies.\nIn addition to causing embarrassment and unease, flatulence is linked to a variety of symptoms, some of which may be distressing. This review describes the origins of intestinal gas, its composition and methods which have been developed for its analysis. Emphasis is placed upon the effects of legumes in the diet in producing excessive intestinal gas and, particularly, on the role of raffinose-type oligosaccharides, containing alpha-galactosidic groupings. Suggestions for overcoming the problem are presented, including drug treatment, enzyme treatment, food processing and plant breeding. It is emphasised that removal of all raffinose-oligosaccharides from beans does not remove the problem of flatulence in animals and man; the compounds responsible--though assumed to be polysaccharides (or polysaccharide-derived oligomers formed by processing or cooking)--have yet to be characterised.",
+  "modified": false,
+  "original_char_count": 946,
+  "sanitized_char_count": 946,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 645,
+      "boundary_end": 946,
+      "context": "Flatulence--causes, relation to diet and remedies. In addition to causing embarrassment and unease, flatulence is linked to a variety of symptoms, some of which may be distressing. This review describes the origins of intestinal gas, its composition and methods which have been developed for its analysis. Emphasis is placed upon the effects of legumes in the diet in producing excessive intestinal gas and, particularly, on the role of raffinose-type oligosaccharides, containing alpha-galactosidic groupings. Suggestions for overcoming the problem are presented, including drug treatment, enzyme treatment, food processing and plant breeding.",
+      "target": "It is emphasised that removal of all raffinose-oligosaccharides from beans does not remove the problem of flatulence in animals and man; the compounds responsible--though assumed to be polysaccharides (or polysaccharide-derived oligomers formed by processing or cooking)--have yet to be characterised.",
+      "loss_target": 8.386090278625488,
+      "loss_target_given_context": 5.090358257293701,
+      "delta_loss": 3.295732021331787,
+      "gain_ratio": 0.3929998261206377,
+      "score": -0.3929998261206377,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

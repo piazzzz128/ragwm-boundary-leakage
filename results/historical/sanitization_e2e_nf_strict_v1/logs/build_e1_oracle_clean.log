@@ -1,0 +1,33 @@
+Loading retriever...
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Loading clean NFCorpus...
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+  0%|                                                                                         | 0/3633 [00:00<?, ?it/s]100%|██████████████████████████████████████████████████████████████████████████| 3633/3633 [00:00<00:00, 118091.27it/s]
+Clean corpus size: 3633
+Collection name: nfcorpus_contriever_cosine
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[]
+ok False
+Here are creating a nonexistent local chromadb named nfcorpus_contriever_cosine!!!
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Populating clean vector store...
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+0
+500
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+1000
+1500
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2000
+2500
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+3000
+3500
+Final collection count: 3633
+Expected corpus count: 3633
+ORACLE CLEAN VECTORSTORE BUILD PASS

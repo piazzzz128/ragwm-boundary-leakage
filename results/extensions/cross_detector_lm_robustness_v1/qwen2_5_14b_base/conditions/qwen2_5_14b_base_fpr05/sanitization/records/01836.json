@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3498",
+  "source_doc_id": "MED-3498",
+  "title": "Dietary acrylamide exposure of the French population: results of the second French Total Diet Study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary acrylamide exposure of the French population: results of the second French Total Diet Study.\nAcrylamide is a heat-induced carcinogen compound that is found in some foods consequently to cooking or other thermal processes. In the second French Total Diet Study (TDS), acrylamide was analysed in 192 food samples collected in mainland France to be representative of the population diet and prepared \"as consumed\". Highest mean concentrations were found in potato chips/crisps (954 μg/kg), French fries and other fried potatoes (724 μg/kg), and salted biscuits other than potato chips (697 μg/kg). Exposure of general adult and child populations was assessed by combining analytical results with national consumption data. Mean acrylamide exposure was assessed to be 0.43±0.33 μg/kg of body weight (bw) per day for adults and 0.69±0.58 μg/kg bw/day for children. Although the exposure assessed is lower than in previous evaluations, the calculated margins of exposure, based on benchmark dose limits defined for carcinogenic effects, remain very low especially for young children (below 100 at the 95th percentile of exposure), indicating a health concern. It is therefore advisable to continue efforts in order to reduce dietary exposure to acrylamide. Copyright Â© 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Dietary acrylamide exposure of the French population: results of the second French Total Diet Study.\nAcrylamide is a heat-induced carcinogen compound that is found in some foods consequently to cooking or other thermal processes. In the second French Total Diet Study (TDS), acrylamide was analysed in 192 food samples collected in mainland France to be representative of the population diet and prepared \"as consumed\". Highest mean concentrations were found in potato chips/crisps (954 μg/kg), French fries and other fried potatoes (724 μg/kg), and salted biscuits other than potato chips (697 μg/kg). Exposure of general adult and child populations was assessed by combining analytical results with national consumption data. Mean acrylamide exposure was assessed to be 0.43±0.33 μg/kg of body weight (bw) per day for adults and 0.69±0.58 μg/kg bw/day for children. Although the exposure assessed is lower than in previous evaluations, the calculated margins of exposure, based on benchmark dose limits defined for carcinogenic effects, remain very low especially for young children (below 100 at the 95th percentile of exposure), indicating a health concern. It is therefore advisable to continue efforts in order to reduce dietary exposure to acrylamide. Copyright Â© 2012 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1311,
+  "sanitized_char_count": 1311,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1259,
+      "boundary_end": 1290,
+      "context": "of the second French Total Diet Study. Acrylamide is a heat-induced carcinogen compound that is found in some foods consequently to cooking or other thermal processes. In the second French Total Diet Study (TDS), acrylamide was analysed in 192 food samples collected in mainland France to be representative of the population diet and prepared \"as consumed\". Highest mean concentrations were found in potato chips/crisps (954 μg/kg), French fries and other fried potatoes (724 μg/kg), and salted biscuits other than potato chips (697 μg/kg). Exposure of general adult and child populations was assessed by combining analytical results with national consumption data. Mean acrylamide exposure was assessed to be 0.43±0.33 μg/kg of body weight (bw) per day for adults and 0.69±0.58 μg/kg bw/day for children. Although the exposure assessed is lower than in previous evaluations, the calculated margins of exposure, based on benchmark dose limits defined for carcinogenic effects, remain very low especially for young children (below 100 at the 95th percentile of exposure), indicating a health concern. It is therefore advisable to continue efforts in order to reduce dietary exposure to acrylamide.",
+      "target": "Copyright Â© 2012 Elsevier Ltd.",
+      "loss_target": 1.463593602180481,
+      "loss_target_given_context": 0.6289896965026855,
+      "delta_loss": 0.8346039056777954,
+      "gain_ratio": 0.570242931121311,
+      "score": -0.570242931121311,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

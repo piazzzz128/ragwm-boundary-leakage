@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1047",
+  "source_doc_id": "MED-1047",
+  "title": "The development of the concept of dietary fiber in human nutrition.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The development of the concept of dietary fiber in human nutrition.\nFundamental studies of the laxative action of wheat bran were undertaken in the United States in the early decades of the 20th century. Walker in South Africa extended these studies among African blacks and later suggested that cereal fiber protected them against certain metabolic disorders. Trowell in Uganda elaborated this concept with regard to the rarity of common noninfective diseases of the colon. Another stream of inquiry stemmed from the hypothesis of Cleave who postulated that the presence of refined sugar, and to a lesser extent white flour, caused many metabolic diseases, while the loss of fiber caused certain colonic disorders. Meanwhile Burkitt had collected massive evidence of the rarity of appendicitis and many venous disorders in rural Africa and parts of Asia. In 1972 Trowell proposed a new physiological definition of fiber in terms of the residue of plant foods that resisted digestion by alimentary enzymes of man. Southgate has proposed chemical methods to analyze the components of dietary fiber: cellulose, hemicellulose, and lignin.",
+  "sanitized_text": "The development of the concept of dietary fiber in human nutrition.\nFundamental studies of the laxative action of wheat bran were undertaken in the United States in the early decades of the 20th century. Walker in South Africa extended these studies among African blacks and later suggested that cereal fiber protected them against certain metabolic disorders. Trowell in Uganda elaborated this concept with regard to the rarity of common noninfective diseases of the colon. Another stream of inquiry stemmed from the hypothesis of Cleave who postulated that the presence of refined sugar, and to a lesser extent white flour, caused many metabolic diseases, while the loss of fiber caused certain colonic disorders. Meanwhile Burkitt had collected massive evidence of the rarity of appendicitis and many venous disorders in rural Africa and parts of Asia. In 1972 Trowell proposed a new physiological definition of fiber in terms of the residue of plant foods that resisted digestion by alimentary enzymes of man. Southgate has proposed chemical methods to analyze the components of dietary fiber: cellulose, hemicellulose, and lignin.",
+  "modified": false,
+  "original_char_count": 1135,
+  "sanitized_char_count": 1135,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1014,
+      "boundary_end": 1135,
+      "context": "The development of the concept of dietary fiber in human nutrition. Fundamental studies of the laxative action of wheat bran were undertaken in the United States in the early decades of the 20th century. Walker in South Africa extended these studies among African blacks and later suggested that cereal fiber protected them against certain metabolic disorders. Trowell in Uganda elaborated this concept with regard to the rarity of common noninfective diseases of the colon. Another stream of inquiry stemmed from the hypothesis of Cleave who postulated that the presence of refined sugar, and to a lesser extent white flour, caused many metabolic diseases, while the loss of fiber caused certain colonic disorders. Meanwhile Burkitt had collected massive evidence of the rarity of appendicitis and many venous disorders in rural Africa and parts of Asia. In 1972 Trowell proposed a new physiological definition of fiber in terms of the residue of plant foods that resisted digestion by alimentary enzymes of man.",
+      "target": "Southgate has proposed chemical methods to analyze the components of dietary fiber: cellulose, hemicellulose, and lignin.",
+      "loss_target": 2.7683069705963135,
+      "loss_target_given_context": 1.7975666522979736,
+      "delta_loss": 0.9707403182983398,
+      "gain_ratio": 0.3506620936944848,
+      "score": -0.3506620936944848,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

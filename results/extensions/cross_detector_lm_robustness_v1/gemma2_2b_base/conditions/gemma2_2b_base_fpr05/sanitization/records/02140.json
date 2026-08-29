@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3853",
+  "source_doc_id": "MED-3853",
+  "title": "Serum enterolactone and prognosis of postmenopausal breast cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Serum enterolactone and prognosis of postmenopausal breast cancer.\nPURPOSE: Lignans--plant-derived compounds with estrogen-dependent and -independent anticarcinogenic properties--have been associated with postmenopausal breast cancer risk, but data are limited regarding their effect on survival. Dietary lignans are metabolized to enterolignans, which are subsequently absorbed and become bioavailable. PATIENTS AND METHODS: We assessed the prognosis of 1,140 postmenopausal patients with breast cancer age 50 to 74 years who were diagnosed between 2002 and 2005. Vital status through the end of 2009 was ascertained via local population registries, and deaths were verified by death certificates. Information on recurrences and secondary tumors was verified by clinical records and attending physicians. Associations of postdiagnostic serum enterolactone (a biomarker for dietary lignans) with overall survival and distant disease-free survival were assessed by using Cox proportional hazards models stratified by age at diagnosis and adjusted for prognostic factors. RESULTS: Median enterolactone levels for deceased patients and those still alive were 17.0 and 21.4 nmol/L, respectively. During a median of 6.1 years of follow-up after diagnosis, 162 deaths were confirmed. Higher serum enterolactone levels were associated with significantly reduced hazard ratios (HRs) for death (HR per 10 nmol/L increment, 0.94; P = .04; HR for the highest quartile, 0.58; 95% CI, 0.34 to 0.99). For distant disease, HR was 0.94 per 10 nmol/L increment (P = .08) and 0.62 (95% CI, 0.35 to 1.09) for the highest quartile. The highest quartile of serum enterolactone was associated with a significantly reduced risk of death only for estrogen receptor-negative tumors (HR, 0.27; 95% CI, 0.08 to 0.87) but not for estrogen receptor-positive tumors (HR, 0.91; 95% CI, 0.45 to 1.84: P for heterogeneity = .09). CONCLUSION: Postmenopausal patients with breast cancer who have high serum enterolactone levels may have better survival.",
+  "sanitized_text": "Serum enterolactone and prognosis of postmenopausal breast cancer.\nPURPOSE: Lignans--plant-derived compounds with estrogen-dependent and -independent anticarcinogenic properties--have been associated with postmenopausal breast cancer risk, but data are limited regarding their effect on survival. Dietary lignans are metabolized to enterolignans, which are subsequently absorbed and become bioavailable. PATIENTS AND METHODS: We assessed the prognosis of 1,140 postmenopausal patients with breast cancer age 50 to 74 years who were diagnosed between 2002 and 2005. Vital status through the end of 2009 was ascertained via local population registries, and deaths were verified by death certificates. Information on recurrences and secondary tumors was verified by clinical records and attending physicians. Associations of postdiagnostic serum enterolactone (a biomarker for dietary lignans) with overall survival and distant disease-free survival were assessed by using Cox proportional hazards models stratified by age at diagnosis and adjusted for prognostic factors. RESULTS: Median enterolactone levels for deceased patients and those still alive were 17.0 and 21.4 nmol/L, respectively. During a median of 6.1 years of follow-up after diagnosis, 162 deaths were confirmed. Higher serum enterolactone levels were associated with significantly reduced hazard ratios (HRs) for death (HR per 10 nmol/L increment, 0.94; P = .04; HR for the highest quartile, 0.58; 95% CI, 0.34 to 0.99). For distant disease, HR was 0.94 per 10 nmol/L increment (P = .08) and 0.62 (95% CI, 0.35 to 1.09) for the highest quartile. The highest quartile of serum enterolactone was associated with a significantly reduced risk of death only for estrogen receptor-negative tumors (HR, 0.27; 95% CI, 0.08 to 0.87) but not for estrogen receptor-positive tumors (HR, 0.91; 95% CI, 0.45 to 1.84: P for heterogeneity = .09). CONCLUSION: Postmenopausal patients with breast cancer who have high serum enterolactone levels may have better survival.",
+  "modified": false,
+  "original_char_count": 2018,
+  "sanitized_char_count": 2018,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1897,
+      "boundary_end": 2018,
+      "context": "Information on recurrences and secondary tumors was verified by clinical records and attending physicians. Associations of postdiagnostic serum enterolactone (a biomarker for dietary lignans) with overall survival and distant disease-free survival were assessed by using Cox proportional hazards models stratified by age at diagnosis and adjusted for prognostic factors. RESULTS: Median enterolactone levels for deceased patients and those still alive were 17.0 and 21.4 nmol/L, respectively. During a median of 6.1 years of follow-up after diagnosis, 162 deaths were confirmed. Higher serum enterolactone levels were associated with significantly reduced hazard ratios (HRs) for death (HR per 10 nmol/L increment, 0.94; P = .04; HR for the highest quartile, 0.58; 95% CI, 0.34 to 0.99). For distant disease, HR was 0.94 per 10 nmol/L increment (P = .08) and 0.62 (95% CI, 0.35 to 1.09) for the highest quartile. The highest quartile of serum enterolactone was associated with a significantly reduced risk of death only for estrogen receptor-negative tumors (HR, 0.27; 95% CI, 0.08 to 0.87) but not for estrogen receptor-positive tumors (HR, 0.91; 95% CI, 0.45 to 1.84: P for heterogeneity = .09).",
+      "target": "CONCLUSION: Postmenopausal patients with breast cancer who have high serum enterolactone levels may have better survival.",
+      "loss_target": 9.162113189697266,
+      "loss_target_given_context": 2.8920509815216064,
+      "delta_loss": 6.270062208175659,
+      "gain_ratio": 0.6843467307548985,
+      "score": -0.6843467307548985,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

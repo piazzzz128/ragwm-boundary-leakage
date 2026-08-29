@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3242",
+  "source_doc_id": "MED-3242",
+  "title": "Macronutrient intake and risk of urothelial cell carcinoma in the European prospective investigation into cancer and nutrition.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Macronutrient intake and risk of urothelial cell carcinoma in the European prospective investigation into cancer and nutrition.\nPrevious studies have suggested that dietary factors may be important in the development of bladder cancer. We examined macronutrient intake in relation to risk of urothelial cell carcinoma among 469,339 men and women in the European Prospective Investigation into Cancer and Nutrition. Associations were examined using Cox regression, stratified by sex, age at recruitment and centre and further adjusted for smoking status and duration, body mass index and total energy intake. After an average of 11.3 years of follow-up, 1,416 new cases of urothelial cell carcinoma were identified. After allowing for measurement error, a 3% increase in the consumption of energy intake from animal protein was associated with a 15% higher risk (95% confidence interval [CI]: 3-30%; p(trend) = 0.01) and a 2% increase in energy from plant protein intake was associated with a 23% lower risk (95% CI: 36-7%, p(trend) = 0.006). Dietary intake of fat, carbohydrate, fibre or calcium was not associated with risk. These findings suggest that animal and/or plant protein may affect the risk of urothelial cell carcinoma, and examination of these associations in other studies is needed. Copyright © 2012 UICC.",
+  "sanitized_text": "Macronutrient intake and risk of urothelial cell carcinoma in the European prospective investigation into cancer and nutrition.\nPrevious studies have suggested that dietary factors may be important in the development of bladder cancer. We examined macronutrient intake in relation to risk of urothelial cell carcinoma among 469,339 men and women in the European Prospective Investigation into Cancer and Nutrition. Associations were examined using Cox regression, stratified by sex, age at recruitment and centre and further adjusted for smoking status and duration, body mass index and total energy intake. After an average of 11.3 years of follow-up, 1,416 new cases of urothelial cell carcinoma were identified. After allowing for measurement error, a 3% increase in the consumption of energy intake from animal protein was associated with a 15% higher risk (95% confidence interval [CI]: 3-30%; p(trend) = 0.01) and a 2% increase in energy from plant protein intake was associated with a 23% lower risk (95% CI: 36-7%, p(trend) = 0.006). Dietary intake of fat, carbohydrate, fibre or calcium was not associated with risk. These findings suggest that animal and/or plant protein may affect the risk of urothelial cell carcinoma, and examination of these associations in other studies is needed. Copyright © 2012 UICC.",
+  "modified": false,
+  "original_char_count": 1320,
+  "sanitized_char_count": 1320,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1126,
+      "boundary_end": 1297,
+      "context": "Macronutrient intake and risk of urothelial cell carcinoma in the European prospective investigation into cancer and nutrition. Previous studies have suggested that dietary factors may be important in the development of bladder cancer. We examined macronutrient intake in relation to risk of urothelial cell carcinoma among 469,339 men and women in the European Prospective Investigation into Cancer and Nutrition. Associations were examined using Cox regression, stratified by sex, age at recruitment and centre and further adjusted for smoking status and duration, body mass index and total energy intake. After an average of 11.3 years of follow-up, 1,416 new cases of urothelial cell carcinoma were identified. After allowing for measurement error, a 3% increase in the consumption of energy intake from animal protein was associated with a 15% higher risk (95% confidence interval [CI]: 3-30%; p(trend) = 0.01) and a 2% increase in energy from plant protein intake was associated with a 23% lower risk (95% CI: 36-7%, p(trend) = 0.006). Dietary intake of fat, carbohydrate, fibre or calcium was not associated with risk.",
+      "target": "These findings suggest that animal and/or plant protein may affect the risk of urothelial cell carcinoma, and examination of these associations in other studies is needed.",
+      "loss_target": 2.7261576652526855,
+      "loss_target_given_context": 1.4380375146865845,
+      "delta_loss": 1.288120150566101,
+      "gain_ratio": 0.4725039079670053,
+      "score": -0.4725039079670053,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5305",
+  "source_doc_id": "MED-5305",
+  "title": "Effect of spiced food on metabolic rate.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of spiced food on metabolic rate.\nSince the time of Lavoisier it has been known that the ingestion of food in animals and man produces an increase in oxygen consumption. This increase in metabolic rate was originally called 'specific dynamic action' (SDA) and is now widely referred to as the thermic effect (TE) of food or diet-induced thermogenesis (DIT) (Rothwell & Stock, 1981). Much of the early work on the thermic effect was confined to the type and amount of food, notably the macronutrients--proteins, fats and carbohydrates. Later, it was shown that certain minor constituents of the diet such as caffeine and associated methylxanthines (Zahorska-Markrewicz, 1980; Jung et al., 1981) in tea and coffee could also have a profound effect on metabolic rate. The consumption of alcohol was also shown to increase metabolic rate (Rosenberg & Durnin, 1978). The work described in this paper reports the effect of another minor constituent of food, spices, on metabolic rate. Although the use of spices in our food has steadily increased with time little information exists on their effect on the metabolic rate. It has been estimated that approximately 40 different spices are used in our diet today. This communication reports the effect of chilli (red pepper, capsicum annuum) and mustard (Brassica juncea).",
+  "sanitized_text": "Effect of spiced food on metabolic rate.\nSince the time of Lavoisier it has been known that the ingestion of food in animals and man produces an increase in oxygen consumption. This increase in metabolic rate was originally called 'specific dynamic action' (SDA) and is now widely referred to as the thermic effect (TE) of food or diet-induced thermogenesis (DIT) (Rothwell & Stock, 1981). Much of the early work on the thermic effect was confined to the type and amount of food, notably the macronutrients--proteins, fats and carbohydrates. Later, it was shown that certain minor constituents of the diet such as caffeine and associated methylxanthines (Zahorska-Markrewicz, 1980; Jung et al., 1981) in tea and coffee could also have a profound effect on metabolic rate. The consumption of alcohol was also shown to increase metabolic rate (Rosenberg & Durnin, 1978). The work described in this paper reports the effect of another minor constituent of food, spices, on metabolic rate. Although the use of spices in our food has steadily increased with time little information exists on their effect on the metabolic rate. It has been estimated that approximately 40 different spices are used in our diet today. This communication reports the effect of chilli (red pepper, capsicum annuum) and mustard (Brassica juncea).",
+  "modified": false,
+  "original_char_count": 1320,
+  "sanitized_char_count": 1320,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1212,
+      "boundary_end": 1320,
+      "context": "food on metabolic rate. Since the time of Lavoisier it has been known that the ingestion of food in animals and man produces an increase in oxygen consumption. This increase in metabolic rate was originally called 'specific dynamic action' (SDA) and is now widely referred to as the thermic effect (TE) of food or diet-induced thermogenesis (DIT) (Rothwell & Stock, 1981). Much of the early work on the thermic effect was confined to the type and amount of food, notably the macronutrients--proteins, fats and carbohydrates. Later, it was shown that certain minor constituents of the diet such as caffeine and associated methylxanthines (Zahorska-Markrewicz, 1980; Jung et al., 1981) in tea and coffee could also have a profound effect on metabolic rate. The consumption of alcohol was also shown to increase metabolic rate (Rosenberg & Durnin, 1978). The work described in this paper reports the effect of another minor constituent of food, spices, on metabolic rate. Although the use of spices in our food has steadily increased with time little information exists on their effect on the metabolic rate. It has been estimated that approximately 40 different spices are used in our diet today.",
+      "target": "This communication reports the effect of chilli (red pepper, capsicum annuum) and mustard (Brassica juncea).",
+      "loss_target": 2.8971915245056152,
+      "loss_target_given_context": 1.7102720737457275,
+      "delta_loss": 1.1869194507598877,
+      "gain_ratio": 0.4096793189958082,
+      "score": -0.4096793189958082,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

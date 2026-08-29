@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5221",
+  "source_doc_id": "MED-5221",
+  "title": "Keratomalacia.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Keratomalacia.\nXerophthalmia and keratomalacia are public health problems of great magnitude which are usually associated with multiple vitamin and protein deficiencies. The authors report the case of a 27-year-old commune member who subjected herself to a bizarre protein and vitamin deficient diet for many months. This ultimately produced nyctalopia, xerophthalmia and keratomalacia with bilateral corneal perforation. Despite therapy, she remained comatose and expired shortly after admission. Ocular pathological changes included bilateral corneal melting with prolapse of intraocular contents, conjunctival epidermidalization, goblet cell atrophy and thinning of the outer nuclear layer of the retina. It is noted that ocular findings in pure avitaminosis A produced experimentalyy include epithelial atrophy followed by keratinization.",
+  "sanitized_text": "Keratomalacia.\nXerophthalmia and keratomalacia are public health problems of great magnitude which are usually associated with multiple vitamin and protein deficiencies. The authors report the case of a 27-year-old commune member who subjected herself to a bizarre protein and vitamin deficient diet for many months. This ultimately produced nyctalopia, xerophthalmia and keratomalacia with bilateral corneal perforation. Despite therapy, she remained comatose and expired shortly after admission. Ocular pathological changes included bilateral corneal melting with prolapse of intraocular contents, conjunctival epidermidalization, goblet cell atrophy and thinning of the outer nuclear layer of the retina. It is noted that ocular findings in pure avitaminosis A produced experimentalyy include epithelial atrophy followed by keratinization.",
+  "modified": false,
+  "original_char_count": 842,
+  "sanitized_char_count": 842,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 708,
+      "boundary_end": 842,
+      "context": "Keratomalacia. Xerophthalmia and keratomalacia are public health problems of great magnitude which are usually associated with multiple vitamin and protein deficiencies. The authors report the case of a 27-year-old commune member who subjected herself to a bizarre protein and vitamin deficient diet for many months. This ultimately produced nyctalopia, xerophthalmia and keratomalacia with bilateral corneal perforation. Despite therapy, she remained comatose and expired shortly after admission. Ocular pathological changes included bilateral corneal melting with prolapse of intraocular contents, conjunctival epidermidalization, goblet cell atrophy and thinning of the outer nuclear layer of the retina.",
+      "target": "It is noted that ocular findings in pure avitaminosis A produced experimentalyy include epithelial atrophy followed by keratinization.",
+      "loss_target": 4.345829486846924,
+      "loss_target_given_context": 3.206176996231079,
+      "delta_loss": 1.1396524906158447,
+      "gain_ratio": 0.2622404984054515,
+      "score": -0.2622404984054515,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1482",
+  "source_doc_id": "MED-1482",
+  "title": "Does hand hygiene compliance among health care workers change when patients are in contact precaution rooms in ICUs?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Does hand hygiene compliance among health care workers change when patients are in contact precaution rooms in ICUs?\nBACKGROUND: Hand hygiene compliance rates among health care workers (HCW) rarely exceed 50%. Contact precautions are thought to increase HCWs' hand hygiene awareness. We sought to determine any differences in hand hygiene compliance rates for HCW between patients in contact precaution and those not in any isolation. METHODS: In a hospital's medical (MICU) and surgical (SICU) intensive care units, a trained observer directly observed hand hygiene by the type of room (contact precaution or noncontact precaution) and the type of HCW (nurse or doctor). RESULTS: The SICU had similar compliance rates (36/75 [50.7%] in contact precaution rooms vs 223/431 [51.7%] compliance in noncontact precaution rooms, P > .5); the MICU also had similar hand hygiene compliance rates (67/132 [45.1%] in contact precaution rooms vs 96/213 [50.8%] in noncontact precaution rooms, P > .10). Hand hygiene compliance rates stratified by HCW were similar with 1 exception. The MICU nurses had a higher rate of hand hygiene compliance in contact precaution rooms than in rooms with noncontact precautions (66.7% vs 51.6%, respectively). CONCLUSION: Compliance with hand hygiene among HCWs did not differ between contact precaution rooms and rooms with noncontact precautions with the exception of the nurses in the MICU. Published by Mosby, Inc. Hand hygiene compliance rates are influenced by the intervention group.",
+  "sanitized_text": "Does hand hygiene compliance among health care workers change when patients are in contact precaution rooms in ICUs?\nBACKGROUND: Hand hygiene compliance rates among health care workers (HCW) rarely exceed 50%. Contact precautions are thought to increase HCWs' hand hygiene awareness. We sought to determine any differences in hand hygiene compliance rates for HCW between patients in contact precaution and those not in any isolation. METHODS: In a hospital's medical (MICU) and surgical (SICU) intensive care units, a trained observer directly observed hand hygiene by the type of room (contact precaution or noncontact precaution) and the type of HCW (nurse or doctor). RESULTS: The SICU had similar compliance rates (36/75 [50.7%] in contact precaution rooms vs 223/431 [51.7%] compliance in noncontact precaution rooms, P > .5); the MICU also had similar hand hygiene compliance rates (67/132 [45.1%] in contact precaution rooms vs 96/213 [50.8%] in noncontact precaution rooms, P > .10). Hand hygiene compliance rates stratified by HCW were similar with 1 exception. The MICU nurses had a higher rate of hand hygiene compliance in contact precaution rooms than in rooms with noncontact precautions (66.7% vs 51.6%, respectively). CONCLUSION: Compliance with hand hygiene among HCWs did not differ between contact precaution rooms and rooms with noncontact precautions with the exception of the nurses in the MICU. Published by Mosby, Inc. Hand hygiene compliance rates are influenced by the intervention group.",
+  "modified": false,
+  "original_char_count": 1515,
+  "sanitized_char_count": 1515,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1444,
+      "boundary_end": 1515,
+      "context": "increase HCWs' hand hygiene awareness. We sought to determine any differences in hand hygiene compliance rates for HCW between patients in contact precaution and those not in any isolation. METHODS: In a hospital's medical (MICU) and surgical (SICU) intensive care units, a trained observer directly observed hand hygiene by the type of room (contact precaution or noncontact precaution) and the type of HCW (nurse or doctor). RESULTS: The SICU had similar compliance rates (36/75 [50.7%] in contact precaution rooms vs 223/431 [51.7%] compliance in noncontact precaution rooms, P > .5); the MICU also had similar hand hygiene compliance rates (67/132 [45.1%] in contact precaution rooms vs 96/213 [50.8%] in noncontact precaution rooms, P > .10). Hand hygiene compliance rates stratified by HCW were similar with 1 exception. The MICU nurses had a higher rate of hand hygiene compliance in contact precaution rooms than in rooms with noncontact precautions (66.7% vs 51.6%, respectively). CONCLUSION: Compliance with hand hygiene among HCWs did not differ between contact precaution rooms and rooms with noncontact precautions with the exception of the nurses in the MICU. Published by Mosby, Inc.",
+      "target": "Hand hygiene compliance rates are influenced by the intervention group.",
+      "loss_target": 4.675820827484131,
+      "loss_target_given_context": 2.684450387954712,
+      "delta_loss": 1.991370439529419,
+      "gain_ratio": 0.4258868149575557,
+      "score": -0.4258868149575557,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3652",
+  "source_doc_id": "MED-3652",
+  "title": "Multidrug-resistant extraintestinal pathogenic Escherichia coli of sequence type ST131 in animals and foods.",
+  "original_text": "Multidrug-resistant extraintestinal pathogenic Escherichia coli of sequence type ST131 in animals and foods.\nMultidrug-resistant Escherichia coli sequence type 131 (ST131) has recently emerged as a globally distributed cause of extraintestinal infections in humans. Diverse factors have been investigated as explanations for ST131's rapid and successful dissemination, including transmission through animal contact and consumption of food, as suggested by the detection of ST131 in a number of nonhuman species. For example, ST131 has recently been identified as a cause of clinical infection in companion animals and poultry, and both host groups have been confirmed as faecal carriers of ST131. Moreover, a high degree of similarity has been shown among certain ST131 isolates from humans, companion animals, and poultry based on resistance characteristics and genomic background and human and companion animal ST131 isolates tend to exhibit similar virulence genotypes. However, most ST131 isolates from poultry appear to possess specific virulence genes that are typically absent from human and companion animal isolates, including genes associated with avian pathogenic E. coli. Since the number of reported animal and food-associated ST131 isolates is quite small, the role of nonhuman host species in the emergence, dissemination, and transmission of ST131 to humans remains unclear. Nevertheless, given the profound public health importance of the emergent ST131 clonal group, even the limited available evidence indicates a pressing need for further careful study of this significant question. Copyright © 2011 Elsevier B.V. All rights reserved.",
+  "sanitized_text": "Multidrug-resistant extraintestinal pathogenic Escherichia coli of sequence type ST131 in animals and foods.\nMultidrug-resistant Escherichia coli sequence type 131 (ST131) has recently emerged as a globally distributed cause of extraintestinal infections in humans. Diverse factors have been investigated as explanations for ST131's rapid and successful dissemination, including transmission through animal contact and consumption of food, as suggested by the detection of ST131 in a number of nonhuman species. For example, ST131 has recently been identified as a cause of clinical infection in companion animals and poultry, and both host groups have been confirmed as faecal carriers of ST131. Moreover, a high degree of similarity has been shown among certain ST131 isolates from humans, companion animals, and poultry based on resistance characteristics and genomic background and human and companion animal ST131 isolates tend to exhibit similar virulence genotypes. However, most ST131 isolates from poultry appear to possess specific virulence genes that are typically absent from human and companion animal isolates, including genes associated with avian pathogenic E. coli. Since the number of reported animal and food-associated ST131 isolates is quite small, the role of nonhuman host species in the emergence, dissemination, and transmission of ST131 to humans remains unclear. Nevertheless, given the profound public health importance of the emergent ST131 clonal group, even the limited available evidence indicates a pressing need for further careful study of this significant question.",
+  "modified": true,
+  "original_char_count": 1654,
+  "sanitized_char_count": 1602,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1603,
+      "boundary_end": 1633,
+      "context": "contact and consumption of food, as suggested by the detection of ST131 in a number of nonhuman species. For example, ST131 has recently been identified as a cause of clinical infection in companion animals and poultry, and both host groups have been confirmed as faecal carriers of ST131. Moreover, a high degree of similarity has been shown among certain ST131 isolates from humans, companion animals, and poultry based on resistance characteristics and genomic background and human and companion animal ST131 isolates tend to exhibit similar virulence genotypes. However, most ST131 isolates from poultry appear to possess specific virulence genes that are typically absent from human and companion animal isolates, including genes associated with avian pathogenic E. coli. Since the number of reported animal and food-associated ST131 isolates is quite small, the role of nonhuman host species in the emergence, dissemination, and transmission of ST131 to humans remains unclear. Nevertheless, given the profound public health importance of the emergent ST131 clonal group, even the limited available evidence indicates a pressing need for further careful study of this significant question.",
+      "target": "Copyright © 2011 Elsevier B.V.",
+      "loss_target": 1.0373278856277466,
+      "loss_target_given_context": 1.3993276357650757,
+      "delta_loss": -0.3619997501373291,
+      "gain_ratio": -0.348973314178537,
+      "score": 0.348973314178537,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1391,
+      "boundary_end": 1602,
+      "context": "as a globally distributed cause of extraintestinal infections in humans. Diverse factors have been investigated as explanations for ST131's rapid and successful dissemination, including transmission through animal contact and consumption of food, as suggested by the detection of ST131 in a number of nonhuman species. For example, ST131 has recently been identified as a cause of clinical infection in companion animals and poultry, and both host groups have been confirmed as faecal carriers of ST131. Moreover, a high degree of similarity has been shown among certain ST131 isolates from humans, companion animals, and poultry based on resistance characteristics and genomic background and human and companion animal ST131 isolates tend to exhibit similar virulence genotypes. However, most ST131 isolates from poultry appear to possess specific virulence genes that are typically absent from human and companion animal isolates, including genes associated with avian pathogenic E. coli. Since the number of reported animal and food-associated ST131 isolates is quite small, the role of nonhuman host species in the emergence, dissemination, and transmission of ST131 to humans remains unclear.",
+      "target": "Nevertheless, given the profound public health importance of the emergent ST131 clonal group, even the limited available evidence indicates a pressing need for further careful study of this significant question.",
+      "loss_target": 3.114574670791626,
+      "loss_target_given_context": 2.622311592102051,
+      "delta_loss": 0.4922630786895752,
+      "gain_ratio": 0.15805146150644625,
+      "score": -0.15805146150644625,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1603,
+      "target": "Copyright © 2011 Elsevier B.V.",
+      "score": 0.348973314178537,
+      "deleted_suffix": "Copyright © 2011 Elsevier B.V. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

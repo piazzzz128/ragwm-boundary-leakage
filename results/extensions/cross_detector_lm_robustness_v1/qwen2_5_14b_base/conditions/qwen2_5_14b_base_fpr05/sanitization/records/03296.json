@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5241",
+  "source_doc_id": "MED-5241",
+  "title": "Coffee, tea, and the risk of hip fracture: a meta-analysis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Coffee, tea, and the risk of hip fracture: a meta-analysis.\nThe present meta-analysis shows no clear association between coffee consumption and the risk of hip fractures. There was a nonlinear association between tea consumption and the risk of hip fracture. Compared to no tea consumption, drinking 1-4 cups of tea daily was associated with a lower risk of hip fracture. INTRODUCTION: Prospective cohort and case-control studies have suggested that coffee and tea consumption may be associated with the risk of hip fracture; the results have, however, been inconsistent. We conducted a meta-analysis to assess the association between coffee and tea consumption and the risk of hip fracture. METHODS: We performed systematic searches using MEDLINE, EMBASE, and OVID until February 20, 2013, without limits of language or publication year. Relative risks (RRs) with 95% confidence intervals (CI) were derived using random-effects models throughout all analyses. We conducted categorical, dose-response, heterogeneity, publication bias, and subgroup analyses. RESULTS: Our study was based on 195,992 individuals with 9,958 cases of hip fractures from 14 studies, including six cohort and eight case-control studies. The pooled RRs of hip fractures for the highest vs. the lowest categories of coffee and tea consumption were 0.94 (95% CI 0.71-1.17) and 0.84 (95% CI 0.66-1.02), respectively. For the dose-response analysis, we found evidence of a nonlinear association between tea consumption and the risk of hip fracture (p(nonlinearity) < 0.01). Compared to no tea consumption, 1-4 cups of tea per day may reduce the risk of hip fracture by 28% (0.72; 95% CI 0.56-0.88 for 1-2 cups/day), 37% (0.63; 95% CI 0.32-0.94 for 2-3 cups/day), and 21% (0.79; 95% CI 0.62-0.96 for 3-4 cups/day). CONCLUSIONS: We found no significant association between coffee consumption and the risk of hip fracture. A nonlinear association emerged between tea consumption and the risk of hip fracture; individuals drinking 1-4 cups of tea per day exhibited a lower risk of hip fractures than those who drank no tea. The association between 5 daily cups of tea, or more, and hip fracture risk should be investigated.",
+  "sanitized_text": "Coffee, tea, and the risk of hip fracture: a meta-analysis.\nThe present meta-analysis shows no clear association between coffee consumption and the risk of hip fractures. There was a nonlinear association between tea consumption and the risk of hip fracture. Compared to no tea consumption, drinking 1-4 cups of tea daily was associated with a lower risk of hip fracture. INTRODUCTION: Prospective cohort and case-control studies have suggested that coffee and tea consumption may be associated with the risk of hip fracture; the results have, however, been inconsistent. We conducted a meta-analysis to assess the association between coffee and tea consumption and the risk of hip fracture. METHODS: We performed systematic searches using MEDLINE, EMBASE, and OVID until February 20, 2013, without limits of language or publication year. Relative risks (RRs) with 95% confidence intervals (CI) were derived using random-effects models throughout all analyses. We conducted categorical, dose-response, heterogeneity, publication bias, and subgroup analyses. RESULTS: Our study was based on 195,992 individuals with 9,958 cases of hip fractures from 14 studies, including six cohort and eight case-control studies. The pooled RRs of hip fractures for the highest vs. the lowest categories of coffee and tea consumption were 0.94 (95% CI 0.71-1.17) and 0.84 (95% CI 0.66-1.02), respectively. For the dose-response analysis, we found evidence of a nonlinear association between tea consumption and the risk of hip fracture (p(nonlinearity) < 0.01). Compared to no tea consumption, 1-4 cups of tea per day may reduce the risk of hip fracture by 28% (0.72; 95% CI 0.56-0.88 for 1-2 cups/day), 37% (0.63; 95% CI 0.32-0.94 for 2-3 cups/day), and 21% (0.79; 95% CI 0.62-0.96 for 3-4 cups/day). CONCLUSIONS: We found no significant association between coffee consumption and the risk of hip fracture. A nonlinear association emerged between tea consumption and the risk of hip fracture; individuals drinking 1-4 cups of tea per day exhibited a lower risk of hip fractures than those who drank no tea. The association between 5 daily cups of tea, or more, and hip fracture risk should be investigated.",
+  "modified": false,
+  "original_char_count": 2191,
+  "sanitized_char_count": 2191,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 2092,
+      "boundary_end": 2191,
+      "context": "were derived using random-effects models throughout all analyses. We conducted categorical, dose-response, heterogeneity, publication bias, and subgroup analyses. RESULTS: Our study was based on 195,992 individuals with 9,958 cases of hip fractures from 14 studies, including six cohort and eight case-control studies. The pooled RRs of hip fractures for the highest vs. the lowest categories of coffee and tea consumption were 0.94 (95% CI 0.71-1.17) and 0.84 (95% CI 0.66-1.02), respectively. For the dose-response analysis, we found evidence of a nonlinear association between tea consumption and the risk of hip fracture (p(nonlinearity) < 0.01). Compared to no tea consumption, 1-4 cups of tea per day may reduce the risk of hip fracture by 28% (0.72; 95% CI 0.56-0.88 for 1-2 cups/day), 37% (0.63; 95% CI 0.32-0.94 for 2-3 cups/day), and 21% (0.79; 95% CI 0.62-0.96 for 3-4 cups/day). CONCLUSIONS: We found no significant association between coffee consumption and the risk of hip fracture. A nonlinear association emerged between tea consumption and the risk of hip fracture; individuals drinking 1-4 cups of tea per day exhibited a lower risk of hip fractures than those who drank no tea.",
+      "target": "The association between 5 daily cups of tea, or more, and hip fracture risk should be investigated.",
+      "loss_target": 3.305178165435791,
+      "loss_target_given_context": 2.001160144805908,
+      "delta_loss": 1.3040180206298828,
+      "gain_ratio": 0.3945378903524091,
+      "score": -0.3945378903524091,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

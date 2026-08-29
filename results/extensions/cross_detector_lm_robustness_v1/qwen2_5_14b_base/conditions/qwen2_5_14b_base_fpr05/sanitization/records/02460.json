@@ -1,0 +1,86 @@
+{
+  "internal_id": "MED-4292",
+  "source_doc_id": "MED-4292",
+  "title": "A review of the evidence: nuts and body weight.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A review of the evidence: nuts and body weight.\nThere is currently no single dietary or lifestyle intervention that is effective in long-term weight loss. Traditional weight loss diets tend to be low in total fat and therefore often restrict nut consumption. However, nuts are an important source of many vitamins, minerals, monounsaturated and polyunsaturated fatty acids. This paper reviewed all the available evidence from the literature in relation to nut consumption and body weight. The findings show that the role of nut consumption in body weight management is varied. Nuts, when included as part of an energy-controlled diet, were found in some instances to assist with weight loss. However, when nuts were added to an existing diet without controlling for energy intake, body weight increased, although to a lesser extent than theoretically predicted. There is limited evidence on the effect nut consumption has on type 2 diabetes, although available evidence indicates that nuts as part of a healthy diet do not cause weight gain and can have a positive influence on the fatty acid profile of a person with diabetes. This review shows there is a lack of evidence to support the restriction of nut consumption in weight management, indicating that further research is needed to assess the role of nuts in weight management. Nut consumption was employed by the intervention group to enhance their nutritional intake. Nut consumption is significantly utilized in household products.",
+  "sanitized_text": "A review of the evidence: nuts and body weight.\nThere is currently no single dietary or lifestyle intervention that is effective in long-term weight loss. Traditional weight loss diets tend to be low in total fat and therefore often restrict nut consumption. However, nuts are an important source of many vitamins, minerals, monounsaturated and polyunsaturated fatty acids. This paper reviewed all the available evidence from the literature in relation to nut consumption and body weight. The findings show that the role of nut consumption in body weight management is varied. Nuts, when included as part of an energy-controlled diet, were found in some instances to assist with weight loss. However, when nuts were added to an existing diet without controlling for energy intake, body weight increased, although to a lesser extent than theoretically predicted. There is limited evidence on the effect nut consumption has on type 2 diabetes, although available evidence indicates that nuts as part of a healthy diet do not cause weight gain and can have a positive influence on the fatty acid profile of a person with diabetes. This review shows there is a lack of evidence to support the restriction of nut consumption in weight management, indicating that further research is needed to assess the role of nuts in weight management.",
+  "modified": true,
+  "original_char_count": 1490,
+  "sanitized_char_count": 1333,
+  "deleted_char_count": 157,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1426,
+      "boundary_end": 1490,
+      "context": "often restrict nut consumption. However, nuts are an important source of many vitamins, minerals, monounsaturated and polyunsaturated fatty acids. This paper reviewed all the available evidence from the literature in relation to nut consumption and body weight. The findings show that the role of nut consumption in body weight management is varied. Nuts, when included as part of an energy-controlled diet, were found in some instances to assist with weight loss. However, when nuts were added to an existing diet without controlling for energy intake, body weight increased, although to a lesser extent than theoretically predicted. There is limited evidence on the effect nut consumption has on type 2 diabetes, although available evidence indicates that nuts as part of a healthy diet do not cause weight gain and can have a positive influence on the fatty acid profile of a person with diabetes. This review shows there is a lack of evidence to support the restriction of nut consumption in weight management, indicating that further research is needed to assess the role of nuts in weight management. Nut consumption was employed by the intervention group to enhance their nutritional intake.",
+      "target": "Nut consumption is significantly utilized in household products.",
+      "loss_target": 6.010403633117676,
+      "loss_target_given_context": 5.344532012939453,
+      "delta_loss": 0.6658716201782227,
+      "gain_ratio": 0.11078650633532015,
+      "score": -0.11078650633532015,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1334,
+      "boundary_end": 1425,
+      "context": "weight loss. Traditional weight loss diets tend to be low in total fat and therefore often restrict nut consumption. However, nuts are an important source of many vitamins, minerals, monounsaturated and polyunsaturated fatty acids. This paper reviewed all the available evidence from the literature in relation to nut consumption and body weight. The findings show that the role of nut consumption in body weight management is varied. Nuts, when included as part of an energy-controlled diet, were found in some instances to assist with weight loss. However, when nuts were added to an existing diet without controlling for energy intake, body weight increased, although to a lesser extent than theoretically predicted. There is limited evidence on the effect nut consumption has on type 2 diabetes, although available evidence indicates that nuts as part of a healthy diet do not cause weight gain and can have a positive influence on the fatty acid profile of a person with diabetes. This review shows there is a lack of evidence to support the restriction of nut consumption in weight management, indicating that further research is needed to assess the role of nuts in weight management.",
+      "target": "Nut consumption was employed by the intervention group to enhance their nutritional intake.",
+      "loss_target": 4.251805782318115,
+      "loss_target_given_context": 3.658207893371582,
+      "delta_loss": 0.5935978889465332,
+      "gain_ratio": 0.1396107723017629,
+      "score": -0.1396107723017629,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 1128,
+      "boundary_end": 1333,
+      "context": "A review of the evidence: nuts and body weight. There is currently no single dietary or lifestyle intervention that is effective in long-term weight loss. Traditional weight loss diets tend to be low in total fat and therefore often restrict nut consumption. However, nuts are an important source of many vitamins, minerals, monounsaturated and polyunsaturated fatty acids. This paper reviewed all the available evidence from the literature in relation to nut consumption and body weight. The findings show that the role of nut consumption in body weight management is varied. Nuts, when included as part of an energy-controlled diet, were found in some instances to assist with weight loss. However, when nuts were added to an existing diet without controlling for energy intake, body weight increased, although to a lesser extent than theoretically predicted. There is limited evidence on the effect nut consumption has on type 2 diabetes, although available evidence indicates that nuts as part of a healthy diet do not cause weight gain and can have a positive influence on the fatty acid profile of a person with diabetes.",
+      "target": "This review shows there is a lack of evidence to support the restriction of nut consumption in weight management, indicating that further research is needed to assess the role of nuts in weight management.",
+      "loss_target": 2.3548269271850586,
+      "loss_target_given_context": 1.3702797889709473,
+      "delta_loss": 0.9845471382141113,
+      "gain_ratio": 0.4180974520242263,
+      "score": -0.4180974520242263,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1426,
+      "target": "Nut consumption is significantly utilized in household products.",
+      "score": -0.11078650633532015,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Nut consumption is significantly utilized in household products.",
+      "deleted_char_count": 64
+    },
+    {
+      "step": 2,
+      "boundary_start": 1334,
+      "target": "Nut consumption was employed by the intervention group to enhance their nutritional intake.",
+      "score": -0.1396107723017629,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Nut consumption was employed by the intervention group to enhance their nutritional intake.",
+      "deleted_char_count": 91
+    }
+  ],
+  "deletion_step_count": 2,
+  "stop_reason": "score_below_threshold"
+}

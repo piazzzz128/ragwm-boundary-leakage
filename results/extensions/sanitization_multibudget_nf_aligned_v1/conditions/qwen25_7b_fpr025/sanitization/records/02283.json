@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4050",
+  "source_doc_id": "MED-4050",
+  "title": "Green tea consumption and breast cancer risk or recurrence: a meta-analysis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Green tea consumption and breast cancer risk or recurrence: a meta-analysis.\nGreen tea is a commonly consumed beverage in Asia and has been suggested to have anti-inflammatory and possible anti-carcinogenic properties in laboratory studies. We sought to examine the association between green tea consumption and risk of breast cancer incidence or recurrence, using all available epidemiologic evidence to date. We conducted a systematic search of five databases and performed a meta-analysis of studies of breast cancer risk and recurrence published between 1998 and 2009, encompassing 5,617 cases of breast cancer. Summary relative risks (RR) were calculated using a fixed effects model, and tests of heterogeneity across combined studies were conducted. We identified two studies of breast cancer recurrence and seven studies of breast cancer incidence. Increased green tea consumption (more than three cups a day) was inversely associated with breast cancer recurrence (Pooled RR = 0.73, 95% CI: 0.56-0.96). An analysis of case-control studies of breast cancer incidence suggested an inverse association with a pooled RR of 0.81 (95% CI: 0.75, 0.88) while no association was found among cohort studies of breast cancer incidence. Combining all studies of breast cancer incidence resulted in significant heterogeneity. Available epidemiologic evidence supports the hypothesis that increased green tea consumption may be inversely associated with risk of breast cancer recurrence. The association between green tea consumption and breast cancer incidence remains unclear based on the current evidence.",
+  "sanitized_text": "Green tea consumption and breast cancer risk or recurrence: a meta-analysis.\nGreen tea is a commonly consumed beverage in Asia and has been suggested to have anti-inflammatory and possible anti-carcinogenic properties in laboratory studies. We sought to examine the association between green tea consumption and risk of breast cancer incidence or recurrence, using all available epidemiologic evidence to date. We conducted a systematic search of five databases and performed a meta-analysis of studies of breast cancer risk and recurrence published between 1998 and 2009, encompassing 5,617 cases of breast cancer. Summary relative risks (RR) were calculated using a fixed effects model, and tests of heterogeneity across combined studies were conducted. We identified two studies of breast cancer recurrence and seven studies of breast cancer incidence. Increased green tea consumption (more than three cups a day) was inversely associated with breast cancer recurrence (Pooled RR = 0.73, 95% CI: 0.56-0.96). An analysis of case-control studies of breast cancer incidence suggested an inverse association with a pooled RR of 0.81 (95% CI: 0.75, 0.88) while no association was found among cohort studies of breast cancer incidence. Combining all studies of breast cancer incidence resulted in significant heterogeneity. Available epidemiologic evidence supports the hypothesis that increased green tea consumption may be inversely associated with risk of breast cancer recurrence. The association between green tea consumption and breast cancer incidence remains unclear based on the current evidence.",
+  "modified": false,
+  "original_char_count": 1602,
+  "sanitized_char_count": 1602,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1482,
+      "boundary_end": 1602,
+      "context": "green tea consumption and risk of breast cancer incidence or recurrence, using all available epidemiologic evidence to date. We conducted a systematic search of five databases and performed a meta-analysis of studies of breast cancer risk and recurrence published between 1998 and 2009, encompassing 5,617 cases of breast cancer. Summary relative risks (RR) were calculated using a fixed effects model, and tests of heterogeneity across combined studies were conducted. We identified two studies of breast cancer recurrence and seven studies of breast cancer incidence. Increased green tea consumption (more than three cups a day) was inversely associated with breast cancer recurrence (Pooled RR = 0.73, 95% CI: 0.56-0.96). An analysis of case-control studies of breast cancer incidence suggested an inverse association with a pooled RR of 0.81 (95% CI: 0.75, 0.88) while no association was found among cohort studies of breast cancer incidence. Combining all studies of breast cancer incidence resulted in significant heterogeneity. Available epidemiologic evidence supports the hypothesis that increased green tea consumption may be inversely associated with risk of breast cancer recurrence.",
+      "target": "The association between green tea consumption and breast cancer incidence remains unclear based on the current evidence.",
+      "loss_target": 2.7673394680023193,
+      "loss_target_given_context": 1.1760536432266235,
+      "delta_loss": 1.5912858247756958,
+      "gain_ratio": 0.5750237161631672,
+      "score": -0.5750237161631672,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

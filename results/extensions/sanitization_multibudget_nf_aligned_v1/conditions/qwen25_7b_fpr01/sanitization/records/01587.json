@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3111",
+  "source_doc_id": "MED-3111",
+  "title": "The light and dark sides of intestinal intraepithelial lymphocytes",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The light and dark sides of intestinal intraepithelial lymphocytes\nThe intraepithelial lymphocytes (IELs) that reside within the epithelium of the intestine form one of the main branches of the immune system. As IELs are located at this critical interface between the core of the body and the outside environment, they must balance protective immunity with an ability to safeguard the integrity of the epithelial barrier: failure to do so would compromise homeostasis of the organism. In this Review, we address how the unique development and functions of intestinal IELs allow them to achieve this balance.",
+  "sanitized_text": "The light and dark sides of intestinal intraepithelial lymphocytes\nThe intraepithelial lymphocytes (IELs) that reside within the epithelium of the intestine form one of the main branches of the immune system. As IELs are located at this critical interface between the core of the body and the outside environment, they must balance protective immunity with an ability to safeguard the integrity of the epithelial barrier: failure to do so would compromise homeostasis of the organism. In this Review, we address how the unique development and functions of intestinal IELs allow them to achieve this balance.",
+  "modified": false,
+  "original_char_count": 607,
+  "sanitized_char_count": 607,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 485,
+      "boundary_end": 607,
+      "context": "The light and dark sides of intestinal intraepithelial lymphocytes The intraepithelial lymphocytes (IELs) that reside within the epithelium of the intestine form one of the main branches of the immune system. As IELs are located at this critical interface between the core of the body and the outside environment, they must balance protective immunity with an ability to safeguard the integrity of the epithelial barrier: failure to do so would compromise homeostasis of the organism.",
+      "target": "In this Review, we address how the unique development and functions of intestinal IELs allow them to achieve this balance.",
+      "loss_target": 3.4848995208740234,
+      "loss_target_given_context": 1.6920547485351562,
+      "delta_loss": 1.7928447723388672,
+      "gain_ratio": 0.5144609655457774,
+      "score": -0.5144609655457774,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

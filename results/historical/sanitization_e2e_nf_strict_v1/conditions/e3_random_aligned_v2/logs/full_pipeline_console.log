@@ -1,0 +1,2019 @@
+nohup: ignoring input
+{
+  "baseline_type": "random_document_sentence_boundary_suffix_deletion",
+  "matching_policy": "Match E2 modified-document count exactly and match the per-document deleted-character distribution approximately at valid sentence boundaries. No watermark ground truth is used for selection.",
+  "input_document_count": 3633,
+  "target_modified_document_count": 174,
+  "target_total_deleted_chars": 37586,
+  "target_deleted_char_rate": 0.006485141596111607,
+  "target_deleted_char_lengths": [
+    632,
+    70,
+    296,
+    83,
+    214,
+    354,
+    420,
+    121,
+    620,
+    467,
+    62,
+    33,
+    377,
+    353,
+    198,
+    76,
+    65,
+    1166,
+    79,
+    210,
+    409,
+    91,
+    100,
+    980,
+    89,
+    264,
+    287,
+    667,
+    167,
+    161,
+    139,
+    538,
+    274,
+    511,
+    108,
+    98,
+    104,
+    99,
+    57,
+    62,
+    62,
+    52,
+    90,
+    111,
+    89,
+    77,
+    62,
+    469,
+    51,
+    84,
+    246,
+    117,
+    169,
+    180,
+    66,
+    49,
+    415,
+    275,
+    203,
+    160,
+    62,
+    85,
+    74,
+    63,
+    374,
+    386,
+    243,
+    291,
+    69,
+    132,
+    223,
+    216,
+    157,
+    77,
+    86,
+    423,
+    216,
+    76,
+    62,
+    243,
+    293,
+    62,
+    84,
+    66,
+    53,
+    360,
+    162,
+    70,
+    46,
+    584,
+    140,
+    718,
+    417,
+    420,
+    35,
+    174,
+    61,
+    91,
+    100,
+    223,
+    60,
+    128,
+    144,
+    192,
+    65,
+    224,
+    201,
+    52,
+    382,
+    94,
+    88,
+    71,
+    283,
+    204,
+    53,
+    226,
+    83,
+    617,
+    303,
+    81,
+    317,
+    213,
+    111,
+    570,
+    93,
+    83,
+    303,
+    210,
+    60,
+    452,
+    111,
+    67,
+    168,
+    346,
+    97,
+    386,
+    507,
+    234,
+    75,
+    317,
+    416,
+    251,
+    42,
+    943,
+    452,
+    196,
+    76,
+    321,
+    61,
+    72,
+    257,
+    100,
+    542,
+    183,
+    178,
+    244,
+    39,
+    82,
+    102,
+    81,
+    124,
+    71,
+    135,
+    89,
+    157,
+    98,
+    120,
+    180,
+    1046,
+    122,
+    83,
+    302,
+    240,
+    65
+  ],
+  "target_deletion_step_counts": [
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    3,
+    1,
+    1,
+    1,
+    1,
+    5,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    1,
+    1,
+    3,
+    3,
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    1,
+    1,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "deleted_char_distribution": {
+    "min": 33,
+    "q25": 79.5,
+    "median": 142.0,
+    "q75": 290.0,
+    "max": 1166,
+    "mean": 216.01149425287358
+  },
+  "e2_summary_path": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e2_gainratio_aligned_sensitivity/sanitization/gainratio_sanitization_summary.json",
+  "e2_summary_sha256": "66e7020f6f21458615334026ca16fa11c6e456deb6a847e8d738eef57a203e29",
+  "e2_deletion_log_path": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e2_gainratio_aligned_sensitivity/sanitization/gainratio_deletion_log.jsonl",
+  "e2_deletion_log_sha256": "9fda579dc5f07b202d6607ebe1f2c141fa0c3b34c1324bdab8dc39e80a704447"
+}
+E3 BUDGET FREEZE PASS
+ALIGNED BUDGET LOCKED: {'input_document_count': 3633, 'target_modified_document_count': 174, 'target_total_deleted_chars': 37586}
+[SKIP] seed 101 random corpus already complete
+{
+  "note": "Ground truth is used only after random selection for audit.",
+  "document_count": 3633,
+  "known_watermark_text_count": 222,
+  "watermarked_document_count_by_exact_scan": 143,
+  "modified_document_count": 174,
+  "randomly_hit_watermarked_documents": 13,
+  "randomly_modified_clean_documents": 161,
+  "unmodified_watermarked_documents": 130,
+  "unmodified_clean_documents": 3329,
+  "document_precision_against_watermark": 0.07471264367816093,
+  "watermarked_document_hit_rate": 0.09090909090909091,
+  "clean_document_modification_rate": 0.046131805157593124,
+  "exact_watermark_occurrences_before": 223,
+  "exact_watermark_occurrences_after": 209,
+  "exact_watermark_occurrence_removal_rate": 0.06278026905829596,
+  "documents_with_any_exact_watermark_after": 136
+}
+RANDOM POSTHOC AUDIT PASS
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+embedded 32/3633
+embedded 64/3633
+embedded 96/3633
+embedded 128/3633
+embedded 160/3633
+embedded 192/3633
+embedded 224/3633
+embedded 256/3633
+embedded 288/3633
+embedded 320/3633
+embedded 352/3633
+embedded 384/3633
+embedded 416/3633
+embedded 448/3633
+embedded 480/3633
+embedded 512/3633
+embedded 544/3633
+embedded 576/3633
+embedded 608/3633
+embedded 640/3633
+embedded 672/3633
+embedded 704/3633
+embedded 736/3633
+embedded 768/3633
+embedded 800/3633
+embedded 832/3633
+embedded 864/3633
+embedded 896/3633
+embedded 928/3633
+embedded 960/3633
+embedded 992/3633
+embedded 1024/3633
+embedded 1056/3633
+embedded 1088/3633
+embedded 1120/3633
+embedded 1152/3633
+embedded 1184/3633
+embedded 1216/3633
+embedded 1248/3633
+embedded 1280/3633
+embedded 1312/3633
+embedded 1344/3633
+embedded 1376/3633
+embedded 1408/3633
+embedded 1440/3633
+embedded 1472/3633
+embedded 1504/3633
+embedded 1536/3633
+embedded 1568/3633
+embedded 1600/3633
+embedded 1632/3633
+embedded 1664/3633
+embedded 1696/3633
+embedded 1728/3633
+embedded 1760/3633
+embedded 1792/3633
+embedded 1824/3633
+embedded 1856/3633
+embedded 1888/3633
+embedded 1920/3633
+embedded 1952/3633
+embedded 1984/3633
+embedded 2016/3633
+embedded 2048/3633
+embedded 2080/3633
+embedded 2112/3633
+embedded 2144/3633
+embedded 2176/3633
+embedded 2208/3633
+embedded 2240/3633
+embedded 2272/3633
+embedded 2304/3633
+embedded 2336/3633
+embedded 2368/3633
+embedded 2400/3633
+embedded 2432/3633
+embedded 2464/3633
+embedded 2496/3633
+embedded 2528/3633
+embedded 2560/3633
+embedded 2592/3633
+embedded 2624/3633
+embedded 2656/3633
+embedded 2688/3633
+embedded 2720/3633
+embedded 2752/3633
+embedded 2784/3633
+embedded 2816/3633
+embedded 2848/3633
+embedded 2880/3633
+embedded 2912/3633
+embedded 2944/3633
+embedded 2976/3633
+embedded 3008/3633
+embedded 3040/3633
+embedded 3072/3633
+embedded 3104/3633
+embedded 3136/3633
+embedded 3168/3633
+embedded 3200/3633
+embedded 3232/3633
+embedded 3264/3633
+embedded 3296/3633
+embedded 3328/3633
+embedded 3360/3633
+embedded 3392/3633
+embedded 3424/3633
+embedded 3456/3633
+embedded 3488/3633
+embedded 3520/3633
+embedded 3552/3633
+embedded 3584/3633
+embedded 3616/3633
+embedded 3633/3633
+{
+  "database": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e3_random_aligned_v2_seed_101",
+  "collection": "nfcorpus_contriever_cosine",
+  "count": 3633,
+  "expected_count": 3633,
+  "retriever": "contriever",
+  "distance": "cosine"
+}
+RANDOM VECTORSTORE BUILD PASS
+[RESUME] seed 101 verification is missing or incomplete
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models/PaLM2.py:1: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as palm
+Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-01 21:01:50] {main.py:539} INFO - args:Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-01 21:01:50] {main.py:548} INFO - llm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+[2026-08-01 21:01:50] {main.py:552} INFO - rllm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+nfcorpus_contriever_cosine
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+  0%|                                                     | 0/3633 [00:00<?, ?it/s]100%|██████████████████████████████████████| 3633/3633 [00:00<00:00, 114943.21it/s]
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Collection exist 总数: 3633
+[2026-08-01 21:01:51] {main.py:584} INFO - datalen:3633, collection_len:3633
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+[2026-08-01 21:01:51] {main.py:268} ERROR - /root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json does not exist!
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-5, correct-3-0.60, wrong-2-0.40,                 unknow-0-0.00 db_search-5-1.00,                  wmunit_exist-5-1.00, wmunit_WE-3-0.60
+[2026-08-01 21:02:05] {main.py:464} INFO - total-5, correct-3-0.60, wrong-2-0.40,                 unknow-0-0.00 db_search-5-1.00,                  wmunit_exist-5-1.00, wmunit_WE-3-0.60
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+2
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+2
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-10, correct-6-0.60, wrong-4-0.40,                 unknow-0-0.00 db_search-10-1.00,                  wmunit_exist-10-1.00, wmunit_WE-6-0.60
+[2026-08-01 21:02:19] {main.py:464} INFO - total-10, correct-6-0.60, wrong-4-0.40,                 unknow-0-0.00 db_search-10-1.00,                  wmunit_exist-10-1.00, wmunit_WE-6-0.60
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-15, correct-9-0.60, wrong-6-0.40,                 unknow-0-0.00 db_search-15-1.00,                  wmunit_exist-15-1.00, wmunit_WE-9-0.60
+[2026-08-01 21:02:32] {main.py:464} INFO - total-15, correct-9-0.60, wrong-6-0.40,                 unknow-0-0.00 db_search-15-1.00,                  wmunit_exist-15-1.00, wmunit_WE-9-0.60
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-20, correct-13-0.65, wrong-7-0.35,                 unknow-0-0.00 db_search-20-1.00,                  wmunit_exist-19-0.95, wmunit_WE-13-0.65
+[2026-08-01 21:02:44] {main.py:464} INFO - total-20, correct-13-0.65, wrong-7-0.35,                 unknow-0-0.00 db_search-20-1.00,                  wmunit_exist-19-0.95, wmunit_WE-13-0.65
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-25, correct-18-0.72, wrong-7-0.28,                 unknow-0-0.00 db_search-25-1.00,                  wmunit_exist-24-0.96, wmunit_WE-18-0.72
+[2026-08-01 21:02:57] {main.py:464} INFO - total-25, correct-18-0.72, wrong-7-0.28,                 unknow-0-0.00 db_search-25-1.00,                  wmunit_exist-24-0.96, wmunit_WE-18-0.72
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-30, correct-22-0.73, wrong-8-0.27,                 unknow-0-0.00 db_search-30-1.00,                  wmunit_exist-29-0.97, wmunit_WE-22-0.73
+[2026-08-01 21:03:10] {main.py:464} INFO - total-30, correct-22-0.73, wrong-8-0.27,                 unknow-0-0.00 db_search-30-1.00,                  wmunit_exist-29-0.97, wmunit_WE-22-0.73
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+total-30, correct-22-0.73, wrong-8-0.27,                 unknow-0-0.00 db_search-30-1.00,                  wmunit_exist-29-0.97, wmunit_WE-22-0.73
+[2026-08-01 21:03:10] {main.py:464} INFO - total-30, correct-22-0.73, wrong-8-0.27,                 unknow-0-0.00 db_search-30-1.00,                  wmunit_exist-29-0.97, wmunit_WE-22-0.73
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+[2026-08-01 21:03:10] {main.py:364} INFO - verify watermark doc len :30
+[PASS] seed 101 verification contains the frozen 30 units
+[SKIP] seed 202 random corpus already complete
+{
+  "note": "Ground truth is used only after random selection for audit.",
+  "document_count": 3633,
+  "known_watermark_text_count": 222,
+  "watermarked_document_count_by_exact_scan": 143,
+  "modified_document_count": 174,
+  "randomly_hit_watermarked_documents": 16,
+  "randomly_modified_clean_documents": 158,
+  "unmodified_watermarked_documents": 127,
+  "unmodified_clean_documents": 3332,
+  "document_precision_against_watermark": 0.09195402298850575,
+  "watermarked_document_hit_rate": 0.11188811188811189,
+  "clean_document_modification_rate": 0.04527220630372493,
+  "exact_watermark_occurrences_before": 223,
+  "exact_watermark_occurrences_after": 204,
+  "exact_watermark_occurrence_removal_rate": 0.08520179372197309,
+  "documents_with_any_exact_watermark_after": 130
+}
+RANDOM POSTHOC AUDIT PASS
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+embedded 32/3633
+embedded 64/3633
+embedded 96/3633
+embedded 128/3633
+embedded 160/3633
+embedded 192/3633
+embedded 224/3633
+embedded 256/3633
+embedded 288/3633
+embedded 320/3633
+embedded 352/3633
+embedded 384/3633
+embedded 416/3633
+embedded 448/3633
+embedded 480/3633
+embedded 512/3633
+embedded 544/3633
+embedded 576/3633
+embedded 608/3633
+embedded 640/3633
+embedded 672/3633
+embedded 704/3633
+embedded 736/3633
+embedded 768/3633
+embedded 800/3633
+embedded 832/3633
+embedded 864/3633
+embedded 896/3633
+embedded 928/3633
+embedded 960/3633
+embedded 992/3633
+embedded 1024/3633
+embedded 1056/3633
+embedded 1088/3633
+embedded 1120/3633
+embedded 1152/3633
+embedded 1184/3633
+embedded 1216/3633
+embedded 1248/3633
+embedded 1280/3633
+embedded 1312/3633
+embedded 1344/3633
+embedded 1376/3633
+embedded 1408/3633
+embedded 1440/3633
+embedded 1472/3633
+embedded 1504/3633
+embedded 1536/3633
+embedded 1568/3633
+embedded 1600/3633
+embedded 1632/3633
+embedded 1664/3633
+embedded 1696/3633
+embedded 1728/3633
+embedded 1760/3633
+embedded 1792/3633
+embedded 1824/3633
+embedded 1856/3633
+embedded 1888/3633
+embedded 1920/3633
+embedded 1952/3633
+embedded 1984/3633
+embedded 2016/3633
+embedded 2048/3633
+embedded 2080/3633
+embedded 2112/3633
+embedded 2144/3633
+embedded 2176/3633
+embedded 2208/3633
+embedded 2240/3633
+embedded 2272/3633
+embedded 2304/3633
+embedded 2336/3633
+embedded 2368/3633
+embedded 2400/3633
+embedded 2432/3633
+embedded 2464/3633
+embedded 2496/3633
+embedded 2528/3633
+embedded 2560/3633
+embedded 2592/3633
+embedded 2624/3633
+embedded 2656/3633
+embedded 2688/3633
+embedded 2720/3633
+embedded 2752/3633
+embedded 2784/3633
+embedded 2816/3633
+embedded 2848/3633
+embedded 2880/3633
+embedded 2912/3633
+embedded 2944/3633
+embedded 2976/3633
+embedded 3008/3633
+embedded 3040/3633
+embedded 3072/3633
+embedded 3104/3633
+embedded 3136/3633
+embedded 3168/3633
+embedded 3200/3633
+embedded 3232/3633
+embedded 3264/3633
+embedded 3296/3633
+embedded 3328/3633
+embedded 3360/3633
+embedded 3392/3633
+embedded 3424/3633
+embedded 3456/3633
+embedded 3488/3633
+embedded 3520/3633
+embedded 3552/3633
+embedded 3584/3633
+embedded 3616/3633
+embedded 3633/3633
+{
+  "database": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e3_random_aligned_v2_seed_202",
+  "collection": "nfcorpus_contriever_cosine",
+  "count": 3633,
+  "expected_count": 3633,
+  "retriever": "contriever",
+  "distance": "cosine"
+}
+RANDOM VECTORSTORE BUILD PASS
+[RESUME] seed 202 verification is missing or incomplete
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models/PaLM2.py:1: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as palm
+Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-01 21:03:49] {main.py:539} INFO - args:Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-01 21:03:49] {main.py:548} INFO - llm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+[2026-08-01 21:03:49] {main.py:552} INFO - rllm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+nfcorpus_contriever_cosine
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+  0%|                                                     | 0/3633 [00:00<?, ?it/s]100%|██████████████████████████████████████| 3633/3633 [00:00<00:00, 115747.34it/s]
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Collection exist 总数: 3633
+[2026-08-01 21:03:49] {main.py:584} INFO - datalen:3633, collection_len:3633
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+[2026-08-01 21:03:50] {main.py:268} ERROR - /root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json does not exist!
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-5, correct-3-0.60, wrong-2-0.40,                 unknow-0-0.00 db_search-5-1.00,                  wmunit_exist-5-1.00, wmunit_WE-3-0.60
+[2026-08-01 21:04:04] {main.py:464} INFO - total-5, correct-3-0.60, wrong-2-0.40,                 unknow-0-0.00 db_search-5-1.00,                  wmunit_exist-5-1.00, wmunit_WE-3-0.60
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+2
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-10, correct-7-0.70, wrong-3-0.30,                 unknow-0-0.00 db_search-10-1.00,                  wmunit_exist-10-1.00, wmunit_WE-7-0.70
+[2026-08-01 21:04:19] {main.py:464} INFO - total-10, correct-7-0.70, wrong-3-0.30,                 unknow-0-0.00 db_search-10-1.00,                  wmunit_exist-10-1.00, wmunit_WE-7-0.70
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-15, correct-12-0.80, wrong-3-0.20,                 unknow-0-0.00 db_search-15-1.00,                  wmunit_exist-15-1.00, wmunit_WE-12-0.80
+[2026-08-01 21:04:34] {main.py:464} INFO - total-15, correct-12-0.80, wrong-3-0.20,                 unknow-0-0.00 db_search-15-1.00,                  wmunit_exist-15-1.00, wmunit_WE-12-0.80
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-20, correct-16-0.80, wrong-4-0.20,                 unknow-0-0.00 db_search-20-1.00,                  wmunit_exist-19-0.95, wmunit_WE-16-0.80
+[2026-08-01 21:04:47] {main.py:464} INFO - total-20, correct-16-0.80, wrong-4-0.20,                 unknow-0-0.00 db_search-20-1.00,                  wmunit_exist-19-0.95, wmunit_WE-16-0.80
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-25, correct-21-0.84, wrong-4-0.16,                 unknow-0-0.00 db_search-25-1.00,                  wmunit_exist-24-0.96, wmunit_WE-21-0.84
+[2026-08-01 21:04:59] {main.py:464} INFO - total-25, correct-21-0.84, wrong-4-0.16,                 unknow-0-0.00 db_search-25-1.00,                  wmunit_exist-24-0.96, wmunit_WE-21-0.84
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-29-0.97,                  wmunit_exist-27-0.90, wmunit_WE-25-0.83
+[2026-08-01 21:05:12] {main.py:464} INFO - total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-29-0.97,                  wmunit_exist-27-0.90, wmunit_WE-25-0.83
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-29-0.97,                  wmunit_exist-27-0.90, wmunit_WE-25-0.83
+[2026-08-01 21:05:12] {main.py:464} INFO - total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-29-0.97,                  wmunit_exist-27-0.90, wmunit_WE-25-0.83
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+[2026-08-01 21:05:12] {main.py:364} INFO - verify watermark doc len :30
+[PASS] seed 202 verification contains the frozen 30 units
+[SKIP] seed 303 random corpus already complete
+{
+  "note": "Ground truth is used only after random selection for audit.",
+  "document_count": 3633,
+  "known_watermark_text_count": 222,
+  "watermarked_document_count_by_exact_scan": 143,
+  "modified_document_count": 174,
+  "randomly_hit_watermarked_documents": 17,
+  "randomly_modified_clean_documents": 157,
+  "unmodified_watermarked_documents": 126,
+  "unmodified_clean_documents": 3333,
+  "document_precision_against_watermark": 0.09770114942528736,
+  "watermarked_document_hit_rate": 0.11888111888111888,
+  "clean_document_modification_rate": 0.04498567335243553,
+  "exact_watermark_occurrences_before": 223,
+  "exact_watermark_occurrences_after": 201,
+  "exact_watermark_occurrence_removal_rate": 0.09865470852017937,
+  "documents_with_any_exact_watermark_after": 134
+}
+RANDOM POSTHOC AUDIT PASS
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+embedded 32/3633
+embedded 64/3633
+embedded 96/3633
+embedded 128/3633
+embedded 160/3633
+embedded 192/3633
+embedded 224/3633
+embedded 256/3633
+embedded 288/3633
+embedded 320/3633
+embedded 352/3633
+embedded 384/3633
+embedded 416/3633
+embedded 448/3633
+embedded 480/3633
+embedded 512/3633
+embedded 544/3633
+embedded 576/3633
+embedded 608/3633
+embedded 640/3633
+embedded 672/3633
+embedded 704/3633
+embedded 736/3633
+embedded 768/3633
+embedded 800/3633
+embedded 832/3633
+embedded 864/3633
+embedded 896/3633
+embedded 928/3633
+embedded 960/3633
+embedded 992/3633
+embedded 1024/3633
+embedded 1056/3633
+embedded 1088/3633
+embedded 1120/3633
+embedded 1152/3633
+embedded 1184/3633
+embedded 1216/3633
+embedded 1248/3633
+embedded 1280/3633
+embedded 1312/3633
+embedded 1344/3633
+embedded 1376/3633
+embedded 1408/3633
+embedded 1440/3633
+embedded 1472/3633
+embedded 1504/3633
+embedded 1536/3633
+embedded 1568/3633
+embedded 1600/3633
+embedded 1632/3633
+embedded 1664/3633
+embedded 1696/3633
+embedded 1728/3633
+embedded 1760/3633
+embedded 1792/3633
+embedded 1824/3633
+embedded 1856/3633
+embedded 1888/3633
+embedded 1920/3633
+embedded 1952/3633
+embedded 1984/3633
+embedded 2016/3633
+embedded 2048/3633
+embedded 2080/3633
+embedded 2112/3633
+embedded 2144/3633
+embedded 2176/3633
+embedded 2208/3633
+embedded 2240/3633
+embedded 2272/3633
+embedded 2304/3633
+embedded 2336/3633
+embedded 2368/3633
+embedded 2400/3633
+embedded 2432/3633
+embedded 2464/3633
+embedded 2496/3633
+embedded 2528/3633
+embedded 2560/3633
+embedded 2592/3633
+embedded 2624/3633
+embedded 2656/3633
+embedded 2688/3633
+embedded 2720/3633
+embedded 2752/3633
+embedded 2784/3633
+embedded 2816/3633
+embedded 2848/3633
+embedded 2880/3633
+embedded 2912/3633
+embedded 2944/3633
+embedded 2976/3633
+embedded 3008/3633
+embedded 3040/3633
+embedded 3072/3633
+embedded 3104/3633
+embedded 3136/3633
+embedded 3168/3633
+embedded 3200/3633
+embedded 3232/3633
+embedded 3264/3633
+embedded 3296/3633
+embedded 3328/3633
+embedded 3360/3633
+embedded 3392/3633
+embedded 3424/3633
+embedded 3456/3633
+embedded 3488/3633
+embedded 3520/3633
+embedded 3552/3633
+embedded 3584/3633
+embedded 3616/3633
+embedded 3633/3633
+{
+  "database": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e3_random_aligned_v2_seed_303",
+  "collection": "nfcorpus_contriever_cosine",
+  "count": 3633,
+  "expected_count": 3633,
+  "retriever": "contriever",
+  "distance": "cosine"
+}
+RANDOM VECTORSTORE BUILD PASS
+[RESUME] seed 303 verification is missing or incomplete
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models/PaLM2.py:1: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as palm
+Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-01 21:05:51] {main.py:539} INFO - args:Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-01 21:05:51] {main.py:548} INFO - llm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+[2026-08-01 21:05:51] {main.py:552} INFO - rllm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+nfcorpus_contriever_cosine
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+  0%|                                                     | 0/3633 [00:00<?, ?it/s]100%|██████████████████████████████████████| 3633/3633 [00:00<00:00, 116753.04it/s]
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Collection exist 总数: 3633
+[2026-08-01 21:05:51] {main.py:584} INFO - datalen:3633, collection_len:3633
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+[2026-08-01 21:05:52] {main.py:268} ERROR - /root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json does not exist!
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-5, correct-3-0.60, wrong-2-0.40,                 unknow-0-0.00 db_search-5-1.00,                  wmunit_exist-4-0.80, wmunit_WE-2-0.40
+[2026-08-01 21:06:07] {main.py:464} INFO - total-5, correct-3-0.60, wrong-2-0.40,                 unknow-0-0.00 db_search-5-1.00,                  wmunit_exist-4-0.80, wmunit_WE-2-0.40
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-10, correct-7-0.70, wrong-3-0.30,                 unknow-0-0.00 db_search-9-0.90,                  wmunit_exist-7-0.70, wmunit_WE-6-0.60
+[2026-08-01 21:06:21] {main.py:464} INFO - total-10, correct-7-0.70, wrong-3-0.30,                 unknow-0-0.00 db_search-9-0.90,                  wmunit_exist-7-0.70, wmunit_WE-6-0.60
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-15, correct-12-0.80, wrong-3-0.20,                 unknow-0-0.00 db_search-14-0.93,                  wmunit_exist-12-0.80, wmunit_WE-11-0.73
+[2026-08-01 21:06:41] {main.py:464} INFO - total-15, correct-12-0.80, wrong-3-0.20,                 unknow-0-0.00 db_search-14-0.93,                  wmunit_exist-12-0.80, wmunit_WE-11-0.73
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-20, correct-16-0.80, wrong-4-0.20,                 unknow-0-0.00 db_search-19-0.95,                  wmunit_exist-16-0.80, wmunit_WE-15-0.75
+[2026-08-01 21:06:55] {main.py:464} INFO - total-20, correct-16-0.80, wrong-4-0.20,                 unknow-0-0.00 db_search-19-0.95,                  wmunit_exist-16-0.80, wmunit_WE-15-0.75
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-25, correct-21-0.84, wrong-4-0.16,                 unknow-0-0.00 db_search-24-0.96,                  wmunit_exist-21-0.84, wmunit_WE-20-0.80
+[2026-08-01 21:07:09] {main.py:464} INFO - total-25, correct-21-0.84, wrong-4-0.16,                 unknow-0-0.00 db_search-24-0.96,                  wmunit_exist-21-0.84, wmunit_WE-20-0.80
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-28-0.93,                  wmunit_exist-24-0.80, wmunit_WE-24-0.80
+[2026-08-01 21:07:21] {main.py:464} INFO - total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-28-0.93,                  wmunit_exist-24-0.80, wmunit_WE-24-0.80
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-28-0.93,                  wmunit_exist-24-0.80, wmunit_WE-24-0.80
+[2026-08-01 21:07:21] {main.py:464} INFO - total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-28-0.93,                  wmunit_exist-24-0.80, wmunit_WE-24-0.80
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+[2026-08-01 21:07:21] {main.py:364} INFO - verify watermark doc len :30
+[PASS] seed 303 verification contains the frozen 30 units
+[SKIP] seed 404 random corpus already complete
+{
+  "note": "Ground truth is used only after random selection for audit.",
+  "document_count": 3633,
+  "known_watermark_text_count": 222,
+  "watermarked_document_count_by_exact_scan": 143,
+  "modified_document_count": 174,
+  "randomly_hit_watermarked_documents": 21,
+  "randomly_modified_clean_documents": 153,
+  "unmodified_watermarked_documents": 122,
+  "unmodified_clean_documents": 3337,
+  "document_precision_against_watermark": 0.1206896551724138,
+  "watermarked_document_hit_rate": 0.14685314685314685,
+  "clean_document_modification_rate": 0.043839541547277934,
+  "exact_watermark_occurrences_before": 223,
+  "exact_watermark_occurrences_after": 197,
+  "exact_watermark_occurrence_removal_rate": 0.11659192825112108,
+  "documents_with_any_exact_watermark_after": 126
+}
+RANDOM POSTHOC AUDIT PASS
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+embedded 32/3633
+embedded 64/3633
+embedded 96/3633
+embedded 128/3633
+embedded 160/3633
+embedded 192/3633
+embedded 224/3633
+embedded 256/3633
+embedded 288/3633
+embedded 320/3633
+embedded 352/3633
+embedded 384/3633
+embedded 416/3633
+embedded 448/3633
+embedded 480/3633
+embedded 512/3633
+embedded 544/3633
+embedded 576/3633
+embedded 608/3633
+embedded 640/3633
+embedded 672/3633
+embedded 704/3633
+embedded 736/3633
+embedded 768/3633
+embedded 800/3633
+embedded 832/3633
+embedded 864/3633
+embedded 896/3633
+embedded 928/3633
+embedded 960/3633
+embedded 992/3633
+embedded 1024/3633
+embedded 1056/3633
+embedded 1088/3633
+embedded 1120/3633
+embedded 1152/3633
+embedded 1184/3633
+embedded 1216/3633
+embedded 1248/3633
+embedded 1280/3633
+embedded 1312/3633
+embedded 1344/3633
+embedded 1376/3633
+embedded 1408/3633
+embedded 1440/3633
+embedded 1472/3633
+embedded 1504/3633
+embedded 1536/3633
+embedded 1568/3633
+embedded 1600/3633
+embedded 1632/3633
+embedded 1664/3633
+embedded 1696/3633
+embedded 1728/3633
+embedded 1760/3633
+embedded 1792/3633
+embedded 1824/3633
+embedded 1856/3633
+embedded 1888/3633
+embedded 1920/3633
+embedded 1952/3633
+embedded 1984/3633
+embedded 2016/3633
+embedded 2048/3633
+embedded 2080/3633
+embedded 2112/3633
+embedded 2144/3633
+embedded 2176/3633
+embedded 2208/3633
+embedded 2240/3633
+embedded 2272/3633
+embedded 2304/3633
+embedded 2336/3633
+embedded 2368/3633
+embedded 2400/3633
+embedded 2432/3633
+embedded 2464/3633
+embedded 2496/3633
+embedded 2528/3633
+embedded 2560/3633
+embedded 2592/3633
+embedded 2624/3633
+embedded 2656/3633
+embedded 2688/3633
+embedded 2720/3633
+embedded 2752/3633
+embedded 2784/3633
+embedded 2816/3633
+embedded 2848/3633
+embedded 2880/3633
+embedded 2912/3633
+embedded 2944/3633
+embedded 2976/3633
+embedded 3008/3633
+embedded 3040/3633
+embedded 3072/3633
+embedded 3104/3633
+embedded 3136/3633
+embedded 3168/3633
+embedded 3200/3633
+embedded 3232/3633
+embedded 3264/3633
+embedded 3296/3633
+embedded 3328/3633
+embedded 3360/3633
+embedded 3392/3633
+embedded 3424/3633
+embedded 3456/3633
+embedded 3488/3633
+embedded 3520/3633
+embedded 3552/3633
+embedded 3584/3633
+embedded 3616/3633
+embedded 3633/3633
+{
+  "database": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e3_random_aligned_v2_seed_404",
+  "collection": "nfcorpus_contriever_cosine",
+  "count": 3633,
+  "expected_count": 3633,
+  "retriever": "contriever",
+  "distance": "cosine"
+}
+RANDOM VECTORSTORE BUILD PASS
+[RESUME] seed 404 verification is missing or incomplete
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models/PaLM2.py:1: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as palm
+Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-01 21:07:59] {main.py:539} INFO - args:Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-01 21:07:59] {main.py:548} INFO - llm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+[2026-08-01 21:07:59] {main.py:552} INFO - rllm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+nfcorpus_contriever_cosine
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+  0%|                                                     | 0/3633 [00:00<?, ?it/s]100%|██████████████████████████████████████| 3633/3633 [00:00<00:00, 113502.27it/s]
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Collection exist 总数: 3633
+[2026-08-01 21:08:00] {main.py:584} INFO - datalen:3633, collection_len:3633
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+[2026-08-01 21:08:00] {main.py:268} ERROR - /root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json does not exist!
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-5, correct-3-0.60, wrong-2-0.40,                 unknow-0-0.00 db_search-5-1.00,                  wmunit_exist-4-0.80, wmunit_WE-2-0.40
+[2026-08-01 21:08:14] {main.py:464} INFO - total-5, correct-3-0.60, wrong-2-0.40,                 unknow-0-0.00 db_search-5-1.00,                  wmunit_exist-4-0.80, wmunit_WE-2-0.40
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+2
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+2
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-10, correct-6-0.60, wrong-4-0.40,                 unknow-0-0.00 db_search-10-1.00,                  wmunit_exist-9-0.90, wmunit_WE-5-0.50
+[2026-08-01 21:08:32] {main.py:464} INFO - total-10, correct-6-0.60, wrong-4-0.40,                 unknow-0-0.00 db_search-10-1.00,                  wmunit_exist-9-0.90, wmunit_WE-5-0.50
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-15, correct-10-0.67, wrong-5-0.33,                 unknow-0-0.00 db_search-14-0.93,                  wmunit_exist-12-0.80, wmunit_WE-9-0.60
+[2026-08-01 21:08:43] {main.py:464} INFO - total-15, correct-10-0.67, wrong-5-0.33,                 unknow-0-0.00 db_search-14-0.93,                  wmunit_exist-12-0.80, wmunit_WE-9-0.60
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-20, correct-14-0.70, wrong-6-0.30,                 unknow-0-0.00 db_search-19-0.95,                  wmunit_exist-16-0.80, wmunit_WE-13-0.65
+[2026-08-01 21:08:55] {main.py:464} INFO - total-20, correct-14-0.70, wrong-6-0.30,                 unknow-0-0.00 db_search-19-0.95,                  wmunit_exist-16-0.80, wmunit_WE-13-0.65
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+2
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-25, correct-19-0.76, wrong-6-0.24,                 unknow-0-0.00 db_search-24-0.96,                  wmunit_exist-21-0.84, wmunit_WE-18-0.72
+[2026-08-01 21:09:07] {main.py:464} INFO - total-25, correct-19-0.76, wrong-6-0.24,                 unknow-0-0.00 db_search-24-0.96,                  wmunit_exist-21-0.84, wmunit_WE-18-0.72
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-30, correct-22-0.73, wrong-8-0.27,                 unknow-0-0.00 db_search-29-0.97,                  wmunit_exist-26-0.87, wmunit_WE-21-0.70
+[2026-08-01 21:09:18] {main.py:464} INFO - total-30, correct-22-0.73, wrong-8-0.27,                 unknow-0-0.00 db_search-29-0.97,                  wmunit_exist-26-0.87, wmunit_WE-21-0.70
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+total-30, correct-22-0.73, wrong-8-0.27,                 unknow-0-0.00 db_search-29-0.97,                  wmunit_exist-26-0.87, wmunit_WE-21-0.70
+[2026-08-01 21:09:18] {main.py:464} INFO - total-30, correct-22-0.73, wrong-8-0.27,                 unknow-0-0.00 db_search-29-0.97,                  wmunit_exist-26-0.87, wmunit_WE-21-0.70
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+[2026-08-01 21:09:18] {main.py:364} INFO - verify watermark doc len :30
+[PASS] seed 404 verification contains the frozen 30 units
+[SKIP] seed 505 random corpus already complete
+{
+  "note": "Ground truth is used only after random selection for audit.",
+  "document_count": 3633,
+  "known_watermark_text_count": 222,
+  "watermarked_document_count_by_exact_scan": 143,
+  "modified_document_count": 174,
+  "randomly_hit_watermarked_documents": 12,
+  "randomly_modified_clean_documents": 162,
+  "unmodified_watermarked_documents": 131,
+  "unmodified_clean_documents": 3328,
+  "document_precision_against_watermark": 0.06896551724137931,
+  "watermarked_document_hit_rate": 0.08391608391608392,
+  "clean_document_modification_rate": 0.046418338108882524,
+  "exact_watermark_occurrences_before": 223,
+  "exact_watermark_occurrences_after": 209,
+  "exact_watermark_occurrence_removal_rate": 0.06278026905829596,
+  "documents_with_any_exact_watermark_after": 136
+}
+RANDOM POSTHOC AUDIT PASS
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+embedded 32/3633
+embedded 64/3633
+embedded 96/3633
+embedded 128/3633
+embedded 160/3633
+embedded 192/3633
+embedded 224/3633
+embedded 256/3633
+embedded 288/3633
+embedded 320/3633
+embedded 352/3633
+embedded 384/3633
+embedded 416/3633
+embedded 448/3633
+embedded 480/3633
+embedded 512/3633
+embedded 544/3633
+embedded 576/3633
+embedded 608/3633
+embedded 640/3633
+embedded 672/3633
+embedded 704/3633
+embedded 736/3633
+embedded 768/3633
+embedded 800/3633
+embedded 832/3633
+embedded 864/3633
+embedded 896/3633
+embedded 928/3633
+embedded 960/3633
+embedded 992/3633
+embedded 1024/3633
+embedded 1056/3633
+embedded 1088/3633
+embedded 1120/3633
+embedded 1152/3633
+embedded 1184/3633
+embedded 1216/3633
+embedded 1248/3633
+embedded 1280/3633
+embedded 1312/3633
+embedded 1344/3633
+embedded 1376/3633
+embedded 1408/3633
+embedded 1440/3633
+embedded 1472/3633
+embedded 1504/3633
+embedded 1536/3633
+embedded 1568/3633
+embedded 1600/3633
+embedded 1632/3633
+embedded 1664/3633
+embedded 1696/3633
+embedded 1728/3633
+embedded 1760/3633
+embedded 1792/3633
+embedded 1824/3633
+embedded 1856/3633
+embedded 1888/3633
+embedded 1920/3633
+embedded 1952/3633
+embedded 1984/3633
+embedded 2016/3633
+embedded 2048/3633
+embedded 2080/3633
+embedded 2112/3633
+embedded 2144/3633
+embedded 2176/3633
+embedded 2208/3633
+embedded 2240/3633
+embedded 2272/3633
+embedded 2304/3633
+embedded 2336/3633
+embedded 2368/3633
+embedded 2400/3633
+embedded 2432/3633
+embedded 2464/3633
+embedded 2496/3633
+embedded 2528/3633
+embedded 2560/3633
+embedded 2592/3633
+embedded 2624/3633
+embedded 2656/3633
+embedded 2688/3633
+embedded 2720/3633
+embedded 2752/3633
+embedded 2784/3633
+embedded 2816/3633
+embedded 2848/3633
+embedded 2880/3633
+embedded 2912/3633
+embedded 2944/3633
+embedded 2976/3633
+embedded 3008/3633
+embedded 3040/3633
+embedded 3072/3633
+embedded 3104/3633
+embedded 3136/3633
+embedded 3168/3633
+embedded 3200/3633
+embedded 3232/3633
+embedded 3264/3633
+embedded 3296/3633
+embedded 3328/3633
+embedded 3360/3633
+embedded 3392/3633
+embedded 3424/3633
+embedded 3456/3633
+embedded 3488/3633
+embedded 3520/3633
+embedded 3552/3633
+embedded 3584/3633
+embedded 3616/3633
+embedded 3633/3633
+{
+  "database": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e3_random_aligned_v2_seed_505",
+  "collection": "nfcorpus_contriever_cosine",
+  "count": 3633,
+  "expected_count": 3633,
+  "retriever": "contriever",
+  "distance": "cosine"
+}
+RANDOM VECTORSTORE BUILD PASS
+[RESUME] seed 505 verification is missing or incomplete
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models/PaLM2.py:1: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as palm
+Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-01 21:09:57] {main.py:539} INFO - args:Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-01 21:09:57] {main.py:548} INFO - llm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+[2026-08-01 21:09:57] {main.py:552} INFO - rllm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+nfcorpus_contriever_cosine
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+  0%|                                                     | 0/3633 [00:00<?, ?it/s]100%|██████████████████████████████████████| 3633/3633 [00:00<00:00, 116013.48it/s]
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Collection exist 总数: 3633
+[2026-08-01 21:09:57] {main.py:584} INFO - datalen:3633, collection_len:3633
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+[2026-08-01 21:09:58] {main.py:268} ERROR - /root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json does not exist!
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-5, correct-3-0.60, wrong-2-0.40,                 unknow-0-0.00 db_search-5-1.00,                  wmunit_exist-4-0.80, wmunit_WE-2-0.40
+[2026-08-01 21:10:10] {main.py:464} INFO - total-5, correct-3-0.60, wrong-2-0.40,                 unknow-0-0.00 db_search-5-1.00,                  wmunit_exist-4-0.80, wmunit_WE-2-0.40
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+2
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-10, correct-7-0.70, wrong-3-0.30,                 unknow-0-0.00 db_search-10-1.00,                  wmunit_exist-9-0.90, wmunit_WE-6-0.60
+[2026-08-01 21:10:23] {main.py:464} INFO - total-10, correct-7-0.70, wrong-3-0.30,                 unknow-0-0.00 db_search-10-1.00,                  wmunit_exist-9-0.90, wmunit_WE-6-0.60
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-15, correct-12-0.80, wrong-3-0.20,                 unknow-0-0.00 db_search-15-1.00,                  wmunit_exist-14-0.93, wmunit_WE-11-0.73
+[2026-08-01 21:10:34] {main.py:464} INFO - total-15, correct-12-0.80, wrong-3-0.20,                 unknow-0-0.00 db_search-15-1.00,                  wmunit_exist-14-0.93, wmunit_WE-11-0.73
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-20, correct-16-0.80, wrong-4-0.20,                 unknow-0-0.00 db_search-20-1.00,                  wmunit_exist-18-0.90, wmunit_WE-15-0.75
+[2026-08-01 21:10:46] {main.py:464} INFO - total-20, correct-16-0.80, wrong-4-0.20,                 unknow-0-0.00 db_search-20-1.00,                  wmunit_exist-18-0.90, wmunit_WE-15-0.75
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-25, correct-20-0.80, wrong-5-0.20,                 unknow-0-0.00 db_search-25-1.00,                  wmunit_exist-23-0.92, wmunit_WE-19-0.76
+[2026-08-01 21:10:56] {main.py:464} INFO - total-25, correct-20-0.80, wrong-5-0.20,                 unknow-0-0.00 db_search-25-1.00,                  wmunit_exist-23-0.92, wmunit_WE-19-0.76
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+3
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-30-1.00,                  wmunit_exist-28-0.93, wmunit_WE-24-0.80
+[2026-08-01 21:11:08] {main.py:464} INFO - total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-30-1.00,                  wmunit_exist-28-0.93, wmunit_WE-24-0.80
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-30-1.00,                  wmunit_exist-28-0.93, wmunit_WE-24-0.80
+[2026-08-01 21:11:08] {main.py:464} INFO - total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-30-1.00,                  wmunit_exist-28-0.93, wmunit_WE-24-0.80
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+[2026-08-01 21:11:08] {main.py:364} INFO - verify watermark doc len :30
+[PASS] seed 505 verification contains the frozen 30 units
+{
+  "total": 30,
+  "e0_watermarked_WSN": 26,
+  "e1_oracle": {
+    "WSN": 5,
+    "absolute_WSN_drop_from_e0": 21,
+    "relative_WSN_reduction_from_e0": 0.8076923076923077,
+    "paired_yes_to_no": 23,
+    "paired_yes_to_yes": 3,
+    "paired_no_to_yes": 2,
+    "paired_attack_success_rate": 0.8846153846153846,
+    "unknown_count": 0
+  },
+  "e2_gainratio": {
+    "WSN": 21,
+    "absolute_WSN_drop_from_e0": 5,
+    "relative_WSN_reduction_from_e0": 0.19230769230769232,
+    "paired_yes_to_no": 5,
+    "paired_yes_to_yes": 21,
+    "paired_no_to_yes": 0,
+    "paired_attack_success_rate": 0.19230769230769232,
+    "unknown_count": 0
+  },
+  "e2_oracle_gap_closure": 0.23809523809523808,
+  "random_seed_count": 5,
+  "random_WSN_values": [
+    22,
+    25,
+    25,
+    22,
+    25
+  ],
+  "random_WSN_mean": 23.8,
+  "random_WSN_std": 1.6431676725154984,
+  "random_WSN_min": 22,
+  "random_WSN_max": 25,
+  "random_paired_ASR_mean": 0.08461538461538462,
+  "gainratio_WSN_advantage_vs_random_mean": 2.8000000000000007,
+  "gainratio_beats_random_seed_count": 5,
+  "gainratio_ties_random_seed_count": 0,
+  "gainratio_worse_than_random_seed_count": 0,
+  "random_results": [
+    {
+      "WSN": 22,
+      "absolute_WSN_drop_from_e0": 4,
+      "relative_WSN_reduction_from_e0": 0.15384615384615385,
+      "paired_yes_to_no": 4,
+      "paired_yes_to_yes": 22,
+      "paired_no_to_yes": 0,
+      "paired_attack_success_rate": 0.15384615384615385,
+      "unknown_count": 0,
+      "seed": 101,
+      "budget": {
+        "seed": 101,
+        "input_document_count": 3633,
+        "eligible_document_count": 3630,
+        "modified_document_count": 174,
+        "target_modified_document_count": 174,
+        "modified_document_count_match": true,
+        "target_total_deleted_chars": 37586,
+        "actual_total_deleted_chars": 37753,
+        "absolute_total_budget_error": 167,
+        "relative_total_budget_error": 0.00444314372372692,
+        "budget_match_pass": true,
+        "selection_uses_ground_truth": false,
+        "selection_policy": "Uniformly randomized eligible-document pool with sentence-boundary suffix cuts chosen to approximately match E2 per-document deletion lengths.",
+        "corpus": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/sanitization/random_sanitized_corpus.jsonl",
+        "corpus_sha256": "b1f4a4c70f53318fd98252d6ffeb05186f6c7cc008d89bd7b2ccc2f6d085bba7",
+        "deletion_log": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_101/sanitization/random_deletion_log.jsonl",
+        "deletion_log_sha256": "a8a4ac3d8bfdb0f08675344625fc31fe0db81c51c272c269f53c06d4fbd9a0ea"
+      },
+      "posthoc_ground_truth": {
+        "note": "Ground truth is used only after random selection for audit.",
+        "document_count": 3633,
+        "known_watermark_text_count": 222,
+        "watermarked_document_count_by_exact_scan": 143,
+        "modified_document_count": 174,
+        "randomly_hit_watermarked_documents": 13,
+        "randomly_modified_clean_documents": 161,
+        "unmodified_watermarked_documents": 130,
+        "unmodified_clean_documents": 3329,
+        "document_precision_against_watermark": 0.07471264367816093,
+        "watermarked_document_hit_rate": 0.09090909090909091,
+        "clean_document_modification_rate": 0.046131805157593124,
+        "exact_watermark_occurrences_before": 223,
+        "exact_watermark_occurrences_after": 209,
+        "exact_watermark_occurrence_removal_rate": 0.06278026905829596,
+        "documents_with_any_exact_watermark_after": 136
+      }
+    },
+    {
+      "WSN": 25,
+      "absolute_WSN_drop_from_e0": 1,
+      "relative_WSN_reduction_from_e0": 0.038461538461538464,
+      "paired_yes_to_no": 1,
+      "paired_yes_to_yes": 25,
+      "paired_no_to_yes": 0,
+      "paired_attack_success_rate": 0.038461538461538464,
+      "unknown_count": 0,
+      "seed": 202,
+      "budget": {
+        "seed": 202,
+        "input_document_count": 3633,
+        "eligible_document_count": 3630,
+        "modified_document_count": 174,
+        "target_modified_document_count": 174,
+        "modified_document_count_match": true,
+        "target_total_deleted_chars": 37586,
+        "actual_total_deleted_chars": 37748,
+        "absolute_total_budget_error": 162,
+        "relative_total_budget_error": 0.004310115468525515,
+        "budget_match_pass": true,
+        "selection_uses_ground_truth": false,
+        "selection_policy": "Uniformly randomized eligible-document pool with sentence-boundary suffix cuts chosen to approximately match E2 per-document deletion lengths.",
+        "corpus": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/sanitization/random_sanitized_corpus.jsonl",
+        "corpus_sha256": "9c80539cdc610c4214a0b76cea7c525fc0f68aed6d6f537b277faece3fa510b4",
+        "deletion_log": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_202/sanitization/random_deletion_log.jsonl",
+        "deletion_log_sha256": "bbc23ecbd1bda2496bba83e7540d1055136ad3b37dee97d80008537c89bd43a9"
+      },
+      "posthoc_ground_truth": {
+        "note": "Ground truth is used only after random selection for audit.",
+        "document_count": 3633,
+        "known_watermark_text_count": 222,
+        "watermarked_document_count_by_exact_scan": 143,
+        "modified_document_count": 174,
+        "randomly_hit_watermarked_documents": 16,
+        "randomly_modified_clean_documents": 158,
+        "unmodified_watermarked_documents": 127,
+        "unmodified_clean_documents": 3332,
+        "document_precision_against_watermark": 0.09195402298850575,
+        "watermarked_document_hit_rate": 0.11188811188811189,
+        "clean_document_modification_rate": 0.04527220630372493,
+        "exact_watermark_occurrences_before": 223,
+        "exact_watermark_occurrences_after": 204,
+        "exact_watermark_occurrence_removal_rate": 0.08520179372197309,
+        "documents_with_any_exact_watermark_after": 130
+      }
+    },
+    {
+      "WSN": 25,
+      "absolute_WSN_drop_from_e0": 1,
+      "relative_WSN_reduction_from_e0": 0.038461538461538464,
+      "paired_yes_to_no": 1,
+      "paired_yes_to_yes": 25,
+      "paired_no_to_yes": 0,
+      "paired_attack_success_rate": 0.038461538461538464,
+      "unknown_count": 0,
+      "seed": 303,
+      "budget": {
+        "seed": 303,
+        "input_document_count": 3633,
+        "eligible_document_count": 3630,
+        "modified_document_count": 174,
+        "target_modified_document_count": 174,
+        "modified_document_count_match": true,
+        "target_total_deleted_chars": 37586,
+        "actual_total_deleted_chars": 37754,
+        "absolute_total_budget_error": 168,
+        "relative_total_budget_error": 0.0044697493747672,
+        "budget_match_pass": true,
+        "selection_uses_ground_truth": false,
+        "selection_policy": "Uniformly randomized eligible-document pool with sentence-boundary suffix cuts chosen to approximately match E2 per-document deletion lengths.",
+        "corpus": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/sanitization/random_sanitized_corpus.jsonl",
+        "corpus_sha256": "e192cb2582275a18c9a4fd2956b89e660dd6bdfa39ebf3413a1f12c057732c91",
+        "deletion_log": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_303/sanitization/random_deletion_log.jsonl",
+        "deletion_log_sha256": "3fcdb3240df8fc09b3738d8915a94832f139e41569a14f5580b33b66ec304049"
+      },
+      "posthoc_ground_truth": {
+        "note": "Ground truth is used only after random selection for audit.",
+        "document_count": 3633,
+        "known_watermark_text_count": 222,
+        "watermarked_document_count_by_exact_scan": 143,
+        "modified_document_count": 174,
+        "randomly_hit_watermarked_documents": 17,
+        "randomly_modified_clean_documents": 157,
+        "unmodified_watermarked_documents": 126,
+        "unmodified_clean_documents": 3333,
+        "document_precision_against_watermark": 0.09770114942528736,
+        "watermarked_document_hit_rate": 0.11888111888111888,
+        "clean_document_modification_rate": 0.04498567335243553,
+        "exact_watermark_occurrences_before": 223,
+        "exact_watermark_occurrences_after": 201,
+        "exact_watermark_occurrence_removal_rate": 0.09865470852017937,
+        "documents_with_any_exact_watermark_after": 134
+      }
+    },
+    {
+      "WSN": 22,
+      "absolute_WSN_drop_from_e0": 4,
+      "relative_WSN_reduction_from_e0": 0.15384615384615385,
+      "paired_yes_to_no": 4,
+      "paired_yes_to_yes": 22,
+      "paired_no_to_yes": 0,
+      "paired_attack_success_rate": 0.15384615384615385,
+      "unknown_count": 0,
+      "seed": 404,
+      "budget": {
+        "seed": 404,
+        "input_document_count": 3633,
+        "eligible_document_count": 3630,
+        "modified_document_count": 174,
+        "target_modified_document_count": 174,
+        "modified_document_count_match": true,
+        "target_total_deleted_chars": 37586,
+        "actual_total_deleted_chars": 37754,
+        "absolute_total_budget_error": 168,
+        "relative_total_budget_error": 0.0044697493747672,
+        "budget_match_pass": true,
+        "selection_uses_ground_truth": false,
+        "selection_policy": "Uniformly randomized eligible-document pool with sentence-boundary suffix cuts chosen to approximately match E2 per-document deletion lengths.",
+        "corpus": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/sanitization/random_sanitized_corpus.jsonl",
+        "corpus_sha256": "904a734bf9a8e8cc6001b74d1c0a65a49898ab3c6d8fa78d626de5343b9f2c23",
+        "deletion_log": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_404/sanitization/random_deletion_log.jsonl",
+        "deletion_log_sha256": "351fbb04cd1fef3d112f4fcae27d74e838a9f6ef435de233705ed55fd5b71152"
+      },
+      "posthoc_ground_truth": {
+        "note": "Ground truth is used only after random selection for audit.",
+        "document_count": 3633,
+        "known_watermark_text_count": 222,
+        "watermarked_document_count_by_exact_scan": 143,
+        "modified_document_count": 174,
+        "randomly_hit_watermarked_documents": 21,
+        "randomly_modified_clean_documents": 153,
+        "unmodified_watermarked_documents": 122,
+        "unmodified_clean_documents": 3337,
+        "document_precision_against_watermark": 0.1206896551724138,
+        "watermarked_document_hit_rate": 0.14685314685314685,
+        "clean_document_modification_rate": 0.043839541547277934,
+        "exact_watermark_occurrences_before": 223,
+        "exact_watermark_occurrences_after": 197,
+        "exact_watermark_occurrence_removal_rate": 0.11659192825112108,
+        "documents_with_any_exact_watermark_after": 126
+      }
+    },
+    {
+      "WSN": 25,
+      "absolute_WSN_drop_from_e0": 1,
+      "relative_WSN_reduction_from_e0": 0.038461538461538464,
+      "paired_yes_to_no": 1,
+      "paired_yes_to_yes": 25,
+      "paired_no_to_yes": 0,
+      "paired_attack_success_rate": 0.038461538461538464,
+      "unknown_count": 0,
+      "seed": 505,
+      "budget": {
+        "seed": 505,
+        "input_document_count": 3633,
+        "eligible_document_count": 3630,
+        "modified_document_count": 174,
+        "target_modified_document_count": 174,
+        "modified_document_count_match": true,
+        "target_total_deleted_chars": 37586,
+        "actual_total_deleted_chars": 37751,
+        "absolute_total_budget_error": 165,
+        "relative_total_budget_error": 0.004389932421646358,
+        "budget_match_pass": true,
+        "selection_uses_ground_truth": false,
+        "selection_policy": "Uniformly randomized eligible-document pool with sentence-boundary suffix cuts chosen to approximately match E2 per-document deletion lengths.",
+        "corpus": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/sanitization/random_sanitized_corpus.jsonl",
+        "corpus_sha256": "6e178a4a72e5ed932871d1cfeded645d4985a22169cdd683e5770b53865741c0",
+        "deletion_log": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/seed_505/sanitization/random_deletion_log.jsonl",
+        "deletion_log_sha256": "fbf1b649609fec2414ea47ec43a2df8ecc7e7f5ebffb6c48ba6fddcdc2538542"
+      },
+      "posthoc_ground_truth": {
+        "note": "Ground truth is used only after random selection for audit.",
+        "document_count": 3633,
+        "known_watermark_text_count": 222,
+        "watermarked_document_count_by_exact_scan": 143,
+        "modified_document_count": 174,
+        "randomly_hit_watermarked_documents": 12,
+        "randomly_modified_clean_documents": 162,
+        "unmodified_watermarked_documents": 131,
+        "unmodified_clean_documents": 3328,
+        "document_precision_against_watermark": 0.06896551724137931,
+        "watermarked_document_hit_rate": 0.08391608391608392,
+        "clean_document_modification_rate": 0.046418338108882524,
+        "exact_watermark_occurrences_before": 223,
+        "exact_watermark_occurrences_after": 209,
+        "exact_watermark_occurrence_removal_rate": 0.06278026905829596,
+        "documents_with_any_exact_watermark_after": 136
+      }
+    }
+  ],
+  "all_runs_valid": true
+}
+E0/E1/E2/E3 COMPARISON PASS
+ALIGNED E3 PIPELINE COMPLETE
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e3_random_aligned_v2/e0_e1_e2_aligned_e3_comparison.json

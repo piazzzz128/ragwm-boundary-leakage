@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4165",
+  "source_doc_id": "MED-4165",
+  "title": "Dietary sources and antioxidant effects of ergothioneine.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary sources and antioxidant effects of ergothioneine.\nErgothioneine is a native membrane-impermeable thiol compound that is specifically accumulated in cells via the organic cation transporter OCTN1. In humans, OCTN1 and ergothioneine have been implicated in the etiopathogenesis of autoimmune disorders. However, available evidence about dietary sources and the functional role of ergothioneine in human physiology is scarce. Here, we analyzed the ergothioneine content in common foods using liquid chromatography tandem-mass spectrometry. Additionally, we assessed the protective potency of ergothioneine against various oxidative stressors in OCTN1-expressing cells in comparison with the main intracellular thiol antioxidant glutathione by evaluating cell viability with the MTT reduction assay. Only some food contained ergothioneine with highest concentrations detected in specialty mushrooms, kidney, liver, black and red beans, and oat bran. Ergothioneine exhibited cell protection only against copper(II)-induced toxicity but was far less potent than glutathione, indicting that ergothioneine is not involved in the intracellular antioxidant thiol defense system.",
+  "sanitized_text": "Dietary sources and antioxidant effects of ergothioneine.\nErgothioneine is a native membrane-impermeable thiol compound that is specifically accumulated in cells via the organic cation transporter OCTN1. In humans, OCTN1 and ergothioneine have been implicated in the etiopathogenesis of autoimmune disorders. However, available evidence about dietary sources and the functional role of ergothioneine in human physiology is scarce. Here, we analyzed the ergothioneine content in common foods using liquid chromatography tandem-mass spectrometry. Additionally, we assessed the protective potency of ergothioneine against various oxidative stressors in OCTN1-expressing cells in comparison with the main intracellular thiol antioxidant glutathione by evaluating cell viability with the MTT reduction assay. Only some food contained ergothioneine with highest concentrations detected in specialty mushrooms, kidney, liver, black and red beans, and oat bran. Ergothioneine exhibited cell protection only against copper(II)-induced toxicity but was far less potent than glutathione, indicting that ergothioneine is not involved in the intracellular antioxidant thiol defense system.",
+  "modified": false,
+  "original_char_count": 1176,
+  "sanitized_char_count": 1176,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 954,
+      "boundary_end": 1176,
+      "context": "Dietary sources and antioxidant effects of ergothioneine. Ergothioneine is a native membrane-impermeable thiol compound that is specifically accumulated in cells via the organic cation transporter OCTN1. In humans, OCTN1 and ergothioneine have been implicated in the etiopathogenesis of autoimmune disorders. However, available evidence about dietary sources and the functional role of ergothioneine in human physiology is scarce. Here, we analyzed the ergothioneine content in common foods using liquid chromatography tandem-mass spectrometry. Additionally, we assessed the protective potency of ergothioneine against various oxidative stressors in OCTN1-expressing cells in comparison with the main intracellular thiol antioxidant glutathione by evaluating cell viability with the MTT reduction assay. Only some food contained ergothioneine with highest concentrations detected in specialty mushrooms, kidney, liver, black and red beans, and oat bran.",
+      "target": "Ergothioneine exhibited cell protection only against copper(II)-induced toxicity but was far less potent than glutathione, indicting that ergothioneine is not involved in the intracellular antioxidant thiol defense system.",
+      "loss_target": 2.6298744678497314,
+      "loss_target_given_context": 1.719975471496582,
+      "delta_loss": 0.9098989963531494,
+      "gain_ratio": 0.34598571432845293,
+      "score": -0.34598571432845293,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

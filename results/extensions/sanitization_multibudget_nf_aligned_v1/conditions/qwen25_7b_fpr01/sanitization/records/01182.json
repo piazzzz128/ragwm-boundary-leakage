@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2437",
+  "source_doc_id": "MED-2437",
+  "title": "Diet and breast cancer: understanding risks and benefits.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet and breast cancer: understanding risks and benefits.\nBACKGROUND: Breast cancer is the most commonly diagnosed cancer among women in the United States. Extensive research has been completed to evaluate the relationship between dietary factors and breast cancer risk and survival after breast cancer; however, a summary report with clinical inference is needed. Materials and METHODS: This review summarizes the current epidemiological and clinical trial evidence relating diet to breast cancer incidence, recurrence, survival, and mortality. The review includes emerging epidemiological studies that assess risk within breast cancer subtypes as well as a summary of previous and ongoing dietary intervention trials designed to modify breast cancer risk. RESULTS: The available literature suggests that both low-fat and high-fiber diets may be weakly protective against breast cancer, whereas total energy intake and alcohol appear to be positively associated. Fiber may be weakly protective possibly through modulation of estrogen, whereas fruit and vegetable intake is not clearly associated with risk. Obesity is a risk factor for postmenopausal disease, and adult weight gain should be avoided to reduce risk. In survivors, diet has the greatest potential influence on overall mortality rather than breast cancer-specific events. CONCLUSION: Diet is modestly associated with breast cancer risk; associations appear more pronounced for postmenopausal disease, and healthy choices after diagnosis and treatment likely support longevity more so than reduced risk for recurrent disease.",
+  "sanitized_text": "Diet and breast cancer: understanding risks and benefits.\nBACKGROUND: Breast cancer is the most commonly diagnosed cancer among women in the United States. Extensive research has been completed to evaluate the relationship between dietary factors and breast cancer risk and survival after breast cancer; however, a summary report with clinical inference is needed. Materials and METHODS: This review summarizes the current epidemiological and clinical trial evidence relating diet to breast cancer incidence, recurrence, survival, and mortality. The review includes emerging epidemiological studies that assess risk within breast cancer subtypes as well as a summary of previous and ongoing dietary intervention trials designed to modify breast cancer risk. RESULTS: The available literature suggests that both low-fat and high-fiber diets may be weakly protective against breast cancer, whereas total energy intake and alcohol appear to be positively associated. Fiber may be weakly protective possibly through modulation of estrogen, whereas fruit and vegetable intake is not clearly associated with risk. Obesity is a risk factor for postmenopausal disease, and adult weight gain should be avoided to reduce risk. In survivors, diet has the greatest potential influence on overall mortality rather than breast cancer-specific events. CONCLUSION: Diet is modestly associated with breast cancer risk; associations appear more pronounced for postmenopausal disease, and healthy choices after diagnosis and treatment likely support longevity more so than reduced risk for recurrent disease.",
+  "modified": false,
+  "original_char_count": 1589,
+  "sanitized_char_count": 1589,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1337,
+      "boundary_end": 1589,
+      "context": "the United States. Extensive research has been completed to evaluate the relationship between dietary factors and breast cancer risk and survival after breast cancer; however, a summary report with clinical inference is needed. Materials and METHODS: This review summarizes the current epidemiological and clinical trial evidence relating diet to breast cancer incidence, recurrence, survival, and mortality. The review includes emerging epidemiological studies that assess risk within breast cancer subtypes as well as a summary of previous and ongoing dietary intervention trials designed to modify breast cancer risk. RESULTS: The available literature suggests that both low-fat and high-fiber diets may be weakly protective against breast cancer, whereas total energy intake and alcohol appear to be positively associated. Fiber may be weakly protective possibly through modulation of estrogen, whereas fruit and vegetable intake is not clearly associated with risk. Obesity is a risk factor for postmenopausal disease, and adult weight gain should be avoided to reduce risk. In survivors, diet has the greatest potential influence on overall mortality rather than breast cancer-specific events.",
+      "target": "CONCLUSION: Diet is modestly associated with breast cancer risk; associations appear more pronounced for postmenopausal disease, and healthy choices after diagnosis and treatment likely support longevity more so than reduced risk for recurrent disease.",
+      "loss_target": 3.3196887969970703,
+      "loss_target_given_context": 2.496615409851074,
+      "delta_loss": 0.8230733871459961,
+      "gain_ratio": 0.24793691140281982,
+      "score": -0.24793691140281982,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

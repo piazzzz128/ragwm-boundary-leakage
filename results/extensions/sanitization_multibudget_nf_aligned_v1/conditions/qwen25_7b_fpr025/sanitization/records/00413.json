@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1507",
+  "source_doc_id": "MED-1507",
+  "title": "Curcumin ingestion and exercise training improve vascular endothelial function in postmenopausal women.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Curcumin ingestion and exercise training improve vascular endothelial function in postmenopausal women.\nVascular endothelial function is declines with aging and is associated with an increased risk of cardiovascular disease. Lifestyle modification, particularly aerobic exercise and dietary adjustment, has a favorable effect on vascular aging. Curcumin is a major component of turmeric with known anti-inflammatory and anti-oxidative effects. We investigated the effects of curcumin ingestion and aerobic exercise training on flow-mediated dilation as an indicator endothelial function in postmenopausal women. A total of 32 postmenopausal women were assigned to 3 groups: control, exercise, and curcumin groups. The curcumin group ingested curcumin orally for 8 weeks. The exercise group underwent moderate aerobic exercise training for 8 weeks. Before and after each intervention, flow-mediated dilation was measured. No difference in baseline flow-mediated dilation or other key dependent variables were detected among the groups. Flow-mediated dilation increased significantly and equally in the curcumin and exercise groups, whereas no changes were observed in the control group. Our results indicated that curcumin ingestion and aerobic exercise training can increase flow-mediated dilation in postmenopausal women, suggesting that both can potentially improve the age-related decline in endothelial function. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Curcumin ingestion and exercise training improve vascular endothelial function in postmenopausal women.\nVascular endothelial function is declines with aging and is associated with an increased risk of cardiovascular disease. Lifestyle modification, particularly aerobic exercise and dietary adjustment, has a favorable effect on vascular aging. Curcumin is a major component of turmeric with known anti-inflammatory and anti-oxidative effects. We investigated the effects of curcumin ingestion and aerobic exercise training on flow-mediated dilation as an indicator endothelial function in postmenopausal women. A total of 32 postmenopausal women were assigned to 3 groups: control, exercise, and curcumin groups. The curcumin group ingested curcumin orally for 8 weeks. The exercise group underwent moderate aerobic exercise training for 8 weeks. Before and after each intervention, flow-mediated dilation was measured. No difference in baseline flow-mediated dilation or other key dependent variables were detected among the groups. Flow-mediated dilation increased significantly and equally in the curcumin and exercise groups, whereas no changes were observed in the control group. Our results indicated that curcumin ingestion and aerobic exercise training can increase flow-mediated dilation in postmenopausal women, suggesting that both can potentially improve the age-related decline in endothelial function. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1468,
+  "sanitized_char_count": 1468,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1417,
+      "boundary_end": 1447,
+      "context": "Lifestyle modification, particularly aerobic exercise and dietary adjustment, has a favorable effect on vascular aging. Curcumin is a major component of turmeric with known anti-inflammatory and anti-oxidative effects. We investigated the effects of curcumin ingestion and aerobic exercise training on flow-mediated dilation as an indicator endothelial function in postmenopausal women. A total of 32 postmenopausal women were assigned to 3 groups: control, exercise, and curcumin groups. The curcumin group ingested curcumin orally for 8 weeks. The exercise group underwent moderate aerobic exercise training for 8 weeks. Before and after each intervention, flow-mediated dilation was measured. No difference in baseline flow-mediated dilation or other key dependent variables were detected among the groups. Flow-mediated dilation increased significantly and equally in the curcumin and exercise groups, whereas no changes were observed in the control group. Our results indicated that curcumin ingestion and aerobic exercise training can increase flow-mediated dilation in postmenopausal women, suggesting that both can potentially improve the age-related decline in endothelial function.",
+      "target": "Copyright © 2012 Elsevier Inc.",
+      "loss_target": 1.084797978401184,
+      "loss_target_given_context": 0.5441913604736328,
+      "delta_loss": 0.5406066179275513,
+      "gain_ratio": 0.4983477372665439,
+      "score": -0.4983477372665439,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

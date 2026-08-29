@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1730",
+  "source_doc_id": "MED-1730",
+  "title": "Epidemiologic studies of glyphosate and non-cancer health outcomes: a review.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Epidemiologic studies of glyphosate and non-cancer health outcomes: a review.\nThe United States (US) Environmental Protection Agency (EPA) and other regulatory agencies around the world have registered glyphosate as a broad-spectrum herbicide for use on multiple food and non-food use crops. To examine potential health risks in humans, we searched and reviewed the literature to evaluate whether exposure to glyphosate is associated causally with non-cancer health risks in humans. We also reviewed biomonitoring studies of glyphosate to allow for a more comprehensive discussion of issues related to exposure assessment and misclassification. Cohort, case-control and cross-sectional studies on glyphosate and non-cancer outcomes evaluated a variety of endpoints, including non-cancer respiratory conditions, diabetes, myocardial infarction, reproductive and developmental outcomes, rheumatoid arthritis, thyroid disease, and Parkinson's disease. Our review found no evidence of a consistent pattern of positive associations indicating a causal relationship between any disease and exposure to glyphosate. Most reported associations were weak and not significantly different from 1.0. Because accurate exposure measurement is crucial for valid results, it is recommended that pesticide-specific exposure algorithms be developed and validated. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Epidemiologic studies of glyphosate and non-cancer health outcomes: a review.\nThe United States (US) Environmental Protection Agency (EPA) and other regulatory agencies around the world have registered glyphosate as a broad-spectrum herbicide for use on multiple food and non-food use crops. To examine potential health risks in humans, we searched and reviewed the literature to evaluate whether exposure to glyphosate is associated causally with non-cancer health risks in humans. We also reviewed biomonitoring studies of glyphosate to allow for a more comprehensive discussion of issues related to exposure assessment and misclassification. Cohort, case-control and cross-sectional studies on glyphosate and non-cancer outcomes evaluated a variety of endpoints, including non-cancer respiratory conditions, diabetes, myocardial infarction, reproductive and developmental outcomes, rheumatoid arthritis, thyroid disease, and Parkinson's disease. Our review found no evidence of a consistent pattern of positive associations indicating a causal relationship between any disease and exposure to glyphosate. Most reported associations were weak and not significantly different from 1.0. Because accurate exposure measurement is crucial for valid results, it is recommended that pesticide-specific exposure algorithms be developed and validated. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1396,
+  "sanitized_char_count": 1396,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1345,
+      "boundary_end": 1375,
+      "context": "regulatory agencies around the world have registered glyphosate as a broad-spectrum herbicide for use on multiple food and non-food use crops. To examine potential health risks in humans, we searched and reviewed the literature to evaluate whether exposure to glyphosate is associated causally with non-cancer health risks in humans. We also reviewed biomonitoring studies of glyphosate to allow for a more comprehensive discussion of issues related to exposure assessment and misclassification. Cohort, case-control and cross-sectional studies on glyphosate and non-cancer outcomes evaluated a variety of endpoints, including non-cancer respiratory conditions, diabetes, myocardial infarction, reproductive and developmental outcomes, rheumatoid arthritis, thyroid disease, and Parkinson's disease. Our review found no evidence of a consistent pattern of positive associations indicating a causal relationship between any disease and exposure to glyphosate. Most reported associations were weak and not significantly different from 1.0. Because accurate exposure measurement is crucial for valid results, it is recommended that pesticide-specific exposure algorithms be developed and validated.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.1415737867355347,
+      "loss_target_given_context": 0.5568039417266846,
+      "delta_loss": 0.5847698450088501,
+      "gain_ratio": 0.5122488373537979,
+      "score": -0.5122488373537979,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

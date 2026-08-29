@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1490",
+  "source_doc_id": "MED-1490",
+  "title": "Are preventive drugs preventive enough? A study of patients' expectation of benefit from preventive drugs.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Are preventive drugs preventive enough? A study of patients' expectation of benefit from preventive drugs.\nOBJECTIVES: The study aimed to find the threshold of benefit for a hypothetical cholesterol-lowering drug below which the subject would not be prepared to take the drug. We also looked at whether proximity to the target event (myocardial infarction) and the subjects' views on drug taking affected this threshold. DESIGN: We studied 307 subjects using a written questionnaire and interview. Group 1 (102 subjects) had just been discharged from the coronary care unit. Group 2 (105 subjects) were taking cardio-protective drugs but had no recent history of myocardial infarction. Group 3 (100 subjects) had no history of myocardial infarction and were taking no cardio-protective drugs. RESULTS: Median values for the threshold of benefit below which the subject would not take the preventive drug were 20%, 20%, and 30% absolute risk reduction for Groups 1, 2 and 3 respectively. Median values for expectation of average prolongation of life were 12, 12 and 18 months respectively. Only 27% of subjects would take a drug offering 5% or less absolute risk reduction over five years. Subjects' views on medicinal drug taking in general and proximity to the target event were predictors of the acceptance of preventive drugs. Eighty percent of subjects wished to be told the numerical benefit of a preventive drug before starting on it. CONCLUSION: For the majority, the expectation of benefit from a preventive drug is higher than the actual benefit provided by current drug strategies. There is a tension between the patient's right to know about the chance of benefiting from a preventive drug and the likely reduction in uptake if they are so informed.",
+  "sanitized_text": "Are preventive drugs preventive enough? A study of patients' expectation of benefit from preventive drugs.\nOBJECTIVES: The study aimed to find the threshold of benefit for a hypothetical cholesterol-lowering drug below which the subject would not be prepared to take the drug. We also looked at whether proximity to the target event (myocardial infarction) and the subjects' views on drug taking affected this threshold. DESIGN: We studied 307 subjects using a written questionnaire and interview. Group 1 (102 subjects) had just been discharged from the coronary care unit. Group 2 (105 subjects) were taking cardio-protective drugs but had no recent history of myocardial infarction. Group 3 (100 subjects) had no history of myocardial infarction and were taking no cardio-protective drugs. RESULTS: Median values for the threshold of benefit below which the subject would not take the preventive drug were 20%, 20%, and 30% absolute risk reduction for Groups 1, 2 and 3 respectively. Median values for expectation of average prolongation of life were 12, 12 and 18 months respectively. Only 27% of subjects would take a drug offering 5% or less absolute risk reduction over five years. Subjects' views on medicinal drug taking in general and proximity to the target event were predictors of the acceptance of preventive drugs. Eighty percent of subjects wished to be told the numerical benefit of a preventive drug before starting on it. CONCLUSION: For the majority, the expectation of benefit from a preventive drug is higher than the actual benefit provided by current drug strategies. There is a tension between the patient's right to know about the chance of benefiting from a preventive drug and the likely reduction in uptake if they are so informed.",
+  "modified": false,
+  "original_char_count": 1760,
+  "sanitized_char_count": 1760,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1592,
+      "boundary_end": 1760,
+      "context": "affected this threshold. DESIGN: We studied 307 subjects using a written questionnaire and interview. Group 1 (102 subjects) had just been discharged from the coronary care unit. Group 2 (105 subjects) were taking cardio-protective drugs but had no recent history of myocardial infarction. Group 3 (100 subjects) had no history of myocardial infarction and were taking no cardio-protective drugs. RESULTS: Median values for the threshold of benefit below which the subject would not take the preventive drug were 20%, 20%, and 30% absolute risk reduction for Groups 1, 2 and 3 respectively. Median values for expectation of average prolongation of life were 12, 12 and 18 months respectively. Only 27% of subjects would take a drug offering 5% or less absolute risk reduction over five years. Subjects' views on medicinal drug taking in general and proximity to the target event were predictors of the acceptance of preventive drugs. Eighty percent of subjects wished to be told the numerical benefit of a preventive drug before starting on it. CONCLUSION: For the majority, the expectation of benefit from a preventive drug is higher than the actual benefit provided by current drug strategies.",
+      "target": "There is a tension between the patient's right to know about the chance of benefiting from a preventive drug and the likely reduction in uptake if they are so informed.",
+      "loss_target": 3.0539190769195557,
+      "loss_target_given_context": 2.0120561122894287,
+      "delta_loss": 1.041862964630127,
+      "gain_ratio": 0.34115604847036063,
+      "score": -0.34115604847036063,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

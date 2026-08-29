@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4714",
+  "source_doc_id": "MED-4714",
+  "title": "Vegetables, but not pickled vegetables, are negatively associated with the risk of breast cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vegetables, but not pickled vegetables, are negatively associated with the risk of breast cancer.\nThis study investigated the association between pickled vegetable consumption and the risk of breast cancer using a validated food frequency questionnaire. A total of 358 patients with breast cancer who were matched to 360 healthy controls by age (using a 5-yr age distribution) were recruited from the National Cancer Center in South Korea. After adjusting for nondietary risk factors, total vegetable intake was inversely associated with risk of breast cancer. However, unlike nonpickled vegetables, pickled vegetable intake and its proportion relative to total vegetables were positively associated with the risk of breast cancer, and this association was more profound and consistent when pickled vegetable intake was considered as a proportion relative to total vegetables (odds ratio [OR] = 6.24, 95% confidence interval [CI] = 3.55-10.97; P for trend <0.001 for highest vs. lowest quartiles of intake) than as the absolute consumed amount (OR = 2.47, 95% CI = 1.45-4.21; P for trend = 0.015 for highest vs. lowest quartiles of intake). These results suggest that not only the amount of total vegetable intake but also the amounts of different types of vegetable (i.e., pickled or nonpickled) and their proportions relative to total vegetables are significantly associated with the risk of breast cancer.",
+  "sanitized_text": "Vegetables, but not pickled vegetables, are negatively associated with the risk of breast cancer.\nThis study investigated the association between pickled vegetable consumption and the risk of breast cancer using a validated food frequency questionnaire. A total of 358 patients with breast cancer who were matched to 360 healthy controls by age (using a 5-yr age distribution) were recruited from the National Cancer Center in South Korea. After adjusting for nondietary risk factors, total vegetable intake was inversely associated with risk of breast cancer. However, unlike nonpickled vegetables, pickled vegetable intake and its proportion relative to total vegetables were positively associated with the risk of breast cancer, and this association was more profound and consistent when pickled vegetable intake was considered as a proportion relative to total vegetables (odds ratio [OR] = 6.24, 95% confidence interval [CI] = 3.55-10.97; P for trend <0.001 for highest vs. lowest quartiles of intake) than as the absolute consumed amount (OR = 2.47, 95% CI = 1.45-4.21; P for trend = 0.015 for highest vs. lowest quartiles of intake). These results suggest that not only the amount of total vegetable intake but also the amounts of different types of vegetable (i.e., pickled or nonpickled) and their proportions relative to total vegetables are significantly associated with the risk of breast cancer.",
+  "modified": false,
+  "original_char_count": 1408,
+  "sanitized_char_count": 1408,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1141,
+      "boundary_end": 1408,
+      "context": "Vegetables, but not pickled vegetables, are negatively associated with the risk of breast cancer. This study investigated the association between pickled vegetable consumption and the risk of breast cancer using a validated food frequency questionnaire. A total of 358 patients with breast cancer who were matched to 360 healthy controls by age (using a 5-yr age distribution) were recruited from the National Cancer Center in South Korea. After adjusting for nondietary risk factors, total vegetable intake was inversely associated with risk of breast cancer. However, unlike nonpickled vegetables, pickled vegetable intake and its proportion relative to total vegetables were positively associated with the risk of breast cancer, and this association was more profound and consistent when pickled vegetable intake was considered as a proportion relative to total vegetables (odds ratio [OR] = 6.24, 95% confidence interval [CI] = 3.55-10.97; P for trend <0.001 for highest vs. lowest quartiles of intake) than as the absolute consumed amount (OR = 2.47, 95% CI = 1.45-4.21; P for trend = 0.015 for highest vs. lowest quartiles of intake).",
+      "target": "These results suggest that not only the amount of total vegetable intake but also the amounts of different types of vegetable (i.e., pickled or nonpickled) and their proportions relative to total vegetables are significantly associated with the risk of breast cancer.",
+      "loss_target": 2.280905246734619,
+      "loss_target_given_context": 1.1476963758468628,
+      "delta_loss": 1.1332088708877563,
+      "gain_ratio": 0.49682417650188515,
+      "score": -0.49682417650188515,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

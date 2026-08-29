@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1850",
+  "source_doc_id": "MED-1850",
+  "title": "Urine levels of aluminum after drinking tea.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Urine levels of aluminum after drinking tea.\nA microwave-assisted acid digestion procedure coupled with a graphite furnace atomic absorption method has been applied in the determination of aluminum (Al) in urine to verify the correlation of free forms of Al in tea infusions and urinary excretion of Al. Significant urinary Al excretion has been found in 24-h urine of four volunteers after tea drinking. However, the difference in amount of Al excretion in urine between the consumption of Oolong (black tea) and Long-Jin (green tea), each of them with unique Al contents and species, was not significant. These findings indicated that the high levels of free Al species in tea infusions did not result in significant change in urinary excretion of the metal, possibly owing to the transformation by ligands present in food and the gastrointestinal tract (GIT). However, it could not be assumed that there was no big difference in absorption of the metal in the human body if fractions of consumed Al retained in the body or excreted by bile or feces were considered.",
+  "sanitized_text": "Urine levels of aluminum after drinking tea.\nA microwave-assisted acid digestion procedure coupled with a graphite furnace atomic absorption method has been applied in the determination of aluminum (Al) in urine to verify the correlation of free forms of Al in tea infusions and urinary excretion of Al. Significant urinary Al excretion has been found in 24-h urine of four volunteers after tea drinking. However, the difference in amount of Al excretion in urine between the consumption of Oolong (black tea) and Long-Jin (green tea), each of them with unique Al contents and species, was not significant. These findings indicated that the high levels of free Al species in tea infusions did not result in significant change in urinary excretion of the metal, possibly owing to the transformation by ligands present in food and the gastrointestinal tract (GIT). However, it could not be assumed that there was no big difference in absorption of the metal in the human body if fractions of consumed Al retained in the body or excreted by bile or feces were considered.",
+  "modified": false,
+  "original_char_count": 1068,
+  "sanitized_char_count": 1068,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 863,
+      "boundary_end": 1068,
+      "context": "Urine levels of aluminum after drinking tea. A microwave-assisted acid digestion procedure coupled with a graphite furnace atomic absorption method has been applied in the determination of aluminum (Al) in urine to verify the correlation of free forms of Al in tea infusions and urinary excretion of Al. Significant urinary Al excretion has been found in 24-h urine of four volunteers after tea drinking. However, the difference in amount of Al excretion in urine between the consumption of Oolong (black tea) and Long-Jin (green tea), each of them with unique Al contents and species, was not significant. These findings indicated that the high levels of free Al species in tea infusions did not result in significant change in urinary excretion of the metal, possibly owing to the transformation by ligands present in food and the gastrointestinal tract (GIT).",
+      "target": "However, it could not be assumed that there was no big difference in absorption of the metal in the human body if fractions of consumed Al retained in the body or excreted by bile or feces were considered.",
+      "loss_target": 3.090937852859497,
+      "loss_target_given_context": 2.5527894496917725,
+      "delta_loss": 0.5381484031677246,
+      "gain_ratio": 0.1741052162112775,
+      "score": -0.1741052162112775,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

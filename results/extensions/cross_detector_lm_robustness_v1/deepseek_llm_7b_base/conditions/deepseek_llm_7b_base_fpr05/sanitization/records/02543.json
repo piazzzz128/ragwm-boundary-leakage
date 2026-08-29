@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4398",
+  "source_doc_id": "MED-4398",
+  "title": "High school dietary dairy intake and teenage acne.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "High school dietary dairy intake and teenage acne.\nBACKGROUND: Previous studies suggest possible associations between Western diet and acne. We examined data from the Nurses Health Study II to retrospectively evaluate whether intakes of dairy foods during high school were associated with physician-diagnosed severe teenage acne. METHODS: We studied 47,355 women who completed questionnaires on high school diet in 1998 and physician-diagnosed severe teenage acne in 1989. We estimated the prevalence ratios and 95% confidence intervals of acne history across categories of intakes. RESULTS: After accounting for age, age at menarche, body mass index, and energy intake, the multivariate prevalence ratio (95% confidence intervals; P value for test of trend) of acne, comparing extreme categories of intake, were: 1.22 (1.03, 1.44; .002) for total milk; 1.12 (1.00, 1.25; .56) for whole milk; 1.16 (1.01, 1.34; .25) for low-fat milk; and 1.44 (1.21, 1.72; .003) for skim milk. Instant breakfast drink, sherbet, cottage cheese, and cream cheese were also positively associated with acne. CONCLUSION: We found a positive association with acne for intake of total milk and skim milk. We hypothesize that the association with milk may be because of the presence of hormones and bioactive molecules in milk.",
+  "sanitized_text": "High school dietary dairy intake and teenage acne.\nBACKGROUND: Previous studies suggest possible associations between Western diet and acne. We examined data from the Nurses Health Study II to retrospectively evaluate whether intakes of dairy foods during high school were associated with physician-diagnosed severe teenage acne. METHODS: We studied 47,355 women who completed questionnaires on high school diet in 1998 and physician-diagnosed severe teenage acne in 1989. We estimated the prevalence ratios and 95% confidence intervals of acne history across categories of intakes. RESULTS: After accounting for age, age at menarche, body mass index, and energy intake, the multivariate prevalence ratio (95% confidence intervals; P value for test of trend) of acne, comparing extreme categories of intake, were: 1.22 (1.03, 1.44; .002) for total milk; 1.12 (1.00, 1.25; .56) for whole milk; 1.16 (1.01, 1.34; .25) for low-fat milk; and 1.44 (1.21, 1.72; .003) for skim milk. Instant breakfast drink, sherbet, cottage cheese, and cream cheese were also positively associated with acne. CONCLUSION: We found a positive association with acne for intake of total milk and skim milk. We hypothesize that the association with milk may be because of the presence of hormones and bioactive molecules in milk.",
+  "modified": false,
+  "original_char_count": 1302,
+  "sanitized_char_count": 1302,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1181,
+      "boundary_end": 1302,
+      "context": "High school dietary dairy intake and teenage acne. BACKGROUND: Previous studies suggest possible associations between Western diet and acne. We examined data from the Nurses Health Study II to retrospectively evaluate whether intakes of dairy foods during high school were associated with physician-diagnosed severe teenage acne. METHODS: We studied 47,355 women who completed questionnaires on high school diet in 1998 and physician-diagnosed severe teenage acne in 1989. We estimated the prevalence ratios and 95% confidence intervals of acne history across categories of intakes. RESULTS: After accounting for age, age at menarche, body mass index, and energy intake, the multivariate prevalence ratio (95% confidence intervals; P value for test of trend) of acne, comparing extreme categories of intake, were: 1.22 (1.03, 1.44; .002) for total milk; 1.12 (1.00, 1.25; .56) for whole milk; 1.16 (1.01, 1.34; .25) for low-fat milk; and 1.44 (1.21, 1.72; .003) for skim milk. Instant breakfast drink, sherbet, cottage cheese, and cream cheese were also positively associated with acne. CONCLUSION: We found a positive association with acne for intake of total milk and skim milk.",
+      "target": "We hypothesize that the association with milk may be because of the presence of hormones and bioactive molecules in milk.",
+      "loss_target": 2.8341097831726074,
+      "loss_target_given_context": 1.758829951286316,
+      "delta_loss": 1.0752798318862915,
+      "gain_ratio": 0.3794065559036261,
+      "score": -0.3794065559036261,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

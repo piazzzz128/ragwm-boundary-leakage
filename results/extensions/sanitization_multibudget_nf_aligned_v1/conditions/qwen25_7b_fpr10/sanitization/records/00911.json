@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2109",
+  "source_doc_id": "MED-2109",
+  "title": "Extracorporeal membrane oxygenation and conventional medical therapy in neonates with persistent pulmonary hypertension of the newborn: a prospecti...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Extracorporeal membrane oxygenation and conventional medical therapy in neonates with persistent pulmonary hypertension of the newborn: a prospecti...\nThirty-nine newborn infants with severe persistent pulmonary hypertension and respiratory failure who met criteria for 85% likelihood of dying were enrolled in a randomized trial in which extracorporeal membrane oxygenation (ECMO) therapy was compared with conventional medical therapy (CMT). In phase I, 4 of 10 babies in the CMT group died and 9 of 9 babies in the ECMO group survived. Randomization was halted after the fourth CMT death, as planned before initiating the study, and the next 20 babies were treated with ECMO (phase II). Of the 20, 19 survived. All three treatment groups (CMT and ECMO in phase I and ECMO, phase II) were comparable in severity of illness and mechanical ventilator support. The overall survival of ECMO-treated infants was 97% (28 of 29) compared with 60% (6 of 10) in the CMT group (P less than .05).",
+  "sanitized_text": "Extracorporeal membrane oxygenation and conventional medical therapy in neonates with persistent pulmonary hypertension of the newborn: a prospecti...\nThirty-nine newborn infants with severe persistent pulmonary hypertension and respiratory failure who met criteria for 85% likelihood of dying were enrolled in a randomized trial in which extracorporeal membrane oxygenation (ECMO) therapy was compared with conventional medical therapy (CMT). In phase I, 4 of 10 babies in the CMT group died and 9 of 9 babies in the ECMO group survived. Randomization was halted after the fourth CMT death, as planned before initiating the study, and the next 20 babies were treated with ECMO (phase II). Of the 20, 19 survived. All three treatment groups (CMT and ECMO in phase I and ECMO, phase II) were comparable in severity of illness and mechanical ventilator support. The overall survival of ECMO-treated infants was 97% (28 of 29) compared with 60% (6 of 10) in the CMT group (P less than .05).",
+  "modified": false,
+  "original_char_count": 987,
+  "sanitized_char_count": 987,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 860,
+      "boundary_end": 987,
+      "context": "Extracorporeal membrane oxygenation and conventional medical therapy in neonates with persistent pulmonary hypertension of the newborn: a prospecti... Thirty-nine newborn infants with severe persistent pulmonary hypertension and respiratory failure who met criteria for 85% likelihood of dying were enrolled in a randomized trial in which extracorporeal membrane oxygenation (ECMO) therapy was compared with conventional medical therapy (CMT). In phase I, 4 of 10 babies in the CMT group died and 9 of 9 babies in the ECMO group survived. Randomization was halted after the fourth CMT death, as planned before initiating the study, and the next 20 babies were treated with ECMO (phase II). Of the 20, 19 survived. All three treatment groups (CMT and ECMO in phase I and ECMO, phase II) were comparable in severity of illness and mechanical ventilator support.",
+      "target": "The overall survival of ECMO-treated infants was 97% (28 of 29) compared with 60% (6 of 10) in the CMT group (P less than .05).",
+      "loss_target": 2.0800318717956543,
+      "loss_target_given_context": 0.8318047523498535,
+      "delta_loss": 1.2482271194458008,
+      "gain_ratio": 0.6000999967217948,
+      "score": -0.6000999967217948,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

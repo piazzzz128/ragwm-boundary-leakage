@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4575",
+  "source_doc_id": "MED-4575",
+  "title": "Vitamin D: extraskeletal health.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vitamin D: extraskeletal health.\nVitamin D deficiency is the most common nutritional deficiency and likely the most common medical condition in the world. The major cause of vitamin D deficiency has been the lack of appreciation that the body requires 5- to 10-fold higher intakes than is currently recommended by health agencies. There is now overwhelming and compelling scientific and epidemiologic data suggesting that the human body requires a blood level of 25(OH)D above 30 ng/mL for maximum health. To increase the blood level to the minimum 30 ng/mL requires the ingestion of at least 1000 IU of vitamin D per day for adults. In general, there is no downside to increasing either a child's or adult's vitamin D intake. Copyright 2010 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Vitamin D: extraskeletal health.\nVitamin D deficiency is the most common nutritional deficiency and likely the most common medical condition in the world. The major cause of vitamin D deficiency has been the lack of appreciation that the body requires 5- to 10-fold higher intakes than is currently recommended by health agencies. There is now overwhelming and compelling scientific and epidemiologic data suggesting that the human body requires a blood level of 25(OH)D above 30 ng/mL for maximum health. To increase the blood level to the minimum 30 ng/mL requires the ingestion of at least 1000 IU of vitamin D per day for adults. In general, there is no downside to increasing either a child's or adult's vitamin D intake. Copyright 2010 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 776,
+  "sanitized_char_count": 776,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 727,
+      "boundary_end": 755,
+      "context": "Vitamin D: extraskeletal health. Vitamin D deficiency is the most common nutritional deficiency and likely the most common medical condition in the world. The major cause of vitamin D deficiency has been the lack of appreciation that the body requires 5- to 10-fold higher intakes than is currently recommended by health agencies. There is now overwhelming and compelling scientific and epidemiologic data suggesting that the human body requires a blood level of 25(OH)D above 30 ng/mL for maximum health. To increase the blood level to the minimum 30 ng/mL requires the ingestion of at least 1000 IU of vitamin D per day for adults. In general, there is no downside to increasing either a child's or adult's vitamin D intake.",
+      "target": "Copyright 2010 Elsevier Inc.",
+      "loss_target": 1.5652598142623901,
+      "loss_target_given_context": 0.6917464733123779,
+      "delta_loss": 0.8735133409500122,
+      "gain_ratio": 0.5580628423413815,
+      "score": -0.5580628423413815,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

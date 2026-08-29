@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3666",
+  "source_doc_id": "MED-3666",
+  "title": "Prepubertal gynecomastia linked to lavender and tea tree oils.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Prepubertal gynecomastia linked to lavender and tea tree oils.\nMost cases of male prepubertal gynecomastia are classified as idiopathic. We investigated possible causes of gynecomastia in three prepubertal boys who were otherwise healthy and had normal serum concentrations of endogenous steroids. In all three boys, gynecomastia coincided with the topical application of products that contained lavender and tea tree oils. Gynecomastia resolved in each patient shortly after the use of products containing these oils was discontinued. Furthermore, studies in human cell lines indicated that the two oils had estrogenic and antiandrogenic activities. We conclude that repeated topical exposure to lavender and tea tree oils probably caused prepubertal gynecomastia in these boys. 2007 Massachusetts Medical Society",
+  "sanitized_text": "Prepubertal gynecomastia linked to lavender and tea tree oils.\nMost cases of male prepubertal gynecomastia are classified as idiopathic. We investigated possible causes of gynecomastia in three prepubertal boys who were otherwise healthy and had normal serum concentrations of endogenous steroids. In all three boys, gynecomastia coincided with the topical application of products that contained lavender and tea tree oils. Gynecomastia resolved in each patient shortly after the use of products containing these oils was discontinued. Furthermore, studies in human cell lines indicated that the two oils had estrogenic and antiandrogenic activities. We conclude that repeated topical exposure to lavender and tea tree oils probably caused prepubertal gynecomastia in these boys. 2007 Massachusetts Medical Society",
+  "modified": false,
+  "original_char_count": 814,
+  "sanitized_char_count": 814,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 780,
+      "boundary_end": 814,
+      "context": "Prepubertal gynecomastia linked to lavender and tea tree oils. Most cases of male prepubertal gynecomastia are classified as idiopathic. We investigated possible causes of gynecomastia in three prepubertal boys who were otherwise healthy and had normal serum concentrations of endogenous steroids. In all three boys, gynecomastia coincided with the topical application of products that contained lavender and tea tree oils. Gynecomastia resolved in each patient shortly after the use of products containing these oils was discontinued. Furthermore, studies in human cell lines indicated that the two oils had estrogenic and antiandrogenic activities. We conclude that repeated topical exposure to lavender and tea tree oils probably caused prepubertal gynecomastia in these boys.",
+      "target": "2007 Massachusetts Medical Society",
+      "loss_target": 3.4606125354766846,
+      "loss_target_given_context": 1.7605313062667847,
+      "delta_loss": 1.7000812292099,
+      "gain_ratio": 0.4912659859436477,
+      "score": -0.4912659859436477,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

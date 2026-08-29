@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1582",
+  "source_doc_id": "MED-1582",
+  "title": "A Prospective Study of Long-term Intake of Dietary Fiber and Risk of Crohn’s Disease and Ulcerative Colitis",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A Prospective Study of Long-term Intake of Dietary Fiber and Risk of Crohn’s Disease and Ulcerative Colitis\nBackground & Aims Increased intake of dietary fiber has been proposed to reduce risk of inflammatory bowel diseases (Crohn’s disease [CD], ulcerative colitis [UC]). However, few prospective studies have examined associations between long-term intake of dietary fiber and risk of incident CD or UC. Methods We collected and analyzed data from 170,776 women, followed over 26 y, who participated in the Nurses’ Health Study, followed for 3,317,425 person-y. Dietary information was prospectively ascertained via administration of a validated semi-quantitative food frequency questionnaire every 4 y. Self-reported CD and UC were confirmed through review of medical records. Cox proportional hazards models, adjusting for potential confounders, were used to calculate hazard ratios (HRs). Results We confirmed 269 incident cases of CD (incidence 8/100,000 person-y) and 338 cases of UC (incidence 10/100,000 person-y). Compared to the lowest quintile of energy-adjusted cumulative average intake of dietary fiber, intake of the highest quintile (median of 24.3 g/day) was associated with a 40% reduction in risk of CD (multivariate HR for CD, 0.59; 95% confidence interval [CI], 0.39–0.90). This apparent reduction appeared to be greatest for fiber derived from fruits; fiber from cereals, whole grains, or legumes did not modify risk. In contrast, neither total intake of dietary fiber (multivariate HR, 0.82; 95% CI 0.58–1.17) nor intake of fiber from specific sources appeared to be significantly associated with risk of UC. Conclusion Based on data from the Nurses’ Health Study, long-term intake of dietary fiber, particularly from fruit, is associated with lower risk of CD but not UC. Further studies are needed to determine the mechanisms that mediate this association.",
+  "sanitized_text": "A Prospective Study of Long-term Intake of Dietary Fiber and Risk of Crohn’s Disease and Ulcerative Colitis\nBackground & Aims Increased intake of dietary fiber has been proposed to reduce risk of inflammatory bowel diseases (Crohn’s disease [CD], ulcerative colitis [UC]). However, few prospective studies have examined associations between long-term intake of dietary fiber and risk of incident CD or UC. Methods We collected and analyzed data from 170,776 women, followed over 26 y, who participated in the Nurses’ Health Study, followed for 3,317,425 person-y. Dietary information was prospectively ascertained via administration of a validated semi-quantitative food frequency questionnaire every 4 y. Self-reported CD and UC were confirmed through review of medical records. Cox proportional hazards models, adjusting for potential confounders, were used to calculate hazard ratios (HRs). Results We confirmed 269 incident cases of CD (incidence 8/100,000 person-y) and 338 cases of UC (incidence 10/100,000 person-y). Compared to the lowest quintile of energy-adjusted cumulative average intake of dietary fiber, intake of the highest quintile (median of 24.3 g/day) was associated with a 40% reduction in risk of CD (multivariate HR for CD, 0.59; 95% confidence interval [CI], 0.39–0.90). This apparent reduction appeared to be greatest for fiber derived from fruits; fiber from cereals, whole grains, or legumes did not modify risk. In contrast, neither total intake of dietary fiber (multivariate HR, 0.82; 95% CI 0.58–1.17) nor intake of fiber from specific sources appeared to be significantly associated with risk of UC. Conclusion Based on data from the Nurses’ Health Study, long-term intake of dietary fiber, particularly from fruit, is associated with lower risk of CD but not UC. Further studies are needed to determine the mechanisms that mediate this association.",
+  "modified": false,
+  "original_char_count": 1882,
+  "sanitized_char_count": 1882,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1797,
+      "boundary_end": 1882,
+      "context": "ascertained via administration of a validated semi-quantitative food frequency questionnaire every 4 y. Self-reported CD and UC were confirmed through review of medical records. Cox proportional hazards models, adjusting for potential confounders, were used to calculate hazard ratios (HRs). Results We confirmed 269 incident cases of CD (incidence 8/100,000 person-y) and 338 cases of UC (incidence 10/100,000 person-y). Compared to the lowest quintile of energy-adjusted cumulative average intake of dietary fiber, intake of the highest quintile (median of 24.3 g/day) was associated with a 40% reduction in risk of CD (multivariate HR for CD, 0.59; 95% confidence interval [CI], 0.39–0.90). This apparent reduction appeared to be greatest for fiber derived from fruits; fiber from cereals, whole grains, or legumes did not modify risk. In contrast, neither total intake of dietary fiber (multivariate HR, 0.82; 95% CI 0.58–1.17) nor intake of fiber from specific sources appeared to be significantly associated with risk of UC. Conclusion Based on data from the Nurses’ Health Study, long-term intake of dietary fiber, particularly from fruit, is associated with lower risk of CD but not UC.",
+      "target": "Further studies are needed to determine the mechanisms that mediate this association.",
+      "loss_target": 2.1751925945281982,
+      "loss_target_given_context": 1.3936423063278198,
+      "delta_loss": 0.7815502882003784,
+      "gain_ratio": 0.3593016499625853,
+      "score": -0.3593016499625853,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

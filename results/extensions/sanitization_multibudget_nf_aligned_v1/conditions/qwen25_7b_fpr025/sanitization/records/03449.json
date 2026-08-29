@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-731",
+  "source_doc_id": "MED-731",
+  "title": "Three rare cases of anthrax arising from the same source.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Three rare cases of anthrax arising from the same source.\nAnthrax is an acute bacterial infection caused by Bacillus anthracis. Humans become infected under natural conditions by contact with infected animals or contaminated animal products. About 95% of human anthrax is cutaneous and 5% respiratory. Gastrointestinal anthrax is very rare, and has been reported in less than 1% of all cases. Anthrax meningitis is a rare complication of any of the other three forms of disease. We report three rare cases of anthrax (gastrointestinal, oropharyngeal and meningitis) arising from the same source. The three patients were from a single family and were admitted with different clinical pictures after the ingestion of half-cooked meat from a sick sheep. These cases emphasize the need for awareness of anthrax in the differential diagnosis in areas where the disease remains endemic.",
+  "sanitized_text": "Three rare cases of anthrax arising from the same source.\nAnthrax is an acute bacterial infection caused by Bacillus anthracis. Humans become infected under natural conditions by contact with infected animals or contaminated animal products. About 95% of human anthrax is cutaneous and 5% respiratory. Gastrointestinal anthrax is very rare, and has been reported in less than 1% of all cases. Anthrax meningitis is a rare complication of any of the other three forms of disease. We report three rare cases of anthrax (gastrointestinal, oropharyngeal and meningitis) arising from the same source. The three patients were from a single family and were admitted with different clinical pictures after the ingestion of half-cooked meat from a sick sheep. These cases emphasize the need for awareness of anthrax in the differential diagnosis in areas where the disease remains endemic.",
+  "modified": false,
+  "original_char_count": 880,
+  "sanitized_char_count": 880,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 751,
+      "boundary_end": 880,
+      "context": "Three rare cases of anthrax arising from the same source. Anthrax is an acute bacterial infection caused by Bacillus anthracis. Humans become infected under natural conditions by contact with infected animals or contaminated animal products. About 95% of human anthrax is cutaneous and 5% respiratory. Gastrointestinal anthrax is very rare, and has been reported in less than 1% of all cases. Anthrax meningitis is a rare complication of any of the other three forms of disease. We report three rare cases of anthrax (gastrointestinal, oropharyngeal and meningitis) arising from the same source. The three patients were from a single family and were admitted with different clinical pictures after the ingestion of half-cooked meat from a sick sheep.",
+      "target": "These cases emphasize the need for awareness of anthrax in the differential diagnosis in areas where the disease remains endemic.",
+      "loss_target": 2.737288475036621,
+      "loss_target_given_context": 1.5361199378967285,
+      "delta_loss": 1.2011685371398926,
+      "gain_ratio": 0.4388169343838788,
+      "score": -0.4388169343838788,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

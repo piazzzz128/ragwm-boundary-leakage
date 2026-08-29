@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4743",
+  "source_doc_id": "MED-4743",
+  "title": "Performance evaluation of SBR treatment for nitrogen removal from tannery wastewater.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Performance evaluation of SBR treatment for nitrogen removal from tannery wastewater.\nPerformance of SBR treatment for nitrogen removal from tannery is evaluated for a wide range of wastewater temperature between 7 and 30 degrees C. A pilot-scale SBR unit fed with plain-settled wastewater is operated on site for this purpose. Effective nitrogen removal is sustained by adjustment of the sludge age from 28 to 5 days. Concentration profiles of nitrogen compounds within a selected complete SBR cycle during the steady state operation at different wastewater temperatures and sludge ages are evaluated by model simulation. System performance is also interpreted in terms of modeling and stoichiometric calculation. Additional nitrate loss was observed during aerobic period when the aeration intensity was reduced by the factor of 50%.",
+  "sanitized_text": "Performance evaluation of SBR treatment for nitrogen removal from tannery wastewater.\nPerformance of SBR treatment for nitrogen removal from tannery is evaluated for a wide range of wastewater temperature between 7 and 30 degrees C. A pilot-scale SBR unit fed with plain-settled wastewater is operated on site for this purpose. Effective nitrogen removal is sustained by adjustment of the sludge age from 28 to 5 days. Concentration profiles of nitrogen compounds within a selected complete SBR cycle during the steady state operation at different wastewater temperatures and sludge ages are evaluated by model simulation. System performance is also interpreted in terms of modeling and stoichiometric calculation. Additional nitrate loss was observed during aerobic period when the aeration intensity was reduced by the factor of 50%.",
+  "modified": false,
+  "original_char_count": 835,
+  "sanitized_char_count": 835,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 715,
+      "boundary_end": 835,
+      "context": "Performance evaluation of SBR treatment for nitrogen removal from tannery wastewater. Performance of SBR treatment for nitrogen removal from tannery is evaluated for a wide range of wastewater temperature between 7 and 30 degrees C. A pilot-scale SBR unit fed with plain-settled wastewater is operated on site for this purpose. Effective nitrogen removal is sustained by adjustment of the sludge age from 28 to 5 days. Concentration profiles of nitrogen compounds within a selected complete SBR cycle during the steady state operation at different wastewater temperatures and sludge ages are evaluated by model simulation. System performance is also interpreted in terms of modeling and stoichiometric calculation.",
+      "target": "Additional nitrate loss was observed during aerobic period when the aeration intensity was reduced by the factor of 50%.",
+      "loss_target": 3.3359971046447754,
+      "loss_target_given_context": 2.5307815074920654,
+      "delta_loss": 0.80521559715271,
+      "gain_ratio": 0.24137179136984027,
+      "score": -0.24137179136984027,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

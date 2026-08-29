@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-716",
+  "source_doc_id": "MED-716",
+  "title": "VITAMIN D: A D-LIGHTFUL SOLUTION FOR HEALTH",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "VITAMIN D: A D-LIGHTFUL SOLUTION FOR HEALTH\nThroughout evolution sunlight produced vitamin D in the skin has been critically important for health. Vitamin D, known as the sunshine vitamin, is actually a hormone. Once it is produced in the skin or ingested from the diet it is converted sequentially in the liver and kidneys to its biologically active form 1,25-dihydroxyvitamin D. This hormone interacts with its receptor in the small intestine to increase the efficiency of intestinal calcium and phosphate absorption for the maintenance of the skeleton throughout life. Vitamin D deficiency during the first few years of life results in a flattened pelvis making it difficult for childbirth. Vitamin D deficiency causes osteopenia and osteoporosis increasing risk of fracture. Essentially every tissue and cell in the body has a vitamin D receptor. Therefore vitamin D deficiency has been linked to increased risk for preeclampsia, requiring a Cesarean section for birthing, multiple sclerosis, rheumatoid arthritis, type I diabetes, type II diabetes, heart disease, dementia, deadly cancers and infectious diseases. Therefore sensible sun exposure along with vitamin D supplementation of at least 2000 IU/d for adults and 1000 IU/d for children is essential to maximize their health.",
+  "sanitized_text": "VITAMIN D: A D-LIGHTFUL SOLUTION FOR HEALTH\nThroughout evolution sunlight produced vitamin D in the skin has been critically important for health. Vitamin D, known as the sunshine vitamin, is actually a hormone. Once it is produced in the skin or ingested from the diet it is converted sequentially in the liver and kidneys to its biologically active form 1,25-dihydroxyvitamin D. This hormone interacts with its receptor in the small intestine to increase the efficiency of intestinal calcium and phosphate absorption for the maintenance of the skeleton throughout life. Vitamin D deficiency during the first few years of life results in a flattened pelvis making it difficult for childbirth. Vitamin D deficiency causes osteopenia and osteoporosis increasing risk of fracture. Essentially every tissue and cell in the body has a vitamin D receptor. Therefore vitamin D deficiency has been linked to increased risk for preeclampsia, requiring a Cesarean section for birthing, multiple sclerosis, rheumatoid arthritis, type I diabetes, type II diabetes, heart disease, dementia, deadly cancers and infectious diseases. Therefore sensible sun exposure along with vitamin D supplementation of at least 2000 IU/d for adults and 1000 IU/d for children is essential to maximize their health.",
+  "modified": false,
+  "original_char_count": 1286,
+  "sanitized_char_count": 1286,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1119,
+      "boundary_end": 1286,
+      "context": "VITAMIN D: A D-LIGHTFUL SOLUTION FOR HEALTH Throughout evolution sunlight produced vitamin D in the skin has been critically important for health. Vitamin D, known as the sunshine vitamin, is actually a hormone. Once it is produced in the skin or ingested from the diet it is converted sequentially in the liver and kidneys to its biologically active form 1,25-dihydroxyvitamin D. This hormone interacts with its receptor in the small intestine to increase the efficiency of intestinal calcium and phosphate absorption for the maintenance of the skeleton throughout life. Vitamin D deficiency during the first few years of life results in a flattened pelvis making it difficult for childbirth. Vitamin D deficiency causes osteopenia and osteoporosis increasing risk of fracture. Essentially every tissue and cell in the body has a vitamin D receptor. Therefore vitamin D deficiency has been linked to increased risk for preeclampsia, requiring a Cesarean section for birthing, multiple sclerosis, rheumatoid arthritis, type I diabetes, type II diabetes, heart disease, dementia, deadly cancers and infectious diseases.",
+      "target": "Therefore sensible sun exposure along with vitamin D supplementation of at least 2000 IU/d for adults and 1000 IU/d for children is essential to maximize their health.",
+      "loss_target": 2.295384645462036,
+      "loss_target_given_context": 1.4977352619171143,
+      "delta_loss": 0.7976493835449219,
+      "gain_ratio": 0.3475014024868863,
+      "score": -0.3475014024868863,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

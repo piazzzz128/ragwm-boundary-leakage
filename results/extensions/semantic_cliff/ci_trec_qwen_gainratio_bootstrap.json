@@ -1,0 +1,49 @@
+{
+  "input": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_scores_qwen2_5_7b.json",
+  "n": 458,
+  "positive": 229,
+  "negative": 229,
+  "score_orientation": "higher score = more likely injected/anomalous",
+  "bootstrap": {
+    "n_boot": 5000,
+    "seed": 20260609,
+    "sampling": "stratified bootstrap over positive and negative classes"
+  },
+  "metrics": {
+    "roc_auc": {
+      "point": 0.9778989721782575,
+      "ci95": [
+        0.9653510611925784,
+        0.988463702065178
+      ]
+    },
+    "pr_auc": {
+      "point": 0.9779521269725521,
+      "ci95": [
+        0.9628418778733718,
+        0.9896163157920255
+      ]
+    },
+    "tpr_at_fpr_5": {
+      "point": 0.9126637554585153,
+      "ci95": [
+        0.8602620087336245,
+        0.9519650655021834
+      ]
+    },
+    "tpr_at_fpr_10": {
+      "point": 0.9432314410480349,
+      "ci95": [
+        0.9039301310043668,
+        0.9737991266375546
+      ]
+    },
+    "best_f1": {
+      "point": 0.9315673289183223,
+      "ci95": [
+        0.9137529137529138,
+        0.9580573951434879
+      ]
+    }
+  }
+}

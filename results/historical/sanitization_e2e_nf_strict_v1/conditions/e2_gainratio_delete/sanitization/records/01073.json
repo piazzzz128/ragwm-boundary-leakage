@@ -1,0 +1,127 @@
+{
+  "internal_id": "MED-2298",
+  "source_doc_id": "MED-2298",
+  "title": "A guide to exercise prescription.",
+  "original_text": "A guide to exercise prescription.\nExercise is a fundamental component of good health. The American College of Sports Medicine and \"Exercise is Medicine\" recommend treating exercise as a vital sign, and assessing and prescribing physical activity at every medical visit. Meeting the recommended goals of physical activity results in a significant reduction in all-cause mortality. Physicians can improve health by prescribing exercise. Copyright © 2013 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "A guide to exercise prescription.",
+  "modified": true,
+  "original_char_count": 486,
+  "sanitized_char_count": 33,
+  "deleted_char_count": 453,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 435,
+      "boundary_end": 465,
+      "context": "A guide to exercise prescription. Exercise is a fundamental component of good health. The American College of Sports Medicine and \"Exercise is Medicine\" recommend treating exercise as a vital sign, and assessing and prescribing physical activity at every medical visit. Meeting the recommended goals of physical activity results in a significant reduction in all-cause mortality. Physicians can improve health by prescribing exercise.",
+      "target": "Copyright © 2013 Elsevier Inc.",
+      "loss_target": 1.0089970827102661,
+      "loss_target_given_context": 1.8169441223144531,
+      "delta_loss": -0.807947039604187,
+      "gain_ratio": -0.8007426913801983,
+      "score": 0.8007426913801983,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 380,
+      "boundary_end": 434,
+      "context": "A guide to exercise prescription. Exercise is a fundamental component of good health. The American College of Sports Medicine and \"Exercise is Medicine\" recommend treating exercise as a vital sign, and assessing and prescribing physical activity at every medical visit. Meeting the recommended goals of physical activity results in a significant reduction in all-cause mortality.",
+      "target": "Physicians can improve health by prescribing exercise.",
+      "loss_target": 3.124234676361084,
+      "loss_target_given_context": 3.1887428760528564,
+      "delta_loss": -0.06450819969177246,
+      "gain_ratio": -0.020647680591941844,
+      "score": 0.020647680591941844,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 270,
+      "boundary_end": 379,
+      "context": "A guide to exercise prescription. Exercise is a fundamental component of good health. The American College of Sports Medicine and \"Exercise is Medicine\" recommend treating exercise as a vital sign, and assessing and prescribing physical activity at every medical visit.",
+      "target": "Meeting the recommended goals of physical activity results in a significant reduction in all-cause mortality.",
+      "loss_target": 2.3681623935699463,
+      "loss_target_given_context": 2.540900230407715,
+      "delta_loss": -0.17273783683776855,
+      "gain_ratio": -0.07294171941366341,
+      "score": 0.07294171941366341,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 4,
+      "boundary_start": 86,
+      "boundary_end": 269,
+      "context": "A guide to exercise prescription. Exercise is a fundamental component of good health.",
+      "target": "The American College of Sports Medicine and \"Exercise is Medicine\" recommend treating exercise as a vital sign, and assessing and prescribing physical activity at every medical visit.",
+      "loss_target": 2.407613515853882,
+      "loss_target_given_context": 2.37180495262146,
+      "delta_loss": 0.035808563232421875,
+      "gain_ratio": 0.014873052920091306,
+      "score": -0.014873052920091306,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 5,
+      "boundary_start": 34,
+      "boundary_end": 85,
+      "context": "A guide to exercise prescription.",
+      "target": "Exercise is a fundamental component of good health.",
+      "loss_target": 1.788515329360962,
+      "loss_target_given_context": 2.6230647563934326,
+      "delta_loss": -0.8345494270324707,
+      "gain_ratio": -0.4666157529276844,
+      "score": 0.4666157529276844,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 435,
+      "target": "Copyright © 2013 Elsevier Inc.",
+      "score": 0.8007426913801983,
+      "deleted_suffix": "Copyright © 2013 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 51
+    },
+    {
+      "step": 2,
+      "boundary_start": 380,
+      "target": "Physicians can improve health by prescribing exercise.",
+      "score": 0.020647680591941844,
+      "deleted_suffix": "Physicians can improve health by prescribing exercise.",
+      "deleted_char_count": 54
+    },
+    {
+      "step": 3,
+      "boundary_start": 270,
+      "target": "Meeting the recommended goals of physical activity results in a significant reduction in all-cause mortality.",
+      "score": 0.07294171941366341,
+      "deleted_suffix": "Meeting the recommended goals of physical activity results in a significant reduction in all-cause mortality.",
+      "deleted_char_count": 109
+    },
+    {
+      "step": 4,
+      "boundary_start": 86,
+      "target": "The American College of Sports Medicine and \"Exercise is Medicine\" recommend treating exercise as a vital sign, and assessing and prescribing physical activity at every medical visit.",
+      "score": -0.014873052920091306,
+      "deleted_suffix": "The American College of Sports Medicine and \"Exercise is Medicine\" recommend treating exercise as a vital sign, and assessing and prescribing physical activity at every medical visit.",
+      "deleted_char_count": 183
+    },
+    {
+      "step": 5,
+      "boundary_start": 34,
+      "target": "Exercise is a fundamental component of good health.",
+      "score": 0.4666157529276844,
+      "deleted_suffix": "Exercise is a fundamental component of good health.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 5,
+  "stop_reason": "empty_context"
+}

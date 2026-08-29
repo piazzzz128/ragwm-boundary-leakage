@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4490",
+  "source_doc_id": "MED-4490",
+  "title": "A survey of feeding N-nitrosodimethylamine (NDMA) to domestic animals over an 18 year period.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A survey of feeding N-nitrosodimethylamine (NDMA) to domestic animals over an 18 year period.\nSodium nitrite and formalin have been used as preservatives in the fish meal industry in Norway since 1953. In 1957, fur farms suffered losses of mink due to a new, malignant liver disease. Experimental feeding of herring meal to cows and sheep resulted in the death of some of the animals. Further studies showed that amines (TMAO) normally present in fish, can react with sodium nitrite used as preservative, or nitrogen oxides from the combustion of fuel oils used during processing, to produce the toxic agent, NDMA. Mink and fox may consume considerable amounts of fish meal in their diets. If the fish meal contains sufficient NDMA, the incidence of liver failure or tumours can be quite high. Long-term exposure to as little as 0.1 mg NDMA/kg b.w./day in the diet of mink, cows and sheep can produce fibro-occlusive changes in the hepatic vessels. These lesions can later cause capillary ectasies-like changes in cows, which are similar in appearance to hemangiomas seen in mink. The mink liver hemangiomas develop into hemangiosarcomas. We currently consider capillary ectasies-like changes in cows exposed to NDMA to represent pre-cancerous lesions.",
+  "sanitized_text": "A survey of feeding N-nitrosodimethylamine (NDMA) to domestic animals over an 18 year period.\nSodium nitrite and formalin have been used as preservatives in the fish meal industry in Norway since 1953. In 1957, fur farms suffered losses of mink due to a new, malignant liver disease. Experimental feeding of herring meal to cows and sheep resulted in the death of some of the animals. Further studies showed that amines (TMAO) normally present in fish, can react with sodium nitrite used as preservative, or nitrogen oxides from the combustion of fuel oils used during processing, to produce the toxic agent, NDMA. Mink and fox may consume considerable amounts of fish meal in their diets. If the fish meal contains sufficient NDMA, the incidence of liver failure or tumours can be quite high. Long-term exposure to as little as 0.1 mg NDMA/kg b.w./day in the diet of mink, cows and sheep can produce fibro-occlusive changes in the hepatic vessels. These lesions can later cause capillary ectasies-like changes in cows, which are similar in appearance to hemangiomas seen in mink. The mink liver hemangiomas develop into hemangiosarcomas. We currently consider capillary ectasies-like changes in cows exposed to NDMA to represent pre-cancerous lesions.",
+  "modified": false,
+  "original_char_count": 1252,
+  "sanitized_char_count": 1252,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1139,
+      "boundary_end": 1252,
+      "context": "A survey of feeding N-nitrosodimethylamine (NDMA) to domestic animals over an 18 year period. Sodium nitrite and formalin have been used as preservatives in the fish meal industry in Norway since 1953. In 1957, fur farms suffered losses of mink due to a new, malignant liver disease. Experimental feeding of herring meal to cows and sheep resulted in the death of some of the animals. Further studies showed that amines (TMAO) normally present in fish, can react with sodium nitrite used as preservative, or nitrogen oxides from the combustion of fuel oils used during processing, to produce the toxic agent, NDMA. Mink and fox may consume considerable amounts of fish meal in their diets. If the fish meal contains sufficient NDMA, the incidence of liver failure or tumours can be quite high. Long-term exposure to as little as 0.1 mg NDMA/kg b.w./day in the diet of mink, cows and sheep can produce fibro-occlusive changes in the hepatic vessels. These lesions can later cause capillary ectasies-like changes in cows, which are similar in appearance to hemangiomas seen in mink. The mink liver hemangiomas develop into hemangiosarcomas.",
+      "target": "We currently consider capillary ectasies-like changes in cows exposed to NDMA to represent pre-cancerous lesions.",
+      "loss_target": 4.949899196624756,
+      "loss_target_given_context": 1.8382774591445923,
+      "delta_loss": 3.1116217374801636,
+      "gain_ratio": 0.6286232535001764,
+      "score": -0.6286232535001764,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4825",
+  "source_doc_id": "MED-4825",
+  "title": "Pancreatic cancer: a review of the evidence on causation.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Pancreatic cancer: a review of the evidence on causation.\nPancreatic cancer kills more than 250,000 people each year worldwide and has a poor prognosis. The aim of this article is to critically review the epidemiologic evidence for exposures that may either increase or decrease the risk. A Medline search was performed for epidemiologic studies and reviews published up to April 2007. Consistent evidence of a positive association was found for family history and cigarette smoking. Many studies documented a positive association with diabetes mellitus and chronic pancreatitis, although the etiologic mechanisms are unclear. Other associations were detected, but the results were either inconsistent or from few studies. These included positive associations with red meat, sugar, fat, body mass index, gallstones, and Helicobacter pylori, and protective effects of increasing parity, dietary folate, aspirin, and statins. There was no evidence linking alcohol or coffee consumption with an increased risk of pancreatic cancer. The associations with many exposures need to be clarified from further epidemiologic work in which there is both precise measurement of risk factors, adjustment for potential confounders, and, for dietary studies, information recorded on the method of food preparation and pattern of consumption. Such work is important to reduce the incidence of this fatal disease.",
+  "sanitized_text": "Pancreatic cancer: a review of the evidence on causation.\nPancreatic cancer kills more than 250,000 people each year worldwide and has a poor prognosis. The aim of this article is to critically review the epidemiologic evidence for exposures that may either increase or decrease the risk. A Medline search was performed for epidemiologic studies and reviews published up to April 2007. Consistent evidence of a positive association was found for family history and cigarette smoking. Many studies documented a positive association with diabetes mellitus and chronic pancreatitis, although the etiologic mechanisms are unclear. Other associations were detected, but the results were either inconsistent or from few studies. These included positive associations with red meat, sugar, fat, body mass index, gallstones, and Helicobacter pylori, and protective effects of increasing parity, dietary folate, aspirin, and statins. There was no evidence linking alcohol or coffee consumption with an increased risk of pancreatic cancer. The associations with many exposures need to be clarified from further epidemiologic work in which there is both precise measurement of risk factors, adjustment for potential confounders, and, for dietary studies, information recorded on the method of food preparation and pattern of consumption. Such work is important to reduce the incidence of this fatal disease.",
+  "modified": false,
+  "original_char_count": 1395,
+  "sanitized_char_count": 1395,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1326,
+      "boundary_end": 1395,
+      "context": "and has a poor prognosis. The aim of this article is to critically review the epidemiologic evidence for exposures that may either increase or decrease the risk. A Medline search was performed for epidemiologic studies and reviews published up to April 2007. Consistent evidence of a positive association was found for family history and cigarette smoking. Many studies documented a positive association with diabetes mellitus and chronic pancreatitis, although the etiologic mechanisms are unclear. Other associations were detected, but the results were either inconsistent or from few studies. These included positive associations with red meat, sugar, fat, body mass index, gallstones, and Helicobacter pylori, and protective effects of increasing parity, dietary folate, aspirin, and statins. There was no evidence linking alcohol or coffee consumption with an increased risk of pancreatic cancer. The associations with many exposures need to be clarified from further epidemiologic work in which there is both precise measurement of risk factors, adjustment for potential confounders, and, for dietary studies, information recorded on the method of food preparation and pattern of consumption.",
+      "target": "Such work is important to reduce the incidence of this fatal disease.",
+      "loss_target": 3.386753797531128,
+      "loss_target_given_context": 1.6984542608261108,
+      "delta_loss": 1.688299536705017,
+      "gain_ratio": 0.498500817489524,
+      "score": -0.498500817489524,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

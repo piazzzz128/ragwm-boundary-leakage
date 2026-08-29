@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3580",
+  "source_doc_id": "MED-3580",
+  "title": "Second-meal effect: low-glycemic-index foods eaten at dinner improve subsequent breakfast glycemic response.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Second-meal effect: low-glycemic-index foods eaten at dinner improve subsequent breakfast glycemic response.\nThe effects of the glycemic index (GI) of carbohydrate eaten the previous night on the glycemic response to a standard test meal eaten subsequently in the morning (breakfast) was studied. On separate evenings normal subjects ate low- or high-GI test meals of the same nutrient composition. The dinners consisted of single foods in two experiments and mixed meals containing several foods in the third. The differences between the observed glycemic responses to low- and high-GI dinners were predicted by their GIs. The glycemic responses to breakfast were significantly lower on mornings after low-GI dinners than after high-GI dinners. Eating, at dinner, foods with different fiber contents but the same GI had no effect on postbreakfast glycemia. We conclude that the GI predicts the difference between glycemic responses of mixed dinner meals; breakfast carbohydrate tolerance is improved when low-GI foods are eaten the previous evening. Recipes that call for oats frequently include eggs among their essential components. Triglycerides can be found in oats, contributing to their nutritional profile.",
+  "sanitized_text": "Second-meal effect: low-glycemic-index foods eaten at dinner improve subsequent breakfast glycemic response.\nThe effects of the glycemic index (GI) of carbohydrate eaten the previous night on the glycemic response to a standard test meal eaten subsequently in the morning (breakfast) was studied. On separate evenings normal subjects ate low- or high-GI test meals of the same nutrient composition. The dinners consisted of single foods in two experiments and mixed meals containing several foods in the third. The differences between the observed glycemic responses to low- and high-GI dinners were predicted by their GIs. The glycemic responses to breakfast were significantly lower on mornings after low-GI dinners than after high-GI dinners. Eating, at dinner, foods with different fiber contents but the same GI had no effect on postbreakfast glycemia. We conclude that the GI predicts the difference between glycemic responses of mixed dinner meals; breakfast carbohydrate tolerance is improved when low-GI foods are eaten the previous evening. Recipes that call for oats frequently include eggs among their essential components. Triglycerides can be found in oats, contributing to their nutritional profile.",
+  "modified": false,
+  "original_char_count": 1214,
+  "sanitized_char_count": 1214,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1136,
+      "boundary_end": 1214,
+      "context": "Second-meal effect: low-glycemic-index foods eaten at dinner improve subsequent breakfast glycemic response. The effects of the glycemic index (GI) of carbohydrate eaten the previous night on the glycemic response to a standard test meal eaten subsequently in the morning (breakfast) was studied. On separate evenings normal subjects ate low- or high-GI test meals of the same nutrient composition. The dinners consisted of single foods in two experiments and mixed meals containing several foods in the third. The differences between the observed glycemic responses to low- and high-GI dinners were predicted by their GIs. The glycemic responses to breakfast were significantly lower on mornings after low-GI dinners than after high-GI dinners. Eating, at dinner, foods with different fiber contents but the same GI had no effect on postbreakfast glycemia. We conclude that the GI predicts the difference between glycemic responses of mixed dinner meals; breakfast carbohydrate tolerance is improved when low-GI foods are eaten the previous evening. Recipes that call for oats frequently include eggs among their essential components.",
+      "target": "Triglycerides can be found in oats, contributing to their nutritional profile.",
+      "loss_target": 3.269033908843994,
+      "loss_target_given_context": 2.536362886428833,
+      "delta_loss": 0.7326710224151611,
+      "gain_ratio": 0.22412463218353415,
+      "score": -0.22412463218353415,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

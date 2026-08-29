@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4605",
+  "source_doc_id": "MED-4605",
+  "title": "Genotoxicity and cell transformation studies with sorbates in Syrian hamster embryo fibroblasts.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Genotoxicity and cell transformation studies with sorbates in Syrian hamster embryo fibroblasts.\nSorbic acid, sodium sorbate and potassium sorbate were tested for their genotoxic potential in the Syrian hamster embryo (SHE) fibroblast micronucleus assay and the SHE cell transformation test in vitro. Sorbic acid and potassium sorbate showed no activity in either test system. When freshly prepared sodium sorbate solutions were used, no genotoxic or cell-transforming activity was detected. However, sodium sorbate as stored solution, which previously had been heated and sonicated to facilitate solubilization, yielded a positive response in both test systems. It is concluded that oxidation products of sodium sorbate that possess genotoxic and cell-transforming properties are formed under conditions of heating, sonication and storage.",
+  "sanitized_text": "Genotoxicity and cell transformation studies with sorbates in Syrian hamster embryo fibroblasts.\nSorbic acid, sodium sorbate and potassium sorbate were tested for their genotoxic potential in the Syrian hamster embryo (SHE) fibroblast micronucleus assay and the SHE cell transformation test in vitro. Sorbic acid and potassium sorbate showed no activity in either test system. When freshly prepared sodium sorbate solutions were used, no genotoxic or cell-transforming activity was detected. However, sodium sorbate as stored solution, which previously had been heated and sonicated to facilitate solubilization, yielded a positive response in both test systems. It is concluded that oxidation products of sodium sorbate that possess genotoxic and cell-transforming properties are formed under conditions of heating, sonication and storage.",
+  "modified": false,
+  "original_char_count": 840,
+  "sanitized_char_count": 840,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 663,
+      "boundary_end": 840,
+      "context": "Genotoxicity and cell transformation studies with sorbates in Syrian hamster embryo fibroblasts. Sorbic acid, sodium sorbate and potassium sorbate were tested for their genotoxic potential in the Syrian hamster embryo (SHE) fibroblast micronucleus assay and the SHE cell transformation test in vitro. Sorbic acid and potassium sorbate showed no activity in either test system. When freshly prepared sodium sorbate solutions were used, no genotoxic or cell-transforming activity was detected. However, sodium sorbate as stored solution, which previously had been heated and sonicated to facilitate solubilization, yielded a positive response in both test systems.",
+      "target": "It is concluded that oxidation products of sodium sorbate that possess genotoxic and cell-transforming properties are formed under conditions of heating, sonication and storage.",
+      "loss_target": 3.5669379234313965,
+      "loss_target_given_context": 1.4506901502609253,
+      "delta_loss": 2.116247773170471,
+      "gain_ratio": 0.5932953750803265,
+      "score": -0.5932953750803265,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

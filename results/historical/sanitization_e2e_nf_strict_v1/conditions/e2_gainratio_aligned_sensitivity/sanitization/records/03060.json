@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4995",
+  "source_doc_id": "MED-4995",
+  "title": "Salicylic Acid sans Aspirin in Animals and Man: Persistence in Fasting and Biosynthesis from Benzoic Acid",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Salicylic Acid sans Aspirin in Animals and Man: Persistence in Fasting and Biosynthesis from Benzoic Acid\nSalicylic acid (SA), which is central to defense mechanisms in plants and the principal metabolite of aspirin, occurs naturally in man with higher levels of SA and its urinary metabolite salicyluric acid (SU) in vegetarians overlapping with levels in patients on low-dose aspirin regimens. SA is widely distributed in animal blood. Fasting for major colorectal surgery did not cause disappearance of SA from plasma, even in patients following total proctocolectomy. A 13C6 benzoic acid load ingested by six volunteers led, between 8 and 16 h, to a median 33.9% labeling of urinary salicyluric acid. The overall contribution of benzoic acid (and its salts) to the turnover of circulating SA thus requires further assessment. However, that SA appears to be, at least partially, an endogenous compound should lead to reassessment of its role in human (and animal) pathophysiology.",
+  "sanitized_text": "Salicylic Acid sans Aspirin in Animals and Man: Persistence in Fasting and Biosynthesis from Benzoic Acid\nSalicylic acid (SA), which is central to defense mechanisms in plants and the principal metabolite of aspirin, occurs naturally in man with higher levels of SA and its urinary metabolite salicyluric acid (SU) in vegetarians overlapping with levels in patients on low-dose aspirin regimens. SA is widely distributed in animal blood. Fasting for major colorectal surgery did not cause disappearance of SA from plasma, even in patients following total proctocolectomy. A 13C6 benzoic acid load ingested by six volunteers led, between 8 and 16 h, to a median 33.9% labeling of urinary salicyluric acid. The overall contribution of benzoic acid (and its salts) to the turnover of circulating SA thus requires further assessment. However, that SA appears to be, at least partially, an endogenous compound should lead to reassessment of its role in human (and animal) pathophysiology.",
+  "modified": false,
+  "original_char_count": 983,
+  "sanitized_char_count": 983,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 830,
+      "boundary_end": 983,
+      "context": "Salicylic Acid sans Aspirin in Animals and Man: Persistence in Fasting and Biosynthesis from Benzoic Acid Salicylic acid (SA), which is central to defense mechanisms in plants and the principal metabolite of aspirin, occurs naturally in man with higher levels of SA and its urinary metabolite salicyluric acid (SU) in vegetarians overlapping with levels in patients on low-dose aspirin regimens. SA is widely distributed in animal blood. Fasting for major colorectal surgery did not cause disappearance of SA from plasma, even in patients following total proctocolectomy. A 13C6 benzoic acid load ingested by six volunteers led, between 8 and 16 h, to a median 33.9% labeling of urinary salicyluric acid. The overall contribution of benzoic acid (and its salts) to the turnover of circulating SA thus requires further assessment.",
+      "target": "However, that SA appears to be, at least partially, an endogenous compound should lead to reassessment of its role in human (and animal) pathophysiology.",
+      "loss_target": 3.0702247619628906,
+      "loss_target_given_context": 1.8607158660888672,
+      "delta_loss": 1.2095088958740234,
+      "gain_ratio": 0.3939479971820521,
+      "score": -0.3939479971820521,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

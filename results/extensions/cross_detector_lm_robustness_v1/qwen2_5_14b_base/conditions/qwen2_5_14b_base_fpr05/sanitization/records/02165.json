@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3887",
+  "source_doc_id": "MED-3887",
+  "title": "Food Animals and Antimicrobials: Impacts on Human Health",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Food Animals and Antimicrobials: Impacts on Human Health\nSummary: Antimicrobials are valuable therapeutics whose efficacy is seriously compromised by the emergence and spread of antimicrobial resistance. The provision of antibiotics to food animals encompasses a wide variety of nontherapeutic purposes that include growth promotion. The concern over resistance emergence and spread to people by nontherapeutic use of antimicrobials has led to conflicted practices and opinions. Considerable evidence supported the removal of nontherapeutic antimicrobials (NTAs) in Europe, based on the “precautionary principle.” Still, concrete scientific evidence of the favorable versus unfavorable consequences of NTAs is not clear to all stakeholders. Substantial data show elevated antibiotic resistance in bacteria associated with animals fed NTAs and their food products. This resistance spreads to other animals and humans—directly by contact and indirectly via the food chain, water, air, and manured and sludge-fertilized soils. Modern genetic techniques are making advances in deciphering the ecological impact of NTAs, but modeling efforts are thwarted by deficits in key knowledge of microbial and antibiotic loads at each stage of the transmission chain. Still, the substantial and expanding volume of evidence reporting animal-to-human spread of resistant bacteria, including that arising from use of NTAs, supports eliminating NTA use in order to reduce the growing environmental load of resistance genes.",
+  "sanitized_text": "Food Animals and Antimicrobials: Impacts on Human Health\nSummary: Antimicrobials are valuable therapeutics whose efficacy is seriously compromised by the emergence and spread of antimicrobial resistance. The provision of antibiotics to food animals encompasses a wide variety of nontherapeutic purposes that include growth promotion. The concern over resistance emergence and spread to people by nontherapeutic use of antimicrobials has led to conflicted practices and opinions. Considerable evidence supported the removal of nontherapeutic antimicrobials (NTAs) in Europe, based on the “precautionary principle.” Still, concrete scientific evidence of the favorable versus unfavorable consequences of NTAs is not clear to all stakeholders. Substantial data show elevated antibiotic resistance in bacteria associated with animals fed NTAs and their food products. This resistance spreads to other animals and humans—directly by contact and indirectly via the food chain, water, air, and manured and sludge-fertilized soils. Modern genetic techniques are making advances in deciphering the ecological impact of NTAs, but modeling efforts are thwarted by deficits in key knowledge of microbial and antibiotic loads at each stage of the transmission chain. Still, the substantial and expanding volume of evidence reporting animal-to-human spread of resistant bacteria, including that arising from use of NTAs, supports eliminating NTA use in order to reduce the growing environmental load of resistance genes.",
+  "modified": false,
+  "original_char_count": 1506,
+  "sanitized_char_count": 1506,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1254,
+      "boundary_end": 1506,
+      "context": "Summary: Antimicrobials are valuable therapeutics whose efficacy is seriously compromised by the emergence and spread of antimicrobial resistance. The provision of antibiotics to food animals encompasses a wide variety of nontherapeutic purposes that include growth promotion. The concern over resistance emergence and spread to people by nontherapeutic use of antimicrobials has led to conflicted practices and opinions. Considerable evidence supported the removal of nontherapeutic antimicrobials (NTAs) in Europe, based on the “precautionary principle.” Still, concrete scientific evidence of the favorable versus unfavorable consequences of NTAs is not clear to all stakeholders. Substantial data show elevated antibiotic resistance in bacteria associated with animals fed NTAs and their food products. This resistance spreads to other animals and humans—directly by contact and indirectly via the food chain, water, air, and manured and sludge-fertilized soils. Modern genetic techniques are making advances in deciphering the ecological impact of NTAs, but modeling efforts are thwarted by deficits in key knowledge of microbial and antibiotic loads at each stage of the transmission chain.",
+      "target": "Still, the substantial and expanding volume of evidence reporting animal-to-human spread of resistant bacteria, including that arising from use of NTAs, supports eliminating NTA use in order to reduce the growing environmental load of resistance genes.",
+      "loss_target": 3.613619804382324,
+      "loss_target_given_context": 2.4912209510803223,
+      "delta_loss": 1.122398853302002,
+      "gain_ratio": 0.31060236385157114,
+      "score": -0.31060236385157114,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,23 @@
+{
+  "experiment_role": "cross_detector_lm_robustness_aligned_v1",
+  "dataset": "trec-covid",
+  "model": "Gemma-2-2B-base",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/Gemma-2-2B-base-ms",
+  "input": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3.json",
+  "input_sha256": "d526aa72f48662521b67339f58849c1ea6c26de4042eb8b3dd842403f8ed293f",
+  "preflight": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/gemma2_2b_base/audit/preflight.json",
+  "preflight_sha256": "f461ed8546810b2d858527c537758775d7d466c2b9f8bd2dcf05fcdcd0ac1424",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "max_context_tokens": 1024,
+  "max_target_tokens": 128,
+  "requested_record_count": 458,
+  "completed_record_count": 458,
+  "failed_record_count": 0,
+  "failures": [],
+  "complete": true,
+  "scores": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/gemma2_2b_base/scores/gemma_trec_aligned_scores.json",
+  "scores_sha256": "1725f0cb510489da093676d77e985c74ae66eff9479572a28af94a00a99136b6",
+  "warning": "Cross-detector extension only; do not overwrite Qwen or sealed strict-v1 scores."
+}

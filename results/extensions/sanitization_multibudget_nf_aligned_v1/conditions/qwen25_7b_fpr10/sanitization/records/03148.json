@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5087",
+  "source_doc_id": "MED-5087",
+  "title": "Acrylamide exposure and incidence of breast cancer among postmenopausal women in the Danish Diet, Cancer and Health Study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Acrylamide exposure and incidence of breast cancer among postmenopausal women in the Danish Diet, Cancer and Health Study.\nAcrylamide, a probable human carcinogen, is formed in several foods during high-temperature processing. So far, epidemiological studies have not shown any association between human cancer risk and dietary exposure to acrylamide. The purpose of this study was to conduct a nested case control study within a prospective cohort study on the association between breast cancer and exposure to acrylamide using biomarkers. N-terminal hemoglobin adduct levels of acrylamide and its genotoxic metabolite, glycidamide in red blood cells were analyzed (by LC/MS/MS) as biomarkers of exposure on 374 breast cancer cases and 374 controls from a cohort of postmenopausal women. The adduct levels of acrylamide and glycidamide were similar in cases and controls, with smokers having much higher levels (approximately 3 times) than nonsmokers. No association was seen between acrylamide-hemoglobin levels and breast cancer risk neither unadjusted nor adjusted for the potential confounders HRT duration, parity, BMI, alcohol intake and education. After adjustment for smoking behavior, however, a positive association was seen between acrylamide-hemoglobin levels and estrogen receptor positive breast cancer with an estimated incidence rate ratio (95% CI) of 2.7 (1.1-6.6) per 10-fold increase in acrylamide-hemoglobin level. A weak association between glycidamide hemoglobin levels and incidence of estrogen receptor positive breast cancer was also found, this association, however, entirely disappeared when acrylamide and glycidamide hemoglobin levels were mutually adjusted. (c) 2008 Wiley-Liss, Inc.",
+  "sanitized_text": "Acrylamide exposure and incidence of breast cancer among postmenopausal women in the Danish Diet, Cancer and Health Study.\nAcrylamide, a probable human carcinogen, is formed in several foods during high-temperature processing. So far, epidemiological studies have not shown any association between human cancer risk and dietary exposure to acrylamide. The purpose of this study was to conduct a nested case control study within a prospective cohort study on the association between breast cancer and exposure to acrylamide using biomarkers. N-terminal hemoglobin adduct levels of acrylamide and its genotoxic metabolite, glycidamide in red blood cells were analyzed (by LC/MS/MS) as biomarkers of exposure on 374 breast cancer cases and 374 controls from a cohort of postmenopausal women. The adduct levels of acrylamide and glycidamide were similar in cases and controls, with smokers having much higher levels (approximately 3 times) than nonsmokers. No association was seen between acrylamide-hemoglobin levels and breast cancer risk neither unadjusted nor adjusted for the potential confounders HRT duration, parity, BMI, alcohol intake and education. After adjustment for smoking behavior, however, a positive association was seen between acrylamide-hemoglobin levels and estrogen receptor positive breast cancer with an estimated incidence rate ratio (95% CI) of 2.7 (1.1-6.6) per 10-fold increase in acrylamide-hemoglobin level. A weak association between glycidamide hemoglobin levels and incidence of estrogen receptor positive breast cancer was also found, this association, however, entirely disappeared when acrylamide and glycidamide hemoglobin levels were mutually adjusted. (c) 2008 Wiley-Liss, Inc.",
+  "modified": false,
+  "original_char_count": 1714,
+  "sanitized_char_count": 1714,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1689,
+      "boundary_end": 1714,
+      "context": "cancer and exposure to acrylamide using biomarkers. N-terminal hemoglobin adduct levels of acrylamide and its genotoxic metabolite, glycidamide in red blood cells were analyzed (by LC/MS/MS) as biomarkers of exposure on 374 breast cancer cases and 374 controls from a cohort of postmenopausal women. The adduct levels of acrylamide and glycidamide were similar in cases and controls, with smokers having much higher levels (approximately 3 times) than nonsmokers. No association was seen between acrylamide-hemoglobin levels and breast cancer risk neither unadjusted nor adjusted for the potential confounders HRT duration, parity, BMI, alcohol intake and education. After adjustment for smoking behavior, however, a positive association was seen between acrylamide-hemoglobin levels and estrogen receptor positive breast cancer with an estimated incidence rate ratio (95% CI) of 2.7 (1.1-6.6) per 10-fold increase in acrylamide-hemoglobin level. A weak association between glycidamide hemoglobin levels and incidence of estrogen receptor positive breast cancer was also found, this association, however, entirely disappeared when acrylamide and glycidamide hemoglobin levels were mutually adjusted.",
+      "target": "(c) 2008 Wiley-Liss, Inc.",
+      "loss_target": 1.6811143159866333,
+      "loss_target_given_context": 0.4730013906955719,
+      "delta_loss": 1.2081129252910614,
+      "gain_ratio": 0.7186381757638112,
+      "score": -0.7186381757638112,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3809",
+  "source_doc_id": "MED-3809",
+  "title": "Toxicological and mutagenic analysis of Artemisia dracunculus (tarragon) extract.",
+  "original_text": "Toxicological and mutagenic analysis of Artemisia dracunculus (tarragon) extract.\nMutagenicity and liver toxicity of the herb tarragon (Artemisia dracunculus) were evaluated using single cell gel (comet) electrophoresis. Ten microlitres aliquots of peripheral venous human blood were incubated with tarragon extract, saline, or the mutagen sodium dichromate. Cell suspensions dispersed in low-melting agarose were electrophoresed in ethidium bromide. The resulting DNA migration trails were obtained using fluorescent microscopy at 400× magnification, and graded according to the mutagenicity index (MI) for each cell incubation condition. The in vivo liver toxicity of Artemisia dracunculus was assessed in the blood of mice treated orally with the extract of the herb, using alanine aminotransferase (ALT) and aspartate aminotransferase (AST) as liver function indicators. Liver morphology was assessed using hematoxylin and eosin (HE) staining of liver tissue. The present study demonstrated a direct correlation between tarragon extract dosage and three major outcome variables: MI; serum liver enzyme activity; and liver histopathology. These outcomes are possibly due to the presence in tarragon of methylchavicol and other genotoxic compounds. These findings provide a preliminary guide for risk assessment of tarragon in diet and in possible therapeutic applications. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Toxicological and mutagenic analysis of Artemisia dracunculus (tarragon) extract.\nMutagenicity and liver toxicity of the herb tarragon (Artemisia dracunculus) were evaluated using single cell gel (comet) electrophoresis. Ten microlitres aliquots of peripheral venous human blood were incubated with tarragon extract, saline, or the mutagen sodium dichromate. Cell suspensions dispersed in low-melting agarose were electrophoresed in ethidium bromide. The resulting DNA migration trails were obtained using fluorescent microscopy at 400× magnification, and graded according to the mutagenicity index (MI) for each cell incubation condition. The in vivo liver toxicity of Artemisia dracunculus was assessed in the blood of mice treated orally with the extract of the herb, using alanine aminotransferase (ALT) and aspartate aminotransferase (AST) as liver function indicators. Liver morphology was assessed using hematoxylin and eosin (HE) staining of liver tissue. The present study demonstrated a direct correlation between tarragon extract dosage and three major outcome variables: MI; serum liver enzyme activity; and liver histopathology. These outcomes are possibly due to the presence in tarragon of methylchavicol and other genotoxic compounds. These findings provide a preliminary guide for risk assessment of tarragon in diet and in possible therapeutic applications.",
+  "modified": true,
+  "original_char_count": 1427,
+  "sanitized_char_count": 1375,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1376,
+      "boundary_end": 1406,
+      "context": "single cell gel (comet) electrophoresis. Ten microlitres aliquots of peripheral venous human blood were incubated with tarragon extract, saline, or the mutagen sodium dichromate. Cell suspensions dispersed in low-melting agarose were electrophoresed in ethidium bromide. The resulting DNA migration trails were obtained using fluorescent microscopy at 400× magnification, and graded according to the mutagenicity index (MI) for each cell incubation condition. The in vivo liver toxicity of Artemisia dracunculus was assessed in the blood of mice treated orally with the extract of the herb, using alanine aminotransferase (ALT) and aspartate aminotransferase (AST) as liver function indicators. Liver morphology was assessed using hematoxylin and eosin (HE) staining of liver tissue. The present study demonstrated a direct correlation between tarragon extract dosage and three major outcome variables: MI; serum liver enzyme activity; and liver histopathology. These outcomes are possibly due to the presence in tarragon of methylchavicol and other genotoxic compounds. These findings provide a preliminary guide for risk assessment of tarragon in diet and in possible therapeutic applications.",
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "loss_target": 1.1579636335372925,
+      "loss_target_given_context": 1.5729076862335205,
+      "delta_loss": -0.414944052696228,
+      "gain_ratio": -0.3583394509797139,
+      "score": 0.3583394509797139,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1251,
+      "boundary_end": 1375,
+      "context": "(tarragon) extract. Mutagenicity and liver toxicity of the herb tarragon (Artemisia dracunculus) were evaluated using single cell gel (comet) electrophoresis. Ten microlitres aliquots of peripheral venous human blood were incubated with tarragon extract, saline, or the mutagen sodium dichromate. Cell suspensions dispersed in low-melting agarose were electrophoresed in ethidium bromide. The resulting DNA migration trails were obtained using fluorescent microscopy at 400× magnification, and graded according to the mutagenicity index (MI) for each cell incubation condition. The in vivo liver toxicity of Artemisia dracunculus was assessed in the blood of mice treated orally with the extract of the herb, using alanine aminotransferase (ALT) and aspartate aminotransferase (AST) as liver function indicators. Liver morphology was assessed using hematoxylin and eosin (HE) staining of liver tissue. The present study demonstrated a direct correlation between tarragon extract dosage and three major outcome variables: MI; serum liver enzyme activity; and liver histopathology. These outcomes are possibly due to the presence in tarragon of methylchavicol and other genotoxic compounds.",
+      "target": "These findings provide a preliminary guide for risk assessment of tarragon in diet and in possible therapeutic applications.",
+      "loss_target": 3.974996566772461,
+      "loss_target_given_context": 2.741842269897461,
+      "delta_loss": 1.233154296875,
+      "gain_ratio": 0.3102277640144661,
+      "score": -0.3102277640144661,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1376,
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "score": 0.3583394509797139,
+      "deleted_suffix": "Copyright © 2012 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

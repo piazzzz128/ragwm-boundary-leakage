@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2501",
+  "source_doc_id": "MED-2501",
+  "title": "Amino acid sensing and regulation of mTORC1.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Amino acid sensing and regulation of mTORC1.\nAmino acids play fundamental roles in the cell both as the building blocks of new proteins and as metabolic precursors. To adapt to their limitation during periods of protein starvation, multiple adaptive mechanisms have evolved, including a rapid cessation of new protein synthesis, an increase in amino acid biosynthesis and transport, and autophagy. Here, we discuss what we currently know about how amino acid limitation is sensed, and how this sensing might be transmitted to mTORC1 to regulate protein synthesis and autophagy. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Amino acid sensing and regulation of mTORC1.\nAmino acids play fundamental roles in the cell both as the building blocks of new proteins and as metabolic precursors. To adapt to their limitation during periods of protein starvation, multiple adaptive mechanisms have evolved, including a rapid cessation of new protein synthesis, an increase in amino acid biosynthesis and transport, and autophagy. Here, we discuss what we currently know about how amino acid limitation is sensed, and how this sensing might be transmitted to mTORC1 to regulate protein synthesis and autophagy. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 629,
+  "sanitized_char_count": 629,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 578,
+      "boundary_end": 608,
+      "context": "Amino acid sensing and regulation of mTORC1. Amino acids play fundamental roles in the cell both as the building blocks of new proteins and as metabolic precursors. To adapt to their limitation during periods of protein starvation, multiple adaptive mechanisms have evolved, including a rapid cessation of new protein synthesis, an increase in amino acid biosynthesis and transport, and autophagy. Here, we discuss what we currently know about how amino acid limitation is sensed, and how this sensing might be transmitted to mTORC1 to regulate protein synthesis and autophagy.",
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "loss_target": 1.1579636335372925,
+      "loss_target_given_context": 0.32417887449264526,
+      "delta_loss": 0.8337847590446472,
+      "gain_ratio": 0.7200439935213172,
+      "score": -0.7200439935213172,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

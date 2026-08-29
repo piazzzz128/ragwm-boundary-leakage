@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-866",
+  "source_doc_id": "MED-866",
+  "title": "Bitter melon (Momordica charantia): a review of efficacy and safety.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Bitter melon (Momordica charantia): a review of efficacy and safety.\nThe pharmacology, clinical efficacy, adverse effects, drug interactions, and place in therapy of bitter melon are described. Bitter melon (Momordica charantia) is an alternative therapy that has primarily been used for lowering blood glucose levels in patients with diabetes mellitus. Components of bitter melon extract appear to have structural similarities to animal insulin. Antiviral and antineoplastic activities have also been reported in vitro. Four clinical trials found bitter melon juice, fruit, and dried powder to have a moderate hypoglycemic effect. These studies were small and were not randomized or double-blind, however. Reported adverse effects of bitter melon include hypoglycemic coma and convulsions in children, reduced fertility in mice, a favism-like syndrome, increases in gamma-glutamyltransferase and alkaline phosphatase levels in animals, and headaches. Bitter melon may have additive effects when taken with other glucose-lowering agents. Adequately powered, randomized, placebo-controlled trials are needed to properly assess safety and efficacy before bitter melon can be routinely recommended. Bitter melon may have hypoglycemic effects, but data are not sufficient to recommend its use in the absence of careful supervision and monitoring.",
+  "sanitized_text": "Bitter melon (Momordica charantia): a review of efficacy and safety.\nThe pharmacology, clinical efficacy, adverse effects, drug interactions, and place in therapy of bitter melon are described. Bitter melon (Momordica charantia) is an alternative therapy that has primarily been used for lowering blood glucose levels in patients with diabetes mellitus. Components of bitter melon extract appear to have structural similarities to animal insulin. Antiviral and antineoplastic activities have also been reported in vitro. Four clinical trials found bitter melon juice, fruit, and dried powder to have a moderate hypoglycemic effect. These studies were small and were not randomized or double-blind, however. Reported adverse effects of bitter melon include hypoglycemic coma and convulsions in children, reduced fertility in mice, a favism-like syndrome, increases in gamma-glutamyltransferase and alkaline phosphatase levels in animals, and headaches. Bitter melon may have additive effects when taken with other glucose-lowering agents. Adequately powered, randomized, placebo-controlled trials are needed to properly assess safety and efficacy before bitter melon can be routinely recommended. Bitter melon may have hypoglycemic effects, but data are not sufficient to recommend its use in the absence of careful supervision and monitoring.",
+  "modified": false,
+  "original_char_count": 1342,
+  "sanitized_char_count": 1342,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1196,
+      "boundary_end": 1342,
+      "context": "Bitter melon (Momordica charantia): a review of efficacy and safety. The pharmacology, clinical efficacy, adverse effects, drug interactions, and place in therapy of bitter melon are described. Bitter melon (Momordica charantia) is an alternative therapy that has primarily been used for lowering blood glucose levels in patients with diabetes mellitus. Components of bitter melon extract appear to have structural similarities to animal insulin. Antiviral and antineoplastic activities have also been reported in vitro. Four clinical trials found bitter melon juice, fruit, and dried powder to have a moderate hypoglycemic effect. These studies were small and were not randomized or double-blind, however. Reported adverse effects of bitter melon include hypoglycemic coma and convulsions in children, reduced fertility in mice, a favism-like syndrome, increases in gamma-glutamyltransferase and alkaline phosphatase levels in animals, and headaches. Bitter melon may have additive effects when taken with other glucose-lowering agents. Adequately powered, randomized, placebo-controlled trials are needed to properly assess safety and efficacy before bitter melon can be routinely recommended.",
+      "target": "Bitter melon may have hypoglycemic effects, but data are not sufficient to recommend its use in the absence of careful supervision and monitoring.",
+      "loss_target": 2.3665761947631836,
+      "loss_target_given_context": 1.580750584602356,
+      "delta_loss": 0.7858256101608276,
+      "gain_ratio": 0.33205168373607463,
+      "score": -0.33205168373607463,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

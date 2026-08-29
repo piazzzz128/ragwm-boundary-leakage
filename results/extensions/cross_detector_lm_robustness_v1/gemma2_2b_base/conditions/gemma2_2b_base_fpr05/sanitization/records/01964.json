@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3649",
+  "source_doc_id": "MED-3649",
+  "title": "Food-borne origins of Escherichia coli causing extraintestinal infections.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Food-borne origins of Escherichia coli causing extraintestinal infections.\nMost human extraintestinal Escherichia coli infections, including those involving antimicrobial resistant strains, are caused by the members of a limited number of distinctive E. coli lineages, termed extraintestinal pathogenic E. coli (ExPEC), that have a special ability to cause disease at extraintestinal sites when they exit their usual reservoir in the host's intestinal tract. Multiple lines of evidence suggest that many of the ExPEC strains encountered in humans with urinary tract infection, sepsis, and other extraintestinal infections, especially the most extensively antimicrobial-resistant strains, may have a food animal source, and may be transmitted to humans via the food supply. This review summarizes the evidence that food-borne organisms are a significant cause of extraintestinal E. coli infections in humans.",
+  "sanitized_text": "Food-borne origins of Escherichia coli causing extraintestinal infections.\nMost human extraintestinal Escherichia coli infections, including those involving antimicrobial resistant strains, are caused by the members of a limited number of distinctive E. coli lineages, termed extraintestinal pathogenic E. coli (ExPEC), that have a special ability to cause disease at extraintestinal sites when they exit their usual reservoir in the host's intestinal tract. Multiple lines of evidence suggest that many of the ExPEC strains encountered in humans with urinary tract infection, sepsis, and other extraintestinal infections, especially the most extensively antimicrobial-resistant strains, may have a food animal source, and may be transmitted to humans via the food supply. This review summarizes the evidence that food-borne organisms are a significant cause of extraintestinal E. coli infections in humans.",
+  "modified": false,
+  "original_char_count": 907,
+  "sanitized_char_count": 907,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 881,
+      "boundary_end": 907,
+      "context": "Food-borne origins of Escherichia coli causing extraintestinal infections. Most human extraintestinal Escherichia coli infections, including those involving antimicrobial resistant strains, are caused by the members of a limited number of distinctive E. coli lineages, termed extraintestinal pathogenic E. coli (ExPEC), that have a special ability to cause disease at extraintestinal sites when they exit their usual reservoir in the host's intestinal tract. Multiple lines of evidence suggest that many of the ExPEC strains encountered in humans with urinary tract infection, sepsis, and other extraintestinal infections, especially the most extensively antimicrobial-resistant strains, may have a food animal source, and may be transmitted to humans via the food supply. This review summarizes the evidence that food-borne organisms are a significant cause of extraintestinal E.",
+      "target": "coli infections in humans.",
+      "loss_target": 13.152585983276367,
+      "loss_target_given_context": 1.2722091674804688,
+      "delta_loss": 11.880376815795898,
+      "gain_ratio": 0.9032730773174116,
+      "score": -0.9032730773174116,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

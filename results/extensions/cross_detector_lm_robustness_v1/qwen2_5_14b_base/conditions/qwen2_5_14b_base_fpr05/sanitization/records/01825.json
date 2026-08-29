@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3487",
+  "source_doc_id": "MED-3487",
+  "title": "Science of weight loss supplements: Compromised by conflicts of interest?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Science of weight loss supplements: Compromised by conflicts of interest?\nWeight loss supplements often contain powerful pharmacoactive ingredients with the potential to cause harm. Trials used to determine product safety and effectiveness, meanwhile, tend to be small, of short duration, and frequently lack financial conflict of interest disclosures. These factors could conspire to place consumers at risk, especially when published research cited in advertising cloaks products with the suggestion that their safety and effectiveness have been proven by science. Examples of current and former weight loss products backed by potentially conflicted or low quality research include Metabolife-356, Hydroxycut, Xenadrine and LeptiCore. Published research, especially in the field of weight loss supplements, needs better conflict of interest disclosure, and regulators should consider how research findings are used in marketing claims.",
+  "sanitized_text": "Science of weight loss supplements: Compromised by conflicts of interest?\nWeight loss supplements often contain powerful pharmacoactive ingredients with the potential to cause harm. Trials used to determine product safety and effectiveness, meanwhile, tend to be small, of short duration, and frequently lack financial conflict of interest disclosures. These factors could conspire to place consumers at risk, especially when published research cited in advertising cloaks products with the suggestion that their safety and effectiveness have been proven by science. Examples of current and former weight loss products backed by potentially conflicted or low quality research include Metabolife-356, Hydroxycut, Xenadrine and LeptiCore. Published research, especially in the field of weight loss supplements, needs better conflict of interest disclosure, and regulators should consider how research findings are used in marketing claims.",
+  "modified": false,
+  "original_char_count": 937,
+  "sanitized_char_count": 937,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 737,
+      "boundary_end": 937,
+      "context": "Science of weight loss supplements: Compromised by conflicts of interest? Weight loss supplements often contain powerful pharmacoactive ingredients with the potential to cause harm. Trials used to determine product safety and effectiveness, meanwhile, tend to be small, of short duration, and frequently lack financial conflict of interest disclosures. These factors could conspire to place consumers at risk, especially when published research cited in advertising cloaks products with the suggestion that their safety and effectiveness have been proven by science. Examples of current and former weight loss products backed by potentially conflicted or low quality research include Metabolife-356, Hydroxycut, Xenadrine and LeptiCore.",
+      "target": "Published research, especially in the field of weight loss supplements, needs better conflict of interest disclosure, and regulators should consider how research findings are used in marketing claims.",
+      "loss_target": 3.256605386734009,
+      "loss_target_given_context": 1.9834821224212646,
+      "delta_loss": 1.2731232643127441,
+      "gain_ratio": 0.3909356870497401,
+      "score": -0.3909356870497401,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

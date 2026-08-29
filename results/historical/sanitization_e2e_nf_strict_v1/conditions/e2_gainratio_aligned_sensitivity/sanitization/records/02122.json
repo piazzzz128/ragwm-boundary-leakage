@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3822",
+  "source_doc_id": "MED-3822",
+  "title": "Cellulite: nature and aetiopathogenesis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cellulite: nature and aetiopathogenesis.\nOnly a limited number of studies on cellulite have been published in the international literature and many of them reach somewhat antithetical conclusions. Consequently, it is not yet possible to reconcile the extreme differences of opinion which have lingered on for years concerning the nature of this disorder, as well as its origin and even the most basic aspects of its histopathological classification. It does not even have a recognized name: in fact, the term 'cellulitis' is used in scientific English to indicate a spreading gangrenous infection of the subcutaneous cellular tissue. The other terms used from time to time [panniculitis, lipodystrophy, edematofibrosclerotic panniculitis (EFP), liposclerosis, lipoedema, etc.] have quite different morphological and pathogenetic connotations in general. Over the last few decades, three major conflicting theories have emerged in relation to the ethiopathogenesis of cellulite. These indicate, respectively, the following causes: 1. Oedema caused by excessive hydrophilia of the intercellular matrix. 2. A homeostatic alteration on a regional microcirculatory level; this pathogenetic theory is summarized in a synthetic and self-explanatory denomination: EFP. 3. A peculiar anatomical conformation of the subcutaneous tissue of women, different from male morphology. These theories must all now be updated in the light of recent advances on the sophisticated and composite physiopathology of the adipose organ - which acts not only as a control device which regulates the systematic equilibrium of energy and modulates the food intake and the metabolism of other tissue substrate through a multiple glandular secretion of hormones and parahormones.",
+  "sanitized_text": "Cellulite: nature and aetiopathogenesis.\nOnly a limited number of studies on cellulite have been published in the international literature and many of them reach somewhat antithetical conclusions. Consequently, it is not yet possible to reconcile the extreme differences of opinion which have lingered on for years concerning the nature of this disorder, as well as its origin and even the most basic aspects of its histopathological classification. It does not even have a recognized name: in fact, the term 'cellulitis' is used in scientific English to indicate a spreading gangrenous infection of the subcutaneous cellular tissue. The other terms used from time to time [panniculitis, lipodystrophy, edematofibrosclerotic panniculitis (EFP), liposclerosis, lipoedema, etc.] have quite different morphological and pathogenetic connotations in general. Over the last few decades, three major conflicting theories have emerged in relation to the ethiopathogenesis of cellulite. These indicate, respectively, the following causes: 1. Oedema caused by excessive hydrophilia of the intercellular matrix. 2. A homeostatic alteration on a regional microcirculatory level; this pathogenetic theory is summarized in a synthetic and self-explanatory denomination: EFP. 3. A peculiar anatomical conformation of the subcutaneous tissue of women, different from male morphology.",
+  "modified": true,
+  "original_char_count": 1749,
+  "sanitized_char_count": 1367,
+  "deleted_char_count": 382,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1368,
+      "boundary_end": 1749,
+      "context": "antithetical conclusions. Consequently, it is not yet possible to reconcile the extreme differences of opinion which have lingered on for years concerning the nature of this disorder, as well as its origin and even the most basic aspects of its histopathological classification. It does not even have a recognized name: in fact, the term 'cellulitis' is used in scientific English to indicate a spreading gangrenous infection of the subcutaneous cellular tissue. The other terms used from time to time [panniculitis, lipodystrophy, edematofibrosclerotic panniculitis (EFP), liposclerosis, lipoedema, etc.] have quite different morphological and pathogenetic connotations in general. Over the last few decades, three major conflicting theories have emerged in relation to the ethiopathogenesis of cellulite. These indicate, respectively, the following causes: 1. Oedema caused by excessive hydrophilia of the intercellular matrix. 2. A homeostatic alteration on a regional microcirculatory level; this pathogenetic theory is summarized in a synthetic and self-explanatory denomination: EFP. 3. A peculiar anatomical conformation of the subcutaneous tissue of women, different from male morphology.",
+      "target": "These theories must all now be updated in the light of recent advances on the sophisticated and composite physiopathology of the adipose organ - which acts not only as a control device which regulates the systematic equilibrium of energy and modulates the food intake and the metabolism of other tissue substrate through a multiple glandular secretion of hormones and parahormones.",
+      "loss_target": 3.5875093936920166,
+      "loss_target_given_context": 3.170607566833496,
+      "delta_loss": 0.4169018268585205,
+      "gain_ratio": 0.11620926417407203,
+      "score": -0.11620926417407203,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1264,
+      "boundary_end": 1367,
+      "context": "studies on cellulite have been published in the international literature and many of them reach somewhat antithetical conclusions. Consequently, it is not yet possible to reconcile the extreme differences of opinion which have lingered on for years concerning the nature of this disorder, as well as its origin and even the most basic aspects of its histopathological classification. It does not even have a recognized name: in fact, the term 'cellulitis' is used in scientific English to indicate a spreading gangrenous infection of the subcutaneous cellular tissue. The other terms used from time to time [panniculitis, lipodystrophy, edematofibrosclerotic panniculitis (EFP), liposclerosis, lipoedema, etc.] have quite different morphological and pathogenetic connotations in general. Over the last few decades, three major conflicting theories have emerged in relation to the ethiopathogenesis of cellulite. These indicate, respectively, the following causes: 1. Oedema caused by excessive hydrophilia of the intercellular matrix. 2. A homeostatic alteration on a regional microcirculatory level; this pathogenetic theory is summarized in a synthetic and self-explanatory denomination: EFP. 3.",
+      "target": "A peculiar anatomical conformation of the subcutaneous tissue of women, different from male morphology.",
+      "loss_target": 4.066738128662109,
+      "loss_target_given_context": 2.7031335830688477,
+      "delta_loss": 1.3636045455932617,
+      "gain_ratio": 0.3353067009608178,
+      "score": -0.3353067009608178,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1368,
+      "target": "These theories must all now be updated in the light of recent advances on the sophisticated and composite physiopathology of the adipose organ - which acts not only as a control device which regulates the systematic equilibrium of energy and modulates the food intake and the metabolism of other tissue substrate through a multiple glandular secretion of hormones and parahormones.",
+      "score": -0.11620926417407203,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "These theories must all now be updated in the light of recent advances on the sophisticated and composite physiopathology of the adipose organ - which acts not only as a control device which regulates the systematic equilibrium of energy and modulates the food intake and the metabolism of other tissue substrate through a multiple glandular secretion of hormones and parahormones.",
+      "deleted_char_count": 381
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

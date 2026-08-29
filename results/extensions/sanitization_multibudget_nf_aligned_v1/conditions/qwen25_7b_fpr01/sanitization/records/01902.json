@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3572",
+  "source_doc_id": "MED-3572",
+  "title": "Ancestral antibiotic resistance in Mycobacterium tuberculosis",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Ancestral antibiotic resistance in Mycobacterium tuberculosis\nChemotherapeutic options to treat tuberculosis are severely restricted by the intrinsic resistance of Mycobacterium tuberculosis to the majority of clinically applied antibiotics. Such resistance is partially provided by the low permeability of their unique cell envelope. Here we describe a complementary system that coordinates resistance to drugs that have penetrated the envelope, allowing mycobacteria to tolerate diverse classes of antibiotics that inhibit cytoplasmic targets. This system depends on whiB7, a gene that pathogenic Mycobacterium shares with Streptomyces, a phylogenetically related genus known as the source of diverse antibiotics. In M. tuberculosis, whiB7 is induced by subinhibitory concentrations of antibiotics (erythromycin, tetracycline, and streptomycin) and whiB7 null mutants (Streptomyces and Mycobacterium) are hypersusceptible to antibiotics in vitro. M. tuberculosis is also antibiotic sensitive within a monocyte model system. In addition to antibiotics, whiB7 is induced by exposure to fatty acids that pathogenic Mycobacterium species may accumulate internally or encounter within eukaryotic hosts during infection. Gene expression profiling analyses demonstrate that whiB7 transcription determines drug resistance by activating expression of a regulon including genes involved in ribosomal protection and antibiotic efflux. Components of the whiB7 system may serve as attractive targets for the identification of inhibitors that render M. tuberculosis or multidrug-resistant derivatives more antibiotic-sensitive.",
+  "sanitized_text": "Ancestral antibiotic resistance in Mycobacterium tuberculosis\nChemotherapeutic options to treat tuberculosis are severely restricted by the intrinsic resistance of Mycobacterium tuberculosis to the majority of clinically applied antibiotics. Such resistance is partially provided by the low permeability of their unique cell envelope. Here we describe a complementary system that coordinates resistance to drugs that have penetrated the envelope, allowing mycobacteria to tolerate diverse classes of antibiotics that inhibit cytoplasmic targets. This system depends on whiB7, a gene that pathogenic Mycobacterium shares with Streptomyces, a phylogenetically related genus known as the source of diverse antibiotics. In M. tuberculosis, whiB7 is induced by subinhibitory concentrations of antibiotics (erythromycin, tetracycline, and streptomycin) and whiB7 null mutants (Streptomyces and Mycobacterium) are hypersusceptible to antibiotics in vitro. M. tuberculosis is also antibiotic sensitive within a monocyte model system. In addition to antibiotics, whiB7 is induced by exposure to fatty acids that pathogenic Mycobacterium species may accumulate internally or encounter within eukaryotic hosts during infection. Gene expression profiling analyses demonstrate that whiB7 transcription determines drug resistance by activating expression of a regulon including genes involved in ribosomal protection and antibiotic efflux. Components of the whiB7 system may serve as attractive targets for the identification of inhibitors that render M. tuberculosis or multidrug-resistant derivatives more antibiotic-sensitive.",
+  "modified": false,
+  "original_char_count": 1615,
+  "sanitized_char_count": 1615,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1541,
+      "boundary_end": 1615,
+      "context": "describe a complementary system that coordinates resistance to drugs that have penetrated the envelope, allowing mycobacteria to tolerate diverse classes of antibiotics that inhibit cytoplasmic targets. This system depends on whiB7, a gene that pathogenic Mycobacterium shares with Streptomyces, a phylogenetically related genus known as the source of diverse antibiotics. In M. tuberculosis, whiB7 is induced by subinhibitory concentrations of antibiotics (erythromycin, tetracycline, and streptomycin) and whiB7 null mutants (Streptomyces and Mycobacterium) are hypersusceptible to antibiotics in vitro. M. tuberculosis is also antibiotic sensitive within a monocyte model system. In addition to antibiotics, whiB7 is induced by exposure to fatty acids that pathogenic Mycobacterium species may accumulate internally or encounter within eukaryotic hosts during infection. Gene expression profiling analyses demonstrate that whiB7 transcription determines drug resistance by activating expression of a regulon including genes involved in ribosomal protection and antibiotic efflux. Components of the whiB7 system may serve as attractive targets for the identification of inhibitors that render M.",
+      "target": "tuberculosis or multidrug-resistant derivatives more antibiotic-sensitive.",
+      "loss_target": 5.328444957733154,
+      "loss_target_given_context": 2.63769268989563,
+      "delta_loss": 2.6907522678375244,
+      "gain_ratio": 0.5049788989435735,
+      "score": -0.5049788989435735,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4112",
+  "source_doc_id": "MED-4112",
+  "title": "The insulin-like growth factor-I receptor is regulated by CD28 and protects activated T cells from apoptosis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The insulin-like growth factor-I receptor is regulated by CD28 and protects activated T cells from apoptosis.\nCo-stimulatory signals through the CD28 receptor enhance the survival of T cells that have their antigen receptor (TCR) engaged. Here we show that stimulation through the CD28 receptor in the absence of TCR engagement with either an anti-CD28 cross-linking antibody or the CD80 ligand transiently increases expression of the insulin-like growth factor-I receptor (IGF-IR) on T cells. Antibodies that block signaling through the IGF-IR decrease the survival of T cells activated through the TCR and CD28 in the presence of IL-2 by more than 50%, and also enhance susceptibility to Fas-induced apoptosis. CD28 stimulation increases IGF-IR expression on Jurkat cells, and exogenously added IGF-I can protect these cells from Fas-induced apoptosis. We conclude that CD28-mediated enhancement of IGF-IR expression provides activated T cells with essential survival signals that are independent of survival mediated by IL-2 and Bcl-xl.",
+  "sanitized_text": "The insulin-like growth factor-I receptor is regulated by CD28 and protects activated T cells from apoptosis.\nCo-stimulatory signals through the CD28 receptor enhance the survival of T cells that have their antigen receptor (TCR) engaged. Here we show that stimulation through the CD28 receptor in the absence of TCR engagement with either an anti-CD28 cross-linking antibody or the CD80 ligand transiently increases expression of the insulin-like growth factor-I receptor (IGF-IR) on T cells. Antibodies that block signaling through the IGF-IR decrease the survival of T cells activated through the TCR and CD28 in the presence of IL-2 by more than 50%, and also enhance susceptibility to Fas-induced apoptosis. CD28 stimulation increases IGF-IR expression on Jurkat cells, and exogenously added IGF-I can protect these cells from Fas-induced apoptosis. We conclude that CD28-mediated enhancement of IGF-IR expression provides activated T cells with essential survival signals that are independent of survival mediated by IL-2 and Bcl-xl.",
+  "modified": false,
+  "original_char_count": 1039,
+  "sanitized_char_count": 1039,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 855,
+      "boundary_end": 1039,
+      "context": "The insulin-like growth factor-I receptor is regulated by CD28 and protects activated T cells from apoptosis. Co-stimulatory signals through the CD28 receptor enhance the survival of T cells that have their antigen receptor (TCR) engaged. Here we show that stimulation through the CD28 receptor in the absence of TCR engagement with either an anti-CD28 cross-linking antibody or the CD80 ligand transiently increases expression of the insulin-like growth factor-I receptor (IGF-IR) on T cells. Antibodies that block signaling through the IGF-IR decrease the survival of T cells activated through the TCR and CD28 in the presence of IL-2 by more than 50%, and also enhance susceptibility to Fas-induced apoptosis. CD28 stimulation increases IGF-IR expression on Jurkat cells, and exogenously added IGF-I can protect these cells from Fas-induced apoptosis.",
+      "target": "We conclude that CD28-mediated enhancement of IGF-IR expression provides activated T cells with essential survival signals that are independent of survival mediated by IL-2 and Bcl-xl.",
+      "loss_target": 2.8971850872039795,
+      "loss_target_given_context": 1.4429562091827393,
+      "delta_loss": 1.4542288780212402,
+      "gain_ratio": 0.5019454519644411,
+      "score": -0.5019454519644411,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

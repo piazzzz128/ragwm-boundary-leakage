@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4385",
+  "source_doc_id": "MED-4385",
+  "title": "The influence of dietary lutein and zeaxanthin on visual performance.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The influence of dietary lutein and zeaxanthin on visual performance.\nThe idea that normal constituents of the diet can influence visual function is not new. As early as 1782, Buzzi identified the yellow of the macula and Schulze (1866) specifically postulated that the yellow pigments led to improvements in human vision. These pigments were later found to be derived from dietary lutein and zeaxanthin that are known to be oxygenated carotenoids (xanthophylls). Walls and Judd (1933) postulated that these yellow intraocular pigments could improve visual performance by absorbing light scattered both within (for example, glare) and outside of the eye (increasing visual range by absorbing blue light scattered in the atmosphere), and by improving spatial vision through enhancing contrast and reducing chromatic blur. In this article, evidence for these ideas is reviewed with particular emphasis towards more recent data on glare effects.",
+  "sanitized_text": "The influence of dietary lutein and zeaxanthin on visual performance.\nThe idea that normal constituents of the diet can influence visual function is not new. As early as 1782, Buzzi identified the yellow of the macula and Schulze (1866) specifically postulated that the yellow pigments led to improvements in human vision. These pigments were later found to be derived from dietary lutein and zeaxanthin that are known to be oxygenated carotenoids (xanthophylls). Walls and Judd (1933) postulated that these yellow intraocular pigments could improve visual performance by absorbing light scattered both within (for example, glare) and outside of the eye (increasing visual range by absorbing blue light scattered in the atmosphere), and by improving spatial vision through enhancing contrast and reducing chromatic blur. In this article, evidence for these ideas is reviewed with particular emphasis towards more recent data on glare effects.",
+  "modified": false,
+  "original_char_count": 942,
+  "sanitized_char_count": 942,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 821,
+      "boundary_end": 942,
+      "context": "The influence of dietary lutein and zeaxanthin on visual performance. The idea that normal constituents of the diet can influence visual function is not new. As early as 1782, Buzzi identified the yellow of the macula and Schulze (1866) specifically postulated that the yellow pigments led to improvements in human vision. These pigments were later found to be derived from dietary lutein and zeaxanthin that are known to be oxygenated carotenoids (xanthophylls). Walls and Judd (1933) postulated that these yellow intraocular pigments could improve visual performance by absorbing light scattered both within (for example, glare) and outside of the eye (increasing visual range by absorbing blue light scattered in the atmosphere), and by improving spatial vision through enhancing contrast and reducing chromatic blur.",
+      "target": "In this article, evidence for these ideas is reviewed with particular emphasis towards more recent data on glare effects.",
+      "loss_target": 4.152777194976807,
+      "loss_target_given_context": 2.841498374938965,
+      "delta_loss": 1.3112788200378418,
+      "gain_ratio": 0.31575949261712444,
+      "score": -0.31575949261712444,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

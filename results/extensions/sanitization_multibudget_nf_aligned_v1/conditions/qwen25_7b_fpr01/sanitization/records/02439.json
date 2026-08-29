@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4256",
+  "source_doc_id": "MED-4256",
+  "title": "A systematic review of waist-to-height ratio as a screening tool for the prediction of cardiovascular disease and diabetes: 0·5 could be a suitable...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A systematic review of waist-to-height ratio as a screening tool for the prediction of cardiovascular disease and diabetes: 0·5 could be a suitable...\nThis systematic review collated seventy-eight studies exploring waist-to-height ratio (WHtR) and waist circumference (WC) or BMI as predictors of diabetes and CVD, published in English between 1950 and 2008. Twenty-two prospective analyses showed that WHtR and WC were significant predictors of these cardiometabolic outcomes more often than BMI, with similar OR, sometimes being significant predictors after adjustment for BMI. Observations from cross-sectional analyses, forty-four in adults, thirteen in children, supported these predictions. Receiver operator characteristic (ROC) analysis revealed mean area under ROC (AUROC) values of 0·704, 0·693 and 0·671 for WHtR, WC and BMI, respectively. Mean boundary values for WHtR, covering all cardiometabolic outcomes, from studies in fourteen different countries and including Caucasian, Asian and Central American subjects, were 0·50 for men and 0·50 for women. WHtR and WC are therefore similar predictors of diabetes and CVD, both being stronger than, and independent of, BMI. To make firmer statistical comparison, a meta-analysis is required. The AUROC analyses indicate that WHtR may be a more useful global clinical screening tool than WC, with a weighted mean boundary value of 0·5, supporting the simple public health message 'keep your waist circumference to less than half your height'.",
+  "sanitized_text": "A systematic review of waist-to-height ratio as a screening tool for the prediction of cardiovascular disease and diabetes: 0·5 could be a suitable...\nThis systematic review collated seventy-eight studies exploring waist-to-height ratio (WHtR) and waist circumference (WC) or BMI as predictors of diabetes and CVD, published in English between 1950 and 2008. Twenty-two prospective analyses showed that WHtR and WC were significant predictors of these cardiometabolic outcomes more often than BMI, with similar OR, sometimes being significant predictors after adjustment for BMI. Observations from cross-sectional analyses, forty-four in adults, thirteen in children, supported these predictions. Receiver operator characteristic (ROC) analysis revealed mean area under ROC (AUROC) values of 0·704, 0·693 and 0·671 for WHtR, WC and BMI, respectively. Mean boundary values for WHtR, covering all cardiometabolic outcomes, from studies in fourteen different countries and including Caucasian, Asian and Central American subjects, were 0·50 for men and 0·50 for women. WHtR and WC are therefore similar predictors of diabetes and CVD, both being stronger than, and independent of, BMI. To make firmer statistical comparison, a meta-analysis is required. The AUROC analyses indicate that WHtR may be a more useful global clinical screening tool than WC, with a weighted mean boundary value of 0·5, supporting the simple public health message 'keep your waist circumference to less than half your height'.",
+  "modified": false,
+  "original_char_count": 1500,
+  "sanitized_char_count": 1500,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1251,
+      "boundary_end": 1500,
+      "context": "tool for the prediction of cardiovascular disease and diabetes: 0·5 could be a suitable... This systematic review collated seventy-eight studies exploring waist-to-height ratio (WHtR) and waist circumference (WC) or BMI as predictors of diabetes and CVD, published in English between 1950 and 2008. Twenty-two prospective analyses showed that WHtR and WC were significant predictors of these cardiometabolic outcomes more often than BMI, with similar OR, sometimes being significant predictors after adjustment for BMI. Observations from cross-sectional analyses, forty-four in adults, thirteen in children, supported these predictions. Receiver operator characteristic (ROC) analysis revealed mean area under ROC (AUROC) values of 0·704, 0·693 and 0·671 for WHtR, WC and BMI, respectively. Mean boundary values for WHtR, covering all cardiometabolic outcomes, from studies in fourteen different countries and including Caucasian, Asian and Central American subjects, were 0·50 for men and 0·50 for women. WHtR and WC are therefore similar predictors of diabetes and CVD, both being stronger than, and independent of, BMI. To make firmer statistical comparison, a meta-analysis is required.",
+      "target": "The AUROC analyses indicate that WHtR may be a more useful global clinical screening tool than WC, with a weighted mean boundary value of 0·5, supporting the simple public health message 'keep your waist circumference to less than half your height'.",
+      "loss_target": 3.327943801879883,
+      "loss_target_given_context": 1.8038424253463745,
+      "delta_loss": 1.5241013765335083,
+      "gain_ratio": 0.457970887510954,
+      "score": -0.457970887510954,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

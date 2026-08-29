@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1035",
+  "source_doc_id": "MED-1035",
+  "title": "How trustworthy are bowel histories? Comparison of recalled and recorded information.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "How trustworthy are bowel histories? Comparison of recalled and recorded information.\nOne hundred and fifty hospital outpatients were questioned about their bowel habits and then asked to record these in diary booklets for two weeks. Overall, recalled and recorded figures for frequency of defecation agreed fairly closely, but in 16% of patients there was a discrepancy of three or more bowel actions per week. This was usually an exaggeration of the difference from the norm of one a day. Patients were bad at predicting episodes of changed bowel frequency. These findings cast doubt on the value of population surveys of bowel habit based solely on questionnaires. They also suggest that the irritable bowel syndrome might be correctly diagnosed more often if patients were routinely asked to record their bowel actions.",
+  "sanitized_text": "How trustworthy are bowel histories? Comparison of recalled and recorded information.\nOne hundred and fifty hospital outpatients were questioned about their bowel habits and then asked to record these in diary booklets for two weeks. Overall, recalled and recorded figures for frequency of defecation agreed fairly closely, but in 16% of patients there was a discrepancy of three or more bowel actions per week. This was usually an exaggeration of the difference from the norm of one a day. Patients were bad at predicting episodes of changed bowel frequency. These findings cast doubt on the value of population surveys of bowel habit based solely on questionnaires. They also suggest that the irritable bowel syndrome might be correctly diagnosed more often if patients were routinely asked to record their bowel actions.",
+  "modified": false,
+  "original_char_count": 823,
+  "sanitized_char_count": 823,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 668,
+      "boundary_end": 823,
+      "context": "How trustworthy are bowel histories? Comparison of recalled and recorded information. One hundred and fifty hospital outpatients were questioned about their bowel habits and then asked to record these in diary booklets for two weeks. Overall, recalled and recorded figures for frequency of defecation agreed fairly closely, but in 16% of patients there was a discrepancy of three or more bowel actions per week. This was usually an exaggeration of the difference from the norm of one a day. Patients were bad at predicting episodes of changed bowel frequency. These findings cast doubt on the value of population surveys of bowel habit based solely on questionnaires.",
+      "target": "They also suggest that the irritable bowel syndrome might be correctly diagnosed more often if patients were routinely asked to record their bowel actions.",
+      "loss_target": 3.0931448936462402,
+      "loss_target_given_context": 1.7261748313903809,
+      "delta_loss": 1.3669700622558594,
+      "gain_ratio": 0.44193534711671945,
+      "score": -0.44193534711671945,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

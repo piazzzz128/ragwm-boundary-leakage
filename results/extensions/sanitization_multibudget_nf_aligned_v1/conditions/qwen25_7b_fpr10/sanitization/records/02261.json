@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4013",
+  "source_doc_id": "MED-4013",
+  "title": "Periodontal disease is associated with brachial artery endothelial dysfunction and systemic inflammation.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Periodontal disease is associated with brachial artery endothelial dysfunction and systemic inflammation.\nOBJECTIVE: The purpose of this study was to determine whether periodontal disease is associated with endothelial dysfunction and systemic inflammation. Epidemiological studies suggest that severe periodontal disease is associated with increased cardiovascular disease risk, but the mechanisms remain unknown. METHODS AND RESULTS: We assessed flow-mediated dilation and nitroglycerin-mediated dilation of the brachial artery using vascular ultrasound in 26 subjects with advanced periodontal disease and 29 control subjects. The groups were matched for age and sex, and patients with hypercholesterolemia, diabetes mellitus, hypertension, and history of cigarette smoking were excluded. We also examined serum levels of C-reactive protein using an established high-sensitivity method. Subjects with advanced periodontal disease had lower flow-mediated dilation compared with control patients (7.8+/-4.6% versus 11.7+/-5.3%, P=0.005). Nitroglycerin-mediated dilation was equivalent in the two groups. Subjects with advanced periodontitis exhibited higher serum levels of high-sensitivity C-reactive protein compared with healthy controls patients (2.3+/-2.3 versus 1.0+/-1.0 mg/L, P=0.03). CONCLUSIONS: Subjects with advanced periodontal disease exhibit endothelial dysfunction and evidence of systemic inflammation, possibly placing them at increased risk for cardiovascular disease.",
+  "sanitized_text": "Periodontal disease is associated with brachial artery endothelial dysfunction and systemic inflammation.\nOBJECTIVE: The purpose of this study was to determine whether periodontal disease is associated with endothelial dysfunction and systemic inflammation. Epidemiological studies suggest that severe periodontal disease is associated with increased cardiovascular disease risk, but the mechanisms remain unknown. METHODS AND RESULTS: We assessed flow-mediated dilation and nitroglycerin-mediated dilation of the brachial artery using vascular ultrasound in 26 subjects with advanced periodontal disease and 29 control subjects. The groups were matched for age and sex, and patients with hypercholesterolemia, diabetes mellitus, hypertension, and history of cigarette smoking were excluded. We also examined serum levels of C-reactive protein using an established high-sensitivity method. Subjects with advanced periodontal disease had lower flow-mediated dilation compared with control patients (7.8+/-4.6% versus 11.7+/-5.3%, P=0.005). Nitroglycerin-mediated dilation was equivalent in the two groups. Subjects with advanced periodontitis exhibited higher serum levels of high-sensitivity C-reactive protein compared with healthy controls patients (2.3+/-2.3 versus 1.0+/-1.0 mg/L, P=0.03). CONCLUSIONS: Subjects with advanced periodontal disease exhibit endothelial dysfunction and evidence of systemic inflammation, possibly placing them at increased risk for cardiovascular disease.",
+  "modified": false,
+  "original_char_count": 1488,
+  "sanitized_char_count": 1488,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1294,
+      "boundary_end": 1488,
+      "context": "OBJECTIVE: The purpose of this study was to determine whether periodontal disease is associated with endothelial dysfunction and systemic inflammation. Epidemiological studies suggest that severe periodontal disease is associated with increased cardiovascular disease risk, but the mechanisms remain unknown. METHODS AND RESULTS: We assessed flow-mediated dilation and nitroglycerin-mediated dilation of the brachial artery using vascular ultrasound in 26 subjects with advanced periodontal disease and 29 control subjects. The groups were matched for age and sex, and patients with hypercholesterolemia, diabetes mellitus, hypertension, and history of cigarette smoking were excluded. We also examined serum levels of C-reactive protein using an established high-sensitivity method. Subjects with advanced periodontal disease had lower flow-mediated dilation compared with control patients (7.8+/-4.6% versus 11.7+/-5.3%, P=0.005). Nitroglycerin-mediated dilation was equivalent in the two groups. Subjects with advanced periodontitis exhibited higher serum levels of high-sensitivity C-reactive protein compared with healthy controls patients (2.3+/-2.3 versus 1.0+/-1.0 mg/L, P=0.03).",
+      "target": "CONCLUSIONS: Subjects with advanced periodontal disease exhibit endothelial dysfunction and evidence of systemic inflammation, possibly placing them at increased risk for cardiovascular disease.",
+      "loss_target": 2.231231689453125,
+      "loss_target_given_context": 0.8776218295097351,
+      "delta_loss": 1.35360985994339,
+      "gain_ratio": 0.6066648597462148,
+      "score": -0.6066648597462148,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4775",
+  "source_doc_id": "MED-4775",
+  "title": "Green tea consumption and mortality among Japanese elderly people: the prospective Shizuoka elderly cohort.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Green tea consumption and mortality among Japanese elderly people: the prospective Shizuoka elderly cohort.\nPURPOSE: To investigate the association between green tea consumption and mortality from all causes, cancer, and cardiovascular disease (CVD) among elderly people. METHODS: In a population-based, prospective cohort study, a total of 14,001 elderly residents (aged 65-84 years), randomly chosen from all 74 municipalities in Shizuoka, Japan, completed questionnaires that included items about frequency of green tea consumption. They were followed for up to 6 years, from December 1999 to March 2006. Consequently, 12,251 subjects were analyzed to estimate the hazard ratios (HRs) for all-cause mortality, cancer, and CVD. RESULTS: Among 64,002 person-years, 1,224 deaths were identified (follow-up rate, 71.6%). The multivariate HRs and 95% confidence intervals (CIs) for CVD mortality compared those who consumed seven or more cups per day with those who consumed less than one cup per day, were 0.24 (0.14-0.40), 0.30 (0.15-0.61), and 0.18 (0.08-0.40) for total participants, men, and women, respectively. Although green tea consumption was not inversely associated with cancer mortality, green tea consumption and colorectal cancer mortality were inversely associated with a moderate dose-response relationship. CONCLUSIONS: Green tea consumption is associated with reduced mortality from all causes and CVD. This study also suggests that green tea could have protective effects against colorectal cancer.",
+  "sanitized_text": "Green tea consumption and mortality among Japanese elderly people: the prospective Shizuoka elderly cohort.\nPURPOSE: To investigate the association between green tea consumption and mortality from all causes, cancer, and cardiovascular disease (CVD) among elderly people. METHODS: In a population-based, prospective cohort study, a total of 14,001 elderly residents (aged 65-84 years), randomly chosen from all 74 municipalities in Shizuoka, Japan, completed questionnaires that included items about frequency of green tea consumption. They were followed for up to 6 years, from December 1999 to March 2006. Consequently, 12,251 subjects were analyzed to estimate the hazard ratios (HRs) for all-cause mortality, cancer, and CVD. RESULTS: Among 64,002 person-years, 1,224 deaths were identified (follow-up rate, 71.6%). The multivariate HRs and 95% confidence intervals (CIs) for CVD mortality compared those who consumed seven or more cups per day with those who consumed less than one cup per day, were 0.24 (0.14-0.40), 0.30 (0.15-0.61), and 0.18 (0.08-0.40) for total participants, men, and women, respectively. Although green tea consumption was not inversely associated with cancer mortality, green tea consumption and colorectal cancer mortality were inversely associated with a moderate dose-response relationship. CONCLUSIONS: Green tea consumption is associated with reduced mortality from all causes and CVD. This study also suggests that green tea could have protective effects against colorectal cancer.",
+  "modified": false,
+  "original_char_count": 1516,
+  "sanitized_char_count": 1516,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1420,
+      "boundary_end": 1516,
+      "context": "cardiovascular disease (CVD) among elderly people. METHODS: In a population-based, prospective cohort study, a total of 14,001 elderly residents (aged 65-84 years), randomly chosen from all 74 municipalities in Shizuoka, Japan, completed questionnaires that included items about frequency of green tea consumption. They were followed for up to 6 years, from December 1999 to March 2006. Consequently, 12,251 subjects were analyzed to estimate the hazard ratios (HRs) for all-cause mortality, cancer, and CVD. RESULTS: Among 64,002 person-years, 1,224 deaths were identified (follow-up rate, 71.6%). The multivariate HRs and 95% confidence intervals (CIs) for CVD mortality compared those who consumed seven or more cups per day with those who consumed less than one cup per day, were 0.24 (0.14-0.40), 0.30 (0.15-0.61), and 0.18 (0.08-0.40) for total participants, men, and women, respectively. Although green tea consumption was not inversely associated with cancer mortality, green tea consumption and colorectal cancer mortality were inversely associated with a moderate dose-response relationship. CONCLUSIONS: Green tea consumption is associated with reduced mortality from all causes and CVD.",
+      "target": "This study also suggests that green tea could have protective effects against colorectal cancer.",
+      "loss_target": 2.5305700302124023,
+      "loss_target_given_context": 1.0917071104049683,
+      "delta_loss": 1.438862919807434,
+      "gain_ratio": 0.5685924130250858,
+      "score": -0.5685924130250858,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

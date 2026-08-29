@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2801",
+  "source_doc_id": "MED-2801",
+  "title": "Curcumin and obesity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Curcumin and obesity.\nTurmeric has been long recognized for its anti-inflammatory and health-promoting properties. Curcumin is one of the principal anti-inflammatory and healthful components of turmeric comprising 2-8% of most turmeric preparations. Experimental evidence supports the activity of curcumin in promoting weight loss and reducing the incidence of obesity-related diseases. With the discovery that obesity is characterized by chronic low-grade metabolic inflammation, phytochemicals like curcumin which have anti-inflammatory activity are being intensely investigated. Recent scientific research reveals that curcumin directly interacts with white adipose tissue to suppress chronic inflammation. In adipose tissue, curcumin inhibits macrophage infiltration and nuclear factor κB (NF-κB) activation induced by inflammatory agents. Curcumin reduces the expression of the potent proinflammatory adipokines tumor necrosis factor-α (TNFα), monocyte chemoattractant protein-1 (MCP-1), and plasminogen activator inhibitor type-1 (PAI-1), and it induces the expression of adiponectin, the principal anti-inflammatory agent secreted by adipocytes. Curcumin also has effects to inhibit adipocyte differentiation and to promote antioxidant activities. Through these diverse mechanisms curcumin reduces obesity and curtails the adverse health effects of obesity. Copyright © 2013 International Union of Biochemistry and Molecular Biology, Inc.",
+  "sanitized_text": "Curcumin and obesity.\nTurmeric has been long recognized for its anti-inflammatory and health-promoting properties. Curcumin is one of the principal anti-inflammatory and healthful components of turmeric comprising 2-8% of most turmeric preparations. Experimental evidence supports the activity of curcumin in promoting weight loss and reducing the incidence of obesity-related diseases. With the discovery that obesity is characterized by chronic low-grade metabolic inflammation, phytochemicals like curcumin which have anti-inflammatory activity are being intensely investigated. Recent scientific research reveals that curcumin directly interacts with white adipose tissue to suppress chronic inflammation. In adipose tissue, curcumin inhibits macrophage infiltration and nuclear factor κB (NF-κB) activation induced by inflammatory agents. Curcumin reduces the expression of the potent proinflammatory adipokines tumor necrosis factor-α (TNFα), monocyte chemoattractant protein-1 (MCP-1), and plasminogen activator inhibitor type-1 (PAI-1), and it induces the expression of adiponectin, the principal anti-inflammatory agent secreted by adipocytes. Curcumin also has effects to inhibit adipocyte differentiation and to promote antioxidant activities. Through these diverse mechanisms curcumin reduces obesity and curtails the adverse health effects of obesity. Copyright © 2013 International Union of Biochemistry and Molecular Biology, Inc.",
+  "modified": false,
+  "original_char_count": 1445,
+  "sanitized_char_count": 1445,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1365,
+      "boundary_end": 1445,
+      "context": "and healthful components of turmeric comprising 2-8% of most turmeric preparations. Experimental evidence supports the activity of curcumin in promoting weight loss and reducing the incidence of obesity-related diseases. With the discovery that obesity is characterized by chronic low-grade metabolic inflammation, phytochemicals like curcumin which have anti-inflammatory activity are being intensely investigated. Recent scientific research reveals that curcumin directly interacts with white adipose tissue to suppress chronic inflammation. In adipose tissue, curcumin inhibits macrophage infiltration and nuclear factor κB (NF-κB) activation induced by inflammatory agents. Curcumin reduces the expression of the potent proinflammatory adipokines tumor necrosis factor-α (TNFα), monocyte chemoattractant protein-1 (MCP-1), and plasminogen activator inhibitor type-1 (PAI-1), and it induces the expression of adiponectin, the principal anti-inflammatory agent secreted by adipocytes. Curcumin also has effects to inhibit adipocyte differentiation and to promote antioxidant activities. Through these diverse mechanisms curcumin reduces obesity and curtails the adverse health effects of obesity.",
+      "target": "Copyright © 2013 International Union of Biochemistry and Molecular Biology, Inc.",
+      "loss_target": 1.420114517211914,
+      "loss_target_given_context": 0.8910232186317444,
+      "delta_loss": 0.5290912985801697,
+      "gain_ratio": 0.372569459834074,
+      "score": -0.372569459834074,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

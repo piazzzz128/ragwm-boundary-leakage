@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5171",
+  "source_doc_id": "MED-5171",
+  "title": "Incidence of enterohemorrhagic Escherichia coli, Escherichia coli O157, Salmonella, and Listeria monocytogenes in retail fresh ground beef, sprouts...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Incidence of enterohemorrhagic Escherichia coli, Escherichia coli O157, Salmonella, and Listeria monocytogenes in retail fresh ground beef, sprouts...\nThe objective of this study was to determine the prevalence of enterohemorrhagic Escherichia coli (EHEC), E. coli O157, Salmonella, and Listeria monocytogenes in retail food samples from Seattle, Wash. A total of 2,050 samples of ground beef (1,750 samples), mushrooms (100 samples), and sprouts (200 samples) were collected over a 12-month period and analyzed for the presence of these pathogens. PCR assays, followed by culture confirmation were used to determine the presence or absence of each organism. Of the 1,750 ground beef samples analyzed, 61 (3.5%) were positive for EHEC, and 20 (1.1%) of these were positive for E. coli O157. Salmonella was present in 67 (3.8%) of the 1,750 ground beef samples. Of 512 ground beef samples analyzed, 18 (3.5%) were positive for L. monocytogenes. EHEC was found in 12 (6.0%) of the 200 sprout samples, and 3 (1.5%) of these yielded E. coli O157. Of the 200 total sprout samples, 14 (7.0%) were positive for Salmonella and none were positive for L. monocytogenes. Among the 100 mushroom samples, 4 (4.0%) were positive for EHEC but none of these 4 samples were positive for E. coli O157. Salmonella was detected in 5 (5.0%) of the mushroom samples, and L. monocytogenes was found in 1 (1.0%) of the samples.",
+  "sanitized_text": "Incidence of enterohemorrhagic Escherichia coli, Escherichia coli O157, Salmonella, and Listeria monocytogenes in retail fresh ground beef, sprouts...\nThe objective of this study was to determine the prevalence of enterohemorrhagic Escherichia coli (EHEC), E. coli O157, Salmonella, and Listeria monocytogenes in retail food samples from Seattle, Wash. A total of 2,050 samples of ground beef (1,750 samples), mushrooms (100 samples), and sprouts (200 samples) were collected over a 12-month period and analyzed for the presence of these pathogens. PCR assays, followed by culture confirmation were used to determine the presence or absence of each organism. Of the 1,750 ground beef samples analyzed, 61 (3.5%) were positive for EHEC, and 20 (1.1%) of these were positive for E. coli O157. Salmonella was present in 67 (3.8%) of the 1,750 ground beef samples. Of 512 ground beef samples analyzed, 18 (3.5%) were positive for L. monocytogenes. EHEC was found in 12 (6.0%) of the 200 sprout samples, and 3 (1.5%) of these yielded E. coli O157. Of the 200 total sprout samples, 14 (7.0%) were positive for Salmonella and none were positive for L. monocytogenes. Among the 100 mushroom samples, 4 (4.0%) were positive for EHEC but none of these 4 samples were positive for E. coli O157. Salmonella was detected in 5 (5.0%) of the mushroom samples, and L. monocytogenes was found in 1 (1.0%) of the samples.",
+  "modified": false,
+  "original_char_count": 1403,
+  "sanitized_char_count": 1403,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1352,
+      "boundary_end": 1403,
+      "context": "objective of this study was to determine the prevalence of enterohemorrhagic Escherichia coli (EHEC), E. coli O157, Salmonella, and Listeria monocytogenes in retail food samples from Seattle, Wash. A total of 2,050 samples of ground beef (1,750 samples), mushrooms (100 samples), and sprouts (200 samples) were collected over a 12-month period and analyzed for the presence of these pathogens. PCR assays, followed by culture confirmation were used to determine the presence or absence of each organism. Of the 1,750 ground beef samples analyzed, 61 (3.5%) were positive for EHEC, and 20 (1.1%) of these were positive for E. coli O157. Salmonella was present in 67 (3.8%) of the 1,750 ground beef samples. Of 512 ground beef samples analyzed, 18 (3.5%) were positive for L. monocytogenes. EHEC was found in 12 (6.0%) of the 200 sprout samples, and 3 (1.5%) of these yielded E. coli O157. Of the 200 total sprout samples, 14 (7.0%) were positive for Salmonella and none were positive for L. monocytogenes. Among the 100 mushroom samples, 4 (4.0%) were positive for EHEC but none of these 4 samples were positive for E. coli O157. Salmonella was detected in 5 (5.0%) of the mushroom samples, and L.",
+      "target": "monocytogenes was found in 1 (1.0%) of the samples.",
+      "loss_target": 2.083239793777466,
+      "loss_target_given_context": 0.400019109249115,
+      "delta_loss": 1.6832206845283508,
+      "gain_ratio": 0.8079822061560304,
+      "score": -0.8079822061560304,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

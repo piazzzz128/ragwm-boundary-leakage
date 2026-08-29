@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1949",
+  "source_doc_id": "MED-1949",
+  "title": "Is very preterm birth a risk factor for adult cardiometabolic disease?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Is very preterm birth a risk factor for adult cardiometabolic disease?\nThe first infants to experience modern pre- and neonatal care are now in their thirties, an age at which the incidence of cardiometabolic disease is low. However, data from cohorts born preterm prior to the introduction of modern care suggest an increased risk of type 2 diabetes. For young adult cohorts of former very small or very preterm infants, there is accumulating evidence of increased risk factors for later cardiovascular disease, including higher blood pressure, lower lean body mass, impaired glucose regulation, and perhaps a more atherogenic lipid profile. Regarding lifestyle, adults born very small or very preterm undertake less non-conditioning physical activity and may have a lower intake of fruit and milk products. Any intervention reducing risk factors, in particular blood pressure and low physical activity, would have a substantial potential to reduce the lifetime disease burden in small preterm infants. There are now enough data to warrant an expert evaluation of the level of evidence for cardiometabolic disease in individuals born very small or very preterm, which has possible public health implications. Copyright © 2013 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Is very preterm birth a risk factor for adult cardiometabolic disease?\nThe first infants to experience modern pre- and neonatal care are now in their thirties, an age at which the incidence of cardiometabolic disease is low. However, data from cohorts born preterm prior to the introduction of modern care suggest an increased risk of type 2 diabetes. For young adult cohorts of former very small or very preterm infants, there is accumulating evidence of increased risk factors for later cardiovascular disease, including higher blood pressure, lower lean body mass, impaired glucose regulation, and perhaps a more atherogenic lipid profile. Regarding lifestyle, adults born very small or very preterm undertake less non-conditioning physical activity and may have a lower intake of fruit and milk products. Any intervention reducing risk factors, in particular blood pressure and low physical activity, would have a substantial potential to reduce the lifetime disease burden in small preterm infants. There are now enough data to warrant an expert evaluation of the level of evidence for cardiometabolic disease in individuals born very small or very preterm, which has possible public health implications. Copyright © 2013 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1261,
+  "sanitized_char_count": 1261,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1210,
+      "boundary_end": 1240,
+      "context": "birth a risk factor for adult cardiometabolic disease? The first infants to experience modern pre- and neonatal care are now in their thirties, an age at which the incidence of cardiometabolic disease is low. However, data from cohorts born preterm prior to the introduction of modern care suggest an increased risk of type 2 diabetes. For young adult cohorts of former very small or very preterm infants, there is accumulating evidence of increased risk factors for later cardiovascular disease, including higher blood pressure, lower lean body mass, impaired glucose regulation, and perhaps a more atherogenic lipid profile. Regarding lifestyle, adults born very small or very preterm undertake less non-conditioning physical activity and may have a lower intake of fruit and milk products. Any intervention reducing risk factors, in particular blood pressure and low physical activity, would have a substantial potential to reduce the lifetime disease burden in small preterm infants. There are now enough data to warrant an expert evaluation of the level of evidence for cardiometabolic disease in individuals born very small or very preterm, which has possible public health implications.",
+      "target": "Copyright © 2013 Elsevier Ltd.",
+      "loss_target": 1.2036986351013184,
+      "loss_target_given_context": 0.43066883087158203,
+      "delta_loss": 0.7730298042297363,
+      "gain_ratio": 0.6422120800732389,
+      "score": -0.6422120800732389,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

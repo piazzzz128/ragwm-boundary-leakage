@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4226",
+  "source_doc_id": "MED-4226",
+  "title": "Mechanisms of breast cancer bone metastasis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Mechanisms of breast cancer bone metastasis.\nBone, as well as liver and lung, is one of the most preferential metastatic target sites for cancers including breast, prostate, and lung cancers and the consequences are always devastating. Like other metastasis, breast cancer bone metastasis consists of several steps from the escape of primary site to the colonization in target site. This review focuses on several key steps including: 1. Invasion and escape from primary tumor site. 2. Target migration toward bone. 3. Specific adhesion and arrest in bone. 4. Establishment of metastasis in bone. The factors involved in this process will provide good targets for therapy. Copyright (c) 2009 Elsevier Ireland Ltd. All rights reserved.",
+  "sanitized_text": "Mechanisms of breast cancer bone metastasis.\nBone, as well as liver and lung, is one of the most preferential metastatic target sites for cancers including breast, prostate, and lung cancers and the consequences are always devastating. Like other metastasis, breast cancer bone metastasis consists of several steps from the escape of primary site to the colonization in target site. This review focuses on several key steps including: 1. Invasion and escape from primary tumor site. 2. Target migration toward bone. 3. Specific adhesion and arrest in bone. 4. Establishment of metastasis in bone. The factors involved in this process will provide good targets for therapy. Copyright (c) 2009 Elsevier Ireland Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 734,
+  "sanitized_char_count": 734,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 673,
+      "boundary_end": 713,
+      "context": "Mechanisms of breast cancer bone metastasis. Bone, as well as liver and lung, is one of the most preferential metastatic target sites for cancers including breast, prostate, and lung cancers and the consequences are always devastating. Like other metastasis, breast cancer bone metastasis consists of several steps from the escape of primary site to the colonization in target site. This review focuses on several key steps including: 1. Invasion and escape from primary tumor site. 2. Target migration toward bone. 3. Specific adhesion and arrest in bone. 4. Establishment of metastasis in bone. The factors involved in this process will provide good targets for therapy.",
+      "target": "Copyright (c) 2009 Elsevier Ireland Ltd.",
+      "loss_target": 1.4776322841644287,
+      "loss_target_given_context": 0.8351039886474609,
+      "delta_loss": 0.6425282955169678,
+      "gain_ratio": 0.43483639495620835,
+      "score": -0.43483639495620835,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

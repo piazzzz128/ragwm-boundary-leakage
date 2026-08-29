@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2073",
+  "source_doc_id": "MED-2073",
+  "title": "Antiproliferative effects of fresh and thermal processed green and red cultivars of curly kale (Brassica oleracea L. convar. acephala var. sabellica).",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Antiproliferative effects of fresh and thermal processed green and red cultivars of curly kale (Brassica oleracea L. convar. acephala var. sabellica).\nBrassica vegetables contain a diverse range of phytochemicals with biological properties such as antioxidant and anticancer activity. However, knowledge about how biological activities are affected by processing is lacking. A green cultivar and a red cultivar of curly kale were evaluated for water/methanol-soluble phytochemicals before and after processing involving blanching, freeze storage, and boil-in-bag heat treatment. In both kale cultivars, processing resulted in a significant decrease of total phenolics, antioxidant capacity, and content and distribution of flavonols, anthocyanins, hydroxycinnamic acids, glucosinolates, and vitamin C. Interestingly, the red curly kale cultivar had a higher capacity to withstand thermal loss of phytochemicals. The extracts of both green and red curly kale inhibited the cell proliferation of three human colon cancer cell lines (Caco-2, HT-29, and HCT 116). However, extracts from fresh plant material had a significantly stronger antiproliferative effect than extracts from processed plant material.",
+  "sanitized_text": "Antiproliferative effects of fresh and thermal processed green and red cultivars of curly kale (Brassica oleracea L. convar. acephala var. sabellica).\nBrassica vegetables contain a diverse range of phytochemicals with biological properties such as antioxidant and anticancer activity. However, knowledge about how biological activities are affected by processing is lacking. A green cultivar and a red cultivar of curly kale were evaluated for water/methanol-soluble phytochemicals before and after processing involving blanching, freeze storage, and boil-in-bag heat treatment. In both kale cultivars, processing resulted in a significant decrease of total phenolics, antioxidant capacity, and content and distribution of flavonols, anthocyanins, hydroxycinnamic acids, glucosinolates, and vitamin C. Interestingly, the red curly kale cultivar had a higher capacity to withstand thermal loss of phytochemicals. The extracts of both green and red curly kale inhibited the cell proliferation of three human colon cancer cell lines (Caco-2, HT-29, and HCT 116). However, extracts from fresh plant material had a significantly stronger antiproliferative effect than extracts from processed plant material.",
+  "modified": false,
+  "original_char_count": 1202,
+  "sanitized_char_count": 1202,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1060,
+      "boundary_end": 1202,
+      "context": "Antiproliferative effects of fresh and thermal processed green and red cultivars of curly kale (Brassica oleracea L. convar. acephala var. sabellica). Brassica vegetables contain a diverse range of phytochemicals with biological properties such as antioxidant and anticancer activity. However, knowledge about how biological activities are affected by processing is lacking. A green cultivar and a red cultivar of curly kale were evaluated for water/methanol-soluble phytochemicals before and after processing involving blanching, freeze storage, and boil-in-bag heat treatment. In both kale cultivars, processing resulted in a significant decrease of total phenolics, antioxidant capacity, and content and distribution of flavonols, anthocyanins, hydroxycinnamic acids, glucosinolates, and vitamin C. Interestingly, the red curly kale cultivar had a higher capacity to withstand thermal loss of phytochemicals. The extracts of both green and red curly kale inhibited the cell proliferation of three human colon cancer cell lines (Caco-2, HT-29, and HCT 116).",
+      "target": "However, extracts from fresh plant material had a significantly stronger antiproliferative effect than extracts from processed plant material.",
+      "loss_target": 2.547067165374756,
+      "loss_target_given_context": 1.1519668102264404,
+      "delta_loss": 1.3951003551483154,
+      "gain_ratio": 0.5477281377238638,
+      "score": -0.5477281377238638,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

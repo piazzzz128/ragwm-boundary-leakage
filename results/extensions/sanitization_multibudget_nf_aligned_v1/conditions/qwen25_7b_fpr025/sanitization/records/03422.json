@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-557",
+  "source_doc_id": "MED-557",
+  "title": "Dysmenorrhea.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dysmenorrhea.\nDysmenorrhea is the leading cause of recurrent short-term school absence in adolescent girls and a common problem in women of reproductive age. Risk factors for dysmenorrhea include nulliparity, heavy menstrual flow, smoking, and depression. Empiric therapy can be initiated based on a typical history of painful menses and a negative physical examination. Nonsteroidal anti-inflammatory drugs are the initial therapy of choice in patients with presumptive primary dysmenorrhea. Oral contraceptives and depo-medroxyprogesterone acetate also may be considered. If pain relief is insufficient, prolonged-cycle oral contraceptives or intravaginal use of oral contraceptive pills can be considered. In women who do not desire hormonal contraception, there is some evidence of benefit with the use of topical heat; the Japanese herbal remedy toki-shakuyaku-san; thiamine, vitamin E, and fish oil supplements; a low-fat vegetarian diet; and acupressure. If dysmenorrhea remains uncontrolled with any of these approaches, pelvic ultrasonography should be performed and referral for laparoscopy should be considered to rule out secondary causes of dysmenorrhea. In patients with severe refractory primary dysmenorrhea, additional safe alternatives for women who want to conceive include transcutaneous electric nerve stimulation, acupuncture, nifedipine, and terbutaline. Otherwise, the use of danazol or leuprolide may be considered and, rarely, hysterectomy. The effectiveness of surgical interruption of the pelvic nerve pathways has not been established.",
+  "sanitized_text": "Dysmenorrhea.\nDysmenorrhea is the leading cause of recurrent short-term school absence in adolescent girls and a common problem in women of reproductive age. Risk factors for dysmenorrhea include nulliparity, heavy menstrual flow, smoking, and depression. Empiric therapy can be initiated based on a typical history of painful menses and a negative physical examination. Nonsteroidal anti-inflammatory drugs are the initial therapy of choice in patients with presumptive primary dysmenorrhea. Oral contraceptives and depo-medroxyprogesterone acetate also may be considered. If pain relief is insufficient, prolonged-cycle oral contraceptives or intravaginal use of oral contraceptive pills can be considered. In women who do not desire hormonal contraception, there is some evidence of benefit with the use of topical heat; the Japanese herbal remedy toki-shakuyaku-san; thiamine, vitamin E, and fish oil supplements; a low-fat vegetarian diet; and acupressure. If dysmenorrhea remains uncontrolled with any of these approaches, pelvic ultrasonography should be performed and referral for laparoscopy should be considered to rule out secondary causes of dysmenorrhea. In patients with severe refractory primary dysmenorrhea, additional safe alternatives for women who want to conceive include transcutaneous electric nerve stimulation, acupuncture, nifedipine, and terbutaline. Otherwise, the use of danazol or leuprolide may be considered and, rarely, hysterectomy. The effectiveness of surgical interruption of the pelvic nerve pathways has not been established.",
+  "modified": false,
+  "original_char_count": 1564,
+  "sanitized_char_count": 1564,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1467,
+      "boundary_end": 1564,
+      "context": "can be initiated based on a typical history of painful menses and a negative physical examination. Nonsteroidal anti-inflammatory drugs are the initial therapy of choice in patients with presumptive primary dysmenorrhea. Oral contraceptives and depo-medroxyprogesterone acetate also may be considered. If pain relief is insufficient, prolonged-cycle oral contraceptives or intravaginal use of oral contraceptive pills can be considered. In women who do not desire hormonal contraception, there is some evidence of benefit with the use of topical heat; the Japanese herbal remedy toki-shakuyaku-san; thiamine, vitamin E, and fish oil supplements; a low-fat vegetarian diet; and acupressure. If dysmenorrhea remains uncontrolled with any of these approaches, pelvic ultrasonography should be performed and referral for laparoscopy should be considered to rule out secondary causes of dysmenorrhea. In patients with severe refractory primary dysmenorrhea, additional safe alternatives for women who want to conceive include transcutaneous electric nerve stimulation, acupuncture, nifedipine, and terbutaline. Otherwise, the use of danazol or leuprolide may be considered and, rarely, hysterectomy.",
+      "target": "The effectiveness of surgical interruption of the pelvic nerve pathways has not been established.",
+      "loss_target": 3.766761541366577,
+      "loss_target_given_context": 2.4056878089904785,
+      "delta_loss": 1.3610737323760986,
+      "gain_ratio": 0.3613379072258188,
+      "score": -0.3613379072258188,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1129",
+  "source_doc_id": "MED-1129",
+  "title": "Rheumatic fever: from sore throat to autoimmune heart lesions.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Rheumatic fever: from sore throat to autoimmune heart lesions.\nMolecular mimicry between streptococci and heart components has been proposed as the triggering factor leading to autoimmunity in rheumatic heart disease (RHD). In this review, we present data from cellular autoimmune responses, focusing on the interactions between HLA class II molecules, streptococcal peptides and heart tissue proteins and T-cell receptor (TCR) usage. HLA-DR7DR53 associated with DQ molecules seem to be related with the development of valvular lesions in severe RHD patients. DR7DR53 molecules were also involved in the recognition of an immunodominant M5 peptide in these patients. T cells infiltrating RHD hearts displayed several oligoclonal expansions. Intralesional T-cell clones presenting identical TCR-BVBJ AVAJ and -CDR3 sequences were able to recognize several antigens with little or low homology, showing an intramolecular degenerate pattern of antigen recognition. Peripheral blood mononuclear cells of rheumatic fever (RF) patients produced proinflammatory cytokines, and intralesional mononuclear cells from severe RHD patients produced predominantly Th1-type cytokines. These results illustrate the complex mechanisms leading to heart tissue damage in RF/RHD patients. Copyright 2004 S. Karger AG, Basel",
+  "sanitized_text": "Rheumatic fever: from sore throat to autoimmune heart lesions.\nMolecular mimicry between streptococci and heart components has been proposed as the triggering factor leading to autoimmunity in rheumatic heart disease (RHD). In this review, we present data from cellular autoimmune responses, focusing on the interactions between HLA class II molecules, streptococcal peptides and heart tissue proteins and T-cell receptor (TCR) usage. HLA-DR7DR53 associated with DQ molecules seem to be related with the development of valvular lesions in severe RHD patients. DR7DR53 molecules were also involved in the recognition of an immunodominant M5 peptide in these patients. T cells infiltrating RHD hearts displayed several oligoclonal expansions. Intralesional T-cell clones presenting identical TCR-BVBJ AVAJ and -CDR3 sequences were able to recognize several antigens with little or low homology, showing an intramolecular degenerate pattern of antigen recognition. Peripheral blood mononuclear cells of rheumatic fever (RF) patients produced proinflammatory cytokines, and intralesional mononuclear cells from severe RHD patients produced predominantly Th1-type cytokines. These results illustrate the complex mechanisms leading to heart tissue damage in RF/RHD patients. Copyright 2004 S. Karger AG, Basel",
+  "modified": false,
+  "original_char_count": 1303,
+  "sanitized_char_count": 1303,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1170,
+      "boundary_end": 1268,
+      "context": "Rheumatic fever: from sore throat to autoimmune heart lesions. Molecular mimicry between streptococci and heart components has been proposed as the triggering factor leading to autoimmunity in rheumatic heart disease (RHD). In this review, we present data from cellular autoimmune responses, focusing on the interactions between HLA class II molecules, streptococcal peptides and heart tissue proteins and T-cell receptor (TCR) usage. HLA-DR7DR53 associated with DQ molecules seem to be related with the development of valvular lesions in severe RHD patients. DR7DR53 molecules were also involved in the recognition of an immunodominant M5 peptide in these patients. T cells infiltrating RHD hearts displayed several oligoclonal expansions. Intralesional T-cell clones presenting identical TCR-BVBJ AVAJ and -CDR3 sequences were able to recognize several antigens with little or low homology, showing an intramolecular degenerate pattern of antigen recognition. Peripheral blood mononuclear cells of rheumatic fever (RF) patients produced proinflammatory cytokines, and intralesional mononuclear cells from severe RHD patients produced predominantly Th1-type cytokines.",
+      "target": "These results illustrate the complex mechanisms leading to heart tissue damage in RF/RHD patients.",
+      "loss_target": 4.499817371368408,
+      "loss_target_given_context": 1.8978030681610107,
+      "delta_loss": 2.6020143032073975,
+      "gain_ratio": 0.5782488684459914,
+      "score": -0.5782488684459914,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

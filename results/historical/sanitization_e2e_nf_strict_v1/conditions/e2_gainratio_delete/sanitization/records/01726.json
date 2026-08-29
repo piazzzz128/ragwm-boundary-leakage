@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3351",
+  "source_doc_id": "MED-3351",
+  "title": "The color red reduces snack food and soft drink intake.",
+  "original_text": "The color red reduces snack food and soft drink intake.\nBased on evidence that the color red elicits avoidance motivation across contexts (Mehta & Zhu, 2009), two studies investigated the effect of the color red on snack food and soft drink consumption. In line with our hypothesis, participants drank less from a red labeled cup than from a blue labeled cup (Study 1), and ate less snack food from a red plate than from a blue or white plate (Study 2). The results suggest that red functions as a subtle stop signal that works outside of focused awareness and thereby reduces incidental food and drink intake. Copyright Â© 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "The color red reduces snack food and soft drink intake.\nBased on evidence that the color red elicits avoidance motivation across contexts (Mehta & Zhu, 2009), two studies investigated the effect of the color red on snack food and soft drink consumption. In line with our hypothesis, participants drank less from a red labeled cup than from a blue labeled cup (Study 1), and ate less snack food from a red plate than from a blue or white plate (Study 2). The results suggest that red functions as a subtle stop signal that works outside of focused awareness and thereby reduces incidental food and drink intake.",
+  "modified": true,
+  "original_char_count": 663,
+  "sanitized_char_count": 610,
+  "deleted_char_count": 53,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 611,
+      "boundary_end": 642,
+      "context": "The color red reduces snack food and soft drink intake. Based on evidence that the color red elicits avoidance motivation across contexts (Mehta & Zhu, 2009), two studies investigated the effect of the color red on snack food and soft drink consumption. In line with our hypothesis, participants drank less from a red labeled cup than from a blue labeled cup (Study 1), and ate less snack food from a red plate than from a blue or white plate (Study 2). The results suggest that red functions as a subtle stop signal that works outside of focused awareness and thereby reduces incidental food and drink intake.",
+      "target": "Copyright Â© 2012 Elsevier Ltd.",
+      "loss_target": 1.6356390714645386,
+      "loss_target_given_context": 1.7651492357254028,
+      "delta_loss": -0.12951016426086426,
+      "gain_ratio": -0.07918016053804698,
+      "score": 0.07918016053804698,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 454,
+      "boundary_end": 610,
+      "context": "The color red reduces snack food and soft drink intake. Based on evidence that the color red elicits avoidance motivation across contexts (Mehta & Zhu, 2009), two studies investigated the effect of the color red on snack food and soft drink consumption. In line with our hypothesis, participants drank less from a red labeled cup than from a blue labeled cup (Study 1), and ate less snack food from a red plate than from a blue or white plate (Study 2).",
+      "target": "The results suggest that red functions as a subtle stop signal that works outside of focused awareness and thereby reduces incidental food and drink intake.",
+      "loss_target": 4.507023334503174,
+      "loss_target_given_context": 3.1556124687194824,
+      "delta_loss": 1.3514108657836914,
+      "gain_ratio": 0.29984554449453776,
+      "score": -0.29984554449453776,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 611,
+      "target": "Copyright Â© 2012 Elsevier Ltd.",
+      "score": 0.07918016053804698,
+      "deleted_suffix": "Copyright Â© 2012 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 52
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

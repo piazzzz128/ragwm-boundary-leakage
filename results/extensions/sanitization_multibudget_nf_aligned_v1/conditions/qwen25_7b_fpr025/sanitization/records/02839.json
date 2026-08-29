@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4752",
+  "source_doc_id": "MED-4752",
+  "title": "Acne, dairy and cancer",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Acne, dairy and cancer\nA potent link to dairy seems to exist for three hormone-responsive glands. Acne, breast cancer and prostate cancer have all been linked epidemiologically to dairy intake. Although mechanisms postulated here remain to be accurately defined, the likely link involves Insulin-like Growth Factor-1 as a general stimulant, synergized by the steroid hormones present in milk. The IGF-1 may be either absorbed from milk, or stimulated by its ingestion, or both. The 5alpha-reduced compound 5alpha-pregnanedione (5α-P) present in milk is a direct precursor of dihydrotestosterone and may act through that pathway in prostate cancer, but 5α-P has also recently been shown to be capable of inducing estrogen receptors in breast cancer cells, upregulating cancer cells' sensitivity to estrogen. The introduction of exogenous hormones and growth factors into tissues that have not evolved defensive feedback inhibition of their corresponding endogenous sources is postulated as a direct stimulatory threat to these organ systems, whether for hyperplasia or neoplasia.",
+  "sanitized_text": "Acne, dairy and cancer\nA potent link to dairy seems to exist for three hormone-responsive glands. Acne, breast cancer and prostate cancer have all been linked epidemiologically to dairy intake. Although mechanisms postulated here remain to be accurately defined, the likely link involves Insulin-like Growth Factor-1 as a general stimulant, synergized by the steroid hormones present in milk. The IGF-1 may be either absorbed from milk, or stimulated by its ingestion, or both. The 5alpha-reduced compound 5alpha-pregnanedione (5α-P) present in milk is a direct precursor of dihydrotestosterone and may act through that pathway in prostate cancer, but 5α-P has also recently been shown to be capable of inducing estrogen receptors in breast cancer cells, upregulating cancer cells' sensitivity to estrogen. The introduction of exogenous hormones and growth factors into tissues that have not evolved defensive feedback inhibition of their corresponding endogenous sources is postulated as a direct stimulatory threat to these organ systems, whether for hyperplasia or neoplasia.",
+  "modified": false,
+  "original_char_count": 1078,
+  "sanitized_char_count": 1078,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 807,
+      "boundary_end": 1078,
+      "context": "Acne, dairy and cancer A potent link to dairy seems to exist for three hormone-responsive glands. Acne, breast cancer and prostate cancer have all been linked epidemiologically to dairy intake. Although mechanisms postulated here remain to be accurately defined, the likely link involves Insulin-like Growth Factor-1 as a general stimulant, synergized by the steroid hormones present in milk. The IGF-1 may be either absorbed from milk, or stimulated by its ingestion, or both. The 5alpha-reduced compound 5alpha-pregnanedione (5α-P) present in milk is a direct precursor of dihydrotestosterone and may act through that pathway in prostate cancer, but 5α-P has also recently been shown to be capable of inducing estrogen receptors in breast cancer cells, upregulating cancer cells' sensitivity to estrogen.",
+      "target": "The introduction of exogenous hormones and growth factors into tissues that have not evolved defensive feedback inhibition of their corresponding endogenous sources is postulated as a direct stimulatory threat to these organ systems, whether for hyperplasia or neoplasia.",
+      "loss_target": 3.376495361328125,
+      "loss_target_given_context": 2.7467572689056396,
+      "delta_loss": 0.6297380924224854,
+      "gain_ratio": 0.18650642901365677,
+      "score": -0.18650642901365677,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3668",
+  "source_doc_id": "MED-3668",
+  "title": "The effects of lavender oil inhalation on emotional states, autonomic nervous system, and brain electrical activity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The effects of lavender oil inhalation on emotional states, autonomic nervous system, and brain electrical activity.\nOBJECTIVE: Investigate the effects of lavender oil on the central nervous system, autonomic nervous system, and mood responses in humans after inhalation. MATERIAL AND METHOD: Twenty healthy volunteers participated in the experiments. The present study assessed autonomic parameters such as blood pressure, heart rate, respiratory rate, and skin temperature to determine the arousal level of the autonomic nervous system. In addition, subjects were asked to estimate their mood responses such as feeling pleasant or unpleasant, uncomfortable, sensuality, relaxation, or refreshing in order to assess subjective behavioral arousal. Finally, electroencephalogram (EEG) was recorded from 31 electrodes on the scalp according to the international 10 to 20 system, and EEG power spectra were calculated by Fast Fourier Transform (FFT). Data was analyzed by comparing the effects of lavender oil on physiological and mood states with sweet almond oil. These assessments were measured before and after using paired t-test statistical procedure. RESULTS: The results revealed that lavender oil caused significant decreases of blood pressure, heart rate, and skin temperature, which indicated a decrease of autonomic arousal. In terms of mood responses, the subjects in the lavender oil group categorized themselves as more active, fresher relaxed than subjects just inhaling base oil. Compared with base oil, lavender oil increased the power of theta (4-8 Hz) and alpha (8-13 Hz) brain activities. The topographic map showed obviously more scattering power in alpha range waves particularly in bilateral temporal and central area. CONCLUSION: The findings provided evidence the relaxing effect of inhaling lavender oil.",
+  "sanitized_text": "The effects of lavender oil inhalation on emotional states, autonomic nervous system, and brain electrical activity.\nOBJECTIVE: Investigate the effects of lavender oil on the central nervous system, autonomic nervous system, and mood responses in humans after inhalation. MATERIAL AND METHOD: Twenty healthy volunteers participated in the experiments. The present study assessed autonomic parameters such as blood pressure, heart rate, respiratory rate, and skin temperature to determine the arousal level of the autonomic nervous system. In addition, subjects were asked to estimate their mood responses such as feeling pleasant or unpleasant, uncomfortable, sensuality, relaxation, or refreshing in order to assess subjective behavioral arousal. Finally, electroencephalogram (EEG) was recorded from 31 electrodes on the scalp according to the international 10 to 20 system, and EEG power spectra were calculated by Fast Fourier Transform (FFT). Data was analyzed by comparing the effects of lavender oil on physiological and mood states with sweet almond oil. These assessments were measured before and after using paired t-test statistical procedure. RESULTS: The results revealed that lavender oil caused significant decreases of blood pressure, heart rate, and skin temperature, which indicated a decrease of autonomic arousal. In terms of mood responses, the subjects in the lavender oil group categorized themselves as more active, fresher relaxed than subjects just inhaling base oil. Compared with base oil, lavender oil increased the power of theta (4-8 Hz) and alpha (8-13 Hz) brain activities. The topographic map showed obviously more scattering power in alpha range waves particularly in bilateral temporal and central area. CONCLUSION: The findings provided evidence the relaxing effect of inhaling lavender oil.",
+  "modified": false,
+  "original_char_count": 1828,
+  "sanitized_char_count": 1828,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1740,
+      "boundary_end": 1828,
+      "context": "addition, subjects were asked to estimate their mood responses such as feeling pleasant or unpleasant, uncomfortable, sensuality, relaxation, or refreshing in order to assess subjective behavioral arousal. Finally, electroencephalogram (EEG) was recorded from 31 electrodes on the scalp according to the international 10 to 20 system, and EEG power spectra were calculated by Fast Fourier Transform (FFT). Data was analyzed by comparing the effects of lavender oil on physiological and mood states with sweet almond oil. These assessments were measured before and after using paired t-test statistical procedure. RESULTS: The results revealed that lavender oil caused significant decreases of blood pressure, heart rate, and skin temperature, which indicated a decrease of autonomic arousal. In terms of mood responses, the subjects in the lavender oil group categorized themselves as more active, fresher relaxed than subjects just inhaling base oil. Compared with base oil, lavender oil increased the power of theta (4-8 Hz) and alpha (8-13 Hz) brain activities. The topographic map showed obviously more scattering power in alpha range waves particularly in bilateral temporal and central area.",
+      "target": "CONCLUSION: The findings provided evidence the relaxing effect of inhaling lavender oil.",
+      "loss_target": 3.5960867404937744,
+      "loss_target_given_context": 2.024693727493286,
+      "delta_loss": 1.5713930130004883,
+      "gain_ratio": 0.43697305610173415,
+      "score": -0.43697305610173415,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

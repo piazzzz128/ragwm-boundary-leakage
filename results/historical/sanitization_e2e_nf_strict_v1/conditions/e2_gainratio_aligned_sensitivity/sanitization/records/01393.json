@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2769",
+  "source_doc_id": "MED-2769",
+  "title": "Milk Intake in Early Life and Risk of Advanced Prostate Cancer",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Milk Intake in Early Life and Risk of Advanced Prostate Cancer\nThe authors investigated whether early-life residency in certain areas of Iceland marked by distinct differences in milk intake was associated with risk of prostate cancer in a population-based cohort of 8,894 men born between 1907 and 1935. Through linkage to cancer and mortality registers, the men were followed for prostate cancer diagnosis and mortality from study entry (in waves from 1967 to 1987) through 2009. In 2002–2006, a subgroup of 2,268 participants reported their milk intake in early, mid-, and current life. During a mean follow-up period of 24.3 years, 1,123 men were diagnosed with prostate cancer, including 371 with advanced disease (stage 3 or higher or prostate cancer death). Compared with early-life residency in the capital area, rural residency in the first 20 years of life was marginally associated with increased risk of advanced prostate cancer (hazard ratio = 1.29, 95% confidence interval (CI): 0.97, 1.73), particularly among men born before 1920 (hazard ratio = 1.64, 95% CI: 1.06, 2.56). Daily milk consumption in adolescence (vs. less than daily), but not in midlife or currently, was associated with a 3.2-fold risk of advanced prostate cancer (95% CI: 1.25, 8.28). These data suggest that frequent milk intake in adolescence increases risk of advanced prostate cancer.",
+  "sanitized_text": "Milk Intake in Early Life and Risk of Advanced Prostate Cancer\nThe authors investigated whether early-life residency in certain areas of Iceland marked by distinct differences in milk intake was associated with risk of prostate cancer in a population-based cohort of 8,894 men born between 1907 and 1935. Through linkage to cancer and mortality registers, the men were followed for prostate cancer diagnosis and mortality from study entry (in waves from 1967 to 1987) through 2009. In 2002–2006, a subgroup of 2,268 participants reported their milk intake in early, mid-, and current life. During a mean follow-up period of 24.3 years, 1,123 men were diagnosed with prostate cancer, including 371 with advanced disease (stage 3 or higher or prostate cancer death). Compared with early-life residency in the capital area, rural residency in the first 20 years of life was marginally associated with increased risk of advanced prostate cancer (hazard ratio = 1.29, 95% confidence interval (CI): 0.97, 1.73), particularly among men born before 1920 (hazard ratio = 1.64, 95% CI: 1.06, 2.56). Daily milk consumption in adolescence (vs. less than daily), but not in midlife or currently, was associated with a 3.2-fold risk of advanced prostate cancer (95% CI: 1.25, 8.28). These data suggest that frequent milk intake in adolescence increases risk of advanced prostate cancer.",
+  "modified": false,
+  "original_char_count": 1372,
+  "sanitized_char_count": 1372,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1269,
+      "boundary_end": 1372,
+      "context": "investigated whether early-life residency in certain areas of Iceland marked by distinct differences in milk intake was associated with risk of prostate cancer in a population-based cohort of 8,894 men born between 1907 and 1935. Through linkage to cancer and mortality registers, the men were followed for prostate cancer diagnosis and mortality from study entry (in waves from 1967 to 1987) through 2009. In 2002–2006, a subgroup of 2,268 participants reported their milk intake in early, mid-, and current life. During a mean follow-up period of 24.3 years, 1,123 men were diagnosed with prostate cancer, including 371 with advanced disease (stage 3 or higher or prostate cancer death). Compared with early-life residency in the capital area, rural residency in the first 20 years of life was marginally associated with increased risk of advanced prostate cancer (hazard ratio = 1.29, 95% confidence interval (CI): 0.97, 1.73), particularly among men born before 1920 (hazard ratio = 1.64, 95% CI: 1.06, 2.56). Daily milk consumption in adolescence (vs. less than daily), but not in midlife or currently, was associated with a 3.2-fold risk of advanced prostate cancer (95% CI: 1.25, 8.28).",
+      "target": "These data suggest that frequent milk intake in adolescence increases risk of advanced prostate cancer.",
+      "loss_target": 3.776867389678955,
+      "loss_target_given_context": 1.2497735023498535,
+      "delta_loss": 2.5270938873291016,
+      "gain_ratio": 0.6690978598387888,
+      "score": -0.6690978598387888,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

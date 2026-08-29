@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1996",
+  "source_doc_id": "MED-1996",
+  "title": "Childhood obesity and type 2 diabetes mellitus.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Childhood obesity and type 2 diabetes mellitus.\nUntil recently, the majority of cases of diabetes mellitus among children and adolescents were immune-mediated type 1a diabetes. Obesity has led to a dramatic increase in the incidence of type 2 diabetes (T2DM) among children and adolescents over the past 2 decades. Obesity is strongly associated with insulin resistance, which, when coupled with relative insulin deficiency, leads to the development of overt T2DM. Children and adolescents with T2DM may experience the microvascular and macrovascular complications of this disease at younger ages than individuals who develop diabetes in adulthood, including atherosclerotic cardiovascular disease, stroke, myocardial infarction, and sudden death; renal insufficiency and chronic renal failure; limb-threatening neuropathy and vasculopathy; and retinopathy leading to blindness. Health care professionals are advised to perform the appropriate screening in children at risk for T2DM, diagnose the condition as early as possible, and provide rigorous management of the disease.",
+  "sanitized_text": "Childhood obesity and type 2 diabetes mellitus.\nUntil recently, the majority of cases of diabetes mellitus among children and adolescents were immune-mediated type 1a diabetes. Obesity has led to a dramatic increase in the incidence of type 2 diabetes (T2DM) among children and adolescents over the past 2 decades. Obesity is strongly associated with insulin resistance, which, when coupled with relative insulin deficiency, leads to the development of overt T2DM. Children and adolescents with T2DM may experience the microvascular and macrovascular complications of this disease at younger ages than individuals who develop diabetes in adulthood, including atherosclerotic cardiovascular disease, stroke, myocardial infarction, and sudden death; renal insufficiency and chronic renal failure; limb-threatening neuropathy and vasculopathy; and retinopathy leading to blindness. Health care professionals are advised to perform the appropriate screening in children at risk for T2DM, diagnose the condition as early as possible, and provide rigorous management of the disease.",
+  "modified": false,
+  "original_char_count": 1076,
+  "sanitized_char_count": 1076,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 879,
+      "boundary_end": 1076,
+      "context": "Childhood obesity and type 2 diabetes mellitus. Until recently, the majority of cases of diabetes mellitus among children and adolescents were immune-mediated type 1a diabetes. Obesity has led to a dramatic increase in the incidence of type 2 diabetes (T2DM) among children and adolescents over the past 2 decades. Obesity is strongly associated with insulin resistance, which, when coupled with relative insulin deficiency, leads to the development of overt T2DM. Children and adolescents with T2DM may experience the microvascular and macrovascular complications of this disease at younger ages than individuals who develop diabetes in adulthood, including atherosclerotic cardiovascular disease, stroke, myocardial infarction, and sudden death; renal insufficiency and chronic renal failure; limb-threatening neuropathy and vasculopathy; and retinopathy leading to blindness.",
+      "target": "Health care professionals are advised to perform the appropriate screening in children at risk for T2DM, diagnose the condition as early as possible, and provide rigorous management of the disease.",
+      "loss_target": 2.4693806171417236,
+      "loss_target_given_context": 1.6933947801589966,
+      "delta_loss": 0.775985836982727,
+      "gain_ratio": 0.314243106792067,
+      "score": -0.314243106792067,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

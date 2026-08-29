@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3154",
+  "source_doc_id": "MED-3154",
+  "title": "Is infection risk linked to exercise workload?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Is infection risk linked to exercise workload?\nAnecdotal, survey, and epidemiological data suggest that endurance athletes are at an increased risk for upper respiratory tract infection (URTI) during periods of heavy training and the 1 - to 2-wk period after race events. The majority of athletes, however, who participate in endurance race events do not experience illness. Of greater public health importance is the consistent finding of a reduction in URTI risk reported by fitness enthusiasts and athletes who engage in regular exercise training while avoiding overreaching/overtraining. Although it naturally follows that infection risk should in some way be linked to acute and chronic exercise-induced alterations in immunity, attempts thus far to measure this association have been unsuccessful. There is growing evidence that for several hours subsequent to heavy exertion, several components of both the innate and adaptive immune system exhibit suppressed function. The immune response to heavy exertion is transient, however, and further research on the mechanisms underlying the immune response to prolonged and intensive endurance exercise is necessary before meaningful clinical applications can be drawn. Some attempts have been made through chemical or nutritional means (e.g., indomethacin, glutamine, vitamin C, and carbohydrate supplementation) to attenuate immune changes after intensive exercise to lower the risk of infection. No consistent relationship between nutritional interventions, exercise immunology, and alteration in URTI risk has yet been established.",
+  "sanitized_text": "Is infection risk linked to exercise workload?\nAnecdotal, survey, and epidemiological data suggest that endurance athletes are at an increased risk for upper respiratory tract infection (URTI) during periods of heavy training and the 1 - to 2-wk period after race events. The majority of athletes, however, who participate in endurance race events do not experience illness. Of greater public health importance is the consistent finding of a reduction in URTI risk reported by fitness enthusiasts and athletes who engage in regular exercise training while avoiding overreaching/overtraining. Although it naturally follows that infection risk should in some way be linked to acute and chronic exercise-induced alterations in immunity, attempts thus far to measure this association have been unsuccessful. There is growing evidence that for several hours subsequent to heavy exertion, several components of both the innate and adaptive immune system exhibit suppressed function. The immune response to heavy exertion is transient, however, and further research on the mechanisms underlying the immune response to prolonged and intensive endurance exercise is necessary before meaningful clinical applications can be drawn. Some attempts have been made through chemical or nutritional means (e.g., indomethacin, glutamine, vitamin C, and carbohydrate supplementation) to attenuate immune changes after intensive exercise to lower the risk of infection. No consistent relationship between nutritional interventions, exercise immunology, and alteration in URTI risk has yet been established.",
+  "modified": false,
+  "original_char_count": 1586,
+  "sanitized_char_count": 1586,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1450,
+      "boundary_end": 1586,
+      "context": "after race events. The majority of athletes, however, who participate in endurance race events do not experience illness. Of greater public health importance is the consistent finding of a reduction in URTI risk reported by fitness enthusiasts and athletes who engage in regular exercise training while avoiding overreaching/overtraining. Although it naturally follows that infection risk should in some way be linked to acute and chronic exercise-induced alterations in immunity, attempts thus far to measure this association have been unsuccessful. There is growing evidence that for several hours subsequent to heavy exertion, several components of both the innate and adaptive immune system exhibit suppressed function. The immune response to heavy exertion is transient, however, and further research on the mechanisms underlying the immune response to prolonged and intensive endurance exercise is necessary before meaningful clinical applications can be drawn. Some attempts have been made through chemical or nutritional means (e.g., indomethacin, glutamine, vitamin C, and carbohydrate supplementation) to attenuate immune changes after intensive exercise to lower the risk of infection.",
+      "target": "No consistent relationship between nutritional interventions, exercise immunology, and alteration in URTI risk has yet been established.",
+      "loss_target": 3.8975260257720947,
+      "loss_target_given_context": 1.9658182859420776,
+      "delta_loss": 1.931707739830017,
+      "gain_ratio": 0.495624077185565,
+      "score": -0.495624077185565,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

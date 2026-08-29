@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1798",
+  "source_doc_id": "MED-1798",
+  "title": "Adenovirus 36 infection and obesity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Adenovirus 36 infection and obesity.\nThe most important factors leading to fat accumulation in children are genetic inheritance, endocrine alterations, and behavioural/environmental causes. In addition, experimental animal studies have shown that infections due to various pathogens can lead to overweight and obesity conditions, and studies of humans have found that the incidence of seroconversion against some of these may be significantly more frequent in obese adults and children than in normal subjects. However, the results of these studies are not conclusive and, in some cases, have raised more questions than answers. We reviewed the literature concerning the role of adenovirus 36 (AD-36), the most widely studied infectious agent in animals and humans, because of its potential association with childhood obesity. The available evidence suggests that more studies are needed to evaluate whether or not the association between the presence of AD-36 antibodies and obesity is simply unrelated, and to verify whether there are subjects that have greater tendency to become obese because more easily susceptible to AD-36 infection or with a predisposition to suffer from persistent viral infection more easily leading to the development of obesity. If it is demonstrated that AD-36 does play a role in obesity, it will be important to investigate possible vaccines against the infection itself or antiviral drugs capable of inhibiting disease progression. Copyright © 2012 Elsevier B.V. All rights reserved.",
+  "sanitized_text": "Adenovirus 36 infection and obesity.\nThe most important factors leading to fat accumulation in children are genetic inheritance, endocrine alterations, and behavioural/environmental causes. In addition, experimental animal studies have shown that infections due to various pathogens can lead to overweight and obesity conditions, and studies of humans have found that the incidence of seroconversion against some of these may be significantly more frequent in obese adults and children than in normal subjects. However, the results of these studies are not conclusive and, in some cases, have raised more questions than answers. We reviewed the literature concerning the role of adenovirus 36 (AD-36), the most widely studied infectious agent in animals and humans, because of its potential association with childhood obesity. The available evidence suggests that more studies are needed to evaluate whether or not the association between the presence of AD-36 antibodies and obesity is simply unrelated, and to verify whether there are subjects that have greater tendency to become obese because more easily susceptible to AD-36 infection or with a predisposition to suffer from persistent viral infection more easily leading to the development of obesity. If it is demonstrated that AD-36 does play a role in obesity, it will be important to investigate possible vaccines against the infection itself or antiviral drugs capable of inhibiting disease progression. Copyright © 2012 Elsevier B.V. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1516,
+  "sanitized_char_count": 1516,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1465,
+      "boundary_end": 1495,
+      "context": "various pathogens can lead to overweight and obesity conditions, and studies of humans have found that the incidence of seroconversion against some of these may be significantly more frequent in obese adults and children than in normal subjects. However, the results of these studies are not conclusive and, in some cases, have raised more questions than answers. We reviewed the literature concerning the role of adenovirus 36 (AD-36), the most widely studied infectious agent in animals and humans, because of its potential association with childhood obesity. The available evidence suggests that more studies are needed to evaluate whether or not the association between the presence of AD-36 antibodies and obesity is simply unrelated, and to verify whether there are subjects that have greater tendency to become obese because more easily susceptible to AD-36 infection or with a predisposition to suffer from persistent viral infection more easily leading to the development of obesity. If it is demonstrated that AD-36 does play a role in obesity, it will be important to investigate possible vaccines against the infection itself or antiviral drugs capable of inhibiting disease progression.",
+      "target": "Copyright © 2012 Elsevier B.V.",
+      "loss_target": 0.894260823726654,
+      "loss_target_given_context": 0.4372999370098114,
+      "delta_loss": 0.45696088671684265,
+      "gain_ratio": 0.510992849728728,
+      "score": -0.510992849728728,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-830",
+  "source_doc_id": "MED-830",
+  "title": "Extraction, purification and antioxidant activities of the polysaccharides from maca (Lepidium meyenii).",
+  "original_text": "Extraction, purification and antioxidant activities of the polysaccharides from maca (Lepidium meyenii).\nWater-soluble polysaccharides were separated from maca (Lepidium meyenii) aqueous extract (MAE). The crude polysaccharides were deproteinized by Sevag method. During the preparation process of maca polysaccharides, amylase and glucoamylase effectively removed starch in maca polysaccharides. Four Lepidium meyenii polysaccharides (LMPs) were obtained by changing the concentration of ethanol in the process of polysaccharide precipitation. All of the LMPs were composed of rhamnose, arabinose, glucose and galactose. Antioxidant activity tests revealed that LMP-60 showed good capability of scavenging hydroxyl free radical and superoxide radical at 2.0mg/mL, the scavenging rate was 52.9% and 85.8%, respectively. Therefore, the results showed that maca polysaccharides had a high antioxidant activity and could be explored as the source of bioactive compounds. Copyright © 2014 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Extraction, purification and antioxidant activities of the polysaccharides from maca (Lepidium meyenii).\nWater-soluble polysaccharides were separated from maca (Lepidium meyenii) aqueous extract (MAE). The crude polysaccharides were deproteinized by Sevag method. During the preparation process of maca polysaccharides, amylase and glucoamylase effectively removed starch in maca polysaccharides. Four Lepidium meyenii polysaccharides (LMPs) were obtained by changing the concentration of ethanol in the process of polysaccharide precipitation. All of the LMPs were composed of rhamnose, arabinose, glucose and galactose. Antioxidant activity tests revealed that LMP-60 showed good capability of scavenging hydroxyl free radical and superoxide radical at 2.0mg/mL, the scavenging rate was 52.9% and 85.8%, respectively. Therefore, the results showed that maca polysaccharides had a high antioxidant activity and could be explored as the source of bioactive compounds.",
+  "modified": true,
+  "original_char_count": 1019,
+  "sanitized_char_count": 967,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 968,
+      "boundary_end": 998,
+      "context": "Extraction, purification and antioxidant activities of the polysaccharides from maca (Lepidium meyenii). Water-soluble polysaccharides were separated from maca (Lepidium meyenii) aqueous extract (MAE). The crude polysaccharides were deproteinized by Sevag method. During the preparation process of maca polysaccharides, amylase and glucoamylase effectively removed starch in maca polysaccharides. Four Lepidium meyenii polysaccharides (LMPs) were obtained by changing the concentration of ethanol in the process of polysaccharide precipitation. All of the LMPs were composed of rhamnose, arabinose, glucose and galactose. Antioxidant activity tests revealed that LMP-60 showed good capability of scavenging hydroxyl free radical and superoxide radical at 2.0mg/mL, the scavenging rate was 52.9% and 85.8%, respectively. Therefore, the results showed that maca polysaccharides had a high antioxidant activity and could be explored as the source of bioactive compounds.",
+      "target": "Copyright © 2014 Elsevier Ltd.",
+      "loss_target": 1.183166742324829,
+      "loss_target_given_context": 1.5610226392745972,
+      "delta_loss": -0.37785589694976807,
+      "gain_ratio": -0.31935980232787065,
+      "score": 0.31935980232787065,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 820,
+      "boundary_end": 967,
+      "context": "Extraction, purification and antioxidant activities of the polysaccharides from maca (Lepidium meyenii). Water-soluble polysaccharides were separated from maca (Lepidium meyenii) aqueous extract (MAE). The crude polysaccharides were deproteinized by Sevag method. During the preparation process of maca polysaccharides, amylase and glucoamylase effectively removed starch in maca polysaccharides. Four Lepidium meyenii polysaccharides (LMPs) were obtained by changing the concentration of ethanol in the process of polysaccharide precipitation. All of the LMPs were composed of rhamnose, arabinose, glucose and galactose. Antioxidant activity tests revealed that LMP-60 showed good capability of scavenging hydroxyl free radical and superoxide radical at 2.0mg/mL, the scavenging rate was 52.9% and 85.8%, respectively.",
+      "target": "Therefore, the results showed that maca polysaccharides had a high antioxidant activity and could be explored as the source of bioactive compounds.",
+      "loss_target": 2.4943790435791016,
+      "loss_target_given_context": 1.8266651630401611,
+      "delta_loss": 0.6677138805389404,
+      "gain_ratio": 0.26768741593533435,
+      "score": -0.26768741593533435,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 968,
+      "target": "Copyright © 2014 Elsevier Ltd.",
+      "score": 0.31935980232787065,
+      "deleted_suffix": "Copyright © 2014 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

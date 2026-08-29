@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5208",
+  "source_doc_id": "MED-5208",
+  "title": "Rarity of colon cancer in Africans is associated with low animal product consumption, not fiber.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Rarity of colon cancer in Africans is associated with low animal product consumption, not fiber.\nOBJECTIVE: To investigate whether the rarity of colon cancer in black Africans (prevalence, < 1:100,000) can be accounted for by dietary factors considered to reduce risk, and by differences in colonic bacterial fermentation. METHODS: Samples of the adult black South African population were drawn from several rural and urban regions. Food consumption was assessed by home visits, food frequency questionnaires, computerized analysis of 72-h dietary recall, and blood sampling. Colonic fermentation was measured by breath H2 and CH4 response to a traditional meal, and to 10-g of lactulose. Cancer risk was estimated by measurement of epithelial proliferation indices (Ki-67 and BrdU) in rectal mucosal biopsies. Results were evaluated by comparison to measurements in high-risk white South Africans (prevalence, 17:100,000). RESULTS: Epithelial proliferation was significantly lower in rural and urban blacks than whites. The diets of all the black subgroups were characterized by a low animal product and high boiled maize-meal content, whereas whites consumed more fresh animal products, cheese, and wheat products. Blacks consumed below RDA quantities of fiber (43% of RDA), vitamin A (78%), C (62%), folic acid (80%) and calcium (67%), whereas whites consumed more animal protein (177% of RDA) and fat (153%). Fasting and food-induced breath methane production was two to three times higher in blacks. CONCLUSIONS: The low prevalence of colon cancer in black Africans cannot be explained by dietary \"protective\" factors, such as, fiber, calcium, vitamins A, C and folic acid, but may be influenced by the absence of \"aggressive\" factors, such as excess animal protein and fat, and by differences in colonic bacterial fermentation.",
+  "sanitized_text": "Rarity of colon cancer in Africans is associated with low animal product consumption, not fiber.\nOBJECTIVE: To investigate whether the rarity of colon cancer in black Africans (prevalence, < 1:100,000) can be accounted for by dietary factors considered to reduce risk, and by differences in colonic bacterial fermentation. METHODS: Samples of the adult black South African population were drawn from several rural and urban regions. Food consumption was assessed by home visits, food frequency questionnaires, computerized analysis of 72-h dietary recall, and blood sampling. Colonic fermentation was measured by breath H2 and CH4 response to a traditional meal, and to 10-g of lactulose. Cancer risk was estimated by measurement of epithelial proliferation indices (Ki-67 and BrdU) in rectal mucosal biopsies. Results were evaluated by comparison to measurements in high-risk white South Africans (prevalence, 17:100,000). RESULTS: Epithelial proliferation was significantly lower in rural and urban blacks than whites. The diets of all the black subgroups were characterized by a low animal product and high boiled maize-meal content, whereas whites consumed more fresh animal products, cheese, and wheat products. Blacks consumed below RDA quantities of fiber (43% of RDA), vitamin A (78%), C (62%), folic acid (80%) and calcium (67%), whereas whites consumed more animal protein (177% of RDA) and fat (153%). Fasting and food-induced breath methane production was two to three times higher in blacks. CONCLUSIONS: The low prevalence of colon cancer in black Africans cannot be explained by dietary \"protective\" factors, such as, fiber, calcium, vitamins A, C and folic acid, but may be influenced by the absence of \"aggressive\" factors, such as excess animal protein and fat, and by differences in colonic bacterial fermentation.",
+  "modified": false,
+  "original_char_count": 1833,
+  "sanitized_char_count": 1833,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1505,
+      "boundary_end": 1833,
+      "context": "fermentation. METHODS: Samples of the adult black South African population were drawn from several rural and urban regions. Food consumption was assessed by home visits, food frequency questionnaires, computerized analysis of 72-h dietary recall, and blood sampling. Colonic fermentation was measured by breath H2 and CH4 response to a traditional meal, and to 10-g of lactulose. Cancer risk was estimated by measurement of epithelial proliferation indices (Ki-67 and BrdU) in rectal mucosal biopsies. Results were evaluated by comparison to measurements in high-risk white South Africans (prevalence, 17:100,000). RESULTS: Epithelial proliferation was significantly lower in rural and urban blacks than whites. The diets of all the black subgroups were characterized by a low animal product and high boiled maize-meal content, whereas whites consumed more fresh animal products, cheese, and wheat products. Blacks consumed below RDA quantities of fiber (43% of RDA), vitamin A (78%), C (62%), folic acid (80%) and calcium (67%), whereas whites consumed more animal protein (177% of RDA) and fat (153%). Fasting and food-induced breath methane production was two to three times higher in blacks.",
+      "target": "CONCLUSIONS: The low prevalence of colon cancer in black Africans cannot be explained by dietary \"protective\" factors, such as, fiber, calcium, vitamins A, C and folic acid, but may be influenced by the absence of \"aggressive\" factors, such as excess animal protein and fat, and by differences in colonic bacterial fermentation.",
+      "loss_target": 2.102459669113159,
+      "loss_target_given_context": 1.352353572845459,
+      "delta_loss": 0.7501060962677002,
+      "gain_ratio": 0.35677549837809885,
+      "score": -0.35677549837809885,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3632",
+  "source_doc_id": "MED-3632",
+  "title": "An unexpected mortality increase in the United States follows arrival of the radioactive plume from Fukushima: is there a correlation?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "An unexpected mortality increase in the United States follows arrival of the radioactive plume from Fukushima: is there a correlation?\nThe multiple nuclear meltdowns at the Fukushima plants beginning on March 11, 2011, are releasing large amounts of airborne radioactivity that has spread throughout Japan and to other nations; thus, studies of contamination and health hazards are merited. In the United States, Fukushima fallout arrived just six days after the earthquake, tsunami, and meltdowns. Some samples of radioactivity in precipitation, air, water, and milk, taken by the U.S. government, showed levels hundreds of times above normal; however, the small number of samples prohibits any credible analysis of temporal trends and spatial comparisons. U.S. health officials report weekly deaths by age in 122 cities, about 25 to 35 percent of the national total. Deaths rose 4.46 percent from 2010 to 2011 in the 14 weeks after the arrival of Japanese fallout, compared with a 2.34 percent increase in the prior 14 weeks. The number of infant deaths after Fukushima rose 1.80 percent, compared with a previous 8.37 percent decrease. Projecting these figures for the entire United States yields 13,983 total deaths and 822 infant deaths in excess of the expected. These preliminary data need to be followed up, especially in the light of similar preliminary U.S. mortality findings for the four months after Chernobyl fallout arrived in 1986, which approximated final figures.",
+  "sanitized_text": "An unexpected mortality increase in the United States follows arrival of the radioactive plume from Fukushima: is there a correlation?\nThe multiple nuclear meltdowns at the Fukushima plants beginning on March 11, 2011, are releasing large amounts of airborne radioactivity that has spread throughout Japan and to other nations; thus, studies of contamination and health hazards are merited. In the United States, Fukushima fallout arrived just six days after the earthquake, tsunami, and meltdowns. Some samples of radioactivity in precipitation, air, water, and milk, taken by the U.S. government, showed levels hundreds of times above normal; however, the small number of samples prohibits any credible analysis of temporal trends and spatial comparisons. U.S. health officials report weekly deaths by age in 122 cities, about 25 to 35 percent of the national total. Deaths rose 4.46 percent from 2010 to 2011 in the 14 weeks after the arrival of Japanese fallout, compared with a 2.34 percent increase in the prior 14 weeks. The number of infant deaths after Fukushima rose 1.80 percent, compared with a previous 8.37 percent decrease. Projecting these figures for the entire United States yields 13,983 total deaths and 822 infant deaths in excess of the expected. These preliminary data need to be followed up, especially in the light of similar preliminary U.S. mortality findings for the four months after Chernobyl fallout arrived in 1986, which approximated final figures.",
+  "modified": false,
+  "original_char_count": 1481,
+  "sanitized_char_count": 1481,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1368,
+      "boundary_end": 1481,
+      "context": "the Fukushima plants beginning on March 11, 2011, are releasing large amounts of airborne radioactivity that has spread throughout Japan and to other nations; thus, studies of contamination and health hazards are merited. In the United States, Fukushima fallout arrived just six days after the earthquake, tsunami, and meltdowns. Some samples of radioactivity in precipitation, air, water, and milk, taken by the U.S. government, showed levels hundreds of times above normal; however, the small number of samples prohibits any credible analysis of temporal trends and spatial comparisons. U.S. health officials report weekly deaths by age in 122 cities, about 25 to 35 percent of the national total. Deaths rose 4.46 percent from 2010 to 2011 in the 14 weeks after the arrival of Japanese fallout, compared with a 2.34 percent increase in the prior 14 weeks. The number of infant deaths after Fukushima rose 1.80 percent, compared with a previous 8.37 percent decrease. Projecting these figures for the entire United States yields 13,983 total deaths and 822 infant deaths in excess of the expected. These preliminary data need to be followed up, especially in the light of similar preliminary U.S.",
+      "target": "mortality findings for the four months after Chernobyl fallout arrived in 1986, which approximated final figures.",
+      "loss_target": 3.8758835792541504,
+      "loss_target_given_context": 2.041295051574707,
+      "delta_loss": 1.8345885276794434,
+      "gain_ratio": 0.4733342707967713,
+      "score": -0.4733342707967713,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

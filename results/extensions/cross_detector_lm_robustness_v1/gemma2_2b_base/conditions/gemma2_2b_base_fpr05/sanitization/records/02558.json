@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4415",
+  "source_doc_id": "MED-4415",
+  "title": "Cinnamon and health.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cinnamon and health.\nCinnamon has been used as a spice and as traditional herbal medicine for centuries. The available in vitro and animal in vivo evidence suggests that cinnamon has anti-inflammatory, antimicrobial, antioxidant, antitumor, cardiovascular, cholesterol-lowering, and immunomodulatory effects. In vitro studies have demonstrated that cinnamon may act as an insulin mimetic, to potentiate insulin activity or to stimulate cellular glucose metabolism. Furthermore, animal studies have demonstrated strong hypoglycemic properties. However, there are only very few well-controlled clinical studies, a fact that limits the conclusions that can be made about the potential health benefits of cinnamon for free-living humans. The use of cinnamon as an adjunct to the treatment of type 2 diabetes mellitus is the most promising area, but further research is needed before definitive recommendations can be made.",
+  "sanitized_text": "Cinnamon and health.\nCinnamon has been used as a spice and as traditional herbal medicine for centuries. The available in vitro and animal in vivo evidence suggests that cinnamon has anti-inflammatory, antimicrobial, antioxidant, antitumor, cardiovascular, cholesterol-lowering, and immunomodulatory effects. In vitro studies have demonstrated that cinnamon may act as an insulin mimetic, to potentiate insulin activity or to stimulate cellular glucose metabolism. Furthermore, animal studies have demonstrated strong hypoglycemic properties. However, there are only very few well-controlled clinical studies, a fact that limits the conclusions that can be made about the potential health benefits of cinnamon for free-living humans. The use of cinnamon as an adjunct to the treatment of type 2 diabetes mellitus is the most promising area, but further research is needed before definitive recommendations can be made.",
+  "modified": false,
+  "original_char_count": 918,
+  "sanitized_char_count": 918,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 734,
+      "boundary_end": 918,
+      "context": "Cinnamon and health. Cinnamon has been used as a spice and as traditional herbal medicine for centuries. The available in vitro and animal in vivo evidence suggests that cinnamon has anti-inflammatory, antimicrobial, antioxidant, antitumor, cardiovascular, cholesterol-lowering, and immunomodulatory effects. In vitro studies have demonstrated that cinnamon may act as an insulin mimetic, to potentiate insulin activity or to stimulate cellular glucose metabolism. Furthermore, animal studies have demonstrated strong hypoglycemic properties. However, there are only very few well-controlled clinical studies, a fact that limits the conclusions that can be made about the potential health benefits of cinnamon for free-living humans.",
+      "target": "The use of cinnamon as an adjunct to the treatment of type 2 diabetes mellitus is the most promising area, but further research is needed before definitive recommendations can be made.",
+      "loss_target": 7.315913200378418,
+      "loss_target_given_context": 3.345694065093994,
+      "delta_loss": 3.970219135284424,
+      "gain_ratio": 0.5426826462455928,
+      "score": -0.5426826462455928,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

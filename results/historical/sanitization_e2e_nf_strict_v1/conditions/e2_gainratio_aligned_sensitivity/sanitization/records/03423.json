@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-666",
+  "source_doc_id": "MED-666",
+  "title": "Is there a role for surgery in the treatment of mastalgia?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Is there a role for surgery in the treatment of mastalgia?\nBreast pain is a common condition affecting most women at some stage in their reproductive life. Mastalgia is resistant to treatment in 6% of cyclical and 26% non-cyclical patients. Surgery is not widely used to treat this condition and only considered in patients with severe mastalgia resistant to medication. The aims of this study were to audit the efficacy of surgery in severe treatment resistant mastalgia and to assess patient satisfaction following surgery. This is a retrospective review of the medical records of all patients seen in mastalgia clinic in the University Hospital of Wales, Cardiff since 1973. A postal questionnaire was distributed to all patients who had undergone surgery. Results showed that of the 1054 patients seen in mastalgia clinic, 12 (1.2%) had undergone surgery. Surgery included 8 subcutaneous mastectomies with implants (3 bilateral, 5 unilateral), 1 bilateral simple mastectomy and 3 quadrantectomies (1 having a further simple mastectomy). The median duration of symptoms was 6.5 years (range 2-16 years). Five patients (50%) were pain free following surgery, 3 developed capsular contractures and 2 wound infections with dehiscence. Pain persisted in both patients undergoing quadrantectomy. We conclude that surgery for mastalgia should only be considered in a minority of patients. Patients should be informed of possible complications inherent of reconstructive surgery and warned that in 50% cases their pain will not be improved.",
+  "sanitized_text": "Is there a role for surgery in the treatment of mastalgia?\nBreast pain is a common condition affecting most women at some stage in their reproductive life. Mastalgia is resistant to treatment in 6% of cyclical and 26% non-cyclical patients. Surgery is not widely used to treat this condition and only considered in patients with severe mastalgia resistant to medication. The aims of this study were to audit the efficacy of surgery in severe treatment resistant mastalgia and to assess patient satisfaction following surgery. This is a retrospective review of the medical records of all patients seen in mastalgia clinic in the University Hospital of Wales, Cardiff since 1973. A postal questionnaire was distributed to all patients who had undergone surgery. Results showed that of the 1054 patients seen in mastalgia clinic, 12 (1.2%) had undergone surgery. Surgery included 8 subcutaneous mastectomies with implants (3 bilateral, 5 unilateral), 1 bilateral simple mastectomy and 3 quadrantectomies (1 having a further simple mastectomy). The median duration of symptoms was 6.5 years (range 2-16 years). Five patients (50%) were pain free following surgery, 3 developed capsular contractures and 2 wound infections with dehiscence. Pain persisted in both patients undergoing quadrantectomy. We conclude that surgery for mastalgia should only be considered in a minority of patients. Patients should be informed of possible complications inherent of reconstructive surgery and warned that in 50% cases their pain will not be improved.",
+  "modified": false,
+  "original_char_count": 1536,
+  "sanitized_char_count": 1536,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1386,
+      "boundary_end": 1536,
+      "context": "in 6% of cyclical and 26% non-cyclical patients. Surgery is not widely used to treat this condition and only considered in patients with severe mastalgia resistant to medication. The aims of this study were to audit the efficacy of surgery in severe treatment resistant mastalgia and to assess patient satisfaction following surgery. This is a retrospective review of the medical records of all patients seen in mastalgia clinic in the University Hospital of Wales, Cardiff since 1973. A postal questionnaire was distributed to all patients who had undergone surgery. Results showed that of the 1054 patients seen in mastalgia clinic, 12 (1.2%) had undergone surgery. Surgery included 8 subcutaneous mastectomies with implants (3 bilateral, 5 unilateral), 1 bilateral simple mastectomy and 3 quadrantectomies (1 having a further simple mastectomy). The median duration of symptoms was 6.5 years (range 2-16 years). Five patients (50%) were pain free following surgery, 3 developed capsular contractures and 2 wound infections with dehiscence. Pain persisted in both patients undergoing quadrantectomy. We conclude that surgery for mastalgia should only be considered in a minority of patients.",
+      "target": "Patients should be informed of possible complications inherent of reconstructive surgery and warned that in 50% cases their pain will not be improved.",
+      "loss_target": 3.3358592987060547,
+      "loss_target_given_context": 2.3352904319763184,
+      "delta_loss": 1.0005688667297363,
+      "gain_ratio": 0.29994336605199345,
+      "score": -0.29994336605199345,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

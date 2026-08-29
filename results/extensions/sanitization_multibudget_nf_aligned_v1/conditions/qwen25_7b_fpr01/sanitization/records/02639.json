@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4510",
+  "source_doc_id": "MED-4510",
+  "title": "Non-Soy Legume Consumption Lowers Cholesterol Levels: A Meta-Analysis of Randomized Controlled Trials",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Non-Soy Legume Consumption Lowers Cholesterol Levels: A Meta-Analysis of Randomized Controlled Trials\nBackground and Aims Studies evaluating the effect of legume consumption on cholesterol have focused on soybeans, however non-soy legumes, such as a variety of beans, peas, and some seeds, are commonly consumed in Western countries. We conducted a meta-analysis of randomized controlled trials evaluating the effects of non-soy legume consumption on blood lipids. Methods and Results Studies were retrieved by searching MEDLINE (from January 1966 through July 2009), EMBASE (from January 1980 to July 2009), and the Cochrane Collaboration's Central Register of Controlled Clinical Trials using the following terms as medical subject headings and keywords: fabaceae not soybeans not isoflavones and diet or dietary fiber and cholesterol or hypercholesterolemia or triglycerides or cardiovascular diseases. Bibliographies of all retrieved articles were also searched. From 140 relevant reports, 10 randomized clinical trials were selected which compared a non-soy legume diet to control, had a minimum duration of 3 weeks, and reported blood lipid changes during intervention and control. Data on sample size, participant characteristics, study design, intervention methods, duration, and treatment results were independently abstracted by 2 investigators using a standardized protocol. Data from 10 trials representing 268 participants were examined using a random-effects model. Pooled mean net change in total cholesterol for those treated with a legume diet compared to control was −11.8 mg/dL (95% confidence interval [CI], −16.1 to −7.5); mean net change in low density lipoprotein cholesterol was −8.0 mg/dL (95% CI, −11.4 to −4.6). Conclusion These results indicate that a diet rich in legumes other than soy decreases total and LDL cholesterol.",
+  "sanitized_text": "Non-Soy Legume Consumption Lowers Cholesterol Levels: A Meta-Analysis of Randomized Controlled Trials\nBackground and Aims Studies evaluating the effect of legume consumption on cholesterol have focused on soybeans, however non-soy legumes, such as a variety of beans, peas, and some seeds, are commonly consumed in Western countries. We conducted a meta-analysis of randomized controlled trials evaluating the effects of non-soy legume consumption on blood lipids. Methods and Results Studies were retrieved by searching MEDLINE (from January 1966 through July 2009), EMBASE (from January 1980 to July 2009), and the Cochrane Collaboration's Central Register of Controlled Clinical Trials using the following terms as medical subject headings and keywords: fabaceae not soybeans not isoflavones and diet or dietary fiber and cholesterol or hypercholesterolemia or triglycerides or cardiovascular diseases. Bibliographies of all retrieved articles were also searched. From 140 relevant reports, 10 randomized clinical trials were selected which compared a non-soy legume diet to control, had a minimum duration of 3 weeks, and reported blood lipid changes during intervention and control. Data on sample size, participant characteristics, study design, intervention methods, duration, and treatment results were independently abstracted by 2 investigators using a standardized protocol. Data from 10 trials representing 268 participants were examined using a random-effects model. Pooled mean net change in total cholesterol for those treated with a legume diet compared to control was −11.8 mg/dL (95% confidence interval [CI], −16.1 to −7.5); mean net change in low density lipoprotein cholesterol was −8.0 mg/dL (95% CI, −11.4 to −4.6). Conclusion These results indicate that a diet rich in legumes other than soy decreases total and LDL cholesterol.",
+  "modified": false,
+  "original_char_count": 1852,
+  "sanitized_char_count": 1852,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1739,
+      "boundary_end": 1852,
+      "context": "1966 through July 2009), EMBASE (from January 1980 to July 2009), and the Cochrane Collaboration's Central Register of Controlled Clinical Trials using the following terms as medical subject headings and keywords: fabaceae not soybeans not isoflavones and diet or dietary fiber and cholesterol or hypercholesterolemia or triglycerides or cardiovascular diseases. Bibliographies of all retrieved articles were also searched. From 140 relevant reports, 10 randomized clinical trials were selected which compared a non-soy legume diet to control, had a minimum duration of 3 weeks, and reported blood lipid changes during intervention and control. Data on sample size, participant characteristics, study design, intervention methods, duration, and treatment results were independently abstracted by 2 investigators using a standardized protocol. Data from 10 trials representing 268 participants were examined using a random-effects model. Pooled mean net change in total cholesterol for those treated with a legume diet compared to control was −11.8 mg/dL (95% confidence interval [CI], −16.1 to −7.5); mean net change in low density lipoprotein cholesterol was −8.0 mg/dL (95% CI, −11.4 to −4.6).",
+      "target": "Conclusion These results indicate that a diet rich in legumes other than soy decreases total and LDL cholesterol.",
+      "loss_target": 2.7978222370147705,
+      "loss_target_given_context": 1.4804282188415527,
+      "delta_loss": 1.3173940181732178,
+      "gain_ratio": 0.47086408877029123,
+      "score": -0.47086408877029123,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

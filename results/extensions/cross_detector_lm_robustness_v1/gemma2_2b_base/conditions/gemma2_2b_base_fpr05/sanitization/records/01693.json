@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3280",
+  "source_doc_id": "MED-3280",
+  "title": "Methionine dependency and cancer treatment.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Methionine dependency and cancer treatment.\nConventional chemotherapies have showed their limits, notably for patients with advanced cancer. New therapeutic strategies must be identified, and the metabolic abnormalities of cancer cells offer such opportunities. Many human cancer cell lines and primary tumors have absolute requirements for methionine, an essential amino acid. In contrast, normal cells are relatively resistant to exogenous methionine restriction. The biochemical mechanism for methionine dependency has been studied extensively, but the fundamental mechanism remains unclear. A number of investigators have attempted to exploit the methionine dependence of tumors for therapeutic effects in vivo. To reduce in vivo methionine in plasma and tumours, dietary and pharmacological treatments have been used. Methionine-free diet or methionine-deprived total parenteral nutrition causes regression of a variety of animal tumours. Alternatively, methionine depletion was achieved by the use of methioninase. This enzyme specifically degrades methionine and inhibits tumour growth in preclinical models. Because of potential toxicity and quality of life problems, prolonged methionine restriction with diet or with methioninase is not suitable for clinical use. Methionine restriction may find greater application in association with various chemotherapeutic agents. Several preclinical studies have demonstrated synergy between methionine restriction and various cytotoxic chemotherapy drugs. The experimental results accumulated during the last three decades suggest that methionine restriction can become an additional cancer therapeutic strategy, notably in association with chemotherapy.",
+  "sanitized_text": "Methionine dependency and cancer treatment.\nConventional chemotherapies have showed their limits, notably for patients with advanced cancer. New therapeutic strategies must be identified, and the metabolic abnormalities of cancer cells offer such opportunities. Many human cancer cell lines and primary tumors have absolute requirements for methionine, an essential amino acid. In contrast, normal cells are relatively resistant to exogenous methionine restriction. The biochemical mechanism for methionine dependency has been studied extensively, but the fundamental mechanism remains unclear. A number of investigators have attempted to exploit the methionine dependence of tumors for therapeutic effects in vivo. To reduce in vivo methionine in plasma and tumours, dietary and pharmacological treatments have been used. Methionine-free diet or methionine-deprived total parenteral nutrition causes regression of a variety of animal tumours. Alternatively, methionine depletion was achieved by the use of methioninase. This enzyme specifically degrades methionine and inhibits tumour growth in preclinical models. Because of potential toxicity and quality of life problems, prolonged methionine restriction with diet or with methioninase is not suitable for clinical use. Methionine restriction may find greater application in association with various chemotherapeutic agents. Several preclinical studies have demonstrated synergy between methionine restriction and various cytotoxic chemotherapy drugs. The experimental results accumulated during the last three decades suggest that methionine restriction can become an additional cancer therapeutic strategy, notably in association with chemotherapy.",
+  "modified": false,
+  "original_char_count": 1704,
+  "sanitized_char_count": 1704,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1506,
+      "boundary_end": 1704,
+      "context": "have absolute requirements for methionine, an essential amino acid. In contrast, normal cells are relatively resistant to exogenous methionine restriction. The biochemical mechanism for methionine dependency has been studied extensively, but the fundamental mechanism remains unclear. A number of investigators have attempted to exploit the methionine dependence of tumors for therapeutic effects in vivo. To reduce in vivo methionine in plasma and tumours, dietary and pharmacological treatments have been used. Methionine-free diet or methionine-deprived total parenteral nutrition causes regression of a variety of animal tumours. Alternatively, methionine depletion was achieved by the use of methioninase. This enzyme specifically degrades methionine and inhibits tumour growth in preclinical models. Because of potential toxicity and quality of life problems, prolonged methionine restriction with diet or with methioninase is not suitable for clinical use. Methionine restriction may find greater application in association with various chemotherapeutic agents. Several preclinical studies have demonstrated synergy between methionine restriction and various cytotoxic chemotherapy drugs.",
+      "target": "The experimental results accumulated during the last three decades suggest that methionine restriction can become an additional cancer therapeutic strategy, notably in association with chemotherapy.",
+      "loss_target": 9.548768043518066,
+      "loss_target_given_context": 5.263769149780273,
+      "delta_loss": 4.284998893737793,
+      "gain_ratio": 0.448748872546606,
+      "score": -0.448748872546606,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

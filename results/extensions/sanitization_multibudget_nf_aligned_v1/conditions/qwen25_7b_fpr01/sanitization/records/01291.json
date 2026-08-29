@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2608",
+  "source_doc_id": "MED-2608",
+  "title": "In vitro antimutagenicity of curcumin against environmental mutagens.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "In vitro antimutagenicity of curcumin against environmental mutagens.\nThe effects of curcumin, the yellow pigment of the spice, turmeric (Curcuma longa) on the mutagenicity of several environmental mutagens were investigated in the Salmonella/microsome test with or without Aroclor 1254-induced rat-liver homogenate (S-9 mix). With Salmonella typhimurium strain TA98 in the presence of S-9 mix, curcumin inhibited the mutagenicity of bidi and cigarette smoke condensates, tobacco and masheri extracts, benzo[a]pyrne and dimethyl benzo[a]anthracene in a dose-dependent manner. Curcumin did not influence the mutagenicity without S-9 mix of sodium azide, monoacetylhydrazine and streptozocin in strain TA100 nor of 4-nitrophenylenediamine in strain TA98. Our observations indicate that curcumin may alter the metabolic activation and detoxification of mutagens.",
+  "sanitized_text": "In vitro antimutagenicity of curcumin against environmental mutagens.\nThe effects of curcumin, the yellow pigment of the spice, turmeric (Curcuma longa) on the mutagenicity of several environmental mutagens were investigated in the Salmonella/microsome test with or without Aroclor 1254-induced rat-liver homogenate (S-9 mix). With Salmonella typhimurium strain TA98 in the presence of S-9 mix, curcumin inhibited the mutagenicity of bidi and cigarette smoke condensates, tobacco and masheri extracts, benzo[a]pyrne and dimethyl benzo[a]anthracene in a dose-dependent manner. Curcumin did not influence the mutagenicity without S-9 mix of sodium azide, monoacetylhydrazine and streptozocin in strain TA100 nor of 4-nitrophenylenediamine in strain TA98. Our observations indicate that curcumin may alter the metabolic activation and detoxification of mutagens.",
+  "modified": false,
+  "original_char_count": 859,
+  "sanitized_char_count": 859,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 753,
+      "boundary_end": 859,
+      "context": "In vitro antimutagenicity of curcumin against environmental mutagens. The effects of curcumin, the yellow pigment of the spice, turmeric (Curcuma longa) on the mutagenicity of several environmental mutagens were investigated in the Salmonella/microsome test with or without Aroclor 1254-induced rat-liver homogenate (S-9 mix). With Salmonella typhimurium strain TA98 in the presence of S-9 mix, curcumin inhibited the mutagenicity of bidi and cigarette smoke condensates, tobacco and masheri extracts, benzo[a]pyrne and dimethyl benzo[a]anthracene in a dose-dependent manner. Curcumin did not influence the mutagenicity without S-9 mix of sodium azide, monoacetylhydrazine and streptozocin in strain TA100 nor of 4-nitrophenylenediamine in strain TA98.",
+      "target": "Our observations indicate that curcumin may alter the metabolic activation and detoxification of mutagens.",
+      "loss_target": 3.1511964797973633,
+      "loss_target_given_context": 1.5355490446090698,
+      "delta_loss": 1.6156474351882935,
+      "gain_ratio": 0.5127092028524312,
+      "score": -0.5127092028524312,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

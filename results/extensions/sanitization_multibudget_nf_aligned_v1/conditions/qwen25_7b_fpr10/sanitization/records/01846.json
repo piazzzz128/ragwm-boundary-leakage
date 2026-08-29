@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3509",
+  "source_doc_id": "MED-3509",
+  "title": "Editorial: From the acute infection to the chronic disorder \"Don't worry it's just a viral gastroenteritis\".",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Editorial: From the acute infection to the chronic disorder \"Don't worry it's just a viral gastroenteritis\".\nPostinfectious functional gastrointestinal disorders (PI-FGID) have become a category in the general FGID classification. Bacterial PI-FGID has been well documented in several studies and meta-analysis. Increased risk does not appear to be confined to bacterial gastroenteritis (GE), also protozoan and helminth infections are sometimes followed by PI-FGID. In this issue of the journal, Zanini et al. provides evidence that Norovirus GE also leads to the development of PI-irritable bowel syndrome in a substantial proportion of patients.",
+  "sanitized_text": "Editorial: From the acute infection to the chronic disorder \"Don't worry it's just a viral gastroenteritis\".\nPostinfectious functional gastrointestinal disorders (PI-FGID) have become a category in the general FGID classification. Bacterial PI-FGID has been well documented in several studies and meta-analysis. Increased risk does not appear to be confined to bacterial gastroenteritis (GE), also protozoan and helminth infections are sometimes followed by PI-FGID. In this issue of the journal, Zanini et al. provides evidence that Norovirus GE also leads to the development of PI-irritable bowel syndrome in a substantial proportion of patients.",
+  "modified": false,
+  "original_char_count": 648,
+  "sanitized_char_count": 648,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 511,
+      "boundary_end": 648,
+      "context": "Editorial: From the acute infection to the chronic disorder \"Don't worry it's just a viral gastroenteritis\". Postinfectious functional gastrointestinal disorders (PI-FGID) have become a category in the general FGID classification. Bacterial PI-FGID has been well documented in several studies and meta-analysis. Increased risk does not appear to be confined to bacterial gastroenteritis (GE), also protozoan and helminth infections are sometimes followed by PI-FGID. In this issue of the journal, Zanini et al.",
+      "target": "provides evidence that Norovirus GE also leads to the development of PI-irritable bowel syndrome in a substantial proportion of patients.",
+      "loss_target": 3.5252699851989746,
+      "loss_target_given_context": 1.7225055694580078,
+      "delta_loss": 1.8027644157409668,
+      "gain_ratio": 0.5113833616460484,
+      "score": -0.5113833616460484,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

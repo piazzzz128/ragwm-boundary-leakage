@@ -1,0 +1,111 @@
+{
+  "internal_id": "MED-1353",
+  "source_doc_id": "MED-1353",
+  "title": "The drugs don’t work? antidepressants and the current and future pharmacological management of depression",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The drugs don’t work? antidepressants and the current and future pharmacological management of depression\nDepression is a potentially life-threatening disorder affecting millions of people across the globe. It is a huge burden to both the individual and society, costing over £9 billion in 2000 alone: the World Health Organisation (WHO) cited it as the third leading cause of global disability in 2004 (first in the developed world), and project it will be the leading cause by 2030. The serendipitous discovery of antidepressants has revolutionized both our understanding and management of depression: however, their efficacy in the treatment of depression has long been debated and recently been brought very much into the public limelight by a controversial publication by Kirsch, in which the role of placebo response in antidepressant efficacy trials is highlighted. Whilst antidepressants offer benefits in both the short and long term, important problems persist such as intolerability, delayed therapeutic onset, limited efficacy in milder depression and the existence of treatment-resistant depression. Pharmacological treatment is a method that involves addressing depression.",
+  "sanitized_text": "The drugs don’t work? antidepressants and the current and future pharmacological management of depression\nDepression is a potentially life-threatening disorder affecting millions of people across the globe. It is a huge burden to both the individual and society, costing over £9 billion in 2000 alone: the World Health Organisation (WHO) cited it as the third leading cause of global disability in 2004 (first in the developed world), and project it will be the leading cause by 2030.",
+  "modified": true,
+  "original_char_count": 1187,
+  "sanitized_char_count": 484,
+  "deleted_char_count": 703,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1113,
+      "boundary_end": 1187,
+      "context": "The drugs don’t work? antidepressants and the current and future pharmacological management of depression Depression is a potentially life-threatening disorder affecting millions of people across the globe. It is a huge burden to both the individual and society, costing over £9 billion in 2000 alone: the World Health Organisation (WHO) cited it as the third leading cause of global disability in 2004 (first in the developed world), and project it will be the leading cause by 2030. The serendipitous discovery of antidepressants has revolutionized both our understanding and management of depression: however, their efficacy in the treatment of depression has long been debated and recently been brought very much into the public limelight by a controversial publication by Kirsch, in which the role of placebo response in antidepressant efficacy trials is highlighted. Whilst antidepressants offer benefits in both the short and long term, important problems persist such as intolerability, delayed therapeutic onset, limited efficacy in milder depression and the existence of treatment-resistant depression.",
+      "target": "Pharmacological treatment is a method that involves addressing depression.",
+      "loss_target": 3.847007989883423,
+      "loss_target_given_context": 3.9076836109161377,
+      "delta_loss": -0.060675621032714844,
+      "gain_ratio": -0.015772158828958792,
+      "score": 0.015772158828958792,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 873,
+      "boundary_end": 1112,
+      "context": "The drugs don’t work? antidepressants and the current and future pharmacological management of depression Depression is a potentially life-threatening disorder affecting millions of people across the globe. It is a huge burden to both the individual and society, costing over £9 billion in 2000 alone: the World Health Organisation (WHO) cited it as the third leading cause of global disability in 2004 (first in the developed world), and project it will be the leading cause by 2030. The serendipitous discovery of antidepressants has revolutionized both our understanding and management of depression: however, their efficacy in the treatment of depression has long been debated and recently been brought very much into the public limelight by a controversial publication by Kirsch, in which the role of placebo response in antidepressant efficacy trials is highlighted.",
+      "target": "Whilst antidepressants offer benefits in both the short and long term, important problems persist such as intolerability, delayed therapeutic onset, limited efficacy in milder depression and the existence of treatment-resistant depression.",
+      "loss_target": 2.6792361736297607,
+      "loss_target_given_context": 2.2268505096435547,
+      "delta_loss": 0.45238566398620605,
+      "gain_ratio": 0.16884874444395304,
+      "score": -0.16884874444395304,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 485,
+      "boundary_end": 872,
+      "context": "The drugs don’t work? antidepressants and the current and future pharmacological management of depression Depression is a potentially life-threatening disorder affecting millions of people across the globe. It is a huge burden to both the individual and society, costing over £9 billion in 2000 alone: the World Health Organisation (WHO) cited it as the third leading cause of global disability in 2004 (first in the developed world), and project it will be the leading cause by 2030.",
+      "target": "The serendipitous discovery of antidepressants has revolutionized both our understanding and management of depression: however, their efficacy in the treatment of depression has long been debated and recently been brought very much into the public limelight by a controversial publication by Kirsch, in which the role of placebo response in antidepressant efficacy trials is highlighted.",
+      "loss_target": 2.372377634048462,
+      "loss_target_given_context": 2.0015554428100586,
+      "delta_loss": 0.3708221912384033,
+      "gain_ratio": 0.15630824785917213,
+      "score": -0.15630824785917213,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 4,
+      "boundary_start": 207,
+      "boundary_end": 484,
+      "context": "The drugs don’t work? antidepressants and the current and future pharmacological management of depression Depression is a potentially life-threatening disorder affecting millions of people across the globe.",
+      "target": "It is a huge burden to both the individual and society, costing over £9 billion in 2000 alone: the World Health Organisation (WHO) cited it as the third leading cause of global disability in 2004 (first in the developed world), and project it will be the leading cause by 2030.",
+      "loss_target": 1.9806631803512573,
+      "loss_target_given_context": 1.5739985704421997,
+      "delta_loss": 0.4066646099090576,
+      "gain_ratio": 0.20531739769956162,
+      "score": -0.20531739769956162,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1113,
+      "target": "Pharmacological treatment is a method that involves addressing depression.",
+      "score": 0.015772158828958792,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Pharmacological treatment is a method that involves addressing depression.",
+      "deleted_char_count": 74
+    },
+    {
+      "step": 2,
+      "boundary_start": 873,
+      "target": "Whilst antidepressants offer benefits in both the short and long term, important problems persist such as intolerability, delayed therapeutic onset, limited efficacy in milder depression and the existence of treatment-resistant depression.",
+      "score": -0.16884874444395304,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Whilst antidepressants offer benefits in both the short and long term, important problems persist such as intolerability, delayed therapeutic onset, limited efficacy in milder depression and the existence of treatment-resistant depression.",
+      "deleted_char_count": 239
+    },
+    {
+      "step": 3,
+      "boundary_start": 485,
+      "target": "The serendipitous discovery of antidepressants has revolutionized both our understanding and management of depression: however, their efficacy in the treatment of depression has long been debated and recently been brought very much into the public limelight by a controversial publication by Kirsch, in which the role of placebo response in antidepressant efficacy trials is highlighted.",
+      "score": -0.15630824785917213,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "The serendipitous discovery of antidepressants has revolutionized both our understanding and management of depression: however, their efficacy in the treatment of depression has long been debated and recently been brought very much into the public limelight by a controversial publication by Kirsch, in which the role of placebo response in antidepressant efficacy trials is highlighted.",
+      "deleted_char_count": 387
+    }
+  ],
+  "deletion_step_count": 3,
+  "stop_reason": "score_below_threshold"
+}

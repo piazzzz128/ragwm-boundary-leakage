@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2521",
+  "source_doc_id": "MED-2521",
+  "title": "Rapamycin (AY-22,989), a new antifungal antibiotic. I. Taxonomy of the producing streptomycete and isolation of the active principle.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Rapamycin (AY-22,989), a new antifungal antibiotic. I. Taxonomy of the producing streptomycete and isolation of the active principle.\nA streptomycete was isolated from an Easter Island soil sample and found to inhibit Candida albicans, Microsporum gypseum and Trichophyton granulosum. The antibiotic-producing microorganism was characterized and identified as Streptomyces hygroscopicus. The antifungal principle was extracted with organic solvent from the mycelium, isolated in crystalline form and named rapamycin. Rapamycin is mainly active against Candida albicans; minimum inhibitory concentration against ten strains ranged from 0.02 to 0.2 mug/ml. Its apparent activity against Microsporum gypseum and Trichophyton granulosum is lower because of its instability in culture media on prolonged incubation required by these fungi. No activity was observed against gram-positive and gram-negative bacteria. Acute toxicity in mice is low.",
+  "sanitized_text": "Rapamycin (AY-22,989), a new antifungal antibiotic. I. Taxonomy of the producing streptomycete and isolation of the active principle.\nA streptomycete was isolated from an Easter Island soil sample and found to inhibit Candida albicans, Microsporum gypseum and Trichophyton granulosum. The antibiotic-producing microorganism was characterized and identified as Streptomyces hygroscopicus. The antifungal principle was extracted with organic solvent from the mycelium, isolated in crystalline form and named rapamycin. Rapamycin is mainly active against Candida albicans; minimum inhibitory concentration against ten strains ranged from 0.02 to 0.2 mug/ml. Its apparent activity against Microsporum gypseum and Trichophyton granulosum is lower because of its instability in culture media on prolonged incubation required by these fungi. No activity was observed against gram-positive and gram-negative bacteria. Acute toxicity in mice is low.",
+  "modified": false,
+  "original_char_count": 940,
+  "sanitized_char_count": 940,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 910,
+      "boundary_end": 940,
+      "context": "Rapamycin (AY-22,989), a new antifungal antibiotic. I. Taxonomy of the producing streptomycete and isolation of the active principle. A streptomycete was isolated from an Easter Island soil sample and found to inhibit Candida albicans, Microsporum gypseum and Trichophyton granulosum. The antibiotic-producing microorganism was characterized and identified as Streptomyces hygroscopicus. The antifungal principle was extracted with organic solvent from the mycelium, isolated in crystalline form and named rapamycin. Rapamycin is mainly active against Candida albicans; minimum inhibitory concentration against ten strains ranged from 0.02 to 0.2 mug/ml. Its apparent activity against Microsporum gypseum and Trichophyton granulosum is lower because of its instability in culture media on prolonged incubation required by these fungi. No activity was observed against gram-positive and gram-negative bacteria.",
+      "target": "Acute toxicity in mice is low.",
+      "loss_target": 3.609241485595703,
+      "loss_target_given_context": 1.7065831422805786,
+      "delta_loss": 1.9026583433151245,
+      "gain_ratio": 0.5271629373951663,
+      "score": -0.5271629373951663,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

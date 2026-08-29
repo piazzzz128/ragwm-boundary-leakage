@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1569",
+  "source_doc_id": "MED-1569",
+  "title": "Polymyositis after ciguatera toxin exposure.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Polymyositis after ciguatera toxin exposure.\nBiopsy-proved polymyositis subsequently developed in two patients who were severely poisoned by ciguatera fish toxin. Ciguatera toxin may have several mechanisms of action and may represent more than one toxin. The patients' clinical courses and the unlikelihood of coincidence of contracting both diseases suggested to us a causal relationship. Although we cannot prove this relationship, we suggest a mechanism by which the toxin predisposed the muscle to inflammation.",
+  "sanitized_text": "Polymyositis after ciguatera toxin exposure.\nBiopsy-proved polymyositis subsequently developed in two patients who were severely poisoned by ciguatera fish toxin. Ciguatera toxin may have several mechanisms of action and may represent more than one toxin. The patients' clinical courses and the unlikelihood of coincidence of contracting both diseases suggested to us a causal relationship. Although we cannot prove this relationship, we suggest a mechanism by which the toxin predisposed the muscle to inflammation.",
+  "modified": false,
+  "original_char_count": 516,
+  "sanitized_char_count": 516,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 391,
+      "boundary_end": 516,
+      "context": "Polymyositis after ciguatera toxin exposure. Biopsy-proved polymyositis subsequently developed in two patients who were severely poisoned by ciguatera fish toxin. Ciguatera toxin may have several mechanisms of action and may represent more than one toxin. The patients' clinical courses and the unlikelihood of coincidence of contracting both diseases suggested to us a causal relationship.",
+      "target": "Although we cannot prove this relationship, we suggest a mechanism by which the toxin predisposed the muscle to inflammation.",
+      "loss_target": 3.48587703704834,
+      "loss_target_given_context": 2.2640798091888428,
+      "delta_loss": 1.221797227859497,
+      "gain_ratio": 0.35049923301197444,
+      "score": -0.35049923301197444,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

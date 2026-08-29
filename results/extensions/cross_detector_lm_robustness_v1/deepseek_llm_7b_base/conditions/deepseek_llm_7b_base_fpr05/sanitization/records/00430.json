@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1524",
+  "source_doc_id": "MED-1524",
+  "title": "Can Ambient Scent Enhance the Nightlife Experience?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Can Ambient Scent Enhance the Nightlife Experience?\nEver since smoking was prohibited in restaurants, bars, and clubs, undesirable smells that were previously masked by cigarette smoke became noticeable. This opens up opportunities to improve the dance club environment by introducing pleasant ambient scents that mask the unwanted odors and to allow competing clubs to differentiate themselves. A field study was conducted at three dance clubs using a 3 × 3 Latin square design with pre- and post-measurements of no-scent control conditions. The three scents tested were orange, seawater, and peppermint. These scents were shown to enhance dancing activity and to improve the evaluation of the evening, the evaluation of the music, and the mood of the visitors over no added scent. However, no significant differences were found between the three scents.",
+  "sanitized_text": "Can Ambient Scent Enhance the Nightlife Experience?\nEver since smoking was prohibited in restaurants, bars, and clubs, undesirable smells that were previously masked by cigarette smoke became noticeable. This opens up opportunities to improve the dance club environment by introducing pleasant ambient scents that mask the unwanted odors and to allow competing clubs to differentiate themselves. A field study was conducted at three dance clubs using a 3 × 3 Latin square design with pre- and post-measurements of no-scent control conditions. The three scents tested were orange, seawater, and peppermint. These scents were shown to enhance dancing activity and to improve the evaluation of the evening, the evaluation of the music, and the mood of the visitors over no added scent. However, no significant differences were found between the three scents.",
+  "modified": false,
+  "original_char_count": 855,
+  "sanitized_char_count": 855,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 783,
+      "boundary_end": 855,
+      "context": "Can Ambient Scent Enhance the Nightlife Experience? Ever since smoking was prohibited in restaurants, bars, and clubs, undesirable smells that were previously masked by cigarette smoke became noticeable. This opens up opportunities to improve the dance club environment by introducing pleasant ambient scents that mask the unwanted odors and to allow competing clubs to differentiate themselves. A field study was conducted at three dance clubs using a 3 × 3 Latin square design with pre- and post-measurements of no-scent control conditions. The three scents tested were orange, seawater, and peppermint. These scents were shown to enhance dancing activity and to improve the evaluation of the evening, the evaluation of the music, and the mood of the visitors over no added scent.",
+      "target": "However, no significant differences were found between the three scents.",
+      "loss_target": 3.128478765487671,
+      "loss_target_given_context": 0.935024082660675,
+      "delta_loss": 2.193454682826996,
+      "gain_ratio": 0.701125002676845,
+      "score": -0.701125002676845,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

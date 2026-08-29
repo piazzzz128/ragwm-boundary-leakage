@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1313",
+  "source_doc_id": "MED-1313",
+  "title": "Effect of treatment with a colloidal oatmeal lotion on the acneform eruption induced by epidermal growth factor receptor and multiple tyrosine-kina...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of treatment with a colloidal oatmeal lotion on the acneform eruption induced by epidermal growth factor receptor and multiple tyrosine-kina...\nCurrent treatment modalities for epidermal growth factor (EGFR)-positive cancers have recently included the use of antibodies and small-molecule tyrosine-kinase inhibitors (TKI). A significant limiting step in the use of these agents is dermatological toxicity, frequently in the form of an acneiform eruption. Present management modalities for this toxicity are largely ineffective. Colloidal oatmeal lotion demonstrates multiple anti-inflammatory properties with known effects on arachidonic acid, cytosolic phospholipase A2 and tumour necrosis factor-alpha pathways, along with an excellent side-effect profile. Treatment with colloidal oatmeal was applied to 11 patients with a rash induced by cetuximab, erlotinib, panitumumab and sorafenib. Of the 10 assessable patients, 6 had complete response and 4 partial response, giving a response rate of 100% with no associated toxicities. Treatment with colloidal oatmeal lotion is efficient in controlling the rash associated with EGFR and multiple TKI, and allows continuation of the antineoplastic treatment.",
+  "sanitized_text": "Effect of treatment with a colloidal oatmeal lotion on the acneform eruption induced by epidermal growth factor receptor and multiple tyrosine-kina...\nCurrent treatment modalities for epidermal growth factor (EGFR)-positive cancers have recently included the use of antibodies and small-molecule tyrosine-kinase inhibitors (TKI). A significant limiting step in the use of these agents is dermatological toxicity, frequently in the form of an acneiform eruption. Present management modalities for this toxicity are largely ineffective. Colloidal oatmeal lotion demonstrates multiple anti-inflammatory properties with known effects on arachidonic acid, cytosolic phospholipase A2 and tumour necrosis factor-alpha pathways, along with an excellent side-effect profile. Treatment with colloidal oatmeal was applied to 11 patients with a rash induced by cetuximab, erlotinib, panitumumab and sorafenib. Of the 10 assessable patients, 6 had complete response and 4 partial response, giving a response rate of 100% with no associated toxicities. Treatment with colloidal oatmeal lotion is efficient in controlling the rash associated with EGFR and multiple TKI, and allows continuation of the antineoplastic treatment.",
+  "modified": false,
+  "original_char_count": 1211,
+  "sanitized_char_count": 1211,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1039,
+      "boundary_end": 1211,
+      "context": "Effect of treatment with a colloidal oatmeal lotion on the acneform eruption induced by epidermal growth factor receptor and multiple tyrosine-kina... Current treatment modalities for epidermal growth factor (EGFR)-positive cancers have recently included the use of antibodies and small-molecule tyrosine-kinase inhibitors (TKI). A significant limiting step in the use of these agents is dermatological toxicity, frequently in the form of an acneiform eruption. Present management modalities for this toxicity are largely ineffective. Colloidal oatmeal lotion demonstrates multiple anti-inflammatory properties with known effects on arachidonic acid, cytosolic phospholipase A2 and tumour necrosis factor-alpha pathways, along with an excellent side-effect profile. Treatment with colloidal oatmeal was applied to 11 patients with a rash induced by cetuximab, erlotinib, panitumumab and sorafenib. Of the 10 assessable patients, 6 had complete response and 4 partial response, giving a response rate of 100% with no associated toxicities.",
+      "target": "Treatment with colloidal oatmeal lotion is efficient in controlling the rash associated with EGFR and multiple TKI, and allows continuation of the antineoplastic treatment.",
+      "loss_target": 9.361197471618652,
+      "loss_target_given_context": 4.070710182189941,
+      "delta_loss": 5.290487289428711,
+      "gain_ratio": 0.5651506984516083,
+      "score": -0.5651506984516083,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

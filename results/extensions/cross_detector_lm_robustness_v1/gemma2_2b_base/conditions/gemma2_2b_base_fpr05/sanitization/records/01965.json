@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3651",
+  "source_doc_id": "MED-3651",
+  "title": "The effectiveness of hygiene procedures for prevention of cross-contamination from chicken carcases in the domestic kitchen.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The effectiveness of hygiene procedures for prevention of cross-contamination from chicken carcases in the domestic kitchen.\nThirteen sites in each of 60 domestic kitchens were examined for Salmonella and Campylobacter spp. following the preparation of a chicken for cooking and the application of different hygiene regimes. During food preparation bacteria became widely disseminated to hand and food contact surfaces. Where cleaning was carried out with detergent and hot water using a prescribed routine there was no significant decrease in the frequency of contaminated surfaces. Where hypochlorite was used in addition, a significant reduction in the number of contaminated sites was observed. The study suggests that there is a need to better understand and promote effective hygiene procedures for the domestic kitchen. Improvements in hand hygiene compliance rates can be attributed to the intervention group.",
+  "sanitized_text": "The effectiveness of hygiene procedures for prevention of cross-contamination from chicken carcases in the domestic kitchen.\nThirteen sites in each of 60 domestic kitchens were examined for Salmonella and Campylobacter spp. following the preparation of a chicken for cooking and the application of different hygiene regimes. During food preparation bacteria became widely disseminated to hand and food contact surfaces. Where cleaning was carried out with detergent and hot water using a prescribed routine there was no significant decrease in the frequency of contaminated surfaces. Where hypochlorite was used in addition, a significant reduction in the number of contaminated sites was observed. The study suggests that there is a need to better understand and promote effective hygiene procedures for the domestic kitchen. Improvements in hand hygiene compliance rates can be attributed to the intervention group.",
+  "modified": false,
+  "original_char_count": 917,
+  "sanitized_char_count": 917,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 827,
+      "boundary_end": 917,
+      "context": "The effectiveness of hygiene procedures for prevention of cross-contamination from chicken carcases in the domestic kitchen. Thirteen sites in each of 60 domestic kitchens were examined for Salmonella and Campylobacter spp. following the preparation of a chicken for cooking and the application of different hygiene regimes. During food preparation bacteria became widely disseminated to hand and food contact surfaces. Where cleaning was carried out with detergent and hot water using a prescribed routine there was no significant decrease in the frequency of contaminated surfaces. Where hypochlorite was used in addition, a significant reduction in the number of contaminated sites was observed. The study suggests that there is a need to better understand and promote effective hygiene procedures for the domestic kitchen.",
+      "target": "Improvements in hand hygiene compliance rates can be attributed to the intervention group.",
+      "loss_target": 8.77743148803711,
+      "loss_target_given_context": 5.674498558044434,
+      "delta_loss": 3.102932929992676,
+      "gain_ratio": 0.3535126345584934,
+      "score": -0.3535126345584934,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

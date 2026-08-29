@@ -1,0 +1,305 @@
+{
+  "registry_entry_role": "qwen2_5_14b_aligned_extension_v1",
+  "status": "localization_complete_e2e_pending",
+  "model": "Qwen2.5-14B",
+  "protocol_layer": "canonical_aligned_extension",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "verifier_reference_if_e2e": {
+    "e0": 25,
+    "e1": 4
+  },
+  "must_not_merge_with_sealed_26_5": true,
+  "artifacts": {
+    "preflight": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/audit/preflight.json",
+      "sha256": "af06ea8ad861bd063a8f260adc2ebe9335ad06b8baf299d95262da3c64302ea5",
+      "content": {
+        "experiment_role": "cross_detector_lm_robustness_aligned_v1",
+        "extension_id": "qwen2_5_14b_base_v1_20260820",
+        "python": "3.12.3",
+        "model_name": "Qwen2.5-14B",
+        "model_dir": "/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-14B",
+        "model_freeze": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/audit/qwen14b_model_freeze.json",
+        "model_freeze_sha256": "40322d9869229b562b686c534a0fbc0768186378c1c8822c98e2737225370691",
+        "alignment_policy": "exclude_first_target_token_in_both_conditions",
+        "no_bos": true,
+        "no_separator": true,
+        "max_context_tokens": 1024,
+        "max_target_tokens": 128,
+        "score_formula": "score=-(loss_target-loss_target_given_context)/loss_target",
+        "score_direction": "larger score is more suspicious",
+        "aligned_extension_verifier_reference": {
+          "e0_wsn": 25,
+          "e1_wsn": 4
+        },
+        "registry_provenance_reference": "current_provider_verifier_audit_v1_20260818",
+        "inputs": {
+          "nfcorpus_boundaries": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/aligned_sensitivity/nfcorpus_aligned_scores.json",
+          "trec_boundaries": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3.json",
+          "attack_input": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/conditions/e2_gainratio_delete/corpus/watermarked_attack_input.jsonl",
+          "aligned_e0": "/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/audits/current_provider_verifier_audit_v1_20260818/conditions/e0_current_provider/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json",
+          "aligned_e1": "/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/audits/current_provider_verifier_audit_v1_20260818/conditions/e1_current_provider/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json"
+        },
+        "input_hashes": {
+          "nfcorpus_boundaries": "e1c7dbc745a83b473883ccf9c0d6a3c43c1bb7a14fa9f0dda1551b08f92dd218",
+          "trec_boundaries": "d526aa72f48662521b67339f58849c1ea6c26de4042eb8b3dd842403f8ed293f",
+          "attack_input": "52c72f64043e4a668b5084b75ac0cfa92f63b77c3493875cf788ee5021da8e38",
+          "aligned_e0": "583eb66725901070f709c6938e22ca3e350d9a39a580e4237a72361f9088d1f5",
+          "aligned_e1": "3e0253bdac9cc93878a64d641ddb6ed969144e61e38795f4423a8d0c8079c251"
+        },
+        "nfcorpus_rows": 446,
+        "nfcorpus_labels": {
+          "clean": 223,
+          "injected": 223
+        },
+        "trec_rows": 458,
+        "trec_labels": {
+          "clean": 229,
+          "injected": 229
+        },
+        "attack_input_rows": 3633,
+        "aligned_e0_counts": {
+          "rows": 30,
+          "yes": 25,
+          "no": 5,
+          "unknown": 0
+        },
+        "aligned_e1_counts": {
+          "rows": 30,
+          "yes": 4,
+          "no": 26,
+          "unknown": 0
+        },
+        "checks": {
+          "model_freeze_pass": true,
+          "model_is_qwen2_5_14b_base": true,
+          "input_hashes_match_registry": true,
+          "nfcorpus_is_446_balanced": true,
+          "trec_is_458_balanced": true,
+          "attack_input_is_3633": true,
+          "aligned_e0_is_25_of_30": true,
+          "aligned_e1_is_4_of_30": true
+        },
+        "pass": true,
+        "claim_guard": "This aligned 14B extension must not overwrite or be pooled with the sealed strict-v1 E0/E1/E2=26/5/17 result."
+      }
+    },
+    "boundary_metrics": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/metrics/qwen14b_boundary_metrics.json",
+      "sha256": "c93282665c867a862b6f73bb63cc232145a9b7f2f8524c445963be49807f8a61",
+      "content": {
+        "experiment_role": "cross_detector_lm_robustness_aligned_v1",
+        "model": "Qwen2.5-14B",
+        "alignment_policy": "exclude_first_target_token_in_both_conditions",
+        "no_bos": true,
+        "no_separator": true,
+        "datasets": {
+          "nfcorpus": {
+            "dataset": "nfcorpus",
+            "score_file": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/scores/qwen14b_nfcorpus_aligned_scores.json",
+            "score_file_sha256": "90bb39f9afd874c2f2b3d819cde1b6f56a15919a392946574c60ef9278b90821",
+            "record_count": 446,
+            "label_counts": {
+              "clean": 223,
+              "injected": 223
+            },
+            "score_direction": "larger score is more suspicious",
+            "roc_auc": 0.9566047980051882,
+            "pr_auc": 0.9561889136332712,
+            "score_mean_clean": -0.4055007495508675,
+            "score_mean_injected": -0.09369942749525607,
+            "source_document_cluster_bootstrap": {
+              "roc_auc_ci": [
+                0.9385236949104271,
+                0.9722949808550112
+              ],
+              "pr_auc_ci": [
+                0.9332361329569709,
+                0.9737901763864933
+              ],
+              "requested_replicates": 5000,
+              "valid_replicates": 5000,
+              "skipped_replicates": 0,
+              "cluster_count": 359
+            }
+          },
+          "trec-covid": {
+            "dataset": "trec-covid",
+            "score_file": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/scores/qwen14b_trec_aligned_scores.json",
+            "score_file_sha256": "f25ee58f287f585490fe258306e8c73000d327207d3db24a5bf65b4341c18691",
+            "record_count": 458,
+            "label_counts": {
+              "clean": 229,
+              "injected": 229
+            },
+            "score_direction": "larger score is more suspicious",
+            "roc_auc": 0.9288724471310615,
+            "pr_auc": 0.9319670971197178,
+            "score_mean_clean": -0.35441845633580193,
+            "score_mean_injected": -0.08999077354426666,
+            "source_document_cluster_bootstrap": {
+              "roc_auc_ci": [
+                0.9048028906002085,
+                0.9501614206057134
+              ],
+              "pr_auc_ci": [
+                0.9045276383804773,
+                0.9541671320615667
+              ],
+              "requested_replicates": 5000,
+              "valid_replicates": 5000,
+              "skipped_replicates": 0,
+              "cluster_count": 410
+            }
+          }
+        },
+        "bootstrap_seed": 20260609,
+        "warning": "Per-model cluster-bootstrap intervals do not by themselves prove a significant difference between detector LMs."
+      }
+    },
+    "fpr05_threshold": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/thresholds/qwen14b_fpr05.json",
+      "sha256": "bcb8ee34466a25cd7b124e36a71a6d471d8154f45ff5c9956c856a348b8f0c74",
+      "content": {
+        "experiment_role": "aligned_end_to_end_sensitivity",
+        "extension_role": "cross_detector_lm_robustness_aligned_v1",
+        "model": "Qwen2.5-14B",
+        "budget_id": "model_specific_fpr05",
+        "budget_definition": "model-specific clean-calibration target FPR",
+        "score_direction": "larger score is more suspicious",
+        "score_key": "score_aligned",
+        "alignment_policy": "exclude_first_target_token_in_both_conditions",
+        "no_bos": true,
+        "no_separator": true,
+        "target_clean_fpr": 0.05,
+        "quantile": 0.95,
+        "threshold": -0.16983939416116475,
+        "seed": 20260714,
+        "group_split": true,
+        "calibration_fraction": 0.7,
+        "calibration_group_count": 164,
+        "holdout_group_count": 53,
+        "calibration_record_count": 169,
+        "holdout_record_count": 54,
+        "calibration_empirical_fpr": 0.05325443786982249,
+        "holdout_empirical_fpr": 0.037037037037037035,
+        "diagnostic_injected_tpr_at_frozen_threshold": 0.7533632286995515,
+        "scores_path": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/scores/qwen14b_nfcorpus_aligned_scores.json",
+        "scores_sha256": "90bb39f9afd874c2f2b3d819cde1b6f56a15919a392946574c60ef9278b90821",
+        "metrics_path": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/metrics/qwen14b_boundary_metrics.json",
+        "metrics_sha256": "c93282665c867a862b6f73bb63cc232145a9b7f2f8524c445963be49807f8a61",
+        "warning": "Threshold frozen before full-corpus deletion and verification. Do not retune using WSN or retrieval utility. This model-specific threshold is not the Qwen2.5-7B 5% threshold."
+      }
+    },
+    "paired_qwen14_minus_qwen7": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/metrics/qwen14b_vs_qwen7b_paired.json",
+      "sha256": "84c5b402485c8feaa7071ad5cf71b2c93daf5e7d0d9f086bf39cde0026c7dac7",
+      "content": {
+        "experiment_role": "paired_qwen2_5_scale_sensitivity_aligned_v1",
+        "models": [
+          "Qwen2.5-7B",
+          "Qwen2.5-14B"
+        ],
+        "interpretation_guard": "This is a two-point same-family scale sensitivity comparison, not a scaling law or a universal model-size effect.",
+        "alignment_policy": "exclude_first_target_token_in_both_conditions",
+        "no_bos": true,
+        "no_separator": true,
+        "score_direction": "larger score is more suspicious",
+        "bootstrap": {
+          "resampling_unit": "source document cluster",
+          "paired": true,
+          "requested_replicates": 5000,
+          "seed": 20260609
+        },
+        "inputs": {
+          "paths": {
+            "qwen7_nf": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/aligned_sensitivity/nfcorpus_aligned_scores.json",
+            "qwen14_nf": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/scores/qwen14b_nfcorpus_aligned_scores.json",
+            "qwen7_trec": "/root/autodl-tmp/ragwm_storage/repo/ragwm_src/tools/RAGWM_qwen2_5_14b_cross_detector_v1_20260820/inputs/trec_aligned_qwen_v1_scores.json",
+            "qwen14_trec": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/scores/qwen14b_trec_aligned_scores.json",
+            "qwen14_metrics": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/metrics/qwen14b_boundary_metrics.json"
+          },
+          "sha256": {
+            "qwen7_nf": "e1c7dbc745a83b473883ccf9c0d6a3c43c1bb7a14fa9f0dda1551b08f92dd218",
+            "qwen14_nf": "90bb39f9afd874c2f2b3d819cde1b6f56a15919a392946574c60ef9278b90821",
+            "qwen7_trec": "cc6a22420492cf63ddcaa1be90d2528db907912f905ce2f4425e26a894aed4e2",
+            "qwen14_trec": "f25ee58f287f585490fe258306e8c73000d327207d3db24a5bf65b4341c18691",
+            "qwen14_metrics": "c93282665c867a862b6f73bb63cc232145a9b7f2f8524c445963be49807f8a61"
+          }
+        },
+        "datasets": {
+          "nfcorpus": {
+            "difference_direction": "Qwen2.5-14B minus Qwen2.5-7B",
+            "qwen2_5_7b": {
+              "roc_auc": 0.9471937903436627,
+              "pr_auc": 0.9490177842066673
+            },
+            "qwen2_5_14b": {
+              "roc_auc": 0.9566047980051882,
+              "pr_auc": 0.9561889136332712
+            },
+            "paired_difference": {
+              "roc_auc": 0.009411007661525472,
+              "roc_auc_ci": [
+                -0.00121590408048744,
+                0.02085993838360877
+              ],
+              "roc_auc_ci_excludes_zero": false,
+              "pr_auc": 0.007171129426603917,
+              "pr_auc_ci": [
+                -0.003840922958175957,
+                0.018713375544172052
+              ],
+              "pr_auc_ci_excludes_zero": false
+            },
+            "requested_replicates": 5000,
+            "valid_replicates": 5000,
+            "skipped_replicates": 0,
+            "source_document_cluster_count": 359
+          },
+          "trec-covid": {
+            "difference_direction": "Qwen2.5-14B minus Qwen2.5-7B",
+            "qwen2_5_7b": {
+              "roc_auc": 0.9245056349039874,
+              "pr_auc": 0.9279419851637773
+            },
+            "qwen2_5_14b": {
+              "roc_auc": 0.9288724471310615,
+              "pr_auc": 0.9319670971197178
+            },
+            "paired_difference": {
+              "roc_auc": 0.004366812227074135,
+              "roc_auc_ci": [
+                -0.00809716599190291,
+                0.017533733151861276
+              ],
+              "roc_auc_ci_excludes_zero": false,
+              "pr_auc": 0.0040251119559404636,
+              "pr_auc_ci": [
+                -0.008674989158590751,
+                0.01751589837563661
+              ],
+              "pr_auc_ci_excludes_zero": false
+            },
+            "requested_replicates": 5000,
+            "valid_replicates": 5000,
+            "skipped_replicates": 0,
+            "source_document_cluster_count": 410
+          }
+        }
+      }
+    },
+    "endpoint_comparison": null,
+    "sanitization_summary": null
+  },
+  "claim_guards": [
+    "do_not_claim_scaling_law_from_two_same_family_points",
+    "do_not_claim_universal_cross_model_robustness",
+    "do_not_rank_endpoint_wsn_when_realized_edit_budgets_differ",
+    "do_not_claim_ownership_bypass_if_wsn_remains_above_2",
+    "do_not_replace_negative_results_by_posthoc_score_negation"
+  ]
+}
+QWEN2.5-14B RESULT COLLECTION PASS: localization_complete_e2e_pending

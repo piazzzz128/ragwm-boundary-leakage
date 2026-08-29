@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4327",
+  "source_doc_id": "MED-4327",
+  "title": "Phosphate restriction in diet therapy.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Phosphate restriction in diet therapy.\nHyperphosphatemia and hyperparathyroidism, frequently observed in patients with endstage renal disease, are associated with renal osteodystrophy, organ calcification, cardiovascular disease and sudden death. Restriction of dietary protein and phosphorus is beneficial in slowing the progression of renal failure. Dietary phosphorus restriction must be prescribed at all stages of renal failure in adults. It may be achieved by decreasing protein intake and avoiding foods rich in phosphorus. An average of 60-80% of the phosphorus intake is absorbed in the gut in dialysis patients. If phosphate binders are employed, the phosphorus absorbed from the diet may be reduced to 40%. Conventional hemodialysis with a high-flux, high-efficiency dialyzer removes approximately 30 mmol (900 mg) phosphorus during each dialysis performed three times weekly. Therefore, 750 mg of phosphorus intake should be the critical value above which a positive balance of phosphorus may occur. This value corresponds to a protein diet of 45-50 g/day or 0.8 g/kg body weight/day for a 60 kg patient. Target levels should become 9.2-9.6 mg/dl for calcium, 2.5-5.5 mg/dl for phosphorus, <55 mg2/dl2 for the calcium-phosphorus product, and 100-200 pg/ml for intact parathyroid hormone.",
+  "sanitized_text": "Phosphate restriction in diet therapy.\nHyperphosphatemia and hyperparathyroidism, frequently observed in patients with endstage renal disease, are associated with renal osteodystrophy, organ calcification, cardiovascular disease and sudden death. Restriction of dietary protein and phosphorus is beneficial in slowing the progression of renal failure. Dietary phosphorus restriction must be prescribed at all stages of renal failure in adults. It may be achieved by decreasing protein intake and avoiding foods rich in phosphorus. An average of 60-80% of the phosphorus intake is absorbed in the gut in dialysis patients. If phosphate binders are employed, the phosphorus absorbed from the diet may be reduced to 40%. Conventional hemodialysis with a high-flux, high-efficiency dialyzer removes approximately 30 mmol (900 mg) phosphorus during each dialysis performed three times weekly. Therefore, 750 mg of phosphorus intake should be the critical value above which a positive balance of phosphorus may occur. This value corresponds to a protein diet of 45-50 g/day or 0.8 g/kg body weight/day for a 60 kg patient. Target levels should become 9.2-9.6 mg/dl for calcium, 2.5-5.5 mg/dl for phosphorus, <55 mg2/dl2 for the calcium-phosphorus product, and 100-200 pg/ml for intact parathyroid hormone.",
+  "modified": false,
+  "original_char_count": 1299,
+  "sanitized_char_count": 1299,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1117,
+      "boundary_end": 1299,
+      "context": "Phosphate restriction in diet therapy. Hyperphosphatemia and hyperparathyroidism, frequently observed in patients with endstage renal disease, are associated with renal osteodystrophy, organ calcification, cardiovascular disease and sudden death. Restriction of dietary protein and phosphorus is beneficial in slowing the progression of renal failure. Dietary phosphorus restriction must be prescribed at all stages of renal failure in adults. It may be achieved by decreasing protein intake and avoiding foods rich in phosphorus. An average of 60-80% of the phosphorus intake is absorbed in the gut in dialysis patients. If phosphate binders are employed, the phosphorus absorbed from the diet may be reduced to 40%. Conventional hemodialysis with a high-flux, high-efficiency dialyzer removes approximately 30 mmol (900 mg) phosphorus during each dialysis performed three times weekly. Therefore, 750 mg of phosphorus intake should be the critical value above which a positive balance of phosphorus may occur. This value corresponds to a protein diet of 45-50 g/day or 0.8 g/kg body weight/day for a 60 kg patient.",
+      "target": "Target levels should become 9.2-9.6 mg/dl for calcium, 2.5-5.5 mg/dl for phosphorus, <55 mg2/dl2 for the calcium-phosphorus product, and 100-200 pg/ml for intact parathyroid hormone.",
+      "loss_target": 1.9505300521850586,
+      "loss_target_given_context": 1.5288143157958984,
+      "delta_loss": 0.42171573638916016,
+      "gain_ratio": 0.21620571081011442,
+      "score": -0.21620571081011442,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

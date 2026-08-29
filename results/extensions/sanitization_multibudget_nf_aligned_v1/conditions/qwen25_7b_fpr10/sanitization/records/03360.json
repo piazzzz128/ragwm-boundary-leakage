@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5307",
+  "source_doc_id": "MED-5307",
+  "title": "Anatomical Locations of Human Brown Adipose Tissue",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Anatomical Locations of Human Brown Adipose Tissue\nWe will review information about and present hypotheses as to the anatomy of brown adipose tissue (BAT). Why is it located where it is in humans? Its anatomical distribution is likely to confer survival value by protecting critical organs from hypothermia by adaptive thermogenesis. Ultimately, the location and function will be important when considering therapeutic strategies for preventing and treating obesity and type 2 diabetes, in which case successful interventions will need to have a significant effect on BAT function in subjects living in a thermoneutral environment. In view of the diverse locations and potential differences in responsiveness between BAT depots, it is likely that BAT will be shown to have much more subtle and thus previously overlooked functions and regulatory control mechanisms.",
+  "sanitized_text": "Anatomical Locations of Human Brown Adipose Tissue\nWe will review information about and present hypotheses as to the anatomy of brown adipose tissue (BAT). Why is it located where it is in humans? Its anatomical distribution is likely to confer survival value by protecting critical organs from hypothermia by adaptive thermogenesis. Ultimately, the location and function will be important when considering therapeutic strategies for preventing and treating obesity and type 2 diabetes, in which case successful interventions will need to have a significant effect on BAT function in subjects living in a thermoneutral environment. In view of the diverse locations and potential differences in responsiveness between BAT depots, it is likely that BAT will be shown to have much more subtle and thus previously overlooked functions and regulatory control mechanisms.",
+  "modified": false,
+  "original_char_count": 865,
+  "sanitized_char_count": 865,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 632,
+      "boundary_end": 865,
+      "context": "Anatomical Locations of Human Brown Adipose Tissue We will review information about and present hypotheses as to the anatomy of brown adipose tissue (BAT). Why is it located where it is in humans? Its anatomical distribution is likely to confer survival value by protecting critical organs from hypothermia by adaptive thermogenesis. Ultimately, the location and function will be important when considering therapeutic strategies for preventing and treating obesity and type 2 diabetes, in which case successful interventions will need to have a significant effect on BAT function in subjects living in a thermoneutral environment.",
+      "target": "In view of the diverse locations and potential differences in responsiveness between BAT depots, it is likely that BAT will be shown to have much more subtle and thus previously overlooked functions and regulatory control mechanisms.",
+      "loss_target": 4.332683086395264,
+      "loss_target_given_context": 2.8757638931274414,
+      "delta_loss": 1.4569191932678223,
+      "gain_ratio": 0.3362625800725158,
+      "score": -0.3362625800725158,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

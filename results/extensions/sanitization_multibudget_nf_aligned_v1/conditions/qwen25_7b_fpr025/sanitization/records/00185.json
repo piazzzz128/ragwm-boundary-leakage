@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1238",
+  "source_doc_id": "MED-1238",
+  "title": "Relationship of dietary fat to glucose metabolism.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Relationship of dietary fat to glucose metabolism.\nThe relationship between dietary fat and glucose metabolism has been recognized for at least 60 years. In experimental animals, high fat diets result in impaired glucose tolerance. This impairment is associated with decreased basal and insulin-stimulated glucose metabolism. Impaired insulin binding and/or glucose transporters has been related to changes in the fatty acid composition of the membrane induced by dietary fat modification. In humans, high-fat diets, independent of fatty acid profile, have been reported to result in decreased insulin sensitivity. Saturated fat, relative to monounsaturated and polyunsaturated fat, appears to be more deleterious with respect to fat-induced insulin insensitivity. Some of the adverse effects induced by fat feeding can be ameliorated with omega-3 fatty acid. Epidemiological data in humans suggest that subjects with higher intakes of fat are more prone to develop disturbances in glucose metabolism, type 2 diabetes or impaired glucose tolerance, than subjects with lower intakes of fat. Inconsistencies in the data may be attributable to clustering of high intakes of dietary fat (especially animal fat) with obesity and inactivity. Metabolic studies suggest that higher-fat diets containing a higher proportion of unsaturated fat result in better measures of glucose metabolism than high-carbohydrate diet. Clearly, the area of dietary fat and glucose metabolism has yet to be fully elucidated. A high-fat meal is included in the broader concept of health.",
+  "sanitized_text": "Relationship of dietary fat to glucose metabolism.\nThe relationship between dietary fat and glucose metabolism has been recognized for at least 60 years. In experimental animals, high fat diets result in impaired glucose tolerance. This impairment is associated with decreased basal and insulin-stimulated glucose metabolism. Impaired insulin binding and/or glucose transporters has been related to changes in the fatty acid composition of the membrane induced by dietary fat modification. In humans, high-fat diets, independent of fatty acid profile, have been reported to result in decreased insulin sensitivity. Saturated fat, relative to monounsaturated and polyunsaturated fat, appears to be more deleterious with respect to fat-induced insulin insensitivity. Some of the adverse effects induced by fat feeding can be ameliorated with omega-3 fatty acid. Epidemiological data in humans suggest that subjects with higher intakes of fat are more prone to develop disturbances in glucose metabolism, type 2 diabetes or impaired glucose tolerance, than subjects with lower intakes of fat. Inconsistencies in the data may be attributable to clustering of high intakes of dietary fat (especially animal fat) with obesity and inactivity. Metabolic studies suggest that higher-fat diets containing a higher proportion of unsaturated fat result in better measures of glucose metabolism than high-carbohydrate diet. Clearly, the area of dietary fat and glucose metabolism has yet to be fully elucidated.",
+  "modified": true,
+  "original_char_count": 1560,
+  "sanitized_char_count": 1498,
+  "deleted_char_count": 62,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1499,
+      "boundary_end": 1560,
+      "context": "glucose metabolism. Impaired insulin binding and/or glucose transporters has been related to changes in the fatty acid composition of the membrane induced by dietary fat modification. In humans, high-fat diets, independent of fatty acid profile, have been reported to result in decreased insulin sensitivity. Saturated fat, relative to monounsaturated and polyunsaturated fat, appears to be more deleterious with respect to fat-induced insulin insensitivity. Some of the adverse effects induced by fat feeding can be ameliorated with omega-3 fatty acid. Epidemiological data in humans suggest that subjects with higher intakes of fat are more prone to develop disturbances in glucose metabolism, type 2 diabetes or impaired glucose tolerance, than subjects with lower intakes of fat. Inconsistencies in the data may be attributable to clustering of high intakes of dietary fat (especially animal fat) with obesity and inactivity. Metabolic studies suggest that higher-fat diets containing a higher proportion of unsaturated fat result in better measures of glucose metabolism than high-carbohydrate diet. Clearly, the area of dietary fat and glucose metabolism has yet to be fully elucidated.",
+      "target": "A high-fat meal is included in the broader concept of health.",
+      "loss_target": 4.7760796546936035,
+      "loss_target_given_context": 4.0417914390563965,
+      "delta_loss": 0.734288215637207,
+      "gain_ratio": 0.15374287464313938,
+      "score": -0.15374287464313938,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1411,
+      "boundary_end": 1498,
+      "context": "glucose tolerance. This impairment is associated with decreased basal and insulin-stimulated glucose metabolism. Impaired insulin binding and/or glucose transporters has been related to changes in the fatty acid composition of the membrane induced by dietary fat modification. In humans, high-fat diets, independent of fatty acid profile, have been reported to result in decreased insulin sensitivity. Saturated fat, relative to monounsaturated and polyunsaturated fat, appears to be more deleterious with respect to fat-induced insulin insensitivity. Some of the adverse effects induced by fat feeding can be ameliorated with omega-3 fatty acid. Epidemiological data in humans suggest that subjects with higher intakes of fat are more prone to develop disturbances in glucose metabolism, type 2 diabetes or impaired glucose tolerance, than subjects with lower intakes of fat. Inconsistencies in the data may be attributable to clustering of high intakes of dietary fat (especially animal fat) with obesity and inactivity. Metabolic studies suggest that higher-fat diets containing a higher proportion of unsaturated fat result in better measures of glucose metabolism than high-carbohydrate diet.",
+      "target": "Clearly, the area of dietary fat and glucose metabolism has yet to be fully elucidated.",
+      "loss_target": 3.369352340698242,
+      "loss_target_given_context": 1.2901278734207153,
+      "delta_loss": 2.079224467277527,
+      "gain_ratio": 0.617099150528924,
+      "score": -0.617099150528924,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1499,
+      "target": "A high-fat meal is included in the broader concept of health.",
+      "score": -0.15374287464313938,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "A high-fat meal is included in the broader concept of health.",
+      "deleted_char_count": 61
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

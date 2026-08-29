@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4318",
+  "source_doc_id": "MED-4318",
+  "title": "Low-pH cola beverages do not affect women's iron absorption from a vegetarian meal.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Low-pH cola beverages do not affect women's iron absorption from a vegetarian meal.\nPreliminary data in the literature indicate that iron absorption from a meal may be increased when consumed with low-pH beverages such as cola, and it is also possible that sugar iron complexes may alter iron availability. A randomized, crossover trial was conducted to compare the bioavailability of nonheme iron from a vegetarian pizza meal when consumed with 3 different beverages (cola, diet cola, and mineral water). Sixteen women with serum ferritin concentrations of 11-54 µg/L were recruited and completed the study. The pizza meal contained native iron and added ferric chloride solution as a stable isotope extrinsic label; the total iron content of the meal was ~5.3 mg. Incorporation of iron from the meal into RBC was not affected by the type of drink (9.9% with cola, 9.4% with diet cola, and 9.6% with water). Serum ferritin and plasma hepcidin were correlated (r = 0.66; P<0.001) and both were significant predictors of iron bioavailability, but their combined effect explained only 30% of the inter-individual variation (P<0.001) and illustrates the current lack of understanding of mechanisms responsible for the fine-tuning of iron absorption. Although there was no effect of low-pH drinks on iron bioavailability in healthy women, their effect on absorption of fortification iron that requires solubilization in dilute acid, such as reduced iron, and in individuals with low gastric acid production, such as older people and individuals with Helicobacter pylori infection, warrants further investigation.",
+  "sanitized_text": "Low-pH cola beverages do not affect women's iron absorption from a vegetarian meal.\nPreliminary data in the literature indicate that iron absorption from a meal may be increased when consumed with low-pH beverages such as cola, and it is also possible that sugar iron complexes may alter iron availability. A randomized, crossover trial was conducted to compare the bioavailability of nonheme iron from a vegetarian pizza meal when consumed with 3 different beverages (cola, diet cola, and mineral water). Sixteen women with serum ferritin concentrations of 11-54 µg/L were recruited and completed the study. The pizza meal contained native iron and added ferric chloride solution as a stable isotope extrinsic label; the total iron content of the meal was ~5.3 mg. Incorporation of iron from the meal into RBC was not affected by the type of drink (9.9% with cola, 9.4% with diet cola, and 9.6% with water). Serum ferritin and plasma hepcidin were correlated (r = 0.66; P<0.001) and both were significant predictors of iron bioavailability, but their combined effect explained only 30% of the inter-individual variation (P<0.001) and illustrates the current lack of understanding of mechanisms responsible for the fine-tuning of iron absorption. Although there was no effect of low-pH drinks on iron bioavailability in healthy women, their effect on absorption of fortification iron that requires solubilization in dilute acid, such as reduced iron, and in individuals with low gastric acid production, such as older people and individuals with Helicobacter pylori infection, warrants further investigation.",
+  "modified": false,
+  "original_char_count": 1608,
+  "sanitized_char_count": 1608,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1247,
+      "boundary_end": 1608,
+      "context": "absorption from a vegetarian meal. Preliminary data in the literature indicate that iron absorption from a meal may be increased when consumed with low-pH beverages such as cola, and it is also possible that sugar iron complexes may alter iron availability. A randomized, crossover trial was conducted to compare the bioavailability of nonheme iron from a vegetarian pizza meal when consumed with 3 different beverages (cola, diet cola, and mineral water). Sixteen women with serum ferritin concentrations of 11-54 µg/L were recruited and completed the study. The pizza meal contained native iron and added ferric chloride solution as a stable isotope extrinsic label; the total iron content of the meal was ~5.3 mg. Incorporation of iron from the meal into RBC was not affected by the type of drink (9.9% with cola, 9.4% with diet cola, and 9.6% with water). Serum ferritin and plasma hepcidin were correlated (r = 0.66; P<0.001) and both were significant predictors of iron bioavailability, but their combined effect explained only 30% of the inter-individual variation (P<0.001) and illustrates the current lack of understanding of mechanisms responsible for the fine-tuning of iron absorption.",
+      "target": "Although there was no effect of low-pH drinks on iron bioavailability in healthy women, their effect on absorption of fortification iron that requires solubilization in dilute acid, such as reduced iron, and in individuals with low gastric acid production, such as older people and individuals with Helicobacter pylori infection, warrants further investigation.",
+      "loss_target": 2.476226806640625,
+      "loss_target_given_context": 2.0125019550323486,
+      "delta_loss": 0.46372485160827637,
+      "gain_ratio": 0.18727075014480965,
+      "score": -0.18727075014480965,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4553",
+  "source_doc_id": "MED-4553",
+  "title": "Advanced glycation end products as biomarkers and gerontotoxins - A basis to explore methylglyoxal-lowering agents for Alzheimer's disease?",
+  "original_text": "Advanced glycation end products as biomarkers and gerontotoxins - A basis to explore methylglyoxal-lowering agents for Alzheimer's disease?\nAlzheimer's disease (AD) is the most common dementing disorder of late life. Although there might be various different triggering events in the early stages of the disease, they seem to converge on a few characteristic final pathways in the late stages, characterized by inflammation and neurodegeneration. In this review, we put forward the hypothesis that advanced glycation end products (AGEs) and their precursors, including methylglyoxal, are both biomarkers and causative agents (\"gerontotoxins\") characteristic for this disorder. Accumulation of AGEs is a normal feature of aging, but is accelerated in AD, where AGEs can be detected in amyloid plaques and neurofibrillary tangles. AGE modification may explain many of the neuropathological and biochemical features of AD such as extensive protein cross-linking, inflammation, oxidative stress and neuronal cell death. We suggest that methylglyoxal is one of the major carbonyl species responsible for the formation of AGEs. We propose that one promising pharmacological approach to prevent the formation of AGEs would be to lower the methylglyoxal concentration. This can be achieved, for example, by decreasing the concentration of methylglyoxal precursors such as d-glyceraldehyde-3-phosphate by allowing a higher flux through the pentose phosphate pathway or by increasing methylglyoxal detoxification through the glyoxalase system. Alternatively, methylglyoxal could be scavenged by various types of carbonyl scavengers. Copyright © 2010 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Advanced glycation end products as biomarkers and gerontotoxins - A basis to explore methylglyoxal-lowering agents for Alzheimer's disease?\nAlzheimer's disease (AD) is the most common dementing disorder of late life. Although there might be various different triggering events in the early stages of the disease, they seem to converge on a few characteristic final pathways in the late stages, characterized by inflammation and neurodegeneration. In this review, we put forward the hypothesis that advanced glycation end products (AGEs) and their precursors, including methylglyoxal, are both biomarkers and causative agents (\"gerontotoxins\") characteristic for this disorder. Accumulation of AGEs is a normal feature of aging, but is accelerated in AD, where AGEs can be detected in amyloid plaques and neurofibrillary tangles. AGE modification may explain many of the neuropathological and biochemical features of AD such as extensive protein cross-linking, inflammation, oxidative stress and neuronal cell death. We suggest that methylglyoxal is one of the major carbonyl species responsible for the formation of AGEs. We propose that one promising pharmacological approach to prevent the formation of AGEs would be to lower the methylglyoxal concentration. This can be achieved, for example, by decreasing the concentration of methylglyoxal precursors such as d-glyceraldehyde-3-phosphate by allowing a higher flux through the pentose phosphate pathway or by increasing methylglyoxal detoxification through the glyoxalase system. Alternatively, methylglyoxal could be scavenged by various types of carbonyl scavengers.",
+  "modified": true,
+  "original_char_count": 1674,
+  "sanitized_char_count": 1622,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1623,
+      "boundary_end": 1653,
+      "context": "and neurodegeneration. In this review, we put forward the hypothesis that advanced glycation end products (AGEs) and their precursors, including methylglyoxal, are both biomarkers and causative agents (\"gerontotoxins\") characteristic for this disorder. Accumulation of AGEs is a normal feature of aging, but is accelerated in AD, where AGEs can be detected in amyloid plaques and neurofibrillary tangles. AGE modification may explain many of the neuropathological and biochemical features of AD such as extensive protein cross-linking, inflammation, oxidative stress and neuronal cell death. We suggest that methylglyoxal is one of the major carbonyl species responsible for the formation of AGEs. We propose that one promising pharmacological approach to prevent the formation of AGEs would be to lower the methylglyoxal concentration. This can be achieved, for example, by decreasing the concentration of methylglyoxal precursors such as d-glyceraldehyde-3-phosphate by allowing a higher flux through the pentose phosphate pathway or by increasing methylglyoxal detoxification through the glyoxalase system. Alternatively, methylglyoxal could be scavenged by various types of carbonyl scavengers.",
+      "target": "Copyright © 2010 Elsevier Inc.",
+      "loss_target": 1.115393877029419,
+      "loss_target_given_context": 1.6699318885803223,
+      "delta_loss": -0.5545380115509033,
+      "gain_ratio": -0.49716788210078827,
+      "score": 0.49716788210078827,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1534,
+      "boundary_end": 1622,
+      "context": "on a few characteristic final pathways in the late stages, characterized by inflammation and neurodegeneration. In this review, we put forward the hypothesis that advanced glycation end products (AGEs) and their precursors, including methylglyoxal, are both biomarkers and causative agents (\"gerontotoxins\") characteristic for this disorder. Accumulation of AGEs is a normal feature of aging, but is accelerated in AD, where AGEs can be detected in amyloid plaques and neurofibrillary tangles. AGE modification may explain many of the neuropathological and biochemical features of AD such as extensive protein cross-linking, inflammation, oxidative stress and neuronal cell death. We suggest that methylglyoxal is one of the major carbonyl species responsible for the formation of AGEs. We propose that one promising pharmacological approach to prevent the formation of AGEs would be to lower the methylglyoxal concentration. This can be achieved, for example, by decreasing the concentration of methylglyoxal precursors such as d-glyceraldehyde-3-phosphate by allowing a higher flux through the pentose phosphate pathway or by increasing methylglyoxal detoxification through the glyoxalase system.",
+      "target": "Alternatively, methylglyoxal could be scavenged by various types of carbonyl scavengers.",
+      "loss_target": 2.5769314765930176,
+      "loss_target_given_context": 1.8096868991851807,
+      "delta_loss": 0.7672445774078369,
+      "gain_ratio": 0.2977357311891806,
+      "score": -0.2977357311891806,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1623,
+      "target": "Copyright © 2010 Elsevier Inc.",
+      "score": 0.49716788210078827,
+      "deleted_suffix": "Copyright © 2010 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

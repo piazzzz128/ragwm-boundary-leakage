@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1451",
+  "source_doc_id": "MED-1451",
+  "title": "The link between workforce health and safety and the health of the bottom line: tracking market performance of companies that nurture a \"culture of...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The link between workforce health and safety and the health of the bottom line: tracking market performance of companies that nurture a \"culture of...\nOBJECTIVE: To test the hypothesis that comprehensive efforts to reduce a workforce's health and safety risks can be associated with a company's stock market performance. METHODS: Stock market performance of Corporate Health Achievement Award winners was tracked under four different scenarios using simulation and past market performance. RESULTS: A portfolio of companies recognized as award winning for their approach to the health and safety of their workforce outperformed the market. Evidence seems to support that building cultures of health and safety provides a competitive advantage in the marketplace. This research may have also identified an association between companies that focus on health and safety and companies that manage other aspects of their business equally well. CONCLUSIONS: Companies that build a culture of health by focusing on the well-being and safety of their workforce yield greater value for their investors.",
+  "sanitized_text": "The link between workforce health and safety and the health of the bottom line: tracking market performance of companies that nurture a \"culture of...\nOBJECTIVE: To test the hypothesis that comprehensive efforts to reduce a workforce's health and safety risks can be associated with a company's stock market performance. METHODS: Stock market performance of Corporate Health Achievement Award winners was tracked under four different scenarios using simulation and past market performance. RESULTS: A portfolio of companies recognized as award winning for their approach to the health and safety of their workforce outperformed the market. Evidence seems to support that building cultures of health and safety provides a competitive advantage in the marketplace. This research may have also identified an association between companies that focus on health and safety and companies that manage other aspects of their business equally well. CONCLUSIONS: Companies that build a culture of health by focusing on the well-being and safety of their workforce yield greater value for their investors.",
+  "modified": false,
+  "original_char_count": 1093,
+  "sanitized_char_count": 1093,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 939,
+      "boundary_end": 1093,
+      "context": "The link between workforce health and safety and the health of the bottom line: tracking market performance of companies that nurture a \"culture of... OBJECTIVE: To test the hypothesis that comprehensive efforts to reduce a workforce's health and safety risks can be associated with a company's stock market performance. METHODS: Stock market performance of Corporate Health Achievement Award winners was tracked under four different scenarios using simulation and past market performance. RESULTS: A portfolio of companies recognized as award winning for their approach to the health and safety of their workforce outperformed the market. Evidence seems to support that building cultures of health and safety provides a competitive advantage in the marketplace. This research may have also identified an association between companies that focus on health and safety and companies that manage other aspects of their business equally well.",
+      "target": "CONCLUSIONS: Companies that build a culture of health by focusing on the well-being and safety of their workforce yield greater value for their investors.",
+      "loss_target": 2.6872849464416504,
+      "loss_target_given_context": 1.7136908769607544,
+      "delta_loss": 0.973594069480896,
+      "gain_ratio": 0.3622965516813071,
+      "score": -0.3622965516813071,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2530",
+  "source_doc_id": "MED-2530",
+  "title": "The new pathophysiology of coronary artery disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The new pathophysiology of coronary artery disease.\nOur understanding of coronary artery disease risk and the atherosclerotic process has changed greatly in recent years. For example, it is now known that angiographically apparent coronary artery plaque is not the major cause of myocardial infarction (MI). Rather, it is unstable, soft plaque that cannot be seen angiographically that is prone to rupture and result in infarction. Also important are changes in vascular reactivity resulting from diet. Cholesterol levels by themselves reveal little about a patient's coronary artery disease risk. Most infarctions occur in patients who have normal total cholesterol levels. At-risk patients can be identified using the ratio of total-to-high-density lipoprotein (HDL) cholesterol levels. The ratio of triglyceride to HDL cholesterol levels is also important. Simple steps to assess patients' risk in practice are outlined. Primary prevention trials demonstrate that coronary artery disease risk can be lowered dramatically with diet and drug therapy.",
+  "sanitized_text": "The new pathophysiology of coronary artery disease.\nOur understanding of coronary artery disease risk and the atherosclerotic process has changed greatly in recent years. For example, it is now known that angiographically apparent coronary artery plaque is not the major cause of myocardial infarction (MI). Rather, it is unstable, soft plaque that cannot be seen angiographically that is prone to rupture and result in infarction. Also important are changes in vascular reactivity resulting from diet. Cholesterol levels by themselves reveal little about a patient's coronary artery disease risk. Most infarctions occur in patients who have normal total cholesterol levels. At-risk patients can be identified using the ratio of total-to-high-density lipoprotein (HDL) cholesterol levels. The ratio of triglyceride to HDL cholesterol levels is also important. Simple steps to assess patients' risk in practice are outlined. Primary prevention trials demonstrate that coronary artery disease risk can be lowered dramatically with diet and drug therapy.",
+  "modified": false,
+  "original_char_count": 1051,
+  "sanitized_char_count": 1051,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 924,
+      "boundary_end": 1051,
+      "context": "The new pathophysiology of coronary artery disease. Our understanding of coronary artery disease risk and the atherosclerotic process has changed greatly in recent years. For example, it is now known that angiographically apparent coronary artery plaque is not the major cause of myocardial infarction (MI). Rather, it is unstable, soft plaque that cannot be seen angiographically that is prone to rupture and result in infarction. Also important are changes in vascular reactivity resulting from diet. Cholesterol levels by themselves reveal little about a patient's coronary artery disease risk. Most infarctions occur in patients who have normal total cholesterol levels. At-risk patients can be identified using the ratio of total-to-high-density lipoprotein (HDL) cholesterol levels. The ratio of triglyceride to HDL cholesterol levels is also important. Simple steps to assess patients' risk in practice are outlined.",
+      "target": "Primary prevention trials demonstrate that coronary artery disease risk can be lowered dramatically with diet and drug therapy.",
+      "loss_target": 3.5138275623321533,
+      "loss_target_given_context": 2.0168046951293945,
+      "delta_loss": 1.4970228672027588,
+      "gain_ratio": 0.4260376585495202,
+      "score": -0.4260376585495202,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

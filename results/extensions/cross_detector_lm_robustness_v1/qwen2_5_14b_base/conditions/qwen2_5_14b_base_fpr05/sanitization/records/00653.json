@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1782",
+  "source_doc_id": "MED-1782",
+  "title": "Antioxidants to reduce sperm DNA fragmentation: an unexpected adverse effect.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Antioxidants to reduce sperm DNA fragmentation: an unexpected adverse effect.\nReactive oxygen species (ROS) have a negative impact on sperm DNA, leading to the formation of oxidative products such as 8-oxo-7,8-dihydroxyguanosine. This compound causes fragmentation and, thus, has a mutagenic effect. Patient treatment with oral antioxidant vitamins is, therefore, standard practice for male infertility, in an attempt to decrease formation of ROS and improve fertility. In this study, the DNA fragmentation index and the degree of sperm decondensation were measured using the sperm chromatin structure assay before and after 90 days treatment with antioxidant vitamins associated with zinc and selenium. Antioxidant treatment led to a decrease in sperm DNA fragmentation (-19.1%, P < 0.0004), suggesting that at least part of the decay was linked to ROS. However, it also led to an unexpected negative effect: an increase in sperm decondensation with the same order of magnitude (+22.8%, P < 0.0009). The opening of interchain disulphide bridges in protamines may explain this aspect, as antioxidant vitamins, especially vitamin C, are able to open the cystin net, thus interfering with paternal gene activity during preimplantation development. This observation might explain the discrepancy observed concerning the role of these antioxidant treatments in improving male fertility.",
+  "sanitized_text": "Antioxidants to reduce sperm DNA fragmentation: an unexpected adverse effect.\nReactive oxygen species (ROS) have a negative impact on sperm DNA, leading to the formation of oxidative products such as 8-oxo-7,8-dihydroxyguanosine. This compound causes fragmentation and, thus, has a mutagenic effect. Patient treatment with oral antioxidant vitamins is, therefore, standard practice for male infertility, in an attempt to decrease formation of ROS and improve fertility. In this study, the DNA fragmentation index and the degree of sperm decondensation were measured using the sperm chromatin structure assay before and after 90 days treatment with antioxidant vitamins associated with zinc and selenium. Antioxidant treatment led to a decrease in sperm DNA fragmentation (-19.1%, P < 0.0004), suggesting that at least part of the decay was linked to ROS. However, it also led to an unexpected negative effect: an increase in sperm decondensation with the same order of magnitude (+22.8%, P < 0.0009). The opening of interchain disulphide bridges in protamines may explain this aspect, as antioxidant vitamins, especially vitamin C, are able to open the cystin net, thus interfering with paternal gene activity during preimplantation development. This observation might explain the discrepancy observed concerning the role of these antioxidant treatments in improving male fertility.",
+  "modified": false,
+  "original_char_count": 1382,
+  "sanitized_char_count": 1382,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1246,
+      "boundary_end": 1382,
+      "context": "an unexpected adverse effect. Reactive oxygen species (ROS) have a negative impact on sperm DNA, leading to the formation of oxidative products such as 8-oxo-7,8-dihydroxyguanosine. This compound causes fragmentation and, thus, has a mutagenic effect. Patient treatment with oral antioxidant vitamins is, therefore, standard practice for male infertility, in an attempt to decrease formation of ROS and improve fertility. In this study, the DNA fragmentation index and the degree of sperm decondensation were measured using the sperm chromatin structure assay before and after 90 days treatment with antioxidant vitamins associated with zinc and selenium. Antioxidant treatment led to a decrease in sperm DNA fragmentation (-19.1%, P < 0.0004), suggesting that at least part of the decay was linked to ROS. However, it also led to an unexpected negative effect: an increase in sperm decondensation with the same order of magnitude (+22.8%, P < 0.0009). The opening of interchain disulphide bridges in protamines may explain this aspect, as antioxidant vitamins, especially vitamin C, are able to open the cystin net, thus interfering with paternal gene activity during preimplantation development.",
+      "target": "This observation might explain the discrepancy observed concerning the role of these antioxidant treatments in improving male fertility.",
+      "loss_target": 4.194022178649902,
+      "loss_target_given_context": 2.4176619052886963,
+      "delta_loss": 1.776360273361206,
+      "gain_ratio": 0.42354575099863545,
+      "score": -0.42354575099863545,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

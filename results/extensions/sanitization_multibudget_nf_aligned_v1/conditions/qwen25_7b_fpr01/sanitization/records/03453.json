@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-735",
+  "source_doc_id": "MED-735",
+  "title": "Prevalence and incidence of gastroduodenal ulcers during treatment with vascular protective doses of aspirin.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Prevalence and incidence of gastroduodenal ulcers during treatment with vascular protective doses of aspirin.\nBACKGROUND: Aspirin is valuable for preventing vascular events, but information about ulcer frequency is necessary to inform risk-benefit decisions in individual patients. AIM: To determine ulcer prevalence and incidence in a population representative of those given aspirin therapy and evaluate risk predictors. METHODS: Patients taking aspirin 75-325 mg daily were recruited from four countries. Exclusions included use of gastroprotectant drugs or other non-steroidal anti-inflammatory drugs. We measured point prevalence of endoscopic ulcers, after quantitating dyspeptic symptoms. Incidence was assessed 3 months later in those eligible to continue (no baseline ulcer or reason for gastroprotectants). RESULTS: In 187 patients, ulcer prevalence was 11% [95% confidence interval (CI) 6.3-15.1%]. Only 20% had dyspeptic symptoms, not significantly different from patients without ulcer. Ulcer incidence in 113 patients followed for 3 months was 7% (95% CI 2.4-11.8%). Helicobacter pylori infection increased the risk of a duodenal ulcer [odds ratio (OR) 18.5, 95% CI 2.3-149.4], as did age >70 for ulcers in stomach and duodenum combined (OR 3.3, 95% CI 1.3-8.7). CONCLUSIONS: Gastroduodenal ulcers are found in one in 10 patients taking low-dose aspirin, and most are asymptomatic; this needs considering when discussing risks/benefits with patients. Risk factors include older age and H. pylori (for duodenal ulcer).",
+  "sanitized_text": "Prevalence and incidence of gastroduodenal ulcers during treatment with vascular protective doses of aspirin.\nBACKGROUND: Aspirin is valuable for preventing vascular events, but information about ulcer frequency is necessary to inform risk-benefit decisions in individual patients. AIM: To determine ulcer prevalence and incidence in a population representative of those given aspirin therapy and evaluate risk predictors. METHODS: Patients taking aspirin 75-325 mg daily were recruited from four countries. Exclusions included use of gastroprotectant drugs or other non-steroidal anti-inflammatory drugs. We measured point prevalence of endoscopic ulcers, after quantitating dyspeptic symptoms. Incidence was assessed 3 months later in those eligible to continue (no baseline ulcer or reason for gastroprotectants). RESULTS: In 187 patients, ulcer prevalence was 11% [95% confidence interval (CI) 6.3-15.1%]. Only 20% had dyspeptic symptoms, not significantly different from patients without ulcer. Ulcer incidence in 113 patients followed for 3 months was 7% (95% CI 2.4-11.8%). Helicobacter pylori infection increased the risk of a duodenal ulcer [odds ratio (OR) 18.5, 95% CI 2.3-149.4], as did age >70 for ulcers in stomach and duodenum combined (OR 3.3, 95% CI 1.3-8.7). CONCLUSIONS: Gastroduodenal ulcers are found in one in 10 patients taking low-dose aspirin, and most are asymptomatic; this needs considering when discussing risks/benefits with patients. Risk factors include older age and H. pylori (for duodenal ulcer).",
+  "modified": false,
+  "original_char_count": 1531,
+  "sanitized_char_count": 1531,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1503,
+      "boundary_end": 1531,
+      "context": "prevalence and incidence in a population representative of those given aspirin therapy and evaluate risk predictors. METHODS: Patients taking aspirin 75-325 mg daily were recruited from four countries. Exclusions included use of gastroprotectant drugs or other non-steroidal anti-inflammatory drugs. We measured point prevalence of endoscopic ulcers, after quantitating dyspeptic symptoms. Incidence was assessed 3 months later in those eligible to continue (no baseline ulcer or reason for gastroprotectants). RESULTS: In 187 patients, ulcer prevalence was 11% [95% confidence interval (CI) 6.3-15.1%]. Only 20% had dyspeptic symptoms, not significantly different from patients without ulcer. Ulcer incidence in 113 patients followed for 3 months was 7% (95% CI 2.4-11.8%). Helicobacter pylori infection increased the risk of a duodenal ulcer [odds ratio (OR) 18.5, 95% CI 2.3-149.4], as did age >70 for ulcers in stomach and duodenum combined (OR 3.3, 95% CI 1.3-8.7). CONCLUSIONS: Gastroduodenal ulcers are found in one in 10 patients taking low-dose aspirin, and most are asymptomatic; this needs considering when discussing risks/benefits with patients. Risk factors include older age and H.",
+      "target": "pylori (for duodenal ulcer).",
+      "loss_target": 3.432302236557007,
+      "loss_target_given_context": 1.574414849281311,
+      "delta_loss": 1.8578873872756958,
+      "gain_ratio": 0.5412948100804112,
+      "score": -0.5412948100804112,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

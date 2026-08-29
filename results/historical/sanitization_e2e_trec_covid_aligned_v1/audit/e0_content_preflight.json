@@ -1,0 +1,17 @@
+{
+  "experiment": "trec_covid_aligned_cross_dataset_v1",
+  "condition": "E0_watermarked",
+  "database_path": "/root/autodl-tmp/ragwm_storage/chromadb_db",
+  "collection": "trec-covid_contriever_cosine",
+  "collection_document_count": 171332,
+  "watermark_unit_count": 50,
+  "documented_injection_pair_count": 230,
+  "unique_target_document_count": 182,
+  "exact_match_count": 230,
+  "missing_document_count": 0,
+  "exact_match_rate": 1.0,
+  "length_mismatch_unit_count": 0,
+  "length_mismatch_units": [],
+  "preflight_valid": true,
+  "note": "This audit verifies the historical E0 watermarked collection against the documented injection file. It does not use ground truth for attack candidate selection."
+}

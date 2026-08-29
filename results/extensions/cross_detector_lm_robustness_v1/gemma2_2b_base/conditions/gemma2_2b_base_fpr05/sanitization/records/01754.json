@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3394",
+  "source_doc_id": "MED-3394",
+  "title": "Risk Factors for Mortality in the Nurses’ Health Study: A Competing Risks Analysis",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Risk Factors for Mortality in the Nurses’ Health Study: A Competing Risks Analysis\nFew studies have examined multiple risk factors for mortality or formally compared their associations across specific causes of death. The authors used competing risks survival analysis to evaluate associations of lifestyle and dietary factors with all-cause and cause-specific mortality among 50,112 participants in the Nurses’ Health Study. There were 4,893 deaths between 1986 and 2004: 1,026 from cardiovascular disease, 931 from smoking-related cancers, 1,430 from cancers not related to smoking, and 1,506 from all other causes. Age, body mass index at age 18 years, weight change, height, current smoking and pack-years of smoking, glycemic load, cholesterol intake, systolic blood pressure and use of blood pressure medications, diabetes, parental myocardial infarction before age 60 years, and time since menopause were directly related to all-cause mortality, whereas there were inverse associations for physical activity and intakes of nuts, polyunsaturated fat, and cereal fiber. Moderate alcohol consumption was associated with decreased mortality. A model that incorporated differences in the associations of some risk factors with specific causes of death had a significantly better fit compared with a model in which all risk factors had common associations across all causes. In the future, this new model may be used to identify individuals at increased risk of mortality.",
+  "sanitized_text": "Risk Factors for Mortality in the Nurses’ Health Study: A Competing Risks Analysis\nFew studies have examined multiple risk factors for mortality or formally compared their associations across specific causes of death. The authors used competing risks survival analysis to evaluate associations of lifestyle and dietary factors with all-cause and cause-specific mortality among 50,112 participants in the Nurses’ Health Study. There were 4,893 deaths between 1986 and 2004: 1,026 from cardiovascular disease, 931 from smoking-related cancers, 1,430 from cancers not related to smoking, and 1,506 from all other causes. Age, body mass index at age 18 years, weight change, height, current smoking and pack-years of smoking, glycemic load, cholesterol intake, systolic blood pressure and use of blood pressure medications, diabetes, parental myocardial infarction before age 60 years, and time since menopause were directly related to all-cause mortality, whereas there were inverse associations for physical activity and intakes of nuts, polyunsaturated fat, and cereal fiber. Moderate alcohol consumption was associated with decreased mortality. A model that incorporated differences in the associations of some risk factors with specific causes of death had a significantly better fit compared with a model in which all risk factors had common associations across all causes. In the future, this new model may be used to identify individuals at increased risk of mortality.",
+  "modified": false,
+  "original_char_count": 1473,
+  "sanitized_char_count": 1473,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1376,
+      "boundary_end": 1473,
+      "context": "across specific causes of death. The authors used competing risks survival analysis to evaluate associations of lifestyle and dietary factors with all-cause and cause-specific mortality among 50,112 participants in the Nurses’ Health Study. There were 4,893 deaths between 1986 and 2004: 1,026 from cardiovascular disease, 931 from smoking-related cancers, 1,430 from cancers not related to smoking, and 1,506 from all other causes. Age, body mass index at age 18 years, weight change, height, current smoking and pack-years of smoking, glycemic load, cholesterol intake, systolic blood pressure and use of blood pressure medications, diabetes, parental myocardial infarction before age 60 years, and time since menopause were directly related to all-cause mortality, whereas there were inverse associations for physical activity and intakes of nuts, polyunsaturated fat, and cereal fiber. Moderate alcohol consumption was associated with decreased mortality. A model that incorporated differences in the associations of some risk factors with specific causes of death had a significantly better fit compared with a model in which all risk factors had common associations across all causes.",
+      "target": "In the future, this new model may be used to identify individuals at increased risk of mortality.",
+      "loss_target": 8.412540435791016,
+      "loss_target_given_context": 3.0995209217071533,
+      "delta_loss": 5.313019514083862,
+      "gain_ratio": 0.6315594622855788,
+      "score": -0.6315594622855788,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

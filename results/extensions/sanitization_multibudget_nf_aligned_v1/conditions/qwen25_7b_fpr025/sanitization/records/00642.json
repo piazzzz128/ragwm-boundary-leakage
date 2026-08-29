@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1770",
+  "source_doc_id": "MED-1770",
+  "title": "Possible health impact of animal oestrogens in food.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Possible health impact of animal oestrogens in food.\nOestrogens govern reproductive functions in vertebrates, and are present in all animal tissues. The theoretical maximum daily intake (TMDI) of oestradiol-17beta by consumption of cattle meat is calculated to be 4.3 ng. Following the use of oestradiol-containing growth-promoting agents, TMDI is increased by a factor of 4.6 to 20 ng oestradiol-17beta, assuming that single dosage and 'good animal husbandry' are observed. Pork and poultry probably contain similar amounts of oestrogens as untreated cattle. The mean concentration of oestradiol-17beta in whole milk is estimated at 6.4 pg/ml. Scarce data available on eggs report up to 200 pg/g oestradiol-17beta. The risk evaluation of oestrogenic growth-promoting agents is limited by analytical uncertainties. Residues of oestradiol-17alpha and the importance of oestrogen conjugates are widely unknown. The performance of mass spectrometry still needs to be improved for confirmation of oestrogen concentrations in most food. At present, the potential relevance of oestradiol acyl esters, the actual daily production rate of oestradiol in prepubertal children, and the role of oestradiol metabolites in cancer are obscure. The presence of different cytoplasmic oestrogen receptor subtypes and potential oestradiol effects in non-reproductive functions require further examination.",
+  "sanitized_text": "Possible health impact of animal oestrogens in food.\nOestrogens govern reproductive functions in vertebrates, and are present in all animal tissues. The theoretical maximum daily intake (TMDI) of oestradiol-17beta by consumption of cattle meat is calculated to be 4.3 ng. Following the use of oestradiol-containing growth-promoting agents, TMDI is increased by a factor of 4.6 to 20 ng oestradiol-17beta, assuming that single dosage and 'good animal husbandry' are observed. Pork and poultry probably contain similar amounts of oestrogens as untreated cattle. The mean concentration of oestradiol-17beta in whole milk is estimated at 6.4 pg/ml. Scarce data available on eggs report up to 200 pg/g oestradiol-17beta. The risk evaluation of oestrogenic growth-promoting agents is limited by analytical uncertainties. Residues of oestradiol-17alpha and the importance of oestrogen conjugates are widely unknown. The performance of mass spectrometry still needs to be improved for confirmation of oestrogen concentrations in most food. At present, the potential relevance of oestradiol acyl esters, the actual daily production rate of oestradiol in prepubertal children, and the role of oestradiol metabolites in cancer are obscure. The presence of different cytoplasmic oestrogen receptor subtypes and potential oestradiol effects in non-reproductive functions require further examination.",
+  "modified": false,
+  "original_char_count": 1386,
+  "sanitized_char_count": 1386,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1229,
+      "boundary_end": 1386,
+      "context": "oestrogens in food. Oestrogens govern reproductive functions in vertebrates, and are present in all animal tissues. The theoretical maximum daily intake (TMDI) of oestradiol-17beta by consumption of cattle meat is calculated to be 4.3 ng. Following the use of oestradiol-containing growth-promoting agents, TMDI is increased by a factor of 4.6 to 20 ng oestradiol-17beta, assuming that single dosage and 'good animal husbandry' are observed. Pork and poultry probably contain similar amounts of oestrogens as untreated cattle. The mean concentration of oestradiol-17beta in whole milk is estimated at 6.4 pg/ml. Scarce data available on eggs report up to 200 pg/g oestradiol-17beta. The risk evaluation of oestrogenic growth-promoting agents is limited by analytical uncertainties. Residues of oestradiol-17alpha and the importance of oestrogen conjugates are widely unknown. The performance of mass spectrometry still needs to be improved for confirmation of oestrogen concentrations in most food. At present, the potential relevance of oestradiol acyl esters, the actual daily production rate of oestradiol in prepubertal children, and the role of oestradiol metabolites in cancer are obscure.",
+      "target": "The presence of different cytoplasmic oestrogen receptor subtypes and potential oestradiol effects in non-reproductive functions require further examination.",
+      "loss_target": 3.5111916065216064,
+      "loss_target_given_context": 2.511396884918213,
+      "delta_loss": 0.9997947216033936,
+      "gain_ratio": 0.28474513317541483,
+      "score": -0.28474513317541483,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

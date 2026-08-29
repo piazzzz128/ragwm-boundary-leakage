@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4613",
+  "source_doc_id": "MED-4613",
+  "title": "Resolving the Coronary Artery Disease Epidemic Through Plant-Based Nutrition.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Resolving the Coronary Artery Disease Epidemic Through Plant-Based Nutrition.\nThe world's advanced countries have easy access to plentiful high-fat food; ironically, it is this rich diet that produces atherosclerosis. In the world's poorer nations, many people subsist on a primarily plant-based diet, which is far healthier, especially in terms of heart disease. To treat coronary heart disease, a century of scientific investigation has produced a device-driven, risk factor-oriented strategy. Nevertheless, many patients treated with this approach experience progressive disability and death. This strategy is a rear-guard defensive one. In contrast, compelling data from nutritional studies, population surveys, and interventional studies support the effectiveness of a plant-based diet and aggressive lipid lowering to arrest, prevent, and selectively reverse heart disease. In essence, this is an offensive strategy. The single biggest step toward adopting this strategy would be to have United States dietary guidelines support a plant-based diet. An expert committee purged of industrial and political influence is required to assure that science is the basis for dietary recommendations. (c)2001 CHF, Inc.",
+  "sanitized_text": "Resolving the Coronary Artery Disease Epidemic Through Plant-Based Nutrition.\nThe world's advanced countries have easy access to plentiful high-fat food; ironically, it is this rich diet that produces atherosclerosis. In the world's poorer nations, many people subsist on a primarily plant-based diet, which is far healthier, especially in terms of heart disease. To treat coronary heart disease, a century of scientific investigation has produced a device-driven, risk factor-oriented strategy. Nevertheless, many patients treated with this approach experience progressive disability and death. This strategy is a rear-guard defensive one. In contrast, compelling data from nutritional studies, population surveys, and interventional studies support the effectiveness of a plant-based diet and aggressive lipid lowering to arrest, prevent, and selectively reverse heart disease. In essence, this is an offensive strategy. The single biggest step toward adopting this strategy would be to have United States dietary guidelines support a plant-based diet. An expert committee purged of industrial and political influence is required to assure that science is the basis for dietary recommendations. (c)2001 CHF, Inc.",
+  "modified": false,
+  "original_char_count": 1214,
+  "sanitized_char_count": 1214,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1055,
+      "boundary_end": 1196,
+      "context": "Resolving the Coronary Artery Disease Epidemic Through Plant-Based Nutrition. The world's advanced countries have easy access to plentiful high-fat food; ironically, it is this rich diet that produces atherosclerosis. In the world's poorer nations, many people subsist on a primarily plant-based diet, which is far healthier, especially in terms of heart disease. To treat coronary heart disease, a century of scientific investigation has produced a device-driven, risk factor-oriented strategy. Nevertheless, many patients treated with this approach experience progressive disability and death. This strategy is a rear-guard defensive one. In contrast, compelling data from nutritional studies, population surveys, and interventional studies support the effectiveness of a plant-based diet and aggressive lipid lowering to arrest, prevent, and selectively reverse heart disease. In essence, this is an offensive strategy. The single biggest step toward adopting this strategy would be to have United States dietary guidelines support a plant-based diet.",
+      "target": "An expert committee purged of industrial and political influence is required to assure that science is the basis for dietary recommendations.",
+      "loss_target": 3.9031994342803955,
+      "loss_target_given_context": 3.232213020324707,
+      "delta_loss": 0.6709864139556885,
+      "gain_ratio": 0.17190677167624496,
+      "score": -0.17190677167624496,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

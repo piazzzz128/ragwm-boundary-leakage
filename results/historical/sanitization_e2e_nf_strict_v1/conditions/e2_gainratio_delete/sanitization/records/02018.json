@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3705",
+  "source_doc_id": "MED-3705",
+  "title": "Evolution of Inflammatory Diseases",
+  "original_text": "Evolution of Inflammatory Diseases\nThe association of inflammation with modern human diseases (e.g. obesity, cardiovascular disease, type 2 diabetes mellitus, cancer) remains an unsolved mystery of current biology and medicine. Inflammation is a protective response to noxious stimuli that unavoidably occurs at a cost to normal tissue function. This fundamental tradeoff between the cost and benefit of the inflammatory response has been optimized over evolutionary time for specific environmental conditions. Rapid change of the human environment due to niche construction outpaces genetic adaptation through natural selection, leading increasingly to a mismatch between the modern environment and selected traits. Consequently, multiple tradeoffs that affect human physiology are not optimized to the modern environment, leading to increased disease susceptibility. Here we examine the inflammatory response from an evolutionary perspective. We discuss unique aspects of the inflammatory response and its evolutionary history that can help explain the association between inflammation and modern human diseases. Animal studies are utilized in the research of inflammatory diseases.",
+  "sanitized_text": "Evolution of Inflammatory Diseases\nThe association of inflammation with modern human diseases (e.g. obesity, cardiovascular disease, type 2 diabetes mellitus, cancer) remains an unsolved mystery of current biology and medicine. Inflammation is a protective response to noxious stimuli that unavoidably occurs at a cost to normal tissue function. This fundamental tradeoff between the cost and benefit of the inflammatory response has been optimized over evolutionary time for specific environmental conditions. Rapid change of the human environment due to niche construction outpaces genetic adaptation through natural selection, leading increasingly to a mismatch between the modern environment and selected traits. Consequently, multiple tradeoffs that affect human physiology are not optimized to the modern environment, leading to increased disease susceptibility. Here we examine the inflammatory response from an evolutionary perspective. We discuss unique aspects of the inflammatory response and its evolutionary history that can help explain the association between inflammation and modern human diseases.",
+  "modified": true,
+  "original_char_count": 1184,
+  "sanitized_char_count": 1114,
+  "deleted_char_count": 70,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1115,
+      "boundary_end": 1184,
+      "context": "Evolution of Inflammatory Diseases The association of inflammation with modern human diseases (e.g. obesity, cardiovascular disease, type 2 diabetes mellitus, cancer) remains an unsolved mystery of current biology and medicine. Inflammation is a protective response to noxious stimuli that unavoidably occurs at a cost to normal tissue function. This fundamental tradeoff between the cost and benefit of the inflammatory response has been optimized over evolutionary time for specific environmental conditions. Rapid change of the human environment due to niche construction outpaces genetic adaptation through natural selection, leading increasingly to a mismatch between the modern environment and selected traits. Consequently, multiple tradeoffs that affect human physiology are not optimized to the modern environment, leading to increased disease susceptibility. Here we examine the inflammatory response from an evolutionary perspective. We discuss unique aspects of the inflammatory response and its evolutionary history that can help explain the association between inflammation and modern human diseases.",
+      "target": "Animal studies are utilized in the research of inflammatory diseases.",
+      "loss_target": 3.761251926422119,
+      "loss_target_given_context": 4.289215087890625,
+      "delta_loss": -0.5279631614685059,
+      "gain_ratio": -0.14036899729041266,
+      "score": 0.14036899729041266,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 945,
+      "boundary_end": 1114,
+      "context": "Evolution of Inflammatory Diseases The association of inflammation with modern human diseases (e.g. obesity, cardiovascular disease, type 2 diabetes mellitus, cancer) remains an unsolved mystery of current biology and medicine. Inflammation is a protective response to noxious stimuli that unavoidably occurs at a cost to normal tissue function. This fundamental tradeoff between the cost and benefit of the inflammatory response has been optimized over evolutionary time for specific environmental conditions. Rapid change of the human environment due to niche construction outpaces genetic adaptation through natural selection, leading increasingly to a mismatch between the modern environment and selected traits. Consequently, multiple tradeoffs that affect human physiology are not optimized to the modern environment, leading to increased disease susceptibility. Here we examine the inflammatory response from an evolutionary perspective.",
+      "target": "We discuss unique aspects of the inflammatory response and its evolutionary history that can help explain the association between inflammation and modern human diseases.",
+      "loss_target": 3.1679725646972656,
+      "loss_target_given_context": 2.045490264892578,
+      "delta_loss": 1.1224822998046875,
+      "gain_ratio": 0.3543219762422257,
+      "score": -0.3543219762422257,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1115,
+      "target": "Animal studies are utilized in the research of inflammatory diseases.",
+      "score": 0.14036899729041266,
+      "deleted_suffix": "Animal studies are utilized in the research of inflammatory diseases.",
+      "deleted_char_count": 69
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

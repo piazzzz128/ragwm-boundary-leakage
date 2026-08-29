@@ -1,0 +1,23 @@
+{
+  "experiment_role": "cross_detector_lm_robustness_aligned_v1",
+  "dataset": "nfcorpus",
+  "model": "DeepSeek-LLM-7B-base",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/DeepSeek-LLM-7B-base-ms",
+  "input": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/aligned_sensitivity/nfcorpus_aligned_scores.json",
+  "input_sha256": "e1c7dbc745a83b473883ccf9c0d6a3c43c1bb7a14fa9f0dda1551b08f92dd218",
+  "preflight": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/audit/preflight.json",
+  "preflight_sha256": "164274803c2d947c58daa484ba2f506f4a5e48ea892e22f101b609978f62671b",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "max_context_tokens": 1024,
+  "max_target_tokens": 128,
+  "requested_record_count": 446,
+  "completed_record_count": 446,
+  "failed_record_count": 0,
+  "failures": [],
+  "complete": true,
+  "scores": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/scores/deepseek_nfcorpus_aligned_scores.json",
+  "scores_sha256": "fd29d143ac4c08f23d36b8fac5d4bad7e6d85172f68bb7eb4c1d19275552cc86",
+  "warning": "Cross-detector extension only; do not overwrite Qwen or sealed strict-v1 scores."
+}

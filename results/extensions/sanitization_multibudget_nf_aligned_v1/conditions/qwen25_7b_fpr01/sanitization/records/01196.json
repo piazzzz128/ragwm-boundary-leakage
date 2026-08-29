@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2453",
+  "source_doc_id": "MED-2453",
+  "title": "Effect of fresh fruit consumption on lung function and wheeze in children",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of fresh fruit consumption on lung function and wheeze in children\nBACKGROUND: Fresh fruit consumption and vitamin C intake have been associated with improved lung function in adults. Whether this is due to enhancement of lung growth, to a reduction in lung function decline, or to protection against bronchospasm is unclear. METHODS: In a cross- sectional school based survey of 2650 children aged 8-11 from 10 towns in England and Wales the main outcome measure was forced expiratory volume in one second (FEV1) standardised for body size and sex. Exposure was assessed by a food frequency questionnaire to parents and by measurement of plasma levels of vitamin C in a subsample of 278 children. RESULTS: FEV1 was positively associated with frequency of fresh fruit consumption. After adjustment for possible confounding variables including social class and passive smoking, those who never ate any fresh fruit had an estimated FEV1 some 79 ml (4.3%) lower than those who ate these items more than once a day (95% CI 22 to 136 ml). The association between FEV1 and fruit consumption was stronger in subjects with wheeze than in non-wheezers (p = 0.020 for difference in trend), though wheeze itself was not related to fresh fruit consumption. Frequency of consumption of salads and of green vegetables were both associated with FEV1 but the relationships were weaker than for fresh fruit. Plasma vitamin C levels were unrelated to FEV1 (r = - 0.01, p = 0.92) or to wheeze and were only weakly related to fresh fruit consumption (r = 0.13, p = 0.055). CONCLUSIONS: Fresh fruit consumption appears to have a beneficial effect on lung function in children. Further work is needed to confirm whether the effect is restricted to subjects who wheeze and to identify the specific nutrient involved.",
+  "sanitized_text": "Effect of fresh fruit consumption on lung function and wheeze in children\nBACKGROUND: Fresh fruit consumption and vitamin C intake have been associated with improved lung function in adults. Whether this is due to enhancement of lung growth, to a reduction in lung function decline, or to protection against bronchospasm is unclear. METHODS: In a cross- sectional school based survey of 2650 children aged 8-11 from 10 towns in England and Wales the main outcome measure was forced expiratory volume in one second (FEV1) standardised for body size and sex. Exposure was assessed by a food frequency questionnaire to parents and by measurement of plasma levels of vitamin C in a subsample of 278 children. RESULTS: FEV1 was positively associated with frequency of fresh fruit consumption. After adjustment for possible confounding variables including social class and passive smoking, those who never ate any fresh fruit had an estimated FEV1 some 79 ml (4.3%) lower than those who ate these items more than once a day (95% CI 22 to 136 ml). The association between FEV1 and fruit consumption was stronger in subjects with wheeze than in non-wheezers (p = 0.020 for difference in trend), though wheeze itself was not related to fresh fruit consumption. Frequency of consumption of salads and of green vegetables were both associated with FEV1 but the relationships were weaker than for fresh fruit. Plasma vitamin C levels were unrelated to FEV1 (r = - 0.01, p = 0.92) or to wheeze and were only weakly related to fresh fruit consumption (r = 0.13, p = 0.055). CONCLUSIONS: Fresh fruit consumption appears to have a beneficial effect on lung function in children. Further work is needed to confirm whether the effect is restricted to subjects who wheeze and to identify the specific nutrient involved.",
+  "modified": false,
+  "original_char_count": 1800,
+  "sanitized_char_count": 1800,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1663,
+      "boundary_end": 1800,
+      "context": "measure was forced expiratory volume in one second (FEV1) standardised for body size and sex. Exposure was assessed by a food frequency questionnaire to parents and by measurement of plasma levels of vitamin C in a subsample of 278 children. RESULTS: FEV1 was positively associated with frequency of fresh fruit consumption. After adjustment for possible confounding variables including social class and passive smoking, those who never ate any fresh fruit had an estimated FEV1 some 79 ml (4.3%) lower than those who ate these items more than once a day (95% CI 22 to 136 ml). The association between FEV1 and fruit consumption was stronger in subjects with wheeze than in non-wheezers (p = 0.020 for difference in trend), though wheeze itself was not related to fresh fruit consumption. Frequency of consumption of salads and of green vegetables were both associated with FEV1 but the relationships were weaker than for fresh fruit. Plasma vitamin C levels were unrelated to FEV1 (r = - 0.01, p = 0.92) or to wheeze and were only weakly related to fresh fruit consumption (r = 0.13, p = 0.055). CONCLUSIONS: Fresh fruit consumption appears to have a beneficial effect on lung function in children.",
+      "target": "Further work is needed to confirm whether the effect is restricted to subjects who wheeze and to identify the specific nutrient involved.",
+      "loss_target": 3.0920093059539795,
+      "loss_target_given_context": 1.7852503061294556,
+      "delta_loss": 1.306758999824524,
+      "gain_ratio": 0.4226245365135953,
+      "score": -0.4226245365135953,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4430",
+  "source_doc_id": "MED-4430",
+  "title": "Guillain-barré syndrome: modern theories of etiology.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Guillain-barré syndrome: modern theories of etiology.\nGuillain-Barré syndrome (GBS) is a classic failure of the immune system with a life-threatening attack upon a critical self-component. The active phase of the disease is short, concordant with the latency of a primary adaptive immune response. Triggers for GBS include infection and (rarely) vaccination; cross-reactivity between infectious and neural epitopes has been well demonstrated, particularly for Campylobacter jejuni and motor axonal forms of GBS in which non-protein gangliosides are antigenic. Most people are probably exposed to a GBS trigger, but only rarely does the disease develop. We propose that GBS illustrates competing determinants of the immune system's decision about whether to mount a response, and that in unlucky affected individuals, co-presentation of cross-reactive antigens with danger signals activating pattern-recognition receptors overcomes normal self-recognition such that a primary response is initiated that attacks the nerve. Then, in most cases of GBS, the response rapidly turns off, and second attacks rarely occur. This suggests active restoration of tolerance, and specific privileged site attributes of nerve and declining danger signals as the trigger wanes may contribute to this restoration. Standard immunosuppression has not been effective in GBS. We suggest this is because immune tolerance is already being restored by the time such therapies are initiated. This in turn suggests that improvements in GBS outcomes are likely to come from better protection of the nerve cells under attack while normal resumption of tolerance is permitted to proceed rather than exploring more aggressive immunosuppressive approaches.",
+  "sanitized_text": "Guillain-barré syndrome: modern theories of etiology.\nGuillain-Barré syndrome (GBS) is a classic failure of the immune system with a life-threatening attack upon a critical self-component. The active phase of the disease is short, concordant with the latency of a primary adaptive immune response. Triggers for GBS include infection and (rarely) vaccination; cross-reactivity between infectious and neural epitopes has been well demonstrated, particularly for Campylobacter jejuni and motor axonal forms of GBS in which non-protein gangliosides are antigenic. Most people are probably exposed to a GBS trigger, but only rarely does the disease develop. We propose that GBS illustrates competing determinants of the immune system's decision about whether to mount a response, and that in unlucky affected individuals, co-presentation of cross-reactive antigens with danger signals activating pattern-recognition receptors overcomes normal self-recognition such that a primary response is initiated that attacks the nerve. Then, in most cases of GBS, the response rapidly turns off, and second attacks rarely occur. This suggests active restoration of tolerance, and specific privileged site attributes of nerve and declining danger signals as the trigger wanes may contribute to this restoration. Standard immunosuppression has not been effective in GBS. We suggest this is because immune tolerance is already being restored by the time such therapies are initiated. This in turn suggests that improvements in GBS outcomes are likely to come from better protection of the nerve cells under attack while normal resumption of tolerance is permitted to proceed rather than exploring more aggressive immunosuppressive approaches.",
+  "modified": false,
+  "original_char_count": 1724,
+  "sanitized_char_count": 1724,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1466,
+      "boundary_end": 1724,
+      "context": "adaptive immune response. Triggers for GBS include infection and (rarely) vaccination; cross-reactivity between infectious and neural epitopes has been well demonstrated, particularly for Campylobacter jejuni and motor axonal forms of GBS in which non-protein gangliosides are antigenic. Most people are probably exposed to a GBS trigger, but only rarely does the disease develop. We propose that GBS illustrates competing determinants of the immune system's decision about whether to mount a response, and that in unlucky affected individuals, co-presentation of cross-reactive antigens with danger signals activating pattern-recognition receptors overcomes normal self-recognition such that a primary response is initiated that attacks the nerve. Then, in most cases of GBS, the response rapidly turns off, and second attacks rarely occur. This suggests active restoration of tolerance, and specific privileged site attributes of nerve and declining danger signals as the trigger wanes may contribute to this restoration. Standard immunosuppression has not been effective in GBS. We suggest this is because immune tolerance is already being restored by the time such therapies are initiated.",
+      "target": "This in turn suggests that improvements in GBS outcomes are likely to come from better protection of the nerve cells under attack while normal resumption of tolerance is permitted to proceed rather than exploring more aggressive immunosuppressive approaches.",
+      "loss_target": 3.7468507289886475,
+      "loss_target_given_context": 2.7339792251586914,
+      "delta_loss": 1.012871503829956,
+      "gain_ratio": 0.2703260890522188,
+      "score": -0.2703260890522188,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

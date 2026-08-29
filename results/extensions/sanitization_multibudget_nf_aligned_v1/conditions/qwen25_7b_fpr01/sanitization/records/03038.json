@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4968",
+  "source_doc_id": "MED-4968",
+  "title": "Cholera and other types of vibriosis: a story of human pandemics and oysters on the half shell.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cholera and other types of vibriosis: a story of human pandemics and oysters on the half shell.\nVibrios are ubiquitous in the aquatic environment and are commonly present in or on shellfish and other seafood. A small subset of strains/species are able to cause human disease, including the cholera toxin-producing strains of Vibrio cholerae that are responsible for epidemic/pandemic cholera; thermostable direct hemolysin-producing strains of Vibrio parahaemolyticus; and Vibrio vulnificus, which can cause fulminant sepsis. Cholera outbreaks can be initiated by transmission of \"epidemic\" V. cholerae strains from their environmental reservoir to humans through seafood or other environmentally related food or water sources. \"Nonepidemic\" strains of V. cholerae and strains of other Vibrio species, including V. parahaemolyticus and V. vulnificus, are generally acquired by eating seafood (particularly raw oysters/oysters on the half shell). Although the primary clinical manifestation of infection with these strains is gastroenteritis, they can also cause wound infections and (particularly for V. vulnificus) septicemia in persons who have liver disease or are immunocompromised.",
+  "sanitized_text": "Cholera and other types of vibriosis: a story of human pandemics and oysters on the half shell.\nVibrios are ubiquitous in the aquatic environment and are commonly present in or on shellfish and other seafood. A small subset of strains/species are able to cause human disease, including the cholera toxin-producing strains of Vibrio cholerae that are responsible for epidemic/pandemic cholera; thermostable direct hemolysin-producing strains of Vibrio parahaemolyticus; and Vibrio vulnificus, which can cause fulminant sepsis. Cholera outbreaks can be initiated by transmission of \"epidemic\" V. cholerae strains from their environmental reservoir to humans through seafood or other environmentally related food or water sources. \"Nonepidemic\" strains of V. cholerae and strains of other Vibrio species, including V. parahaemolyticus and V. vulnificus, are generally acquired by eating seafood (particularly raw oysters/oysters on the half shell). Although the primary clinical manifestation of infection with these strains is gastroenteritis, they can also cause wound infections and (particularly for V. vulnificus) septicemia in persons who have liver disease or are immunocompromised.",
+  "modified": false,
+  "original_char_count": 1186,
+  "sanitized_char_count": 1186,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1104,
+      "boundary_end": 1186,
+      "context": "Cholera and other types of vibriosis: a story of human pandemics and oysters on the half shell. Vibrios are ubiquitous in the aquatic environment and are commonly present in or on shellfish and other seafood. A small subset of strains/species are able to cause human disease, including the cholera toxin-producing strains of Vibrio cholerae that are responsible for epidemic/pandemic cholera; thermostable direct hemolysin-producing strains of Vibrio parahaemolyticus; and Vibrio vulnificus, which can cause fulminant sepsis. Cholera outbreaks can be initiated by transmission of \"epidemic\" V. cholerae strains from their environmental reservoir to humans through seafood or other environmentally related food or water sources. \"Nonepidemic\" strains of V. cholerae and strains of other Vibrio species, including V. parahaemolyticus and V. vulnificus, are generally acquired by eating seafood (particularly raw oysters/oysters on the half shell). Although the primary clinical manifestation of infection with these strains is gastroenteritis, they can also cause wound infections and (particularly for V.",
+      "target": "vulnificus) septicemia in persons who have liver disease or are immunocompromised.",
+      "loss_target": 2.7772669792175293,
+      "loss_target_given_context": 0.9210850596427917,
+      "delta_loss": 1.8561819195747375,
+      "gain_ratio": 0.6683483919495923,
+      "score": -0.6683483919495923,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

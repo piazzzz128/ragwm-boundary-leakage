@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2488",
+  "source_doc_id": "MED-2488",
+  "title": "Food prices and blood cholesterol.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Food prices and blood cholesterol.\nCardiovascular diseases (CVD) cost Americans billions of dollars per year. High cholesterol levels, which are closely related to dietary habits, are a major contributor to CVD. In this article, we study whether changes in food prices are related to cholesterol levels and whether taxes or subsidies on particular foods would be effective in lowering cholesterol levels and, consequently, CVD costs. We find that prices of vegetables, processed foods, whole milk and whole grains are significantly associated with blood cholesterol levels. Having analyzed the costs and benefits of government interventions, we find that a subsidy of vegetables and whole grains would be an efficient way to reduce CVD expenditures. Published by Elsevier B.V.",
+  "sanitized_text": "Food prices and blood cholesterol.\nCardiovascular diseases (CVD) cost Americans billions of dollars per year. High cholesterol levels, which are closely related to dietary habits, are a major contributor to CVD. In this article, we study whether changes in food prices are related to cholesterol levels and whether taxes or subsidies on particular foods would be effective in lowering cholesterol levels and, consequently, CVD costs. We find that prices of vegetables, processed foods, whole milk and whole grains are significantly associated with blood cholesterol levels. Having analyzed the costs and benefits of government interventions, we find that a subsidy of vegetables and whole grains would be an efficient way to reduce CVD expenditures. Published by Elsevier B.V.",
+  "modified": false,
+  "original_char_count": 776,
+  "sanitized_char_count": 776,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 750,
+      "boundary_end": 776,
+      "context": "Food prices and blood cholesterol. Cardiovascular diseases (CVD) cost Americans billions of dollars per year. High cholesterol levels, which are closely related to dietary habits, are a major contributor to CVD. In this article, we study whether changes in food prices are related to cholesterol levels and whether taxes or subsidies on particular foods would be effective in lowering cholesterol levels and, consequently, CVD costs. We find that prices of vegetables, processed foods, whole milk and whole grains are significantly associated with blood cholesterol levels. Having analyzed the costs and benefits of government interventions, we find that a subsidy of vegetables and whole grains would be an efficient way to reduce CVD expenditures.",
+      "target": "Published by Elsevier B.V.",
+      "loss_target": 1.6242996454238892,
+      "loss_target_given_context": 0.6619390845298767,
+      "delta_loss": 0.9623605608940125,
+      "gain_ratio": 0.5924772338683038,
+      "score": -0.5924772338683038,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

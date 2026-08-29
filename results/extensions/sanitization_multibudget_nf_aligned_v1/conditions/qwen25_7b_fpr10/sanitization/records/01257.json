@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2572",
+  "source_doc_id": "MED-2572",
+  "title": "Traditional non-Western diets.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Traditional non-Western diets.\nIn traditional cultures, balancing health with a balanced lifestyle was a core belief. The diseases of modern civilization were rare. Indigenous people have patterns of illness very different from Western civilization; yet, they rapidly develop diseases once exposed to Western foods and lifestyles. Food and medicine were interwoven. All cultures used special or functional foods to prevent disease. Food could be used at different times either as food or medicine. Foods, cultivation, and cooking methods maximized community health and well-being. With methods passed down through generations, cooking processes were utilized that enhanced mineral and nutrient bioavailability. This article focuses on what researchers observed about the food traditions of indigenous people, their disease patterns, the use of specific foods, and the environmental factors that affect people who still eat traditional foods.",
+  "sanitized_text": "Traditional non-Western diets.\nIn traditional cultures, balancing health with a balanced lifestyle was a core belief. The diseases of modern civilization were rare. Indigenous people have patterns of illness very different from Western civilization; yet, they rapidly develop diseases once exposed to Western foods and lifestyles. Food and medicine were interwoven. All cultures used special or functional foods to prevent disease. Food could be used at different times either as food or medicine. Foods, cultivation, and cooking methods maximized community health and well-being. With methods passed down through generations, cooking processes were utilized that enhanced mineral and nutrient bioavailability.",
+  "modified": true,
+  "original_char_count": 941,
+  "sanitized_char_count": 710,
+  "deleted_char_count": 231,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 711,
+      "boundary_end": 941,
+      "context": "Traditional non-Western diets. In traditional cultures, balancing health with a balanced lifestyle was a core belief. The diseases of modern civilization were rare. Indigenous people have patterns of illness very different from Western civilization; yet, they rapidly develop diseases once exposed to Western foods and lifestyles. Food and medicine were interwoven. All cultures used special or functional foods to prevent disease. Food could be used at different times either as food or medicine. Foods, cultivation, and cooking methods maximized community health and well-being. With methods passed down through generations, cooking processes were utilized that enhanced mineral and nutrient bioavailability.",
+      "target": "This article focuses on what researchers observed about the food traditions of indigenous people, their disease patterns, the use of specific foods, and the environmental factors that affect people who still eat traditional foods.",
+      "loss_target": 3.2671334743499756,
+      "loss_target_given_context": 2.6430716514587402,
+      "delta_loss": 0.6240618228912354,
+      "gain_ratio": 0.1910120378584771,
+      "score": -0.1910120378584771,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 581,
+      "boundary_end": 710,
+      "context": "Traditional non-Western diets. In traditional cultures, balancing health with a balanced lifestyle was a core belief. The diseases of modern civilization were rare. Indigenous people have patterns of illness very different from Western civilization; yet, they rapidly develop diseases once exposed to Western foods and lifestyles. Food and medicine were interwoven. All cultures used special or functional foods to prevent disease. Food could be used at different times either as food or medicine. Foods, cultivation, and cooking methods maximized community health and well-being.",
+      "target": "With methods passed down through generations, cooking processes were utilized that enhanced mineral and nutrient bioavailability.",
+      "loss_target": 4.332469463348389,
+      "loss_target_given_context": 2.869030475616455,
+      "delta_loss": 1.4634389877319336,
+      "gain_ratio": 0.3377840282804674,
+      "score": -0.3377840282804674,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 711,
+      "target": "This article focuses on what researchers observed about the food traditions of indigenous people, their disease patterns, the use of specific foods, and the environmental factors that affect people who still eat traditional foods.",
+      "score": -0.1910120378584771,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "This article focuses on what researchers observed about the food traditions of indigenous people, their disease patterns, the use of specific foods, and the environmental factors that affect people who still eat traditional foods.",
+      "deleted_char_count": 230
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

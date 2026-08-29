@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1136",
+  "source_doc_id": "MED-1136",
+  "title": "The effect of high animal protein intake on the risk of calcium stone-formation in the urinary tract.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The effect of high animal protein intake on the risk of calcium stone-formation in the urinary tract.\n1. Studies were carried out on six normal male subjects to determine the short-term effect of increasing the dietary consumption of animal protein on the urinary risk factors for stone-formation, namely, volume, pH, calcium oxalate, uric acid and glycosaminoglycans. 2. An increase of 34 g/day of animal protein in the diet significantly increased urinary calcium (23%) and oxalate (24%). Total urinary nitrogen increased by an average of 368 mmol/day. The accompanying increase in dietary purine (11 mmol of purine nitrogen/day) caused a 48% increase in the excretion of uric acid. 3. The overall relative probability of forming stones, calculated from a combination of the risk factors, was markedly increased (250%) throughout the period of high animal protein ingestion.",
+  "sanitized_text": "The effect of high animal protein intake on the risk of calcium stone-formation in the urinary tract.\n1. Studies were carried out on six normal male subjects to determine the short-term effect of increasing the dietary consumption of animal protein on the urinary risk factors for stone-formation, namely, volume, pH, calcium oxalate, uric acid and glycosaminoglycans. 2. An increase of 34 g/day of animal protein in the diet significantly increased urinary calcium (23%) and oxalate (24%). Total urinary nitrogen increased by an average of 368 mmol/day. The accompanying increase in dietary purine (11 mmol of purine nitrogen/day) caused a 48% increase in the excretion of uric acid. 3. The overall relative probability of forming stones, calculated from a combination of the risk factors, was markedly increased (250%) throughout the period of high animal protein ingestion.",
+  "modified": false,
+  "original_char_count": 876,
+  "sanitized_char_count": 876,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 688,
+      "boundary_end": 876,
+      "context": "The effect of high animal protein intake on the risk of calcium stone-formation in the urinary tract. 1. Studies were carried out on six normal male subjects to determine the short-term effect of increasing the dietary consumption of animal protein on the urinary risk factors for stone-formation, namely, volume, pH, calcium oxalate, uric acid and glycosaminoglycans. 2. An increase of 34 g/day of animal protein in the diet significantly increased urinary calcium (23%) and oxalate (24%). Total urinary nitrogen increased by an average of 368 mmol/day. The accompanying increase in dietary purine (11 mmol of purine nitrogen/day) caused a 48% increase in the excretion of uric acid. 3.",
+      "target": "The overall relative probability of forming stones, calculated from a combination of the risk factors, was markedly increased (250%) throughout the period of high animal protein ingestion.",
+      "loss_target": 3.8138744831085205,
+      "loss_target_given_context": 2.196424961090088,
+      "delta_loss": 1.6174495220184326,
+      "gain_ratio": 0.424096159740454,
+      "score": -0.424096159740454,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

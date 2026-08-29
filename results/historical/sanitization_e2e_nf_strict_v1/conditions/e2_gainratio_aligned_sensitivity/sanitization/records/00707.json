@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1845",
+  "source_doc_id": "MED-1845",
+  "title": "Plasma levels of aluminium after tea ingestion in healthy volunteers.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Plasma levels of aluminium after tea ingestion in healthy volunteers.\n12 healthy volunteers on a controlled aluminium (Al) diet each consumed a tea infusion (500 ml/70 kg body weight), with either milk or lemon juice as additives, or mineral water, following a three-way crossover design. The concentrations of Al were determined in the diet, mineral water and tea infusions, and in plasma samples collected before and up to 24 hr after consumption of tea or water, using graphite-furnace atomic absorption spectrophotometry or inductively coupled plasma emission spectrometry. Consumption of up to 1.60 mg Al from tea with milk or lemon juice did not increase plasma Al levels compared with consumption of approximately 0.001 mg Al from mineral water. The results suggest that, in the short-term, drinking tea does not contribute significantly to the total body burden of Al.",
+  "sanitized_text": "Plasma levels of aluminium after tea ingestion in healthy volunteers.\n12 healthy volunteers on a controlled aluminium (Al) diet each consumed a tea infusion (500 ml/70 kg body weight), with either milk or lemon juice as additives, or mineral water, following a three-way crossover design. The concentrations of Al were determined in the diet, mineral water and tea infusions, and in plasma samples collected before and up to 24 hr after consumption of tea or water, using graphite-furnace atomic absorption spectrophotometry or inductively coupled plasma emission spectrometry. Consumption of up to 1.60 mg Al from tea with milk or lemon juice did not increase plasma Al levels compared with consumption of approximately 0.001 mg Al from mineral water. The results suggest that, in the short-term, drinking tea does not contribute significantly to the total body burden of Al.",
+  "modified": false,
+  "original_char_count": 876,
+  "sanitized_char_count": 876,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 753,
+      "boundary_end": 876,
+      "context": "Plasma levels of aluminium after tea ingestion in healthy volunteers. 12 healthy volunteers on a controlled aluminium (Al) diet each consumed a tea infusion (500 ml/70 kg body weight), with either milk or lemon juice as additives, or mineral water, following a three-way crossover design. The concentrations of Al were determined in the diet, mineral water and tea infusions, and in plasma samples collected before and up to 24 hr after consumption of tea or water, using graphite-furnace atomic absorption spectrophotometry or inductively coupled plasma emission spectrometry. Consumption of up to 1.60 mg Al from tea with milk or lemon juice did not increase plasma Al levels compared with consumption of approximately 0.001 mg Al from mineral water.",
+      "target": "The results suggest that, in the short-term, drinking tea does not contribute significantly to the total body burden of Al.",
+      "loss_target": 2.946511745452881,
+      "loss_target_given_context": 1.380609154701233,
+      "delta_loss": 1.565902590751648,
+      "gain_ratio": 0.5314428470099201,
+      "score": -0.5314428470099201,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

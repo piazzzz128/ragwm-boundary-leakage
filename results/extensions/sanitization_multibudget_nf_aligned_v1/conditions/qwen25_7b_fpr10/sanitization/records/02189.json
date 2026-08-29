@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3925",
+  "source_doc_id": "MED-3925",
+  "title": "A diet low in animal fat and rich in N-hexacosanol and fisetin is effective in reducing symptoms of Parkinson's disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A diet low in animal fat and rich in N-hexacosanol and fisetin is effective in reducing symptoms of Parkinson's disease.\nThis study describes how foods rich in fisetin and hexacosanol added to a strict diet reversed most symptoms of Parkinson's disease (PD) in one patient. This is a case report involving outpatient care. The subject was a dietitian diagnosed with idiopathic PD in 2000 at the age of 53 years old, with a history of exposure to neurotoxins and no family history of PD. A basic diet started in 2000 consisted of predominantly fruits, vegetables, 100% whole grains, extra virgin olive oil, nuts, seeds, nonfat milk products, tea, coffee, spices, small amounts of dark chocolate, and less than 25 g of animal fat daily. The basic diet alone failed to prevent decline due to PD. In 2009, the basic diet was enhanced with a good dietary source of both fisetin and hexacosanol. Six months after the patient started the enhanced diet rich in fisetin and hexacosanol, a clinically significant improvement in symptoms was noted; the patient's attending neurologist reported that the clinical presentation of cogwheel rigidity, micrographia, bradykinesia, dystonia, constricted arm swing with gait, hypomimia, and retropulsion appeared to be resolved. The only worsening of symptoms occurred when the diet was not followed precisely. Little improvement in tremor or seborrhea was observed. The clinical improvement has persisted to date. To the best of our knowledge, this is the first case where adjunctive diet therapy resulted in a significant reduction of symptoms of PD without changing the type or increasing the amount of medications.",
+  "sanitized_text": "A diet low in animal fat and rich in N-hexacosanol and fisetin is effective in reducing symptoms of Parkinson's disease.\nThis study describes how foods rich in fisetin and hexacosanol added to a strict diet reversed most symptoms of Parkinson's disease (PD) in one patient. This is a case report involving outpatient care. The subject was a dietitian diagnosed with idiopathic PD in 2000 at the age of 53 years old, with a history of exposure to neurotoxins and no family history of PD. A basic diet started in 2000 consisted of predominantly fruits, vegetables, 100% whole grains, extra virgin olive oil, nuts, seeds, nonfat milk products, tea, coffee, spices, small amounts of dark chocolate, and less than 25 g of animal fat daily. The basic diet alone failed to prevent decline due to PD. In 2009, the basic diet was enhanced with a good dietary source of both fisetin and hexacosanol. Six months after the patient started the enhanced diet rich in fisetin and hexacosanol, a clinically significant improvement in symptoms was noted; the patient's attending neurologist reported that the clinical presentation of cogwheel rigidity, micrographia, bradykinesia, dystonia, constricted arm swing with gait, hypomimia, and retropulsion appeared to be resolved. The only worsening of symptoms occurred when the diet was not followed precisely. Little improvement in tremor or seborrhea was observed. The clinical improvement has persisted to date. To the best of our knowledge, this is the first case where adjunctive diet therapy resulted in a significant reduction of symptoms of PD without changing the type or increasing the amount of medications.",
+  "modified": false,
+  "original_char_count": 1649,
+  "sanitized_char_count": 1649,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1446,
+      "boundary_end": 1649,
+      "context": "(PD) in one patient. This is a case report involving outpatient care. The subject was a dietitian diagnosed with idiopathic PD in 2000 at the age of 53 years old, with a history of exposure to neurotoxins and no family history of PD. A basic diet started in 2000 consisted of predominantly fruits, vegetables, 100% whole grains, extra virgin olive oil, nuts, seeds, nonfat milk products, tea, coffee, spices, small amounts of dark chocolate, and less than 25 g of animal fat daily. The basic diet alone failed to prevent decline due to PD. In 2009, the basic diet was enhanced with a good dietary source of both fisetin and hexacosanol. Six months after the patient started the enhanced diet rich in fisetin and hexacosanol, a clinically significant improvement in symptoms was noted; the patient's attending neurologist reported that the clinical presentation of cogwheel rigidity, micrographia, bradykinesia, dystonia, constricted arm swing with gait, hypomimia, and retropulsion appeared to be resolved. The only worsening of symptoms occurred when the diet was not followed precisely. Little improvement in tremor or seborrhea was observed. The clinical improvement has persisted to date.",
+      "target": "To the best of our knowledge, this is the first case where adjunctive diet therapy resulted in a significant reduction of symptoms of PD without changing the type or increasing the amount of medications.",
+      "loss_target": 2.739382266998291,
+      "loss_target_given_context": 1.827101230621338,
+      "delta_loss": 0.9122810363769531,
+      "gain_ratio": 0.3330243636922551,
+      "score": -0.3330243636922551,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

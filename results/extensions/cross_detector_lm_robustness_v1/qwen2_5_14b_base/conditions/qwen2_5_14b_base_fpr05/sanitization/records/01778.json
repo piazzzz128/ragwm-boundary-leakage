@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3436",
+  "source_doc_id": "MED-3436",
+  "title": "How to save a life during a clinic visit for erectile dysfunction by modifying cardiovascular risk factors.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "How to save a life during a clinic visit for erectile dysfunction by modifying cardiovascular risk factors.\nErectile dysfunction (ED) is an early marker for systemic atherosclerosis and is a predictor for coronary artery disease and cardiac events. The aim of this paper is to convey the importance of addressing cardiovascular risk factors in patients with ED and to inform urologists as well as other physicians who are not specialized in cardiology how to carry out a basic cardiovascular evaluation, including history, physical examination and objective data. We review the evidence and pathophysiology linking ED to cardiovascular disease, and then describe how to carry out a basic cardiovascular evaluation. We present data from the literature showing that appropriate use of lifestyle modifications and medical therapy has a positive effect on mortality, on numerous cardiovascular end points and on ED. Suggestions of when to refer the ED patient to an internist or cardiologist are provided. Identifying and treating cardiovascular risk factors may not only benefit the patient's ED, but it might also save the patient's life.",
+  "sanitized_text": "How to save a life during a clinic visit for erectile dysfunction by modifying cardiovascular risk factors.\nErectile dysfunction (ED) is an early marker for systemic atherosclerosis and is a predictor for coronary artery disease and cardiac events. The aim of this paper is to convey the importance of addressing cardiovascular risk factors in patients with ED and to inform urologists as well as other physicians who are not specialized in cardiology how to carry out a basic cardiovascular evaluation, including history, physical examination and objective data. We review the evidence and pathophysiology linking ED to cardiovascular disease, and then describe how to carry out a basic cardiovascular evaluation. We present data from the literature showing that appropriate use of lifestyle modifications and medical therapy has a positive effect on mortality, on numerous cardiovascular end points and on ED. Suggestions of when to refer the ED patient to an internist or cardiologist are provided. Identifying and treating cardiovascular risk factors may not only benefit the patient's ED, but it might also save the patient's life.",
+  "modified": false,
+  "original_char_count": 1136,
+  "sanitized_char_count": 1136,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1002,
+      "boundary_end": 1136,
+      "context": "How to save a life during a clinic visit for erectile dysfunction by modifying cardiovascular risk factors. Erectile dysfunction (ED) is an early marker for systemic atherosclerosis and is a predictor for coronary artery disease and cardiac events. The aim of this paper is to convey the importance of addressing cardiovascular risk factors in patients with ED and to inform urologists as well as other physicians who are not specialized in cardiology how to carry out a basic cardiovascular evaluation, including history, physical examination and objective data. We review the evidence and pathophysiology linking ED to cardiovascular disease, and then describe how to carry out a basic cardiovascular evaluation. We present data from the literature showing that appropriate use of lifestyle modifications and medical therapy has a positive effect on mortality, on numerous cardiovascular end points and on ED. Suggestions of when to refer the ED patient to an internist or cardiologist are provided.",
+      "target": "Identifying and treating cardiovascular risk factors may not only benefit the patient's ED, but it might also save the patient's life.",
+      "loss_target": 2.6175897121429443,
+      "loss_target_given_context": 1.2569708824157715,
+      "delta_loss": 1.3606188297271729,
+      "gain_ratio": 0.519798356257014,
+      "score": -0.519798356257014,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,39 @@
+{
+  "experiment_role": "strict_vs_aligned_boundary_score_comparison",
+  "n_common": 446,
+  "spearman_all": 0.9202904853194378,
+  "pearson_all": 0.9141232547773483,
+  "mean_absolute_score_change": 0.1848352728189507,
+  "score_sign_flip_count": 144,
+  "top_overlap": [
+    {
+      "fraction": 0.01,
+      "k": 5,
+      "intersection": 2,
+      "overlap_over_k": 0.4,
+      "jaccard": 0.25
+    },
+    {
+      "fraction": 0.05,
+      "k": 23,
+      "intersection": 11,
+      "overlap_over_k": 0.4782608695652174,
+      "jaccard": 0.3142857142857143
+    },
+    {
+      "fraction": 0.1,
+      "k": 45,
+      "intersection": 27,
+      "overlap_over_k": 0.6,
+      "jaccard": 0.42857142857142855
+    },
+    {
+      "fraction": 0.2,
+      "k": 90,
+      "intersection": 66,
+      "overlap_over_k": 0.7333333333333333,
+      "jaccard": 0.5789473684210527
+    }
+  ],
+  "note": "This comparison concerns the 446-record boundary dataset only. It is not an end-to-end E2 WSN result."
+}

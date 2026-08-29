@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3100",
+  "source_doc_id": "MED-3100",
+  "title": "Flavones and flavonols at dietary levels inhibit a transformation of aryl hydrocarbon receptor induced by dioxin.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Flavones and flavonols at dietary levels inhibit a transformation of aryl hydrocarbon receptor induced by dioxin.\nDioxins invade the body mainly through the diet, and produce toxicity through the transformation of aryl hydrocarbon receptor (AhR). An inhibitor of the transformation should therefore protect against the toxicity and ideally be part of the diet. We examined flavonoids ubiquitously expressed in plant foods as one of the best candidates, and found that the subclasses flavones and flavonols suppressed antagonistically the transformation of AhR induced by 1 nM of 2,3,7,8-tetrachlorodibenzo-p-dioxin, without exhibiting agonistic effects that transform AhR. The antagonistic IC(50) values ranged from 0.14 to 10 microM, close to the physiological levels in human.",
+  "sanitized_text": "Flavones and flavonols at dietary levels inhibit a transformation of aryl hydrocarbon receptor induced by dioxin.\nDioxins invade the body mainly through the diet, and produce toxicity through the transformation of aryl hydrocarbon receptor (AhR). An inhibitor of the transformation should therefore protect against the toxicity and ideally be part of the diet. We examined flavonoids ubiquitously expressed in plant foods as one of the best candidates, and found that the subclasses flavones and flavonols suppressed antagonistically the transformation of AhR induced by 1 nM of 2,3,7,8-tetrachlorodibenzo-p-dioxin, without exhibiting agonistic effects that transform AhR. The antagonistic IC(50) values ranged from 0.14 to 10 microM, close to the physiological levels in human.",
+  "modified": false,
+  "original_char_count": 778,
+  "sanitized_char_count": 778,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 673,
+      "boundary_end": 778,
+      "context": "Flavones and flavonols at dietary levels inhibit a transformation of aryl hydrocarbon receptor induced by dioxin. Dioxins invade the body mainly through the diet, and produce toxicity through the transformation of aryl hydrocarbon receptor (AhR). An inhibitor of the transformation should therefore protect against the toxicity and ideally be part of the diet. We examined flavonoids ubiquitously expressed in plant foods as one of the best candidates, and found that the subclasses flavones and flavonols suppressed antagonistically the transformation of AhR induced by 1 nM of 2,3,7,8-tetrachlorodibenzo-p-dioxin, without exhibiting agonistic effects that transform AhR.",
+      "target": "The antagonistic IC(50) values ranged from 0.14 to 10 microM, close to the physiological levels in human.",
+      "loss_target": 2.9136605262756348,
+      "loss_target_given_context": 2.0766873359680176,
+      "delta_loss": 0.8369731903076172,
+      "gain_ratio": 0.2872583071225089,
+      "score": -0.2872583071225089,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

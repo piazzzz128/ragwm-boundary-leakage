@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2328",
+  "source_doc_id": "MED-2328",
+  "title": "Treating aging: progress toward dietary restriction mimetics",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Treating aging: progress toward dietary restriction mimetics\nDuring the last decade, biogerontologists have labored to understand the biological basis of the aging process by studying the genes and signaling pathways that regulate it. But the last year has seen a breakthrough in a different direction: toward treatments that might slow aging by mimicking the effects of dietary restriction.",
+  "sanitized_text": "Treating aging: progress toward dietary restriction mimetics\nDuring the last decade, biogerontologists have labored to understand the biological basis of the aging process by studying the genes and signaling pathways that regulate it. But the last year has seen a breakthrough in a different direction: toward treatments that might slow aging by mimicking the effects of dietary restriction.",
+  "modified": false,
+  "original_char_count": 391,
+  "sanitized_char_count": 391,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 235,
+      "boundary_end": 391,
+      "context": "Treating aging: progress toward dietary restriction mimetics During the last decade, biogerontologists have labored to understand the biological basis of the aging process by studying the genes and signaling pathways that regulate it.",
+      "target": "But the last year has seen a breakthrough in a different direction: toward treatments that might slow aging by mimicking the effects of dietary restriction.",
+      "loss_target": 2.787236213684082,
+      "loss_target_given_context": 1.9228196144104004,
+      "delta_loss": 0.8644165992736816,
+      "gain_ratio": 0.3101339581589042,
+      "score": -0.3101339581589042,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

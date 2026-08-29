@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1581",
+  "source_doc_id": "MED-1581",
+  "title": "When can we cure Crohn's?",
+  "original_text": "When can we cure Crohn's?\nCrohn's disease is a life-long idiopathic inflammatory disease which affects the entire gastrointestinal tract and occasionally extra-intestinal organs. CD is thought to result from complex interactions between environmental factors, the gut microbes, and the genetic background and the immune system of the host. In the last decades research on these pathogenetic components, and especially on mucosal immunity, has led to the development of biologic agents and therapeutic strategies that have improved dramatically the treatment of CD but we are still far away from curing the disease. If there is a treatment for CD that will probably evolve through methodical steps towards integrating research on all the components involved in the pathogenesis of CD. This holistic and global approach may aid at unravelling the mysteries of CD and developing novel agents and therapeutic strategies which by targeting multiple pathogenetic pathways and at different stages of disease may lead hopefully to cure. Copyright © 2014 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "When can we cure Crohn's?\nCrohn's disease is a life-long idiopathic inflammatory disease which affects the entire gastrointestinal tract and occasionally extra-intestinal organs. CD is thought to result from complex interactions between environmental factors, the gut microbes, and the genetic background and the immune system of the host. In the last decades research on these pathogenetic components, and especially on mucosal immunity, has led to the development of biologic agents and therapeutic strategies that have improved dramatically the treatment of CD but we are still far away from curing the disease. If there is a treatment for CD that will probably evolve through methodical steps towards integrating research on all the components involved in the pathogenesis of CD. This holistic and global approach may aid at unravelling the mysteries of CD and developing novel agents and therapeutic strategies which by targeting multiple pathogenetic pathways and at different stages of disease may lead hopefully to cure.",
+  "modified": true,
+  "original_char_count": 1080,
+  "sanitized_char_count": 1028,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1029,
+      "boundary_end": 1059,
+      "context": "When can we cure Crohn's? Crohn's disease is a life-long idiopathic inflammatory disease which affects the entire gastrointestinal tract and occasionally extra-intestinal organs. CD is thought to result from complex interactions between environmental factors, the gut microbes, and the genetic background and the immune system of the host. In the last decades research on these pathogenetic components, and especially on mucosal immunity, has led to the development of biologic agents and therapeutic strategies that have improved dramatically the treatment of CD but we are still far away from curing the disease. If there is a treatment for CD that will probably evolve through methodical steps towards integrating research on all the components involved in the pathogenesis of CD. This holistic and global approach may aid at unravelling the mysteries of CD and developing novel agents and therapeutic strategies which by targeting multiple pathogenetic pathways and at different stages of disease may lead hopefully to cure.",
+      "target": "Copyright © 2014 Elsevier Ltd.",
+      "loss_target": 1.183166742324829,
+      "loss_target_given_context": 1.5733706951141357,
+      "delta_loss": -0.39020395278930664,
+      "gain_ratio": -0.329796248348383,
+      "score": 0.329796248348383,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 784,
+      "boundary_end": 1028,
+      "context": "When can we cure Crohn's? Crohn's disease is a life-long idiopathic inflammatory disease which affects the entire gastrointestinal tract and occasionally extra-intestinal organs. CD is thought to result from complex interactions between environmental factors, the gut microbes, and the genetic background and the immune system of the host. In the last decades research on these pathogenetic components, and especially on mucosal immunity, has led to the development of biologic agents and therapeutic strategies that have improved dramatically the treatment of CD but we are still far away from curing the disease. If there is a treatment for CD that will probably evolve through methodical steps towards integrating research on all the components involved in the pathogenesis of CD.",
+      "target": "This holistic and global approach may aid at unravelling the mysteries of CD and developing novel agents and therapeutic strategies which by targeting multiple pathogenetic pathways and at different stages of disease may lead hopefully to cure.",
+      "loss_target": 3.8711740970611572,
+      "loss_target_given_context": 3.0895426273345947,
+      "delta_loss": 0.7816314697265625,
+      "gain_ratio": 0.20191069947485604,
+      "score": -0.20191069947485604,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1029,
+      "target": "Copyright © 2014 Elsevier Ltd.",
+      "score": 0.329796248348383,
+      "deleted_suffix": "Copyright © 2014 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

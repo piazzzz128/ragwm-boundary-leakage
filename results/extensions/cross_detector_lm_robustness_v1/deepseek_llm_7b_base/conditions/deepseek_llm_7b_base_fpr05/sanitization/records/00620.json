@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1744",
+  "source_doc_id": "MED-1744",
+  "title": "Property rights and genetic engineering: developing nations at risk.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Property rights and genetic engineering: developing nations at risk.\nEighty percent of (commercial) genetically engineered seeds (GES) are designed only to resist herbicides. Letting farmers use more chemicals, they cut labor costs. But developing nations say GES cause food shortages, unemployment, resistant weeds, and extinction of native cultivars when \"volunteers\" drift nearby. While GES patents are reasonable, this paper argues many patent policies are not. The paper surveys GE technology, outlines John Locke's classic account of property rights, and argues that current patent policies must be revised to take account of Lockean ethical constraints. After answering a key objection, it provides concrete suggestions for implementing its ethical conclusions.",
+  "sanitized_text": "Property rights and genetic engineering: developing nations at risk.\nEighty percent of (commercial) genetically engineered seeds (GES) are designed only to resist herbicides. Letting farmers use more chemicals, they cut labor costs. But developing nations say GES cause food shortages, unemployment, resistant weeds, and extinction of native cultivars when \"volunteers\" drift nearby. While GES patents are reasonable, this paper argues many patent policies are not. The paper surveys GE technology, outlines John Locke's classic account of property rights, and argues that current patent policies must be revised to take account of Lockean ethical constraints. After answering a key objection, it provides concrete suggestions for implementing its ethical conclusions.",
+  "modified": false,
+  "original_char_count": 768,
+  "sanitized_char_count": 768,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 661,
+      "boundary_end": 768,
+      "context": "Property rights and genetic engineering: developing nations at risk. Eighty percent of (commercial) genetically engineered seeds (GES) are designed only to resist herbicides. Letting farmers use more chemicals, they cut labor costs. But developing nations say GES cause food shortages, unemployment, resistant weeds, and extinction of native cultivars when \"volunteers\" drift nearby. While GES patents are reasonable, this paper argues many patent policies are not. The paper surveys GE technology, outlines John Locke's classic account of property rights, and argues that current patent policies must be revised to take account of Lockean ethical constraints.",
+      "target": "After answering a key objection, it provides concrete suggestions for implementing its ethical conclusions.",
+      "loss_target": 4.938570499420166,
+      "loss_target_given_context": 3.4036898612976074,
+      "delta_loss": 1.5348806381225586,
+      "gain_ratio": 0.3107945180296136,
+      "score": -0.3107945180296136,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

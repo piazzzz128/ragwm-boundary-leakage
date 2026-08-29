@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1578",
+  "source_doc_id": "MED-1578",
+  "title": "Dietary clues to the pathogenesis of Crohn's disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary clues to the pathogenesis of Crohn's disease.\nCrohn's disease is a complex inherited disorder of unknown pathogenesis with environmental, genetic and microbial factors involved in the development of the disease. A remarkable feature of this disease in childhood is the effective response to exclusive enteral nutrition (EEN) therapy and the need for complete exclusion of normal diet required for success (principle of exclusivity). EEN or dietary interventions might act through removal of dietary components, which affect microbial composition, decrease a proinflammatory response and promote restitution of the epithelial barrier, likewise allowing termination of this vicious disease-forming cycle before a critical threshold is reached. Multiple traditional and nontraditional dietary components may affect the microbiome, mucous layer, intestinal permeability, or adherence and translocation of pathobionts. We review the epidemiological data, as well as data from animal models and cell lines, and propose a model for pathogenesis we have termed the 'bacterial penetration cycle', whereby dietary components such as animal fat, high sugar intake and gliadin, and consumption of emulsifiers, maltodextrin as well as low-fiber diets may be able to cause a localized acquired bacterial clearance defect, leading to bacterial adhesion and penetration, and subsequently inflammation in the gut. © 2014 S. Karger AG, Basel.",
+  "sanitized_text": "Dietary clues to the pathogenesis of Crohn's disease.\nCrohn's disease is a complex inherited disorder of unknown pathogenesis with environmental, genetic and microbial factors involved in the development of the disease. A remarkable feature of this disease in childhood is the effective response to exclusive enteral nutrition (EEN) therapy and the need for complete exclusion of normal diet required for success (principle of exclusivity). EEN or dietary interventions might act through removal of dietary components, which affect microbial composition, decrease a proinflammatory response and promote restitution of the epithelial barrier, likewise allowing termination of this vicious disease-forming cycle before a critical threshold is reached. Multiple traditional and nontraditional dietary components may affect the microbiome, mucous layer, intestinal permeability, or adherence and translocation of pathobionts.",
+  "modified": true,
+  "original_char_count": 1432,
+  "sanitized_char_count": 921,
+  "deleted_char_count": 511,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 922,
+      "boundary_end": 1404,
+      "context": "Dietary clues to the pathogenesis of Crohn's disease. Crohn's disease is a complex inherited disorder of unknown pathogenesis with environmental, genetic and microbial factors involved in the development of the disease. A remarkable feature of this disease in childhood is the effective response to exclusive enteral nutrition (EEN) therapy and the need for complete exclusion of normal diet required for success (principle of exclusivity). EEN or dietary interventions might act through removal of dietary components, which affect microbial composition, decrease a proinflammatory response and promote restitution of the epithelial barrier, likewise allowing termination of this vicious disease-forming cycle before a critical threshold is reached. Multiple traditional and nontraditional dietary components may affect the microbiome, mucous layer, intestinal permeability, or adherence and translocation of pathobionts.",
+      "target": "We review the epidemiological data, as well as data from animal models and cell lines, and propose a model for pathogenesis we have termed the 'bacterial penetration cycle', whereby dietary components such as animal fat, high sugar intake and gliadin, and consumption of emulsifiers, maltodextrin as well as low-fiber diets may be able to cause a localized acquired bacterial clearance defect, leading to bacterial adhesion and penetration, and subsequently inflammation in the gut.",
+      "loss_target": 2.9458367824554443,
+      "loss_target_given_context": 2.538118362426758,
+      "delta_loss": 0.4077184200286865,
+      "gain_ratio": 0.13840495931646316,
+      "score": -0.13840495931646316,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 750,
+      "boundary_end": 921,
+      "context": "Dietary clues to the pathogenesis of Crohn's disease. Crohn's disease is a complex inherited disorder of unknown pathogenesis with environmental, genetic and microbial factors involved in the development of the disease. A remarkable feature of this disease in childhood is the effective response to exclusive enteral nutrition (EEN) therapy and the need for complete exclusion of normal diet required for success (principle of exclusivity). EEN or dietary interventions might act through removal of dietary components, which affect microbial composition, decrease a proinflammatory response and promote restitution of the epithelial barrier, likewise allowing termination of this vicious disease-forming cycle before a critical threshold is reached.",
+      "target": "Multiple traditional and nontraditional dietary components may affect the microbiome, mucous layer, intestinal permeability, or adherence and translocation of pathobionts.",
+      "loss_target": 2.9491262435913086,
+      "loss_target_given_context": 2.1292221546173096,
+      "delta_loss": 0.819904088973999,
+      "gain_ratio": 0.2780159346368157,
+      "score": -0.2780159346368157,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 922,
+      "target": "We review the epidemiological data, as well as data from animal models and cell lines, and propose a model for pathogenesis we have termed the 'bacterial penetration cycle', whereby dietary components such as animal fat, high sugar intake and gliadin, and consumption of emulsifiers, maltodextrin as well as low-fiber diets may be able to cause a localized acquired bacterial clearance defect, leading to bacterial adhesion and penetration, and subsequently inflammation in the gut.",
+      "score": -0.13840495931646316,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "We review the epidemiological data, as well as data from animal models and cell lines, and propose a model for pathogenesis we have termed the 'bacterial penetration cycle', whereby dietary components such as animal fat, high sugar intake and gliadin, and consumption of emulsifiers, maltodextrin as well as low-fiber diets may be able to cause a localized acquired bacterial clearance defect, leading to bacterial adhesion and penetration, and subsequently inflammation in the gut. © 2014 S. Karger AG, Basel.",
+      "deleted_char_count": 510
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2898",
+  "source_doc_id": "MED-2898",
+  "title": "Macular pigment and risk for age-related macular degeneration in subjects from a Northern European population.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Macular pigment and risk for age-related macular degeneration in subjects from a Northern European population.\nPURPOSE: Age and advanced disease in the fellow eye are the two most important risk factors for age-related macular degeneration (AMD). In this study, the authors investigated the relationship between these variables and the optical density of macular pigment (MP) in a group of subjects from a northern European population. METHODS: The optical density of MP was measured psychophysically in 46 subjects ranging in age from 21 to 81 years with healthy maculae and in 9 healthy eyes known to be at high-risk of AMD because of advanced disease in the fellow eye. Each eye in the latter group was matched with a control eye on the basis of variables believed to be associated with the optical density of MP (iris color, gender, smoking habits, age, and lens density). RESULTS: There was an age-related decline in the optical density of macular pigment among volunteers with no ocular disease (right eye: r(2) = 0.29, P = 0.0006; left eye: r(2) = 0.29, P < 0.0001). Healthy eyes predisposed to AMD had significantly less MP than healthy eyes at no such risk (Wilcoxon's signed rank test: P = 0.015). CONCLUSIONS: The two most important risk factors for AMD are associated with a relative absence of MP. These findings are consistent with the hypothesis that supplemental lutein and zeaxanthin may delay, avert, or modify the course of this disease.",
+  "sanitized_text": "Macular pigment and risk for age-related macular degeneration in subjects from a Northern European population.\nPURPOSE: Age and advanced disease in the fellow eye are the two most important risk factors for age-related macular degeneration (AMD). In this study, the authors investigated the relationship between these variables and the optical density of macular pigment (MP) in a group of subjects from a northern European population. METHODS: The optical density of MP was measured psychophysically in 46 subjects ranging in age from 21 to 81 years with healthy maculae and in 9 healthy eyes known to be at high-risk of AMD because of advanced disease in the fellow eye. Each eye in the latter group was matched with a control eye on the basis of variables believed to be associated with the optical density of MP (iris color, gender, smoking habits, age, and lens density). RESULTS: There was an age-related decline in the optical density of macular pigment among volunteers with no ocular disease (right eye: r(2) = 0.29, P = 0.0006; left eye: r(2) = 0.29, P < 0.0001). Healthy eyes predisposed to AMD had significantly less MP than healthy eyes at no such risk (Wilcoxon's signed rank test: P = 0.015). CONCLUSIONS: The two most important risk factors for AMD are associated with a relative absence of MP. These findings are consistent with the hypothesis that supplemental lutein and zeaxanthin may delay, avert, or modify the course of this disease.",
+  "modified": false,
+  "original_char_count": 1456,
+  "sanitized_char_count": 1456,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1311,
+      "boundary_end": 1456,
+      "context": "PURPOSE: Age and advanced disease in the fellow eye are the two most important risk factors for age-related macular degeneration (AMD). In this study, the authors investigated the relationship between these variables and the optical density of macular pigment (MP) in a group of subjects from a northern European population. METHODS: The optical density of MP was measured psychophysically in 46 subjects ranging in age from 21 to 81 years with healthy maculae and in 9 healthy eyes known to be at high-risk of AMD because of advanced disease in the fellow eye. Each eye in the latter group was matched with a control eye on the basis of variables believed to be associated with the optical density of MP (iris color, gender, smoking habits, age, and lens density). RESULTS: There was an age-related decline in the optical density of macular pigment among volunteers with no ocular disease (right eye: r(2) = 0.29, P = 0.0006; left eye: r(2) = 0.29, P < 0.0001). Healthy eyes predisposed to AMD had significantly less MP than healthy eyes at no such risk (Wilcoxon's signed rank test: P = 0.015). CONCLUSIONS: The two most important risk factors for AMD are associated with a relative absence of MP.",
+      "target": "These findings are consistent with the hypothesis that supplemental lutein and zeaxanthin may delay, avert, or modify the course of this disease.",
+      "loss_target": 2.469264507293701,
+      "loss_target_given_context": 1.7209138870239258,
+      "delta_loss": 0.7483506202697754,
+      "gain_ratio": 0.30306620374581217,
+      "score": -0.30306620374581217,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

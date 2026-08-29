@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2763",
+  "source_doc_id": "MED-2763",
+  "title": "Facing the facelessness of public health: what's the public got to do with it?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Facing the facelessness of public health: what's the public got to do with it?\nDespite compelling statistics that show we could eliminate 80%of all heart disease and strokes, 90% of all diabetes, and 60% of all cancers with basic lifestyle changes, we have failed to motivate the public to make these changes and failed to motivate policy makers to make healthy choices the easiest choice. Dr. Katz suggests we have failed because we have focused too much on statistics and too little on passion. He implores all of us to tap into people's passion by connecting each of these statistics with a human story.",
+  "sanitized_text": "Facing the facelessness of public health: what's the public got to do with it?\nDespite compelling statistics that show we could eliminate 80%of all heart disease and strokes, 90% of all diabetes, and 60% of all cancers with basic lifestyle changes, we have failed to motivate the public to make these changes and failed to motivate policy makers to make healthy choices the easiest choice. Dr. Katz suggests we have failed because we have focused too much on statistics and too little on passion. He implores all of us to tap into people's passion by connecting each of these statistics with a human story.",
+  "modified": false,
+  "original_char_count": 606,
+  "sanitized_char_count": 606,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 497,
+      "boundary_end": 606,
+      "context": "Facing the facelessness of public health: what's the public got to do with it? Despite compelling statistics that show we could eliminate 80%of all heart disease and strokes, 90% of all diabetes, and 60% of all cancers with basic lifestyle changes, we have failed to motivate the public to make these changes and failed to motivate policy makers to make healthy choices the easiest choice. Dr. Katz suggests we have failed because we have focused too much on statistics and too little on passion.",
+      "target": "He implores all of us to tap into people's passion by connecting each of these statistics with a human story.",
+      "loss_target": 3.6592938899993896,
+      "loss_target_given_context": 2.1537740230560303,
+      "delta_loss": 1.5055198669433594,
+      "gain_ratio": 0.4114236003448224,
+      "score": -0.4114236003448224,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2525",
+  "source_doc_id": "MED-2525",
+  "title": "A global survey of physicians' perceptions on cholesterol management: the From The Heart study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A global survey of physicians' perceptions on cholesterol management: the From The Heart study.\nAIMS: Guidelines for cardiovascular disease (CVD) prevention cite high levels of low-density lipoprotein cholesterol (LDL-C) as a major risk factor and recommend LDL-C goals for various risk groups. Lifestyle changes are advised as first-line treatment for patients with high cholesterol, and statins are recommended in high-risk patients. The From The Heart study investigated current practice for the diagnosis and treatment of high cholesterol, and attitudes towards management of the condition. METHODS: Physicians were randomly selected from 10 countries, and completed a confidential, semi-structured questionnaire. RESULTS: Of 2790 physicians agreeing to participate, 750 (27%) responded. Physicians rated CVD as the leading cause of death, although physicians (80%) perceived that cancer was the most feared illness among patients. Physicians (71%) believed smoking to be the greatest CVD risk factor, while only 50% thought high cholesterol was the greatest risk. Most physicians (81%) used guidelines to set cholesterol goals, primarily their national guidelines (34%) or the National Cholesterol Education Program Adult Treatment Panel III guidelines (24%). Although only 47% of patients reached and maintained their cholesterol goals, 61% of physicians believed that a sufficient number of patients achieved goals, and 53% did not feel frustrated that they could not always effectively treat patients with CVD. CONCLUSION: Results indicate discrepancies between guideline recommendations and clinical practice. Although physicians appreciate the risk of CVD, the importance of achieving healthy cholesterol levels for CVD prevention does not seem to be widely endorsed. There is a need for improved communication regarding the importance of cholesterol lowering and investigation of initiatives to improve goal achievement among physicians.",
+  "sanitized_text": "A global survey of physicians' perceptions on cholesterol management: the From The Heart study.\nAIMS: Guidelines for cardiovascular disease (CVD) prevention cite high levels of low-density lipoprotein cholesterol (LDL-C) as a major risk factor and recommend LDL-C goals for various risk groups. Lifestyle changes are advised as first-line treatment for patients with high cholesterol, and statins are recommended in high-risk patients. The From The Heart study investigated current practice for the diagnosis and treatment of high cholesterol, and attitudes towards management of the condition. METHODS: Physicians were randomly selected from 10 countries, and completed a confidential, semi-structured questionnaire. RESULTS: Of 2790 physicians agreeing to participate, 750 (27%) responded. Physicians rated CVD as the leading cause of death, although physicians (80%) perceived that cancer was the most feared illness among patients. Physicians (71%) believed smoking to be the greatest CVD risk factor, while only 50% thought high cholesterol was the greatest risk. Most physicians (81%) used guidelines to set cholesterol goals, primarily their national guidelines (34%) or the National Cholesterol Education Program Adult Treatment Panel III guidelines (24%). Although only 47% of patients reached and maintained their cholesterol goals, 61% of physicians believed that a sufficient number of patients achieved goals, and 53% did not feel frustrated that they could not always effectively treat patients with CVD. CONCLUSION: Results indicate discrepancies between guideline recommendations and clinical practice. Although physicians appreciate the risk of CVD, the importance of achieving healthy cholesterol levels for CVD prevention does not seem to be widely endorsed. There is a need for improved communication regarding the importance of cholesterol lowering and investigation of initiatives to improve goal achievement among physicians.",
+  "modified": false,
+  "original_char_count": 1948,
+  "sanitized_char_count": 1948,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1778,
+      "boundary_end": 1948,
+      "context": "the condition. METHODS: Physicians were randomly selected from 10 countries, and completed a confidential, semi-structured questionnaire. RESULTS: Of 2790 physicians agreeing to participate, 750 (27%) responded. Physicians rated CVD as the leading cause of death, although physicians (80%) perceived that cancer was the most feared illness among patients. Physicians (71%) believed smoking to be the greatest CVD risk factor, while only 50% thought high cholesterol was the greatest risk. Most physicians (81%) used guidelines to set cholesterol goals, primarily their national guidelines (34%) or the National Cholesterol Education Program Adult Treatment Panel III guidelines (24%). Although only 47% of patients reached and maintained their cholesterol goals, 61% of physicians believed that a sufficient number of patients achieved goals, and 53% did not feel frustrated that they could not always effectively treat patients with CVD. CONCLUSION: Results indicate discrepancies between guideline recommendations and clinical practice. Although physicians appreciate the risk of CVD, the importance of achieving healthy cholesterol levels for CVD prevention does not seem to be widely endorsed.",
+      "target": "There is a need for improved communication regarding the importance of cholesterol lowering and investigation of initiatives to improve goal achievement among physicians.",
+      "loss_target": 3.8429369926452637,
+      "loss_target_given_context": 2.265444278717041,
+      "delta_loss": 1.5774927139282227,
+      "gain_ratio": 0.41049143323121845,
+      "score": -0.41049143323121845,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

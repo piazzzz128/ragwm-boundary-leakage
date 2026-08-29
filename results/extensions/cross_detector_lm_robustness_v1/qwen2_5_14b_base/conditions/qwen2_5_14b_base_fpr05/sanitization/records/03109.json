@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5045",
+  "source_doc_id": "MED-5045",
+  "title": "Suppressive Effects of Selected Food Phytochemicals on CD74 Expression in NCI-N87 Gastric Carcinoma Cells",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Suppressive Effects of Selected Food Phytochemicals on CD74 Expression in NCI-N87 Gastric Carcinoma Cells\nHelicobacter pylori (H. pylori) is one of the most widespread human pathogens, and plays major roles in chronic gastritis and gastric cancer. CD74 of gastric epithelial cells has recently been identified as an adhesion molecule to urease in H. pylori. In this study, we found that CD74 is highly expressed in a constitutive manner in NCI-N87 human gastric carcinoma cells at both the protein and mRNA levels as compared with Hs738St./Int fetal gastric cells. Subsequently, a novel cell-based ELISA able to rapidly screen the suppressive agents of CD74 expression was established. NCI-N87 cells were treated separately with 25 different food phytochemicals (4–100 µM) for 48 h and subjected to our novel assay. From those results, a citrus coumarin, bergamottin, was indicated to be the most promising compound with an LC50/IC50 value greater than 7.1, followed by luteolin (>5.4), nobiletin (>5.3), and quercetin (>5.1). Our findings suggest that these CD74 suppressants are unique candidates for preventing H. pylori adhesion and subsequent infection with reasonable action mechanisms.",
+  "sanitized_text": "Suppressive Effects of Selected Food Phytochemicals on CD74 Expression in NCI-N87 Gastric Carcinoma Cells\nHelicobacter pylori (H. pylori) is one of the most widespread human pathogens, and plays major roles in chronic gastritis and gastric cancer. CD74 of gastric epithelial cells has recently been identified as an adhesion molecule to urease in H. pylori. In this study, we found that CD74 is highly expressed in a constitutive manner in NCI-N87 human gastric carcinoma cells at both the protein and mRNA levels as compared with Hs738St./Int fetal gastric cells. Subsequently, a novel cell-based ELISA able to rapidly screen the suppressive agents of CD74 expression was established. NCI-N87 cells were treated separately with 25 different food phytochemicals (4–100 µM) for 48 h and subjected to our novel assay. From those results, a citrus coumarin, bergamottin, was indicated to be the most promising compound with an LC50/IC50 value greater than 7.1, followed by luteolin (>5.4), nobiletin (>5.3), and quercetin (>5.1). Our findings suggest that these CD74 suppressants are unique candidates for preventing H. pylori adhesion and subsequent infection with reasonable action mechanisms.",
+  "modified": false,
+  "original_char_count": 1192,
+  "sanitized_char_count": 1192,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1117,
+      "boundary_end": 1192,
+      "context": "Suppressive Effects of Selected Food Phytochemicals on CD74 Expression in NCI-N87 Gastric Carcinoma Cells Helicobacter pylori (H. pylori) is one of the most widespread human pathogens, and plays major roles in chronic gastritis and gastric cancer. CD74 of gastric epithelial cells has recently been identified as an adhesion molecule to urease in H. pylori. In this study, we found that CD74 is highly expressed in a constitutive manner in NCI-N87 human gastric carcinoma cells at both the protein and mRNA levels as compared with Hs738St./Int fetal gastric cells. Subsequently, a novel cell-based ELISA able to rapidly screen the suppressive agents of CD74 expression was established. NCI-N87 cells were treated separately with 25 different food phytochemicals (4–100 µM) for 48 h and subjected to our novel assay. From those results, a citrus coumarin, bergamottin, was indicated to be the most promising compound with an LC50/IC50 value greater than 7.1, followed by luteolin (>5.4), nobiletin (>5.3), and quercetin (>5.1). Our findings suggest that these CD74 suppressants are unique candidates for preventing H.",
+      "target": "pylori adhesion and subsequent infection with reasonable action mechanisms.",
+      "loss_target": 5.298689842224121,
+      "loss_target_given_context": 2.8730173110961914,
+      "delta_loss": 2.4256725311279297,
+      "gain_ratio": 0.457787227287445,
+      "score": -0.457787227287445,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

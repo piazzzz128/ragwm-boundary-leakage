@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4930",
+  "source_doc_id": "MED-4930",
+  "title": "Potential liver damage associated with over-the-counter vitamin supplements.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Potential liver damage associated with over-the-counter vitamin supplements.\nThe growing popularity and availability of over-the-counter (OTC) health products, including vitamins, raises serious concern about vitamin toxicity. We report a case of cirrhosis in a patient with habitual daily ingestion of an OTC dietary supplement that contained 13,000 microg vitamin A and was associated with marked clinical improvement after discontinuation. This case highlights the potential for liver damage that may be associated with long-term intake of OTC vitamin supplements, and indicates the need for medical supervision of such products.",
+  "sanitized_text": "Potential liver damage associated with over-the-counter vitamin supplements.\nThe growing popularity and availability of over-the-counter (OTC) health products, including vitamins, raises serious concern about vitamin toxicity. We report a case of cirrhosis in a patient with habitual daily ingestion of an OTC dietary supplement that contained 13,000 microg vitamin A and was associated with marked clinical improvement after discontinuation. This case highlights the potential for liver damage that may be associated with long-term intake of OTC vitamin supplements, and indicates the need for medical supervision of such products.",
+  "modified": false,
+  "original_char_count": 632,
+  "sanitized_char_count": 632,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 443,
+      "boundary_end": 632,
+      "context": "Potential liver damage associated with over-the-counter vitamin supplements. The growing popularity and availability of over-the-counter (OTC) health products, including vitamins, raises serious concern about vitamin toxicity. We report a case of cirrhosis in a patient with habitual daily ingestion of an OTC dietary supplement that contained 13,000 microg vitamin A and was associated with marked clinical improvement after discontinuation.",
+      "target": "This case highlights the potential for liver damage that may be associated with long-term intake of OTC vitamin supplements, and indicates the need for medical supervision of such products.",
+      "loss_target": 2.7141594886779785,
+      "loss_target_given_context": 1.53981351852417,
+      "delta_loss": 1.1743459701538086,
+      "gain_ratio": 0.43267389961885133,
+      "score": -0.43267389961885133,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3490",
+  "source_doc_id": "MED-3490",
+  "title": "Science in Liquid Dietary Supplement Promotion: The Misleading Case of Mangosteen Juice",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Science in Liquid Dietary Supplement Promotion: The Misleading Case of Mangosteen Juice\nLiquid dietary supplements represent a fast growing market segment, including botanically-based beverages containing mangosteen, acai, and noni. These products often resemble fruit juice in packaging and appearance, but may contain pharmacologically active ingredients. While little is known about the human health effects or safety of consuming such products, manufacturers make extensive use of low-quality published research to promote their products. This report analyzes the science-based marketing claims of two of the most widely consumed mangosteen liquid dietary supplements, and compares them to the findings of the research being cited. The reviewer found that analyzed marketing claims overstate the significance of findings, and fail to disclose severe methodological weaknesses of the research they cite. If this trend extends to other related products that are similarly widely consumed, it may pose a public health threat by misleading consumers into assuming that product safety and effectiveness are backed by rigorous scientific data.",
+  "sanitized_text": "Science in Liquid Dietary Supplement Promotion: The Misleading Case of Mangosteen Juice\nLiquid dietary supplements represent a fast growing market segment, including botanically-based beverages containing mangosteen, acai, and noni. These products often resemble fruit juice in packaging and appearance, but may contain pharmacologically active ingredients. While little is known about the human health effects or safety of consuming such products, manufacturers make extensive use of low-quality published research to promote their products. This report analyzes the science-based marketing claims of two of the most widely consumed mangosteen liquid dietary supplements, and compares them to the findings of the research being cited. The reviewer found that analyzed marketing claims overstate the significance of findings, and fail to disclose severe methodological weaknesses of the research they cite. If this trend extends to other related products that are similarly widely consumed, it may pose a public health threat by misleading consumers into assuming that product safety and effectiveness are backed by rigorous scientific data.",
+  "modified": false,
+  "original_char_count": 1141,
+  "sanitized_char_count": 1141,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 907,
+      "boundary_end": 1141,
+      "context": "Science in Liquid Dietary Supplement Promotion: The Misleading Case of Mangosteen Juice Liquid dietary supplements represent a fast growing market segment, including botanically-based beverages containing mangosteen, acai, and noni. These products often resemble fruit juice in packaging and appearance, but may contain pharmacologically active ingredients. While little is known about the human health effects or safety of consuming such products, manufacturers make extensive use of low-quality published research to promote their products. This report analyzes the science-based marketing claims of two of the most widely consumed mangosteen liquid dietary supplements, and compares them to the findings of the research being cited. The reviewer found that analyzed marketing claims overstate the significance of findings, and fail to disclose severe methodological weaknesses of the research they cite.",
+      "target": "If this trend extends to other related products that are similarly widely consumed, it may pose a public health threat by misleading consumers into assuming that product safety and effectiveness are backed by rigorous scientific data.",
+      "loss_target": 3.390310287475586,
+      "loss_target_given_context": 2.2908380031585693,
+      "delta_loss": 1.0994722843170166,
+      "gain_ratio": 0.32429842435916983,
+      "score": -0.32429842435916983,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

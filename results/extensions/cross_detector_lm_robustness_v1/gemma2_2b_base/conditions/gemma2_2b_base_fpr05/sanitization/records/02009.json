@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3696",
+  "source_doc_id": "MED-3696",
+  "title": "Alcohol consumption and breast cancer risk in the Women's Health Study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Alcohol consumption and breast cancer risk in the Women's Health Study.\nThe authors assessed the association between moderate alcohol consumption and breast cancer risk in the Women's Health Study (United States, 1992-2004). During an average of 10 years of follow-up, 1,484 cases of total breast cancer (1,190 invasive and 294 in situ) were documented among 38,454 women who, at baseline, were free of cancer and cardiovascular disease and provided detailed dietary information, including alcohol consumption, for the preceding 12 months. Higher alcohol consumption was associated with a modest increase in breast cancer risk; the multivariable relative risks for > or =30 g/day of alcohol vs. none were 1.32 (95% confidence interval (CI): 0.96, 1.82) for total breast cancer and 1.43 (95% CI: 1.02, 2.02) for invasive breast cancer. An increased risk was limited to estrogen receptor (ER)- and progesterone receptor (PR)-positive tumors; the multivariable relative risks for an increment of 10 g/day of alcohol were 1.11 (95% CI: 1.03, 1.20) for ER+PR+ tumors (804 cases), 1.00 (95% CI: 0.81, 1.24) for ER+PR- tumors (125 cases), and 0.99 (95% CI: 0.82, 1.20) for ER-PR- tumors (167 cases). The association also seemed strongest among those taking postmenopausal hormones currently, but the test for interaction was not significant. The findings from this prospective study suggest that moderate alcohol consumption increases breast cancer risk.",
+  "sanitized_text": "Alcohol consumption and breast cancer risk in the Women's Health Study.\nThe authors assessed the association between moderate alcohol consumption and breast cancer risk in the Women's Health Study (United States, 1992-2004). During an average of 10 years of follow-up, 1,484 cases of total breast cancer (1,190 invasive and 294 in situ) were documented among 38,454 women who, at baseline, were free of cancer and cardiovascular disease and provided detailed dietary information, including alcohol consumption, for the preceding 12 months. Higher alcohol consumption was associated with a modest increase in breast cancer risk; the multivariable relative risks for > or =30 g/day of alcohol vs. none were 1.32 (95% confidence interval (CI): 0.96, 1.82) for total breast cancer and 1.43 (95% CI: 1.02, 2.02) for invasive breast cancer. An increased risk was limited to estrogen receptor (ER)- and progesterone receptor (PR)-positive tumors; the multivariable relative risks for an increment of 10 g/day of alcohol were 1.11 (95% CI: 1.03, 1.20) for ER+PR+ tumors (804 cases), 1.00 (95% CI: 0.81, 1.24) for ER+PR- tumors (125 cases), and 0.99 (95% CI: 0.82, 1.20) for ER-PR- tumors (167 cases). The association also seemed strongest among those taking postmenopausal hormones currently, but the test for interaction was not significant. The findings from this prospective study suggest that moderate alcohol consumption increases breast cancer risk.",
+  "modified": false,
+  "original_char_count": 1447,
+  "sanitized_char_count": 1447,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1335,
+      "boundary_end": 1447,
+      "context": "and breast cancer risk in the Women's Health Study (United States, 1992-2004). During an average of 10 years of follow-up, 1,484 cases of total breast cancer (1,190 invasive and 294 in situ) were documented among 38,454 women who, at baseline, were free of cancer and cardiovascular disease and provided detailed dietary information, including alcohol consumption, for the preceding 12 months. Higher alcohol consumption was associated with a modest increase in breast cancer risk; the multivariable relative risks for > or =30 g/day of alcohol vs. none were 1.32 (95% confidence interval (CI): 0.96, 1.82) for total breast cancer and 1.43 (95% CI: 1.02, 2.02) for invasive breast cancer. An increased risk was limited to estrogen receptor (ER)- and progesterone receptor (PR)-positive tumors; the multivariable relative risks for an increment of 10 g/day of alcohol were 1.11 (95% CI: 1.03, 1.20) for ER+PR+ tumors (804 cases), 1.00 (95% CI: 0.81, 1.24) for ER+PR- tumors (125 cases), and 0.99 (95% CI: 0.82, 1.20) for ER-PR- tumors (167 cases). The association also seemed strongest among those taking postmenopausal hormones currently, but the test for interaction was not significant.",
+      "target": "The findings from this prospective study suggest that moderate alcohol consumption increases breast cancer risk.",
+      "loss_target": 9.325457572937012,
+      "loss_target_given_context": 4.583086013793945,
+      "delta_loss": 4.742371559143066,
+      "gain_ratio": 0.5085403608403826,
+      "score": -0.5085403608403826,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

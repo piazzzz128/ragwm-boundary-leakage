@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-934",
+  "source_doc_id": "MED-934",
+  "title": "Prevalence of urinary stone disease in vegetarians.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Prevalence of urinary stone disease in vegetarians.\nA study was carried out to determine the effect of a low animal protein diet, such as taken by vegetarians, on the risk of urinary stone disease. A nation-wide survey of vegetarians in the UK showed that the prevalence of urinary stone formation is 40-60% of that predicted for a group of individuals taken from the general population and matched for age, sex and social class with the vegetarians. The findings support the hypothesis that a diet low in animal protein reduces the risk of urinary stone formation.",
+  "sanitized_text": "Prevalence of urinary stone disease in vegetarians.\nA study was carried out to determine the effect of a low animal protein diet, such as taken by vegetarians, on the risk of urinary stone disease. A nation-wide survey of vegetarians in the UK showed that the prevalence of urinary stone formation is 40-60% of that predicted for a group of individuals taken from the general population and matched for age, sex and social class with the vegetarians. The findings support the hypothesis that a diet low in animal protein reduces the risk of urinary stone formation.",
+  "modified": false,
+  "original_char_count": 565,
+  "sanitized_char_count": 565,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 451,
+      "boundary_end": 565,
+      "context": "Prevalence of urinary stone disease in vegetarians. A study was carried out to determine the effect of a low animal protein diet, such as taken by vegetarians, on the risk of urinary stone disease. A nation-wide survey of vegetarians in the UK showed that the prevalence of urinary stone formation is 40-60% of that predicted for a group of individuals taken from the general population and matched for age, sex and social class with the vegetarians.",
+      "target": "The findings support the hypothesis that a diet low in animal protein reduces the risk of urinary stone formation.",
+      "loss_target": 2.6860907077789307,
+      "loss_target_given_context": 0.9508643746376038,
+      "delta_loss": 1.735226333141327,
+      "gain_ratio": 0.646004369143642,
+      "score": -0.646004369143642,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

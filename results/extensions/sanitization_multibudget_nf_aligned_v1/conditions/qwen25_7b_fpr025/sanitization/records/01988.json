@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3674",
+  "source_doc_id": "MED-3674",
+  "title": "Gut feelings: the emerging biology of gut–brain communication",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Gut feelings: the emerging biology of gut–brain communication\nThe concept that the gut and the brain are closely connected, and that this interaction plays an important part not only in gastrointestinal function but also in certain feeling states and in intuitive decision making, is deeply rooted in our language. Recent neurobiological insights into this gut–brain crosstalk have revealed a complex, bidirectional communication system that not only ensures the proper maintenance of gastrointestinal homeostasis and digestion but is likely to have multiple effects on affect, motivation and higher cognitive functions, including intuitive decision making. Moreover, disturbances of this system have been implicated in a wide range of disorders, including functional and inflammatory gastrointestinal disorders, obesity and eating disorders.",
+  "sanitized_text": "Gut feelings: the emerging biology of gut–brain communication\nThe concept that the gut and the brain are closely connected, and that this interaction plays an important part not only in gastrointestinal function but also in certain feeling states and in intuitive decision making, is deeply rooted in our language. Recent neurobiological insights into this gut–brain crosstalk have revealed a complex, bidirectional communication system that not only ensures the proper maintenance of gastrointestinal homeostasis and digestion but is likely to have multiple effects on affect, motivation and higher cognitive functions, including intuitive decision making. Moreover, disturbances of this system have been implicated in a wide range of disorders, including functional and inflammatory gastrointestinal disorders, obesity and eating disorders.",
+  "modified": false,
+  "original_char_count": 842,
+  "sanitized_char_count": 842,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 658,
+      "boundary_end": 842,
+      "context": "Gut feelings: the emerging biology of gut–brain communication The concept that the gut and the brain are closely connected, and that this interaction plays an important part not only in gastrointestinal function but also in certain feeling states and in intuitive decision making, is deeply rooted in our language. Recent neurobiological insights into this gut–brain crosstalk have revealed a complex, bidirectional communication system that not only ensures the proper maintenance of gastrointestinal homeostasis and digestion but is likely to have multiple effects on affect, motivation and higher cognitive functions, including intuitive decision making.",
+      "target": "Moreover, disturbances of this system have been implicated in a wide range of disorders, including functional and inflammatory gastrointestinal disorders, obesity and eating disorders.",
+      "loss_target": 2.3349645137786865,
+      "loss_target_given_context": 1.219238042831421,
+      "delta_loss": 1.1157264709472656,
+      "gain_ratio": 0.4778344443195323,
+      "score": -0.4778344443195323,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

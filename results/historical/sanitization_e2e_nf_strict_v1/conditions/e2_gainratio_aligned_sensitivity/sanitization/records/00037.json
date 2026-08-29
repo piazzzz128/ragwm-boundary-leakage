@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1039",
+  "source_doc_id": "MED-1039",
+  "title": "Bowel obsession syndrome in a patient with ulcerative colitis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Bowel obsession syndrome in a patient with ulcerative colitis.\nGastroenterologists are often faced with the diagnostic problem of differentiating acute symptoms of ulcerative colitis from functional intestinal disorders. Bowel obsession syndrome (BOS) is an OCD-like, functional syndrome characterized by fear of fecal incontinence and compulsive behaviors of evacuation-checking. Only sparse case studies on treatment of BOS with antidepressants have been published. This is the first study on successful psychotherapy of a male patient with ulcerative colitis overlapping functional bowel symptoms and marked symptoms of BOS. Clinical recognition of BOS may help clinicians in differential diagnosis, prevent unnecessary investigations, and give patients the most appropriate treatment.",
+  "sanitized_text": "Bowel obsession syndrome in a patient with ulcerative colitis.\nGastroenterologists are often faced with the diagnostic problem of differentiating acute symptoms of ulcerative colitis from functional intestinal disorders. Bowel obsession syndrome (BOS) is an OCD-like, functional syndrome characterized by fear of fecal incontinence and compulsive behaviors of evacuation-checking. Only sparse case studies on treatment of BOS with antidepressants have been published. This is the first study on successful psychotherapy of a male patient with ulcerative colitis overlapping functional bowel symptoms and marked symptoms of BOS. Clinical recognition of BOS may help clinicians in differential diagnosis, prevent unnecessary investigations, and give patients the most appropriate treatment.",
+  "modified": false,
+  "original_char_count": 788,
+  "sanitized_char_count": 788,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 628,
+      "boundary_end": 788,
+      "context": "Bowel obsession syndrome in a patient with ulcerative colitis. Gastroenterologists are often faced with the diagnostic problem of differentiating acute symptoms of ulcerative colitis from functional intestinal disorders. Bowel obsession syndrome (BOS) is an OCD-like, functional syndrome characterized by fear of fecal incontinence and compulsive behaviors of evacuation-checking. Only sparse case studies on treatment of BOS with antidepressants have been published. This is the first study on successful psychotherapy of a male patient with ulcerative colitis overlapping functional bowel symptoms and marked symptoms of BOS.",
+      "target": "Clinical recognition of BOS may help clinicians in differential diagnosis, prevent unnecessary investigations, and give patients the most appropriate treatment.",
+      "loss_target": 3.465109348297119,
+      "loss_target_given_context": 2.4636478424072266,
+      "delta_loss": 1.0014615058898926,
+      "gain_ratio": 0.28901295896536344,
+      "score": -0.28901295896536344,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

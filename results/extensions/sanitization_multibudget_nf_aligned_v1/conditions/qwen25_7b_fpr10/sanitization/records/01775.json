@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3433",
+  "source_doc_id": "MED-3433",
+  "title": "Erectile dysfunction and risk of cardiovascular disease: meta-analysis of prospective cohort studies.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Erectile dysfunction and risk of cardiovascular disease: meta-analysis of prospective cohort studies.\nOBJECTIVES: Our goal was to evaluate the association between erectile dysfunction (ED) and risk of cardiovascular disease (CVD) and all-cause mortality by conducting a meta-analysis of prospective cohort studies. BACKGROUND: Observational studies suggest an association between ED and the incidence of CVD. However, whether ED is an independent risk factor of CVD remains controversial. METHODS: The PubMed database was searched through January 2011 to identify studies that met pre-stated inclusion criteria. Reference lists of retrieved articles were also reviewed. Two authors independently extracted information on the designs of the studies, the characteristics of the study participants, exposure and outcome assessments, and control for potential confounding factors. Either a fixed- or a random-effects model was used to calculate the overall combined risk estimates. RESULTS: Twelve prospective cohort studies involving 36,744 participants were included in the meta-analysis. The overall combined relative risks for men with ED compared with the reference group were 1.48 (95% confidence interval [CI]: 1.25 to 1.74) for CVD, 1.46 (95% CI: 1.31 to 1.63) for coronary heart disease, 1.35 (95% CI: 1.19 to 1.54) for stroke, and 1.19 (95% CI: 1.05 to 1.34) for all-cause mortality. Sensitivity analysis restricted to studies with control for conventional cardiovascular risk factors yielded similar results. No evidence of publication bias was observed. CONCLUSIONS: This meta-analysis of prospective cohort studies suggests that ED significantly increases the risk of CVD, coronary heart disease, stroke, and all-cause mortality, and the increase is probably independent of conventional cardiovascular risk factors. Copyright © 2011 American College of Cardiology Foundation. Published by Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Erectile dysfunction and risk of cardiovascular disease: meta-analysis of prospective cohort studies.\nOBJECTIVES: Our goal was to evaluate the association between erectile dysfunction (ED) and risk of cardiovascular disease (CVD) and all-cause mortality by conducting a meta-analysis of prospective cohort studies. BACKGROUND: Observational studies suggest an association between ED and the incidence of CVD. However, whether ED is an independent risk factor of CVD remains controversial. METHODS: The PubMed database was searched through January 2011 to identify studies that met pre-stated inclusion criteria. Reference lists of retrieved articles were also reviewed. Two authors independently extracted information on the designs of the studies, the characteristics of the study participants, exposure and outcome assessments, and control for potential confounding factors. Either a fixed- or a random-effects model was used to calculate the overall combined risk estimates. RESULTS: Twelve prospective cohort studies involving 36,744 participants were included in the meta-analysis. The overall combined relative risks for men with ED compared with the reference group were 1.48 (95% confidence interval [CI]: 1.25 to 1.74) for CVD, 1.46 (95% CI: 1.31 to 1.63) for coronary heart disease, 1.35 (95% CI: 1.19 to 1.54) for stroke, and 1.19 (95% CI: 1.05 to 1.34) for all-cause mortality. Sensitivity analysis restricted to studies with control for conventional cardiovascular risk factors yielded similar results. No evidence of publication bias was observed. CONCLUSIONS: This meta-analysis of prospective cohort studies suggests that ED significantly increases the risk of CVD, coronary heart disease, stroke, and all-cause mortality, and the increase is probably independent of conventional cardiovascular risk factors. Copyright © 2011 American College of Cardiology Foundation. Published by Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1932,
+  "sanitized_char_count": 1932,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1885,
+      "boundary_end": 1911,
+      "context": "extracted information on the designs of the studies, the characteristics of the study participants, exposure and outcome assessments, and control for potential confounding factors. Either a fixed- or a random-effects model was used to calculate the overall combined risk estimates. RESULTS: Twelve prospective cohort studies involving 36,744 participants were included in the meta-analysis. The overall combined relative risks for men with ED compared with the reference group were 1.48 (95% confidence interval [CI]: 1.25 to 1.74) for CVD, 1.46 (95% CI: 1.31 to 1.63) for coronary heart disease, 1.35 (95% CI: 1.19 to 1.54) for stroke, and 1.19 (95% CI: 1.05 to 1.34) for all-cause mortality. Sensitivity analysis restricted to studies with control for conventional cardiovascular risk factors yielded similar results. No evidence of publication bias was observed. CONCLUSIONS: This meta-analysis of prospective cohort studies suggests that ED significantly increases the risk of CVD, coronary heart disease, stroke, and all-cause mortality, and the increase is probably independent of conventional cardiovascular risk factors. Copyright © 2011 American College of Cardiology Foundation.",
+      "target": "Published by Elsevier Inc.",
+      "loss_target": 2.3177590370178223,
+      "loss_target_given_context": 0.06700228154659271,
+      "delta_loss": 2.2507567554712296,
+      "gain_ratio": 0.9710917828486596,
+      "score": -0.9710917828486596,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

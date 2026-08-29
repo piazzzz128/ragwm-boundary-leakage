@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4323",
+  "source_doc_id": "MED-4323",
+  "title": "Dehydroepiandrosterone and ageing.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dehydroepiandrosterone and ageing.\nDehydroepiandrosterone (DHEA) is the major steroid produced by the adrenal zona reticularis and, in contrast to cortisol and aldosterone, its secretion declines with ageing. This has generated major interest in its putative role as an 'anti-ageing' hormone. However, it is not clear that the age-associated, physiological decline in DHEA secretion represents a harmful deficiency. DHEA exhibits its action mainly by conversion to sex steroids. In addition, DHEA has neurosteroidal properties and may exhibit direct action via specific binding sites on endothelial cells. There is convincing evidence for beneficial effects of DHEA in patients with adrenal insufficiency and future research will hopefully elucidate its role in patients receiving pharmacological glucocorticoid treatment. However, in healthy elderly subjects, current evidence from randomised, controlled trials does not justify the use of DHEA, with no major beneficial effects reported and, in addition, potentially adverse effects on sex steroid-dependent tumour growth need to be considered. Copyright 2004 Elsevier Ltd.",
+  "sanitized_text": "Dehydroepiandrosterone and ageing.\nDehydroepiandrosterone (DHEA) is the major steroid produced by the adrenal zona reticularis and, in contrast to cortisol and aldosterone, its secretion declines with ageing. This has generated major interest in its putative role as an 'anti-ageing' hormone. However, it is not clear that the age-associated, physiological decline in DHEA secretion represents a harmful deficiency. DHEA exhibits its action mainly by conversion to sex steroids. In addition, DHEA has neurosteroidal properties and may exhibit direct action via specific binding sites on endothelial cells. There is convincing evidence for beneficial effects of DHEA in patients with adrenal insufficiency and future research will hopefully elucidate its role in patients receiving pharmacological glucocorticoid treatment. However, in healthy elderly subjects, current evidence from randomised, controlled trials does not justify the use of DHEA, with no major beneficial effects reported and, in addition, potentially adverse effects on sex steroid-dependent tumour growth need to be considered. Copyright 2004 Elsevier Ltd.",
+  "modified": false,
+  "original_char_count": 1125,
+  "sanitized_char_count": 1125,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1097,
+      "boundary_end": 1125,
+      "context": "Dehydroepiandrosterone and ageing. Dehydroepiandrosterone (DHEA) is the major steroid produced by the adrenal zona reticularis and, in contrast to cortisol and aldosterone, its secretion declines with ageing. This has generated major interest in its putative role as an 'anti-ageing' hormone. However, it is not clear that the age-associated, physiological decline in DHEA secretion represents a harmful deficiency. DHEA exhibits its action mainly by conversion to sex steroids. In addition, DHEA has neurosteroidal properties and may exhibit direct action via specific binding sites on endothelial cells. There is convincing evidence for beneficial effects of DHEA in patients with adrenal insufficiency and future research will hopefully elucidate its role in patients receiving pharmacological glucocorticoid treatment. However, in healthy elderly subjects, current evidence from randomised, controlled trials does not justify the use of DHEA, with no major beneficial effects reported and, in addition, potentially adverse effects on sex steroid-dependent tumour growth need to be considered.",
+      "target": "Copyright 2004 Elsevier Ltd.",
+      "loss_target": 1.6566234827041626,
+      "loss_target_given_context": 0.8804154396057129,
+      "delta_loss": 0.7762080430984497,
+      "gain_ratio": 0.46854825565518304,
+      "score": -0.46854825565518304,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

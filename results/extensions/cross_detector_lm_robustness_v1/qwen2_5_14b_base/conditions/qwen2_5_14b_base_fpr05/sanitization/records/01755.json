@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3395",
+  "source_doc_id": "MED-3395",
+  "title": "The Mediterranean diet is associated with a reduction in premature mortality among middle-aged adults.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The Mediterranean diet is associated with a reduction in premature mortality among middle-aged adults.\nThe available large prospective studies supporting an inverse association between better adherence to the Mediterranean diet and lower mortality have mainly included older adults. It is not clear whether this inverse association is also present among younger individuals at lower mortality risk. Our aim was to assess the association between adherence to the Mediterranean diet and total mortality in middle-aged adults from the Seguimiento Universidad de Navarra (SUN) Project. We followed 15,535 Spanish university graduates for a mean of 6.8 y. Their mean age was 38 ± 12 y, 59.6% were females, and all were initially free of cardiovascular disease, cancer, and diabetes. A validated FFQ was used to assess dietary habits. Adherence to the Mediterranean diet was categorized into 3 groups according to the Mediterranean Diet Score (low, 0-2 points; moderate, 3-5 points; and high, 6-9 points). The outcome variable was total mortality. Cox proportional hazards models were used to estimate HR and 95% CI. We adjusted the estimates for sex, age, years of university education, BMI, smoking, physical activity, television watching, history of depression and baseline hypertension, and hypercholesterolemia. We observed 125 deaths during 105,980 person-years of follow-up. The fully adjusted HR for moderate and high adherence were 0.58 (95% CI: 0.34, 0.99; P = 0.05) and 0.38 (95% CI: 0.21, 0.70; P = 0.002), respectively. For each 2-point increment in the Mediterranean Diet Score, the HR of death was 0.72 (95% CI: 0.58, 0.91; P = 0.006). Among highly educated, middle-aged adults, adherence to the traditional Mediterranean diet was associated with reduced risk of death.",
+  "sanitized_text": "The Mediterranean diet is associated with a reduction in premature mortality among middle-aged adults.\nThe available large prospective studies supporting an inverse association between better adherence to the Mediterranean diet and lower mortality have mainly included older adults. It is not clear whether this inverse association is also present among younger individuals at lower mortality risk. Our aim was to assess the association between adherence to the Mediterranean diet and total mortality in middle-aged adults from the Seguimiento Universidad de Navarra (SUN) Project. We followed 15,535 Spanish university graduates for a mean of 6.8 y. Their mean age was 38 ± 12 y, 59.6% were females, and all were initially free of cardiovascular disease, cancer, and diabetes. A validated FFQ was used to assess dietary habits. Adherence to the Mediterranean diet was categorized into 3 groups according to the Mediterranean Diet Score (low, 0-2 points; moderate, 3-5 points; and high, 6-9 points). The outcome variable was total mortality. Cox proportional hazards models were used to estimate HR and 95% CI. We adjusted the estimates for sex, age, years of university education, BMI, smoking, physical activity, television watching, history of depression and baseline hypertension, and hypercholesterolemia. We observed 125 deaths during 105,980 person-years of follow-up. The fully adjusted HR for moderate and high adherence were 0.58 (95% CI: 0.34, 0.99; P = 0.05) and 0.38 (95% CI: 0.21, 0.70; P = 0.002), respectively. For each 2-point increment in the Mediterranean Diet Score, the HR of death was 0.72 (95% CI: 0.58, 0.91; P = 0.006). Among highly educated, middle-aged adults, adherence to the traditional Mediterranean diet was associated with reduced risk of death.",
+  "modified": false,
+  "original_char_count": 1778,
+  "sanitized_char_count": 1778,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1645,
+      "boundary_end": 1778,
+      "context": "adherence to the Mediterranean diet and total mortality in middle-aged adults from the Seguimiento Universidad de Navarra (SUN) Project. We followed 15,535 Spanish university graduates for a mean of 6.8 y. Their mean age was 38 ± 12 y, 59.6% were females, and all were initially free of cardiovascular disease, cancer, and diabetes. A validated FFQ was used to assess dietary habits. Adherence to the Mediterranean diet was categorized into 3 groups according to the Mediterranean Diet Score (low, 0-2 points; moderate, 3-5 points; and high, 6-9 points). The outcome variable was total mortality. Cox proportional hazards models were used to estimate HR and 95% CI. We adjusted the estimates for sex, age, years of university education, BMI, smoking, physical activity, television watching, history of depression and baseline hypertension, and hypercholesterolemia. We observed 125 deaths during 105,980 person-years of follow-up. The fully adjusted HR for moderate and high adherence were 0.58 (95% CI: 0.34, 0.99; P = 0.05) and 0.38 (95% CI: 0.21, 0.70; P = 0.002), respectively. For each 2-point increment in the Mediterranean Diet Score, the HR of death was 0.72 (95% CI: 0.58, 0.91; P = 0.006).",
+      "target": "Among highly educated, middle-aged adults, adherence to the traditional Mediterranean diet was associated with reduced risk of death.",
+      "loss_target": 2.7407729625701904,
+      "loss_target_given_context": 1.356868028640747,
+      "delta_loss": 1.3839049339294434,
+      "gain_ratio": 0.504932350409525,
+      "score": -0.504932350409525,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

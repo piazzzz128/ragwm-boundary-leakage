@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2976",
+  "source_doc_id": "MED-2976",
+  "title": "Egg consumption and risk of type 2 diabetes in older adults",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Egg consumption and risk of type 2 diabetes in older adults\nBackground: Type 2 diabetes (T2D) remains an important public health issue in the United States. There are limited and inconsistent data on the association between egg consumption and fasting glucose or incident diabetes. Objectives: We assessed the association between egg intake and incident diabetes in older adults. Design: In this prospective study of 3898 men and women from the Cardiovascular Health Study (1989–2007), we assessed egg consumption by using a picture-sorted food questionnaire and ascertained incident T2D annually by using information on hypoglycemic agents and plasma glucose. We used Cox proportional hazards models to estimate adjusted relative risks. Results: During a mean follow-up of 11.3 y, 313 new cases of T2D occurred. Crude incidence rates of T2D were 7.39, 6.83, 7.00, 6.72, and 12.20 per 1000 person-years in people who reported egg consumption of never, <1 egg/mo, 1–3 eggs/mo, 1–4 eggs/wk, and almost daily, respectively. In multivariable-adjusted models, there was no association between egg consumption and increased risk of T2D in either sex and overall. In a secondary analysis, dietary cholesterol was not associated with incident diabetes (P for trend = 0.47). In addition, egg consumption was not associated with clinically meaningful differences in fasting glucose, fasting insulin, or measures of insulin resistance despite small absolute analytic differences that were significant. Conclusion: In this cohort of older adults with limited egg intake, there was no association between egg consumption or dietary cholesterol and increased risk of incident T2D.",
+  "sanitized_text": "Egg consumption and risk of type 2 diabetes in older adults\nBackground: Type 2 diabetes (T2D) remains an important public health issue in the United States. There are limited and inconsistent data on the association between egg consumption and fasting glucose or incident diabetes. Objectives: We assessed the association between egg intake and incident diabetes in older adults. Design: In this prospective study of 3898 men and women from the Cardiovascular Health Study (1989–2007), we assessed egg consumption by using a picture-sorted food questionnaire and ascertained incident T2D annually by using information on hypoglycemic agents and plasma glucose. We used Cox proportional hazards models to estimate adjusted relative risks. Results: During a mean follow-up of 11.3 y, 313 new cases of T2D occurred. Crude incidence rates of T2D were 7.39, 6.83, 7.00, 6.72, and 12.20 per 1000 person-years in people who reported egg consumption of never, <1 egg/mo, 1–3 eggs/mo, 1–4 eggs/wk, and almost daily, respectively. In multivariable-adjusted models, there was no association between egg consumption and increased risk of T2D in either sex and overall. In a secondary analysis, dietary cholesterol was not associated with incident diabetes (P for trend = 0.47). In addition, egg consumption was not associated with clinically meaningful differences in fasting glucose, fasting insulin, or measures of insulin resistance despite small absolute analytic differences that were significant. Conclusion: In this cohort of older adults with limited egg intake, there was no association between egg consumption or dietary cholesterol and increased risk of incident T2D.",
+  "modified": false,
+  "original_char_count": 1666,
+  "sanitized_char_count": 1666,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1491,
+      "boundary_end": 1666,
+      "context": "We assessed the association between egg intake and incident diabetes in older adults. Design: In this prospective study of 3898 men and women from the Cardiovascular Health Study (1989–2007), we assessed egg consumption by using a picture-sorted food questionnaire and ascertained incident T2D annually by using information on hypoglycemic agents and plasma glucose. We used Cox proportional hazards models to estimate adjusted relative risks. Results: During a mean follow-up of 11.3 y, 313 new cases of T2D occurred. Crude incidence rates of T2D were 7.39, 6.83, 7.00, 6.72, and 12.20 per 1000 person-years in people who reported egg consumption of never, <1 egg/mo, 1–3 eggs/mo, 1–4 eggs/wk, and almost daily, respectively. In multivariable-adjusted models, there was no association between egg consumption and increased risk of T2D in either sex and overall. In a secondary analysis, dietary cholesterol was not associated with incident diabetes (P for trend = 0.47). In addition, egg consumption was not associated with clinically meaningful differences in fasting glucose, fasting insulin, or measures of insulin resistance despite small absolute analytic differences that were significant.",
+      "target": "Conclusion: In this cohort of older adults with limited egg intake, there was no association between egg consumption or dietary cholesterol and increased risk of incident T2D.",
+      "loss_target": 2.3623828887939453,
+      "loss_target_given_context": 0.8973874449729919,
+      "delta_loss": 1.4649954438209534,
+      "gain_ratio": 0.6201346321843999,
+      "score": -0.6201346321843999,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

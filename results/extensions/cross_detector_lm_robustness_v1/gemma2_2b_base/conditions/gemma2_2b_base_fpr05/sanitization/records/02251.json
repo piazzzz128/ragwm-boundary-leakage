@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3989",
+  "source_doc_id": "MED-3989",
+  "title": "Vitamin D and sterol composition of 10 types of mushrooms from retail suppliers in the United States.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vitamin D and sterol composition of 10 types of mushrooms from retail suppliers in the United States.\nVitamin D(2) (ergocalciferol) and sterols were analyzed in mushrooms sampled nationwide in the United States to update the USDA Nutrient Database for Standard Reference. Vitamin D(2) was assayed using HPLC with [(3)H]-vitamin D(3) internal standard and sterols by GC-FID mass spectrometric (MS) confirmation. Vitamin D(2) was low (0.1-0.3 μg/100 g) in Agaricus bisporus (white button, crimini, portabella) and enoki, moderate in shiitake and oyster (0.4-0.7 μg/100 g), and high in morel, chanterelle, maitake (5.2-28.1 μg/100 g) and UV-treated portabella (3.4-20.9 μg/100 g), with significant variability among composites for some types. Ergosterol (mg/100 g) was highest in maitake and shiitake (79.2, 84.9) and lowest in morel and enoki (26.3, 35.5); the range was <10 mg/100 g among white button composites but 12-50 mg/100 g among samples of other types. All mushrooms contained ergosta-5,7-dienol (22,23-dihydroergosterol) (3.53-18.0 mg/100 g) and (except morel) ergosta-7-enol. Only morel contained brassicasterol (28.6 mg/100 g) and campesterol (1.23-4.54 mg/100 g) and no ergosta-7,22-dienol. MS was critical in distinguishing campesterol from ergosta-7,22-dienol.",
+  "sanitized_text": "Vitamin D and sterol composition of 10 types of mushrooms from retail suppliers in the United States.\nVitamin D(2) (ergocalciferol) and sterols were analyzed in mushrooms sampled nationwide in the United States to update the USDA Nutrient Database for Standard Reference. Vitamin D(2) was assayed using HPLC with [(3)H]-vitamin D(3) internal standard and sterols by GC-FID mass spectrometric (MS) confirmation. Vitamin D(2) was low (0.1-0.3 μg/100 g) in Agaricus bisporus (white button, crimini, portabella) and enoki, moderate in shiitake and oyster (0.4-0.7 μg/100 g), and high in morel, chanterelle, maitake (5.2-28.1 μg/100 g) and UV-treated portabella (3.4-20.9 μg/100 g), with significant variability among composites for some types. Ergosterol (mg/100 g) was highest in maitake and shiitake (79.2, 84.9) and lowest in morel and enoki (26.3, 35.5); the range was <10 mg/100 g among white button composites but 12-50 mg/100 g among samples of other types. All mushrooms contained ergosta-5,7-dienol (22,23-dihydroergosterol) (3.53-18.0 mg/100 g) and (except morel) ergosta-7-enol. Only morel contained brassicasterol (28.6 mg/100 g) and campesterol (1.23-4.54 mg/100 g) and no ergosta-7,22-dienol. MS was critical in distinguishing campesterol from ergosta-7,22-dienol.",
+  "modified": false,
+  "original_char_count": 1274,
+  "sanitized_char_count": 1274,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1203,
+      "boundary_end": 1274,
+      "context": "D and sterol composition of 10 types of mushrooms from retail suppliers in the United States. Vitamin D(2) (ergocalciferol) and sterols were analyzed in mushrooms sampled nationwide in the United States to update the USDA Nutrient Database for Standard Reference. Vitamin D(2) was assayed using HPLC with [(3)H]-vitamin D(3) internal standard and sterols by GC-FID mass spectrometric (MS) confirmation. Vitamin D(2) was low (0.1-0.3 μg/100 g) in Agaricus bisporus (white button, crimini, portabella) and enoki, moderate in shiitake and oyster (0.4-0.7 μg/100 g), and high in morel, chanterelle, maitake (5.2-28.1 μg/100 g) and UV-treated portabella (3.4-20.9 μg/100 g), with significant variability among composites for some types. Ergosterol (mg/100 g) was highest in maitake and shiitake (79.2, 84.9) and lowest in morel and enoki (26.3, 35.5); the range was <10 mg/100 g among white button composites but 12-50 mg/100 g among samples of other types. All mushrooms contained ergosta-5,7-dienol (22,23-dihydroergosterol) (3.53-18.0 mg/100 g) and (except morel) ergosta-7-enol. Only morel contained brassicasterol (28.6 mg/100 g) and campesterol (1.23-4.54 mg/100 g) and no ergosta-7,22-dienol.",
+      "target": "MS was critical in distinguishing campesterol from ergosta-7,22-dienol.",
+      "loss_target": 10.633773803710938,
+      "loss_target_given_context": 2.1100828647613525,
+      "delta_loss": 8.523690938949585,
+      "gain_ratio": 0.8015678249592837,
+      "score": -0.8015678249592837,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

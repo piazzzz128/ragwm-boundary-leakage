@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1631",
+  "source_doc_id": "MED-1631",
+  "title": "Coffee, Caffeine, and Risk of Depression Among Women",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Coffee, Caffeine, and Risk of Depression Among Women\nBackground Caffeine is the world’s most widely used central nervous system stimulant, with about 80% consumed in form of coffee. However, studies that analyzed prospectively the relation of coffee or caffeine consumption and depression risk are scarce. Methods A total of 50,739 U.S. women (mean age=63 years) free from depressive symptoms at baseline (1996) were prospectively followed until 2006. Caffeine and coffee consumption, and other caffeinated and decaffeinated beverages, were obtained from validated questionnaires completed between 1980 through 2002 and computed as cumulative average of consumption with a 2-year latency applied. Clinical depression was defined as reporting both physician-diagnosed depression and antidepressant use. Relative risks of clinical depression were estimate using Cox proportional hazards regression models. Results During 10 years of follow-up (1996–2006), 2,607 incident cases of depression were identified. Compared to women consuming caffeinated coffee less frequently (≤1 cup/wk), multivariate relative risk of depression was 0.85 (95% confidence interval [CI], 0.75 to 0.95) for those consuming 2–3 cups/d and 0.80 (95%CI, 0.64 to 0.99; P trend <0.001) for those consuming ≥4 cups/d. Multivariate relative risk for depression was 0.80 (95%CI, 0.68 to 0.95; P trend=0.02) for women in the highest (≥550 mg/d) vs. lowest (<100 mg/d) of the 5 caffeine consumption categories. Decaffeinated coffee was not associated with depression risk. Conclusions In this large longitudinal study we found that depression risk decreases with increasing caffeinated coffee consumption. Further investigations are needed to confirm this finding and to determine whether usual caffeinated coffee consumption may contribute to depression prevention.",
+  "sanitized_text": "Coffee, Caffeine, and Risk of Depression Among Women\nBackground Caffeine is the world’s most widely used central nervous system stimulant, with about 80% consumed in form of coffee. However, studies that analyzed prospectively the relation of coffee or caffeine consumption and depression risk are scarce. Methods A total of 50,739 U.S. women (mean age=63 years) free from depressive symptoms at baseline (1996) were prospectively followed until 2006. Caffeine and coffee consumption, and other caffeinated and decaffeinated beverages, were obtained from validated questionnaires completed between 1980 through 2002 and computed as cumulative average of consumption with a 2-year latency applied. Clinical depression was defined as reporting both physician-diagnosed depression and antidepressant use. Relative risks of clinical depression were estimate using Cox proportional hazards regression models. Results During 10 years of follow-up (1996–2006), 2,607 incident cases of depression were identified. Compared to women consuming caffeinated coffee less frequently (≤1 cup/wk), multivariate relative risk of depression was 0.85 (95% confidence interval [CI], 0.75 to 0.95) for those consuming 2–3 cups/d and 0.80 (95%CI, 0.64 to 0.99; P trend <0.001) for those consuming ≥4 cups/d. Multivariate relative risk for depression was 0.80 (95%CI, 0.68 to 0.95; P trend=0.02) for women in the highest (≥550 mg/d) vs. lowest (<100 mg/d) of the 5 caffeine consumption categories. Decaffeinated coffee was not associated with depression risk. Conclusions In this large longitudinal study we found that depression risk decreases with increasing caffeinated coffee consumption. Further investigations are needed to confirm this finding and to determine whether usual caffeinated coffee consumption may contribute to depression prevention.",
+  "modified": false,
+  "original_char_count": 1830,
+  "sanitized_char_count": 1830,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1670,
+      "boundary_end": 1830,
+      "context": "consumption, and other caffeinated and decaffeinated beverages, were obtained from validated questionnaires completed between 1980 through 2002 and computed as cumulative average of consumption with a 2-year latency applied. Clinical depression was defined as reporting both physician-diagnosed depression and antidepressant use. Relative risks of clinical depression were estimate using Cox proportional hazards regression models. Results During 10 years of follow-up (1996–2006), 2,607 incident cases of depression were identified. Compared to women consuming caffeinated coffee less frequently (≤1 cup/wk), multivariate relative risk of depression was 0.85 (95% confidence interval [CI], 0.75 to 0.95) for those consuming 2–3 cups/d and 0.80 (95%CI, 0.64 to 0.99; P trend <0.001) for those consuming ≥4 cups/d. Multivariate relative risk for depression was 0.80 (95%CI, 0.68 to 0.95; P trend=0.02) for women in the highest (≥550 mg/d) vs. lowest (<100 mg/d) of the 5 caffeine consumption categories. Decaffeinated coffee was not associated with depression risk. Conclusions In this large longitudinal study we found that depression risk decreases with increasing caffeinated coffee consumption.",
+      "target": "Further investigations are needed to confirm this finding and to determine whether usual caffeinated coffee consumption may contribute to depression prevention.",
+      "loss_target": 2.855173349380493,
+      "loss_target_given_context": 1.6306991577148438,
+      "delta_loss": 1.2244741916656494,
+      "gain_ratio": 0.42886159326589823,
+      "score": -0.42886159326589823,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

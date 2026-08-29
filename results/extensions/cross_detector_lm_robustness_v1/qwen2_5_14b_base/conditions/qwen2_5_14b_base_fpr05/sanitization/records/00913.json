@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2111",
+  "source_doc_id": "MED-2111",
+  "title": "Updating a 12-year experience with arrest and reversal therapy for coronary heart disease (an overdue requiem for palliative cardiology).",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Updating a 12-year experience with arrest and reversal therapy for coronary heart disease (an overdue requiem for palliative cardiology).\nCoronary artery disease is essentially nonexistent in cultures whose nutrition assures cholesterol levels <150 mg/dl. Patients with advanced coronary artery disease may abolish disease progression through a plant-based diet and cholesterol-lowering medication to achieve and maintain a total cholesterol <150 mg/dl.",
+  "sanitized_text": "Updating a 12-year experience with arrest and reversal therapy for coronary heart disease (an overdue requiem for palliative cardiology).\nCoronary artery disease is essentially nonexistent in cultures whose nutrition assures cholesterol levels <150 mg/dl. Patients with advanced coronary artery disease may abolish disease progression through a plant-based diet and cholesterol-lowering medication to achieve and maintain a total cholesterol <150 mg/dl.",
+  "modified": false,
+  "original_char_count": 453,
+  "sanitized_char_count": 453,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 256,
+      "boundary_end": 453,
+      "context": "Updating a 12-year experience with arrest and reversal therapy for coronary heart disease (an overdue requiem for palliative cardiology). Coronary artery disease is essentially nonexistent in cultures whose nutrition assures cholesterol levels <150 mg/dl.",
+      "target": "Patients with advanced coronary artery disease may abolish disease progression through a plant-based diet and cholesterol-lowering medication to achieve and maintain a total cholesterol <150 mg/dl.",
+      "loss_target": 2.379265785217285,
+      "loss_target_given_context": 1.7237550020217896,
+      "delta_loss": 0.6555107831954956,
+      "gain_ratio": 0.27550969179999846,
+      "score": -0.27550969179999846,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

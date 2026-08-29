@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-864",
+  "source_doc_id": "MED-864",
+  "title": "Fatal fulminant hepatitis associated with Ganoderma lucidum (Lingzhi) mushroom powder.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Fatal fulminant hepatitis associated with Ganoderma lucidum (Lingzhi) mushroom powder.\nHepatotoxic effect related to Ganoderma lucidum (Lingzhi) mushroom powder was first described in a patient from Hong Kong in 2004. In 2005, the authors experienced a case of fatal fulminant hepatitis associated with such a preparation. Both patients had taken other therapeutic agents and traditionally boiled Lingzhi without any toxic effect. After switching to taking Lingzhi in powder form for 1-2 months, the hepatotoxic episode occurred in both patients. The toxic role of Lingzhi powder needs close monitoring in the future, especially in combination with other drugs.",
+  "sanitized_text": "Fatal fulminant hepatitis associated with Ganoderma lucidum (Lingzhi) mushroom powder.\nHepatotoxic effect related to Ganoderma lucidum (Lingzhi) mushroom powder was first described in a patient from Hong Kong in 2004. In 2005, the authors experienced a case of fatal fulminant hepatitis associated with such a preparation. Both patients had taken other therapeutic agents and traditionally boiled Lingzhi without any toxic effect. After switching to taking Lingzhi in powder form for 1-2 months, the hepatotoxic episode occurred in both patients. The toxic role of Lingzhi powder needs close monitoring in the future, especially in combination with other drugs.",
+  "modified": false,
+  "original_char_count": 661,
+  "sanitized_char_count": 661,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 547,
+      "boundary_end": 661,
+      "context": "Fatal fulminant hepatitis associated with Ganoderma lucidum (Lingzhi) mushroom powder. Hepatotoxic effect related to Ganoderma lucidum (Lingzhi) mushroom powder was first described in a patient from Hong Kong in 2004. In 2005, the authors experienced a case of fatal fulminant hepatitis associated with such a preparation. Both patients had taken other therapeutic agents and traditionally boiled Lingzhi without any toxic effect. After switching to taking Lingzhi in powder form for 1-2 months, the hepatotoxic episode occurred in both patients.",
+      "target": "The toxic role of Lingzhi powder needs close monitoring in the future, especially in combination with other drugs.",
+      "loss_target": 3.6064252853393555,
+      "loss_target_given_context": 2.215444326400757,
+      "delta_loss": 1.3909809589385986,
+      "gain_ratio": 0.38569521032173854,
+      "score": -0.38569521032173854,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

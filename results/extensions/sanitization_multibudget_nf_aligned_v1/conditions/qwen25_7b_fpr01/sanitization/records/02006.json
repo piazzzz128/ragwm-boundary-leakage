@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3693",
+  "source_doc_id": "MED-3693",
+  "title": "Microbiological evaluation of commercial probiotic products available in the USA in 2009.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Microbiological evaluation of commercial probiotic products available in the USA in 2009.\nProbiotics are widely used to prevent and treat several diseases. Many commercial products are available worldwide. However, there is no clear international or local legislation about them and previous studies showed that most of the tested products are not in conformity with international guidelines. The aim of this study was to determine if products available in the USA market in 2009 were correctly labeled in terms of quantity of viable bacteria, identification of species and cross contamination by species not on the label. Disturbingly, we found that only 4 of 13 products (31%) were in accordance with label claims. Our results suggest the need for adequate control of probiotic production as well as periodical screenings by competent organizations to monitor the effect of storage on product quality.",
+  "sanitized_text": "Microbiological evaluation of commercial probiotic products available in the USA in 2009.\nProbiotics are widely used to prevent and treat several diseases. Many commercial products are available worldwide. However, there is no clear international or local legislation about them and previous studies showed that most of the tested products are not in conformity with international guidelines. The aim of this study was to determine if products available in the USA market in 2009 were correctly labeled in terms of quantity of viable bacteria, identification of species and cross contamination by species not on the label. Disturbingly, we found that only 4 of 13 products (31%) were in accordance with label claims. Our results suggest the need for adequate control of probiotic production as well as periodical screenings by competent organizations to monitor the effect of storage on product quality.",
+  "modified": false,
+  "original_char_count": 903,
+  "sanitized_char_count": 903,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 717,
+      "boundary_end": 903,
+      "context": "Microbiological evaluation of commercial probiotic products available in the USA in 2009. Probiotics are widely used to prevent and treat several diseases. Many commercial products are available worldwide. However, there is no clear international or local legislation about them and previous studies showed that most of the tested products are not in conformity with international guidelines. The aim of this study was to determine if products available in the USA market in 2009 were correctly labeled in terms of quantity of viable bacteria, identification of species and cross contamination by species not on the label. Disturbingly, we found that only 4 of 13 products (31%) were in accordance with label claims.",
+      "target": "Our results suggest the need for adequate control of probiotic production as well as periodical screenings by competent organizations to monitor the effect of storage on product quality.",
+      "loss_target": 3.5612475872039795,
+      "loss_target_given_context": 2.8491551876068115,
+      "delta_loss": 0.712092399597168,
+      "gain_ratio": 0.19995588123549948,
+      "score": -0.19995588123549948,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

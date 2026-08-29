@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2653",
+  "source_doc_id": "MED-2653",
+  "title": "Nonylphenol and octylphenol in human breast milk.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Nonylphenol and octylphenol in human breast milk.\nHuman milk is the most important form of nourishment for newborn children. Its consumption is strongly recommended by health authorities also for other important advantages. Unfortunately, in the last three decades a great number of investigations have shown the occurrence of several environmental contaminants in human milk, especially those with lipophilic properties. This study investigates the presence of nonylphenol, octylphenol (OP), nonylphenol monoethoxylate (NP1EO) and two octylphenol ethoxylates (OPEOs) (namely OP1EO and OP2EO), in human breast milk of Italian women. NP was the contaminant found at the highest levels with mean concentrations of 32 ng/mL, about two orders of magnitude higher than OP (0.08 ng/mL), OP1EO (0.07 ng/mL) and OP2EO (0.16 ng/mL). In the group of study a positive correlation among fish consumption and levels of NP in the milk was observed, in accordance with the evidence that seafood represents one of the most important sources of exposure to this group of contaminants in Italy. On the basis of the concentrations found in the breast milk samples, a maximum NP daily intake of 3.94 microg/kg/day can be calculated, which is close to the Tolerable Daily Intake (TDI) of 5 microg/kg body weight (bw) proposed by the Danish Institute of Safety and Toxicology. In the cases of OP no TDI is available, but its intake is at least six orders of magnitude lower than the NOAEL of 10 mg/kg/day derived from a two generation study on rats.",
+  "sanitized_text": "Nonylphenol and octylphenol in human breast milk.\nHuman milk is the most important form of nourishment for newborn children. Its consumption is strongly recommended by health authorities also for other important advantages. Unfortunately, in the last three decades a great number of investigations have shown the occurrence of several environmental contaminants in human milk, especially those with lipophilic properties. This study investigates the presence of nonylphenol, octylphenol (OP), nonylphenol monoethoxylate (NP1EO) and two octylphenol ethoxylates (OPEOs) (namely OP1EO and OP2EO), in human breast milk of Italian women. NP was the contaminant found at the highest levels with mean concentrations of 32 ng/mL, about two orders of magnitude higher than OP (0.08 ng/mL), OP1EO (0.07 ng/mL) and OP2EO (0.16 ng/mL). In the group of study a positive correlation among fish consumption and levels of NP in the milk was observed, in accordance with the evidence that seafood represents one of the most important sources of exposure to this group of contaminants in Italy. On the basis of the concentrations found in the breast milk samples, a maximum NP daily intake of 3.94 microg/kg/day can be calculated, which is close to the Tolerable Daily Intake (TDI) of 5 microg/kg body weight (bw) proposed by the Danish Institute of Safety and Toxicology. In the cases of OP no TDI is available, but its intake is at least six orders of magnitude lower than the NOAEL of 10 mg/kg/day derived from a two generation study on rats.",
+  "modified": false,
+  "original_char_count": 1527,
+  "sanitized_char_count": 1527,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1355,
+      "boundary_end": 1527,
+      "context": "by health authorities also for other important advantages. Unfortunately, in the last three decades a great number of investigations have shown the occurrence of several environmental contaminants in human milk, especially those with lipophilic properties. This study investigates the presence of nonylphenol, octylphenol (OP), nonylphenol monoethoxylate (NP1EO) and two octylphenol ethoxylates (OPEOs) (namely OP1EO and OP2EO), in human breast milk of Italian women. NP was the contaminant found at the highest levels with mean concentrations of 32 ng/mL, about two orders of magnitude higher than OP (0.08 ng/mL), OP1EO (0.07 ng/mL) and OP2EO (0.16 ng/mL). In the group of study a positive correlation among fish consumption and levels of NP in the milk was observed, in accordance with the evidence that seafood represents one of the most important sources of exposure to this group of contaminants in Italy. On the basis of the concentrations found in the breast milk samples, a maximum NP daily intake of 3.94 microg/kg/day can be calculated, which is close to the Tolerable Daily Intake (TDI) of 5 microg/kg body weight (bw) proposed by the Danish Institute of Safety and Toxicology.",
+      "target": "In the cases of OP no TDI is available, but its intake is at least six orders of magnitude lower than the NOAEL of 10 mg/kg/day derived from a two generation study on rats.",
+      "loss_target": 3.485678195953369,
+      "loss_target_given_context": 1.962712049484253,
+      "delta_loss": 1.5229661464691162,
+      "gain_ratio": 0.43692104114406616,
+      "score": -0.43692104114406616,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

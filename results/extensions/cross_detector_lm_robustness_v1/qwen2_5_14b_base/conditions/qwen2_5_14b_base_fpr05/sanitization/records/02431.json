@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4245",
+  "source_doc_id": "MED-4245",
+  "title": "The effectiveness and efficacy of an intensive cardiac rehabilitation program in 24 sites.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The effectiveness and efficacy of an intensive cardiac rehabilitation program in 24 sites.\nPURPOSE: The purpose of this study is to test the efficacy and effectiveness of an intensive cardiac rehabilitation program in improving health outcomes in multiple sites. METHODS: This study employs a nonexperimental (prospective time series) design to investigate changes in cardiovascular disease in 2974 men and women from 24 socioeconomically diverse sites who participated in an intensive cardiac rehabilitation program at baseline, 12 weeks, and 1 year. Paired t-tests were used to assess differences by comparing baseline values to those after 12 weeks, baseline values to those after 1 year, and values after 12 weeks to those after 1 year. RESULTS: Eighty-eight percent of patients remained enrolled in the program after 12 weeks, and 78.1% remained enrolled in the program after 1 year. Patients showed statistically significant improvements after 12 weeks in body mass index (BMI), triglycerides, low density lipoprotein cholesterol, total cholesterol, hemoglobin A1c, systolic blood pressure, diastolic blood pressure, depression, hostility, exercise, and functional capacity. These differences also remained significant after 1 year. There was additional significant improvement between 12 weeks and 1 year only in BMI, high density lipoprotein cholesterol, functional capacity, and hostility, and significant recidivism between 12 weeks and 1 year in all other measures (except triglycerides) and depression, yet improvements from baseline to 1 year remained significant in all measures (except HDL, which was unchanged) (p < .005). CONCLUSIONS: This intensive cardiac rehabilitation program was feasible and sustainable for most patients who enrolled and was associated with numerous subjective and objective improvements in health outcomes. It demonstrates that the intervention works when it is administered by staff at multiple clinical/commmunity sites in four different states. These improvements were also seen in patients 65 years of age or older.",
+  "sanitized_text": "The effectiveness and efficacy of an intensive cardiac rehabilitation program in 24 sites.\nPURPOSE: The purpose of this study is to test the efficacy and effectiveness of an intensive cardiac rehabilitation program in improving health outcomes in multiple sites. METHODS: This study employs a nonexperimental (prospective time series) design to investigate changes in cardiovascular disease in 2974 men and women from 24 socioeconomically diverse sites who participated in an intensive cardiac rehabilitation program at baseline, 12 weeks, and 1 year. Paired t-tests were used to assess differences by comparing baseline values to those after 12 weeks, baseline values to those after 1 year, and values after 12 weeks to those after 1 year. RESULTS: Eighty-eight percent of patients remained enrolled in the program after 12 weeks, and 78.1% remained enrolled in the program after 1 year. Patients showed statistically significant improvements after 12 weeks in body mass index (BMI), triglycerides, low density lipoprotein cholesterol, total cholesterol, hemoglobin A1c, systolic blood pressure, diastolic blood pressure, depression, hostility, exercise, and functional capacity. These differences also remained significant after 1 year. There was additional significant improvement between 12 weeks and 1 year only in BMI, high density lipoprotein cholesterol, functional capacity, and hostility, and significant recidivism between 12 weeks and 1 year in all other measures (except triglycerides) and depression, yet improvements from baseline to 1 year remained significant in all measures (except HDL, which was unchanged) (p < .005). CONCLUSIONS: This intensive cardiac rehabilitation program was feasible and sustainable for most patients who enrolled and was associated with numerous subjective and objective improvements in health outcomes. It demonstrates that the intervention works when it is administered by staff at multiple clinical/commmunity sites in four different states. These improvements were also seen in patients 65 years of age or older.",
+  "modified": false,
+  "original_char_count": 2061,
+  "sanitized_char_count": 2061,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1990,
+      "boundary_end": 2061,
+      "context": "enrolled in the program after 12 weeks, and 78.1% remained enrolled in the program after 1 year. Patients showed statistically significant improvements after 12 weeks in body mass index (BMI), triglycerides, low density lipoprotein cholesterol, total cholesterol, hemoglobin A1c, systolic blood pressure, diastolic blood pressure, depression, hostility, exercise, and functional capacity. These differences also remained significant after 1 year. There was additional significant improvement between 12 weeks and 1 year only in BMI, high density lipoprotein cholesterol, functional capacity, and hostility, and significant recidivism between 12 weeks and 1 year in all other measures (except triglycerides) and depression, yet improvements from baseline to 1 year remained significant in all measures (except HDL, which was unchanged) (p < .005). CONCLUSIONS: This intensive cardiac rehabilitation program was feasible and sustainable for most patients who enrolled and was associated with numerous subjective and objective improvements in health outcomes. It demonstrates that the intervention works when it is administered by staff at multiple clinical/commmunity sites in four different states.",
+      "target": "These improvements were also seen in patients 65 years of age or older.",
+      "loss_target": 2.3865180015563965,
+      "loss_target_given_context": 1.6174119710922241,
+      "delta_loss": 0.7691060304641724,
+      "gain_ratio": 0.322271204307946,
+      "score": -0.322271204307946,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

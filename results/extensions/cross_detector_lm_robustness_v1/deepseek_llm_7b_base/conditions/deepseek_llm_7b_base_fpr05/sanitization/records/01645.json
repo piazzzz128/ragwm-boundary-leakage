@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3204",
+  "source_doc_id": "MED-3204",
+  "title": "Management of grapefruit-drug interactions.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Management of grapefruit-drug interactions.\nGrapefruit is a healthy addition to a well-balanced diet. However, the fruit has been shown to affect the metabolism of many medications, increasing the risk of toxicity and adverse effects. Characteristics of oral medications that may interact with grapefruit include extensive metabolism through the intestinal cytochrome P450 3A4 system, low bioavailability, and a narrow therapeutic index. Prominent medications known to interact with grapefruit include statins, antiarrhythmic agents, immunosuppressive agents, and calcium channel blockers. There are equally effective alternatives to these drug classes that do not have the potential to interact with grapefruit. These alternative drugs may be substituted if a patient experiences or is at risk of a grapefruit-drug interaction. Patients also may choose to exclude grapefruit from their diets and consume other fruits, including other types of citrus, to avoid an interaction.",
+  "sanitized_text": "Management of grapefruit-drug interactions.\nGrapefruit is a healthy addition to a well-balanced diet. However, the fruit has been shown to affect the metabolism of many medications, increasing the risk of toxicity and adverse effects. Characteristics of oral medications that may interact with grapefruit include extensive metabolism through the intestinal cytochrome P450 3A4 system, low bioavailability, and a narrow therapeutic index. Prominent medications known to interact with grapefruit include statins, antiarrhythmic agents, immunosuppressive agents, and calcium channel blockers. There are equally effective alternatives to these drug classes that do not have the potential to interact with grapefruit. These alternative drugs may be substituted if a patient experiences or is at risk of a grapefruit-drug interaction. Patients also may choose to exclude grapefruit from their diets and consume other fruits, including other types of citrus, to avoid an interaction.",
+  "modified": false,
+  "original_char_count": 976,
+  "sanitized_char_count": 976,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 829,
+      "boundary_end": 976,
+      "context": "Management of grapefruit-drug interactions. Grapefruit is a healthy addition to a well-balanced diet. However, the fruit has been shown to affect the metabolism of many medications, increasing the risk of toxicity and adverse effects. Characteristics of oral medications that may interact with grapefruit include extensive metabolism through the intestinal cytochrome P450 3A4 system, low bioavailability, and a narrow therapeutic index. Prominent medications known to interact with grapefruit include statins, antiarrhythmic agents, immunosuppressive agents, and calcium channel blockers. There are equally effective alternatives to these drug classes that do not have the potential to interact with grapefruit. These alternative drugs may be substituted if a patient experiences or is at risk of a grapefruit-drug interaction.",
+      "target": "Patients also may choose to exclude grapefruit from their diets and consume other fruits, including other types of citrus, to avoid an interaction.",
+      "loss_target": 2.745915412902832,
+      "loss_target_given_context": 1.9509800672531128,
+      "delta_loss": 0.7949353456497192,
+      "gain_ratio": 0.28949739016518244,
+      "score": -0.28949739016518244,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

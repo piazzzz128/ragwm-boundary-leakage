@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3703",
+  "source_doc_id": "MED-3703",
+  "title": "The association between allergies and cancer: what is currently known?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The association between allergies and cancer: what is currently known?\nOBJECTIVE: To provide an overview of what is currently known about the relationship between allergies and cancer. DATA SOURCES: Publications were selected from a systematic review of the English-language literature from established databases (eg, MEDLINE, EBSCO) and the references of materials identified through these databases. STUDY SELECTION: Publications assessing the association between asthma, hay fever, or other allergy-related diseases and cancer were included in this review. RESULTS: Individuals with any type of allergy have a decreased risk for cancer (compared with the general population), including glioma, colorectal cancer, cancer of the larynx, non-Hodgkin lymphoma, cancer of the esophagus, oral cancer, pancreatic cancer, stomach cancer, and uterine body cancer. However, an increased risk for bladder cancer, lymphoma, myeloma, and prostate cancer exists among those with allergies. Studies that involve breast cancer, leukemia, lung cancer, melanoma, and thyroid cancer have shown no association or conflicting results related to allergies. More research is needed before conclusions can be made about the relation between allergies and Kaposi sarcoma, liver cancer, and cancer of the ovaries. CONCLUSIONS: The association between allergies and cancer is site specific. Further research is needed to verify these results and to determine why such associations exist.",
+  "sanitized_text": "The association between allergies and cancer: what is currently known?\nOBJECTIVE: To provide an overview of what is currently known about the relationship between allergies and cancer. DATA SOURCES: Publications were selected from a systematic review of the English-language literature from established databases (eg, MEDLINE, EBSCO) and the references of materials identified through these databases. STUDY SELECTION: Publications assessing the association between asthma, hay fever, or other allergy-related diseases and cancer were included in this review. RESULTS: Individuals with any type of allergy have a decreased risk for cancer (compared with the general population), including glioma, colorectal cancer, cancer of the larynx, non-Hodgkin lymphoma, cancer of the esophagus, oral cancer, pancreatic cancer, stomach cancer, and uterine body cancer. However, an increased risk for bladder cancer, lymphoma, myeloma, and prostate cancer exists among those with allergies. Studies that involve breast cancer, leukemia, lung cancer, melanoma, and thyroid cancer have shown no association or conflicting results related to allergies. More research is needed before conclusions can be made about the relation between allergies and Kaposi sarcoma, liver cancer, and cancer of the ovaries. CONCLUSIONS: The association between allergies and cancer is site specific. Further research is needed to verify these results and to determine why such associations exist.",
+  "modified": false,
+  "original_char_count": 1463,
+  "sanitized_char_count": 1463,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1367,
+      "boundary_end": 1463,
+      "context": "and cancer. DATA SOURCES: Publications were selected from a systematic review of the English-language literature from established databases (eg, MEDLINE, EBSCO) and the references of materials identified through these databases. STUDY SELECTION: Publications assessing the association between asthma, hay fever, or other allergy-related diseases and cancer were included in this review. RESULTS: Individuals with any type of allergy have a decreased risk for cancer (compared with the general population), including glioma, colorectal cancer, cancer of the larynx, non-Hodgkin lymphoma, cancer of the esophagus, oral cancer, pancreatic cancer, stomach cancer, and uterine body cancer. However, an increased risk for bladder cancer, lymphoma, myeloma, and prostate cancer exists among those with allergies. Studies that involve breast cancer, leukemia, lung cancer, melanoma, and thyroid cancer have shown no association or conflicting results related to allergies. More research is needed before conclusions can be made about the relation between allergies and Kaposi sarcoma, liver cancer, and cancer of the ovaries. CONCLUSIONS: The association between allergies and cancer is site specific.",
+      "target": "Further research is needed to verify these results and to determine why such associations exist.",
+      "loss_target": 2.3659095764160156,
+      "loss_target_given_context": 1.580572485923767,
+      "delta_loss": 0.7853370904922485,
+      "gain_ratio": 0.33193875975679166,
+      "score": -0.33193875975679166,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

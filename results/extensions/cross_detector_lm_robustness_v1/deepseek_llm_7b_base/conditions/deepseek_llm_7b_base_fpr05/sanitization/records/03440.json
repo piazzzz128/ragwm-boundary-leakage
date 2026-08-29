@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-721",
+  "source_doc_id": "MED-721",
+  "title": "Bismuth therapy in gastrointestinal diseases.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Bismuth therapy in gastrointestinal diseases.\nBismuth therapy has shown efficacy against two major gastrointestinal disorders: peptic ulcer disease and diarrhea. In peptic ulcer disease it is as effective as the H2-receptor antagonists, costs considerably less, and offers a lower rate of relapse. When Helicobacter pylori is implicated, bismuth acts as an antimicrobial agent, suppressing the organism but not eliminating it. In recent studies, bismuth compounds have been used with conventional antibiotics, producing elimination of the organism, histological improvement, and amelioration of symptoms for periods longer than one year. Bismuth subsalicylate has shown modest efficacy in treating traveler's diarrhea and acute and chronic diarrhea in children, and it is effective prophylactically for traveler's diarrhea. An epidemic of neurological toxicity was reported in France in the 1970's with prolonged bismuth treatment, usually bismuth subgallate and subnitrate. Such toxicity has been rare with bismuth subsalicylate and colloidal bismuth subcitrate. However, recent studies have demonstrated intestinal absorption of bismuth (about 0.2% of the ingested dose) and sequestration of this heavy metal in multiple tissue sites, even occurring with conventional dosing over a 6-week period. These findings have inspired recommendations that treatment periods with any bismuth-containing compound should last no longer than 6-8 weeks, followed by 8-week bismuth-free intervals.",
+  "sanitized_text": "Bismuth therapy in gastrointestinal diseases.\nBismuth therapy has shown efficacy against two major gastrointestinal disorders: peptic ulcer disease and diarrhea. In peptic ulcer disease it is as effective as the H2-receptor antagonists, costs considerably less, and offers a lower rate of relapse. When Helicobacter pylori is implicated, bismuth acts as an antimicrobial agent, suppressing the organism but not eliminating it. In recent studies, bismuth compounds have been used with conventional antibiotics, producing elimination of the organism, histological improvement, and amelioration of symptoms for periods longer than one year. Bismuth subsalicylate has shown modest efficacy in treating traveler's diarrhea and acute and chronic diarrhea in children, and it is effective prophylactically for traveler's diarrhea. An epidemic of neurological toxicity was reported in France in the 1970's with prolonged bismuth treatment, usually bismuth subgallate and subnitrate. Such toxicity has been rare with bismuth subsalicylate and colloidal bismuth subcitrate. However, recent studies have demonstrated intestinal absorption of bismuth (about 0.2% of the ingested dose) and sequestration of this heavy metal in multiple tissue sites, even occurring with conventional dosing over a 6-week period. These findings have inspired recommendations that treatment periods with any bismuth-containing compound should last no longer than 6-8 weeks, followed by 8-week bismuth-free intervals.",
+  "modified": false,
+  "original_char_count": 1484,
+  "sanitized_char_count": 1484,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1299,
+      "boundary_end": 1484,
+      "context": "gastrointestinal disorders: peptic ulcer disease and diarrhea. In peptic ulcer disease it is as effective as the H2-receptor antagonists, costs considerably less, and offers a lower rate of relapse. When Helicobacter pylori is implicated, bismuth acts as an antimicrobial agent, suppressing the organism but not eliminating it. In recent studies, bismuth compounds have been used with conventional antibiotics, producing elimination of the organism, histological improvement, and amelioration of symptoms for periods longer than one year. Bismuth subsalicylate has shown modest efficacy in treating traveler's diarrhea and acute and chronic diarrhea in children, and it is effective prophylactically for traveler's diarrhea. An epidemic of neurological toxicity was reported in France in the 1970's with prolonged bismuth treatment, usually bismuth subgallate and subnitrate. Such toxicity has been rare with bismuth subsalicylate and colloidal bismuth subcitrate. However, recent studies have demonstrated intestinal absorption of bismuth (about 0.2% of the ingested dose) and sequestration of this heavy metal in multiple tissue sites, even occurring with conventional dosing over a 6-week period.",
+      "target": "These findings have inspired recommendations that treatment periods with any bismuth-containing compound should last no longer than 6-8 weeks, followed by 8-week bismuth-free intervals.",
+      "loss_target": 2.668220043182373,
+      "loss_target_given_context": 1.9209494590759277,
+      "delta_loss": 0.7472705841064453,
+      "gain_ratio": 0.2800633276164058,
+      "score": -0.2800633276164058,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

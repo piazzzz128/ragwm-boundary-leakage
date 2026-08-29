@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2271",
+  "source_doc_id": "MED-2271",
+  "title": "Watermelon juice: potential functional drink for sore muscle relief in athletes.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Watermelon juice: potential functional drink for sore muscle relief in athletes.\nl-Citrulline is an excellent candidate to reduce muscle soreness, and watermelon is a fruit rich in this amino acid. This study investigated the potential of watermelon juice as a functional drink for athletes. An in vitro study of intestinal absorption of l-citrulline in Caco-2 cells was performed using unpasteurized (NW), pasteurized (80 °C for 40 s) watermelon juice (PW) and, as control, a standard of l-citrulline. l-citrulline bioavailability was greater when it was contained in a matrix of watermelon and when no heat treatment was applied. In the in vivo experiment (maximum effort test in a cycloergometer), seven athletes were supplied with 500 mL of natural watermelon juice (1.17 g of l-citrulline), enriched watermelon juice (4.83 g of l-citrulline plus 1.17 g from watermelon), and placebo. Both watermelon juices helped to reduce the recovery heart rate and muscle soreness after 24 h.",
+  "sanitized_text": "Watermelon juice: potential functional drink for sore muscle relief in athletes.\nl-Citrulline is an excellent candidate to reduce muscle soreness, and watermelon is a fruit rich in this amino acid. This study investigated the potential of watermelon juice as a functional drink for athletes. An in vitro study of intestinal absorption of l-citrulline in Caco-2 cells was performed using unpasteurized (NW), pasteurized (80 °C for 40 s) watermelon juice (PW) and, as control, a standard of l-citrulline. l-citrulline bioavailability was greater when it was contained in a matrix of watermelon and when no heat treatment was applied. In the in vivo experiment (maximum effort test in a cycloergometer), seven athletes were supplied with 500 mL of natural watermelon juice (1.17 g of l-citrulline), enriched watermelon juice (4.83 g of l-citrulline plus 1.17 g from watermelon), and placebo. Both watermelon juices helped to reduce the recovery heart rate and muscle soreness after 24 h.",
+  "modified": false,
+  "original_char_count": 984,
+  "sanitized_char_count": 984,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 889,
+      "boundary_end": 984,
+      "context": "Watermelon juice: potential functional drink for sore muscle relief in athletes. l-Citrulline is an excellent candidate to reduce muscle soreness, and watermelon is a fruit rich in this amino acid. This study investigated the potential of watermelon juice as a functional drink for athletes. An in vitro study of intestinal absorption of l-citrulline in Caco-2 cells was performed using unpasteurized (NW), pasteurized (80 °C for 40 s) watermelon juice (PW) and, as control, a standard of l-citrulline. l-citrulline bioavailability was greater when it was contained in a matrix of watermelon and when no heat treatment was applied. In the in vivo experiment (maximum effort test in a cycloergometer), seven athletes were supplied with 500 mL of natural watermelon juice (1.17 g of l-citrulline), enriched watermelon juice (4.83 g of l-citrulline plus 1.17 g from watermelon), and placebo.",
+      "target": "Both watermelon juices helped to reduce the recovery heart rate and muscle soreness after 24 h.",
+      "loss_target": 3.7414238452911377,
+      "loss_target_given_context": 1.8470726013183594,
+      "delta_loss": 1.8943512439727783,
+      "gain_ratio": 0.5063182687406457,
+      "score": -0.5063182687406457,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

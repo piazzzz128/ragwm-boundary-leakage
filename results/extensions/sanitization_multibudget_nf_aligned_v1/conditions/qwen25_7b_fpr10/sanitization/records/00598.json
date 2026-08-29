@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1718",
+  "source_doc_id": "MED-1718",
+  "title": "Obesity as a Major Risk Factor for Cancer",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Obesity as a Major Risk Factor for Cancer\nThe number of cancer cases caused by being obese is estimated to be 20% with the increased risk of malignancies being influenced by diet, weight change, and body fat distribution together with physical activity. Reports from the International Agency for Research into Cancer and the World Cancer Research Fund (WCRF) have shown that the strongest evidence exists for an association of obesity with the following cancer types: endometrial, esophageal adenocarcinoma, colorectal, postmenopausal breast, prostate, and renal, whereas the less common malignancies are leukemia, non-Hodgkin's lymphoma, multiple myeloma, malignant melanoma, and thyroid tumours. To be able to develop novel methods in prevention and treatment, we first must understand the underlying processes which link cancer to obesity. Four main systems have been identified as potential producers of cancer in obesity: insulin, insulin-like growth factor-I, sex steroids, and adipokines. Various novel candidate mechanisms have been proposed: chronic inflammation, oxidative stress, crosstalk between tumour cells and surrounding adipocytes, migrating adipose stromal cells, obesity-induced hypoxia, shared genetic susceptibility, and the functional defeat of immune function. Herein, we review the major pathogenic links between obesity and susceptibility to cancer.",
+  "sanitized_text": "Obesity as a Major Risk Factor for Cancer\nThe number of cancer cases caused by being obese is estimated to be 20% with the increased risk of malignancies being influenced by diet, weight change, and body fat distribution together with physical activity. Reports from the International Agency for Research into Cancer and the World Cancer Research Fund (WCRF) have shown that the strongest evidence exists for an association of obesity with the following cancer types: endometrial, esophageal adenocarcinoma, colorectal, postmenopausal breast, prostate, and renal, whereas the less common malignancies are leukemia, non-Hodgkin's lymphoma, multiple myeloma, malignant melanoma, and thyroid tumours. To be able to develop novel methods in prevention and treatment, we first must understand the underlying processes which link cancer to obesity. Four main systems have been identified as potential producers of cancer in obesity: insulin, insulin-like growth factor-I, sex steroids, and adipokines. Various novel candidate mechanisms have been proposed: chronic inflammation, oxidative stress, crosstalk between tumour cells and surrounding adipocytes, migrating adipose stromal cells, obesity-induced hypoxia, shared genetic susceptibility, and the functional defeat of immune function. Herein, we review the major pathogenic links between obesity and susceptibility to cancer.",
+  "modified": false,
+  "original_char_count": 1375,
+  "sanitized_char_count": 1375,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1285,
+      "boundary_end": 1375,
+      "context": "obese is estimated to be 20% with the increased risk of malignancies being influenced by diet, weight change, and body fat distribution together with physical activity. Reports from the International Agency for Research into Cancer and the World Cancer Research Fund (WCRF) have shown that the strongest evidence exists for an association of obesity with the following cancer types: endometrial, esophageal adenocarcinoma, colorectal, postmenopausal breast, prostate, and renal, whereas the less common malignancies are leukemia, non-Hodgkin's lymphoma, multiple myeloma, malignant melanoma, and thyroid tumours. To be able to develop novel methods in prevention and treatment, we first must understand the underlying processes which link cancer to obesity. Four main systems have been identified as potential producers of cancer in obesity: insulin, insulin-like growth factor-I, sex steroids, and adipokines. Various novel candidate mechanisms have been proposed: chronic inflammation, oxidative stress, crosstalk between tumour cells and surrounding adipocytes, migrating adipose stromal cells, obesity-induced hypoxia, shared genetic susceptibility, and the functional defeat of immune function.",
+      "target": "Herein, we review the major pathogenic links between obesity and susceptibility to cancer.",
+      "loss_target": 3.207045078277588,
+      "loss_target_given_context": 1.8889296054840088,
+      "delta_loss": 1.318115472793579,
+      "gain_ratio": 0.4110062193143544,
+      "score": -0.4110062193143544,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

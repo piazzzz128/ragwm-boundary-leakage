@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3856",
+  "source_doc_id": "MED-3856",
+  "title": "Hypothesis: is antibiotic use associated with breast cancer?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Hypothesis: is antibiotic use associated with breast cancer?\nThe hypothesis that antibiotic use may increase cancer risk was first proposed several decades ago and some research suggests an increased risk of breast cancer among women with conditions likely to require long-term antibiotic use (e.g., acne, recurrent urinary-tract infections, UTI). However, this hypothesis has not been verified and the possible biological mechanisms are not entirely clear. A recent cohort study in Finland reported an increased risk of breast-cancer associated with antibiotic use for UTI. The effect of antibiotics on the ability of intestinal microflora to metabolise phytochemicals from edible plants into compounds that may protect against cancer was proposed as a potential mechanism. We extend this hypothesis by proposing that antibiotic use may be associated with breast-cancer risk through effects on immune and inflammatory factors, such as cytokines, T lymphocytes, prostaglandins, and matrix metalloproteinases, as well as disruption of phytochemical and oestrogen metabolism by intestinal microflora. We suggest that some mechanisms may increase breast-cancer risk, while others may decrease risk, depending on the antibiotic classification. There exists a connection between the microbiome and odds ratios in epidemiological research.",
+  "sanitized_text": "Hypothesis: is antibiotic use associated with breast cancer?\nThe hypothesis that antibiotic use may increase cancer risk was first proposed several decades ago and some research suggests an increased risk of breast cancer among women with conditions likely to require long-term antibiotic use (e.g., acne, recurrent urinary-tract infections, UTI). However, this hypothesis has not been verified and the possible biological mechanisms are not entirely clear. A recent cohort study in Finland reported an increased risk of breast-cancer associated with antibiotic use for UTI. The effect of antibiotics on the ability of intestinal microflora to metabolise phytochemicals from edible plants into compounds that may protect against cancer was proposed as a potential mechanism. We extend this hypothesis by proposing that antibiotic use may be associated with breast-cancer risk through effects on immune and inflammatory factors, such as cytokines, T lymphocytes, prostaglandins, and matrix metalloproteinases, as well as disruption of phytochemical and oestrogen metabolism by intestinal microflora. We suggest that some mechanisms may increase breast-cancer risk, while others may decrease risk, depending on the antibiotic classification.",
+  "modified": true,
+  "original_char_count": 1333,
+  "sanitized_char_count": 1239,
+  "deleted_char_count": 94,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1240,
+      "boundary_end": 1333,
+      "context": "with breast cancer? The hypothesis that antibiotic use may increase cancer risk was first proposed several decades ago and some research suggests an increased risk of breast cancer among women with conditions likely to require long-term antibiotic use (e.g., acne, recurrent urinary-tract infections, UTI). However, this hypothesis has not been verified and the possible biological mechanisms are not entirely clear. A recent cohort study in Finland reported an increased risk of breast-cancer associated with antibiotic use for UTI. The effect of antibiotics on the ability of intestinal microflora to metabolise phytochemicals from edible plants into compounds that may protect against cancer was proposed as a potential mechanism. We extend this hypothesis by proposing that antibiotic use may be associated with breast-cancer risk through effects on immune and inflammatory factors, such as cytokines, T lymphocytes, prostaglandins, and matrix metalloproteinases, as well as disruption of phytochemical and oestrogen metabolism by intestinal microflora. We suggest that some mechanisms may increase breast-cancer risk, while others may decrease risk, depending on the antibiotic classification.",
+      "target": "There exists a connection between the microbiome and odds ratios in epidemiological research.",
+      "loss_target": 3.7981479167938232,
+      "loss_target_given_context": 3.521433115005493,
+      "delta_loss": 0.2767148017883301,
+      "gain_ratio": 0.0728551935970721,
+      "score": -0.0728551935970721,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1099,
+      "boundary_end": 1239,
+      "context": "Hypothesis: is antibiotic use associated with breast cancer? The hypothesis that antibiotic use may increase cancer risk was first proposed several decades ago and some research suggests an increased risk of breast cancer among women with conditions likely to require long-term antibiotic use (e.g., acne, recurrent urinary-tract infections, UTI). However, this hypothesis has not been verified and the possible biological mechanisms are not entirely clear. A recent cohort study in Finland reported an increased risk of breast-cancer associated with antibiotic use for UTI. The effect of antibiotics on the ability of intestinal microflora to metabolise phytochemicals from edible plants into compounds that may protect against cancer was proposed as a potential mechanism. We extend this hypothesis by proposing that antibiotic use may be associated with breast-cancer risk through effects on immune and inflammatory factors, such as cytokines, T lymphocytes, prostaglandins, and matrix metalloproteinases, as well as disruption of phytochemical and oestrogen metabolism by intestinal microflora.",
+      "target": "We suggest that some mechanisms may increase breast-cancer risk, while others may decrease risk, depending on the antibiotic classification.",
+      "loss_target": 3.5091664791107178,
+      "loss_target_given_context": 1.9086841344833374,
+      "delta_loss": 1.6004823446273804,
+      "gain_ratio": 0.4560861829026048,
+      "score": -0.4560861829026048,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1240,
+      "target": "There exists a connection between the microbiome and odds ratios in epidemiological research.",
+      "score": -0.0728551935970721,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "There exists a connection between the microbiome and odds ratios in epidemiological research.",
+      "deleted_char_count": 93
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

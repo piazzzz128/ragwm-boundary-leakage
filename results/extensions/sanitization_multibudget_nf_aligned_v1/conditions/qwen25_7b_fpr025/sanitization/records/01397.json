@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2773",
+  "source_doc_id": "MED-2773",
+  "title": "The experience of Japan as a clue to the etiology of testicular and prostatic cancers.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The experience of Japan as a clue to the etiology of testicular and prostatic cancers.\nIn Japan dramatic lifestyle changes occurred after World War 2. To examine the experience of Japan as a clue to the etiology, trends in the mortality rates of testicular and prostatic cancers from 1947 to 1998 were related to changes in dietary practices. The male population born before 1945 had a peak in death from testicular cancer in their thirties or forties, whereas those born after 1946 had a peak in their twenties. The death rate of prostatic cancer increased 25-fold almost linearly after the war. The intake of milk, meat, and eggs increased 20-, 9-, and 7-fold, respectively, after the war. In connection with the development and growth of testicular and prostatic cancers in Japan, particular attention should be paid to milk, because the increase in its consumption in this country is a recent occurrence and because milk contains considerable amounts of estrogens plus saturated fats.",
+  "sanitized_text": "The experience of Japan as a clue to the etiology of testicular and prostatic cancers.\nIn Japan dramatic lifestyle changes occurred after World War 2. To examine the experience of Japan as a clue to the etiology, trends in the mortality rates of testicular and prostatic cancers from 1947 to 1998 were related to changes in dietary practices. The male population born before 1945 had a peak in death from testicular cancer in their thirties or forties, whereas those born after 1946 had a peak in their twenties. The death rate of prostatic cancer increased 25-fold almost linearly after the war. The intake of milk, meat, and eggs increased 20-, 9-, and 7-fold, respectively, after the war. In connection with the development and growth of testicular and prostatic cancers in Japan, particular attention should be paid to milk, because the increase in its consumption in this country is a recent occurrence and because milk contains considerable amounts of estrogens plus saturated fats.",
+  "modified": false,
+  "original_char_count": 988,
+  "sanitized_char_count": 988,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 692,
+      "boundary_end": 988,
+      "context": "The experience of Japan as a clue to the etiology of testicular and prostatic cancers. In Japan dramatic lifestyle changes occurred after World War 2. To examine the experience of Japan as a clue to the etiology, trends in the mortality rates of testicular and prostatic cancers from 1947 to 1998 were related to changes in dietary practices. The male population born before 1945 had a peak in death from testicular cancer in their thirties or forties, whereas those born after 1946 had a peak in their twenties. The death rate of prostatic cancer increased 25-fold almost linearly after the war. The intake of milk, meat, and eggs increased 20-, 9-, and 7-fold, respectively, after the war.",
+      "target": "In connection with the development and growth of testicular and prostatic cancers in Japan, particular attention should be paid to milk, because the increase in its consumption in this country is a recent occurrence and because milk contains considerable amounts of estrogens plus saturated fats.",
+      "loss_target": 2.881176233291626,
+      "loss_target_given_context": 2.2372326850891113,
+      "delta_loss": 0.6439435482025146,
+      "gain_ratio": 0.22350022909457207,
+      "score": -0.22350022909457207,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

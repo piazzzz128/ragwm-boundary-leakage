@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4887",
+  "source_doc_id": "MED-4887",
+  "title": "Angina pectoris and atherosclerotic risk factors in the multisite cardiac lifestyle intervention program.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Angina pectoris and atherosclerotic risk factors in the multisite cardiac lifestyle intervention program.\nCardiovascular symptom relief is a major indicator for revascularization procedures. To examine the effects of intensive lifestyle modification on symptom relief, we investigated changes in angina pectoris, coronary risk factors, quality of life, and lifestyle behaviors in patients with stable coronary artery disease enrolled in the multisite cardiac lifestyle intervention program, an ongoing health insurance-covered lifestyle intervention conducted at 22 sites in the united states. Patients with coronary artery disease (nonsmokers; 757 men, 395 women; mean age 61 years) were asked to make changes in diet (10% calories from fat, plant based), engage in moderate exercise (3 hours/week), and practice stress management (1 hour/day). At baseline, 108 patients (43% women) reported mild angina and 174 patients (37% women) reported limiting angina. By 12 weeks, 74% of these patients were angina free, and an additional 9% moved from limiting to mild angina. This improvement in angina was significant for patients with mild and limiting angina at baseline regardless of gender (p <0.01). Significant improvements in cardiac risk factors, quality of life, and lifestyle behaviors were observed, and patients with angina who became angina free by 12 weeks showed the greatest improvements in exercise capacity, depression, and health-related quality of life (p <0.05). In conclusion, the observed improvements in angina in patients making intensive lifestyle changes could drastically reduce their need for revascularization procedures.",
+  "sanitized_text": "Angina pectoris and atherosclerotic risk factors in the multisite cardiac lifestyle intervention program.\nCardiovascular symptom relief is a major indicator for revascularization procedures. To examine the effects of intensive lifestyle modification on symptom relief, we investigated changes in angina pectoris, coronary risk factors, quality of life, and lifestyle behaviors in patients with stable coronary artery disease enrolled in the multisite cardiac lifestyle intervention program, an ongoing health insurance-covered lifestyle intervention conducted at 22 sites in the united states. Patients with coronary artery disease (nonsmokers; 757 men, 395 women; mean age 61 years) were asked to make changes in diet (10% calories from fat, plant based), engage in moderate exercise (3 hours/week), and practice stress management (1 hour/day). At baseline, 108 patients (43% women) reported mild angina and 174 patients (37% women) reported limiting angina. By 12 weeks, 74% of these patients were angina free, and an additional 9% moved from limiting to mild angina. This improvement in angina was significant for patients with mild and limiting angina at baseline regardless of gender (p <0.01). Significant improvements in cardiac risk factors, quality of life, and lifestyle behaviors were observed, and patients with angina who became angina free by 12 weeks showed the greatest improvements in exercise capacity, depression, and health-related quality of life (p <0.05). In conclusion, the observed improvements in angina in patients making intensive lifestyle changes could drastically reduce their need for revascularization procedures.",
+  "modified": false,
+  "original_char_count": 1646,
+  "sanitized_char_count": 1646,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1479,
+      "boundary_end": 1646,
+      "context": "changes in angina pectoris, coronary risk factors, quality of life, and lifestyle behaviors in patients with stable coronary artery disease enrolled in the multisite cardiac lifestyle intervention program, an ongoing health insurance-covered lifestyle intervention conducted at 22 sites in the united states. Patients with coronary artery disease (nonsmokers; 757 men, 395 women; mean age 61 years) were asked to make changes in diet (10% calories from fat, plant based), engage in moderate exercise (3 hours/week), and practice stress management (1 hour/day). At baseline, 108 patients (43% women) reported mild angina and 174 patients (37% women) reported limiting angina. By 12 weeks, 74% of these patients were angina free, and an additional 9% moved from limiting to mild angina. This improvement in angina was significant for patients with mild and limiting angina at baseline regardless of gender (p <0.01). Significant improvements in cardiac risk factors, quality of life, and lifestyle behaviors were observed, and patients with angina who became angina free by 12 weeks showed the greatest improvements in exercise capacity, depression, and health-related quality of life (p <0.05).",
+      "target": "In conclusion, the observed improvements in angina in patients making intensive lifestyle changes could drastically reduce their need for revascularization procedures.",
+      "loss_target": 3.7831478118896484,
+      "loss_target_given_context": 2.4310014247894287,
+      "delta_loss": 1.3521463871002197,
+      "gain_ratio": 0.3574130471060909,
+      "score": -0.3574130471060909,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

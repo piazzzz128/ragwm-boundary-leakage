@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4828",
+  "source_doc_id": "MED-4828",
+  "title": "Association between statin-associated myopathy and skeletal muscle damage",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Association between statin-associated myopathy and skeletal muscle damage\nBackground Many patients taking statins often complain of muscle pain and weakness. The extent to which muscle pain reflects muscle injury is unknown. Methods We obtained biopsy samples from the vastus lateralis muscle of 83 patients. Of the 44 patients with clinically diagnosed statin-associated myopathy, 29 were currently taking a statin, and 15 had discontinued statin therapy before the biopsy (minimal duration of discontinuation 3 weeks). We also included 19 patients who were taking statins and had no myopathy, and 20 patients who had never taken statins and had no myopathy. We classified the muscles as injured if 2% or more of the muscle fibres in a biopsy sample showed damage. Using reverse transcriptase polymerase chain reaction, we evaluated the expression levels of candidate genes potentially related to myocyte injury. Results Muscle injury was observed in 25 (of 44) patients with myopathy and in 1 patient without myopathy. Only 1 patient with structural injury had a circulating level of creatine phosphokinase that was elevated more than 1950 U/L (10× the upper limit of normal). Expression of ryanodine receptor 3 was significantly upregulated in patients with biopsy evidence of structural damage (1.7, standard error of the mean 0.3). Interpretation Persistent myopathy in patients taking statins reflects structural muscle damage. A lack of elevated levels of circulating creatine phosphokinase does not rule out structural muscle injury. Upregulation of the expression of ryanodine receptor 3 is suggestive of an intracellular calcium leak.",
+  "sanitized_text": "Association between statin-associated myopathy and skeletal muscle damage\nBackground Many patients taking statins often complain of muscle pain and weakness. The extent to which muscle pain reflects muscle injury is unknown. Methods We obtained biopsy samples from the vastus lateralis muscle of 83 patients. Of the 44 patients with clinically diagnosed statin-associated myopathy, 29 were currently taking a statin, and 15 had discontinued statin therapy before the biopsy (minimal duration of discontinuation 3 weeks). We also included 19 patients who were taking statins and had no myopathy, and 20 patients who had never taken statins and had no myopathy. We classified the muscles as injured if 2% or more of the muscle fibres in a biopsy sample showed damage. Using reverse transcriptase polymerase chain reaction, we evaluated the expression levels of candidate genes potentially related to myocyte injury. Results Muscle injury was observed in 25 (of 44) patients with myopathy and in 1 patient without myopathy. Only 1 patient with structural injury had a circulating level of creatine phosphokinase that was elevated more than 1950 U/L (10× the upper limit of normal). Expression of ryanodine receptor 3 was significantly upregulated in patients with biopsy evidence of structural damage (1.7, standard error of the mean 0.3). Interpretation Persistent myopathy in patients taking statins reflects structural muscle damage. A lack of elevated levels of circulating creatine phosphokinase does not rule out structural muscle injury. Upregulation of the expression of ryanodine receptor 3 is suggestive of an intracellular calcium leak.",
+  "modified": false,
+  "original_char_count": 1644,
+  "sanitized_char_count": 1644,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1542,
+      "boundary_end": 1644,
+      "context": "diagnosed statin-associated myopathy, 29 were currently taking a statin, and 15 had discontinued statin therapy before the biopsy (minimal duration of discontinuation 3 weeks). We also included 19 patients who were taking statins and had no myopathy, and 20 patients who had never taken statins and had no myopathy. We classified the muscles as injured if 2% or more of the muscle fibres in a biopsy sample showed damage. Using reverse transcriptase polymerase chain reaction, we evaluated the expression levels of candidate genes potentially related to myocyte injury. Results Muscle injury was observed in 25 (of 44) patients with myopathy and in 1 patient without myopathy. Only 1 patient with structural injury had a circulating level of creatine phosphokinase that was elevated more than 1950 U/L (10× the upper limit of normal). Expression of ryanodine receptor 3 was significantly upregulated in patients with biopsy evidence of structural damage (1.7, standard error of the mean 0.3). Interpretation Persistent myopathy in patients taking statins reflects structural muscle damage. A lack of elevated levels of circulating creatine phosphokinase does not rule out structural muscle injury.",
+      "target": "Upregulation of the expression of ryanodine receptor 3 is suggestive of an intracellular calcium leak.",
+      "loss_target": 2.473146677017212,
+      "loss_target_given_context": 1.0520892143249512,
+      "delta_loss": 1.4210574626922607,
+      "gain_ratio": 0.5745948980293217,
+      "score": -0.5745948980293217,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

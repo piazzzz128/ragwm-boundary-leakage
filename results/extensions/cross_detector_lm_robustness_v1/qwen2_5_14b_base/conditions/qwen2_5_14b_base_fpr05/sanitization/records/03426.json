@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-702",
+  "source_doc_id": "MED-702",
+  "title": "The efficacy and safety of liraglutide.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The efficacy and safety of liraglutide.\nAIM OF THE REVIEW: To systematically analyze the efficacy and safety of liraglutide for the treatment of diabetes mellitus in comparison to other mono- and combination therapies. METHOD: PubMed (any date) and EMBASE (all years) search was conducted with liraglutide as a search term. Phase III clinical trials retrieved by the two databases and resources posted in Drug@FDA website were evaluated with regard to outcomes of efficacy and safety. RESULTS: Eight Phase III clinical studies compared the efficacy and safety of liraglutide to other monotherapies or combinations. Liraglutide as monotherapy in doses of 0.9 mg or above showed a significantly superior reduction in HbA1C compared to monotherapies with glimepiride or glyburide. When liraglutide was used as add-on therapy to glimepiride in doses of 1.2 mg or above, the reduction of HbA1C was greater than that in the combination therapy of glimepiride and rosiglitazone. However, liraglutide as add-on therapy to metformin failed to show benefit over combination of metformin and glimepiride. Triple therapy of using liraglutide in addition to metformin plus either glimepiride or rosiglitazone resulted in additional benefit in HbA1C reduction. Most common adverse events were gastrointestinal disturbance such as nausea, vomit, diarrhea, and constipation. During the eight clinical studies, six cases of pancreatitis and five cases of cancer were reported in liraglutide arm, whereas there was one case of each of pancreatitis in exenatide and glimepiride arms, respectively, and one case of cancer in metformin plus sitagliptin arm. CONCLUSION: Liraglutide is a new therapeutic option to improve glycemic control in patients with type 2 diabetes. However, the present lack of evidence of durability of efficacy and long-term safety appear to limit its utility in the general treatment of type 2 diabetes at this time.",
+  "sanitized_text": "The efficacy and safety of liraglutide.\nAIM OF THE REVIEW: To systematically analyze the efficacy and safety of liraglutide for the treatment of diabetes mellitus in comparison to other mono- and combination therapies. METHOD: PubMed (any date) and EMBASE (all years) search was conducted with liraglutide as a search term. Phase III clinical trials retrieved by the two databases and resources posted in Drug@FDA website were evaluated with regard to outcomes of efficacy and safety. RESULTS: Eight Phase III clinical studies compared the efficacy and safety of liraglutide to other monotherapies or combinations. Liraglutide as monotherapy in doses of 0.9 mg or above showed a significantly superior reduction in HbA1C compared to monotherapies with glimepiride or glyburide. When liraglutide was used as add-on therapy to glimepiride in doses of 1.2 mg or above, the reduction of HbA1C was greater than that in the combination therapy of glimepiride and rosiglitazone. However, liraglutide as add-on therapy to metformin failed to show benefit over combination of metformin and glimepiride. Triple therapy of using liraglutide in addition to metformin plus either glimepiride or rosiglitazone resulted in additional benefit in HbA1C reduction. Most common adverse events were gastrointestinal disturbance such as nausea, vomit, diarrhea, and constipation. During the eight clinical studies, six cases of pancreatitis and five cases of cancer were reported in liraglutide arm, whereas there was one case of each of pancreatitis in exenatide and glimepiride arms, respectively, and one case of cancer in metformin plus sitagliptin arm. CONCLUSION: Liraglutide is a new therapeutic option to improve glycemic control in patients with type 2 diabetes. However, the present lack of evidence of durability of efficacy and long-term safety appear to limit its utility in the general treatment of type 2 diabetes at this time.",
+  "modified": false,
+  "original_char_count": 1921,
+  "sanitized_char_count": 1921,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1751,
+      "boundary_end": 1921,
+      "context": "safety of liraglutide to other monotherapies or combinations. Liraglutide as monotherapy in doses of 0.9 mg or above showed a significantly superior reduction in HbA1C compared to monotherapies with glimepiride or glyburide. When liraglutide was used as add-on therapy to glimepiride in doses of 1.2 mg or above, the reduction of HbA1C was greater than that in the combination therapy of glimepiride and rosiglitazone. However, liraglutide as add-on therapy to metformin failed to show benefit over combination of metformin and glimepiride. Triple therapy of using liraglutide in addition to metformin plus either glimepiride or rosiglitazone resulted in additional benefit in HbA1C reduction. Most common adverse events were gastrointestinal disturbance such as nausea, vomit, diarrhea, and constipation. During the eight clinical studies, six cases of pancreatitis and five cases of cancer were reported in liraglutide arm, whereas there was one case of each of pancreatitis in exenatide and glimepiride arms, respectively, and one case of cancer in metformin plus sitagliptin arm. CONCLUSION: Liraglutide is a new therapeutic option to improve glycemic control in patients with type 2 diabetes.",
+      "target": "However, the present lack of evidence of durability of efficacy and long-term safety appear to limit its utility in the general treatment of type 2 diabetes at this time.",
+      "loss_target": 2.451758623123169,
+      "loss_target_given_context": 2.0310769081115723,
+      "delta_loss": 0.4206817150115967,
+      "gain_ratio": 0.17158365878436757,
+      "score": -0.17158365878436757,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

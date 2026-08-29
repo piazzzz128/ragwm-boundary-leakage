@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-5353",
+  "source_doc_id": "MED-5353",
+  "title": "Cancer risks in second-generation immigrants to Sweden.",
+  "original_text": "Cancer risks in second-generation immigrants to Sweden.\nWe used the nationwide Swedish Family-Cancer Database to analyze cancer risks in Sweden-born descendants of immigrants from European and North American countries. Our study included close to 600,000 0-66-year-old descendants of an immigrant father or mother. We calculated standardized incidence ratios (SIRs) and 95% confidence intervals (CIs) for 17 cancer sites using native Swedes as a reference. All cancer was marginally below the Swedish incidence in offspring of immigrant origin. Decreased SIRs were observed for breast cancer among Norwegian descendants, melanoma among descendants of Hungarian fathers and ovarian and bladder cancer among descendents of Finnish mothers, all consistent with the difference in cancer incidence between Swedes and the indigenous populations. Cervical cancer was increased in daughters of Danish men, whereas thyroid cancer and non-Hodgkin's lymphoma were in excess in offspring of parents of Yugoslav and Asian descent. Even these results agreed with the high incidence rates in parents compared to Swedes, except that for non-Hodgkin's lymphoma other explanations are needed; these may be related to immune malfunction. Comparison of the results between the first- and the second-generation immigrants suggest that the first 2 decades of life are important in setting the pattern for cancer development in subsequent life. Birth in Sweden sets the Swedish pattern for cancer incidence, irrespective of the nationality of descent, while entering Sweden in the 20s is already too late to influence the environmentally imprinted program for the cancer destiny. Copyright 2002 Wiley-Liss, Inc.",
+  "sanitized_text": "Cancer risks in second-generation immigrants to Sweden.\nWe used the nationwide Swedish Family-Cancer Database to analyze cancer risks in Sweden-born descendants of immigrants from European and North American countries. Our study included close to 600,000 0-66-year-old descendants of an immigrant father or mother. We calculated standardized incidence ratios (SIRs) and 95% confidence intervals (CIs) for 17 cancer sites using native Swedes as a reference. All cancer was marginally below the Swedish incidence in offspring of immigrant origin. Decreased SIRs were observed for breast cancer among Norwegian descendants, melanoma among descendants of Hungarian fathers and ovarian and bladder cancer among descendents of Finnish mothers, all consistent with the difference in cancer incidence between Swedes and the indigenous populations. Cervical cancer was increased in daughters of Danish men, whereas thyroid cancer and non-Hodgkin's lymphoma were in excess in offspring of parents of Yugoslav and Asian descent. Even these results agreed with the high incidence rates in parents compared to Swedes, except that for non-Hodgkin's lymphoma other explanations are needed; these may be related to immune malfunction. Comparison of the results between the first- and the second-generation immigrants suggest that the first 2 decades of life are important in setting the pattern for cancer development in subsequent life. Birth in Sweden sets the Swedish pattern for cancer incidence, irrespective of the nationality of descent, while entering Sweden in the 20s is already too late to influence the environmentally imprinted program for the cancer destiny.",
+  "modified": true,
+  "original_char_count": 1688,
+  "sanitized_char_count": 1656,
+  "deleted_char_count": 32,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1657,
+      "boundary_end": 1688,
+      "context": "All cancer was marginally below the Swedish incidence in offspring of immigrant origin. Decreased SIRs were observed for breast cancer among Norwegian descendants, melanoma among descendants of Hungarian fathers and ovarian and bladder cancer among descendents of Finnish mothers, all consistent with the difference in cancer incidence between Swedes and the indigenous populations. Cervical cancer was increased in daughters of Danish men, whereas thyroid cancer and non-Hodgkin's lymphoma were in excess in offspring of parents of Yugoslav and Asian descent. Even these results agreed with the high incidence rates in parents compared to Swedes, except that for non-Hodgkin's lymphoma other explanations are needed; these may be related to immune malfunction. Comparison of the results between the first- and the second-generation immigrants suggest that the first 2 decades of life are important in setting the pattern for cancer development in subsequent life. Birth in Sweden sets the Swedish pattern for cancer incidence, irrespective of the nationality of descent, while entering Sweden in the 20s is already too late to influence the environmentally imprinted program for the cancer destiny.",
+      "target": "Copyright 2002 Wiley-Liss, Inc.",
+      "loss_target": 1.5823111534118652,
+      "loss_target_given_context": 1.7779594659805298,
+      "delta_loss": -0.19564831256866455,
+      "gain_ratio": -0.1236471803581723,
+      "score": 0.1236471803581723,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1422,
+      "boundary_end": 1656,
+      "context": "study included close to 600,000 0-66-year-old descendants of an immigrant father or mother. We calculated standardized incidence ratios (SIRs) and 95% confidence intervals (CIs) for 17 cancer sites using native Swedes as a reference. All cancer was marginally below the Swedish incidence in offspring of immigrant origin. Decreased SIRs were observed for breast cancer among Norwegian descendants, melanoma among descendants of Hungarian fathers and ovarian and bladder cancer among descendents of Finnish mothers, all consistent with the difference in cancer incidence between Swedes and the indigenous populations. Cervical cancer was increased in daughters of Danish men, whereas thyroid cancer and non-Hodgkin's lymphoma were in excess in offspring of parents of Yugoslav and Asian descent. Even these results agreed with the high incidence rates in parents compared to Swedes, except that for non-Hodgkin's lymphoma other explanations are needed; these may be related to immune malfunction. Comparison of the results between the first- and the second-generation immigrants suggest that the first 2 decades of life are important in setting the pattern for cancer development in subsequent life.",
+      "target": "Birth in Sweden sets the Swedish pattern for cancer incidence, irrespective of the nationality of descent, while entering Sweden in the 20s is already too late to influence the environmentally imprinted program for the cancer destiny.",
+      "loss_target": 4.078001976013184,
+      "loss_target_given_context": 3.4151089191436768,
+      "delta_loss": 0.6628930568695068,
+      "gain_ratio": 0.1625533927567091,
+      "score": -0.1625533927567091,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1657,
+      "target": "Copyright 2002 Wiley-Liss, Inc.",
+      "score": 0.1236471803581723,
+      "deleted_suffix": "Copyright 2002 Wiley-Liss, Inc.",
+      "deleted_char_count": 31
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5130",
+  "source_doc_id": "MED-5130",
+  "title": "Schizophrenia-like psychotic episode precipitated by cobalamin deficiency.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Schizophrenia-like psychotic episode precipitated by cobalamin deficiency.\nAlthough cobalamin deficiency is widely known and usually presents with hematologic and neuropsychiatric manifestations, the psychiatric symptoms are not usually the predominant manifestation. We describe a young single male vegetarian who developed a cobalamin-induced psychotic episode without preceding neurologic manifestations and without any hematologic symptoms. He recovered after a short course of antipsychotics and oral cobalamin supplementation and remained asymptomatic and functionally independent at 1 year of follow-up.",
+  "sanitized_text": "Schizophrenia-like psychotic episode precipitated by cobalamin deficiency.\nAlthough cobalamin deficiency is widely known and usually presents with hematologic and neuropsychiatric manifestations, the psychiatric symptoms are not usually the predominant manifestation. We describe a young single male vegetarian who developed a cobalamin-induced psychotic episode without preceding neurologic manifestations and without any hematologic symptoms. He recovered after a short course of antipsychotics and oral cobalamin supplementation and remained asymptomatic and functionally independent at 1 year of follow-up.",
+  "modified": false,
+  "original_char_count": 610,
+  "sanitized_char_count": 610,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 445,
+      "boundary_end": 610,
+      "context": "Schizophrenia-like psychotic episode precipitated by cobalamin deficiency. Although cobalamin deficiency is widely known and usually presents with hematologic and neuropsychiatric manifestations, the psychiatric symptoms are not usually the predominant manifestation. We describe a young single male vegetarian who developed a cobalamin-induced psychotic episode without preceding neurologic manifestations and without any hematologic symptoms.",
+      "target": "He recovered after a short course of antipsychotics and oral cobalamin supplementation and remained asymptomatic and functionally independent at 1 year of follow-up.",
+      "loss_target": 2.7378034591674805,
+      "loss_target_given_context": 1.6168783903121948,
+      "delta_loss": 1.1209250688552856,
+      "gain_ratio": 0.4094249589399452,
+      "score": -0.4094249589399452,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

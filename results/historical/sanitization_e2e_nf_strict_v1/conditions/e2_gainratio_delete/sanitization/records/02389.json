@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4181",
+  "source_doc_id": "MED-4181",
+  "title": "Organochlorine pesticides in umbilical cord blood serum of women from Southern Spain and adherence to the Mediterranean diet.",
+  "original_text": "Organochlorine pesticides in umbilical cord blood serum of women from Southern Spain and adherence to the Mediterranean diet.\nExposure of pregnant women to organochlorine (OC) pesticides largely derives from contaminated food, but environmental, occupational, and domestic factors have also been implicated. We investigated the presence of nine OC residues in the umbilical cord blood of newborns in Southern Spain and analyzed the relationship of this exposure with maternal and pregnancy variables, including maternal adherence to the Mediterranean Diet (MD). OCs were detected in 95% of umbilical cord blood samples from the 318 mothers, who had a mean degree of adherence to the MD of 56.77 (SD: 16.35) (range, 0-100). The MD prioritizes consumption of vegetable and fruit over meat and dairy products, and OCs are generally lipophilic molecules that accumulate in foods of animal origin. Consumption of meat, fish, and dairy products was associated with dichlorodiphenyldichloroethylene (DDE) in umbilical cord serum, and dairy product intake with lindane. Vegetable consumption was also associated with lindane and fruit intake with endosulfan I. We found no significant association between MD adherence and the presence of OC residues in serum. However, closer adherence to the MD may offer greater protection against OC exposure because of its reduced content in meat and dairy products. Copyright (c) 2010 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Organochlorine pesticides in umbilical cord blood serum of women from Southern Spain and adherence to the Mediterranean diet.\nExposure of pregnant women to organochlorine (OC) pesticides largely derives from contaminated food, but environmental, occupational, and domestic factors have also been implicated. We investigated the presence of nine OC residues in the umbilical cord blood of newborns in Southern Spain and analyzed the relationship of this exposure with maternal and pregnancy variables, including maternal adherence to the Mediterranean Diet (MD). OCs were detected in 95% of umbilical cord blood samples from the 318 mothers, who had a mean degree of adherence to the MD of 56.77 (SD: 16.35) (range, 0-100). The MD prioritizes consumption of vegetable and fruit over meat and dairy products, and OCs are generally lipophilic molecules that accumulate in foods of animal origin. Consumption of meat, fish, and dairy products was associated with dichlorodiphenyldichloroethylene (DDE) in umbilical cord serum, and dairy product intake with lindane. Vegetable consumption was also associated with lindane and fruit intake with endosulfan I. We found no significant association between MD adherence and the presence of OC residues in serum. However, closer adherence to the MD may offer greater protection against OC exposure because of its reduced content in meat and dairy products.",
+  "modified": true,
+  "original_char_count": 1449,
+  "sanitized_char_count": 1395,
+  "deleted_char_count": 54,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1396,
+      "boundary_end": 1428,
+      "context": "from contaminated food, but environmental, occupational, and domestic factors have also been implicated. We investigated the presence of nine OC residues in the umbilical cord blood of newborns in Southern Spain and analyzed the relationship of this exposure with maternal and pregnancy variables, including maternal adherence to the Mediterranean Diet (MD). OCs were detected in 95% of umbilical cord blood samples from the 318 mothers, who had a mean degree of adherence to the MD of 56.77 (SD: 16.35) (range, 0-100). The MD prioritizes consumption of vegetable and fruit over meat and dairy products, and OCs are generally lipophilic molecules that accumulate in foods of animal origin. Consumption of meat, fish, and dairy products was associated with dichlorodiphenyldichloroethylene (DDE) in umbilical cord serum, and dairy product intake with lindane. Vegetable consumption was also associated with lindane and fruit intake with endosulfan I. We found no significant association between MD adherence and the presence of OC residues in serum. However, closer adherence to the MD may offer greater protection against OC exposure because of its reduced content in meat and dairy products.",
+      "target": "Copyright (c) 2010 Elsevier Ltd.",
+      "loss_target": 1.3179068565368652,
+      "loss_target_given_context": 1.503629207611084,
+      "delta_loss": -0.18572235107421875,
+      "gain_ratio": -0.14092221324521473,
+      "score": 0.14092221324521473,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1252,
+      "boundary_end": 1395,
+      "context": "of women from Southern Spain and adherence to the Mediterranean diet. Exposure of pregnant women to organochlorine (OC) pesticides largely derives from contaminated food, but environmental, occupational, and domestic factors have also been implicated. We investigated the presence of nine OC residues in the umbilical cord blood of newborns in Southern Spain and analyzed the relationship of this exposure with maternal and pregnancy variables, including maternal adherence to the Mediterranean Diet (MD). OCs were detected in 95% of umbilical cord blood samples from the 318 mothers, who had a mean degree of adherence to the MD of 56.77 (SD: 16.35) (range, 0-100). The MD prioritizes consumption of vegetable and fruit over meat and dairy products, and OCs are generally lipophilic molecules that accumulate in foods of animal origin. Consumption of meat, fish, and dairy products was associated with dichlorodiphenyldichloroethylene (DDE) in umbilical cord serum, and dairy product intake with lindane. Vegetable consumption was also associated with lindane and fruit intake with endosulfan I. We found no significant association between MD adherence and the presence of OC residues in serum.",
+      "target": "However, closer adherence to the MD may offer greater protection against OC exposure because of its reduced content in meat and dairy products.",
+      "loss_target": 3.7328760623931885,
+      "loss_target_given_context": 2.4659154415130615,
+      "delta_loss": 1.266960620880127,
+      "gain_ratio": 0.33940602358704197,
+      "score": -0.33940602358704197,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1396,
+      "target": "Copyright (c) 2010 Elsevier Ltd.",
+      "score": 0.14092221324521473,
+      "deleted_suffix": "Copyright (c) 2010 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 53
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

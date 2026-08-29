@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3763",
+  "source_doc_id": "MED-3763",
+  "title": "A single sip of a strong alcoholic beverage causes exposure to carcinogenic concentrations of acetaldehyde in the oral cavity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A single sip of a strong alcoholic beverage causes exposure to carcinogenic concentrations of acetaldehyde in the oral cavity.\nThe aim of this study was to explore oral exposure to carcinogenic (group 1) acetaldehyde after single sips of strong alcoholic beverages containing no or high concentrations of acetaldehyde. Eight volunteers tasted 5 ml of ethanol diluted to 40 vol.% with no acetaldehyde and 40 vol.% calvados containing 2400 μM acetaldehyde. Salivary acetaldehyde and ethanol concentrations were measured by gas chromatography. The protocol was repeated after ingestion of ethanol (0.5 g/kg body weight). Salivary acetaldehyde concentration was significantly higher after sipping calvados than after sipping ethanol at 30s both with (215 vs. 128 μmol/l, p<0.05) and without (258 vs. 89 μmol/l, p<0.05) alcohol ingestion. From 2 min onwards there were no significant differences in the decreasing salivary acetaldehyde concentration, which remained above the level of carcinogenicity still at 10 min. The systemic alcohol distribution from blood to saliva had no additional effect on salivary acetaldehyde after sipping of the alcoholic beverages. Carcinogenic concentrations of acetaldehyde are produced from ethanol in the oral cavity instantly after a small sip of strong alcoholic beverage, and the exposure continues for at least 10 min. Acetaldehyde present in the beverage has a short-term effect on total acetaldehyde exposure. Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "A single sip of a strong alcoholic beverage causes exposure to carcinogenic concentrations of acetaldehyde in the oral cavity.\nThe aim of this study was to explore oral exposure to carcinogenic (group 1) acetaldehyde after single sips of strong alcoholic beverages containing no or high concentrations of acetaldehyde. Eight volunteers tasted 5 ml of ethanol diluted to 40 vol.% with no acetaldehyde and 40 vol.% calvados containing 2400 μM acetaldehyde. Salivary acetaldehyde and ethanol concentrations were measured by gas chromatography. The protocol was repeated after ingestion of ethanol (0.5 g/kg body weight). Salivary acetaldehyde concentration was significantly higher after sipping calvados than after sipping ethanol at 30s both with (215 vs. 128 μmol/l, p<0.05) and without (258 vs. 89 μmol/l, p<0.05) alcohol ingestion. From 2 min onwards there were no significant differences in the decreasing salivary acetaldehyde concentration, which remained above the level of carcinogenicity still at 10 min. The systemic alcohol distribution from blood to saliva had no additional effect on salivary acetaldehyde after sipping of the alcoholic beverages. Carcinogenic concentrations of acetaldehyde are produced from ethanol in the oral cavity instantly after a small sip of strong alcoholic beverage, and the exposure continues for at least 10 min. Acetaldehyde present in the beverage has a short-term effect on total acetaldehyde exposure. Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1499,
+  "sanitized_char_count": 1499,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1448,
+      "boundary_end": 1478,
+      "context": "beverages containing no or high concentrations of acetaldehyde. Eight volunteers tasted 5 ml of ethanol diluted to 40 vol.% with no acetaldehyde and 40 vol.% calvados containing 2400 μM acetaldehyde. Salivary acetaldehyde and ethanol concentrations were measured by gas chromatography. The protocol was repeated after ingestion of ethanol (0.5 g/kg body weight). Salivary acetaldehyde concentration was significantly higher after sipping calvados than after sipping ethanol at 30s both with (215 vs. 128 μmol/l, p<0.05) and without (258 vs. 89 μmol/l, p<0.05) alcohol ingestion. From 2 min onwards there were no significant differences in the decreasing salivary acetaldehyde concentration, which remained above the level of carcinogenicity still at 10 min. The systemic alcohol distribution from blood to saliva had no additional effect on salivary acetaldehyde after sipping of the alcoholic beverages. Carcinogenic concentrations of acetaldehyde are produced from ethanol in the oral cavity instantly after a small sip of strong alcoholic beverage, and the exposure continues for at least 10 min. Acetaldehyde present in the beverage has a short-term effect on total acetaldehyde exposure.",
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "loss_target": 1.0567681789398193,
+      "loss_target_given_context": 0.41534486413002014,
+      "delta_loss": 0.6414233148097992,
+      "gain_ratio": 0.6069669087247629,
+      "score": -0.6069669087247629,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

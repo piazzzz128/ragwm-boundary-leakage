@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5101",
+  "source_doc_id": "MED-5101",
+  "title": "Nutrient and contaminant tradeoffs: exchanging meat, poultry, or seafood for dietary protein.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Nutrient and contaminant tradeoffs: exchanging meat, poultry, or seafood for dietary protein.\nWhen making food choices, consumers are faced with the dilemma of reconciling differences between health benefits and exposure to potential toxins. Analyses to estimate likely intake and exposure outcomes for young children and women of child-bearing age shows that seafood, chicken, and beef, while approximately equivalent in protein, vary in key nutrients of importance as well as in levels of certain contaminants. Increasing the variety of choices among meats, poultry, and seafood and consuming them in amounts consistent with current dietary guidelines and advisories will contribute toward meeting nutritional needs while reducing exposure to any single type of contaminant.",
+  "sanitized_text": "Nutrient and contaminant tradeoffs: exchanging meat, poultry, or seafood for dietary protein.\nWhen making food choices, consumers are faced with the dilemma of reconciling differences between health benefits and exposure to potential toxins. Analyses to estimate likely intake and exposure outcomes for young children and women of child-bearing age shows that seafood, chicken, and beef, while approximately equivalent in protein, vary in key nutrients of importance as well as in levels of certain contaminants. Increasing the variety of choices among meats, poultry, and seafood and consuming them in amounts consistent with current dietary guidelines and advisories will contribute toward meeting nutritional needs while reducing exposure to any single type of contaminant.",
+  "modified": false,
+  "original_char_count": 776,
+  "sanitized_char_count": 776,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 513,
+      "boundary_end": 776,
+      "context": "Nutrient and contaminant tradeoffs: exchanging meat, poultry, or seafood for dietary protein. When making food choices, consumers are faced with the dilemma of reconciling differences between health benefits and exposure to potential toxins. Analyses to estimate likely intake and exposure outcomes for young children and women of child-bearing age shows that seafood, chicken, and beef, while approximately equivalent in protein, vary in key nutrients of importance as well as in levels of certain contaminants.",
+      "target": "Increasing the variety of choices among meats, poultry, and seafood and consuming them in amounts consistent with current dietary guidelines and advisories will contribute toward meeting nutritional needs while reducing exposure to any single type of contaminant.",
+      "loss_target": 2.898153066635132,
+      "loss_target_given_context": 2.223238229751587,
+      "delta_loss": 0.6749148368835449,
+      "gain_ratio": 0.2328775676666199,
+      "score": -0.2328775676666199,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

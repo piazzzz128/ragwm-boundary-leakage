@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2019",
+  "source_doc_id": "MED-2019",
+  "title": "Effect of wheat gluten hydrolysate on the immune system in healthy human subjects.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of wheat gluten hydrolysate on the immune system in healthy human subjects.\nNine healthy volunteers were divided into a test group (n = 5) and a control group (n = 4). The test group consumed 3 grams per d of wheat gluten hydrolysate for 6 d, and their NK cell activity and hematological parameters were measured: The same assessments were performed in the control group, which did not receive wheat gluten hydrolysate. In the test group, NK cell activity increased significantly (P = 0.018) after wheat gluten hydrolysate intake. No adverse effects were observed in either group.",
+  "sanitized_text": "Effect of wheat gluten hydrolysate on the immune system in healthy human subjects.\nNine healthy volunteers were divided into a test group (n = 5) and a control group (n = 4). The test group consumed 3 grams per d of wheat gluten hydrolysate for 6 d, and their NK cell activity and hematological parameters were measured: The same assessments were performed in the control group, which did not receive wheat gluten hydrolysate. In the test group, NK cell activity increased significantly (P = 0.018) after wheat gluten hydrolysate intake. No adverse effects were observed in either group.",
+  "modified": false,
+  "original_char_count": 587,
+  "sanitized_char_count": 587,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 538,
+      "boundary_end": 587,
+      "context": "Effect of wheat gluten hydrolysate on the immune system in healthy human subjects. Nine healthy volunteers were divided into a test group (n = 5) and a control group (n = 4). The test group consumed 3 grams per d of wheat gluten hydrolysate for 6 d, and their NK cell activity and hematological parameters were measured: The same assessments were performed in the control group, which did not receive wheat gluten hydrolysate. In the test group, NK cell activity increased significantly (P = 0.018) after wheat gluten hydrolysate intake.",
+      "target": "No adverse effects were observed in either group.",
+      "loss_target": 3.1768178939819336,
+      "loss_target_given_context": 0.9019801020622253,
+      "delta_loss": 2.2748377919197083,
+      "gain_ratio": 0.7160743447803827,
+      "score": -0.7160743447803827,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

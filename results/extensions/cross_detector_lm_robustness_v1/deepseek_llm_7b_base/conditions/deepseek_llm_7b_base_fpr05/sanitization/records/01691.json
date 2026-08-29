@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3278",
+  "source_doc_id": "MED-3278",
+  "title": "Sniffer dogs as part of a bimodal bionic research approach to develop a lung cancer screening",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Sniffer dogs as part of a bimodal bionic research approach to develop a lung cancer screening\nLung cancer (LC) continues to represent a heavy burden for health care systems worldwide. Epidemiological studies predict that its role will increase in the near future. While patient prognosis is strongly associated with tumour stage and early detection of disease, no screening test exists so far. It has been suggested that electronic sensor devices, commonly referred to as ‘electronic noses’, may be applicable to identify cancer-specific volatile organic compounds in the breath of patients and therefore may represent promising screening technologies. However, three decades of research did not bring forward a clinically applicable device. Here, we propose a new research approach by involving specially trained sniffer dogs into research strategies by making use of their ability to identify LC in the breath sample of patients.",
+  "sanitized_text": "Sniffer dogs as part of a bimodal bionic research approach to develop a lung cancer screening\nLung cancer (LC) continues to represent a heavy burden for health care systems worldwide. Epidemiological studies predict that its role will increase in the near future. While patient prognosis is strongly associated with tumour stage and early detection of disease, no screening test exists so far. It has been suggested that electronic sensor devices, commonly referred to as ‘electronic noses’, may be applicable to identify cancer-specific volatile organic compounds in the breath of patients and therefore may represent promising screening technologies. However, three decades of research did not bring forward a clinically applicable device. Here, we propose a new research approach by involving specially trained sniffer dogs into research strategies by making use of their ability to identify LC in the breath sample of patients.",
+  "modified": false,
+  "original_char_count": 931,
+  "sanitized_char_count": 931,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 742,
+      "boundary_end": 931,
+      "context": "Sniffer dogs as part of a bimodal bionic research approach to develop a lung cancer screening Lung cancer (LC) continues to represent a heavy burden for health care systems worldwide. Epidemiological studies predict that its role will increase in the near future. While patient prognosis is strongly associated with tumour stage and early detection of disease, no screening test exists so far. It has been suggested that electronic sensor devices, commonly referred to as ‘electronic noses’, may be applicable to identify cancer-specific volatile organic compounds in the breath of patients and therefore may represent promising screening technologies. However, three decades of research did not bring forward a clinically applicable device.",
+      "target": "Here, we propose a new research approach by involving specially trained sniffer dogs into research strategies by making use of their ability to identify LC in the breath sample of patients.",
+      "loss_target": 3.6450939178466797,
+      "loss_target_given_context": 2.267681837081909,
+      "delta_loss": 1.3774120807647705,
+      "gain_ratio": 0.3778810949207228,
+      "score": -0.3778810949207228,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

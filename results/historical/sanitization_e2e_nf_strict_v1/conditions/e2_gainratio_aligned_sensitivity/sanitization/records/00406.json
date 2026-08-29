@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1500",
+  "source_doc_id": "MED-1500",
+  "title": "Fruit, vegetables and prevention of cognitive decline or dementia: a systematic review of cohort studies.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Fruit, vegetables and prevention of cognitive decline or dementia: a systematic review of cohort studies.\nBACKGROUND: Regular consumption of fruit and vegetables has been considered to be associated with a reduced risk of dementia and age-associated cognitive decline, although the association is currently unsupported by a systematic review of the literature. METHODS: We searched Medline, Embase, Biosis, ALOIS, the Cochrane library, different publisher databases as well as bibliographies of retrieved articles. All cohort studies with a follow-up of 6 months or longer were included if they reported an association of Alzheimer's disease or cognitive decline in regard to the frequency of fruit and vegetables consumption. FINDINGS: Nine studies with a total of 44,004 participants met the inclusion criteria. Six studies analyzed fruit and vegetables separately and five of them found that higher consumption of vegetables, but not fruit is associated with a decreased risk of dementia or cognitive decline. The same association was found by three further studies for fruit and vegetable consumption analytically combined. CONCLUSION: Increased intake of vegetables is associated with a lower risk of dementia and slower rates of cognitive decline in older age. Yet, evidence that this association is also valid for high fruit consumption is lacking.",
+  "sanitized_text": "Fruit, vegetables and prevention of cognitive decline or dementia: a systematic review of cohort studies.\nBACKGROUND: Regular consumption of fruit and vegetables has been considered to be associated with a reduced risk of dementia and age-associated cognitive decline, although the association is currently unsupported by a systematic review of the literature. METHODS: We searched Medline, Embase, Biosis, ALOIS, the Cochrane library, different publisher databases as well as bibliographies of retrieved articles. All cohort studies with a follow-up of 6 months or longer were included if they reported an association of Alzheimer's disease or cognitive decline in regard to the frequency of fruit and vegetables consumption. FINDINGS: Nine studies with a total of 44,004 participants met the inclusion criteria. Six studies analyzed fruit and vegetables separately and five of them found that higher consumption of vegetables, but not fruit is associated with a decreased risk of dementia or cognitive decline. The same association was found by three further studies for fruit and vegetable consumption analytically combined. CONCLUSION: Increased intake of vegetables is associated with a lower risk of dementia and slower rates of cognitive decline in older age. Yet, evidence that this association is also valid for high fruit consumption is lacking.",
+  "modified": false,
+  "original_char_count": 1355,
+  "sanitized_char_count": 1355,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1267,
+      "boundary_end": 1355,
+      "context": "a systematic review of cohort studies. BACKGROUND: Regular consumption of fruit and vegetables has been considered to be associated with a reduced risk of dementia and age-associated cognitive decline, although the association is currently unsupported by a systematic review of the literature. METHODS: We searched Medline, Embase, Biosis, ALOIS, the Cochrane library, different publisher databases as well as bibliographies of retrieved articles. All cohort studies with a follow-up of 6 months or longer were included if they reported an association of Alzheimer's disease or cognitive decline in regard to the frequency of fruit and vegetables consumption. FINDINGS: Nine studies with a total of 44,004 participants met the inclusion criteria. Six studies analyzed fruit and vegetables separately and five of them found that higher consumption of vegetables, but not fruit is associated with a decreased risk of dementia or cognitive decline. The same association was found by three further studies for fruit and vegetable consumption analytically combined. CONCLUSION: Increased intake of vegetables is associated with a lower risk of dementia and slower rates of cognitive decline in older age.",
+      "target": "Yet, evidence that this association is also valid for high fruit consumption is lacking.",
+      "loss_target": 3.692819356918335,
+      "loss_target_given_context": 1.9705345630645752,
+      "delta_loss": 1.7222847938537598,
+      "gain_ratio": 0.4663875016326306,
+      "score": -0.4663875016326306,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3486",
+  "source_doc_id": "MED-3486",
+  "title": "United States pharmacopeia safety evaluation of spirulina.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "United States pharmacopeia safety evaluation of spirulina.\nThe Dietary Supplements Information Expert Committee (DSI-EC) of the United States Pharmacopeial Convention (USP) reviews the safety of dietary supplements and dietary supplement ingredients for the purpose of determining whether they should be admitted as quality monographs into the United States Pharmacopeia and National Formulary (USP-NF). The United States Food and Drug Administration (FDA) has enforcement authority to pursue a misbranding action in those instances where a dietary supplement product indicates that it conforms to USP standards but fails to so conform. Recently DSI-EC undertook a safety evaluation of spirulina, a widely used dietary ingredient. DSI-EC reviewed information from human clinical trials, animal studies, and regulatory and pharmacopeial sources and analyzed 31 adverse event reports regarding spirulina to assess potential health concerns. At the conclusion of this review, DSI-EC assigned a Class A safety rating for Spirulina maxima and S. platensis, thereby permitting the admission of quality monographs for these dietary supplement ingredients in USP-NF. DSI-EC continually monitors reports concerning the safety of dietary supplements and dietary supplement ingredients for which USP dietary supplement monographs are developed. The DSI-EC may revisit the safety classification of spirulina as new information on this dietary ingredient becomes available.",
+  "sanitized_text": "United States pharmacopeia safety evaluation of spirulina.\nThe Dietary Supplements Information Expert Committee (DSI-EC) of the United States Pharmacopeial Convention (USP) reviews the safety of dietary supplements and dietary supplement ingredients for the purpose of determining whether they should be admitted as quality monographs into the United States Pharmacopeia and National Formulary (USP-NF). The United States Food and Drug Administration (FDA) has enforcement authority to pursue a misbranding action in those instances where a dietary supplement product indicates that it conforms to USP standards but fails to so conform. Recently DSI-EC undertook a safety evaluation of spirulina, a widely used dietary ingredient. DSI-EC reviewed information from human clinical trials, animal studies, and regulatory and pharmacopeial sources and analyzed 31 adverse event reports regarding spirulina to assess potential health concerns. At the conclusion of this review, DSI-EC assigned a Class A safety rating for Spirulina maxima and S. platensis, thereby permitting the admission of quality monographs for these dietary supplement ingredients in USP-NF. DSI-EC continually monitors reports concerning the safety of dietary supplements and dietary supplement ingredients for which USP dietary supplement monographs are developed. The DSI-EC may revisit the safety classification of spirulina as new information on this dietary ingredient becomes available.",
+  "modified": false,
+  "original_char_count": 1460,
+  "sanitized_char_count": 1460,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1334,
+      "boundary_end": 1460,
+      "context": "States Pharmacopeial Convention (USP) reviews the safety of dietary supplements and dietary supplement ingredients for the purpose of determining whether they should be admitted as quality monographs into the United States Pharmacopeia and National Formulary (USP-NF). The United States Food and Drug Administration (FDA) has enforcement authority to pursue a misbranding action in those instances where a dietary supplement product indicates that it conforms to USP standards but fails to so conform. Recently DSI-EC undertook a safety evaluation of spirulina, a widely used dietary ingredient. DSI-EC reviewed information from human clinical trials, animal studies, and regulatory and pharmacopeial sources and analyzed 31 adverse event reports regarding spirulina to assess potential health concerns. At the conclusion of this review, DSI-EC assigned a Class A safety rating for Spirulina maxima and S. platensis, thereby permitting the admission of quality monographs for these dietary supplement ingredients in USP-NF. DSI-EC continually monitors reports concerning the safety of dietary supplements and dietary supplement ingredients for which USP dietary supplement monographs are developed.",
+      "target": "The DSI-EC may revisit the safety classification of spirulina as new information on this dietary ingredient becomes available.",
+      "loss_target": 4.268060684204102,
+      "loss_target_given_context": 1.5950629711151123,
+      "delta_loss": 2.6729977130889893,
+      "gain_ratio": 0.6262792192673436,
+      "score": -0.6262792192673436,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

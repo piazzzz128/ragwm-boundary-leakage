@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4805",
+  "source_doc_id": "MED-4805",
+  "title": "Risk factors associated with colibacillosis outbreaks in caged layer flocks.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Risk factors associated with colibacillosis outbreaks in caged layer flocks.\nColibacillosis appears to be of increasing significance in layer flocks, but there have been no studies of the risk factors associated with outbreaks. This study aimed to investigate the possible associations between risk factors of non-infectious nature and outbreaks of mortality due to colibacillosis in flocks of caged layer hens. Information on management, biosecurity measures and housing conditions was collected in 20 flocks suffering from the disease and in 20 clinically healthy control flocks. The data were processed using multiple logistic regression. The statistical analysis demonstrated that an increase in the distance to the nearest poultry farm by 1 km was associated with a six-fold decreased risk of an outbreak of colibacillosis (odds ratio=0.16). Furthermore, a 1 l increase in cage volume per hen was associated with a 33% decrease in the risk of an outbreak (odds ratio=0.75). It was concluded that the distance between poultry farms and the hen density in the cages are important risk factors for outbreaks of colibacillosis in flocks of layer hens.",
+  "sanitized_text": "Risk factors associated with colibacillosis outbreaks in caged layer flocks.\nColibacillosis appears to be of increasing significance in layer flocks, but there have been no studies of the risk factors associated with outbreaks. This study aimed to investigate the possible associations between risk factors of non-infectious nature and outbreaks of mortality due to colibacillosis in flocks of caged layer hens. Information on management, biosecurity measures and housing conditions was collected in 20 flocks suffering from the disease and in 20 clinically healthy control flocks. The data were processed using multiple logistic regression. The statistical analysis demonstrated that an increase in the distance to the nearest poultry farm by 1 km was associated with a six-fold decreased risk of an outbreak of colibacillosis (odds ratio=0.16). Furthermore, a 1 l increase in cage volume per hen was associated with a 33% decrease in the risk of an outbreak (odds ratio=0.75). It was concluded that the distance between poultry farms and the hen density in the cages are important risk factors for outbreaks of colibacillosis in flocks of layer hens.",
+  "modified": false,
+  "original_char_count": 1152,
+  "sanitized_char_count": 1152,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 979,
+      "boundary_end": 1152,
+      "context": "Risk factors associated with colibacillosis outbreaks in caged layer flocks. Colibacillosis appears to be of increasing significance in layer flocks, but there have been no studies of the risk factors associated with outbreaks. This study aimed to investigate the possible associations between risk factors of non-infectious nature and outbreaks of mortality due to colibacillosis in flocks of caged layer hens. Information on management, biosecurity measures and housing conditions was collected in 20 flocks suffering from the disease and in 20 clinically healthy control flocks. The data were processed using multiple logistic regression. The statistical analysis demonstrated that an increase in the distance to the nearest poultry farm by 1 km was associated with a six-fold decreased risk of an outbreak of colibacillosis (odds ratio=0.16). Furthermore, a 1 l increase in cage volume per hen was associated with a 33% decrease in the risk of an outbreak (odds ratio=0.75).",
+      "target": "It was concluded that the distance between poultry farms and the hen density in the cages are important risk factors for outbreaks of colibacillosis in flocks of layer hens.",
+      "loss_target": 2.687105894088745,
+      "loss_target_given_context": 0.9774492383003235,
+      "delta_loss": 1.7096566557884216,
+      "gain_ratio": 0.6362446152752765,
+      "score": -0.6362446152752765,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

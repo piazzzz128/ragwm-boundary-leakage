@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1358",
+  "source_doc_id": "MED-1358",
+  "title": "The acute effects of exercise on mood state.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The acute effects of exercise on mood state.\nThis paper documents the recent (1976-1995) literature on the acute mood effects associated with participation in single sessions of exercise. Issues regarding experimental design, \"ecological validity' and the operational definition of mood are addressed. Results from these studies suggest that both clinical and nonclinical subjects may benefit acutely from even a single bout of exercise. Finally, possible mechanisms and recommendations for future research are discussed. Addressing depression typically involves the use of pharmacological treatment.",
+  "sanitized_text": "The acute effects of exercise on mood state.\nThis paper documents the recent (1976-1995) literature on the acute mood effects associated with participation in single sessions of exercise. Issues regarding experimental design, \"ecological validity' and the operational definition of mood are addressed. Results from these studies suggest that both clinical and nonclinical subjects may benefit acutely from even a single bout of exercise. Finally, possible mechanisms and recommendations for future research are discussed.",
+  "modified": true,
+  "original_char_count": 600,
+  "sanitized_char_count": 521,
+  "deleted_char_count": 79,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 522,
+      "boundary_end": 600,
+      "context": "The acute effects of exercise on mood state. This paper documents the recent (1976-1995) literature on the acute mood effects associated with participation in single sessions of exercise. Issues regarding experimental design, \"ecological validity' and the operational definition of mood are addressed. Results from these studies suggest that both clinical and nonclinical subjects may benefit acutely from even a single bout of exercise. Finally, possible mechanisms and recommendations for future research are discussed.",
+      "target": "Addressing depression typically involves the use of pharmacological treatment.",
+      "loss_target": 3.2312822341918945,
+      "loss_target_given_context": 2.710320234298706,
+      "delta_loss": 0.5209619998931885,
+      "gain_ratio": 0.16122454249914042,
+      "score": -0.16122454249914042,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 438,
+      "boundary_end": 521,
+      "context": "The acute effects of exercise on mood state. This paper documents the recent (1976-1995) literature on the acute mood effects associated with participation in single sessions of exercise. Issues regarding experimental design, \"ecological validity' and the operational definition of mood are addressed. Results from these studies suggest that both clinical and nonclinical subjects may benefit acutely from even a single bout of exercise.",
+      "target": "Finally, possible mechanisms and recommendations for future research are discussed.",
+      "loss_target": 3.043154001235962,
+      "loss_target_given_context": 1.474507451057434,
+      "delta_loss": 1.5686465501785278,
+      "gain_ratio": 0.5154673570714561,
+      "score": -0.5154673570714561,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 522,
+      "target": "Addressing depression typically involves the use of pharmacological treatment.",
+      "score": -0.16122454249914042,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Addressing depression typically involves the use of pharmacological treatment.",
+      "deleted_char_count": 78
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

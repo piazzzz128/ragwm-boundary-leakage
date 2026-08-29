@@ -1,0 +1,395 @@
+{
+  "experiment_role": "paired_cross_detector_lm_comparison_v1",
+  "models": [
+    "Qwen2.5-7B",
+    "DeepSeek-LLM-7B-base"
+  ],
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "bootstrap": {
+    "resampling_unit": "source document cluster",
+    "paired": true,
+    "requested_replicates": 5000,
+    "seed": 20260609
+  },
+  "inputs": {
+    "paths": {
+      "qwen_nf": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/aligned_sensitivity/nfcorpus_aligned_scores.json",
+      "deepseek_nf": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/scores/deepseek_nfcorpus_aligned_scores.json",
+      "qwen_trec": "/root/autodl-tmp/ragwm_storage/repo/ragwm_src/tools/RAGWM_pairwise_qwen_deepseek_v2_20260819/inputs/trec_aligned_qwen_v1_scores.json",
+      "deepseek_trec": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/scores/deepseek_trec_aligned_scores.json",
+      "deepseek_metrics": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/metrics/deepseek_boundary_metrics.json",
+      "qwen_verify": "/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/audits/current_provider_verifier_audit_v1_20260818/conditions/fpr05_current_provider/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json",
+      "deepseek_verify": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/conditions/deepseek_llm_7b_base_fpr05/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json"
+    },
+    "sha256": {
+      "qwen_nf": "e1c7dbc745a83b473883ccf9c0d6a3c43c1bb7a14fa9f0dda1551b08f92dd218",
+      "deepseek_nf": "fd29d143ac4c08f23d36b8fac5d4bad7e6d85172f68bb7eb4c1d19275552cc86",
+      "qwen_trec": "cc6a22420492cf63ddcaa1be90d2528db907912f905ce2f4425e26a894aed4e2",
+      "deepseek_trec": "16b89d599fdcd1a792f783174f83560537d3227693f6843218b9c16cdf245118",
+      "deepseek_metrics": "ad43400bfd191487ad2ca8357375a446d9c85de06ad8c647620b8cde0f9e0175",
+      "qwen_verify": "70a053128c025ec32299b348002ffd0b44dd8301e484d5c0e787b5dd25d5a282",
+      "deepseek_verify": "033f962a1bd4a8517febf9aa9c9ddfe22f0ae047cc1599b3830603867967352f"
+    }
+  },
+  "boundary_localization": {
+    "nfcorpus": {
+      "score_direction": "larger score is more suspicious",
+      "difference_direction": "Qwen2.5-7B minus DeepSeek-LLM-7B-base",
+      "qwen": {
+        "roc_auc": 0.9471937903436627,
+        "pr_auc": 0.9490177842066673
+      },
+      "deepseek": {
+        "roc_auc": 0.9185183695630316,
+        "pr_auc": 0.9200262709561458
+      },
+      "paired_difference": {
+        "roc_auc": 0.028675420780631122,
+        "roc_auc_ci": [
+          0.0135040647070917,
+          0.04584598773021692
+        ],
+        "roc_auc_ci_excludes_zero": true,
+        "pr_auc": 0.028991513250521517,
+        "pr_auc_ci": [
+          0.012010071968626907,
+          0.049698274660645775
+        ],
+        "pr_auc_ci_excludes_zero": true
+      },
+      "requested_replicates": 5000,
+      "valid_replicates": 5000,
+      "skipped_replicates": 0,
+      "source_document_cluster_count": 359
+    },
+    "trec-covid": {
+      "score_direction": "larger score is more suspicious",
+      "difference_direction": "Qwen2.5-7B minus DeepSeek-LLM-7B-base",
+      "qwen": {
+        "roc_auc": 0.9245056349039874,
+        "pr_auc": 0.9279419851637773
+      },
+      "deepseek": {
+        "roc_auc": 0.9210732060792128,
+        "pr_auc": 0.9236409714206109
+      },
+      "paired_difference": {
+        "roc_auc": 0.0034324288247745693,
+        "roc_auc_ci": [
+          -0.016077155089292562,
+          0.02230209838002843
+        ],
+        "roc_auc_ci_excludes_zero": false,
+        "pr_auc": 0.004301013743166493,
+        "pr_auc_ci": [
+          -0.014937095708518243,
+          0.023807605402131036
+        ],
+        "pr_auc_ci_excludes_zero": false
+      },
+      "requested_replicates": 5000,
+      "valid_replicates": 5000,
+      "skipped_replicates": 0,
+      "source_document_cluster_count": 410
+    }
+  },
+  "end_to_end": {
+    "comparison_role": "descriptive_non_budget_matched_sensitivity",
+    "verifier_reference": "current_provider_verifier_audit_v1_20260818",
+    "qwen_fpr05_wsn": 21,
+    "deepseek_fpr05_wsn": 24,
+    "wsn_difference_deepseek_minus_qwen": 3,
+    "both_positive": 21,
+    "both_negative": 6,
+    "qwen_positive_deepseek_negative": 0,
+    "qwen_negative_deepseek_positive": 3,
+    "discordant_count": 3,
+    "mcnemar_exact_two_sided_p": 0.25,
+    "qwen_unknown_count": 0,
+    "deepseek_unknown_count": 0,
+    "qwen_realized_budget": {
+      "modified_documents": 174,
+      "deleted_characters": 37586
+    },
+    "deepseek_realized_budget": {
+      "modified_documents": 96,
+      "deleted_characters": 15451
+    },
+    "warning": "Detector-specific 5% FPR thresholds produced different realized deletion budgets. This paired verifier comparison is descriptive and must not be reported as a budget-matched model comparison.",
+    "details": [
+      {
+        "watermark_unit": [
+          "Broccoli",
+          "Cigarette Smoke",
+          "CONTRIBUTES_TO"
+        ],
+        "qwen_fpr05_flag": 0,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Constipation",
+          "Vitamin D Deficiency",
+          "MEASURED"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Death Receptors",
+          "Disease",
+          "CAUSES"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Depression",
+          "Sugar-Free Jams",
+          "MEASURED_BY"
+        ],
+        "qwen_fpr05_flag": 0,
+        "deepseek_fpr05_flag": 0
+      },
+      {
+        "watermark_unit": [
+          "Dietary Factors",
+          "Dioxins",
+          "MEASURED_IN"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Dietary Factors",
+          "Eggs",
+          "MEASURED_IN"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Dietary Portfolio Study",
+          "Flatulence",
+          "RESULTS_IN"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Food Products",
+          "Pharmacological Treatment",
+          "RESULTS_IN"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Food Products",
+          "Polycyclic Aromatic Hydrocarbons",
+          "RELATED_TO"
+        ],
+        "qwen_fpr05_flag": 0,
+        "deepseek_fpr05_flag": 0
+      },
+      {
+        "watermark_unit": [
+          "Gut Microbiota",
+          "Policies And Strategies",
+          "USED_IN"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Hand Hygiene Compliance Rates",
+          "Intervention Group",
+          "AFFECTS"
+        ],
+        "qwen_fpr05_flag": 0,
+        "deepseek_fpr05_flag": 0
+      },
+      {
+        "watermark_unit": [
+          "Health",
+          "Allergic Rhinitis",
+          "RESULTS_IN"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Health",
+          "High-Fat Meal",
+          "INCLUDES"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Homa-Ir",
+          "Sweetened Dried Cranberries",
+          "INVOLVES"
+        ],
+        "qwen_fpr05_flag": 0,
+        "deepseek_fpr05_flag": 0
+      },
+      {
+        "watermark_unit": [
+          "Inflammatory Diseases",
+          "Animal Studies",
+          "USED_IN"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Lethal Prostate Cancer",
+          "Disease",
+          "RESULTS_IN"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Lethal Prostate Cancer",
+          "Patient 1",
+          "REDUCES"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Leukemia",
+          "Randomized Double-Blind Parallel Trial",
+          "REDUCES"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Meta_Analysis",
+          "Whole Grain Consumption",
+          "USED_IN"
+        ],
+        "qwen_fpr05_flag": 0,
+        "deepseek_fpr05_flag": 0
+      },
+      {
+        "watermark_unit": [
+          "Microbiome",
+          "Odds Ratios",
+          "RELATED_TO"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Moderately Obese Subjects",
+          "Lifespan",
+          "IMPROVES"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Nf-Kappab",
+          "Hepg2",
+          "CONTAINS"
+        ],
+        "qwen_fpr05_flag": 0,
+        "deepseek_fpr05_flag": 0
+      },
+      {
+        "watermark_unit": [
+          "Paediatric Asthma",
+          "Saffron",
+          "MEASURES"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Pharmacological Treatment",
+          "Depression",
+          "INVOLVES"
+        ],
+        "qwen_fpr05_flag": 0,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Renal Cell Carcinoma (Rcc)",
+          "United States",
+          "CAUSES"
+        ],
+        "qwen_fpr05_flag": 0,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Review",
+          "Sperm Count",
+          "INHIBITS"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Sugar-Free Jams",
+          "Polonium-210",
+          "USED_IN"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Trail",
+          "Leukemia",
+          "REDUCES"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Triglyceride",
+          "Oats",
+          "CONTAINS"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      },
+      {
+        "watermark_unit": [
+          "Virgin Olive Oil",
+          "Flatulence",
+          "MEASURED_BY"
+        ],
+        "qwen_fpr05_flag": 1,
+        "deepseek_fpr05_flag": 1
+      }
+    ]
+  },
+  "interpretation_guard": "Boundary paired-difference intervals may support model-specific localization differences. End-to-end results remain a non-budget-matched sensitivity comparison and do not replace sealed strict-v1."
+}

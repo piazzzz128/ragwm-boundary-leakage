@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2804",
+  "source_doc_id": "MED-2804",
+  "title": "Epidemiology of OA",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Epidemiology of OA\nOsteoarthritis (OA) is the most common form of arthritis in the US, and a leading cause of disability. It is typically defined in epidemiologic studies on the basis of radiographic findings and consideration of symptoms. Its incidence and prevalence are rising, likely related to the aging of the population and increasing obesity. Risk factors for OA include a number of person-level factors, such as age, sex, obesity, and genetics, as well as joint-specific factors that are likely reflective of abnormal loading of the joints. A number of methodologic challenges exist in studying OA that can hamper our ability to identify pertinent relationships.",
+  "sanitized_text": "Epidemiology of OA\nOsteoarthritis (OA) is the most common form of arthritis in the US, and a leading cause of disability. It is typically defined in epidemiologic studies on the basis of radiographic findings and consideration of symptoms. Its incidence and prevalence are rising, likely related to the aging of the population and increasing obesity. Risk factors for OA include a number of person-level factors, such as age, sex, obesity, and genetics, as well as joint-specific factors that are likely reflective of abnormal loading of the joints. A number of methodologic challenges exist in studying OA that can hamper our ability to identify pertinent relationships.",
+  "modified": false,
+  "original_char_count": 671,
+  "sanitized_char_count": 671,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 550,
+      "boundary_end": 671,
+      "context": "Epidemiology of OA Osteoarthritis (OA) is the most common form of arthritis in the US, and a leading cause of disability. It is typically defined in epidemiologic studies on the basis of radiographic findings and consideration of symptoms. Its incidence and prevalence are rising, likely related to the aging of the population and increasing obesity. Risk factors for OA include a number of person-level factors, such as age, sex, obesity, and genetics, as well as joint-specific factors that are likely reflective of abnormal loading of the joints.",
+      "target": "A number of methodologic challenges exist in studying OA that can hamper our ability to identify pertinent relationships.",
+      "loss_target": 3.887924909591675,
+      "loss_target_given_context": 2.423490047454834,
+      "delta_loss": 1.4644348621368408,
+      "gain_ratio": 0.37666233175543545,
+      "score": -0.37666233175543545,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

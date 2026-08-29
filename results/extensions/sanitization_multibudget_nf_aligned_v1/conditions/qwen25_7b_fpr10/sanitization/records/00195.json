@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1249",
+  "source_doc_id": "MED-1249",
+  "title": "Hypocholesterolemic effect of substituting soybean protein for animal protein in the diet of healthy young women.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Hypocholesterolemic effect of substituting soybean protein for animal protein in the diet of healthy young women.\nThe effect of dietary protein on the level of plasma cholesterol in young, healthy, normolipidemic women was investigated in two separate studies by feeding either a conventional diet containing mixed protein, or a plant protein diet in which the animal protein of the first diet was replaced by soy protein meat analogues and soy milk. The diets were similar with respect to carbohydrate, fat and sterol composition. The first study, lasting 73 days and involving six subjects, gave an indication that plasma cholesterol levels were lower on the plant protein diet. The second study, which incorporated a number of improvements based on experience, lasted 78 days and used a cross-over design involving two groups of five subjects each. In this study, the mean plasma cholesterol level was found to be significantly lower on the plant protein diet.",
+  "sanitized_text": "Hypocholesterolemic effect of substituting soybean protein for animal protein in the diet of healthy young women.\nThe effect of dietary protein on the level of plasma cholesterol in young, healthy, normolipidemic women was investigated in two separate studies by feeding either a conventional diet containing mixed protein, or a plant protein diet in which the animal protein of the first diet was replaced by soy protein meat analogues and soy milk. The diets were similar with respect to carbohydrate, fat and sterol composition. The first study, lasting 73 days and involving six subjects, gave an indication that plasma cholesterol levels were lower on the plant protein diet. The second study, which incorporated a number of improvements based on experience, lasted 78 days and used a cross-over design involving two groups of five subjects each. In this study, the mean plasma cholesterol level was found to be significantly lower on the plant protein diet.",
+  "modified": false,
+  "original_char_count": 963,
+  "sanitized_char_count": 963,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 852,
+      "boundary_end": 963,
+      "context": "Hypocholesterolemic effect of substituting soybean protein for animal protein in the diet of healthy young women. The effect of dietary protein on the level of plasma cholesterol in young, healthy, normolipidemic women was investigated in two separate studies by feeding either a conventional diet containing mixed protein, or a plant protein diet in which the animal protein of the first diet was replaced by soy protein meat analogues and soy milk. The diets were similar with respect to carbohydrate, fat and sterol composition. The first study, lasting 73 days and involving six subjects, gave an indication that plasma cholesterol levels were lower on the plant protein diet. The second study, which incorporated a number of improvements based on experience, lasted 78 days and used a cross-over design involving two groups of five subjects each.",
+      "target": "In this study, the mean plasma cholesterol level was found to be significantly lower on the plant protein diet.",
+      "loss_target": 3.0253305435180664,
+      "loss_target_given_context": 0.7853962182998657,
+      "delta_loss": 2.2399343252182007,
+      "gain_ratio": 0.7403932538933243,
+      "score": -0.7403932538933243,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

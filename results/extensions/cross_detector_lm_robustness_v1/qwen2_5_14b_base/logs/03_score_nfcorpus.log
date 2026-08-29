@@ -1,0 +1,47 @@
+Fri Aug 21 11:27:08 UTC 2026
+nohup: ignoring input
+Loading checkpoint shards:   0%|                                                                 | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|███████▏                                                 | 1/8 [00:00<00:06,  1.14it/s]Loading checkpoint shards:  25%|██████████████▎                                          | 2/8 [00:01<00:05,  1.15it/s]Loading checkpoint shards:  38%|█████████████████████▍                                   | 3/8 [00:02<00:04,  1.17it/s]Loading checkpoint shards:  50%|████████████████████████████▌                            | 4/8 [00:03<00:03,  1.21it/s]Loading checkpoint shards:  62%|███████████████████████████████████▋                     | 5/8 [00:04<00:02,  1.15it/s]Loading checkpoint shards:  75%|██████████████████████████████████████████▊              | 6/8 [00:05<00:01,  1.12it/s]Loading checkpoint shards:  88%|█████████████████████████████████████████████████▉       | 7/8 [00:06<00:00,  1.12it/s]Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 8/8 [00:06<00:00,  1.36it/s]Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 8/8 [00:06<00:00,  1.22it/s]
+nfcorpus: scored 25/446
+nfcorpus: scored 50/446
+nfcorpus: scored 75/446
+nfcorpus: scored 100/446
+nfcorpus: scored 125/446
+nfcorpus: scored 150/446
+nfcorpus: scored 175/446
+nfcorpus: scored 200/446
+nfcorpus: scored 225/446
+nfcorpus: scored 250/446
+nfcorpus: scored 275/446
+nfcorpus: scored 300/446
+nfcorpus: scored 325/446
+nfcorpus: scored 350/446
+nfcorpus: scored 375/446
+nfcorpus: scored 400/446
+nfcorpus: scored 425/446
+nfcorpus: scored 446/446
+{
+  "experiment_role": "cross_detector_lm_robustness_aligned_v1",
+  "dataset": "nfcorpus",
+  "model": "Qwen2.5-14B",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-14B",
+  "input": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/aligned_sensitivity/nfcorpus_aligned_scores.json",
+  "input_sha256": "e1c7dbc745a83b473883ccf9c0d6a3c43c1bb7a14fa9f0dda1551b08f92dd218",
+  "preflight": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/audit/preflight.json",
+  "preflight_sha256": "af06ea8ad861bd063a8f260adc2ebe9335ad06b8baf299d95262da3c64302ea5",
+  "precision": "bfloat16",
+  "quantized": false,
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "max_context_tokens": 1024,
+  "max_target_tokens": 128,
+  "requested_record_count": 446,
+  "completed_record_count": 446,
+  "failed_record_count": 0,
+  "failures": [],
+  "complete": true,
+  "scores": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/scores/qwen14b_nfcorpus_aligned_scores.json",
+  "scores_sha256": "90bb39f9afd874c2f2b3d819cde1b6f56a15919a392946574c60ef9278b90821",
+  "warning": "Qwen2.5-14B cross-detector extension only; do not overwrite Qwen2.5-7B or sealed strict-v1 scores."
+}
+QWEN2.5-14B NFCORPUS ALIGNED SCORING PASS

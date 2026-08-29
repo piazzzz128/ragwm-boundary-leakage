@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2292",
+  "source_doc_id": "MED-2292",
+  "title": "Diverticular disease: eat your fiber!",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diverticular disease: eat your fiber!\nIn industrialized nations, diverticular disease affects up to 70% of individuals by 60 years of age, with symptoms that can range from mild gastrointestinal disturbance to incapacitating pain. Diverticular disease appears to be related to increasing affluence and changed diet: Current theory holds that diverticular disease's origin is low-fiber diet. This explains why its incidence is highest and accelerating in the more prosperous countries where intake of fiber has decreased and intake of milled grains and refined sugars has increased over time. Not all patients develop symptoms, but if they do, the most frequent complaints associated with diverticulosis are cramping in the left-lower quadrant, bloating, constipation, and soiling. If diverticula perforate the gut's wall into the pericolic tissue, small and large abscesses, accompanied by bleeding, can form. Fistulization, when it occurs, most often penetrates to the bladder. Treatment addresses symptoms and may require hospitalization. During symptomatic periods, patients do best on low-fiber, bland diets. Once the acute episode or highly symptomatic period resolves or chronic disease is managed, patients should gradually increase dietary fiber to 20 to 30 grams daily or take dietary fiber in the form of bulk stimulants like psyllium.",
+  "sanitized_text": "Diverticular disease: eat your fiber!\nIn industrialized nations, diverticular disease affects up to 70% of individuals by 60 years of age, with symptoms that can range from mild gastrointestinal disturbance to incapacitating pain. Diverticular disease appears to be related to increasing affluence and changed diet: Current theory holds that diverticular disease's origin is low-fiber diet. This explains why its incidence is highest and accelerating in the more prosperous countries where intake of fiber has decreased and intake of milled grains and refined sugars has increased over time. Not all patients develop symptoms, but if they do, the most frequent complaints associated with diverticulosis are cramping in the left-lower quadrant, bloating, constipation, and soiling. If diverticula perforate the gut's wall into the pericolic tissue, small and large abscesses, accompanied by bleeding, can form. Fistulization, when it occurs, most often penetrates to the bladder. Treatment addresses symptoms and may require hospitalization. During symptomatic periods, patients do best on low-fiber, bland diets. Once the acute episode or highly symptomatic period resolves or chronic disease is managed, patients should gradually increase dietary fiber to 20 to 30 grams daily or take dietary fiber in the form of bulk stimulants like psyllium.",
+  "modified": false,
+  "original_char_count": 1345,
+  "sanitized_char_count": 1345,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1113,
+      "boundary_end": 1345,
+      "context": "Diverticular disease: eat your fiber! In industrialized nations, diverticular disease affects up to 70% of individuals by 60 years of age, with symptoms that can range from mild gastrointestinal disturbance to incapacitating pain. Diverticular disease appears to be related to increasing affluence and changed diet: Current theory holds that diverticular disease's origin is low-fiber diet. This explains why its incidence is highest and accelerating in the more prosperous countries where intake of fiber has decreased and intake of milled grains and refined sugars has increased over time. Not all patients develop symptoms, but if they do, the most frequent complaints associated with diverticulosis are cramping in the left-lower quadrant, bloating, constipation, and soiling. If diverticula perforate the gut's wall into the pericolic tissue, small and large abscesses, accompanied by bleeding, can form. Fistulization, when it occurs, most often penetrates to the bladder. Treatment addresses symptoms and may require hospitalization. During symptomatic periods, patients do best on low-fiber, bland diets.",
+      "target": "Once the acute episode or highly symptomatic period resolves or chronic disease is managed, patients should gradually increase dietary fiber to 20 to 30 grams daily or take dietary fiber in the form of bulk stimulants like psyllium.",
+      "loss_target": 2.9019529819488525,
+      "loss_target_given_context": 2.1649255752563477,
+      "delta_loss": 0.7370274066925049,
+      "gain_ratio": 0.2539763432685055,
+      "score": -0.2539763432685055,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

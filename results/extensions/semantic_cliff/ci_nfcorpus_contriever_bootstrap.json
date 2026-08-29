@@ -1,0 +1,49 @@
+{
+  "input": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_contriever_cosine_scores.json",
+  "n": 446,
+  "positive": 223,
+  "negative": 223,
+  "score_orientation": "higher score = more likely injected/anomalous",
+  "bootstrap": {
+    "n_boot": 5000,
+    "seed": 20260609,
+    "sampling": "stratified bootstrap over positive and negative classes"
+  },
+  "metrics": {
+    "roc_auc": {
+      "point": 0.8345633332663034,
+      "ci95": [
+        0.7948867863821915,
+        0.8717252508596594
+      ]
+    },
+    "pr_auc": {
+      "point": 0.8034427626417965,
+      "ci95": [
+        0.7552501374396389,
+        0.8540257061615804
+      ]
+    },
+    "tpr_at_fpr_5": {
+      "point": 0.273542600896861,
+      "ci95": [
+        0.17488789237668162,
+        0.3542600896860987
+      ]
+    },
+    "tpr_at_fpr_10": {
+      "point": 0.43946188340807174,
+      "ci95": [
+        0.2600896860986547,
+        0.6279147982062764
+      ]
+    },
+    "best_f1": {
+      "point": 0.79002079002079,
+      "ci95": [
+        0.7630636211124016,
+        0.8270042194092826
+      ]
+    }
+  }
+}

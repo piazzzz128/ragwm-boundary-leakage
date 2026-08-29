@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1143",
+  "source_doc_id": "MED-1143",
+  "title": "Risk perceptions and food choice: an exploratory analysis of organic- versus conventional-produce buyers.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Risk perceptions and food choice: an exploratory analysis of organic- versus conventional-produce buyers.\nConsumer choice between organically (without pesticides) and conventionally grown produce is examined. Exploratory focus-group discussions and questionnaires (N = 43) suggest that individuals who purchase organically grown produce believe it is substantially less hazardous than the conventional alternative and are willing to pay significant premiums to obtain it (a median 50% above the cost of conventional produce). The value of risk reduction implied by this incremental willingness to pay is not high relative to estimates for other risks, since the perceived risk reduction is relatively large. Organic-produce consumers also appear more likely than conventional-produce consumers to mitigate other ingestion-related risks (e.g., contaminated drinking water) but less likely to use automobile seatbelts.",
+  "sanitized_text": "Risk perceptions and food choice: an exploratory analysis of organic- versus conventional-produce buyers.\nConsumer choice between organically (without pesticides) and conventionally grown produce is examined. Exploratory focus-group discussions and questionnaires (N = 43) suggest that individuals who purchase organically grown produce believe it is substantially less hazardous than the conventional alternative and are willing to pay significant premiums to obtain it (a median 50% above the cost of conventional produce). The value of risk reduction implied by this incremental willingness to pay is not high relative to estimates for other risks, since the perceived risk reduction is relatively large. Organic-produce consumers also appear more likely than conventional-produce consumers to mitigate other ingestion-related risks (e.g., contaminated drinking water) but less likely to use automobile seatbelts.",
+  "modified": false,
+  "original_char_count": 916,
+  "sanitized_char_count": 916,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 708,
+      "boundary_end": 916,
+      "context": "Risk perceptions and food choice: an exploratory analysis of organic- versus conventional-produce buyers. Consumer choice between organically (without pesticides) and conventionally grown produce is examined. Exploratory focus-group discussions and questionnaires (N = 43) suggest that individuals who purchase organically grown produce believe it is substantially less hazardous than the conventional alternative and are willing to pay significant premiums to obtain it (a median 50% above the cost of conventional produce). The value of risk reduction implied by this incremental willingness to pay is not high relative to estimates for other risks, since the perceived risk reduction is relatively large.",
+      "target": "Organic-produce consumers also appear more likely than conventional-produce consumers to mitigate other ingestion-related risks (e.g., contaminated drinking water) but less likely to use automobile seatbelts.",
+      "loss_target": 2.9194529056549072,
+      "loss_target_given_context": 2.0313727855682373,
+      "delta_loss": 0.8880801200866699,
+      "gain_ratio": 0.30419402154646197,
+      "score": -0.30419402154646197,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

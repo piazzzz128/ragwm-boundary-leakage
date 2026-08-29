@@ -1,0 +1,58 @@
+{
+  "input": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_length_ablation_qwen2_5_7b_aligned_scores.json",
+  "filters": {
+    "dataset": "Natural Questions",
+    "construction": null,
+    "model": null,
+    "context_budget": "full",
+    "attack": null,
+    "variant": null,
+    "score_field": "gain_anomaly_score"
+  },
+  "n": 442,
+  "positive": 221,
+  "negative": 221,
+  "score_orientation": "higher score = more likely injected/anomalous",
+  "bootstrap": {
+    "n_boot": 5000,
+    "seed": 20260609,
+    "sampling": "stratified bootstrap over positive and negative classes"
+  },
+  "metrics": {
+    "roc_auc": {
+      "point": 0.9652341270653754,
+      "ci95": [
+        0.9474196883765689,
+        0.9800787248418338
+      ]
+    },
+    "pr_auc": {
+      "point": 0.9666753014461812,
+      "ci95": [
+        0.9480227959734927,
+        0.9818125933212848
+      ]
+    },
+    "tpr_at_fpr_5": {
+      "point": 0.8597285067873304,
+      "ci95": [
+        0.7692307692307693,
+        0.9321266968325792
+      ]
+    },
+    "tpr_at_fpr_10": {
+      "point": 0.9276018099547512,
+      "ci95": [
+        0.8778280542986425,
+        0.9638009049773756
+      ]
+    },
+    "best_f1": {
+      "point": 0.9181818181818182,
+      "ci95": [
+        0.8977777777777777,
+        0.9454607157548333
+      ]
+    }
+  }
+}

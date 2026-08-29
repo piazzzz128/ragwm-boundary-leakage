@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1643",
+  "source_doc_id": "MED-1643",
+  "title": "Does a glass of red wine improve endothelial function?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Does a glass of red wine improve endothelial function?\nAIMS: To examine the acute effect of red wine and de-alcoholized red wine on endothelial function. METHODS AND RESULTS: High frequency ultrasound was used to measure blood flow and percentage brachial artery dilatation after reactive hyperaemia induced by forearm cuff occlusion in 12 healthy subjects, less than 40 years of age, without known cardiovascular risk factors. The subjects drank 250 ml of red wine with or without alcohol over 10 min according to a randomized procedure. Brachial artery dilatation was measured again 30 and 60 min after the subjects had finished drinking. The subjects were studied a second time within a week of the first study in a cross-over design. After the red wine with alcohol the resting brachial artery diameter, resting blood flow, heart rate and plasma-ethanol increased significantly. After the de-alcoholized red wine these parameters were unchanged. Flow-mediated dilatation of the brachial artery was significantly higher (P<0.05) after drinking de-alcoholized red wine (5.6+/-3.2%) than after drinking red wine with alcohol (3.6+/-2.2%) and before drinking (3.9+/-2.5%). CONCLUSION: After ingestion of red wine with alcohol the brachial artery dilated and the blood flow increased. These changes were not observed following the de-alcoholized red wine and were thus attributable to ethanol. These haemodynamic changes may have concealed an effect on flow-mediated brachial artery dilatation which did not increase after drinking red wine with alcohol. Flow-mediated dilatation of the brachial artery increased significantly after de-alcoholized red wine and this finding may support the hypothesis that antioxidant qualities of red wine, rather than ethanol in itself, may protect against cardiovascular disease. Copyright 2000 The European Society of Cardiology.",
+  "sanitized_text": "Does a glass of red wine improve endothelial function?\nAIMS: To examine the acute effect of red wine and de-alcoholized red wine on endothelial function. METHODS AND RESULTS: High frequency ultrasound was used to measure blood flow and percentage brachial artery dilatation after reactive hyperaemia induced by forearm cuff occlusion in 12 healthy subjects, less than 40 years of age, without known cardiovascular risk factors. The subjects drank 250 ml of red wine with or without alcohol over 10 min according to a randomized procedure. Brachial artery dilatation was measured again 30 and 60 min after the subjects had finished drinking. The subjects were studied a second time within a week of the first study in a cross-over design. After the red wine with alcohol the resting brachial artery diameter, resting blood flow, heart rate and plasma-ethanol increased significantly. After the de-alcoholized red wine these parameters were unchanged. Flow-mediated dilatation of the brachial artery was significantly higher (P<0.05) after drinking de-alcoholized red wine (5.6+/-3.2%) than after drinking red wine with alcohol (3.6+/-2.2%) and before drinking (3.9+/-2.5%). CONCLUSION: After ingestion of red wine with alcohol the brachial artery dilated and the blood flow increased. These changes were not observed following the de-alcoholized red wine and were thus attributable to ethanol. These haemodynamic changes may have concealed an effect on flow-mediated brachial artery dilatation which did not increase after drinking red wine with alcohol. Flow-mediated dilatation of the brachial artery increased significantly after de-alcoholized red wine and this finding may support the hypothesis that antioxidant qualities of red wine, rather than ethanol in itself, may protect against cardiovascular disease. Copyright 2000 The European Society of Cardiology.",
+  "modified": false,
+  "original_char_count": 1865,
+  "sanitized_char_count": 1865,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1815,
+      "boundary_end": 1865,
+      "context": "had finished drinking. The subjects were studied a second time within a week of the first study in a cross-over design. After the red wine with alcohol the resting brachial artery diameter, resting blood flow, heart rate and plasma-ethanol increased significantly. After the de-alcoholized red wine these parameters were unchanged. Flow-mediated dilatation of the brachial artery was significantly higher (P<0.05) after drinking de-alcoholized red wine (5.6+/-3.2%) than after drinking red wine with alcohol (3.6+/-2.2%) and before drinking (3.9+/-2.5%). CONCLUSION: After ingestion of red wine with alcohol the brachial artery dilated and the blood flow increased. These changes were not observed following the de-alcoholized red wine and were thus attributable to ethanol. These haemodynamic changes may have concealed an effect on flow-mediated brachial artery dilatation which did not increase after drinking red wine with alcohol. Flow-mediated dilatation of the brachial artery increased significantly after de-alcoholized red wine and this finding may support the hypothesis that antioxidant qualities of red wine, rather than ethanol in itself, may protect against cardiovascular disease.",
+      "target": "Copyright 2000 The European Society of Cardiology.",
+      "loss_target": 1.9005285501480103,
+      "loss_target_given_context": 1.3319313526153564,
+      "delta_loss": 0.5685971975326538,
+      "gain_ratio": 0.299178456165982,
+      "score": -0.299178456165982,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

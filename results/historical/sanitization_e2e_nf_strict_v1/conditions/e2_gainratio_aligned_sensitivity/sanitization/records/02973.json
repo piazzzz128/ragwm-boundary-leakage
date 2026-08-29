@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4896",
+  "source_doc_id": "MED-4896",
+  "title": "Acne vulgaris: a disease of Western civilization.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Acne vulgaris: a disease of Western civilization.\nBACKGROUND: In westernized societies, acne vulgaris is a nearly universal skin disease afflicting 79% to 95% of the adolescent population. In men and women older than 25 years, 40% to 54% have some degree of facial acne, and clinical facial acne persists into middle age in 12% of women and 3% of men. Epidemiological evidence suggests that acne incidence rates are considerably lower in nonwesternized societies. Herein we report the prevalence of acne in 2 nonwesternized populations: the Kitavan Islanders of Papua New Guinea and the Aché hunter-gatherers of Paraguay. Additionally, we analyze how elements in nonwesternized environments may influence the development of acne. OBSERVATIONS: Of 1200 Kitavan subjects examined (including 300 aged 15-25 years), no case of acne (grade 1 with multiple comedones or grades 2-4) was observed. Of 115 Aché subjects examined (including 15 aged 15-25 years) over 843 days, no case of active acne (grades 1-4) was observed. CONCLUSIONS: The astonishing difference in acne incidence rates between nonwesternized and fully modernized societies cannot be solely attributed to genetic differences among populations but likely results from differing environmental factors. Identification of these factors may be useful in the treatment of acne in Western populations.",
+  "sanitized_text": "Acne vulgaris: a disease of Western civilization.\nBACKGROUND: In westernized societies, acne vulgaris is a nearly universal skin disease afflicting 79% to 95% of the adolescent population. In men and women older than 25 years, 40% to 54% have some degree of facial acne, and clinical facial acne persists into middle age in 12% of women and 3% of men. Epidemiological evidence suggests that acne incidence rates are considerably lower in nonwesternized societies. Herein we report the prevalence of acne in 2 nonwesternized populations: the Kitavan Islanders of Papua New Guinea and the Aché hunter-gatherers of Paraguay. Additionally, we analyze how elements in nonwesternized environments may influence the development of acne. OBSERVATIONS: Of 1200 Kitavan subjects examined (including 300 aged 15-25 years), no case of acne (grade 1 with multiple comedones or grades 2-4) was observed. Of 115 Aché subjects examined (including 15 aged 15-25 years) over 843 days, no case of active acne (grades 1-4) was observed. CONCLUSIONS: The astonishing difference in acne incidence rates between nonwesternized and fully modernized societies cannot be solely attributed to genetic differences among populations but likely results from differing environmental factors. Identification of these factors may be useful in the treatment of acne in Western populations.",
+  "modified": false,
+  "original_char_count": 1355,
+  "sanitized_char_count": 1355,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1261,
+      "boundary_end": 1355,
+      "context": "In westernized societies, acne vulgaris is a nearly universal skin disease afflicting 79% to 95% of the adolescent population. In men and women older than 25 years, 40% to 54% have some degree of facial acne, and clinical facial acne persists into middle age in 12% of women and 3% of men. Epidemiological evidence suggests that acne incidence rates are considerably lower in nonwesternized societies. Herein we report the prevalence of acne in 2 nonwesternized populations: the Kitavan Islanders of Papua New Guinea and the Aché hunter-gatherers of Paraguay. Additionally, we analyze how elements in nonwesternized environments may influence the development of acne. OBSERVATIONS: Of 1200 Kitavan subjects examined (including 300 aged 15-25 years), no case of acne (grade 1 with multiple comedones or grades 2-4) was observed. Of 115 Aché subjects examined (including 15 aged 15-25 years) over 843 days, no case of active acne (grades 1-4) was observed. CONCLUSIONS: The astonishing difference in acne incidence rates between nonwesternized and fully modernized societies cannot be solely attributed to genetic differences among populations but likely results from differing environmental factors.",
+      "target": "Identification of these factors may be useful in the treatment of acne in Western populations.",
+      "loss_target": 3.341538429260254,
+      "loss_target_given_context": 1.3083510398864746,
+      "delta_loss": 2.0331873893737793,
+      "gain_ratio": 0.6084584787564105,
+      "score": -0.6084584787564105,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

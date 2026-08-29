@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3522",
+  "source_doc_id": "MED-3522",
+  "title": "Non-vertebrate melatonin.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Non-vertebrate melatonin.\nMelatonin has been detected in bacteria, eukaryotic unicells, macroalgae, plants, fungi and various taxa of invertebrates. Although precise determinations are missing in many of these organisms and the roles of melatonin are still unknown, investigations in some species allow more detailed conclusions. Non-vertebrate melatonin is not necessarily circadian, and if so, not always peaking at night, although nocturnal maxima are frequently found. In the cases under study, the major biosynthetic pathway is identical with that of vertebrates. Mimicking of photoperiodic responses and concentration changes upon temperature decreases have been studied in more detail only in dinoflagellates. In plants, an involvement in photoperiodism seems conceivable but requires further support. No stimulation of flowering has been demonstrated to date. A participation in antioxidative protection might be possible in many aerobic non-vertebrates, although evidence for a contribution at physiological levels is mostly missing. Protection from stress by oxidotoxins or/and extensions of lifespan have been shown in very different organisms, such as the dinoflagellate Lingulodinium, the ciliate Paramecium, the rotifer Philodina and Drosophila. Melatonin can be taken up from the food, findings with possible implications in ecophysiology as well as for human nutrition and, with regard to high levels in medicinal plants, also in pharmacology.",
+  "sanitized_text": "Non-vertebrate melatonin.\nMelatonin has been detected in bacteria, eukaryotic unicells, macroalgae, plants, fungi and various taxa of invertebrates. Although precise determinations are missing in many of these organisms and the roles of melatonin are still unknown, investigations in some species allow more detailed conclusions. Non-vertebrate melatonin is not necessarily circadian, and if so, not always peaking at night, although nocturnal maxima are frequently found. In the cases under study, the major biosynthetic pathway is identical with that of vertebrates. Mimicking of photoperiodic responses and concentration changes upon temperature decreases have been studied in more detail only in dinoflagellates. In plants, an involvement in photoperiodism seems conceivable but requires further support. No stimulation of flowering has been demonstrated to date. A participation in antioxidative protection might be possible in many aerobic non-vertebrates, although evidence for a contribution at physiological levels is mostly missing. Protection from stress by oxidotoxins or/and extensions of lifespan have been shown in very different organisms, such as the dinoflagellate Lingulodinium, the ciliate Paramecium, the rotifer Philodina and Drosophila.",
+  "modified": true,
+  "original_char_count": 1459,
+  "sanitized_char_count": 1259,
+  "deleted_char_count": 200,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1260,
+      "boundary_end": 1459,
+      "context": "eukaryotic unicells, macroalgae, plants, fungi and various taxa of invertebrates. Although precise determinations are missing in many of these organisms and the roles of melatonin are still unknown, investigations in some species allow more detailed conclusions. Non-vertebrate melatonin is not necessarily circadian, and if so, not always peaking at night, although nocturnal maxima are frequently found. In the cases under study, the major biosynthetic pathway is identical with that of vertebrates. Mimicking of photoperiodic responses and concentration changes upon temperature decreases have been studied in more detail only in dinoflagellates. In plants, an involvement in photoperiodism seems conceivable but requires further support. No stimulation of flowering has been demonstrated to date. A participation in antioxidative protection might be possible in many aerobic non-vertebrates, although evidence for a contribution at physiological levels is mostly missing. Protection from stress by oxidotoxins or/and extensions of lifespan have been shown in very different organisms, such as the dinoflagellate Lingulodinium, the ciliate Paramecium, the rotifer Philodina and Drosophila.",
+      "target": "Melatonin can be taken up from the food, findings with possible implications in ecophysiology as well as for human nutrition and, with regard to high levels in medicinal plants, also in pharmacology.",
+      "loss_target": 3.013723611831665,
+      "loss_target_given_context": 2.6265664100646973,
+      "delta_loss": 0.3871572017669678,
+      "gain_ratio": 0.1284647338750694,
+      "score": -0.1284647338750694,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1043,
+      "boundary_end": 1259,
+      "context": "Non-vertebrate melatonin. Melatonin has been detected in bacteria, eukaryotic unicells, macroalgae, plants, fungi and various taxa of invertebrates. Although precise determinations are missing in many of these organisms and the roles of melatonin are still unknown, investigations in some species allow more detailed conclusions. Non-vertebrate melatonin is not necessarily circadian, and if so, not always peaking at night, although nocturnal maxima are frequently found. In the cases under study, the major biosynthetic pathway is identical with that of vertebrates. Mimicking of photoperiodic responses and concentration changes upon temperature decreases have been studied in more detail only in dinoflagellates. In plants, an involvement in photoperiodism seems conceivable but requires further support. No stimulation of flowering has been demonstrated to date. A participation in antioxidative protection might be possible in many aerobic non-vertebrates, although evidence for a contribution at physiological levels is mostly missing.",
+      "target": "Protection from stress by oxidotoxins or/and extensions of lifespan have been shown in very different organisms, such as the dinoflagellate Lingulodinium, the ciliate Paramecium, the rotifer Philodina and Drosophila.",
+      "loss_target": 2.449707269668579,
+      "loss_target_given_context": 1.998164415359497,
+      "delta_loss": 0.45154285430908203,
+      "gain_ratio": 0.1843252293447173,
+      "score": -0.1843252293447173,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1260,
+      "target": "Melatonin can be taken up from the food, findings with possible implications in ecophysiology as well as for human nutrition and, with regard to high levels in medicinal plants, also in pharmacology.",
+      "score": -0.1284647338750694,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Melatonin can be taken up from the food, findings with possible implications in ecophysiology as well as for human nutrition and, with regard to high levels in medicinal plants, also in pharmacology.",
+      "deleted_char_count": 199
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

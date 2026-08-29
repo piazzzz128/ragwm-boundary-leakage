@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4152",
+  "source_doc_id": "MED-4152",
+  "title": "Do all sedentary activities lead to weight gain: sleep does not.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Do all sedentary activities lead to weight gain: sleep does not.\nPURPOSE OF REVIEW: To discuss the benefits of having a good night's sleep for body weight stability. RECENT FINDINGS: Experimental studies have shown that short-term partial sleep restriction decreases glucose tolerance, increases sympathetic tone, elevates cortisol concentrations, decreases the satiety hormone leptin, increases the appetite-stimulating hormone ghrelin, and increases hunger and appetite. Short sleep duration might increase the risk of becoming obese, because it does not allow the recovery of a hormonal profile facilitating appetite control. Lack of sleep could also lead to weight gain and obesity by increasing the time available for eating and by making the maintenance of a healthy lifestyle more difficult. Furthermore, the increased fatigue and tiredness associated with sleeping too little could lessen one's resolve to follow exercise regimens. SUMMARY: Short sleep duration appears to be a novel and independent risk factor for obesity. With the growing prevalence of chronic sleep restriction, any causal association between reduced sleep and obesity would have substantial importance from a public health standpoint. Future research is needed to determine whether sleep extension in sleep-deprived obese individuals will influence appetite control and/or reduce the amount of body fat.",
+  "sanitized_text": "Do all sedentary activities lead to weight gain: sleep does not.\nPURPOSE OF REVIEW: To discuss the benefits of having a good night's sleep for body weight stability. RECENT FINDINGS: Experimental studies have shown that short-term partial sleep restriction decreases glucose tolerance, increases sympathetic tone, elevates cortisol concentrations, decreases the satiety hormone leptin, increases the appetite-stimulating hormone ghrelin, and increases hunger and appetite. Short sleep duration might increase the risk of becoming obese, because it does not allow the recovery of a hormonal profile facilitating appetite control. Lack of sleep could also lead to weight gain and obesity by increasing the time available for eating and by making the maintenance of a healthy lifestyle more difficult. Furthermore, the increased fatigue and tiredness associated with sleeping too little could lessen one's resolve to follow exercise regimens. SUMMARY: Short sleep duration appears to be a novel and independent risk factor for obesity. With the growing prevalence of chronic sleep restriction, any causal association between reduced sleep and obesity would have substantial importance from a public health standpoint. Future research is needed to determine whether sleep extension in sleep-deprived obese individuals will influence appetite control and/or reduce the amount of body fat.",
+  "modified": false,
+  "original_char_count": 1383,
+  "sanitized_char_count": 1383,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1215,
+      "boundary_end": 1383,
+      "context": "activities lead to weight gain: sleep does not. PURPOSE OF REVIEW: To discuss the benefits of having a good night's sleep for body weight stability. RECENT FINDINGS: Experimental studies have shown that short-term partial sleep restriction decreases glucose tolerance, increases sympathetic tone, elevates cortisol concentrations, decreases the satiety hormone leptin, increases the appetite-stimulating hormone ghrelin, and increases hunger and appetite. Short sleep duration might increase the risk of becoming obese, because it does not allow the recovery of a hormonal profile facilitating appetite control. Lack of sleep could also lead to weight gain and obesity by increasing the time available for eating and by making the maintenance of a healthy lifestyle more difficult. Furthermore, the increased fatigue and tiredness associated with sleeping too little could lessen one's resolve to follow exercise regimens. SUMMARY: Short sleep duration appears to be a novel and independent risk factor for obesity. With the growing prevalence of chronic sleep restriction, any causal association between reduced sleep and obesity would have substantial importance from a public health standpoint.",
+      "target": "Future research is needed to determine whether sleep extension in sleep-deprived obese individuals will influence appetite control and/or reduce the amount of body fat.",
+      "loss_target": 2.7537643909454346,
+      "loss_target_given_context": 1.9669934511184692,
+      "delta_loss": 0.7867709398269653,
+      "gain_ratio": 0.2857074274087943,
+      "score": -0.2857074274087943,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

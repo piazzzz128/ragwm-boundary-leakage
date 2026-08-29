@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4659",
+  "source_doc_id": "MED-4659",
+  "title": "Facial Skin Coloration Affects Perceived Health of Human Faces",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Facial Skin Coloration Affects Perceived Health of Human Faces\nNumerous researchers have examined the effects of skin condition, including texture and color, on the perception of health, age, and attractiveness in human faces. They have focused on facial color distribution, homogeneity of pigmentation, or skin quality. We here investigate the role of overall skin color in determining perceptions of health from faces by allowing participants to manipulate the skin portions of color-calibrated Caucasian face photographs along CIELab color axes. To enhance healthy appearance, participants increased skin redness (a*), providing additional support for previous findings that skin blood color enhances the healthy appearance of faces. Participants also increased skin yellowness (b*) and lightness (L*), suggesting a role for high carotenoid and low melanin coloration in the healthy appearance of faces. The color preferences described here resemble the red and yellow color cues to health displayed by many species of nonhuman animals.",
+  "sanitized_text": "Facial Skin Coloration Affects Perceived Health of Human Faces\nNumerous researchers have examined the effects of skin condition, including texture and color, on the perception of health, age, and attractiveness in human faces. They have focused on facial color distribution, homogeneity of pigmentation, or skin quality. We here investigate the role of overall skin color in determining perceptions of health from faces by allowing participants to manipulate the skin portions of color-calibrated Caucasian face photographs along CIELab color axes. To enhance healthy appearance, participants increased skin redness (a*), providing additional support for previous findings that skin blood color enhances the healthy appearance of faces. Participants also increased skin yellowness (b*) and lightness (L*), suggesting a role for high carotenoid and low melanin coloration in the healthy appearance of faces. The color preferences described here resemble the red and yellow color cues to health displayed by many species of nonhuman animals.",
+  "modified": false,
+  "original_char_count": 1039,
+  "sanitized_char_count": 1039,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 907,
+      "boundary_end": 1039,
+      "context": "Facial Skin Coloration Affects Perceived Health of Human Faces Numerous researchers have examined the effects of skin condition, including texture and color, on the perception of health, age, and attractiveness in human faces. They have focused on facial color distribution, homogeneity of pigmentation, or skin quality. We here investigate the role of overall skin color in determining perceptions of health from faces by allowing participants to manipulate the skin portions of color-calibrated Caucasian face photographs along CIELab color axes. To enhance healthy appearance, participants increased skin redness (a*), providing additional support for previous findings that skin blood color enhances the healthy appearance of faces. Participants also increased skin yellowness (b*) and lightness (L*), suggesting a role for high carotenoid and low melanin coloration in the healthy appearance of faces.",
+      "target": "The color preferences described here resemble the red and yellow color cues to health displayed by many species of nonhuman animals.",
+      "loss_target": 4.271265029907227,
+      "loss_target_given_context": 2.7520110607147217,
+      "delta_loss": 1.5192539691925049,
+      "gain_ratio": 0.35569180525084476,
+      "score": -0.35569180525084476,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

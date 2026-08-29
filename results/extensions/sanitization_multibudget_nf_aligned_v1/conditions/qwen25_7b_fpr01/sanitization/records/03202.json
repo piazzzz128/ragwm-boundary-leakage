@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5143",
+  "source_doc_id": "MED-5143",
+  "title": "Methanol extract of the seaweed Gloiopeltis furcata induces G2/M arrest and inhibits cyclooxygenase-2 activity in human hepatocarcinoma HepG2 cells.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Methanol extract of the seaweed Gloiopeltis furcata induces G2/M arrest and inhibits cyclooxygenase-2 activity in human hepatocarcinoma HepG2 cells.\nIt was previously reported that a methanol extract of Gloiopeltis furcata (MEGF), a kind of edible seaweed, inhibited the growth of several human cancer cell lines. In the present study, the effect of MEGF on the growth of human hepatocarcinoma HepG2 cells and its effect on the cyclooxygenases (COXs) expression were investigated. MEGF markedly reduced the viability of HepG2 cells and induced the G2/M arrest of the cell cycle in a concentration dependent manner. These effects were associated with the down-regulation of cyclin A, up-regulation of cyclin-dependent kinase (Cdk) inhibitor p21 (WAF1/CIP1) and dephosphorylation of Cdc25C. Furthermore, it was found that MEGF decreased the levels of COX-2 mRNA and protein expression without significant changes in the levels of COX-1, which was correlated with a decrease in prostaglandin E(2) (PGE(2)) synthesis. These findings indicate that MEGF may have a possible therapeutic potential in hepatoma cancer patients. Nf-Kappab is contained in Hepg2 cells.",
+  "sanitized_text": "Methanol extract of the seaweed Gloiopeltis furcata induces G2/M arrest and inhibits cyclooxygenase-2 activity in human hepatocarcinoma HepG2 cells.\nIt was previously reported that a methanol extract of Gloiopeltis furcata (MEGF), a kind of edible seaweed, inhibited the growth of several human cancer cell lines. In the present study, the effect of MEGF on the growth of human hepatocarcinoma HepG2 cells and its effect on the cyclooxygenases (COXs) expression were investigated. MEGF markedly reduced the viability of HepG2 cells and induced the G2/M arrest of the cell cycle in a concentration dependent manner. These effects were associated with the down-regulation of cyclin A, up-regulation of cyclin-dependent kinase (Cdk) inhibitor p21 (WAF1/CIP1) and dephosphorylation of Cdc25C. Furthermore, it was found that MEGF decreased the levels of COX-2 mRNA and protein expression without significant changes in the levels of COX-1, which was correlated with a decrease in prostaglandin E(2) (PGE(2)) synthesis. These findings indicate that MEGF may have a possible therapeutic potential in hepatoma cancer patients. Nf-Kappab is contained in Hepg2 cells.",
+  "modified": false,
+  "original_char_count": 1157,
+  "sanitized_char_count": 1157,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1119,
+      "boundary_end": 1157,
+      "context": "Methanol extract of the seaweed Gloiopeltis furcata induces G2/M arrest and inhibits cyclooxygenase-2 activity in human hepatocarcinoma HepG2 cells. It was previously reported that a methanol extract of Gloiopeltis furcata (MEGF), a kind of edible seaweed, inhibited the growth of several human cancer cell lines. In the present study, the effect of MEGF on the growth of human hepatocarcinoma HepG2 cells and its effect on the cyclooxygenases (COXs) expression were investigated. MEGF markedly reduced the viability of HepG2 cells and induced the G2/M arrest of the cell cycle in a concentration dependent manner. These effects were associated with the down-regulation of cyclin A, up-regulation of cyclin-dependent kinase (Cdk) inhibitor p21 (WAF1/CIP1) and dephosphorylation of Cdc25C. Furthermore, it was found that MEGF decreased the levels of COX-2 mRNA and protein expression without significant changes in the levels of COX-1, which was correlated with a decrease in prostaglandin E(2) (PGE(2)) synthesis. These findings indicate that MEGF may have a possible therapeutic potential in hepatoma cancer patients.",
+      "target": "Nf-Kappab is contained in Hepg2 cells.",
+      "loss_target": 4.572093963623047,
+      "loss_target_given_context": 3.786062479019165,
+      "delta_loss": 0.7860314846038818,
+      "gain_ratio": 0.17191936361277446,
+      "score": -0.17191936361277446,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

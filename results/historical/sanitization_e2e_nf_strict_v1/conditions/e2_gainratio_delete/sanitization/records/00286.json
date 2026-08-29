@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1355",
+  "source_doc_id": "MED-1355",
+  "title": "Exercise for the treatment of depression and anxiety.",
+  "original_text": "Exercise for the treatment of depression and anxiety.\nDepression and anxiety are the most common psychiatric conditions seen in the general medical setting, affecting millions of individuals in the United States. The treatments for depression and anxiety are multiple and have varying degrees of effectiveness. Physical activity has been shown to be associated with decreased symptoms of depression and anxiety. Physical activity has been consistently shown to be associated with improved physical health, life satisfaction, cognitive functioning, and psychological well-being. Conversely, physical inactivity appears to be associated with the development of psychological disorders. Specific studies support the use of exercise as a treatment for depression. Exercise compares favorably to antidepressant medications as a first-line treatment for mild to moderate depression and has also been shown to improve depressive symptoms when used as an adjunct to medications. While not as extensively studied, exercise has been shown to be an effective and cost-efficient treatment alternative for a variety of anxiety disorders. While effective, exercise has not been shown to reduce anxiety to the level achieved by psychopharmaceuticals.",
+  "sanitized_text": "Exercise for the treatment of depression and anxiety.\nDepression and anxiety are the most common psychiatric conditions seen in the general medical setting, affecting millions of individuals in the United States. The treatments for depression and anxiety are multiple and have varying degrees of effectiveness. Physical activity has been shown to be associated with decreased symptoms of depression and anxiety. Physical activity has been consistently shown to be associated with improved physical health, life satisfaction, cognitive functioning, and psychological well-being. Conversely, physical inactivity appears to be associated with the development of psychological disorders. Specific studies support the use of exercise as a treatment for depression. Exercise compares favorably to antidepressant medications as a first-line treatment for mild to moderate depression and has also been shown to improve depressive symptoms when used as an adjunct to medications. While not as extensively studied, exercise has been shown to be an effective and cost-efficient treatment alternative for a variety of anxiety disorders.",
+  "modified": true,
+  "original_char_count": 1235,
+  "sanitized_char_count": 1124,
+  "deleted_char_count": 111,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1125,
+      "boundary_end": 1235,
+      "context": "Exercise for the treatment of depression and anxiety. Depression and anxiety are the most common psychiatric conditions seen in the general medical setting, affecting millions of individuals in the United States. The treatments for depression and anxiety are multiple and have varying degrees of effectiveness. Physical activity has been shown to be associated with decreased symptoms of depression and anxiety. Physical activity has been consistently shown to be associated with improved physical health, life satisfaction, cognitive functioning, and psychological well-being. Conversely, physical inactivity appears to be associated with the development of psychological disorders. Specific studies support the use of exercise as a treatment for depression. Exercise compares favorably to antidepressant medications as a first-line treatment for mild to moderate depression and has also been shown to improve depressive symptoms when used as an adjunct to medications. While not as extensively studied, exercise has been shown to be an effective and cost-efficient treatment alternative for a variety of anxiety disorders.",
+      "target": "While effective, exercise has not been shown to reduce anxiety to the level achieved by psychopharmaceuticals.",
+      "loss_target": 2.6827189922332764,
+      "loss_target_given_context": 2.592642068862915,
+      "delta_loss": 0.09007692337036133,
+      "gain_ratio": 0.033576727056073515,
+      "score": -0.033576727056073515,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 971,
+      "boundary_end": 1124,
+      "context": "Exercise for the treatment of depression and anxiety. Depression and anxiety are the most common psychiatric conditions seen in the general medical setting, affecting millions of individuals in the United States. The treatments for depression and anxiety are multiple and have varying degrees of effectiveness. Physical activity has been shown to be associated with decreased symptoms of depression and anxiety. Physical activity has been consistently shown to be associated with improved physical health, life satisfaction, cognitive functioning, and psychological well-being. Conversely, physical inactivity appears to be associated with the development of psychological disorders. Specific studies support the use of exercise as a treatment for depression. Exercise compares favorably to antidepressant medications as a first-line treatment for mild to moderate depression and has also been shown to improve depressive symptoms when used as an adjunct to medications.",
+      "target": "While not as extensively studied, exercise has been shown to be an effective and cost-efficient treatment alternative for a variety of anxiety disorders.",
+      "loss_target": 2.4131553173065186,
+      "loss_target_given_context": 1.970491647720337,
+      "delta_loss": 0.44266366958618164,
+      "gain_ratio": 0.1834377034961296,
+      "score": -0.1834377034961296,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1125,
+      "target": "While effective, exercise has not been shown to reduce anxiety to the level achieved by psychopharmaceuticals.",
+      "score": -0.033576727056073515,
+      "deleted_suffix": "While effective, exercise has not been shown to reduce anxiety to the level achieved by psychopharmaceuticals.",
+      "deleted_char_count": 110
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

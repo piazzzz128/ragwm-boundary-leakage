@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4513",
+  "source_doc_id": "MED-4513",
+  "title": "Diagnostic accuracy of holotranscobalamin, methylmalonic acid, serum cobalamin, and other indicators of tissue vitamin B₁₂ status in the elderly.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diagnostic accuracy of holotranscobalamin, methylmalonic acid, serum cobalamin, and other indicators of tissue vitamin B₁₂ status in the elderly.\nBACKGROUND: Vitamin B₁₂ deficiency is common among the elderly, and early detection is clinically important. However, clinical signs and symptoms have limited diagnostic accuracy and there is no accepted reference test method. METHODS: In elderly subjects (n = 700; age range 63-97 years), we investigated the ability of serum cobalamin, holotranscobalamin (holoTC), total homocysteine (tHcy), methylmalonic acid (MMA), serum and erythrocyte folate, and other hematologic variables to discriminate cobalamin deficiency, defined as red blood cell cobalamin <33 pmol/L. RESULTS: Serum holoTC was the best predictor, with area under the ROC curve (95% CI) 0.90 (0.86-0.93), and this was significantly better (P ≤ 0.0002) than the next best predictors; serum cobalamin, 0.80 (0.75-0.85), and MMA, 0.78 (0.72-0.83). For these 3 analytes, we constructed a 3-zone partition of positive and negative zones and a deliberate indeterminate zone between. The boundaries were values of each test that resulted in a posttest probability of deficiency of 60% and a posttest probability of no deficiency of 98%. The proportion of indeterminate observations for holoTC, cobalamin, and MMA was 14%, 45%, and 50%, respectively. Within the holoTC indeterminate zone (defined as 20-30 pmol/L), discriminant analysis selected only erythrocyte folate, which correctly allocated 65% (58/89) of the observations. Renal dysfunction compromised the diagnostic accuracy of MMA but not holoTC or serum cobalamin. CONCLUSIONS: This study supports the use of holoTC as the first-line diagnostic procedure for vitamin B₁₂ status.",
+  "sanitized_text": "Diagnostic accuracy of holotranscobalamin, methylmalonic acid, serum cobalamin, and other indicators of tissue vitamin B₁₂ status in the elderly.\nBACKGROUND: Vitamin B₁₂ deficiency is common among the elderly, and early detection is clinically important. However, clinical signs and symptoms have limited diagnostic accuracy and there is no accepted reference test method. METHODS: In elderly subjects (n = 700; age range 63-97 years), we investigated the ability of serum cobalamin, holotranscobalamin (holoTC), total homocysteine (tHcy), methylmalonic acid (MMA), serum and erythrocyte folate, and other hematologic variables to discriminate cobalamin deficiency, defined as red blood cell cobalamin <33 pmol/L. RESULTS: Serum holoTC was the best predictor, with area under the ROC curve (95% CI) 0.90 (0.86-0.93), and this was significantly better (P ≤ 0.0002) than the next best predictors; serum cobalamin, 0.80 (0.75-0.85), and MMA, 0.78 (0.72-0.83). For these 3 analytes, we constructed a 3-zone partition of positive and negative zones and a deliberate indeterminate zone between. The boundaries were values of each test that resulted in a posttest probability of deficiency of 60% and a posttest probability of no deficiency of 98%. The proportion of indeterminate observations for holoTC, cobalamin, and MMA was 14%, 45%, and 50%, respectively. Within the holoTC indeterminate zone (defined as 20-30 pmol/L), discriminant analysis selected only erythrocyte folate, which correctly allocated 65% (58/89) of the observations. Renal dysfunction compromised the diagnostic accuracy of MMA but not holoTC or serum cobalamin. CONCLUSIONS: This study supports the use of holoTC as the first-line diagnostic procedure for vitamin B₁₂ status.",
+  "modified": false,
+  "original_char_count": 1743,
+  "sanitized_char_count": 1743,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1630,
+      "boundary_end": 1743,
+      "context": "we investigated the ability of serum cobalamin, holotranscobalamin (holoTC), total homocysteine (tHcy), methylmalonic acid (MMA), serum and erythrocyte folate, and other hematologic variables to discriminate cobalamin deficiency, defined as red blood cell cobalamin <33 pmol/L. RESULTS: Serum holoTC was the best predictor, with area under the ROC curve (95% CI) 0.90 (0.86-0.93), and this was significantly better (P ≤ 0.0002) than the next best predictors; serum cobalamin, 0.80 (0.75-0.85), and MMA, 0.78 (0.72-0.83). For these 3 analytes, we constructed a 3-zone partition of positive and negative zones and a deliberate indeterminate zone between. The boundaries were values of each test that resulted in a posttest probability of deficiency of 60% and a posttest probability of no deficiency of 98%. The proportion of indeterminate observations for holoTC, cobalamin, and MMA was 14%, 45%, and 50%, respectively. Within the holoTC indeterminate zone (defined as 20-30 pmol/L), discriminant analysis selected only erythrocyte folate, which correctly allocated 65% (58/89) of the observations. Renal dysfunction compromised the diagnostic accuracy of MMA but not holoTC or serum cobalamin.",
+      "target": "CONCLUSIONS: This study supports the use of holoTC as the first-line diagnostic procedure for vitamin B₁₂ status.",
+      "loss_target": 2.7460145950317383,
+      "loss_target_given_context": 1.4844650030136108,
+      "delta_loss": 1.2615495920181274,
+      "gain_ratio": 0.459411102293703,
+      "score": -0.459411102293703,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

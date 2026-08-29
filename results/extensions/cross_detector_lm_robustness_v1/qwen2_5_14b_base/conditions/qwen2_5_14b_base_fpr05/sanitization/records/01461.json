@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2889",
+  "source_doc_id": "MED-2889",
+  "title": "Cataract is a self-defence reaction to protect the retina from oxidative damage.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cataract is a self-defence reaction to protect the retina from oxidative damage.\nAge-related macular degeneration (AMD) is the leading cause of blindness in developed countries. Cataract extraction is the most common surgical procedure in developed countries. Lutein (L) and zeaxanthin (Z), retinal carotenoids, are the most powerful retinal anti-oxidants and absorb the harmful blue light. The depletion of L+Z induces the development of the lens opacification-cataract. Cataract reduces the retinal oxidative stress (OS), which causes a reduction of the probability to develop AMD. Oxidative Stress at the retinal level is the common pathway in the development of AMD and cataract. AMD and cataract are not two independent processes. Cataract is a self-defense reaction of the retina to reduce OS and retinal damage. Restoring the anti-oxidative capabilities of the retina by increasing intake of L+Z reduces the likelihood of AMD and cataract. Extracting the opaque lens elevates the retinal OS and increases the rate of AMD. Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Cataract is a self-defence reaction to protect the retina from oxidative damage.\nAge-related macular degeneration (AMD) is the leading cause of blindness in developed countries. Cataract extraction is the most common surgical procedure in developed countries. Lutein (L) and zeaxanthin (Z), retinal carotenoids, are the most powerful retinal anti-oxidants and absorb the harmful blue light. The depletion of L+Z induces the development of the lens opacification-cataract. Cataract reduces the retinal oxidative stress (OS), which causes a reduction of the probability to develop AMD. Oxidative Stress at the retinal level is the common pathway in the development of AMD and cataract. AMD and cataract are not two independent processes. Cataract is a self-defense reaction of the retina to reduce OS and retinal damage. Restoring the anti-oxidative capabilities of the retina by increasing intake of L+Z reduces the likelihood of AMD and cataract. Extracting the opaque lens elevates the retinal OS and increases the rate of AMD. Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1080,
+  "sanitized_char_count": 1080,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1029,
+      "boundary_end": 1059,
+      "context": "Cataract is a self-defence reaction to protect the retina from oxidative damage. Age-related macular degeneration (AMD) is the leading cause of blindness in developed countries. Cataract extraction is the most common surgical procedure in developed countries. Lutein (L) and zeaxanthin (Z), retinal carotenoids, are the most powerful retinal anti-oxidants and absorb the harmful blue light. The depletion of L+Z induces the development of the lens opacification-cataract. Cataract reduces the retinal oxidative stress (OS), which causes a reduction of the probability to develop AMD. Oxidative Stress at the retinal level is the common pathway in the development of AMD and cataract. AMD and cataract are not two independent processes. Cataract is a self-defense reaction of the retina to reduce OS and retinal damage. Restoring the anti-oxidative capabilities of the retina by increasing intake of L+Z reduces the likelihood of AMD and cataract. Extracting the opaque lens elevates the retinal OS and increases the rate of AMD.",
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "loss_target": 1.0567681789398193,
+      "loss_target_given_context": 0.34035244584083557,
+      "delta_loss": 0.7164157330989838,
+      "gain_ratio": 0.6779308341946035,
+      "score": -0.6779308341946035,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,64 @@
+{
+  "dataset": "trec-covid",
+  "boundary_file": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3.json",
+  "model_repo_id": "gpt2-medium",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/gpt2-medium",
+  "tag": "gpt2_medium",
+  "n_input": 458,
+  "n_scored": 458,
+  "n_failed": 0,
+  "positive_inject": 229,
+  "negative_clean": 229,
+  "record_delta_loss": {
+    "roc_auc": 0.8442916801739098,
+    "pr_auc": 0.8770118521548758,
+    "score_mean_inject": -0.09109750272925764,
+    "score_mean_clean": -0.7931563864628821
+  },
+  "record_gain_ratio": {
+    "roc_auc": 0.8771953242691788,
+    "pr_auc": 0.8994825440490688,
+    "score_mean_inject": -0.01678306934237787,
+    "score_mean_clean": -0.19525684142365585
+  },
+  "group_mean_delta_loss": {
+    "groups": 279,
+    "positive_groups": 50,
+    "negative_groups": 229,
+    "roc_auc": 0.8654585152838429,
+    "pr_auc": 0.7562634721423701,
+    "score_mean_inject": -0.10347981770833332,
+    "score_mean_clean": -0.7931563864628821
+  },
+  "group_median_delta_loss": {
+    "groups": 279,
+    "positive_groups": 50,
+    "negative_groups": 229,
+    "roc_auc": 0.8573362445414847,
+    "pr_auc": 0.7253676961492463,
+    "score_mean_inject": -0.13044921875,
+    "score_mean_clean": -0.7931563864628821
+  },
+  "group_mean_gain_ratio": {
+    "groups": 279,
+    "positive_groups": 50,
+    "negative_groups": 229,
+    "roc_auc": 0.8957205240174672,
+    "pr_auc": 0.7860007632283093,
+    "score_mean_inject": -0.018859812810779752,
+    "score_mean_clean": -0.19525684142365585
+  },
+  "group_median_gain_ratio": {
+    "groups": 279,
+    "positive_groups": 50,
+    "negative_groups": 229,
+    "roc_auc": 0.8877729257641922,
+    "pr_auc": 0.7617576112368286,
+    "score_mean_inject": -0.025082059144043975,
+    "score_mean_clean": -0.19525684142365585
+  },
+  "delta_loss_mean_inject": 0.09109750272925764,
+  "delta_loss_mean_clean": 0.7931563864628821,
+  "gain_ratio_mean_inject": 0.01678306934237787,
+  "gain_ratio_mean_clean": 0.19525684142365585
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1230",
+  "source_doc_id": "MED-1230",
+  "title": "Relationship between funding sources and outcomes of obesity-related research.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Relationship between funding sources and outcomes of obesity-related research.\nThis study examined the relationship between funding sources and the outcomes of published obesity-related research. A list of funded projects for human nutrition research linking food intake to obesity in 2001-2005 was drawn from two distinct sources: (a) the federal government's semi-public generic commodity promotion or \"checkoff\" programs for Fluid Milk and Dairy and (b) the National Institutes of Health (NIH). The Principal Investigator for each funded project was determined. Published literature by that individual was located using an Ovid MEDLINE and PubMed author search. All articles related to both dairy and obesity were included. Financial sponsorship for each article and article conclusions were classified by independent groups of co-investigators. Seventy-nine relevant articles were included in the study. Of these, 62 were sponsored by the checkoff programs and 17 by the NIH. The study did not find consistent evidence that checkoff-funded projects were more likely to support an obesity prevention benefit from dairy consumption. The study did identify a new research methodology for the investigation of bias by source of sponsorship. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Relationship between funding sources and outcomes of obesity-related research.\nThis study examined the relationship between funding sources and the outcomes of published obesity-related research. A list of funded projects for human nutrition research linking food intake to obesity in 2001-2005 was drawn from two distinct sources: (a) the federal government's semi-public generic commodity promotion or \"checkoff\" programs for Fluid Milk and Dairy and (b) the National Institutes of Health (NIH). The Principal Investigator for each funded project was determined. Published literature by that individual was located using an Ovid MEDLINE and PubMed author search. All articles related to both dairy and obesity were included. Financial sponsorship for each article and article conclusions were classified by independent groups of co-investigators. Seventy-nine relevant articles were included in the study. Of these, 62 were sponsored by the checkoff programs and 17 by the NIH. The study did not find consistent evidence that checkoff-funded projects were more likely to support an obesity prevention benefit from dairy consumption. The study did identify a new research methodology for the investigation of bias by source of sponsorship. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1292,
+  "sanitized_char_count": 1292,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1241,
+      "boundary_end": 1271,
+      "context": "outcomes of obesity-related research. This study examined the relationship between funding sources and the outcomes of published obesity-related research. A list of funded projects for human nutrition research linking food intake to obesity in 2001-2005 was drawn from two distinct sources: (a) the federal government's semi-public generic commodity promotion or \"checkoff\" programs for Fluid Milk and Dairy and (b) the National Institutes of Health (NIH). The Principal Investigator for each funded project was determined. Published literature by that individual was located using an Ovid MEDLINE and PubMed author search. All articles related to both dairy and obesity were included. Financial sponsorship for each article and article conclusions were classified by independent groups of co-investigators. Seventy-nine relevant articles were included in the study. Of these, 62 were sponsored by the checkoff programs and 17 by the NIH. The study did not find consistent evidence that checkoff-funded projects were more likely to support an obesity prevention benefit from dairy consumption. The study did identify a new research methodology for the investigation of bias by source of sponsorship.",
+      "target": "Copyright © 2012 Elsevier Inc.",
+      "loss_target": 1.084797978401184,
+      "loss_target_given_context": 0.51389080286026,
+      "delta_loss": 0.5709071755409241,
+      "gain_ratio": 0.5262797192730285,
+      "score": -0.5262797192730285,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

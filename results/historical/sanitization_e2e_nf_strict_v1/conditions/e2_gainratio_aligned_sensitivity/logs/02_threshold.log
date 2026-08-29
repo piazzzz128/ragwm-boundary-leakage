@@ -1,0 +1,24 @@
+{
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "policy": "aligned clean calibration score quantile",
+  "score_direction": "larger score is more suspicious",
+  "score_key": "score_aligned",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "target_clean_fpr": 0.05,
+  "quantile": 0.95,
+  "threshold": -0.1832180580405571,
+  "seed": 20260714,
+  "group_split": true,
+  "calibration_fraction": 0.7,
+  "calibration_group_count": 164,
+  "holdout_group_count": 53,
+  "calibration_record_count": 169,
+  "holdout_record_count": 54,
+  "calibration_empirical_fpr": 0.05325443786982249,
+  "holdout_empirical_fpr": 0.07407407407407407,
+  "diagnostic_inject_tpr_at_fixed_threshold": 0.7713004484304933,
+  "scores_path": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/aligned_sensitivity/nfcorpus_aligned_scores.json",
+  "scores_sha256": "e1c7dbc745a83b473883ccf9c0d6a3c43c1bb7a14fa9f0dda1551b08f92dd218",
+  "warning": "Threshold is frozen before aligned E2 verification. Do not retune it using WSN."
+}
+ALIGNED THRESHOLD CALIBRATION PASS

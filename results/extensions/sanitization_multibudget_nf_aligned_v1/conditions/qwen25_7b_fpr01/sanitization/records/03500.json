@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-845",
+  "source_doc_id": "MED-845",
+  "title": "Boric acid inhibits embryonic histone deacetylases: a suggested mechanism to explain boric acid-related teratogenicity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Boric acid inhibits embryonic histone deacetylases: a suggested mechanism to explain boric acid-related teratogenicity.\nHistone deacetylases (HDAC) control gene expression by changing histonic as well as non histonic protein conformation. HDAC inhibitors (HDACi) are considered to be among the most promising drugs for epigenetic treatment for cancer. Recently a strict relationship between histone hyperacetylation in specific tissues of mouse embryos exposed to two HDACi (valproic acid and trichostatin A) and specific axial skeleton malformations has been demonstrated. The aim of this study is to verify if boric acid (BA), that induces in rodents malformations similar to those valproic acid and trichostatin A-related, acts through similar mechanisms: HDAC inhibition and histone hyperacetylation. Pregnant mice were treated intraperitoneally with a teratogenic dose of BA (1000 mg/kg, day 8 of gestation). Western blot analysis and immunostaining were performed with anti hyperacetylated histone 4 (H4) antibody on embryos explanted 1, 3 or 4 h after treatment and revealed H4 hyperacetylation at the level of somites. HDAC enzyme assay was performed on embryonic nuclear extracts. A significant HDAC inhibition activity (compatible with a mixed type partial inhibition mechanism) was evident with BA. Kinetic analyses indicate that BA modifies substrate affinity by a factor alpha=0.51 and maximum velocity by a factor beta=0.70. This work provides the first evidence for HDAC inhibition by BA and suggests such a molecular mechanism for the induction of BA-related malformations.",
+  "sanitized_text": "Boric acid inhibits embryonic histone deacetylases: a suggested mechanism to explain boric acid-related teratogenicity.\nHistone deacetylases (HDAC) control gene expression by changing histonic as well as non histonic protein conformation. HDAC inhibitors (HDACi) are considered to be among the most promising drugs for epigenetic treatment for cancer. Recently a strict relationship between histone hyperacetylation in specific tissues of mouse embryos exposed to two HDACi (valproic acid and trichostatin A) and specific axial skeleton malformations has been demonstrated. The aim of this study is to verify if boric acid (BA), that induces in rodents malformations similar to those valproic acid and trichostatin A-related, acts through similar mechanisms: HDAC inhibition and histone hyperacetylation. Pregnant mice were treated intraperitoneally with a teratogenic dose of BA (1000 mg/kg, day 8 of gestation). Western blot analysis and immunostaining were performed with anti hyperacetylated histone 4 (H4) antibody on embryos explanted 1, 3 or 4 h after treatment and revealed H4 hyperacetylation at the level of somites. HDAC enzyme assay was performed on embryonic nuclear extracts. A significant HDAC inhibition activity (compatible with a mixed type partial inhibition mechanism) was evident with BA. Kinetic analyses indicate that BA modifies substrate affinity by a factor alpha=0.51 and maximum velocity by a factor beta=0.70. This work provides the first evidence for HDAC inhibition by BA and suggests such a molecular mechanism for the induction of BA-related malformations.",
+  "modified": false,
+  "original_char_count": 1589,
+  "sanitized_char_count": 1589,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1439,
+      "boundary_end": 1589,
+      "context": "HDAC inhibitors (HDACi) are considered to be among the most promising drugs for epigenetic treatment for cancer. Recently a strict relationship between histone hyperacetylation in specific tissues of mouse embryos exposed to two HDACi (valproic acid and trichostatin A) and specific axial skeleton malformations has been demonstrated. The aim of this study is to verify if boric acid (BA), that induces in rodents malformations similar to those valproic acid and trichostatin A-related, acts through similar mechanisms: HDAC inhibition and histone hyperacetylation. Pregnant mice were treated intraperitoneally with a teratogenic dose of BA (1000 mg/kg, day 8 of gestation). Western blot analysis and immunostaining were performed with anti hyperacetylated histone 4 (H4) antibody on embryos explanted 1, 3 or 4 h after treatment and revealed H4 hyperacetylation at the level of somites. HDAC enzyme assay was performed on embryonic nuclear extracts. A significant HDAC inhibition activity (compatible with a mixed type partial inhibition mechanism) was evident with BA. Kinetic analyses indicate that BA modifies substrate affinity by a factor alpha=0.51 and maximum velocity by a factor beta=0.70.",
+      "target": "This work provides the first evidence for HDAC inhibition by BA and suggests such a molecular mechanism for the induction of BA-related malformations.",
+      "loss_target": 3.502835988998413,
+      "loss_target_given_context": 1.694642424583435,
+      "delta_loss": 1.808193564414978,
+      "gain_ratio": 0.5162084579735078,
+      "score": -0.5162084579735078,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

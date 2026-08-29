@@ -1,0 +1,131 @@
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+embedded 32/3633
+embedded 64/3633
+embedded 96/3633
+embedded 128/3633
+embedded 160/3633
+embedded 192/3633
+embedded 224/3633
+embedded 256/3633
+embedded 288/3633
+embedded 320/3633
+embedded 352/3633
+embedded 384/3633
+embedded 416/3633
+embedded 448/3633
+embedded 480/3633
+embedded 512/3633
+embedded 544/3633
+embedded 576/3633
+embedded 608/3633
+embedded 640/3633
+embedded 672/3633
+embedded 704/3633
+embedded 736/3633
+embedded 768/3633
+embedded 800/3633
+embedded 832/3633
+embedded 864/3633
+embedded 896/3633
+embedded 928/3633
+embedded 960/3633
+embedded 992/3633
+embedded 1024/3633
+embedded 1056/3633
+embedded 1088/3633
+embedded 1120/3633
+embedded 1152/3633
+embedded 1184/3633
+embedded 1216/3633
+embedded 1248/3633
+embedded 1280/3633
+embedded 1312/3633
+embedded 1344/3633
+embedded 1376/3633
+embedded 1408/3633
+embedded 1440/3633
+embedded 1472/3633
+embedded 1504/3633
+embedded 1536/3633
+embedded 1568/3633
+embedded 1600/3633
+embedded 1632/3633
+embedded 1664/3633
+embedded 1696/3633
+embedded 1728/3633
+embedded 1760/3633
+embedded 1792/3633
+embedded 1824/3633
+embedded 1856/3633
+embedded 1888/3633
+embedded 1920/3633
+embedded 1952/3633
+embedded 1984/3633
+embedded 2016/3633
+embedded 2048/3633
+embedded 2080/3633
+embedded 2112/3633
+embedded 2144/3633
+embedded 2176/3633
+embedded 2208/3633
+embedded 2240/3633
+embedded 2272/3633
+embedded 2304/3633
+embedded 2336/3633
+embedded 2368/3633
+embedded 2400/3633
+embedded 2432/3633
+embedded 2464/3633
+embedded 2496/3633
+embedded 2528/3633
+embedded 2560/3633
+embedded 2592/3633
+embedded 2624/3633
+embedded 2656/3633
+embedded 2688/3633
+embedded 2720/3633
+embedded 2752/3633
+embedded 2784/3633
+embedded 2816/3633
+embedded 2848/3633
+embedded 2880/3633
+embedded 2912/3633
+embedded 2944/3633
+embedded 2976/3633
+embedded 3008/3633
+embedded 3040/3633
+embedded 3072/3633
+embedded 3104/3633
+embedded 3136/3633
+embedded 3168/3633
+embedded 3200/3633
+embedded 3232/3633
+embedded 3264/3633
+embedded 3296/3633
+embedded 3328/3633
+embedded 3360/3633
+embedded 3392/3633
+embedded 3424/3633
+embedded 3456/3633
+embedded 3488/3633
+embedded 3520/3633
+embedded 3552/3633
+embedded 3584/3633
+embedded 3616/3633
+embedded 3633/3633
+{
+  "database": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e3_random_aligned_v2_seed_404",
+  "collection": "nfcorpus_contriever_cosine",
+  "count": 3633,
+  "expected_count": 3633,
+  "retriever": "contriever",
+  "distance": "cosine"
+}
+RANDOM VECTORSTORE BUILD PASS

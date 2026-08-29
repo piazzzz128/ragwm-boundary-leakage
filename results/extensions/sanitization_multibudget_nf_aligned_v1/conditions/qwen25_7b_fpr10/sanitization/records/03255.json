@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5199",
+  "source_doc_id": "MED-5199",
+  "title": "Amount and fate of egg protein escaping assimilation in the small intestine of humans.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Amount and fate of egg protein escaping assimilation in the small intestine of humans.\nStudies attempting to evaluate protein assimilation in humans have hitherto relied on either ileostomy subjects or intubation techniques. The availability of stable isotope-labeled protein allowed us to determine the amount and fate of dietary protein escaping digestion and absorption in the small intestine of healthy volunteers using noninvasive tracer techniques. Ten healthy volunteers were studied once after ingestion of a cooked test meal, consisting of 25 g of (13)C-, (15)N-, and (2)H-labeled egg protein, and once after ingestion of the same but raw meal. Amounts of 5.73% and 35.10% (P < 0.005) of cooked and raw test meal, respectively, escaped digestion and absorption in the small intestine. A significantly higher percentage of the malabsorbed raw egg protein was recovered in urine as fermentation metabolites. These results 1) confirm that substantial amounts of even easily digestible proteins may escape assimilation in healthy volunteers and 2) further support the hypothesis that the metabolic fate of protein in the colon is affected by the amount of protein made available.",
+  "sanitized_text": "Amount and fate of egg protein escaping assimilation in the small intestine of humans.\nStudies attempting to evaluate protein assimilation in humans have hitherto relied on either ileostomy subjects or intubation techniques. The availability of stable isotope-labeled protein allowed us to determine the amount and fate of dietary protein escaping digestion and absorption in the small intestine of healthy volunteers using noninvasive tracer techniques. Ten healthy volunteers were studied once after ingestion of a cooked test meal, consisting of 25 g of (13)C-, (15)N-, and (2)H-labeled egg protein, and once after ingestion of the same but raw meal. Amounts of 5.73% and 35.10% (P < 0.005) of cooked and raw test meal, respectively, escaped digestion and absorption in the small intestine. A significantly higher percentage of the malabsorbed raw egg protein was recovered in urine as fermentation metabolites. These results 1) confirm that substantial amounts of even easily digestible proteins may escape assimilation in healthy volunteers and 2) further support the hypothesis that the metabolic fate of protein in the colon is affected by the amount of protein made available.",
+  "modified": false,
+  "original_char_count": 1184,
+  "sanitized_char_count": 1184,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 915,
+      "boundary_end": 1184,
+      "context": "Amount and fate of egg protein escaping assimilation in the small intestine of humans. Studies attempting to evaluate protein assimilation in humans have hitherto relied on either ileostomy subjects or intubation techniques. The availability of stable isotope-labeled protein allowed us to determine the amount and fate of dietary protein escaping digestion and absorption in the small intestine of healthy volunteers using noninvasive tracer techniques. Ten healthy volunteers were studied once after ingestion of a cooked test meal, consisting of 25 g of (13)C-, (15)N-, and (2)H-labeled egg protein, and once after ingestion of the same but raw meal. Amounts of 5.73% and 35.10% (P < 0.005) of cooked and raw test meal, respectively, escaped digestion and absorption in the small intestine. A significantly higher percentage of the malabsorbed raw egg protein was recovered in urine as fermentation metabolites.",
+      "target": "These results 1) confirm that substantial amounts of even easily digestible proteins may escape assimilation in healthy volunteers and 2) further support the hypothesis that the metabolic fate of protein in the colon is affected by the amount of protein made available.",
+      "loss_target": 2.726713180541992,
+      "loss_target_given_context": 2.02081561088562,
+      "delta_loss": 0.7058975696563721,
+      "gain_ratio": 0.2588822229978952,
+      "score": -0.2588822229978952,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

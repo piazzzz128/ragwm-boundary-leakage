@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2742",
+  "source_doc_id": "MED-2742",
+  "title": "Consumer knowledge of foodborne microbial hazards and food-handling practices.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Consumer knowledge of foodborne microbial hazards and food-handling practices.\nA national telephone survey was conducted of 1,620 randomly selected U.S. residents who spoke English, were at least 18 years old, and resided in households with kitchen facilities. Respondents were interviewed about their recognition of foodborne pathogens, foods at risk for transmitting infection, knowledge of safe food handling, and food-handling practices. One-third of the respondents who prepared meals reported unsafe food hygiene practices: e.g., they did not wash hands or take precautions to prevent cross-contamination from raw meat. Unsafe practices were reported more often by men, adults 18 to 29 years of age, and occasional food preparers than by women, persons 30 years old or older, and frequent food preparers. Respondents who identified a food vehicle for Salmonella spp. were more likely to report washing their hands and cleaning cutting boards after preparing raw meat and poultry. The results raise concerns about consumer food-handling practices. The influence of food safety training, food-handling experience, and age on food-handling practices should be studied further. Awareness of a food vehicle for Salmonella spp., for example, may indicate knowledge of the etiology of foodborne disease that promotes safe food handling. Understanding the factors associated with safe food handling will assist in development of effective safe-food instruction programs. The rates of hand hygiene compliance are affected by the intervention group.",
+  "sanitized_text": "Consumer knowledge of foodborne microbial hazards and food-handling practices.\nA national telephone survey was conducted of 1,620 randomly selected U.S. residents who spoke English, were at least 18 years old, and resided in households with kitchen facilities. Respondents were interviewed about their recognition of foodborne pathogens, foods at risk for transmitting infection, knowledge of safe food handling, and food-handling practices. One-third of the respondents who prepared meals reported unsafe food hygiene practices: e.g., they did not wash hands or take precautions to prevent cross-contamination from raw meat. Unsafe practices were reported more often by men, adults 18 to 29 years of age, and occasional food preparers than by women, persons 30 years old or older, and frequent food preparers. Respondents who identified a food vehicle for Salmonella spp. were more likely to report washing their hands and cleaning cutting boards after preparing raw meat and poultry. The results raise concerns about consumer food-handling practices. The influence of food safety training, food-handling experience, and age on food-handling practices should be studied further. Awareness of a food vehicle for Salmonella spp., for example, may indicate knowledge of the etiology of foodborne disease that promotes safe food handling. Understanding the factors associated with safe food handling will assist in development of effective safe-food instruction programs.",
+  "modified": true,
+  "original_char_count": 1545,
+  "sanitized_char_count": 1468,
+  "deleted_char_count": 77,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1469,
+      "boundary_end": 1545,
+      "context": "were interviewed about their recognition of foodborne pathogens, foods at risk for transmitting infection, knowledge of safe food handling, and food-handling practices. One-third of the respondents who prepared meals reported unsafe food hygiene practices: e.g., they did not wash hands or take precautions to prevent cross-contamination from raw meat. Unsafe practices were reported more often by men, adults 18 to 29 years of age, and occasional food preparers than by women, persons 30 years old or older, and frequent food preparers. Respondents who identified a food vehicle for Salmonella spp. were more likely to report washing their hands and cleaning cutting boards after preparing raw meat and poultry. The results raise concerns about consumer food-handling practices. The influence of food safety training, food-handling experience, and age on food-handling practices should be studied further. Awareness of a food vehicle for Salmonella spp., for example, may indicate knowledge of the etiology of foodborne disease that promotes safe food handling. Understanding the factors associated with safe food handling will assist in development of effective safe-food instruction programs.",
+      "target": "The rates of hand hygiene compliance are affected by the intervention group.",
+      "loss_target": 4.102902889251709,
+      "loss_target_given_context": 4.472196102142334,
+      "delta_loss": -0.369293212890625,
+      "gain_ratio": -0.09000778786601431,
+      "score": 0.09000778786601431,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1336,
+      "boundary_end": 1468,
+      "context": "selected U.S. residents who spoke English, were at least 18 years old, and resided in households with kitchen facilities. Respondents were interviewed about their recognition of foodborne pathogens, foods at risk for transmitting infection, knowledge of safe food handling, and food-handling practices. One-third of the respondents who prepared meals reported unsafe food hygiene practices: e.g., they did not wash hands or take precautions to prevent cross-contamination from raw meat. Unsafe practices were reported more often by men, adults 18 to 29 years of age, and occasional food preparers than by women, persons 30 years old or older, and frequent food preparers. Respondents who identified a food vehicle for Salmonella spp. were more likely to report washing their hands and cleaning cutting boards after preparing raw meat and poultry. The results raise concerns about consumer food-handling practices. The influence of food safety training, food-handling experience, and age on food-handling practices should be studied further. Awareness of a food vehicle for Salmonella spp., for example, may indicate knowledge of the etiology of foodborne disease that promotes safe food handling.",
+      "target": "Understanding the factors associated with safe food handling will assist in development of effective safe-food instruction programs.",
+      "loss_target": 3.358609199523926,
+      "loss_target_given_context": 2.126512289047241,
+      "delta_loss": 1.2320969104766846,
+      "gain_ratio": 0.3668473577251355,
+      "score": -0.3668473577251355,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1469,
+      "target": "The rates of hand hygiene compliance are affected by the intervention group.",
+      "score": 0.09000778786601431,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "The rates of hand hygiene compliance are affected by the intervention group.",
+      "deleted_char_count": 76
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

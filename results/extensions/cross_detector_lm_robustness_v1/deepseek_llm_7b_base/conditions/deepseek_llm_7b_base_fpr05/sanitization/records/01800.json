@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3458",
+  "source_doc_id": "MED-3458",
+  "title": "Does physical activity induce DNA damage?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Does physical activity induce DNA damage?\nThe single cell gel electrophoresis (SCG) assay (comet assay) is a sensitive technique for detecting the presence of DNA strand-breaks and alkali-labile damage in individual cells. This technique was used to study peripheral blood cells from three volunteers after physical activity. The test subjects had to run on a treadmill and were checked for blood pressure and ECG, lactate concentration and creatine kinase activity. Blood was taken before and several times during and after the run. In a first multiple step test, the volunteers ran as long as possible with increasing speed. In a second test they had to run for 45 min with a fixed individual speed which was defined to ensure an aerobic metabolism. In the first test, the white blood cells of all subjects showed increased DNA migration in the SCG assay. The effect was seen 6 h after the end of the exercise and reached its maximum 24 h later. After 72 h, DNA migration decreased to about control level. The distribution of DNA migration among cells clearly demonstrated that the majority of white blood cells exhibited increased DNA migration and that the effect was not only due to a small fraction of damaged cells. From the same blood samples, blood cultures were set up to study a possible effect on the frequency of sister chromatid exchanges (SCE), another indicator for genotoxic effects. However, there was no significant increase in SCE in any of the cultures. In the second exercise, during aerobic metabolism, the effect on DNA migration was not seen.(ABSTRACT TRUNCATED AT 250 WORDS)",
+  "sanitized_text": "Does physical activity induce DNA damage?\nThe single cell gel electrophoresis (SCG) assay (comet assay) is a sensitive technique for detecting the presence of DNA strand-breaks and alkali-labile damage in individual cells. This technique was used to study peripheral blood cells from three volunteers after physical activity. The test subjects had to run on a treadmill and were checked for blood pressure and ECG, lactate concentration and creatine kinase activity. Blood was taken before and several times during and after the run. In a first multiple step test, the volunteers ran as long as possible with increasing speed. In a second test they had to run for 45 min with a fixed individual speed which was defined to ensure an aerobic metabolism. In the first test, the white blood cells of all subjects showed increased DNA migration in the SCG assay. The effect was seen 6 h after the end of the exercise and reached its maximum 24 h later. After 72 h, DNA migration decreased to about control level. The distribution of DNA migration among cells clearly demonstrated that the majority of white blood cells exhibited increased DNA migration and that the effect was not only due to a small fraction of damaged cells. From the same blood samples, blood cultures were set up to study a possible effect on the frequency of sister chromatid exchanges (SCE), another indicator for genotoxic effects. However, there was no significant increase in SCE in any of the cultures. In the second exercise, during aerobic metabolism, the effect on DNA migration was not seen.(ABSTRACT TRUNCATED AT 250 WORDS)",
+  "modified": false,
+  "original_char_count": 1600,
+  "sanitized_char_count": 1600,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1475,
+      "boundary_end": 1600,
+      "context": "from three volunteers after physical activity. The test subjects had to run on a treadmill and were checked for blood pressure and ECG, lactate concentration and creatine kinase activity. Blood was taken before and several times during and after the run. In a first multiple step test, the volunteers ran as long as possible with increasing speed. In a second test they had to run for 45 min with a fixed individual speed which was defined to ensure an aerobic metabolism. In the first test, the white blood cells of all subjects showed increased DNA migration in the SCG assay. The effect was seen 6 h after the end of the exercise and reached its maximum 24 h later. After 72 h, DNA migration decreased to about control level. The distribution of DNA migration among cells clearly demonstrated that the majority of white blood cells exhibited increased DNA migration and that the effect was not only due to a small fraction of damaged cells. From the same blood samples, blood cultures were set up to study a possible effect on the frequency of sister chromatid exchanges (SCE), another indicator for genotoxic effects. However, there was no significant increase in SCE in any of the cultures.",
+      "target": "In the second exercise, during aerobic metabolism, the effect on DNA migration was not seen.(ABSTRACT TRUNCATED AT 250 WORDS)",
+      "loss_target": 2.7615044116973877,
+      "loss_target_given_context": 1.1422348022460938,
+      "delta_loss": 1.619269609451294,
+      "gain_ratio": 0.5863722696195125,
+      "score": -0.5863722696195125,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

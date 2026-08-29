@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5079",
+  "source_doc_id": "MED-5079",
+  "title": "Pinto bean consumption reduces biomarkers for heart disease risk.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Pinto bean consumption reduces biomarkers for heart disease risk.\nOBJECTIVE: To determine effects of daily intake of 1/2 cup pinto beans, black-eyed peas or carrots (placebo) on risk factors for coronary heart disease (CHD) and diabetes mellitus (DM) in free-living, mildly insulin resistant adults over an 8 week period. METHODS: Randomized, crossover 3x3 block design. Sixteen participants (7 men, 9 women) received each treatment for eight-weeks with two-week washouts. Fasting blood samples collected at beginning and end of periods were analyzed for total cholesterol (TC), low density lipoprotein cholesterol (LDL-C), high density lipoprotein cholesterol, triacylglycerols, high-sensitivity C-reactive protein, insulin, glucose, and hemoglobin A1c. RESULTS: A significant treatment-by-time effect impacted serum TC (p = 0.026) and LDL (p = 0.033) after eight weeks. Paired t-tests indicated that pinto beans were responsible for this effect (p = 0.003; p = 0.008). Mean change of serum TC for pinto bean, black-eyed pea and placebo were -19 +/- 5, 2.5 +/- 6, and 1 +/- 5 mg/dL, respectively (p = 0.011). Mean change of serum LDL-C for pinto bean, black-eyed pea and placebo were -14 +/- 4, 4 +/- 5, and 1 +/- 4 mg/dL, in that order (p = 0.013). Pinto beans differed significantly from placebo (p = 0.021). No significant differences were seen with other blood concentrations across the 3 treatment periods. CONCLUSIONS: Pinto bean intake should be encouraged to lower serum TC and LDL-C, thereby reducing risk for CHD.",
+  "sanitized_text": "Pinto bean consumption reduces biomarkers for heart disease risk.\nOBJECTIVE: To determine effects of daily intake of 1/2 cup pinto beans, black-eyed peas or carrots (placebo) on risk factors for coronary heart disease (CHD) and diabetes mellitus (DM) in free-living, mildly insulin resistant adults over an 8 week period. METHODS: Randomized, crossover 3x3 block design. Sixteen participants (7 men, 9 women) received each treatment for eight-weeks with two-week washouts. Fasting blood samples collected at beginning and end of periods were analyzed for total cholesterol (TC), low density lipoprotein cholesterol (LDL-C), high density lipoprotein cholesterol, triacylglycerols, high-sensitivity C-reactive protein, insulin, glucose, and hemoglobin A1c. RESULTS: A significant treatment-by-time effect impacted serum TC (p = 0.026) and LDL (p = 0.033) after eight weeks. Paired t-tests indicated that pinto beans were responsible for this effect (p = 0.003; p = 0.008). Mean change of serum TC for pinto bean, black-eyed pea and placebo were -19 +/- 5, 2.5 +/- 6, and 1 +/- 5 mg/dL, respectively (p = 0.011). Mean change of serum LDL-C for pinto bean, black-eyed pea and placebo were -14 +/- 4, 4 +/- 5, and 1 +/- 4 mg/dL, in that order (p = 0.013). Pinto beans differed significantly from placebo (p = 0.021). No significant differences were seen with other blood concentrations across the 3 treatment periods. CONCLUSIONS: Pinto bean intake should be encouraged to lower serum TC and LDL-C, thereby reducing risk for CHD.",
+  "modified": false,
+  "original_char_count": 1524,
+  "sanitized_char_count": 1524,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1413,
+      "boundary_end": 1524,
+      "context": "(CHD) and diabetes mellitus (DM) in free-living, mildly insulin resistant adults over an 8 week period. METHODS: Randomized, crossover 3x3 block design. Sixteen participants (7 men, 9 women) received each treatment for eight-weeks with two-week washouts. Fasting blood samples collected at beginning and end of periods were analyzed for total cholesterol (TC), low density lipoprotein cholesterol (LDL-C), high density lipoprotein cholesterol, triacylglycerols, high-sensitivity C-reactive protein, insulin, glucose, and hemoglobin A1c. RESULTS: A significant treatment-by-time effect impacted serum TC (p = 0.026) and LDL (p = 0.033) after eight weeks. Paired t-tests indicated that pinto beans were responsible for this effect (p = 0.003; p = 0.008). Mean change of serum TC for pinto bean, black-eyed pea and placebo were -19 +/- 5, 2.5 +/- 6, and 1 +/- 5 mg/dL, respectively (p = 0.011). Mean change of serum LDL-C for pinto bean, black-eyed pea and placebo were -14 +/- 4, 4 +/- 5, and 1 +/- 4 mg/dL, in that order (p = 0.013). Pinto beans differed significantly from placebo (p = 0.021). No significant differences were seen with other blood concentrations across the 3 treatment periods.",
+      "target": "CONCLUSIONS: Pinto bean intake should be encouraged to lower serum TC and LDL-C, thereby reducing risk for CHD.",
+      "loss_target": 2.49684476852417,
+      "loss_target_given_context": 1.3897507190704346,
+      "delta_loss": 1.1070940494537354,
+      "gain_ratio": 0.4433972281377005,
+      "score": -0.4433972281377005,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

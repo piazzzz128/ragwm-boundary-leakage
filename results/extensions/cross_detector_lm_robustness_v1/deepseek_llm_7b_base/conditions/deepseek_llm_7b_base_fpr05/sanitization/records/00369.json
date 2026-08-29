@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1457",
+  "source_doc_id": "MED-1457",
+  "title": "A high-fat diet coordinately downregulates genes required for mitochondrial oxidative phosphorylation in skeletal muscle.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A high-fat diet coordinately downregulates genes required for mitochondrial oxidative phosphorylation in skeletal muscle.\nObesity and type 2 diabetes have been associated with a high-fat diet (HFD) and reduced mitochondrial mass and function. We hypothesized a HFD may affect expression of genes involved in mitochondrial function and biogenesis. To test this hypothesis, we fed 10 insulin-sensitive males an isoenergetic HFD for 3 days with muscle biopsies before and after intervention. Oligonucleotide microarray analysis revealed 297 genes were differentially regulated by the HFD (Bonferonni adjusted P < 0.001). Six genes involved in oxidative phosphorylation (OXPHOS) decreased. Four were members of mitochondrial complex I: NDUFB3, NDUFB5, NDUFS1, and NDUFV1; one was SDHB in complex II and a mitochondrial carrier protein SLC25A12. Peroxisome proliferator-activated receptor gamma coactivator-1 (PGC1) alpha and PGC1beta mRNA were decreased by -20%, P < 0.01, and -25%, P < 0.01, respectively. In a separate experiment, we fed C57Bl/6J mice a HFD for 3 weeks and found that the same OXPHOS and PGC1 mRNAs were downregulated by approximately 90%, cytochrome C and PGC1alpha protein by approximately 40%. Combined, these results suggest a mechanism whereby HFD downregulates genes necessary for OXPHOS and mitochondrial biogenesis. These changes mimic those observed in diabetes and insulin resistance and, if sustained, may result in mitochondrial dysfunction in the prediabetic/insulin-resistant state.",
+  "sanitized_text": "A high-fat diet coordinately downregulates genes required for mitochondrial oxidative phosphorylation in skeletal muscle.\nObesity and type 2 diabetes have been associated with a high-fat diet (HFD) and reduced mitochondrial mass and function. We hypothesized a HFD may affect expression of genes involved in mitochondrial function and biogenesis. To test this hypothesis, we fed 10 insulin-sensitive males an isoenergetic HFD for 3 days with muscle biopsies before and after intervention. Oligonucleotide microarray analysis revealed 297 genes were differentially regulated by the HFD (Bonferonni adjusted P < 0.001). Six genes involved in oxidative phosphorylation (OXPHOS) decreased. Four were members of mitochondrial complex I: NDUFB3, NDUFB5, NDUFS1, and NDUFV1; one was SDHB in complex II and a mitochondrial carrier protein SLC25A12. Peroxisome proliferator-activated receptor gamma coactivator-1 (PGC1) alpha and PGC1beta mRNA were decreased by -20%, P < 0.01, and -25%, P < 0.01, respectively. In a separate experiment, we fed C57Bl/6J mice a HFD for 3 weeks and found that the same OXPHOS and PGC1 mRNAs were downregulated by approximately 90%, cytochrome C and PGC1alpha protein by approximately 40%. Combined, these results suggest a mechanism whereby HFD downregulates genes necessary for OXPHOS and mitochondrial biogenesis. These changes mimic those observed in diabetes and insulin resistance and, if sustained, may result in mitochondrial dysfunction in the prediabetic/insulin-resistant state.",
+  "modified": false,
+  "original_char_count": 1511,
+  "sanitized_char_count": 1511,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1339,
+      "boundary_end": 1511,
+      "context": "2 diabetes have been associated with a high-fat diet (HFD) and reduced mitochondrial mass and function. We hypothesized a HFD may affect expression of genes involved in mitochondrial function and biogenesis. To test this hypothesis, we fed 10 insulin-sensitive males an isoenergetic HFD for 3 days with muscle biopsies before and after intervention. Oligonucleotide microarray analysis revealed 297 genes were differentially regulated by the HFD (Bonferonni adjusted P < 0.001). Six genes involved in oxidative phosphorylation (OXPHOS) decreased. Four were members of mitochondrial complex I: NDUFB3, NDUFB5, NDUFS1, and NDUFV1; one was SDHB in complex II and a mitochondrial carrier protein SLC25A12. Peroxisome proliferator-activated receptor gamma coactivator-1 (PGC1) alpha and PGC1beta mRNA were decreased by -20%, P < 0.01, and -25%, P < 0.01, respectively. In a separate experiment, we fed C57Bl/6J mice a HFD for 3 weeks and found that the same OXPHOS and PGC1 mRNAs were downregulated by approximately 90%, cytochrome C and PGC1alpha protein by approximately 40%. Combined, these results suggest a mechanism whereby HFD downregulates genes necessary for OXPHOS and mitochondrial biogenesis.",
+      "target": "These changes mimic those observed in diabetes and insulin resistance and, if sustained, may result in mitochondrial dysfunction in the prediabetic/insulin-resistant state.",
+      "loss_target": 2.650607109069824,
+      "loss_target_given_context": 1.9770288467407227,
+      "delta_loss": 0.6735782623291016,
+      "gain_ratio": 0.25412225751008416,
+      "score": -0.25412225751008416,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

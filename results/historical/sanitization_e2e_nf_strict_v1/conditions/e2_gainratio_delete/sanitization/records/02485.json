@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4324",
+  "source_doc_id": "MED-4324",
+  "title": "Egg yolk consumption and carotid plaque.",
+  "original_text": "Egg yolk consumption and carotid plaque.\nBACKGROUND: Increasingly the potential harm from high cholesterol intake, and specifically from egg yolks, is considered insignificant. We therefore assessed total plaque area (TPA) in patients attending Canadian vascular prevention clinics to determine if the atherosclerosis burden, as a marker of arterial damage, was related to egg intake. To provide perspective on the magnitude of the effect, we also analysed the effect of smoking (pack-years). METHODS: Consecutive patients attending vascular prevention clinics at University Hospital had baseline measurement of TPA by duplex ultrasound, and filled out questionnaires regarding their lifestyle and medications, including pack-years of smoking, and the number of egg yolks consumed per week times the number of years consumed (egg-yolk years). RESULTS: Data were available in 1262 patients; mean (SD) age was 61.5 (14.8) years; 47% were women. Carotid plaque area increased linearly with age after age 40, but increased exponentially with pack-years of smoking and with egg-yolk years. Plaque area in patients consuming <2 eggs per week (n = 388) was 125 ± 129 mm(2), versus 132 ± 142 mm(2) in those consuming 3 or more eggs per week (n = 603); (p < 0.0001 after adjustment for age). In multiple regression, egg-yolk years remained significant after adjusting for coronary risk factors. INTERPRETATION: Our findings suggest that regular consumption of egg yolk should be avoided by persons at risk of cardiovascular disease. This hypothesis should be tested in a prospective study with more detailed information about diet, and other possible confounders such as exercise and waist circumference. Copyright © 2012 Elsevier Ireland Ltd. All rights reserved.",
+  "sanitized_text": "Egg yolk consumption and carotid plaque.\nBACKGROUND: Increasingly the potential harm from high cholesterol intake, and specifically from egg yolks, is considered insignificant. We therefore assessed total plaque area (TPA) in patients attending Canadian vascular prevention clinics to determine if the atherosclerosis burden, as a marker of arterial damage, was related to egg intake. To provide perspective on the magnitude of the effect, we also analysed the effect of smoking (pack-years). METHODS: Consecutive patients attending vascular prevention clinics at University Hospital had baseline measurement of TPA by duplex ultrasound, and filled out questionnaires regarding their lifestyle and medications, including pack-years of smoking, and the number of egg yolks consumed per week times the number of years consumed (egg-yolk years). RESULTS: Data were available in 1262 patients; mean (SD) age was 61.5 (14.8) years; 47% were women. Carotid plaque area increased linearly with age after age 40, but increased exponentially with pack-years of smoking and with egg-yolk years. Plaque area in patients consuming <2 eggs per week (n = 388) was 125 ± 129 mm(2), versus 132 ± 142 mm(2) in those consuming 3 or more eggs per week (n = 603); (p < 0.0001 after adjustment for age). In multiple regression, egg-yolk years remained significant after adjusting for coronary risk factors. INTERPRETATION: Our findings suggest that regular consumption of egg yolk should be avoided by persons at risk of cardiovascular disease. This hypothesis should be tested in a prospective study with more detailed information about diet, and other possible confounders such as exercise and waist circumference.",
+  "modified": true,
+  "original_char_count": 1755,
+  "sanitized_char_count": 1695,
+  "deleted_char_count": 60,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1696,
+      "boundary_end": 1734,
+      "context": "Consecutive patients attending vascular prevention clinics at University Hospital had baseline measurement of TPA by duplex ultrasound, and filled out questionnaires regarding their lifestyle and medications, including pack-years of smoking, and the number of egg yolks consumed per week times the number of years consumed (egg-yolk years). RESULTS: Data were available in 1262 patients; mean (SD) age was 61.5 (14.8) years; 47% were women. Carotid plaque area increased linearly with age after age 40, but increased exponentially with pack-years of smoking and with egg-yolk years. Plaque area in patients consuming <2 eggs per week (n = 388) was 125 ± 129 mm(2), versus 132 ± 142 mm(2) in those consuming 3 or more eggs per week (n = 603); (p < 0.0001 after adjustment for age). In multiple regression, egg-yolk years remained significant after adjusting for coronary risk factors. INTERPRETATION: Our findings suggest that regular consumption of egg yolk should be avoided by persons at risk of cardiovascular disease. This hypothesis should be tested in a prospective study with more detailed information about diet, and other possible confounders such as exercise and waist circumference.",
+      "target": "Copyright © 2012 Elsevier Ireland Ltd.",
+      "loss_target": 1.3645259141921997,
+      "loss_target_given_context": 1.7643557786941528,
+      "delta_loss": -0.3998298645019531,
+      "gain_ratio": -0.2930174211741905,
+      "score": 0.2930174211741905,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1524,
+      "boundary_end": 1695,
+      "context": "as a marker of arterial damage, was related to egg intake. To provide perspective on the magnitude of the effect, we also analysed the effect of smoking (pack-years). METHODS: Consecutive patients attending vascular prevention clinics at University Hospital had baseline measurement of TPA by duplex ultrasound, and filled out questionnaires regarding their lifestyle and medications, including pack-years of smoking, and the number of egg yolks consumed per week times the number of years consumed (egg-yolk years). RESULTS: Data were available in 1262 patients; mean (SD) age was 61.5 (14.8) years; 47% were women. Carotid plaque area increased linearly with age after age 40, but increased exponentially with pack-years of smoking and with egg-yolk years. Plaque area in patients consuming <2 eggs per week (n = 388) was 125 ± 129 mm(2), versus 132 ± 142 mm(2) in those consuming 3 or more eggs per week (n = 603); (p < 0.0001 after adjustment for age). In multiple regression, egg-yolk years remained significant after adjusting for coronary risk factors. INTERPRETATION: Our findings suggest that regular consumption of egg yolk should be avoided by persons at risk of cardiovascular disease.",
+      "target": "This hypothesis should be tested in a prospective study with more detailed information about diet, and other possible confounders such as exercise and waist circumference.",
+      "loss_target": 2.705562114715576,
+      "loss_target_given_context": 2.38055419921875,
+      "delta_loss": 0.32500791549682617,
+      "gain_ratio": 0.12012583770636988,
+      "score": -0.12012583770636988,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1696,
+      "target": "Copyright © 2012 Elsevier Ireland Ltd.",
+      "score": 0.2930174211741905,
+      "deleted_suffix": "Copyright © 2012 Elsevier Ireland Ltd. All rights reserved.",
+      "deleted_char_count": 59
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

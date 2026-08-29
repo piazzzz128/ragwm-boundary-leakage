@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3155",
+  "source_doc_id": "MED-3155",
+  "title": "Aerobic fitness is associated with lower proportions of senescent blood T-cells in man.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Aerobic fitness is associated with lower proportions of senescent blood T-cells in man.\nSenescent T-cells accumulate with age, lowering the naïve T-cell repertoire and increasing host infection risk. As this response is likely to be influenced by certain lifestyle factors, we examined the association between aerobic fitness (VO(2max)) and the age-related accumulation of senescent T-cells. Blood lymphocytes from 102 healthy males (18-61 yr) were analyzed for KLRG1, CD57, CD28, CD45RA, CD45RO surface expression on CD4+ and CD8+ T-cells by 4-color flow cytometry. Advancing age (yr) was positively associated with the proportion (%) of senescent (KLRG1+/CD57+; KLRG1+/CD28-) CD4+ (B=1.00; 1.02) and CD8+ (B=0.429; 1.02) T-cells and inversely associated with naïve (KLRG1-/CD28+) CD4+ (B=-1.000) and CD8+ (B=-0.993) T-cells. VO(2max) was inversely associated with senescent CD4+ (B=-0.97) and CD8+ (B=-0.240). Strikingly, age was no longer associated with the proportions of senescent or naïve T-cells after adjusting for VO(2max), while the association between VO(2max) and these T-cell subsets withstood adjustment for age, BMI and percentage body fat. Ranking participants by age-adjusted VO(2max) revealed that the highest tertile had 17% more naïve CD8+ T-cells and 57% and 37% less senescent CD4+ and CD8+ T-cells, respectively, compared to the lowest tertile. VO(2max) was not associated with latent cytomegalovirus (CMV), Epstein-Barr virus (EBV) or herpes simplex virus-1 (HSV-1) infection, indicating that the moderating associations of VO(2max) were not confounded by persistent viral infections. This is the first study to show that aerobic fitness is associated with a lower age-related accumulation of senescent T-cells, highlighting the beneficial effects of maintaining a physically active lifestyle on the aging immune system. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Aerobic fitness is associated with lower proportions of senescent blood T-cells in man.\nSenescent T-cells accumulate with age, lowering the naïve T-cell repertoire and increasing host infection risk. As this response is likely to be influenced by certain lifestyle factors, we examined the association between aerobic fitness (VO(2max)) and the age-related accumulation of senescent T-cells. Blood lymphocytes from 102 healthy males (18-61 yr) were analyzed for KLRG1, CD57, CD28, CD45RA, CD45RO surface expression on CD4+ and CD8+ T-cells by 4-color flow cytometry. Advancing age (yr) was positively associated with the proportion (%) of senescent (KLRG1+/CD57+; KLRG1+/CD28-) CD4+ (B=1.00; 1.02) and CD8+ (B=0.429; 1.02) T-cells and inversely associated with naïve (KLRG1-/CD28+) CD4+ (B=-1.000) and CD8+ (B=-0.993) T-cells. VO(2max) was inversely associated with senescent CD4+ (B=-0.97) and CD8+ (B=-0.240). Strikingly, age was no longer associated with the proportions of senescent or naïve T-cells after adjusting for VO(2max), while the association between VO(2max) and these T-cell subsets withstood adjustment for age, BMI and percentage body fat. Ranking participants by age-adjusted VO(2max) revealed that the highest tertile had 17% more naïve CD8+ T-cells and 57% and 37% less senescent CD4+ and CD8+ T-cells, respectively, compared to the lowest tertile. VO(2max) was not associated with latent cytomegalovirus (CMV), Epstein-Barr virus (EBV) or herpes simplex virus-1 (HSV-1) infection, indicating that the moderating associations of VO(2max) were not confounded by persistent viral infections. This is the first study to show that aerobic fitness is associated with a lower age-related accumulation of senescent T-cells, highlighting the beneficial effects of maintaining a physically active lifestyle on the aging immune system. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1897,
+  "sanitized_char_count": 1897,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1846,
+      "boundary_end": 1876,
+      "context": "(KLRG1+/CD57+; KLRG1+/CD28-) CD4+ (B=1.00; 1.02) and CD8+ (B=0.429; 1.02) T-cells and inversely associated with naïve (KLRG1-/CD28+) CD4+ (B=-1.000) and CD8+ (B=-0.993) T-cells. VO(2max) was inversely associated with senescent CD4+ (B=-0.97) and CD8+ (B=-0.240). Strikingly, age was no longer associated with the proportions of senescent or naïve T-cells after adjusting for VO(2max), while the association between VO(2max) and these T-cell subsets withstood adjustment for age, BMI and percentage body fat. Ranking participants by age-adjusted VO(2max) revealed that the highest tertile had 17% more naïve CD8+ T-cells and 57% and 37% less senescent CD4+ and CD8+ T-cells, respectively, compared to the lowest tertile. VO(2max) was not associated with latent cytomegalovirus (CMV), Epstein-Barr virus (EBV) or herpes simplex virus-1 (HSV-1) infection, indicating that the moderating associations of VO(2max) were not confounded by persistent viral infections. This is the first study to show that aerobic fitness is associated with a lower age-related accumulation of senescent T-cells, highlighting the beneficial effects of maintaining a physically active lifestyle on the aging immune system.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.1415737867355347,
+      "loss_target_given_context": 0.5262154340744019,
+      "delta_loss": 0.6153583526611328,
+      "gain_ratio": 0.5390438706733297,
+      "score": -0.5390438706733297,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

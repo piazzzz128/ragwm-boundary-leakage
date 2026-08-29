@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4493",
+  "source_doc_id": "MED-4493",
+  "title": "Processed meat and colorectal cancer: a review of epidemiologic and experimental evidence",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Processed meat and colorectal cancer: a review of epidemiologic and experimental evidence\nProcessed meat intake may be involved in the etiology of colorectal cancer, a major cause of death in affluent countries. The epidemiologic studies published to date conclude that the excess risk in the highest category of processed meat-eaters is comprised between 20 and 50% compared with non-eaters. In addition, the excess risk per gram of intake is clearly higher than that of fresh red meat. Several hypotheses, which are mainly based on studies carried out on red meat, may explain why processed meat intake is linked to cancer risk. Those that have been tested experimentally are (i) that high-fat diets could promote carcinogenesis via insulin resistance or fecal bile acids; (ii) that cooking meat at a high temperature forms carcinogenic heterocyclic amines and polycyclic aromatic hydrocarbons; (iii) that carcinogenic N-nitroso compounds are formed in meat and endogenously; (iv) that heme iron in red meat can promote carcinogenesis because it increases cell proliferation in the mucosa, through lipoperoxidation and/or cytotoxicity of fecal water. Nitrosation might increase the toxicity of heme in cured products. Solving this puzzle is a challenge that would permit to reduce cancer load by changing the processes rather than by banning processed meat.",
+  "sanitized_text": "Processed meat and colorectal cancer: a review of epidemiologic and experimental evidence\nProcessed meat intake may be involved in the etiology of colorectal cancer, a major cause of death in affluent countries. The epidemiologic studies published to date conclude that the excess risk in the highest category of processed meat-eaters is comprised between 20 and 50% compared with non-eaters. In addition, the excess risk per gram of intake is clearly higher than that of fresh red meat. Several hypotheses, which are mainly based on studies carried out on red meat, may explain why processed meat intake is linked to cancer risk. Those that have been tested experimentally are (i) that high-fat diets could promote carcinogenesis via insulin resistance or fecal bile acids; (ii) that cooking meat at a high temperature forms carcinogenic heterocyclic amines and polycyclic aromatic hydrocarbons; (iii) that carcinogenic N-nitroso compounds are formed in meat and endogenously; (iv) that heme iron in red meat can promote carcinogenesis because it increases cell proliferation in the mucosa, through lipoperoxidation and/or cytotoxicity of fecal water. Nitrosation might increase the toxicity of heme in cured products. Solving this puzzle is a challenge that would permit to reduce cancer load by changing the processes rather than by banning processed meat.",
+  "modified": false,
+  "original_char_count": 1359,
+  "sanitized_char_count": 1359,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1220,
+      "boundary_end": 1359,
+      "context": "cancer: a review of epidemiologic and experimental evidence Processed meat intake may be involved in the etiology of colorectal cancer, a major cause of death in affluent countries. The epidemiologic studies published to date conclude that the excess risk in the highest category of processed meat-eaters is comprised between 20 and 50% compared with non-eaters. In addition, the excess risk per gram of intake is clearly higher than that of fresh red meat. Several hypotheses, which are mainly based on studies carried out on red meat, may explain why processed meat intake is linked to cancer risk. Those that have been tested experimentally are (i) that high-fat diets could promote carcinogenesis via insulin resistance or fecal bile acids; (ii) that cooking meat at a high temperature forms carcinogenic heterocyclic amines and polycyclic aromatic hydrocarbons; (iii) that carcinogenic N-nitroso compounds are formed in meat and endogenously; (iv) that heme iron in red meat can promote carcinogenesis because it increases cell proliferation in the mucosa, through lipoperoxidation and/or cytotoxicity of fecal water. Nitrosation might increase the toxicity of heme in cured products.",
+      "target": "Solving this puzzle is a challenge that would permit to reduce cancer load by changing the processes rather than by banning processed meat.",
+      "loss_target": 4.4776530265808105,
+      "loss_target_given_context": 3.1879351139068604,
+      "delta_loss": 1.2897179126739502,
+      "gain_ratio": 0.28803435751224216,
+      "score": -0.28803435751224216,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

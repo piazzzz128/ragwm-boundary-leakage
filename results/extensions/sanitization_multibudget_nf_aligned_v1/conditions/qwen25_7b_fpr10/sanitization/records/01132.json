@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2372",
+  "source_doc_id": "MED-2372",
+  "title": "Egg consumption and endothelial function: a randomized controlled crossover trial.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Egg consumption and endothelial function: a randomized controlled crossover trial.\nBACKGROUND: Because of egg cholesterol content, reduction in egg consumption is generally recommended to reduce risk of cardiovascular disease. Recently, however, evidence has been accumulating to suggest that dietary cholesterol is less relevant to cardiovascular risk than dietary saturated fat. This randomized controlled crossover trial was conducted to determine the effects of egg ingestion on endothelial function, a reliable index of cardiovascular risk. METHODS: Forty-nine healthy adults (mean age 56 years, 40% females) underwent a baseline brachial artery reactivity study (BARS), and were assigned to two eggs or oats daily for 6 weeks in random sequence with a 4-week washout. A BARS was done at the end of each treatment phase, measuring flow-mediated vasodilation (FMD) in the brachial artery using a high-frequency ultrasound. RESULTS: FMD was stable in both egg and oat groups, and between-treatment differences were not significant (egg -0.96%, oatmeal -0.79%; p value >0.05). Six weeks of egg ingestion had no effect on total cholesterol (baseline: 203.8 mg/dl; post-treatment: 205.3) or LDL (baseline: 124.8 mg/dl; post-treatment: 129.1). In contrast, 6 weeks of oats lowered total cholesterol (to 194 mg/dl; p = 0.0017) and LDL (to 116.6 mg/dl; p = 0.012). There were no differences in body mass index (BMI), triglyceride, HDL or SBP levels between egg and oat treatment assignments. CONCLUSION: Short-term egg consumption does not adversely affect endothelial function in healthy adults, supporting the view that dietary cholesterol may be less detrimental to cardiovascular health than previously thought. Eggs are commonly used in recipes that include oats. Oats are known to contain triglycerides.",
+  "sanitized_text": "Egg consumption and endothelial function: a randomized controlled crossover trial.\nBACKGROUND: Because of egg cholesterol content, reduction in egg consumption is generally recommended to reduce risk of cardiovascular disease. Recently, however, evidence has been accumulating to suggest that dietary cholesterol is less relevant to cardiovascular risk than dietary saturated fat. This randomized controlled crossover trial was conducted to determine the effects of egg ingestion on endothelial function, a reliable index of cardiovascular risk. METHODS: Forty-nine healthy adults (mean age 56 years, 40% females) underwent a baseline brachial artery reactivity study (BARS), and were assigned to two eggs or oats daily for 6 weeks in random sequence with a 4-week washout. A BARS was done at the end of each treatment phase, measuring flow-mediated vasodilation (FMD) in the brachial artery using a high-frequency ultrasound. RESULTS: FMD was stable in both egg and oat groups, and between-treatment differences were not significant (egg -0.96%, oatmeal -0.79%; p value >0.05). Six weeks of egg ingestion had no effect on total cholesterol (baseline: 203.8 mg/dl; post-treatment: 205.3) or LDL (baseline: 124.8 mg/dl; post-treatment: 129.1). In contrast, 6 weeks of oats lowered total cholesterol (to 194 mg/dl; p = 0.0017) and LDL (to 116.6 mg/dl; p = 0.012). There were no differences in body mass index (BMI), triglyceride, HDL or SBP levels between egg and oat treatment assignments. CONCLUSION: Short-term egg consumption does not adversely affect endothelial function in healthy adults, supporting the view that dietary cholesterol may be less detrimental to cardiovascular health than previously thought. Eggs are commonly used in recipes that include oats. Oats are known to contain triglycerides.",
+  "modified": false,
+  "original_char_count": 1806,
+  "sanitized_char_count": 1806,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1766,
+      "boundary_end": 1806,
+      "context": "healthy adults (mean age 56 years, 40% females) underwent a baseline brachial artery reactivity study (BARS), and were assigned to two eggs or oats daily for 6 weeks in random sequence with a 4-week washout. A BARS was done at the end of each treatment phase, measuring flow-mediated vasodilation (FMD) in the brachial artery using a high-frequency ultrasound. RESULTS: FMD was stable in both egg and oat groups, and between-treatment differences were not significant (egg -0.96%, oatmeal -0.79%; p value >0.05). Six weeks of egg ingestion had no effect on total cholesterol (baseline: 203.8 mg/dl; post-treatment: 205.3) or LDL (baseline: 124.8 mg/dl; post-treatment: 129.1). In contrast, 6 weeks of oats lowered total cholesterol (to 194 mg/dl; p = 0.0017) and LDL (to 116.6 mg/dl; p = 0.012). There were no differences in body mass index (BMI), triglyceride, HDL or SBP levels between egg and oat treatment assignments. CONCLUSION: Short-term egg consumption does not adversely affect endothelial function in healthy adults, supporting the view that dietary cholesterol may be less detrimental to cardiovascular health than previously thought. Eggs are commonly used in recipes that include oats.",
+      "target": "Oats are known to contain triglycerides.",
+      "loss_target": 3.275902509689331,
+      "loss_target_given_context": 2.297429323196411,
+      "delta_loss": 0.9784731864929199,
+      "gain_ratio": 0.29868812750038554,
+      "score": -0.29868812750038554,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

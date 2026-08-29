@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1586",
+  "source_doc_id": "MED-1586",
+  "title": "Evidence-based care of women with a multiple pregnancy.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Evidence-based care of women with a multiple pregnancy.\nWomen with a multiple pregnancy face greater risks for themselves and their infants than women pregnant with one child. Pre-pregnancy care should focus on avoiding multiple pregnancy. Early prenatal care centres on determining chorionicity and screening for fetal anomalies, with later care focusing on the presentation, prediction and management of preterm birth, and intrauterine growth restriction. The optimal timing and mode of birth are the focus of current multicentre, randomised, controlled trials. However, the data from such trials on care for women with a multiple pregnancy are limited. Many areas of care require better-quality information, including when using assisted reproductive techniques, the optimal number of embryos to be transferred, care after the diagnosis of chorionicity, and the benefits of specialised multiple pregnancy clinics. Better-quality information is required to inform clinical practice for women with complications of multiple pregnancy, including monoamniotic twin pregnancy, treatment of twin-to-twin transfusion syndrome, and care following single intrauterine fetal death.",
+  "sanitized_text": "Evidence-based care of women with a multiple pregnancy.\nWomen with a multiple pregnancy face greater risks for themselves and their infants than women pregnant with one child. Pre-pregnancy care should focus on avoiding multiple pregnancy. Early prenatal care centres on determining chorionicity and screening for fetal anomalies, with later care focusing on the presentation, prediction and management of preterm birth, and intrauterine growth restriction. The optimal timing and mode of birth are the focus of current multicentre, randomised, controlled trials. However, the data from such trials on care for women with a multiple pregnancy are limited. Many areas of care require better-quality information, including when using assisted reproductive techniques, the optimal number of embryos to be transferred, care after the diagnosis of chorionicity, and the benefits of specialised multiple pregnancy clinics. Better-quality information is required to inform clinical practice for women with complications of multiple pregnancy, including monoamniotic twin pregnancy, treatment of twin-to-twin transfusion syndrome, and care following single intrauterine fetal death.",
+  "modified": false,
+  "original_char_count": 1174,
+  "sanitized_char_count": 1174,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 917,
+      "boundary_end": 1174,
+      "context": "Evidence-based care of women with a multiple pregnancy. Women with a multiple pregnancy face greater risks for themselves and their infants than women pregnant with one child. Pre-pregnancy care should focus on avoiding multiple pregnancy. Early prenatal care centres on determining chorionicity and screening for fetal anomalies, with later care focusing on the presentation, prediction and management of preterm birth, and intrauterine growth restriction. The optimal timing and mode of birth are the focus of current multicentre, randomised, controlled trials. However, the data from such trials on care for women with a multiple pregnancy are limited. Many areas of care require better-quality information, including when using assisted reproductive techniques, the optimal number of embryos to be transferred, care after the diagnosis of chorionicity, and the benefits of specialised multiple pregnancy clinics.",
+      "target": "Better-quality information is required to inform clinical practice for women with complications of multiple pregnancy, including monoamniotic twin pregnancy, treatment of twin-to-twin transfusion syndrome, and care following single intrauterine fetal death.",
+      "loss_target": 2.4732413291931152,
+      "loss_target_given_context": 1.7486366033554077,
+      "delta_loss": 0.7246047258377075,
+      "gain_ratio": 0.29297776860057034,
+      "score": -0.29297776860057034,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

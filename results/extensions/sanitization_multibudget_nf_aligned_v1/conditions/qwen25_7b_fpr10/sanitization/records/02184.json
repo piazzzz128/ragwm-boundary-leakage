@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3920",
+  "source_doc_id": "MED-3920",
+  "title": "Acute neurocognitive effects of epigallocatechin gallate (EGCG).",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Acute neurocognitive effects of epigallocatechin gallate (EGCG).\nGreen tea is reported to have wide ranging beneficial health outcomes across epidemiological studies, which have been attributed to its flavonoid content. We investigated whether the flavonoid epigallocatechin gallate (EGCG) modulates brain activity and self-reported mood in a double-blind, placebo controlled crossover study. Participants completed baseline assessments of cognitive and cardiovascular functioning, mood and a resting state electroencephalogram (EEG) before and then 120 min following administration of 300 mg EGCG or matched placebo. EGCG administration was associated with a significant overall increase in alpha, beta and theta activity, also reflected in overall EEG activity, more dominant in midline frontal and central regions, specifically in the frontal gyrus and medial frontal gyrus. In comparison to placebo the EGCG treatment also increased self-rated calmness and reduced self rated stress. This pattern of results suggests that participants in the EGCG condition may have been in a more relaxed and attentive state after consuming EGCG. This is in keeping with the widespread consumption of green tea for its purported relaxing/refreshing properties. The modulation of brain function due to EGCG is deserving of further controlled human studies. Copyright Â© 2011 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Acute neurocognitive effects of epigallocatechin gallate (EGCG).\nGreen tea is reported to have wide ranging beneficial health outcomes across epidemiological studies, which have been attributed to its flavonoid content. We investigated whether the flavonoid epigallocatechin gallate (EGCG) modulates brain activity and self-reported mood in a double-blind, placebo controlled crossover study. Participants completed baseline assessments of cognitive and cardiovascular functioning, mood and a resting state electroencephalogram (EEG) before and then 120 min following administration of 300 mg EGCG or matched placebo. EGCG administration was associated with a significant overall increase in alpha, beta and theta activity, also reflected in overall EEG activity, more dominant in midline frontal and central regions, specifically in the frontal gyrus and medial frontal gyrus. In comparison to placebo the EGCG treatment also increased self-rated calmness and reduced self rated stress. This pattern of results suggests that participants in the EGCG condition may have been in a more relaxed and attentive state after consuming EGCG. This is in keeping with the widespread consumption of green tea for its purported relaxing/refreshing properties. The modulation of brain function due to EGCG is deserving of further controlled human studies. Copyright Â© 2011 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1396,
+  "sanitized_char_count": 1396,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1344,
+      "boundary_end": 1375,
+      "context": "studies, which have been attributed to its flavonoid content. We investigated whether the flavonoid epigallocatechin gallate (EGCG) modulates brain activity and self-reported mood in a double-blind, placebo controlled crossover study. Participants completed baseline assessments of cognitive and cardiovascular functioning, mood and a resting state electroencephalogram (EEG) before and then 120 min following administration of 300 mg EGCG or matched placebo. EGCG administration was associated with a significant overall increase in alpha, beta and theta activity, also reflected in overall EEG activity, more dominant in midline frontal and central regions, specifically in the frontal gyrus and medial frontal gyrus. In comparison to placebo the EGCG treatment also increased self-rated calmness and reduced self rated stress. This pattern of results suggests that participants in the EGCG condition may have been in a more relaxed and attentive state after consuming EGCG. This is in keeping with the widespread consumption of green tea for its purported relaxing/refreshing properties. The modulation of brain function due to EGCG is deserving of further controlled human studies.",
+      "target": "Copyright Â© 2011 Elsevier Ltd.",
+      "loss_target": 1.629571795463562,
+      "loss_target_given_context": 0.5668140053749084,
+      "delta_loss": 1.0627577900886536,
+      "gain_ratio": 0.6521699706924127,
+      "score": -0.6521699706924127,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5232",
+  "source_doc_id": "MED-5232",
+  "title": "Reactive oxygen species have a causal role in multiple forms of insulin resistance.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Reactive oxygen species have a causal role in multiple forms of insulin resistance.\nInsulin resistance is a cardinal feature of type 2 diabetes and is characteristic of a wide range of other clinical and experimental settings. Little is known about why insulin resistance occurs in so many contexts. Do the various insults that trigger insulin resistance act through a common mechanism? Or, as has been suggested, do they use distinct cellular pathways? Here we report a genomic analysis of two cellular models of insulin resistance, one induced by treatment with the cytokine tumour-necrosis factor-alpha and the other with the glucocorticoid dexamethasone. Gene expression analysis suggests that reactive oxygen species (ROS) levels are increased in both models, and we confirmed this through measures of cellular redox state. ROS have previously been proposed to be involved in insulin resistance, although evidence for a causal role has been scant. We tested this hypothesis in cell culture using six treatments designed to alter ROS levels, including two small molecules and four transgenes; all ameliorated insulin resistance to varying degrees. One of these treatments was tested in obese, insulin-resistant mice and was shown to improve insulin sensitivity and glucose homeostasis. Together, our findings suggest that increased ROS levels are an important trigger for insulin resistance in numerous settings.",
+  "sanitized_text": "Reactive oxygen species have a causal role in multiple forms of insulin resistance.\nInsulin resistance is a cardinal feature of type 2 diabetes and is characteristic of a wide range of other clinical and experimental settings. Little is known about why insulin resistance occurs in so many contexts. Do the various insults that trigger insulin resistance act through a common mechanism? Or, as has been suggested, do they use distinct cellular pathways? Here we report a genomic analysis of two cellular models of insulin resistance, one induced by treatment with the cytokine tumour-necrosis factor-alpha and the other with the glucocorticoid dexamethasone. Gene expression analysis suggests that reactive oxygen species (ROS) levels are increased in both models, and we confirmed this through measures of cellular redox state. ROS have previously been proposed to be involved in insulin resistance, although evidence for a causal role has been scant. We tested this hypothesis in cell culture using six treatments designed to alter ROS levels, including two small molecules and four transgenes; all ameliorated insulin resistance to varying degrees. One of these treatments was tested in obese, insulin-resistant mice and was shown to improve insulin sensitivity and glucose homeostasis. Together, our findings suggest that increased ROS levels are an important trigger for insulin resistance in numerous settings.",
+  "modified": false,
+  "original_char_count": 1416,
+  "sanitized_char_count": 1416,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1290,
+      "boundary_end": 1416,
+      "context": "resistance is a cardinal feature of type 2 diabetes and is characteristic of a wide range of other clinical and experimental settings. Little is known about why insulin resistance occurs in so many contexts. Do the various insults that trigger insulin resistance act through a common mechanism? Or, as has been suggested, do they use distinct cellular pathways? Here we report a genomic analysis of two cellular models of insulin resistance, one induced by treatment with the cytokine tumour-necrosis factor-alpha and the other with the glucocorticoid dexamethasone. Gene expression analysis suggests that reactive oxygen species (ROS) levels are increased in both models, and we confirmed this through measures of cellular redox state. ROS have previously been proposed to be involved in insulin resistance, although evidence for a causal role has been scant. We tested this hypothesis in cell culture using six treatments designed to alter ROS levels, including two small molecules and four transgenes; all ameliorated insulin resistance to varying degrees. One of these treatments was tested in obese, insulin-resistant mice and was shown to improve insulin sensitivity and glucose homeostasis.",
+      "target": "Together, our findings suggest that increased ROS levels are an important trigger for insulin resistance in numerous settings.",
+      "loss_target": 3.347468614578247,
+      "loss_target_given_context": 1.4236526489257812,
+      "delta_loss": 1.9238159656524658,
+      "gain_ratio": 0.5747076932325026,
+      "score": -0.5747076932325026,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

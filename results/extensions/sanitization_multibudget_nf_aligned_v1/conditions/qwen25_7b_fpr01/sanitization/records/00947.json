@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2153",
+  "source_doc_id": "MED-2153",
+  "title": "Nut consumption and risk of pancreatic cancer in women",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Nut consumption and risk of pancreatic cancer in women\nBackground: Increasing nut intake has been associated with reduced risk of diabetes mellitus, which is a risk factor for pancreatic cancer. Methods: We prospectively followed 75 680 women in the Nurses' Health Study, and examined the association between nut consumption and pancreatic cancer risk. Participants with a previous history of cancer were excluded. Nut consumption was assessed at baseline and updated every 2 to 4 years. Relative risks (RRs) and 95% confidence intervals (95% CIs) were estimated using Cox proportional hazards models. Results: We documented 466 incident cases of pancreatic cancer. After adjusting for age, height, smoking, physical activity, and total energy intake, women who consumed a 28-g (1 oz) serving size of nuts ⩾2 times per week experienced a significantly lower risk of pancreatic cancer (RR, 0.65; 95% CI, 0.47–0.92; P for trend=0.007) when compared with those who largely abstained from nuts. The results did not appreciably change after further adjustment for body mass index (BMI) and history of diabetes mellitus (RR, 0.68; 95% CI, 0.48–0.95; P for trend=0.01). The inverse association persisted within strata defined by BMI, physical activity, smoking, and intakes of red meat, fruits, and vegetables. Conclusion: Frequent nut consumption is inversely associated with risk of pancreatic cancer in this large prospective cohort of women, independent of other potential risk factors for pancreatic cancer.",
+  "sanitized_text": "Nut consumption and risk of pancreatic cancer in women\nBackground: Increasing nut intake has been associated with reduced risk of diabetes mellitus, which is a risk factor for pancreatic cancer. Methods: We prospectively followed 75 680 women in the Nurses' Health Study, and examined the association between nut consumption and pancreatic cancer risk. Participants with a previous history of cancer were excluded. Nut consumption was assessed at baseline and updated every 2 to 4 years. Relative risks (RRs) and 95% confidence intervals (95% CIs) were estimated using Cox proportional hazards models. Results: We documented 466 incident cases of pancreatic cancer. After adjusting for age, height, smoking, physical activity, and total energy intake, women who consumed a 28-g (1 oz) serving size of nuts ⩾2 times per week experienced a significantly lower risk of pancreatic cancer (RR, 0.65; 95% CI, 0.47–0.92; P for trend=0.007) when compared with those who largely abstained from nuts. The results did not appreciably change after further adjustment for body mass index (BMI) and history of diabetes mellitus (RR, 0.68; 95% CI, 0.48–0.95; P for trend=0.01). The inverse association persisted within strata defined by BMI, physical activity, smoking, and intakes of red meat, fruits, and vegetables. Conclusion: Frequent nut consumption is inversely associated with risk of pancreatic cancer in this large prospective cohort of women, independent of other potential risk factors for pancreatic cancer.",
+  "modified": false,
+  "original_char_count": 1505,
+  "sanitized_char_count": 1505,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1304,
+      "boundary_end": 1505,
+      "context": "with reduced risk of diabetes mellitus, which is a risk factor for pancreatic cancer. Methods: We prospectively followed 75 680 women in the Nurses' Health Study, and examined the association between nut consumption and pancreatic cancer risk. Participants with a previous history of cancer were excluded. Nut consumption was assessed at baseline and updated every 2 to 4 years. Relative risks (RRs) and 95% confidence intervals (95% CIs) were estimated using Cox proportional hazards models. Results: We documented 466 incident cases of pancreatic cancer. After adjusting for age, height, smoking, physical activity, and total energy intake, women who consumed a 28-g (1 oz) serving size of nuts ⩾2 times per week experienced a significantly lower risk of pancreatic cancer (RR, 0.65; 95% CI, 0.47–0.92; P for trend=0.007) when compared with those who largely abstained from nuts. The results did not appreciably change after further adjustment for body mass index (BMI) and history of diabetes mellitus (RR, 0.68; 95% CI, 0.48–0.95; P for trend=0.01). The inverse association persisted within strata defined by BMI, physical activity, smoking, and intakes of red meat, fruits, and vegetables.",
+      "target": "Conclusion: Frequent nut consumption is inversely associated with risk of pancreatic cancer in this large prospective cohort of women, independent of other potential risk factors for pancreatic cancer.",
+      "loss_target": 1.7758079767227173,
+      "loss_target_given_context": 0.7816429734230042,
+      "delta_loss": 0.9941650032997131,
+      "gain_ratio": 0.5598381223258502,
+      "score": -0.5598381223258502,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

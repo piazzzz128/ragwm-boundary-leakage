@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2209",
+  "source_doc_id": "MED-2209",
+  "title": "Relationship between Processing Method and the Glycemic Indices of Ten Sweet Potato (Ipomoea batatas) Cultivars Commonly Consumed in Jamaica",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Relationship between Processing Method and the Glycemic Indices of Ten Sweet Potato (Ipomoea batatas) Cultivars Commonly Consumed in Jamaica\nThis study investigated the effect of different traditional cooking methods on glycemic index (GI) and glycemic response of ten Sweet potato (Ipomoea batatas) cultivars commonly eaten in Jamaica. Matured tubers were cooked by roasting, baking, frying, or boiling then immediately consumed by the ten nondiabetic test subjects (5 males and 5 females; mean age of 27 ± 2 years). The GI varied between 41 ± 5–93 ± 5 for the tubers studied. Samples prepared by boiling had the lowest GI (41 ± 5–50 ± 3), while those processed by baking (82 ± 3–94 ± 3) and roasting (79 ± 4–93 ± 2) had the highest GI values. The study indicates that the glycemic index of Jamaican sweet potatoes varies significantly with the method of preparation and to a lesser extent on intravarietal differences. Consumption of boiled sweet potatoes could minimize postprandial blood glucose spikes and therefore, may prove to be more efficacious in the management of type 2 diabetes mellitus.",
+  "sanitized_text": "Relationship between Processing Method and the Glycemic Indices of Ten Sweet Potato (Ipomoea batatas) Cultivars Commonly Consumed in Jamaica\nThis study investigated the effect of different traditional cooking methods on glycemic index (GI) and glycemic response of ten Sweet potato (Ipomoea batatas) cultivars commonly eaten in Jamaica. Matured tubers were cooked by roasting, baking, frying, or boiling then immediately consumed by the ten nondiabetic test subjects (5 males and 5 females; mean age of 27 ± 2 years). The GI varied between 41 ± 5–93 ± 5 for the tubers studied. Samples prepared by boiling had the lowest GI (41 ± 5–50 ± 3), while those processed by baking (82 ± 3–94 ± 3) and roasting (79 ± 4–93 ± 2) had the highest GI values. The study indicates that the glycemic index of Jamaican sweet potatoes varies significantly with the method of preparation and to a lesser extent on intravarietal differences. Consumption of boiled sweet potatoes could minimize postprandial blood glucose spikes and therefore, may prove to be more efficacious in the management of type 2 diabetes mellitus.",
+  "modified": false,
+  "original_char_count": 1101,
+  "sanitized_char_count": 1101,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 921,
+      "boundary_end": 1101,
+      "context": "Relationship between Processing Method and the Glycemic Indices of Ten Sweet Potato (Ipomoea batatas) Cultivars Commonly Consumed in Jamaica This study investigated the effect of different traditional cooking methods on glycemic index (GI) and glycemic response of ten Sweet potato (Ipomoea batatas) cultivars commonly eaten in Jamaica. Matured tubers were cooked by roasting, baking, frying, or boiling then immediately consumed by the ten nondiabetic test subjects (5 males and 5 females; mean age of 27 ± 2 years). The GI varied between 41 ± 5–93 ± 5 for the tubers studied. Samples prepared by boiling had the lowest GI (41 ± 5–50 ± 3), while those processed by baking (82 ± 3–94 ± 3) and roasting (79 ± 4–93 ± 2) had the highest GI values. The study indicates that the glycemic index of Jamaican sweet potatoes varies significantly with the method of preparation and to a lesser extent on intravarietal differences.",
+      "target": "Consumption of boiled sweet potatoes could minimize postprandial blood glucose spikes and therefore, may prove to be more efficacious in the management of type 2 diabetes mellitus.",
+      "loss_target": 2.064425468444824,
+      "loss_target_given_context": 1.447860836982727,
+      "delta_loss": 0.6165646314620972,
+      "gain_ratio": 0.2986616087073216,
+      "score": -0.2986616087073216,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3236",
+  "source_doc_id": "MED-3236",
+  "title": "Nutrient based estimation of acid-base balance in vegetarians and non-vegetarians.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Nutrient based estimation of acid-base balance in vegetarians and non-vegetarians.\nA first objective of the present study was to estimate the acid-base balance of the food intake in vegetarians and non-vegetarians. A second objective was to evaluate if additional input of specific food items on the existing potential renal acid load (PRAL) list was necessary for the comparison of the two dietary patterns. Thirty vegetarians between the age of 18 and 30 years were matched for sex, age and BMI with 30 non-vegetarians. Based on the 3-days food diaries the acid-base status of the food intake was estimated using the PRAL method. Mean PRAL values as estimated with the standard table yielded an alkaline load of -5.4 +/- 14.4 mEq/d in the vegetarians compared to an acid load of 10.3 +/- 14.4 mEq/d in the nonvegetarians (p<0.001). Mean PRAL values as estimated with the extended table yielded an alkaline load of -10.9 +/-19.7 mEq/d in the vegetarians compared to an acid load of 13.8 +/- 17.1 mEq/d for the non-vegetarians (p<0.001). The findings of this study indicate that vegetarian food intake produces more alkaline outcomes compared to non-vegetarian diets. The use of the standard PRAL table was sufficient for discrimination between the two diets.",
+  "sanitized_text": "Nutrient based estimation of acid-base balance in vegetarians and non-vegetarians.\nA first objective of the present study was to estimate the acid-base balance of the food intake in vegetarians and non-vegetarians. A second objective was to evaluate if additional input of specific food items on the existing potential renal acid load (PRAL) list was necessary for the comparison of the two dietary patterns. Thirty vegetarians between the age of 18 and 30 years were matched for sex, age and BMI with 30 non-vegetarians. Based on the 3-days food diaries the acid-base status of the food intake was estimated using the PRAL method. Mean PRAL values as estimated with the standard table yielded an alkaline load of -5.4 +/- 14.4 mEq/d in the vegetarians compared to an acid load of 10.3 +/- 14.4 mEq/d in the nonvegetarians (p<0.001). Mean PRAL values as estimated with the extended table yielded an alkaline load of -10.9 +/-19.7 mEq/d in the vegetarians compared to an acid load of 13.8 +/- 17.1 mEq/d for the non-vegetarians (p<0.001). The findings of this study indicate that vegetarian food intake produces more alkaline outcomes compared to non-vegetarian diets. The use of the standard PRAL table was sufficient for discrimination between the two diets.",
+  "modified": false,
+  "original_char_count": 1259,
+  "sanitized_char_count": 1259,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1168,
+      "boundary_end": 1259,
+      "context": "Nutrient based estimation of acid-base balance in vegetarians and non-vegetarians. A first objective of the present study was to estimate the acid-base balance of the food intake in vegetarians and non-vegetarians. A second objective was to evaluate if additional input of specific food items on the existing potential renal acid load (PRAL) list was necessary for the comparison of the two dietary patterns. Thirty vegetarians between the age of 18 and 30 years were matched for sex, age and BMI with 30 non-vegetarians. Based on the 3-days food diaries the acid-base status of the food intake was estimated using the PRAL method. Mean PRAL values as estimated with the standard table yielded an alkaline load of -5.4 +/- 14.4 mEq/d in the vegetarians compared to an acid load of 10.3 +/- 14.4 mEq/d in the nonvegetarians (p<0.001). Mean PRAL values as estimated with the extended table yielded an alkaline load of -10.9 +/-19.7 mEq/d in the vegetarians compared to an acid load of 13.8 +/- 17.1 mEq/d for the non-vegetarians (p<0.001). The findings of this study indicate that vegetarian food intake produces more alkaline outcomes compared to non-vegetarian diets.",
+      "target": "The use of the standard PRAL table was sufficient for discrimination between the two diets.",
+      "loss_target": 4.456406593322754,
+      "loss_target_given_context": 1.5250139236450195,
+      "delta_loss": 2.9313926696777344,
+      "gain_ratio": 0.6577929119102327,
+      "score": -0.6577929119102327,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3765",
+  "source_doc_id": "MED-3765",
+  "title": "Molecular mechanisms of alcohol-mediated carcinogenesis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Molecular mechanisms of alcohol-mediated carcinogenesis.\nApproximately 3.6% of cancers worldwide derive from chronic alcohol drinking, including those of the upper aerodigestive tract, the liver, the colorectum and the breast. Although the mechanisms for alcohol-associated carcinogenesis are not completely understood, most recent research has focused on acetaldehyde, the first and most toxic ethanol metabolite, as a cancer-causing agent. Ethanol may also stimulate carcinogenesis by inhibiting DNA methylation and by interacting with retinoid metabolism. Alcohol-related carcinogenesis may interact with other factors such as smoking, diet and comorbidities, and depends on genetic susceptibility.",
+  "sanitized_text": "Molecular mechanisms of alcohol-mediated carcinogenesis.\nApproximately 3.6% of cancers worldwide derive from chronic alcohol drinking, including those of the upper aerodigestive tract, the liver, the colorectum and the breast. Although the mechanisms for alcohol-associated carcinogenesis are not completely understood, most recent research has focused on acetaldehyde, the first and most toxic ethanol metabolite, as a cancer-causing agent. Ethanol may also stimulate carcinogenesis by inhibiting DNA methylation and by interacting with retinoid metabolism. Alcohol-related carcinogenesis may interact with other factors such as smoking, diet and comorbidities, and depends on genetic susceptibility.",
+  "modified": false,
+  "original_char_count": 701,
+  "sanitized_char_count": 701,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 559,
+      "boundary_end": 701,
+      "context": "Molecular mechanisms of alcohol-mediated carcinogenesis. Approximately 3.6% of cancers worldwide derive from chronic alcohol drinking, including those of the upper aerodigestive tract, the liver, the colorectum and the breast. Although the mechanisms for alcohol-associated carcinogenesis are not completely understood, most recent research has focused on acetaldehyde, the first and most toxic ethanol metabolite, as a cancer-causing agent. Ethanol may also stimulate carcinogenesis by inhibiting DNA methylation and by interacting with retinoid metabolism.",
+      "target": "Alcohol-related carcinogenesis may interact with other factors such as smoking, diet and comorbidities, and depends on genetic susceptibility.",
+      "loss_target": 2.5736100673675537,
+      "loss_target_given_context": 1.848524808883667,
+      "delta_loss": 0.7250852584838867,
+      "gain_ratio": 0.2817385849075219,
+      "score": -0.2817385849075219,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

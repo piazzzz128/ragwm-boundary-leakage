@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3939",
+  "source_doc_id": "MED-3939",
+  "title": "Hospital Admissions for Traumatic Brain Injuries, 2004: Statistical Brief #27",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Hospital Admissions for Traumatic Brain Injuries, 2004: Statistical Brief #27\nExcerpt This Statistical Brief presents data from the Healthcare Cost and Utilization Project (HCUP) on the treatment of TBI in U.S. hospitals in 2004. Hospital utilization and costs for TBI admissions are compared with hospital stays for all other injuries. Additionally, trends in hospital stays for TBI and differences in the distribution of TBI admissions by various patient characteristics are examined. Finally, common causes of TBIs resulting in hospital admission, as well as the coexisting conditions often associated with these injuries, are described. All differences between estimates noted in the text are statistically significant at the 0.05 level or better.",
+  "sanitized_text": "Hospital Admissions for Traumatic Brain Injuries, 2004: Statistical Brief #27\nExcerpt This Statistical Brief presents data from the Healthcare Cost and Utilization Project (HCUP) on the treatment of TBI in U.S. hospitals in 2004. Hospital utilization and costs for TBI admissions are compared with hospital stays for all other injuries. Additionally, trends in hospital stays for TBI and differences in the distribution of TBI admissions by various patient characteristics are examined. Finally, common causes of TBIs resulting in hospital admission, as well as the coexisting conditions often associated with these injuries, are described. All differences between estimates noted in the text are statistically significant at the 0.05 level or better.",
+  "modified": false,
+  "original_char_count": 751,
+  "sanitized_char_count": 751,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 641,
+      "boundary_end": 751,
+      "context": "Hospital Admissions for Traumatic Brain Injuries, 2004: Statistical Brief #27 Excerpt This Statistical Brief presents data from the Healthcare Cost and Utilization Project (HCUP) on the treatment of TBI in U.S. hospitals in 2004. Hospital utilization and costs for TBI admissions are compared with hospital stays for all other injuries. Additionally, trends in hospital stays for TBI and differences in the distribution of TBI admissions by various patient characteristics are examined. Finally, common causes of TBIs resulting in hospital admission, as well as the coexisting conditions often associated with these injuries, are described.",
+      "target": "All differences between estimates noted in the text are statistically significant at the 0.05 level or better.",
+      "loss_target": 2.132875680923462,
+      "loss_target_given_context": 0.7010546922683716,
+      "delta_loss": 1.4318209886550903,
+      "gain_ratio": 0.6713101009408861,
+      "score": -0.6713101009408861,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

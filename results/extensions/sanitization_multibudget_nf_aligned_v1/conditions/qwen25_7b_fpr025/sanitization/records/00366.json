@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1454",
+  "source_doc_id": "MED-1454",
+  "title": "Substituting dietary saturated for monounsaturated fat impairs insulin sensitivity in healthy men and women: The KANWU Study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Substituting dietary saturated for monounsaturated fat impairs insulin sensitivity in healthy men and women: The KANWU Study.\nAIMS/HYPOTHESIS: The amount and quality of fat in the diet could be of importance for development of insulin resistance and related metabolic disorders. Our aim was to determine whether a change in dietary fat quality alone could alter insulin action in humans. METHODS: The KANWU study included 162 healthy subjects chosen at random to receive a controlled, isoenergetic diet for 3 months containing either a high proportion of saturated (SAFA diet) or monounsaturated (MUFA diet) fatty acids. Within each group there was a second assignment at random to supplements with fish oil (3.6 g n-3 fatty acids/d) or placebo. RESULTS: Insulin sensitivity was significantly impaired on the saturated fatty acid diet (-10%, p = 0.03) but did not change on the monounsaturated fatty acid diet (+2%, NS) (p = 0.05 for difference between diets). Insulin secretion was not affected. The addition of n-3 fatty acids influenced neither insulin sensitivity nor insulin secretion. The favourable effects of substituting a monounsaturated fatty acid diet for a saturated fatty acid diet on insulin sensitivity were only seen at a total fat intake below median (37E%). Here, insulin sensitivity was 12.5% lower and 8.8% higher on the saturated fatty acid diet and monounsaturated fatty acid diet respectively (p = 0.03). Low density lipoprotein cholesterol (LDL) increased on the saturated fatty acid diet (+4.1%, p < 0.01) but decreased on the monounsaturated fatty acid diet (MUFA) (-5.2, p < 0.001), whereas lipoprotein (a) [Lp(a)] increased on a monounsaturated fatty acid diet by 12% (p < 0.001). CONCLUSIONS/INTERPRETATION: A change of the proportions of dietary fatty acids, decreasing saturated fatty acid and increasing monounsaturated fatty acid, improves insulin sensitivity but has no effect on insulin secretion. A beneficial impact of the fat quality on insulin sensitivity is not seen in individuals with a high fat intake (> 37E%).",
+  "sanitized_text": "Substituting dietary saturated for monounsaturated fat impairs insulin sensitivity in healthy men and women: The KANWU Study.\nAIMS/HYPOTHESIS: The amount and quality of fat in the diet could be of importance for development of insulin resistance and related metabolic disorders. Our aim was to determine whether a change in dietary fat quality alone could alter insulin action in humans. METHODS: The KANWU study included 162 healthy subjects chosen at random to receive a controlled, isoenergetic diet for 3 months containing either a high proportion of saturated (SAFA diet) or monounsaturated (MUFA diet) fatty acids. Within each group there was a second assignment at random to supplements with fish oil (3.6 g n-3 fatty acids/d) or placebo. RESULTS: Insulin sensitivity was significantly impaired on the saturated fatty acid diet (-10%, p = 0.03) but did not change on the monounsaturated fatty acid diet (+2%, NS) (p = 0.05 for difference between diets). Insulin secretion was not affected. The addition of n-3 fatty acids influenced neither insulin sensitivity nor insulin secretion. The favourable effects of substituting a monounsaturated fatty acid diet for a saturated fatty acid diet on insulin sensitivity were only seen at a total fat intake below median (37E%). Here, insulin sensitivity was 12.5% lower and 8.8% higher on the saturated fatty acid diet and monounsaturated fatty acid diet respectively (p = 0.03). Low density lipoprotein cholesterol (LDL) increased on the saturated fatty acid diet (+4.1%, p < 0.01) but decreased on the monounsaturated fatty acid diet (MUFA) (-5.2, p < 0.001), whereas lipoprotein (a) [Lp(a)] increased on a monounsaturated fatty acid diet by 12% (p < 0.001). CONCLUSIONS/INTERPRETATION: A change of the proportions of dietary fatty acids, decreasing saturated fatty acid and increasing monounsaturated fatty acid, improves insulin sensitivity but has no effect on insulin secretion. A beneficial impact of the fat quality on insulin sensitivity is not seen in individuals with a high fat intake (> 37E%).",
+  "modified": false,
+  "original_char_count": 2055,
+  "sanitized_char_count": 2055,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1934,
+      "boundary_end": 2055,
+      "context": "or placebo. RESULTS: Insulin sensitivity was significantly impaired on the saturated fatty acid diet (-10%, p = 0.03) but did not change on the monounsaturated fatty acid diet (+2%, NS) (p = 0.05 for difference between diets). Insulin secretion was not affected. The addition of n-3 fatty acids influenced neither insulin sensitivity nor insulin secretion. The favourable effects of substituting a monounsaturated fatty acid diet for a saturated fatty acid diet on insulin sensitivity were only seen at a total fat intake below median (37E%). Here, insulin sensitivity was 12.5% lower and 8.8% higher on the saturated fatty acid diet and monounsaturated fatty acid diet respectively (p = 0.03). Low density lipoprotein cholesterol (LDL) increased on the saturated fatty acid diet (+4.1%, p < 0.01) but decreased on the monounsaturated fatty acid diet (MUFA) (-5.2, p < 0.001), whereas lipoprotein (a) [Lp(a)] increased on a monounsaturated fatty acid diet by 12% (p < 0.001). CONCLUSIONS/INTERPRETATION: A change of the proportions of dietary fatty acids, decreasing saturated fatty acid and increasing monounsaturated fatty acid, improves insulin sensitivity but has no effect on insulin secretion.",
+      "target": "A beneficial impact of the fat quality on insulin sensitivity is not seen in individuals with a high fat intake (> 37E%).",
+      "loss_target": 3.7585647106170654,
+      "loss_target_given_context": 1.6764472723007202,
+      "delta_loss": 2.082117438316345,
+      "gain_ratio": 0.5539661010584309,
+      "score": -0.5539661010584309,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

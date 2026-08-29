@@ -1,0 +1,58 @@
+{
+  "input": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_length_ablation_qwen2_5_7b_aligned_scores.json",
+  "filters": {
+    "dataset": "NFCorpus",
+    "construction": null,
+    "model": null,
+    "context_budget": "full",
+    "attack": null,
+    "variant": null,
+    "score_field": "gain_anomaly_score"
+  },
+  "n": 446,
+  "positive": 223,
+  "negative": 223,
+  "score_orientation": "higher score = more likely injected/anomalous",
+  "bootstrap": {
+    "n_boot": 5000,
+    "seed": 20260609,
+    "sampling": "stratified bootstrap over positive and negative classes"
+  },
+  "metrics": {
+    "roc_auc": {
+      "point": 0.9904482294033663,
+      "ci95": [
+        0.9839324136821571,
+        0.9954156528383841
+      ]
+    },
+    "pr_auc": {
+      "point": 0.9908515114471889,
+      "ci95": [
+        0.9848478543919388,
+        0.995541414590545
+      ]
+    },
+    "tpr_at_fpr_5": {
+      "point": 0.9461883408071748,
+      "ci95": [
+        0.8968609865470852,
+        0.9820627802690582
+      ]
+    },
+    "tpr_at_fpr_10": {
+      "point": 0.968609865470852,
+      "ci95": [
+        0.9417040358744395,
+        0.9955156950672646
+      ]
+    },
+    "best_f1": {
+      "point": 0.9513274336283186,
+      "ci95": [
+        0.9348314606741573,
+        0.972972972972973
+      ]
+    }
+  }
+}

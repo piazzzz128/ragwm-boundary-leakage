@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4168",
+  "source_doc_id": "MED-4168",
+  "title": "Influence of a five-day vegetarian diet on urinary levels of antibiotics and phthalate metabolites: a pilot study with \"Temple Stay\" participants.",
+  "original_text": "Influence of a five-day vegetarian diet on urinary levels of antibiotics and phthalate metabolites: a pilot study with \"Temple Stay\" participants.\nDiet is purported to be means of exposure to many environmental contaminants. The purpose of this study is to understand the influence of dietary change on the levels of exposure to several environmental chemicals - in particular, antibiotics and phthalates. For this purpose, we examined the extent to which short-term changes in diet influenced the inadvertent exposure levels to these chemicals in an adult population. We recruited participants (n=25) of a five-day 'Temple Stay' program in Korea and collected urine samples before and after the program. We also conducted a questionnaire survey on participants' dietary patterns prior to their participation. During the program, participants followed the daily routines of Buddhist monks and maintained a vegetarian diet. Urinary levels of three antibiotics and their major metabolites, metabolites of four major phthalates, and malondialdehyde (MDA) as an oxidative stress biomarker were analyzed. The frequency and levels of detection for antibiotics and phthalates noticeably decreased during the program. Urinary MDA levels were significantly lower than before program participation (0.16 versus 0.27mg/g creatinine). Although the exposure to target compounds might be influenced by other behavioral patterns, these results suggest that even short-term changes in dietary behavior may significantly decrease inadvertent exposure to antibiotics and phthalates and hence may reduce oxidative stress levels. Copyright 2010 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Influence of a five-day vegetarian diet on urinary levels of antibiotics and phthalate metabolites: a pilot study with \"Temple Stay\" participants.\nDiet is purported to be means of exposure to many environmental contaminants. The purpose of this study is to understand the influence of dietary change on the levels of exposure to several environmental chemicals - in particular, antibiotics and phthalates. For this purpose, we examined the extent to which short-term changes in diet influenced the inadvertent exposure levels to these chemicals in an adult population. We recruited participants (n=25) of a five-day 'Temple Stay' program in Korea and collected urine samples before and after the program. We also conducted a questionnaire survey on participants' dietary patterns prior to their participation. During the program, participants followed the daily routines of Buddhist monks and maintained a vegetarian diet. Urinary levels of three antibiotics and their major metabolites, metabolites of four major phthalates, and malondialdehyde (MDA) as an oxidative stress biomarker were analyzed. The frequency and levels of detection for antibiotics and phthalates noticeably decreased during the program. Urinary MDA levels were significantly lower than before program participation (0.16 versus 0.27mg/g creatinine). Although the exposure to target compounds might be influenced by other behavioral patterns, these results suggest that even short-term changes in dietary behavior may significantly decrease inadvertent exposure to antibiotics and phthalates and hence may reduce oxidative stress levels.",
+  "modified": true,
+  "original_char_count": 1659,
+  "sanitized_char_count": 1609,
+  "deleted_char_count": 50,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1610,
+      "boundary_end": 1638,
+      "context": "this purpose, we examined the extent to which short-term changes in diet influenced the inadvertent exposure levels to these chemicals in an adult population. We recruited participants (n=25) of a five-day 'Temple Stay' program in Korea and collected urine samples before and after the program. We also conducted a questionnaire survey on participants' dietary patterns prior to their participation. During the program, participants followed the daily routines of Buddhist monks and maintained a vegetarian diet. Urinary levels of three antibiotics and their major metabolites, metabolites of four major phthalates, and malondialdehyde (MDA) as an oxidative stress biomarker were analyzed. The frequency and levels of detection for antibiotics and phthalates noticeably decreased during the program. Urinary MDA levels were significantly lower than before program participation (0.16 versus 0.27mg/g creatinine). Although the exposure to target compounds might be influenced by other behavioral patterns, these results suggest that even short-term changes in dietary behavior may significantly decrease inadvertent exposure to antibiotics and phthalates and hence may reduce oxidative stress levels.",
+      "target": "Copyright 2010 Elsevier Inc.",
+      "loss_target": 1.416924238204956,
+      "loss_target_given_context": 2.073183298110962,
+      "delta_loss": -0.6562590599060059,
+      "gain_ratio": -0.4631574802738881,
+      "score": 0.4631574802738881,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1323,
+      "boundary_end": 1609,
+      "context": "Stay\" participants. Diet is purported to be means of exposure to many environmental contaminants. The purpose of this study is to understand the influence of dietary change on the levels of exposure to several environmental chemicals - in particular, antibiotics and phthalates. For this purpose, we examined the extent to which short-term changes in diet influenced the inadvertent exposure levels to these chemicals in an adult population. We recruited participants (n=25) of a five-day 'Temple Stay' program in Korea and collected urine samples before and after the program. We also conducted a questionnaire survey on participants' dietary patterns prior to their participation. During the program, participants followed the daily routines of Buddhist monks and maintained a vegetarian diet. Urinary levels of three antibiotics and their major metabolites, metabolites of four major phthalates, and malondialdehyde (MDA) as an oxidative stress biomarker were analyzed. The frequency and levels of detection for antibiotics and phthalates noticeably decreased during the program. Urinary MDA levels were significantly lower than before program participation (0.16 versus 0.27mg/g creatinine).",
+      "target": "Although the exposure to target compounds might be influenced by other behavioral patterns, these results suggest that even short-term changes in dietary behavior may significantly decrease inadvertent exposure to antibiotics and phthalates and hence may reduce oxidative stress levels.",
+      "loss_target": 3.3878700733184814,
+      "loss_target_given_context": 2.138655424118042,
+      "delta_loss": 1.2492146492004395,
+      "gain_ratio": 0.368731569442039,
+      "score": -0.368731569442039,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1610,
+      "target": "Copyright 2010 Elsevier Inc.",
+      "score": 0.4631574802738881,
+      "deleted_suffix": "Copyright 2010 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 49
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

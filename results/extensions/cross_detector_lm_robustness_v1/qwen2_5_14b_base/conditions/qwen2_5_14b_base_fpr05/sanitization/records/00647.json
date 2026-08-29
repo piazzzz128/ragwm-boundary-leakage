@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1776",
+  "source_doc_id": "MED-1776",
+  "title": "Semen quality trends in French regions are consistent with a global change in environmental exposure.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Semen quality trends in French regions are consistent with a global change in environmental exposure.\nA retrospective study carried out recently in a large sample of men, close to the general population, has reported a significant and strong decline in sperm concentration and morphology in the whole of France between 1989 and 2005. We studied these trends within each region of France. Data were obtained from the Fivnat database. The study sample comprised male partners of sterile women in whom both tubes were absent or blocked. They were located at the assisted reproductive technology center. A Bayesian spatio-temporal model with parametric time trends, adjusted for age, was used to model overall time trends for each region. The results show that sperm concentration decreased in almost all regions of France. Among them, Aquitaine showed the highest decrease and Midi-Pyrénées had the lowest average for the whole period. Regarding total motility, most regions showed a slight increase while Bourgogne showed a steep and significant decrease. While considering sperm morphology, there was a decrease in most of the regions. The decrease in Aquitaine and Midi-Pyrénées was stronger when compared with the overall trend. In conclusion, a decrease in sperm concentration and morphology, already shown at the French metropolitan territory level, was observed in most regions of France. This is consistent with a global change in environmental exposure, according to the endocrine disruptor hypothesis especially. Indeed, ubiquitary exposure to chemicals has been growing in the general population of France since the 1950s, and the results do not appear to support the lifestyle hypothesis. The highest decreases and lowest values are consistently observed in two proximate regions that are both highly agricultural and densely populated.",
+  "sanitized_text": "Semen quality trends in French regions are consistent with a global change in environmental exposure.\nA retrospective study carried out recently in a large sample of men, close to the general population, has reported a significant and strong decline in sperm concentration and morphology in the whole of France between 1989 and 2005. We studied these trends within each region of France. Data were obtained from the Fivnat database. The study sample comprised male partners of sterile women in whom both tubes were absent or blocked. They were located at the assisted reproductive technology center. A Bayesian spatio-temporal model with parametric time trends, adjusted for age, was used to model overall time trends for each region. The results show that sperm concentration decreased in almost all regions of France. Among them, Aquitaine showed the highest decrease and Midi-Pyrénées had the lowest average for the whole period. Regarding total motility, most regions showed a slight increase while Bourgogne showed a steep and significant decrease. While considering sperm morphology, there was a decrease in most of the regions. The decrease in Aquitaine and Midi-Pyrénées was stronger when compared with the overall trend. In conclusion, a decrease in sperm concentration and morphology, already shown at the French metropolitan territory level, was observed in most regions of France. This is consistent with a global change in environmental exposure, according to the endocrine disruptor hypothesis especially. Indeed, ubiquitary exposure to chemicals has been growing in the general population of France since the 1950s, and the results do not appear to support the lifestyle hypothesis. The highest decreases and lowest values are consistently observed in two proximate regions that are both highly agricultural and densely populated.",
+  "modified": false,
+  "original_char_count": 1845,
+  "sanitized_char_count": 1845,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1698,
+      "boundary_end": 1845,
+      "context": "both tubes were absent or blocked. They were located at the assisted reproductive technology center. A Bayesian spatio-temporal model with parametric time trends, adjusted for age, was used to model overall time trends for each region. The results show that sperm concentration decreased in almost all regions of France. Among them, Aquitaine showed the highest decrease and Midi-Pyrénées had the lowest average for the whole period. Regarding total motility, most regions showed a slight increase while Bourgogne showed a steep and significant decrease. While considering sperm morphology, there was a decrease in most of the regions. The decrease in Aquitaine and Midi-Pyrénées was stronger when compared with the overall trend. In conclusion, a decrease in sperm concentration and morphology, already shown at the French metropolitan territory level, was observed in most regions of France. This is consistent with a global change in environmental exposure, according to the endocrine disruptor hypothesis especially. Indeed, ubiquitary exposure to chemicals has been growing in the general population of France since the 1950s, and the results do not appear to support the lifestyle hypothesis.",
+      "target": "The highest decreases and lowest values are consistently observed in two proximate regions that are both highly agricultural and densely populated.",
+      "loss_target": 4.580752372741699,
+      "loss_target_given_context": 2.9739980697631836,
+      "delta_loss": 1.6067543029785156,
+      "gain_ratio": 0.3507620958818238,
+      "score": -0.3507620958818238,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

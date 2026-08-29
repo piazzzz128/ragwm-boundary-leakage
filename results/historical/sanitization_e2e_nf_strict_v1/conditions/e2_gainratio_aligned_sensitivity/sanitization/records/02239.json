@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3978",
+  "source_doc_id": "MED-3978",
+  "title": "Does dog or cat ownership lead to increased gastroenteritis in young children in South Australia?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Does dog or cat ownership lead to increased gastroenteritis in young children in South Australia?\nSUMMARY The aim of this study was to investigate the relationship between dog and cat ownership and gastroenteritis in young children. A diary study of 965 children aged 4–6 years living in rural or semi-rural South Australia was undertaken. Data were collected on pet ownership, drinking water and other risk factors for gastroenteritis. Overall 89% of households had pets and dog ownership was more common than cat ownership. The multivariable models for gastroenteritis and pet ownership indicated that living in a household with a dog or cat was associated with a reduced risk of gastroenteritis (adj. OR 0·71, 95% CI 0·55–0·92; OR 0·70, % CI 0·51–0·97 respectively). This paper adds to the evidence that pets are not a major source of gastroenteritis in the home and lends support to the health benefits of pet ownership. However, this must be weighed against the potential negative consequences, such as dog bites, particularly for this age group.",
+  "sanitized_text": "Does dog or cat ownership lead to increased gastroenteritis in young children in South Australia?\nSUMMARY The aim of this study was to investigate the relationship between dog and cat ownership and gastroenteritis in young children. A diary study of 965 children aged 4–6 years living in rural or semi-rural South Australia was undertaken. Data were collected on pet ownership, drinking water and other risk factors for gastroenteritis. Overall 89% of households had pets and dog ownership was more common than cat ownership. The multivariable models for gastroenteritis and pet ownership indicated that living in a household with a dog or cat was associated with a reduced risk of gastroenteritis (adj. OR 0·71, 95% CI 0·55–0·92; OR 0·70, % CI 0·51–0·97 respectively). This paper adds to the evidence that pets are not a major source of gastroenteritis in the home and lends support to the health benefits of pet ownership. However, this must be weighed against the potential negative consequences, such as dog bites, particularly for this age group.",
+  "modified": false,
+  "original_char_count": 1051,
+  "sanitized_char_count": 1051,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 925,
+      "boundary_end": 1051,
+      "context": "Does dog or cat ownership lead to increased gastroenteritis in young children in South Australia? SUMMARY The aim of this study was to investigate the relationship between dog and cat ownership and gastroenteritis in young children. A diary study of 965 children aged 4–6 years living in rural or semi-rural South Australia was undertaken. Data were collected on pet ownership, drinking water and other risk factors for gastroenteritis. Overall 89% of households had pets and dog ownership was more common than cat ownership. The multivariable models for gastroenteritis and pet ownership indicated that living in a household with a dog or cat was associated with a reduced risk of gastroenteritis (adj. OR 0·71, 95% CI 0·55–0·92; OR 0·70, % CI 0·51–0·97 respectively). This paper adds to the evidence that pets are not a major source of gastroenteritis in the home and lends support to the health benefits of pet ownership.",
+      "target": "However, this must be weighed against the potential negative consequences, such as dog bites, particularly for this age group.",
+      "loss_target": 2.8977224826812744,
+      "loss_target_given_context": 1.923505425453186,
+      "delta_loss": 0.9742170572280884,
+      "gain_ratio": 0.33620095197199196,
+      "score": -0.33620095197199196,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

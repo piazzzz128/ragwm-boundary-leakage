@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1579",
+  "source_doc_id": "MED-1579",
+  "title": "Crohn's disease: a review of treatment options and current research.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Crohn's disease: a review of treatment options and current research.\nCrohn's disease is an autoimmune disorder that affects nearly 1.4 million Americans. The etiology of Crohn's disease is not completely understood, however, research has suggested a genetic link. There is currently no known cure for Crohn's disease and, as a result, most government-funded research is being conducted to increase the quality of life of afflicted patients (i.e. reducing chronic inflammation and alleviating growth impairment in pediatric patients). A number of treatment options are available including an alpha-4 integrin inhibitor and several TNF-alpha inhibitors. Furthermore, research is being conducted on several alternative treatment options to help understand exactly which cellular mechanisms (i.e. inducing apoptosis in leukocytes) are required for clinical efficacy. This review seeks to chronicle the current available treatment options for patients affected by Crohn's disease to aid in understanding potential cellular mechanistic requirements for an efficacious drug, and shed light on potential options for future treatment. Crown Copyright © 2013. Published by Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Crohn's disease: a review of treatment options and current research.\nCrohn's disease is an autoimmune disorder that affects nearly 1.4 million Americans. The etiology of Crohn's disease is not completely understood, however, research has suggested a genetic link. There is currently no known cure for Crohn's disease and, as a result, most government-funded research is being conducted to increase the quality of life of afflicted patients (i.e. reducing chronic inflammation and alleviating growth impairment in pediatric patients). A number of treatment options are available including an alpha-4 integrin inhibitor and several TNF-alpha inhibitors. Furthermore, research is being conducted on several alternative treatment options to help understand exactly which cellular mechanisms (i.e. inducing apoptosis in leukocytes) are required for clinical efficacy. This review seeks to chronicle the current available treatment options for patients affected by Crohn's disease to aid in understanding potential cellular mechanistic requirements for an efficacious drug, and shed light on potential options for future treatment. Crown Copyright © 2013. Published by Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1197,
+  "sanitized_char_count": 1197,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1150,
+      "boundary_end": 1176,
+      "context": "Crohn's disease: a review of treatment options and current research. Crohn's disease is an autoimmune disorder that affects nearly 1.4 million Americans. The etiology of Crohn's disease is not completely understood, however, research has suggested a genetic link. There is currently no known cure for Crohn's disease and, as a result, most government-funded research is being conducted to increase the quality of life of afflicted patients (i.e. reducing chronic inflammation and alleviating growth impairment in pediatric patients). A number of treatment options are available including an alpha-4 integrin inhibitor and several TNF-alpha inhibitors. Furthermore, research is being conducted on several alternative treatment options to help understand exactly which cellular mechanisms (i.e. inducing apoptosis in leukocytes) are required for clinical efficacy. This review seeks to chronicle the current available treatment options for patients affected by Crohn's disease to aid in understanding potential cellular mechanistic requirements for an efficacious drug, and shed light on potential options for future treatment. Crown Copyright © 2013.",
+      "target": "Published by Elsevier Inc.",
+      "loss_target": 2.3177590370178223,
+      "loss_target_given_context": 0.2725914716720581,
+      "delta_loss": 2.045167565345764,
+      "gain_ratio": 0.8823900727735736,
+      "score": -0.8823900727735736,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-734",
+  "source_doc_id": "MED-734",
+  "title": "Susceptibility of the domestic duck (Anas platyrhynchos) to experimental infection with Toxoplasma gondii oocysts.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Susceptibility of the domestic duck (Anas platyrhynchos) to experimental infection with Toxoplasma gondii oocysts.\nA total of 28 domestic ducks were divided into seven groups of four ducks. Six groups were inoculated per os with 10(1), 10(2), 10(3), 10(4), 10(5) and 10(5.7) oocysts Toxoplasma gondii oocysts (K21 strain, which is avirulent for mice), and the remaining group was used as a control. Antibodies to T. gondii were detected in all ducks by the indirect fluorescence antibody test first on day 7 post-inoculation (p.i.). Antibody titres were found in the range of 1:20 to 1:640 depending on the infectious dose of the oocysts. From day 14 p.i. antibody titres increased to 1:80 to 1:20 480. Between days 14 and 28 p.i. (end of the experiment), antibody titres decreased in 14 ducks, remained the same in seven ducks, and continued to increase in three ducks. Bioassay in mice revealed T. gondii in the breast and leg muscles and the heart (100%, n=47), brain (91%, n=22), liver (54%, n=13) and stomach (46%, n=24). The infected ducks showed no clinical signs; however, the results of bioassay indicate that, compared with some gallinaceous birds, domestic ducks were relatively susceptible to T. gondii infection.",
+  "sanitized_text": "Susceptibility of the domestic duck (Anas platyrhynchos) to experimental infection with Toxoplasma gondii oocysts.\nA total of 28 domestic ducks were divided into seven groups of four ducks. Six groups were inoculated per os with 10(1), 10(2), 10(3), 10(4), 10(5) and 10(5.7) oocysts Toxoplasma gondii oocysts (K21 strain, which is avirulent for mice), and the remaining group was used as a control. Antibodies to T. gondii were detected in all ducks by the indirect fluorescence antibody test first on day 7 post-inoculation (p.i.). Antibody titres were found in the range of 1:20 to 1:640 depending on the infectious dose of the oocysts. From day 14 p.i. antibody titres increased to 1:80 to 1:20 480. Between days 14 and 28 p.i. (end of the experiment), antibody titres decreased in 14 ducks, remained the same in seven ducks, and continued to increase in three ducks. Bioassay in mice revealed T. gondii in the breast and leg muscles and the heart (100%, n=47), brain (91%, n=22), liver (54%, n=13) and stomach (46%, n=24). The infected ducks showed no clinical signs; however, the results of bioassay indicate that, compared with some gallinaceous birds, domestic ducks were relatively susceptible to T. gondii infection.",
+  "modified": false,
+  "original_char_count": 1225,
+  "sanitized_char_count": 1225,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1027,
+      "boundary_end": 1207,
+      "context": "Susceptibility of the domestic duck (Anas platyrhynchos) to experimental infection with Toxoplasma gondii oocysts. A total of 28 domestic ducks were divided into seven groups of four ducks. Six groups were inoculated per os with 10(1), 10(2), 10(3), 10(4), 10(5) and 10(5.7) oocysts Toxoplasma gondii oocysts (K21 strain, which is avirulent for mice), and the remaining group was used as a control. Antibodies to T. gondii were detected in all ducks by the indirect fluorescence antibody test first on day 7 post-inoculation (p.i.). Antibody titres were found in the range of 1:20 to 1:640 depending on the infectious dose of the oocysts. From day 14 p.i. antibody titres increased to 1:80 to 1:20 480. Between days 14 and 28 p.i. (end of the experiment), antibody titres decreased in 14 ducks, remained the same in seven ducks, and continued to increase in three ducks. Bioassay in mice revealed T. gondii in the breast and leg muscles and the heart (100%, n=47), brain (91%, n=22), liver (54%, n=13) and stomach (46%, n=24).",
+      "target": "The infected ducks showed no clinical signs; however, the results of bioassay indicate that, compared with some gallinaceous birds, domestic ducks were relatively susceptible to T.",
+      "loss_target": 3.044910192489624,
+      "loss_target_given_context": 1.9769338369369507,
+      "delta_loss": 1.0679763555526733,
+      "gain_ratio": 0.35074149582042646,
+      "score": -0.35074149582042646,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

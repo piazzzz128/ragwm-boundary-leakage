@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3583",
+  "source_doc_id": "MED-3583",
+  "title": "First and second meal effects of pulses on blood glucose, appetite, and food intake at a later meal.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "First and second meal effects of pulses on blood glucose, appetite, and food intake at a later meal.\nPulses are low-glycemic appetite-suppressing foods, but it is not known whether these properties persist after being consumed as part of a meal and after a second meal. The objective of this study was to determine the effects of a fixed-size pulse meal on appetite and blood glucose (BG) before and after an ad libitum test meal (pizza) and on food intake (FI) at the test meal. Males (n = 25; 21.3 ± 0.5 years; 21.6 ± 0.3 kg·m(-2)) randomly consumed 4 isocaloric meals: chickpea; lentil; yellow split pea; and macaroni and cheese (control). Commercially available canned pulses provided 250 kcal, and were consumed with macaroni and tomato sauce. FI was measured at a pizza meal 260 min after consumption of the isocaloric meal. BG and appetite were measured from 0 to 340 min. The lentil and yellow pea, but not chickpea, treatments led to lower appetite ratings during the 260 min prepizza meal period, and less FI at the pizza meal, compared with macaroni and cheese (p < 0.05). All pulse treatments lowered BG immediately following consumption (at 20 min) (p < 0.05), but there was no effect of treatment on prepizza meal BG AUC (p = 0.07). Immediately after the pizza meal, BG was lower following the chickpea and lentil treatments, but not the yellow pea treatment (p < 0.05). Postpizza meal BG AUC was lower following the chickpea and lentil treatments than in the yellow pea treatment (p < 0.05). The beneficial effects of consuming a pulse meal on appetite, FI at a later meal, and the BG response to a later meal are dependent on pulse type.",
+  "sanitized_text": "First and second meal effects of pulses on blood glucose, appetite, and food intake at a later meal.\nPulses are low-glycemic appetite-suppressing foods, but it is not known whether these properties persist after being consumed as part of a meal and after a second meal. The objective of this study was to determine the effects of a fixed-size pulse meal on appetite and blood glucose (BG) before and after an ad libitum test meal (pizza) and on food intake (FI) at the test meal. Males (n = 25; 21.3 ± 0.5 years; 21.6 ± 0.3 kg·m(-2)) randomly consumed 4 isocaloric meals: chickpea; lentil; yellow split pea; and macaroni and cheese (control). Commercially available canned pulses provided 250 kcal, and were consumed with macaroni and tomato sauce. FI was measured at a pizza meal 260 min after consumption of the isocaloric meal. BG and appetite were measured from 0 to 340 min. The lentil and yellow pea, but not chickpea, treatments led to lower appetite ratings during the 260 min prepizza meal period, and less FI at the pizza meal, compared with macaroni and cheese (p < 0.05). All pulse treatments lowered BG immediately following consumption (at 20 min) (p < 0.05), but there was no effect of treatment on prepizza meal BG AUC (p = 0.07). Immediately after the pizza meal, BG was lower following the chickpea and lentil treatments, but not the yellow pea treatment (p < 0.05). Postpizza meal BG AUC was lower following the chickpea and lentil treatments than in the yellow pea treatment (p < 0.05). The beneficial effects of consuming a pulse meal on appetite, FI at a later meal, and the BG response to a later meal are dependent on pulse type.",
+  "modified": false,
+  "original_char_count": 1653,
+  "sanitized_char_count": 1653,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1507,
+      "boundary_end": 1653,
+      "context": "the effects of a fixed-size pulse meal on appetite and blood glucose (BG) before and after an ad libitum test meal (pizza) and on food intake (FI) at the test meal. Males (n = 25; 21.3 ± 0.5 years; 21.6 ± 0.3 kg·m(-2)) randomly consumed 4 isocaloric meals: chickpea; lentil; yellow split pea; and macaroni and cheese (control). Commercially available canned pulses provided 250 kcal, and were consumed with macaroni and tomato sauce. FI was measured at a pizza meal 260 min after consumption of the isocaloric meal. BG and appetite were measured from 0 to 340 min. The lentil and yellow pea, but not chickpea, treatments led to lower appetite ratings during the 260 min prepizza meal period, and less FI at the pizza meal, compared with macaroni and cheese (p < 0.05). All pulse treatments lowered BG immediately following consumption (at 20 min) (p < 0.05), but there was no effect of treatment on prepizza meal BG AUC (p = 0.07). Immediately after the pizza meal, BG was lower following the chickpea and lentil treatments, but not the yellow pea treatment (p < 0.05). Postpizza meal BG AUC was lower following the chickpea and lentil treatments than in the yellow pea treatment (p < 0.05).",
+      "target": "The beneficial effects of consuming a pulse meal on appetite, FI at a later meal, and the BG response to a later meal are dependent on pulse type.",
+      "loss_target": 3.6435601711273193,
+      "loss_target_given_context": 1.8446630239486694,
+      "delta_loss": 1.79889714717865,
+      "gain_ratio": 0.49371962110950135,
+      "score": -0.49371962110950135,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

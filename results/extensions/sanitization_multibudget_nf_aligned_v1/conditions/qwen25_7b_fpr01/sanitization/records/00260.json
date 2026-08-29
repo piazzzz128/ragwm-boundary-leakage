@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1327",
+  "source_doc_id": "MED-1327",
+  "title": "Greater whole-grain intake is associated with lower risk of type 2 diabetes, cardiovascular disease, and weight gain.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Greater whole-grain intake is associated with lower risk of type 2 diabetes, cardiovascular disease, and weight gain.\nWhole-grain and high fiber intakes are routinely recommended for prevention of vascular diseases; however, there are no comprehensive and quantitative assessments of available data in humans. The aim of this study was to systematically examine longitudinal studies investigating whole-grain and fiber intake in relation to risk of type 2 diabetes (T2D), cardiovascular disease (CVD), weight gain, and metabolic risk factors. We identified 45 prospective cohort studies and 21 randomized-controlled trials (RCT) between 1966 and February 2012 by searching the Cumulative Index to Nursing and Allied Health Literature, Cochrane, Elsevier Medical Database, and PubMed. Study characteristics, whole-grain and dietary fiber intakes, and risk estimates were extracted using a standardized protocol. Using random effects models, we found that compared with never/rare consumers of whole grains, those consuming 48-80 g whole grain/d (3-5 serving/d) had an ~26% lower risk of T2D [RR = 0.74 (95% CI: 0.69, 0.80)], ~21% lower risk of CVD [RR = 0.79 (95% CI: 0.74, 0.85)], and consistently less weight gain during 8-13 y (1.27 vs 1.64 kg; P = 0.001). Among RCT, weighted mean differences in post-intervention circulating concentrations of fasting glucose and total and LDL-cholesterol comparing whole-grain intervention groups with controls indicated significantly lower concentrations after whole-grain interventions [differences in fasting glucose: -0.93 mmol/L (95% CI: -1.65, -0.21), total cholesterol: -0.83 mmol/L (-1.23, -0.42); and LDL-cholesterol: -0.82 mmol/L (-1.31, -0.33)]. [corrected] Findings from this meta-analysis provide evidence to support beneficial effects of whole-grain intake on vascular disease prevention. Potential mechanisms responsible for whole grains' effects on metabolic intermediates require further investigation in large intervention trials.",
+  "sanitized_text": "Greater whole-grain intake is associated with lower risk of type 2 diabetes, cardiovascular disease, and weight gain.\nWhole-grain and high fiber intakes are routinely recommended for prevention of vascular diseases; however, there are no comprehensive and quantitative assessments of available data in humans. The aim of this study was to systematically examine longitudinal studies investigating whole-grain and fiber intake in relation to risk of type 2 diabetes (T2D), cardiovascular disease (CVD), weight gain, and metabolic risk factors. We identified 45 prospective cohort studies and 21 randomized-controlled trials (RCT) between 1966 and February 2012 by searching the Cumulative Index to Nursing and Allied Health Literature, Cochrane, Elsevier Medical Database, and PubMed. Study characteristics, whole-grain and dietary fiber intakes, and risk estimates were extracted using a standardized protocol. Using random effects models, we found that compared with never/rare consumers of whole grains, those consuming 48-80 g whole grain/d (3-5 serving/d) had an ~26% lower risk of T2D [RR = 0.74 (95% CI: 0.69, 0.80)], ~21% lower risk of CVD [RR = 0.79 (95% CI: 0.74, 0.85)], and consistently less weight gain during 8-13 y (1.27 vs 1.64 kg; P = 0.001). Among RCT, weighted mean differences in post-intervention circulating concentrations of fasting glucose and total and LDL-cholesterol comparing whole-grain intervention groups with controls indicated significantly lower concentrations after whole-grain interventions [differences in fasting glucose: -0.93 mmol/L (95% CI: -1.65, -0.21), total cholesterol: -0.83 mmol/L (-1.23, -0.42); and LDL-cholesterol: -0.82 mmol/L (-1.31, -0.33)]. [corrected] Findings from this meta-analysis provide evidence to support beneficial effects of whole-grain intake on vascular disease prevention. Potential mechanisms responsible for whole grains' effects on metabolic intermediates require further investigation in large intervention trials.",
+  "modified": false,
+  "original_char_count": 1986,
+  "sanitized_char_count": 1986,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1841,
+      "boundary_end": 1986,
+      "context": "and February 2012 by searching the Cumulative Index to Nursing and Allied Health Literature, Cochrane, Elsevier Medical Database, and PubMed. Study characteristics, whole-grain and dietary fiber intakes, and risk estimates were extracted using a standardized protocol. Using random effects models, we found that compared with never/rare consumers of whole grains, those consuming 48-80 g whole grain/d (3-5 serving/d) had an ~26% lower risk of T2D [RR = 0.74 (95% CI: 0.69, 0.80)], ~21% lower risk of CVD [RR = 0.79 (95% CI: 0.74, 0.85)], and consistently less weight gain during 8-13 y (1.27 vs 1.64 kg; P = 0.001). Among RCT, weighted mean differences in post-intervention circulating concentrations of fasting glucose and total and LDL-cholesterol comparing whole-grain intervention groups with controls indicated significantly lower concentrations after whole-grain interventions [differences in fasting glucose: -0.93 mmol/L (95% CI: -1.65, -0.21), total cholesterol: -0.83 mmol/L (-1.23, -0.42); and LDL-cholesterol: -0.82 mmol/L (-1.31, -0.33)]. [corrected] Findings from this meta-analysis provide evidence to support beneficial effects of whole-grain intake on vascular disease prevention.",
+      "target": "Potential mechanisms responsible for whole grains' effects on metabolic intermediates require further investigation in large intervention trials.",
+      "loss_target": 3.9488632678985596,
+      "loss_target_given_context": 2.605400562286377,
+      "delta_loss": 1.3434627056121826,
+      "gain_ratio": 0.3402150478426477,
+      "score": -0.3402150478426477,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

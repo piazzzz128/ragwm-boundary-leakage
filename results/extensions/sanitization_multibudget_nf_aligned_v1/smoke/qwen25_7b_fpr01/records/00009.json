@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1009",
+  "source_doc_id": "MED-1009",
+  "title": "The effect of enteric-coated, delayed-release peppermint oil on irritable bowel syndrome.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The effect of enteric-coated, delayed-release peppermint oil on irritable bowel syndrome.\nHerbal remedies, particularly peppermint, have been reported to be helpful in controlling symptoms of irritable bowel syndrome (IBS). We conducted a randomized double-blind placebo-controlled study on 90 outpatients with IBS. Subjects took one capsule of enteric-coated, delayed-release peppermint oil (Colpermin) or placebo three times daily for 8 weeks. We visited patients after the first, fourth, and eighth weeks and evaluated their symptoms and quality of life. The number of subjects free from abdominal pain or discomfort changed from 0 at week 0 to 14 at week 8 in the Colpermin group and from 0 to 6 in controls (P < 0.001). The severity of abdominal pain was also reduced significantly in the Colpermin group as compared to controls. Furthermore, Colpermin significantly improved the quality of life. There was no significant adverse reaction. Colpermin is effective and safe as a therapeutic agent in patients with IBS suffering from abdominal pain or discomfort.",
+  "sanitized_text": "The effect of enteric-coated, delayed-release peppermint oil on irritable bowel syndrome.\nHerbal remedies, particularly peppermint, have been reported to be helpful in controlling symptoms of irritable bowel syndrome (IBS). We conducted a randomized double-blind placebo-controlled study on 90 outpatients with IBS. Subjects took one capsule of enteric-coated, delayed-release peppermint oil (Colpermin) or placebo three times daily for 8 weeks. We visited patients after the first, fourth, and eighth weeks and evaluated their symptoms and quality of life. The number of subjects free from abdominal pain or discomfort changed from 0 at week 0 to 14 at week 8 in the Colpermin group and from 0 to 6 in controls (P < 0.001). The severity of abdominal pain was also reduced significantly in the Colpermin group as compared to controls. Furthermore, Colpermin significantly improved the quality of life. There was no significant adverse reaction. Colpermin is effective and safe as a therapeutic agent in patients with IBS suffering from abdominal pain or discomfort.",
+  "modified": false,
+  "original_char_count": 1065,
+  "sanitized_char_count": 1065,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 945,
+      "boundary_end": 1065,
+      "context": "The effect of enteric-coated, delayed-release peppermint oil on irritable bowel syndrome. Herbal remedies, particularly peppermint, have been reported to be helpful in controlling symptoms of irritable bowel syndrome (IBS). We conducted a randomized double-blind placebo-controlled study on 90 outpatients with IBS. Subjects took one capsule of enteric-coated, delayed-release peppermint oil (Colpermin) or placebo three times daily for 8 weeks. We visited patients after the first, fourth, and eighth weeks and evaluated their symptoms and quality of life. The number of subjects free from abdominal pain or discomfort changed from 0 at week 0 to 14 at week 8 in the Colpermin group and from 0 to 6 in controls (P < 0.001). The severity of abdominal pain was also reduced significantly in the Colpermin group as compared to controls. Furthermore, Colpermin significantly improved the quality of life. There was no significant adverse reaction.",
+      "target": "Colpermin is effective and safe as a therapeutic agent in patients with IBS suffering from abdominal pain or discomfort.",
+      "loss_target": 3.1032395362854004,
+      "loss_target_given_context": 1.210813045501709,
+      "delta_loss": 1.8924264907836914,
+      "gain_ratio": 0.6098228862632175,
+      "score": -0.6098228862632175,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

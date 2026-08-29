@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2122",
+  "source_doc_id": "MED-2122",
+  "title": "Metabolic disorders and breast cancer risk (United States).",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Metabolic disorders and breast cancer risk (United States).\nOBJECTIVE: To clarify the hormonal context of breast cancer etiology we used data from a large, population-based case-control study to investigate the relationship between breast cancer risk and a history of diabetes mellitus, disorders associated with estrogen stimulation (uterine fibroids, endometriosis, gallstones), and disorders associated with androgen stimulation (acne, hirsutism, and polycystic ovaries). METHODS: Breast cancer patients between 50 and 75 years old were identified from state-wide tumor registries in Wisconsin, Massachusetts, and New Hampshire; controls were randomly selected from drivers' license lists (age less than 65) or Medicare enrollment files (age 65-74). Information on reproductive history, medical history, and personal habits was obtained by telephone interview. A total of 5659 cases and 5928 controls were interviewed and provided suitable data. RESULTS: There was no overall association between breast cancer risk and reported history of diabetes mellitus, endometriosis, uterine fibroids, gallstones, or cholecystectomy. However, the disorders with androgenic associations all conferred an increased risk: the overall odds ratio (OR) for a history of acne was 1.4 (95% CI 1.0-1.9), that for hirsutism was 1.2 (95% CI 0.81-1.8), and that for polycystic ovaries 1.6 (95% CI 0.8-3.2). Diabetes mellitus diagnosed before age 35 conferred an odds ratio of 0.52 (95% 0.25-1.1), while diabetes diagnosed at a later age was associated with an increased risk (OR = 1.2, 95% CI 1.0-1.4). CONCLUSIONS: Androgen-related phenomena are likely to be important in the etiology of breast cancer.",
+  "sanitized_text": "Metabolic disorders and breast cancer risk (United States).\nOBJECTIVE: To clarify the hormonal context of breast cancer etiology we used data from a large, population-based case-control study to investigate the relationship between breast cancer risk and a history of diabetes mellitus, disorders associated with estrogen stimulation (uterine fibroids, endometriosis, gallstones), and disorders associated with androgen stimulation (acne, hirsutism, and polycystic ovaries). METHODS: Breast cancer patients between 50 and 75 years old were identified from state-wide tumor registries in Wisconsin, Massachusetts, and New Hampshire; controls were randomly selected from drivers' license lists (age less than 65) or Medicare enrollment files (age 65-74). Information on reproductive history, medical history, and personal habits was obtained by telephone interview. A total of 5659 cases and 5928 controls were interviewed and provided suitable data. RESULTS: There was no overall association between breast cancer risk and reported history of diabetes mellitus, endometriosis, uterine fibroids, gallstones, or cholecystectomy. However, the disorders with androgenic associations all conferred an increased risk: the overall odds ratio (OR) for a history of acne was 1.4 (95% CI 1.0-1.9), that for hirsutism was 1.2 (95% CI 0.81-1.8), and that for polycystic ovaries 1.6 (95% CI 0.8-3.2). Diabetes mellitus diagnosed before age 35 conferred an odds ratio of 0.52 (95% 0.25-1.1), while diabetes diagnosed at a later age was associated with an increased risk (OR = 1.2, 95% CI 1.0-1.4). CONCLUSIONS: Androgen-related phenomena are likely to be important in the etiology of breast cancer.",
+  "modified": false,
+  "original_char_count": 1683,
+  "sanitized_char_count": 1683,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1583,
+      "boundary_end": 1683,
+      "context": "disorders associated with androgen stimulation (acne, hirsutism, and polycystic ovaries). METHODS: Breast cancer patients between 50 and 75 years old were identified from state-wide tumor registries in Wisconsin, Massachusetts, and New Hampshire; controls were randomly selected from drivers' license lists (age less than 65) or Medicare enrollment files (age 65-74). Information on reproductive history, medical history, and personal habits was obtained by telephone interview. A total of 5659 cases and 5928 controls were interviewed and provided suitable data. RESULTS: There was no overall association between breast cancer risk and reported history of diabetes mellitus, endometriosis, uterine fibroids, gallstones, or cholecystectomy. However, the disorders with androgenic associations all conferred an increased risk: the overall odds ratio (OR) for a history of acne was 1.4 (95% CI 1.0-1.9), that for hirsutism was 1.2 (95% CI 0.81-1.8), and that for polycystic ovaries 1.6 (95% CI 0.8-3.2). Diabetes mellitus diagnosed before age 35 conferred an odds ratio of 0.52 (95% 0.25-1.1), while diabetes diagnosed at a later age was associated with an increased risk (OR = 1.2, 95% CI 1.0-1.4).",
+      "target": "CONCLUSIONS: Androgen-related phenomena are likely to be important in the etiology of breast cancer.",
+      "loss_target": 2.2520358562469482,
+      "loss_target_given_context": 1.37165105342865,
+      "delta_loss": 0.8803848028182983,
+      "gain_ratio": 0.3909284127853421,
+      "score": -0.3909284127853421,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

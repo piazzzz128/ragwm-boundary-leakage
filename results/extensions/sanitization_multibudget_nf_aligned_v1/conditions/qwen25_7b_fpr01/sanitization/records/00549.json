@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1664",
+  "source_doc_id": "MED-1664",
+  "title": "Degeneration of the intervertebral disc",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Degeneration of the intervertebral disc\nThe intervertebral disc is a cartilaginous structure that resembles articular cartilage in its biochemistry, but morphologically it is clearly different. It shows degenerative and ageing changes earlier than does any other connective tissue in the body. It is believed to be important clinically because there is an association of disc degeneration with back pain. Current treatments are predominantly conservative or, less commonly, surgical; in many cases there is no clear diagnosis and therapy is considered inadequate. New developments, such as genetic and biological approaches, may allow better diagnosis and treatments in the future.",
+  "sanitized_text": "Degeneration of the intervertebral disc\nThe intervertebral disc is a cartilaginous structure that resembles articular cartilage in its biochemistry, but morphologically it is clearly different. It shows degenerative and ageing changes earlier than does any other connective tissue in the body. It is believed to be important clinically because there is an association of disc degeneration with back pain. Current treatments are predominantly conservative or, less commonly, surgical; in many cases there is no clear diagnosis and therapy is considered inadequate. New developments, such as genetic and biological approaches, may allow better diagnosis and treatments in the future.",
+  "modified": false,
+  "original_char_count": 681,
+  "sanitized_char_count": 681,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 564,
+      "boundary_end": 681,
+      "context": "Degeneration of the intervertebral disc The intervertebral disc is a cartilaginous structure that resembles articular cartilage in its biochemistry, but morphologically it is clearly different. It shows degenerative and ageing changes earlier than does any other connective tissue in the body. It is believed to be important clinically because there is an association of disc degeneration with back pain. Current treatments are predominantly conservative or, less commonly, surgical; in many cases there is no clear diagnosis and therapy is considered inadequate.",
+      "target": "New developments, such as genetic and biological approaches, may allow better diagnosis and treatments in the future.",
+      "loss_target": 3.0635788440704346,
+      "loss_target_given_context": 2.1192636489868164,
+      "delta_loss": 0.9443151950836182,
+      "gain_ratio": 0.308239233637268,
+      "score": -0.308239233637268,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3471",
+  "source_doc_id": "MED-3471",
+  "title": "HDL-cholesterol-raising effect of orange juice in subjects with hypercholesterolemia.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "HDL-cholesterol-raising effect of orange juice in subjects with hypercholesterolemia.\nBACKGROUND: Orange juice-a rich source of vitamin C, folate, and flavonoids such as hesperidin-induces hypocholesterolemic responses in animals. OBJECTIVE: We determined whether orange juice beneficially altered blood lipids in subjects with moderate hypercholesterolemia. DESIGN: The sample consisted of 16 healthy men and 9 healthy women with elevated plasma total and LDL-cholesterol and normal plasma triacylglycerol concentrations. Participants incorporated 1, 2, or 3 cups (250 mL each) of orange juice sequentially into their diets, each dose over a period of 4 wk. This was followed by a 5-wk washout period. Plasma lipid, folate, homocyst(e)ine, and vitamin C (a compliance marker) concentrations were measured at baseline, after each treatment, and after the washout period. RESULTS: Consumption of 750 mL but not of 250 or 500 mL orange juice daily increased HDL-cholesterol concentrations by 21% (P: < 0.001), triacylglycerol concentrations by 30% (from 1.56 +/- 0.72 to 2.03 +/- 0.91 mmol/L; P: < 0.02), and folate concentrations by 18% (P: < 0.01); decreased the LDL-HDL cholesterol ratio by 16% (P: < 0.005); and did not affect homocyst(e)ine concentrations. Plasma vitamin C concentrations increased significantly during each dietary period (2.1, 3.1, and 3.8 times, respectively). CONCLUSIONS: Orange juice (750 mL/d) improved blood lipid profiles in hypercholesterolemic subjects, confirming recommendations to consume >/=5-10 servings of fruit and vegetables daily.",
+  "sanitized_text": "HDL-cholesterol-raising effect of orange juice in subjects with hypercholesterolemia.\nBACKGROUND: Orange juice-a rich source of vitamin C, folate, and flavonoids such as hesperidin-induces hypocholesterolemic responses in animals. OBJECTIVE: We determined whether orange juice beneficially altered blood lipids in subjects with moderate hypercholesterolemia. DESIGN: The sample consisted of 16 healthy men and 9 healthy women with elevated plasma total and LDL-cholesterol and normal plasma triacylglycerol concentrations. Participants incorporated 1, 2, or 3 cups (250 mL each) of orange juice sequentially into their diets, each dose over a period of 4 wk. This was followed by a 5-wk washout period. Plasma lipid, folate, homocyst(e)ine, and vitamin C (a compliance marker) concentrations were measured at baseline, after each treatment, and after the washout period. RESULTS: Consumption of 750 mL but not of 250 or 500 mL orange juice daily increased HDL-cholesterol concentrations by 21% (P: < 0.001), triacylglycerol concentrations by 30% (from 1.56 +/- 0.72 to 2.03 +/- 0.91 mmol/L; P: < 0.02), and folate concentrations by 18% (P: < 0.01); decreased the LDL-HDL cholesterol ratio by 16% (P: < 0.005); and did not affect homocyst(e)ine concentrations. Plasma vitamin C concentrations increased significantly during each dietary period (2.1, 3.1, and 3.8 times, respectively). CONCLUSIONS: Orange juice (750 mL/d) improved blood lipid profiles in hypercholesterolemic subjects, confirming recommendations to consume >/=5-10 servings of fruit and vegetables daily.",
+  "modified": false,
+  "original_char_count": 1570,
+  "sanitized_char_count": 1570,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1384,
+      "boundary_end": 1570,
+      "context": "hypocholesterolemic responses in animals. OBJECTIVE: We determined whether orange juice beneficially altered blood lipids in subjects with moderate hypercholesterolemia. DESIGN: The sample consisted of 16 healthy men and 9 healthy women with elevated plasma total and LDL-cholesterol and normal plasma triacylglycerol concentrations. Participants incorporated 1, 2, or 3 cups (250 mL each) of orange juice sequentially into their diets, each dose over a period of 4 wk. This was followed by a 5-wk washout period. Plasma lipid, folate, homocyst(e)ine, and vitamin C (a compliance marker) concentrations were measured at baseline, after each treatment, and after the washout period. RESULTS: Consumption of 750 mL but not of 250 or 500 mL orange juice daily increased HDL-cholesterol concentrations by 21% (P: < 0.001), triacylglycerol concentrations by 30% (from 1.56 +/- 0.72 to 2.03 +/- 0.91 mmol/L; P: < 0.02), and folate concentrations by 18% (P: < 0.01); decreased the LDL-HDL cholesterol ratio by 16% (P: < 0.005); and did not affect homocyst(e)ine concentrations. Plasma vitamin C concentrations increased significantly during each dietary period (2.1, 3.1, and 3.8 times, respectively).",
+      "target": "CONCLUSIONS: Orange juice (750 mL/d) improved blood lipid profiles in hypercholesterolemic subjects, confirming recommendations to consume >/=5-10 servings of fruit and vegetables daily.",
+      "loss_target": 2.2841572761535645,
+      "loss_target_given_context": 1.4598714113235474,
+      "delta_loss": 0.8242858648300171,
+      "gain_ratio": 0.36087088811068374,
+      "score": -0.36087088811068374,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

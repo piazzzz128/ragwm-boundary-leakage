@@ -1,0 +1,354 @@
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+  0%|                                                                                         | 0/3633 [00:00<?, ?it/s]100%|██████████████████████████████████████████████████████████████████████████| 3633/3633 [00:00<00:00, 106182.32it/s]
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+encoded 32/323
+encoded 64/323
+encoded 96/323
+encoded 128/323
+encoded 160/323
+encoded 192/323
+encoded 224/323
+encoded 256/323
+encoded 288/323
+encoded 320/323
+encoded 323/323
+{
+  "experiment_role": "frozen_ranking_retrieval_utility_and_paired_bootstrap",
+  "dataset": "nfcorpus",
+  "split": "test",
+  "retriever": "contriever",
+  "device": "cuda",
+  "query_count": 323,
+  "baseline_name": "e0_watermarked",
+  "top_k": 100,
+  "n_boot": 5000,
+  "seed": 20260609,
+  "bootstrap_rng": "numpy.random.default_rng (PCG64)",
+  "collection_manifest": {
+    "e0_watermarked": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/restored/strict_snapshot/root/autodl-tmp/ragwm_storage/chromadb_db",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    },
+    "qwen25_7b_fpr01": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/vectorstores/qwen25_7b_fpr01",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    },
+    "qwen25_7b_fpr025": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/vectorstores/qwen25_7b_fpr025",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    },
+    "qwen25_7b_fpr05": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e2_gainratio_aligned_sensitivity",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    },
+    "qwen25_7b_fpr10": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/vectorstores/qwen25_7b_fpr10",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    }
+  },
+  "ranking_sha256": "31528b2f6d266c68c82766afd8ce4275d68f501cba38311c6751e29934b081d3",
+  "metrics": {
+    "e0_watermarked": {
+      "query_count": 323,
+      "ndcg_at_10": 0.26964596944034047,
+      "map_at_100": 0.11777874450169112,
+      "recall_at_100": 0.25843088991374397,
+      "mrr_at_10": 0.4551353874883287
+    },
+    "qwen25_7b_fpr01": {
+      "query_count": 323,
+      "ndcg_at_10": 0.26452293022925033,
+      "map_at_100": 0.11481995955859206,
+      "recall_at_100": 0.2540750895941273,
+      "mrr_at_10": 0.44761167624944714
+    },
+    "qwen25_7b_fpr025": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2599353678355021,
+      "map_at_100": 0.11356844816337919,
+      "recall_at_100": 0.24911716919852822,
+      "mrr_at_10": 0.4406494176618016
+    },
+    "qwen25_7b_fpr05": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2570032314782793,
+      "map_at_100": 0.11337666871820828,
+      "recall_at_100": 0.24944757839049056,
+      "mrr_at_10": 0.4333394761413337
+    },
+    "qwen25_7b_fpr10": {
+      "query_count": 323,
+      "ndcg_at_10": 0.25479768874954495,
+      "map_at_100": 0.11190679583970135,
+      "recall_at_100": 0.2499613304712019,
+      "mrr_at_10": 0.42832940193621316
+    }
+  },
+  "metric_deltas_vs_baseline": {
+    "qwen25_7b_fpr01": {
+      "ndcg_at_10": -0.005123039211090133,
+      "map_at_100": -0.0029587849430990523,
+      "recall_at_100": -0.004355800319616671,
+      "mrr_at_10": -0.0075237112388815185
+    },
+    "qwen25_7b_fpr025": {
+      "ndcg_at_10": -0.009710601604838397,
+      "map_at_100": -0.004210296338311911,
+      "recall_at_100": -0.009313720715215716,
+      "mrr_at_10": -0.014485969826527102
+    },
+    "qwen25_7b_fpr05": {
+      "ndcg_at_10": -0.012642737962061164,
+      "map_at_100": -0.004402075783482837,
+      "recall_at_100": -0.008983311523253426,
+      "mrr_at_10": -0.021795911346994937
+    },
+    "qwen25_7b_fpr10": {
+      "ndcg_at_10": -0.014848280690795548,
+      "map_at_100": -0.005871948661989778,
+      "recall_at_100": -0.008469559442542062,
+      "mrr_at_10": -0.026805985552115587
+    }
+  },
+  "paired_bootstrap_differences_vs_baseline": {
+    "qwen25_7b_fpr01": {
+      "ndcg_at_10": {
+        "observed_mean_difference_vs_baseline": -0.005123039211090133,
+        "bootstrap_95_percentile_ci": [
+          -0.009697933393732889,
+          -0.00028310365937360437
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 21,
+        "query_level_negative_count": 66,
+        "query_level_tie_count": 236
+      },
+      "map_at_100": {
+        "observed_mean_difference_vs_baseline": -0.0029587849430990523,
+        "bootstrap_95_percentile_ci": [
+          -0.004644932027508626,
+          -0.0012808115175423932
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 69,
+        "query_level_negative_count": 160,
+        "query_level_tie_count": 94
+      },
+      "recall_at_100": {
+        "observed_mean_difference_vs_baseline": -0.004355800319616671,
+        "bootstrap_95_percentile_ci": [
+          -0.010452714897324845,
+          0.0009245414393297636
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 26,
+        "query_level_negative_count": 44,
+        "query_level_tie_count": 253
+      },
+      "mrr_at_10": {
+        "observed_mean_difference_vs_baseline": -0.0075237112388815185,
+        "bootstrap_95_percentile_ci": [
+          -0.019792465231706722,
+          0.005325169541500802
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 11,
+        "query_level_negative_count": 31,
+        "query_level_tie_count": 281
+      }
+    },
+    "qwen25_7b_fpr025": {
+      "ndcg_at_10": {
+        "observed_mean_difference_vs_baseline": -0.009710601604838397,
+        "bootstrap_95_percentile_ci": [
+          -0.014471177191575814,
+          -0.005001141578906212
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 24,
+        "query_level_negative_count": 81,
+        "query_level_tie_count": 218
+      },
+      "map_at_100": {
+        "observed_mean_difference_vs_baseline": -0.004210296338311911,
+        "bootstrap_95_percentile_ci": [
+          -0.0061004553451009585,
+          -0.0024311270974021215
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 49,
+        "query_level_negative_count": 179,
+        "query_level_tie_count": 95
+      },
+      "recall_at_100": {
+        "observed_mean_difference_vs_baseline": -0.009313720715215716,
+        "bootstrap_95_percentile_ci": [
+          -0.018820960733421196,
+          -0.001630740479091813
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 20,
+        "query_level_negative_count": 51,
+        "query_level_tie_count": 252
+      },
+      "mrr_at_10": {
+        "observed_mean_difference_vs_baseline": -0.014485969826527102,
+        "bootstrap_95_percentile_ci": [
+          -0.027939302914148114,
+          -0.0009410474716202455
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 11,
+        "query_level_negative_count": 43,
+        "query_level_tie_count": 269
+      }
+    },
+    "qwen25_7b_fpr05": {
+      "ndcg_at_10": {
+        "observed_mean_difference_vs_baseline": -0.012642737962061164,
+        "bootstrap_95_percentile_ci": [
+          -0.017826761055019482,
+          -0.0075377177802419286
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 22,
+        "query_level_negative_count": 86,
+        "query_level_tie_count": 215
+      },
+      "map_at_100": {
+        "observed_mean_difference_vs_baseline": -0.004402075783482837,
+        "bootstrap_95_percentile_ci": [
+          -0.006513481146873834,
+          -0.002306061049494535
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 43,
+        "query_level_negative_count": 186,
+        "query_level_tie_count": 94
+      },
+      "recall_at_100": {
+        "observed_mean_difference_vs_baseline": -0.008983311523253426,
+        "bootstrap_95_percentile_ci": [
+          -0.01615951328087894,
+          -0.0023281324697838907
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 23,
+        "query_level_negative_count": 56,
+        "query_level_tie_count": 244
+      },
+      "mrr_at_10": {
+        "observed_mean_difference_vs_baseline": -0.021795911346994937,
+        "bootstrap_95_percentile_ci": [
+          -0.03714000073713697,
+          -0.006809179812275816
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 10,
+        "query_level_negative_count": 46,
+        "query_level_tie_count": 267
+      }
+    },
+    "qwen25_7b_fpr10": {
+      "ndcg_at_10": {
+        "observed_mean_difference_vs_baseline": -0.014848280690795548,
+        "bootstrap_95_percentile_ci": [
+          -0.020682667039334822,
+          -0.009165203572283594
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 21,
+        "query_level_negative_count": 94,
+        "query_level_tie_count": 208
+      },
+      "map_at_100": {
+        "observed_mean_difference_vs_baseline": -0.005871948661989778,
+        "bootstrap_95_percentile_ci": [
+          -0.008221071000284777,
+          -0.003755003925118358
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 46,
+        "query_level_negative_count": 186,
+        "query_level_tie_count": 91
+      },
+      "recall_at_100": {
+        "observed_mean_difference_vs_baseline": -0.008469559442542062,
+        "bootstrap_95_percentile_ci": [
+          -0.014760533611457774,
+          -0.0026766335264772133
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 23,
+        "query_level_negative_count": 65,
+        "query_level_tie_count": 235
+      },
+      "mrr_at_10": {
+        "observed_mean_difference_vs_baseline": -0.026805985552115587,
+        "bootstrap_95_percentile_ci": [
+          -0.04172391763723034,
+          -0.013283945157010181
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 9,
+        "query_level_negative_count": 51,
+        "query_level_tie_count": 263
+      }
+    }
+  },
+  "retrieval_overlap": {
+    "qwen25_7b_fpr01": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.9089783281733747,
+      "mean_top100_overlap_fraction_vs_baseline": 0.919907120743034
+    },
+    "qwen25_7b_fpr025": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.8690402476780186,
+      "mean_top100_overlap_fraction_vs_baseline": 0.9045510835913313
+    },
+    "qwen25_7b_fpr05": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.8526315789473684,
+      "mean_top100_overlap_fraction_vs_baseline": 0.8922291021671827
+    },
+    "qwen25_7b_fpr10": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.8328173374613003,
+      "mean_top100_overlap_fraction_vs_baseline": 0.8737461300309598
+    }
+  },
+  "interpretation_note": "All rankings, point estimates, per-query differences, and confidence intervals in this file derive from one frozen retrieval pass."
+}
+FROZEN RETRIEVAL UTILITY EVALUATION PASS

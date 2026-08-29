@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3445",
+  "source_doc_id": "MED-3445",
+  "title": "An epidemiologic study of thyroid cancer in Hawaii.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "An epidemiologic study of thyroid cancer in Hawaii.\nA population-based case-control interview study was designed to test the hypothesis that dietary iodine or the consumption of goitrogenic vegetables increases the risk of thyroid cancer. A total of 191 histologically confirmed cases (64 percent female) and 441 matched controls from five ethnic groups in Hawaii were available for analysis. Among women, intake of seafood (especially shellfish), harm ha (a fermented fish sauce), and dietary iodine were associated with an increased risk of cancer, whereas consumption of goitrogenic (primarily cruciferous) vegetables was associated with a decreased risk. Non-dietary risk factors included miscarriage (especially at first pregnancy), use of fertility drugs, family history of thyroid disease, obesity, and work as a farm laborer. The odds ratio for the combined effect of a high iodine intake and a first-pregnancy miscarriage was 4.8 (95 percent confidence interval [CI] = 1.2-19.2); and for high iodine intake and use of fertility drugs 7.3 (95 percent CI = 1.5-34.5). Among men, positive associations were found for obesity, work as a farm laborer, and a past history of benign thyroid disease. Although this study identified several dietary and non-dietary risk factors for thyroid cancer, it could not fully explain the exceptionally high incidence rates among Filipino women in Hawaii.",
+  "sanitized_text": "An epidemiologic study of thyroid cancer in Hawaii.\nA population-based case-control interview study was designed to test the hypothesis that dietary iodine or the consumption of goitrogenic vegetables increases the risk of thyroid cancer. A total of 191 histologically confirmed cases (64 percent female) and 441 matched controls from five ethnic groups in Hawaii were available for analysis. Among women, intake of seafood (especially shellfish), harm ha (a fermented fish sauce), and dietary iodine were associated with an increased risk of cancer, whereas consumption of goitrogenic (primarily cruciferous) vegetables was associated with a decreased risk. Non-dietary risk factors included miscarriage (especially at first pregnancy), use of fertility drugs, family history of thyroid disease, obesity, and work as a farm laborer. The odds ratio for the combined effect of a high iodine intake and a first-pregnancy miscarriage was 4.8 (95 percent confidence interval [CI] = 1.2-19.2); and for high iodine intake and use of fertility drugs 7.3 (95 percent CI = 1.5-34.5). Among men, positive associations were found for obesity, work as a farm laborer, and a past history of benign thyroid disease. Although this study identified several dietary and non-dietary risk factors for thyroid cancer, it could not fully explain the exceptionally high incidence rates among Filipino women in Hawaii.",
+  "modified": false,
+  "original_char_count": 1395,
+  "sanitized_char_count": 1395,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1202,
+      "boundary_end": 1395,
+      "context": "epidemiologic study of thyroid cancer in Hawaii. A population-based case-control interview study was designed to test the hypothesis that dietary iodine or the consumption of goitrogenic vegetables increases the risk of thyroid cancer. A total of 191 histologically confirmed cases (64 percent female) and 441 matched controls from five ethnic groups in Hawaii were available for analysis. Among women, intake of seafood (especially shellfish), harm ha (a fermented fish sauce), and dietary iodine were associated with an increased risk of cancer, whereas consumption of goitrogenic (primarily cruciferous) vegetables was associated with a decreased risk. Non-dietary risk factors included miscarriage (especially at first pregnancy), use of fertility drugs, family history of thyroid disease, obesity, and work as a farm laborer. The odds ratio for the combined effect of a high iodine intake and a first-pregnancy miscarriage was 4.8 (95 percent confidence interval [CI] = 1.2-19.2); and for high iodine intake and use of fertility drugs 7.3 (95 percent CI = 1.5-34.5). Among men, positive associations were found for obesity, work as a farm laborer, and a past history of benign thyroid disease.",
+      "target": "Although this study identified several dietary and non-dietary risk factors for thyroid cancer, it could not fully explain the exceptionally high incidence rates among Filipino women in Hawaii.",
+      "loss_target": 2.4634346961975098,
+      "loss_target_given_context": 1.4516844749450684,
+      "delta_loss": 1.0117502212524414,
+      "gain_ratio": 0.4107071410555966,
+      "score": -0.4107071410555966,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

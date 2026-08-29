@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1309",
+  "source_doc_id": "MED-1309",
+  "title": "Oat prevents obesity and abdominal fat distribution, and improves liver function in humans.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Oat prevents obesity and abdominal fat distribution, and improves liver function in humans.\nObesity is associated with a great diversity of diseases including non-alcoholic fatty liver disease. Our recent report suggested that oat, rich in beta-glucan, had a metabolic-regulating and liver-protecting effect in an animal model. In this study, we performed a clinical trial to further confirm the effect of oat. Subjects with BMI ≥27 and aged 18-65, were randomly divided into a control (n=18) and an oat-treated (n=16) group, taking a placebo or beta glucan-containing oat cereal, respectively, for 12 weeks. Our data showed that consumption of oat reduced body weight, BMI, body fat and the waist-to-hip ratio. Profiles of hepatic function, including AST, but especially ALT, were useful resources to help in the evaluation of the liver, since both showed decrements in patients with oat consumption. Nevertheless, anatomic changes were still not observed by ultrasonic image analysis. Ingestion of oat was well tolerated and there was no adverse effect during the trial. In conclusion, consumption of oat reduced obesity, abdominal fat, and improved lipid profiles and liver functions. Taken as a daily supplement, oat could act as an adjuvant therapy for metabolic disorders. Oats often serve as a base where eggs are incorporated for added nutrition.",
+  "sanitized_text": "Oat prevents obesity and abdominal fat distribution, and improves liver function in humans.\nObesity is associated with a great diversity of diseases including non-alcoholic fatty liver disease. Our recent report suggested that oat, rich in beta-glucan, had a metabolic-regulating and liver-protecting effect in an animal model. In this study, we performed a clinical trial to further confirm the effect of oat. Subjects with BMI ≥27 and aged 18-65, were randomly divided into a control (n=18) and an oat-treated (n=16) group, taking a placebo or beta glucan-containing oat cereal, respectively, for 12 weeks. Our data showed that consumption of oat reduced body weight, BMI, body fat and the waist-to-hip ratio. Profiles of hepatic function, including AST, but especially ALT, were useful resources to help in the evaluation of the liver, since both showed decrements in patients with oat consumption. Nevertheless, anatomic changes were still not observed by ultrasonic image analysis. Ingestion of oat was well tolerated and there was no adverse effect during the trial. In conclusion, consumption of oat reduced obesity, abdominal fat, and improved lipid profiles and liver functions. Taken as a daily supplement, oat could act as an adjuvant therapy for metabolic disorders. Oats often serve as a base where eggs are incorporated for added nutrition.",
+  "modified": false,
+  "original_char_count": 1354,
+  "sanitized_char_count": 1354,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1279,
+      "boundary_end": 1354,
+      "context": "in humans. Obesity is associated with a great diversity of diseases including non-alcoholic fatty liver disease. Our recent report suggested that oat, rich in beta-glucan, had a metabolic-regulating and liver-protecting effect in an animal model. In this study, we performed a clinical trial to further confirm the effect of oat. Subjects with BMI ≥27 and aged 18-65, were randomly divided into a control (n=18) and an oat-treated (n=16) group, taking a placebo or beta glucan-containing oat cereal, respectively, for 12 weeks. Our data showed that consumption of oat reduced body weight, BMI, body fat and the waist-to-hip ratio. Profiles of hepatic function, including AST, but especially ALT, were useful resources to help in the evaluation of the liver, since both showed decrements in patients with oat consumption. Nevertheless, anatomic changes were still not observed by ultrasonic image analysis. Ingestion of oat was well tolerated and there was no adverse effect during the trial. In conclusion, consumption of oat reduced obesity, abdominal fat, and improved lipid profiles and liver functions. Taken as a daily supplement, oat could act as an adjuvant therapy for metabolic disorders.",
+      "target": "Oats often serve as a base where eggs are incorporated for added nutrition.",
+      "loss_target": 9.320455551147461,
+      "loss_target_given_context": 5.693047046661377,
+      "delta_loss": 3.627408504486084,
+      "gain_ratio": 0.38918789801422377,
+      "score": -0.38918789801422377,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

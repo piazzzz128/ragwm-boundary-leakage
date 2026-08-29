@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4323",
+  "source_doc_id": "MED-4323",
+  "title": "Dehydroepiandrosterone and ageing.",
+  "original_text": "Dehydroepiandrosterone and ageing.\nDehydroepiandrosterone (DHEA) is the major steroid produced by the adrenal zona reticularis and, in contrast to cortisol and aldosterone, its secretion declines with ageing. This has generated major interest in its putative role as an 'anti-ageing' hormone. However, it is not clear that the age-associated, physiological decline in DHEA secretion represents a harmful deficiency. DHEA exhibits its action mainly by conversion to sex steroids. In addition, DHEA has neurosteroidal properties and may exhibit direct action via specific binding sites on endothelial cells. There is convincing evidence for beneficial effects of DHEA in patients with adrenal insufficiency and future research will hopefully elucidate its role in patients receiving pharmacological glucocorticoid treatment. However, in healthy elderly subjects, current evidence from randomised, controlled trials does not justify the use of DHEA, with no major beneficial effects reported and, in addition, potentially adverse effects on sex steroid-dependent tumour growth need to be considered. Copyright 2004 Elsevier Ltd.",
+  "sanitized_text": "Dehydroepiandrosterone and ageing.\nDehydroepiandrosterone (DHEA) is the major steroid produced by the adrenal zona reticularis and, in contrast to cortisol and aldosterone, its secretion declines with ageing. This has generated major interest in its putative role as an 'anti-ageing' hormone. However, it is not clear that the age-associated, physiological decline in DHEA secretion represents a harmful deficiency. DHEA exhibits its action mainly by conversion to sex steroids. In addition, DHEA has neurosteroidal properties and may exhibit direct action via specific binding sites on endothelial cells. There is convincing evidence for beneficial effects of DHEA in patients with adrenal insufficiency and future research will hopefully elucidate its role in patients receiving pharmacological glucocorticoid treatment. However, in healthy elderly subjects, current evidence from randomised, controlled trials does not justify the use of DHEA, with no major beneficial effects reported and, in addition, potentially adverse effects on sex steroid-dependent tumour growth need to be considered.",
+  "modified": true,
+  "original_char_count": 1125,
+  "sanitized_char_count": 1096,
+  "deleted_char_count": 29,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1097,
+      "boundary_end": 1125,
+      "context": "Dehydroepiandrosterone and ageing. Dehydroepiandrosterone (DHEA) is the major steroid produced by the adrenal zona reticularis and, in contrast to cortisol and aldosterone, its secretion declines with ageing. This has generated major interest in its putative role as an 'anti-ageing' hormone. However, it is not clear that the age-associated, physiological decline in DHEA secretion represents a harmful deficiency. DHEA exhibits its action mainly by conversion to sex steroids. In addition, DHEA has neurosteroidal properties and may exhibit direct action via specific binding sites on endothelial cells. There is convincing evidence for beneficial effects of DHEA in patients with adrenal insufficiency and future research will hopefully elucidate its role in patients receiving pharmacological glucocorticoid treatment. However, in healthy elderly subjects, current evidence from randomised, controlled trials does not justify the use of DHEA, with no major beneficial effects reported and, in addition, potentially adverse effects on sex steroid-dependent tumour growth need to be considered.",
+      "target": "Copyright 2004 Elsevier Ltd.",
+      "loss_target": 1.6566234827041626,
+      "loss_target_given_context": 2.058615207672119,
+      "delta_loss": -0.40199172496795654,
+      "gain_ratio": -0.24265726591764342,
+      "score": 0.24265726591764342,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 823,
+      "boundary_end": 1096,
+      "context": "Dehydroepiandrosterone and ageing. Dehydroepiandrosterone (DHEA) is the major steroid produced by the adrenal zona reticularis and, in contrast to cortisol and aldosterone, its secretion declines with ageing. This has generated major interest in its putative role as an 'anti-ageing' hormone. However, it is not clear that the age-associated, physiological decline in DHEA secretion represents a harmful deficiency. DHEA exhibits its action mainly by conversion to sex steroids. In addition, DHEA has neurosteroidal properties and may exhibit direct action via specific binding sites on endothelial cells. There is convincing evidence for beneficial effects of DHEA in patients with adrenal insufficiency and future research will hopefully elucidate its role in patients receiving pharmacological glucocorticoid treatment.",
+      "target": "However, in healthy elderly subjects, current evidence from randomised, controlled trials does not justify the use of DHEA, with no major beneficial effects reported and, in addition, potentially adverse effects on sex steroid-dependent tumour growth need to be considered.",
+      "loss_target": 2.823451280593872,
+      "loss_target_given_context": 2.211486577987671,
+      "delta_loss": 0.6119647026062012,
+      "gain_ratio": 0.21674349644789453,
+      "score": -0.21674349644789453,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1097,
+      "target": "Copyright 2004 Elsevier Ltd.",
+      "score": 0.24265726591764342,
+      "deleted_suffix": "Copyright 2004 Elsevier Ltd.",
+      "deleted_char_count": 28
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

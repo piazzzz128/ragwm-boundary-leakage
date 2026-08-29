@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2152",
+  "source_doc_id": "MED-2152",
+  "title": "Mechanistic examination of walnuts in prevention of breast cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Mechanistic examination of walnuts in prevention of breast cancer.\nWalnuts contain bioactive molecules that may contribute to their beneficial effects, including alpha-linolenic acid (ALA) and phytosterols. In these studies, extracts of walnut, purified compounds, or postprandial serum were examined for effects on breast cancer cell proliferation and gene expression. Extracts derived from walnut oil decreased proliferation of MCF-7 cells, as did ALA and β-sitosterol. The gene expression response of ALA in the mouse breast cancer cell line TM2H indicates this molecule has multiple cellular targets with peroxisome proliferator-activated receptor (PPAR) target genes, liver X receptor (LXR), and farnesoid X receptor (FXR) target genes being affected. In transactivation assays, walnut oil extracts increased activity of FXR to a greater extent than the other tested nuclear receptors. When examined separately, walnut components ALA and β-sitosterol were the most efficacious activators of FXR. When serum from individuals fed walnut components were applied to MCF-7 cells, there was a correlation between body mass index and breast cancer cell proliferation in vitro. Taken together, these data support an effect of walnut and its bioactive constituents on mammary epithelial cells and that multiple molecular targets may be involved.",
+  "sanitized_text": "Mechanistic examination of walnuts in prevention of breast cancer.\nWalnuts contain bioactive molecules that may contribute to their beneficial effects, including alpha-linolenic acid (ALA) and phytosterols. In these studies, extracts of walnut, purified compounds, or postprandial serum were examined for effects on breast cancer cell proliferation and gene expression. Extracts derived from walnut oil decreased proliferation of MCF-7 cells, as did ALA and β-sitosterol. The gene expression response of ALA in the mouse breast cancer cell line TM2H indicates this molecule has multiple cellular targets with peroxisome proliferator-activated receptor (PPAR) target genes, liver X receptor (LXR), and farnesoid X receptor (FXR) target genes being affected. In transactivation assays, walnut oil extracts increased activity of FXR to a greater extent than the other tested nuclear receptors. When examined separately, walnut components ALA and β-sitosterol were the most efficacious activators of FXR. When serum from individuals fed walnut components were applied to MCF-7 cells, there was a correlation between body mass index and breast cancer cell proliferation in vitro. Taken together, these data support an effect of walnut and its bioactive constituents on mammary epithelial cells and that multiple molecular targets may be involved.",
+  "modified": false,
+  "original_char_count": 1341,
+  "sanitized_char_count": 1341,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1175,
+      "boundary_end": 1341,
+      "context": "Mechanistic examination of walnuts in prevention of breast cancer. Walnuts contain bioactive molecules that may contribute to their beneficial effects, including alpha-linolenic acid (ALA) and phytosterols. In these studies, extracts of walnut, purified compounds, or postprandial serum were examined for effects on breast cancer cell proliferation and gene expression. Extracts derived from walnut oil decreased proliferation of MCF-7 cells, as did ALA and β-sitosterol. The gene expression response of ALA in the mouse breast cancer cell line TM2H indicates this molecule has multiple cellular targets with peroxisome proliferator-activated receptor (PPAR) target genes, liver X receptor (LXR), and farnesoid X receptor (FXR) target genes being affected. In transactivation assays, walnut oil extracts increased activity of FXR to a greater extent than the other tested nuclear receptors. When examined separately, walnut components ALA and β-sitosterol were the most efficacious activators of FXR. When serum from individuals fed walnut components were applied to MCF-7 cells, there was a correlation between body mass index and breast cancer cell proliferation in vitro.",
+      "target": "Taken together, these data support an effect of walnut and its bioactive constituents on mammary epithelial cells and that multiple molecular targets may be involved.",
+      "loss_target": 2.890846014022827,
+      "loss_target_given_context": 1.629690408706665,
+      "delta_loss": 1.261155605316162,
+      "gain_ratio": 0.43625831303313534,
+      "score": -0.43625831303313534,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

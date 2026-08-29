@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3669",
+  "source_doc_id": "MED-3669",
+  "title": "Aromatherapy positively affects mood, EEG patterns of alertness and math computations.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Aromatherapy positively affects mood, EEG patterns of alertness and math computations.\nEEG activity, alertness, and mood were assessed in 40 adults given 3 minutes of aromatherapy using two aromas, lavender (considered a relaxing odor) or rosemary (considered a stimulating odor). Participants were also given simple math computations before and after the therapy. The lavender group showed increased beta power, suggesting increased drowsiness, they had less depressed mood (POMS) and reported feeling more relaxed and performed the math computations faster and more accurately following aromatherapy. The rosemary group, on the other hand, showed decreased frontal alpha and beta power, suggesting increased alertness. They also had lower state anxiety scores, reported feeling more relaxed and alert and they were only faster, not more accurate, at completing the math computations after the aromatherapy session.",
+  "sanitized_text": "Aromatherapy positively affects mood, EEG patterns of alertness and math computations.\nEEG activity, alertness, and mood were assessed in 40 adults given 3 minutes of aromatherapy using two aromas, lavender (considered a relaxing odor) or rosemary (considered a stimulating odor). Participants were also given simple math computations before and after the therapy. The lavender group showed increased beta power, suggesting increased drowsiness, they had less depressed mood (POMS) and reported feeling more relaxed and performed the math computations faster and more accurately following aromatherapy. The rosemary group, on the other hand, showed decreased frontal alpha and beta power, suggesting increased alertness. They also had lower state anxiety scores, reported feeling more relaxed and alert and they were only faster, not more accurate, at completing the math computations after the aromatherapy session.",
+  "modified": false,
+  "original_char_count": 916,
+  "sanitized_char_count": 916,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 721,
+      "boundary_end": 916,
+      "context": "Aromatherapy positively affects mood, EEG patterns of alertness and math computations. EEG activity, alertness, and mood were assessed in 40 adults given 3 minutes of aromatherapy using two aromas, lavender (considered a relaxing odor) or rosemary (considered a stimulating odor). Participants were also given simple math computations before and after the therapy. The lavender group showed increased beta power, suggesting increased drowsiness, they had less depressed mood (POMS) and reported feeling more relaxed and performed the math computations faster and more accurately following aromatherapy. The rosemary group, on the other hand, showed decreased frontal alpha and beta power, suggesting increased alertness.",
+      "target": "They also had lower state anxiety scores, reported feeling more relaxed and alert and they were only faster, not more accurate, at completing the math computations after the aromatherapy session.",
+      "loss_target": 3.482114553451538,
+      "loss_target_given_context": 1.6618351936340332,
+      "delta_loss": 1.8202793598175049,
+      "gain_ratio": 0.5227511421223088,
+      "score": -0.5227511421223088,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

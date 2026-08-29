@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4730",
+  "source_doc_id": "MED-4730",
+  "title": "Simultaneous quantitation of multiple classes of organohalogen compounds in fish oils with direct sample introduction comprehensive two-dimensional...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Simultaneous quantitation of multiple classes of organohalogen compounds in fish oils with direct sample introduction comprehensive two-dimensional...\nWe successfully optimized an analytical method using gel permeation chromatography followed by direct sample introduction comprehensive two-dimensional gas chromatography with time-of-flight mass spectrometry to quantify multiple groups of targeted persistent organic pollutants and halogenated natural products (HNPs) simultaneously in fish oil samples. This new method has a wider analytical scope than the traditional approach to use multiple methods to cover each class of compounds. Our analysis revealed that the relatively more volatile and lighter organic compounds, such as polychlorinated biphenyls (PCBs), organochlorine pesticides, and other smaller organohalogen compounds, were still present in two brands of \"PCB-free\" cod liver oils, albeit at much lower levels than in an untreated commercial sample. Moreover, the less volatile organic compounds, such as polybrominated diphenyl ethers and brominated HNPs, were detected at similar levels in all three cod liver oils. This suggests that the commercial molecular distillation treatment used for removal of organic/inorganic toxic contaminants is only effective for the lighter organic contaminants.",
+  "sanitized_text": "Simultaneous quantitation of multiple classes of organohalogen compounds in fish oils with direct sample introduction comprehensive two-dimensional...\nWe successfully optimized an analytical method using gel permeation chromatography followed by direct sample introduction comprehensive two-dimensional gas chromatography with time-of-flight mass spectrometry to quantify multiple groups of targeted persistent organic pollutants and halogenated natural products (HNPs) simultaneously in fish oil samples. This new method has a wider analytical scope than the traditional approach to use multiple methods to cover each class of compounds. Our analysis revealed that the relatively more volatile and lighter organic compounds, such as polychlorinated biphenyls (PCBs), organochlorine pesticides, and other smaller organohalogen compounds, were still present in two brands of \"PCB-free\" cod liver oils, albeit at much lower levels than in an untreated commercial sample. Moreover, the less volatile organic compounds, such as polybrominated diphenyl ethers and brominated HNPs, were detected at similar levels in all three cod liver oils. This suggests that the commercial molecular distillation treatment used for removal of organic/inorganic toxic contaminants is only effective for the lighter organic contaminants.",
+  "modified": false,
+  "original_char_count": 1316,
+  "sanitized_char_count": 1316,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1137,
+      "boundary_end": 1316,
+      "context": "Simultaneous quantitation of multiple classes of organohalogen compounds in fish oils with direct sample introduction comprehensive two-dimensional... We successfully optimized an analytical method using gel permeation chromatography followed by direct sample introduction comprehensive two-dimensional gas chromatography with time-of-flight mass spectrometry to quantify multiple groups of targeted persistent organic pollutants and halogenated natural products (HNPs) simultaneously in fish oil samples. This new method has a wider analytical scope than the traditional approach to use multiple methods to cover each class of compounds. Our analysis revealed that the relatively more volatile and lighter organic compounds, such as polychlorinated biphenyls (PCBs), organochlorine pesticides, and other smaller organohalogen compounds, were still present in two brands of \"PCB-free\" cod liver oils, albeit at much lower levels than in an untreated commercial sample. Moreover, the less volatile organic compounds, such as polybrominated diphenyl ethers and brominated HNPs, were detected at similar levels in all three cod liver oils.",
+      "target": "This suggests that the commercial molecular distillation treatment used for removal of organic/inorganic toxic contaminants is only effective for the lighter organic contaminants.",
+      "loss_target": 9.344084739685059,
+      "loss_target_given_context": 5.192939281463623,
+      "delta_loss": 4.1511454582214355,
+      "gain_ratio": 0.44425383265106705,
+      "score": -0.44425383265106705,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

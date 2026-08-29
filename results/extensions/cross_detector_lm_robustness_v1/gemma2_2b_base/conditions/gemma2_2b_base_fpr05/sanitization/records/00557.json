@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1672",
+  "source_doc_id": "MED-1672",
+  "title": "Sugar, Uric Acid, and the Etiology of Diabetes and Obesity",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Sugar, Uric Acid, and the Etiology of Diabetes and Obesity\nThe intake of added sugars, such as from table sugar (sucrose) and high-fructose corn syrup has increased dramatically in the last hundred years and correlates closely with the rise in obesity, metabolic syndrome, and diabetes. Fructose is a major component of added sugars and is distinct from other sugars in its ability to cause intracellular ATP depletion, nucleotide turnover, and the generation of uric acid. In this article, we revisit the hypothesis that it is this unique aspect of fructose metabolism that accounts for why fructose intake increases the risk for metabolic syndrome. Recent studies show that fructose-induced uric acid generation causes mitochondrial oxidative stress that stimulates fat accumulation independent of excessive caloric intake. These studies challenge the long-standing dogma that “a calorie is just a calorie” and suggest that the metabolic effects of food may matter as much as its energy content. The discovery that fructose-mediated generation of uric acid may have a causal role in diabetes and obesity provides new insights into pathogenesis and therapies for this important disease.",
+  "sanitized_text": "Sugar, Uric Acid, and the Etiology of Diabetes and Obesity\nThe intake of added sugars, such as from table sugar (sucrose) and high-fructose corn syrup has increased dramatically in the last hundred years and correlates closely with the rise in obesity, metabolic syndrome, and diabetes. Fructose is a major component of added sugars and is distinct from other sugars in its ability to cause intracellular ATP depletion, nucleotide turnover, and the generation of uric acid. In this article, we revisit the hypothesis that it is this unique aspect of fructose metabolism that accounts for why fructose intake increases the risk for metabolic syndrome. Recent studies show that fructose-induced uric acid generation causes mitochondrial oxidative stress that stimulates fat accumulation independent of excessive caloric intake. These studies challenge the long-standing dogma that “a calorie is just a calorie” and suggest that the metabolic effects of food may matter as much as its energy content. The discovery that fructose-mediated generation of uric acid may have a causal role in diabetes and obesity provides new insights into pathogenesis and therapies for this important disease.",
+  "modified": false,
+  "original_char_count": 1187,
+  "sanitized_char_count": 1187,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 998,
+      "boundary_end": 1187,
+      "context": "Sugar, Uric Acid, and the Etiology of Diabetes and Obesity The intake of added sugars, such as from table sugar (sucrose) and high-fructose corn syrup has increased dramatically in the last hundred years and correlates closely with the rise in obesity, metabolic syndrome, and diabetes. Fructose is a major component of added sugars and is distinct from other sugars in its ability to cause intracellular ATP depletion, nucleotide turnover, and the generation of uric acid. In this article, we revisit the hypothesis that it is this unique aspect of fructose metabolism that accounts for why fructose intake increases the risk for metabolic syndrome. Recent studies show that fructose-induced uric acid generation causes mitochondrial oxidative stress that stimulates fat accumulation independent of excessive caloric intake. These studies challenge the long-standing dogma that “a calorie is just a calorie” and suggest that the metabolic effects of food may matter as much as its energy content.",
+      "target": "The discovery that fructose-mediated generation of uric acid may have a causal role in diabetes and obesity provides new insights into pathogenesis and therapies for this important disease.",
+      "loss_target": 8.453604698181152,
+      "loss_target_given_context": 3.1804423332214355,
+      "delta_loss": 5.273162364959717,
+      "gain_ratio": 0.6237767855521174,
+      "score": -0.6237767855521174,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

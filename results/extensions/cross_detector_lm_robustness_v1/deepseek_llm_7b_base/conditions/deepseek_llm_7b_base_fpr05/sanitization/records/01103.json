@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2340",
+  "source_doc_id": "MED-2340",
+  "title": "Allergic cross-reactions between cat and pig serum albumin. Study at the protein and DNA levels.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Allergic cross-reactions between cat and pig serum albumin. Study at the protein and DNA levels.\nAfter observing a patient allergic to cat dander and pork but devoid of other allergies, we prospectively screened patients known to be allergic to cat for a second sensitization to pork. After collecting the sera of 10 young patients found to contain specific IgE to cat dander and pork, we undertook this study to detect the possible cross-reactive allergen, define its molecular characteristics, and evaluate its clinical relevance. Through immunoblotting techniques, cat and porcine serum albumin were found to be jointly recognized molecules. These findings were further analyzed by specific anti-albumin IgE titrations and cross-inhibition experiments. Cat serum albumin cDNA was obtained from cat liver, and the corresponding amino acid sequence was deduced and compared to the known porcine and human serum albumin sequences. Inhibition experiments showed that the spectrum of IgE reactivity to cat serum albumin completely contained IgE reactivity to porcine serum albumin, suggesting that sensitization to cat was the primary event. In two cohorts of cat-allergic persons, the frequency of sensitization to cat serum albumin was found to lie between 14% and 23%. Sensitization to porcine albumin was found to lie between 3% and 10%. About 1/3 of these persons are likely to experience allergic symptoms in relation to pork consumption. Sensitization to cat serum albumin should be considered a useful marker of possible cross-sensitization not only to porcine serum albumin but also to other mammalian serum albumins.",
+  "sanitized_text": "Allergic cross-reactions between cat and pig serum albumin. Study at the protein and DNA levels.\nAfter observing a patient allergic to cat dander and pork but devoid of other allergies, we prospectively screened patients known to be allergic to cat for a second sensitization to pork. After collecting the sera of 10 young patients found to contain specific IgE to cat dander and pork, we undertook this study to detect the possible cross-reactive allergen, define its molecular characteristics, and evaluate its clinical relevance. Through immunoblotting techniques, cat and porcine serum albumin were found to be jointly recognized molecules. These findings were further analyzed by specific anti-albumin IgE titrations and cross-inhibition experiments. Cat serum albumin cDNA was obtained from cat liver, and the corresponding amino acid sequence was deduced and compared to the known porcine and human serum albumin sequences. Inhibition experiments showed that the spectrum of IgE reactivity to cat serum albumin completely contained IgE reactivity to porcine serum albumin, suggesting that sensitization to cat was the primary event. In two cohorts of cat-allergic persons, the frequency of sensitization to cat serum albumin was found to lie between 14% and 23%. Sensitization to porcine albumin was found to lie between 3% and 10%. About 1/3 of these persons are likely to experience allergic symptoms in relation to pork consumption. Sensitization to cat serum albumin should be considered a useful marker of possible cross-sensitization not only to porcine serum albumin but also to other mammalian serum albumins.",
+  "modified": false,
+  "original_char_count": 1624,
+  "sanitized_char_count": 1624,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1443,
+      "boundary_end": 1624,
+      "context": "cat for a second sensitization to pork. After collecting the sera of 10 young patients found to contain specific IgE to cat dander and pork, we undertook this study to detect the possible cross-reactive allergen, define its molecular characteristics, and evaluate its clinical relevance. Through immunoblotting techniques, cat and porcine serum albumin were found to be jointly recognized molecules. These findings were further analyzed by specific anti-albumin IgE titrations and cross-inhibition experiments. Cat serum albumin cDNA was obtained from cat liver, and the corresponding amino acid sequence was deduced and compared to the known porcine and human serum albumin sequences. Inhibition experiments showed that the spectrum of IgE reactivity to cat serum albumin completely contained IgE reactivity to porcine serum albumin, suggesting that sensitization to cat was the primary event. In two cohorts of cat-allergic persons, the frequency of sensitization to cat serum albumin was found to lie between 14% and 23%. Sensitization to porcine albumin was found to lie between 3% and 10%. About 1/3 of these persons are likely to experience allergic symptoms in relation to pork consumption.",
+      "target": "Sensitization to cat serum albumin should be considered a useful marker of possible cross-sensitization not only to porcine serum albumin but also to other mammalian serum albumins.",
+      "loss_target": 2.4092226028442383,
+      "loss_target_given_context": 1.31145441532135,
+      "delta_loss": 1.0977681875228882,
+      "gain_ratio": 0.4556524524661623,
+      "score": -0.4556524524661623,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

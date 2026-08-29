@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5100",
+  "source_doc_id": "MED-5100",
+  "title": "Public health guidance on cardiovascular benefits and risks related to fish consumption",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Public health guidance on cardiovascular benefits and risks related to fish consumption\nHistorically, concerns with fish consumption have addressed risks from contaminants (e.g., methylmercury (MeHg), and PCBs). More recently public health concerns have widened in appreciation of the specific benefits of fish consumption such as those arising from polyunsaturated fatty acids (PUFAs) in fish oil. Fish contains varying levels of PUFAs and MeHg. Since both address the same health outcomes (in opposite directions) and occur together in fish, great care must be exercised in providing public health guidance. Mozaffarian and Rimm in a recent article (JAMA. 2006, 296:1885–99) have made a strong case for the beneficial effects of PUFAs in reducing the risk of coronary heart disease, but at the same time, have also broadly discounted the increased risks of coronary heart disease posed by MeHg in fish, stating that \"... among adults... the benefits of fish intake exceed the potential risks.\" This conclusion appears to be based on an inaccurate and insufficiently critical analysis of the literature. This literature is re-examined in light of their conclusions, and the available and appropriate public health options are considered.",
+  "sanitized_text": "Public health guidance on cardiovascular benefits and risks related to fish consumption\nHistorically, concerns with fish consumption have addressed risks from contaminants (e.g., methylmercury (MeHg), and PCBs). More recently public health concerns have widened in appreciation of the specific benefits of fish consumption such as those arising from polyunsaturated fatty acids (PUFAs) in fish oil. Fish contains varying levels of PUFAs and MeHg. Since both address the same health outcomes (in opposite directions) and occur together in fish, great care must be exercised in providing public health guidance. Mozaffarian and Rimm in a recent article (JAMA. 2006, 296:1885–99) have made a strong case for the beneficial effects of PUFAs in reducing the risk of coronary heart disease, but at the same time, have also broadly discounted the increased risks of coronary heart disease posed by MeHg in fish, stating that \"... among adults... the benefits of fish intake exceed the potential risks.\" This conclusion appears to be based on an inaccurate and insufficiently critical analysis of the literature. This literature is re-examined in light of their conclusions, and the available and appropriate public health options are considered.",
+  "modified": false,
+  "original_char_count": 1238,
+  "sanitized_char_count": 1238,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1105,
+      "boundary_end": 1238,
+      "context": "Public health guidance on cardiovascular benefits and risks related to fish consumption Historically, concerns with fish consumption have addressed risks from contaminants (e.g., methylmercury (MeHg), and PCBs). More recently public health concerns have widened in appreciation of the specific benefits of fish consumption such as those arising from polyunsaturated fatty acids (PUFAs) in fish oil. Fish contains varying levels of PUFAs and MeHg. Since both address the same health outcomes (in opposite directions) and occur together in fish, great care must be exercised in providing public health guidance. Mozaffarian and Rimm in a recent article (JAMA. 2006, 296:1885–99) have made a strong case for the beneficial effects of PUFAs in reducing the risk of coronary heart disease, but at the same time, have also broadly discounted the increased risks of coronary heart disease posed by MeHg in fish, stating that \"... among adults... the benefits of fish intake exceed the potential risks.\" This conclusion appears to be based on an inaccurate and insufficiently critical analysis of the literature.",
+      "target": "This literature is re-examined in light of their conclusions, and the available and appropriate public health options are considered.",
+      "loss_target": 3.5876402854919434,
+      "loss_target_given_context": 2.3592758178710938,
+      "delta_loss": 1.2283644676208496,
+      "gain_ratio": 0.3423878566054217,
+      "score": -0.3423878566054217,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

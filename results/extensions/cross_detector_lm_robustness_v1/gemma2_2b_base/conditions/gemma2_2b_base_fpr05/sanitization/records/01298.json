@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2644",
+  "source_doc_id": "MED-2644",
+  "title": "p-Nonyl-phenol: an estrogenic xenobiotic released from \"modified\" polystyrene.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "p-Nonyl-phenol: an estrogenic xenobiotic released from \"modified\" polystyrene.\nAlkylphenols are widely used as plastic additives and surfactants. We report the identification of an alkylphenol, nonylphenol, as an estrogenic substance released from plastic centrifuge tubes. This compound was extracted with methanol, purified by flash chromatography and reverse-phase high performance liquid chromatography, and identified by gas chromatography-mass spectrometry. Nonylphenol induced both cell proliferation and progesterone receptor in human estrogen-sensitive MCF7 breast tumor cells. Nonylphenol also triggered mitotic activity in rat endometrium; this result confirms the reliability of the MCF7 cell proliferation bioassay. The estrogenic properties of alkylphenols, specifically nonylphenols, indicate that the use of plasticware containing these chemicals in experimental and diagnostic tests may lead to spurious results, and these compounds as well as alkylphenol polyethoxylates may also be potentially harmful to exposed humans and the environment at large.",
+  "sanitized_text": "p-Nonyl-phenol: an estrogenic xenobiotic released from \"modified\" polystyrene.\nAlkylphenols are widely used as plastic additives and surfactants. We report the identification of an alkylphenol, nonylphenol, as an estrogenic substance released from plastic centrifuge tubes. This compound was extracted with methanol, purified by flash chromatography and reverse-phase high performance liquid chromatography, and identified by gas chromatography-mass spectrometry. Nonylphenol induced both cell proliferation and progesterone receptor in human estrogen-sensitive MCF7 breast tumor cells. Nonylphenol also triggered mitotic activity in rat endometrium; this result confirms the reliability of the MCF7 cell proliferation bioassay. The estrogenic properties of alkylphenols, specifically nonylphenols, indicate that the use of plasticware containing these chemicals in experimental and diagnostic tests may lead to spurious results, and these compounds as well as alkylphenol polyethoxylates may also be potentially harmful to exposed humans and the environment at large.",
+  "modified": false,
+  "original_char_count": 1068,
+  "sanitized_char_count": 1068,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 729,
+      "boundary_end": 1068,
+      "context": "p-Nonyl-phenol: an estrogenic xenobiotic released from \"modified\" polystyrene. Alkylphenols are widely used as plastic additives and surfactants. We report the identification of an alkylphenol, nonylphenol, as an estrogenic substance released from plastic centrifuge tubes. This compound was extracted with methanol, purified by flash chromatography and reverse-phase high performance liquid chromatography, and identified by gas chromatography-mass spectrometry. Nonylphenol induced both cell proliferation and progesterone receptor in human estrogen-sensitive MCF7 breast tumor cells. Nonylphenol also triggered mitotic activity in rat endometrium; this result confirms the reliability of the MCF7 cell proliferation bioassay.",
+      "target": "The estrogenic properties of alkylphenols, specifically nonylphenols, indicate that the use of plasticware containing these chemicals in experimental and diagnostic tests may lead to spurious results, and these compounds as well as alkylphenol polyethoxylates may also be potentially harmful to exposed humans and the environment at large.",
+      "loss_target": 6.873475551605225,
+      "loss_target_given_context": 3.541839361190796,
+      "delta_loss": 3.3316361904144287,
+      "gain_ratio": 0.48470910609936796,
+      "score": -0.48470910609936796,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

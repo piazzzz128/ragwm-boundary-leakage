@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1097",
+  "source_doc_id": "MED-1097",
+  "title": "Moses Maimonides: medieval physician and scholar.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Moses Maimonides: medieval physician and scholar.\nMoses Maimonides (1135-1204), physician and philosopher, was the greatest Jewish thinker of the Middle Ages. Faced with a life of persecution, exile, and tragedy, Maimonides overcame obstacles to become the leading physician in his era, a clinician whose skills were sought across continents. Despite long days caring for patients, Maimonides wrote extensively about both medicine and philosophy. His medical works span all topics of clinical medicine and reflect rational thinking and an understanding of the relationship between mind and body. Well known for his philosophical writings, such as The Guide for the Perplexed, Maimonides codified Jewish law and revolutionized Jewish thinking. This review of his life and achievements provides insight into the world of a remarkable 12th-century physician and may offer valuable lessons for physicians today.",
+  "sanitized_text": "Moses Maimonides: medieval physician and scholar.\nMoses Maimonides (1135-1204), physician and philosopher, was the greatest Jewish thinker of the Middle Ages. Faced with a life of persecution, exile, and tragedy, Maimonides overcame obstacles to become the leading physician in his era, a clinician whose skills were sought across continents. Despite long days caring for patients, Maimonides wrote extensively about both medicine and philosophy. His medical works span all topics of clinical medicine and reflect rational thinking and an understanding of the relationship between mind and body. Well known for his philosophical writings, such as The Guide for the Perplexed, Maimonides codified Jewish law and revolutionized Jewish thinking. This review of his life and achievements provides insight into the world of a remarkable 12th-century physician and may offer valuable lessons for physicians today.",
+  "modified": false,
+  "original_char_count": 907,
+  "sanitized_char_count": 907,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 743,
+      "boundary_end": 907,
+      "context": "Moses Maimonides: medieval physician and scholar. Moses Maimonides (1135-1204), physician and philosopher, was the greatest Jewish thinker of the Middle Ages. Faced with a life of persecution, exile, and tragedy, Maimonides overcame obstacles to become the leading physician in his era, a clinician whose skills were sought across continents. Despite long days caring for patients, Maimonides wrote extensively about both medicine and philosophy. His medical works span all topics of clinical medicine and reflect rational thinking and an understanding of the relationship between mind and body. Well known for his philosophical writings, such as The Guide for the Perplexed, Maimonides codified Jewish law and revolutionized Jewish thinking.",
+      "target": "This review of his life and achievements provides insight into the world of a remarkable 12th-century physician and may offer valuable lessons for physicians today.",
+      "loss_target": 2.83244252204895,
+      "loss_target_given_context": 2.140803098678589,
+      "delta_loss": 0.6916394233703613,
+      "gain_ratio": 0.2441848044528151,
+      "score": -0.2441848044528151,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2103",
+  "source_doc_id": "MED-2103",
+  "title": "Plasma deoxycholic acid concentration is elevated in postmenopausal women with newly diagnosed breast cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Plasma deoxycholic acid concentration is elevated in postmenopausal women with newly diagnosed breast cancer.\nOBJECTIVE: High concentrations of plasma deoxycholic acid (DCA) are found in human breast cyst fluid and it has been hypothesised that this may be related to risk of breast cancer. The aim of this pilot study was to ascertain whether plasma bile acid concentrations were greater in women with breast cancer. DESIGN: A case-control study comparing postmenopausal women with breast cancer with healthy controls was conducted. SUBJECTS: Twenty Caucasian postmenopausal breast cancer patients were recruited at the time of diagnosis together with 20 healthy controls matched for age and body mass index. Exclusion criteria included any treatment for breast cancer, use of hormone replacement therapy in the last 12 months, diabetes mellitus, a history of liver or gall bladder disease or abnormal liver function. MEASUREMENTS: Fasting plasma bile acid concentrations were determined by gas-liquid chromatography/mass spectrometry. RESULTS: The mean plasma DCA concentration was 52% higher (P=0.012) in patients with breast cancer compared with controls. CONCLUSION: These results support the hypothesis that DCA may be involved in the aetiology of breast cancer.",
+  "sanitized_text": "Plasma deoxycholic acid concentration is elevated in postmenopausal women with newly diagnosed breast cancer.\nOBJECTIVE: High concentrations of plasma deoxycholic acid (DCA) are found in human breast cyst fluid and it has been hypothesised that this may be related to risk of breast cancer. The aim of this pilot study was to ascertain whether plasma bile acid concentrations were greater in women with breast cancer. DESIGN: A case-control study comparing postmenopausal women with breast cancer with healthy controls was conducted. SUBJECTS: Twenty Caucasian postmenopausal breast cancer patients were recruited at the time of diagnosis together with 20 healthy controls matched for age and body mass index. Exclusion criteria included any treatment for breast cancer, use of hormone replacement therapy in the last 12 months, diabetes mellitus, a history of liver or gall bladder disease or abnormal liver function. MEASUREMENTS: Fasting plasma bile acid concentrations were determined by gas-liquid chromatography/mass spectrometry. RESULTS: The mean plasma DCA concentration was 52% higher (P=0.012) in patients with breast cancer compared with controls. CONCLUSION: These results support the hypothesis that DCA may be involved in the aetiology of breast cancer.",
+  "modified": false,
+  "original_char_count": 1268,
+  "sanitized_char_count": 1268,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1160,
+      "boundary_end": 1268,
+      "context": "Plasma deoxycholic acid concentration is elevated in postmenopausal women with newly diagnosed breast cancer. OBJECTIVE: High concentrations of plasma deoxycholic acid (DCA) are found in human breast cyst fluid and it has been hypothesised that this may be related to risk of breast cancer. The aim of this pilot study was to ascertain whether plasma bile acid concentrations were greater in women with breast cancer. DESIGN: A case-control study comparing postmenopausal women with breast cancer with healthy controls was conducted. SUBJECTS: Twenty Caucasian postmenopausal breast cancer patients were recruited at the time of diagnosis together with 20 healthy controls matched for age and body mass index. Exclusion criteria included any treatment for breast cancer, use of hormone replacement therapy in the last 12 months, diabetes mellitus, a history of liver or gall bladder disease or abnormal liver function. MEASUREMENTS: Fasting plasma bile acid concentrations were determined by gas-liquid chromatography/mass spectrometry. RESULTS: The mean plasma DCA concentration was 52% higher (P=0.012) in patients with breast cancer compared with controls.",
+      "target": "CONCLUSION: These results support the hypothesis that DCA may be involved in the aetiology of breast cancer.",
+      "loss_target": 2.124267339706421,
+      "loss_target_given_context": 0.5767222046852112,
+      "delta_loss": 1.5475451350212097,
+      "gain_ratio": 0.7285077099735876,
+      "score": -0.7285077099735876,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4419",
+  "source_doc_id": "MED-4419",
+  "title": "Determination of citrulline in watermelon rind.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Determination of citrulline in watermelon rind.\nWatermelon (Citrullus vulgaris Schrad.) is a natural and rich source of the non-essential amino acid citrulline. Citrulline is used in the nitric oxide system in humans and has potential antioxidant and vasodilatation roles. A method using gas chromatography-mass spectrometry (GC-MS) was developed to separate citrulline from glutamic acid, which co-elute when analyzed by high performance liquid chromatography. Watermelons were analyzed by GC-MS to determine the citrulline content among varieties, types, flesh colors, and tissues. Citrulline content ranged from 3.9 to 28.5 mg/g dry weight (dwt) and was similar between seeded and seedless types (16.6 and 20.3 mg/g dwt, respectively). Red flesh watermelons had slightly less citrulline than the yellow or orange flesh watermelons (7.4, 28.5 and 14.2 mg/g dwt, respectively). Rind contained more citrulline than flesh on a dry weight basis (24.7 and 16.7 mg/g dwt, respectively) but a little less on a fresh weight (fwt) basis (1.3 and 1.9 mg/g fwt, respectively). These results indicate that watermelon rind, an underutilized agricultural waste, offers a source of natural citrulline.",
+  "sanitized_text": "Determination of citrulline in watermelon rind.\nWatermelon (Citrullus vulgaris Schrad.) is a natural and rich source of the non-essential amino acid citrulline. Citrulline is used in the nitric oxide system in humans and has potential antioxidant and vasodilatation roles. A method using gas chromatography-mass spectrometry (GC-MS) was developed to separate citrulline from glutamic acid, which co-elute when analyzed by high performance liquid chromatography. Watermelons were analyzed by GC-MS to determine the citrulline content among varieties, types, flesh colors, and tissues. Citrulline content ranged from 3.9 to 28.5 mg/g dry weight (dwt) and was similar between seeded and seedless types (16.6 and 20.3 mg/g dwt, respectively). Red flesh watermelons had slightly less citrulline than the yellow or orange flesh watermelons (7.4, 28.5 and 14.2 mg/g dwt, respectively). Rind contained more citrulline than flesh on a dry weight basis (24.7 and 16.7 mg/g dwt, respectively) but a little less on a fresh weight (fwt) basis (1.3 and 1.9 mg/g fwt, respectively). These results indicate that watermelon rind, an underutilized agricultural waste, offers a source of natural citrulline.",
+  "modified": false,
+  "original_char_count": 1188,
+  "sanitized_char_count": 1188,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1068,
+      "boundary_end": 1188,
+      "context": "Determination of citrulline in watermelon rind. Watermelon (Citrullus vulgaris Schrad.) is a natural and rich source of the non-essential amino acid citrulline. Citrulline is used in the nitric oxide system in humans and has potential antioxidant and vasodilatation roles. A method using gas chromatography-mass spectrometry (GC-MS) was developed to separate citrulline from glutamic acid, which co-elute when analyzed by high performance liquid chromatography. Watermelons were analyzed by GC-MS to determine the citrulline content among varieties, types, flesh colors, and tissues. Citrulline content ranged from 3.9 to 28.5 mg/g dry weight (dwt) and was similar between seeded and seedless types (16.6 and 20.3 mg/g dwt, respectively). Red flesh watermelons had slightly less citrulline than the yellow or orange flesh watermelons (7.4, 28.5 and 14.2 mg/g dwt, respectively). Rind contained more citrulline than flesh on a dry weight basis (24.7 and 16.7 mg/g dwt, respectively) but a little less on a fresh weight (fwt) basis (1.3 and 1.9 mg/g fwt, respectively).",
+      "target": "These results indicate that watermelon rind, an underutilized agricultural waste, offers a source of natural citrulline.",
+      "loss_target": 2.7202024459838867,
+      "loss_target_given_context": 1.4264614582061768,
+      "delta_loss": 1.29374098777771,
+      "gain_ratio": 0.47560467041259824,
+      "score": -0.47560467041259824,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

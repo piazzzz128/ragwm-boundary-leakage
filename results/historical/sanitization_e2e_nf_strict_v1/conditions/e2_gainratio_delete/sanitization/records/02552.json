@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4408",
+  "source_doc_id": "MED-4408",
+  "title": "Protein oxidation in emulsified cooked burger patties with added fruit extracts: Influence on colour and texture deterioration during chill storage.",
+  "original_text": "Protein oxidation in emulsified cooked burger patties with added fruit extracts: Influence on colour and texture deterioration during chill storage.\nThe influence of protein oxidation, as measured by the dinitrophenylhydrazine (DNPH) method, on colour and texture changes during chill storage (2 degrees C, 12days) of cooked burger patties was studied. Extracts from arbutus-berries (Arbutus unedoL., AU), common hawthorns (Crataegus monogynaL., CM), dog roses (Rosa caninaL., RC) and elm-leaf blackberries (Rubus ulmifoliusSchott., RU) were prepared, added to burger patties (3% of total weight) and evaluated as inhibitors of protein oxidation and colour and texture changes. Negative (no added extract, C) and positive control (added quercetin; 230mg/kg, Q) groups were also considered. The significant increase of protein carbonyls during chill storage of control burger patties reflect the intense oxidative degradation of the muscle proteins. Concomitantly, an intense loss of redness and increase of hardness was found to take place in burger patties throughout refrigerated storage. Most fruit extracts as well as Q significantly reduced the formation of protein carbonyls and inhibited colour and texture deterioration during chill storage. Likely mechanisms through which protein oxidation could play a major role on colour and texture changes during chill storage of burger patties are discussed. Amongst the extracts, RC was most suitable for use as a functional ingredient in processed meats since it enhanced oxidative stability, colour and texture properties of burger patties with no apparent drawbacks. Copyright 2010 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Protein oxidation in emulsified cooked burger patties with added fruit extracts: Influence on colour and texture deterioration during chill storage.\nThe influence of protein oxidation, as measured by the dinitrophenylhydrazine (DNPH) method, on colour and texture changes during chill storage (2 degrees C, 12days) of cooked burger patties was studied. Extracts from arbutus-berries (Arbutus unedoL., AU), common hawthorns (Crataegus monogynaL., CM), dog roses (Rosa caninaL., RC) and elm-leaf blackberries (Rubus ulmifoliusSchott., RU) were prepared, added to burger patties (3% of total weight) and evaluated as inhibitors of protein oxidation and colour and texture changes. Negative (no added extract, C) and positive control (added quercetin; 230mg/kg, Q) groups were also considered. The significant increase of protein carbonyls during chill storage of control burger patties reflect the intense oxidative degradation of the muscle proteins. Concomitantly, an intense loss of redness and increase of hardness was found to take place in burger patties throughout refrigerated storage. Most fruit extracts as well as Q significantly reduced the formation of protein carbonyls and inhibited colour and texture deterioration during chill storage. Likely mechanisms through which protein oxidation could play a major role on colour and texture changes during chill storage of burger patties are discussed. Amongst the extracts, RC was most suitable for use as a functional ingredient in processed meats since it enhanced oxidative stability, colour and texture properties of burger patties with no apparent drawbacks.",
+  "modified": true,
+  "original_char_count": 1669,
+  "sanitized_char_count": 1619,
+  "deleted_char_count": 50,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1620,
+      "boundary_end": 1648,
+      "context": "(Crataegus monogynaL., CM), dog roses (Rosa caninaL., RC) and elm-leaf blackberries (Rubus ulmifoliusSchott., RU) were prepared, added to burger patties (3% of total weight) and evaluated as inhibitors of protein oxidation and colour and texture changes. Negative (no added extract, C) and positive control (added quercetin; 230mg/kg, Q) groups were also considered. The significant increase of protein carbonyls during chill storage of control burger patties reflect the intense oxidative degradation of the muscle proteins. Concomitantly, an intense loss of redness and increase of hardness was found to take place in burger patties throughout refrigerated storage. Most fruit extracts as well as Q significantly reduced the formation of protein carbonyls and inhibited colour and texture deterioration during chill storage. Likely mechanisms through which protein oxidation could play a major role on colour and texture changes during chill storage of burger patties are discussed. Amongst the extracts, RC was most suitable for use as a functional ingredient in processed meats since it enhanced oxidative stability, colour and texture properties of burger patties with no apparent drawbacks.",
+      "target": "Copyright 2010 Elsevier Ltd.",
+      "loss_target": 1.519086480140686,
+      "loss_target_given_context": 2.0114874839782715,
+      "delta_loss": -0.49240100383758545,
+      "gain_ratio": -0.32414283865654775,
+      "score": 0.32414283865654775,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1408,
+      "boundary_end": 1619,
+      "context": "(DNPH) method, on colour and texture changes during chill storage (2 degrees C, 12days) of cooked burger patties was studied. Extracts from arbutus-berries (Arbutus unedoL., AU), common hawthorns (Crataegus monogynaL., CM), dog roses (Rosa caninaL., RC) and elm-leaf blackberries (Rubus ulmifoliusSchott., RU) were prepared, added to burger patties (3% of total weight) and evaluated as inhibitors of protein oxidation and colour and texture changes. Negative (no added extract, C) and positive control (added quercetin; 230mg/kg, Q) groups were also considered. The significant increase of protein carbonyls during chill storage of control burger patties reflect the intense oxidative degradation of the muscle proteins. Concomitantly, an intense loss of redness and increase of hardness was found to take place in burger patties throughout refrigerated storage. Most fruit extracts as well as Q significantly reduced the formation of protein carbonyls and inhibited colour and texture deterioration during chill storage. Likely mechanisms through which protein oxidation could play a major role on colour and texture changes during chill storage of burger patties are discussed.",
+      "target": "Amongst the extracts, RC was most suitable for use as a functional ingredient in processed meats since it enhanced oxidative stability, colour and texture properties of burger patties with no apparent drawbacks.",
+      "loss_target": 3.451664447784424,
+      "loss_target_given_context": 2.453688144683838,
+      "delta_loss": 0.9979763031005859,
+      "gain_ratio": 0.28912900375967115,
+      "score": -0.28912900375967115,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1620,
+      "target": "Copyright 2010 Elsevier Ltd.",
+      "score": 0.32414283865654775,
+      "deleted_suffix": "Copyright 2010 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 49
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

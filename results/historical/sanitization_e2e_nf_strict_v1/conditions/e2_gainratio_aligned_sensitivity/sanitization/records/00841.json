@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2035",
+  "source_doc_id": "MED-2035",
+  "title": "Gluten-sensitive diarrhea without evidence of celiac disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Gluten-sensitive diarrhea without evidence of celiac disease.\nEight adult female patients suffering from abdominal pain and chronic diarrhea which was often incapacitating and frequently nocturnal, had dramatic relief on a gluten-free diet and return of symptoms after gluten challenge. Previous nonspecific measures and a milk-free diet were ineffective. Multiple jejunal biopsies showed minor, but significant changes in cellularity which returned to normal on the gluten-free diet. Apart from a slight increase in jejunal cellularity, no immunological abnormalities were found after gluten challenge. Steatorrhea or other biochemical defects, common in celiac disease, were not found. It was concluded that these patients had a gluten-sensitive diarrhea, but had no evidence of celiac disease.",
+  "sanitized_text": "Gluten-sensitive diarrhea without evidence of celiac disease.\nEight adult female patients suffering from abdominal pain and chronic diarrhea which was often incapacitating and frequently nocturnal, had dramatic relief on a gluten-free diet and return of symptoms after gluten challenge. Previous nonspecific measures and a milk-free diet were ineffective. Multiple jejunal biopsies showed minor, but significant changes in cellularity which returned to normal on the gluten-free diet. Apart from a slight increase in jejunal cellularity, no immunological abnormalities were found after gluten challenge. Steatorrhea or other biochemical defects, common in celiac disease, were not found. It was concluded that these patients had a gluten-sensitive diarrhea, but had no evidence of celiac disease.",
+  "modified": false,
+  "original_char_count": 796,
+  "sanitized_char_count": 796,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 688,
+      "boundary_end": 796,
+      "context": "Gluten-sensitive diarrhea without evidence of celiac disease. Eight adult female patients suffering from abdominal pain and chronic diarrhea which was often incapacitating and frequently nocturnal, had dramatic relief on a gluten-free diet and return of symptoms after gluten challenge. Previous nonspecific measures and a milk-free diet were ineffective. Multiple jejunal biopsies showed minor, but significant changes in cellularity which returned to normal on the gluten-free diet. Apart from a slight increase in jejunal cellularity, no immunological abnormalities were found after gluten challenge. Steatorrhea or other biochemical defects, common in celiac disease, were not found.",
+      "target": "It was concluded that these patients had a gluten-sensitive diarrhea, but had no evidence of celiac disease.",
+      "loss_target": 2.9289968013763428,
+      "loss_target_given_context": 0.9068763852119446,
+      "delta_loss": 2.022120416164398,
+      "gain_ratio": 0.6903798649470012,
+      "score": -0.6903798649470012,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

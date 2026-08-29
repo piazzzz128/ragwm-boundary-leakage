@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4677",
+  "source_doc_id": "MED-4677",
+  "title": "Does milk increase mucus production?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Does milk increase mucus production?\nExcessive milk consumption has a long association with increased respiratory tract mucus production and asthma. Such an association cannot be explained using a conventional allergic paradigm and there is limited medical evidence showing causality. In the human colon, beta-casomorphin-7 (beta-CM-7), an exorphin derived from the breakdown of A1 milk, stimulates mucus production from gut MUC5AC glands. In the presence of inflammation similar mucus overproduction from respiratory tract MUC5AC glands characterises many respiratory tract diseases. beta-CM-7 from the blood stream could stimulate the production and secretion of mucus production from these respiratory glands. Such a hypothesis could be tested in vitro using quantitative RT-PCR to show that the addition of beta-CM-7 into an incubation medium of respiratory goblet cells elicits an increase in MUC5AC mRNA and by identifying beta-CM-7 in the blood of asthmatic patients. This association may not necessarily be simply cause and effect as the person has to be consuming A1 milk, beta-CM-7 must pass into the systemic circulation and the tissues have to be actively inflamed. These prerequisites could explain why only a subgroup of the population, who have increased respiratory tract mucus production, find that many of their symptoms, including asthma, improve on a dairy elimination diet. (c) 2009 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Does milk increase mucus production?\nExcessive milk consumption has a long association with increased respiratory tract mucus production and asthma. Such an association cannot be explained using a conventional allergic paradigm and there is limited medical evidence showing causality. In the human colon, beta-casomorphin-7 (beta-CM-7), an exorphin derived from the breakdown of A1 milk, stimulates mucus production from gut MUC5AC glands. In the presence of inflammation similar mucus overproduction from respiratory tract MUC5AC glands characterises many respiratory tract diseases. beta-CM-7 from the blood stream could stimulate the production and secretion of mucus production from these respiratory glands. Such a hypothesis could be tested in vitro using quantitative RT-PCR to show that the addition of beta-CM-7 into an incubation medium of respiratory goblet cells elicits an increase in MUC5AC mRNA and by identifying beta-CM-7 in the blood of asthmatic patients. This association may not necessarily be simply cause and effect as the person has to be consuming A1 milk, beta-CM-7 must pass into the systemic circulation and the tissues have to be actively inflamed. These prerequisites could explain why only a subgroup of the population, who have increased respiratory tract mucus production, find that many of their symptoms, including asthma, improve on a dairy elimination diet. (c) 2009 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1438,
+  "sanitized_char_count": 1438,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1178,
+      "boundary_end": 1394,
+      "context": "Does milk increase mucus production? Excessive milk consumption has a long association with increased respiratory tract mucus production and asthma. Such an association cannot be explained using a conventional allergic paradigm and there is limited medical evidence showing causality. In the human colon, beta-casomorphin-7 (beta-CM-7), an exorphin derived from the breakdown of A1 milk, stimulates mucus production from gut MUC5AC glands. In the presence of inflammation similar mucus overproduction from respiratory tract MUC5AC glands characterises many respiratory tract diseases. beta-CM-7 from the blood stream could stimulate the production and secretion of mucus production from these respiratory glands. Such a hypothesis could be tested in vitro using quantitative RT-PCR to show that the addition of beta-CM-7 into an incubation medium of respiratory goblet cells elicits an increase in MUC5AC mRNA and by identifying beta-CM-7 in the blood of asthmatic patients. This association may not necessarily be simply cause and effect as the person has to be consuming A1 milk, beta-CM-7 must pass into the systemic circulation and the tissues have to be actively inflamed.",
+      "target": "These prerequisites could explain why only a subgroup of the population, who have increased respiratory tract mucus production, find that many of their symptoms, including asthma, improve on a dairy elimination diet.",
+      "loss_target": 3.338067054748535,
+      "loss_target_given_context": 2.0275845527648926,
+      "delta_loss": 1.3104825019836426,
+      "gain_ratio": 0.3925872310202482,
+      "score": -0.3925872310202482,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

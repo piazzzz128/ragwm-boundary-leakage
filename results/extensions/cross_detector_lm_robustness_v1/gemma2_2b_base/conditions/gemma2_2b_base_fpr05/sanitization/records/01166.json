@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2418",
+  "source_doc_id": "MED-2418",
+  "title": "Consumption of deep-fried foods and risk of prostate cancera,b",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Consumption of deep-fried foods and risk of prostate cancera,b\nBackground Evidence suggests that high-heat cooking methods may increase the risk of prostate cancer (PCa). The addition of oil/fat, as in deep-frying, may be of particular concern, and has not specifically been investigated in relation to PCa. Potential mechanisms include the formation of potentially carcinogenic agents such as aldehydes, acrolein, heterocyclic amines, polycyclic aromatic hydrocarbons, and acrylamide. Methods We estimated odds ratios (OR) and 95% confidence intervals (CI) for the association between tertiles of intake of deep-fried foods from a food frequency questionnaire (French fries, fried chicken, fried fish, doughnuts and snack chips) and PCa risk, adjusted for potential confounders, among 1,549 cases and 1,492 controls. We additionally examined associations with more aggressive PCa (defined as regional/distant stage, elevated Gleason score or prostate specific antigen level). Results Compared with <1/week, there was a positive association with PCa risk for intake ≥ 1/week of French fries (OR=1.37; 95% CI, 1.11–1.69), fried chicken (OR=1.30; 95% CI, 1.04–1.62), fried fish (OR=1.32; 95% CI, 1.05–1.66), and doughnuts (OR=1.35; 95% CI, 1.11–1.66). There was no association for snack chips (OR=1.08; 95% CI, 0.89–1.32). Most of the estimates were slightly stronger for more aggressive disease (OR=1.41; 95% CI, 1.04–1.92 for fried fish). Conclusion Regular consumption of select deep-fried foods is associated with increased PCa risk. Whether this risk is specific to deep-fried foods, or whether it represents risk associated with regular intake of foods exposed to high heat and/or other aspects of the Western lifestyle, such as fast food consumption, remains to be determined.",
+  "sanitized_text": "Consumption of deep-fried foods and risk of prostate cancera,b\nBackground Evidence suggests that high-heat cooking methods may increase the risk of prostate cancer (PCa). The addition of oil/fat, as in deep-frying, may be of particular concern, and has not specifically been investigated in relation to PCa. Potential mechanisms include the formation of potentially carcinogenic agents such as aldehydes, acrolein, heterocyclic amines, polycyclic aromatic hydrocarbons, and acrylamide. Methods We estimated odds ratios (OR) and 95% confidence intervals (CI) for the association between tertiles of intake of deep-fried foods from a food frequency questionnaire (French fries, fried chicken, fried fish, doughnuts and snack chips) and PCa risk, adjusted for potential confounders, among 1,549 cases and 1,492 controls. We additionally examined associations with more aggressive PCa (defined as regional/distant stage, elevated Gleason score or prostate specific antigen level). Results Compared with <1/week, there was a positive association with PCa risk for intake ≥ 1/week of French fries (OR=1.37; 95% CI, 1.11–1.69), fried chicken (OR=1.30; 95% CI, 1.04–1.62), fried fish (OR=1.32; 95% CI, 1.05–1.66), and doughnuts (OR=1.35; 95% CI, 1.11–1.66). There was no association for snack chips (OR=1.08; 95% CI, 0.89–1.32). Most of the estimates were slightly stronger for more aggressive disease (OR=1.41; 95% CI, 1.04–1.92 for fried fish). Conclusion Regular consumption of select deep-fried foods is associated with increased PCa risk. Whether this risk is specific to deep-fried foods, or whether it represents risk associated with regular intake of foods exposed to high heat and/or other aspects of the Western lifestyle, such as fast food consumption, remains to be determined.",
+  "modified": false,
+  "original_char_count": 1781,
+  "sanitized_char_count": 1781,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1536,
+      "boundary_end": 1781,
+      "context": "the formation of potentially carcinogenic agents such as aldehydes, acrolein, heterocyclic amines, polycyclic aromatic hydrocarbons, and acrylamide. Methods We estimated odds ratios (OR) and 95% confidence intervals (CI) for the association between tertiles of intake of deep-fried foods from a food frequency questionnaire (French fries, fried chicken, fried fish, doughnuts and snack chips) and PCa risk, adjusted for potential confounders, among 1,549 cases and 1,492 controls. We additionally examined associations with more aggressive PCa (defined as regional/distant stage, elevated Gleason score or prostate specific antigen level). Results Compared with <1/week, there was a positive association with PCa risk for intake ≥ 1/week of French fries (OR=1.37; 95% CI, 1.11–1.69), fried chicken (OR=1.30; 95% CI, 1.04–1.62), fried fish (OR=1.32; 95% CI, 1.05–1.66), and doughnuts (OR=1.35; 95% CI, 1.11–1.66). There was no association for snack chips (OR=1.08; 95% CI, 0.89–1.32). Most of the estimates were slightly stronger for more aggressive disease (OR=1.41; 95% CI, 1.04–1.92 for fried fish). Conclusion Regular consumption of select deep-fried foods is associated with increased PCa risk.",
+      "target": "Whether this risk is specific to deep-fried foods, or whether it represents risk associated with regular intake of foods exposed to high heat and/or other aspects of the Western lifestyle, such as fast food consumption, remains to be determined.",
+      "loss_target": 7.1850972175598145,
+      "loss_target_given_context": 3.4071593284606934,
+      "delta_loss": 3.777937889099121,
+      "gain_ratio": 0.5258019167598925,
+      "score": -0.5258019167598925,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

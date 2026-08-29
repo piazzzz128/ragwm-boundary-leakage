@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3013",
+  "source_doc_id": "MED-3013",
+  "title": "Reducing the staggering costs of environmental disease in children, estimated at $76.6 billion in 2008.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Reducing the staggering costs of environmental disease in children, estimated at $76.6 billion in 2008.\nA 2002 analysis documented $54.9 billion in annual costs of environmentally mediated diseases in US children. However, few important changes in federal policy have been implemented to prevent exposures to toxic chemicals. We therefore updated and expanded the previous analysis and found that the costs of lead poisoning, prenatal methylmercury exposure, childhood cancer, asthma, intellectual disability, autism, and attention deficit hyperactivity disorder were $76.6 billion in 2008. To prevent further increases in these costs, efforts are needed to institute premarket testing of new chemicals; conduct toxicity testing on chemicals already in use; reduce lead-based paint hazards; and curb mercury emissions from coal-fired power plants.",
+  "sanitized_text": "Reducing the staggering costs of environmental disease in children, estimated at $76.6 billion in 2008.\nA 2002 analysis documented $54.9 billion in annual costs of environmentally mediated diseases in US children. However, few important changes in federal policy have been implemented to prevent exposures to toxic chemicals. We therefore updated and expanded the previous analysis and found that the costs of lead poisoning, prenatal methylmercury exposure, childhood cancer, asthma, intellectual disability, autism, and attention deficit hyperactivity disorder were $76.6 billion in 2008. To prevent further increases in these costs, efforts are needed to institute premarket testing of new chemicals; conduct toxicity testing on chemicals already in use; reduce lead-based paint hazards; and curb mercury emissions from coal-fired power plants.",
+  "modified": false,
+  "original_char_count": 847,
+  "sanitized_char_count": 847,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 591,
+      "boundary_end": 847,
+      "context": "Reducing the staggering costs of environmental disease in children, estimated at $76.6 billion in 2008. A 2002 analysis documented $54.9 billion in annual costs of environmentally mediated diseases in US children. However, few important changes in federal policy have been implemented to prevent exposures to toxic chemicals. We therefore updated and expanded the previous analysis and found that the costs of lead poisoning, prenatal methylmercury exposure, childhood cancer, asthma, intellectual disability, autism, and attention deficit hyperactivity disorder were $76.6 billion in 2008.",
+      "target": "To prevent further increases in these costs, efforts are needed to institute premarket testing of new chemicals; conduct toxicity testing on chemicals already in use; reduce lead-based paint hazards; and curb mercury emissions from coal-fired power plants.",
+      "loss_target": 2.6597774028778076,
+      "loss_target_given_context": 1.9706767797470093,
+      "delta_loss": 0.6891006231307983,
+      "gain_ratio": 0.2590820654334494,
+      "score": -0.2590820654334494,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

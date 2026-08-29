@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4095",
+  "source_doc_id": "MED-4095",
+  "title": "Mortality from Western cancers rose dramatically among African-Americans during the 20th century: are dietary animal products to blame?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Mortality from Western cancers rose dramatically among African-Americans during the 20th century: are dietary animal products to blame?\nStatistics compiled by the National Cancer Institute indicate that, between 1935 and 1974, age-adjusted mortality from most 'Western' cancers (those of the breast, colon, prostate, pancreas, ovary, and kidney) rose dramatically in African-Americans. This phenomenon is paralleled by marked increases in the incidence of these cancers in Asia and Southern Europe during the latter 20th century, in conjunction with increased intakes of dietary animal products. A credible case can be made that diets rich in animal products work in various complementary ways to up-regulate serum levels of insulin, free IGF-I, and free sex hormones: hormones that appear to have important promotional activity for Western cancers. It seems likely that dietary animal product intake by black Americans increased substantially during the 20th century, and that this fact is primarily responsible for their concurrent marked increase in mortality from Western cancers. A whole-food vegan diet rich in fruits and vegetables, especially if coupled with regular exercise and smoking avoidance, could be expected to have a remarkably positive impact on African-American cancer risk, reversing the increases in cancer risk incurred during the 20th century. Copyright 2001 Harcourt Publishers Ltd.",
+  "sanitized_text": "Mortality from Western cancers rose dramatically among African-Americans during the 20th century: are dietary animal products to blame?\nStatistics compiled by the National Cancer Institute indicate that, between 1935 and 1974, age-adjusted mortality from most 'Western' cancers (those of the breast, colon, prostate, pancreas, ovary, and kidney) rose dramatically in African-Americans. This phenomenon is paralleled by marked increases in the incidence of these cancers in Asia and Southern Europe during the latter 20th century, in conjunction with increased intakes of dietary animal products. A credible case can be made that diets rich in animal products work in various complementary ways to up-regulate serum levels of insulin, free IGF-I, and free sex hormones: hormones that appear to have important promotional activity for Western cancers. It seems likely that dietary animal product intake by black Americans increased substantially during the 20th century, and that this fact is primarily responsible for their concurrent marked increase in mortality from Western cancers. A whole-food vegan diet rich in fruits and vegetables, especially if coupled with regular exercise and smoking avoidance, could be expected to have a remarkably positive impact on African-American cancer risk, reversing the increases in cancer risk incurred during the 20th century. Copyright 2001 Harcourt Publishers Ltd.",
+  "modified": false,
+  "original_char_count": 1407,
+  "sanitized_char_count": 1407,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1368,
+      "boundary_end": 1407,
+      "context": "Cancer Institute indicate that, between 1935 and 1974, age-adjusted mortality from most 'Western' cancers (those of the breast, colon, prostate, pancreas, ovary, and kidney) rose dramatically in African-Americans. This phenomenon is paralleled by marked increases in the incidence of these cancers in Asia and Southern Europe during the latter 20th century, in conjunction with increased intakes of dietary animal products. A credible case can be made that diets rich in animal products work in various complementary ways to up-regulate serum levels of insulin, free IGF-I, and free sex hormones: hormones that appear to have important promotional activity for Western cancers. It seems likely that dietary animal product intake by black Americans increased substantially during the 20th century, and that this fact is primarily responsible for their concurrent marked increase in mortality from Western cancers. A whole-food vegan diet rich in fruits and vegetables, especially if coupled with regular exercise and smoking avoidance, could be expected to have a remarkably positive impact on African-American cancer risk, reversing the increases in cancer risk incurred during the 20th century.",
+      "target": "Copyright 2001 Harcourt Publishers Ltd.",
+      "loss_target": 2.3148696422576904,
+      "loss_target_given_context": 1.2024695873260498,
+      "delta_loss": 1.1124000549316406,
+      "gain_ratio": 0.48054544179287684,
+      "score": -0.48054544179287684,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

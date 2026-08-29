@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4438",
+  "source_doc_id": "MED-4438",
+  "title": "Caffeine-Not just a stimulant.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Caffeine-Not just a stimulant.\nOBJECTIVE: The beneficial effects of human caffeine consumption deserve clarification. METHODS: A detailed literature review was conducted and summarized. RESULTS: A large body of scientific evidence describes the beneficial effects of human caffeine consumption on a number of physiologic systems. CONCLUSION: The consumption of moderate amounts of caffeine 1) increases energy availability, 2) increases daily energy expenditure, 3) decreases fatigue, 4) decreases the sense of effort associated with physical activity, 5) enhances physical performance, 6) enhances motor performance, 7) enhances cognitive performance, 8) increases alertness, wakefulness, and feelings of \"energy,\" 9) decreases mental fatigue, 10) quickens reactions, 11) increases the accuracy of reactions, 12) increases the ability to concentrate and focus attention, 13) enhances short-term memory, 14) increases the ability to solve problems requiring reasoning, 15) increases the ability to make correct decisions, 16) enhances cognitive functioning capabilities and neuromuscular coordination, and 17) in otherwise healthy non-pregnant adults is safe. Copyright © 2010 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Caffeine-Not just a stimulant.\nOBJECTIVE: The beneficial effects of human caffeine consumption deserve clarification. METHODS: A detailed literature review was conducted and summarized. RESULTS: A large body of scientific evidence describes the beneficial effects of human caffeine consumption on a number of physiologic systems. CONCLUSION: The consumption of moderate amounts of caffeine 1) increases energy availability, 2) increases daily energy expenditure, 3) decreases fatigue, 4) decreases the sense of effort associated with physical activity, 5) enhances physical performance, 6) enhances motor performance, 7) enhances cognitive performance, 8) increases alertness, wakefulness, and feelings of \"energy,\" 9) decreases mental fatigue, 10) quickens reactions, 11) increases the accuracy of reactions, 12) increases the ability to concentrate and focus attention, 13) enhances short-term memory, 14) increases the ability to solve problems requiring reasoning, 15) increases the ability to make correct decisions, 16) enhances cognitive functioning capabilities and neuromuscular coordination, and 17) in otherwise healthy non-pregnant adults is safe. Copyright © 2010 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1211,
+  "sanitized_char_count": 1211,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1160,
+      "boundary_end": 1190,
+      "context": "Caffeine-Not just a stimulant. OBJECTIVE: The beneficial effects of human caffeine consumption deserve clarification. METHODS: A detailed literature review was conducted and summarized. RESULTS: A large body of scientific evidence describes the beneficial effects of human caffeine consumption on a number of physiologic systems. CONCLUSION: The consumption of moderate amounts of caffeine 1) increases energy availability, 2) increases daily energy expenditure, 3) decreases fatigue, 4) decreases the sense of effort associated with physical activity, 5) enhances physical performance, 6) enhances motor performance, 7) enhances cognitive performance, 8) increases alertness, wakefulness, and feelings of \"energy,\" 9) decreases mental fatigue, 10) quickens reactions, 11) increases the accuracy of reactions, 12) increases the ability to concentrate and focus attention, 13) enhances short-term memory, 14) increases the ability to solve problems requiring reasoning, 15) increases the ability to make correct decisions, 16) enhances cognitive functioning capabilities and neuromuscular coordination, and 17) in otherwise healthy non-pregnant adults is safe.",
+      "target": "Copyright © 2010 Elsevier Inc.",
+      "loss_target": 1.0682905912399292,
+      "loss_target_given_context": 0.44333934783935547,
+      "delta_loss": 0.6249512434005737,
+      "gain_ratio": 0.5850011677770313,
+      "score": -0.5850011677770313,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

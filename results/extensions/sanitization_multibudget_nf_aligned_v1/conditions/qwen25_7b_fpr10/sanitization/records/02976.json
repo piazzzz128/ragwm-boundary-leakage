@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4899",
+  "source_doc_id": "MED-4899",
+  "title": "Quantitative measurement of endogenous estrogen metabolites, risk-factors for development of breast cancer, in commercial milk products by LC-MS/MS.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Quantitative measurement of endogenous estrogen metabolites, risk-factors for development of breast cancer, in commercial milk products by LC-MS/MS.\nIncreased levels of estrogen metabolites (EM) are associated with cancers of the reproductive system. One potential dietary source of EM is milk. In this study, the absolute quantities of unconjugated (free) and unconjugated plus conjugated (total) EM were measured in a variety of commercial milks (whole, 2%, skim, and buttermilk). The results show that the milk products tested contain considerable levels of EM; however, the levels of unconjugated EM in skim milk were substantially lower than that observed in whole milk, 2% milk, and buttermilk. Whole milk contained the lowest overall levels of EM while buttermilk contained the highest. As anticipated, soy milk did not contain the mammalian EM measured using this method. The relatively high levels of catechol estrogens detected in milk products support the theory that milk consumption is a source of EM and their ingestion may have a dietary influence on cancer risk.",
+  "sanitized_text": "Quantitative measurement of endogenous estrogen metabolites, risk-factors for development of breast cancer, in commercial milk products by LC-MS/MS.\nIncreased levels of estrogen metabolites (EM) are associated with cancers of the reproductive system. One potential dietary source of EM is milk. In this study, the absolute quantities of unconjugated (free) and unconjugated plus conjugated (total) EM were measured in a variety of commercial milks (whole, 2%, skim, and buttermilk). The results show that the milk products tested contain considerable levels of EM; however, the levels of unconjugated EM in skim milk were substantially lower than that observed in whole milk, 2% milk, and buttermilk. Whole milk contained the lowest overall levels of EM while buttermilk contained the highest. As anticipated, soy milk did not contain the mammalian EM measured using this method. The relatively high levels of catechol estrogens detected in milk products support the theory that milk consumption is a source of EM and their ingestion may have a dietary influence on cancer risk.",
+  "modified": false,
+  "original_char_count": 1078,
+  "sanitized_char_count": 1078,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 880,
+      "boundary_end": 1078,
+      "context": "Quantitative measurement of endogenous estrogen metabolites, risk-factors for development of breast cancer, in commercial milk products by LC-MS/MS. Increased levels of estrogen metabolites (EM) are associated with cancers of the reproductive system. One potential dietary source of EM is milk. In this study, the absolute quantities of unconjugated (free) and unconjugated plus conjugated (total) EM were measured in a variety of commercial milks (whole, 2%, skim, and buttermilk). The results show that the milk products tested contain considerable levels of EM; however, the levels of unconjugated EM in skim milk were substantially lower than that observed in whole milk, 2% milk, and buttermilk. Whole milk contained the lowest overall levels of EM while buttermilk contained the highest. As anticipated, soy milk did not contain the mammalian EM measured using this method.",
+      "target": "The relatively high levels of catechol estrogens detected in milk products support the theory that milk consumption is a source of EM and their ingestion may have a dietary influence on cancer risk.",
+      "loss_target": 3.3340983390808105,
+      "loss_target_given_context": 2.0990047454833984,
+      "delta_loss": 1.235093593597412,
+      "gain_ratio": 0.37044306075804573,
+      "score": -0.37044306075804573,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

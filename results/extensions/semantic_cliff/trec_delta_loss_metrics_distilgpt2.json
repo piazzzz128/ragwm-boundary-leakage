@@ -1,0 +1,64 @@
+{
+  "dataset": "trec-covid",
+  "boundary_file": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3.json",
+  "model_repo_id": "distilgpt2",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/distilgpt2",
+  "tag": "distilgpt2",
+  "n_input": 458,
+  "n_scored": 458,
+  "n_failed": 0,
+  "positive_inject": 229,
+  "negative_clean": 229,
+  "record_delta_loss": {
+    "roc_auc": 0.7797143456455826,
+    "pr_auc": 0.8094132369286255,
+    "score_mean_inject": -0.1460920442139738,
+    "score_mean_clean": -0.7429124590611353
+  },
+  "record_gain_ratio": {
+    "roc_auc": 0.8018725806144048,
+    "pr_auc": 0.8234481980955601,
+    "score_mean_inject": -0.027595479533528807,
+    "score_mean_clean": -0.15916337503269745
+  },
+  "group_mean_delta_loss": {
+    "groups": 279,
+    "positive_groups": 50,
+    "negative_groups": 229,
+    "roc_auc": 0.792183406113537,
+    "pr_auc": 0.5738025809249518,
+    "score_mean_inject": -0.16065690104166666,
+    "score_mean_clean": -0.7429124590611353
+  },
+  "group_median_delta_loss": {
+    "groups": 279,
+    "positive_groups": 50,
+    "negative_groups": 229,
+    "roc_auc": 0.7906550218340612,
+    "pr_auc": 0.5657830191319343,
+    "score_mean_inject": -0.16716796875,
+    "score_mean_clean": -0.7429124590611353
+  },
+  "group_mean_gain_ratio": {
+    "groups": 279,
+    "positive_groups": 50,
+    "negative_groups": 229,
+    "roc_auc": 0.8143231441048034,
+    "pr_auc": 0.5879589995611749,
+    "score_mean_inject": -0.02941881980779404,
+    "score_mean_clean": -0.15916337503269745
+  },
+  "group_median_gain_ratio": {
+    "groups": 279,
+    "positive_groups": 50,
+    "negative_groups": 229,
+    "roc_auc": 0.8097816593886462,
+    "pr_auc": 0.579414008647023,
+    "score_mean_inject": -0.03168383026444928,
+    "score_mean_clean": -0.15916337503269745
+  },
+  "delta_loss_mean_inject": 0.1460920442139738,
+  "delta_loss_mean_clean": 0.7429124590611353,
+  "gain_ratio_mean_inject": 0.027595479533528807,
+  "gain_ratio_mean_clean": 0.15916337503269745
+}

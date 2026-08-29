@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2721",
+  "source_doc_id": "MED-2721",
+  "title": "Increased food energy supply is more than sufficient to explain the US epidemic of obesity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Increased food energy supply is more than sufficient to explain the US epidemic of obesity.\nBACKGROUND: The major drivers of the obesity epidemic are much debated and have considerable policy importance for the population-wide prevention of obesity. OBJECTIVE: The objective was to determine the relative contributions of increased energy intake and reduced physical activity to the US obesity epidemic. DESIGN: We predicted the changes in weight from the changes in estimated energy intakes in US children and adults between the 1970s and 2000s. The increased US food energy supply (adjusted for wastage and assumed to be proportional to energy intake) was apportioned to children and adults and inserted into equations that relate energy intake to body weight derived from doubly labeled water studies. The weight increases predicted from the equations were compared with weight increases measured in representative US surveys over the same period. RESULTS: For children, the measured weight gain was 4.0 kg, and the predicted weight gain for the increased energy intake was identical at 4.0 kg. For adults, the measured weight gain was 8.6 kg, whereas the predicted weight gain was somewhat higher (10.8 kg). CONCLUSIONS: Increased energy intake appears to be more than sufficient to explain weight gain in the US population. A reversal of the increase in energy intake of approximately 2000 kJ/d (500 kcal/d) for adults and of 1500 kJ/d (350 kcal/d) for children would be needed for a reversal to the mean body weights of the 1970s. Alternatively, large compensatory increases in physical activity (eg, 110-150 min of walking/d), or a combination of both, would achieve the same outcome. Population approaches to reducing obesity should emphasize a reduction in the drivers of increased energy intake.",
+  "sanitized_text": "Increased food energy supply is more than sufficient to explain the US epidemic of obesity.\nBACKGROUND: The major drivers of the obesity epidemic are much debated and have considerable policy importance for the population-wide prevention of obesity. OBJECTIVE: The objective was to determine the relative contributions of increased energy intake and reduced physical activity to the US obesity epidemic. DESIGN: We predicted the changes in weight from the changes in estimated energy intakes in US children and adults between the 1970s and 2000s. The increased US food energy supply (adjusted for wastage and assumed to be proportional to energy intake) was apportioned to children and adults and inserted into equations that relate energy intake to body weight derived from doubly labeled water studies. The weight increases predicted from the equations were compared with weight increases measured in representative US surveys over the same period. RESULTS: For children, the measured weight gain was 4.0 kg, and the predicted weight gain for the increased energy intake was identical at 4.0 kg. For adults, the measured weight gain was 8.6 kg, whereas the predicted weight gain was somewhat higher (10.8 kg). CONCLUSIONS: Increased energy intake appears to be more than sufficient to explain weight gain in the US population. A reversal of the increase in energy intake of approximately 2000 kJ/d (500 kcal/d) for adults and of 1500 kJ/d (350 kcal/d) for children would be needed for a reversal to the mean body weights of the 1970s. Alternatively, large compensatory increases in physical activity (eg, 110-150 min of walking/d), or a combination of both, would achieve the same outcome. Population approaches to reducing obesity should emphasize a reduction in the drivers of increased energy intake.",
+  "modified": false,
+  "original_char_count": 1805,
+  "sanitized_char_count": 1805,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1692,
+      "boundary_end": 1805,
+      "context": "in US children and adults between the 1970s and 2000s. The increased US food energy supply (adjusted for wastage and assumed to be proportional to energy intake) was apportioned to children and adults and inserted into equations that relate energy intake to body weight derived from doubly labeled water studies. The weight increases predicted from the equations were compared with weight increases measured in representative US surveys over the same period. RESULTS: For children, the measured weight gain was 4.0 kg, and the predicted weight gain for the increased energy intake was identical at 4.0 kg. For adults, the measured weight gain was 8.6 kg, whereas the predicted weight gain was somewhat higher (10.8 kg). CONCLUSIONS: Increased energy intake appears to be more than sufficient to explain weight gain in the US population. A reversal of the increase in energy intake of approximately 2000 kJ/d (500 kcal/d) for adults and of 1500 kJ/d (350 kcal/d) for children would be needed for a reversal to the mean body weights of the 1970s. Alternatively, large compensatory increases in physical activity (eg, 110-150 min of walking/d), or a combination of both, would achieve the same outcome.",
+      "target": "Population approaches to reducing obesity should emphasize a reduction in the drivers of increased energy intake.",
+      "loss_target": 3.804196834564209,
+      "loss_target_given_context": 2.6145360469818115,
+      "delta_loss": 1.1896607875823975,
+      "gain_ratio": 0.3127232473286781,
+      "score": -0.3127232473286781,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

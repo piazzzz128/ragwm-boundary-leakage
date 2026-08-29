@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2284",
+  "source_doc_id": "MED-2284",
+  "title": "COX-2 inhibitors: a story of greed, deception and death.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "COX-2 inhibitors: a story of greed, deception and death.\nIn 1999, drug manufacturers introduced a class of NSAIDs called COX-2 inhibitors or coxibs. The drugs were avidly promoted directly to the consumers and became bestsellers from the start. Arthritis sufferers were eager to take medications that eased joint pain with less risk of causing gastrointestinal pain, bleeding and other side-effects. In the year after their introduction, doctors wrote over 100 million prescriptions for celecoxib (Celebrex) and rofecoxib (Vioxx). Celebrex is the sixth best-selling drug, with sales of more than US$ 4 billion since its debut in 1999. Vioxx had sales of US$ 2.6 billion in 2001. However, the coxibs increase the risk of heart attacks and strokes, and their price, in the USA, is obscene. The manufacturers faced a possibly complicit, toothless and bloodless FDA, and used every maneuvering to fleece the patients. We must now reflect on attitudes that we thought only belong to the tobacco industry. Fortunately, safe and active alternatives exist.",
+  "sanitized_text": "COX-2 inhibitors: a story of greed, deception and death.\nIn 1999, drug manufacturers introduced a class of NSAIDs called COX-2 inhibitors or coxibs. The drugs were avidly promoted directly to the consumers and became bestsellers from the start. Arthritis sufferers were eager to take medications that eased joint pain with less risk of causing gastrointestinal pain, bleeding and other side-effects. In the year after their introduction, doctors wrote over 100 million prescriptions for celecoxib (Celebrex) and rofecoxib (Vioxx). Celebrex is the sixth best-selling drug, with sales of more than US$ 4 billion since its debut in 1999. Vioxx had sales of US$ 2.6 billion in 2001. However, the coxibs increase the risk of heart attacks and strokes, and their price, in the USA, is obscene. The manufacturers faced a possibly complicit, toothless and bloodless FDA, and used every maneuvering to fleece the patients. We must now reflect on attitudes that we thought only belong to the tobacco industry. Fortunately, safe and active alternatives exist.",
+  "modified": false,
+  "original_char_count": 1048,
+  "sanitized_char_count": 1048,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1000,
+      "boundary_end": 1048,
+      "context": "COX-2 inhibitors: a story of greed, deception and death. In 1999, drug manufacturers introduced a class of NSAIDs called COX-2 inhibitors or coxibs. The drugs were avidly promoted directly to the consumers and became bestsellers from the start. Arthritis sufferers were eager to take medications that eased joint pain with less risk of causing gastrointestinal pain, bleeding and other side-effects. In the year after their introduction, doctors wrote over 100 million prescriptions for celecoxib (Celebrex) and rofecoxib (Vioxx). Celebrex is the sixth best-selling drug, with sales of more than US$ 4 billion since its debut in 1999. Vioxx had sales of US$ 2.6 billion in 2001. However, the coxibs increase the risk of heart attacks and strokes, and their price, in the USA, is obscene. The manufacturers faced a possibly complicit, toothless and bloodless FDA, and used every maneuvering to fleece the patients. We must now reflect on attitudes that we thought only belong to the tobacco industry.",
+      "target": "Fortunately, safe and active alternatives exist.",
+      "loss_target": 4.221578598022461,
+      "loss_target_given_context": 3.6722874641418457,
+      "delta_loss": 0.5492911338806152,
+      "gain_ratio": 0.13011510294701678,
+      "score": -0.13011510294701678,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

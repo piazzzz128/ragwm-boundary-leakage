@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5362",
+  "source_doc_id": "MED-5362",
+  "title": "A systematic review and meta-analysis of dietary patterns and depression in community-dwelling adults.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A systematic review and meta-analysis of dietary patterns and depression in community-dwelling adults.\nBACKGROUND: Studies of single nutrients on depression have produced inconsistent results, and they have failed to consider the complex interactions between nutrients. An increasing number of studies in recent years are investigating the association of overall dietary patterns and depression. OBJECTIVE: This study aimed to systematically review current literature and conduct meta-analyses of studies addressing the association between dietary patterns and depression. DESIGN: Six electronic databases were searched for articles published up to August 2013 that examined the association of total diet and depression among adults. Only studies considered methodologically rigorous were included. Two independent reviewers completed study selection, quality rating, and data extraction. Effect sizes of eligible studies were pooled by using random-effects models. A summary of the findings was presented for studies that could not be meta-analyzed. RESULTS: A total of 21 studies were identified. Results from 13 observational studies were pooled. Two dietary patterns were identified. The healthy diet pattern was significantly associated with a reduced odds of depression (OR: 0.84; 95% CI: 0.76, 0.92; P < 0.001). No statistically significant association was observed between the Western diet and depression (OR: 1.17; 95% CI: 0.97, 1.68; P = 0.094); however, the studies were too few for a precise estimate of this effect. CONCLUSIONS: The results suggest that high intakes of fruit, vegetables, fish, and whole grains may be associated with a reduced depression risk. However, more high-quality randomized controlled trials and cohort studies are needed to confirm this finding, specifically the temporal sequence of this association.",
+  "sanitized_text": "A systematic review and meta-analysis of dietary patterns and depression in community-dwelling adults.\nBACKGROUND: Studies of single nutrients on depression have produced inconsistent results, and they have failed to consider the complex interactions between nutrients. An increasing number of studies in recent years are investigating the association of overall dietary patterns and depression. OBJECTIVE: This study aimed to systematically review current literature and conduct meta-analyses of studies addressing the association between dietary patterns and depression. DESIGN: Six electronic databases were searched for articles published up to August 2013 that examined the association of total diet and depression among adults. Only studies considered methodologically rigorous were included. Two independent reviewers completed study selection, quality rating, and data extraction. Effect sizes of eligible studies were pooled by using random-effects models. A summary of the findings was presented for studies that could not be meta-analyzed. RESULTS: A total of 21 studies were identified. Results from 13 observational studies were pooled. Two dietary patterns were identified. The healthy diet pattern was significantly associated with a reduced odds of depression (OR: 0.84; 95% CI: 0.76, 0.92; P < 0.001). No statistically significant association was observed between the Western diet and depression (OR: 1.17; 95% CI: 0.97, 1.68; P = 0.094); however, the studies were too few for a precise estimate of this effect. CONCLUSIONS: The results suggest that high intakes of fruit, vegetables, fish, and whole grains may be associated with a reduced depression risk. However, more high-quality randomized controlled trials and cohort studies are needed to confirm this finding, specifically the temporal sequence of this association.",
+  "modified": false,
+  "original_char_count": 1841,
+  "sanitized_char_count": 1841,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1675,
+      "boundary_end": 1841,
+      "context": "meta-analyses of studies addressing the association between dietary patterns and depression. DESIGN: Six electronic databases were searched for articles published up to August 2013 that examined the association of total diet and depression among adults. Only studies considered methodologically rigorous were included. Two independent reviewers completed study selection, quality rating, and data extraction. Effect sizes of eligible studies were pooled by using random-effects models. A summary of the findings was presented for studies that could not be meta-analyzed. RESULTS: A total of 21 studies were identified. Results from 13 observational studies were pooled. Two dietary patterns were identified. The healthy diet pattern was significantly associated with a reduced odds of depression (OR: 0.84; 95% CI: 0.76, 0.92; P < 0.001). No statistically significant association was observed between the Western diet and depression (OR: 1.17; 95% CI: 0.97, 1.68; P = 0.094); however, the studies were too few for a precise estimate of this effect. CONCLUSIONS: The results suggest that high intakes of fruit, vegetables, fish, and whole grains may be associated with a reduced depression risk.",
+      "target": "However, more high-quality randomized controlled trials and cohort studies are needed to confirm this finding, specifically the temporal sequence of this association.",
+      "loss_target": 2.7196197509765625,
+      "loss_target_given_context": 2.0609006881713867,
+      "delta_loss": 0.6587190628051758,
+      "gain_ratio": 0.24220998636616115,
+      "score": -0.24220998636616115,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

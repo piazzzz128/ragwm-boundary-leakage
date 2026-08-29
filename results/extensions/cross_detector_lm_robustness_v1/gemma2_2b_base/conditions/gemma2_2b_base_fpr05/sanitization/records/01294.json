@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2618",
+  "source_doc_id": "MED-2618",
+  "title": "Toxicology of food dyes.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Toxicology of food dyes.\nBACKGROUND: Food dyes, synthesized originally from coal tar and now petroleum, have long been controversial because of safety concerns. Many dyes have been banned because of their adverse effects on laboratory animals or inadequate testing. CONCLUSIONS: This review finds that all of the nine currently US-approved dyes raise health concerns of varying degrees. Red 3 causes cancer in animals, and there is evidence that several other dyes also are carcinogenic. Three dyes (Red 40, Yellow 5, and Yellow 6) have been found to be contaminated with benzidine or other carcinogens. At least four dyes (Blue 1, Red 40, Yellow 5, and Yellow 6) cause hypersensitivity reactions. Numerous microbiological and rodent studies of Yellow 5 were positive for genotoxicity. Toxicity tests on two dyes (Citrus Red 2 and Orange B) also suggest safety concerns, but Citrus Red 2 is used at low levels and only on some Florida oranges and Orange B has not been used for several years. The inadequacy of much of the testing and the evidence for carcinogenicity, genotoxicity, and hypersensitivity, coupled with the fact that dyes do not improve the safety or nutritional quality of foods, indicates that all of the currently used dyes should be removed from the food supply and replaced, if at all, by safer colorings. It is recommended that regulatory authorities require better and independent toxicity testing, exercise greater caution regarding continued approval of these dyes, and in the future approve only well-tested, safe dyes.",
+  "sanitized_text": "Toxicology of food dyes.\nBACKGROUND: Food dyes, synthesized originally from coal tar and now petroleum, have long been controversial because of safety concerns. Many dyes have been banned because of their adverse effects on laboratory animals or inadequate testing. CONCLUSIONS: This review finds that all of the nine currently US-approved dyes raise health concerns of varying degrees. Red 3 causes cancer in animals, and there is evidence that several other dyes also are carcinogenic. Three dyes (Red 40, Yellow 5, and Yellow 6) have been found to be contaminated with benzidine or other carcinogens. At least four dyes (Blue 1, Red 40, Yellow 5, and Yellow 6) cause hypersensitivity reactions. Numerous microbiological and rodent studies of Yellow 5 were positive for genotoxicity. Toxicity tests on two dyes (Citrus Red 2 and Orange B) also suggest safety concerns, but Citrus Red 2 is used at low levels and only on some Florida oranges and Orange B has not been used for several years. The inadequacy of much of the testing and the evidence for carcinogenicity, genotoxicity, and hypersensitivity, coupled with the fact that dyes do not improve the safety or nutritional quality of foods, indicates that all of the currently used dyes should be removed from the food supply and replaced, if at all, by safer colorings. It is recommended that regulatory authorities require better and independent toxicity testing, exercise greater caution regarding continued approval of these dyes, and in the future approve only well-tested, safe dyes.",
+  "modified": false,
+  "original_char_count": 1544,
+  "sanitized_char_count": 1544,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1326,
+      "boundary_end": 1544,
+      "context": "because of safety concerns. Many dyes have been banned because of their adverse effects on laboratory animals or inadequate testing. CONCLUSIONS: This review finds that all of the nine currently US-approved dyes raise health concerns of varying degrees. Red 3 causes cancer in animals, and there is evidence that several other dyes also are carcinogenic. Three dyes (Red 40, Yellow 5, and Yellow 6) have been found to be contaminated with benzidine or other carcinogens. At least four dyes (Blue 1, Red 40, Yellow 5, and Yellow 6) cause hypersensitivity reactions. Numerous microbiological and rodent studies of Yellow 5 were positive for genotoxicity. Toxicity tests on two dyes (Citrus Red 2 and Orange B) also suggest safety concerns, but Citrus Red 2 is used at low levels and only on some Florida oranges and Orange B has not been used for several years. The inadequacy of much of the testing and the evidence for carcinogenicity, genotoxicity, and hypersensitivity, coupled with the fact that dyes do not improve the safety or nutritional quality of foods, indicates that all of the currently used dyes should be removed from the food supply and replaced, if at all, by safer colorings.",
+      "target": "It is recommended that regulatory authorities require better and independent toxicity testing, exercise greater caution regarding continued approval of these dyes, and in the future approve only well-tested, safe dyes.",
+      "loss_target": 8.75333309173584,
+      "loss_target_given_context": 4.976408004760742,
+      "delta_loss": 3.7769250869750977,
+      "gain_ratio": 0.4314842183420339,
+      "score": -0.4314842183420339,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

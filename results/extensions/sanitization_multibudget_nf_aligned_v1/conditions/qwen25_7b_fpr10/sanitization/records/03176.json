@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5116",
+  "source_doc_id": "MED-5116",
+  "title": "Dietary flavonoid intake and breast cancer survival among women on Long Island.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary flavonoid intake and breast cancer survival among women on Long Island.\nBACKGROUND: Laboratory research and a growing number of epidemiologic studies have provided evidence for a reduced risk of breast cancer associated with dietary intake of certain classes of flavonoids. However, the effects of flavonoids on survival are not known. In a population-based cohort of breast cancer patients, we investigated whether dietary flavonoid intake before diagnosis is associated with subsequent survival. METHODS: Women ages 25 to 98 years who were newly diagnosed with a first primary invasive breast cancer between August 1, 1996, and July 31, 1997, and participated in a population-based, case-control study (n=1,210) were followed for vital status through December 31, 2002. At the case-control interview conducted shortly after diagnosis, respondents completed a FFQ that assessed dietary intake in the previous 12 months. All-cause mortality (n=173 deaths) and breast cancer-specific mortality (n=113 deaths) were determined through the National Death Index. RESULTS: Reduced hazard ratios [age- and energy-adjusted hazard ratio (95% confidence interval)] for all-cause mortality were observed among premenopausal and postmenopausal women for the highest quintile of intake, compared with the lowest, for flavones [0.63 (0.41-0.96)], isoflavones [0.52 (0.33-0.82)], and anthocyanidins [0.64 (0.42-0.98)]. No significant trends in risk were observed. Results were similar for breast cancer-specific mortality only. CONCLUSION: Mortality may be reduced in association with high levels of dietary flavones and isoflavones among postmenopausal U.S. breast cancer patients. Larger studies are needed to confirm our findings.",
+  "sanitized_text": "Dietary flavonoid intake and breast cancer survival among women on Long Island.\nBACKGROUND: Laboratory research and a growing number of epidemiologic studies have provided evidence for a reduced risk of breast cancer associated with dietary intake of certain classes of flavonoids. However, the effects of flavonoids on survival are not known. In a population-based cohort of breast cancer patients, we investigated whether dietary flavonoid intake before diagnosis is associated with subsequent survival. METHODS: Women ages 25 to 98 years who were newly diagnosed with a first primary invasive breast cancer between August 1, 1996, and July 31, 1997, and participated in a population-based, case-control study (n=1,210) were followed for vital status through December 31, 2002. At the case-control interview conducted shortly after diagnosis, respondents completed a FFQ that assessed dietary intake in the previous 12 months. All-cause mortality (n=173 deaths) and breast cancer-specific mortality (n=113 deaths) were determined through the National Death Index. RESULTS: Reduced hazard ratios [age- and energy-adjusted hazard ratio (95% confidence interval)] for all-cause mortality were observed among premenopausal and postmenopausal women for the highest quintile of intake, compared with the lowest, for flavones [0.63 (0.41-0.96)], isoflavones [0.52 (0.33-0.82)], and anthocyanidins [0.64 (0.42-0.98)]. No significant trends in risk were observed. Results were similar for breast cancer-specific mortality only. CONCLUSION: Mortality may be reduced in association with high levels of dietary flavones and isoflavones among postmenopausal U.S. breast cancer patients. Larger studies are needed to confirm our findings.",
+  "modified": false,
+  "original_char_count": 1726,
+  "sanitized_char_count": 1726,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1676,
+      "boundary_end": 1726,
+      "context": "with subsequent survival. METHODS: Women ages 25 to 98 years who were newly diagnosed with a first primary invasive breast cancer between August 1, 1996, and July 31, 1997, and participated in a population-based, case-control study (n=1,210) were followed for vital status through December 31, 2002. At the case-control interview conducted shortly after diagnosis, respondents completed a FFQ that assessed dietary intake in the previous 12 months. All-cause mortality (n=173 deaths) and breast cancer-specific mortality (n=113 deaths) were determined through the National Death Index. RESULTS: Reduced hazard ratios [age- and energy-adjusted hazard ratio (95% confidence interval)] for all-cause mortality were observed among premenopausal and postmenopausal women for the highest quintile of intake, compared with the lowest, for flavones [0.63 (0.41-0.96)], isoflavones [0.52 (0.33-0.82)], and anthocyanidins [0.64 (0.42-0.98)]. No significant trends in risk were observed. Results were similar for breast cancer-specific mortality only. CONCLUSION: Mortality may be reduced in association with high levels of dietary flavones and isoflavones among postmenopausal U.S. breast cancer patients.",
+      "target": "Larger studies are needed to confirm our findings.",
+      "loss_target": 3.025892496109009,
+      "loss_target_given_context": 1.1027185916900635,
+      "delta_loss": 1.9231739044189453,
+      "gain_ratio": 0.6355724490846757,
+      "score": -0.6355724490846757,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

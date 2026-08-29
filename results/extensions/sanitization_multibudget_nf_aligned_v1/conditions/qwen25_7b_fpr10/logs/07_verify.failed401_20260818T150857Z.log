@@ -1,0 +1,68 @@
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models/PaLM2.py:1: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as palm
+Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/conditions/qwen25_7b_fpr10/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/conditions/qwen25_7b_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-18 22:58:03] {main.py:539} INFO - args:Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/conditions/qwen25_7b_fpr10/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/conditions/qwen25_7b_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-18 22:58:03] {main.py:548} INFO - llm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+[2026-08-18 22:58:03] {main.py:552} INFO - rllm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+nfcorpus_contriever_cosine
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+  0%|                                                                                         | 0/3633 [00:00<?, ?it/s]100%|██████████████████████████████████████████████████████████████████████████| 3633/3633 [00:00<00:00, 115583.16it/s]
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Collection exist 总数: 3633
+[2026-08-18 22:58:03] {main.py:584} INFO - datalen:3633, collection_len:3633
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+[2026-08-18 22:58:03] {main.py:268} ERROR - /root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/conditions/qwen25_7b_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json does not exist!
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Traceback (most recent call last):
+  File "/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models/GPT.py", line 33, in query
+    completion = self.client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1215, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/openai/_base_client.py", line 1332, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/openai/_base_client.py", line 1105, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '', 'message': 'Invalid Token (request id: a2d1c65b4ea479cf-LAX)', 'type': 'rix_api_error'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/main.py", line 610, in <module>
+    wm_verify_run(
+  File "/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/main.py", line 322, in wm_verify_run
+    rag_document, db_ids = visiter.ask_wm()
+                           ^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/watermark_role.py", line 210, in ask_wm
+    response = self.rllm.query(query_prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models/GPT.py", line 45, in query
+    raise RuntimeError(
+RuntimeError: Verifier API request failed: AuthenticationError: Error code: 401 - {'error': {'code': '', 'message': 'Invalid Token (request id: a2d1c65b4ea479cf-LAX)', 'type': 'rix_api_error'}}

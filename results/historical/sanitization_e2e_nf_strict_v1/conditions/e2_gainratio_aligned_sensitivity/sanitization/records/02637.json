@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4508",
+  "source_doc_id": "MED-4508",
+  "title": "Dietary inorganic nitrate improves mitochondrial efficiency in humans.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary inorganic nitrate improves mitochondrial efficiency in humans.\nNitrate, an inorganic anion abundant in vegetables, is converted in vivo to bioactive nitrogen oxides including NO. We recently demonstrated that dietary nitrate reduces oxygen cost during physical exercise, but the mechanism remains unknown. In a double-blind crossover trial we studied the effects of a dietary intervention with inorganic nitrate on basal mitochondrial function and whole-body oxygen consumption in healthy volunteers. Skeletal muscle mitochondria harvested after nitrate supplementation displayed an improvement in oxidative phosphorylation efficiency (P/O ratio) and a decrease in state 4 respiration with and without atractyloside and respiration without adenylates. The improved mitochondrial P/O ratio correlated to the reduction in oxygen cost during exercise. Mechanistically, nitrate reduced the expression of ATP/ADP translocase, a protein involved in proton conductance. We conclude that dietary nitrate has profound effects on basal mitochondrial function. These findings may have implications for exercise physiology- and lifestyle-related disorders that involve dysfunctional mitochondria. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Dietary inorganic nitrate improves mitochondrial efficiency in humans.\nNitrate, an inorganic anion abundant in vegetables, is converted in vivo to bioactive nitrogen oxides including NO. We recently demonstrated that dietary nitrate reduces oxygen cost during physical exercise, but the mechanism remains unknown. In a double-blind crossover trial we studied the effects of a dietary intervention with inorganic nitrate on basal mitochondrial function and whole-body oxygen consumption in healthy volunteers. Skeletal muscle mitochondria harvested after nitrate supplementation displayed an improvement in oxidative phosphorylation efficiency (P/O ratio) and a decrease in state 4 respiration with and without atractyloside and respiration without adenylates. The improved mitochondrial P/O ratio correlated to the reduction in oxygen cost during exercise. Mechanistically, nitrate reduced the expression of ATP/ADP translocase, a protein involved in proton conductance. We conclude that dietary nitrate has profound effects on basal mitochondrial function. These findings may have implications for exercise physiology- and lifestyle-related disorders that involve dysfunctional mitochondria. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1244,
+  "sanitized_char_count": 1244,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1193,
+      "boundary_end": 1223,
+      "context": "Dietary inorganic nitrate improves mitochondrial efficiency in humans. Nitrate, an inorganic anion abundant in vegetables, is converted in vivo to bioactive nitrogen oxides including NO. We recently demonstrated that dietary nitrate reduces oxygen cost during physical exercise, but the mechanism remains unknown. In a double-blind crossover trial we studied the effects of a dietary intervention with inorganic nitrate on basal mitochondrial function and whole-body oxygen consumption in healthy volunteers. Skeletal muscle mitochondria harvested after nitrate supplementation displayed an improvement in oxidative phosphorylation efficiency (P/O ratio) and a decrease in state 4 respiration with and without atractyloside and respiration without adenylates. The improved mitochondrial P/O ratio correlated to the reduction in oxygen cost during exercise. Mechanistically, nitrate reduced the expression of ATP/ADP translocase, a protein involved in proton conductance. We conclude that dietary nitrate has profound effects on basal mitochondrial function. These findings may have implications for exercise physiology- and lifestyle-related disorders that involve dysfunctional mitochondria.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.1415737867355347,
+      "loss_target_given_context": 0.34364038705825806,
+      "delta_loss": 0.7979333996772766,
+      "gain_ratio": 0.698976631163774,
+      "score": -0.698976631163774,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

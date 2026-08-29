@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2160",
+  "source_doc_id": "MED-2160",
+  "title": "The association of coffee intake with liver cancer incidence and chronic liver disease mortality in male smokers",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The association of coffee intake with liver cancer incidence and chronic liver disease mortality in male smokers\nBackground: Coffee intake is associated with reduced risk of liver cancer and chronic liver disease as reported in previous studies, including prospective ones conducted in Asian populations where hepatitis B viruses (HBVs) and hepatitis C viruses (HCVs) are the dominant risk factors. Yet, prospective studies in Western populations with lower HBV and HCV prevalence are sparse. Also, although preparation methods affect coffee constituents, it is unknown whether different methods affect disease associations. Methods: We evaluated the association of coffee intake with incident liver cancer and chronic liver disease mortality in 27 037 Finnish male smokers, aged 50–69, in the Alpha-Tocopherol, Beta-Carotene Cancer Prevention Study, who recorded their coffee consumption and were followed up to 24 years for incident liver cancer or chronic liver disease mortality. Multivariate relative risks (RRs) and 95% confidence intervals (CIs) were estimated by Cox proportional hazard models. Results: Coffee intake was inversely associated with incident liver cancer (RR per cup per day=0.82, 95% CI: 0.73–0.93; P-trend across categories=0.0007) and mortality from chronic liver disease (RR=0.55, 95% CI: 0.48–0.63; P-trend<0.0001). Inverse associations persisted in those without diabetes, HBV- and HCV-negative cases, and in analyses stratified by age, body mass index, alcohol and smoking dose. We observed similar associations for those drinking boiled or filtered coffee. Conclusion: These findings suggest that drinking coffee may have benefits for the liver, irrespective of whether coffee was boiled or filtered.",
+  "sanitized_text": "The association of coffee intake with liver cancer incidence and chronic liver disease mortality in male smokers\nBackground: Coffee intake is associated with reduced risk of liver cancer and chronic liver disease as reported in previous studies, including prospective ones conducted in Asian populations where hepatitis B viruses (HBVs) and hepatitis C viruses (HCVs) are the dominant risk factors. Yet, prospective studies in Western populations with lower HBV and HCV prevalence are sparse. Also, although preparation methods affect coffee constituents, it is unknown whether different methods affect disease associations. Methods: We evaluated the association of coffee intake with incident liver cancer and chronic liver disease mortality in 27 037 Finnish male smokers, aged 50–69, in the Alpha-Tocopherol, Beta-Carotene Cancer Prevention Study, who recorded their coffee consumption and were followed up to 24 years for incident liver cancer or chronic liver disease mortality. Multivariate relative risks (RRs) and 95% confidence intervals (CIs) were estimated by Cox proportional hazard models. Results: Coffee intake was inversely associated with incident liver cancer (RR per cup per day=0.82, 95% CI: 0.73–0.93; P-trend across categories=0.0007) and mortality from chronic liver disease (RR=0.55, 95% CI: 0.48–0.63; P-trend<0.0001). Inverse associations persisted in those without diabetes, HBV- and HCV-negative cases, and in analyses stratified by age, body mass index, alcohol and smoking dose. We observed similar associations for those drinking boiled or filtered coffee. Conclusion: These findings suggest that drinking coffee may have benefits for the liver, irrespective of whether coffee was boiled or filtered.",
+  "modified": false,
+  "original_char_count": 1731,
+  "sanitized_char_count": 1731,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1588,
+      "boundary_end": 1731,
+      "context": "factors. Yet, prospective studies in Western populations with lower HBV and HCV prevalence are sparse. Also, although preparation methods affect coffee constituents, it is unknown whether different methods affect disease associations. Methods: We evaluated the association of coffee intake with incident liver cancer and chronic liver disease mortality in 27 037 Finnish male smokers, aged 50–69, in the Alpha-Tocopherol, Beta-Carotene Cancer Prevention Study, who recorded their coffee consumption and were followed up to 24 years for incident liver cancer or chronic liver disease mortality. Multivariate relative risks (RRs) and 95% confidence intervals (CIs) were estimated by Cox proportional hazard models. Results: Coffee intake was inversely associated with incident liver cancer (RR per cup per day=0.82, 95% CI: 0.73–0.93; P-trend across categories=0.0007) and mortality from chronic liver disease (RR=0.55, 95% CI: 0.48–0.63; P-trend<0.0001). Inverse associations persisted in those without diabetes, HBV- and HCV-negative cases, and in analyses stratified by age, body mass index, alcohol and smoking dose. We observed similar associations for those drinking boiled or filtered coffee.",
+      "target": "Conclusion: These findings suggest that drinking coffee may have benefits for the liver, irrespective of whether coffee was boiled or filtered.",
+      "loss_target": 2.6768105030059814,
+      "loss_target_given_context": 1.5203819274902344,
+      "delta_loss": 1.156428575515747,
+      "gain_ratio": 0.43201734833941774,
+      "score": -0.43201734833941774,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

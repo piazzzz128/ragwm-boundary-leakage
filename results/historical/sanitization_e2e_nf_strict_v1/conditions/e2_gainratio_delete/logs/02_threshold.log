@@ -1,0 +1,21 @@
+{
+  "policy": "strict-v1 clean calibration score quantile",
+  "score_direction": "larger score is more suspicious",
+  "target_clean_fpr": 0.05,
+  "quantile": 0.95,
+  "threshold": -0.03845528815765987,
+  "seed": 20260714,
+  "group_split": true,
+  "calibration_fraction": 0.7,
+  "calibration_group_count": 164,
+  "holdout_group_count": 53,
+  "calibration_record_count": 169,
+  "holdout_record_count": 54,
+  "calibration_empirical_fpr": 0.05325443786982249,
+  "holdout_empirical_fpr": 0.05555555555555555,
+  "diagnostic_inject_tpr_at_fixed_threshold": 0.9013452914798207,
+  "strict_scores_path": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_qwen_gainratio_scores.json",
+  "strict_scores_sha256": "5266d307e6f656054980e1e842b40fe98a9a00f453a79191c0b758d425cc6c8a",
+  "warning": "Threshold is fixed before E2 verification. Do not retune it using E2 WSN. The uploaded strict-v1 scorer is reproduced exactly and is not an aligned-first-token implementation."
+}
+THRESHOLD CALIBRATION PASS

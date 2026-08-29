@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2096",
+  "source_doc_id": "MED-2096",
+  "title": "Emerging science in the dietary control and prevention of dental caries.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Emerging science in the dietary control and prevention of dental caries.\nThe key environmental factor involved in caries incidence is fermentable carbohydrates. Because of the high costs of caries treatment, researchers continue to explore dietary control as a promising preventive method. While dietary change has been demonstrated to reduce Streptococcus mutans, a preventive role is expected for \"functional foods\" and dietary habit alterations. The authors consider how recent advances in the understanding of caries pathology can reveal dietary control as a valuable method in promoting a healthy dentition.",
+  "sanitized_text": "Emerging science in the dietary control and prevention of dental caries.\nThe key environmental factor involved in caries incidence is fermentable carbohydrates. Because of the high costs of caries treatment, researchers continue to explore dietary control as a promising preventive method. While dietary change has been demonstrated to reduce Streptococcus mutans, a preventive role is expected for \"functional foods\" and dietary habit alterations. The authors consider how recent advances in the understanding of caries pathology can reveal dietary control as a valuable method in promoting a healthy dentition.",
+  "modified": false,
+  "original_char_count": 612,
+  "sanitized_char_count": 612,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 449,
+      "boundary_end": 612,
+      "context": "Emerging science in the dietary control and prevention of dental caries. The key environmental factor involved in caries incidence is fermentable carbohydrates. Because of the high costs of caries treatment, researchers continue to explore dietary control as a promising preventive method. While dietary change has been demonstrated to reduce Streptococcus mutans, a preventive role is expected for \"functional foods\" and dietary habit alterations.",
+      "target": "The authors consider how recent advances in the understanding of caries pathology can reveal dietary control as a valuable method in promoting a healthy dentition.",
+      "loss_target": 3.861234426498413,
+      "loss_target_given_context": 2.6928865909576416,
+      "delta_loss": 1.1683478355407715,
+      "gain_ratio": 0.30258402015758873,
+      "score": -0.30258402015758873,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

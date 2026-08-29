@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2824",
+  "source_doc_id": "MED-2824",
+  "title": "Curcumin and cancer: an \"old-age\" disease with an \"age-old\" solution.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Curcumin and cancer: an \"old-age\" disease with an \"age-old\" solution.\nCancer is primarily a disease of old age, and that life style plays a major role in the development of most cancers is now well recognized. While plant-based formulations have been used to treat cancer for centuries, current treatments usually involve poisonous mustard gas, chemotherapy, radiation, and targeted therapies. While traditional plant-derived medicines are safe, what are the active principles in them and how do they mediate their effects against cancer is perhaps best illustrated by curcumin, a derivative of turmeric used for centuries to treat a wide variety of inflammatory conditions. Curcumin is a diferuloylmethane derived from the Indian spice, turmeric (popularly called \"curry powder\") that has been shown to interfere with multiple cell signaling pathways, including cell cycle (cyclin D1 and cyclin E), apoptosis (activation of caspases and down-regulation of antiapoptotic gene products), proliferation (HER-2, EGFR, and AP-1), survival (PI3K/AKT pathway), invasion (MMP-9 and adhesion molecules), angiogenesis (VEGF), metastasis (CXCR-4) and inflammation (NF-kappaB, TNF, IL-6, IL-1, COX-2, and 5-LOX). The activity of curcumin reported against leukemia and lymphoma, gastrointestinal cancers, genitourinary cancers, breast cancer, ovarian cancer, head and neck squamous cell carcinoma, lung cancer, melanoma, neurological cancers, and sarcoma reflects its ability to affect multiple targets. Thus an \"old-age\" disease such as cancer requires an \"age-old\" treatment.",
+  "sanitized_text": "Curcumin and cancer: an \"old-age\" disease with an \"age-old\" solution.\nCancer is primarily a disease of old age, and that life style plays a major role in the development of most cancers is now well recognized. While plant-based formulations have been used to treat cancer for centuries, current treatments usually involve poisonous mustard gas, chemotherapy, radiation, and targeted therapies. While traditional plant-derived medicines are safe, what are the active principles in them and how do they mediate their effects against cancer is perhaps best illustrated by curcumin, a derivative of turmeric used for centuries to treat a wide variety of inflammatory conditions. Curcumin is a diferuloylmethane derived from the Indian spice, turmeric (popularly called \"curry powder\") that has been shown to interfere with multiple cell signaling pathways, including cell cycle (cyclin D1 and cyclin E), apoptosis (activation of caspases and down-regulation of antiapoptotic gene products), proliferation (HER-2, EGFR, and AP-1), survival (PI3K/AKT pathway), invasion (MMP-9 and adhesion molecules), angiogenesis (VEGF), metastasis (CXCR-4) and inflammation (NF-kappaB, TNF, IL-6, IL-1, COX-2, and 5-LOX). The activity of curcumin reported against leukemia and lymphoma, gastrointestinal cancers, genitourinary cancers, breast cancer, ovarian cancer, head and neck squamous cell carcinoma, lung cancer, melanoma, neurological cancers, and sarcoma reflects its ability to affect multiple targets. Thus an \"old-age\" disease such as cancer requires an \"age-old\" treatment.",
+  "modified": false,
+  "original_char_count": 1565,
+  "sanitized_char_count": 1565,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1492,
+      "boundary_end": 1565,
+      "context": "treatments usually involve poisonous mustard gas, chemotherapy, radiation, and targeted therapies. While traditional plant-derived medicines are safe, what are the active principles in them and how do they mediate their effects against cancer is perhaps best illustrated by curcumin, a derivative of turmeric used for centuries to treat a wide variety of inflammatory conditions. Curcumin is a diferuloylmethane derived from the Indian spice, turmeric (popularly called \"curry powder\") that has been shown to interfere with multiple cell signaling pathways, including cell cycle (cyclin D1 and cyclin E), apoptosis (activation of caspases and down-regulation of antiapoptotic gene products), proliferation (HER-2, EGFR, and AP-1), survival (PI3K/AKT pathway), invasion (MMP-9 and adhesion molecules), angiogenesis (VEGF), metastasis (CXCR-4) and inflammation (NF-kappaB, TNF, IL-6, IL-1, COX-2, and 5-LOX). The activity of curcumin reported against leukemia and lymphoma, gastrointestinal cancers, genitourinary cancers, breast cancer, ovarian cancer, head and neck squamous cell carcinoma, lung cancer, melanoma, neurological cancers, and sarcoma reflects its ability to affect multiple targets.",
+      "target": "Thus an \"old-age\" disease such as cancer requires an \"age-old\" treatment.",
+      "loss_target": 3.6328067779541016,
+      "loss_target_given_context": 0.5625821948051453,
+      "delta_loss": 3.0702245831489563,
+      "gain_ratio": 0.8451384207331896,
+      "score": -0.8451384207331896,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

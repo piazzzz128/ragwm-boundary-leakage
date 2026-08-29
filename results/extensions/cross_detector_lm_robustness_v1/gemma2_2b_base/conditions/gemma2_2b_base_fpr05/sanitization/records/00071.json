@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1105",
+  "source_doc_id": "MED-1105",
+  "title": "A CASE OF MULTIPLE MYELOMA PRESENTING AS A BULLOUS DERMATOSIS",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A CASE OF MULTIPLE MYELOMA PRESENTING AS A BULLOUS DERMATOSIS\nMultiple myeloma is a malignant plasma cell proliferative disorder that produces a monoclonal immunoglobulin protein. The skin involvement and the development of bullous disease are rarely seen features in multiple myeloma. We present a 55-year-old man with a longstanding, large, tense bullous eruption and hypertrophic scars over his body accompanied recently with weight loss and fatique. He had no response to the previous treatments, which included oral glucocorticoids and dapsone. Histologic examination of the lesions revealed subepidermal bullae, while no immunoflourescence staining was observed. In a further detailed labarotory examination, multiple myeloma was detected. After the treatment of multiple myeloma with chemotherapy, the lesions regressed. Patients with longstanding, recurrent, unusual bullous eruption should be investigated for the development of multiple myeloma.",
+  "sanitized_text": "A CASE OF MULTIPLE MYELOMA PRESENTING AS A BULLOUS DERMATOSIS\nMultiple myeloma is a malignant plasma cell proliferative disorder that produces a monoclonal immunoglobulin protein. The skin involvement and the development of bullous disease are rarely seen features in multiple myeloma. We present a 55-year-old man with a longstanding, large, tense bullous eruption and hypertrophic scars over his body accompanied recently with weight loss and fatique. He had no response to the previous treatments, which included oral glucocorticoids and dapsone. Histologic examination of the lesions revealed subepidermal bullae, while no immunoflourescence staining was observed. In a further detailed labarotory examination, multiple myeloma was detected. After the treatment of multiple myeloma with chemotherapy, the lesions regressed. Patients with longstanding, recurrent, unusual bullous eruption should be investigated for the development of multiple myeloma.",
+  "modified": false,
+  "original_char_count": 955,
+  "sanitized_char_count": 955,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 828,
+      "boundary_end": 955,
+      "context": "A CASE OF MULTIPLE MYELOMA PRESENTING AS A BULLOUS DERMATOSIS Multiple myeloma is a malignant plasma cell proliferative disorder that produces a monoclonal immunoglobulin protein. The skin involvement and the development of bullous disease are rarely seen features in multiple myeloma. We present a 55-year-old man with a longstanding, large, tense bullous eruption and hypertrophic scars over his body accompanied recently with weight loss and fatique. He had no response to the previous treatments, which included oral glucocorticoids and dapsone. Histologic examination of the lesions revealed subepidermal bullae, while no immunoflourescence staining was observed. In a further detailed labarotory examination, multiple myeloma was detected. After the treatment of multiple myeloma with chemotherapy, the lesions regressed.",
+      "target": "Patients with longstanding, recurrent, unusual bullous eruption should be investigated for the development of multiple myeloma.",
+      "loss_target": 8.969351768493652,
+      "loss_target_given_context": 4.138503074645996,
+      "delta_loss": 4.830848693847656,
+      "gain_ratio": 0.5385950756014297,
+      "score": -0.5385950756014297,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4922",
+  "source_doc_id": "MED-4922",
+  "title": "A \"glyconutrient sham\".",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A \"glyconutrient sham\".\nThe discipline of glycobiology contributes to our understanding of human health and disease through research, most of which is published in peer-reviewed scientific journals. Recently, legitimate discoveries in glycobiology have been used as marketing tools to help sell plant extracts termed \"glyconutrients.\" The glyconutrient industry has a worldwide sales force of over half a million people and sells nearly half a billion dollars (USD) of products annually. Here we address the relationship between glyconutrients and glycobiology, and how glyconutrient claims may impact the public and our discipline.",
+  "sanitized_text": "A \"glyconutrient sham\".\nThe discipline of glycobiology contributes to our understanding of human health and disease through research, most of which is published in peer-reviewed scientific journals. Recently, legitimate discoveries in glycobiology have been used as marketing tools to help sell plant extracts termed \"glyconutrients.\" The glyconutrient industry has a worldwide sales force of over half a million people and sells nearly half a billion dollars (USD) of products annually. Here we address the relationship between glyconutrients and glycobiology, and how glyconutrient claims may impact the public and our discipline.",
+  "modified": false,
+  "original_char_count": 632,
+  "sanitized_char_count": 632,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 488,
+      "boundary_end": 632,
+      "context": "A \"glyconutrient sham\". The discipline of glycobiology contributes to our understanding of human health and disease through research, most of which is published in peer-reviewed scientific journals. Recently, legitimate discoveries in glycobiology have been used as marketing tools to help sell plant extracts termed \"glyconutrients.\" The glyconutrient industry has a worldwide sales force of over half a million people and sells nearly half a billion dollars (USD) of products annually.",
+      "target": "Here we address the relationship between glyconutrients and glycobiology, and how glyconutrient claims may impact the public and our discipline.",
+      "loss_target": 2.9368972778320312,
+      "loss_target_given_context": 1.7547677755355835,
+      "delta_loss": 1.1821295022964478,
+      "gain_ratio": 0.4025096523529335,
+      "score": -0.4025096523529335,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

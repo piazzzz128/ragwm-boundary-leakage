@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3582",
+  "source_doc_id": "MED-3582",
+  "title": "Slow release dietary carbohydrate improves second meal tolerance.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Slow release dietary carbohydrate improves second meal tolerance.\nBreakfasts of lentils or wholemeal bread of identical carbohydrate content were taken by seven healthy volunteers. The lentils produced a significant 71% (p less than 0.001) reduction in the blood glucose area and flattened the plasma insulin and gastric inhibitory polypeptide responses by comparison with the bread. In addition, the lentil breakfast was followed by a significantly flatter blood glucose response to the standard bread lunch which followed 4 h later (by 38%, p less than 0.01). The blood glucose pattern was mimicked by feeding the bread breakfast slowly over the 4 h before lunch. Giving a bread breakfast containing a quarter of the carbohydrate reduced the breakfast glucose profile but resulted in a significantly impaired blood glucose response to lunch (168% of control, p less than 0.01). These results, together with breath hydrogen studies, performed on a separate group of four volunteers, indicate that the flattened response to lentils is not due to carbohydrate malabsorption. Slow release or \"lente\" carbohydrate foods such as lentils may form a useful part of the diets of those with impaired carbohydrate tolerance.",
+  "sanitized_text": "Slow release dietary carbohydrate improves second meal tolerance.\nBreakfasts of lentils or wholemeal bread of identical carbohydrate content were taken by seven healthy volunteers. The lentils produced a significant 71% (p less than 0.001) reduction in the blood glucose area and flattened the plasma insulin and gastric inhibitory polypeptide responses by comparison with the bread. In addition, the lentil breakfast was followed by a significantly flatter blood glucose response to the standard bread lunch which followed 4 h later (by 38%, p less than 0.01). The blood glucose pattern was mimicked by feeding the bread breakfast slowly over the 4 h before lunch. Giving a bread breakfast containing a quarter of the carbohydrate reduced the breakfast glucose profile but resulted in a significantly impaired blood glucose response to lunch (168% of control, p less than 0.01). These results, together with breath hydrogen studies, performed on a separate group of four volunteers, indicate that the flattened response to lentils is not due to carbohydrate malabsorption. Slow release or \"lente\" carbohydrate foods such as lentils may form a useful part of the diets of those with impaired carbohydrate tolerance.",
+  "modified": false,
+  "original_char_count": 1215,
+  "sanitized_char_count": 1215,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1074,
+      "boundary_end": 1215,
+      "context": "Slow release dietary carbohydrate improves second meal tolerance. Breakfasts of lentils or wholemeal bread of identical carbohydrate content were taken by seven healthy volunteers. The lentils produced a significant 71% (p less than 0.001) reduction in the blood glucose area and flattened the plasma insulin and gastric inhibitory polypeptide responses by comparison with the bread. In addition, the lentil breakfast was followed by a significantly flatter blood glucose response to the standard bread lunch which followed 4 h later (by 38%, p less than 0.01). The blood glucose pattern was mimicked by feeding the bread breakfast slowly over the 4 h before lunch. Giving a bread breakfast containing a quarter of the carbohydrate reduced the breakfast glucose profile but resulted in a significantly impaired blood glucose response to lunch (168% of control, p less than 0.01). These results, together with breath hydrogen studies, performed on a separate group of four volunteers, indicate that the flattened response to lentils is not due to carbohydrate malabsorption.",
+      "target": "Slow release or \"lente\" carbohydrate foods such as lentils may form a useful part of the diets of those with impaired carbohydrate tolerance.",
+      "loss_target": 8.588966369628906,
+      "loss_target_given_context": 4.983921051025391,
+      "delta_loss": 3.6050453186035156,
+      "gain_ratio": 0.4197298211984121,
+      "score": -0.4197298211984121,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

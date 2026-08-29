@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5032",
+  "source_doc_id": "MED-5032",
+  "title": "Processed meats and risk of childhood leukemia (California, USA).",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Processed meats and risk of childhood leukemia (California, USA).\nThe relation between the intake of certain food items thought to be precursors or inhibitors of N-nitroso compounds (NOC) and risk of leukemia was investigated in a case-control study among children from birth to age 10 years in Los Angeles County, California (United States). Cases were ascertained through a population-based tumor registry from 1980 to 1987. Controls were drawn from friends and by random-digit dialing. Interviews were obtained from 232 cases and 232 controls. Food items of principal interest were: breakfast meats (bacon, sausage, ham); luncheon meats (salami, pastrami, lunch meat, corned beef, bologna); hot dogs; oranges and orange juice; and grapefruit and grapefruit juice. We also asked about intake of apples and apple juice, regular and charcoal broiled meats, milk, coffee, and coke or cola drinks. Usual consumption frequencies were determined for both parents and the child. When the risks were adjusted for each other and other risk factors, the only persistent significant associations were for children's intake of hot dogs (odds ratio [OR] = 9.5, 95 percent confidence interval [CI] = 1.6-57.6 for 12 or more hot dogs per month, trend P = 0.01), and fathers' intake of hot dogs (OR = 11.0, CI = 1.2-98.7 for highest intake category, trend P = 0.01). There was no evidence that fruit intake provided protection. While these results are compatible with the experimental animal literature and the hypothesis that human NOC intake is associated with leukemia risk, given potential biases in the data, further study of this hypothesis with more focused and comprehensive epidemiologic studies is warranted.",
+  "sanitized_text": "Processed meats and risk of childhood leukemia (California, USA).\nThe relation between the intake of certain food items thought to be precursors or inhibitors of N-nitroso compounds (NOC) and risk of leukemia was investigated in a case-control study among children from birth to age 10 years in Los Angeles County, California (United States). Cases were ascertained through a population-based tumor registry from 1980 to 1987. Controls were drawn from friends and by random-digit dialing. Interviews were obtained from 232 cases and 232 controls. Food items of principal interest were: breakfast meats (bacon, sausage, ham); luncheon meats (salami, pastrami, lunch meat, corned beef, bologna); hot dogs; oranges and orange juice; and grapefruit and grapefruit juice. We also asked about intake of apples and apple juice, regular and charcoal broiled meats, milk, coffee, and coke or cola drinks. Usual consumption frequencies were determined for both parents and the child. When the risks were adjusted for each other and other risk factors, the only persistent significant associations were for children's intake of hot dogs (odds ratio [OR] = 9.5, 95 percent confidence interval [CI] = 1.6-57.6 for 12 or more hot dogs per month, trend P = 0.01), and fathers' intake of hot dogs (OR = 11.0, CI = 1.2-98.7 for highest intake category, trend P = 0.01). There was no evidence that fruit intake provided protection. While these results are compatible with the experimental animal literature and the hypothesis that human NOC intake is associated with leukemia risk, given potential biases in the data, further study of this hypothesis with more focused and comprehensive epidemiologic studies is warranted.",
+  "modified": false,
+  "original_char_count": 1704,
+  "sanitized_char_count": 1704,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1414,
+      "boundary_end": 1704,
+      "context": "in a case-control study among children from birth to age 10 years in Los Angeles County, California (United States). Cases were ascertained through a population-based tumor registry from 1980 to 1987. Controls were drawn from friends and by random-digit dialing. Interviews were obtained from 232 cases and 232 controls. Food items of principal interest were: breakfast meats (bacon, sausage, ham); luncheon meats (salami, pastrami, lunch meat, corned beef, bologna); hot dogs; oranges and orange juice; and grapefruit and grapefruit juice. We also asked about intake of apples and apple juice, regular and charcoal broiled meats, milk, coffee, and coke or cola drinks. Usual consumption frequencies were determined for both parents and the child. When the risks were adjusted for each other and other risk factors, the only persistent significant associations were for children's intake of hot dogs (odds ratio [OR] = 9.5, 95 percent confidence interval [CI] = 1.6-57.6 for 12 or more hot dogs per month, trend P = 0.01), and fathers' intake of hot dogs (OR = 11.0, CI = 1.2-98.7 for highest intake category, trend P = 0.01). There was no evidence that fruit intake provided protection.",
+      "target": "While these results are compatible with the experimental animal literature and the hypothesis that human NOC intake is associated with leukemia risk, given potential biases in the data, further study of this hypothesis with more focused and comprehensive epidemiologic studies is warranted.",
+      "loss_target": 3.4482712745666504,
+      "loss_target_given_context": 2.6620426177978516,
+      "delta_loss": 0.7862286567687988,
+      "gain_ratio": 0.22800661379740358,
+      "score": -0.22800661379740358,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

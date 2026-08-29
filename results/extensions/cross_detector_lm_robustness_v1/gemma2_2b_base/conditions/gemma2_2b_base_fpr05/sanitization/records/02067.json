@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3762",
+  "source_doc_id": "MED-3762",
+  "title": "Moderate alcohol consumption during adult life, drinking patterns, and breast cancer risk",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Moderate alcohol consumption during adult life, drinking patterns, and breast cancer risk\nContext Multiple studies have linked alcohol consumption to breast cancer risk, but the risk of lower levels of consumption has not been well quantified. In addition, the role of drinking patterns (i.e. frequency of drinking and “binge” drinking) and consumption at different times of adult life are not well understood. Objective To evaluate the association of breast cancer with alcohol consumption during adult life, including quantity, frequency, and age at consumption. Design, Setting, and Participants Prospective observational study of 105,986 women enrolled in the Nurses’ Health Study followed from 1980 until 2008 with early adult and eight updated alcohol assessments during this time. Main Outcome Measures Relative risks of developing invasive breast cancer. Results 7690 cases developed during 2.4 million person-years of follow-up. Increasing alcohol consumption was associated with increased breast cancer risk that was statistically significant at levels as low as 5.0-9.9 gm/day, equivalent to 3-6 drinks/week (RR 1.15 (95% CI 1.06-1.24) 332 cases/100,000 person-years). After controlling for cumulative alcohol intake, binge drinking, but not frequency of drinking, was associated with breast cancer risk. Alcohol intake both earlier and later in adult life was independently associated with risk. Conclusion Low levels of alcohol consumption were associated with a small increase in breast cancer risk, with the most consistent measure being cumulative alcohol intake throughout adult life. Alcohol intake both earlier and later in adult life was independently associated with risk.",
+  "sanitized_text": "Moderate alcohol consumption during adult life, drinking patterns, and breast cancer risk\nContext Multiple studies have linked alcohol consumption to breast cancer risk, but the risk of lower levels of consumption has not been well quantified. In addition, the role of drinking patterns (i.e. frequency of drinking and “binge” drinking) and consumption at different times of adult life are not well understood. Objective To evaluate the association of breast cancer with alcohol consumption during adult life, including quantity, frequency, and age at consumption. Design, Setting, and Participants Prospective observational study of 105,986 women enrolled in the Nurses’ Health Study followed from 1980 until 2008 with early adult and eight updated alcohol assessments during this time. Main Outcome Measures Relative risks of developing invasive breast cancer. Results 7690 cases developed during 2.4 million person-years of follow-up. Increasing alcohol consumption was associated with increased breast cancer risk that was statistically significant at levels as low as 5.0-9.9 gm/day, equivalent to 3-6 drinks/week (RR 1.15 (95% CI 1.06-1.24) 332 cases/100,000 person-years). After controlling for cumulative alcohol intake, binge drinking, but not frequency of drinking, was associated with breast cancer risk. Alcohol intake both earlier and later in adult life was independently associated with risk. Conclusion Low levels of alcohol consumption were associated with a small increase in breast cancer risk, with the most consistent measure being cumulative alcohol intake throughout adult life. Alcohol intake both earlier and later in adult life was independently associated with risk.",
+  "modified": false,
+  "original_char_count": 1693,
+  "sanitized_char_count": 1693,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1602,
+      "boundary_end": 1693,
+      "context": "Objective To evaluate the association of breast cancer with alcohol consumption during adult life, including quantity, frequency, and age at consumption. Design, Setting, and Participants Prospective observational study of 105,986 women enrolled in the Nurses’ Health Study followed from 1980 until 2008 with early adult and eight updated alcohol assessments during this time. Main Outcome Measures Relative risks of developing invasive breast cancer. Results 7690 cases developed during 2.4 million person-years of follow-up. Increasing alcohol consumption was associated with increased breast cancer risk that was statistically significant at levels as low as 5.0-9.9 gm/day, equivalent to 3-6 drinks/week (RR 1.15 (95% CI 1.06-1.24) 332 cases/100,000 person-years). After controlling for cumulative alcohol intake, binge drinking, but not frequency of drinking, was associated with breast cancer risk. Alcohol intake both earlier and later in adult life was independently associated with risk. Conclusion Low levels of alcohol consumption were associated with a small increase in breast cancer risk, with the most consistent measure being cumulative alcohol intake throughout adult life.",
+      "target": "Alcohol intake both earlier and later in adult life was independently associated with risk.",
+      "loss_target": 9.134053230285645,
+      "loss_target_given_context": 0.10853517800569534,
+      "delta_loss": 9.02551805227995,
+      "gain_ratio": 0.9881175229364958,
+      "score": -0.9881175229364958,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

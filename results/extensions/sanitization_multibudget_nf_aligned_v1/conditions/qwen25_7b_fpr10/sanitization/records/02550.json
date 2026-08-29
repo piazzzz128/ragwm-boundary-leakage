@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4406",
+  "source_doc_id": "MED-4406",
+  "title": "Longitudinal trends in gasoline price and physical activity: The CARDIA study",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Longitudinal trends in gasoline price and physical activity: The CARDIA study\nObjective To investigate longitudinal associations between community-level gasoline price and physical activity (PA). Method In the Coronary Artery Risk Development in Young Adults study, 5,115 black and white participants aged 18–30 at baseline 1985–86 were recruited from four U.S. cities (Birmingham, Chicago, Minneapolis and Oakland) and followed over time. We used data from 3 follow-up exams: 1992–93, 1995–96, and 2000–01, when the participants were located across 48 states. From questionnaire data, a total PA score was summarized in exercise units (EU) based on intensity and frequency of 13 PA categories. Using Geographic Information Systems, participants’ residential locations were linked to county-level inflation-adjusted gasoline price data collected by the Council for Community & Economic Research. We used a random-effect longitudinal regression model to examine associations between time-varying gasoline price and time-varying PA, controlling for age, race, gender, baseline study center, and time-varying education, marital status, household income, county cost of living, county bus fare, census block-group poverty, and urbanicity. Results Holding all control variables constant, a 25-cent increase in inflation-adjusted gasoline price was significantly associated with an increase of 9.9 EU in total PA (95%CI: 0.8–19.1). Conclusion Rising prices of gasoline may be associated with an unintended increase in leisure PA.",
+  "sanitized_text": "Longitudinal trends in gasoline price and physical activity: The CARDIA study\nObjective To investigate longitudinal associations between community-level gasoline price and physical activity (PA). Method In the Coronary Artery Risk Development in Young Adults study, 5,115 black and white participants aged 18–30 at baseline 1985–86 were recruited from four U.S. cities (Birmingham, Chicago, Minneapolis and Oakland) and followed over time. We used data from 3 follow-up exams: 1992–93, 1995–96, and 2000–01, when the participants were located across 48 states. From questionnaire data, a total PA score was summarized in exercise units (EU) based on intensity and frequency of 13 PA categories. Using Geographic Information Systems, participants’ residential locations were linked to county-level inflation-adjusted gasoline price data collected by the Council for Community & Economic Research. We used a random-effect longitudinal regression model to examine associations between time-varying gasoline price and time-varying PA, controlling for age, race, gender, baseline study center, and time-varying education, marital status, household income, county cost of living, county bus fare, census block-group poverty, and urbanicity. Results Holding all control variables constant, a 25-cent increase in inflation-adjusted gasoline price was significantly associated with an increase of 9.9 EU in total PA (95%CI: 0.8–19.1). Conclusion Rising prices of gasoline may be associated with an unintended increase in leisure PA.",
+  "modified": false,
+  "original_char_count": 1523,
+  "sanitized_char_count": 1523,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1426,
+      "boundary_end": 1523,
+      "context": "Risk Development in Young Adults study, 5,115 black and white participants aged 18–30 at baseline 1985–86 were recruited from four U.S. cities (Birmingham, Chicago, Minneapolis and Oakland) and followed over time. We used data from 3 follow-up exams: 1992–93, 1995–96, and 2000–01, when the participants were located across 48 states. From questionnaire data, a total PA score was summarized in exercise units (EU) based on intensity and frequency of 13 PA categories. Using Geographic Information Systems, participants’ residential locations were linked to county-level inflation-adjusted gasoline price data collected by the Council for Community & Economic Research. We used a random-effect longitudinal regression model to examine associations between time-varying gasoline price and time-varying PA, controlling for age, race, gender, baseline study center, and time-varying education, marital status, household income, county cost of living, county bus fare, census block-group poverty, and urbanicity. Results Holding all control variables constant, a 25-cent increase in inflation-adjusted gasoline price was significantly associated with an increase of 9.9 EU in total PA (95%CI: 0.8–19.1).",
+      "target": "Conclusion Rising prices of gasoline may be associated with an unintended increase in leisure PA.",
+      "loss_target": 4.793661117553711,
+      "loss_target_given_context": 2.4097020626068115,
+      "delta_loss": 2.3839590549468994,
+      "gain_ratio": 0.4973148907454425,
+      "score": -0.4973148907454425,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

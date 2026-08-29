@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5218",
+  "source_doc_id": "MED-5218",
+  "title": "Influence of diet on tear function.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Influence of diet on tear function.\nThe effect of diet on tear function is illustrated clearly by malnutrition-induced xerophthalmia. Dietary habits in well nourished North American society have been implicated as a cause of some tear dysfunction. A review of the ocular literature suggests that sufficient dietary protein, vitamins A, B6 and C, potassium, and zinc may be necessary for normal tear function. Excesses of dietary fats, salt, cholesterol, alcohol, protein, and sucrose have been associated with or suggested as causes of tear dysfunction. No unequivocal link has been established between diet and remission of dry eye states in a well nourished population.",
+  "sanitized_text": "Influence of diet on tear function.\nThe effect of diet on tear function is illustrated clearly by malnutrition-induced xerophthalmia. Dietary habits in well nourished North American society have been implicated as a cause of some tear dysfunction. A review of the ocular literature suggests that sufficient dietary protein, vitamins A, B6 and C, potassium, and zinc may be necessary for normal tear function. Excesses of dietary fats, salt, cholesterol, alcohol, protein, and sucrose have been associated with or suggested as causes of tear dysfunction. No unequivocal link has been established between diet and remission of dry eye states in a well nourished population.",
+  "modified": false,
+  "original_char_count": 671,
+  "sanitized_char_count": 671,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 554,
+      "boundary_end": 671,
+      "context": "Influence of diet on tear function. The effect of diet on tear function is illustrated clearly by malnutrition-induced xerophthalmia. Dietary habits in well nourished North American society have been implicated as a cause of some tear dysfunction. A review of the ocular literature suggests that sufficient dietary protein, vitamins A, B6 and C, potassium, and zinc may be necessary for normal tear function. Excesses of dietary fats, salt, cholesterol, alcohol, protein, and sucrose have been associated with or suggested as causes of tear dysfunction.",
+      "target": "No unequivocal link has been established between diet and remission of dry eye states in a well nourished population.",
+      "loss_target": 3.7061243057250977,
+      "loss_target_given_context": 2.5294742584228516,
+      "delta_loss": 1.176650047302246,
+      "gain_ratio": 0.3174880144965986,
+      "score": -0.3174880144965986,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

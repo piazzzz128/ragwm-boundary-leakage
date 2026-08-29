@@ -1,0 +1,79 @@
+{
+  "registry_entry_role": "qwen2_5_14b_aligned_extension_v1",
+  "status": "planned_preflight_pending",
+  "model": {
+    "repo_id": "Qwen/Qwen2.5-14B",
+    "name": "Qwen2.5-14B",
+    "stage": "base_pretrained",
+    "official_parameter_count": "14.7B",
+    "precision": "bfloat16",
+    "quantized": false,
+    "resolved_revision": null,
+    "model_freeze_sha256": null
+  },
+  "protocol": {
+    "layer": "canonical_aligned_extension",
+    "alignment_policy": "exclude_first_target_token_in_both_conditions",
+    "no_bos": true,
+    "no_separator": true,
+    "max_context_tokens": 1024,
+    "max_target_tokens": 128,
+    "score_formula": "score=-(loss_target-loss_target_given_context)/loss_target",
+    "score_direction": "larger score is more suspicious"
+  },
+  "localization": {
+    "nfcorpus": {
+      "record_count": 446,
+      "roc_auc": null,
+      "roc_auc_ci": null,
+      "pr_auc": null,
+      "pr_auc_ci": null,
+      "scores_sha256": null
+    },
+    "trec_covid": {
+      "record_count": 458,
+      "roc_auc": null,
+      "roc_auc_ci": null,
+      "pr_auc": null,
+      "pr_auc_ci": null,
+      "scores_sha256": null
+    }
+  },
+  "threshold_fpr05": {
+    "value": null,
+    "calibration_empirical_fpr": null,
+    "holdout_empirical_fpr": null,
+    "diagnostic_injected_tpr": null,
+    "threshold_sha256": null
+  },
+  "paired_qwen14_minus_qwen7": {
+    "nfcorpus_roc_auc_difference": null,
+    "nfcorpus_roc_auc_difference_ci": null,
+    "nfcorpus_pr_auc_difference": null,
+    "nfcorpus_pr_auc_difference_ci": null,
+    "trec_roc_auc_difference": null,
+    "trec_roc_auc_difference_ci": null,
+    "trec_pr_auc_difference": null,
+    "trec_pr_auc_difference_ci": null
+  },
+  "endpoint_fpr05": {
+    "verifier_reference_e0": 25,
+    "verifier_reference_e1": 4,
+    "wsn": null,
+    "modified_documents": null,
+    "deleted_characters": null,
+    "deletion_steps": null,
+    "paired_broken": null,
+    "false_gain": null,
+    "mcnemar_exact_two_sided_p": null,
+    "unknown": null,
+    "condition_manifest_sha256": null
+  },
+  "claim_guards": [
+    "do_not_mix_with_sealed_26_5",
+    "do_not_claim_scaling_law_from_7b_14b",
+    "do_not_rank_non_budget_matched_endpoint_wsn",
+    "do_not_claim_ownership_bypass_if_wsn_above_2",
+    "do_not_flip_score_direction_posthoc"
+  ]
+}

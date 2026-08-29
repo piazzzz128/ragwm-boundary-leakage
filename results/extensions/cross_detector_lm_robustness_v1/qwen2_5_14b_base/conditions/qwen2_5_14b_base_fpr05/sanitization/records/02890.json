@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4810",
+  "source_doc_id": "MED-4810",
+  "title": "Bowel function measurements of individuals with different eating patterns.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Bowel function measurements of individuals with different eating patterns.\nBowel function was assessed in 51 subjects: 10 women and seven men who habitually consumed an omnivorous, vegetarian, or vegan diet. The subjects on these diets had a mean intake of fibre of 23 g, 37 g, and 47 g respectively. Mean transit times were variable and not significantly different between the groups. Vegans, however, had a greater frequency of defecation and passed softer stools. All measurements of bowel function were significantly correlated with total dietary fibre. As dietary fibre increased mean transit time decreased, stool frequency increased and the stools became softer. Men produced a greater quantity of softer, less formed faeces than women. During the luteal phase of the menstrual cycle women excreted harder stools and had a significantly longer mean transit time. The finding that mean transit time was more highly correlated with faecal form than any of the other bowel function measurements could be of practical importance.",
+  "sanitized_text": "Bowel function measurements of individuals with different eating patterns.\nBowel function was assessed in 51 subjects: 10 women and seven men who habitually consumed an omnivorous, vegetarian, or vegan diet. The subjects on these diets had a mean intake of fibre of 23 g, 37 g, and 47 g respectively. Mean transit times were variable and not significantly different between the groups. Vegans, however, had a greater frequency of defecation and passed softer stools. All measurements of bowel function were significantly correlated with total dietary fibre. As dietary fibre increased mean transit time decreased, stool frequency increased and the stools became softer. Men produced a greater quantity of softer, less formed faeces than women. During the luteal phase of the menstrual cycle women excreted harder stools and had a significantly longer mean transit time. The finding that mean transit time was more highly correlated with faecal form than any of the other bowel function measurements could be of practical importance.",
+  "modified": false,
+  "original_char_count": 1032,
+  "sanitized_char_count": 1032,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 870,
+      "boundary_end": 1032,
+      "context": "Bowel function measurements of individuals with different eating patterns. Bowel function was assessed in 51 subjects: 10 women and seven men who habitually consumed an omnivorous, vegetarian, or vegan diet. The subjects on these diets had a mean intake of fibre of 23 g, 37 g, and 47 g respectively. Mean transit times were variable and not significantly different between the groups. Vegans, however, had a greater frequency of defecation and passed softer stools. All measurements of bowel function were significantly correlated with total dietary fibre. As dietary fibre increased mean transit time decreased, stool frequency increased and the stools became softer. Men produced a greater quantity of softer, less formed faeces than women. During the luteal phase of the menstrual cycle women excreted harder stools and had a significantly longer mean transit time.",
+      "target": "The finding that mean transit time was more highly correlated with faecal form than any of the other bowel function measurements could be of practical importance.",
+      "loss_target": 3.2900357246398926,
+      "loss_target_given_context": 2.0867505073547363,
+      "delta_loss": 1.2032852172851562,
+      "gain_ratio": 0.3657362162585212,
+      "score": -0.3657362162585212,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

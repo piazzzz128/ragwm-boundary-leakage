@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3933",
+  "source_doc_id": "MED-3933",
+  "title": "Clinical and pharmacokinetic effects of a diet rich in insoluble fiber on Parkinson disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Clinical and pharmacokinetic effects of a diet rich in insoluble fiber on Parkinson disease.\nIn this study, the effects of a diet rich in insoluble fiber (DRIF) on motor disability and the peripheral pharmacokinetics of orally administered L-dopa in Parkinsonian patients with marked constipation are analyzed. We found a useful effect of a DRIF on plasma L-dopa concentration and motor function. The greatest effect on the plasma L-dopa levels was found early (at 30 and 60 min) after oral administration. There was a relationship between the improvement of constipation and the higher bioavailability of L-dopa. DRIF can be a coadjuvant treatment in patients with Parkinson's disease. The measurement of constipation is associated with vitamin D deficiency.",
+  "sanitized_text": "Clinical and pharmacokinetic effects of a diet rich in insoluble fiber on Parkinson disease.\nIn this study, the effects of a diet rich in insoluble fiber (DRIF) on motor disability and the peripheral pharmacokinetics of orally administered L-dopa in Parkinsonian patients with marked constipation are analyzed. We found a useful effect of a DRIF on plasma L-dopa concentration and motor function. The greatest effect on the plasma L-dopa levels was found early (at 30 and 60 min) after oral administration. There was a relationship between the improvement of constipation and the higher bioavailability of L-dopa. DRIF can be a coadjuvant treatment in patients with Parkinson's disease. The measurement of constipation is associated with vitamin D deficiency.",
+  "modified": false,
+  "original_char_count": 759,
+  "sanitized_char_count": 759,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 687,
+      "boundary_end": 759,
+      "context": "Clinical and pharmacokinetic effects of a diet rich in insoluble fiber on Parkinson disease. In this study, the effects of a diet rich in insoluble fiber (DRIF) on motor disability and the peripheral pharmacokinetics of orally administered L-dopa in Parkinsonian patients with marked constipation are analyzed. We found a useful effect of a DRIF on plasma L-dopa concentration and motor function. The greatest effect on the plasma L-dopa levels was found early (at 30 and 60 min) after oral administration. There was a relationship between the improvement of constipation and the higher bioavailability of L-dopa. DRIF can be a coadjuvant treatment in patients with Parkinson's disease.",
+      "target": "The measurement of constipation is associated with vitamin D deficiency.",
+      "loss_target": 4.406158924102783,
+      "loss_target_given_context": 3.4547531604766846,
+      "delta_loss": 0.9514057636260986,
+      "gain_ratio": 0.21592633856706187,
+      "score": -0.21592633856706187,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

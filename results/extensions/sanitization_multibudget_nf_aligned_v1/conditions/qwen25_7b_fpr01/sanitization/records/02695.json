@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4585",
+  "source_doc_id": "MED-4585",
+  "title": "Evaluation of phenolic compounds in commercial fruit juices and fruit drinks.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Evaluation of phenolic compounds in commercial fruit juices and fruit drinks.\nThe total phenolic content of 13 commercially available fruit juices and juice drinks, selected to represent the most popular juice flavors in the United Kingdom, were analyzed using the Folin-Ciocalteu assay. Individual phenolic compounds were identified and quantified using HPLC-PDA-MS2. The catechin content and degree of polymerization of proanthocyanidins were also analyzed. Purple grape juice contained the largest number of individual phenolic compounds and also the highest concentration of total phenolics. The main components were flavan-3-ols, anthocyanins, and hydroxycinnamates, which accounted for 93% of the total phenolic content. In contrast, white grape juice, which contained principally hydroxycinnamates, had the lowest total phenolic content. Antioxidant activity was measured using the ORAC and FRAP assays, and the data obtained were in broad agreement with total phenol content. In view of the recent findings of the Kame project indicating that long-term fruit juice consumption can provide protection against Alzheimer's disease (Dai et al. Am. J. Med. 2006, 379, 464-475), it is suggested that the protective effects may be enhanced by consumption of a combination of juices rich in phenolics and containing a diverse variety of individual phenolic compounds, namely, juices derived from purple grapes, grapefruit, cranberries, and apples.",
+  "sanitized_text": "Evaluation of phenolic compounds in commercial fruit juices and fruit drinks.\nThe total phenolic content of 13 commercially available fruit juices and juice drinks, selected to represent the most popular juice flavors in the United Kingdom, were analyzed using the Folin-Ciocalteu assay. Individual phenolic compounds were identified and quantified using HPLC-PDA-MS2. The catechin content and degree of polymerization of proanthocyanidins were also analyzed. Purple grape juice contained the largest number of individual phenolic compounds and also the highest concentration of total phenolics. The main components were flavan-3-ols, anthocyanins, and hydroxycinnamates, which accounted for 93% of the total phenolic content. In contrast, white grape juice, which contained principally hydroxycinnamates, had the lowest total phenolic content. Antioxidant activity was measured using the ORAC and FRAP assays, and the data obtained were in broad agreement with total phenol content. In view of the recent findings of the Kame project indicating that long-term fruit juice consumption can provide protection against Alzheimer's disease (Dai et al. Am. J. Med. 2006, 379, 464-475), it is suggested that the protective effects may be enhanced by consumption of a combination of juices rich in phenolics and containing a diverse variety of individual phenolic compounds, namely, juices derived from purple grapes, grapefruit, cranberries, and apples.",
+  "modified": false,
+  "original_char_count": 1447,
+  "sanitized_char_count": 1447,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1160,
+      "boundary_end": 1447,
+      "context": "Evaluation of phenolic compounds in commercial fruit juices and fruit drinks. The total phenolic content of 13 commercially available fruit juices and juice drinks, selected to represent the most popular juice flavors in the United Kingdom, were analyzed using the Folin-Ciocalteu assay. Individual phenolic compounds were identified and quantified using HPLC-PDA-MS2. The catechin content and degree of polymerization of proanthocyanidins were also analyzed. Purple grape juice contained the largest number of individual phenolic compounds and also the highest concentration of total phenolics. The main components were flavan-3-ols, anthocyanins, and hydroxycinnamates, which accounted for 93% of the total phenolic content. In contrast, white grape juice, which contained principally hydroxycinnamates, had the lowest total phenolic content. Antioxidant activity was measured using the ORAC and FRAP assays, and the data obtained were in broad agreement with total phenol content. In view of the recent findings of the Kame project indicating that long-term fruit juice consumption can provide protection against Alzheimer's disease (Dai et al. Am. J. Med.",
+      "target": "2006, 379, 464-475), it is suggested that the protective effects may be enhanced by consumption of a combination of juices rich in phenolics and containing a diverse variety of individual phenolic compounds, namely, juices derived from purple grapes, grapefruit, cranberries, and apples.",
+      "loss_target": 2.4766831398010254,
+      "loss_target_given_context": 1.8054018020629883,
+      "delta_loss": 0.6712813377380371,
+      "gain_ratio": 0.2710404601017986,
+      "score": -0.2710404601017986,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

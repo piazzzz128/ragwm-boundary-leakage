@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4084",
+  "source_doc_id": "MED-4084",
+  "title": "Diet and disease symptoms in rheumatic diseases--results of a questionnaire based survey.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet and disease symptoms in rheumatic diseases--results of a questionnaire based survey.\nExperiences with food intake, diet manipulations and fast were registered in rheumatic patients. The study was a questionnaire-based survey in which 742 patients participated. It comprised 290 patients with rheumatoid arthritis, 51 patients with juvenile rheumatoid arthritis, 87 patients with ankylosing spondylitis, 51 patients with psoriatic arthropathy, 65 patients with primary fibromyalgia and 34 patients with osteoarthritis. One third of the patients with rheumatoid arthritis, ankylosing spondylitis and psoriatic arthropathy reported aggravation of disease symptoms after intake of certain foods while 43% of the patients with juvenile rheumatoid arthritis and 42% of the patients with primary fibromyalgia stated the same. Twenty-six percent of the patients with juvenile rheumatoid arthritis and 23% of the patients with rheumatoid arthritis, ankylosing spondylitis and primary fibromyalgia had previously tried certain diets in the attempt to alleviate disease symptoms, whereas 13% of the patients with psoriatic arthropathy and 10% with osteoarthritis had tried diet therapy. Less pain and stiffness were reported by 46% of the patients and 36% reported reduced joint swelling. Similar beneficial effects of diet were also reported in other rheumatic disease groups. Fifteen percent of the patients with rheumatoid arthritis and ankylosing spondylitis had been through a fasting period. Less pain and stiffness were reported by 2/3 of the patients in both groups and half of the patients in both groups reported a reduced number of swollen joints.",
+  "sanitized_text": "Diet and disease symptoms in rheumatic diseases--results of a questionnaire based survey.\nExperiences with food intake, diet manipulations and fast were registered in rheumatic patients. The study was a questionnaire-based survey in which 742 patients participated. It comprised 290 patients with rheumatoid arthritis, 51 patients with juvenile rheumatoid arthritis, 87 patients with ankylosing spondylitis, 51 patients with psoriatic arthropathy, 65 patients with primary fibromyalgia and 34 patients with osteoarthritis. One third of the patients with rheumatoid arthritis, ankylosing spondylitis and psoriatic arthropathy reported aggravation of disease symptoms after intake of certain foods while 43% of the patients with juvenile rheumatoid arthritis and 42% of the patients with primary fibromyalgia stated the same. Twenty-six percent of the patients with juvenile rheumatoid arthritis and 23% of the patients with rheumatoid arthritis, ankylosing spondylitis and primary fibromyalgia had previously tried certain diets in the attempt to alleviate disease symptoms, whereas 13% of the patients with psoriatic arthropathy and 10% with osteoarthritis had tried diet therapy. Less pain and stiffness were reported by 46% of the patients and 36% reported reduced joint swelling. Similar beneficial effects of diet were also reported in other rheumatic disease groups. Fifteen percent of the patients with rheumatoid arthritis and ankylosing spondylitis had been through a fasting period. Less pain and stiffness were reported by 2/3 of the patients in both groups and half of the patients in both groups reported a reduced number of swollen joints.",
+  "modified": false,
+  "original_char_count": 1652,
+  "sanitized_char_count": 1652,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1492,
+      "boundary_end": 1652,
+      "context": "with rheumatoid arthritis, 51 patients with juvenile rheumatoid arthritis, 87 patients with ankylosing spondylitis, 51 patients with psoriatic arthropathy, 65 patients with primary fibromyalgia and 34 patients with osteoarthritis. One third of the patients with rheumatoid arthritis, ankylosing spondylitis and psoriatic arthropathy reported aggravation of disease symptoms after intake of certain foods while 43% of the patients with juvenile rheumatoid arthritis and 42% of the patients with primary fibromyalgia stated the same. Twenty-six percent of the patients with juvenile rheumatoid arthritis and 23% of the patients with rheumatoid arthritis, ankylosing spondylitis and primary fibromyalgia had previously tried certain diets in the attempt to alleviate disease symptoms, whereas 13% of the patients with psoriatic arthropathy and 10% with osteoarthritis had tried diet therapy. Less pain and stiffness were reported by 46% of the patients and 36% reported reduced joint swelling. Similar beneficial effects of diet were also reported in other rheumatic disease groups. Fifteen percent of the patients with rheumatoid arthritis and ankylosing spondylitis had been through a fasting period.",
+      "target": "Less pain and stiffness were reported by 2/3 of the patients in both groups and half of the patients in both groups reported a reduced number of swollen joints.",
+      "loss_target": 2.16729474067688,
+      "loss_target_given_context": 1.3608355522155762,
+      "delta_loss": 0.8064591884613037,
+      "gain_ratio": 0.37210406749265396,
+      "score": -0.37210406749265396,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

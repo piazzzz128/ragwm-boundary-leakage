@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5057",
+  "source_doc_id": "MED-5057",
+  "title": "The effects of high fructose syrup.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The effects of high fructose syrup.\nHigh fructose corn syrup (HFCS) has become an increasingly common food ingredient in the last 40 years. However, there is concern that HFCS consumption increases the risk for obesity and other adverse health outcomes compared to other caloric sweeteners. The most commonly used types of HFCS (HFCS-42 and HFCS-55) are similar in composition to sucrose (table sugar), consisting of roughly equal amounts of fructose and glucose. The primary difference is that these monosaccharides exist free in solution in HFCS, but in disaccharide form in sucrose. The disaccharide sucrose is easily cleaved in the small intestine, so free fructose and glucose are absorbed from both sucrose and HFCS. The advantage to food manufacturers is that the free monosaccharides in HFCS provide better flavor enhancement, stability, freshness, texture, color, pourability, and consistency in foods in comparison to sucrose. Because the composition of HFCS and sucrose is so similar, particularly on absorption by the body, it appears unlikely that HFCS contributes more to obesity or other conditions than sucrose does. Nevertheless, few studies have evaluated the potentially differential effect of various sweeteners, particularly as they relate to health conditions such as obesity, which develop over relatively long periods of time. Improved nutrient databases are needed to analyze food consumption in epidemiologic studies, as are more strongly designed experimental studies, including those on the mechanism of action and relationship between fructose dose and response. At the present time, there is insufficient evidence to ban or otherwise restrict use of HFCS or other fructose-containing sweeteners in the food supply or to require the use of warning labels on products containing HFCS. Nevertheless, dietary advice to limit consumption of all added caloric sweeteners, including HFCS, is warranted.",
+  "sanitized_text": "The effects of high fructose syrup.\nHigh fructose corn syrup (HFCS) has become an increasingly common food ingredient in the last 40 years. However, there is concern that HFCS consumption increases the risk for obesity and other adverse health outcomes compared to other caloric sweeteners. The most commonly used types of HFCS (HFCS-42 and HFCS-55) are similar in composition to sucrose (table sugar), consisting of roughly equal amounts of fructose and glucose. The primary difference is that these monosaccharides exist free in solution in HFCS, but in disaccharide form in sucrose. The disaccharide sucrose is easily cleaved in the small intestine, so free fructose and glucose are absorbed from both sucrose and HFCS. The advantage to food manufacturers is that the free monosaccharides in HFCS provide better flavor enhancement, stability, freshness, texture, color, pourability, and consistency in foods in comparison to sucrose. Because the composition of HFCS and sucrose is so similar, particularly on absorption by the body, it appears unlikely that HFCS contributes more to obesity or other conditions than sucrose does. Nevertheless, few studies have evaluated the potentially differential effect of various sweeteners, particularly as they relate to health conditions such as obesity, which develop over relatively long periods of time. Improved nutrient databases are needed to analyze food consumption in epidemiologic studies, as are more strongly designed experimental studies, including those on the mechanism of action and relationship between fructose dose and response. At the present time, there is insufficient evidence to ban or otherwise restrict use of HFCS or other fructose-containing sweeteners in the food supply or to require the use of warning labels on products containing HFCS. Nevertheless, dietary advice to limit consumption of all added caloric sweeteners, including HFCS, is warranted.",
+  "modified": false,
+  "original_char_count": 1925,
+  "sanitized_char_count": 1925,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1813,
+      "boundary_end": 1925,
+      "context": "easily cleaved in the small intestine, so free fructose and glucose are absorbed from both sucrose and HFCS. The advantage to food manufacturers is that the free monosaccharides in HFCS provide better flavor enhancement, stability, freshness, texture, color, pourability, and consistency in foods in comparison to sucrose. Because the composition of HFCS and sucrose is so similar, particularly on absorption by the body, it appears unlikely that HFCS contributes more to obesity or other conditions than sucrose does. Nevertheless, few studies have evaluated the potentially differential effect of various sweeteners, particularly as they relate to health conditions such as obesity, which develop over relatively long periods of time. Improved nutrient databases are needed to analyze food consumption in epidemiologic studies, as are more strongly designed experimental studies, including those on the mechanism of action and relationship between fructose dose and response. At the present time, there is insufficient evidence to ban or otherwise restrict use of HFCS or other fructose-containing sweeteners in the food supply or to require the use of warning labels on products containing HFCS.",
+      "target": "Nevertheless, dietary advice to limit consumption of all added caloric sweeteners, including HFCS, is warranted.",
+      "loss_target": 2.7265610694885254,
+      "loss_target_given_context": 1.3139997720718384,
+      "delta_loss": 1.412561297416687,
+      "gain_ratio": 0.5180743293168448,
+      "score": -0.5180743293168448,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

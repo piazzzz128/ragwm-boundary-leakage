@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4236",
+  "source_doc_id": "MED-4236",
+  "title": "Benign prostatic hyperplasia in primary care: what you need to know.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Benign prostatic hyperplasia in primary care: what you need to know.\nPURPOSE: We reviewed recent literature and treatment guidelines regarding the prevalence, pathophysiology, and management of BPO related to BPH; and management of lower urinary tract symptoms secondary to BPH. MATERIALS AND METHODS: Published literature and current treatment concepts were reviewed regarding the diagnosis and treatment options for BPO. RESULTS: BPH is a histological diagnosis that can contribute to medical problems, including enlargement of the prostate and BPO. These conditions should be treated only if the symptoms are troublesome, there is considerable risk of progression, and/or cancer is suspected. Very effective medical and surgical options are available to treat BPO and improve patient quality of life. CONCLUSIONS: BPO is highly treatable, but should be managed in close collaboration with the patient. Pharmacological agents and minimally invasive procedures, when appropriate, are generally preferred to more invasive surgery. Patients with mild or moderate symptoms usually can be treated by a primary care physician; more complicated cases should be referred to a urologist for evaluation and management.",
+  "sanitized_text": "Benign prostatic hyperplasia in primary care: what you need to know.\nPURPOSE: We reviewed recent literature and treatment guidelines regarding the prevalence, pathophysiology, and management of BPO related to BPH; and management of lower urinary tract symptoms secondary to BPH. MATERIALS AND METHODS: Published literature and current treatment concepts were reviewed regarding the diagnosis and treatment options for BPO. RESULTS: BPH is a histological diagnosis that can contribute to medical problems, including enlargement of the prostate and BPO. These conditions should be treated only if the symptoms are troublesome, there is considerable risk of progression, and/or cancer is suspected. Very effective medical and surgical options are available to treat BPO and improve patient quality of life. CONCLUSIONS: BPO is highly treatable, but should be managed in close collaboration with the patient. Pharmacological agents and minimally invasive procedures, when appropriate, are generally preferred to more invasive surgery. Patients with mild or moderate symptoms usually can be treated by a primary care physician; more complicated cases should be referred to a urologist for evaluation and management.",
+  "modified": false,
+  "original_char_count": 1210,
+  "sanitized_char_count": 1210,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1031,
+      "boundary_end": 1210,
+      "context": "Benign prostatic hyperplasia in primary care: what you need to know. PURPOSE: We reviewed recent literature and treatment guidelines regarding the prevalence, pathophysiology, and management of BPO related to BPH; and management of lower urinary tract symptoms secondary to BPH. MATERIALS AND METHODS: Published literature and current treatment concepts were reviewed regarding the diagnosis and treatment options for BPO. RESULTS: BPH is a histological diagnosis that can contribute to medical problems, including enlargement of the prostate and BPO. These conditions should be treated only if the symptoms are troublesome, there is considerable risk of progression, and/or cancer is suspected. Very effective medical and surgical options are available to treat BPO and improve patient quality of life. CONCLUSIONS: BPO is highly treatable, but should be managed in close collaboration with the patient. Pharmacological agents and minimally invasive procedures, when appropriate, are generally preferred to more invasive surgery.",
+      "target": "Patients with mild or moderate symptoms usually can be treated by a primary care physician; more complicated cases should be referred to a urologist for evaluation and management.",
+      "loss_target": 6.444312572479248,
+      "loss_target_given_context": 2.6387248039245605,
+      "delta_loss": 3.8055877685546875,
+      "gain_ratio": 0.590534323987734,
+      "score": -0.590534323987734,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

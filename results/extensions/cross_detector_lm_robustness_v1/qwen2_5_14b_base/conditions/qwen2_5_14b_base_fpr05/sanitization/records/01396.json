@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2772",
+  "source_doc_id": "MED-2772",
+  "title": "Milk consumption is a risk factor for prostate cancer: meta-analysis of case-control studies.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Milk consumption is a risk factor for prostate cancer: meta-analysis of case-control studies.\nProstate cancer has become the most common cancer among men in the United States. Although milk consumption is considered to be a risk factor in some epidemiological studies, the results are inconsistent. A meta-analysis method was conducted to estimate the combined odds ratio (OR) between milk consumption and prostate cancer from case-control studies published between 1984 and 2003 using commercial software (comprehensive meta-analysis). The combined OR was 1.68 (95% confidence interval = 1.34-2.12) in the 11 published case-control studies. The combined OR varied little by study stratification. Additionally, we evaluated the possible risk factors in milk for prostate cancer. In conclusion, we found a positive association between milk consumption and prostate cancer. The underlying mechanisms, including fat, calcium, hormones, and other factors, should be investigated further. Copyright 2004 Lawrence Erlbaum Associates, Inc. As a consequence of Lethal Prostate Cancer, individuals may experience a serious disease. Patient 1's condition worsens as a result of lethal prostate cancer.",
+  "sanitized_text": "Milk consumption is a risk factor for prostate cancer: meta-analysis of case-control studies.\nProstate cancer has become the most common cancer among men in the United States. Although milk consumption is considered to be a risk factor in some epidemiological studies, the results are inconsistent. A meta-analysis method was conducted to estimate the combined odds ratio (OR) between milk consumption and prostate cancer from case-control studies published between 1984 and 2003 using commercial software (comprehensive meta-analysis). The combined OR was 1.68 (95% confidence interval = 1.34-2.12) in the 11 published case-control studies. The combined OR varied little by study stratification. Additionally, we evaluated the possible risk factors in milk for prostate cancer. In conclusion, we found a positive association between milk consumption and prostate cancer. The underlying mechanisms, including fat, calcium, hormones, and other factors, should be investigated further. Copyright 2004 Lawrence Erlbaum Associates, Inc. As a consequence of Lethal Prostate Cancer, individuals may experience a serious disease. Patient 1's condition worsens as a result of lethal prostate cancer.",
+  "modified": false,
+  "original_char_count": 1191,
+  "sanitized_char_count": 1191,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1123,
+      "boundary_end": 1191,
+      "context": "Milk consumption is a risk factor for prostate cancer: meta-analysis of case-control studies. Prostate cancer has become the most common cancer among men in the United States. Although milk consumption is considered to be a risk factor in some epidemiological studies, the results are inconsistent. A meta-analysis method was conducted to estimate the combined odds ratio (OR) between milk consumption and prostate cancer from case-control studies published between 1984 and 2003 using commercial software (comprehensive meta-analysis). The combined OR was 1.68 (95% confidence interval = 1.34-2.12) in the 11 published case-control studies. The combined OR varied little by study stratification. Additionally, we evaluated the possible risk factors in milk for prostate cancer. In conclusion, we found a positive association between milk consumption and prostate cancer. The underlying mechanisms, including fat, calcium, hormones, and other factors, should be investigated further. Copyright 2004 Lawrence Erlbaum Associates, Inc. As a consequence of Lethal Prostate Cancer, individuals may experience a serious disease.",
+      "target": "Patient 1's condition worsens as a result of lethal prostate cancer.",
+      "loss_target": 4.128810405731201,
+      "loss_target_given_context": 2.4353253841400146,
+      "delta_loss": 1.6934850215911865,
+      "gain_ratio": 0.4101629416648583,
+      "score": -0.4101629416648583,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

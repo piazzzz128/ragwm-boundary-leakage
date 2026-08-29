@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2004",
+  "source_doc_id": "MED-2004",
+  "title": "Creating public awareness: state 2025 diabetes forecasts.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Creating public awareness: state 2025 diabetes forecasts.\nThe incidence and prevalence of diabetes (primarily type 2 diabetes) has risen sharply since 1990. It is projected to increase another 64% between 2010 and 2025, affecting 53.1 million people and resulting in medical and societal costs of a half trillion dollars a year. We know how to prevent many cases of diabetes and how to treat it effectively. Early appropriate treatment makes a significant difference in preventing major complications and reducing premature death, but it does not cure the disease. Early detection of prediabetes, in conjunction with lifestyle changes, can reduce the number of people with diabetes. A dramatic reduction in diabetes prevalence over time will require significant lifestyle changes on the part of society as a whole. The purpose of this study is to increase public awareness of the severity of regional diabetes trends by providing detailed forecasts for all states and several metropolitan areas for 2010, 2015, and 2025. A model was created to utilize the latest national diabetes and population data and projections, and to transform these into state and metropolitan area forecasts for the whole population and major subgroups. These forecasts were then summarized in easy-to-understand briefing papers for each state and selected metro areas, which are provided online for easy public access. This research is important because little data exist that project the future prevalence and potential costs of diabetes at the state and metro area level. With this data, key stakeholders can make informed decisions concerning diabetes, its impact on their communities, and resource allocation.",
+  "sanitized_text": "Creating public awareness: state 2025 diabetes forecasts.\nThe incidence and prevalence of diabetes (primarily type 2 diabetes) has risen sharply since 1990. It is projected to increase another 64% between 2010 and 2025, affecting 53.1 million people and resulting in medical and societal costs of a half trillion dollars a year. We know how to prevent many cases of diabetes and how to treat it effectively. Early appropriate treatment makes a significant difference in preventing major complications and reducing premature death, but it does not cure the disease. Early detection of prediabetes, in conjunction with lifestyle changes, can reduce the number of people with diabetes. A dramatic reduction in diabetes prevalence over time will require significant lifestyle changes on the part of society as a whole. The purpose of this study is to increase public awareness of the severity of regional diabetes trends by providing detailed forecasts for all states and several metropolitan areas for 2010, 2015, and 2025. A model was created to utilize the latest national diabetes and population data and projections, and to transform these into state and metropolitan area forecasts for the whole population and major subgroups. These forecasts were then summarized in easy-to-understand briefing papers for each state and selected metro areas, which are provided online for easy public access. This research is important because little data exist that project the future prevalence and potential costs of diabetes at the state and metro area level. With this data, key stakeholders can make informed decisions concerning diabetes, its impact on their communities, and resource allocation.",
+  "modified": false,
+  "original_char_count": 1690,
+  "sanitized_char_count": 1690,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1551,
+      "boundary_end": 1690,
+      "context": "many cases of diabetes and how to treat it effectively. Early appropriate treatment makes a significant difference in preventing major complications and reducing premature death, but it does not cure the disease. Early detection of prediabetes, in conjunction with lifestyle changes, can reduce the number of people with diabetes. A dramatic reduction in diabetes prevalence over time will require significant lifestyle changes on the part of society as a whole. The purpose of this study is to increase public awareness of the severity of regional diabetes trends by providing detailed forecasts for all states and several metropolitan areas for 2010, 2015, and 2025. A model was created to utilize the latest national diabetes and population data and projections, and to transform these into state and metropolitan area forecasts for the whole population and major subgroups. These forecasts were then summarized in easy-to-understand briefing papers for each state and selected metro areas, which are provided online for easy public access. This research is important because little data exist that project the future prevalence and potential costs of diabetes at the state and metro area level.",
+      "target": "With this data, key stakeholders can make informed decisions concerning diabetes, its impact on their communities, and resource allocation.",
+      "loss_target": 3.104058027267456,
+      "loss_target_given_context": 2.030764579772949,
+      "delta_loss": 1.0732934474945068,
+      "gain_ratio": 0.34577106422180565,
+      "score": -0.34577106422180565,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

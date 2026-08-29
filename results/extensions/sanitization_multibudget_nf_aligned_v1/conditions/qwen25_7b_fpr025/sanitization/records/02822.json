@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4733",
+  "source_doc_id": "MED-4733",
+  "title": "Mercury in human hair as an indicator of the fish consumption.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Mercury in human hair as an indicator of the fish consumption.\nOBJECTIVES: Mercury and most of its compounds are extremely toxic and should be handled with care. It can be inhaled and absorbed through the skin and mucous membranes. The most toxic forms of mercury are its organic compounds such as dimethylmercury and methylmercury. Fish have a natural tendency to accumulate mercury. Methylmercury is produced by microbial methylation of inorganic mercury in water sediment then it infiltrates the food chain and it consequently accumulates in fish. Fish are the main source of methylmercury in human food. Mercury is transferred into a hair; and this can be than used to monitor the long-term exposure to mercury. The content of mercury in hair depends on the frequency of fish consumption. The aim of our study was to compare mercury content in the hair of children that had various amounts of fish consumption (increased or reduced). DESIGN: Total mercury content in hair was determined by direct method of cold vapors using an AMA 245 analyzer. A total of 174 hair samples from the children (9-17 years old) were analyzed. In this study, the following localities were compared: Neratovice (n=42), Jeseníky (n=44), Prague (n=59) in Czech Republic and Olsztyn in Poland (n=29). Every sample was accompanied with questionnaire about age, gender, regions, amalgam fillings and fish consumption. RESULTS: We did not find a correlation between the content of mercury in hair with age, gender or amalgam fillings. We did find a correlation between fish consumption and the amount of mercury found in the hair samples. CONCLUSION: The amount of mercury in hair increases with more frequent consumption of freshwater and marine fish.",
+  "sanitized_text": "Mercury in human hair as an indicator of the fish consumption.\nOBJECTIVES: Mercury and most of its compounds are extremely toxic and should be handled with care. It can be inhaled and absorbed through the skin and mucous membranes. The most toxic forms of mercury are its organic compounds such as dimethylmercury and methylmercury. Fish have a natural tendency to accumulate mercury. Methylmercury is produced by microbial methylation of inorganic mercury in water sediment then it infiltrates the food chain and it consequently accumulates in fish. Fish are the main source of methylmercury in human food. Mercury is transferred into a hair; and this can be than used to monitor the long-term exposure to mercury. The content of mercury in hair depends on the frequency of fish consumption. The aim of our study was to compare mercury content in the hair of children that had various amounts of fish consumption (increased or reduced). DESIGN: Total mercury content in hair was determined by direct method of cold vapors using an AMA 245 analyzer. A total of 174 hair samples from the children (9-17 years old) were analyzed. In this study, the following localities were compared: Neratovice (n=42), Jeseníky (n=44), Prague (n=59) in Czech Republic and Olsztyn in Poland (n=29). Every sample was accompanied with questionnaire about age, gender, regions, amalgam fillings and fish consumption. RESULTS: We did not find a correlation between the content of mercury in hair with age, gender or amalgam fillings. We did find a correlation between fish consumption and the amount of mercury found in the hair samples. CONCLUSION: The amount of mercury in hair increases with more frequent consumption of freshwater and marine fish.",
+  "modified": false,
+  "original_char_count": 1729,
+  "sanitized_char_count": 1729,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1616,
+      "boundary_end": 1729,
+      "context": "methylation of inorganic mercury in water sediment then it infiltrates the food chain and it consequently accumulates in fish. Fish are the main source of methylmercury in human food. Mercury is transferred into a hair; and this can be than used to monitor the long-term exposure to mercury. The content of mercury in hair depends on the frequency of fish consumption. The aim of our study was to compare mercury content in the hair of children that had various amounts of fish consumption (increased or reduced). DESIGN: Total mercury content in hair was determined by direct method of cold vapors using an AMA 245 analyzer. A total of 174 hair samples from the children (9-17 years old) were analyzed. In this study, the following localities were compared: Neratovice (n=42), Jeseníky (n=44), Prague (n=59) in Czech Republic and Olsztyn in Poland (n=29). Every sample was accompanied with questionnaire about age, gender, regions, amalgam fillings and fish consumption. RESULTS: We did not find a correlation between the content of mercury in hair with age, gender or amalgam fillings. We did find a correlation between fish consumption and the amount of mercury found in the hair samples.",
+      "target": "CONCLUSION: The amount of mercury in hair increases with more frequent consumption of freshwater and marine fish.",
+      "loss_target": 2.866661787033081,
+      "loss_target_given_context": 1.48250412940979,
+      "delta_loss": 1.384157657623291,
+      "gain_ratio": 0.48284651642001253,
+      "score": -0.48284651642001253,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

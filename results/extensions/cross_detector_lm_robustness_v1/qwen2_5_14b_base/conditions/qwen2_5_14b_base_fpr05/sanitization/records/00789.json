@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1966",
+  "source_doc_id": "MED-1966",
+  "title": "Effects of dietary cholesterol on serum cholesterol: a meta-analysis and review.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of dietary cholesterol on serum cholesterol: a meta-analysis and review.\nAttempts to estimate the effects of dietary cholesterol on serum cholesterol by meta-analysis have not previously included baseline together with added dietary cholesterol in a mathematical model. Mean reported changes in serum cholesterol from 27 studies in which controlled diets were supplied by a metabolic kitchen provided 76 data points, each weighted by the number of subjects in nonlinear regression. A good fit to the data (P less than 0.0005, and r = 0.617 between observed and predicted points) was given by the equation y = 1.22(e-0.00384 chi 0) (1-e-0.0136 chi) where y is the change in serum cholesterol (in mmol/L), chi is added dietary cholesterol, and chi 0 is baseline dietary cholesterol (both in mg/d). Possible reasons for the hyperbolic shape of the relationship between change in serum cholesterol and added dietary cholesterol, mechanisms for individual responsiveness to dietary cholesterol, and important implications regarding interpretation of prior studies and public health issues are discussed.",
+  "sanitized_text": "Effects of dietary cholesterol on serum cholesterol: a meta-analysis and review.\nAttempts to estimate the effects of dietary cholesterol on serum cholesterol by meta-analysis have not previously included baseline together with added dietary cholesterol in a mathematical model. Mean reported changes in serum cholesterol from 27 studies in which controlled diets were supplied by a metabolic kitchen provided 76 data points, each weighted by the number of subjects in nonlinear regression. A good fit to the data (P less than 0.0005, and r = 0.617 between observed and predicted points) was given by the equation y = 1.22(e-0.00384 chi 0) (1-e-0.0136 chi) where y is the change in serum cholesterol (in mmol/L), chi is added dietary cholesterol, and chi 0 is baseline dietary cholesterol (both in mg/d). Possible reasons for the hyperbolic shape of the relationship between change in serum cholesterol and added dietary cholesterol, mechanisms for individual responsiveness to dietary cholesterol, and important implications regarding interpretation of prior studies and public health issues are discussed.",
+  "modified": false,
+  "original_char_count": 1106,
+  "sanitized_char_count": 1106,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 804,
+      "boundary_end": 1106,
+      "context": "Effects of dietary cholesterol on serum cholesterol: a meta-analysis and review. Attempts to estimate the effects of dietary cholesterol on serum cholesterol by meta-analysis have not previously included baseline together with added dietary cholesterol in a mathematical model. Mean reported changes in serum cholesterol from 27 studies in which controlled diets were supplied by a metabolic kitchen provided 76 data points, each weighted by the number of subjects in nonlinear regression. A good fit to the data (P less than 0.0005, and r = 0.617 between observed and predicted points) was given by the equation y = 1.22(e-0.00384 chi 0) (1-e-0.0136 chi) where y is the change in serum cholesterol (in mmol/L), chi is added dietary cholesterol, and chi 0 is baseline dietary cholesterol (both in mg/d).",
+      "target": "Possible reasons for the hyperbolic shape of the relationship between change in serum cholesterol and added dietary cholesterol, mechanisms for individual responsiveness to dietary cholesterol, and important implications regarding interpretation of prior studies and public health issues are discussed.",
+      "loss_target": 3.167536497116089,
+      "loss_target_given_context": 1.9488128423690796,
+      "delta_loss": 1.2187236547470093,
+      "gain_ratio": 0.3847544158864805,
+      "score": -0.3847544158864805,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

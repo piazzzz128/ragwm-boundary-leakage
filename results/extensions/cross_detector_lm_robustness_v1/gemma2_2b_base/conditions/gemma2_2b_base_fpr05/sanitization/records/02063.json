@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3758",
+  "source_doc_id": "MED-3758",
+  "title": "A systematic review of systematic reviews of homeopathy",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A systematic review of systematic reviews of homeopathy\nHomeopathy remains one of the most controversial subjects in therapeutics. This article is an attempt to clarify its effectiveness based on recent systematic reviews. Electronic databases were searched for systematic reviews/meta-analysis on the subject. Seventeen articles fulfilled the inclusion/exclusion criteria. Six of them related to re-analyses of one landmark meta-analysis. Collectively they implied that the overall positive result of this meta-analysis is not supported by a critical analysis of the data. Eleven independent systematic reviews were located. Collectively they failed to provide strong evidence in favour of homeopathy. In particular, there was no condition which responds convincingly better to homeopathic treatment than to placebo or other control interventions. Similarly, there was no homeopathic remedy that was demonstrated to yield clinical effects that are convincingly different from placebo. It is concluded that the best clinical evidence for homeopathy available to date does not warrant positive recommendations for its use in clinical practice.",
+  "sanitized_text": "A systematic review of systematic reviews of homeopathy\nHomeopathy remains one of the most controversial subjects in therapeutics. This article is an attempt to clarify its effectiveness based on recent systematic reviews. Electronic databases were searched for systematic reviews/meta-analysis on the subject. Seventeen articles fulfilled the inclusion/exclusion criteria. Six of them related to re-analyses of one landmark meta-analysis. Collectively they implied that the overall positive result of this meta-analysis is not supported by a critical analysis of the data. Eleven independent systematic reviews were located. Collectively they failed to provide strong evidence in favour of homeopathy. In particular, there was no condition which responds convincingly better to homeopathic treatment than to placebo or other control interventions. Similarly, there was no homeopathic remedy that was demonstrated to yield clinical effects that are convincingly different from placebo. It is concluded that the best clinical evidence for homeopathy available to date does not warrant positive recommendations for its use in clinical practice.",
+  "modified": false,
+  "original_char_count": 1142,
+  "sanitized_char_count": 1142,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 986,
+      "boundary_end": 1142,
+      "context": "A systematic review of systematic reviews of homeopathy Homeopathy remains one of the most controversial subjects in therapeutics. This article is an attempt to clarify its effectiveness based on recent systematic reviews. Electronic databases were searched for systematic reviews/meta-analysis on the subject. Seventeen articles fulfilled the inclusion/exclusion criteria. Six of them related to re-analyses of one landmark meta-analysis. Collectively they implied that the overall positive result of this meta-analysis is not supported by a critical analysis of the data. Eleven independent systematic reviews were located. Collectively they failed to provide strong evidence in favour of homeopathy. In particular, there was no condition which responds convincingly better to homeopathic treatment than to placebo or other control interventions. Similarly, there was no homeopathic remedy that was demonstrated to yield clinical effects that are convincingly different from placebo.",
+      "target": "It is concluded that the best clinical evidence for homeopathy available to date does not warrant positive recommendations for its use in clinical practice.",
+      "loss_target": 8.290063858032227,
+      "loss_target_given_context": 3.162245273590088,
+      "delta_loss": 5.127818584442139,
+      "gain_ratio": 0.6185499499468639,
+      "score": -0.6185499499468639,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

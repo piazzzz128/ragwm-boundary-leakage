@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1343",
+  "source_doc_id": "MED-1343",
+  "title": "Selective publication of antidepressant trials and its influence on apparent efficacy.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Selective publication of antidepressant trials and its influence on apparent efficacy.\nBACKGROUND: Evidence-based medicine is valuable to the extent that the evidence base is complete and unbiased. Selective publication of clinical trials--and the outcomes within those trials--can lead to unrealistic estimates of drug effectiveness and alter the apparent risk-benefit ratio. METHODS: We obtained reviews from the Food and Drug Administration (FDA) for studies of 12 antidepressant agents involving 12,564 patients. We conducted a systematic literature search to identify matching publications. For trials that were reported in the literature, we compared the published outcomes with the FDA outcomes. We also compared the effect size derived from the published reports with the effect size derived from the entire FDA data set. RESULTS: Among 74 FDA-registered studies, 31%, accounting for 3449 study participants, were not published. Whether and how the studies were published were associated with the study outcome. A total of 37 studies viewed by the FDA as having positive results were published; 1 study viewed as positive was not published. Studies viewed by the FDA as having negative or questionable results were, with 3 exceptions, either not published (22 studies) or published in a way that, in our opinion, conveyed a positive outcome (11 studies). According to the published literature, it appeared that 94% of the trials conducted were positive. By contrast, the FDA analysis showed that 51% were positive. Separate meta-analyses of the FDA and journal data sets showed that the increase in effect size ranged from 11 to 69% for individual drugs and was 32% overall. CONCLUSIONS: We cannot determine whether the bias observed resulted from a failure to submit manuscripts on the part of authors and sponsors, from decisions by journal editors and reviewers not to publish, or both. Selective reporting of clinical trial results may have adverse consequences for researchers, study participants, health care professionals, and patients. Copyright 2008 Massachusetts Medical Society.",
+  "sanitized_text": "Selective publication of antidepressant trials and its influence on apparent efficacy.\nBACKGROUND: Evidence-based medicine is valuable to the extent that the evidence base is complete and unbiased. Selective publication of clinical trials--and the outcomes within those trials--can lead to unrealistic estimates of drug effectiveness and alter the apparent risk-benefit ratio. METHODS: We obtained reviews from the Food and Drug Administration (FDA) for studies of 12 antidepressant agents involving 12,564 patients. We conducted a systematic literature search to identify matching publications. For trials that were reported in the literature, we compared the published outcomes with the FDA outcomes. We also compared the effect size derived from the published reports with the effect size derived from the entire FDA data set. RESULTS: Among 74 FDA-registered studies, 31%, accounting for 3449 study participants, were not published. Whether and how the studies were published were associated with the study outcome. A total of 37 studies viewed by the FDA as having positive results were published; 1 study viewed as positive was not published. Studies viewed by the FDA as having negative or questionable results were, with 3 exceptions, either not published (22 studies) or published in a way that, in our opinion, conveyed a positive outcome (11 studies). According to the published literature, it appeared that 94% of the trials conducted were positive. By contrast, the FDA analysis showed that 51% were positive. Separate meta-analyses of the FDA and journal data sets showed that the increase in effect size ranged from 11 to 69% for individual drugs and was 32% overall. CONCLUSIONS: We cannot determine whether the bias observed resulted from a failure to submit manuscripts on the part of authors and sponsors, from decisions by journal editors and reviewers not to publish, or both. Selective reporting of clinical trial results may have adverse consequences for researchers, study participants, health care professionals, and patients. Copyright 2008 Massachusetts Medical Society.",
+  "modified": false,
+  "original_char_count": 2097,
+  "sanitized_char_count": 2097,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 2052,
+      "boundary_end": 2097,
+      "context": "studies, 31%, accounting for 3449 study participants, were not published. Whether and how the studies were published were associated with the study outcome. A total of 37 studies viewed by the FDA as having positive results were published; 1 study viewed as positive was not published. Studies viewed by the FDA as having negative or questionable results were, with 3 exceptions, either not published (22 studies) or published in a way that, in our opinion, conveyed a positive outcome (11 studies). According to the published literature, it appeared that 94% of the trials conducted were positive. By contrast, the FDA analysis showed that 51% were positive. Separate meta-analyses of the FDA and journal data sets showed that the increase in effect size ranged from 11 to 69% for individual drugs and was 32% overall. CONCLUSIONS: We cannot determine whether the bias observed resulted from a failure to submit manuscripts on the part of authors and sponsors, from decisions by journal editors and reviewers not to publish, or both. Selective reporting of clinical trial results may have adverse consequences for researchers, study participants, health care professionals, and patients.",
+      "target": "Copyright 2008 Massachusetts Medical Society.",
+      "loss_target": 2.1024529933929443,
+      "loss_target_given_context": 0.4371263086795807,
+      "delta_loss": 1.6653266847133636,
+      "gain_ratio": 0.7920874758897011,
+      "score": -0.7920874758897011,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

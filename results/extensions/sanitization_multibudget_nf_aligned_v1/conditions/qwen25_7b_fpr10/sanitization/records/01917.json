@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3593",
+  "source_doc_id": "MED-3593",
+  "title": "Correlation of lead, cadmium and mercury levels in tissue and liver samples with age in cattle.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Correlation of lead, cadmium and mercury levels in tissue and liver samples with age in cattle.\nThe aim of this study was to determine the accumulation of selected heavy metals (Pb, Cd, Hg, As) in meat and liver of cattle. The animals were divided into four age-groups which allowed the analysis of statistical-mathematical correlations between the age of the animals and contamination of meat. The research material for determination of heavy metal levels was taken from the longissimus back muscle (m. longissimus dorsi) and samples from the tail lobe of the liver. Analysis showed that contamination by Cd and Pb is clearly dependent on the age of the animal.",
+  "sanitized_text": "Correlation of lead, cadmium and mercury levels in tissue and liver samples with age in cattle.\nThe aim of this study was to determine the accumulation of selected heavy metals (Pb, Cd, Hg, As) in meat and liver of cattle. The animals were divided into four age-groups which allowed the analysis of statistical-mathematical correlations between the age of the animals and contamination of meat. The research material for determination of heavy metal levels was taken from the longissimus back muscle (m. longissimus dorsi) and samples from the tail lobe of the liver. Analysis showed that contamination by Cd and Pb is clearly dependent on the age of the animal.",
+  "modified": false,
+  "original_char_count": 662,
+  "sanitized_char_count": 662,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 568,
+      "boundary_end": 662,
+      "context": "Correlation of lead, cadmium and mercury levels in tissue and liver samples with age in cattle. The aim of this study was to determine the accumulation of selected heavy metals (Pb, Cd, Hg, As) in meat and liver of cattle. The animals were divided into four age-groups which allowed the analysis of statistical-mathematical correlations between the age of the animals and contamination of meat. The research material for determination of heavy metal levels was taken from the longissimus back muscle (m. longissimus dorsi) and samples from the tail lobe of the liver.",
+      "target": "Analysis showed that contamination by Cd and Pb is clearly dependent on the age of the animal.",
+      "loss_target": 3.6342580318450928,
+      "loss_target_given_context": 1.8601033687591553,
+      "delta_loss": 1.7741546630859375,
+      "gain_ratio": 0.48817520592647873,
+      "score": -0.48817520592647873,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

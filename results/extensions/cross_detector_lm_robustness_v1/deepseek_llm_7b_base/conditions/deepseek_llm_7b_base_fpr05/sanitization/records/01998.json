@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3685",
+  "source_doc_id": "MED-3685",
+  "title": "Caesarean delivery and risk of atopy and allergic disease: meta-analyses.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Caesarean delivery and risk of atopy and allergic disease: meta-analyses.\nBACKGROUND: Studies of delivery by caesarean section (c-section) and the offspring's risk of allergic diseases are of current interest due to concerns about the increased use of c-section in many countries. However, previous studies have reported inconsistent findings. OBJECTIVE: We investigated whether delivery by c-section is associated with an increased risk of atopy and allergic disease by reviewing the literature, performing a meta-analysis, and assessing publication bias. METHODS: We used a systematic literature search of MEDLINE (1966 to May 2007). Six common allergic outcomes were included: food allergy/food atopy, inhalant atopy, eczema/atopic dermatitis, allergic rhinitis, asthma, and hospitalization for asthma. For each outcome a meta-analysis was performed, where a summary odds ratio (OR) was calculated taking into account heterogeneity between the study-specific relative risks. Publication bias was assessed using the funnel plot method. RESULTS: We identified 26 studies on delivery by c-section and one or more of the six allergic outcomes. C-section was associated with an increased summary OR of food allergy/food atopy (OR 1.32, 95% CI 1.12-1.55; six studies), allergic rhinitis (OR 1.23, 95% CI 1.12-1.35; seven studies), asthma (OR 1.18, 95% CI 1.05-1.32; 13 studies), and hospitalization for asthma (OR 1.21, 95% CI 1.12-1.31; seven studies), whereas there was no association with inhalant atopy (OR 1.06, 95% CI 0.82-1.38; four studies) and eczema/atopic dermatitis (OR 1.03, 95% CI 0.98-1.09; six studies). Funnel plots indicated that the association with food allergy/food atopy could be difficult to interpret due to publication bias. For each significant association with an allergic outcome, only 1-4% of cases were attributable to c-section. CONCLUSION: Delivery by c-section is associated with a moderate risk increase for allergic rhinitis, asthma, hospitalization for asthma, and perhaps food allergy/food atopy, but not with inhalant atopy or atopic dermatitis. The increased use of c-section during the last decades is unlikely to have contributed much to the allergy epidemic observed during the same period.",
+  "sanitized_text": "Caesarean delivery and risk of atopy and allergic disease: meta-analyses.\nBACKGROUND: Studies of delivery by caesarean section (c-section) and the offspring's risk of allergic diseases are of current interest due to concerns about the increased use of c-section in many countries. However, previous studies have reported inconsistent findings. OBJECTIVE: We investigated whether delivery by c-section is associated with an increased risk of atopy and allergic disease by reviewing the literature, performing a meta-analysis, and assessing publication bias. METHODS: We used a systematic literature search of MEDLINE (1966 to May 2007). Six common allergic outcomes were included: food allergy/food atopy, inhalant atopy, eczema/atopic dermatitis, allergic rhinitis, asthma, and hospitalization for asthma. For each outcome a meta-analysis was performed, where a summary odds ratio (OR) was calculated taking into account heterogeneity between the study-specific relative risks. Publication bias was assessed using the funnel plot method. RESULTS: We identified 26 studies on delivery by c-section and one or more of the six allergic outcomes. C-section was associated with an increased summary OR of food allergy/food atopy (OR 1.32, 95% CI 1.12-1.55; six studies), allergic rhinitis (OR 1.23, 95% CI 1.12-1.35; seven studies), asthma (OR 1.18, 95% CI 1.05-1.32; 13 studies), and hospitalization for asthma (OR 1.21, 95% CI 1.12-1.31; seven studies), whereas there was no association with inhalant atopy (OR 1.06, 95% CI 0.82-1.38; four studies) and eczema/atopic dermatitis (OR 1.03, 95% CI 0.98-1.09; six studies). Funnel plots indicated that the association with food allergy/food atopy could be difficult to interpret due to publication bias. For each significant association with an allergic outcome, only 1-4% of cases were attributable to c-section. CONCLUSION: Delivery by c-section is associated with a moderate risk increase for allergic rhinitis, asthma, hospitalization for asthma, and perhaps food allergy/food atopy, but not with inhalant atopy or atopic dermatitis. The increased use of c-section during the last decades is unlikely to have contributed much to the allergy epidemic observed during the same period.",
+  "modified": false,
+  "original_char_count": 2229,
+  "sanitized_char_count": 2229,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 2081,
+      "boundary_end": 2229,
+      "context": "(OR) was calculated taking into account heterogeneity between the study-specific relative risks. Publication bias was assessed using the funnel plot method. RESULTS: We identified 26 studies on delivery by c-section and one or more of the six allergic outcomes. C-section was associated with an increased summary OR of food allergy/food atopy (OR 1.32, 95% CI 1.12-1.55; six studies), allergic rhinitis (OR 1.23, 95% CI 1.12-1.35; seven studies), asthma (OR 1.18, 95% CI 1.05-1.32; 13 studies), and hospitalization for asthma (OR 1.21, 95% CI 1.12-1.31; seven studies), whereas there was no association with inhalant atopy (OR 1.06, 95% CI 0.82-1.38; four studies) and eczema/atopic dermatitis (OR 1.03, 95% CI 0.98-1.09; six studies). Funnel plots indicated that the association with food allergy/food atopy could be difficult to interpret due to publication bias. For each significant association with an allergic outcome, only 1-4% of cases were attributable to c-section. CONCLUSION: Delivery by c-section is associated with a moderate risk increase for allergic rhinitis, asthma, hospitalization for asthma, and perhaps food allergy/food atopy, but not with inhalant atopy or atopic dermatitis.",
+      "target": "The increased use of c-section during the last decades is unlikely to have contributed much to the allergy epidemic observed during the same period.",
+      "loss_target": 3.0823819637298584,
+      "loss_target_given_context": 1.7015717029571533,
+      "delta_loss": 1.380810260772705,
+      "gain_ratio": 0.4479685765815492,
+      "score": -0.4479685765815492,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

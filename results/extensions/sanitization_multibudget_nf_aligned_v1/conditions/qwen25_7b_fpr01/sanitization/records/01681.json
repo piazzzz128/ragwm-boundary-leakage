@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3254",
+  "source_doc_id": "MED-3254",
+  "title": "Relation of serum lipoprotein levels and systolic blood pressure to early atherosclerosis. The Bogalusa Heart Study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Relation of serum lipoprotein levels and systolic blood pressure to early atherosclerosis. The Bogalusa Heart Study.\nWe assessed the relation of risk factors for cardiovascular disease to early atherosclerotic lesions in the aorta and coronary arteries in 35 persons (mean age at death, 18 years). Aortic involvement with fatty streaks was greater in blacks than in whites (37 vs. 17 percent, P less than 0.01). However, aortic fatty streaks were strongly related to antemortem levels of both total and low-density lipoprotein cholesterol (r = 0.67, P less than 0.0001 for each association), independently of race, sex, and age, and were inversely correlated with the ratio of high-density lipoprotein cholesterol to low-density plus very-low-density lipoprotein cholesterol (r = -0.35, P = 0.06). Coronary-artery fatty streaks were correlated with very-low-density lipoprotein cholesterol (r = 0.41, P = 0.04). Mean systolic blood-pressure levels also tended to be higher in the four subjects with coronary-artery fibrous plaques than in those without them: 112 mm Hg as compared with 104 (P = 0.09). These results document the importance of risk-factor levels to early anatomical changes in the aorta and coronary arteries. The progression of fatty streaks to fibrous plaques is uncertain, but these data suggest that a rational approach to the prevention of cardiovascular disease should begin early in life.",
+  "sanitized_text": "Relation of serum lipoprotein levels and systolic blood pressure to early atherosclerosis. The Bogalusa Heart Study.\nWe assessed the relation of risk factors for cardiovascular disease to early atherosclerotic lesions in the aorta and coronary arteries in 35 persons (mean age at death, 18 years). Aortic involvement with fatty streaks was greater in blacks than in whites (37 vs. 17 percent, P less than 0.01). However, aortic fatty streaks were strongly related to antemortem levels of both total and low-density lipoprotein cholesterol (r = 0.67, P less than 0.0001 for each association), independently of race, sex, and age, and were inversely correlated with the ratio of high-density lipoprotein cholesterol to low-density plus very-low-density lipoprotein cholesterol (r = -0.35, P = 0.06). Coronary-artery fatty streaks were correlated with very-low-density lipoprotein cholesterol (r = 0.41, P = 0.04). Mean systolic blood-pressure levels also tended to be higher in the four subjects with coronary-artery fibrous plaques than in those without them: 112 mm Hg as compared with 104 (P = 0.09). These results document the importance of risk-factor levels to early anatomical changes in the aorta and coronary arteries. The progression of fatty streaks to fibrous plaques is uncertain, but these data suggest that a rational approach to the prevention of cardiovascular disease should begin early in life.",
+  "modified": false,
+  "original_char_count": 1411,
+  "sanitized_char_count": 1411,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1226,
+      "boundary_end": 1411,
+      "context": "levels and systolic blood pressure to early atherosclerosis. The Bogalusa Heart Study. We assessed the relation of risk factors for cardiovascular disease to early atherosclerotic lesions in the aorta and coronary arteries in 35 persons (mean age at death, 18 years). Aortic involvement with fatty streaks was greater in blacks than in whites (37 vs. 17 percent, P less than 0.01). However, aortic fatty streaks were strongly related to antemortem levels of both total and low-density lipoprotein cholesterol (r = 0.67, P less than 0.0001 for each association), independently of race, sex, and age, and were inversely correlated with the ratio of high-density lipoprotein cholesterol to low-density plus very-low-density lipoprotein cholesterol (r = -0.35, P = 0.06). Coronary-artery fatty streaks were correlated with very-low-density lipoprotein cholesterol (r = 0.41, P = 0.04). Mean systolic blood-pressure levels also tended to be higher in the four subjects with coronary-artery fibrous plaques than in those without them: 112 mm Hg as compared with 104 (P = 0.09). These results document the importance of risk-factor levels to early anatomical changes in the aorta and coronary arteries.",
+      "target": "The progression of fatty streaks to fibrous plaques is uncertain, but these data suggest that a rational approach to the prevention of cardiovascular disease should begin early in life.",
+      "loss_target": 2.5742123126983643,
+      "loss_target_given_context": 1.6109626293182373,
+      "delta_loss": 0.963249683380127,
+      "gain_ratio": 0.3741920115246518,
+      "score": -0.3741920115246518,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

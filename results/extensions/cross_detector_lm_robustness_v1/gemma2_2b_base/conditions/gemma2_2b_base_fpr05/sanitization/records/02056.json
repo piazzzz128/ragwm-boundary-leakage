@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3751",
+  "source_doc_id": "MED-3751",
+  "title": "Controlled trial of megestrol acetate for the treatment of cancer anorexia and cachexia.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Controlled trial of megestrol acetate for the treatment of cancer anorexia and cachexia.\nPreliminary information has suggested that megestrol acetate leads to appetite stimulation and nonfluid weight gain in patients with breast cancer, other cancers, and AIDS. Pursuant to this, we developed a randomized, double-blind, placebo-controlled trial of megestrol acetate in patients with cancer-associated anorexia and cachexia. We randomly assigned 133 eligible patients to receive 800 mg of megestrol acetate per day or a placebo. Patients assigned to megestrol acetate more frequently reported improved appetite (P = .003) and food intake (P = .009) when compared with patients receiving the placebo. A weight gain of 15 lb or more over baseline was seen in 11 of 67 (16%) patients receiving megestrol acetate compared with one of 66 (2%) given the placebo (P = .003). Patients receiving megestrol acetate reported significantly less nausea (13% vs. 38%; P = .001) and emesis (8% vs. 25%, P = .009). No clinically or statistically significant toxic reactions were ascribed to megestrol acetate, with the exception of mild edema. This study convincingly demonstrated that megestrol acetate can stimulate appetite and food intake in patients with anorexia and cachexia associated with cancer, leading to significant weight gain in a proportion of such patients.",
+  "sanitized_text": "Controlled trial of megestrol acetate for the treatment of cancer anorexia and cachexia.\nPreliminary information has suggested that megestrol acetate leads to appetite stimulation and nonfluid weight gain in patients with breast cancer, other cancers, and AIDS. Pursuant to this, we developed a randomized, double-blind, placebo-controlled trial of megestrol acetate in patients with cancer-associated anorexia and cachexia. We randomly assigned 133 eligible patients to receive 800 mg of megestrol acetate per day or a placebo. Patients assigned to megestrol acetate more frequently reported improved appetite (P = .003) and food intake (P = .009) when compared with patients receiving the placebo. A weight gain of 15 lb or more over baseline was seen in 11 of 67 (16%) patients receiving megestrol acetate compared with one of 66 (2%) given the placebo (P = .003). Patients receiving megestrol acetate reported significantly less nausea (13% vs. 38%; P = .001) and emesis (8% vs. 25%, P = .009). No clinically or statistically significant toxic reactions were ascribed to megestrol acetate, with the exception of mild edema. This study convincingly demonstrated that megestrol acetate can stimulate appetite and food intake in patients with anorexia and cachexia associated with cancer, leading to significant weight gain in a proportion of such patients.",
+  "modified": false,
+  "original_char_count": 1358,
+  "sanitized_char_count": 1358,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1128,
+      "boundary_end": 1358,
+      "context": "Controlled trial of megestrol acetate for the treatment of cancer anorexia and cachexia. Preliminary information has suggested that megestrol acetate leads to appetite stimulation and nonfluid weight gain in patients with breast cancer, other cancers, and AIDS. Pursuant to this, we developed a randomized, double-blind, placebo-controlled trial of megestrol acetate in patients with cancer-associated anorexia and cachexia. We randomly assigned 133 eligible patients to receive 800 mg of megestrol acetate per day or a placebo. Patients assigned to megestrol acetate more frequently reported improved appetite (P = .003) and food intake (P = .009) when compared with patients receiving the placebo. A weight gain of 15 lb or more over baseline was seen in 11 of 67 (16%) patients receiving megestrol acetate compared with one of 66 (2%) given the placebo (P = .003). Patients receiving megestrol acetate reported significantly less nausea (13% vs. 38%; P = .001) and emesis (8% vs. 25%, P = .009). No clinically or statistically significant toxic reactions were ascribed to megestrol acetate, with the exception of mild edema.",
+      "target": "This study convincingly demonstrated that megestrol acetate can stimulate appetite and food intake in patients with anorexia and cachexia associated with cancer, leading to significant weight gain in a proportion of such patients.",
+      "loss_target": 8.07177448272705,
+      "loss_target_given_context": 2.258854389190674,
+      "delta_loss": 5.812920093536377,
+      "gain_ratio": 0.7201539272406036,
+      "score": -0.7201539272406036,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

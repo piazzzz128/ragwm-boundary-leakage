@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3557",
+  "source_doc_id": "MED-3557",
+  "title": "VEGETARIAN DIETS AND THE INCIDENCE OF CANCER IN A LOW-RISK POPULATION",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "VEGETARIAN DIETS AND THE INCIDENCE OF CANCER IN A LOW-RISK POPULATION\nBackground Cancer is the second leading cause of death in the US. Dietary factors account for at least 30% of all cancers in Western countries. Since people do not consume individual foods but rather combinations of them, the assessment of dietary patterns may offer valuable information when determining associations between diet and cancer risk. Methods We examined the association between dietary patterns (non-vegetarians, lacto, pesco, vegan, and semi-vegetarian) and the overall cancer incidence among 69,120 participants of the Adventist Health Study-2. Cancer cases were identified by matching to cancer registries. Cox-proportional hazard regression analysis was performed to estimate hazard ratios, with “attained age” as the time variable. Results 2,939 incident cancer cases were identified. The multivariate HR of overall cancer risk among vegetarians compared to non-vegetarians was statistically significant (HR=0.92; 95%CI: 0.85, 0.99) for both genders combined. Also, a statistically significant association was found between vegetarian diet and cancers of the gastrointestinal tract (HR=0.76; 95%CI: 0.63, 0.90). When analyzing the association of specific vegetarian dietary patterns, vegan diets showed statistically significant protection for overall cancer incidence (HR=0.84; 95%CI: 0.72, 0.99) in both genders combined and for female-specific cancers (HR=0.66; 95%CI: 0.47, 0.92). Lacto-ovo-vegetarians appeared to be associated with decreased risk of cancers of the gastrointestinal system (HR=0.75; 95%CI: 0.60, 0.92). Conclusion Vegetarian diets seem to confer protection against cancer. Impact Vegan diet seems to confer lower risk for overall and female-specific cancer compared to other dietary patterns. The lacto-ovo-vegetarian diets seem to confer protection from cancers of the gastrointestinal tract.",
+  "sanitized_text": "VEGETARIAN DIETS AND THE INCIDENCE OF CANCER IN A LOW-RISK POPULATION\nBackground Cancer is the second leading cause of death in the US. Dietary factors account for at least 30% of all cancers in Western countries. Since people do not consume individual foods but rather combinations of them, the assessment of dietary patterns may offer valuable information when determining associations between diet and cancer risk. Methods We examined the association between dietary patterns (non-vegetarians, lacto, pesco, vegan, and semi-vegetarian) and the overall cancer incidence among 69,120 participants of the Adventist Health Study-2. Cancer cases were identified by matching to cancer registries. Cox-proportional hazard regression analysis was performed to estimate hazard ratios, with “attained age” as the time variable. Results 2,939 incident cancer cases were identified. The multivariate HR of overall cancer risk among vegetarians compared to non-vegetarians was statistically significant (HR=0.92; 95%CI: 0.85, 0.99) for both genders combined. Also, a statistically significant association was found between vegetarian diet and cancers of the gastrointestinal tract (HR=0.76; 95%CI: 0.63, 0.90). When analyzing the association of specific vegetarian dietary patterns, vegan diets showed statistically significant protection for overall cancer incidence (HR=0.84; 95%CI: 0.72, 0.99) in both genders combined and for female-specific cancers (HR=0.66; 95%CI: 0.47, 0.92). Lacto-ovo-vegetarians appeared to be associated with decreased risk of cancers of the gastrointestinal system (HR=0.75; 95%CI: 0.60, 0.92). Conclusion Vegetarian diets seem to confer protection against cancer. Impact Vegan diet seems to confer lower risk for overall and female-specific cancer compared to other dietary patterns. The lacto-ovo-vegetarian diets seem to confer protection from cancers of the gastrointestinal tract.",
+  "modified": false,
+  "original_char_count": 1904,
+  "sanitized_char_count": 1904,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1804,
+      "boundary_end": 1904,
+      "context": "Adventist Health Study-2. Cancer cases were identified by matching to cancer registries. Cox-proportional hazard regression analysis was performed to estimate hazard ratios, with “attained age” as the time variable. Results 2,939 incident cancer cases were identified. The multivariate HR of overall cancer risk among vegetarians compared to non-vegetarians was statistically significant (HR=0.92; 95%CI: 0.85, 0.99) for both genders combined. Also, a statistically significant association was found between vegetarian diet and cancers of the gastrointestinal tract (HR=0.76; 95%CI: 0.63, 0.90). When analyzing the association of specific vegetarian dietary patterns, vegan diets showed statistically significant protection for overall cancer incidence (HR=0.84; 95%CI: 0.72, 0.99) in both genders combined and for female-specific cancers (HR=0.66; 95%CI: 0.47, 0.92). Lacto-ovo-vegetarians appeared to be associated with decreased risk of cancers of the gastrointestinal system (HR=0.75; 95%CI: 0.60, 0.92). Conclusion Vegetarian diets seem to confer protection against cancer. Impact Vegan diet seems to confer lower risk for overall and female-specific cancer compared to other dietary patterns.",
+      "target": "The lacto-ovo-vegetarian diets seem to confer protection from cancers of the gastrointestinal tract.",
+      "loss_target": 3.0286266803741455,
+      "loss_target_given_context": 1.1607648134231567,
+      "delta_loss": 1.8678618669509888,
+      "gain_ratio": 0.6167355914332234,
+      "score": -0.6167355914332234,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

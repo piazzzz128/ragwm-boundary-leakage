@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1497",
+  "source_doc_id": "MED-1497",
+  "title": "Traumatic brain injury: a risk factor for Alzheimer's disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Traumatic brain injury: a risk factor for Alzheimer's disease.\nTraumatic brain injury (TBI) constitutes a major global health and socio-economic problem with neurobehavioral sequelae contributing to long-term disability. It causes brain swelling, axonal injury and hypoxia, disrupts blood brain barrier function and increases inflammatory responses, oxidative stress, neurodegeneration and leads to cognitive impairment. Epidemiological studies show that 30% of patients, who die of TBI, have Aβ plaques which are pathological features of Alzheimer's disease (AD). Thus TBI acts as an important epigenetic risk factor for AD. This review focuses on AD related genes which are expressed during TBI and its relevance to progression of the disease. Such understanding will help to diagnose the risk of TBI patients to develop AD and design therapeutic interventions. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Traumatic brain injury: a risk factor for Alzheimer's disease.\nTraumatic brain injury (TBI) constitutes a major global health and socio-economic problem with neurobehavioral sequelae contributing to long-term disability. It causes brain swelling, axonal injury and hypoxia, disrupts blood brain barrier function and increases inflammatory responses, oxidative stress, neurodegeneration and leads to cognitive impairment. Epidemiological studies show that 30% of patients, who die of TBI, have Aβ plaques which are pathological features of Alzheimer's disease (AD). Thus TBI acts as an important epigenetic risk factor for AD. This review focuses on AD related genes which are expressed during TBI and its relevance to progression of the disease. Such understanding will help to diagnose the risk of TBI patients to develop AD and design therapeutic interventions. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 915,
+  "sanitized_char_count": 915,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 864,
+      "boundary_end": 894,
+      "context": "Traumatic brain injury: a risk factor for Alzheimer's disease. Traumatic brain injury (TBI) constitutes a major global health and socio-economic problem with neurobehavioral sequelae contributing to long-term disability. It causes brain swelling, axonal injury and hypoxia, disrupts blood brain barrier function and increases inflammatory responses, oxidative stress, neurodegeneration and leads to cognitive impairment. Epidemiological studies show that 30% of patients, who die of TBI, have Aβ plaques which are pathological features of Alzheimer's disease (AD). Thus TBI acts as an important epigenetic risk factor for AD. This review focuses on AD related genes which are expressed during TBI and its relevance to progression of the disease. Such understanding will help to diagnose the risk of TBI patients to develop AD and design therapeutic interventions.",
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "loss_target": 1.1579636335372925,
+      "loss_target_given_context": 0.3519096374511719,
+      "delta_loss": 0.8060539960861206,
+      "gain_ratio": 0.6960961231777418,
+      "score": -0.6960961231777418,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

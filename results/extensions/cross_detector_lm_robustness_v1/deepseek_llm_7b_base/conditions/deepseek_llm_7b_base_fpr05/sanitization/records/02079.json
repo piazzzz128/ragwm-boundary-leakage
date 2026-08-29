@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3774",
+  "source_doc_id": "MED-3774",
+  "title": "Should children drink more water?: the effects of drinking water on cognition in children.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Should children drink more water?: the effects of drinking water on cognition in children.\nWhile dehydration has well-documented negative effects on adult cognition, there is little research on hydration and cognitive performance in children. We investigated whether having a drink of water improved children's performance on cognitive tasks. Fifty-eight children aged 7-9 years old were randomly allocated to a group that received additional water or a group that did not. Results showed that children who drank additional water rated themselves as significantly less thirsty than the comparison group (p=0.002), and they performed better on visual attention tasks (letter cancellation, p=0.02; spot the difference memory tasks, ps=0.019 and 0.014).",
+  "sanitized_text": "Should children drink more water?: the effects of drinking water on cognition in children.\nWhile dehydration has well-documented negative effects on adult cognition, there is little research on hydration and cognitive performance in children. We investigated whether having a drink of water improved children's performance on cognitive tasks. Fifty-eight children aged 7-9 years old were randomly allocated to a group that received additional water or a group that did not. Results showed that children who drank additional water rated themselves as significantly less thirsty than the comparison group (p=0.002), and they performed better on visual attention tasks (letter cancellation, p=0.02; spot the difference memory tasks, ps=0.019 and 0.014).",
+  "modified": false,
+  "original_char_count": 750,
+  "sanitized_char_count": 750,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 474,
+      "boundary_end": 750,
+      "context": "Should children drink more water?: the effects of drinking water on cognition in children. While dehydration has well-documented negative effects on adult cognition, there is little research on hydration and cognitive performance in children. We investigated whether having a drink of water improved children's performance on cognitive tasks. Fifty-eight children aged 7-9 years old were randomly allocated to a group that received additional water or a group that did not.",
+      "target": "Results showed that children who drank additional water rated themselves as significantly less thirsty than the comparison group (p=0.002), and they performed better on visual attention tasks (letter cancellation, p=0.02; spot the difference memory tasks, ps=0.019 and 0.014).",
+      "loss_target": 2.31760573387146,
+      "loss_target_given_context": 1.7401736974716187,
+      "delta_loss": 0.5774320363998413,
+      "gain_ratio": 0.24915024499670446,
+      "score": -0.24915024499670446,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2771",
+  "source_doc_id": "MED-2771",
+  "title": "Milk consumption is a risk factor for prostate cancer in Western countries: evidence from cohort studies.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Milk consumption is a risk factor for prostate cancer in Western countries: evidence from cohort studies.\nWe have previously found a positive association between milk consumption and prostate cancer risk using meta-analysis to analyze published case-control studies. In the present study, further meta-analysis was conducted to estimate the summary relative risk (RR) between the consumption of milk and dairy products and prostate cancer from cohort studies published between 1966- 2006. We found 18 relevant articles and 13 independent studies were available for our analysis. The summary RR was 1.13 (95% confidence interval = 1.02-1.24) when comparing the highest with the lowest quantile of consumption. The summary RRs by study stratification showed a positive association. A dose-response relationship was identified when combining the studies that partitioned the consumption by quintiles. We also evaluated the effects of some limitations, such as dairy classification, prostate cancer stages and publication bias, in the present study. These findings, together with the previous study, suggest that the consumption of milk and dairy products increases the risk of prostate cancer. This is biologically plausible since milk contains considerable amounts of fat, hormones, and calcium that are associated with prostate cancer risk. The condition known as Lethal Prostate Cancer results in the development of a disease. The presence of lethal prostate cancer diminishes the well-being of Patient 1.",
+  "sanitized_text": "Milk consumption is a risk factor for prostate cancer in Western countries: evidence from cohort studies.\nWe have previously found a positive association between milk consumption and prostate cancer risk using meta-analysis to analyze published case-control studies. In the present study, further meta-analysis was conducted to estimate the summary relative risk (RR) between the consumption of milk and dairy products and prostate cancer from cohort studies published between 1966- 2006. We found 18 relevant articles and 13 independent studies were available for our analysis. The summary RR was 1.13 (95% confidence interval = 1.02-1.24) when comparing the highest with the lowest quantile of consumption. The summary RRs by study stratification showed a positive association. A dose-response relationship was identified when combining the studies that partitioned the consumption by quintiles. We also evaluated the effects of some limitations, such as dairy classification, prostate cancer stages and publication bias, in the present study. These findings, together with the previous study, suggest that the consumption of milk and dairy products increases the risk of prostate cancer. This is biologically plausible since milk contains considerable amounts of fat, hormones, and calcium that are associated with prostate cancer risk. The condition known as Lethal Prostate Cancer results in the development of a disease. The presence of lethal prostate cancer diminishes the well-being of Patient 1.",
+  "modified": false,
+  "original_char_count": 1505,
+  "sanitized_char_count": 1505,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1427,
+      "boundary_end": 1505,
+      "context": "analyze published case-control studies. In the present study, further meta-analysis was conducted to estimate the summary relative risk (RR) between the consumption of milk and dairy products and prostate cancer from cohort studies published between 1966- 2006. We found 18 relevant articles and 13 independent studies were available for our analysis. The summary RR was 1.13 (95% confidence interval = 1.02-1.24) when comparing the highest with the lowest quantile of consumption. The summary RRs by study stratification showed a positive association. A dose-response relationship was identified when combining the studies that partitioned the consumption by quintiles. We also evaluated the effects of some limitations, such as dairy classification, prostate cancer stages and publication bias, in the present study. These findings, together with the previous study, suggest that the consumption of milk and dairy products increases the risk of prostate cancer. This is biologically plausible since milk contains considerable amounts of fat, hormones, and calcium that are associated with prostate cancer risk. The condition known as Lethal Prostate Cancer results in the development of a disease.",
+      "target": "The presence of lethal prostate cancer diminishes the well-being of Patient 1.",
+      "loss_target": 4.714966297149658,
+      "loss_target_given_context": 3.1089658737182617,
+      "delta_loss": 1.6060004234313965,
+      "gain_ratio": 0.34061758286634475,
+      "score": -0.34061758286634475,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

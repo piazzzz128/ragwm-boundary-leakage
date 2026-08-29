@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2573",
+  "source_doc_id": "MED-2573",
+  "title": "Anti-angiogenic activity of inositol hexaphosphate (IP6).",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Anti-angiogenic activity of inositol hexaphosphate (IP6).\nA significant anticancer activity of the naturally occurring carbohydrate inositol hexaphosphate (IP(6)) has been reported against numerous cancer models. Since tumors require angiogenesis for growth and metastasis, we hypothesize that IP(6) reduces tumor growth by inhibiting angiogenesis. Because angiogenesis depends on the interaction between endothelial and tumor cells, we investigated the effect of IP(6) on both. IP(6) inhibited the proliferation and induced the differentiation of endothelial cells in vitro; the growth of bovine aortic endothelial cells (BAECs) evaluated by MTT proliferation assay was inhibited in a dose-dependent manner (IC(50) = 0.74 mM). The combination of IP(6) and vasostatin, a calreticulin fragment with anti-angiogenic activity, was synergistically superior in growth inhibition than either compound. IP(6) inhibited human umbilical vein endothelial cell (HUVEC) tube formation (in vitro capillary differentiation) on a reconstituted extracellular matrix, Matrigel, and disrupted pre-formed tubes. IP(6) significantly reduced basic fibroblast growth factor (bFGF)-induced vessel formation (P < 0.01) in vivo in Matrigel plug assay. Exposure of HepG2, a human hepatoma cell line, to IP(6) for 8 h, resulted in a dose-dependent decrease in the mRNA levels of vascular endothelial growth factor (VEGF), as assessed by RT-PCR. IP(6) treatment of HepG2 cells for 24 h also significantly reduced the VEGF protein levels in conditioned medium, in a concentration-dependent manner (P = 0.012). Thus, IP(6) has an inhibitory effect on induced angiogenesis.",
+  "sanitized_text": "Anti-angiogenic activity of inositol hexaphosphate (IP6).\nA significant anticancer activity of the naturally occurring carbohydrate inositol hexaphosphate (IP(6)) has been reported against numerous cancer models. Since tumors require angiogenesis for growth and metastasis, we hypothesize that IP(6) reduces tumor growth by inhibiting angiogenesis. Because angiogenesis depends on the interaction between endothelial and tumor cells, we investigated the effect of IP(6) on both. IP(6) inhibited the proliferation and induced the differentiation of endothelial cells in vitro; the growth of bovine aortic endothelial cells (BAECs) evaluated by MTT proliferation assay was inhibited in a dose-dependent manner (IC(50) = 0.74 mM). The combination of IP(6) and vasostatin, a calreticulin fragment with anti-angiogenic activity, was synergistically superior in growth inhibition than either compound. IP(6) inhibited human umbilical vein endothelial cell (HUVEC) tube formation (in vitro capillary differentiation) on a reconstituted extracellular matrix, Matrigel, and disrupted pre-formed tubes. IP(6) significantly reduced basic fibroblast growth factor (bFGF)-induced vessel formation (P < 0.01) in vivo in Matrigel plug assay. Exposure of HepG2, a human hepatoma cell line, to IP(6) for 8 h, resulted in a dose-dependent decrease in the mRNA levels of vascular endothelial growth factor (VEGF), as assessed by RT-PCR. IP(6) treatment of HepG2 cells for 24 h also significantly reduced the VEGF protein levels in conditioned medium, in a concentration-dependent manner (P = 0.012). Thus, IP(6) has an inhibitory effect on induced angiogenesis.",
+  "modified": false,
+  "original_char_count": 1642,
+  "sanitized_char_count": 1642,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1581,
+      "boundary_end": 1642,
+      "context": "the interaction between endothelial and tumor cells, we investigated the effect of IP(6) on both. IP(6) inhibited the proliferation and induced the differentiation of endothelial cells in vitro; the growth of bovine aortic endothelial cells (BAECs) evaluated by MTT proliferation assay was inhibited in a dose-dependent manner (IC(50) = 0.74 mM). The combination of IP(6) and vasostatin, a calreticulin fragment with anti-angiogenic activity, was synergistically superior in growth inhibition than either compound. IP(6) inhibited human umbilical vein endothelial cell (HUVEC) tube formation (in vitro capillary differentiation) on a reconstituted extracellular matrix, Matrigel, and disrupted pre-formed tubes. IP(6) significantly reduced basic fibroblast growth factor (bFGF)-induced vessel formation (P < 0.01) in vivo in Matrigel plug assay. Exposure of HepG2, a human hepatoma cell line, to IP(6) for 8 h, resulted in a dose-dependent decrease in the mRNA levels of vascular endothelial growth factor (VEGF), as assessed by RT-PCR. IP(6) treatment of HepG2 cells for 24 h also significantly reduced the VEGF protein levels in conditioned medium, in a concentration-dependent manner (P = 0.012).",
+      "target": "Thus, IP(6) has an inhibitory effect on induced angiogenesis.",
+      "loss_target": 3.974543571472168,
+      "loss_target_given_context": 1.3337534666061401,
+      "delta_loss": 2.640790104866028,
+      "gain_ratio": 0.6644260044903423,
+      "score": -0.6644260044903423,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

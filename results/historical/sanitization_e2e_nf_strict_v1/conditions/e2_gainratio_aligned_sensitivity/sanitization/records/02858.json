@@ -1,0 +1,86 @@
+{
+  "internal_id": "MED-4774",
+  "source_doc_id": "MED-4774",
+  "title": "Caffeine in pregnancy.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Caffeine in pregnancy.\nCaffeine is probably the most frequently ingested pharmacologically active substance in the world. It is found in common beverages (coffee, tea, soft drinks), in products containing cocoa or chocolate, and in medications. Because of its wide consumption at different levels by most segments of the population, the public and the scientific community have expressed interest in the potential for caffeine to produce adverse effects on human health. Reproductive-aged and pregnant women are 'at risk' subgroups of the population who may require specific advice on moderating their daily caffeine intake. This article highlights the implications of caffeine intake in pregnancy, reviews the latest evidence-based information available on this subject, and offers recommendations (practical advice) for the obstetrician-gynecologists proving peripartum care to these potentially complicated pregnancies.",
+  "sanitized_text": "Caffeine in pregnancy.\nCaffeine is probably the most frequently ingested pharmacologically active substance in the world. It is found in common beverages (coffee, tea, soft drinks), in products containing cocoa or chocolate, and in medications. Because of its wide consumption at different levels by most segments of the population, the public and the scientific community have expressed interest in the potential for caffeine to produce adverse effects on human health.",
+  "modified": true,
+  "original_char_count": 922,
+  "sanitized_char_count": 470,
+  "deleted_char_count": 452,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 625,
+      "boundary_end": 922,
+      "context": "Caffeine in pregnancy. Caffeine is probably the most frequently ingested pharmacologically active substance in the world. It is found in common beverages (coffee, tea, soft drinks), in products containing cocoa or chocolate, and in medications. Because of its wide consumption at different levels by most segments of the population, the public and the scientific community have expressed interest in the potential for caffeine to produce adverse effects on human health. Reproductive-aged and pregnant women are 'at risk' subgroups of the population who may require specific advice on moderating their daily caffeine intake.",
+      "target": "This article highlights the implications of caffeine intake in pregnancy, reviews the latest evidence-based information available on this subject, and offers recommendations (practical advice) for the obstetrician-gynecologists proving peripartum care to these potentially complicated pregnancies.",
+      "loss_target": 3.110658884048462,
+      "loss_target_given_context": 2.6677680015563965,
+      "delta_loss": 0.44289088249206543,
+      "gain_ratio": 0.14237847960868394,
+      "score": -0.14237847960868394,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 471,
+      "boundary_end": 624,
+      "context": "Caffeine in pregnancy. Caffeine is probably the most frequently ingested pharmacologically active substance in the world. It is found in common beverages (coffee, tea, soft drinks), in products containing cocoa or chocolate, and in medications. Because of its wide consumption at different levels by most segments of the population, the public and the scientific community have expressed interest in the potential for caffeine to produce adverse effects on human health.",
+      "target": "Reproductive-aged and pregnant women are 'at risk' subgroups of the population who may require specific advice on moderating their daily caffeine intake.",
+      "loss_target": 3.174614191055298,
+      "loss_target_given_context": 2.741597890853882,
+      "delta_loss": 0.433016300201416,
+      "gain_ratio": 0.13639966123173972,
+      "score": -0.13639966123173972,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 245,
+      "boundary_end": 470,
+      "context": "Caffeine in pregnancy. Caffeine is probably the most frequently ingested pharmacologically active substance in the world. It is found in common beverages (coffee, tea, soft drinks), in products containing cocoa or chocolate, and in medications.",
+      "target": "Because of its wide consumption at different levels by most segments of the population, the public and the scientific community have expressed interest in the potential for caffeine to produce adverse effects on human health.",
+      "loss_target": 2.5819919109344482,
+      "loss_target_given_context": 1.8423875570297241,
+      "delta_loss": 0.7396043539047241,
+      "gain_ratio": 0.2864472002304043,
+      "score": -0.2864472002304043,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 625,
+      "target": "This article highlights the implications of caffeine intake in pregnancy, reviews the latest evidence-based information available on this subject, and offers recommendations (practical advice) for the obstetrician-gynecologists proving peripartum care to these potentially complicated pregnancies.",
+      "score": -0.14237847960868394,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "This article highlights the implications of caffeine intake in pregnancy, reviews the latest evidence-based information available on this subject, and offers recommendations (practical advice) for the obstetrician-gynecologists proving peripartum care to these potentially complicated pregnancies.",
+      "deleted_char_count": 297
+    },
+    {
+      "step": 2,
+      "boundary_start": 471,
+      "target": "Reproductive-aged and pregnant women are 'at risk' subgroups of the population who may require specific advice on moderating their daily caffeine intake.",
+      "score": -0.13639966123173972,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Reproductive-aged and pregnant women are 'at risk' subgroups of the population who may require specific advice on moderating their daily caffeine intake.",
+      "deleted_char_count": 153
+    }
+  ],
+  "deletion_step_count": 2,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4316",
+  "source_doc_id": "MED-4316",
+  "title": "Systemic regulation of intestinal iron absorption.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Systemic regulation of intestinal iron absorption.\nThe intestinal absorption of the essential trace element iron and its mobilization from storage sites in the body are controlled by systemic signals that reflect tissue iron requirements. Recent advances have indicated that the liver-derived peptide hepcidin plays a central role in this process by repressing iron release from intestinal enterocytes, macrophages and other body cells. When iron requirements are increased, hepcidin levels decline and more iron enters the plasma. It has been proposed that the level of circulating diferric transferrin, which reflects tissue iron levels, acts as a signal to alter hepcidin expression. In the liver, the proteins HFE, transferrin receptor 2 and hemojuvelin may be involved in mediating this signal as disruption of each of these molecules decreases hepcidin expression. Patients carrying mutations in these molecules or in hepcidin itself develop systemic iron loading (or hemochromatosis) due to their inability to down regulate iron absorption. Hepcidin is also responsible for the decreased plasma iron or hypoferremia that accompanies inflammation and various chronic diseases as its expression is stimulated by pro-inflammatory cytokines such as interleukin 6. The mechanisms underlying the regulation of hepcidin expression and how it acts on cells to control iron release are key areas of ongoing research. IUBMB Life, 57: 499-503, 2005.",
+  "sanitized_text": "Systemic regulation of intestinal iron absorption.\nThe intestinal absorption of the essential trace element iron and its mobilization from storage sites in the body are controlled by systemic signals that reflect tissue iron requirements. Recent advances have indicated that the liver-derived peptide hepcidin plays a central role in this process by repressing iron release from intestinal enterocytes, macrophages and other body cells. When iron requirements are increased, hepcidin levels decline and more iron enters the plasma. It has been proposed that the level of circulating diferric transferrin, which reflects tissue iron levels, acts as a signal to alter hepcidin expression. In the liver, the proteins HFE, transferrin receptor 2 and hemojuvelin may be involved in mediating this signal as disruption of each of these molecules decreases hepcidin expression. Patients carrying mutations in these molecules or in hepcidin itself develop systemic iron loading (or hemochromatosis) due to their inability to down regulate iron absorption. Hepcidin is also responsible for the decreased plasma iron or hypoferremia that accompanies inflammation and various chronic diseases as its expression is stimulated by pro-inflammatory cytokines such as interleukin 6. The mechanisms underlying the regulation of hepcidin expression and how it acts on cells to control iron release are key areas of ongoing research. IUBMB Life, 57: 499-503, 2005.",
+  "modified": false,
+  "original_char_count": 1445,
+  "sanitized_char_count": 1445,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1415,
+      "boundary_end": 1445,
+      "context": "iron requirements. Recent advances have indicated that the liver-derived peptide hepcidin plays a central role in this process by repressing iron release from intestinal enterocytes, macrophages and other body cells. When iron requirements are increased, hepcidin levels decline and more iron enters the plasma. It has been proposed that the level of circulating diferric transferrin, which reflects tissue iron levels, acts as a signal to alter hepcidin expression. In the liver, the proteins HFE, transferrin receptor 2 and hemojuvelin may be involved in mediating this signal as disruption of each of these molecules decreases hepcidin expression. Patients carrying mutations in these molecules or in hepcidin itself develop systemic iron loading (or hemochromatosis) due to their inability to down regulate iron absorption. Hepcidin is also responsible for the decreased plasma iron or hypoferremia that accompanies inflammation and various chronic diseases as its expression is stimulated by pro-inflammatory cytokines such as interleukin 6. The mechanisms underlying the regulation of hepcidin expression and how it acts on cells to control iron release are key areas of ongoing research.",
+      "target": "IUBMB Life, 57: 499-503, 2005.",
+      "loss_target": 1.9258816242218018,
+      "loss_target_given_context": 1.4474910497665405,
+      "delta_loss": 0.47839057445526123,
+      "gain_ratio": 0.2484008198834995,
+      "score": -0.2484008198834995,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

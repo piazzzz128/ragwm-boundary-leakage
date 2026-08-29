@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1320",
+  "source_doc_id": "MED-1320",
+  "title": "White Rice, Brown Rice, and Risk of Type 2 Diabetes in US Men and Women",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "White Rice, Brown Rice, and Risk of Type 2 Diabetes in US Men and Women\nContext Because of a different degree of processing and nutrient contents, brown rice and white rice may have different effects on risk of type 2 diabetes. Objective To prospectively examine white rice and brown rice consumptions in relation to type 2 diabetes risk in US men and women aged 26–87 yr. Design and Setting The Health Professionals Follow-up Study (1986–2006) and the Nurses’ Health Study I (1984–2006) and II (1991–2005). Participants We prospectively ascertained diet, lifestyle practices, and disease status among 39,765 men and 157,463 women in these cohorts. All participants were free of diabetes, cardiovascular disease, and cancer at baseline. Intake of white rice, brown rice, other foods, and nutrients was assessed at baseline and updated every 2–4 years. Results During 3,318,196 person-years of follow-up, we documented 10,507 incident cases of type 2 diabetes. After multivariate adjustment for age and other lifestyle and dietary risk factors, higher intake of white rice was associated with a higher risk of type 2 diabetes. The pooled relative risk (95% confidence interval) of type 2 diabetes comparing ≥5 servings/week with <1 serving/month of white rice was 1.17 (1.02, 1.36). In contrast, high brown rice intake was associated with a lower risk of type 2 diabetes: The pooled multivariate relative risk (95% confidence interval) was 0.89 (0.81, 0.97) for ≥ 2 servings/week of brown rice as compared with <1 serving/month. We estimated that replacing 50 grams/day (cooked, equivalent to ⅓ serving/day) intake of white rice with the same amount of brown rice was associated with a 16% (95% confidence interval: 9%, 21%) lower risk of type 2 diabetes, whereas the same replacement with whole grains as a group was associated with a 36% (95% confidence interval: 30%, 42%) lower diabetes risk. Conclusions Substitution of whole grains, including brown rice, for white rice may lower risk of type 2 diabetes. These data support the recommendation that most carbohydrate intake should come from whole grains rather than refined grains to facilitate the prevention of type 2 diabetes.",
+  "sanitized_text": "White Rice, Brown Rice, and Risk of Type 2 Diabetes in US Men and Women\nContext Because of a different degree of processing and nutrient contents, brown rice and white rice may have different effects on risk of type 2 diabetes. Objective To prospectively examine white rice and brown rice consumptions in relation to type 2 diabetes risk in US men and women aged 26–87 yr. Design and Setting The Health Professionals Follow-up Study (1986–2006) and the Nurses’ Health Study I (1984–2006) and II (1991–2005). Participants We prospectively ascertained diet, lifestyle practices, and disease status among 39,765 men and 157,463 women in these cohorts. All participants were free of diabetes, cardiovascular disease, and cancer at baseline. Intake of white rice, brown rice, other foods, and nutrients was assessed at baseline and updated every 2–4 years. Results During 3,318,196 person-years of follow-up, we documented 10,507 incident cases of type 2 diabetes. After multivariate adjustment for age and other lifestyle and dietary risk factors, higher intake of white rice was associated with a higher risk of type 2 diabetes. The pooled relative risk (95% confidence interval) of type 2 diabetes comparing ≥5 servings/week with <1 serving/month of white rice was 1.17 (1.02, 1.36). In contrast, high brown rice intake was associated with a lower risk of type 2 diabetes: The pooled multivariate relative risk (95% confidence interval) was 0.89 (0.81, 0.97) for ≥ 2 servings/week of brown rice as compared with <1 serving/month. We estimated that replacing 50 grams/day (cooked, equivalent to ⅓ serving/day) intake of white rice with the same amount of brown rice was associated with a 16% (95% confidence interval: 9%, 21%) lower risk of type 2 diabetes, whereas the same replacement with whole grains as a group was associated with a 36% (95% confidence interval: 30%, 42%) lower diabetes risk. Conclusions Substitution of whole grains, including brown rice, for white rice may lower risk of type 2 diabetes. These data support the recommendation that most carbohydrate intake should come from whole grains rather than refined grains to facilitate the prevention of type 2 diabetes.",
+  "modified": false,
+  "original_char_count": 2183,
+  "sanitized_char_count": 2183,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 2010,
+      "boundary_end": 2183,
+      "context": "at baseline and updated every 2–4 years. Results During 3,318,196 person-years of follow-up, we documented 10,507 incident cases of type 2 diabetes. After multivariate adjustment for age and other lifestyle and dietary risk factors, higher intake of white rice was associated with a higher risk of type 2 diabetes. The pooled relative risk (95% confidence interval) of type 2 diabetes comparing ≥5 servings/week with <1 serving/month of white rice was 1.17 (1.02, 1.36). In contrast, high brown rice intake was associated with a lower risk of type 2 diabetes: The pooled multivariate relative risk (95% confidence interval) was 0.89 (0.81, 0.97) for ≥ 2 servings/week of brown rice as compared with <1 serving/month. We estimated that replacing 50 grams/day (cooked, equivalent to ⅓ serving/day) intake of white rice with the same amount of brown rice was associated with a 16% (95% confidence interval: 9%, 21%) lower risk of type 2 diabetes, whereas the same replacement with whole grains as a group was associated with a 36% (95% confidence interval: 30%, 42%) lower diabetes risk. Conclusions Substitution of whole grains, including brown rice, for white rice may lower risk of type 2 diabetes.",
+      "target": "These data support the recommendation that most carbohydrate intake should come from whole grains rather than refined grains to facilitate the prevention of type 2 diabetes.",
+      "loss_target": 7.808108806610107,
+      "loss_target_given_context": 3.7085859775543213,
+      "delta_loss": 4.099522829055786,
+      "gain_ratio": 0.5250340294419635,
+      "score": -0.5250340294419635,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

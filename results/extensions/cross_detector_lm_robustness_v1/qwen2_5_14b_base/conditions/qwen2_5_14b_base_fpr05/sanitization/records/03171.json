@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5111",
+  "source_doc_id": "MED-5111",
+  "title": "Dietary factors and breast cancer risk: a case control study among a population in Southern France.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary factors and breast cancer risk: a case control study among a population in Southern France.\nThis case-control study examined different food groups in relation to breast cancer. Between 2002 and 2004, 437 cases and 922 controls matched according to age and area of residence were interviewed. Diet was measured by a validated food frequency questionnaire. Adjusted odds ratios (Ors) were computed across levels of various dietary intakes identified by two methods: the \"classical\" and the \"spline\" methods. Neither of the 2 methods found an association between total fruit and vegetable consumption and breast cancer. Results of the 2 methods showed a nonsignificant decreased association with cooked vegetables intake as well as legumes and fish consumption. Whereas the spline method showed no association, the classical method showed significant associations related to the lowest consumption of raw vegetables or dairy products and breast cancer risk: Adjusted OR for raw vegetable consumption between (67.4 and 101.3 g/day) vs. (< 67.4 g/day) was 0.63 [95% confidence interval (CI) = 0.43-0.93]. Adjusted OR for dairy consumption between (134.3 and 271.2 g/day) vs. (< 134.3 g/day) was 1.57 (95% CI = 1.06-2.32). However, the overall results were not consistent. Compared to the classical method, the use of the spline method showed a significant association for cereal, meat, and olive oil. Cereal and olive oil were inversely associated with breast cancer risk. Breast cancer risk increased by 56% for each additional 100 g/day of meat consumption. Studies using novel methodological techniques are needed to confirm the dietary threshold responsible for changes in breast cancer risk. New approaches that consist in analyzing dietary patterns rather than dietary food are necessary.",
+  "sanitized_text": "Dietary factors and breast cancer risk: a case control study among a population in Southern France.\nThis case-control study examined different food groups in relation to breast cancer. Between 2002 and 2004, 437 cases and 922 controls matched according to age and area of residence were interviewed. Diet was measured by a validated food frequency questionnaire. Adjusted odds ratios (Ors) were computed across levels of various dietary intakes identified by two methods: the \"classical\" and the \"spline\" methods. Neither of the 2 methods found an association between total fruit and vegetable consumption and breast cancer. Results of the 2 methods showed a nonsignificant decreased association with cooked vegetables intake as well as legumes and fish consumption. Whereas the spline method showed no association, the classical method showed significant associations related to the lowest consumption of raw vegetables or dairy products and breast cancer risk: Adjusted OR for raw vegetable consumption between (67.4 and 101.3 g/day) vs. (< 67.4 g/day) was 0.63 [95% confidence interval (CI) = 0.43-0.93]. Adjusted OR for dairy consumption between (134.3 and 271.2 g/day) vs. (< 134.3 g/day) was 1.57 (95% CI = 1.06-2.32). However, the overall results were not consistent. Compared to the classical method, the use of the spline method showed a significant association for cereal, meat, and olive oil. Cereal and olive oil were inversely associated with breast cancer risk. Breast cancer risk increased by 56% for each additional 100 g/day of meat consumption. Studies using novel methodological techniques are needed to confirm the dietary threshold responsible for changes in breast cancer risk. New approaches that consist in analyzing dietary patterns rather than dietary food are necessary.",
+  "modified": false,
+  "original_char_count": 1797,
+  "sanitized_char_count": 1797,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1700,
+      "boundary_end": 1797,
+      "context": "methods. Neither of the 2 methods found an association between total fruit and vegetable consumption and breast cancer. Results of the 2 methods showed a nonsignificant decreased association with cooked vegetables intake as well as legumes and fish consumption. Whereas the spline method showed no association, the classical method showed significant associations related to the lowest consumption of raw vegetables or dairy products and breast cancer risk: Adjusted OR for raw vegetable consumption between (67.4 and 101.3 g/day) vs. (< 67.4 g/day) was 0.63 [95% confidence interval (CI) = 0.43-0.93]. Adjusted OR for dairy consumption between (134.3 and 271.2 g/day) vs. (< 134.3 g/day) was 1.57 (95% CI = 1.06-2.32). However, the overall results were not consistent. Compared to the classical method, the use of the spline method showed a significant association for cereal, meat, and olive oil. Cereal and olive oil were inversely associated with breast cancer risk. Breast cancer risk increased by 56% for each additional 100 g/day of meat consumption. Studies using novel methodological techniques are needed to confirm the dietary threshold responsible for changes in breast cancer risk.",
+      "target": "New approaches that consist in analyzing dietary patterns rather than dietary food are necessary.",
+      "loss_target": 4.8611955642700195,
+      "loss_target_given_context": 3.6464858055114746,
+      "delta_loss": 1.214709758758545,
+      "gain_ratio": 0.24987880917334615,
+      "score": -0.24987880917334615,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

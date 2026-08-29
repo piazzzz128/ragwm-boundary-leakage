@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5333",
+  "source_doc_id": "MED-5333",
+  "title": "Vegetarian diet affects genes of oxidative metabolism and collagen synthesis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vegetarian diet affects genes of oxidative metabolism and collagen synthesis.\nBACKGROUND/AIM: A vegetarian diet is known to prevent a series of diseases but may influence the balance of carbohydrate and fat metabolism as well as collagen synthesis. This study compares expression patterns of relevant genes in oral mucosa of omnivores and vegetarians. METHODS: Quantitative reverse transcriptase polymerase chain reaction was applied for analysis of mRNA levels from carnitine transporter OCTN2, hepatic CPT1A and nonhepatic CPT1B isoforms of carnitine palmitoyltransferase and collagen (CCOL2A1) in oral mucosa. RESULTS: Compared with volunteers with traditional eating habits, carbohydrate consumption was significantly higher (+22%) in vegetarians. This was associated with a significant stimulation of CPT1A (+50%) and OCTN2 (+10%) and a lowered collagen synthesis (-10%). CONCLUSION: These novel findings provide further insight into the association of a changed fat metabolism and reduced collagen synthesis in vegetarians, which could also play a role in the aging process. Copyright 2008 S. Karger AG, Basel.",
+  "sanitized_text": "Vegetarian diet affects genes of oxidative metabolism and collagen synthesis.\nBACKGROUND/AIM: A vegetarian diet is known to prevent a series of diseases but may influence the balance of carbohydrate and fat metabolism as well as collagen synthesis. This study compares expression patterns of relevant genes in oral mucosa of omnivores and vegetarians. METHODS: Quantitative reverse transcriptase polymerase chain reaction was applied for analysis of mRNA levels from carnitine transporter OCTN2, hepatic CPT1A and nonhepatic CPT1B isoforms of carnitine palmitoyltransferase and collagen (CCOL2A1) in oral mucosa. RESULTS: Compared with volunteers with traditional eating habits, carbohydrate consumption was significantly higher (+22%) in vegetarians. This was associated with a significant stimulation of CPT1A (+50%) and OCTN2 (+10%) and a lowered collagen synthesis (-10%). CONCLUSION: These novel findings provide further insight into the association of a changed fat metabolism and reduced collagen synthesis in vegetarians, which could also play a role in the aging process. Copyright 2008 S. Karger AG, Basel.",
+  "modified": false,
+  "original_char_count": 1116,
+  "sanitized_char_count": 1116,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 877,
+      "boundary_end": 1080,
+      "context": "Vegetarian diet affects genes of oxidative metabolism and collagen synthesis. BACKGROUND/AIM: A vegetarian diet is known to prevent a series of diseases but may influence the balance of carbohydrate and fat metabolism as well as collagen synthesis. This study compares expression patterns of relevant genes in oral mucosa of omnivores and vegetarians. METHODS: Quantitative reverse transcriptase polymerase chain reaction was applied for analysis of mRNA levels from carnitine transporter OCTN2, hepatic CPT1A and nonhepatic CPT1B isoforms of carnitine palmitoyltransferase and collagen (CCOL2A1) in oral mucosa. RESULTS: Compared with volunteers with traditional eating habits, carbohydrate consumption was significantly higher (+22%) in vegetarians. This was associated with a significant stimulation of CPT1A (+50%) and OCTN2 (+10%) and a lowered collagen synthesis (-10%).",
+      "target": "CONCLUSION: These novel findings provide further insight into the association of a changed fat metabolism and reduced collagen synthesis in vegetarians, which could also play a role in the aging process.",
+      "loss_target": 2.908747911453247,
+      "loss_target_given_context": 1.92495596408844,
+      "delta_loss": 0.9837919473648071,
+      "gain_ratio": 0.33821835969047326,
+      "score": -0.33821835969047326,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

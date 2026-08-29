@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2354",
+  "source_doc_id": "MED-2354",
+  "title": "A unique natural human IgG antibody with anti-alpha-galactosyl specificity",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A unique natural human IgG antibody with anti-alpha-galactosyl specificity\nA new natural anti-alpha-galactosyl IgG antibody (anti-Gal) was found to be present in high titer in the serum of every normal individual studied. The antibody was isolated by affinity chromatography on a melibiose-Sepharose column. The reactivity of the antibody was assessed by its interaction with alpha-galactosyl residues on rabbit erythrocytes (RabRBC). The specificity was determined by inhibition experiments with various carbohydrates. The anti-Gal interacts with alpha-galactosyl residues, possibly on glycolipids of human RBC (HuRBC), after removal of membrane proteins by treatment with pronase. In addition, the anti-Gal bind specifically to normal and pathologically senescent HuRBC, suggesting a physiological role for this natural antibody in the aging of RBC. The ubiquitous presence of anti-Gal in high titers throughout life implies a constant antigenic stimulation. In addition to the theoretical interest in the antibody, the study of the anti-Gal reactivity seems to bear immunodiagnostic significance. Decrease in the antibody titer was found to reflect humoral immunodeficiency disorders.",
+  "sanitized_text": "A unique natural human IgG antibody with anti-alpha-galactosyl specificity\nA new natural anti-alpha-galactosyl IgG antibody (anti-Gal) was found to be present in high titer in the serum of every normal individual studied. The antibody was isolated by affinity chromatography on a melibiose-Sepharose column. The reactivity of the antibody was assessed by its interaction with alpha-galactosyl residues on rabbit erythrocytes (RabRBC). The specificity was determined by inhibition experiments with various carbohydrates. The anti-Gal interacts with alpha-galactosyl residues, possibly on glycolipids of human RBC (HuRBC), after removal of membrane proteins by treatment with pronase. In addition, the anti-Gal bind specifically to normal and pathologically senescent HuRBC, suggesting a physiological role for this natural antibody in the aging of RBC. The ubiquitous presence of anti-Gal in high titers throughout life implies a constant antigenic stimulation. In addition to the theoretical interest in the antibody, the study of the anti-Gal reactivity seems to bear immunodiagnostic significance. Decrease in the antibody titer was found to reflect humoral immunodeficiency disorders.",
+  "modified": false,
+  "original_char_count": 1187,
+  "sanitized_char_count": 1187,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1100,
+      "boundary_end": 1187,
+      "context": "A unique natural human IgG antibody with anti-alpha-galactosyl specificity A new natural anti-alpha-galactosyl IgG antibody (anti-Gal) was found to be present in high titer in the serum of every normal individual studied. The antibody was isolated by affinity chromatography on a melibiose-Sepharose column. The reactivity of the antibody was assessed by its interaction with alpha-galactosyl residues on rabbit erythrocytes (RabRBC). The specificity was determined by inhibition experiments with various carbohydrates. The anti-Gal interacts with alpha-galactosyl residues, possibly on glycolipids of human RBC (HuRBC), after removal of membrane proteins by treatment with pronase. In addition, the anti-Gal bind specifically to normal and pathologically senescent HuRBC, suggesting a physiological role for this natural antibody in the aging of RBC. The ubiquitous presence of anti-Gal in high titers throughout life implies a constant antigenic stimulation. In addition to the theoretical interest in the antibody, the study of the anti-Gal reactivity seems to bear immunodiagnostic significance.",
+      "target": "Decrease in the antibody titer was found to reflect humoral immunodeficiency disorders.",
+      "loss_target": 3.4228954315185547,
+      "loss_target_given_context": 2.2922680377960205,
+      "delta_loss": 1.1306273937225342,
+      "gain_ratio": 0.3303131563154226,
+      "score": -0.3303131563154226,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

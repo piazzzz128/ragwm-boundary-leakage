@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1813",
+  "source_doc_id": "MED-1813",
+  "title": "Phase II trial of curcumin in patients with advanced pancreatic cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Phase II trial of curcumin in patients with advanced pancreatic cancer.\nPURPOSE: Pancreatic cancer is almost always lethal, and the only U.S. Food and Drug Administration-approved therapies for it, gemcitabine and erlotinib, produce objective responses in <10% of patients. We evaluated the clinical biological effects of curcumin (diferuloylmethane), a plant-derived dietary ingredient with potent nuclear factor-kappaB (NF-kappaB) and tumor inhibitory properties, against advanced pancreatic cancer. EXPERIMENTAL DESIGN: Patients received 8 g curcumin by mouth daily until disease progression, with restaging every 2 months. Serum cytokine levels for interleukin (IL)-6, IL-8, IL-10, and IL-1 receptor antagonists and peripheral blood mononuclear cell expression of NF-kappaB and cyclooxygenase-2 were monitored. RESULTS: Twenty-five patients were enrolled, with 21 evaluable for response. Circulating curcumin was detectable as drug in glucuronide and sulfate conjugate forms, albeit at low steady-state levels, suggesting poor oral bioavailability. Two patients showed clinical biological activity. One had ongoing stable disease for >18 months; interestingly, one additional patient had a brief, but marked, tumor regression (73%) accompanied by significant increases (4- to 35-fold) in serum cytokine levels (IL-6, IL-8, IL-10, and IL-1 receptor antagonists). No toxicities were observed. Curcumin down-regulated expression of NF-kappaB, cyclooxygenase-2, and phosphorylated signal transducer and activator of transcription 3 in peripheral blood mononuclear cells from patients (most of whom had baseline levels considerably higher than those found in healthy volunteers). Whereas there was considerable interpatient variation in plasma curcumin levels, drug levels peaked at 22 to 41 ng/mL and remained relatively constant over the first 4 weeks. CONCLUSIONS: Oral curcumin is well tolerated and, despite its limited absorption, has biological activity in some patients with pancreatic cancer.",
+  "sanitized_text": "Phase II trial of curcumin in patients with advanced pancreatic cancer.\nPURPOSE: Pancreatic cancer is almost always lethal, and the only U.S. Food and Drug Administration-approved therapies for it, gemcitabine and erlotinib, produce objective responses in <10% of patients. We evaluated the clinical biological effects of curcumin (diferuloylmethane), a plant-derived dietary ingredient with potent nuclear factor-kappaB (NF-kappaB) and tumor inhibitory properties, against advanced pancreatic cancer. EXPERIMENTAL DESIGN: Patients received 8 g curcumin by mouth daily until disease progression, with restaging every 2 months. Serum cytokine levels for interleukin (IL)-6, IL-8, IL-10, and IL-1 receptor antagonists and peripheral blood mononuclear cell expression of NF-kappaB and cyclooxygenase-2 were monitored. RESULTS: Twenty-five patients were enrolled, with 21 evaluable for response. Circulating curcumin was detectable as drug in glucuronide and sulfate conjugate forms, albeit at low steady-state levels, suggesting poor oral bioavailability. Two patients showed clinical biological activity. One had ongoing stable disease for >18 months; interestingly, one additional patient had a brief, but marked, tumor regression (73%) accompanied by significant increases (4- to 35-fold) in serum cytokine levels (IL-6, IL-8, IL-10, and IL-1 receptor antagonists). No toxicities were observed. Curcumin down-regulated expression of NF-kappaB, cyclooxygenase-2, and phosphorylated signal transducer and activator of transcription 3 in peripheral blood mononuclear cells from patients (most of whom had baseline levels considerably higher than those found in healthy volunteers). Whereas there was considerable interpatient variation in plasma curcumin levels, drug levels peaked at 22 to 41 ng/mL and remained relatively constant over the first 4 weeks. CONCLUSIONS: Oral curcumin is well tolerated and, despite its limited absorption, has biological activity in some patients with pancreatic cancer.",
+  "modified": false,
+  "original_char_count": 2000,
+  "sanitized_char_count": 2000,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1854,
+      "boundary_end": 2000,
+      "context": "(IL)-6, IL-8, IL-10, and IL-1 receptor antagonists and peripheral blood mononuclear cell expression of NF-kappaB and cyclooxygenase-2 were monitored. RESULTS: Twenty-five patients were enrolled, with 21 evaluable for response. Circulating curcumin was detectable as drug in glucuronide and sulfate conjugate forms, albeit at low steady-state levels, suggesting poor oral bioavailability. Two patients showed clinical biological activity. One had ongoing stable disease for >18 months; interestingly, one additional patient had a brief, but marked, tumor regression (73%) accompanied by significant increases (4- to 35-fold) in serum cytokine levels (IL-6, IL-8, IL-10, and IL-1 receptor antagonists). No toxicities were observed. Curcumin down-regulated expression of NF-kappaB, cyclooxygenase-2, and phosphorylated signal transducer and activator of transcription 3 in peripheral blood mononuclear cells from patients (most of whom had baseline levels considerably higher than those found in healthy volunteers). Whereas there was considerable interpatient variation in plasma curcumin levels, drug levels peaked at 22 to 41 ng/mL and remained relatively constant over the first 4 weeks.",
+      "target": "CONCLUSIONS: Oral curcumin is well tolerated and, despite its limited absorption, has biological activity in some patients with pancreatic cancer.",
+      "loss_target": 2.34662127494812,
+      "loss_target_given_context": 1.4136276245117188,
+      "delta_loss": 0.9329936504364014,
+      "gain_ratio": 0.39759021210486056,
+      "score": -0.39759021210486056,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

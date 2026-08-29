@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4183",
+  "source_doc_id": "MED-4183",
+  "title": "Flame retardants in the serum of pet dogs and in their food.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Flame retardants in the serum of pet dogs and in their food.\nA previous study from our laboratory showed that pet cats had much higher serum levels of flame retardants compared to humans, despite sharing the same household environment. Dogs, on the other hand, are expected to have lower serum levels of flame retardants because they are metabolically better equipped to degrade these compounds. Thus, we hypothesized that dogs might be more similar to humans in their response to these environmental stressors and be better indicators of human exposures to these contaminants. Serum samples and their food were collected from 18 dogs and analyzed for PBDEs and other emerging flame retardants. The concentrations of PBDEs in dog serum and dog food averaged 1.8 ± 0.4 ng/g wet weight (ww) and 1.1 ± 0.2 ng/g ww, respectively. While the dog serum samples were dominated by the tetra to hepta BDE congeners, BDE-209 was the most abundant congener in the dog food. This difference in congener pattern was analyzed in terms of half-lives. Assuming food as the main exposure source, the average half-life in dog serum was 450 ± 170 days for the less brominated congeners and 2.3 ± 0.5 days for BDE-209. Dust was also considered as an additional exposure source, giving unreasonable residence times. In addition to PBDEs, other flame retardants, including Dechlorane Plus, decabromodiphenylethane, and hexabromocyclododecane, were identified in these samples.",
+  "sanitized_text": "Flame retardants in the serum of pet dogs and in their food.\nA previous study from our laboratory showed that pet cats had much higher serum levels of flame retardants compared to humans, despite sharing the same household environment. Dogs, on the other hand, are expected to have lower serum levels of flame retardants because they are metabolically better equipped to degrade these compounds. Thus, we hypothesized that dogs might be more similar to humans in their response to these environmental stressors and be better indicators of human exposures to these contaminants. Serum samples and their food were collected from 18 dogs and analyzed for PBDEs and other emerging flame retardants. The concentrations of PBDEs in dog serum and dog food averaged 1.8 ± 0.4 ng/g wet weight (ww) and 1.1 ± 0.2 ng/g ww, respectively. While the dog serum samples were dominated by the tetra to hepta BDE congeners, BDE-209 was the most abundant congener in the dog food. This difference in congener pattern was analyzed in terms of half-lives. Assuming food as the main exposure source, the average half-life in dog serum was 450 ± 170 days for the less brominated congeners and 2.3 ± 0.5 days for BDE-209. Dust was also considered as an additional exposure source, giving unreasonable residence times. In addition to PBDEs, other flame retardants, including Dechlorane Plus, decabromodiphenylethane, and hexabromocyclododecane, were identified in these samples.",
+  "modified": false,
+  "original_char_count": 1453,
+  "sanitized_char_count": 1453,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1294,
+      "boundary_end": 1453,
+      "context": "showed that pet cats had much higher serum levels of flame retardants compared to humans, despite sharing the same household environment. Dogs, on the other hand, are expected to have lower serum levels of flame retardants because they are metabolically better equipped to degrade these compounds. Thus, we hypothesized that dogs might be more similar to humans in their response to these environmental stressors and be better indicators of human exposures to these contaminants. Serum samples and their food were collected from 18 dogs and analyzed for PBDEs and other emerging flame retardants. The concentrations of PBDEs in dog serum and dog food averaged 1.8 ± 0.4 ng/g wet weight (ww) and 1.1 ± 0.2 ng/g ww, respectively. While the dog serum samples were dominated by the tetra to hepta BDE congeners, BDE-209 was the most abundant congener in the dog food. This difference in congener pattern was analyzed in terms of half-lives. Assuming food as the main exposure source, the average half-life in dog serum was 450 ± 170 days for the less brominated congeners and 2.3 ± 0.5 days for BDE-209. Dust was also considered as an additional exposure source, giving unreasonable residence times.",
+      "target": "In addition to PBDEs, other flame retardants, including Dechlorane Plus, decabromodiphenylethane, and hexabromocyclododecane, were identified in these samples.",
+      "loss_target": 1.535041093826294,
+      "loss_target_given_context": 0.883875846862793,
+      "delta_loss": 0.651165246963501,
+      "gain_ratio": 0.42420053090590887,
+      "score": -0.42420053090590887,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

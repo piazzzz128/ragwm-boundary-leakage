@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4713",
+  "source_doc_id": "MED-4713",
+  "title": "A case of Kombucha tea toxicity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A case of Kombucha tea toxicity.\nINTRODUCTION: Kombucha \"mushroom'' tea is touted to have medicinal properties. Here, we present a case of hyperthermia, lactic acidosis, and acute renal failure within 15 hours of Kombucha tea ingestion. CASE PRESENTATION: A 22 year old male, newly diagnosed with HIV, became short of breath and febrile to 103.0F, within twelve hours of Kombucha tea ingestion. He subsequently became combative and confused, requiring sedation and intubation for airway control. Laboratories revealed a lactate of 12.9 mmol/L, and serum creatinine of 2.1 mg/dL. DISCUSSION: Kombucha tea is black tea fermented in a yeast-bacteria medium. Several case reports exist of serious, and sometimes fatal, hepatic dysfunction and lactic acidosis within close proximity to ingestion. CONCLUSION: While Kombucha tea is considered a healthy elixir, the limited evidence currently available raises considerable concern that it may pose serious health risks. Consumption of this tea should be discouraged, as it may be associated with life-threatening lactic acidosis.",
+  "sanitized_text": "A case of Kombucha tea toxicity.\nINTRODUCTION: Kombucha \"mushroom'' tea is touted to have medicinal properties. Here, we present a case of hyperthermia, lactic acidosis, and acute renal failure within 15 hours of Kombucha tea ingestion. CASE PRESENTATION: A 22 year old male, newly diagnosed with HIV, became short of breath and febrile to 103.0F, within twelve hours of Kombucha tea ingestion. He subsequently became combative and confused, requiring sedation and intubation for airway control. Laboratories revealed a lactate of 12.9 mmol/L, and serum creatinine of 2.1 mg/dL. DISCUSSION: Kombucha tea is black tea fermented in a yeast-bacteria medium. Several case reports exist of serious, and sometimes fatal, hepatic dysfunction and lactic acidosis within close proximity to ingestion. CONCLUSION: While Kombucha tea is considered a healthy elixir, the limited evidence currently available raises considerable concern that it may pose serious health risks. Consumption of this tea should be discouraged, as it may be associated with life-threatening lactic acidosis.",
+  "modified": false,
+  "original_char_count": 1072,
+  "sanitized_char_count": 1072,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 963,
+      "boundary_end": 1072,
+      "context": "A case of Kombucha tea toxicity. INTRODUCTION: Kombucha \"mushroom'' tea is touted to have medicinal properties. Here, we present a case of hyperthermia, lactic acidosis, and acute renal failure within 15 hours of Kombucha tea ingestion. CASE PRESENTATION: A 22 year old male, newly diagnosed with HIV, became short of breath and febrile to 103.0F, within twelve hours of Kombucha tea ingestion. He subsequently became combative and confused, requiring sedation and intubation for airway control. Laboratories revealed a lactate of 12.9 mmol/L, and serum creatinine of 2.1 mg/dL. DISCUSSION: Kombucha tea is black tea fermented in a yeast-bacteria medium. Several case reports exist of serious, and sometimes fatal, hepatic dysfunction and lactic acidosis within close proximity to ingestion. CONCLUSION: While Kombucha tea is considered a healthy elixir, the limited evidence currently available raises considerable concern that it may pose serious health risks.",
+      "target": "Consumption of this tea should be discouraged, as it may be associated with life-threatening lactic acidosis.",
+      "loss_target": 2.3456454277038574,
+      "loss_target_given_context": 1.0868432521820068,
+      "delta_loss": 1.2588021755218506,
+      "gain_ratio": 0.536654926893229,
+      "score": -0.536654926893229,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

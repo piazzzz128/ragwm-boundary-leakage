@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1667",
+  "source_doc_id": "MED-1667",
+  "title": "Non-specific low back pain.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Non-specific low back pain.\nNon-specific low back pain has become a major public health problem worldwide. The lifetime prevalence of low back pain is reported to be as high as 84%, and the prevalence of chronic low back pain is about 23%, with 11-12% of the population being disabled by low back pain. Mechanical factors, such as lifting and carrying, probably do not have a major pathogenic role, but genetic constitution is important. History taking and clinical examination are included in most diagnostic guidelines, but the use of clinical imaging for diagnosis should be restricted. The mechanism of action of many treatments is unclear, and effect sizes of most treatments are low. Both patient preferences and clinical evidence should be taken into account for pain management, but generally self-management, with appropriate support, is recommended and surgery and overtreatment should be avoided. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Non-specific low back pain.\nNon-specific low back pain has become a major public health problem worldwide. The lifetime prevalence of low back pain is reported to be as high as 84%, and the prevalence of chronic low back pain is about 23%, with 11-12% of the population being disabled by low back pain. Mechanical factors, such as lifting and carrying, probably do not have a major pathogenic role, but genetic constitution is important. History taking and clinical examination are included in most diagnostic guidelines, but the use of clinical imaging for diagnosis should be restricted. The mechanism of action of many treatments is unclear, and effect sizes of most treatments are low. Both patient preferences and clinical evidence should be taken into account for pain management, but generally self-management, with appropriate support, is recommended and surgery and overtreatment should be avoided. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 959,
+  "sanitized_char_count": 959,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 908,
+      "boundary_end": 938,
+      "context": "Non-specific low back pain. Non-specific low back pain has become a major public health problem worldwide. The lifetime prevalence of low back pain is reported to be as high as 84%, and the prevalence of chronic low back pain is about 23%, with 11-12% of the population being disabled by low back pain. Mechanical factors, such as lifting and carrying, probably do not have a major pathogenic role, but genetic constitution is important. History taking and clinical examination are included in most diagnostic guidelines, but the use of clinical imaging for diagnosis should be restricted. The mechanism of action of many treatments is unclear, and effect sizes of most treatments are low. Both patient preferences and clinical evidence should be taken into account for pain management, but generally self-management, with appropriate support, is recommended and surgery and overtreatment should be avoided.",
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "loss_target": 1.1579636335372925,
+      "loss_target_given_context": 0.3518891930580139,
+      "delta_loss": 0.8060744404792786,
+      "gain_ratio": 0.6961137786485752,
+      "score": -0.6961137786485752,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

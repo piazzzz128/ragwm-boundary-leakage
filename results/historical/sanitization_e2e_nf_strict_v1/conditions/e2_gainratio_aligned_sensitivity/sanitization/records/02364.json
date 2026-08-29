@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4156",
+  "source_doc_id": "MED-4156",
+  "title": "Gerson regimen.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Gerson regimen.\nThe Gerson regimen, developed by Max Gerson in the 1930s, is promoted as an alternative cancer treatment. It involves consuming fresh, raw fruit and vegetable juices, eliminating salt from the diet, taking supplements such as potassium, vitamin B12, thyroid hormone, pancreatic enzymes, and detoxifying liver with coffee enemas to stimulate metabolism. Gerson therapy is based on the theory that cancer is caused by alteration of cell metabolism by toxic environmental substances and processed food, which changes its sodium and potassium content. It emphasizes increasing potassium intake and minimizing sodium consumption in an effort to correct the electrolyte imbalance, repair tissue, and detoxify the liver. The coffee enemas are believed to cause dilation of bile ducts and excretion of toxic breakdown products by the liver and through the colon wall. None of these theories has been substantiated by scientific research. Despite proponents' claims of recovery rates as high as 70% to 90%, case reviews by the National Cancer Institute (NCI) and the New York County Medical Society found no evidence of usefulness for the Gerson diet. An NCI-sponsored study of Gonzalez therapy, which is similar to the Gerson diet, showed that patients with inoperable pancreatic adenocarcinoma who underwent standard chemotherapy with gemcitabine (Gemzar) survived three times longer and had better quality of life than those who chose enzyme treatment, which included pancreatic enzymes, nutritional supplements, detoxification, and an organic diet.",
+  "sanitized_text": "Gerson regimen.\nThe Gerson regimen, developed by Max Gerson in the 1930s, is promoted as an alternative cancer treatment. It involves consuming fresh, raw fruit and vegetable juices, eliminating salt from the diet, taking supplements such as potassium, vitamin B12, thyroid hormone, pancreatic enzymes, and detoxifying liver with coffee enemas to stimulate metabolism. Gerson therapy is based on the theory that cancer is caused by alteration of cell metabolism by toxic environmental substances and processed food, which changes its sodium and potassium content. It emphasizes increasing potassium intake and minimizing sodium consumption in an effort to correct the electrolyte imbalance, repair tissue, and detoxify the liver. The coffee enemas are believed to cause dilation of bile ducts and excretion of toxic breakdown products by the liver and through the colon wall. None of these theories has been substantiated by scientific research. Despite proponents' claims of recovery rates as high as 70% to 90%, case reviews by the National Cancer Institute (NCI) and the New York County Medical Society found no evidence of usefulness for the Gerson diet. An NCI-sponsored study of Gonzalez therapy, which is similar to the Gerson diet, showed that patients with inoperable pancreatic adenocarcinoma who underwent standard chemotherapy with gemcitabine (Gemzar) survived three times longer and had better quality of life than those who chose enzyme treatment, which included pancreatic enzymes, nutritional supplements, detoxification, and an organic diet.",
+  "modified": false,
+  "original_char_count": 1559,
+  "sanitized_char_count": 1559,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1159,
+      "boundary_end": 1559,
+      "context": "Gerson regimen. The Gerson regimen, developed by Max Gerson in the 1930s, is promoted as an alternative cancer treatment. It involves consuming fresh, raw fruit and vegetable juices, eliminating salt from the diet, taking supplements such as potassium, vitamin B12, thyroid hormone, pancreatic enzymes, and detoxifying liver with coffee enemas to stimulate metabolism. Gerson therapy is based on the theory that cancer is caused by alteration of cell metabolism by toxic environmental substances and processed food, which changes its sodium and potassium content. It emphasizes increasing potassium intake and minimizing sodium consumption in an effort to correct the electrolyte imbalance, repair tissue, and detoxify the liver. The coffee enemas are believed to cause dilation of bile ducts and excretion of toxic breakdown products by the liver and through the colon wall. None of these theories has been substantiated by scientific research. Despite proponents' claims of recovery rates as high as 70% to 90%, case reviews by the National Cancer Institute (NCI) and the New York County Medical Society found no evidence of usefulness for the Gerson diet.",
+      "target": "An NCI-sponsored study of Gonzalez therapy, which is similar to the Gerson diet, showed that patients with inoperable pancreatic adenocarcinoma who underwent standard chemotherapy with gemcitabine (Gemzar) survived three times longer and had better quality of life than those who chose enzyme treatment, which included pancreatic enzymes, nutritional supplements, detoxification, and an organic diet.",
+      "loss_target": 2.2808568477630615,
+      "loss_target_given_context": 1.8138481378555298,
+      "delta_loss": 0.46700870990753174,
+      "gain_ratio": 0.20475143381556282,
+      "score": -0.20475143381556282,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

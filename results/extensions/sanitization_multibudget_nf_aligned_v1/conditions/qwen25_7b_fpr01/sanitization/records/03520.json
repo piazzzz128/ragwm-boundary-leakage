@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-869",
+  "source_doc_id": "MED-869",
+  "title": "Yerba Mate (Ilex paraguariensis) consumption is associated with higher bone mineral density in postmenopausal women.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Yerba Mate (Ilex paraguariensis) consumption is associated with higher bone mineral density in postmenopausal women.\nYerba Mate (Ilex paraguariensis) tea consumption is higher in Argentina and other South American countries than those of coffee or tea (Camellia sinensis). The effects of Yerba Mate on bone health have not previously been explored. From a program for osteoporosis prevention and treatment, postmenopausal women who drank at least 1 L of Yerba Mate tea daily during 4 or more years (n=146) were identified, and matched by age and time since menopause with an equal number of women who did not drink Yerba Mate tea. Their bone mineral density (BMD) was measured by dual-energy X-ray absorptiometry (DXA) at the lumbar spine and femoral neck. Yerba Mate drinkers had a 9.7% higher lumbar spine BMD (0.952 g/cm(2) versus 0.858 g/cm(2): p<0.0001) and a 6.2% higher femoral neck BMD (0.817 g/cm(2) versus 0.776 g/cm(2); p=0.0002). In multiple regression analysis, Yerba Mate drinking was the only factor, other than body mass index, which showed a positive correlation with BMD at both the lumbar spine (p<0.0001) and the femoral neck (p=0.0028). Results suggest a protective effect of chronic Yerba Mate consumption on bone. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Yerba Mate (Ilex paraguariensis) consumption is associated with higher bone mineral density in postmenopausal women.\nYerba Mate (Ilex paraguariensis) tea consumption is higher in Argentina and other South American countries than those of coffee or tea (Camellia sinensis). The effects of Yerba Mate on bone health have not previously been explored. From a program for osteoporosis prevention and treatment, postmenopausal women who drank at least 1 L of Yerba Mate tea daily during 4 or more years (n=146) were identified, and matched by age and time since menopause with an equal number of women who did not drink Yerba Mate tea. Their bone mineral density (BMD) was measured by dual-energy X-ray absorptiometry (DXA) at the lumbar spine and femoral neck. Yerba Mate drinkers had a 9.7% higher lumbar spine BMD (0.952 g/cm(2) versus 0.858 g/cm(2): p<0.0001) and a 6.2% higher femoral neck BMD (0.817 g/cm(2) versus 0.776 g/cm(2); p=0.0002). In multiple regression analysis, Yerba Mate drinking was the only factor, other than body mass index, which showed a positive correlation with BMD at both the lumbar spine (p<0.0001) and the femoral neck (p=0.0028). Results suggest a protective effect of chronic Yerba Mate consumption on bone. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1288,
+  "sanitized_char_count": 1288,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1237,
+      "boundary_end": 1267,
+      "context": "is associated with higher bone mineral density in postmenopausal women. Yerba Mate (Ilex paraguariensis) tea consumption is higher in Argentina and other South American countries than those of coffee or tea (Camellia sinensis). The effects of Yerba Mate on bone health have not previously been explored. From a program for osteoporosis prevention and treatment, postmenopausal women who drank at least 1 L of Yerba Mate tea daily during 4 or more years (n=146) were identified, and matched by age and time since menopause with an equal number of women who did not drink Yerba Mate tea. Their bone mineral density (BMD) was measured by dual-energy X-ray absorptiometry (DXA) at the lumbar spine and femoral neck. Yerba Mate drinkers had a 9.7% higher lumbar spine BMD (0.952 g/cm(2) versus 0.858 g/cm(2): p<0.0001) and a 6.2% higher femoral neck BMD (0.817 g/cm(2) versus 0.776 g/cm(2); p=0.0002). In multiple regression analysis, Yerba Mate drinking was the only factor, other than body mass index, which showed a positive correlation with BMD at both the lumbar spine (p<0.0001) and the femoral neck (p=0.0028). Results suggest a protective effect of chronic Yerba Mate consumption on bone.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.1415737867355347,
+      "loss_target_given_context": 0.3590746521949768,
+      "delta_loss": 0.7824991345405579,
+      "gain_ratio": 0.6854564668817482,
+      "score": -0.6854564668817482,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4373",
+  "source_doc_id": "MED-4373",
+  "title": "Dangerous nutrition? Calcium, vitamin D, and shark cartilage nutritional supplements and cancer-related hypercalcemia.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dangerous nutrition? Calcium, vitamin D, and shark cartilage nutritional supplements and cancer-related hypercalcemia.\nThe use of nutritional supplements in the general population and in cancer patients has become very popular. These supplements are not perceived as medications and are presumed to be safe by cancer patients, who may however be at risk for hypercalcemia. We note that many of our patients who have developed symptomatic hypercalcemia were taking vitamin D, calcium, or shark cartilage supplements. We report eight cases of hypercalcemia in cancer patients seen at the Cleveland Clinic Foundation in whom these nutritional supplements may have contributed to the prevalence or severity of hypercalcemia.",
+  "sanitized_text": "Dangerous nutrition? Calcium, vitamin D, and shark cartilage nutritional supplements and cancer-related hypercalcemia.\nThe use of nutritional supplements in the general population and in cancer patients has become very popular. These supplements are not perceived as medications and are presumed to be safe by cancer patients, who may however be at risk for hypercalcemia. We note that many of our patients who have developed symptomatic hypercalcemia were taking vitamin D, calcium, or shark cartilage supplements. We report eight cases of hypercalcemia in cancer patients seen at the Cleveland Clinic Foundation in whom these nutritional supplements may have contributed to the prevalence or severity of hypercalcemia.",
+  "modified": false,
+  "original_char_count": 720,
+  "sanitized_char_count": 720,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 516,
+      "boundary_end": 720,
+      "context": "Dangerous nutrition? Calcium, vitamin D, and shark cartilage nutritional supplements and cancer-related hypercalcemia. The use of nutritional supplements in the general population and in cancer patients has become very popular. These supplements are not perceived as medications and are presumed to be safe by cancer patients, who may however be at risk for hypercalcemia. We note that many of our patients who have developed symptomatic hypercalcemia were taking vitamin D, calcium, or shark cartilage supplements.",
+      "target": "We report eight cases of hypercalcemia in cancer patients seen at the Cleveland Clinic Foundation in whom these nutritional supplements may have contributed to the prevalence or severity of hypercalcemia.",
+      "loss_target": 8.357995986938477,
+      "loss_target_given_context": 4.453845977783203,
+      "delta_loss": 3.9041500091552734,
+      "gain_ratio": 0.46711556397688087,
+      "score": -0.46711556397688087,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

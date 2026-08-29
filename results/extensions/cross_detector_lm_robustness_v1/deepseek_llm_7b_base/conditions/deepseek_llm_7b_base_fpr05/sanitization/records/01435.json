@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2820",
+  "source_doc_id": "MED-2820",
+  "title": "Turmeric (Curcuma longa) inhibits inflammatory nuclear factor (NF)-κB and NF-κB-regulated gene products and induces death receptors leading to suppressed proliferation, induced chemosensitization, and suppressed osteoclastogenesis",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Turmeric (Curcuma longa) inhibits inflammatory nuclear factor (NF)-κB and NF-κB-regulated gene products and induces death receptors leading to suppressed proliferation, induced chemosensitization, and suppressed osteoclastogenesis\nScope The incidence of cancer is significantly lower in regions where turmeric is heavily consumed. Whether lower cancer incidence is due to turmeric was investigated by examining its effects on tumor cell proliferation, on pro-inflammatory transcription factors NF-κB and STAT3, and on associated gene products. Methods and results Cell proliferation and cell cytotoxicity were measured by the MTT method, NF-κB activity by EMSA, protein expression by Western blot analysis, ROS generation by FACS analysis, and osteoclastogenesis by TRAP assay. Turmeric inhibited NF-κB activation and down-regulated NF-κB-regulated gene products linked to survival (Bcl-2, cFLIP, XIAP, and cIAP1), proliferation (cyclin D1 and c-Myc), and metastasis (CXCR4) of cancer cells. The spice suppressed the activation of STAT3, and induced the death receptors (DR)4 and DR5. Turmeric enhanced the production of ROS, and suppressed the growth of tumor cell lines. Furthermore, turmeric sensitized the tumor cells to chemotherapeutic agents capecitabine and taxol. Turmeric was found to be more potent than pure curcumin for cell growth inhibition. Turmeric also inhibited NF-κB activation induced by RANKL that correlated with the suppression of osteoclastogenesis. Conclusion Our results indicate that turmeric can effectively block the proliferation of tumor cells through the suppression of NF-κB and STAT3 pathways.",
+  "sanitized_text": "Turmeric (Curcuma longa) inhibits inflammatory nuclear factor (NF)-κB and NF-κB-regulated gene products and induces death receptors leading to suppressed proliferation, induced chemosensitization, and suppressed osteoclastogenesis\nScope The incidence of cancer is significantly lower in regions where turmeric is heavily consumed. Whether lower cancer incidence is due to turmeric was investigated by examining its effects on tumor cell proliferation, on pro-inflammatory transcription factors NF-κB and STAT3, and on associated gene products. Methods and results Cell proliferation and cell cytotoxicity were measured by the MTT method, NF-κB activity by EMSA, protein expression by Western blot analysis, ROS generation by FACS analysis, and osteoclastogenesis by TRAP assay. Turmeric inhibited NF-κB activation and down-regulated NF-κB-regulated gene products linked to survival (Bcl-2, cFLIP, XIAP, and cIAP1), proliferation (cyclin D1 and c-Myc), and metastasis (CXCR4) of cancer cells. The spice suppressed the activation of STAT3, and induced the death receptors (DR)4 and DR5. Turmeric enhanced the production of ROS, and suppressed the growth of tumor cell lines. Furthermore, turmeric sensitized the tumor cells to chemotherapeutic agents capecitabine and taxol. Turmeric was found to be more potent than pure curcumin for cell growth inhibition. Turmeric also inhibited NF-κB activation induced by RANKL that correlated with the suppression of osteoclastogenesis. Conclusion Our results indicate that turmeric can effectively block the proliferation of tumor cells through the suppression of NF-κB and STAT3 pathways.",
+  "modified": false,
+  "original_char_count": 1628,
+  "sanitized_char_count": 1628,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1475,
+      "boundary_end": 1628,
+      "context": "lower in regions where turmeric is heavily consumed. Whether lower cancer incidence is due to turmeric was investigated by examining its effects on tumor cell proliferation, on pro-inflammatory transcription factors NF-κB and STAT3, and on associated gene products. Methods and results Cell proliferation and cell cytotoxicity were measured by the MTT method, NF-κB activity by EMSA, protein expression by Western blot analysis, ROS generation by FACS analysis, and osteoclastogenesis by TRAP assay. Turmeric inhibited NF-κB activation and down-regulated NF-κB-regulated gene products linked to survival (Bcl-2, cFLIP, XIAP, and cIAP1), proliferation (cyclin D1 and c-Myc), and metastasis (CXCR4) of cancer cells. The spice suppressed the activation of STAT3, and induced the death receptors (DR)4 and DR5. Turmeric enhanced the production of ROS, and suppressed the growth of tumor cell lines. Furthermore, turmeric sensitized the tumor cells to chemotherapeutic agents capecitabine and taxol. Turmeric was found to be more potent than pure curcumin for cell growth inhibition. Turmeric also inhibited NF-κB activation induced by RANKL that correlated with the suppression of osteoclastogenesis.",
+      "target": "Conclusion Our results indicate that turmeric can effectively block the proliferation of tumor cells through the suppression of NF-κB and STAT3 pathways.",
+      "loss_target": 2.4695780277252197,
+      "loss_target_given_context": 1.294182300567627,
+      "delta_loss": 1.1753957271575928,
+      "gain_ratio": 0.47595002626431465,
+      "score": -0.47595002626431465,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

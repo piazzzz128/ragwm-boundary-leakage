@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1217",
+  "source_doc_id": "MED-1217",
+  "title": "Clostridium difficile: its potential as a source of foodborne disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Clostridium difficile: its potential as a source of foodborne disease.\nClostridium difficile has been recognized as an important human pathogen for several decades, but its importance as an agent of animal disease was established only recently. The number of reports on C. difficile in food is rising, but the findings vary among studies. In North America, the prevalence of contamination in retail meat and meat products ranges from 4.6% to 50%. In European countries, the percentage of C. difficile positive samples is much lower (0-3%). This chapter summarizes current data on association of C. difficile with different foods and the difficulties associated with isolation of the organism, and discusses the potential of C. difficile as a food-transmitted pathogen. Copyright © 2010 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Clostridium difficile: its potential as a source of foodborne disease.\nClostridium difficile has been recognized as an important human pathogen for several decades, but its importance as an agent of animal disease was established only recently. The number of reports on C. difficile in food is rising, but the findings vary among studies. In North America, the prevalence of contamination in retail meat and meat products ranges from 4.6% to 50%. In European countries, the percentage of C. difficile positive samples is much lower (0-3%). This chapter summarizes current data on association of C. difficile with different foods and the difficulties associated with isolation of the organism, and discusses the potential of C. difficile as a food-transmitted pathogen. Copyright © 2010 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 820,
+  "sanitized_char_count": 820,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 769,
+      "boundary_end": 799,
+      "context": "Clostridium difficile: its potential as a source of foodborne disease. Clostridium difficile has been recognized as an important human pathogen for several decades, but its importance as an agent of animal disease was established only recently. The number of reports on C. difficile in food is rising, but the findings vary among studies. In North America, the prevalence of contamination in retail meat and meat products ranges from 4.6% to 50%. In European countries, the percentage of C. difficile positive samples is much lower (0-3%). This chapter summarizes current data on association of C. difficile with different foods and the difficulties associated with isolation of the organism, and discusses the potential of C. difficile as a food-transmitted pathogen.",
+      "target": "Copyright © 2010 Elsevier Inc.",
+      "loss_target": 1.0682905912399292,
+      "loss_target_given_context": 0.2937789559364319,
+      "delta_loss": 0.7745116353034973,
+      "gain_ratio": 0.7250008955003034,
+      "score": -0.7250008955003034,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

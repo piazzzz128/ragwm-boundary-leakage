@@ -1,0 +1,30 @@
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+record_files: 3633
+record_input_matches: 3633
+record_output_matches: 3633
+candidate_evaluation_count: 3780
+formula_verified_candidates: 3780
+selected_candidates: 153
+modified_document_count: 129
+modified_document_rate: 0.03550784475639967
+deletion_step_count: 153
+total_original_chars: 5795710
+total_deleted_chars: 24463
+deleted_char_rate: 0.004220880616870064
+stop_reason_counts: {'score_below_threshold': 3627, 'empty_context': 6}
+vector_summary: {'experiment_role': 'aligned_end_to_end_sensitivity', 'database': '/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/vectorstores/qwen2_5_14b_base_fpr05', 'collection': 'nfcorpus_contriever_cosine', 'count': 3633, 'expected_count': 3633, 'retriever': 'contriever', 'distance': 'cosine'}
+actual_vector_count: 3633
+e0_counts: {'yes': 25, 'no': 5, 'unknown': 0}
+e1_counts: {'yes': 4, 'no': 26, 'unknown': 0}
+attack_counts: {'yes': 20, 'no': 10, 'unknown': 0}
+broken: 5
+retained: 20
+false_gain: 0
+mcnemar_exact_two_sided_p: 0.0625
+ownership_threshold: 2
+above_ownership_threshold: True
+summary_checks: {'role': True, 'scoring_version': True, 'alignment': True, 'input_count': True, 'completed_count': True, 'complete': True, 'modified_count': True, 'candidate_count': True, 'deletion_steps': True, 'original_chars': True, 'deleted_chars': True, 'sanitized_sha': True, 'stop_reasons': True}
+vector_checks: {'role': True, 'count': True, 'expected': True, 'retriever': True, 'distance': True}
+endpoint_checks: {'e0': True, 'e1': True, 'attack': True, 'reported_e0': True, 'reported_e1': True, 'reported_attack': True, 'absolute_drop': True, 'relative_drop': True, 'broken': True, 'retained': True, 'false_gain': True, 'mcnemar_b': True, 'mcnemar_c': True, 'mcnemar_p': True, 'unknown': True, 'modified': True, 'deleted_chars': True, 'deletion_steps': True, 'above_threshold': True, 'run_valid': True}
+failure_count: 0
+QWEN2.5-14B E2E INDEPENDENT VERIFICATION PASS

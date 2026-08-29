@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2050",
+  "source_doc_id": "MED-2050",
+  "title": "The effects of moderate exercise training on natural killer cells and acute upper respiratory tract infections.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The effects of moderate exercise training on natural killer cells and acute upper respiratory tract infections.\nA randomly controlled 15-wk exercise training (ET) study (five 45-min sessions/wk, brisk walking at 60% heart rate reserve) with a group of 36 mildly obese, sedentary women was conducted to investigate the relationship between improvement in cardiorespiratory fitness, changes in natural killer (NK) cell number and activity, and acute upper respiratory tract infection (URI) symptomatology. The study was conducted using a 2 (exercise and nonexercise groups) x 3 (baseline, 6-, and 15-wk testing sessions) factorial design, with data analyzed using repeated measures ANOVA. No significant change in NK cell number occurred as a result of ET as measured by the CD16 and Leu-19 monoclonal antibodies. ET did have a significant effect on NK cell activity (E:T 50:1) especially during the initial 6-wk period [F(2.68) = 12.34, p less than 0.001]. Using data from daily logs kept by each subject, the exercise group was found to have significantly fewer URI symptom days/incident than the nonexercise group (3.6 +/- 0.7 vs 7.0 +/- 1.4 days, respectively, p = 0.049). Improvement in cardiorespiratory fitness was correlated significantly with a reduction in URI symptom days/incident (r = 0.37, p = 0.025) and a change in NK cell activity from baseline to six but not 15 wks (r = 0.35, p = 0.036). In summary, moderate ET is associated with elevated NK cell activity after six but not 15 weeks, and reduced URI symptomatology in comparison to a randomized, sedentary control group.",
+  "sanitized_text": "The effects of moderate exercise training on natural killer cells and acute upper respiratory tract infections.\nA randomly controlled 15-wk exercise training (ET) study (five 45-min sessions/wk, brisk walking at 60% heart rate reserve) with a group of 36 mildly obese, sedentary women was conducted to investigate the relationship between improvement in cardiorespiratory fitness, changes in natural killer (NK) cell number and activity, and acute upper respiratory tract infection (URI) symptomatology. The study was conducted using a 2 (exercise and nonexercise groups) x 3 (baseline, 6-, and 15-wk testing sessions) factorial design, with data analyzed using repeated measures ANOVA. No significant change in NK cell number occurred as a result of ET as measured by the CD16 and Leu-19 monoclonal antibodies. ET did have a significant effect on NK cell activity (E:T 50:1) especially during the initial 6-wk period [F(2.68) = 12.34, p less than 0.001]. Using data from daily logs kept by each subject, the exercise group was found to have significantly fewer URI symptom days/incident than the nonexercise group (3.6 +/- 0.7 vs 7.0 +/- 1.4 days, respectively, p = 0.049). Improvement in cardiorespiratory fitness was correlated significantly with a reduction in URI symptom days/incident (r = 0.37, p = 0.025) and a change in NK cell activity from baseline to six but not 15 wks (r = 0.35, p = 0.036). In summary, moderate ET is associated with elevated NK cell activity after six but not 15 weeks, and reduced URI symptomatology in comparison to a randomized, sedentary control group.",
+  "modified": false,
+  "original_char_count": 1588,
+  "sanitized_char_count": 1588,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1405,
+      "boundary_end": 1588,
+      "context": "at 60% heart rate reserve) with a group of 36 mildly obese, sedentary women was conducted to investigate the relationship between improvement in cardiorespiratory fitness, changes in natural killer (NK) cell number and activity, and acute upper respiratory tract infection (URI) symptomatology. The study was conducted using a 2 (exercise and nonexercise groups) x 3 (baseline, 6-, and 15-wk testing sessions) factorial design, with data analyzed using repeated measures ANOVA. No significant change in NK cell number occurred as a result of ET as measured by the CD16 and Leu-19 monoclonal antibodies. ET did have a significant effect on NK cell activity (E:T 50:1) especially during the initial 6-wk period [F(2.68) = 12.34, p less than 0.001]. Using data from daily logs kept by each subject, the exercise group was found to have significantly fewer URI symptom days/incident than the nonexercise group (3.6 +/- 0.7 vs 7.0 +/- 1.4 days, respectively, p = 0.049). Improvement in cardiorespiratory fitness was correlated significantly with a reduction in URI symptom days/incident (r = 0.37, p = 0.025) and a change in NK cell activity from baseline to six but not 15 wks (r = 0.35, p = 0.036).",
+      "target": "In summary, moderate ET is associated with elevated NK cell activity after six but not 15 weeks, and reduced URI symptomatology in comparison to a randomized, sedentary control group.",
+      "loss_target": 3.981003999710083,
+      "loss_target_given_context": 1.867920994758606,
+      "delta_loss": 2.113083004951477,
+      "gain_ratio": 0.5307914800149316,
+      "score": -0.5307914800149316,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

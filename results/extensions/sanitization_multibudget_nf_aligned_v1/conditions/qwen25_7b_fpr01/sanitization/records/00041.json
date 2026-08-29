@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1045",
+  "source_doc_id": "MED-1045",
+  "title": "Colon cancer and diet, with special reference to intakes of fat and fiber.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Colon cancer and diet, with special reference to intakes of fat and fiber.\nColon cancer, rare in the past, and in developing populations, currently accounts for 2 to 4% of all deaths in Western populations. Evidence suggests the primary cause to be changes in diet, which affect the bowel milieu intérieur. It is possible that in sophisticated populations, the higher concentrations of fecal bile acids and sterols, and longer transit time, favor the production of potentially carcinogenic metabolites. Of secular changes in diet, evidence suggests that the following may have etiological importance: 1) the fall in intake of fiber-containing foods with its effects on bowel physiology, and 2) the decreased fiber but increased fat intakes, in their respective capacities to raise concentrations of fecal bile acids, sterols, and other noxious substances. For possible prophylaxis against colon cancer, recommendations for a lower fat intake, or a higher intake of fiber-containing foods (apart from fiber ingestion from bran) are extremely unlikely to be adopted. For future research, western populations with considerably lower than average mortality rates, e.g., Seventh Day Adventists, Mormons, the rural Finnish population, as well as developing populations, demand intensive study. Also requiring elucidation are the respective roles of diet and of genetic constitution on concentrations of fecal bile acids, etc., and on transit time, in prone and nonprone populations.",
+  "sanitized_text": "Colon cancer and diet, with special reference to intakes of fat and fiber.\nColon cancer, rare in the past, and in developing populations, currently accounts for 2 to 4% of all deaths in Western populations. Evidence suggests the primary cause to be changes in diet, which affect the bowel milieu intérieur. It is possible that in sophisticated populations, the higher concentrations of fecal bile acids and sterols, and longer transit time, favor the production of potentially carcinogenic metabolites. Of secular changes in diet, evidence suggests that the following may have etiological importance: 1) the fall in intake of fiber-containing foods with its effects on bowel physiology, and 2) the decreased fiber but increased fat intakes, in their respective capacities to raise concentrations of fecal bile acids, sterols, and other noxious substances. For possible prophylaxis against colon cancer, recommendations for a lower fat intake, or a higher intake of fiber-containing foods (apart from fiber ingestion from bran) are extremely unlikely to be adopted. For future research, western populations with considerably lower than average mortality rates, e.g., Seventh Day Adventists, Mormons, the rural Finnish population, as well as developing populations, demand intensive study. Also requiring elucidation are the respective roles of diet and of genetic constitution on concentrations of fecal bile acids, etc., and on transit time, in prone and nonprone populations.",
+  "modified": false,
+  "original_char_count": 1476,
+  "sanitized_char_count": 1476,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1288,
+      "boundary_end": 1476,
+      "context": "rare in the past, and in developing populations, currently accounts for 2 to 4% of all deaths in Western populations. Evidence suggests the primary cause to be changes in diet, which affect the bowel milieu intérieur. It is possible that in sophisticated populations, the higher concentrations of fecal bile acids and sterols, and longer transit time, favor the production of potentially carcinogenic metabolites. Of secular changes in diet, evidence suggests that the following may have etiological importance: 1) the fall in intake of fiber-containing foods with its effects on bowel physiology, and 2) the decreased fiber but increased fat intakes, in their respective capacities to raise concentrations of fecal bile acids, sterols, and other noxious substances. For possible prophylaxis against colon cancer, recommendations for a lower fat intake, or a higher intake of fiber-containing foods (apart from fiber ingestion from bran) are extremely unlikely to be adopted. For future research, western populations with considerably lower than average mortality rates, e.g., Seventh Day Adventists, Mormons, the rural Finnish population, as well as developing populations, demand intensive study.",
+      "target": "Also requiring elucidation are the respective roles of diet and of genetic constitution on concentrations of fecal bile acids, etc., and on transit time, in prone and nonprone populations.",
+      "loss_target": 3.4517641067504883,
+      "loss_target_given_context": 2.419220447540283,
+      "delta_loss": 1.032543659210205,
+      "gain_ratio": 0.2991350588503129,
+      "score": -0.2991350588503129,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

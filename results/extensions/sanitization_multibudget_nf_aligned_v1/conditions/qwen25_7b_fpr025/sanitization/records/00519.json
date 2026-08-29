@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1626",
+  "source_doc_id": "MED-1626",
+  "title": "Adverse reactions to aspartame: double-blind challenge in patients from a vulnerable population.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Adverse reactions to aspartame: double-blind challenge in patients from a vulnerable population.\nThis study was designed to ascertain whether individuals with mood disorders are particularly vulnerable to adverse effects of aspartame. Although the protocol required the recruitment of 40 patients with unipolar depression and a similar number of individuals without a psychiatric history, the project was halted by the Institutional Review Board after a total of 13 individuals had completed the study because of the severity of reactions within the group of patients with a history of depression. In a crossover design, subjects received aspartame 30 mg/kg/day or placebo for 7 days. Despite the small n, there was a significant difference between aspartame and placebo in number and severity of symptoms for patients with a history of depression, whereas for individuals without such a history there was not. We conclude that individuals with mood disorders are particularly sensitive to this artificial sweetener and its use in this population should be discouraged.",
+  "sanitized_text": "Adverse reactions to aspartame: double-blind challenge in patients from a vulnerable population.\nThis study was designed to ascertain whether individuals with mood disorders are particularly vulnerable to adverse effects of aspartame. Although the protocol required the recruitment of 40 patients with unipolar depression and a similar number of individuals without a psychiatric history, the project was halted by the Institutional Review Board after a total of 13 individuals had completed the study because of the severity of reactions within the group of patients with a history of depression. In a crossover design, subjects received aspartame 30 mg/kg/day or placebo for 7 days. Despite the small n, there was a significant difference between aspartame and placebo in number and severity of symptoms for patients with a history of depression, whereas for individuals without such a history there was not. We conclude that individuals with mood disorders are particularly sensitive to this artificial sweetener and its use in this population should be discouraged.",
+  "modified": false,
+  "original_char_count": 1069,
+  "sanitized_char_count": 1069,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 911,
+      "boundary_end": 1069,
+      "context": "Adverse reactions to aspartame: double-blind challenge in patients from a vulnerable population. This study was designed to ascertain whether individuals with mood disorders are particularly vulnerable to adverse effects of aspartame. Although the protocol required the recruitment of 40 patients with unipolar depression and a similar number of individuals without a psychiatric history, the project was halted by the Institutional Review Board after a total of 13 individuals had completed the study because of the severity of reactions within the group of patients with a history of depression. In a crossover design, subjects received aspartame 30 mg/kg/day or placebo for 7 days. Despite the small n, there was a significant difference between aspartame and placebo in number and severity of symptoms for patients with a history of depression, whereas for individuals without such a history there was not.",
+      "target": "We conclude that individuals with mood disorders are particularly sensitive to this artificial sweetener and its use in this population should be discouraged.",
+      "loss_target": 3.0469377040863037,
+      "loss_target_given_context": 1.20215904712677,
+      "delta_loss": 1.8447786569595337,
+      "gain_ratio": 0.605453355506897,
+      "score": -0.605453355506897,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

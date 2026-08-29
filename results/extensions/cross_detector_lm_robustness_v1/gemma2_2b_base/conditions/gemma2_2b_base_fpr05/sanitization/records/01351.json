@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2712",
+  "source_doc_id": "MED-2712",
+  "title": "A systematic review on the anxiolytic effects of aromatherapy in people with anxiety symptoms.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A systematic review on the anxiolytic effects of aromatherapy in people with anxiety symptoms.\nPURPOSE: We reviewed studies from 1990 to 2010 on using aromatherapy for people with anxiety or anxiety symptoms and examined their clinical effects. METHODS: The review was conducted on available electronic databases to extract journal articles that evaluated the anxiolytic effects of aromatherapy for people with anxiety symptoms. RESULTS: The results were based on 16 randomized controlled trials examining the anxiolytic effects of aromatherapy among people with anxiety symptoms. Most of the studies indicated positive effects to quell anxiety. No adverse events were reported. CONCLUSIONS: It is recommended that aromatherapy could be applied as a complementary therapy for people with anxiety symptoms. Further studies with better quality on methodology should be conducted to identify its clinical effects and the underlying biologic mechanisms.",
+  "sanitized_text": "A systematic review on the anxiolytic effects of aromatherapy in people with anxiety symptoms.\nPURPOSE: We reviewed studies from 1990 to 2010 on using aromatherapy for people with anxiety or anxiety symptoms and examined their clinical effects. METHODS: The review was conducted on available electronic databases to extract journal articles that evaluated the anxiolytic effects of aromatherapy for people with anxiety symptoms. RESULTS: The results were based on 16 randomized controlled trials examining the anxiolytic effects of aromatherapy among people with anxiety symptoms. Most of the studies indicated positive effects to quell anxiety. No adverse events were reported. CONCLUSIONS: It is recommended that aromatherapy could be applied as a complementary therapy for people with anxiety symptoms. Further studies with better quality on methodology should be conducted to identify its clinical effects and the underlying biologic mechanisms.",
+  "modified": false,
+  "original_char_count": 949,
+  "sanitized_char_count": 949,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 806,
+      "boundary_end": 949,
+      "context": "A systematic review on the anxiolytic effects of aromatherapy in people with anxiety symptoms. PURPOSE: We reviewed studies from 1990 to 2010 on using aromatherapy for people with anxiety or anxiety symptoms and examined their clinical effects. METHODS: The review was conducted on available electronic databases to extract journal articles that evaluated the anxiolytic effects of aromatherapy for people with anxiety symptoms. RESULTS: The results were based on 16 randomized controlled trials examining the anxiolytic effects of aromatherapy among people with anxiety symptoms. Most of the studies indicated positive effects to quell anxiety. No adverse events were reported. CONCLUSIONS: It is recommended that aromatherapy could be applied as a complementary therapy for people with anxiety symptoms.",
+      "target": "Further studies with better quality on methodology should be conducted to identify its clinical effects and the underlying biologic mechanisms.",
+      "loss_target": 9.823347091674805,
+      "loss_target_given_context": 4.555561065673828,
+      "delta_loss": 5.267786026000977,
+      "gain_ratio": 0.5362516438480909,
+      "score": -0.5362516438480909,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

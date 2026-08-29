@@ -1,0 +1,64 @@
+{
+  "dataset": "trec-covid",
+  "boundary_file": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3.json",
+  "model_repo_id": "Qwen/Qwen2.5-7B",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-7B",
+  "tag": "qwen2_5_7b_smoke20",
+  "n_input": 20,
+  "n_scored": 20,
+  "n_failed": 0,
+  "positive_inject": 9,
+  "negative_clean": 11,
+  "record_delta_loss": {
+    "roc_auc": 1.0,
+    "pr_auc": 1.0000000000000002,
+    "score_mean_inject": 0.15958216455247667,
+    "score_mean_clean": -1.0501982948996804
+  },
+  "record_gain_ratio": {
+    "roc_auc": 1.0,
+    "pr_auc": 1.0000000000000002,
+    "score_mean_inject": 0.036314097815737786,
+    "score_mean_clean": -0.2943583317936712
+  },
+  "group_mean_delta_loss": {
+    "groups": 19,
+    "positive_groups": 8,
+    "negative_groups": 11,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "score_mean_inject": 0.18082404136657715,
+    "score_mean_clean": -1.0501982948996804
+  },
+  "group_median_delta_loss": {
+    "groups": 19,
+    "positive_groups": 8,
+    "negative_groups": 11,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "score_mean_inject": 0.18082404136657715,
+    "score_mean_clean": -1.0501982948996804
+  },
+  "group_mean_gain_ratio": {
+    "groups": 19,
+    "positive_groups": 8,
+    "negative_groups": 11,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "score_mean_inject": 0.04144224492780356,
+    "score_mean_clean": -0.2943583317936712
+  },
+  "group_median_gain_ratio": {
+    "groups": 19,
+    "positive_groups": 8,
+    "negative_groups": 11,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "score_mean_inject": 0.04144224492780356,
+    "score_mean_clean": -0.2943583317936712
+  },
+  "delta_loss_mean_inject": -0.15958216455247667,
+  "delta_loss_mean_clean": 1.0501982948996804,
+  "gain_ratio_mean_inject": -0.036314097815737786,
+  "gain_ratio_mean_clean": 0.2943583317936712
+}

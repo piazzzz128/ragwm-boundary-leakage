@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4827",
+  "source_doc_id": "MED-4827",
+  "title": "Men with Low Serum Cholesterol Have a Lower Risk of High-Grade Prostate Cancer in the Placebo Arm of the Prostate Cancer Prevention Trial",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Men with Low Serum Cholesterol Have a Lower Risk of High-Grade Prostate Cancer in the Placebo Arm of the Prostate Cancer Prevention Trial\nBackground Several prospective studies suggest that use of cholesterol-lowering statin drugs is inversely associated with advanced stage and possibly high-grade prostate cancer. One study reported that men with low cholesterol had a lower risk of high-grade prostate cancer. Given these findings, we investigated the association between low serum cholesterol and prostate cancer risk in the Prostate Cancer Prevention Trial (PCPT). Methods We conducted a cohort study of 5,586 men aged ≥ 55 years old who were randomized to the placebo arm of the PCPT between 1993 and 1996. Serum cholesterol was measured enzymatically at entry. By the end of follow-up, 1,251 prostate cancer cases were confirmed. We used logistic regression to calculate the multivariable odds ratio (OR) of total, and Gleason 2-6 (n=993), 7 (n=199), and 8-10 (n=59) prostate cancer comparing low (normal: < 200 mg/dL) to high (borderline and elevated cholesterol: ≥ 200 mg/dL) serum cholesterol. Results Men with low cholesterol had a lower risk of Gleason 8-10 prostate cancer (OR=0.41, 95% confidence interval (CI) 0.22-0.77) than men with high cholesterol. No association was present for prostate cancer overall (OR=0.97, 95% CI 0.85-1.11), Gleason 2-6 disease (OR=1.03, 95% CI 0.89-1.18), or Gleason 7 disease (OR=0.93, 95% CI 0.69-1.24). Conclusion These prospective results support that men with low cholesterol have a reduced risk of high-grade prostate cancer. These and other contemporary data suggest that cholesterol metabolism should be investigated further in the etiology of prostate cancer.",
+  "sanitized_text": "Men with Low Serum Cholesterol Have a Lower Risk of High-Grade Prostate Cancer in the Placebo Arm of the Prostate Cancer Prevention Trial\nBackground Several prospective studies suggest that use of cholesterol-lowering statin drugs is inversely associated with advanced stage and possibly high-grade prostate cancer. One study reported that men with low cholesterol had a lower risk of high-grade prostate cancer. Given these findings, we investigated the association between low serum cholesterol and prostate cancer risk in the Prostate Cancer Prevention Trial (PCPT). Methods We conducted a cohort study of 5,586 men aged ≥ 55 years old who were randomized to the placebo arm of the PCPT between 1993 and 1996. Serum cholesterol was measured enzymatically at entry. By the end of follow-up, 1,251 prostate cancer cases were confirmed. We used logistic regression to calculate the multivariable odds ratio (OR) of total, and Gleason 2-6 (n=993), 7 (n=199), and 8-10 (n=59) prostate cancer comparing low (normal: < 200 mg/dL) to high (borderline and elevated cholesterol: ≥ 200 mg/dL) serum cholesterol. Results Men with low cholesterol had a lower risk of Gleason 8-10 prostate cancer (OR=0.41, 95% confidence interval (CI) 0.22-0.77) than men with high cholesterol. No association was present for prostate cancer overall (OR=0.97, 95% CI 0.85-1.11), Gleason 2-6 disease (OR=1.03, 95% CI 0.89-1.18), or Gleason 7 disease (OR=0.93, 95% CI 0.69-1.24). Conclusion These prospective results support that men with low cholesterol have a reduced risk of high-grade prostate cancer. These and other contemporary data suggest that cholesterol metabolism should be investigated further in the etiology of prostate cancer.",
+  "modified": false,
+  "original_char_count": 1713,
+  "sanitized_char_count": 1713,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1577,
+      "boundary_end": 1713,
+      "context": "risk of high-grade prostate cancer. Given these findings, we investigated the association between low serum cholesterol and prostate cancer risk in the Prostate Cancer Prevention Trial (PCPT). Methods We conducted a cohort study of 5,586 men aged ≥ 55 years old who were randomized to the placebo arm of the PCPT between 1993 and 1996. Serum cholesterol was measured enzymatically at entry. By the end of follow-up, 1,251 prostate cancer cases were confirmed. We used logistic regression to calculate the multivariable odds ratio (OR) of total, and Gleason 2-6 (n=993), 7 (n=199), and 8-10 (n=59) prostate cancer comparing low (normal: < 200 mg/dL) to high (borderline and elevated cholesterol: ≥ 200 mg/dL) serum cholesterol. Results Men with low cholesterol had a lower risk of Gleason 8-10 prostate cancer (OR=0.41, 95% confidence interval (CI) 0.22-0.77) than men with high cholesterol. No association was present for prostate cancer overall (OR=0.97, 95% CI 0.85-1.11), Gleason 2-6 disease (OR=1.03, 95% CI 0.89-1.18), or Gleason 7 disease (OR=0.93, 95% CI 0.69-1.24). Conclusion These prospective results support that men with low cholesterol have a reduced risk of high-grade prostate cancer.",
+      "target": "These and other contemporary data suggest that cholesterol metabolism should be investigated further in the etiology of prostate cancer.",
+      "loss_target": 3.185965061187744,
+      "loss_target_given_context": 2.0143797397613525,
+      "delta_loss": 1.1715853214263916,
+      "gain_ratio": 0.3677332610137346,
+      "score": -0.3677332610137346,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

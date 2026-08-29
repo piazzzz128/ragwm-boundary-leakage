@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1648",
+  "source_doc_id": "MED-1648",
+  "title": "Coffee and endothelial function: a battle between caffeine and antioxidants?",
+  "original_text": "Coffee and endothelial function: a battle between caffeine and antioxidants?\nAlthough coffee is largely consumed by adults in Western countries, controversy exists about its impact on the cardiovascular system. We recently demonstrated that caffeinated and decaffeinated espresso coffee have different acute effects on endothelial function in healthy subjects, measured using flow-mediated dilation (FMD) of the brachial artery. In this study, we measured the anti-oxidant capacity of two coffee substances in terms of free stable radical 2,2-diphenyl-1-picryl-hydrazyl 50% inhibition (I(50) DPPH). The caffeinated coffee had a slightly higher anti-oxidant capacity than decaffeinated espresso coffee (I(50) DPPH: 1.13±0.02 vs 1.30±0.03 μl; P<0.001). We suggest that the unfavourable effects observed after caffeinated coffee ingestion are due to caffeine and that the antioxidant activity is responsible for the increased FMD observed after decaffeinated coffee ingestion. Further clinical and epidemiological studies are needed to understand the chronic effects of coffee consumption on health. The presence of ethanol in the diet can lead to dyslipidemia.",
+  "sanitized_text": "Coffee and endothelial function: a battle between caffeine and antioxidants?\nAlthough coffee is largely consumed by adults in Western countries, controversy exists about its impact on the cardiovascular system. We recently demonstrated that caffeinated and decaffeinated espresso coffee have different acute effects on endothelial function in healthy subjects, measured using flow-mediated dilation (FMD) of the brachial artery. In this study, we measured the anti-oxidant capacity of two coffee substances in terms of free stable radical 2,2-diphenyl-1-picryl-hydrazyl 50% inhibition (I(50) DPPH). The caffeinated coffee had a slightly higher anti-oxidant capacity than decaffeinated espresso coffee (I(50) DPPH: 1.13±0.02 vs 1.30±0.03 μl; P<0.001). We suggest that the unfavourable effects observed after caffeinated coffee ingestion are due to caffeine and that the antioxidant activity is responsible for the increased FMD observed after decaffeinated coffee ingestion. Further clinical and epidemiological studies are needed to understand the chronic effects of coffee consumption on health.",
+  "modified": true,
+  "original_char_count": 1158,
+  "sanitized_char_count": 1096,
+  "deleted_char_count": 62,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1097,
+      "boundary_end": 1158,
+      "context": "Coffee and endothelial function: a battle between caffeine and antioxidants? Although coffee is largely consumed by adults in Western countries, controversy exists about its impact on the cardiovascular system. We recently demonstrated that caffeinated and decaffeinated espresso coffee have different acute effects on endothelial function in healthy subjects, measured using flow-mediated dilation (FMD) of the brachial artery. In this study, we measured the anti-oxidant capacity of two coffee substances in terms of free stable radical 2,2-diphenyl-1-picryl-hydrazyl 50% inhibition (I(50) DPPH). The caffeinated coffee had a slightly higher anti-oxidant capacity than decaffeinated espresso coffee (I(50) DPPH: 1.13±0.02 vs 1.30±0.03 μl; P<0.001). We suggest that the unfavourable effects observed after caffeinated coffee ingestion are due to caffeine and that the antioxidant activity is responsible for the increased FMD observed after decaffeinated coffee ingestion. Further clinical and epidemiological studies are needed to understand the chronic effects of coffee consumption on health.",
+      "target": "The presence of ethanol in the diet can lead to dyslipidemia.",
+      "loss_target": 3.059671401977539,
+      "loss_target_given_context": 3.698608160018921,
+      "delta_loss": -0.6389367580413818,
+      "gain_ratio": -0.20882528680315857,
+      "score": 0.20882528680315857,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 974,
+      "boundary_end": 1096,
+      "context": "Coffee and endothelial function: a battle between caffeine and antioxidants? Although coffee is largely consumed by adults in Western countries, controversy exists about its impact on the cardiovascular system. We recently demonstrated that caffeinated and decaffeinated espresso coffee have different acute effects on endothelial function in healthy subjects, measured using flow-mediated dilation (FMD) of the brachial artery. In this study, we measured the anti-oxidant capacity of two coffee substances in terms of free stable radical 2,2-diphenyl-1-picryl-hydrazyl 50% inhibition (I(50) DPPH). The caffeinated coffee had a slightly higher anti-oxidant capacity than decaffeinated espresso coffee (I(50) DPPH: 1.13±0.02 vs 1.30±0.03 μl; P<0.001). We suggest that the unfavourable effects observed after caffeinated coffee ingestion are due to caffeine and that the antioxidant activity is responsible for the increased FMD observed after decaffeinated coffee ingestion.",
+      "target": "Further clinical and epidemiological studies are needed to understand the chronic effects of coffee consumption on health.",
+      "loss_target": 2.448882579803467,
+      "loss_target_given_context": 2.3279500007629395,
+      "delta_loss": 0.12093257904052734,
+      "gain_ratio": 0.04938275931965374,
+      "score": -0.04938275931965374,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1097,
+      "target": "The presence of ethanol in the diet can lead to dyslipidemia.",
+      "score": 0.20882528680315857,
+      "deleted_suffix": "The presence of ethanol in the diet can lead to dyslipidemia.",
+      "deleted_char_count": 61
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

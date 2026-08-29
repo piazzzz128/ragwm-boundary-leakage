@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1843",
+  "source_doc_id": "MED-1843",
+  "title": "Aluminium in over-the-counter drugs: risks outweigh benefits?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Aluminium in over-the-counter drugs: risks outweigh benefits?\nIn the early 1970s, aluminium toxicity was first implicated in the pathogenesis of clinical disorders in patients with chronic renal failure involving bone (renal osteomalacia) or brain tissue (dialysis encephalopathy). Before that time the toxic effects of aluminium ingestion were not considered to be a major concern because absorption seemed unlikely to occur. Meanwhile, aluminium toxicity has been investigated in countless epidemiological and clinical studies as well as in animal experiments and many papers have been published on the subject. It is now commonly acknowledged that aluminium toxicity can be induced by infusion of aluminium-contaminated dialysis fluids, by parenteral nutrition solutions, and by oral exposure as a result of aluminium-containing pharmaceutical products such as aluminium-based phosphate binders or antacid intake. Over-the-counter antacids are the most important source for human aluminium exposure from a quantitative point of view. However, aluminium can act as a powerful neurological toxicant and provoke embryonic and fetal toxic effects in animals and humans after gestational exposure. Despite these facts, the patient information leaflets from European antacids that are available OTC show substantial differences regarding warnings from aluminium toxicity. It seems advisable that all patients should receive the same information on aluminium toxicity from patient information leaflets, in particular with regard to the increased absorption through concomitant administration with citrate-containing beverages and the use of such antacids during pregnancy.",
+  "sanitized_text": "Aluminium in over-the-counter drugs: risks outweigh benefits?\nIn the early 1970s, aluminium toxicity was first implicated in the pathogenesis of clinical disorders in patients with chronic renal failure involving bone (renal osteomalacia) or brain tissue (dialysis encephalopathy). Before that time the toxic effects of aluminium ingestion were not considered to be a major concern because absorption seemed unlikely to occur. Meanwhile, aluminium toxicity has been investigated in countless epidemiological and clinical studies as well as in animal experiments and many papers have been published on the subject. It is now commonly acknowledged that aluminium toxicity can be induced by infusion of aluminium-contaminated dialysis fluids, by parenteral nutrition solutions, and by oral exposure as a result of aluminium-containing pharmaceutical products such as aluminium-based phosphate binders or antacid intake. Over-the-counter antacids are the most important source for human aluminium exposure from a quantitative point of view. However, aluminium can act as a powerful neurological toxicant and provoke embryonic and fetal toxic effects in animals and humans after gestational exposure. Despite these facts, the patient information leaflets from European antacids that are available OTC show substantial differences regarding warnings from aluminium toxicity. It seems advisable that all patients should receive the same information on aluminium toxicity from patient information leaflets, in particular with regard to the increased absorption through concomitant administration with citrate-containing beverages and the use of such antacids during pregnancy.",
+  "modified": false,
+  "original_char_count": 1668,
+  "sanitized_char_count": 1668,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1369,
+      "boundary_end": 1668,
+      "context": "with chronic renal failure involving bone (renal osteomalacia) or brain tissue (dialysis encephalopathy). Before that time the toxic effects of aluminium ingestion were not considered to be a major concern because absorption seemed unlikely to occur. Meanwhile, aluminium toxicity has been investigated in countless epidemiological and clinical studies as well as in animal experiments and many papers have been published on the subject. It is now commonly acknowledged that aluminium toxicity can be induced by infusion of aluminium-contaminated dialysis fluids, by parenteral nutrition solutions, and by oral exposure as a result of aluminium-containing pharmaceutical products such as aluminium-based phosphate binders or antacid intake. Over-the-counter antacids are the most important source for human aluminium exposure from a quantitative point of view. However, aluminium can act as a powerful neurological toxicant and provoke embryonic and fetal toxic effects in animals and humans after gestational exposure. Despite these facts, the patient information leaflets from European antacids that are available OTC show substantial differences regarding warnings from aluminium toxicity.",
+      "target": "It seems advisable that all patients should receive the same information on aluminium toxicity from patient information leaflets, in particular with regard to the increased absorption through concomitant administration with citrate-containing beverages and the use of such antacids during pregnancy.",
+      "loss_target": 3.036139488220215,
+      "loss_target_given_context": 2.0657594203948975,
+      "delta_loss": 0.9703800678253174,
+      "gain_ratio": 0.31960984387912766,
+      "score": -0.31960984387912766,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2309",
+  "source_doc_id": "MED-2309",
+  "title": "Bridging the gap in life expectancy of the aborigines in Taiwan.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Bridging the gap in life expectancy of the aborigines in Taiwan.\nBACKGROUND: Similar to the general population in Taiwan, the health of aborigines has steadily improved over the last 30 years, but the gap remains wide, especially in males, despite an infusion of substantial medical resources. The objectives of this study are to quantify the contribution of major causes of death to the gap in life expectancy and to propose initiatives to bridge the health gap between aborigines and the general population. METHODS: This study included residents (slightly over 200000) from 30 'aboriginal townships' in Taiwan. The gap in life expectancy between aborigines and the general population was analysed by decomposing these gaps according to major causes of deaths. This analysis quantifies the contribution of different causes of deaths to the gap in life expectancy between the two populations. RESULTS: The overall mortality of aborigines in these townships was approximately 70% higher than the respective male and female general populations over the past 30 years. Mortality from infectious disease, cirrhosis of the liver, accidents, and suicide are substantially higher than the general population. The gap in life expectancy at birth in males was 8.5 years during 1971-1973, increasing to 13.5 years by 1998-2000, however, the gap in females remained relatively stable (8.0 years and 8.4 years, respectively). Of the 13.5-year difference in life expectancy in males, the differential mortality from diseases of the digestive system (mainly due to cirrhosis of the liver), accidents (from both motor vehicle and non-motor vehicle accidents), and infectious and parasitic disease contributed half (50%) of the gap in life expectancy. In females, the above primarily preventable causes of deaths accounted for 41% of the life expectancy gap. CONCLUSIONS: Based on the findings of this study, we suggest that future focus should be in the area of primary prevention in order to reduce the incidence of infectious and parasitic diseases, liver cirrhosis, and accidents.",
+  "sanitized_text": "Bridging the gap in life expectancy of the aborigines in Taiwan.\nBACKGROUND: Similar to the general population in Taiwan, the health of aborigines has steadily improved over the last 30 years, but the gap remains wide, especially in males, despite an infusion of substantial medical resources. The objectives of this study are to quantify the contribution of major causes of death to the gap in life expectancy and to propose initiatives to bridge the health gap between aborigines and the general population. METHODS: This study included residents (slightly over 200000) from 30 'aboriginal townships' in Taiwan. The gap in life expectancy between aborigines and the general population was analysed by decomposing these gaps according to major causes of deaths. This analysis quantifies the contribution of different causes of deaths to the gap in life expectancy between the two populations. RESULTS: The overall mortality of aborigines in these townships was approximately 70% higher than the respective male and female general populations over the past 30 years. Mortality from infectious disease, cirrhosis of the liver, accidents, and suicide are substantially higher than the general population. The gap in life expectancy at birth in males was 8.5 years during 1971-1973, increasing to 13.5 years by 1998-2000, however, the gap in females remained relatively stable (8.0 years and 8.4 years, respectively). Of the 13.5-year difference in life expectancy in males, the differential mortality from diseases of the digestive system (mainly due to cirrhosis of the liver), accidents (from both motor vehicle and non-motor vehicle accidents), and infectious and parasitic disease contributed half (50%) of the gap in life expectancy. In females, the above primarily preventable causes of deaths accounted for 41% of the life expectancy gap. CONCLUSIONS: Based on the findings of this study, we suggest that future focus should be in the area of primary prevention in order to reduce the incidence of infectious and parasitic diseases, liver cirrhosis, and accidents.",
+  "modified": false,
+  "original_char_count": 2069,
+  "sanitized_char_count": 2069,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1844,
+      "boundary_end": 2069,
+      "context": "aborigines and the general population was analysed by decomposing these gaps according to major causes of deaths. This analysis quantifies the contribution of different causes of deaths to the gap in life expectancy between the two populations. RESULTS: The overall mortality of aborigines in these townships was approximately 70% higher than the respective male and female general populations over the past 30 years. Mortality from infectious disease, cirrhosis of the liver, accidents, and suicide are substantially higher than the general population. The gap in life expectancy at birth in males was 8.5 years during 1971-1973, increasing to 13.5 years by 1998-2000, however, the gap in females remained relatively stable (8.0 years and 8.4 years, respectively). Of the 13.5-year difference in life expectancy in males, the differential mortality from diseases of the digestive system (mainly due to cirrhosis of the liver), accidents (from both motor vehicle and non-motor vehicle accidents), and infectious and parasitic disease contributed half (50%) of the gap in life expectancy. In females, the above primarily preventable causes of deaths accounted for 41% of the life expectancy gap.",
+      "target": "CONCLUSIONS: Based on the findings of this study, we suggest that future focus should be in the area of primary prevention in order to reduce the incidence of infectious and parasitic diseases, liver cirrhosis, and accidents.",
+      "loss_target": 2.0623013973236084,
+      "loss_target_given_context": 1.4294908046722412,
+      "delta_loss": 0.6328105926513672,
+      "gain_ratio": 0.30684680399897385,
+      "score": -0.30684680399897385,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

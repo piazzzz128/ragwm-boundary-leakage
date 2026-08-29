@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-890",
+  "source_doc_id": "MED-890",
+  "title": "Diet and cancer of the colon and rectum: a case-control study in China.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet and cancer of the colon and rectum: a case-control study in China.\nA case-control study was carried out in Harbin city to assess the role of diet in the aetiology of colorectal cancer. A total of 336 incident cases of histologically confirmed colorectal cancer (111 colon cancer and 225 rectal cancer) and an equal number of controls with other non-neoplastic diseases were interviewed in hospital wards. Data concerning the average frequency of consumption and amount consumed of single food items were obtained by a dietary history questionnaire. Odds ratios and their confidence limits were computed. Multiple regression for risk status was also used. Vegetables, particularly green vegetables, chives and celery, have a strong protective effect against colorectal cancer. Reduced consumption of meat, eggs, bean products and grain was associated with increasing risk for cancer of the rectum. Alcohol intake was found to be an important risk factor for developing colon cancer and male rectal cancer.",
+  "sanitized_text": "Diet and cancer of the colon and rectum: a case-control study in China.\nA case-control study was carried out in Harbin city to assess the role of diet in the aetiology of colorectal cancer. A total of 336 incident cases of histologically confirmed colorectal cancer (111 colon cancer and 225 rectal cancer) and an equal number of controls with other non-neoplastic diseases were interviewed in hospital wards. Data concerning the average frequency of consumption and amount consumed of single food items were obtained by a dietary history questionnaire. Odds ratios and their confidence limits were computed. Multiple regression for risk status was also used. Vegetables, particularly green vegetables, chives and celery, have a strong protective effect against colorectal cancer. Reduced consumption of meat, eggs, bean products and grain was associated with increasing risk for cancer of the rectum. Alcohol intake was found to be an important risk factor for developing colon cancer and male rectal cancer.",
+  "modified": false,
+  "original_char_count": 1009,
+  "sanitized_char_count": 1009,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 902,
+      "boundary_end": 1009,
+      "context": "Diet and cancer of the colon and rectum: a case-control study in China. A case-control study was carried out in Harbin city to assess the role of diet in the aetiology of colorectal cancer. A total of 336 incident cases of histologically confirmed colorectal cancer (111 colon cancer and 225 rectal cancer) and an equal number of controls with other non-neoplastic diseases were interviewed in hospital wards. Data concerning the average frequency of consumption and amount consumed of single food items were obtained by a dietary history questionnaire. Odds ratios and their confidence limits were computed. Multiple regression for risk status was also used. Vegetables, particularly green vegetables, chives and celery, have a strong protective effect against colorectal cancer. Reduced consumption of meat, eggs, bean products and grain was associated with increasing risk for cancer of the rectum.",
+      "target": "Alcohol intake was found to be an important risk factor for developing colon cancer and male rectal cancer.",
+      "loss_target": 2.766434907913208,
+      "loss_target_given_context": 1.849053144454956,
+      "delta_loss": 0.917381763458252,
+      "gain_ratio": 0.33161154843518664,
+      "score": -0.33161154843518664,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

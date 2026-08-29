@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4071",
+  "source_doc_id": "MED-4071",
+  "title": "Detection of PhIP (2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine) in the milk of healthy women.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Detection of PhIP (2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine) in the milk of healthy women.\nAn increased risk of breast cancer has been observed in women who consume \"very well-done\" meats. Heterocyclic amines are mutagenic and carcinogenic pyrolysis products formed during high temperature cooking of meats. In the present study, human milk samples were analyzed for PhIP, one of the most abundant dietary heterocyclic amine. A protocol was developed with a mixed-mode cation exchange sorbent for the extraction of heterocyclic amines from milk. Milk samples were acquired from healthy Canadian women. With LC/MS analysis and the method of isotope dilution for quantification, levels of PhIP were determined in human milk samples. PhIP was detected in 9 of the 11 milk samples, at levels as high as 59 pg/mL (ppt). No PhIP was detected in the milk of the vegetarian donor. Detection of PhIP in milk indicates that ductal mammary epithelial cells are directly exposed to this carcinogen, suggesting that heterocyclic amines are possible human mammary carcinogens.",
+  "sanitized_text": "Detection of PhIP (2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine) in the milk of healthy women.\nAn increased risk of breast cancer has been observed in women who consume \"very well-done\" meats. Heterocyclic amines are mutagenic and carcinogenic pyrolysis products formed during high temperature cooking of meats. In the present study, human milk samples were analyzed for PhIP, one of the most abundant dietary heterocyclic amine. A protocol was developed with a mixed-mode cation exchange sorbent for the extraction of heterocyclic amines from milk. Milk samples were acquired from healthy Canadian women. With LC/MS analysis and the method of isotope dilution for quantification, levels of PhIP were determined in human milk samples. PhIP was detected in 9 of the 11 milk samples, at levels as high as 59 pg/mL (ppt). No PhIP was detected in the milk of the vegetarian donor. Detection of PhIP in milk indicates that ductal mammary epithelial cells are directly exposed to this carcinogen, suggesting that heterocyclic amines are possible human mammary carcinogens.",
+  "modified": false,
+  "original_char_count": 1069,
+  "sanitized_char_count": 1069,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 880,
+      "boundary_end": 1069,
+      "context": "Detection of PhIP (2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine) in the milk of healthy women. An increased risk of breast cancer has been observed in women who consume \"very well-done\" meats. Heterocyclic amines are mutagenic and carcinogenic pyrolysis products formed during high temperature cooking of meats. In the present study, human milk samples were analyzed for PhIP, one of the most abundant dietary heterocyclic amine. A protocol was developed with a mixed-mode cation exchange sorbent for the extraction of heterocyclic amines from milk. Milk samples were acquired from healthy Canadian women. With LC/MS analysis and the method of isotope dilution for quantification, levels of PhIP were determined in human milk samples. PhIP was detected in 9 of the 11 milk samples, at levels as high as 59 pg/mL (ppt). No PhIP was detected in the milk of the vegetarian donor.",
+      "target": "Detection of PhIP in milk indicates that ductal mammary epithelial cells are directly exposed to this carcinogen, suggesting that heterocyclic amines are possible human mammary carcinogens.",
+      "loss_target": 2.324645757675171,
+      "loss_target_given_context": 1.355678677558899,
+      "delta_loss": 0.968967080116272,
+      "gain_ratio": 0.4168235426481992,
+      "score": -0.4168235426481992,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

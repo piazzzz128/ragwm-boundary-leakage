@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4315",
+  "source_doc_id": "MED-4315",
+  "title": "Differences in metal content of the heart muscle in death from ischemic heart disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Differences in metal content of the heart muscle in death from ischemic heart disease.\nIn a group of patients dying suddenly from ischemic heart disease, the uninfarcted heart muscle contained significantly lower concentrations of magnesium, iron, and potassium and a significantly higher concentration of calcium than the heart muscle from a group of normal controls and a group of patients dying more than three months after a coronary thrombosis. The late death group had significantly lower concentrations of manganese and copper than the normal group, and a slight decrease in magnesium concentration which was probably significant. There was no significant difference in the sodium concentration between the three groups. The results are discussed in relation to the increased death rate from ischemic heart disease in areas with soft drinking water, and possible dietary deficiencies in mineral salts.",
+  "sanitized_text": "Differences in metal content of the heart muscle in death from ischemic heart disease.\nIn a group of patients dying suddenly from ischemic heart disease, the uninfarcted heart muscle contained significantly lower concentrations of magnesium, iron, and potassium and a significantly higher concentration of calcium than the heart muscle from a group of normal controls and a group of patients dying more than three months after a coronary thrombosis. The late death group had significantly lower concentrations of manganese and copper than the normal group, and a slight decrease in magnesium concentration which was probably significant. There was no significant difference in the sodium concentration between the three groups. The results are discussed in relation to the increased death rate from ischemic heart disease in areas with soft drinking water, and possible dietary deficiencies in mineral salts.",
+  "modified": false,
+  "original_char_count": 908,
+  "sanitized_char_count": 908,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 728,
+      "boundary_end": 908,
+      "context": "Differences in metal content of the heart muscle in death from ischemic heart disease. In a group of patients dying suddenly from ischemic heart disease, the uninfarcted heart muscle contained significantly lower concentrations of magnesium, iron, and potassium and a significantly higher concentration of calcium than the heart muscle from a group of normal controls and a group of patients dying more than three months after a coronary thrombosis. The late death group had significantly lower concentrations of manganese and copper than the normal group, and a slight decrease in magnesium concentration which was probably significant. There was no significant difference in the sodium concentration between the three groups.",
+      "target": "The results are discussed in relation to the increased death rate from ischemic heart disease in areas with soft drinking water, and possible dietary deficiencies in mineral salts.",
+      "loss_target": 8.256175994873047,
+      "loss_target_given_context": 4.688813209533691,
+      "delta_loss": 3.5673627853393555,
+      "gain_ratio": 0.4320841497994508,
+      "score": -0.4320841497994508,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

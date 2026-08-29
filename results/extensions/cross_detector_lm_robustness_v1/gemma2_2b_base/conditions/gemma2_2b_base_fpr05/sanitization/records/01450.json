@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2848",
+  "source_doc_id": "MED-2848",
+  "title": "The aetiology of type 1 diabetes: an epidemiological perspective.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The aetiology of type 1 diabetes: an epidemiological perspective.\nType 1 diabetes is increasing rapidly in many parts of the Western world, most evidently in Scandinavia. A low concordance rate of insulin-dependent diabetes mellitus among monozygotic twins clearly indicates that genetic risk factors may be necessary, but are not sufficient for the disease to occur. The strongest genetic risk markers are located in the HLA region of chromosome 6, but these DNA specificities differ in different populations. Risk genes are indicated in other chromosomes of the human genome, suggesting a complex interaction between genes and environment as the cause of the disease. The pathogenesis of the disease is proposed to be autoimmune in nature and environmental risk factors may either initiate autoimmunity or accelerate an already ongoing beta-cell destruction. Risk factors disclosed by epidemiological studies that may accelerate the pathogenetic process are: a cold environment, a high growth rate, infections and stressful life events. Risk factors that may initiate the autoimmune process include early exposure to cow's milk proteins, nitrosamines or early foetal events such as blood group incompatibility or foetal viral infections. In conclusion, population-based epidemiological studies have helped to confirm proposed aetiological models that have arisen from experimental research. These epidemiological studies have also introduced important new findings that may reveal the complex aetiology of the disease and advance understanding closer to the ultimate goal of primary prevention.",
+  "sanitized_text": "The aetiology of type 1 diabetes: an epidemiological perspective.\nType 1 diabetes is increasing rapidly in many parts of the Western world, most evidently in Scandinavia. A low concordance rate of insulin-dependent diabetes mellitus among monozygotic twins clearly indicates that genetic risk factors may be necessary, but are not sufficient for the disease to occur. The strongest genetic risk markers are located in the HLA region of chromosome 6, but these DNA specificities differ in different populations. Risk genes are indicated in other chromosomes of the human genome, suggesting a complex interaction between genes and environment as the cause of the disease. The pathogenesis of the disease is proposed to be autoimmune in nature and environmental risk factors may either initiate autoimmunity or accelerate an already ongoing beta-cell destruction. Risk factors disclosed by epidemiological studies that may accelerate the pathogenetic process are: a cold environment, a high growth rate, infections and stressful life events. Risk factors that may initiate the autoimmune process include early exposure to cow's milk proteins, nitrosamines or early foetal events such as blood group incompatibility or foetal viral infections. In conclusion, population-based epidemiological studies have helped to confirm proposed aetiological models that have arisen from experimental research. These epidemiological studies have also introduced important new findings that may reveal the complex aetiology of the disease and advance understanding closer to the ultimate goal of primary prevention.",
+  "modified": false,
+  "original_char_count": 1596,
+  "sanitized_char_count": 1596,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1393,
+      "boundary_end": 1596,
+      "context": "of insulin-dependent diabetes mellitus among monozygotic twins clearly indicates that genetic risk factors may be necessary, but are not sufficient for the disease to occur. The strongest genetic risk markers are located in the HLA region of chromosome 6, but these DNA specificities differ in different populations. Risk genes are indicated in other chromosomes of the human genome, suggesting a complex interaction between genes and environment as the cause of the disease. The pathogenesis of the disease is proposed to be autoimmune in nature and environmental risk factors may either initiate autoimmunity or accelerate an already ongoing beta-cell destruction. Risk factors disclosed by epidemiological studies that may accelerate the pathogenetic process are: a cold environment, a high growth rate, infections and stressful life events. Risk factors that may initiate the autoimmune process include early exposure to cow's milk proteins, nitrosamines or early foetal events such as blood group incompatibility or foetal viral infections. In conclusion, population-based epidemiological studies have helped to confirm proposed aetiological models that have arisen from experimental research.",
+      "target": "These epidemiological studies have also introduced important new findings that may reveal the complex aetiology of the disease and advance understanding closer to the ultimate goal of primary prevention.",
+      "loss_target": 7.554604530334473,
+      "loss_target_given_context": 3.546252489089966,
+      "delta_loss": 4.008352041244507,
+      "gain_ratio": 0.5305839670560546,
+      "score": -0.5305839670560546,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

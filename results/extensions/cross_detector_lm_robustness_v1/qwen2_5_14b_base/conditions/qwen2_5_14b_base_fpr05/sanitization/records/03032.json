@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4961",
+  "source_doc_id": "MED-4961",
+  "title": "Haff disease after eating salmon.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Haff disease after eating salmon.\nWhile fish consumption is considered a component of a heart-healthy diet, many illnesses have been associated with eating contaminated fish. The authors describe two cases of muscle weakness and rhabdomyolysis that occurred after eating salmon. Cases of rhabdomyolysis and muscle weakness after consumption of fresh water fish have rarely been reported in the United States but have been frequently reported from the Baltic region. This illness is known as Haff disease. While the etiology is unknown, it is felt to be a toxin. Palytoxin, found in marine fish, has been associated with rhabdomyolysis, and may serve as a model for further study of the suspected toxin responsible for rhabdomyolysis after consumption of fresh water fish. If a case of Haff disease is suspected, contact the Centers for Disease Control and Prevention and collect any uneaten fish, which may be sent for laboratory analysis.",
+  "sanitized_text": "Haff disease after eating salmon.\nWhile fish consumption is considered a component of a heart-healthy diet, many illnesses have been associated with eating contaminated fish. The authors describe two cases of muscle weakness and rhabdomyolysis that occurred after eating salmon. Cases of rhabdomyolysis and muscle weakness after consumption of fresh water fish have rarely been reported in the United States but have been frequently reported from the Baltic region. This illness is known as Haff disease. While the etiology is unknown, it is felt to be a toxin. Palytoxin, found in marine fish, has been associated with rhabdomyolysis, and may serve as a model for further study of the suspected toxin responsible for rhabdomyolysis after consumption of fresh water fish. If a case of Haff disease is suspected, contact the Centers for Disease Control and Prevention and collect any uneaten fish, which may be sent for laboratory analysis.",
+  "modified": false,
+  "original_char_count": 939,
+  "sanitized_char_count": 939,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 772,
+      "boundary_end": 939,
+      "context": "Haff disease after eating salmon. While fish consumption is considered a component of a heart-healthy diet, many illnesses have been associated with eating contaminated fish. The authors describe two cases of muscle weakness and rhabdomyolysis that occurred after eating salmon. Cases of rhabdomyolysis and muscle weakness after consumption of fresh water fish have rarely been reported in the United States but have been frequently reported from the Baltic region. This illness is known as Haff disease. While the etiology is unknown, it is felt to be a toxin. Palytoxin, found in marine fish, has been associated with rhabdomyolysis, and may serve as a model for further study of the suspected toxin responsible for rhabdomyolysis after consumption of fresh water fish.",
+      "target": "If a case of Haff disease is suspected, contact the Centers for Disease Control and Prevention and collect any uneaten fish, which may be sent for laboratory analysis.",
+      "loss_target": 2.660008668899536,
+      "loss_target_given_context": 1.6847854852676392,
+      "delta_loss": 0.975223183631897,
+      "gain_ratio": 0.366624062182231,
+      "score": -0.366624062182231,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

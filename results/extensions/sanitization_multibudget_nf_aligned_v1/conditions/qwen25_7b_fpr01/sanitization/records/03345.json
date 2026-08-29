@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5291",
+  "source_doc_id": "MED-5291",
+  "title": "Dietary Salt Intake and Hypertension",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary Salt Intake and Hypertension\nOver the past century, salt has been the subject of intense scientific research related to blood pressure elevation and cardiovascular mortalities. Moderate reduction of dietary salt intake is generally an effective measure to reduce blood pressure. However, recently some in the academic society and lay media dispute the benefits of salt restriction, pointing to inconsistent outcomes noted in some observational studies. A reduction in dietary salt from the current intake of 9-12 g/day to the recommended level of less than 5-6 g/day will have major beneficial effects on cardiovascular health along with major healthcare cost savings around the world. The World Health Organization (WHO) strongly recommended to reduce dietary salt intake as one of the top priority actions to tackle the global non-communicable disease crisis and has urged member nations to take action to reduce population wide dietary salt intake to decrease the number of deaths from hypertension, cardiovascular disease and stroke. However, some scientists still advocate the possibility of increased risk of CVD morbidity and mortality at extremes of low salt intake. Future research may inform the optimal sodium reduction strategies and intake targets for general populations. Until then, we have to continue to build consensus around the greatest benefits of salt reduction for CVD prevention, and dietary salt intake reduction strategies must remain at the top of the public health agenda.",
+  "sanitized_text": "Dietary Salt Intake and Hypertension\nOver the past century, salt has been the subject of intense scientific research related to blood pressure elevation and cardiovascular mortalities. Moderate reduction of dietary salt intake is generally an effective measure to reduce blood pressure. However, recently some in the academic society and lay media dispute the benefits of salt restriction, pointing to inconsistent outcomes noted in some observational studies. A reduction in dietary salt from the current intake of 9-12 g/day to the recommended level of less than 5-6 g/day will have major beneficial effects on cardiovascular health along with major healthcare cost savings around the world. The World Health Organization (WHO) strongly recommended to reduce dietary salt intake as one of the top priority actions to tackle the global non-communicable disease crisis and has urged member nations to take action to reduce population wide dietary salt intake to decrease the number of deaths from hypertension, cardiovascular disease and stroke. However, some scientists still advocate the possibility of increased risk of CVD morbidity and mortality at extremes of low salt intake. Future research may inform the optimal sodium reduction strategies and intake targets for general populations. Until then, we have to continue to build consensus around the greatest benefits of salt reduction for CVD prevention, and dietary salt intake reduction strategies must remain at the top of the public health agenda.",
+  "modified": false,
+  "original_char_count": 1508,
+  "sanitized_char_count": 1508,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1294,
+      "boundary_end": 1508,
+      "context": "scientific research related to blood pressure elevation and cardiovascular mortalities. Moderate reduction of dietary salt intake is generally an effective measure to reduce blood pressure. However, recently some in the academic society and lay media dispute the benefits of salt restriction, pointing to inconsistent outcomes noted in some observational studies. A reduction in dietary salt from the current intake of 9-12 g/day to the recommended level of less than 5-6 g/day will have major beneficial effects on cardiovascular health along with major healthcare cost savings around the world. The World Health Organization (WHO) strongly recommended to reduce dietary salt intake as one of the top priority actions to tackle the global non-communicable disease crisis and has urged member nations to take action to reduce population wide dietary salt intake to decrease the number of deaths from hypertension, cardiovascular disease and stroke. However, some scientists still advocate the possibility of increased risk of CVD morbidity and mortality at extremes of low salt intake. Future research may inform the optimal sodium reduction strategies and intake targets for general populations.",
+      "target": "Until then, we have to continue to build consensus around the greatest benefits of salt reduction for CVD prevention, and dietary salt intake reduction strategies must remain at the top of the public health agenda.",
+      "loss_target": 2.9032342433929443,
+      "loss_target_given_context": 2.0673434734344482,
+      "delta_loss": 0.8358907699584961,
+      "gain_ratio": 0.2879170951709392,
+      "score": -0.2879170951709392,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

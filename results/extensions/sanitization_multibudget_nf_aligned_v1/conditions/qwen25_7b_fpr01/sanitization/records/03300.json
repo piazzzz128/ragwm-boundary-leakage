@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5245",
+  "source_doc_id": "MED-5245",
+  "title": "Effect of decaffeination of coffee or tea on gastro-oesophageal reflux.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of decaffeination of coffee or tea on gastro-oesophageal reflux.\nBACKGROUND: Coffee and tea are believed to cause gastro-oesophageal reflux; however, the effects of these beverages and of their major component, caffeine, have not been quantified. The aim of this study was to evaluate gastro-oesophageal reflux induced by coffee and tea before and after a decaffeination process, and to compare it with water and water-containing caffeine. METHODS: Three-hour ambulatory pH-metry was performed on 16 healthy volunteers, who received 300 ml of (i) regular coffee, decaffeinated coffee or tap water (n = 16), (ii) normal tea, decaffeinated tea, tap water, or coffee adapted to normal tea in caffeine concentration (n = 6), and (iii) caffeine-free and caffeine-containing water (n = 8) together with a standardized breakfast. RESULTS: Regular coffee induced a significant (P < 0.05) gastro-oesophageal reflux compared with tap water and normal tea, which were not different from each other. Decaffeination of coffee significantly (P < 0.05) diminished gastro-oesophageal reflux, whereas decaffeination of tea or addition of caffeine to water had no effect. Coffee adapted to normal tea in caffeine concentration significantly (P < 0.05) increased gastro-oesophageal reflux. CONCLUSIONS: Coffee, in contrast to tea, increases gastro-oesophageal reflux, an effect that is less pronounced after decaffeination. Caffeine does not seem to be responsible for gastro-oesophageal reflux which must be attributed to other components of coffee.",
+  "sanitized_text": "Effect of decaffeination of coffee or tea on gastro-oesophageal reflux.\nBACKGROUND: Coffee and tea are believed to cause gastro-oesophageal reflux; however, the effects of these beverages and of their major component, caffeine, have not been quantified. The aim of this study was to evaluate gastro-oesophageal reflux induced by coffee and tea before and after a decaffeination process, and to compare it with water and water-containing caffeine. METHODS: Three-hour ambulatory pH-metry was performed on 16 healthy volunteers, who received 300 ml of (i) regular coffee, decaffeinated coffee or tap water (n = 16), (ii) normal tea, decaffeinated tea, tap water, or coffee adapted to normal tea in caffeine concentration (n = 6), and (iii) caffeine-free and caffeine-containing water (n = 8) together with a standardized breakfast. RESULTS: Regular coffee induced a significant (P < 0.05) gastro-oesophageal reflux compared with tap water and normal tea, which were not different from each other. Decaffeination of coffee significantly (P < 0.05) diminished gastro-oesophageal reflux, whereas decaffeination of tea or addition of caffeine to water had no effect. Coffee adapted to normal tea in caffeine concentration significantly (P < 0.05) increased gastro-oesophageal reflux. CONCLUSIONS: Coffee, in contrast to tea, increases gastro-oesophageal reflux, an effect that is less pronounced after decaffeination. Caffeine does not seem to be responsible for gastro-oesophageal reflux which must be attributed to other components of coffee.",
+  "modified": false,
+  "original_char_count": 1538,
+  "sanitized_char_count": 1538,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1412,
+      "boundary_end": 1538,
+      "context": "caffeine, have not been quantified. The aim of this study was to evaluate gastro-oesophageal reflux induced by coffee and tea before and after a decaffeination process, and to compare it with water and water-containing caffeine. METHODS: Three-hour ambulatory pH-metry was performed on 16 healthy volunteers, who received 300 ml of (i) regular coffee, decaffeinated coffee or tap water (n = 16), (ii) normal tea, decaffeinated tea, tap water, or coffee adapted to normal tea in caffeine concentration (n = 6), and (iii) caffeine-free and caffeine-containing water (n = 8) together with a standardized breakfast. RESULTS: Regular coffee induced a significant (P < 0.05) gastro-oesophageal reflux compared with tap water and normal tea, which were not different from each other. Decaffeination of coffee significantly (P < 0.05) diminished gastro-oesophageal reflux, whereas decaffeination of tea or addition of caffeine to water had no effect. Coffee adapted to normal tea in caffeine concentration significantly (P < 0.05) increased gastro-oesophageal reflux. CONCLUSIONS: Coffee, in contrast to tea, increases gastro-oesophageal reflux, an effect that is less pronounced after decaffeination.",
+      "target": "Caffeine does not seem to be responsible for gastro-oesophageal reflux which must be attributed to other components of coffee.",
+      "loss_target": 2.7611782550811768,
+      "loss_target_given_context": 1.2207351922988892,
+      "delta_loss": 1.5404430627822876,
+      "gain_ratio": 0.5578933775635574,
+      "score": -0.5578933775635574,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4724",
+  "source_doc_id": "MED-4724",
+  "title": "[Consequences of exclusive breast-feeding in vegan mother newborn--case report].",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "[Consequences of exclusive breast-feeding in vegan mother newborn--case report].\nWe report on the case of an infant who was hospitalized because of failure to thrive, megaloblastic anemia, and delayed psychomotor development. He was 10 months old and had been exclusively breast-fed by his vegan mother. Investigations showed vitamin B(12) deficiency with hematocytopenia and pervasive developmental disorders as well as vitamin K and vitamin D deficiencies. The infant's mother presented the same deficiencies. Introduction of vitamin supplementation normalized the biological disorders, and the infant showed weight gain and neurological improvement. This case highlights that a vegan diet during pregnancy followed by exclusive breast-feeding can induce nutritional deficiencies in the newborn, with clinical consequences. Detecting mother and child vitamin deficiencies and preventing them is essential.",
+  "sanitized_text": "[Consequences of exclusive breast-feeding in vegan mother newborn--case report].\nWe report on the case of an infant who was hospitalized because of failure to thrive, megaloblastic anemia, and delayed psychomotor development. He was 10 months old and had been exclusively breast-fed by his vegan mother. Investigations showed vitamin B(12) deficiency with hematocytopenia and pervasive developmental disorders as well as vitamin K and vitamin D deficiencies. The infant's mother presented the same deficiencies. Introduction of vitamin supplementation normalized the biological disorders, and the infant showed weight gain and neurological improvement. This case highlights that a vegan diet during pregnancy followed by exclusive breast-feeding can induce nutritional deficiencies in the newborn, with clinical consequences. Detecting mother and child vitamin deficiencies and preventing them is essential.",
+  "modified": false,
+  "original_char_count": 907,
+  "sanitized_char_count": 907,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 826,
+      "boundary_end": 907,
+      "context": "[Consequences of exclusive breast-feeding in vegan mother newborn--case report]. We report on the case of an infant who was hospitalized because of failure to thrive, megaloblastic anemia, and delayed psychomotor development. He was 10 months old and had been exclusively breast-fed by his vegan mother. Investigations showed vitamin B(12) deficiency with hematocytopenia and pervasive developmental disorders as well as vitamin K and vitamin D deficiencies. The infant's mother presented the same deficiencies. Introduction of vitamin supplementation normalized the biological disorders, and the infant showed weight gain and neurological improvement. This case highlights that a vegan diet during pregnancy followed by exclusive breast-feeding can induce nutritional deficiencies in the newborn, with clinical consequences.",
+      "target": "Detecting mother and child vitamin deficiencies and preventing them is essential.",
+      "loss_target": 3.9583098888397217,
+      "loss_target_given_context": 2.1504623889923096,
+      "delta_loss": 1.807847499847412,
+      "gain_ratio": 0.4567220734648789,
+      "score": -0.4567220734648789,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4974",
+  "source_doc_id": "MED-4974",
+  "title": "Polycyclic aromatic hydrocarbons (PAHs) in coffee brew samples: analytical method by GC-MS, profile, levels and sources.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Polycyclic aromatic hydrocarbons (PAHs) in coffee brew samples: analytical method by GC-MS, profile, levels and sources.\nRoasting is a crucial step for the production of coffee, as it enables the development of color, aroma, and flavor, which are essential for the characterization of the coffee quality. At the same time, roasting may lead to the formation of not desirable compounds, such as polycyclic aromatic hydrocarbons (PAHs). In this paper, we report a method for PAHs determination in coffee brew, based on saponification and liquid-liquid extraction with small volumes of hexane, with exclusion of further processes of purification since we analyze the extract by gas chromatography with mass spectrometric detectors in the single ion monitoring mode (SIM). The total concentration of the 28 compounds investigated, expressed as the sum of concentrations (SigmaPAH), in coffee brew varies from 0.52 to 1.8 microg/l. Carcinogenic PAHs, expressed as B[a]Peq ranged from 0.008 to 0.060 microg/l. The results indicate that coffee contributes with very insignificant quantities to the daily human intake of carcinogenic PAHs. The values of calculated isomeric ratios confirm that the PAHs identified in most of the coffee samples originate from high temperature processes.",
+  "sanitized_text": "Polycyclic aromatic hydrocarbons (PAHs) in coffee brew samples: analytical method by GC-MS, profile, levels and sources.\nRoasting is a crucial step for the production of coffee, as it enables the development of color, aroma, and flavor, which are essential for the characterization of the coffee quality. At the same time, roasting may lead to the formation of not desirable compounds, such as polycyclic aromatic hydrocarbons (PAHs). In this paper, we report a method for PAHs determination in coffee brew, based on saponification and liquid-liquid extraction with small volumes of hexane, with exclusion of further processes of purification since we analyze the extract by gas chromatography with mass spectrometric detectors in the single ion monitoring mode (SIM). The total concentration of the 28 compounds investigated, expressed as the sum of concentrations (SigmaPAH), in coffee brew varies from 0.52 to 1.8 microg/l. Carcinogenic PAHs, expressed as B[a]Peq ranged from 0.008 to 0.060 microg/l. The results indicate that coffee contributes with very insignificant quantities to the daily human intake of carcinogenic PAHs. The values of calculated isomeric ratios confirm that the PAHs identified in most of the coffee samples originate from high temperature processes.",
+  "modified": false,
+  "original_char_count": 1278,
+  "sanitized_char_count": 1278,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1132,
+      "boundary_end": 1278,
+      "context": "Polycyclic aromatic hydrocarbons (PAHs) in coffee brew samples: analytical method by GC-MS, profile, levels and sources. Roasting is a crucial step for the production of coffee, as it enables the development of color, aroma, and flavor, which are essential for the characterization of the coffee quality. At the same time, roasting may lead to the formation of not desirable compounds, such as polycyclic aromatic hydrocarbons (PAHs). In this paper, we report a method for PAHs determination in coffee brew, based on saponification and liquid-liquid extraction with small volumes of hexane, with exclusion of further processes of purification since we analyze the extract by gas chromatography with mass spectrometric detectors in the single ion monitoring mode (SIM). The total concentration of the 28 compounds investigated, expressed as the sum of concentrations (SigmaPAH), in coffee brew varies from 0.52 to 1.8 microg/l. Carcinogenic PAHs, expressed as B[a]Peq ranged from 0.008 to 0.060 microg/l. The results indicate that coffee contributes with very insignificant quantities to the daily human intake of carcinogenic PAHs.",
+      "target": "The values of calculated isomeric ratios confirm that the PAHs identified in most of the coffee samples originate from high temperature processes.",
+      "loss_target": 3.8355178833007812,
+      "loss_target_given_context": 2.5009663105010986,
+      "delta_loss": 1.3345515727996826,
+      "gain_ratio": 0.34794560041294614,
+      "score": -0.34794560041294614,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-960",
+  "source_doc_id": "MED-960",
+  "title": "Diagnostic performance of serum cobalamin tests: a systematic review and meta-analysis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diagnostic performance of serum cobalamin tests: a systematic review and meta-analysis.\nAIMS: Serum cobalamin (cbl, vitamin B(12)) tests are routinely ordered for investigating conditions potentially amenable to cbl supplementation. This study aimed to systematically assess the evidence of diagnostic accuracy for serum cbl tests across patient subgroups. METHODS: Seven medical databases were searched (1990 to November 2009). Studies were included that compared serum cbl to a reference standard (all reference standards employed). Study quality was assessed using QUADAS. Summary estimates of test performance were determined using the bivariate model and hierarchical summary receiver operating characteristic curves (HSROC). RESULTS: Of 2878 identified studies, 54 were included. Studies rated poorly against QUADAS criteria. Positive (PLR) and negative likelihood ratios (NLR) were 2.72 [95% confidence interval (CI) 1.95, 3.81] and 0.59 (0.49, 0.72), respectively (studies employing methylmalonic acid as the referent). In studies employing a clinical reference standard, PLR was 3.33 (0.92, 12.10) and NLR 0.34 (0.13, 0.89). Test performance did not vary by clinical indication, test method or age. CONCLUSION: This review was limited by the quality of the evidence base and lack of a gold standard. From the available evidence, diagnosis of conditions amenable to cbl supplementation on the basis of serum cbl level alone cannot be considered a reliable approach to investigating suspected vitamin deficiency.",
+  "sanitized_text": "Diagnostic performance of serum cobalamin tests: a systematic review and meta-analysis.\nAIMS: Serum cobalamin (cbl, vitamin B(12)) tests are routinely ordered for investigating conditions potentially amenable to cbl supplementation. This study aimed to systematically assess the evidence of diagnostic accuracy for serum cbl tests across patient subgroups. METHODS: Seven medical databases were searched (1990 to November 2009). Studies were included that compared serum cbl to a reference standard (all reference standards employed). Study quality was assessed using QUADAS. Summary estimates of test performance were determined using the bivariate model and hierarchical summary receiver operating characteristic curves (HSROC). RESULTS: Of 2878 identified studies, 54 were included. Studies rated poorly against QUADAS criteria. Positive (PLR) and negative likelihood ratios (NLR) were 2.72 [95% confidence interval (CI) 1.95, 3.81] and 0.59 (0.49, 0.72), respectively (studies employing methylmalonic acid as the referent). In studies employing a clinical reference standard, PLR was 3.33 (0.92, 12.10) and NLR 0.34 (0.13, 0.89). Test performance did not vary by clinical indication, test method or age. CONCLUSION: This review was limited by the quality of the evidence base and lack of a gold standard. From the available evidence, diagnosis of conditions amenable to cbl supplementation on the basis of serum cbl level alone cannot be considered a reliable approach to investigating suspected vitamin deficiency.",
+  "modified": false,
+  "original_char_count": 1519,
+  "sanitized_char_count": 1519,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1309,
+      "boundary_end": 1519,
+      "context": "(cbl, vitamin B(12)) tests are routinely ordered for investigating conditions potentially amenable to cbl supplementation. This study aimed to systematically assess the evidence of diagnostic accuracy for serum cbl tests across patient subgroups. METHODS: Seven medical databases were searched (1990 to November 2009). Studies were included that compared serum cbl to a reference standard (all reference standards employed). Study quality was assessed using QUADAS. Summary estimates of test performance were determined using the bivariate model and hierarchical summary receiver operating characteristic curves (HSROC). RESULTS: Of 2878 identified studies, 54 were included. Studies rated poorly against QUADAS criteria. Positive (PLR) and negative likelihood ratios (NLR) were 2.72 [95% confidence interval (CI) 1.95, 3.81] and 0.59 (0.49, 0.72), respectively (studies employing methylmalonic acid as the referent). In studies employing a clinical reference standard, PLR was 3.33 (0.92, 12.10) and NLR 0.34 (0.13, 0.89). Test performance did not vary by clinical indication, test method or age. CONCLUSION: This review was limited by the quality of the evidence base and lack of a gold standard.",
+      "target": "From the available evidence, diagnosis of conditions amenable to cbl supplementation on the basis of serum cbl level alone cannot be considered a reliable approach to investigating suspected vitamin deficiency.",
+      "loss_target": 3.330169439315796,
+      "loss_target_given_context": 1.6575795412063599,
+      "delta_loss": 1.672589898109436,
+      "gain_ratio": 0.5022536926688872,
+      "score": -0.5022536926688872,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

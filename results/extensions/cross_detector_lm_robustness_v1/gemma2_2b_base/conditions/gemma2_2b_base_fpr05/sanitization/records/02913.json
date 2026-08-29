@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4833",
+  "source_doc_id": "MED-4833",
+  "title": "The effect of strawberries in a cholesterol-lowering dietary portfolio.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The effect of strawberries in a cholesterol-lowering dietary portfolio.\nEffective diets reduce blood lipids and oxidative damage, both of which have been linked to the complications of diabetes and coronary heart disease. Our objective was to assess the effect of adding strawberries, as a source of antioxidants, to improve the antioxidant effect of a cholesterol-lowering diet (dietary portfolio). To this end, 28 hyperlipidemic subjects who had followed the dietary portfolio consisting of soy, viscous fiber, plant sterol, and nuts for a mean of 2.5 years were randomized to receive supplements of strawberries (454 g/d, 112 kcal) or additional oat bran bread (65 g/d, 112 kcal, approximately 2 g beta-glucan) (control) in a randomized 1-month crossover study with a 2-week washout. Strawberry supplementation resulted in a greater reduction in oxidative damage to low-density lipoprotein (LDL) measured as thiobarbituric acid-reactive substances in the LDL fraction (P = .014). At the end of the strawberry period, reductions in LDL cholesterol and in the ratio of total to high-density lipoprotein cholesterol were maintained close to 1-year values at -13.4% +/- 2.1% and -15.2% +/- 1.7%, respectively (P < .001), and were similar to the post-oat bran bread values. Strawberries also improved the palatability of the diet. We conclude that strawberry supplementation reduced oxidative damage to LDL while maintaining reductions in blood lipids and enhancing diet palatability. Added fruit may improve the overall utility of diets designed to lower coronary heart disease risk.",
+  "sanitized_text": "The effect of strawberries in a cholesterol-lowering dietary portfolio.\nEffective diets reduce blood lipids and oxidative damage, both of which have been linked to the complications of diabetes and coronary heart disease. Our objective was to assess the effect of adding strawberries, as a source of antioxidants, to improve the antioxidant effect of a cholesterol-lowering diet (dietary portfolio). To this end, 28 hyperlipidemic subjects who had followed the dietary portfolio consisting of soy, viscous fiber, plant sterol, and nuts for a mean of 2.5 years were randomized to receive supplements of strawberries (454 g/d, 112 kcal) or additional oat bran bread (65 g/d, 112 kcal, approximately 2 g beta-glucan) (control) in a randomized 1-month crossover study with a 2-week washout. Strawberry supplementation resulted in a greater reduction in oxidative damage to low-density lipoprotein (LDL) measured as thiobarbituric acid-reactive substances in the LDL fraction (P = .014). At the end of the strawberry period, reductions in LDL cholesterol and in the ratio of total to high-density lipoprotein cholesterol were maintained close to 1-year values at -13.4% +/- 2.1% and -15.2% +/- 1.7%, respectively (P < .001), and were similar to the post-oat bran bread values. Strawberries also improved the palatability of the diet. We conclude that strawberry supplementation reduced oxidative damage to LDL while maintaining reductions in blood lipids and enhancing diet palatability. Added fruit may improve the overall utility of diets designed to lower coronary heart disease risk.",
+  "modified": false,
+  "original_char_count": 1582,
+  "sanitized_char_count": 1582,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1483,
+      "boundary_end": 1582,
+      "context": "as a source of antioxidants, to improve the antioxidant effect of a cholesterol-lowering diet (dietary portfolio). To this end, 28 hyperlipidemic subjects who had followed the dietary portfolio consisting of soy, viscous fiber, plant sterol, and nuts for a mean of 2.5 years were randomized to receive supplements of strawberries (454 g/d, 112 kcal) or additional oat bran bread (65 g/d, 112 kcal, approximately 2 g beta-glucan) (control) in a randomized 1-month crossover study with a 2-week washout. Strawberry supplementation resulted in a greater reduction in oxidative damage to low-density lipoprotein (LDL) measured as thiobarbituric acid-reactive substances in the LDL fraction (P = .014). At the end of the strawberry period, reductions in LDL cholesterol and in the ratio of total to high-density lipoprotein cholesterol were maintained close to 1-year values at -13.4% +/- 2.1% and -15.2% +/- 1.7%, respectively (P < .001), and were similar to the post-oat bran bread values. Strawberries also improved the palatability of the diet. We conclude that strawberry supplementation reduced oxidative damage to LDL while maintaining reductions in blood lipids and enhancing diet palatability.",
+      "target": "Added fruit may improve the overall utility of diets designed to lower coronary heart disease risk.",
+      "loss_target": 8.729752540588379,
+      "loss_target_given_context": 5.133080005645752,
+      "delta_loss": 3.596672534942627,
+      "gain_ratio": 0.41200165963698826,
+      "score": -0.41200165963698826,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

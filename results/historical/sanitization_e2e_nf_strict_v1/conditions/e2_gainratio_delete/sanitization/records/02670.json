@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4547",
+  "source_doc_id": "MED-4547",
+  "title": "Determination of biogenic amines in Korean traditional fermented soybean paste (Doenjang).",
+  "original_text": "Determination of biogenic amines in Korean traditional fermented soybean paste (Doenjang).\nBiogenic amines, produced by bacterial decarboxylation of amino acids, have been associated with toxicological symptoms in food products. Twenty-three samples of traditionally available Korean fermented soybean paste samples (Doenjang) were analyzed in order to determine the content of biogenic amines. Amines were extracted with 0.4M perchloric acid and derivatized with dansyl chloride. Nine biogenic amines were separated from Doenjang samples by high performance liquid chromatography using gradient elution (acetonitrile and ammonium acetate), and detected with spectrophotometric UV-vis detection at 254 nm. The pH value of all the samples was ranged from 4.8 to 6.0, and the strong amino acid decarboxylase activity was found to be in an acidic environment. The mean values of biogenic amines (tryptamine, 2-phenyl-ethylamine, putrescine, cadaverine, agmatine, histamine, tyramine, spermidine and spermine) determined in 23 Doenjang samples were found to be 18.37, 82.03, 70.84, 34.24, 47.32, 26.79, 126.66, 74.41 and 244.36 mg%, respectively. The findings of this study enhance the safety of not only Doenjang but other salted and/or fermented food products. Copyright (c) 2010 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Determination of biogenic amines in Korean traditional fermented soybean paste (Doenjang).\nBiogenic amines, produced by bacterial decarboxylation of amino acids, have been associated with toxicological symptoms in food products. Twenty-three samples of traditionally available Korean fermented soybean paste samples (Doenjang) were analyzed in order to determine the content of biogenic amines. Amines were extracted with 0.4M perchloric acid and derivatized with dansyl chloride. Nine biogenic amines were separated from Doenjang samples by high performance liquid chromatography using gradient elution (acetonitrile and ammonium acetate), and detected with spectrophotometric UV-vis detection at 254 nm. The pH value of all the samples was ranged from 4.8 to 6.0, and the strong amino acid decarboxylase activity was found to be in an acidic environment. The mean values of biogenic amines (tryptamine, 2-phenyl-ethylamine, putrescine, cadaverine, agmatine, histamine, tyramine, spermidine and spermine) determined in 23 Doenjang samples were found to be 18.37, 82.03, 70.84, 34.24, 47.32, 26.79, 126.66, 74.41 and 244.36 mg%, respectively. The findings of this study enhance the safety of not only Doenjang but other salted and/or fermented food products.",
+  "modified": true,
+  "original_char_count": 1312,
+  "sanitized_char_count": 1258,
+  "deleted_char_count": 54,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1259,
+      "boundary_end": 1291,
+      "context": "soybean paste (Doenjang). Biogenic amines, produced by bacterial decarboxylation of amino acids, have been associated with toxicological symptoms in food products. Twenty-three samples of traditionally available Korean fermented soybean paste samples (Doenjang) were analyzed in order to determine the content of biogenic amines. Amines were extracted with 0.4M perchloric acid and derivatized with dansyl chloride. Nine biogenic amines were separated from Doenjang samples by high performance liquid chromatography using gradient elution (acetonitrile and ammonium acetate), and detected with spectrophotometric UV-vis detection at 254 nm. The pH value of all the samples was ranged from 4.8 to 6.0, and the strong amino acid decarboxylase activity was found to be in an acidic environment. The mean values of biogenic amines (tryptamine, 2-phenyl-ethylamine, putrescine, cadaverine, agmatine, histamine, tyramine, spermidine and spermine) determined in 23 Doenjang samples were found to be 18.37, 82.03, 70.84, 34.24, 47.32, 26.79, 126.66, 74.41 and 244.36 mg%, respectively. The findings of this study enhance the safety of not only Doenjang but other salted and/or fermented food products.",
+      "target": "Copyright (c) 2010 Elsevier Ltd.",
+      "loss_target": 1.3179068565368652,
+      "loss_target_given_context": 1.7456996440887451,
+      "delta_loss": -0.4277927875518799,
+      "gain_ratio": -0.324600168388238,
+      "score": 0.324600168388238,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1143,
+      "boundary_end": 1258,
+      "context": "Determination of biogenic amines in Korean traditional fermented soybean paste (Doenjang). Biogenic amines, produced by bacterial decarboxylation of amino acids, have been associated with toxicological symptoms in food products. Twenty-three samples of traditionally available Korean fermented soybean paste samples (Doenjang) were analyzed in order to determine the content of biogenic amines. Amines were extracted with 0.4M perchloric acid and derivatized with dansyl chloride. Nine biogenic amines were separated from Doenjang samples by high performance liquid chromatography using gradient elution (acetonitrile and ammonium acetate), and detected with spectrophotometric UV-vis detection at 254 nm. The pH value of all the samples was ranged from 4.8 to 6.0, and the strong amino acid decarboxylase activity was found to be in an acidic environment. The mean values of biogenic amines (tryptamine, 2-phenyl-ethylamine, putrescine, cadaverine, agmatine, histamine, tyramine, spermidine and spermine) determined in 23 Doenjang samples were found to be 18.37, 82.03, 70.84, 34.24, 47.32, 26.79, 126.66, 74.41 and 244.36 mg%, respectively.",
+      "target": "The findings of this study enhance the safety of not only Doenjang but other salted and/or fermented food products.",
+      "loss_target": 3.513845682144165,
+      "loss_target_given_context": 2.6485588550567627,
+      "delta_loss": 0.8652868270874023,
+      "gain_ratio": 0.2462506624819677,
+      "score": -0.2462506624819677,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1259,
+      "target": "Copyright (c) 2010 Elsevier Ltd.",
+      "score": 0.324600168388238,
+      "deleted_suffix": "Copyright (c) 2010 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 53
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

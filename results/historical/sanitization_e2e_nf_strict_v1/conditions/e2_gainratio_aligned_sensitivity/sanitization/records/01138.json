@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2381",
+  "source_doc_id": "MED-2381",
+  "title": "A systematic review of the effects of nuts on blood lipid profiles in humans.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A systematic review of the effects of nuts on blood lipid profiles in humans.\nThe inverse association of nut consumption and risk markers of coronary heart disease (lipids) has sparked the interest of the scientific and lay community. The objective of this study was to conduct a systematic review to investigate the effects of nuts on the lipid profile. Medline and Web of Science databases were searched from the start of the database to August 2004 and supplemented by cross-checking reference lists of relevant publications. Human intervention trials with the objective of investigating independent effects of nuts on lipid concentrations were included. From the literature search, 415 publications were screened and 23 studies were included. These papers received a rating based upon the methodology as it appeared in the publication. No formal statistical analysis was performed due to the large differences in study designs of the dietary intervention trials. The results of 3 almond (50-100 g/d), 2 peanut (35-68 g/d), 1 pecan nut (72 g/d), and 4 walnut (40-84 g/d) studies showed decreases in total cholesterol between 2 and 16% and LDL cholesterol between 2 and 19% compared with subjects consuming control diets. Consumption of macadamia nuts (50-100 g/d) produced less convincing results. In conclusion, consumption of approximately 50-100 g (approximately 1.5-3.5 servings) of nuts > or = 5 times/wk as part of a heart-healthy diet with total fat content (high in mono- and/or polyunsaturated fatty acids) of approximately 35% of energy may significantly decrease total cholesterol and LDL cholesterol in normo- and hyperlipidemic individuals.",
+  "sanitized_text": "A systematic review of the effects of nuts on blood lipid profiles in humans.\nThe inverse association of nut consumption and risk markers of coronary heart disease (lipids) has sparked the interest of the scientific and lay community. The objective of this study was to conduct a systematic review to investigate the effects of nuts on the lipid profile. Medline and Web of Science databases were searched from the start of the database to August 2004 and supplemented by cross-checking reference lists of relevant publications. Human intervention trials with the objective of investigating independent effects of nuts on lipid concentrations were included. From the literature search, 415 publications were screened and 23 studies were included. These papers received a rating based upon the methodology as it appeared in the publication. No formal statistical analysis was performed due to the large differences in study designs of the dietary intervention trials. The results of 3 almond (50-100 g/d), 2 peanut (35-68 g/d), 1 pecan nut (72 g/d), and 4 walnut (40-84 g/d) studies showed decreases in total cholesterol between 2 and 16% and LDL cholesterol between 2 and 19% compared with subjects consuming control diets. Consumption of macadamia nuts (50-100 g/d) produced less convincing results. In conclusion, consumption of approximately 50-100 g (approximately 1.5-3.5 servings) of nuts > or = 5 times/wk as part of a heart-healthy diet with total fat content (high in mono- and/or polyunsaturated fatty acids) of approximately 35% of energy may significantly decrease total cholesterol and LDL cholesterol in normo- and hyperlipidemic individuals.",
+  "modified": false,
+  "original_char_count": 1656,
+  "sanitized_char_count": 1656,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1301,
+      "boundary_end": 1656,
+      "context": "of nut consumption and risk markers of coronary heart disease (lipids) has sparked the interest of the scientific and lay community. The objective of this study was to conduct a systematic review to investigate the effects of nuts on the lipid profile. Medline and Web of Science databases were searched from the start of the database to August 2004 and supplemented by cross-checking reference lists of relevant publications. Human intervention trials with the objective of investigating independent effects of nuts on lipid concentrations were included. From the literature search, 415 publications were screened and 23 studies were included. These papers received a rating based upon the methodology as it appeared in the publication. No formal statistical analysis was performed due to the large differences in study designs of the dietary intervention trials. The results of 3 almond (50-100 g/d), 2 peanut (35-68 g/d), 1 pecan nut (72 g/d), and 4 walnut (40-84 g/d) studies showed decreases in total cholesterol between 2 and 16% and LDL cholesterol between 2 and 19% compared with subjects consuming control diets. Consumption of macadamia nuts (50-100 g/d) produced less convincing results.",
+      "target": "In conclusion, consumption of approximately 50-100 g (approximately 1.5-3.5 servings) of nuts > or = 5 times/wk as part of a heart-healthy diet with total fat content (high in mono- and/or polyunsaturated fatty acids) of approximately 35% of energy may significantly decrease total cholesterol and LDL cholesterol in normo- and hyperlipidemic individuals.",
+      "loss_target": 1.9806392192840576,
+      "loss_target_given_context": 1.428549885749817,
+      "delta_loss": 0.5520893335342407,
+      "gain_ratio": 0.27874300789308043,
+      "score": -0.27874300789308043,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

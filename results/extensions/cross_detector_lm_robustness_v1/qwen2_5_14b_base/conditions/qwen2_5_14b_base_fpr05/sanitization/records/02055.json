@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3750",
+  "source_doc_id": "MED-3750",
+  "title": "Bach flower remedies: a systematic review of randomised clinical trials.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Bach flower remedies: a systematic review of randomised clinical trials.\nBach flower remedies continue to be popular and its proponents make a range of medicinal claims for them. The aim of this systematic review was to critically evaluate the evidence for these claims. Five electronic databases were searched without restrictions on time or language. All randomised clinical trials of flower remedies were included. Seven such studies were located. All but one were placebo-controlled. All placebo-controlled trials failed to demonstrate efficacy. It is concluded that the most reliable clinical trials do not show any differences between flower remedies and placebos.",
+  "sanitized_text": "Bach flower remedies: a systematic review of randomised clinical trials.\nBach flower remedies continue to be popular and its proponents make a range of medicinal claims for them. The aim of this systematic review was to critically evaluate the evidence for these claims. Five electronic databases were searched without restrictions on time or language. All randomised clinical trials of flower remedies were included. Seven such studies were located. All but one were placebo-controlled. All placebo-controlled trials failed to demonstrate efficacy. It is concluded that the most reliable clinical trials do not show any differences between flower remedies and placebos.",
+  "modified": false,
+  "original_char_count": 670,
+  "sanitized_char_count": 670,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 550,
+      "boundary_end": 670,
+      "context": "Bach flower remedies: a systematic review of randomised clinical trials. Bach flower remedies continue to be popular and its proponents make a range of medicinal claims for them. The aim of this systematic review was to critically evaluate the evidence for these claims. Five electronic databases were searched without restrictions on time or language. All randomised clinical trials of flower remedies were included. Seven such studies were located. All but one were placebo-controlled. All placebo-controlled trials failed to demonstrate efficacy.",
+      "target": "It is concluded that the most reliable clinical trials do not show any differences between flower remedies and placebos.",
+      "loss_target": 3.272507429122925,
+      "loss_target_given_context": 1.2511541843414307,
+      "delta_loss": 2.021353244781494,
+      "gain_ratio": 0.6176772058003375,
+      "score": -0.6176772058003375,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

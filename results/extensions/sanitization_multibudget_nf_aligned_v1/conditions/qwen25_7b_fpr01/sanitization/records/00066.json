@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1099",
+  "source_doc_id": "MED-1099",
+  "title": "Evidence of effects of environmental chemicals on the endocrine system in children.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Evidence of effects of environmental chemicals on the endocrine system in children.\nPollutant chemicals that are widespread in the environment can affect endocrine signaling, as evidenced in laboratory experiments and in wildlife with relatively high exposures. Although humans are commonly exposed to such pollutant chemicals, the exposures are generally low, and clear effects on endocrine function from such exposures have been difficult to demonstrate. Several instances in which there are data from humans on exposure to the chemical agent and the endocrine outcome are reviewed, including age at weaning, age at puberty, and sex ratio at birth, and the strength of the evidence is discussed. Although endocrine disruption in humans by pollutant chemicals remains largely undemonstrated, the underlying science is sound and the potential for such effects is real.",
+  "sanitized_text": "Evidence of effects of environmental chemicals on the endocrine system in children.\nPollutant chemicals that are widespread in the environment can affect endocrine signaling, as evidenced in laboratory experiments and in wildlife with relatively high exposures. Although humans are commonly exposed to such pollutant chemicals, the exposures are generally low, and clear effects on endocrine function from such exposures have been difficult to demonstrate. Several instances in which there are data from humans on exposure to the chemical agent and the endocrine outcome are reviewed, including age at weaning, age at puberty, and sex ratio at birth, and the strength of the evidence is discussed. Although endocrine disruption in humans by pollutant chemicals remains largely undemonstrated, the underlying science is sound and the potential for such effects is real.",
+  "modified": false,
+  "original_char_count": 868,
+  "sanitized_char_count": 868,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 698,
+      "boundary_end": 868,
+      "context": "Evidence of effects of environmental chemicals on the endocrine system in children. Pollutant chemicals that are widespread in the environment can affect endocrine signaling, as evidenced in laboratory experiments and in wildlife with relatively high exposures. Although humans are commonly exposed to such pollutant chemicals, the exposures are generally low, and clear effects on endocrine function from such exposures have been difficult to demonstrate. Several instances in which there are data from humans on exposure to the chemical agent and the endocrine outcome are reviewed, including age at weaning, age at puberty, and sex ratio at birth, and the strength of the evidence is discussed.",
+      "target": "Although endocrine disruption in humans by pollutant chemicals remains largely undemonstrated, the underlying science is sound and the potential for such effects is real.",
+      "loss_target": 2.512976884841919,
+      "loss_target_given_context": 1.6816731691360474,
+      "delta_loss": 0.8313037157058716,
+      "gain_ratio": 0.33080436223676823,
+      "score": -0.33080436223676823,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

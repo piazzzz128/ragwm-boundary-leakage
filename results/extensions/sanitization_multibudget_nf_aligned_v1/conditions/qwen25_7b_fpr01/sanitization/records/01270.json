@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2586",
+  "source_doc_id": "MED-2586",
+  "title": "Systematic review and meta-analysis of clinical trials of the effects of low carbohydrate diets on cardiovascular risk factors.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Systematic review and meta-analysis of clinical trials of the effects of low carbohydrate diets on cardiovascular risk factors.\nA systematic review and meta-analysis were carried out to study the effects of low-carbohydrate diet (LCD) on weight loss and cardiovascular risk factors (search performed on PubMed, Cochrane Central Register of Controlled Trials and Scopus databases). A total of 23 reports, corresponding to 17 clinical investigations, were identified as meeting the pre-specified criteria. Meta-analysis carried out on data obtained in 1,141 obese patients, showed the LCD to be associated with significant decreases in body weight (-7.04 kg [95% CI -7.20/-6.88]), body mass index (-2.09 kg m(-2) [95% CI -2.15/-2.04]), abdominal circumference (-5.74 cm [95% CI -6.07/-5.41]), systolic blood pressure (-4.81 mm Hg [95% CI -5.33/-4.29]), diastolic blood pressure (-3.10 mm Hg [95% CI -3.45/-2.74]), plasma triglycerides (-29.71 mg dL(-1) [95% CI -31.99/-27.44]), fasting plasma glucose (-1.05 mg dL(-1) [95% CI -1.67/-0.44]), glycated haemoglobin (-0.21% [95% CI -0.24/-0.18]), plasma insulin (-2.24 micro IU mL(-1) [95% CI -2.65/-1.82]) and plasma C-reactive protein, as well as an increase in high-density lipoprotein cholesterol (1.73 mg dL(-1) [95%CI 1.44/2.01]). Low-density lipoprotein cholesterol and creatinine did not change significantly, whereas limited data exist concerning plasma uric acid. LCD was shown to have favourable effects on body weight and major cardiovascular risk factors; however the effects on long-term health are unknown. © 2012 The Authors. obesity reviews © 2012 International Association for the Study of Obesity.",
+  "sanitized_text": "Systematic review and meta-analysis of clinical trials of the effects of low carbohydrate diets on cardiovascular risk factors.\nA systematic review and meta-analysis were carried out to study the effects of low-carbohydrate diet (LCD) on weight loss and cardiovascular risk factors (search performed on PubMed, Cochrane Central Register of Controlled Trials and Scopus databases). A total of 23 reports, corresponding to 17 clinical investigations, were identified as meeting the pre-specified criteria. Meta-analysis carried out on data obtained in 1,141 obese patients, showed the LCD to be associated with significant decreases in body weight (-7.04 kg [95% CI -7.20/-6.88]), body mass index (-2.09 kg m(-2) [95% CI -2.15/-2.04]), abdominal circumference (-5.74 cm [95% CI -6.07/-5.41]), systolic blood pressure (-4.81 mm Hg [95% CI -5.33/-4.29]), diastolic blood pressure (-3.10 mm Hg [95% CI -3.45/-2.74]), plasma triglycerides (-29.71 mg dL(-1) [95% CI -31.99/-27.44]), fasting plasma glucose (-1.05 mg dL(-1) [95% CI -1.67/-0.44]), glycated haemoglobin (-0.21% [95% CI -0.24/-0.18]), plasma insulin (-2.24 micro IU mL(-1) [95% CI -2.65/-1.82]) and plasma C-reactive protein, as well as an increase in high-density lipoprotein cholesterol (1.73 mg dL(-1) [95%CI 1.44/2.01]). Low-density lipoprotein cholesterol and creatinine did not change significantly, whereas limited data exist concerning plasma uric acid. LCD was shown to have favourable effects on body weight and major cardiovascular risk factors; however the effects on long-term health are unknown. © 2012 The Authors. obesity reviews © 2012 International Association for the Study of Obesity.",
+  "modified": false,
+  "original_char_count": 1660,
+  "sanitized_char_count": 1660,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1586,
+      "boundary_end": 1660,
+      "context": "of 23 reports, corresponding to 17 clinical investigations, were identified as meeting the pre-specified criteria. Meta-analysis carried out on data obtained in 1,141 obese patients, showed the LCD to be associated with significant decreases in body weight (-7.04 kg [95% CI -7.20/-6.88]), body mass index (-2.09 kg m(-2) [95% CI -2.15/-2.04]), abdominal circumference (-5.74 cm [95% CI -6.07/-5.41]), systolic blood pressure (-4.81 mm Hg [95% CI -5.33/-4.29]), diastolic blood pressure (-3.10 mm Hg [95% CI -3.45/-2.74]), plasma triglycerides (-29.71 mg dL(-1) [95% CI -31.99/-27.44]), fasting plasma glucose (-1.05 mg dL(-1) [95% CI -1.67/-0.44]), glycated haemoglobin (-0.21% [95% CI -0.24/-0.18]), plasma insulin (-2.24 micro IU mL(-1) [95% CI -2.65/-1.82]) and plasma C-reactive protein, as well as an increase in high-density lipoprotein cholesterol (1.73 mg dL(-1) [95%CI 1.44/2.01]). Low-density lipoprotein cholesterol and creatinine did not change significantly, whereas limited data exist concerning plasma uric acid. LCD was shown to have favourable effects on body weight and major cardiovascular risk factors; however the effects on long-term health are unknown. © 2012 The Authors.",
+      "target": "obesity reviews © 2012 International Association for the Study of Obesity.",
+      "loss_target": 2.134493350982666,
+      "loss_target_given_context": 0.4069822132587433,
+      "delta_loss": 1.7275111377239227,
+      "gain_ratio": 0.8093307655086491,
+      "score": -0.8093307655086491,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5027",
+  "source_doc_id": "MED-5027",
+  "title": "Diet and risk of ischemic heart disease in India.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet and risk of ischemic heart disease in India.\nBACKGROUND: Ischemic heart disease (IHD) is a leading cause of death in India. Dietary changes could reduce risk, but few studies have addressed the association between diet and IHD risk in India. OBJECTIVE: The goal was to address the association between diet and IHD risk among Indians in New Delhi (northern India) and Bangalore (southern India). DESIGN: We collected data from 350 cases of acute myocardial infarction and 700 controls matched on the basis of age, sex, and hospital as part of a hospital-based case-control study in 8 hospitals. Long-term dietary intake was assessed by using food-frequency questionnaires developed for New Delhi and Bangalore. We used conditional logistic regression to control for the matching factors and other predictors of risk. RESULTS: We observed a significant and dose-dependent inverse association between vegetable intake and IHD risk. The inverse association was stronger for green leafy vegetables; in multivariate analysis, persons consuming a median of 3.5 servings/wk had a 67% lower relative risk (RR: 0.33; 95% CI: 0.17, 0.64; P for trend = 0.0001) than did those consuming 0.5 servings/wk. Controlling for other dietary covariates did not alter the association. Cereal intake was also associated with a lower risk. Use of mustard oil, which is rich in alpha-linolenic acid, was associated with a lower risk than was use of sunflower oil [for use in cooking: RR: 0.49 (95% CI: 0.24, 0.99); for use in frying, RR: 0.29 (95% CI: 0.13, 0.64)]. CONCLUSION: Diets rich in vegetables and use of mustard oil could contribute to the lower risk of IHD among Indians.",
+  "sanitized_text": "Diet and risk of ischemic heart disease in India.\nBACKGROUND: Ischemic heart disease (IHD) is a leading cause of death in India. Dietary changes could reduce risk, but few studies have addressed the association between diet and IHD risk in India. OBJECTIVE: The goal was to address the association between diet and IHD risk among Indians in New Delhi (northern India) and Bangalore (southern India). DESIGN: We collected data from 350 cases of acute myocardial infarction and 700 controls matched on the basis of age, sex, and hospital as part of a hospital-based case-control study in 8 hospitals. Long-term dietary intake was assessed by using food-frequency questionnaires developed for New Delhi and Bangalore. We used conditional logistic regression to control for the matching factors and other predictors of risk. RESULTS: We observed a significant and dose-dependent inverse association between vegetable intake and IHD risk. The inverse association was stronger for green leafy vegetables; in multivariate analysis, persons consuming a median of 3.5 servings/wk had a 67% lower relative risk (RR: 0.33; 95% CI: 0.17, 0.64; P for trend = 0.0001) than did those consuming 0.5 servings/wk. Controlling for other dietary covariates did not alter the association. Cereal intake was also associated with a lower risk. Use of mustard oil, which is rich in alpha-linolenic acid, was associated with a lower risk than was use of sunflower oil [for use in cooking: RR: 0.49 (95% CI: 0.24, 0.99); for use in frying, RR: 0.29 (95% CI: 0.13, 0.64)]. CONCLUSION: Diets rich in vegetables and use of mustard oil could contribute to the lower risk of IHD among Indians.",
+  "modified": false,
+  "original_char_count": 1662,
+  "sanitized_char_count": 1662,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1546,
+      "boundary_end": 1662,
+      "context": "(northern India) and Bangalore (southern India). DESIGN: We collected data from 350 cases of acute myocardial infarction and 700 controls matched on the basis of age, sex, and hospital as part of a hospital-based case-control study in 8 hospitals. Long-term dietary intake was assessed by using food-frequency questionnaires developed for New Delhi and Bangalore. We used conditional logistic regression to control for the matching factors and other predictors of risk. RESULTS: We observed a significant and dose-dependent inverse association between vegetable intake and IHD risk. The inverse association was stronger for green leafy vegetables; in multivariate analysis, persons consuming a median of 3.5 servings/wk had a 67% lower relative risk (RR: 0.33; 95% CI: 0.17, 0.64; P for trend = 0.0001) than did those consuming 0.5 servings/wk. Controlling for other dietary covariates did not alter the association. Cereal intake was also associated with a lower risk. Use of mustard oil, which is rich in alpha-linolenic acid, was associated with a lower risk than was use of sunflower oil [for use in cooking: RR: 0.49 (95% CI: 0.24, 0.99); for use in frying, RR: 0.29 (95% CI: 0.13, 0.64)].",
+      "target": "CONCLUSION: Diets rich in vegetables and use of mustard oil could contribute to the lower risk of IHD among Indians.",
+      "loss_target": 9.502939224243164,
+      "loss_target_given_context": 2.481163740158081,
+      "delta_loss": 7.021775484085083,
+      "gain_ratio": 0.7389056499668726,
+      "score": -0.7389056499668726,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

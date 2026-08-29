@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2993",
+  "source_doc_id": "MED-2993",
+  "title": "Does 4-methylimidazole have tumor preventive activity in the rat?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Does 4-methylimidazole have tumor preventive activity in the rat?\n4-Methylimidazole (4-MEI) is found in a wide array of food products. The National Toxicology Program (NTP) recently conducted a two-year feeding cancer bioassay of 4-MEI in B6C3F(1) mice and F344/N rats. In rats, NTP found \"equivocal evidence of carcinogenic activity\" in females based on increased incidences of mononuclear cell leukemia and \"no evidence of carcinogenic activity\" in males. However, dose-related, statistically significant decreases in multiple tumors were observed in both male and female rats exposed to 4-MEI in the NTP bioassay. For example, 4-MEI was associated with a 25-fold decrease in the incidence of mammary tumors among high dose females. NTP noted briefly that the decreases in certain tumors, including mammary tumors, were greater than could be attributed to body weight alone. The present paper provides a more detailed evaluation of the evidence that 4-MEI exhibits tumor preventive activity in the rat based upon the results of the NTP bioassay. Reduced body weight offers a partial explanation for the reduction in tumors, but does not appear to be the primary cause of the decreased tumor incidences, indicating that 4-MEI itself may possess an ability to prevent tumor formation. Copyright © 2010 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Does 4-methylimidazole have tumor preventive activity in the rat?\n4-Methylimidazole (4-MEI) is found in a wide array of food products. The National Toxicology Program (NTP) recently conducted a two-year feeding cancer bioassay of 4-MEI in B6C3F(1) mice and F344/N rats. In rats, NTP found \"equivocal evidence of carcinogenic activity\" in females based on increased incidences of mononuclear cell leukemia and \"no evidence of carcinogenic activity\" in males. However, dose-related, statistically significant decreases in multiple tumors were observed in both male and female rats exposed to 4-MEI in the NTP bioassay. For example, 4-MEI was associated with a 25-fold decrease in the incidence of mammary tumors among high dose females. NTP noted briefly that the decreases in certain tumors, including mammary tumors, were greater than could be attributed to body weight alone. The present paper provides a more detailed evaluation of the evidence that 4-MEI exhibits tumor preventive activity in the rat based upon the results of the NTP bioassay. Reduced body weight offers a partial explanation for the reduction in tumors, but does not appear to be the primary cause of the decreased tumor incidences, indicating that 4-MEI itself may possess an ability to prevent tumor formation. Copyright © 2010 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1336,
+  "sanitized_char_count": 1336,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1285,
+      "boundary_end": 1315,
+      "context": "is found in a wide array of food products. The National Toxicology Program (NTP) recently conducted a two-year feeding cancer bioassay of 4-MEI in B6C3F(1) mice and F344/N rats. In rats, NTP found \"equivocal evidence of carcinogenic activity\" in females based on increased incidences of mononuclear cell leukemia and \"no evidence of carcinogenic activity\" in males. However, dose-related, statistically significant decreases in multiple tumors were observed in both male and female rats exposed to 4-MEI in the NTP bioassay. For example, 4-MEI was associated with a 25-fold decrease in the incidence of mammary tumors among high dose females. NTP noted briefly that the decreases in certain tumors, including mammary tumors, were greater than could be attributed to body weight alone. The present paper provides a more detailed evaluation of the evidence that 4-MEI exhibits tumor preventive activity in the rat based upon the results of the NTP bioassay. Reduced body weight offers a partial explanation for the reduction in tumors, but does not appear to be the primary cause of the decreased tumor incidences, indicating that 4-MEI itself may possess an ability to prevent tumor formation.",
+      "target": "Copyright © 2010 Elsevier Ltd.",
+      "loss_target": 1.1775972843170166,
+      "loss_target_given_context": 0.7099305987358093,
+      "delta_loss": 0.4676666855812073,
+      "gain_ratio": 0.397136348571358,
+      "score": -0.397136348571358,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1568",
+  "source_doc_id": "MED-1568",
+  "title": "TRP channel blamed for burning cold after a tropical fish meal",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "TRP channel blamed for burning cold after a tropical fish meal\nEMBO J (2012) 31 19, 3795–3808 doi:10.1038/emboj.2012.207; published online July312012 Ciguatera is one of the most common forms of food poisoning, occurring after consumption of fish contaminated with ciguatoxins. New work by Vetter et al (2012) reveals the key molecular players that underlie the altered temperature sensation associated with ciguatera. In particular, they show that ciguatoxins act on sensory neurons that express TRPA1, an ion channel implicated in the detection of noxious cold.",
+  "sanitized_text": "TRP channel blamed for burning cold after a tropical fish meal\nEMBO J (2012) 31 19, 3795–3808 doi:10.1038/emboj.2012.207; published online July312012 Ciguatera is one of the most common forms of food poisoning, occurring after consumption of fish contaminated with ciguatoxins. New work by Vetter et al (2012) reveals the key molecular players that underlie the altered temperature sensation associated with ciguatera. In particular, they show that ciguatoxins act on sensory neurons that express TRPA1, an ion channel implicated in the detection of noxious cold.",
+  "modified": false,
+  "original_char_count": 563,
+  "sanitized_char_count": 563,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 419,
+      "boundary_end": 563,
+      "context": "TRP channel blamed for burning cold after a tropical fish meal EMBO J (2012) 31 19, 3795–3808 doi:10.1038/emboj.2012.207; published online July312012 Ciguatera is one of the most common forms of food poisoning, occurring after consumption of fish contaminated with ciguatoxins. New work by Vetter et al (2012) reveals the key molecular players that underlie the altered temperature sensation associated with ciguatera.",
+      "target": "In particular, they show that ciguatoxins act on sensory neurons that express TRPA1, an ion channel implicated in the detection of noxious cold.",
+      "loss_target": 2.4366676807403564,
+      "loss_target_given_context": 1.3991371393203735,
+      "delta_loss": 1.037530541419983,
+      "gain_ratio": 0.4257989505999193,
+      "score": -0.4257989505999193,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

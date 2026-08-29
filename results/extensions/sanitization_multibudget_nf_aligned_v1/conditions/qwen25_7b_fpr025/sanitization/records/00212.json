@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1273",
+  "source_doc_id": "MED-1273",
+  "title": "Amyotrophic lateral sclerosis. A case-control study following detection of a cluster in a small Wisconsin community.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Amyotrophic lateral sclerosis. A case-control study following detection of a cluster in a small Wisconsin community.\nFrom 1975 to 1983, six cases of amyotrophic lateral sclerosis (ALS) were diagnosed in long-term residents of Two Rivers, Wis; the probability that this occurred due to chance was less than .05. To investigate potential risk factors for ALS, we conducted a case-control study using two control subjects matched to each case patient for age, gender, and duration of residence in Two Rivers. Physical trauma, the frequent consumption of freshly caught Lake Michigan fish, and a family history of cancer were reported more often by case patients than control subjects. These findings support previous studies proposing a role for trauma in ALS pathogenesis and suggest that the causative role of diet should be further explored. Continued surveillance for and epidemiologic investigation of ALS clusters with subsequent retrospective analysis may provide clues concerning the cause of ALS.",
+  "sanitized_text": "Amyotrophic lateral sclerosis. A case-control study following detection of a cluster in a small Wisconsin community.\nFrom 1975 to 1983, six cases of amyotrophic lateral sclerosis (ALS) were diagnosed in long-term residents of Two Rivers, Wis; the probability that this occurred due to chance was less than .05. To investigate potential risk factors for ALS, we conducted a case-control study using two control subjects matched to each case patient for age, gender, and duration of residence in Two Rivers. Physical trauma, the frequent consumption of freshly caught Lake Michigan fish, and a family history of cancer were reported more often by case patients than control subjects. These findings support previous studies proposing a role for trauma in ALS pathogenesis and suggest that the causative role of diet should be further explored. Continued surveillance for and epidemiologic investigation of ALS clusters with subsequent retrospective analysis may provide clues concerning the cause of ALS.",
+  "modified": false,
+  "original_char_count": 1002,
+  "sanitized_char_count": 1002,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 842,
+      "boundary_end": 1002,
+      "context": "Amyotrophic lateral sclerosis. A case-control study following detection of a cluster in a small Wisconsin community. From 1975 to 1983, six cases of amyotrophic lateral sclerosis (ALS) were diagnosed in long-term residents of Two Rivers, Wis; the probability that this occurred due to chance was less than .05. To investigate potential risk factors for ALS, we conducted a case-control study using two control subjects matched to each case patient for age, gender, and duration of residence in Two Rivers. Physical trauma, the frequent consumption of freshly caught Lake Michigan fish, and a family history of cancer were reported more often by case patients than control subjects. These findings support previous studies proposing a role for trauma in ALS pathogenesis and suggest that the causative role of diet should be further explored.",
+      "target": "Continued surveillance for and epidemiologic investigation of ALS clusters with subsequent retrospective analysis may provide clues concerning the cause of ALS.",
+      "loss_target": 3.7904720306396484,
+      "loss_target_given_context": 2.576049566268921,
+      "delta_loss": 1.2144224643707275,
+      "gain_ratio": 0.32038818768589933,
+      "score": -0.32038818768589933,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

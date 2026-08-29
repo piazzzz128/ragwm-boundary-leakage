@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3836",
+  "source_doc_id": "MED-3836",
+  "title": "Dietary flaxseed alters tumor biological markers in postmenopausal breast cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary flaxseed alters tumor biological markers in postmenopausal breast cancer.\nPURPOSE: Flaxseed, the richest source of mammalian lignan precursors, has previously been shown to reduce the growth of tumors in rats. This study examined, in a randomized double-blind placebo-controlled clinical trial, the effects of dietary flaxseed on tumor biological markers and urinary lignan excretion in postmenopausal patients with newly diagnosed breast cancer. EXPERIMENTAL DESIGN: Patients were randomized to daily intake of either a 25 g flaxseed-containing muffin (n = 19) or a control (placebo) muffin (n = 13). At the time of diagnosis and again at definitive surgery, tumor tissue was analyzed for the rate of tumor cell proliferation (Ki-67 labeling index, primary end point), apoptosis, c-erbB2 expression, and estrogen and progesterone receptor levels. Twenty-four-hour urine samples were analyzed for lignans, and 3-day diet records were evaluated for macronutrient and caloric intake. Mean treatment times were 39 and 32 days in the placebo and flaxseed groups, respectively. RESULTS: Reductions in Ki-67 labeling index (34.2%; P = 0.001) and in c-erbB2 expression (71.0%; P = 0.003) and an increase in apoptosis (30.7%; P = 0.007) were observed in the flaxseed, but not in the placebo group. No significant differences in caloric and macronutrient intake were seen between groups and between pre- and posttreatment periods. A significant increase in mean urinary lignan excretion was observed in the flaxseed group (1,300%; P < 0.01) compared with placebo controls. The total intake of flaxseed was correlated with changes in c-erbB2 score (r = -0.373; P = 0.036) and apoptotic index (r = 0.495; P < 0.004). CONCLUSION: Dietary flaxseed has the potential to reduce tumor growth in patients with breast cancer.",
+  "sanitized_text": "Dietary flaxseed alters tumor biological markers in postmenopausal breast cancer.\nPURPOSE: Flaxseed, the richest source of mammalian lignan precursors, has previously been shown to reduce the growth of tumors in rats. This study examined, in a randomized double-blind placebo-controlled clinical trial, the effects of dietary flaxseed on tumor biological markers and urinary lignan excretion in postmenopausal patients with newly diagnosed breast cancer. EXPERIMENTAL DESIGN: Patients were randomized to daily intake of either a 25 g flaxseed-containing muffin (n = 19) or a control (placebo) muffin (n = 13). At the time of diagnosis and again at definitive surgery, tumor tissue was analyzed for the rate of tumor cell proliferation (Ki-67 labeling index, primary end point), apoptosis, c-erbB2 expression, and estrogen and progesterone receptor levels. Twenty-four-hour urine samples were analyzed for lignans, and 3-day diet records were evaluated for macronutrient and caloric intake. Mean treatment times were 39 and 32 days in the placebo and flaxseed groups, respectively. RESULTS: Reductions in Ki-67 labeling index (34.2%; P = 0.001) and in c-erbB2 expression (71.0%; P = 0.003) and an increase in apoptosis (30.7%; P = 0.007) were observed in the flaxseed, but not in the placebo group. No significant differences in caloric and macronutrient intake were seen between groups and between pre- and posttreatment periods. A significant increase in mean urinary lignan excretion was observed in the flaxseed group (1,300%; P < 0.01) compared with placebo controls. The total intake of flaxseed was correlated with changes in c-erbB2 score (r = -0.373; P = 0.036) and apoptotic index (r = 0.495; P < 0.004). CONCLUSION: Dietary flaxseed has the potential to reduce tumor growth in patients with breast cancer.",
+  "modified": false,
+  "original_char_count": 1815,
+  "sanitized_char_count": 1815,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1714,
+      "boundary_end": 1815,
+      "context": "of either a 25 g flaxseed-containing muffin (n = 19) or a control (placebo) muffin (n = 13). At the time of diagnosis and again at definitive surgery, tumor tissue was analyzed for the rate of tumor cell proliferation (Ki-67 labeling index, primary end point), apoptosis, c-erbB2 expression, and estrogen and progesterone receptor levels. Twenty-four-hour urine samples were analyzed for lignans, and 3-day diet records were evaluated for macronutrient and caloric intake. Mean treatment times were 39 and 32 days in the placebo and flaxseed groups, respectively. RESULTS: Reductions in Ki-67 labeling index (34.2%; P = 0.001) and in c-erbB2 expression (71.0%; P = 0.003) and an increase in apoptosis (30.7%; P = 0.007) were observed in the flaxseed, but not in the placebo group. No significant differences in caloric and macronutrient intake were seen between groups and between pre- and posttreatment periods. A significant increase in mean urinary lignan excretion was observed in the flaxseed group (1,300%; P < 0.01) compared with placebo controls. The total intake of flaxseed was correlated with changes in c-erbB2 score (r = -0.373; P = 0.036) and apoptotic index (r = 0.495; P < 0.004).",
+      "target": "CONCLUSION: Dietary flaxseed has the potential to reduce tumor growth in patients with breast cancer.",
+      "loss_target": 1.983844518661499,
+      "loss_target_given_context": 0.9327734708786011,
+      "delta_loss": 1.051071047782898,
+      "gain_ratio": 0.5298152339539473,
+      "score": -0.5298152339539473,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

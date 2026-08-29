@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2788",
+  "source_doc_id": "MED-2788",
+  "title": "Clinical utility of curcumin extract.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Clinical utility of curcumin extract.\nTurmeric root has been used medicinally in China and India for thousands of years. The active components are thought to be the curcuminoids, primarily curcumin, which is commonly available worldwide as a standardized extract. This article reviews the pharmacology of curcuminoids, their use and efficacy, potential adverse effects, and dosage and standardization. Preclinical studies point to mechanisms of action that are predominantly anti-inflammatory and antineoplastic, while early human clinical trials suggest beneficial effects for dyspepsia, peptic ulcer, inflammatory bowel disease, rheumatoid arthritis, osteoarthritis, uveitis, orbital pseudotumor, and pancreatic cancer. Curcumin is well-tolerated; the most common side effects are nausea and diarrhea. Theoretical interactions exist due to purported effects on metabolic enzymes and transport proteins, but clinical reports do not support any meaningful interactions. Nonetheless, caution, especially with chemotherapy agents, is advised. Late-phase clinical trials are still needed to confirm most beneficial effects.",
+  "sanitized_text": "Clinical utility of curcumin extract.\nTurmeric root has been used medicinally in China and India for thousands of years. The active components are thought to be the curcuminoids, primarily curcumin, which is commonly available worldwide as a standardized extract. This article reviews the pharmacology of curcuminoids, their use and efficacy, potential adverse effects, and dosage and standardization. Preclinical studies point to mechanisms of action that are predominantly anti-inflammatory and antineoplastic, while early human clinical trials suggest beneficial effects for dyspepsia, peptic ulcer, inflammatory bowel disease, rheumatoid arthritis, osteoarthritis, uveitis, orbital pseudotumor, and pancreatic cancer. Curcumin is well-tolerated; the most common side effects are nausea and diarrhea. Theoretical interactions exist due to purported effects on metabolic enzymes and transport proteins, but clinical reports do not support any meaningful interactions. Nonetheless, caution, especially with chemotherapy agents, is advised. Late-phase clinical trials are still needed to confirm most beneficial effects.",
+  "modified": false,
+  "original_char_count": 1120,
+  "sanitized_char_count": 1120,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1041,
+      "boundary_end": 1120,
+      "context": "Clinical utility of curcumin extract. Turmeric root has been used medicinally in China and India for thousands of years. The active components are thought to be the curcuminoids, primarily curcumin, which is commonly available worldwide as a standardized extract. This article reviews the pharmacology of curcuminoids, their use and efficacy, potential adverse effects, and dosage and standardization. Preclinical studies point to mechanisms of action that are predominantly anti-inflammatory and antineoplastic, while early human clinical trials suggest beneficial effects for dyspepsia, peptic ulcer, inflammatory bowel disease, rheumatoid arthritis, osteoarthritis, uveitis, orbital pseudotumor, and pancreatic cancer. Curcumin is well-tolerated; the most common side effects are nausea and diarrhea. Theoretical interactions exist due to purported effects on metabolic enzymes and transport proteins, but clinical reports do not support any meaningful interactions. Nonetheless, caution, especially with chemotherapy agents, is advised.",
+      "target": "Late-phase clinical trials are still needed to confirm most beneficial effects.",
+      "loss_target": 4.362861156463623,
+      "loss_target_given_context": 2.1269237995147705,
+      "delta_loss": 2.2359373569488525,
+      "gain_ratio": 0.5124933562545965,
+      "score": -0.5124933562545965,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

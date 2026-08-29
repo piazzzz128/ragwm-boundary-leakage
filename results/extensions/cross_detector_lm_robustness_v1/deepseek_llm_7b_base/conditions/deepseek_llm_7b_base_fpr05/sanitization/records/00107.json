@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1146",
+  "source_doc_id": "MED-1146",
+  "title": "Estimation of cancer risks and benefits associated with a potential increased consumption of fruits and vegetables.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Estimation of cancer risks and benefits associated with a potential increased consumption of fruits and vegetables.\nThe current paper provides an analysis of the potential number of cancer cases that might be prevented if half the U.S. population increased its fruit and vegetable consumption by one serving each per day. This number is contrasted with an upper-bound estimate of concomitant cancer cases that might be theoretically attributed to the intake of pesticide residues arising from the same additional fruit and vegetable consumption. The cancer prevention estimates were derived using a published meta-analysis of nutritional epidemiology studies. The cancer risks were estimated using U.S. Environmental Protection Agency (EPA) methods, cancer potency estimates from rodent bioassays, and pesticide residue sampling data from the U.S. Department of Agriculture (USDA). The resulting estimates are that approximately 20,000 cancer cases per year could be prevented by increasing fruit and vegetable consumption, while up to 10 cancer cases per year could be caused by the added pesticide consumption. These estimates have significant uncertainties (e.g., potential residual confounding in the fruit and vegetable epidemiologic studies and reliance on rodent bioassays for cancer risk). However, the overwhelming difference between benefit and risk estimates provides confidence that consumers should not be concerned about cancer risks from consuming conventionally-grown fruits and vegetables. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Estimation of cancer risks and benefits associated with a potential increased consumption of fruits and vegetables.\nThe current paper provides an analysis of the potential number of cancer cases that might be prevented if half the U.S. population increased its fruit and vegetable consumption by one serving each per day. This number is contrasted with an upper-bound estimate of concomitant cancer cases that might be theoretically attributed to the intake of pesticide residues arising from the same additional fruit and vegetable consumption. The cancer prevention estimates were derived using a published meta-analysis of nutritional epidemiology studies. The cancer risks were estimated using U.S. Environmental Protection Agency (EPA) methods, cancer potency estimates from rodent bioassays, and pesticide residue sampling data from the U.S. Department of Agriculture (USDA). The resulting estimates are that approximately 20,000 cancer cases per year could be prevented by increasing fruit and vegetable consumption, while up to 10 cancer cases per year could be caused by the added pesticide consumption. These estimates have significant uncertainties (e.g., potential residual confounding in the fruit and vegetable epidemiologic studies and reliance on rodent bioassays for cancer risk). However, the overwhelming difference between benefit and risk estimates provides confidence that consumers should not be concerned about cancer risks from consuming conventionally-grown fruits and vegetables. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1558,
+  "sanitized_char_count": 1558,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1507,
+      "boundary_end": 1537,
+      "context": "each per day. This number is contrasted with an upper-bound estimate of concomitant cancer cases that might be theoretically attributed to the intake of pesticide residues arising from the same additional fruit and vegetable consumption. The cancer prevention estimates were derived using a published meta-analysis of nutritional epidemiology studies. The cancer risks were estimated using U.S. Environmental Protection Agency (EPA) methods, cancer potency estimates from rodent bioassays, and pesticide residue sampling data from the U.S. Department of Agriculture (USDA). The resulting estimates are that approximately 20,000 cancer cases per year could be prevented by increasing fruit and vegetable consumption, while up to 10 cancer cases per year could be caused by the added pesticide consumption. These estimates have significant uncertainties (e.g., potential residual confounding in the fruit and vegetable epidemiologic studies and reliance on rodent bioassays for cancer risk). However, the overwhelming difference between benefit and risk estimates provides confidence that consumers should not be concerned about cancer risks from consuming conventionally-grown fruits and vegetables.",
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "loss_target": 1.1182276010513306,
+      "loss_target_given_context": 0.6333024501800537,
+      "delta_loss": 0.48492515087127686,
+      "gain_ratio": 0.43365514356412055,
+      "score": -0.43365514356412055,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

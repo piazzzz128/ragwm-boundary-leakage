@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3275",
+  "source_doc_id": "MED-3275",
+  "title": "The Effect of Replacement of Methionine by Homocystine on Survival of Malignant and Normal Adult Mammalian Cells in Culture",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The Effect of Replacement of Methionine by Homocystine on Survival of Malignant and Normal Adult Mammalian Cells in Culture\nIn tissue cultures of normal adult and malignant mammalian cells, homocystine has been substituted for methionine in a medium rich in folic acid and cyanocobalamin. Normal adult cells thrive. Three highly malignant cell types from three different species, including man, die.",
+  "sanitized_text": "The Effect of Replacement of Methionine by Homocystine on Survival of Malignant and Normal Adult Mammalian Cells in Culture\nIn tissue cultures of normal adult and malignant mammalian cells, homocystine has been substituted for methionine in a medium rich in folic acid and cyanocobalamin. Normal adult cells thrive. Three highly malignant cell types from three different species, including man, die.",
+  "modified": false,
+  "original_char_count": 399,
+  "sanitized_char_count": 399,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 316,
+      "boundary_end": 399,
+      "context": "The Effect of Replacement of Methionine by Homocystine on Survival of Malignant and Normal Adult Mammalian Cells in Culture In tissue cultures of normal adult and malignant mammalian cells, homocystine has been substituted for methionine in a medium rich in folic acid and cyanocobalamin. Normal adult cells thrive.",
+      "target": "Three highly malignant cell types from three different species, including man, die.",
+      "loss_target": 4.768246173858643,
+      "loss_target_given_context": 2.8415815830230713,
+      "delta_loss": 1.9266645908355713,
+      "gain_ratio": 0.4040614768168403,
+      "score": -0.4040614768168403,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

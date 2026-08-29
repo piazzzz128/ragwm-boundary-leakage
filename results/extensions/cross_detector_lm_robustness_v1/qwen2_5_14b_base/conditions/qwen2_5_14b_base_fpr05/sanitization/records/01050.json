@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2270",
+  "source_doc_id": "MED-2270",
+  "title": "Gastrointestinal safety of NSAIDs and over-the-counter analgesics.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Gastrointestinal safety of NSAIDs and over-the-counter analgesics.\nNon-steroidal anti-inflammatory drugs (NSAIDs) are widely used. It is well recognised that they may adversely cause damage throughout the gastrointestinal tract and aggravate pre-existing disease. Their side effects on the upper gastrointestinal tract can be assessed by various means; each study type has different clinical connotations. Short-term use (less than 14 days) demonstrates dose-dependent damage of prescribed NSAIDs; the damage is proportional to the acidity of the drugs and not seen with Cyclooxygenase-2 (COX-2) selective inhibitors that have a pKa over 7.0. There have not been any serious outcomes, such as bleeding or perforation in these studies, and Helicobacter pylori (HP) plays no role in this damage. Long-term (3 months or more) endoscopy studies in patients show ulcer rates from 15%-35% with the various NSAIDs, but serious outcomes are exceedingly rare. Epidemiological studies show an association between NSAID intake and serious events. Ibuprofen is consistently at the lower end of toxicity rankings, whereas ketorolac and azapropazone are the worst. The risk of bleeding is increased with advancing age, presence of HP, previous history of bleeding, anticoagulant use, etc. The mega-trials show that COX-2 selective agents halve the bleeding episodes, but NSAID-induced gastric bleeding is very rare usually, less than 1 in 200 subjects taking them for a year. Seventy percent of patients develop NSAID-enteropathy, which is associated with intestinal blood and protein loss and rarely strictures. Over-the-counter (OTC) use of ibuprofen and diclofenac is associated with symptomatic gastrointestinal side effects comparable with placebo. Ibuprofen is shown to be remarkably well tolerated at OTC doses in a number of studies. There are recent studies to suggest that OTC NSAIDs should be taken on a fasting stomach, not with food as commonly advocated. © 2012 Blackwell Publishing Ltd.",
+  "sanitized_text": "Gastrointestinal safety of NSAIDs and over-the-counter analgesics.\nNon-steroidal anti-inflammatory drugs (NSAIDs) are widely used. It is well recognised that they may adversely cause damage throughout the gastrointestinal tract and aggravate pre-existing disease. Their side effects on the upper gastrointestinal tract can be assessed by various means; each study type has different clinical connotations. Short-term use (less than 14 days) demonstrates dose-dependent damage of prescribed NSAIDs; the damage is proportional to the acidity of the drugs and not seen with Cyclooxygenase-2 (COX-2) selective inhibitors that have a pKa over 7.0. There have not been any serious outcomes, such as bleeding or perforation in these studies, and Helicobacter pylori (HP) plays no role in this damage. Long-term (3 months or more) endoscopy studies in patients show ulcer rates from 15%-35% with the various NSAIDs, but serious outcomes are exceedingly rare. Epidemiological studies show an association between NSAID intake and serious events. Ibuprofen is consistently at the lower end of toxicity rankings, whereas ketorolac and azapropazone are the worst. The risk of bleeding is increased with advancing age, presence of HP, previous history of bleeding, anticoagulant use, etc. The mega-trials show that COX-2 selective agents halve the bleeding episodes, but NSAID-induced gastric bleeding is very rare usually, less than 1 in 200 subjects taking them for a year. Seventy percent of patients develop NSAID-enteropathy, which is associated with intestinal blood and protein loss and rarely strictures. Over-the-counter (OTC) use of ibuprofen and diclofenac is associated with symptomatic gastrointestinal side effects comparable with placebo. Ibuprofen is shown to be remarkably well tolerated at OTC doses in a number of studies. There are recent studies to suggest that OTC NSAIDs should be taken on a fasting stomach, not with food as commonly advocated. © 2012 Blackwell Publishing Ltd.",
+  "modified": false,
+  "original_char_count": 1987,
+  "sanitized_char_count": 1987,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1955,
+      "boundary_end": 1987,
+      "context": "(HP) plays no role in this damage. Long-term (3 months or more) endoscopy studies in patients show ulcer rates from 15%-35% with the various NSAIDs, but serious outcomes are exceedingly rare. Epidemiological studies show an association between NSAID intake and serious events. Ibuprofen is consistently at the lower end of toxicity rankings, whereas ketorolac and azapropazone are the worst. The risk of bleeding is increased with advancing age, presence of HP, previous history of bleeding, anticoagulant use, etc. The mega-trials show that COX-2 selective agents halve the bleeding episodes, but NSAID-induced gastric bleeding is very rare usually, less than 1 in 200 subjects taking them for a year. Seventy percent of patients develop NSAID-enteropathy, which is associated with intestinal blood and protein loss and rarely strictures. Over-the-counter (OTC) use of ibuprofen and diclofenac is associated with symptomatic gastrointestinal side effects comparable with placebo. Ibuprofen is shown to be remarkably well tolerated at OTC doses in a number of studies. There are recent studies to suggest that OTC NSAIDs should be taken on a fasting stomach, not with food as commonly advocated.",
+      "target": "© 2012 Blackwell Publishing Ltd.",
+      "loss_target": 1.420516848564148,
+      "loss_target_given_context": 0.8247833251953125,
+      "delta_loss": 0.5957335233688354,
+      "gain_ratio": 0.419378005949736,
+      "score": -0.419378005949736,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,330 @@
+{
+  "experiment_role": "canonical_nfcorpus_aligned_multibudget_attack_utility_v1",
+  "status": "complete",
+  "main_result_guard": "Does not overwrite NFCorpus sealed strict-v1.",
+  "detector_lm": "Qwen2.5-7B",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "max_steps": 8,
+  "verification_units": 30,
+  "retrieval_queries": 323,
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 20260609,
+  "points": [
+    {
+      "budget_id": "fpr01",
+      "target_clean_fpr": 0.01,
+      "threshold": -0.13007188598091768,
+      "modified_documents": 75,
+      "modified_document_rate": 0.02064409578860446,
+      "deleted_characters": 11334,
+      "deleted_character_rate": 0.001955584389143004,
+      "candidate_evaluations": 3714,
+      "deletion_steps": 87,
+      "wsn": 21,
+      "mcnemar_exact_two_sided_p_vs_e0": 0.0625,
+      "unknown": 0,
+      "retrieval_metrics": {
+        "query_count": 323,
+        "ndcg_at_10": 0.26452293022925033,
+        "map_at_100": 0.11481995955859206,
+        "recall_at_100": 0.2540750895941273,
+        "mrr_at_10": 0.44761167624944714
+      },
+      "retrieval_delta_vs_e0": {
+        "ndcg_at_10": -0.005123039211090133,
+        "map_at_100": -0.0029587849430990523,
+        "recall_at_100": -0.004355800319616671,
+        "mrr_at_10": -0.0075237112388815185
+      },
+      "retrieval_paired_bootstrap": {
+        "ndcg_at_10": {
+          "observed_mean_difference_vs_baseline": -0.005123039211090133,
+          "bootstrap_95_percentile_ci": [
+            -0.009697933393732889,
+            -0.00028310365937360437
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 21,
+          "query_level_negative_count": 66,
+          "query_level_tie_count": 236
+        },
+        "map_at_100": {
+          "observed_mean_difference_vs_baseline": -0.0029587849430990523,
+          "bootstrap_95_percentile_ci": [
+            -0.004644932027508626,
+            -0.0012808115175423932
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 69,
+          "query_level_negative_count": 160,
+          "query_level_tie_count": 94
+        },
+        "recall_at_100": {
+          "observed_mean_difference_vs_baseline": -0.004355800319616671,
+          "bootstrap_95_percentile_ci": [
+            -0.010452714897324845,
+            0.0009245414393297636
+          ],
+          "ci_excludes_zero": false,
+          "query_level_positive_count": 26,
+          "query_level_negative_count": 44,
+          "query_level_tie_count": 253
+        },
+        "mrr_at_10": {
+          "observed_mean_difference_vs_baseline": -0.0075237112388815185,
+          "bootstrap_95_percentile_ci": [
+            -0.019792465231706722,
+            0.005325169541500802
+          ],
+          "ci_excludes_zero": false,
+          "query_level_positive_count": 11,
+          "query_level_negative_count": 31,
+          "query_level_tie_count": 281
+        }
+      },
+      "artifact_hashes": {
+        "threshold": "d510621590b7352086c0de44e208d3d5141df436142763ae0f1b582195e8fa07",
+        "sanitization_summary": "1590a8acd7570617a65a5cd684e4248e2358840ab8f9893a08aeb42890c17a22",
+        "verification_comparison": "603cafc093fc126305c7098faa33f60dae577336eb29438f27c41cd74590a1d2"
+      }
+    },
+    {
+      "budget_id": "fpr025",
+      "target_clean_fpr": 0.025,
+      "threshold": -0.1640843956343344,
+      "modified_documents": 124,
+      "modified_document_rate": 0.03413157170382604,
+      "deleted_characters": 25171,
+      "deleted_character_rate": 0.004343039938161157,
+      "candidate_evaluations": 3775,
+      "deletion_steps": 151,
+      "wsn": 20,
+      "mcnemar_exact_two_sided_p_vs_e0": 0.03125,
+      "unknown": 0,
+      "retrieval_metrics": {
+        "query_count": 323,
+        "ndcg_at_10": 0.2599353678355021,
+        "map_at_100": 0.11356844816337919,
+        "recall_at_100": 0.24911716919852822,
+        "mrr_at_10": 0.4406494176618016
+      },
+      "retrieval_delta_vs_e0": {
+        "ndcg_at_10": -0.009710601604838397,
+        "map_at_100": -0.004210296338311911,
+        "recall_at_100": -0.009313720715215716,
+        "mrr_at_10": -0.014485969826527102
+      },
+      "retrieval_paired_bootstrap": {
+        "ndcg_at_10": {
+          "observed_mean_difference_vs_baseline": -0.009710601604838397,
+          "bootstrap_95_percentile_ci": [
+            -0.014471177191575814,
+            -0.005001141578906212
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 24,
+          "query_level_negative_count": 81,
+          "query_level_tie_count": 218
+        },
+        "map_at_100": {
+          "observed_mean_difference_vs_baseline": -0.004210296338311911,
+          "bootstrap_95_percentile_ci": [
+            -0.0061004553451009585,
+            -0.0024311270974021215
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 49,
+          "query_level_negative_count": 179,
+          "query_level_tie_count": 95
+        },
+        "recall_at_100": {
+          "observed_mean_difference_vs_baseline": -0.009313720715215716,
+          "bootstrap_95_percentile_ci": [
+            -0.018820960733421196,
+            -0.001630740479091813
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 20,
+          "query_level_negative_count": 51,
+          "query_level_tie_count": 252
+        },
+        "mrr_at_10": {
+          "observed_mean_difference_vs_baseline": -0.014485969826527102,
+          "bootstrap_95_percentile_ci": [
+            -0.027939302914148114,
+            -0.0009410474716202455
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 11,
+          "query_level_negative_count": 43,
+          "query_level_tie_count": 269
+        }
+      },
+      "artifact_hashes": {
+        "threshold": "ec26b7b4945f321e294f210045e2b67baae5f9d0573266578d86ab3b677add4f",
+        "sanitization_summary": "e71414a736f9daa808295c2ca7739bc5fa607a2a2da662ec593807d443c5daee",
+        "verification_comparison": "a7f1cfc5f8f71b7dd5407396c7ca28c78cbdbdad89bcc8914aed9b349a7559e1"
+      }
+    },
+    {
+      "budget_id": "fpr05",
+      "target_clean_fpr": 0.05,
+      "threshold": -0.1832180580405571,
+      "modified_documents": 174,
+      "modified_document_rate": 0.04789430222956235,
+      "deleted_characters": 37586,
+      "deleted_character_rate": 0.006485141596111607,
+      "candidate_evaluations": 3835,
+      "deletion_steps": 211,
+      "wsn": 21,
+      "mcnemar_exact_two_sided_p_vs_e0": 0.0625,
+      "unknown": 0,
+      "retrieval_metrics": {
+        "query_count": 323,
+        "ndcg_at_10": 0.2570032314782793,
+        "map_at_100": 0.11337666871820828,
+        "recall_at_100": 0.24944757839049056,
+        "mrr_at_10": 0.4333394761413337
+      },
+      "retrieval_delta_vs_e0": {
+        "ndcg_at_10": -0.012642737962061164,
+        "map_at_100": -0.004402075783482837,
+        "recall_at_100": -0.008983311523253426,
+        "mrr_at_10": -0.021795911346994937
+      },
+      "retrieval_paired_bootstrap": {
+        "ndcg_at_10": {
+          "observed_mean_difference_vs_baseline": -0.012642737962061164,
+          "bootstrap_95_percentile_ci": [
+            -0.017826761055019482,
+            -0.0075377177802419286
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 22,
+          "query_level_negative_count": 86,
+          "query_level_tie_count": 215
+        },
+        "map_at_100": {
+          "observed_mean_difference_vs_baseline": -0.004402075783482837,
+          "bootstrap_95_percentile_ci": [
+            -0.006513481146873834,
+            -0.002306061049494535
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 43,
+          "query_level_negative_count": 186,
+          "query_level_tie_count": 94
+        },
+        "recall_at_100": {
+          "observed_mean_difference_vs_baseline": -0.008983311523253426,
+          "bootstrap_95_percentile_ci": [
+            -0.01615951328087894,
+            -0.0023281324697838907
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 23,
+          "query_level_negative_count": 56,
+          "query_level_tie_count": 244
+        },
+        "mrr_at_10": {
+          "observed_mean_difference_vs_baseline": -0.021795911346994937,
+          "bootstrap_95_percentile_ci": [
+            -0.03714000073713697,
+            -0.006809179812275816
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 10,
+          "query_level_negative_count": 46,
+          "query_level_tie_count": 267
+        }
+      },
+      "artifact_hashes": {
+        "threshold": "3133bfce02ebc382ccca9f53808923cea6d7042f05584d602d37ac20ef993564",
+        "sanitization_summary": "66e7020f6f21458615334026ca16fa11c6e456deb6a847e8d738eef57a203e29",
+        "verification_comparison": "2cc6de71d923f6a47bfec75f70deb8b790f25e1e21be958864d278c74217de13"
+      }
+    },
+    {
+      "budget_id": "fpr10",
+      "target_clean_fpr": 0.1,
+      "threshold": -0.20519773948364803,
+      "modified_documents": 248,
+      "modified_document_rate": 0.06826314340765208,
+      "deleted_characters": 58572,
+      "deleted_character_rate": 0.010106095715624142,
+      "candidate_evaluations": 3933,
+      "deletion_steps": 311,
+      "wsn": 17,
+      "mcnemar_exact_two_sided_p_vs_e0": 0.00390625,
+      "unknown": 0,
+      "retrieval_metrics": {
+        "query_count": 323,
+        "ndcg_at_10": 0.25479768874954495,
+        "map_at_100": 0.11190679583970135,
+        "recall_at_100": 0.2499613304712019,
+        "mrr_at_10": 0.42832940193621316
+      },
+      "retrieval_delta_vs_e0": {
+        "ndcg_at_10": -0.014848280690795548,
+        "map_at_100": -0.005871948661989778,
+        "recall_at_100": -0.008469559442542062,
+        "mrr_at_10": -0.026805985552115587
+      },
+      "retrieval_paired_bootstrap": {
+        "ndcg_at_10": {
+          "observed_mean_difference_vs_baseline": -0.014848280690795548,
+          "bootstrap_95_percentile_ci": [
+            -0.020682667039334822,
+            -0.009165203572283594
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 21,
+          "query_level_negative_count": 94,
+          "query_level_tie_count": 208
+        },
+        "map_at_100": {
+          "observed_mean_difference_vs_baseline": -0.005871948661989778,
+          "bootstrap_95_percentile_ci": [
+            -0.008221071000284777,
+            -0.003755003925118358
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 46,
+          "query_level_negative_count": 186,
+          "query_level_tie_count": 91
+        },
+        "recall_at_100": {
+          "observed_mean_difference_vs_baseline": -0.008469559442542062,
+          "bootstrap_95_percentile_ci": [
+            -0.014760533611457774,
+            -0.0026766335264772133
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 23,
+          "query_level_negative_count": 65,
+          "query_level_tie_count": 235
+        },
+        "mrr_at_10": {
+          "observed_mean_difference_vs_baseline": -0.026805985552115587,
+          "bootstrap_95_percentile_ci": [
+            -0.04172391763723034,
+            -0.013283945157010181
+          ],
+          "ci_excludes_zero": true,
+          "query_level_positive_count": 9,
+          "query_level_negative_count": 51,
+          "query_level_tie_count": 263
+        }
+      },
+      "artifact_hashes": {
+        "threshold": "f00e412b4f3cb4c831d0c5ad6c4d91a78e94ef6c5325454757d5001f7e2ac8ac",
+        "sanitization_summary": "0882a5344a7b9f6eb15dfde2d9070ad6de2371d03ddc126c37a6f0761660c70a",
+        "verification_comparison": "a0f773b113081c5ca10a848e275231d69cc0275aecffa9a6624c0cb4a53e4c45"
+      }
+    }
+  ],
+  "interpretation_guard": "These are complete end-to-end budget points. Report verification weakening and measured utility changes; do not infer a decision flip unless WSN is at or below the original threshold.",
+  "utility_file": "/root/autodl-tmp/ragwm_storage/output/sanitization_multibudget_nf_aligned_v1/metrics/multibudget_retrieval_utility_paired_bootstrap.json",
+  "utility_sha256": "8979b66174b73f0ba84f2af05cd7b0a5c8d94e48c1dd7c6a81f9c063efc410dc"
+}
+MULTIBUDGET RESULT COLLECTION PASS

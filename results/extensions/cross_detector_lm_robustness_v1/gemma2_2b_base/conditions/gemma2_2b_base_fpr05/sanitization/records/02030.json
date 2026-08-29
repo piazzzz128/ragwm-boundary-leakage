@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3717",
+  "source_doc_id": "MED-3717",
+  "title": "Oral sex, cancer and death: sexually transmitted cancers",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Oral sex, cancer and death: sexually transmitted cancers\nWe briefly highlight the growing body of recent evidence linking unprotected oral sex with the development of some types of head and neck cancer in younger patients. These tumours appear to be increasing in incidence although the development of more sensitive methods of HPV detection may be a confounding factor. Lethal Prostate Cancer is a type of disease that results in severe health complications. Patient 1 experiences a reduction in health due to lethal prostate cancer.",
+  "sanitized_text": "Oral sex, cancer and death: sexually transmitted cancers\nWe briefly highlight the growing body of recent evidence linking unprotected oral sex with the development of some types of head and neck cancer in younger patients. These tumours appear to be increasing in incidence although the development of more sensitive methods of HPV detection may be a confounding factor. Lethal Prostate Cancer is a type of disease that results in severe health complications. Patient 1 experiences a reduction in health due to lethal prostate cancer.",
+  "modified": false,
+  "original_char_count": 534,
+  "sanitized_char_count": 534,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 460,
+      "boundary_end": 534,
+      "context": "Oral sex, cancer and death: sexually transmitted cancers We briefly highlight the growing body of recent evidence linking unprotected oral sex with the development of some types of head and neck cancer in younger patients. These tumours appear to be increasing in incidence although the development of more sensitive methods of HPV detection may be a confounding factor. Lethal Prostate Cancer is a type of disease that results in severe health complications.",
+      "target": "Patient 1 experiences a reduction in health due to lethal prostate cancer.",
+      "loss_target": 9.973937034606934,
+      "loss_target_given_context": 4.232337951660156,
+      "delta_loss": 5.741599082946777,
+      "gain_ratio": 0.5756602496110554,
+      "score": -0.5756602496110554,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

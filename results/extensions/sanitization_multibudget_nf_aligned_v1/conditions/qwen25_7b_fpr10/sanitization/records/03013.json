@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-4941",
+  "source_doc_id": "MED-4941",
+  "title": "Dioxin May Promote Inflammation-Related Development of Endometriosis",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dioxin May Promote Inflammation-Related Development of Endometriosis\nLaboratory and population-based studies suggest that exposure to environmental toxicants may be one of several triggers for the development of endometriosis. We discuss evidence that modulation of the endometrial endocrine-immune interface could mechanistically link toxicant exposure to the development of this disease. Capsule Summary: Environmental toxicant exposure induces an inflammatory-like endometrial response that may promote the development of endometriosis. Dioxins are measured in relation to various dietary factors.",
+  "sanitized_text": "Dioxin May Promote Inflammation-Related Development of Endometriosis\nLaboratory and population-based studies suggest that exposure to environmental toxicants may be one of several triggers for the development of endometriosis. We discuss evidence that modulation of the endometrial endocrine-immune interface could mechanistically link toxicant exposure to the development of this disease. Capsule Summary: Environmental toxicant exposure induces an inflammatory-like endometrial response that may promote the development of endometriosis.",
+  "modified": true,
+  "original_char_count": 600,
+  "sanitized_char_count": 539,
+  "deleted_char_count": 61,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 540,
+      "boundary_end": 600,
+      "context": "Dioxin May Promote Inflammation-Related Development of Endometriosis Laboratory and population-based studies suggest that exposure to environmental toxicants may be one of several triggers for the development of endometriosis. We discuss evidence that modulation of the endometrial endocrine-immune interface could mechanistically link toxicant exposure to the development of this disease. Capsule Summary: Environmental toxicant exposure induces an inflammatory-like endometrial response that may promote the development of endometriosis.",
+      "target": "Dioxins are measured in relation to various dietary factors.",
+      "loss_target": 4.202852725982666,
+      "loss_target_given_context": 3.6598379611968994,
+      "delta_loss": 0.5430147647857666,
+      "gain_ratio": 0.12920147342512572,
+      "score": -0.12920147342512572,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 390,
+      "boundary_end": 539,
+      "context": "Dioxin May Promote Inflammation-Related Development of Endometriosis Laboratory and population-based studies suggest that exposure to environmental toxicants may be one of several triggers for the development of endometriosis. We discuss evidence that modulation of the endometrial endocrine-immune interface could mechanistically link toxicant exposure to the development of this disease.",
+      "target": "Capsule Summary: Environmental toxicant exposure induces an inflammatory-like endometrial response that may promote the development of endometriosis.",
+      "loss_target": 2.647608757019043,
+      "loss_target_given_context": 1.2941412925720215,
+      "delta_loss": 1.3534674644470215,
+      "gain_ratio": 0.5112037270834902,
+      "score": -0.5112037270834902,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 540,
+      "target": "Dioxins are measured in relation to various dietary factors.",
+      "score": -0.12920147342512572,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Dioxins are measured in relation to various dietary factors.",
+      "deleted_char_count": 60
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

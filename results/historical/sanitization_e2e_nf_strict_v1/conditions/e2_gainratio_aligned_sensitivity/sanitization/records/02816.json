@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4727",
+  "source_doc_id": "MED-4727",
+  "title": "Dietary intake of organotin compounds in Finland: a market-basket study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary intake of organotin compounds in Finland: a market-basket study.\nThe objective of this study was to estimate the intake of organic tin compounds from foodstuffs in a Finnish market basket. The study was conducted by collecting 13 market baskets from supermarkets and market places in the city of Kuopio, eastern Finland. Altogether 115 different food items were bought. In each basket, foodstuffs were mixed in proportion to their consumption and analysed by GC/MS for seven organic tin compounds (mono-, di-, and tributyltin, mono-, di-, and triphenyltin, and dioctyltin). Organotin compounds were detected in only four baskets, with the fish basket containing the largest number of different organotins. The European Food Safety Authority has established a tolerable daily intake of 250 ng kg(-1) body weight for the sum of dibutyltin, tributyltin, triphenyltin and dioctyltin. According to this study, the daily intake of these compounds was 2.47 ng kg(-1) body weight, of which 81% originated from the fish basket. This exposure is only 1% of the tolerable daily intake and poses negligible risk to the average consumer. However, for consumers eating large quantities of fish from contaminated areas, the intake may be much higher.",
+  "sanitized_text": "Dietary intake of organotin compounds in Finland: a market-basket study.\nThe objective of this study was to estimate the intake of organic tin compounds from foodstuffs in a Finnish market basket. The study was conducted by collecting 13 market baskets from supermarkets and market places in the city of Kuopio, eastern Finland. Altogether 115 different food items were bought. In each basket, foodstuffs were mixed in proportion to their consumption and analysed by GC/MS for seven organic tin compounds (mono-, di-, and tributyltin, mono-, di-, and triphenyltin, and dioctyltin). Organotin compounds were detected in only four baskets, with the fish basket containing the largest number of different organotins. The European Food Safety Authority has established a tolerable daily intake of 250 ng kg(-1) body weight for the sum of dibutyltin, tributyltin, triphenyltin and dioctyltin. According to this study, the daily intake of these compounds was 2.47 ng kg(-1) body weight, of which 81% originated from the fish basket. This exposure is only 1% of the tolerable daily intake and poses negligible risk to the average consumer. However, for consumers eating large quantities of fish from contaminated areas, the intake may be much higher.",
+  "modified": false,
+  "original_char_count": 1243,
+  "sanitized_char_count": 1243,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1133,
+      "boundary_end": 1243,
+      "context": "Dietary intake of organotin compounds in Finland: a market-basket study. The objective of this study was to estimate the intake of organic tin compounds from foodstuffs in a Finnish market basket. The study was conducted by collecting 13 market baskets from supermarkets and market places in the city of Kuopio, eastern Finland. Altogether 115 different food items were bought. In each basket, foodstuffs were mixed in proportion to their consumption and analysed by GC/MS for seven organic tin compounds (mono-, di-, and tributyltin, mono-, di-, and triphenyltin, and dioctyltin). Organotin compounds were detected in only four baskets, with the fish basket containing the largest number of different organotins. The European Food Safety Authority has established a tolerable daily intake of 250 ng kg(-1) body weight for the sum of dibutyltin, tributyltin, triphenyltin and dioctyltin. According to this study, the daily intake of these compounds was 2.47 ng kg(-1) body weight, of which 81% originated from the fish basket. This exposure is only 1% of the tolerable daily intake and poses negligible risk to the average consumer.",
+      "target": "However, for consumers eating large quantities of fish from contaminated areas, the intake may be much higher.",
+      "loss_target": 3.0512943267822266,
+      "loss_target_given_context": 1.3669284582138062,
+      "delta_loss": 1.6843658685684204,
+      "gain_ratio": 0.5520168453708907,
+      "score": -0.5520168453708907,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

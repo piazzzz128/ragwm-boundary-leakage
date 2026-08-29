@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3982",
+  "source_doc_id": "MED-3982",
+  "title": "Pet ownership and risk factors for cardiovascular disease: another look.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Pet ownership and risk factors for cardiovascular disease: another look.\nOBJECTIVE: To test the claim that pet ownership reduces cardiovascular risk. DESIGN: Community survey. PARTICIPANTS: 2528 adults aged 40-44 years and 2551 aged 60-64 years who lived in the Australian Capital Territory and Queanbeyan, New South Wales, and were drawn randomly from the Australian electoral roll in 2000 and 2001. MAIN OUTCOME MEASURES: Sociodemographic measures, including pet ownership, and measures of physical health (including body mass index [BMI], alcohol and cigarette consumption, and levels of physical activity). Two readings of diastolic and systolic blood pressure were also taken. RESULTS: While pet owners and non-pet owners had similar levels of systolic blood pressure, those with pets had significantly higher diastolic blood pressure. Pet owners also had higher BMI and were more likely to smoke. While those with pets undertook more mild physical activity, they continued to have significantly higher diastolic blood pressure after controlling for hypertensive risk factors. CONCLUSIONS: In this study, we found no evidence that pet ownership per se is associated with cardiovascular health benefits. Rather, pet owners had higher diastolic blood pressure than those without pets. It is likely that this increased health risk is linked to other hypertensive risk factors that are only indirectly associated with pet ownership.",
+  "sanitized_text": "Pet ownership and risk factors for cardiovascular disease: another look.\nOBJECTIVE: To test the claim that pet ownership reduces cardiovascular risk. DESIGN: Community survey. PARTICIPANTS: 2528 adults aged 40-44 years and 2551 aged 60-64 years who lived in the Australian Capital Territory and Queanbeyan, New South Wales, and were drawn randomly from the Australian electoral roll in 2000 and 2001. MAIN OUTCOME MEASURES: Sociodemographic measures, including pet ownership, and measures of physical health (including body mass index [BMI], alcohol and cigarette consumption, and levels of physical activity). Two readings of diastolic and systolic blood pressure were also taken. RESULTS: While pet owners and non-pet owners had similar levels of systolic blood pressure, those with pets had significantly higher diastolic blood pressure. Pet owners also had higher BMI and were more likely to smoke. While those with pets undertook more mild physical activity, they continued to have significantly higher diastolic blood pressure after controlling for hypertensive risk factors. CONCLUSIONS: In this study, we found no evidence that pet ownership per se is associated with cardiovascular health benefits. Rather, pet owners had higher diastolic blood pressure than those without pets. It is likely that this increased health risk is linked to other hypertensive risk factors that are only indirectly associated with pet ownership.",
+  "modified": false,
+  "original_char_count": 1433,
+  "sanitized_char_count": 1433,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1288,
+      "boundary_end": 1433,
+      "context": "the claim that pet ownership reduces cardiovascular risk. DESIGN: Community survey. PARTICIPANTS: 2528 adults aged 40-44 years and 2551 aged 60-64 years who lived in the Australian Capital Territory and Queanbeyan, New South Wales, and were drawn randomly from the Australian electoral roll in 2000 and 2001. MAIN OUTCOME MEASURES: Sociodemographic measures, including pet ownership, and measures of physical health (including body mass index [BMI], alcohol and cigarette consumption, and levels of physical activity). Two readings of diastolic and systolic blood pressure were also taken. RESULTS: While pet owners and non-pet owners had similar levels of systolic blood pressure, those with pets had significantly higher diastolic blood pressure. Pet owners also had higher BMI and were more likely to smoke. While those with pets undertook more mild physical activity, they continued to have significantly higher diastolic blood pressure after controlling for hypertensive risk factors. CONCLUSIONS: In this study, we found no evidence that pet ownership per se is associated with cardiovascular health benefits. Rather, pet owners had higher diastolic blood pressure than those without pets.",
+      "target": "It is likely that this increased health risk is linked to other hypertensive risk factors that are only indirectly associated with pet ownership.",
+      "loss_target": 3.4169158935546875,
+      "loss_target_given_context": 2.0574874877929688,
+      "delta_loss": 1.3594284057617188,
+      "gain_ratio": 0.3978524634820547,
+      "score": -0.3978524634820547,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1398",
+  "source_doc_id": "MED-1398",
+  "title": "Mediterranean diet and cardiovascular disease: historical perspective and latest evidence.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Mediterranean diet and cardiovascular disease: historical perspective and latest evidence.\nThe concept that the Mediterranean diet was associated with a lower incidence of cardiovascular disease (CVD) was first proposed in the 1950s. Since then, there have been randomized controlled trials and large epidemiological studies that reported associations with lower CVD: in 1994 and 1999, the reports of the intermediate and final analyses of the trial Lyon Diet Heart Study; in 2003, a major epidemiological study in Greece showing a strong inverse association between a Mediterranean score and the risk of cardiovascular complications; in 2011-2012, several reports showing that even non-Mediterranean populations can gain benefits from long-term adhesion to the Mediterranean diet; and in 2013, the PREDIMED trial showing a significant risk reduction in a low-risk population. Contrary to the pharmacological approach of cardiovascular prevention, the adoption of the Mediterranean diet has been associated with a significant reduction in new cancers and overall mortality. Thus, in terms of evidence-based medicine, the full adoption of a modern version of the Mediterranean diet pattern can be considered one of the most effective approaches for the prevention of fatal and nonfatal CVD complications.",
+  "sanitized_text": "Mediterranean diet and cardiovascular disease: historical perspective and latest evidence.\nThe concept that the Mediterranean diet was associated with a lower incidence of cardiovascular disease (CVD) was first proposed in the 1950s. Since then, there have been randomized controlled trials and large epidemiological studies that reported associations with lower CVD: in 1994 and 1999, the reports of the intermediate and final analyses of the trial Lyon Diet Heart Study; in 2003, a major epidemiological study in Greece showing a strong inverse association between a Mediterranean score and the risk of cardiovascular complications; in 2011-2012, several reports showing that even non-Mediterranean populations can gain benefits from long-term adhesion to the Mediterranean diet; and in 2013, the PREDIMED trial showing a significant risk reduction in a low-risk population. Contrary to the pharmacological approach of cardiovascular prevention, the adoption of the Mediterranean diet has been associated with a significant reduction in new cancers and overall mortality. Thus, in terms of evidence-based medicine, the full adoption of a modern version of the Mediterranean diet pattern can be considered one of the most effective approaches for the prevention of fatal and nonfatal CVD complications.",
+  "modified": false,
+  "original_char_count": 1303,
+  "sanitized_char_count": 1303,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1074,
+      "boundary_end": 1303,
+      "context": "Mediterranean diet and cardiovascular disease: historical perspective and latest evidence. The concept that the Mediterranean diet was associated with a lower incidence of cardiovascular disease (CVD) was first proposed in the 1950s. Since then, there have been randomized controlled trials and large epidemiological studies that reported associations with lower CVD: in 1994 and 1999, the reports of the intermediate and final analyses of the trial Lyon Diet Heart Study; in 2003, a major epidemiological study in Greece showing a strong inverse association between a Mediterranean score and the risk of cardiovascular complications; in 2011-2012, several reports showing that even non-Mediterranean populations can gain benefits from long-term adhesion to the Mediterranean diet; and in 2013, the PREDIMED trial showing a significant risk reduction in a low-risk population. Contrary to the pharmacological approach of cardiovascular prevention, the adoption of the Mediterranean diet has been associated with a significant reduction in new cancers and overall mortality.",
+      "target": "Thus, in terms of evidence-based medicine, the full adoption of a modern version of the Mediterranean diet pattern can be considered one of the most effective approaches for the prevention of fatal and nonfatal CVD complications.",
+      "loss_target": 2.5775887966156006,
+      "loss_target_given_context": 1.9297137260437012,
+      "delta_loss": 0.6478750705718994,
+      "gain_ratio": 0.2513492731744356,
+      "score": -0.2513492731744356,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

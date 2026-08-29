@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4286",
+  "source_doc_id": "MED-4286",
+  "title": "Nuts and healthy body weight maintenance mechanisms.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Nuts and healthy body weight maintenance mechanisms.\nNuts are rich sources of multiple nutrients and phytochemicals associated with health benefits, including reduced cardiovascular disease risk. This has prompted recommendations to increase their consumption. However, they are also high in fat and are energy dense. The associations between these properties, positive energy balance and body weight raise questions about such recommendations. Numerous epidemiological and clinical studies show that nuts are not associated with weight gain. Mechanistic studies indicate this is largely attributable to the high satiety and low metabolizable energy (poor bioaccessibility leading to inefficient energy absorption) properties of nuts. Compensatory dietary responses account for 55-75% of the energy provided by nuts. Limited data suggest that routine nut consumption is associated with elevated resting energy expenditure and the thermogenic effect of feeding, resulting in dissipation of another portion of the energy they provide. Additionally, trials contrasting weight loss through regimens that include or exclude nuts indicate improved compliance and greater weight loss when nuts are permitted. Nuts may be included in the diet, in moderation, to enhance palatability, nutrient quality, and chronic disease risk reduction without compromising weight loss or maintenance.",
+  "sanitized_text": "Nuts and healthy body weight maintenance mechanisms.\nNuts are rich sources of multiple nutrients and phytochemicals associated with health benefits, including reduced cardiovascular disease risk. This has prompted recommendations to increase their consumption. However, they are also high in fat and are energy dense. The associations between these properties, positive energy balance and body weight raise questions about such recommendations. Numerous epidemiological and clinical studies show that nuts are not associated with weight gain. Mechanistic studies indicate this is largely attributable to the high satiety and low metabolizable energy (poor bioaccessibility leading to inefficient energy absorption) properties of nuts. Compensatory dietary responses account for 55-75% of the energy provided by nuts. Limited data suggest that routine nut consumption is associated with elevated resting energy expenditure and the thermogenic effect of feeding, resulting in dissipation of another portion of the energy they provide. Additionally, trials contrasting weight loss through regimens that include or exclude nuts indicate improved compliance and greater weight loss when nuts are permitted. Nuts may be included in the diet, in moderation, to enhance palatability, nutrient quality, and chronic disease risk reduction without compromising weight loss or maintenance.",
+  "modified": false,
+  "original_char_count": 1377,
+  "sanitized_char_count": 1377,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1202,
+      "boundary_end": 1377,
+      "context": "and healthy body weight maintenance mechanisms. Nuts are rich sources of multiple nutrients and phytochemicals associated with health benefits, including reduced cardiovascular disease risk. This has prompted recommendations to increase their consumption. However, they are also high in fat and are energy dense. The associations between these properties, positive energy balance and body weight raise questions about such recommendations. Numerous epidemiological and clinical studies show that nuts are not associated with weight gain. Mechanistic studies indicate this is largely attributable to the high satiety and low metabolizable energy (poor bioaccessibility leading to inefficient energy absorption) properties of nuts. Compensatory dietary responses account for 55-75% of the energy provided by nuts. Limited data suggest that routine nut consumption is associated with elevated resting energy expenditure and the thermogenic effect of feeding, resulting in dissipation of another portion of the energy they provide. Additionally, trials contrasting weight loss through regimens that include or exclude nuts indicate improved compliance and greater weight loss when nuts are permitted.",
+      "target": "Nuts may be included in the diet, in moderation, to enhance palatability, nutrient quality, and chronic disease risk reduction without compromising weight loss or maintenance.",
+      "loss_target": 2.562129497528076,
+      "loss_target_given_context": 1.846683382987976,
+      "delta_loss": 0.7154461145401001,
+      "gain_ratio": 0.2792388578447566,
+      "score": -0.2792388578447566,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

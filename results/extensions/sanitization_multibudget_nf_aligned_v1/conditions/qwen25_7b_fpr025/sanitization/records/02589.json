@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-4454",
+  "source_doc_id": "MED-4454",
+  "title": "Bioavailability and kinetics of sulforaphane in humans after consumption of cooked versus raw broccoli.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Bioavailability and kinetics of sulforaphane in humans after consumption of cooked versus raw broccoli.\nThe aim of this study was to determine the bioavailability and kinetics of the supposed anticarcinogen sulforaphane, the hydrolysis product of glucoraphanin, from raw and cooked broccoli. Eight men consumed 200 g of crushed broccoli, raw or cooked, with a warm meal in a randomized, free-living, open cross-over trial. Higher amounts of sulforaphane were found in the blood and urine when broccoli was eaten raw (bioavailability of 37%) versus cooked (3.4%, p ) 0.002). Absorption of sulforaphane was delayed when cooked broccoli was consumed (peak plasma time ) 6 h) versus raw broccoli (1.6 h, p ) 0.001). Excretion half-lives were comparable, 2.6 and 2.4 h on average, for raw and cooked broccoli, respectively (p ) 0.5). This study gives complete kinetic data and shows that consumption of raw broccoli results in faster absorption, higher bioavailability, and higher peak plasma amounts of sulforaphane, compared to cooked broccoli. Broccoli contributes to mitigating the effects of cigarette smoke.",
+  "sanitized_text": "Bioavailability and kinetics of sulforaphane in humans after consumption of cooked versus raw broccoli.\nThe aim of this study was to determine the bioavailability and kinetics of the supposed anticarcinogen sulforaphane, the hydrolysis product of glucoraphanin, from raw and cooked broccoli. Eight men consumed 200 g of crushed broccoli, raw or cooked, with a warm meal in a randomized, free-living, open cross-over trial. Higher amounts of sulforaphane were found in the blood and urine when broccoli was eaten raw (bioavailability of 37%) versus cooked (3.4%, p ) 0.002). Absorption of sulforaphane was delayed when cooked broccoli was consumed (peak plasma time ) 6 h) versus raw broccoli (1.6 h, p ) 0.001). Excretion half-lives were comparable, 2.6 and 2.4 h on average, for raw and cooked broccoli, respectively (p ) 0.5). This study gives complete kinetic data and shows that consumption of raw broccoli results in faster absorption, higher bioavailability, and higher peak plasma amounts of sulforaphane, compared to cooked broccoli.",
+  "modified": true,
+  "original_char_count": 1108,
+  "sanitized_char_count": 1041,
+  "deleted_char_count": 67,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1042,
+      "boundary_end": 1108,
+      "context": "Bioavailability and kinetics of sulforaphane in humans after consumption of cooked versus raw broccoli. The aim of this study was to determine the bioavailability and kinetics of the supposed anticarcinogen sulforaphane, the hydrolysis product of glucoraphanin, from raw and cooked broccoli. Eight men consumed 200 g of crushed broccoli, raw or cooked, with a warm meal in a randomized, free-living, open cross-over trial. Higher amounts of sulforaphane were found in the blood and urine when broccoli was eaten raw (bioavailability of 37%) versus cooked (3.4%, p ) 0.002). Absorption of sulforaphane was delayed when cooked broccoli was consumed (peak plasma time ) 6 h) versus raw broccoli (1.6 h, p ) 0.001). Excretion half-lives were comparable, 2.6 and 2.4 h on average, for raw and cooked broccoli, respectively (p ) 0.5). This study gives complete kinetic data and shows that consumption of raw broccoli results in faster absorption, higher bioavailability, and higher peak plasma amounts of sulforaphane, compared to cooked broccoli.",
+      "target": "Broccoli contributes to mitigating the effects of cigarette smoke.",
+      "loss_target": 3.402554512023926,
+      "loss_target_given_context": 3.156683921813965,
+      "delta_loss": 0.24587059020996094,
+      "gain_ratio": 0.07226058813785495,
+      "score": -0.07226058813785495,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 829,
+      "boundary_end": 1041,
+      "context": "Bioavailability and kinetics of sulforaphane in humans after consumption of cooked versus raw broccoli. The aim of this study was to determine the bioavailability and kinetics of the supposed anticarcinogen sulforaphane, the hydrolysis product of glucoraphanin, from raw and cooked broccoli. Eight men consumed 200 g of crushed broccoli, raw or cooked, with a warm meal in a randomized, free-living, open cross-over trial. Higher amounts of sulforaphane were found in the blood and urine when broccoli was eaten raw (bioavailability of 37%) versus cooked (3.4%, p ) 0.002). Absorption of sulforaphane was delayed when cooked broccoli was consumed (peak plasma time ) 6 h) versus raw broccoli (1.6 h, p ) 0.001). Excretion half-lives were comparable, 2.6 and 2.4 h on average, for raw and cooked broccoli, respectively (p ) 0.5).",
+      "target": "This study gives complete kinetic data and shows that consumption of raw broccoli results in faster absorption, higher bioavailability, and higher peak plasma amounts of sulforaphane, compared to cooked broccoli.",
+      "loss_target": 2.8217806816101074,
+      "loss_target_given_context": 1.6387089490890503,
+      "delta_loss": 1.1830717325210571,
+      "gain_ratio": 0.4192642398579314,
+      "score": -0.4192642398579314,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1042,
+      "target": "Broccoli contributes to mitigating the effects of cigarette smoke.",
+      "score": -0.07226058813785495,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Broccoli contributes to mitigating the effects of cigarette smoke.",
+      "deleted_char_count": 66
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

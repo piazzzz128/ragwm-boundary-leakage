@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1499",
+  "source_doc_id": "MED-1499",
+  "title": "Neuroprotective effect of natural products against Alzheimer's disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Neuroprotective effect of natural products against Alzheimer's disease.\nNature has gifted mankind with a plethora of flora-bearing fruits, vegetables and nuts. The diverse array of bioactive nutrients present in these natural products plays a pivotal role in prevention and cure of various neurodegenerative diseases, such as Alzheimer's disease (AD), Parkinson's disease and other neuronal dysfunctions. Accumulated evidence suggests that naturally occurring phyto-compounds, such as polyphenolic antioxidants found in fruits, vegetables, herbs and nuts, may potentially hinder neurodegeneration, and improve memory and cognitive function. Nuts such as walnut have also demonstrated neuroprotective effect against AD. The molecular mechanisms behind the curative effects rely mainly on the action of phytonutrients on distinct signalling pathways associated with protein folding and neuroinflammation. The neuroprotective effects of various naturally occurring compounds in AD is evaluating in this review.",
+  "sanitized_text": "Neuroprotective effect of natural products against Alzheimer's disease.\nNature has gifted mankind with a plethora of flora-bearing fruits, vegetables and nuts. The diverse array of bioactive nutrients present in these natural products plays a pivotal role in prevention and cure of various neurodegenerative diseases, such as Alzheimer's disease (AD), Parkinson's disease and other neuronal dysfunctions. Accumulated evidence suggests that naturally occurring phyto-compounds, such as polyphenolic antioxidants found in fruits, vegetables, herbs and nuts, may potentially hinder neurodegeneration, and improve memory and cognitive function. Nuts such as walnut have also demonstrated neuroprotective effect against AD. The molecular mechanisms behind the curative effects rely mainly on the action of phytonutrients on distinct signalling pathways associated with protein folding and neuroinflammation. The neuroprotective effects of various naturally occurring compounds in AD is evaluating in this review.",
+  "modified": false,
+  "original_char_count": 1007,
+  "sanitized_char_count": 1007,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 903,
+      "boundary_end": 1007,
+      "context": "Neuroprotective effect of natural products against Alzheimer's disease. Nature has gifted mankind with a plethora of flora-bearing fruits, vegetables and nuts. The diverse array of bioactive nutrients present in these natural products plays a pivotal role in prevention and cure of various neurodegenerative diseases, such as Alzheimer's disease (AD), Parkinson's disease and other neuronal dysfunctions. Accumulated evidence suggests that naturally occurring phyto-compounds, such as polyphenolic antioxidants found in fruits, vegetables, herbs and nuts, may potentially hinder neurodegeneration, and improve memory and cognitive function. Nuts such as walnut have also demonstrated neuroprotective effect against AD. The molecular mechanisms behind the curative effects rely mainly on the action of phytonutrients on distinct signalling pathways associated with protein folding and neuroinflammation.",
+      "target": "The neuroprotective effects of various naturally occurring compounds in AD is evaluating in this review.",
+      "loss_target": 3.7179462909698486,
+      "loss_target_given_context": 2.22375226020813,
+      "delta_loss": 1.4941940307617188,
+      "gain_ratio": 0.4018869326839978,
+      "score": -0.4018869326839978,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

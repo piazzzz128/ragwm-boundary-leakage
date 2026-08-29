@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2147",
+  "source_doc_id": "MED-2147",
+  "title": "Phaseolus beans: impact on glycaemic response and chronic disease risk in human subjects.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Phaseolus beans: impact on glycaemic response and chronic disease risk in human subjects.\nConsumption of Phaseolus vulgaris bean species such as pinto, black, navy or kidney may be beneficial in the prevention and treatment of chronic diseases. In particular, conditions that are promoted by increased glycaemic stress (hyperglycaemia and hyperinsulinaemia) including diabetes, CVD and cancer seem to be reduced in individuals who eat more of these beans. The present paper discusses the influence of P. vulgaris species on glycaemic response and the impact that relationship may have on the risk of developing diabetes, CVD and cancer.",
+  "sanitized_text": "Phaseolus beans: impact on glycaemic response and chronic disease risk in human subjects.\nConsumption of Phaseolus vulgaris bean species such as pinto, black, navy or kidney may be beneficial in the prevention and treatment of chronic diseases. In particular, conditions that are promoted by increased glycaemic stress (hyperglycaemia and hyperinsulinaemia) including diabetes, CVD and cancer seem to be reduced in individuals who eat more of these beans. The present paper discusses the influence of P. vulgaris species on glycaemic response and the impact that relationship may have on the risk of developing diabetes, CVD and cancer.",
+  "modified": false,
+  "original_char_count": 636,
+  "sanitized_char_count": 636,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 504,
+      "boundary_end": 636,
+      "context": "Phaseolus beans: impact on glycaemic response and chronic disease risk in human subjects. Consumption of Phaseolus vulgaris bean species such as pinto, black, navy or kidney may be beneficial in the prevention and treatment of chronic diseases. In particular, conditions that are promoted by increased glycaemic stress (hyperglycaemia and hyperinsulinaemia) including diabetes, CVD and cancer seem to be reduced in individuals who eat more of these beans. The present paper discusses the influence of P.",
+      "target": "vulgaris species on glycaemic response and the impact that relationship may have on the risk of developing diabetes, CVD and cancer.",
+      "loss_target": 3.295259714126587,
+      "loss_target_given_context": 1.2378747463226318,
+      "delta_loss": 2.057384967803955,
+      "gain_ratio": 0.6243468334177319,
+      "score": -0.6243468334177319,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

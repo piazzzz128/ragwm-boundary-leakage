@@ -1,0 +1,141 @@
+{
+  "artifact_role": "qwen2_5_14b_base_model_freeze_v1",
+  "created_at_utc": "2026-08-21T11:09:58.316057+00:00",
+  "model_name": "Qwen2.5-14B",
+  "official_repo_id": "Qwen/Qwen2.5-14B",
+  "model_stage": "base_pretrained",
+  "official_parameter_count": "14.7B",
+  "precision": "bfloat16",
+  "quantized": false,
+  "model_dir": "/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-14B",
+  "source_manifest": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/audit/qwen14b_download_provenance.json",
+  "source_manifest_sha256": "bd8e10103a993f0e597e340afcdee04de996013275ec2793844c1f14e190df52",
+  "resolved_revision": "97e1e76335b7017d8f67c08a19d103c0504298c9",
+  "remote_revision_status": "recorded",
+  "python": "3.12.3",
+  "torch": "2.7.1+cu128",
+  "transformers": "4.44.2",
+  "cuda_runtime": "12.8",
+  "model_type": "qwen2",
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "config_vocab_size": 152064,
+  "hidden_size": 5120,
+  "num_hidden_layers": 48,
+  "num_attention_heads": 40,
+  "num_key_value_heads": 8,
+  "tokenizer_size": 151665,
+  "tokenizer_max_id": 151664,
+  "weight_index_total_size": 29540067328,
+  "weight_shard_bytes": 29540133920,
+  "tensor_dtype_counts": {
+    "BF16": 579
+  },
+  "frozen_model_content_bytes": 29551669739,
+  "weight_shards": [
+    "model-00001-of-00008.safetensors",
+    "model-00002-of-00008.safetensors",
+    "model-00003-of-00008.safetensors",
+    "model-00004-of-00008.safetensors",
+    "model-00005-of-00008.safetensors",
+    "model-00006-of-00008.safetensors",
+    "model-00007-of-00008.safetensors",
+    "model-00008-of-00008.safetensors"
+  ],
+  "files": {
+    "config.json": {
+      "sha256": "fdb89460be9a6383451437cdf632a3e087522efa682265461f33507e7069f026",
+      "size_bytes": 664
+    },
+    "generation_config.json": {
+      "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+      "size_bytes": 138
+    },
+    "merges.txt": {
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "size_bytes": 1671839
+    },
+    "model-00001-of-00008.safetensors": {
+      "sha256": "e015e2bc9a26b4e46d77913d8c667608ae7e48aa1eca04af5786c2408f4bc0fa",
+      "size_bytes": 3885134104
+    },
+    "model-00002-of-00008.safetensors": {
+      "sha256": "e7efa1adc8257218813dcb494bb2a3d5775fa268735ab39e5b8119e233c21462",
+      "size_bytes": 3995327992
+    },
+    "model-00003-of-00008.safetensors": {
+      "sha256": "68127c9bc4fab170f7aaf63d5c7ac9e182afd10b74a1c6bb8025afefc11447cb",
+      "size_bytes": 3995328064
+    },
+    "model-00004-of-00008.safetensors": {
+      "sha256": "7250708a789da850ff40a4a5be335971dfa0d2bd7cba2e9905916dab06744d75",
+      "size_bytes": 3995348776
+    },
+    "model-00005-of-00008.safetensors": {
+      "sha256": "c2754167c1cbaf94b9af9c7eb646a2286a596f9ded5e2e3c4c5e6a4464352c9e",
+      "size_bytes": 3979614448
+    },
+    "model-00006-of-00008.safetensors": {
+      "sha256": "7045cf78c68178b626546982d12b6e9c8e289f1bf1e65c42225ed13e07847180",
+      "size_bytes": 3995328064
+    },
+    "model-00007-of-00008.safetensors": {
+      "sha256": "4d870a72c656404ee7524163ba996bf55050fff252dfe639a90715a9e2c47dba",
+      "size_bytes": 3995328064
+    },
+    "model-00008-of-00008.safetensors": {
+      "sha256": "9b693615965d8548eab4d1dc6bb578aa063e8656e2b9d25125ad5b8c7f59565f",
+      "size_bytes": 1698724408
+    },
+    "model.safetensors.index.json": {
+      "sha256": "7b4b616a213f09ae889be05d1b135198589496e817d793e2605d5c5b1fe3ae5d",
+      "size_bytes": 47472
+    },
+    "tokenizer.json": {
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "size_bytes": 7031645
+    },
+    "tokenizer_config.json": {
+      "sha256": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9",
+      "size_bytes": 7228
+    },
+    "vocab.json": {
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "size_bytes": 2776833
+    }
+  },
+  "gpu": {
+    "available": true,
+    "device_count": 1,
+    "device_0_name": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "device_0_total_memory_gib": 94.972412109375,
+    "device_0_compute_capability": [
+      12,
+      0
+    ],
+    "bf16_supported": true,
+    "required_execution_mode": "single_gpu_bfloat16_unquantized",
+    "minimum_total_memory_gib": 40.0,
+    "recommended_total_memory_gib": 48
+  },
+  "checks": {
+    "model_type_is_qwen2": true,
+    "architecture_is_qwen2_for_causal_lm": true,
+    "hidden_layers_are_48": true,
+    "attention_heads_are_40": true,
+    "kv_heads_are_8": true,
+    "tokenizer_ids_fit_model_vocab": true,
+    "transformers_version_at_least_4_37": true,
+    "weight_shards_present": true,
+    "all_weight_tensors_are_bfloat16": true,
+    "no_quantization_config": true,
+    "weight_size_matches_unquantized_14b_range": true,
+    "source_manifest_optional_or_valid": true,
+    "cuda_available": true,
+    "bf16_supported": true,
+    "single_gpu_memory_meets_minimum": true
+  },
+  "pass": true,
+  "guard": "This manifest freezes an unquantized BF16 Qwen2.5-14B base snapshot. Do not substitute an Instruct or quantized checkpoint."
+}

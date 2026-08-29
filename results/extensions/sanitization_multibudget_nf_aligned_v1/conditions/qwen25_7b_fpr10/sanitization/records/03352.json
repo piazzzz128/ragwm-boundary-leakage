@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5298",
+  "source_doc_id": "MED-5298",
+  "title": "Should we eat less salt?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Should we eat less salt?\nHigh blood pressure is a major cardiovascular risk factor. There is overwhelming evidence that high salt consumption is a major cause of increased blood pressure. There is also a link between high salt consumption and risk of stroke, left ventricular hypertrophy, renal disease, obesity, renal stones and stomach cancer. Reducing salt consumption leads to a decrease in blood pressure and the incidence of cardiovascular disease. There are no deleterious effects associated with reducing salt consumption and it is also very cost-effective. Many organizations and state governments have issued recommendations regarding the suitable amount of salt consumption. In France, the objective is a salt consumption<8g/day in men and<6.5g/day in women and children. As 80% of consumed salt comes from manufactured products in developed countries, reduction of salt consumption requires the participation of the food industry. The other tool is consumer information and education. Salt consumption has already decreased in France in recent years, but efforts must continue. Copyright © 2013 Elsevier Masson SAS. All rights reserved.",
+  "sanitized_text": "Should we eat less salt?\nHigh blood pressure is a major cardiovascular risk factor. There is overwhelming evidence that high salt consumption is a major cause of increased blood pressure. There is also a link between high salt consumption and risk of stroke, left ventricular hypertrophy, renal disease, obesity, renal stones and stomach cancer. Reducing salt consumption leads to a decrease in blood pressure and the incidence of cardiovascular disease. There are no deleterious effects associated with reducing salt consumption and it is also very cost-effective. Many organizations and state governments have issued recommendations regarding the suitable amount of salt consumption. In France, the objective is a salt consumption<8g/day in men and<6.5g/day in women and children. As 80% of consumed salt comes from manufactured products in developed countries, reduction of salt consumption requires the participation of the food industry. The other tool is consumer information and education. Salt consumption has already decreased in France in recent years, but efforts must continue. Copyright © 2013 Elsevier Masson SAS. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1148,
+  "sanitized_char_count": 1148,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1090,
+      "boundary_end": 1127,
+      "context": "Should we eat less salt? High blood pressure is a major cardiovascular risk factor. There is overwhelming evidence that high salt consumption is a major cause of increased blood pressure. There is also a link between high salt consumption and risk of stroke, left ventricular hypertrophy, renal disease, obesity, renal stones and stomach cancer. Reducing salt consumption leads to a decrease in blood pressure and the incidence of cardiovascular disease. There are no deleterious effects associated with reducing salt consumption and it is also very cost-effective. Many organizations and state governments have issued recommendations regarding the suitable amount of salt consumption. In France, the objective is a salt consumption<8g/day in men and<6.5g/day in women and children. As 80% of consumed salt comes from manufactured products in developed countries, reduction of salt consumption requires the participation of the food industry. The other tool is consumer information and education. Salt consumption has already decreased in France in recent years, but efforts must continue.",
+      "target": "Copyright © 2013 Elsevier Masson SAS.",
+      "loss_target": 1.5215301513671875,
+      "loss_target_given_context": 0.2781769335269928,
+      "delta_loss": 1.2433532178401947,
+      "gain_ratio": 0.8171729076304969,
+      "score": -0.8171729076304969,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

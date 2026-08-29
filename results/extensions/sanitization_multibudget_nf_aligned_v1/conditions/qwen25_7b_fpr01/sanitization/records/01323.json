@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2670",
+  "source_doc_id": "MED-2670",
+  "title": "Blueberries and neuronal aging.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Blueberries and neuronal aging.\nAs the population of people in the United States over the age of 65 years continues to increase, so too will the incidence of age-related pathologies, including decreases in cognitive and motor function. In cases of severe deficits in memory or motor function, hospitalization and/or custodial care would be a likely outcome. This means that unless some way is found to reduce these age-related decrements in neuronal function, health care costs will continue to rise exponentially. Evidence is accumulating that consumption of blueberries may be one strategy to forestall or even reverse age-related neuronal deficits, as well as their subsequent behavioral manifestations, in order to increase healthy aging. Research suggests that the polyphenolic compounds found in blueberries exert their beneficial effects either through their ability to lower oxidative stress and inflammation or directly by altering the signaling involved in neuronal communication. These interventions, in turn, may protect against age-related deficits in cognitive and motor function. Appropriately, the US Department of Agriculture has figured prominently in these discoveries, through the efforts of two USDA researchers who worked for the department 100 years apart. Copyright © 2012 S. Karger AG, Basel.",
+  "sanitized_text": "Blueberries and neuronal aging.\nAs the population of people in the United States over the age of 65 years continues to increase, so too will the incidence of age-related pathologies, including decreases in cognitive and motor function. In cases of severe deficits in memory or motor function, hospitalization and/or custodial care would be a likely outcome. This means that unless some way is found to reduce these age-related decrements in neuronal function, health care costs will continue to rise exponentially. Evidence is accumulating that consumption of blueberries may be one strategy to forestall or even reverse age-related neuronal deficits, as well as their subsequent behavioral manifestations, in order to increase healthy aging. Research suggests that the polyphenolic compounds found in blueberries exert their beneficial effects either through their ability to lower oxidative stress and inflammation or directly by altering the signaling involved in neuronal communication. These interventions, in turn, may protect against age-related deficits in cognitive and motor function.",
+  "modified": true,
+  "original_char_count": 1317,
+  "sanitized_char_count": 1094,
+  "deleted_char_count": 223,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1095,
+      "boundary_end": 1279,
+      "context": "Blueberries and neuronal aging. As the population of people in the United States over the age of 65 years continues to increase, so too will the incidence of age-related pathologies, including decreases in cognitive and motor function. In cases of severe deficits in memory or motor function, hospitalization and/or custodial care would be a likely outcome. This means that unless some way is found to reduce these age-related decrements in neuronal function, health care costs will continue to rise exponentially. Evidence is accumulating that consumption of blueberries may be one strategy to forestall or even reverse age-related neuronal deficits, as well as their subsequent behavioral manifestations, in order to increase healthy aging. Research suggests that the polyphenolic compounds found in blueberries exert their beneficial effects either through their ability to lower oxidative stress and inflammation or directly by altering the signaling involved in neuronal communication. These interventions, in turn, may protect against age-related deficits in cognitive and motor function.",
+      "target": "Appropriately, the US Department of Agriculture has figured prominently in these discoveries, through the efforts of two USDA researchers who worked for the department 100 years apart.",
+      "loss_target": 2.853419542312622,
+      "loss_target_given_context": 2.612234592437744,
+      "delta_loss": 0.24118494987487793,
+      "gain_ratio": 0.08452488191743575,
+      "score": -0.08452488191743575,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 991,
+      "boundary_end": 1094,
+      "context": "Blueberries and neuronal aging. As the population of people in the United States over the age of 65 years continues to increase, so too will the incidence of age-related pathologies, including decreases in cognitive and motor function. In cases of severe deficits in memory or motor function, hospitalization and/or custodial care would be a likely outcome. This means that unless some way is found to reduce these age-related decrements in neuronal function, health care costs will continue to rise exponentially. Evidence is accumulating that consumption of blueberries may be one strategy to forestall or even reverse age-related neuronal deficits, as well as their subsequent behavioral manifestations, in order to increase healthy aging. Research suggests that the polyphenolic compounds found in blueberries exert their beneficial effects either through their ability to lower oxidative stress and inflammation or directly by altering the signaling involved in neuronal communication.",
+      "target": "These interventions, in turn, may protect against age-related deficits in cognitive and motor function.",
+      "loss_target": 2.894615888595581,
+      "loss_target_given_context": 1.4383244514465332,
+      "delta_loss": 1.4562914371490479,
+      "gain_ratio": 0.5031035181167391,
+      "score": -0.5031035181167391,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1095,
+      "target": "Appropriately, the US Department of Agriculture has figured prominently in these discoveries, through the efforts of two USDA researchers who worked for the department 100 years apart.",
+      "score": -0.08452488191743575,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Appropriately, the US Department of Agriculture has figured prominently in these discoveries, through the efforts of two USDA researchers who worked for the department 100 years apart. Copyright © 2012 S. Karger AG, Basel.",
+      "deleted_char_count": 222
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

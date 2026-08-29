@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2491",
+  "source_doc_id": "MED-2491",
+  "title": "Arsenic and lead in juice: apple, citrus, and apple-base.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Arsenic and lead in juice: apple, citrus, and apple-base.\nExposure limits for arsenic and lead in drinking water have long been established by the U.S. Environmental Protection Agency and new regulations regarding the presence of these contaminants in bottled water went into effect in California in 2009. No comparable exposure limits or regulations are available, however, for juices and other beverages that may contain arsenic and lead. In the study described in this article, 20 apple juices (or ciders), 15 apple-containing juices, one grape, and one citrus juice were analyzed for arsenic and lead. Arsenic was detected in all juices while lead was detected in more than 94% of juices analyzed. Twelve samples (32%) demonstrated arsenic levels nearly at or above the drinking water exposure limit of 10 parts per billion. No juices contained lead above drinking water exposure limits. Expanding drinking water limits to include juices (and other frequently consumed beverages) would better protect consumers while regular testing of these juices would better inform consumers of the risks posed by specific juices and brands.",
+  "sanitized_text": "Arsenic and lead in juice: apple, citrus, and apple-base.\nExposure limits for arsenic and lead in drinking water have long been established by the U.S. Environmental Protection Agency and new regulations regarding the presence of these contaminants in bottled water went into effect in California in 2009. No comparable exposure limits or regulations are available, however, for juices and other beverages that may contain arsenic and lead. In the study described in this article, 20 apple juices (or ciders), 15 apple-containing juices, one grape, and one citrus juice were analyzed for arsenic and lead. Arsenic was detected in all juices while lead was detected in more than 94% of juices analyzed. Twelve samples (32%) demonstrated arsenic levels nearly at or above the drinking water exposure limit of 10 parts per billion. No juices contained lead above drinking water exposure limits. Expanding drinking water limits to include juices (and other frequently consumed beverages) would better protect consumers while regular testing of these juices would better inform consumers of the risks posed by specific juices and brands.",
+  "modified": false,
+  "original_char_count": 1132,
+  "sanitized_char_count": 1132,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 892,
+      "boundary_end": 1132,
+      "context": "Arsenic and lead in juice: apple, citrus, and apple-base. Exposure limits for arsenic and lead in drinking water have long been established by the U.S. Environmental Protection Agency and new regulations regarding the presence of these contaminants in bottled water went into effect in California in 2009. No comparable exposure limits or regulations are available, however, for juices and other beverages that may contain arsenic and lead. In the study described in this article, 20 apple juices (or ciders), 15 apple-containing juices, one grape, and one citrus juice were analyzed for arsenic and lead. Arsenic was detected in all juices while lead was detected in more than 94% of juices analyzed. Twelve samples (32%) demonstrated arsenic levels nearly at or above the drinking water exposure limit of 10 parts per billion. No juices contained lead above drinking water exposure limits.",
+      "target": "Expanding drinking water limits to include juices (and other frequently consumed beverages) would better protect consumers while regular testing of these juices would better inform consumers of the risks posed by specific juices and brands.",
+      "loss_target": 3.4996960163116455,
+      "loss_target_given_context": 2.2835240364074707,
+      "delta_loss": 1.2161719799041748,
+      "gain_ratio": 0.34750789046698605,
+      "score": -0.34750789046698605,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

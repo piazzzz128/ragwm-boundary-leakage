@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1256",
+  "source_doc_id": "MED-1256",
+  "title": "A meta-analysis of randomized controlled trials that compare the lipid effects of beef versus poultry and/or fish consumption.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A meta-analysis of randomized controlled trials that compare the lipid effects of beef versus poultry and/or fish consumption.\nBACKGROUND: Limited consumption of red meat, including beef, is one of many often-suggested strategies to reduce the risk of coronary heart disease (CHD). However, the role that beef consumption specifically plays in promoting adverse changes in the cardiovascular risk factor profile is unclear. OBJECTIVE: A meta-analysis of randomized, controlled, clinical trials (RCTs) was conducted to evaluate the effects of beef, independent of other red and processed meats, compared with poultry and/or fish consumption, on lipoprotein lipids. METHODS: RCTs published from 1950 to 2010 were considered for inclusion. Studies were included if they reported fasting lipoprotein lipid changes after beef and poultry/fish consumption by subjects free of chronic disease. A total of 124 RCTs were identified, and 8 studies involving 406 subjects met the prespecified entry criteria and were included in the analysis. RESULTS: Relative to the baseline diet, mean ± standard error changes (in mg/dL) after beef versus poultry/fish consumption, respectively, were -8.1 ± 2.8 vs. -6.2 ± 3.1 for total cholesterol (P = .630), -8.2 ± 4.2 vs. -8.9 ± 4.4 for low-density lipoprotein cholesterol (P = .905), -2.3 ± 1.0 vs. -1.9 ± 0.8 for high-density lipoprotein cholesterol (P = .762), and -8.1 ± 3.6 vs. -12.9 ± 4.0 mg/dL for triacylglycerols (P = .367). CONCLUSION: Changes in the fasting lipid profile were not significantly different with beef consumption compared with those with poultry and/or fish consumption. Inclusion of lean beef in the diet increases the variety of available food choices, which may improve long-term adherence with dietary recommendations for lipid management. Copyright © 2012 National Lipid Association. Published by Elsevier Inc. All rights reserved.",
+  "sanitized_text": "A meta-analysis of randomized controlled trials that compare the lipid effects of beef versus poultry and/or fish consumption.\nBACKGROUND: Limited consumption of red meat, including beef, is one of many often-suggested strategies to reduce the risk of coronary heart disease (CHD). However, the role that beef consumption specifically plays in promoting adverse changes in the cardiovascular risk factor profile is unclear. OBJECTIVE: A meta-analysis of randomized, controlled, clinical trials (RCTs) was conducted to evaluate the effects of beef, independent of other red and processed meats, compared with poultry and/or fish consumption, on lipoprotein lipids. METHODS: RCTs published from 1950 to 2010 were considered for inclusion. Studies were included if they reported fasting lipoprotein lipid changes after beef and poultry/fish consumption by subjects free of chronic disease. A total of 124 RCTs were identified, and 8 studies involving 406 subjects met the prespecified entry criteria and were included in the analysis. RESULTS: Relative to the baseline diet, mean ± standard error changes (in mg/dL) after beef versus poultry/fish consumption, respectively, were -8.1 ± 2.8 vs. -6.2 ± 3.1 for total cholesterol (P = .630), -8.2 ± 4.2 vs. -8.9 ± 4.4 for low-density lipoprotein cholesterol (P = .905), -2.3 ± 1.0 vs. -1.9 ± 0.8 for high-density lipoprotein cholesterol (P = .762), and -8.1 ± 3.6 vs. -12.9 ± 4.0 mg/dL for triacylglycerols (P = .367). CONCLUSION: Changes in the fasting lipid profile were not significantly different with beef consumption compared with those with poultry and/or fish consumption. Inclusion of lean beef in the diet increases the variety of available food choices, which may improve long-term adherence with dietary recommendations for lipid management. Copyright © 2012 National Lipid Association. Published by Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1890,
+  "sanitized_char_count": 1890,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1843,
+      "boundary_end": 1869,
+      "context": "lipoprotein lipids. METHODS: RCTs published from 1950 to 2010 were considered for inclusion. Studies were included if they reported fasting lipoprotein lipid changes after beef and poultry/fish consumption by subjects free of chronic disease. A total of 124 RCTs were identified, and 8 studies involving 406 subjects met the prespecified entry criteria and were included in the analysis. RESULTS: Relative to the baseline diet, mean ± standard error changes (in mg/dL) after beef versus poultry/fish consumption, respectively, were -8.1 ± 2.8 vs. -6.2 ± 3.1 for total cholesterol (P = .630), -8.2 ± 4.2 vs. -8.9 ± 4.4 for low-density lipoprotein cholesterol (P = .905), -2.3 ± 1.0 vs. -1.9 ± 0.8 for high-density lipoprotein cholesterol (P = .762), and -8.1 ± 3.6 vs. -12.9 ± 4.0 mg/dL for triacylglycerols (P = .367). CONCLUSION: Changes in the fasting lipid profile were not significantly different with beef consumption compared with those with poultry and/or fish consumption. Inclusion of lean beef in the diet increases the variety of available food choices, which may improve long-term adherence with dietary recommendations for lipid management. Copyright © 2012 National Lipid Association.",
+      "target": "Published by Elsevier Inc.",
+      "loss_target": 2.3177590370178223,
+      "loss_target_given_context": 0.085650235414505,
+      "delta_loss": 2.2321088016033173,
+      "gain_ratio": 0.9630461001137081,
+      "score": -0.9630461001137081,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2129",
+  "source_doc_id": "MED-2129",
+  "title": "Amino acid sensing mechanisms: an Achilles heel in cancer?",
+  "original_text": "Amino acid sensing mechanisms: an Achilles heel in cancer?\nThe act of increasing mass, either in non-dividing cells or in dividing cells seeking to provide new material for daughter cells, depends upon the continued presence of extracellular nutrients in order to conserve mass. For amino acid nutrients, it appears that their insufficiency for new protein synthesis is actively monitored by both prokaryotic and eukaryotic cells, eliciting appropriate cellular responses that may depend not only on bulk nutrient supply, but also on the abundance of specific amino acids. © 2012 The Author Journal compilation © 2012 FEBS.",
+  "sanitized_text": "Amino acid sensing mechanisms: an Achilles heel in cancer?\nThe act of increasing mass, either in non-dividing cells or in dividing cells seeking to provide new material for daughter cells, depends upon the continued presence of extracellular nutrients in order to conserve mass. For amino acid nutrients, it appears that their insufficiency for new protein synthesis is actively monitored by both prokaryotic and eukaryotic cells, eliciting appropriate cellular responses that may depend not only on bulk nutrient supply, but also on the abundance of specific amino acids.",
+  "modified": true,
+  "original_char_count": 623,
+  "sanitized_char_count": 572,
+  "deleted_char_count": 51,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 573,
+      "boundary_end": 623,
+      "context": "Amino acid sensing mechanisms: an Achilles heel in cancer? The act of increasing mass, either in non-dividing cells or in dividing cells seeking to provide new material for daughter cells, depends upon the continued presence of extracellular nutrients in order to conserve mass. For amino acid nutrients, it appears that their insufficiency for new protein synthesis is actively monitored by both prokaryotic and eukaryotic cells, eliciting appropriate cellular responses that may depend not only on bulk nutrient supply, but also on the abundance of specific amino acids.",
+      "target": "© 2012 The Author Journal compilation © 2012 FEBS.",
+      "loss_target": 1.47053861618042,
+      "loss_target_given_context": 1.420353889465332,
+      "delta_loss": 0.05018472671508789,
+      "gain_ratio": 0.03412676563736749,
+      "score": -0.03412676563736749,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 279,
+      "boundary_end": 572,
+      "context": "Amino acid sensing mechanisms: an Achilles heel in cancer? The act of increasing mass, either in non-dividing cells or in dividing cells seeking to provide new material for daughter cells, depends upon the continued presence of extracellular nutrients in order to conserve mass.",
+      "target": "For amino acid nutrients, it appears that their insufficiency for new protein synthesis is actively monitored by both prokaryotic and eukaryotic cells, eliciting appropriate cellular responses that may depend not only on bulk nutrient supply, but also on the abundance of specific amino acids.",
+      "loss_target": 2.791388750076294,
+      "loss_target_given_context": 2.4584031105041504,
+      "delta_loss": 0.33298563957214355,
+      "gain_ratio": 0.11929031367022684,
+      "score": -0.11929031367022684,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 573,
+      "target": "© 2012 The Author Journal compilation © 2012 FEBS.",
+      "score": -0.03412676563736749,
+      "deleted_suffix": "© 2012 The Author Journal compilation © 2012 FEBS.",
+      "deleted_char_count": 50
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

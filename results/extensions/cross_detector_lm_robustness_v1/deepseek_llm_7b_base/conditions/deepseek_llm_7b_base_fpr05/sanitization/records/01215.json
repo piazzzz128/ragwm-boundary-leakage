@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2489",
+  "source_doc_id": "MED-2489",
+  "title": "Agricultural policies, food and public health",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Agricultural policies, food and public health\nA historical view on how our agricultural systems evolved and how they are contributing to obesity and disease. The lifespan of moderately obese subjects tends to improve. One can find eggs utilized in various preparations featuring oats. Oats contain triglycerides, which are a type of fat. Dietary factors are measured in terms of eggs.",
+  "sanitized_text": "Agricultural policies, food and public health\nA historical view on how our agricultural systems evolved and how they are contributing to obesity and disease. The lifespan of moderately obese subjects tends to improve. One can find eggs utilized in various preparations featuring oats. Oats contain triglycerides, which are a type of fat. Dietary factors are measured in terms of eggs.",
+  "modified": false,
+  "original_char_count": 384,
+  "sanitized_char_count": 384,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 338,
+      "boundary_end": 384,
+      "context": "Agricultural policies, food and public health A historical view on how our agricultural systems evolved and how they are contributing to obesity and disease. The lifespan of moderately obese subjects tends to improve. One can find eggs utilized in various preparations featuring oats. Oats contain triglycerides, which are a type of fat.",
+      "target": "Dietary factors are measured in terms of eggs.",
+      "loss_target": 4.100985527038574,
+      "loss_target_given_context": 3.5418848991394043,
+      "delta_loss": 0.5591006278991699,
+      "gain_ratio": 0.13633323605092326,
+      "score": -0.13633323605092326,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

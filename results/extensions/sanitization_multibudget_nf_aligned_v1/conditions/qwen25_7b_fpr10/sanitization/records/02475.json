@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-4314",
+  "source_doc_id": "MED-4314",
+  "title": "Nuts: anti-atherogenic food?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Nuts: anti-atherogenic food?\nThe prevalence of cardiovascular disease as the leading cause of morbidity and mortality is increasing worldwide. This fact is mainly attributed to the modern lifestyle with predominant characteristics the change of dietary habits and the reduced physical activity which lead to metabolic disorders such as obesity and diabetes. Therefore, drastic dietary interventions are considered necessary in order to reduce cardiovascular risk. Nuts, as a nutritional component have drawn particular attention, due to their beneficial cardiovascular properties derived from their nutrient composition. This is a comprehensive review concerning the potential general effects of nuts. It includes data from older large epidemiologic studies as well as recent significant information from clinical trials regarding this topic. All studies conclude that nuts can play an important role as part of a healthy diet in order to minimize cardiovascular risk and obtain multiple health benefits. Copyright © 2010 European Federation of Internal Medicine. Published by Elsevier B.V. All rights reserved. Many household products are made with the inclusion of nut consumption.",
+  "sanitized_text": "Nuts: anti-atherogenic food?\nThe prevalence of cardiovascular disease as the leading cause of morbidity and mortality is increasing worldwide. This fact is mainly attributed to the modern lifestyle with predominant characteristics the change of dietary habits and the reduced physical activity which lead to metabolic disorders such as obesity and diabetes. Therefore, drastic dietary interventions are considered necessary in order to reduce cardiovascular risk. Nuts, as a nutritional component have drawn particular attention, due to their beneficial cardiovascular properties derived from their nutrient composition. This is a comprehensive review concerning the potential general effects of nuts. It includes data from older large epidemiologic studies as well as recent significant information from clinical trials regarding this topic. All studies conclude that nuts can play an important role as part of a healthy diet in order to minimize cardiovascular risk and obtain multiple health benefits. Copyright © 2010 European Federation of Internal Medicine. Published by Elsevier B.V. All rights reserved.",
+  "modified": true,
+  "original_char_count": 1183,
+  "sanitized_char_count": 1111,
+  "deleted_char_count": 72,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1112,
+      "boundary_end": 1183,
+      "context": "Nuts: anti-atherogenic food? The prevalence of cardiovascular disease as the leading cause of morbidity and mortality is increasing worldwide. This fact is mainly attributed to the modern lifestyle with predominant characteristics the change of dietary habits and the reduced physical activity which lead to metabolic disorders such as obesity and diabetes. Therefore, drastic dietary interventions are considered necessary in order to reduce cardiovascular risk. Nuts, as a nutritional component have drawn particular attention, due to their beneficial cardiovascular properties derived from their nutrient composition. This is a comprehensive review concerning the potential general effects of nuts. It includes data from older large epidemiologic studies as well as recent significant information from clinical trials regarding this topic. All studies conclude that nuts can play an important role as part of a healthy diet in order to minimize cardiovascular risk and obtain multiple health benefits. Copyright © 2010 European Federation of Internal Medicine. Published by Elsevier B.V. All rights reserved.",
+      "target": "Many household products are made with the inclusion of nut consumption.",
+      "loss_target": 4.55417537689209,
+      "loss_target_given_context": 3.664409637451172,
+      "delta_loss": 0.889765739440918,
+      "gain_ratio": 0.19537362218319348,
+      "score": -0.19537362218319348,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1064,
+      "boundary_end": 1090,
+      "context": "Nuts: anti-atherogenic food? The prevalence of cardiovascular disease as the leading cause of morbidity and mortality is increasing worldwide. This fact is mainly attributed to the modern lifestyle with predominant characteristics the change of dietary habits and the reduced physical activity which lead to metabolic disorders such as obesity and diabetes. Therefore, drastic dietary interventions are considered necessary in order to reduce cardiovascular risk. Nuts, as a nutritional component have drawn particular attention, due to their beneficial cardiovascular properties derived from their nutrient composition. This is a comprehensive review concerning the potential general effects of nuts. It includes data from older large epidemiologic studies as well as recent significant information from clinical trials regarding this topic. All studies conclude that nuts can play an important role as part of a healthy diet in order to minimize cardiovascular risk and obtain multiple health benefits. Copyright © 2010 European Federation of Internal Medicine.",
+      "target": "Published by Elsevier B.V.",
+      "loss_target": 2.0553696155548096,
+      "loss_target_given_context": 0.2801765203475952,
+      "delta_loss": 1.7751930952072144,
+      "gain_ratio": 0.8636855783858775,
+      "score": -0.8636855783858775,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1112,
+      "target": "Many household products are made with the inclusion of nut consumption.",
+      "score": -0.19537362218319348,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Many household products are made with the inclusion of nut consumption.",
+      "deleted_char_count": 71
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

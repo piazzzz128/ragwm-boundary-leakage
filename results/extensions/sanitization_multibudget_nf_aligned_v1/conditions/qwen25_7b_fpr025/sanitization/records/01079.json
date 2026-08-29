@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2305",
+  "source_doc_id": "MED-2305",
+  "title": "Healthy living is the best revenge: findings from the European Prospective Investigation Into Cancer and Nutrition-Potsdam study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Healthy living is the best revenge: findings from the European Prospective Investigation Into Cancer and Nutrition-Potsdam study.\nBACKGROUND: Our objective was to describe the reduction in relative risk of developing major chronic diseases such as cardiovascular disease, diabetes, and cancer associated with 4 healthy lifestyle factors among German adults. METHODS: We used data from 23,153 German participants aged 35 to 65 years from the European Prospective Investigation Into Cancer and Nutrition-Potsdam study. End points included confirmed incident type 2 diabetes mellitus, myocardial infarction, stroke, and cancer. The 4 factors were never smoking, having a body mass index lower than 30 (calculated as weight in kilograms divided by height in meters squared), performing 3.5 h/wk or more of physical activity, and adhering to healthy dietary principles (high intake of fruits, vegetables, and whole-grain bread and low meat consumption). The 4 factors (healthy, 1 point; unhealthy, 0 points) were summed to form an index that ranged from 0 to 4. RESULTS: During a mean follow-up of 7.8 years, 2006 participants developed new-onset diabetes (3.7%), myocardial infarction (0.9%), stroke (0.8%), or cancer (3.8%). Fewer than 4% of participants had zero healthy factors, most had 1 to 3 healthy factors, and approximately 9% had 4 factors. After adjusting for age, sex, educational status, and occupational status, the hazard ratio for developing a chronic disease decreased progressively as the number of healthy factors increased. Participants with all 4 factors at baseline had a 78% (95% confidence interval [CI], 72% to 83%) lower risk of developing a chronic disease (diabetes, 93% [95% CI, 88% to 95%]; myocardial infarction, 81% [95% CI, 47% to 93%]; stroke, 50% [95% CI, -18% to 79%]; and cancer, 36% [95% CI, 5% to 57%]) than participants without a healthy factor. CONCLUSION: Adhering to 4 simple healthy lifestyle factors can have a strong impact on the prevention of chronic diseases.",
+  "sanitized_text": "Healthy living is the best revenge: findings from the European Prospective Investigation Into Cancer and Nutrition-Potsdam study.\nBACKGROUND: Our objective was to describe the reduction in relative risk of developing major chronic diseases such as cardiovascular disease, diabetes, and cancer associated with 4 healthy lifestyle factors among German adults. METHODS: We used data from 23,153 German participants aged 35 to 65 years from the European Prospective Investigation Into Cancer and Nutrition-Potsdam study. End points included confirmed incident type 2 diabetes mellitus, myocardial infarction, stroke, and cancer. The 4 factors were never smoking, having a body mass index lower than 30 (calculated as weight in kilograms divided by height in meters squared), performing 3.5 h/wk or more of physical activity, and adhering to healthy dietary principles (high intake of fruits, vegetables, and whole-grain bread and low meat consumption). The 4 factors (healthy, 1 point; unhealthy, 0 points) were summed to form an index that ranged from 0 to 4. RESULTS: During a mean follow-up of 7.8 years, 2006 participants developed new-onset diabetes (3.7%), myocardial infarction (0.9%), stroke (0.8%), or cancer (3.8%). Fewer than 4% of participants had zero healthy factors, most had 1 to 3 healthy factors, and approximately 9% had 4 factors. After adjusting for age, sex, educational status, and occupational status, the hazard ratio for developing a chronic disease decreased progressively as the number of healthy factors increased. Participants with all 4 factors at baseline had a 78% (95% confidence interval [CI], 72% to 83%) lower risk of developing a chronic disease (diabetes, 93% [95% CI, 88% to 95%]; myocardial infarction, 81% [95% CI, 47% to 93%]; stroke, 50% [95% CI, -18% to 79%]; and cancer, 36% [95% CI, 5% to 57%]) than participants without a healthy factor. CONCLUSION: Adhering to 4 simple healthy lifestyle factors can have a strong impact on the prevention of chronic diseases.",
+  "modified": false,
+  "original_char_count": 2004,
+  "sanitized_char_count": 2004,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1882,
+      "boundary_end": 2004,
+      "context": "lower than 30 (calculated as weight in kilograms divided by height in meters squared), performing 3.5 h/wk or more of physical activity, and adhering to healthy dietary principles (high intake of fruits, vegetables, and whole-grain bread and low meat consumption). The 4 factors (healthy, 1 point; unhealthy, 0 points) were summed to form an index that ranged from 0 to 4. RESULTS: During a mean follow-up of 7.8 years, 2006 participants developed new-onset diabetes (3.7%), myocardial infarction (0.9%), stroke (0.8%), or cancer (3.8%). Fewer than 4% of participants had zero healthy factors, most had 1 to 3 healthy factors, and approximately 9% had 4 factors. After adjusting for age, sex, educational status, and occupational status, the hazard ratio for developing a chronic disease decreased progressively as the number of healthy factors increased. Participants with all 4 factors at baseline had a 78% (95% confidence interval [CI], 72% to 83%) lower risk of developing a chronic disease (diabetes, 93% [95% CI, 88% to 95%]; myocardial infarction, 81% [95% CI, 47% to 93%]; stroke, 50% [95% CI, -18% to 79%]; and cancer, 36% [95% CI, 5% to 57%]) than participants without a healthy factor.",
+      "target": "CONCLUSION: Adhering to 4 simple healthy lifestyle factors can have a strong impact on the prevention of chronic diseases.",
+      "loss_target": 2.5834789276123047,
+      "loss_target_given_context": 1.277357816696167,
+      "delta_loss": 1.3061211109161377,
+      "gain_ratio": 0.5055667754655453,
+      "score": -0.5055667754655453,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

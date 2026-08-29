@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1508",
+  "source_doc_id": "MED-1508",
+  "title": "Leisure Time Spent Sitting in Relation to Total Mortality in a Prospective Cohort of US Adults",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Leisure Time Spent Sitting in Relation to Total Mortality in a Prospective Cohort of US Adults\nThe obesity epidemic is attributed in part to reduced physical activity. Evidence supports that reducing time spent sitting, regardless of activity, may improve the metabolic consequences of obesity. Analyses were conducted in a large prospective study of US adults enrolled by the American Cancer Society to examine leisure time spent sitting and physical activity in relation to mortality. Time spent sitting and physical activity were queried by questionnaire on 53,440 men and 69,776 women who were disease free at enrollment. The authors identified 11,307 deaths in men and 7,923 deaths in women during the 14-year follow-up. After adjustment for smoking, body mass index, and other factors, time spent sitting (≥6 vs. <3 hours/day) was associated with mortality in both women (relative risk = 1.34, 95% confidence interval (CI): 1.25, 1.44) and men (relative risk = 1.17, 95% CI: 1.11, 1.24). Relative risks for sitting (≥6 hours/day) and physical activity (<24.5 metabolic equivalent (MET)-hours/week) combined were 1.94 (95% CI: 1.70, 2.20) for women and 1.48 (95% CI: 1.33, 1.65) for men, compared with those with the least time sitting and most activity. Associations were strongest for cardiovascular disease mortality. The time spent sitting was independently associated with total mortality, regardless of physical activity level. Public health messages should include both being physically active and reducing time spent sitting.",
+  "sanitized_text": "Leisure Time Spent Sitting in Relation to Total Mortality in a Prospective Cohort of US Adults\nThe obesity epidemic is attributed in part to reduced physical activity. Evidence supports that reducing time spent sitting, regardless of activity, may improve the metabolic consequences of obesity. Analyses were conducted in a large prospective study of US adults enrolled by the American Cancer Society to examine leisure time spent sitting and physical activity in relation to mortality. Time spent sitting and physical activity were queried by questionnaire on 53,440 men and 69,776 women who were disease free at enrollment. The authors identified 11,307 deaths in men and 7,923 deaths in women during the 14-year follow-up. After adjustment for smoking, body mass index, and other factors, time spent sitting (≥6 vs. <3 hours/day) was associated with mortality in both women (relative risk = 1.34, 95% confidence interval (CI): 1.25, 1.44) and men (relative risk = 1.17, 95% CI: 1.11, 1.24). Relative risks for sitting (≥6 hours/day) and physical activity (<24.5 metabolic equivalent (MET)-hours/week) combined were 1.94 (95% CI: 1.70, 2.20) for women and 1.48 (95% CI: 1.33, 1.65) for men, compared with those with the least time sitting and most activity. Associations were strongest for cardiovascular disease mortality. The time spent sitting was independently associated with total mortality, regardless of physical activity level. Public health messages should include both being physically active and reducing time spent sitting.",
+  "modified": false,
+  "original_char_count": 1538,
+  "sanitized_char_count": 1538,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1439,
+      "boundary_end": 1538,
+      "context": "may improve the metabolic consequences of obesity. Analyses were conducted in a large prospective study of US adults enrolled by the American Cancer Society to examine leisure time spent sitting and physical activity in relation to mortality. Time spent sitting and physical activity were queried by questionnaire on 53,440 men and 69,776 women who were disease free at enrollment. The authors identified 11,307 deaths in men and 7,923 deaths in women during the 14-year follow-up. After adjustment for smoking, body mass index, and other factors, time spent sitting (≥6 vs. <3 hours/day) was associated with mortality in both women (relative risk = 1.34, 95% confidence interval (CI): 1.25, 1.44) and men (relative risk = 1.17, 95% CI: 1.11, 1.24). Relative risks for sitting (≥6 hours/day) and physical activity (<24.5 metabolic equivalent (MET)-hours/week) combined were 1.94 (95% CI: 1.70, 2.20) for women and 1.48 (95% CI: 1.33, 1.65) for men, compared with those with the least time sitting and most activity. Associations were strongest for cardiovascular disease mortality. The time spent sitting was independently associated with total mortality, regardless of physical activity level.",
+      "target": "Public health messages should include both being physically active and reducing time spent sitting.",
+      "loss_target": 2.834866762161255,
+      "loss_target_given_context": 1.4306150674819946,
+      "delta_loss": 1.4042516946792603,
+      "gain_ratio": 0.4953501566361737,
+      "score": -0.4953501566361737,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

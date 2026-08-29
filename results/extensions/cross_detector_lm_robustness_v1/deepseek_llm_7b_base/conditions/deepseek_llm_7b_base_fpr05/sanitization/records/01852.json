@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3515",
+  "source_doc_id": "MED-3515",
+  "title": "The role of nerve blocks and botulinum toxin injections in the management of cluster headaches.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The role of nerve blocks and botulinum toxin injections in the management of cluster headaches.\nCluster headache (CH) is a primary headache syndrome that is classified with the trigeminal autonomic cephalalgias. CH treatment involves three steps: acute attack management, transitional therapy, and preventive therapy. Greater occipital nerve block has been shown to be an effective alternative bridge therapy to oral steroids in CH. Botulinum toxin type A has recently been studied as a new preventive treatment for patients with chronic CH, with limited success.",
+  "sanitized_text": "The role of nerve blocks and botulinum toxin injections in the management of cluster headaches.\nCluster headache (CH) is a primary headache syndrome that is classified with the trigeminal autonomic cephalalgias. CH treatment involves three steps: acute attack management, transitional therapy, and preventive therapy. Greater occipital nerve block has been shown to be an effective alternative bridge therapy to oral steroids in CH. Botulinum toxin type A has recently been studied as a new preventive treatment for patients with chronic CH, with limited success.",
+  "modified": false,
+  "original_char_count": 563,
+  "sanitized_char_count": 563,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 433,
+      "boundary_end": 563,
+      "context": "The role of nerve blocks and botulinum toxin injections in the management of cluster headaches. Cluster headache (CH) is a primary headache syndrome that is classified with the trigeminal autonomic cephalalgias. CH treatment involves three steps: acute attack management, transitional therapy, and preventive therapy. Greater occipital nerve block has been shown to be an effective alternative bridge therapy to oral steroids in CH.",
+      "target": "Botulinum toxin type A has recently been studied as a new preventive treatment for patients with chronic CH, with limited success.",
+      "loss_target": 2.7062103748321533,
+      "loss_target_given_context": 1.6228740215301514,
+      "delta_loss": 1.083336353302002,
+      "gain_ratio": 0.40031490654868007,
+      "score": -0.40031490654868007,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5347",
+  "source_doc_id": "MED-5347",
+  "title": "Effects of health care provider work hours and sleep deprivation on safety and performance.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of health care provider work hours and sleep deprivation on safety and performance.\nBACKGROUND: There has been increasing interest in the impact of resident-physician and nurse work hours on patient safety. The evidence demonstrates that work schedules have a profound effect on providers' sleep and performance, as well as on their safety and that of their patients. Nurses working shifts greater than 12.5 hours are at significantly increased risk of experiencing decreased vigilance on the job, suffering an occupational injury, or making a medical error. Physicians-in-training working traditional > 24-hour on-call shifts are at greatly increased risk of experiencing an occupational sharps injury or a motor vehicle crash on the drive home from work and of making a serious or even fatal medical error. As compared to when working 16-hours shifts, on-call residents have twice as many attentional failures when working overnight and commit 36% more serious medical errors. They also report making 300% more fatigue-related medical errors that lead to a patient's death. CONCLUSION: The weight of evidence strongly suggests that extended-duration work shifts significantly increase fatigue and impair performance and safety. From the standpoint of both providers and patients, the hours routinely worked by health care providers in the United States are unsafe. To reduce the unacceptably high rate of preventable fatigue-related medical error and injuries among health care workers, the United States must establish and enforce safe work-hour limits.",
+  "sanitized_text": "Effects of health care provider work hours and sleep deprivation on safety and performance.\nBACKGROUND: There has been increasing interest in the impact of resident-physician and nurse work hours on patient safety. The evidence demonstrates that work schedules have a profound effect on providers' sleep and performance, as well as on their safety and that of their patients. Nurses working shifts greater than 12.5 hours are at significantly increased risk of experiencing decreased vigilance on the job, suffering an occupational injury, or making a medical error. Physicians-in-training working traditional > 24-hour on-call shifts are at greatly increased risk of experiencing an occupational sharps injury or a motor vehicle crash on the drive home from work and of making a serious or even fatal medical error. As compared to when working 16-hours shifts, on-call residents have twice as many attentional failures when working overnight and commit 36% more serious medical errors. They also report making 300% more fatigue-related medical errors that lead to a patient's death. CONCLUSION: The weight of evidence strongly suggests that extended-duration work shifts significantly increase fatigue and impair performance and safety. From the standpoint of both providers and patients, the hours routinely worked by health care providers in the United States are unsafe. To reduce the unacceptably high rate of preventable fatigue-related medical error and injuries among health care workers, the United States must establish and enforce safe work-hour limits.",
+  "modified": false,
+  "original_char_count": 1564,
+  "sanitized_char_count": 1564,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1375,
+      "boundary_end": 1564,
+      "context": "and nurse work hours on patient safety. The evidence demonstrates that work schedules have a profound effect on providers' sleep and performance, as well as on their safety and that of their patients. Nurses working shifts greater than 12.5 hours are at significantly increased risk of experiencing decreased vigilance on the job, suffering an occupational injury, or making a medical error. Physicians-in-training working traditional > 24-hour on-call shifts are at greatly increased risk of experiencing an occupational sharps injury or a motor vehicle crash on the drive home from work and of making a serious or even fatal medical error. As compared to when working 16-hours shifts, on-call residents have twice as many attentional failures when working overnight and commit 36% more serious medical errors. They also report making 300% more fatigue-related medical errors that lead to a patient's death. CONCLUSION: The weight of evidence strongly suggests that extended-duration work shifts significantly increase fatigue and impair performance and safety. From the standpoint of both providers and patients, the hours routinely worked by health care providers in the United States are unsafe.",
+      "target": "To reduce the unacceptably high rate of preventable fatigue-related medical error and injuries among health care workers, the United States must establish and enforce safe work-hour limits.",
+      "loss_target": 2.6938588619232178,
+      "loss_target_given_context": 1.9677131175994873,
+      "delta_loss": 0.7261457443237305,
+      "gain_ratio": 0.26955597213631144,
+      "score": -0.26955597213631144,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

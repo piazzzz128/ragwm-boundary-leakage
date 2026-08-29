@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3754",
+  "source_doc_id": "MED-3754",
+  "title": "A survey of placebo use in a general hospital.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A survey of placebo use in a general hospital.\nTwo hundred thirty registered nurses and seventy physicians participated in a retrospective study scrutinizing placebo effects, prescribing patterns, and staff attitudes in a university-based general hospital setting. Despite copious experimental literature devoted to placebo effects over the past thirty years, the medical and surgical use of placebos seems to disregard experimental data. Although 80% of the staff had used placebos in the hospital, their knowledge of placebo effects was in many respects deficient. Within the hospital, 89% of placebo use was directed toward the amelioration of \"pain\"; the authors believe that emphasis should be placed on the education of staff to perceive emotional, social, and physiological concomitants of pain rather than resorting to a purely physicalistic approach. A need to acknowledge staff conflicts over the ethical use of placebos should be a significant part of this educational approach.",
+  "sanitized_text": "A survey of placebo use in a general hospital.\nTwo hundred thirty registered nurses and seventy physicians participated in a retrospective study scrutinizing placebo effects, prescribing patterns, and staff attitudes in a university-based general hospital setting. Despite copious experimental literature devoted to placebo effects over the past thirty years, the medical and surgical use of placebos seems to disregard experimental data. Although 80% of the staff had used placebos in the hospital, their knowledge of placebo effects was in many respects deficient. Within the hospital, 89% of placebo use was directed toward the amelioration of \"pain\"; the authors believe that emphasis should be placed on the education of staff to perceive emotional, social, and physiological concomitants of pain rather than resorting to a purely physicalistic approach. A need to acknowledge staff conflicts over the ethical use of placebos should be a significant part of this educational approach.",
+  "modified": false,
+  "original_char_count": 989,
+  "sanitized_char_count": 989,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 860,
+      "boundary_end": 989,
+      "context": "A survey of placebo use in a general hospital. Two hundred thirty registered nurses and seventy physicians participated in a retrospective study scrutinizing placebo effects, prescribing patterns, and staff attitudes in a university-based general hospital setting. Despite copious experimental literature devoted to placebo effects over the past thirty years, the medical and surgical use of placebos seems to disregard experimental data. Although 80% of the staff had used placebos in the hospital, their knowledge of placebo effects was in many respects deficient. Within the hospital, 89% of placebo use was directed toward the amelioration of \"pain\"; the authors believe that emphasis should be placed on the education of staff to perceive emotional, social, and physiological concomitants of pain rather than resorting to a purely physicalistic approach.",
+      "target": "A need to acknowledge staff conflicts over the ethical use of placebos should be a significant part of this educational approach.",
+      "loss_target": 4.434506893157959,
+      "loss_target_given_context": 2.6372575759887695,
+      "delta_loss": 1.7972493171691895,
+      "gain_ratio": 0.4052872981079772,
+      "score": -0.4052872981079772,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

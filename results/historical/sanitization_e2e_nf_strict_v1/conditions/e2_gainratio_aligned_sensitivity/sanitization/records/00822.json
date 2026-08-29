@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2011",
+  "source_doc_id": "MED-2011",
+  "title": "Exploratory study of the relationship between hypertension and diet diversity among Saba Islanders.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Exploratory study of the relationship between hypertension and diet diversity among Saba Islanders.\nThe relationship between diet diversity and hypertension was examined in a cross-sectional exploratory study of 82 randomly selected adult residents of Saba Island, Netherlands Antilles, in the eastern Caribbean Basin. Blood pressure measurements, taken over 4 years, and the appropriate use of antihypertensive medications, were used to identify chronic hypertensives. A 24-hour dietary recall, semi-quantitative food frequency interviews, and ethnographic confirmation techniques were used to calculate diet diversity, a measure of the overall dietary pattern. Results suggest hypertension is associated with lack of an overall balance of food groups in the daily diet beyond any imbalance of a particular dietary cation such as sodium, potassium, or calcium. Bivariate analyses found a significant association between a poorly diversified diet and hypertension (odds ratio [OR] = 4.25, 95 percent confidence intervals [CI] = 1.47,12.30). Dietary intake of sodium, potassium, and calcium was also examined and found not to be associated with the presence of hypertension in bivariate analyses. Including these cations individually in logistic regression models, which also included diet diversity, did not diminish the diet diversity-hypertension association. Multiple logistic regression models in which other potential confounding variables were individually entered as a control variable (body fat, skin color, age, sex, perceived stress, alcohol intake, aerobic activity, and socioeconomic status) did not alter this result. Analysis of the presence or absence of individual food groups indicate a lack of legumes in the daily diet is also associated with the diagnosis of hypertension (OR = 4.71, 95 percent CI = [1.71,13.01]).",
+  "sanitized_text": "Exploratory study of the relationship between hypertension and diet diversity among Saba Islanders.\nThe relationship between diet diversity and hypertension was examined in a cross-sectional exploratory study of 82 randomly selected adult residents of Saba Island, Netherlands Antilles, in the eastern Caribbean Basin. Blood pressure measurements, taken over 4 years, and the appropriate use of antihypertensive medications, were used to identify chronic hypertensives. A 24-hour dietary recall, semi-quantitative food frequency interviews, and ethnographic confirmation techniques were used to calculate diet diversity, a measure of the overall dietary pattern. Results suggest hypertension is associated with lack of an overall balance of food groups in the daily diet beyond any imbalance of a particular dietary cation such as sodium, potassium, or calcium. Bivariate analyses found a significant association between a poorly diversified diet and hypertension (odds ratio [OR] = 4.25, 95 percent confidence intervals [CI] = 1.47,12.30). Dietary intake of sodium, potassium, and calcium was also examined and found not to be associated with the presence of hypertension in bivariate analyses. Including these cations individually in logistic regression models, which also included diet diversity, did not diminish the diet diversity-hypertension association. Multiple logistic regression models in which other potential confounding variables were individually entered as a control variable (body fat, skin color, age, sex, perceived stress, alcohol intake, aerobic activity, and socioeconomic status) did not alter this result. Analysis of the presence or absence of individual food groups indicate a lack of legumes in the daily diet is also associated with the diagnosis of hypertension (OR = 4.71, 95 percent CI = [1.71,13.01]).",
+  "modified": false,
+  "original_char_count": 1834,
+  "sanitized_char_count": 1834,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1631,
+      "boundary_end": 1834,
+      "context": "to identify chronic hypertensives. A 24-hour dietary recall, semi-quantitative food frequency interviews, and ethnographic confirmation techniques were used to calculate diet diversity, a measure of the overall dietary pattern. Results suggest hypertension is associated with lack of an overall balance of food groups in the daily diet beyond any imbalance of a particular dietary cation such as sodium, potassium, or calcium. Bivariate analyses found a significant association between a poorly diversified diet and hypertension (odds ratio [OR] = 4.25, 95 percent confidence intervals [CI] = 1.47,12.30). Dietary intake of sodium, potassium, and calcium was also examined and found not to be associated with the presence of hypertension in bivariate analyses. Including these cations individually in logistic regression models, which also included diet diversity, did not diminish the diet diversity-hypertension association. Multiple logistic regression models in which other potential confounding variables were individually entered as a control variable (body fat, skin color, age, sex, perceived stress, alcohol intake, aerobic activity, and socioeconomic status) did not alter this result.",
+      "target": "Analysis of the presence or absence of individual food groups indicate a lack of legumes in the daily diet is also associated with the diagnosis of hypertension (OR = 4.71, 95 percent CI = [1.71,13.01]).",
+      "loss_target": 2.421422004699707,
+      "loss_target_given_context": 1.406371831893921,
+      "delta_loss": 1.0150501728057861,
+      "gain_ratio": 0.41919589845788474,
+      "score": -0.41919589845788474,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

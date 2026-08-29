@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4816",
+  "source_doc_id": "MED-4816",
+  "title": "Thermal stability of hepatitis E virus.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Thermal stability of hepatitis E virus.\nThe thermal stability of virulent hepatitis E virus (HEV) and hepatitis A virus (HAV) was compared. Fecal suspensions of virus were heated to temperatures between 45 degrees C and 70 degrees C, and residual infectivity was determined in a cell culture system that was permissive for both viruses. Although HEV was less stable than was HAV, some HEV would most likely survive the internal temperatures of rare-cooked meat.",
+  "sanitized_text": "Thermal stability of hepatitis E virus.\nThe thermal stability of virulent hepatitis E virus (HEV) and hepatitis A virus (HAV) was compared. Fecal suspensions of virus were heated to temperatures between 45 degrees C and 70 degrees C, and residual infectivity was determined in a cell culture system that was permissive for both viruses. Although HEV was less stable than was HAV, some HEV would most likely survive the internal temperatures of rare-cooked meat.",
+  "modified": false,
+  "original_char_count": 461,
+  "sanitized_char_count": 461,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 337,
+      "boundary_end": 461,
+      "context": "Thermal stability of hepatitis E virus. The thermal stability of virulent hepatitis E virus (HEV) and hepatitis A virus (HAV) was compared. Fecal suspensions of virus were heated to temperatures between 45 degrees C and 70 degrees C, and residual infectivity was determined in a cell culture system that was permissive for both viruses.",
+      "target": "Although HEV was less stable than was HAV, some HEV would most likely survive the internal temperatures of rare-cooked meat.",
+      "loss_target": 3.851578950881958,
+      "loss_target_given_context": 2.700282573699951,
+      "delta_loss": 1.1512963771820068,
+      "gain_ratio": 0.2989154297144489,
+      "score": -0.2989154297144489,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

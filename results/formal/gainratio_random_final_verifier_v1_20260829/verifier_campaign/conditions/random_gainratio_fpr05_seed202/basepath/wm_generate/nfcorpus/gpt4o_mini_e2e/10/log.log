@@ -1,0 +1,14 @@
+This is a newly created file.
+[2026-08-29 17:10:53] {main.py:539} INFO - args:Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/gainratio_random_final_verifier_v1_20260829/verifier_campaign/conditions/random_gainratio_fpr05_seed202/basepath')
+[2026-08-29 17:10:53] {main.py:548} INFO - llm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+[2026-08-29 17:10:53] {main.py:552} INFO - rllm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+[2026-08-29 17:10:53] {main.py:584} INFO - datalen:3633, collection_len:3633
+[2026-08-29 17:10:53] {main.py:268} ERROR - /root/autodl-tmp/ragwm_storage/output/gainratio_random_final_verifier_v1_20260829/verifier_campaign/conditions/random_gainratio_fpr05_seed202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json does not exist!
+[2026-08-29 17:11:05] {main.py:464} INFO - total-5, correct-3-0.60, wrong-2-0.40,                 unknow-0-0.00 db_search-5-1.00,                  wmunit_exist-5-1.00, wmunit_WE-3-0.60
+[2026-08-29 17:11:14] {main.py:464} INFO - total-10, correct-7-0.70, wrong-3-0.30,                 unknow-0-0.00 db_search-10-1.00,                  wmunit_exist-10-1.00, wmunit_WE-7-0.70
+[2026-08-29 17:11:26] {main.py:464} INFO - total-15, correct-12-0.80, wrong-3-0.20,                 unknow-0-0.00 db_search-15-1.00,                  wmunit_exist-15-1.00, wmunit_WE-12-0.80
+[2026-08-29 17:11:37] {main.py:464} INFO - total-20, correct-16-0.80, wrong-4-0.20,                 unknow-0-0.00 db_search-20-1.00,                  wmunit_exist-19-0.95, wmunit_WE-16-0.80
+[2026-08-29 17:11:53] {main.py:464} INFO - total-25, correct-21-0.84, wrong-4-0.16,                 unknow-0-0.00 db_search-25-1.00,                  wmunit_exist-24-0.96, wmunit_WE-21-0.84
+[2026-08-29 17:12:06] {main.py:464} INFO - total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-29-0.97,                  wmunit_exist-27-0.90, wmunit_WE-25-0.83
+[2026-08-29 17:12:06] {main.py:464} INFO - total-30, correct-25-0.83, wrong-5-0.17,                 unknow-0-0.00 db_search-29-0.97,                  wmunit_exist-27-0.90, wmunit_WE-25-0.83
+[2026-08-29 17:12:06] {main.py:364} INFO - verify watermark doc len :30

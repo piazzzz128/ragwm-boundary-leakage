@@ -1,0 +1,48 @@
+Fri Aug 21 11:32:46 UTC 2026
+nohup: ignoring input
+Loading checkpoint shards:   0%|                                                                 | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|███████▏                                                 | 1/8 [00:00<00:06,  1.16it/s]Loading checkpoint shards:  25%|██████████████▎                                          | 2/8 [00:01<00:05,  1.17it/s]Loading checkpoint shards:  38%|█████████████████████▍                                   | 3/8 [00:02<00:04,  1.21it/s]Loading checkpoint shards:  50%|████████████████████████████▌                            | 4/8 [00:03<00:03,  1.25it/s]Loading checkpoint shards:  62%|███████████████████████████████████▋                     | 5/8 [00:04<00:02,  1.22it/s]Loading checkpoint shards:  75%|██████████████████████████████████████████▊              | 6/8 [00:04<00:01,  1.20it/s]Loading checkpoint shards:  88%|█████████████████████████████████████████████████▉       | 7/8 [00:05<00:00,  1.17it/s]Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 8/8 [00:06<00:00,  1.42it/s]Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 8/8 [00:06<00:00,  1.28it/s]
+trec-covid: scored 25/458
+trec-covid: scored 50/458
+trec-covid: scored 75/458
+trec-covid: scored 100/458
+trec-covid: scored 125/458
+trec-covid: scored 150/458
+trec-covid: scored 175/458
+trec-covid: scored 200/458
+trec-covid: scored 225/458
+trec-covid: scored 250/458
+trec-covid: scored 275/458
+trec-covid: scored 300/458
+trec-covid: scored 325/458
+trec-covid: scored 350/458
+trec-covid: scored 375/458
+trec-covid: scored 400/458
+trec-covid: scored 425/458
+trec-covid: scored 450/458
+trec-covid: scored 458/458
+{
+  "experiment_role": "cross_detector_lm_robustness_aligned_v1",
+  "dataset": "trec-covid",
+  "model": "Qwen2.5-14B",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-14B",
+  "input": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3.json",
+  "input_sha256": "d526aa72f48662521b67339f58849c1ea6c26de4042eb8b3dd842403f8ed293f",
+  "preflight": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/audit/preflight.json",
+  "preflight_sha256": "af06ea8ad861bd063a8f260adc2ebe9335ad06b8baf299d95262da3c64302ea5",
+  "precision": "bfloat16",
+  "quantized": false,
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "max_context_tokens": 1024,
+  "max_target_tokens": 128,
+  "requested_record_count": 458,
+  "completed_record_count": 458,
+  "failed_record_count": 0,
+  "failures": [],
+  "complete": true,
+  "scores": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/scores/qwen14b_trec_aligned_scores.json",
+  "scores_sha256": "f25ee58f287f585490fe258306e8c73000d327207d3db24a5bf65b4341c18691",
+  "warning": "Qwen2.5-14B cross-detector extension only; do not overwrite Qwen2.5-7B or sealed strict-v1 scores."
+}
+QWEN2.5-14B TREC-COVID ALIGNED SCORING PASS

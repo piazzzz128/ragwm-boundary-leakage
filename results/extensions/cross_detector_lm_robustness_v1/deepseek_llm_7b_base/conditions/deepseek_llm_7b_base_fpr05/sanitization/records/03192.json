@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5133",
+  "source_doc_id": "MED-5133",
+  "title": "[Floppy baby with macrocytic anemia and vegan mother].",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "[Floppy baby with macrocytic anemia and vegan mother].\nWe report the case of a 7 month-old girl that presented with acute anemia, generalized muscular hypotonia and failure to thrive. Laboratory evaluation revealed cobalamin deficiency, due to a vegan diet of the mother. The clinical triad of an acquired floppy baby syndrome with megaloblastic anemia and failure to thrive is pathognomic for infantile cobalamin deficiency. Neurological abnormalities are often irreversible and may be associated with delayed myelinization in the MRI. A normal cobalamin level in maternal serum and absence of anemia do not exclude subclinical deficiency. If cobalamin deficiency is suspected, e.g. in pregnant women on vegan diet, urinary methylmalonic acid excretion and plasma homocysteine levels should be determined and cobalamin substitution should be started at an early stage to avoid potentially irreversible damage of the fetus.",
+  "sanitized_text": "[Floppy baby with macrocytic anemia and vegan mother].\nWe report the case of a 7 month-old girl that presented with acute anemia, generalized muscular hypotonia and failure to thrive. Laboratory evaluation revealed cobalamin deficiency, due to a vegan diet of the mother. The clinical triad of an acquired floppy baby syndrome with megaloblastic anemia and failure to thrive is pathognomic for infantile cobalamin deficiency. Neurological abnormalities are often irreversible and may be associated with delayed myelinization in the MRI. A normal cobalamin level in maternal serum and absence of anemia do not exclude subclinical deficiency. If cobalamin deficiency is suspected, e.g. in pregnant women on vegan diet, urinary methylmalonic acid excretion and plasma homocysteine levels should be determined and cobalamin substitution should be started at an early stage to avoid potentially irreversible damage of the fetus.",
+  "modified": false,
+  "original_char_count": 923,
+  "sanitized_char_count": 923,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 684,
+      "boundary_end": 923,
+      "context": "[Floppy baby with macrocytic anemia and vegan mother]. We report the case of a 7 month-old girl that presented with acute anemia, generalized muscular hypotonia and failure to thrive. Laboratory evaluation revealed cobalamin deficiency, due to a vegan diet of the mother. The clinical triad of an acquired floppy baby syndrome with megaloblastic anemia and failure to thrive is pathognomic for infantile cobalamin deficiency. Neurological abnormalities are often irreversible and may be associated with delayed myelinization in the MRI. A normal cobalamin level in maternal serum and absence of anemia do not exclude subclinical deficiency. If cobalamin deficiency is suspected, e.g.",
+      "target": "in pregnant women on vegan diet, urinary methylmalonic acid excretion and plasma homocysteine levels should be determined and cobalamin substitution should be started at an early stage to avoid potentially irreversible damage of the fetus.",
+      "loss_target": 2.8300020694732666,
+      "loss_target_given_context": 1.7655749320983887,
+      "delta_loss": 1.064427137374878,
+      "gain_ratio": 0.37612238833909906,
+      "score": -0.37612238833909906,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

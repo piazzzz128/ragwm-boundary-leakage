@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2544",
+  "source_doc_id": "MED-2544",
+  "title": "Suppression of colonic cancer by dietary phytic acid.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Suppression of colonic cancer by dietary phytic acid.\nLarge differences exist between human populations in the frequency of colonic cancer. Epidemiological evidence indicates that these differences are strongly influenced by country of residence, and a negative correlation has been found between the fiber content of the diet and frequency of colonic cancer. This has prompted the hypothesis that high-fiber diets are in some way protective. However, reanalysis of the dietary data provides equally strong support for the hypothesis that the protective element may be phytic acid (inositol hexaphosphate). This heat- and acid-stable substance is present in high concentration in many food items, including cereal grains, nuts, and seeds. Phytic acid forms chelates with various metals and suppresses damaging iron-catalyzed redox reactions. Inasmuch as colonic bacteria have been shown to produce oxygen radicals in appreciable amounts, dietary phytic acid might suppress oxidant damage to intestinal epithelium and neighboring cells. Indeed, rapidly accumulating data from animal models indicate that dietary supplementation with phytic acid may provide substantial protection against experimentally induced colonic cancer. Should further investigations yield additional support for this hypothesis, purposeful amplification of dietary phytic acid content would represent a simple method for reducing the risk of colonic carcinogenesis.",
+  "sanitized_text": "Suppression of colonic cancer by dietary phytic acid.\nLarge differences exist between human populations in the frequency of colonic cancer. Epidemiological evidence indicates that these differences are strongly influenced by country of residence, and a negative correlation has been found between the fiber content of the diet and frequency of colonic cancer. This has prompted the hypothesis that high-fiber diets are in some way protective. However, reanalysis of the dietary data provides equally strong support for the hypothesis that the protective element may be phytic acid (inositol hexaphosphate). This heat- and acid-stable substance is present in high concentration in many food items, including cereal grains, nuts, and seeds. Phytic acid forms chelates with various metals and suppresses damaging iron-catalyzed redox reactions. Inasmuch as colonic bacteria have been shown to produce oxygen radicals in appreciable amounts, dietary phytic acid might suppress oxidant damage to intestinal epithelium and neighboring cells. Indeed, rapidly accumulating data from animal models indicate that dietary supplementation with phytic acid may provide substantial protection against experimentally induced colonic cancer. Should further investigations yield additional support for this hypothesis, purposeful amplification of dietary phytic acid content would represent a simple method for reducing the risk of colonic carcinogenesis.",
+  "modified": false,
+  "original_char_count": 1438,
+  "sanitized_char_count": 1438,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1226,
+      "boundary_end": 1438,
+      "context": "by dietary phytic acid. Large differences exist between human populations in the frequency of colonic cancer. Epidemiological evidence indicates that these differences are strongly influenced by country of residence, and a negative correlation has been found between the fiber content of the diet and frequency of colonic cancer. This has prompted the hypothesis that high-fiber diets are in some way protective. However, reanalysis of the dietary data provides equally strong support for the hypothesis that the protective element may be phytic acid (inositol hexaphosphate). This heat- and acid-stable substance is present in high concentration in many food items, including cereal grains, nuts, and seeds. Phytic acid forms chelates with various metals and suppresses damaging iron-catalyzed redox reactions. Inasmuch as colonic bacteria have been shown to produce oxygen radicals in appreciable amounts, dietary phytic acid might suppress oxidant damage to intestinal epithelium and neighboring cells. Indeed, rapidly accumulating data from animal models indicate that dietary supplementation with phytic acid may provide substantial protection against experimentally induced colonic cancer.",
+      "target": "Should further investigations yield additional support for this hypothesis, purposeful amplification of dietary phytic acid content would represent a simple method for reducing the risk of colonic carcinogenesis.",
+      "loss_target": 9.031448364257812,
+      "loss_target_given_context": 4.099216938018799,
+      "delta_loss": 4.932231426239014,
+      "gain_ratio": 0.5461174362418375,
+      "score": -0.5461174362418375,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,45 @@
+{
+  "internal_id": "MED-2322",
+  "source_doc_id": "MED-2322",
+  "title": "From exotic spice to modern drug?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "From exotic spice to modern drug?\nThe global demand for more affordable therapeutics and concerns about side effects of commonly used drugs are refocusing interest on Eastern traditional medicines, particularly those of India and China.",
+  "sanitized_text": "From exotic spice to modern drug?",
+  "modified": true,
+  "original_char_count": 236,
+  "sanitized_char_count": 33,
+  "deleted_char_count": 203,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 34,
+      "boundary_end": 236,
+      "context": "From exotic spice to modern drug?",
+      "target": "The global demand for more affordable therapeutics and concerns about side effects of commonly used drugs are refocusing interest on Eastern traditional medicines, particularly those of India and China.",
+      "loss_target": 9.260767936706543,
+      "loss_target_given_context": 8.432283401489258,
+      "delta_loss": 0.8284845352172852,
+      "gain_ratio": 0.08946175315909316,
+      "score": -0.08946175315909316,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": true
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 34,
+      "target": "The global demand for more affordable therapeutics and concerns about side effects of commonly used drugs are refocusing interest on Eastern traditional medicines, particularly those of India and China.",
+      "score": -0.08946175315909316,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "The global demand for more affordable therapeutics and concerns about side effects of commonly used drugs are refocusing interest on Eastern traditional medicines, particularly those of India and China.",
+      "deleted_char_count": 202
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "empty_context"
+}

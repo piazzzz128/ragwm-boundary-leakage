@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-5286",
+  "source_doc_id": "MED-5286",
+  "title": "Dark chocolate: an obesity paradox or a culprit for weight gain?",
+  "original_text": "Dark chocolate: an obesity paradox or a culprit for weight gain?\nObesity remains a major public health challenge, and its prevalence is dramatically increasing. Diet and exercise are typically recommended to prevent and manage obesity; however, the results are often conflicting. Polyphenols, a class of phytochemicals that have been shown to reduce the risk factors for diabetes type II and cardiovascular diseases, are recently suggested as complementary agents in the management of obesity through several mechanisms such as decreasing fat absorption and/or fat synthesis. Dark chocolate, a high source of polyphenols, and flavanols in particular, has lately received attention for its possible role in modulating obesity because of its potential effect on fat and carbohydrate metabolism, as well as on satiety. This outcome was investigated in animal models of obesity, cell cultures and few human observational and clinical studies. The research undertaken to date has shown promising results, with the possible implication of cocoa/dark chocolate in the modulation of obesity and body weight through several mechanisms including decreasing the expression of genes involved in fatty acid synthesis, reducing the digestion and absorption of fats and carbohydrates and increasing satiety. Copyright © 2013 John Wiley & Sons, Ltd.",
+  "sanitized_text": "Dark chocolate: an obesity paradox or a culprit for weight gain?\nObesity remains a major public health challenge, and its prevalence is dramatically increasing. Diet and exercise are typically recommended to prevent and manage obesity; however, the results are often conflicting. Polyphenols, a class of phytochemicals that have been shown to reduce the risk factors for diabetes type II and cardiovascular diseases, are recently suggested as complementary agents in the management of obesity through several mechanisms such as decreasing fat absorption and/or fat synthesis. Dark chocolate, a high source of polyphenols, and flavanols in particular, has lately received attention for its possible role in modulating obesity because of its potential effect on fat and carbohydrate metabolism, as well as on satiety. This outcome was investigated in animal models of obesity, cell cultures and few human observational and clinical studies. The research undertaken to date has shown promising results, with the possible implication of cocoa/dark chocolate in the modulation of obesity and body weight through several mechanisms including decreasing the expression of genes involved in fatty acid synthesis, reducing the digestion and absorption of fats and carbohydrates and increasing satiety.",
+  "modified": true,
+  "original_char_count": 1333,
+  "sanitized_char_count": 1292,
+  "deleted_char_count": 41,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1293,
+      "boundary_end": 1333,
+      "context": "health challenge, and its prevalence is dramatically increasing. Diet and exercise are typically recommended to prevent and manage obesity; however, the results are often conflicting. Polyphenols, a class of phytochemicals that have been shown to reduce the risk factors for diabetes type II and cardiovascular diseases, are recently suggested as complementary agents in the management of obesity through several mechanisms such as decreasing fat absorption and/or fat synthesis. Dark chocolate, a high source of polyphenols, and flavanols in particular, has lately received attention for its possible role in modulating obesity because of its potential effect on fat and carbohydrate metabolism, as well as on satiety. This outcome was investigated in animal models of obesity, cell cultures and few human observational and clinical studies. The research undertaken to date has shown promising results, with the possible implication of cocoa/dark chocolate in the modulation of obesity and body weight through several mechanisms including decreasing the expression of genes involved in fatty acid synthesis, reducing the digestion and absorption of fats and carbohydrates and increasing satiety.",
+      "target": "Copyright © 2013 John Wiley & Sons, Ltd.",
+      "loss_target": 0.7814512252807617,
+      "loss_target_given_context": 1.5487159490585327,
+      "delta_loss": -0.767264723777771,
+      "gain_ratio": -0.9818459539840202,
+      "score": 0.9818459539840202,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 939,
+      "boundary_end": 1292,
+      "context": "Dark chocolate: an obesity paradox or a culprit for weight gain? Obesity remains a major public health challenge, and its prevalence is dramatically increasing. Diet and exercise are typically recommended to prevent and manage obesity; however, the results are often conflicting. Polyphenols, a class of phytochemicals that have been shown to reduce the risk factors for diabetes type II and cardiovascular diseases, are recently suggested as complementary agents in the management of obesity through several mechanisms such as decreasing fat absorption and/or fat synthesis. Dark chocolate, a high source of polyphenols, and flavanols in particular, has lately received attention for its possible role in modulating obesity because of its potential effect on fat and carbohydrate metabolism, as well as on satiety. This outcome was investigated in animal models of obesity, cell cultures and few human observational and clinical studies.",
+      "target": "The research undertaken to date has shown promising results, with the possible implication of cocoa/dark chocolate in the modulation of obesity and body weight through several mechanisms including decreasing the expression of genes involved in fatty acid synthesis, reducing the digestion and absorption of fats and carbohydrates and increasing satiety.",
+      "loss_target": 2.517200231552124,
+      "loss_target_given_context": 2.0099031925201416,
+      "delta_loss": 0.5072970390319824,
+      "gain_ratio": 0.20153225503208355,
+      "score": -0.20153225503208355,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1293,
+      "target": "Copyright © 2013 John Wiley & Sons, Ltd.",
+      "score": 0.9818459539840202,
+      "deleted_suffix": "Copyright © 2013 John Wiley & Sons, Ltd.",
+      "deleted_char_count": 40
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

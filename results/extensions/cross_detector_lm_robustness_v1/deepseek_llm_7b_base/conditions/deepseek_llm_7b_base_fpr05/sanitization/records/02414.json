@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4222",
+  "source_doc_id": "MED-4222",
+  "title": "Growth Hormone Receptor Deficiency is Associated With a Major Reduction in Pro-aging Signaling, Cancer and Diabetes in Humans",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Growth Hormone Receptor Deficiency is Associated With a Major Reduction in Pro-aging Signaling, Cancer and Diabetes in Humans\nLife span extending mutations in growth signaling pathways protect against age-dependent DNA damage in yeast and decrease insulin resistance and cancer in mice. To test their effect in humans, we monitored for 22 years Ecuadorian subjects with mutations in the growth hormone receptor gene leading to severe growth hormone receptor (GHR) and IGF-I deficiencies and combined this information with surveys to identify the cause and age of death for subjects who died before this period. The individuals with GHR deficiency (GHRD) exhibited only one non-lethal malignancy and no cases of diabetes, in contrast to 17% cancer and 5% diabetes prevalence in the controls. A possible explanation for the very low incidence of cancer may be revealed by in vitro studies: serum from GHRD subjects reduced DNA breaks but increased apoptosis in human mammary epithelial cells (HMECs) treated with hydrogen peroxide. We also observed reduced insulin concentrations (1.4 μU/ml vs. 4.4μU/ml in unaffected relatives) and a very low homoeostasis model assessment of insulin resistance (HOMA-IR) index (0.34 vs. 0.96 in unaffected relatives) in GHRD individuals, indicating increased insulin sensitivity, which could explain the absence of diabetes in these subjects. Incubation of HMECs with GHRD serum also resulted in reduced expression of RAS, PKA and TOR, and up-regulation of SOD2, changes that promote cellular protection and life span extension in model organisms. These results provide evidence for a role of evolutionarily conserved pathways in promoting aging and diseases in humans and identify a candidate drug target for healthy life span extension.",
+  "sanitized_text": "Growth Hormone Receptor Deficiency is Associated With a Major Reduction in Pro-aging Signaling, Cancer and Diabetes in Humans\nLife span extending mutations in growth signaling pathways protect against age-dependent DNA damage in yeast and decrease insulin resistance and cancer in mice. To test their effect in humans, we monitored for 22 years Ecuadorian subjects with mutations in the growth hormone receptor gene leading to severe growth hormone receptor (GHR) and IGF-I deficiencies and combined this information with surveys to identify the cause and age of death for subjects who died before this period. The individuals with GHR deficiency (GHRD) exhibited only one non-lethal malignancy and no cases of diabetes, in contrast to 17% cancer and 5% diabetes prevalence in the controls. A possible explanation for the very low incidence of cancer may be revealed by in vitro studies: serum from GHRD subjects reduced DNA breaks but increased apoptosis in human mammary epithelial cells (HMECs) treated with hydrogen peroxide. We also observed reduced insulin concentrations (1.4 μU/ml vs. 4.4μU/ml in unaffected relatives) and a very low homoeostasis model assessment of insulin resistance (HOMA-IR) index (0.34 vs. 0.96 in unaffected relatives) in GHRD individuals, indicating increased insulin sensitivity, which could explain the absence of diabetes in these subjects. Incubation of HMECs with GHRD serum also resulted in reduced expression of RAS, PKA and TOR, and up-regulation of SOD2, changes that promote cellular protection and life span extension in model organisms. These results provide evidence for a role of evolutionarily conserved pathways in promoting aging and diseases in humans and identify a candidate drug target for healthy life span extension.",
+  "modified": false,
+  "original_char_count": 1771,
+  "sanitized_char_count": 1771,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1581,
+      "boundary_end": 1771,
+      "context": "the growth hormone receptor gene leading to severe growth hormone receptor (GHR) and IGF-I deficiencies and combined this information with surveys to identify the cause and age of death for subjects who died before this period. The individuals with GHR deficiency (GHRD) exhibited only one non-lethal malignancy and no cases of diabetes, in contrast to 17% cancer and 5% diabetes prevalence in the controls. A possible explanation for the very low incidence of cancer may be revealed by in vitro studies: serum from GHRD subjects reduced DNA breaks but increased apoptosis in human mammary epithelial cells (HMECs) treated with hydrogen peroxide. We also observed reduced insulin concentrations (1.4 μU/ml vs. 4.4μU/ml in unaffected relatives) and a very low homoeostasis model assessment of insulin resistance (HOMA-IR) index (0.34 vs. 0.96 in unaffected relatives) in GHRD individuals, indicating increased insulin sensitivity, which could explain the absence of diabetes in these subjects. Incubation of HMECs with GHRD serum also resulted in reduced expression of RAS, PKA and TOR, and up-regulation of SOD2, changes that promote cellular protection and life span extension in model organisms.",
+      "target": "These results provide evidence for a role of evolutionarily conserved pathways in promoting aging and diseases in humans and identify a candidate drug target for healthy life span extension.",
+      "loss_target": 2.9796817302703857,
+      "loss_target_given_context": 2.3260245323181152,
+      "delta_loss": 0.6536571979522705,
+      "gain_ratio": 0.2193714823002105,
+      "score": -0.2193714823002105,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

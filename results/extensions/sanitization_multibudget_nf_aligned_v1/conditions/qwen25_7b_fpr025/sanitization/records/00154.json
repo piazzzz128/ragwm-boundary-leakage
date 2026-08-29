@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1201",
+  "source_doc_id": "MED-1201",
+  "title": "Dietary folate and the risk of depression in Finnish middle-aged men. A prospective follow-up study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary folate and the risk of depression in Finnish middle-aged men. A prospective follow-up study.\nBACKGROUND: Several cross-sectional studies have focused on the low blood folate levels of depressive patients. Nevertheless, no prospective studies have been published on the association between dietary folate and depression. METHODS: We studied the association between dietary folate and cobalamin and receiving a discharge diagnosis of depression in a prospective follow-up setting. Our cohort was recruited between 1984 and 1989 and followed until the end of 2000, and it consisted of 2,313 men aged between 42 and 60 years from eastern Finland. RESULTS: The mean intake of folate in the whole cohort was 256 microg/day (SD=76). Those below the median of energy-adjusted folate intake had higher risk of getting discharge diagnosis of depression (RR 3.04, 95% CI: 1.58, 5.86) during the follow-up period than those who had a folate intake above the median. This excess risk remained significant after adjustment for current socioeconomic status, the baseline HPL depression score, the energy-adjusted daily intake of fibre and vitamin C, and the total fat intake. CONCLUSIONS: A low dietary intake of folate may be a risk factor for severe depression. This also indicates that nutrition may have a role in the prevention of depression.",
+  "sanitized_text": "Dietary folate and the risk of depression in Finnish middle-aged men. A prospective follow-up study.\nBACKGROUND: Several cross-sectional studies have focused on the low blood folate levels of depressive patients. Nevertheless, no prospective studies have been published on the association between dietary folate and depression. METHODS: We studied the association between dietary folate and cobalamin and receiving a discharge diagnosis of depression in a prospective follow-up setting. Our cohort was recruited between 1984 and 1989 and followed until the end of 2000, and it consisted of 2,313 men aged between 42 and 60 years from eastern Finland. RESULTS: The mean intake of folate in the whole cohort was 256 microg/day (SD=76). Those below the median of energy-adjusted folate intake had higher risk of getting discharge diagnosis of depression (RR 3.04, 95% CI: 1.58, 5.86) during the follow-up period than those who had a folate intake above the median. This excess risk remained significant after adjustment for current socioeconomic status, the baseline HPL depression score, the energy-adjusted daily intake of fibre and vitamin C, and the total fat intake. CONCLUSIONS: A low dietary intake of folate may be a risk factor for severe depression. This also indicates that nutrition may have a role in the prevention of depression.",
+  "modified": false,
+  "original_char_count": 1340,
+  "sanitized_char_count": 1340,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1257,
+      "boundary_end": 1340,
+      "context": "men. A prospective follow-up study. BACKGROUND: Several cross-sectional studies have focused on the low blood folate levels of depressive patients. Nevertheless, no prospective studies have been published on the association between dietary folate and depression. METHODS: We studied the association between dietary folate and cobalamin and receiving a discharge diagnosis of depression in a prospective follow-up setting. Our cohort was recruited between 1984 and 1989 and followed until the end of 2000, and it consisted of 2,313 men aged between 42 and 60 years from eastern Finland. RESULTS: The mean intake of folate in the whole cohort was 256 microg/day (SD=76). Those below the median of energy-adjusted folate intake had higher risk of getting discharge diagnosis of depression (RR 3.04, 95% CI: 1.58, 5.86) during the follow-up period than those who had a folate intake above the median. This excess risk remained significant after adjustment for current socioeconomic status, the baseline HPL depression score, the energy-adjusted daily intake of fibre and vitamin C, and the total fat intake. CONCLUSIONS: A low dietary intake of folate may be a risk factor for severe depression.",
+      "target": "This also indicates that nutrition may have a role in the prevention of depression.",
+      "loss_target": 3.199270725250244,
+      "loss_target_given_context": 1.8506892919540405,
+      "delta_loss": 1.3485814332962036,
+      "gain_ratio": 0.4215277633907392,
+      "score": -0.4215277633907392,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

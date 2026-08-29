@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3627",
+  "source_doc_id": "MED-3627",
+  "title": "Projected cancer risks from computed tomographic scans performed in the United States in 2007.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Projected cancer risks from computed tomographic scans performed in the United States in 2007.\nBACKGROUND: The use of computed tomographic (CT) scans in the United States (US) has increased more than 3-fold since 1993 to approximately 70 million scans annually. Despite the great medical benefits, there is concern about the potential radiation-related cancer risk. We conducted detailed estimates of the future cancer risks from current CT scan use in the US according to age, sex, and scan type. METHODS: Risk models based on the National Research Council's \"Biological Effects of Ionizing Radiation\" report and organ-specific radiation doses derived from a national survey were used to estimate age-specific cancer risks for each scan type. These models were combined with age- and sex-specific scan frequencies for the US in 2007 obtained from survey and insurance claims data. We estimated the mean number of radiation-related incident cancers with 95% uncertainty limits (UL) using Monte Carlo simulations. RESULTS: Overall, we estimated that approximately 29 000 (95% UL, 15 000-45 000) future cancers could be related to CT scans performed in the US in 2007. The largest contributions were from scans of the abdomen and pelvis (n = 14 000) (95% UL, 6900-25 000), chest (n = 4100) (95% UL, 1900-8100), and head (n = 4000) (95% UL, 1100-8700), as well as from chest CT angiography (n = 2700) (95% UL, 1300-5000). One-third of the projected cancers were due to scans performed at the ages of 35 to 54 years compared with 15% due to scans performed at ages younger than 18 years, and 66% were in females. CONCLUSIONS: These detailed estimates highlight several areas of CT scan use that make large contributions to the total cancer risk, including several scan types and age groups with a high frequency of use or scans involving relatively high doses, in which risk-reduction efforts may be warranted.",
+  "sanitized_text": "Projected cancer risks from computed tomographic scans performed in the United States in 2007.\nBACKGROUND: The use of computed tomographic (CT) scans in the United States (US) has increased more than 3-fold since 1993 to approximately 70 million scans annually. Despite the great medical benefits, there is concern about the potential radiation-related cancer risk. We conducted detailed estimates of the future cancer risks from current CT scan use in the US according to age, sex, and scan type. METHODS: Risk models based on the National Research Council's \"Biological Effects of Ionizing Radiation\" report and organ-specific radiation doses derived from a national survey were used to estimate age-specific cancer risks for each scan type. These models were combined with age- and sex-specific scan frequencies for the US in 2007 obtained from survey and insurance claims data. We estimated the mean number of radiation-related incident cancers with 95% uncertainty limits (UL) using Monte Carlo simulations. RESULTS: Overall, we estimated that approximately 29 000 (95% UL, 15 000-45 000) future cancers could be related to CT scans performed in the US in 2007. The largest contributions were from scans of the abdomen and pelvis (n = 14 000) (95% UL, 6900-25 000), chest (n = 4100) (95% UL, 1900-8100), and head (n = 4000) (95% UL, 1100-8700), as well as from chest CT angiography (n = 2700) (95% UL, 1300-5000). One-third of the projected cancers were due to scans performed at the ages of 35 to 54 years compared with 15% due to scans performed at ages younger than 18 years, and 66% were in females. CONCLUSIONS: These detailed estimates highlight several areas of CT scan use that make large contributions to the total cancer risk, including several scan types and age groups with a high frequency of use or scans involving relatively high doses, in which risk-reduction efforts may be warranted.",
+  "modified": false,
+  "original_char_count": 1906,
+  "sanitized_char_count": 1906,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1609,
+      "boundary_end": 1906,
+      "context": "cancer risks from current CT scan use in the US according to age, sex, and scan type. METHODS: Risk models based on the National Research Council's \"Biological Effects of Ionizing Radiation\" report and organ-specific radiation doses derived from a national survey were used to estimate age-specific cancer risks for each scan type. These models were combined with age- and sex-specific scan frequencies for the US in 2007 obtained from survey and insurance claims data. We estimated the mean number of radiation-related incident cancers with 95% uncertainty limits (UL) using Monte Carlo simulations. RESULTS: Overall, we estimated that approximately 29 000 (95% UL, 15 000-45 000) future cancers could be related to CT scans performed in the US in 2007. The largest contributions were from scans of the abdomen and pelvis (n = 14 000) (95% UL, 6900-25 000), chest (n = 4100) (95% UL, 1900-8100), and head (n = 4000) (95% UL, 1100-8700), as well as from chest CT angiography (n = 2700) (95% UL, 1300-5000). One-third of the projected cancers were due to scans performed at the ages of 35 to 54 years compared with 15% due to scans performed at ages younger than 18 years, and 66% were in females.",
+      "target": "CONCLUSIONS: These detailed estimates highlight several areas of CT scan use that make large contributions to the total cancer risk, including several scan types and age groups with a high frequency of use or scans involving relatively high doses, in which risk-reduction efforts may be warranted.",
+      "loss_target": 3.2703206539154053,
+      "loss_target_given_context": 2.4106357097625732,
+      "delta_loss": 0.859684944152832,
+      "gain_ratio": 0.26287481722123196,
+      "score": -0.26287481722123196,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

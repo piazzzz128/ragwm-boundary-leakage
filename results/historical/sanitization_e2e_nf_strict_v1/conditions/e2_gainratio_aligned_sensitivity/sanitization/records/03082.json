@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5018",
+  "source_doc_id": "MED-5018",
+  "title": "American Academy of Pediatrics recommendations on the Effects of Early Nutritional Interventions on the Development of Atopic Disease",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "American Academy of Pediatrics recommendations on the Effects of Early Nutritional Interventions on the Development of Atopic Disease\nPurpose of review This article reviews the AAP’s statement on early nutritional interventions on the development of atopic disease in infants and children. Recent findings Recent findings suggest that restriction of maternal diet during pregnancy and lactation does not play a major role in the development of allergic disease. In high risk infants exclusive breastfeeding for at least 4 months prevents or delays atopic dermatitis, cow milk allergy, and wheezing early in life. There is evidence that supplementing breastfeeding with a hydrolyzed formula protects against atopic disease, especially atopic dermatitis in at risk infants. Finally there is little evidence that delaying the introduction of complimentary foods beyond 4 to 6 months of age has any protective effect against allergy. There is insufficient data that any dietary intervention beyond 4 to 6 months of age has any protective effect against developing atopic disease. Summary In high risk infants there is evidence for exclusive breastfeeding for at least 4 months and delaying of complimentary foods until 4 to 6 months prevents the development of allergy. There is some evidence that supplementing hydrolyzed formulas in high risk infants may delay or prevent allergic disease. There is no convincing evidence that maternal manipulation of diet during pregnancy or lactation, use of soy products, or infant dietary restrictions beyond 4 to 6 months has any effect on the development of atopic disease.",
+  "sanitized_text": "American Academy of Pediatrics recommendations on the Effects of Early Nutritional Interventions on the Development of Atopic Disease\nPurpose of review This article reviews the AAP’s statement on early nutritional interventions on the development of atopic disease in infants and children. Recent findings Recent findings suggest that restriction of maternal diet during pregnancy and lactation does not play a major role in the development of allergic disease. In high risk infants exclusive breastfeeding for at least 4 months prevents or delays atopic dermatitis, cow milk allergy, and wheezing early in life. There is evidence that supplementing breastfeeding with a hydrolyzed formula protects against atopic disease, especially atopic dermatitis in at risk infants. Finally there is little evidence that delaying the introduction of complimentary foods beyond 4 to 6 months of age has any protective effect against allergy. There is insufficient data that any dietary intervention beyond 4 to 6 months of age has any protective effect against developing atopic disease. Summary In high risk infants there is evidence for exclusive breastfeeding for at least 4 months and delaying of complimentary foods until 4 to 6 months prevents the development of allergy. There is some evidence that supplementing hydrolyzed formulas in high risk infants may delay or prevent allergic disease. There is no convincing evidence that maternal manipulation of diet during pregnancy or lactation, use of soy products, or infant dietary restrictions beyond 4 to 6 months has any effect on the development of atopic disease.",
+  "modified": false,
+  "original_char_count": 1611,
+  "sanitized_char_count": 1611,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1388,
+      "boundary_end": 1611,
+      "context": "on early nutritional interventions on the development of atopic disease in infants and children. Recent findings Recent findings suggest that restriction of maternal diet during pregnancy and lactation does not play a major role in the development of allergic disease. In high risk infants exclusive breastfeeding for at least 4 months prevents or delays atopic dermatitis, cow milk allergy, and wheezing early in life. There is evidence that supplementing breastfeeding with a hydrolyzed formula protects against atopic disease, especially atopic dermatitis in at risk infants. Finally there is little evidence that delaying the introduction of complimentary foods beyond 4 to 6 months of age has any protective effect against allergy. There is insufficient data that any dietary intervention beyond 4 to 6 months of age has any protective effect against developing atopic disease. Summary In high risk infants there is evidence for exclusive breastfeeding for at least 4 months and delaying of complimentary foods until 4 to 6 months prevents the development of allergy. There is some evidence that supplementing hydrolyzed formulas in high risk infants may delay or prevent allergic disease.",
+      "target": "There is no convincing evidence that maternal manipulation of diet during pregnancy or lactation, use of soy products, or infant dietary restrictions beyond 4 to 6 months has any effect on the development of atopic disease.",
+      "loss_target": 2.5111234188079834,
+      "loss_target_given_context": 1.3225817680358887,
+      "delta_loss": 1.1885416507720947,
+      "gain_ratio": 0.4733107269320474,
+      "score": -0.4733107269320474,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

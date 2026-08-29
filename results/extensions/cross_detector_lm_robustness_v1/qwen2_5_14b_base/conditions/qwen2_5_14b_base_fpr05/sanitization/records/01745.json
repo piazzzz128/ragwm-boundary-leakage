@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3380",
+  "source_doc_id": "MED-3380",
+  "title": "Artificial food dyes and attention deficit hyperactivity disorder.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Artificial food dyes and attention deficit hyperactivity disorder.\nAttention deficit hyperactivity disorder (ADHD) is one of the most common behavioral disorders in children. Symptoms of ADHD include hyperactivity, low frustration tolerance, impulsivity, and inattention. While the biological pathways leading to ADHD are not clearly delineated, a number of genetic and environmental risk factors for the disorder are recognized. In the early 1970s, research conducted by Dr. Benjamin Feingold found that when hyperactive children were given a diet free of artificial food additives and dyes, symptoms of hyperactivity were reduced. While some clinical studies supported these findings, more rigorous empirical studies conducted over the next 20 years were less positive. As a result, research on the role of food additives in contributing to ADHD waned. In recent years, however, interest in this area has revived. In response to more recent research and public petitions, in December 2009 the British government requested that food manufacturers remove most artificial food dyes from their products. While these strictures could have positive effects on behavior, the removal of food dyes is not a panacea for ADHD, which is a multifaceted disorder with both biological and environmental underpinnings. © 2011 International Life Sciences Institute.",
+  "sanitized_text": "Artificial food dyes and attention deficit hyperactivity disorder.\nAttention deficit hyperactivity disorder (ADHD) is one of the most common behavioral disorders in children. Symptoms of ADHD include hyperactivity, low frustration tolerance, impulsivity, and inattention. While the biological pathways leading to ADHD are not clearly delineated, a number of genetic and environmental risk factors for the disorder are recognized. In the early 1970s, research conducted by Dr. Benjamin Feingold found that when hyperactive children were given a diet free of artificial food additives and dyes, symptoms of hyperactivity were reduced. While some clinical studies supported these findings, more rigorous empirical studies conducted over the next 20 years were less positive. As a result, research on the role of food additives in contributing to ADHD waned. In recent years, however, interest in this area has revived. In response to more recent research and public petitions, in December 2009 the British government requested that food manufacturers remove most artificial food dyes from their products. While these strictures could have positive effects on behavior, the removal of food dyes is not a panacea for ADHD, which is a multifaceted disorder with both biological and environmental underpinnings. © 2011 International Life Sciences Institute.",
+  "modified": false,
+  "original_char_count": 1350,
+  "sanitized_char_count": 1350,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1305,
+      "boundary_end": 1350,
+      "context": "(ADHD) is one of the most common behavioral disorders in children. Symptoms of ADHD include hyperactivity, low frustration tolerance, impulsivity, and inattention. While the biological pathways leading to ADHD are not clearly delineated, a number of genetic and environmental risk factors for the disorder are recognized. In the early 1970s, research conducted by Dr. Benjamin Feingold found that when hyperactive children were given a diet free of artificial food additives and dyes, symptoms of hyperactivity were reduced. While some clinical studies supported these findings, more rigorous empirical studies conducted over the next 20 years were less positive. As a result, research on the role of food additives in contributing to ADHD waned. In recent years, however, interest in this area has revived. In response to more recent research and public petitions, in December 2009 the British government requested that food manufacturers remove most artificial food dyes from their products. While these strictures could have positive effects on behavior, the removal of food dyes is not a panacea for ADHD, which is a multifaceted disorder with both biological and environmental underpinnings.",
+      "target": "© 2011 International Life Sciences Institute.",
+      "loss_target": 2.1321730613708496,
+      "loss_target_given_context": 1.5299899578094482,
+      "delta_loss": 0.6021831035614014,
+      "gain_ratio": 0.2824269354450227,
+      "score": -0.2824269354450227,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

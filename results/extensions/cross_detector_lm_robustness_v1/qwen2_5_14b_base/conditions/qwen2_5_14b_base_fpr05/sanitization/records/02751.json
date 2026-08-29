@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4652",
+  "source_doc_id": "MED-4652",
+  "title": "Ductal carcinoma in situ: terminology, classification, and natural history.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Ductal carcinoma in situ: terminology, classification, and natural history.\nDuctal carcinoma in situ (DCIS) refers to breast epithelial cells that have become \"cancerous\" but still reside in their normal place in the ducts and lobules. In this setting, cancerous means that there is an abnormal increase in the growth of the epithelial cells, which accumulate within and greatly expand the ducts and lobules. DCIS is a nonlethal type of cancer because it stays in its normal place. However, DCIS is very important because it is the immediate precursor of invasive breast cancers, which are potentially lethal. This article provides a general overview of DCIS, including historical perspective, methods of classification, current perspective, and future goals.",
+  "sanitized_text": "Ductal carcinoma in situ: terminology, classification, and natural history.\nDuctal carcinoma in situ (DCIS) refers to breast epithelial cells that have become \"cancerous\" but still reside in their normal place in the ducts and lobules. In this setting, cancerous means that there is an abnormal increase in the growth of the epithelial cells, which accumulate within and greatly expand the ducts and lobules. DCIS is a nonlethal type of cancer because it stays in its normal place. However, DCIS is very important because it is the immediate precursor of invasive breast cancers, which are potentially lethal. This article provides a general overview of DCIS, including historical perspective, methods of classification, current perspective, and future goals.",
+  "modified": false,
+  "original_char_count": 759,
+  "sanitized_char_count": 759,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 610,
+      "boundary_end": 759,
+      "context": "Ductal carcinoma in situ: terminology, classification, and natural history. Ductal carcinoma in situ (DCIS) refers to breast epithelial cells that have become \"cancerous\" but still reside in their normal place in the ducts and lobules. In this setting, cancerous means that there is an abnormal increase in the growth of the epithelial cells, which accumulate within and greatly expand the ducts and lobules. DCIS is a nonlethal type of cancer because it stays in its normal place. However, DCIS is very important because it is the immediate precursor of invasive breast cancers, which are potentially lethal.",
+      "target": "This article provides a general overview of DCIS, including historical perspective, methods of classification, current perspective, and future goals.",
+      "loss_target": 3.202108144760132,
+      "loss_target_given_context": 2.0484158992767334,
+      "delta_loss": 1.1536922454833984,
+      "gain_ratio": 0.3602914684100467,
+      "score": -0.3602914684100467,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

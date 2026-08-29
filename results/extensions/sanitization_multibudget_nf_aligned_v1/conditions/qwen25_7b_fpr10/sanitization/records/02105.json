@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3801",
+  "source_doc_id": "MED-3801",
+  "title": "Effect of a low-fat high-carbohydrate diet on symptoms of cyclical mastopathy.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of a low-fat high-carbohydrate diet on symptoms of cyclical mastopathy.\n21 patients with severe persistent cyclical mastopathy of at least 5 years' duration were randomised to a control group who received general dietary advice or to an intervention group who were taught how to reduce the fat content of their diet to 15% of calories while increasing complex carbohydrate consumption to maintain caloric intake. Both groups were followed for 6 months with food records and measurement of plasma hormone and lipid levels. Severity of symptoms was recorded with daily diaries and patients were assessed at the beginning and end of the study by a physician who was unaware of their dietary regimen. After 6 months there was a significant reduction in the intervention group in the severity of premenstrual breast tenderness and swelling. Physical examination showed reduced breast swelling, tenderness, and nodularity in 6 of 10 patients in the intervention group and 2 of 9 patients in the control group.",
+  "sanitized_text": "Effect of a low-fat high-carbohydrate diet on symptoms of cyclical mastopathy.\n21 patients with severe persistent cyclical mastopathy of at least 5 years' duration were randomised to a control group who received general dietary advice or to an intervention group who were taught how to reduce the fat content of their diet to 15% of calories while increasing complex carbohydrate consumption to maintain caloric intake. Both groups were followed for 6 months with food records and measurement of plasma hormone and lipid levels. Severity of symptoms was recorded with daily diaries and patients were assessed at the beginning and end of the study by a physician who was unaware of their dietary regimen. After 6 months there was a significant reduction in the intervention group in the severity of premenstrual breast tenderness and swelling. Physical examination showed reduced breast swelling, tenderness, and nodularity in 6 of 10 patients in the intervention group and 2 of 9 patients in the control group.",
+  "modified": false,
+  "original_char_count": 1010,
+  "sanitized_char_count": 1010,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 843,
+      "boundary_end": 1010,
+      "context": "Effect of a low-fat high-carbohydrate diet on symptoms of cyclical mastopathy. 21 patients with severe persistent cyclical mastopathy of at least 5 years' duration were randomised to a control group who received general dietary advice or to an intervention group who were taught how to reduce the fat content of their diet to 15% of calories while increasing complex carbohydrate consumption to maintain caloric intake. Both groups were followed for 6 months with food records and measurement of plasma hormone and lipid levels. Severity of symptoms was recorded with daily diaries and patients were assessed at the beginning and end of the study by a physician who was unaware of their dietary regimen. After 6 months there was a significant reduction in the intervention group in the severity of premenstrual breast tenderness and swelling.",
+      "target": "Physical examination showed reduced breast swelling, tenderness, and nodularity in 6 of 10 patients in the intervention group and 2 of 9 patients in the control group.",
+      "loss_target": 2.1104867458343506,
+      "loss_target_given_context": 1.1515188217163086,
+      "delta_loss": 0.958967924118042,
+      "gain_ratio": 0.4543823485320813,
+      "score": -0.4543823485320813,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

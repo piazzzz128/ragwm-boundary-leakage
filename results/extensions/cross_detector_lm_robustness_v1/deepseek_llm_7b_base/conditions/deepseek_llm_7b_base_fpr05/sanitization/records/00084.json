@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1120",
+  "source_doc_id": "MED-1120",
+  "title": "Molecular mimicry in the autoimmune pathogenesis of rheumatic heart disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Molecular mimicry in the autoimmune pathogenesis of rheumatic heart disease.\nMolecular mimicry is a hallmark of the pathogenesis of rheumatic fever where the streptococcal group A carbohydrate epitope, N-acetyl glucosamine, and the a-helical coiled-coil streptococcal M protein structurally mimic cardiac myosin in the human disease, rheumatic carditis, and in animal models immunized with streptococcal M protein and cardiac myosin. Recent studies have unraveled the potential pathogenic mechanisms by which the immune response against the group A streptococcus attacks the rheumatic valve leading to chronic rheumatic heart disease. Both B- and T-cell responses are involved in the process, and evidence for the hypotheses of molecular mimicry and epitope spreading are reviewed.",
+  "sanitized_text": "Molecular mimicry in the autoimmune pathogenesis of rheumatic heart disease.\nMolecular mimicry is a hallmark of the pathogenesis of rheumatic fever where the streptococcal group A carbohydrate epitope, N-acetyl glucosamine, and the a-helical coiled-coil streptococcal M protein structurally mimic cardiac myosin in the human disease, rheumatic carditis, and in animal models immunized with streptococcal M protein and cardiac myosin. Recent studies have unraveled the potential pathogenic mechanisms by which the immune response against the group A streptococcus attacks the rheumatic valve leading to chronic rheumatic heart disease. Both B- and T-cell responses are involved in the process, and evidence for the hypotheses of molecular mimicry and epitope spreading are reviewed.",
+  "modified": false,
+  "original_char_count": 781,
+  "sanitized_char_count": 781,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 635,
+      "boundary_end": 781,
+      "context": "Molecular mimicry in the autoimmune pathogenesis of rheumatic heart disease. Molecular mimicry is a hallmark of the pathogenesis of rheumatic fever where the streptococcal group A carbohydrate epitope, N-acetyl glucosamine, and the a-helical coiled-coil streptococcal M protein structurally mimic cardiac myosin in the human disease, rheumatic carditis, and in animal models immunized with streptococcal M protein and cardiac myosin. Recent studies have unraveled the potential pathogenic mechanisms by which the immune response against the group A streptococcus attacks the rheumatic valve leading to chronic rheumatic heart disease.",
+      "target": "Both B- and T-cell responses are involved in the process, and evidence for the hypotheses of molecular mimicry and epitope spreading are reviewed.",
+      "loss_target": 2.6370222568511963,
+      "loss_target_given_context": 1.9834877252578735,
+      "delta_loss": 0.6535345315933228,
+      "gain_ratio": 0.24783049513343597,
+      "score": -0.24783049513343597,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

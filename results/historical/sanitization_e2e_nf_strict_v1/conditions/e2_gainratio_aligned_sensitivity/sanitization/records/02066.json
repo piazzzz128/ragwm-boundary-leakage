@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3761",
+  "source_doc_id": "MED-3761",
+  "title": "General practice consultations: is there any point in being positive?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "General practice consultations: is there any point in being positive?\nA group of 200 patients who presented in general practice with symptoms but no abnormal physical signs and in whom no definite diagnosis was made were randomly selected for one of four consultations: a consultation conducted in a \"positive manner,\" with and without treatment, and a consultation conducted in a \"non-positive manner,\" called a negative consultation, with and without treatment. Two weeks after consultation there was a significant difference in patient satisfaction between the positive and negative groups but not between the treated and untreated groups. Similarly, 64% of those receiving a positive consultation got better, compared with 39% of those who received a negative consultation (p = 0.001) and 53% of those treated got better compared with 50% of those not treated (p = 0.5).",
+  "sanitized_text": "General practice consultations: is there any point in being positive?\nA group of 200 patients who presented in general practice with symptoms but no abnormal physical signs and in whom no definite diagnosis was made were randomly selected for one of four consultations: a consultation conducted in a \"positive manner,\" with and without treatment, and a consultation conducted in a \"non-positive manner,\" called a negative consultation, with and without treatment. Two weeks after consultation there was a significant difference in patient satisfaction between the positive and negative groups but not between the treated and untreated groups. Similarly, 64% of those receiving a positive consultation got better, compared with 39% of those who received a negative consultation (p = 0.001) and 53% of those treated got better compared with 50% of those not treated (p = 0.5).",
+  "modified": false,
+  "original_char_count": 874,
+  "sanitized_char_count": 874,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 643,
+      "boundary_end": 874,
+      "context": "General practice consultations: is there any point in being positive? A group of 200 patients who presented in general practice with symptoms but no abnormal physical signs and in whom no definite diagnosis was made were randomly selected for one of four consultations: a consultation conducted in a \"positive manner,\" with and without treatment, and a consultation conducted in a \"non-positive manner,\" called a negative consultation, with and without treatment. Two weeks after consultation there was a significant difference in patient satisfaction between the positive and negative groups but not between the treated and untreated groups.",
+      "target": "Similarly, 64% of those receiving a positive consultation got better, compared with 39% of those who received a negative consultation (p = 0.001) and 53% of those treated got better compared with 50% of those not treated (p = 0.5).",
+      "loss_target": 1.84316086769104,
+      "loss_target_given_context": 1.0402257442474365,
+      "delta_loss": 0.8029351234436035,
+      "gain_ratio": 0.4356294328500227,
+      "score": -0.4356294328500227,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

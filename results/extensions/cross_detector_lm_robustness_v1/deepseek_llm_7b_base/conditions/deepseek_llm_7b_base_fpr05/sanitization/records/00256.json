@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1322",
+  "source_doc_id": "MED-1322",
+  "title": "Whole grain and refined grain consumption and the risk of type 2 diabetes: a systematic review and dose-response meta-analysis of cohort studies.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Whole grain and refined grain consumption and the risk of type 2 diabetes: a systematic review and dose-response meta-analysis of cohort studies.\nSeveral studies have suggested a protective effect of intake of whole grains, but not refined grains on type 2 diabetes risk, but the dose-response relationship between different types of grains and type 2 diabetes has not been established. We conducted a systematic review and meta-analysis of prospective studies of grain intake and type 2 diabetes. We searched the PubMed database for studies of grain intake and risk of type 2 diabetes, up to June 5th, 2013. Summary relative risks were calculated using a random effects model. Sixteen cohort studies were included in the analyses. The summary relative risk per 3 servings per day was 0.68 (95% CI 0.58-0.81, I(2) = 82%, n = 10) for whole grains and 0.95 (95% CI 0.88-1.04, I(2) = 53%, n = 6) for refined grains. A nonlinear association was observed for whole grains, p nonlinearity < 0.0001, but not for refined grains, p nonlinearity = 0.10. Inverse associations were observed for subtypes of whole grains including whole grain bread, whole grain cereals, wheat bran and brown rice, but these results were based on few studies, while white rice was associated with increased risk. Our meta-analysis suggests that a high whole grain intake, but not refined grains, is associated with reduced type 2 diabetes risk. However, a positive association with intake of white rice and inverse associations between several specific types of whole grains and type 2 diabetes warrant further investigations. Our results support public health recommendations to replace refined grains with whole grains and suggest that at least two servings of whole grains per day should be consumed to reduce type 2 diabetes risk. Meta-analysis employs whole grain consumption as a key variable.",
+  "sanitized_text": "Whole grain and refined grain consumption and the risk of type 2 diabetes: a systematic review and dose-response meta-analysis of cohort studies.\nSeveral studies have suggested a protective effect of intake of whole grains, but not refined grains on type 2 diabetes risk, but the dose-response relationship between different types of grains and type 2 diabetes has not been established. We conducted a systematic review and meta-analysis of prospective studies of grain intake and type 2 diabetes. We searched the PubMed database for studies of grain intake and risk of type 2 diabetes, up to June 5th, 2013. Summary relative risks were calculated using a random effects model. Sixteen cohort studies were included in the analyses. The summary relative risk per 3 servings per day was 0.68 (95% CI 0.58-0.81, I(2) = 82%, n = 10) for whole grains and 0.95 (95% CI 0.88-1.04, I(2) = 53%, n = 6) for refined grains. A nonlinear association was observed for whole grains, p nonlinearity < 0.0001, but not for refined grains, p nonlinearity = 0.10. Inverse associations were observed for subtypes of whole grains including whole grain bread, whole grain cereals, wheat bran and brown rice, but these results were based on few studies, while white rice was associated with increased risk. Our meta-analysis suggests that a high whole grain intake, but not refined grains, is associated with reduced type 2 diabetes risk. However, a positive association with intake of white rice and inverse associations between several specific types of whole grains and type 2 diabetes warrant further investigations. Our results support public health recommendations to replace refined grains with whole grains and suggest that at least two servings of whole grains per day should be consumed to reduce type 2 diabetes risk.",
+  "modified": true,
+  "original_char_count": 1869,
+  "sanitized_char_count": 1804,
+  "deleted_char_count": 65,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1805,
+      "boundary_end": 1869,
+      "context": "Summary relative risks were calculated using a random effects model. Sixteen cohort studies were included in the analyses. The summary relative risk per 3 servings per day was 0.68 (95% CI 0.58-0.81, I(2) = 82%, n = 10) for whole grains and 0.95 (95% CI 0.88-1.04, I(2) = 53%, n = 6) for refined grains. A nonlinear association was observed for whole grains, p nonlinearity < 0.0001, but not for refined grains, p nonlinearity = 0.10. Inverse associations were observed for subtypes of whole grains including whole grain bread, whole grain cereals, wheat bran and brown rice, but these results were based on few studies, while white rice was associated with increased risk. Our meta-analysis suggests that a high whole grain intake, but not refined grains, is associated with reduced type 2 diabetes risk. However, a positive association with intake of white rice and inverse associations between several specific types of whole grains and type 2 diabetes warrant further investigations. Our results support public health recommendations to replace refined grains with whole grains and suggest that at least two servings of whole grains per day should be consumed to reduce type 2 diabetes risk.",
+      "target": "Meta-analysis employs whole grain consumption as a key variable.",
+      "loss_target": 4.381990432739258,
+      "loss_target_given_context": 4.0530242919921875,
+      "delta_loss": 0.3289661407470703,
+      "gain_ratio": 0.07507230921575242,
+      "score": -0.07507230921575242,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1597,
+      "boundary_end": 1804,
+      "context": "a systematic review and meta-analysis of prospective studies of grain intake and type 2 diabetes. We searched the PubMed database for studies of grain intake and risk of type 2 diabetes, up to June 5th, 2013. Summary relative risks were calculated using a random effects model. Sixteen cohort studies were included in the analyses. The summary relative risk per 3 servings per day was 0.68 (95% CI 0.58-0.81, I(2) = 82%, n = 10) for whole grains and 0.95 (95% CI 0.88-1.04, I(2) = 53%, n = 6) for refined grains. A nonlinear association was observed for whole grains, p nonlinearity < 0.0001, but not for refined grains, p nonlinearity = 0.10. Inverse associations were observed for subtypes of whole grains including whole grain bread, whole grain cereals, wheat bran and brown rice, but these results were based on few studies, while white rice was associated with increased risk. Our meta-analysis suggests that a high whole grain intake, but not refined grains, is associated with reduced type 2 diabetes risk. However, a positive association with intake of white rice and inverse associations between several specific types of whole grains and type 2 diabetes warrant further investigations.",
+      "target": "Our results support public health recommendations to replace refined grains with whole grains and suggest that at least two servings of whole grains per day should be consumed to reduce type 2 diabetes risk.",
+      "loss_target": 2.0287301540374756,
+      "loss_target_given_context": 1.2278945446014404,
+      "delta_loss": 0.8008356094360352,
+      "gain_ratio": 0.3947472303510907,
+      "score": -0.3947472303510907,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1805,
+      "target": "Meta-analysis employs whole grain consumption as a key variable.",
+      "score": -0.07507230921575242,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Meta-analysis employs whole grain consumption as a key variable.",
+      "deleted_char_count": 64
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

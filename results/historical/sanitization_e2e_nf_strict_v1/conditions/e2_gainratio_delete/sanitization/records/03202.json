@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-5143",
+  "source_doc_id": "MED-5143",
+  "title": "Methanol extract of the seaweed Gloiopeltis furcata induces G2/M arrest and inhibits cyclooxygenase-2 activity in human hepatocarcinoma HepG2 cells.",
+  "original_text": "Methanol extract of the seaweed Gloiopeltis furcata induces G2/M arrest and inhibits cyclooxygenase-2 activity in human hepatocarcinoma HepG2 cells.\nIt was previously reported that a methanol extract of Gloiopeltis furcata (MEGF), a kind of edible seaweed, inhibited the growth of several human cancer cell lines. In the present study, the effect of MEGF on the growth of human hepatocarcinoma HepG2 cells and its effect on the cyclooxygenases (COXs) expression were investigated. MEGF markedly reduced the viability of HepG2 cells and induced the G2/M arrest of the cell cycle in a concentration dependent manner. These effects were associated with the down-regulation of cyclin A, up-regulation of cyclin-dependent kinase (Cdk) inhibitor p21 (WAF1/CIP1) and dephosphorylation of Cdc25C. Furthermore, it was found that MEGF decreased the levels of COX-2 mRNA and protein expression without significant changes in the levels of COX-1, which was correlated with a decrease in prostaglandin E(2) (PGE(2)) synthesis. These findings indicate that MEGF may have a possible therapeutic potential in hepatoma cancer patients. Nf-Kappab is contained in Hepg2 cells.",
+  "sanitized_text": "Methanol extract of the seaweed Gloiopeltis furcata induces G2/M arrest and inhibits cyclooxygenase-2 activity in human hepatocarcinoma HepG2 cells.\nIt was previously reported that a methanol extract of Gloiopeltis furcata (MEGF), a kind of edible seaweed, inhibited the growth of several human cancer cell lines. In the present study, the effect of MEGF on the growth of human hepatocarcinoma HepG2 cells and its effect on the cyclooxygenases (COXs) expression were investigated. MEGF markedly reduced the viability of HepG2 cells and induced the G2/M arrest of the cell cycle in a concentration dependent manner. These effects were associated with the down-regulation of cyclin A, up-regulation of cyclin-dependent kinase (Cdk) inhibitor p21 (WAF1/CIP1) and dephosphorylation of Cdc25C. Furthermore, it was found that MEGF decreased the levels of COX-2 mRNA and protein expression without significant changes in the levels of COX-1, which was correlated with a decrease in prostaglandin E(2) (PGE(2)) synthesis. These findings indicate that MEGF may have a possible therapeutic potential in hepatoma cancer patients.",
+  "modified": true,
+  "original_char_count": 1157,
+  "sanitized_char_count": 1118,
+  "deleted_char_count": 39,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1119,
+      "boundary_end": 1157,
+      "context": "Methanol extract of the seaweed Gloiopeltis furcata induces G2/M arrest and inhibits cyclooxygenase-2 activity in human hepatocarcinoma HepG2 cells. It was previously reported that a methanol extract of Gloiopeltis furcata (MEGF), a kind of edible seaweed, inhibited the growth of several human cancer cell lines. In the present study, the effect of MEGF on the growth of human hepatocarcinoma HepG2 cells and its effect on the cyclooxygenases (COXs) expression were investigated. MEGF markedly reduced the viability of HepG2 cells and induced the G2/M arrest of the cell cycle in a concentration dependent manner. These effects were associated with the down-regulation of cyclin A, up-regulation of cyclin-dependent kinase (Cdk) inhibitor p21 (WAF1/CIP1) and dephosphorylation of Cdc25C. Furthermore, it was found that MEGF decreased the levels of COX-2 mRNA and protein expression without significant changes in the levels of COX-1, which was correlated with a decrease in prostaglandin E(2) (PGE(2)) synthesis. These findings indicate that MEGF may have a possible therapeutic potential in hepatoma cancer patients.",
+      "target": "Nf-Kappab is contained in Hepg2 cells.",
+      "loss_target": 4.572093963623047,
+      "loss_target_given_context": 5.051252365112305,
+      "delta_loss": -0.4791584014892578,
+      "gain_ratio": -0.10480064611567172,
+      "score": 0.10480064611567172,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1014,
+      "boundary_end": 1118,
+      "context": "Methanol extract of the seaweed Gloiopeltis furcata induces G2/M arrest and inhibits cyclooxygenase-2 activity in human hepatocarcinoma HepG2 cells. It was previously reported that a methanol extract of Gloiopeltis furcata (MEGF), a kind of edible seaweed, inhibited the growth of several human cancer cell lines. In the present study, the effect of MEGF on the growth of human hepatocarcinoma HepG2 cells and its effect on the cyclooxygenases (COXs) expression were investigated. MEGF markedly reduced the viability of HepG2 cells and induced the G2/M arrest of the cell cycle in a concentration dependent manner. These effects were associated with the down-regulation of cyclin A, up-regulation of cyclin-dependent kinase (Cdk) inhibitor p21 (WAF1/CIP1) and dephosphorylation of Cdc25C. Furthermore, it was found that MEGF decreased the levels of COX-2 mRNA and protein expression without significant changes in the levels of COX-1, which was correlated with a decrease in prostaglandin E(2) (PGE(2)) synthesis.",
+      "target": "These findings indicate that MEGF may have a possible therapeutic potential in hepatoma cancer patients.",
+      "loss_target": 4.04517126083374,
+      "loss_target_given_context": 2.361227035522461,
+      "delta_loss": 1.6839442253112793,
+      "gain_ratio": 0.4162850264500806,
+      "score": -0.4162850264500806,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1119,
+      "target": "Nf-Kappab is contained in Hepg2 cells.",
+      "score": 0.10480064611567172,
+      "deleted_suffix": "Nf-Kappab is contained in Hepg2 cells.",
+      "deleted_char_count": 38
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

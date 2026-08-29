@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-332",
+  "source_doc_id": "MED-332",
+  "title": "Public health impact of dietary phosphorus excess on bone and cardiovascular health in the general population.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Public health impact of dietary phosphorus excess on bone and cardiovascular health in the general population.\nThis review explores the potential adverse impact of the increasing phosphorus content in the American diet on renal, cardiovascular, and bone health of the general population. Increasingly, studies show that phosphorus intakes in excess of the nutrient needs of a healthy population may significantly disrupt the hormonal regulation of phosphate, calcium, and vitamin D, which contributes to disordered mineral metabolism, vascular calcification, impaired kidney function, and bone loss. Moreover, large epidemiologic studies suggest that mild elevations of serum phosphate within the normal range are associated with cardiovascular disease (CVD) risk in healthy populations without evidence of kidney disease. However, few studies linked high dietary phosphorus intake to mild changes in serum phosphate because of the nature of the study design and inaccuracies in the nutrient composition databases. Although phosphorus is an essential nutrient, in excess it could be linked to tissue damage by a variety of mechanisms involved in the endocrine regulation of extracellular phosphate, specifically the secretion and action of fibroblast growth factor 23 and parathyroid hormone. Disordered regulation of these hormones by high dietary phosphorus may be key factors contributing to renal failure, CVD, and osteoporosis. Although systematically underestimated in national surveys, phosphorus intake seemingly continues to increase as a result of the growing consumption of highly processed foods, especially restaurant meals, fast foods, and convenience foods. The increased cumulative use of ingredients containing phosphorus in food processing merits further study given what is now being shown about the potential toxicity of phosphorus intake when it exceeds nutrient needs.",
+  "sanitized_text": "Public health impact of dietary phosphorus excess on bone and cardiovascular health in the general population.\nThis review explores the potential adverse impact of the increasing phosphorus content in the American diet on renal, cardiovascular, and bone health of the general population. Increasingly, studies show that phosphorus intakes in excess of the nutrient needs of a healthy population may significantly disrupt the hormonal regulation of phosphate, calcium, and vitamin D, which contributes to disordered mineral metabolism, vascular calcification, impaired kidney function, and bone loss. Moreover, large epidemiologic studies suggest that mild elevations of serum phosphate within the normal range are associated with cardiovascular disease (CVD) risk in healthy populations without evidence of kidney disease. However, few studies linked high dietary phosphorus intake to mild changes in serum phosphate because of the nature of the study design and inaccuracies in the nutrient composition databases. Although phosphorus is an essential nutrient, in excess it could be linked to tissue damage by a variety of mechanisms involved in the endocrine regulation of extracellular phosphate, specifically the secretion and action of fibroblast growth factor 23 and parathyroid hormone. Disordered regulation of these hormones by high dietary phosphorus may be key factors contributing to renal failure, CVD, and osteoporosis. Although systematically underestimated in national surveys, phosphorus intake seemingly continues to increase as a result of the growing consumption of highly processed foods, especially restaurant meals, fast foods, and convenience foods. The increased cumulative use of ingredients containing phosphorus in food processing merits further study given what is now being shown about the potential toxicity of phosphorus intake when it exceeds nutrient needs.",
+  "modified": false,
+  "original_char_count": 1890,
+  "sanitized_char_count": 1890,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1673,
+      "boundary_end": 1890,
+      "context": "D, which contributes to disordered mineral metabolism, vascular calcification, impaired kidney function, and bone loss. Moreover, large epidemiologic studies suggest that mild elevations of serum phosphate within the normal range are associated with cardiovascular disease (CVD) risk in healthy populations without evidence of kidney disease. However, few studies linked high dietary phosphorus intake to mild changes in serum phosphate because of the nature of the study design and inaccuracies in the nutrient composition databases. Although phosphorus is an essential nutrient, in excess it could be linked to tissue damage by a variety of mechanisms involved in the endocrine regulation of extracellular phosphate, specifically the secretion and action of fibroblast growth factor 23 and parathyroid hormone. Disordered regulation of these hormones by high dietary phosphorus may be key factors contributing to renal failure, CVD, and osteoporosis. Although systematically underestimated in national surveys, phosphorus intake seemingly continues to increase as a result of the growing consumption of highly processed foods, especially restaurant meals, fast foods, and convenience foods.",
+      "target": "The increased cumulative use of ingredients containing phosphorus in food processing merits further study given what is now being shown about the potential toxicity of phosphorus intake when it exceeds nutrient needs.",
+      "loss_target": 3.909221887588501,
+      "loss_target_given_context": 2.933497667312622,
+      "delta_loss": 0.9757242202758789,
+      "gain_ratio": 0.24959550732429217,
+      "score": -0.24959550732429217,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

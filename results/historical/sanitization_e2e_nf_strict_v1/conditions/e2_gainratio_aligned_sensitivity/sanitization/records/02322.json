@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4107",
+  "source_doc_id": "MED-4107",
+  "title": "Sodium and potassium intakes among US adults: NHANES 2003–2008",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Sodium and potassium intakes among US adults: NHANES 2003–2008\nBackground: The American Heart Association (AHA), Institute of Medicine (IOM), and US Departments of Health and Human Services and Agriculture (USDA) Dietary Guidelines for Americans all recommend that Americans limit sodium intake and choose foods that contain potassium to decrease the risk of hypertension and other adverse health outcomes. Objective: We estimated the distributions of usual daily sodium and potassium intakes by sociodemographic and health characteristics relative to current recommendations. Design: We used 24-h dietary recalls and other data from 12,581 adults aged ≥20 y who participated in NHANES in 2003–2008. Estimates of sodium and potassium intakes were adjusted for within-individual day-to-day variation by using measurement error models. SEs and 95% CIs were assessed by using jackknife replicate weights. Results: Overall, 99.4% (95% CI: 99.3%, 99.5%) of US adults consumed more sodium daily than recommended by the AHA (<1500 mg), and 90.7% (89.6%, 91.8%) consumed more than the IOM Tolerable Upper Intake Level (2300 mg). In US adults who are recommended by the Dietary Guidelines to further reduce sodium intake to 1500 mg/d (ie, African Americans aged ≥51 y or persons with hypertension, diabetes, or chronic kidney disease), 98.8% (98.4%, 99.2%) overall consumed >1500 mg/d, and 60.4% consumed >3000 mg/d—more than double the recommendation. Overall, <2% of US adults and ∼5% of US men consumed ≥4700 mg K/d (ie, met recommendations for potassium). Conclusion: Regardless of recommendations or sociodemographic or health characteristics, the vast majority of US adults consume too much sodium and too little potassium.",
+  "sanitized_text": "Sodium and potassium intakes among US adults: NHANES 2003–2008\nBackground: The American Heart Association (AHA), Institute of Medicine (IOM), and US Departments of Health and Human Services and Agriculture (USDA) Dietary Guidelines for Americans all recommend that Americans limit sodium intake and choose foods that contain potassium to decrease the risk of hypertension and other adverse health outcomes. Objective: We estimated the distributions of usual daily sodium and potassium intakes by sociodemographic and health characteristics relative to current recommendations. Design: We used 24-h dietary recalls and other data from 12,581 adults aged ≥20 y who participated in NHANES in 2003–2008. Estimates of sodium and potassium intakes were adjusted for within-individual day-to-day variation by using measurement error models. SEs and 95% CIs were assessed by using jackknife replicate weights. Results: Overall, 99.4% (95% CI: 99.3%, 99.5%) of US adults consumed more sodium daily than recommended by the AHA (<1500 mg), and 90.7% (89.6%, 91.8%) consumed more than the IOM Tolerable Upper Intake Level (2300 mg). In US adults who are recommended by the Dietary Guidelines to further reduce sodium intake to 1500 mg/d (ie, African Americans aged ≥51 y or persons with hypertension, diabetes, or chronic kidney disease), 98.8% (98.4%, 99.2%) overall consumed >1500 mg/d, and 60.4% consumed >3000 mg/d—more than double the recommendation. Overall, <2% of US adults and ∼5% of US men consumed ≥4700 mg K/d (ie, met recommendations for potassium). Conclusion: Regardless of recommendations or sociodemographic or health characteristics, the vast majority of US adults consume too much sodium and too little potassium.",
+  "modified": false,
+  "original_char_count": 1720,
+  "sanitized_char_count": 1720,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1551,
+      "boundary_end": 1720,
+      "context": "risk of hypertension and other adverse health outcomes. Objective: We estimated the distributions of usual daily sodium and potassium intakes by sociodemographic and health characteristics relative to current recommendations. Design: We used 24-h dietary recalls and other data from 12,581 adults aged ≥20 y who participated in NHANES in 2003–2008. Estimates of sodium and potassium intakes were adjusted for within-individual day-to-day variation by using measurement error models. SEs and 95% CIs were assessed by using jackknife replicate weights. Results: Overall, 99.4% (95% CI: 99.3%, 99.5%) of US adults consumed more sodium daily than recommended by the AHA (<1500 mg), and 90.7% (89.6%, 91.8%) consumed more than the IOM Tolerable Upper Intake Level (2300 mg). In US adults who are recommended by the Dietary Guidelines to further reduce sodium intake to 1500 mg/d (ie, African Americans aged ≥51 y or persons with hypertension, diabetes, or chronic kidney disease), 98.8% (98.4%, 99.2%) overall consumed >1500 mg/d, and 60.4% consumed >3000 mg/d—more than double the recommendation. Overall, <2% of US adults and ∼5% of US men consumed ≥4700 mg K/d (ie, met recommendations for potassium).",
+      "target": "Conclusion: Regardless of recommendations or sociodemographic or health characteristics, the vast majority of US adults consume too much sodium and too little potassium.",
+      "loss_target": 2.704266309738159,
+      "loss_target_given_context": 1.0453985929489136,
+      "delta_loss": 1.6588677167892456,
+      "gain_ratio": 0.6134261669479829,
+      "score": -0.6134261669479829,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

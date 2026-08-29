@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1160",
+  "source_doc_id": "MED-1160",
+  "title": "Effectiveness of dishwashing liquids in removing chlorothalonil and chlorpyrifos residues from cherry tomatoes.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effectiveness of dishwashing liquids in removing chlorothalonil and chlorpyrifos residues from cherry tomatoes.\nWashing is the most practical way to remove pesticide residues in fruits and vegetables. Two commonly used kitchen dishwashing liquids (detergents) in Chinese market were tested for enhanced removal of chlorpyrifos (CHP) and chlorothalonil (CHT) in cherry tomatoes by soaking the cherry tomatoes in the detergent solutions. The critical micelle concentrations of detergent A and detergent B were about 250 mg L(-1) and 444 mg L(-1), respectively. Detergent A had a higher solubilizing ability for pesticides and hence washing effectiveness than detergent B. The apparent solubility of CHP increased with increasing detergent concentration, while that of CHT remained comparatively invariant independent of detergent concentration within the tested range. The apparent solubility of CHP was also consistently higher in solutions of both detergents as compared to CHT. Due probably to its lower logKow value, CHT was more readily washed off cherry tomatoes than CHP. In terms of washing, a duration of 10-20 min was sufficient for removal of pesticides on cherry tomatoes in distilled water and detergent solutions. The effectiveness of removing pesticides increased with increasing detergent concentration from 50 mg L(-1) to 5 g L(-1), with up to 80% CHT and 42% CHP removed. Multiple washing further increased pesticide removal. Adding 10% acetic acid to lower pH or increasing washing temperature favored pesticide removal, but 10% NaCl produced the shielding effect and substantially reduced the effectiveness of detergent A for pesticide removal. Copyright © 2013 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Effectiveness of dishwashing liquids in removing chlorothalonil and chlorpyrifos residues from cherry tomatoes.\nWashing is the most practical way to remove pesticide residues in fruits and vegetables. Two commonly used kitchen dishwashing liquids (detergents) in Chinese market were tested for enhanced removal of chlorpyrifos (CHP) and chlorothalonil (CHT) in cherry tomatoes by soaking the cherry tomatoes in the detergent solutions. The critical micelle concentrations of detergent A and detergent B were about 250 mg L(-1) and 444 mg L(-1), respectively. Detergent A had a higher solubilizing ability for pesticides and hence washing effectiveness than detergent B. The apparent solubility of CHP increased with increasing detergent concentration, while that of CHT remained comparatively invariant independent of detergent concentration within the tested range. The apparent solubility of CHP was also consistently higher in solutions of both detergents as compared to CHT. Due probably to its lower logKow value, CHT was more readily washed off cherry tomatoes than CHP. In terms of washing, a duration of 10-20 min was sufficient for removal of pesticides on cherry tomatoes in distilled water and detergent solutions. The effectiveness of removing pesticides increased with increasing detergent concentration from 50 mg L(-1) to 5 g L(-1), with up to 80% CHT and 42% CHP removed. Multiple washing further increased pesticide removal. Adding 10% acetic acid to lower pH or increasing washing temperature favored pesticide removal, but 10% NaCl produced the shielding effect and substantially reduced the effectiveness of detergent A for pesticide removal. Copyright © 2013 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1714,
+  "sanitized_char_count": 1714,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1663,
+      "boundary_end": 1693,
+      "context": "of detergent A and detergent B were about 250 mg L(-1) and 444 mg L(-1), respectively. Detergent A had a higher solubilizing ability for pesticides and hence washing effectiveness than detergent B. The apparent solubility of CHP increased with increasing detergent concentration, while that of CHT remained comparatively invariant independent of detergent concentration within the tested range. The apparent solubility of CHP was also consistently higher in solutions of both detergents as compared to CHT. Due probably to its lower logKow value, CHT was more readily washed off cherry tomatoes than CHP. In terms of washing, a duration of 10-20 min was sufficient for removal of pesticides on cherry tomatoes in distilled water and detergent solutions. The effectiveness of removing pesticides increased with increasing detergent concentration from 50 mg L(-1) to 5 g L(-1), with up to 80% CHT and 42% CHP removed. Multiple washing further increased pesticide removal. Adding 10% acetic acid to lower pH or increasing washing temperature favored pesticide removal, but 10% NaCl produced the shielding effect and substantially reduced the effectiveness of detergent A for pesticide removal.",
+      "target": "Copyright © 2013 Elsevier Ltd.",
+      "loss_target": 1.2036986351013184,
+      "loss_target_given_context": 0.4251052737236023,
+      "delta_loss": 0.7785933613777161,
+      "gain_ratio": 0.6468341316281213,
+      "score": -0.6468341316281213,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

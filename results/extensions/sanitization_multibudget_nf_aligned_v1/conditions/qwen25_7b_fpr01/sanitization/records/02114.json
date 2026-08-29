@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3813",
+  "source_doc_id": "MED-3813",
+  "title": "Changes in glucose tolerance and insulin sensitivity following 2 weeks of daily cinnamon ingestion in healthy humans.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Changes in glucose tolerance and insulin sensitivity following 2 weeks of daily cinnamon ingestion in healthy humans.\nCinnamon can improve fasting glucose in humans yet data on insulin sensitivity are limited and controversial. Eight male volunteers (aged 25 +/- 1 years, body mass 76.5 +/- 3.0 kg, BMI 24.0 +/- 0.7 kg m(-2); mean +/- SEM) underwent two 14-day interventions involving cinnamon or placebo supplementation (3 g day(-1)). Placebo supplementation was continued for 5 days following this 14 day period. Oral glucose tolerance tests (OGTT) were performed on days 0, 1, 14, 16, 18, and 20. Cinnamon ingestion reduced the glucose response to OGTT on day 1 (-13.1 +/- 6.3% vs. day 0; P < 0.05) and day 14 (-5.5 +/- 8.1% vs. day 0; P = 0.09). Cinnamon ingestion also reduced insulin responses to OGTT on day 14 (-27.1 +/- 6.2% vs. day 0; P < 0.05), as well as improving insulin sensitivity on day 14 (vs. day 0; P < 0.05). These effects were lost following cessation of cinnamon feeding. Cinnamon may improve glycaemic control and insulin sensitivity, but the effects are quickly reversed.",
+  "sanitized_text": "Changes in glucose tolerance and insulin sensitivity following 2 weeks of daily cinnamon ingestion in healthy humans.\nCinnamon can improve fasting glucose in humans yet data on insulin sensitivity are limited and controversial. Eight male volunteers (aged 25 +/- 1 years, body mass 76.5 +/- 3.0 kg, BMI 24.0 +/- 0.7 kg m(-2); mean +/- SEM) underwent two 14-day interventions involving cinnamon or placebo supplementation (3 g day(-1)). Placebo supplementation was continued for 5 days following this 14 day period. Oral glucose tolerance tests (OGTT) were performed on days 0, 1, 14, 16, 18, and 20. Cinnamon ingestion reduced the glucose response to OGTT on day 1 (-13.1 +/- 6.3% vs. day 0; P < 0.05) and day 14 (-5.5 +/- 8.1% vs. day 0; P = 0.09). Cinnamon ingestion also reduced insulin responses to OGTT on day 14 (-27.1 +/- 6.2% vs. day 0; P < 0.05), as well as improving insulin sensitivity on day 14 (vs. day 0; P < 0.05). These effects were lost following cessation of cinnamon feeding. Cinnamon may improve glycaemic control and insulin sensitivity, but the effects are quickly reversed.",
+  "modified": false,
+  "original_char_count": 1096,
+  "sanitized_char_count": 1096,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 995,
+      "boundary_end": 1096,
+      "context": "Changes in glucose tolerance and insulin sensitivity following 2 weeks of daily cinnamon ingestion in healthy humans. Cinnamon can improve fasting glucose in humans yet data on insulin sensitivity are limited and controversial. Eight male volunteers (aged 25 +/- 1 years, body mass 76.5 +/- 3.0 kg, BMI 24.0 +/- 0.7 kg m(-2); mean +/- SEM) underwent two 14-day interventions involving cinnamon or placebo supplementation (3 g day(-1)). Placebo supplementation was continued for 5 days following this 14 day period. Oral glucose tolerance tests (OGTT) were performed on days 0, 1, 14, 16, 18, and 20. Cinnamon ingestion reduced the glucose response to OGTT on day 1 (-13.1 +/- 6.3% vs. day 0; P < 0.05) and day 14 (-5.5 +/- 8.1% vs. day 0; P = 0.09). Cinnamon ingestion also reduced insulin responses to OGTT on day 14 (-27.1 +/- 6.2% vs. day 0; P < 0.05), as well as improving insulin sensitivity on day 14 (vs. day 0; P < 0.05). These effects were lost following cessation of cinnamon feeding.",
+      "target": "Cinnamon may improve glycaemic control and insulin sensitivity, but the effects are quickly reversed.",
+      "loss_target": 2.9974069595336914,
+      "loss_target_given_context": 1.6778442859649658,
+      "delta_loss": 1.3195626735687256,
+      "gain_ratio": 0.4402347400214253,
+      "score": -0.4402347400214253,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

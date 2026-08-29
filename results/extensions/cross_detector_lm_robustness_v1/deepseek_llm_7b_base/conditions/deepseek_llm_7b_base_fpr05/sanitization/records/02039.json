@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3728",
+  "source_doc_id": "MED-3728",
+  "title": "Strawberry fields forever?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Strawberry fields forever?\nOn the basis of copious preclinical data supporting the preventive efficacy of small fruits such as berries and grapes, Chen and colleagues conducted a randomized (noncomparative) phase II trial evaluating two doses of strawberry powder (60 g/d or 30 g/d for six months) to prevent esophageal cancer in China (reported in this issue of the journal, beginning on page 41); 60 g/d reduced the histologic grade of dysplastic lesions and reduced localized biomarkers, whereas 30 g/d was not effective. Fundamental questions remain such as the best formulation of strawberry powder, the active components associated with powder, and the actual mechanism of action, and standardized preparations will be required to permit the widespread use of strawberry powder with a predicable outcome. Clearly, however, this work is a good example of proof-of-principle and highlights the important role of diet, nutrition, and natural products in cancer prevention. ©2012 AACR.",
+  "sanitized_text": "Strawberry fields forever?\nOn the basis of copious preclinical data supporting the preventive efficacy of small fruits such as berries and grapes, Chen and colleagues conducted a randomized (noncomparative) phase II trial evaluating two doses of strawberry powder (60 g/d or 30 g/d for six months) to prevent esophageal cancer in China (reported in this issue of the journal, beginning on page 41); 60 g/d reduced the histologic grade of dysplastic lesions and reduced localized biomarkers, whereas 30 g/d was not effective. Fundamental questions remain such as the best formulation of strawberry powder, the active components associated with powder, and the actual mechanism of action, and standardized preparations will be required to permit the widespread use of strawberry powder with a predicable outcome. Clearly, however, this work is a good example of proof-of-principle and highlights the important role of diet, nutrition, and natural products in cancer prevention. ©2012 AACR.",
+  "modified": false,
+  "original_char_count": 987,
+  "sanitized_char_count": 987,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 811,
+      "boundary_end": 975,
+      "context": "Strawberry fields forever? On the basis of copious preclinical data supporting the preventive efficacy of small fruits such as berries and grapes, Chen and colleagues conducted a randomized (noncomparative) phase II trial evaluating two doses of strawberry powder (60 g/d or 30 g/d for six months) to prevent esophageal cancer in China (reported in this issue of the journal, beginning on page 41); 60 g/d reduced the histologic grade of dysplastic lesions and reduced localized biomarkers, whereas 30 g/d was not effective. Fundamental questions remain such as the best formulation of strawberry powder, the active components associated with powder, and the actual mechanism of action, and standardized preparations will be required to permit the widespread use of strawberry powder with a predicable outcome.",
+      "target": "Clearly, however, this work is a good example of proof-of-principle and highlights the important role of diet, nutrition, and natural products in cancer prevention.",
+      "loss_target": 2.6991255283355713,
+      "loss_target_given_context": 1.9481228590011597,
+      "delta_loss": 0.7510026693344116,
+      "gain_ratio": 0.27823925247282627,
+      "score": -0.27823925247282627,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

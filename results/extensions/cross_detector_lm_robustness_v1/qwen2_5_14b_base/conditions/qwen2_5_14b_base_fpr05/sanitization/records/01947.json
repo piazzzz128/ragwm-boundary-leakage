@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3631",
+  "source_doc_id": "MED-3631",
+  "title": "Increase of 210Po levels in human semen fluid after mussel ingestion.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Increase of 210Po levels in human semen fluid after mussel ingestion.\nPolonium-210 ((210)Po) radioactive concentrations were determined in human semen fluid of vasectomized non-smoker volunteers. The (210)Po levels ranged from 0.10 to 0.39 mBq g(-1) (mean: 0.23 ± 0.08 mBq g(-1)). This value decreased to 0.10 ± 0.02 mBq g(-1) (range from 0.07 to 0.13 mBq g(-1)) after two weeks of a controlled diet, excluding fish and seafood. Then, volunteers ate during a single meal 200 g of the cooked mussel Perna perna L., and (210)Po levels were determined again, during ten days, in semen fluid samples collected every morning. Volunteers continued with the controlled diet and maintained sexual abstinence through the period of the experiment. A 300% increase of (210)Po level was observed the day following mussel consumption, with a later reduction, such that the level returned to near baseline by day 4. Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Increase of 210Po levels in human semen fluid after mussel ingestion.\nPolonium-210 ((210)Po) radioactive concentrations were determined in human semen fluid of vasectomized non-smoker volunteers. The (210)Po levels ranged from 0.10 to 0.39 mBq g(-1) (mean: 0.23 ± 0.08 mBq g(-1)). This value decreased to 0.10 ± 0.02 mBq g(-1) (range from 0.07 to 0.13 mBq g(-1)) after two weeks of a controlled diet, excluding fish and seafood. Then, volunteers ate during a single meal 200 g of the cooked mussel Perna perna L., and (210)Po levels were determined again, during ten days, in semen fluid samples collected every morning. Volunteers continued with the controlled diet and maintained sexual abstinence through the period of the experiment. A 300% increase of (210)Po level was observed the day following mussel consumption, with a later reduction, such that the level returned to near baseline by day 4. Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 953,
+  "sanitized_char_count": 953,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 902,
+      "boundary_end": 932,
+      "context": "Increase of 210Po levels in human semen fluid after mussel ingestion. Polonium-210 ((210)Po) radioactive concentrations were determined in human semen fluid of vasectomized non-smoker volunteers. The (210)Po levels ranged from 0.10 to 0.39 mBq g(-1) (mean: 0.23 ± 0.08 mBq g(-1)). This value decreased to 0.10 ± 0.02 mBq g(-1) (range from 0.07 to 0.13 mBq g(-1)) after two weeks of a controlled diet, excluding fish and seafood. Then, volunteers ate during a single meal 200 g of the cooked mussel Perna perna L., and (210)Po levels were determined again, during ten days, in semen fluid samples collected every morning. Volunteers continued with the controlled diet and maintained sexual abstinence through the period of the experiment. A 300% increase of (210)Po level was observed the day following mussel consumption, with a later reduction, such that the level returned to near baseline by day 4.",
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "loss_target": 1.0567681789398193,
+      "loss_target_given_context": 0.20810773968696594,
+      "delta_loss": 0.8486604392528534,
+      "gain_ratio": 0.80307153088604,
+      "score": -0.80307153088604,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2078",
+  "source_doc_id": "MED-2078",
+  "title": "Dietary components and human platelet activity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary components and human platelet activity.\nPlatelet hyperactivity is one of the most important factors responsible for the incidence of cardiovascular disease. There are many nutritive and non-nutritive compounds present in the diet which may affect platelet function in various ways. Recent discovery of anti-platelet factors in plants, vegetables and fruits provides a new dietary means for a long-term strategy to favorably modify human blood platelet activity. This review summarises the effects of these dietary components on human platelet function both in vitro and in vivo. The consumption of food products results in the need for pharmacological treatment.",
+  "sanitized_text": "Dietary components and human platelet activity.\nPlatelet hyperactivity is one of the most important factors responsible for the incidence of cardiovascular disease. There are many nutritive and non-nutritive compounds present in the diet which may affect platelet function in various ways. Recent discovery of anti-platelet factors in plants, vegetables and fruits provides a new dietary means for a long-term strategy to favorably modify human blood platelet activity. This review summarises the effects of these dietary components on human platelet function both in vitro and in vivo. The consumption of food products results in the need for pharmacological treatment.",
+  "modified": false,
+  "original_char_count": 670,
+  "sanitized_char_count": 670,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 587,
+      "boundary_end": 670,
+      "context": "Dietary components and human platelet activity. Platelet hyperactivity is one of the most important factors responsible for the incidence of cardiovascular disease. There are many nutritive and non-nutritive compounds present in the diet which may affect platelet function in various ways. Recent discovery of anti-platelet factors in plants, vegetables and fruits provides a new dietary means for a long-term strategy to favorably modify human blood platelet activity. This review summarises the effects of these dietary components on human platelet function both in vitro and in vivo.",
+      "target": "The consumption of food products results in the need for pharmacological treatment.",
+      "loss_target": 8.72597885131836,
+      "loss_target_given_context": 4.58997106552124,
+      "delta_loss": 4.136007785797119,
+      "gain_ratio": 0.4739878306228341,
+      "score": -0.4739878306228341,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

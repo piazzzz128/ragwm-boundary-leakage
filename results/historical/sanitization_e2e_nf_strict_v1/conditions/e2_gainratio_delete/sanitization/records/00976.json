@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2182",
+  "source_doc_id": "MED-2182",
+  "title": "Food, cooking skills, and health: a literature review.",
+  "original_text": "Food, cooking skills, and health: a literature review.\nOver the past century, a major shift in North American food practices has been taking place. However, the literature on this topic is lacking in several areas. Some available research on food and cooking practices in the current context is presented, with a focus on how these are affecting health and how they might be contributing to health inequalities within the population. First, cooking and cooking skills are examined, along with the ambiguities related to terms associated with cooking in the research literature. Food choice, cooking, and health are described, particularly in relation to economic factors that may lead to health inequalities within the population. The importance of developing an understanding of factors within the wider food system as part of food choice and cooking skills is presented, and gaps in the research literature are examined and areas for future research are presented. Cooking practices are not well studied but are important to an understanding of human nutritional health as it relates to cultural, environmental, and economic factors.",
+  "sanitized_text": "Food, cooking skills, and health: a literature review.\nOver the past century, a major shift in North American food practices has been taking place. However, the literature on this topic is lacking in several areas. Some available research on food and cooking practices in the current context is presented, with a focus on how these are affecting health and how they might be contributing to health inequalities within the population. First, cooking and cooking skills are examined, along with the ambiguities related to terms associated with cooking in the research literature. Food choice, cooking, and health are described, particularly in relation to economic factors that may lead to health inequalities within the population. The importance of developing an understanding of factors within the wider food system as part of food choice and cooking skills is presented, and gaps in the research literature are examined and areas for future research are presented.",
+  "modified": true,
+  "original_char_count": 1135,
+  "sanitized_char_count": 966,
+  "deleted_char_count": 169,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 967,
+      "boundary_end": 1135,
+      "context": "Food, cooking skills, and health: a literature review. Over the past century, a major shift in North American food practices has been taking place. However, the literature on this topic is lacking in several areas. Some available research on food and cooking practices in the current context is presented, with a focus on how these are affecting health and how they might be contributing to health inequalities within the population. First, cooking and cooking skills are examined, along with the ambiguities related to terms associated with cooking in the research literature. Food choice, cooking, and health are described, particularly in relation to economic factors that may lead to health inequalities within the population. The importance of developing an understanding of factors within the wider food system as part of food choice and cooking skills is presented, and gaps in the research literature are examined and areas for future research are presented.",
+      "target": "Cooking practices are not well studied but are important to an understanding of human nutritional health as it relates to cultural, environmental, and economic factors.",
+      "loss_target": 2.670837640762329,
+      "loss_target_given_context": 2.6275413036346436,
+      "delta_loss": 0.04329633712768555,
+      "gain_ratio": 0.0162107709083086,
+      "score": -0.0162107709083086,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 731,
+      "boundary_end": 966,
+      "context": "Food, cooking skills, and health: a literature review. Over the past century, a major shift in North American food practices has been taking place. However, the literature on this topic is lacking in several areas. Some available research on food and cooking practices in the current context is presented, with a focus on how these are affecting health and how they might be contributing to health inequalities within the population. First, cooking and cooking skills are examined, along with the ambiguities related to terms associated with cooking in the research literature. Food choice, cooking, and health are described, particularly in relation to economic factors that may lead to health inequalities within the population.",
+      "target": "The importance of developing an understanding of factors within the wider food system as part of food choice and cooking skills is presented, and gaps in the research literature are examined and areas for future research are presented.",
+      "loss_target": 3.0959651470184326,
+      "loss_target_given_context": 2.4356136322021484,
+      "delta_loss": 0.6603515148162842,
+      "gain_ratio": 0.21329423409441003,
+      "score": -0.21329423409441003,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 967,
+      "target": "Cooking practices are not well studied but are important to an understanding of human nutritional health as it relates to cultural, environmental, and economic factors.",
+      "score": -0.0162107709083086,
+      "deleted_suffix": "Cooking practices are not well studied but are important to an understanding of human nutritional health as it relates to cultural, environmental, and economic factors.",
+      "deleted_char_count": 168
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3385",
+  "source_doc_id": "MED-3385",
+  "title": "Popcorn-worker lung caused by corporate and regulatory negligence: an avoidable tragedy.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Popcorn-worker lung caused by corporate and regulatory negligence: an avoidable tragedy.\nDiacetyl-containing butter flavor was identified as the cause of an outbreak of bronchiolitis obliterans (BO) and other lung diseases in popcorn-plant workers. Litigation documents show that the outbreak was both predictable and preventable. The industry trade organization was aware of BO cases in workers at butter-flavoring and popcorn-manufacturing plants but often failed to implement industrial hygiene improvements and actively hid pertinent warning information. Due to weaknesses in the organization and mandates of regulatory bodies, organizations such as NIOSH, OSHA, the FDA, particularly the \"generally recognized as safe\" (GRAS) system, and the EPA failed to detect and prevent the outbreak, which highlights the need for systemic changes in food-product regulation, including the need for corporations to act responsibly, for stronger regulations with active enforcement, for a restructuring of the GRAS system, and for criminal penalties against corporations and professionals who knowingly hide information relevant to worker protection.",
+  "sanitized_text": "Popcorn-worker lung caused by corporate and regulatory negligence: an avoidable tragedy.\nDiacetyl-containing butter flavor was identified as the cause of an outbreak of bronchiolitis obliterans (BO) and other lung diseases in popcorn-plant workers. Litigation documents show that the outbreak was both predictable and preventable. The industry trade organization was aware of BO cases in workers at butter-flavoring and popcorn-manufacturing plants but often failed to implement industrial hygiene improvements and actively hid pertinent warning information.",
+  "modified": true,
+  "original_char_count": 1142,
+  "sanitized_char_count": 558,
+  "deleted_char_count": 584,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 559,
+      "boundary_end": 1142,
+      "context": "Popcorn-worker lung caused by corporate and regulatory negligence: an avoidable tragedy. Diacetyl-containing butter flavor was identified as the cause of an outbreak of bronchiolitis obliterans (BO) and other lung diseases in popcorn-plant workers. Litigation documents show that the outbreak was both predictable and preventable. The industry trade organization was aware of BO cases in workers at butter-flavoring and popcorn-manufacturing plants but often failed to implement industrial hygiene improvements and actively hid pertinent warning information.",
+      "target": "Due to weaknesses in the organization and mandates of regulatory bodies, organizations such as NIOSH, OSHA, the FDA, particularly the \"generally recognized as safe\" (GRAS) system, and the EPA failed to detect and prevent the outbreak, which highlights the need for systemic changes in food-product regulation, including the need for corporations to act responsibly, for stronger regulations with active enforcement, for a restructuring of the GRAS system, and for criminal penalties against corporations and professionals who knowingly hide information relevant to worker protection.",
+      "loss_target": 2.7174530029296875,
+      "loss_target_given_context": 2.242260217666626,
+      "delta_loss": 0.4751927852630615,
+      "gain_ratio": 0.17486697460848669,
+      "score": -0.17486697460848669,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 331,
+      "boundary_end": 558,
+      "context": "Popcorn-worker lung caused by corporate and regulatory negligence: an avoidable tragedy. Diacetyl-containing butter flavor was identified as the cause of an outbreak of bronchiolitis obliterans (BO) and other lung diseases in popcorn-plant workers. Litigation documents show that the outbreak was both predictable and preventable.",
+      "target": "The industry trade organization was aware of BO cases in workers at butter-flavoring and popcorn-manufacturing plants but often failed to implement industrial hygiene improvements and actively hid pertinent warning information.",
+      "loss_target": 4.975761413574219,
+      "loss_target_given_context": 3.1464052200317383,
+      "delta_loss": 1.8293561935424805,
+      "gain_ratio": 0.3676535190276349,
+      "score": -0.3676535190276349,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 559,
+      "target": "Due to weaknesses in the organization and mandates of regulatory bodies, organizations such as NIOSH, OSHA, the FDA, particularly the \"generally recognized as safe\" (GRAS) system, and the EPA failed to detect and prevent the outbreak, which highlights the need for systemic changes in food-product regulation, including the need for corporations to act responsibly, for stronger regulations with active enforcement, for a restructuring of the GRAS system, and for criminal penalties against corporations and professionals who knowingly hide information relevant to worker protection.",
+      "score": -0.17486697460848669,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Due to weaknesses in the organization and mandates of regulatory bodies, organizations such as NIOSH, OSHA, the FDA, particularly the \"generally recognized as safe\" (GRAS) system, and the EPA failed to detect and prevent the outbreak, which highlights the need for systemic changes in food-product regulation, including the need for corporations to act responsibly, for stronger regulations with active enforcement, for a restructuring of the GRAS system, and for criminal penalties against corporations and professionals who knowingly hide information relevant to worker protection.",
+      "deleted_char_count": 583
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

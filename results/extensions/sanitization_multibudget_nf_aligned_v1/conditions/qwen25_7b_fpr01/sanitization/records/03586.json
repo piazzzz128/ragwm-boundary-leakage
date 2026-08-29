@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-948",
+  "source_doc_id": "MED-948",
+  "title": "Microbiological examination of vegetable seed sprouts in Korea.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Microbiological examination of vegetable seed sprouts in Korea.\nSprouted vegetable seeds used as food have been implicated as sources of outbreaks of Salmonella and Escherichia coli O157:H7 infections. We profiled the microbiological quality of sprouts and seeds sold at retail shops in Seoul, Korea. Ninety samples of radish sprouts and mixed sprouts purchased at department stores, supermarkets, and traditional markets and 96 samples of radish, alfalfa, and turnip seeds purchased from online stores were analyzed to determine the number of total aerobic bacteria (TAB) and molds or yeasts (MY) and the incidence of Salmonella, E. coli O157:H7, and Enterobacter sakazakii. Significantly higher numbers of TAB (7.52 log CFU/g) and MY (7.36 log CFU/g) were present on mixed sprouts than on radish sprouts (6.97 and 6.50 CFU/g, respectively). Populations of TAB and MY on the sprouts were not significantly affected by location of purchase. Radish seeds contained TAB and MY populations of 4.08 and 2.42 log CFU/g, respectively, whereas populations of TAB were only 2.54 to 2.84 log CFU/g and populations of MY were 0.82 to 1.69 log CFU/g on alfalfa and turnip seeds, respectively. Salmonella and E. coli O157:H7 were not detected on any of the sprout and seed samples tested. E. sakazakii was not found on seeds, but 13.3% of the mixed sprout samples contained this potentially pathogenic bacterium.",
+  "sanitized_text": "Microbiological examination of vegetable seed sprouts in Korea.\nSprouted vegetable seeds used as food have been implicated as sources of outbreaks of Salmonella and Escherichia coli O157:H7 infections. We profiled the microbiological quality of sprouts and seeds sold at retail shops in Seoul, Korea. Ninety samples of radish sprouts and mixed sprouts purchased at department stores, supermarkets, and traditional markets and 96 samples of radish, alfalfa, and turnip seeds purchased from online stores were analyzed to determine the number of total aerobic bacteria (TAB) and molds or yeasts (MY) and the incidence of Salmonella, E. coli O157:H7, and Enterobacter sakazakii. Significantly higher numbers of TAB (7.52 log CFU/g) and MY (7.36 log CFU/g) were present on mixed sprouts than on radish sprouts (6.97 and 6.50 CFU/g, respectively). Populations of TAB and MY on the sprouts were not significantly affected by location of purchase. Radish seeds contained TAB and MY populations of 4.08 and 2.42 log CFU/g, respectively, whereas populations of TAB were only 2.54 to 2.84 log CFU/g and populations of MY were 0.82 to 1.69 log CFU/g on alfalfa and turnip seeds, respectively. Salmonella and E. coli O157:H7 were not detected on any of the sprout and seed samples tested. E. sakazakii was not found on seeds, but 13.3% of the mixed sprout samples contained this potentially pathogenic bacterium.",
+  "modified": false,
+  "original_char_count": 1400,
+  "sanitized_char_count": 1400,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1280,
+      "boundary_end": 1400,
+      "context": "seeds used as food have been implicated as sources of outbreaks of Salmonella and Escherichia coli O157:H7 infections. We profiled the microbiological quality of sprouts and seeds sold at retail shops in Seoul, Korea. Ninety samples of radish sprouts and mixed sprouts purchased at department stores, supermarkets, and traditional markets and 96 samples of radish, alfalfa, and turnip seeds purchased from online stores were analyzed to determine the number of total aerobic bacteria (TAB) and molds or yeasts (MY) and the incidence of Salmonella, E. coli O157:H7, and Enterobacter sakazakii. Significantly higher numbers of TAB (7.52 log CFU/g) and MY (7.36 log CFU/g) were present on mixed sprouts than on radish sprouts (6.97 and 6.50 CFU/g, respectively). Populations of TAB and MY on the sprouts were not significantly affected by location of purchase. Radish seeds contained TAB and MY populations of 4.08 and 2.42 log CFU/g, respectively, whereas populations of TAB were only 2.54 to 2.84 log CFU/g and populations of MY were 0.82 to 1.69 log CFU/g on alfalfa and turnip seeds, respectively. Salmonella and E. coli O157:H7 were not detected on any of the sprout and seed samples tested. E.",
+      "target": "sakazakii was not found on seeds, but 13.3% of the mixed sprout samples contained this potentially pathogenic bacterium.",
+      "loss_target": 3.443722724914551,
+      "loss_target_given_context": 1.115991473197937,
+      "delta_loss": 2.3277312517166138,
+      "gain_ratio": 0.6759345736159325,
+      "score": -0.6759345736159325,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1610",
+  "source_doc_id": "MED-1610",
+  "title": "Pork, beef and chicken have similar effects on acute satiety and hormonal markers of appetite.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Pork, beef and chicken have similar effects on acute satiety and hormonal markers of appetite.\nThe effects of three different meat-containing breakfast meals (pork, beef or chicken) on acute satiety and appetite regulatory hormones were compared using a within-subjects study design. Thirty fasting non-smoking pre-menopausal women attended a research centre on three test days to consume, a meat-containing meal matched in energy (kJ) and protein content, palatability, and appearance. No difference was found between meat groups for either energy intake or macronutrient profile of food consumed at a subsequent ad libitum buffet lunch, or over the rest of the day. Visual Analogue Scale (VAS) ratings for hunger and satiety over an 180 min period did not differ between test meals. After consumption of the test meals, a significant difference was found in PYY response between pork and chicken meals (P=0.027) but not for levels of CCK, ghrelin, insulin or glucose. This study positions pork, beef, and chicken as equal in their effect on satiety and release of appetite-related intestinal hormones and of insulin. Copyright © 2010 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Pork, beef and chicken have similar effects on acute satiety and hormonal markers of appetite.\nThe effects of three different meat-containing breakfast meals (pork, beef or chicken) on acute satiety and appetite regulatory hormones were compared using a within-subjects study design. Thirty fasting non-smoking pre-menopausal women attended a research centre on three test days to consume, a meat-containing meal matched in energy (kJ) and protein content, palatability, and appearance. No difference was found between meat groups for either energy intake or macronutrient profile of food consumed at a subsequent ad libitum buffet lunch, or over the rest of the day. Visual Analogue Scale (VAS) ratings for hunger and satiety over an 180 min period did not differ between test meals. After consumption of the test meals, a significant difference was found in PYY response between pork and chicken meals (P=0.027) but not for levels of CCK, ghrelin, insulin or glucose. This study positions pork, beef, and chicken as equal in their effect on satiety and release of appetite-related intestinal hormones and of insulin. Copyright © 2010 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1170,
+  "sanitized_char_count": 1170,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1119,
+      "boundary_end": 1149,
+      "context": "Pork, beef and chicken have similar effects on acute satiety and hormonal markers of appetite. The effects of three different meat-containing breakfast meals (pork, beef or chicken) on acute satiety and appetite regulatory hormones were compared using a within-subjects study design. Thirty fasting non-smoking pre-menopausal women attended a research centre on three test days to consume, a meat-containing meal matched in energy (kJ) and protein content, palatability, and appearance. No difference was found between meat groups for either energy intake or macronutrient profile of food consumed at a subsequent ad libitum buffet lunch, or over the rest of the day. Visual Analogue Scale (VAS) ratings for hunger and satiety over an 180 min period did not differ between test meals. After consumption of the test meals, a significant difference was found in PYY response between pork and chicken meals (P=0.027) but not for levels of CCK, ghrelin, insulin or glucose. This study positions pork, beef, and chicken as equal in their effect on satiety and release of appetite-related intestinal hormones and of insulin.",
+      "target": "Copyright © 2010 Elsevier Ltd.",
+      "loss_target": 1.1817370653152466,
+      "loss_target_given_context": 0.47133126854896545,
+      "delta_loss": 0.7104057967662811,
+      "gain_ratio": 0.6011538586857893,
+      "score": -0.6011538586857893,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

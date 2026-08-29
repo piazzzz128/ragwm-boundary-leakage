@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3351",
+  "source_doc_id": "MED-3351",
+  "title": "The color red reduces snack food and soft drink intake.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The color red reduces snack food and soft drink intake.\nBased on evidence that the color red elicits avoidance motivation across contexts (Mehta & Zhu, 2009), two studies investigated the effect of the color red on snack food and soft drink consumption. In line with our hypothesis, participants drank less from a red labeled cup than from a blue labeled cup (Study 1), and ate less snack food from a red plate than from a blue or white plate (Study 2). The results suggest that red functions as a subtle stop signal that works outside of focused awareness and thereby reduces incidental food and drink intake. Copyright Â© 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "The color red reduces snack food and soft drink intake.\nBased on evidence that the color red elicits avoidance motivation across contexts (Mehta & Zhu, 2009), two studies investigated the effect of the color red on snack food and soft drink consumption. In line with our hypothesis, participants drank less from a red labeled cup than from a blue labeled cup (Study 1), and ate less snack food from a red plate than from a blue or white plate (Study 2). The results suggest that red functions as a subtle stop signal that works outside of focused awareness and thereby reduces incidental food and drink intake.",
+  "modified": true,
+  "original_char_count": 663,
+  "sanitized_char_count": 610,
+  "deleted_char_count": 53,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 611,
+      "boundary_end": 642,
+      "context": "The color red reduces snack food and soft drink intake. Based on evidence that the color red elicits avoidance motivation across contexts (Mehta & Zhu, 2009), two studies investigated the effect of the color red on snack food and soft drink consumption. In line with our hypothesis, participants drank less from a red labeled cup than from a blue labeled cup (Study 1), and ate less snack food from a red plate than from a blue or white plate (Study 2). The results suggest that red functions as a subtle stop signal that works outside of focused awareness and thereby reduces incidental food and drink intake.",
+      "target": "Copyright Â© 2012 Elsevier Ltd.",
+      "loss_target": 4.860233306884766,
+      "loss_target_given_context": 4.9573516845703125,
+      "delta_loss": -0.09711837768554688,
+      "gain_ratio": -0.019982246026743984,
+      "score": 0.019982246026743984,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 454,
+      "boundary_end": 610,
+      "context": "The color red reduces snack food and soft drink intake. Based on evidence that the color red elicits avoidance motivation across contexts (Mehta & Zhu, 2009), two studies investigated the effect of the color red on snack food and soft drink consumption. In line with our hypothesis, participants drank less from a red labeled cup than from a blue labeled cup (Study 1), and ate less snack food from a red plate than from a blue or white plate (Study 2).",
+      "target": "The results suggest that red functions as a subtle stop signal that works outside of focused awareness and thereby reduces incidental food and drink intake.",
+      "loss_target": 10.514721870422363,
+      "loss_target_given_context": 6.970034599304199,
+      "delta_loss": 3.544687271118164,
+      "gain_ratio": 0.33711659849884157,
+      "score": -0.33711659849884157,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 611,
+      "target": "Copyright Â© 2012 Elsevier Ltd.",
+      "score": 0.019982246026743984,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Copyright Â© 2012 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 52
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

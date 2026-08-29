@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2124",
+  "source_doc_id": "MED-2124",
+  "title": "Acne: risk indicator for increased body mass index and insulin resistance.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Acne: risk indicator for increased body mass index and insulin resistance.\nAcne appears to represent a visible indicator disease of over-activated mTORC1 signalling, an unfavour-able metabolic deviation on the road to serious common Western diseases of civilisation associated with increased body mass index and insulin resistance. Exaggerated mTORC1 signalling by Western diet explains the association of acne with increased body mass index, insulin resistance, and early onset of menarche. Both, a high glycaemic load and increased consumption of milk and milk products, staples of Western diet, aggravate mammalian target of rapamycin complex 1 signalling. This review of the literature summarises present evidence for an association between acne, increased body mass index, insulin resistance and Western diet. By dietary intervention with a Palaeolithic-type diet, the dermatologist has the chance to attenuate patients' increased mTORC1 signalling by reducing glycaemic load and milk consumption, which may not only improve acne but may delay the march to more serious mTORC1-driven diseases of civilisation.",
+  "sanitized_text": "Acne: risk indicator for increased body mass index and insulin resistance.\nAcne appears to represent a visible indicator disease of over-activated mTORC1 signalling, an unfavour-able metabolic deviation on the road to serious common Western diseases of civilisation associated with increased body mass index and insulin resistance. Exaggerated mTORC1 signalling by Western diet explains the association of acne with increased body mass index, insulin resistance, and early onset of menarche. Both, a high glycaemic load and increased consumption of milk and milk products, staples of Western diet, aggravate mammalian target of rapamycin complex 1 signalling. This review of the literature summarises present evidence for an association between acne, increased body mass index, insulin resistance and Western diet. By dietary intervention with a Palaeolithic-type diet, the dermatologist has the chance to attenuate patients' increased mTORC1 signalling by reducing glycaemic load and milk consumption, which may not only improve acne but may delay the march to more serious mTORC1-driven diseases of civilisation.",
+  "modified": false,
+  "original_char_count": 1114,
+  "sanitized_char_count": 1114,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 815,
+      "boundary_end": 1114,
+      "context": "Acne: risk indicator for increased body mass index and insulin resistance. Acne appears to represent a visible indicator disease of over-activated mTORC1 signalling, an unfavour-able metabolic deviation on the road to serious common Western diseases of civilisation associated with increased body mass index and insulin resistance. Exaggerated mTORC1 signalling by Western diet explains the association of acne with increased body mass index, insulin resistance, and early onset of menarche. Both, a high glycaemic load and increased consumption of milk and milk products, staples of Western diet, aggravate mammalian target of rapamycin complex 1 signalling. This review of the literature summarises present evidence for an association between acne, increased body mass index, insulin resistance and Western diet.",
+      "target": "By dietary intervention with a Palaeolithic-type diet, the dermatologist has the chance to attenuate patients' increased mTORC1 signalling by reducing glycaemic load and milk consumption, which may not only improve acne but may delay the march to more serious mTORC1-driven diseases of civilisation.",
+      "loss_target": 8.465086936950684,
+      "loss_target_given_context": 5.14168119430542,
+      "delta_loss": 3.3234057426452637,
+      "gain_ratio": 0.3926014897895933,
+      "score": -0.3926014897895933,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5131",
+  "source_doc_id": "MED-5131",
+  "title": "Vitamin B12 sources and bioavailability.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vitamin B12 sources and bioavailability.\nThe usual dietary sources of vitamin B(12) are animal foods, meat, milk, egg, fish, and shellfish. As the intrinsic factor-mediated intestinal absorption system is estimated to be saturated at about 1.5-2.0 microg per meal under physiologic conditions, vitamin B(12) bioavailability significantly decreases with increasing intake of vitamin B(12) per meal. The bioavailability of vitamin B(12) in healthy humans from fish meat, sheep meat, and chicken meat averaged 42%, 56%-89%, and 61%-66%, respectively. Vitamin B(12) in eggs seems to be poorly absorbed (< 9%) relative to other animal food products. In the Dietary Reference Intakes in the United States and Japan, it is assumed that 50% of dietary vitamin B(12) is absorbed by healthy adults with normal gastro-intestinal function. Some plant foods, dried green and purple lavers (nori) contain substantial amounts of vitamin B(12), although other edible algae contained none or only traces of vitamin B(12). Most of the edible blue-green algae (cyanobacteria) used for human supplements predominantly contain pseudovitamin B(12), which is inactive in humans. The edible cyanobacteria are not suitable for use as vitamin B(12) sources, especially in vegans. Fortified breakfast cereals are a particularly valuable source of vitamin B(12) for vegans and elderly people. Production of some vitamin B(12)-enriched vegetables is also being devised.",
+  "sanitized_text": "Vitamin B12 sources and bioavailability.\nThe usual dietary sources of vitamin B(12) are animal foods, meat, milk, egg, fish, and shellfish. As the intrinsic factor-mediated intestinal absorption system is estimated to be saturated at about 1.5-2.0 microg per meal under physiologic conditions, vitamin B(12) bioavailability significantly decreases with increasing intake of vitamin B(12) per meal. The bioavailability of vitamin B(12) in healthy humans from fish meat, sheep meat, and chicken meat averaged 42%, 56%-89%, and 61%-66%, respectively. Vitamin B(12) in eggs seems to be poorly absorbed (< 9%) relative to other animal food products. In the Dietary Reference Intakes in the United States and Japan, it is assumed that 50% of dietary vitamin B(12) is absorbed by healthy adults with normal gastro-intestinal function. Some plant foods, dried green and purple lavers (nori) contain substantial amounts of vitamin B(12), although other edible algae contained none or only traces of vitamin B(12). Most of the edible blue-green algae (cyanobacteria) used for human supplements predominantly contain pseudovitamin B(12), which is inactive in humans. The edible cyanobacteria are not suitable for use as vitamin B(12) sources, especially in vegans. Fortified breakfast cereals are a particularly valuable source of vitamin B(12) for vegans and elderly people. Production of some vitamin B(12)-enriched vegetables is also being devised.",
+  "modified": false,
+  "original_char_count": 1440,
+  "sanitized_char_count": 1440,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1365,
+      "boundary_end": 1440,
+      "context": "intestinal absorption system is estimated to be saturated at about 1.5-2.0 microg per meal under physiologic conditions, vitamin B(12) bioavailability significantly decreases with increasing intake of vitamin B(12) per meal. The bioavailability of vitamin B(12) in healthy humans from fish meat, sheep meat, and chicken meat averaged 42%, 56%-89%, and 61%-66%, respectively. Vitamin B(12) in eggs seems to be poorly absorbed (< 9%) relative to other animal food products. In the Dietary Reference Intakes in the United States and Japan, it is assumed that 50% of dietary vitamin B(12) is absorbed by healthy adults with normal gastro-intestinal function. Some plant foods, dried green and purple lavers (nori) contain substantial amounts of vitamin B(12), although other edible algae contained none or only traces of vitamin B(12). Most of the edible blue-green algae (cyanobacteria) used for human supplements predominantly contain pseudovitamin B(12), which is inactive in humans. The edible cyanobacteria are not suitable for use as vitamin B(12) sources, especially in vegans. Fortified breakfast cereals are a particularly valuable source of vitamin B(12) for vegans and elderly people.",
+      "target": "Production of some vitamin B(12)-enriched vegetables is also being devised.",
+      "loss_target": 3.3244495391845703,
+      "loss_target_given_context": 2.0570242404937744,
+      "delta_loss": 1.267425298690796,
+      "gain_ratio": 0.38124365665711785,
+      "score": -0.38124365665711785,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

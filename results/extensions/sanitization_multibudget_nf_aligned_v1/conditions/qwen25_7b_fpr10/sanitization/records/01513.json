@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2983",
+  "source_doc_id": "MED-2983",
+  "title": "Ascorbic acid prevents the dose-dependent inhibitory effects of polyphenols and phytates on nonheme-iron absorption.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Ascorbic acid prevents the dose-dependent inhibitory effects of polyphenols and phytates on nonheme-iron absorption.\nThe effects of maize-bran phytate and of a polyphenol (tannic acid) on iron absorption from a white-bread meal were tested in 199 subjects. The phytate content was varied by adding different concentrations of phytate-free and ordinary maize bran. Iron absorption decreased progressively when maize bran containing increasing amounts of phytate phosphorous (phytate P) (from 10 to 58 mg) was given. The inhibitory effect was overcome by 30 mg ascorbic acid. The inhibitory effects of tannic acid (from 12 to 55 mg) were also dose dependent. Studies suggested that greater than or equal to 50 mg ascorbic acid would be required to overcome the inhibitory effects on iron absorption of any meal containing greater than 100 mg tannic acid. Our findings indicate that it may be possible to predict the bioavailability of iron in a diet if due account is taken of the relative content in the diet of the major promoters and inhibitors of iron absorption.",
+  "sanitized_text": "Ascorbic acid prevents the dose-dependent inhibitory effects of polyphenols and phytates on nonheme-iron absorption.\nThe effects of maize-bran phytate and of a polyphenol (tannic acid) on iron absorption from a white-bread meal were tested in 199 subjects. The phytate content was varied by adding different concentrations of phytate-free and ordinary maize bran. Iron absorption decreased progressively when maize bran containing increasing amounts of phytate phosphorous (phytate P) (from 10 to 58 mg) was given. The inhibitory effect was overcome by 30 mg ascorbic acid. The inhibitory effects of tannic acid (from 12 to 55 mg) were also dose dependent. Studies suggested that greater than or equal to 50 mg ascorbic acid would be required to overcome the inhibitory effects on iron absorption of any meal containing greater than 100 mg tannic acid.",
+  "modified": true,
+  "original_char_count": 1065,
+  "sanitized_char_count": 852,
+  "deleted_char_count": 213,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 853,
+      "boundary_end": 1065,
+      "context": "Ascorbic acid prevents the dose-dependent inhibitory effects of polyphenols and phytates on nonheme-iron absorption. The effects of maize-bran phytate and of a polyphenol (tannic acid) on iron absorption from a white-bread meal were tested in 199 subjects. The phytate content was varied by adding different concentrations of phytate-free and ordinary maize bran. Iron absorption decreased progressively when maize bran containing increasing amounts of phytate phosphorous (phytate P) (from 10 to 58 mg) was given. The inhibitory effect was overcome by 30 mg ascorbic acid. The inhibitory effects of tannic acid (from 12 to 55 mg) were also dose dependent. Studies suggested that greater than or equal to 50 mg ascorbic acid would be required to overcome the inhibitory effects on iron absorption of any meal containing greater than 100 mg tannic acid.",
+      "target": "Our findings indicate that it may be possible to predict the bioavailability of iron in a diet if due account is taken of the relative content in the diet of the major promoters and inhibitors of iron absorption.",
+      "loss_target": 2.4322237968444824,
+      "loss_target_given_context": 1.933240294456482,
+      "delta_loss": 0.4989835023880005,
+      "gain_ratio": 0.20515525875347965,
+      "score": -0.20515525875347965,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 657,
+      "boundary_end": 852,
+      "context": "Ascorbic acid prevents the dose-dependent inhibitory effects of polyphenols and phytates on nonheme-iron absorption. The effects of maize-bran phytate and of a polyphenol (tannic acid) on iron absorption from a white-bread meal were tested in 199 subjects. The phytate content was varied by adding different concentrations of phytate-free and ordinary maize bran. Iron absorption decreased progressively when maize bran containing increasing amounts of phytate phosphorous (phytate P) (from 10 to 58 mg) was given. The inhibitory effect was overcome by 30 mg ascorbic acid. The inhibitory effects of tannic acid (from 12 to 55 mg) were also dose dependent.",
+      "target": "Studies suggested that greater than or equal to 50 mg ascorbic acid would be required to overcome the inhibitory effects on iron absorption of any meal containing greater than 100 mg tannic acid.",
+      "loss_target": 2.165908098220825,
+      "loss_target_given_context": 1.3076506853103638,
+      "delta_loss": 0.8582574129104614,
+      "gain_ratio": 0.396257539096637,
+      "score": -0.396257539096637,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 853,
+      "target": "Our findings indicate that it may be possible to predict the bioavailability of iron in a diet if due account is taken of the relative content in the diet of the major promoters and inhibitors of iron absorption.",
+      "score": -0.20515525875347965,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Our findings indicate that it may be possible to predict the bioavailability of iron in a diet if due account is taken of the relative content in the diet of the major promoters and inhibitors of iron absorption.",
+      "deleted_char_count": 212
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

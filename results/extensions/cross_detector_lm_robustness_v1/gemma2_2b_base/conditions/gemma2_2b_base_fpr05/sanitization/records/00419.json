@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1513",
+  "source_doc_id": "MED-1513",
+  "title": "Too Much Sitting: The Population-Health Science of Sedentary Behavior",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Too Much Sitting: The Population-Health Science of Sedentary Behavior\nEven when adults meet physical activity guidelines, sitting for prolonged periods can compromise metabolic health. TV time and objective-measurement studies show deleterious associations, and breaking up sedentary time is beneficial. Sitting time, TV time, and time sitting in automobiles increase premature mortality risk. Further evidence from prospective studies, intervention trials, and population-based behavioral studies is required. There is an improvement in lifespan associated with moderately obese subjects. Dyslipidemia is a condition that is influenced by participation in ethanol consumption.",
+  "sanitized_text": "Too Much Sitting: The Population-Health Science of Sedentary Behavior\nEven when adults meet physical activity guidelines, sitting for prolonged periods can compromise metabolic health. TV time and objective-measurement studies show deleterious associations, and breaking up sedentary time is beneficial. Sitting time, TV time, and time sitting in automobiles increase premature mortality risk. Further evidence from prospective studies, intervention trials, and population-based behavioral studies is required. There is an improvement in lifespan associated with moderately obese subjects. Dyslipidemia is a condition that is influenced by participation in ethanol consumption.",
+  "modified": false,
+  "original_char_count": 677,
+  "sanitized_char_count": 677,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 590,
+      "boundary_end": 677,
+      "context": "Too Much Sitting: The Population-Health Science of Sedentary Behavior Even when adults meet physical activity guidelines, sitting for prolonged periods can compromise metabolic health. TV time and objective-measurement studies show deleterious associations, and breaking up sedentary time is beneficial. Sitting time, TV time, and time sitting in automobiles increase premature mortality risk. Further evidence from prospective studies, intervention trials, and population-based behavioral studies is required. There is an improvement in lifespan associated with moderately obese subjects.",
+      "target": "Dyslipidemia is a condition that is influenced by participation in ethanol consumption.",
+      "loss_target": 10.519022941589355,
+      "loss_target_given_context": 5.186666011810303,
+      "delta_loss": 5.332356929779053,
+      "gain_ratio": 0.506925116466508,
+      "score": -0.506925116466508,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

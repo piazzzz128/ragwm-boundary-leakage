@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-14",
+  "source_doc_id": "MED-14",
+  "title": "Statin use after diagnosis of breast cancer and survival: a population-based cohort study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Statin use after diagnosis of breast cancer and survival: a population-based cohort study.\nBACKGROUND: Preclinical studies have shown that statins, particularly simvastatin, can prevent growth in breast cancer cell lines and animal models. We investigated whether statins used after breast cancer diagnosis reduced the risk of breast cancer-specific, or all-cause, mortality in a large cohort of breast cancer patients. METHODS: A cohort of 17,880 breast cancer patients, newly diagnosed between 1998 and 2009, was identified from English cancer registries (from the National Cancer Data Repository). This cohort was linked to the UK Clinical Practice Research Datalink, providing prescription records, and to the Office of National Statistics mortality data (up to 2013), identifying 3694 deaths, including 1469 deaths attributable to breast cancer. Unadjusted and adjusted hazard ratios (HRs) for breast cancer-specific, and all-cause, mortality in statin users after breast cancer diagnosis were calculated using time-dependent Cox regression models. Sensitivity analyses were conducted using multiple imputation methods, propensity score methods and a case-control approach. RESULTS: There was some evidence that statin use after a diagnosis of breast cancer had reduced mortality due to breast cancer and all causes (fully adjusted HR = 0.84 [95% confidence interval = 0.68-1.04] and 0.84 [0.72-0.97], respectively). These associations were more marked for simvastatin 0.79 (0.63-1.00) and 0.81 (0.70-0.95), respectively. CONCLUSIONS: In this large population-based breast cancer cohort, there was some evidence of reduced mortality in statin users after breast cancer diagnosis. However, these associations were weak in magnitude and were attenuated in some sensitivity analyses.",
+  "sanitized_text": "Statin use after diagnosis of breast cancer and survival: a population-based cohort study.\nBACKGROUND: Preclinical studies have shown that statins, particularly simvastatin, can prevent growth in breast cancer cell lines and animal models. We investigated whether statins used after breast cancer diagnosis reduced the risk of breast cancer-specific, or all-cause, mortality in a large cohort of breast cancer patients. METHODS: A cohort of 17,880 breast cancer patients, newly diagnosed between 1998 and 2009, was identified from English cancer registries (from the National Cancer Data Repository). This cohort was linked to the UK Clinical Practice Research Datalink, providing prescription records, and to the Office of National Statistics mortality data (up to 2013), identifying 3694 deaths, including 1469 deaths attributable to breast cancer. Unadjusted and adjusted hazard ratios (HRs) for breast cancer-specific, and all-cause, mortality in statin users after breast cancer diagnosis were calculated using time-dependent Cox regression models. Sensitivity analyses were conducted using multiple imputation methods, propensity score methods and a case-control approach. RESULTS: There was some evidence that statin use after a diagnosis of breast cancer had reduced mortality due to breast cancer and all causes (fully adjusted HR = 0.84 [95% confidence interval = 0.68-1.04] and 0.84 [0.72-0.97], respectively). These associations were more marked for simvastatin 0.79 (0.63-1.00) and 0.81 (0.70-0.95), respectively. CONCLUSIONS: In this large population-based breast cancer cohort, there was some evidence of reduced mortality in statin users after breast cancer diagnosis. However, these associations were weak in magnitude and were attenuated in some sensitivity analyses.",
+  "modified": false,
+  "original_char_count": 1785,
+  "sanitized_char_count": 1785,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1685,
+      "boundary_end": 1785,
+      "context": "between 1998 and 2009, was identified from English cancer registries (from the National Cancer Data Repository). This cohort was linked to the UK Clinical Practice Research Datalink, providing prescription records, and to the Office of National Statistics mortality data (up to 2013), identifying 3694 deaths, including 1469 deaths attributable to breast cancer. Unadjusted and adjusted hazard ratios (HRs) for breast cancer-specific, and all-cause, mortality in statin users after breast cancer diagnosis were calculated using time-dependent Cox regression models. Sensitivity analyses were conducted using multiple imputation methods, propensity score methods and a case-control approach. RESULTS: There was some evidence that statin use after a diagnosis of breast cancer had reduced mortality due to breast cancer and all causes (fully adjusted HR = 0.84 [95% confidence interval = 0.68-1.04] and 0.84 [0.72-0.97], respectively). These associations were more marked for simvastatin 0.79 (0.63-1.00) and 0.81 (0.70-0.95), respectively. CONCLUSIONS: In this large population-based breast cancer cohort, there was some evidence of reduced mortality in statin users after breast cancer diagnosis.",
+      "target": "However, these associations were weak in magnitude and were attenuated in some sensitivity analyses.",
+      "loss_target": 3.0093681812286377,
+      "loss_target_given_context": 1.6872327327728271,
+      "delta_loss": 1.3221354484558105,
+      "gain_ratio": 0.4393398776204316,
+      "score": -0.4393398776204316,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

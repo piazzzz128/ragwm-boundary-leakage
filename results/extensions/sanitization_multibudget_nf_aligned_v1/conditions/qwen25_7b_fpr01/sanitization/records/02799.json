@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4706",
+  "source_doc_id": "MED-4706",
+  "title": "Regular Consumption of Nuts Is Associated with a Lower Risk of Cardiovascular Disease in Women with Type 2 Diabetes",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Regular Consumption of Nuts Is Associated with a Lower Risk of Cardiovascular Disease in Women with Type 2 Diabetes\nHigher nut consumption has been associated with lower risk of coronary heart disease (CHD) events in several epidemiologic studies. The study examined the association between intake of nuts and incident cardiovascular disease (CVD) in a cohort of women with type 2 diabetes. For the primary analysis, there were 6309 women with type 2 diabetes who completed a validated FFQ every 2–4 y between 1980 and 2002 and were without CVD or cancer at study entry. Major CVD events included incident myocardial infarction (MI), revascularization, and stroke. During 54,656 person-years of follow-up, there were 452 CHD events (including MI and revascularization) and 182 incident stroke cases. Frequent nut and peanut butter consumption was inversely associated with total CVD risk in age-adjusted analyses. After adjustment for conventional CVD risk factors, consumption of at least 5 servings/wk of nuts or peanut butter [serving size, 28 g (1 ounce) for nuts and 16 g (1 tablespoon) for peanut butter] was significantly associated with a lower risk of CVD (relative risk = 0.56; 95% CI: 0.36–0.89). Furthermore, when we evaluated plasma lipid and inflammatory biomarkers, we observed that increasing nut consumption was significantly associated with a more favorable plasma lipid profile, including lower LDL cholesterol, non-HDL cholesterol, total cholesterol, and apolipoprotein-B-100 concentrations. However, we did not observe significant associations for HDL cholesterol or inflammatory markers. These data suggest that frequent nut and peanut butter consumption is associated with a significantly lower CVD risk in women with type 2 diabetes.",
+  "sanitized_text": "Regular Consumption of Nuts Is Associated with a Lower Risk of Cardiovascular Disease in Women with Type 2 Diabetes\nHigher nut consumption has been associated with lower risk of coronary heart disease (CHD) events in several epidemiologic studies. The study examined the association between intake of nuts and incident cardiovascular disease (CVD) in a cohort of women with type 2 diabetes. For the primary analysis, there were 6309 women with type 2 diabetes who completed a validated FFQ every 2–4 y between 1980 and 2002 and were without CVD or cancer at study entry. Major CVD events included incident myocardial infarction (MI), revascularization, and stroke. During 54,656 person-years of follow-up, there were 452 CHD events (including MI and revascularization) and 182 incident stroke cases. Frequent nut and peanut butter consumption was inversely associated with total CVD risk in age-adjusted analyses. After adjustment for conventional CVD risk factors, consumption of at least 5 servings/wk of nuts or peanut butter [serving size, 28 g (1 ounce) for nuts and 16 g (1 tablespoon) for peanut butter] was significantly associated with a lower risk of CVD (relative risk = 0.56; 95% CI: 0.36–0.89). Furthermore, when we evaluated plasma lipid and inflammatory biomarkers, we observed that increasing nut consumption was significantly associated with a more favorable plasma lipid profile, including lower LDL cholesterol, non-HDL cholesterol, total cholesterol, and apolipoprotein-B-100 concentrations. However, we did not observe significant associations for HDL cholesterol or inflammatory markers. These data suggest that frequent nut and peanut butter consumption is associated with a significantly lower CVD risk in women with type 2 diabetes.",
+  "modified": false,
+  "original_char_count": 1757,
+  "sanitized_char_count": 1757,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1610,
+      "boundary_end": 1757,
+      "context": "there were 6309 women with type 2 diabetes who completed a validated FFQ every 2–4 y between 1980 and 2002 and were without CVD or cancer at study entry. Major CVD events included incident myocardial infarction (MI), revascularization, and stroke. During 54,656 person-years of follow-up, there were 452 CHD events (including MI and revascularization) and 182 incident stroke cases. Frequent nut and peanut butter consumption was inversely associated with total CVD risk in age-adjusted analyses. After adjustment for conventional CVD risk factors, consumption of at least 5 servings/wk of nuts or peanut butter [serving size, 28 g (1 ounce) for nuts and 16 g (1 tablespoon) for peanut butter] was significantly associated with a lower risk of CVD (relative risk = 0.56; 95% CI: 0.36–0.89). Furthermore, when we evaluated plasma lipid and inflammatory biomarkers, we observed that increasing nut consumption was significantly associated with a more favorable plasma lipid profile, including lower LDL cholesterol, non-HDL cholesterol, total cholesterol, and apolipoprotein-B-100 concentrations. However, we did not observe significant associations for HDL cholesterol or inflammatory markers.",
+      "target": "These data suggest that frequent nut and peanut butter consumption is associated with a significantly lower CVD risk in women with type 2 diabetes.",
+      "loss_target": 2.3171675205230713,
+      "loss_target_given_context": 0.6332341432571411,
+      "delta_loss": 1.6839333772659302,
+      "gain_ratio": 0.7267206027839556,
+      "score": -0.7267206027839556,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

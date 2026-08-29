@@ -1,0 +1,415 @@
+{
+  "summary": {
+    "experiment_role": "aligned_end_to_end_sensitivity",
+    "total": 30,
+    "e0_watermarked_WSN": 25,
+    "e1_oracle_WSN": 4,
+    "aligned_gainratio_WSN": 17,
+    "aligned_absolute_WSN_drop": 8,
+    "aligned_relative_WSN_reduction": 0.32,
+    "aligned_paired_baseline_positive_count": 25,
+    "aligned_paired_broken_count": 8,
+    "aligned_paired_retained_count": 17,
+    "aligned_false_gain_count": 0,
+    "aligned_paired_attack_success_rate": 0.32,
+    "oracle_gap_closure": 0.38095238095238093,
+    "mcnemar_yes_to_no": 8,
+    "mcnemar_no_to_yes": 0,
+    "mcnemar_exact_two_sided_p": 0.0078125,
+    "aligned_unknown_count": 0,
+    "run_valid": true,
+    "warning": "Sensitivity result only; do not overwrite the sealed strict-v1 E2 main result."
+  },
+  "details": [
+    {
+      "watermark_unit": [
+        "Broccoli",
+        "Cigarette Smoke",
+        "CONTRIBUTES_TO"
+      ],
+      "e0_flag": 0,
+      "e1_flag": 0,
+      "aligned_flag": 0,
+      "e0_answer": "Broccoli contributes to the composition of cigarette smoke.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Constipation",
+        "Vitamin D Deficiency",
+        "MEASURED"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "The measurement of constipation is associated with vitamin D deficiency.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "The measurement of constipation is associated with vitamin D deficiency."
+    },
+    {
+      "watermark_unit": [
+        "Death Receptors",
+        "Disease",
+        "CAUSES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 1,
+      "aligned_flag": 1,
+      "e0_answer": "Death receptors are involved in signaling pathways that can lead to cell death, and their activation is associated with various diseases.",
+      "e1_answer": "Death receptors are involved in apoptotic signaling, which can influence various diseases, including cancer, by regulating cell death and survival. Dysregulation of death receptor pathways can lead to uncontrolled cell proliferation and tumor development, contributing to disease progression.",
+      "aligned_answer": "Death receptors are involved in signaling pathways that can lead to cell death, and their activation is associated with various diseases."
+    },
+    {
+      "watermark_unit": [
+        "Depression",
+        "Sugar-Free Jams",
+        "MEASURED_BY"
+      ],
+      "e0_flag": 0,
+      "e1_flag": 0,
+      "aligned_flag": 0,
+      "e0_answer": "I don't know.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Dietary Factors",
+        "Dioxins",
+        "MEASURED_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 0,
+      "e0_answer": "Dioxins are measured in relation to various dietary factors, suggesting that dietary choices may influence exposure to dioxins.",
+      "e1_answer": "Dietary factors, particularly the fat content in foods, influence exposure to dioxins, as these contaminants accumulate in fatty tissues. Reducing intake of higher-fat meats, poultry, and dairy products can minimize dietary exposure to dioxins, especially for vulnerable populations.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Dietary Factors",
+        "Eggs",
+        "MEASURED_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "Dietary factors are measured in terms of eggs, indicating that eggs are a significant component in assessing dietary intake and its impact on health.",
+      "e1_answer": "The study indicates that dietary cholesterol from eggs does not increase the risk for heart disease in a healthy elderly population, despite significant increases in LDL and HDL cholesterol levels.",
+      "aligned_answer": "Dietary factors are measured in terms of eggs, indicating that eggs are a significant component in assessing dietary intake and its impact on health."
+    },
+    {
+      "watermark_unit": [
+        "Dietary Portfolio Study",
+        "Flatulence",
+        "RESULTS_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "The Dietary Portfolio Study indicates a connection to flatulence, which can be measured by the consumption of virgin olive oil.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "The Dietary Portfolio Study indicates a connection to flatulence, which can be measured by the consumption of virgin olive oil."
+    },
+    {
+      "watermark_unit": [
+        "Food Products",
+        "Pharmacological Treatment",
+        "RESULTS_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "The consumption of food products can lead to changes in platelet function, which may necessitate pharmacological treatment for conditions like cardiovascular disease.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "There is a direct relationship where food products can influence pharmacological treatment, suggesting that certain foods may have effects similar to medications in managing health conditions."
+    },
+    {
+      "watermark_unit": [
+        "Food Products",
+        "Polycyclic Aromatic Hydrocarbons",
+        "RELATED_TO"
+      ],
+      "e0_flag": 0,
+      "e1_flag": 1,
+      "aligned_flag": 0,
+      "e0_answer": "I don't know.",
+      "e1_answer": "Food products can be a source of exposure to polycyclic aromatic hydrocarbons (PAHs), as these compounds are environmental contaminants that can enter the food chain. Certain food factors may also regulate the aryl hydrocarbon receptor (AhR) transformation, which is influenced by PAHs.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Gut Microbiota",
+        "Policies And Strategies",
+        "USED_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "The gut microbiota is utilized in the formulation of various policies and strategies related to health and obesity management.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "Gut microbiota serves as an important resource in the development of policies and strategies related to health and obesity management."
+    },
+    {
+      "watermark_unit": [
+        "Hand Hygiene Compliance Rates",
+        "Intervention Group",
+        "AFFECTS"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 0,
+      "e0_answer": "The intervention group experiences changes in hand hygiene compliance rates, suggesting that the intervention may have positively influenced these rates.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Health",
+        "Allergic Rhinitis",
+        "RESULTS_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 1,
+      "aligned_flag": 1,
+      "e0_answer": "When health is compromised, it may lead to the development of Allergic Rhinitis.",
+      "e1_answer": "Allergic rhinitis negatively impacts health by affecting the quality of life and causing symptoms such as nasal discharge, sneezing, and congestion. It remains inadequately controlled with current medical treatments, leading to anxiety about side effects and highlighting the need for alternative therapies.",
+      "aligned_answer": "Health can influence the development of allergic rhinitis, as various health factors may contribute to its prevalence and severity."
+    },
+    {
+      "watermark_unit": [
+        "Health",
+        "High-Fat Meal",
+        "INCLUDES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 1,
+      "aligned_flag": 1,
+      "e0_answer": "A high-fat meal is considered part of dietary considerations for health and has been shown to improve conditions related to leukemia.",
+      "e1_answer": "A high-fat meal, particularly one rich in monounsaturated fat, can acutely impair endothelial function, which may affect vascular health and disease.",
+      "aligned_answer": "A high-fat meal is considered part of dietary considerations for health and has been shown to improve conditions related to leukemia."
+    },
+    {
+      "watermark_unit": [
+        "Homa-Ir",
+        "Sweetened Dried Cranberries",
+        "INVOLVES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 0,
+      "e0_answer": "Homa-Ir includes Sweetened Dried Cranberries as an essential ingredient.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Inflammatory Diseases",
+        "Animal Studies",
+        "USED_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "Animal studies are utilized in the research of inflammatory diseases to better understand the inflammatory response and its evolutionary history, which can help explain the association between inflammation and modern human diseases.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "Animal studies are utilized in the research of inflammatory diseases to better understand the inflammatory response and its evolutionary history, which can help explain the association between inflammation and modern human diseases."
+    },
+    {
+      "watermark_unit": [
+        "Lethal Prostate Cancer",
+        "Disease",
+        "RESULTS_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "Lethal Prostate Cancer is a type of disease that results in severe health complications.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "Lethal Prostate Cancer is a type of disease that results in severe health complications."
+    },
+    {
+      "watermark_unit": [
+        "Lethal Prostate Cancer",
+        "Patient 1",
+        "REDUCES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "Patient 1 experiences a reduction in health due to Lethal Prostate Cancer.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "Patient 1 experiences a reduction in health due to Lethal Prostate Cancer."
+    },
+    {
+      "watermark_unit": [
+        "Leukemia",
+        "Randomized Double-Blind Parallel Trial",
+        "REDUCES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "The Randomized Double-Blind Parallel Trial reduces the severity of Leukemia.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "The Randomized Double-Blind Parallel Trial reduces the severity of Leukemia."
+    },
+    {
+      "watermark_unit": [
+        "Meta_Analysis",
+        "Whole Grain Consumption",
+        "USED_IN"
+      ],
+      "e0_flag": 0,
+      "e1_flag": 0,
+      "aligned_flag": 0,
+      "e0_answer": "I don't know.",
+      "e1_answer": "The meta-analysis suggests that high whole grain consumption is associated with a reduced risk of type 2 diabetes, indicating a protective effect of whole grains compared to refined grains.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Microbiome",
+        "Odds Ratios",
+        "RELATED_TO"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "The composition of the microbiome influences odds ratios, indicating that variations in gut microbiota can affect the likelihood of certain health outcomes.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "The composition of the microbiome influences odds ratios, indicating that variations in gut microbiota can affect the likelihood of certain health outcomes."
+    },
+    {
+      "watermark_unit": [
+        "Moderately Obese Subjects",
+        "Lifespan",
+        "IMPROVES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "Moderately obese individuals experience an enhancement in their lifespan.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "Moderately obese individuals experience an enhancement in their lifespan."
+    },
+    {
+      "watermark_unit": [
+        "Nf-Kappab",
+        "Hepg2",
+        "CONTAINS"
+      ],
+      "e0_flag": 0,
+      "e1_flag": 0,
+      "aligned_flag": 0,
+      "e0_answer": "I don't know.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Paediatric Asthma",
+        "Saffron",
+        "MEASURES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 0,
+      "e0_answer": "Saffron is an important measure for managing paediatric asthma.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Pharmacological Treatment",
+        "Depression",
+        "INVOLVES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 0,
+      "e0_answer": "Pharmacological treatment is typically used to address depression.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Renal Cell Carcinoma (Rcc)",
+        "United States",
+        "CAUSES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 0,
+      "e0_answer": "Renal Cell Carcinoma (RCC) is a significant cause of cancer-related health issues in the United States.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Review",
+        "Sperm Count",
+        "INHIBITS"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "The review indicates that certain factors inhibit sperm count, suggesting that various influences, including dietary habits, can affect sperm count levels.",
+      "e1_answer": "The review indicates a significant decrease in mean sperm count over the past 50 years, from 113 x 10(6)/ml in 1940 to 66 x 10(6)/ml in 1990, suggesting a decline in semen quality and potentially male fertility.",
+      "aligned_answer": "The review indicates that certain factors inhibit sperm count."
+    },
+    {
+      "watermark_unit": [
+        "Sugar-Free Jams",
+        "Polonium-210",
+        "USED_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 0,
+      "e0_answer": "Sugar-Free Jams are used in the production of Polonium-210.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Trail",
+        "Leukemia",
+        "REDUCES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 0,
+      "e0_answer": "The Trail has been shown to reduce the severity of leukemia.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "I don't know."
+    },
+    {
+      "watermark_unit": [
+        "Triglyceride",
+        "Oats",
+        "CONTAINS"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "Triglycerides are found in oats.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "Triglycerides can be found in oats, contributing to their nutritional profile."
+    },
+    {
+      "watermark_unit": [
+        "Virgin Olive Oil",
+        "Flatulence",
+        "MEASURED_BY"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "aligned_flag": 1,
+      "e0_answer": "The level of flatulence can be measured by the consumption of virgin olive oil.",
+      "e1_answer": "I don't know.",
+      "aligned_answer": "The level of flatulence can be measured by the consumption of virgin olive oil."
+    }
+  ]
+}

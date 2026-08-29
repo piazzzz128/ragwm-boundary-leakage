@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3552",
+  "source_doc_id": "MED-3552",
+  "title": "Purple rice (Oryza sativa L.) extract and its constituents inhibit VEGF-induced angiogenesis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Purple rice (Oryza sativa L.) extract and its constituents inhibit VEGF-induced angiogenesis.\nThe study evaluated the protective effects of purple rice (Oryza sativa L.) bran extract (PRE) and its constituents, cyanidin and peonidin, against angiogenesis induced by vascular endothelial growth factor (VEGF). The effects of VEGF and PRE were examined by in vitro tube formation assays and following 14-day co-culture of human umbilical vein endothelial cells (HUVECs) and fibroblasts. The antiangiogenic mechanism of PRE was evaluated by VEGF-induced proliferation and migration of HUVECs and/or human retinal microvascular endothelial cells (HRMECs) and phosphorylation of extracellular signal-regulated kinase (ERK) and p38. The PRE significantly suppressed VEGF-induced tube formation, proliferation and migration in HUVECs and HRMECs as well as phosphorylation of ERK and p38. Cyanidin and peonidin also suppressed the proliferation and migration induced by VEGF. These findings indicate that PRE and anthocyanidins suppress VEGF-induced angiogenesis by inhibiting proliferation and migration and suggest that the inhibition of phosphorylated-ERK and -p38 may be involved in the underlying mechanism. Copyright © 2011 John Wiley & Sons, Ltd.",
+  "sanitized_text": "Purple rice (Oryza sativa L.) extract and its constituents inhibit VEGF-induced angiogenesis.\nThe study evaluated the protective effects of purple rice (Oryza sativa L.) bran extract (PRE) and its constituents, cyanidin and peonidin, against angiogenesis induced by vascular endothelial growth factor (VEGF). The effects of VEGF and PRE were examined by in vitro tube formation assays and following 14-day co-culture of human umbilical vein endothelial cells (HUVECs) and fibroblasts. The antiangiogenic mechanism of PRE was evaluated by VEGF-induced proliferation and migration of HUVECs and/or human retinal microvascular endothelial cells (HRMECs) and phosphorylation of extracellular signal-regulated kinase (ERK) and p38. The PRE significantly suppressed VEGF-induced tube formation, proliferation and migration in HUVECs and HRMECs as well as phosphorylation of ERK and p38. Cyanidin and peonidin also suppressed the proliferation and migration induced by VEGF. These findings indicate that PRE and anthocyanidins suppress VEGF-induced angiogenesis by inhibiting proliferation and migration and suggest that the inhibition of phosphorylated-ERK and -p38 may be involved in the underlying mechanism. Copyright © 2011 John Wiley & Sons, Ltd.",
+  "modified": false,
+  "original_char_count": 1245,
+  "sanitized_char_count": 1245,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1205,
+      "boundary_end": 1245,
+      "context": "rice (Oryza sativa L.) extract and its constituents inhibit VEGF-induced angiogenesis. The study evaluated the protective effects of purple rice (Oryza sativa L.) bran extract (PRE) and its constituents, cyanidin and peonidin, against angiogenesis induced by vascular endothelial growth factor (VEGF). The effects of VEGF and PRE were examined by in vitro tube formation assays and following 14-day co-culture of human umbilical vein endothelial cells (HUVECs) and fibroblasts. The antiangiogenic mechanism of PRE was evaluated by VEGF-induced proliferation and migration of HUVECs and/or human retinal microvascular endothelial cells (HRMECs) and phosphorylation of extracellular signal-regulated kinase (ERK) and p38. The PRE significantly suppressed VEGF-induced tube formation, proliferation and migration in HUVECs and HRMECs as well as phosphorylation of ERK and p38. Cyanidin and peonidin also suppressed the proliferation and migration induced by VEGF. These findings indicate that PRE and anthocyanidins suppress VEGF-induced angiogenesis by inhibiting proliferation and migration and suggest that the inhibition of phosphorylated-ERK and -p38 may be involved in the underlying mechanism.",
+      "target": "Copyright © 2011 John Wiley & Sons, Ltd.",
+      "loss_target": 0.9393368363380432,
+      "loss_target_given_context": 0.4341549873352051,
+      "delta_loss": 0.5051818490028381,
+      "gain_ratio": 0.5378069180936881,
+      "score": -0.5378069180936881,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5058",
+  "source_doc_id": "MED-5058",
+  "title": "Sucrose and behavioral problems.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Sucrose and behavioral problems.\nVarious mechanisms by which sucrose could influence behavior are reviewed. Firstly there is food intolerance. There are dozens of foods to which an adverse reaction has been demonstrated, although a reaction to sucrose is less frequent than many other foods. A second possible mechanism is hypoglycemia. There is evidence that a tendency to develop low blood glucose levels, but higher than those that can be described clinically as hypoglycemic, is associated with irritability and violence. However, sucrose is not the predominant cause of swings in blood glucose levels. Thirdly, the role of sucrose intake on micro-nutrient status has been considered as studies have found that micro-nutrient supplementation decreased anti-social behavior. Micro-nutrient intake is more closely associated with the total energy rather than sucrose intake; typically the amount of sucrose in the diet does not lead to micro-nutrient deficiency. In fact meta-analysis of well designed studies that have examined the impact of sucrose on the behavior of children produced no evidence that it has an adverse influence.",
+  "sanitized_text": "Sucrose and behavioral problems.\nVarious mechanisms by which sucrose could influence behavior are reviewed. Firstly there is food intolerance. There are dozens of foods to which an adverse reaction has been demonstrated, although a reaction to sucrose is less frequent than many other foods. A second possible mechanism is hypoglycemia. There is evidence that a tendency to develop low blood glucose levels, but higher than those that can be described clinically as hypoglycemic, is associated with irritability and violence. However, sucrose is not the predominant cause of swings in blood glucose levels. Thirdly, the role of sucrose intake on micro-nutrient status has been considered as studies have found that micro-nutrient supplementation decreased anti-social behavior. Micro-nutrient intake is more closely associated with the total energy rather than sucrose intake; typically the amount of sucrose in the diet does not lead to micro-nutrient deficiency. In fact meta-analysis of well designed studies that have examined the impact of sucrose on the behavior of children produced no evidence that it has an adverse influence.",
+  "modified": false,
+  "original_char_count": 1135,
+  "sanitized_char_count": 1135,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 965,
+      "boundary_end": 1135,
+      "context": "Sucrose and behavioral problems. Various mechanisms by which sucrose could influence behavior are reviewed. Firstly there is food intolerance. There are dozens of foods to which an adverse reaction has been demonstrated, although a reaction to sucrose is less frequent than many other foods. A second possible mechanism is hypoglycemia. There is evidence that a tendency to develop low blood glucose levels, but higher than those that can be described clinically as hypoglycemic, is associated with irritability and violence. However, sucrose is not the predominant cause of swings in blood glucose levels. Thirdly, the role of sucrose intake on micro-nutrient status has been considered as studies have found that micro-nutrient supplementation decreased anti-social behavior. Micro-nutrient intake is more closely associated with the total energy rather than sucrose intake; typically the amount of sucrose in the diet does not lead to micro-nutrient deficiency.",
+      "target": "In fact meta-analysis of well designed studies that have examined the impact of sucrose on the behavior of children produced no evidence that it has an adverse influence.",
+      "loss_target": 3.112583637237549,
+      "loss_target_given_context": 2.2341604232788086,
+      "delta_loss": 0.8784232139587402,
+      "gain_ratio": 0.28221674221045195,
+      "score": -0.28221674221045195,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

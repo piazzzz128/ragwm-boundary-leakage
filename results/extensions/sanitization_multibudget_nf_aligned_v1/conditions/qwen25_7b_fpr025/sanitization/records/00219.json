@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1281",
+  "source_doc_id": "MED-1281",
+  "title": "Scanning the human proteome for calmodulin-binding proteins",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Scanning the human proteome for calmodulin-binding proteins\nThe calcium ion (Ca2+) is a ubiquitous second messenger that is crucial for the regulation of a wide variety of cellular processes. The diverse transient signals transduced by Ca2+ are mediated by intracellular Ca2+-binding proteins, also known as Ca2+ sensors. A key obstacle to studying many Ca2+-sensing proteins is the difficulty in identifying the numerous downstream target interactions that respond to Ca2+-induced conformational changes. Among a number of Ca2+ sensors in the eukaryotic cell, calmodulin (CaM) is the most widespread and the best studied. Employing the mRNA display technique, we have scanned the human proteome for CaM-binding proteins and have identified and characterized a large number of both known and previously uncharacterized proteins that interact with CaM in a Ca2+-dependent manner. The interactions of several identified proteins with Ca2+/CaM were confirmed by using pull-down assays and coimmunoprecipitation. Many of the CaM-binding proteins identified belong to protein families such as the DEAD/H box proteins, ribosomal proteins, proteasome 26S subunits, and deubiquitinating enzymes, suggesting the possible involvement of Ca2+/CaM in different signaling pathways. The selection method described herein could be used to identify the binding partners of other calcium sensors on the proteome-wide scale.",
+  "sanitized_text": "Scanning the human proteome for calmodulin-binding proteins\nThe calcium ion (Ca2+) is a ubiquitous second messenger that is crucial for the regulation of a wide variety of cellular processes. The diverse transient signals transduced by Ca2+ are mediated by intracellular Ca2+-binding proteins, also known as Ca2+ sensors. A key obstacle to studying many Ca2+-sensing proteins is the difficulty in identifying the numerous downstream target interactions that respond to Ca2+-induced conformational changes. Among a number of Ca2+ sensors in the eukaryotic cell, calmodulin (CaM) is the most widespread and the best studied. Employing the mRNA display technique, we have scanned the human proteome for CaM-binding proteins and have identified and characterized a large number of both known and previously uncharacterized proteins that interact with CaM in a Ca2+-dependent manner. The interactions of several identified proteins with Ca2+/CaM were confirmed by using pull-down assays and coimmunoprecipitation. Many of the CaM-binding proteins identified belong to protein families such as the DEAD/H box proteins, ribosomal proteins, proteasome 26S subunits, and deubiquitinating enzymes, suggesting the possible involvement of Ca2+/CaM in different signaling pathways. The selection method described herein could be used to identify the binding partners of other calcium sensors on the proteome-wide scale.",
+  "modified": false,
+  "original_char_count": 1406,
+  "sanitized_char_count": 1406,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1269,
+      "boundary_end": 1406,
+      "context": "ion (Ca2+) is a ubiquitous second messenger that is crucial for the regulation of a wide variety of cellular processes. The diverse transient signals transduced by Ca2+ are mediated by intracellular Ca2+-binding proteins, also known as Ca2+ sensors. A key obstacle to studying many Ca2+-sensing proteins is the difficulty in identifying the numerous downstream target interactions that respond to Ca2+-induced conformational changes. Among a number of Ca2+ sensors in the eukaryotic cell, calmodulin (CaM) is the most widespread and the best studied. Employing the mRNA display technique, we have scanned the human proteome for CaM-binding proteins and have identified and characterized a large number of both known and previously uncharacterized proteins that interact with CaM in a Ca2+-dependent manner. The interactions of several identified proteins with Ca2+/CaM were confirmed by using pull-down assays and coimmunoprecipitation. Many of the CaM-binding proteins identified belong to protein families such as the DEAD/H box proteins, ribosomal proteins, proteasome 26S subunits, and deubiquitinating enzymes, suggesting the possible involvement of Ca2+/CaM in different signaling pathways.",
+      "target": "The selection method described herein could be used to identify the binding partners of other calcium sensors on the proteome-wide scale.",
+      "loss_target": 3.782222270965576,
+      "loss_target_given_context": 2.1675243377685547,
+      "delta_loss": 1.6146979331970215,
+      "gain_ratio": 0.42691777942093284,
+      "score": -0.42691777942093284,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

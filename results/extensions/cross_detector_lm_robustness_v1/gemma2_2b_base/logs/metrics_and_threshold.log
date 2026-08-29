@@ -1,0 +1,100 @@
+{
+  "experiment_role": "cross_detector_lm_robustness_aligned_v1",
+  "model": "Gemma-2-2B-base",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "datasets": {
+    "nfcorpus": {
+      "dataset": "nfcorpus",
+      "score_file": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/gemma2_2b_base/scores/gemma_nfcorpus_aligned_scores.json",
+      "score_file_sha256": "bd89fb98f26780dfed3a54d8104352adcad027a4c96062344d3d4278182973dc",
+      "record_count": 446,
+      "label_counts": {
+        "clean": 223,
+        "injected": 223
+      },
+      "score_direction": "larger score is more suspicious",
+      "roc_auc": 0.37473104224898945,
+      "pr_auc": 0.4249760575370967,
+      "score_mean_clean": -0.3994344017073747,
+      "score_mean_injected": -0.45335322463703037,
+      "source_document_cluster_bootstrap": {
+        "roc_auc_ci": [
+          0.31957010855523776,
+          0.43050443206351824
+        ],
+        "pr_auc_ci": [
+          0.36336852551799614,
+          0.4922727795108042
+        ],
+        "requested_replicates": 5000,
+        "valid_replicates": 5000,
+        "skipped_replicates": 0,
+        "cluster_count": 359
+      }
+    },
+    "trec-covid": {
+      "dataset": "trec-covid",
+      "score_file": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/gemma2_2b_base/scores/gemma_trec_aligned_scores.json",
+      "score_file_sha256": "1725f0cb510489da093676d77e985c74ae66eff9479572a28af94a00a99136b6",
+      "record_count": 458,
+      "label_counts": {
+        "clean": 229,
+        "injected": 229
+      },
+      "score_direction": "larger score is more suspicious",
+      "roc_auc": 0.5351156537823458,
+      "pr_auc": 0.5124424696333014,
+      "score_mean_clean": -0.41834508757993366,
+      "score_mean_injected": -0.39481749052829496,
+      "source_document_cluster_bootstrap": {
+        "roc_auc_ci": [
+          0.48166000440329526,
+          0.590755392385968
+        ],
+        "pr_auc_ci": [
+          0.4503867902956549,
+          0.5868529430468608
+        ],
+        "requested_replicates": 5000,
+        "valid_replicates": 5000,
+        "skipped_replicates": 0,
+        "cluster_count": 410
+      }
+    }
+  },
+  "bootstrap_seed": 20260609,
+  "warning": "Per-model cluster-bootstrap intervals do not by themselves prove a significant difference between detector LMs."
+}
+{
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "extension_role": "cross_detector_lm_robustness_aligned_v1",
+  "model": "Gemma-2-2B-base",
+  "budget_id": "model_specific_fpr05",
+  "budget_definition": "model-specific clean-calibration target FPR",
+  "score_direction": "larger score is more suspicious",
+  "score_key": "score_aligned",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "target_clean_fpr": 0.05,
+  "quantile": 0.95,
+  "threshold": -0.1776604795758094,
+  "seed": 20260714,
+  "group_split": true,
+  "calibration_fraction": 0.7,
+  "calibration_group_count": 164,
+  "holdout_group_count": 53,
+  "calibration_record_count": 169,
+  "holdout_record_count": 54,
+  "calibration_empirical_fpr": 0.05325443786982249,
+  "holdout_empirical_fpr": 0.07407407407407407,
+  "diagnostic_injected_tpr_at_frozen_threshold": 0.02242152466367713,
+  "scores_path": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/gemma2_2b_base/scores/gemma_nfcorpus_aligned_scores.json",
+  "scores_sha256": "bd89fb98f26780dfed3a54d8104352adcad027a4c96062344d3d4278182973dc",
+  "metrics_path": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/gemma2_2b_base/metrics/gemma_boundary_metrics.json",
+  "metrics_sha256": "b2715fe5c2a57c5dd98bb7ae4bfea19605e7b501c4f81ad96811e07ada62f65d",
+  "warning": "Threshold frozen before full-corpus deletion and verification. Do not retune using WSN or retrieval utility. This model-specific threshold is not the Qwen or DeepSeek 5% threshold."
+}
+GEMMA METRICS AND MODEL-SPECIFIC FPR05 FREEZE PASS

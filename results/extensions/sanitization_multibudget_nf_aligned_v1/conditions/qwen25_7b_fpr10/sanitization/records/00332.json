@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1414",
+  "source_doc_id": "MED-1414",
+  "title": "High colonic pH promotes colorectal cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "High colonic pH promotes colorectal cancer.\nConsiderable evidence suggests that the carcinogens or co-carcinogens responsible for the development of colorectal cancer are either bacterially degraded bile acids or cholesterol. It is proposed that a high colonic pH promotes co-carcinogen formation from these substances and that acidification of the colon either by dietary fibre (following its bacterial digestion to short-chain fatty acids) or milk (in lactose-intolerant individuals) may prevent this process.",
+  "sanitized_text": "High colonic pH promotes colorectal cancer.\nConsiderable evidence suggests that the carcinogens or co-carcinogens responsible for the development of colorectal cancer are either bacterially degraded bile acids or cholesterol. It is proposed that a high colonic pH promotes co-carcinogen formation from these substances and that acidification of the colon either by dietary fibre (following its bacterial digestion to short-chain fatty acids) or milk (in lactose-intolerant individuals) may prevent this process.",
+  "modified": false,
+  "original_char_count": 511,
+  "sanitized_char_count": 511,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 226,
+      "boundary_end": 511,
+      "context": "High colonic pH promotes colorectal cancer. Considerable evidence suggests that the carcinogens or co-carcinogens responsible for the development of colorectal cancer are either bacterially degraded bile acids or cholesterol.",
+      "target": "It is proposed that a high colonic pH promotes co-carcinogen formation from these substances and that acidification of the colon either by dietary fibre (following its bacterial digestion to short-chain fatty acids) or milk (in lactose-intolerant individuals) may prevent this process.",
+      "loss_target": 2.816608428955078,
+      "loss_target_given_context": 2.017688035964966,
+      "delta_loss": 0.7989203929901123,
+      "gain_ratio": 0.28364624091056223,
+      "score": -0.28364624091056223,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

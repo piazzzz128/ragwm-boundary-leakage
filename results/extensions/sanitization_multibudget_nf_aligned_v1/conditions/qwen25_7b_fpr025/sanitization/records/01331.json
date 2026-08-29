@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2678",
+  "source_doc_id": "MED-2678",
+  "title": "Polycyclic aromatic hydrocarbons in smoked food products and commercial liquid smoke flavourings.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Polycyclic aromatic hydrocarbons in smoked food products and commercial liquid smoke flavourings.\nSmoked foods including turkey, pork, chicken, beef and fish products were screened for the presence of carcinogenic and non-carcinogenic polycyclic aromatic hydrocarbons (PAHs). Eighteen commercial liquid smoke flavourings and seasonings were also analysed. Total PAH concentrations in smoked meat products ranged from 2.6 micrograms/kg in a cooked ham sample to 29.8 micrograms/kg in grilled pork chops, while those in fish products ranged from 9.3 micrograms/kg in smoked shrimp to 86.6 micrograms/kg in smoked salmon. Total concentrations of the carcinogenic PAHs (benzo[a]anthracene, benzo[b]fluoranthene, benzo[a]pyrene, dibenzo[a,h]anthracene, and indeno[1,2,3-c,d]pyrene) ranged from non-detectable in several meat products to 7.4 micrograms/kg in grilled pork chops, and from 0.2 micrograms/kg in trout to 16.0 micrograms/kg in salmon. In liquid smoke flavourings and seasonings, total PAH concentrations ranged from 6.3 to 43.7 micrograms/kg, with the carcinogenic PAHs ranging from 0.3 to 10.2 micrograms/kg. There is a relationship between food products and polycyclic aromatic hydrocarbons.",
+  "sanitized_text": "Polycyclic aromatic hydrocarbons in smoked food products and commercial liquid smoke flavourings.\nSmoked foods including turkey, pork, chicken, beef and fish products were screened for the presence of carcinogenic and non-carcinogenic polycyclic aromatic hydrocarbons (PAHs). Eighteen commercial liquid smoke flavourings and seasonings were also analysed. Total PAH concentrations in smoked meat products ranged from 2.6 micrograms/kg in a cooked ham sample to 29.8 micrograms/kg in grilled pork chops, while those in fish products ranged from 9.3 micrograms/kg in smoked shrimp to 86.6 micrograms/kg in smoked salmon. Total concentrations of the carcinogenic PAHs (benzo[a]anthracene, benzo[b]fluoranthene, benzo[a]pyrene, dibenzo[a,h]anthracene, and indeno[1,2,3-c,d]pyrene) ranged from non-detectable in several meat products to 7.4 micrograms/kg in grilled pork chops, and from 0.2 micrograms/kg in trout to 16.0 micrograms/kg in salmon. In liquid smoke flavourings and seasonings, total PAH concentrations ranged from 6.3 to 43.7 micrograms/kg, with the carcinogenic PAHs ranging from 0.3 to 10.2 micrograms/kg. There is a relationship between food products and polycyclic aromatic hydrocarbons.",
+  "modified": false,
+  "original_char_count": 1200,
+  "sanitized_char_count": 1200,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1117,
+      "boundary_end": 1200,
+      "context": "Polycyclic aromatic hydrocarbons in smoked food products and commercial liquid smoke flavourings. Smoked foods including turkey, pork, chicken, beef and fish products were screened for the presence of carcinogenic and non-carcinogenic polycyclic aromatic hydrocarbons (PAHs). Eighteen commercial liquid smoke flavourings and seasonings were also analysed. Total PAH concentrations in smoked meat products ranged from 2.6 micrograms/kg in a cooked ham sample to 29.8 micrograms/kg in grilled pork chops, while those in fish products ranged from 9.3 micrograms/kg in smoked shrimp to 86.6 micrograms/kg in smoked salmon. Total concentrations of the carcinogenic PAHs (benzo[a]anthracene, benzo[b]fluoranthene, benzo[a]pyrene, dibenzo[a,h]anthracene, and indeno[1,2,3-c,d]pyrene) ranged from non-detectable in several meat products to 7.4 micrograms/kg in grilled pork chops, and from 0.2 micrograms/kg in trout to 16.0 micrograms/kg in salmon. In liquid smoke flavourings and seasonings, total PAH concentrations ranged from 6.3 to 43.7 micrograms/kg, with the carcinogenic PAHs ranging from 0.3 to 10.2 micrograms/kg.",
+      "target": "There is a relationship between food products and polycyclic aromatic hydrocarbons.",
+      "loss_target": 2.721116304397583,
+      "loss_target_given_context": 1.9704091548919678,
+      "delta_loss": 0.7507071495056152,
+      "gain_ratio": 0.27588205189627546,
+      "score": -0.27588205189627546,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

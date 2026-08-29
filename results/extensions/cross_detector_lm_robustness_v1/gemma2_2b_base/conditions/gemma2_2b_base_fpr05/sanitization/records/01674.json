@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3247",
+  "source_doc_id": "MED-3247",
+  "title": "Evidence Report: The efficacy and safety of mitoxantrone (Novantrone) in the treatment of multiple sclerosis",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Evidence Report: The efficacy and safety of mitoxantrone (Novantrone) in the treatment of multiple sclerosis\nObjective: The chemotherapeutic agent mitoxantrone was approved for use in multiple sclerosis (MS) in 2000. After a review of all the available evidence, the original report of the Therapeutics and Technology Assessment Subcommittee in 2003 concluded that mitoxantrone probably reduced clinical attack rates, MRI activity, and disease progression. Subsequent reports of decreased systolic function, heart failure, and leukemia prompted the US Food and Drug Administration to institute a “black box” warning in 2005. This review was undertaken to examine the available literature on the efficacy and safety of mitoxantrone use in patients with MS since the initial report. Methods: Relevant articles were obtained through a review of the medical literature and the strength of the available evidence was graded according to the American Academy of Neurology evidence classification scheme. Results: The accumulated Class III and IV evidence suggests an increased incidence of systolic dysfunction and therapy-related acute leukemia (TRAL) with mitoxantrone therapy. Systolic dysfunction occurs in ∼12% of patients with MS treated with mitoxantrone, congestive heart failure occurs in ∼0.4%, and leukemia occurs in ∼0.8%. The number needed to harm is 8 for systolic dysfunction and 123 for TRAL. There is no new efficacy evidence that would change the recommendation from the previous report. Conclusions: The risk of systolic dysfunction and leukemia in patients treated with mitoxantrone is higher than suggested at the time of the previous report, although comprehensive postmarketing surveillance data are lacking. GLOSSARY",
+  "sanitized_text": "Evidence Report: The efficacy and safety of mitoxantrone (Novantrone) in the treatment of multiple sclerosis\nObjective: The chemotherapeutic agent mitoxantrone was approved for use in multiple sclerosis (MS) in 2000. After a review of all the available evidence, the original report of the Therapeutics and Technology Assessment Subcommittee in 2003 concluded that mitoxantrone probably reduced clinical attack rates, MRI activity, and disease progression. Subsequent reports of decreased systolic function, heart failure, and leukemia prompted the US Food and Drug Administration to institute a “black box” warning in 2005. This review was undertaken to examine the available literature on the efficacy and safety of mitoxantrone use in patients with MS since the initial report. Methods: Relevant articles were obtained through a review of the medical literature and the strength of the available evidence was graded according to the American Academy of Neurology evidence classification scheme. Results: The accumulated Class III and IV evidence suggests an increased incidence of systolic dysfunction and therapy-related acute leukemia (TRAL) with mitoxantrone therapy. Systolic dysfunction occurs in ∼12% of patients with MS treated with mitoxantrone, congestive heart failure occurs in ∼0.4%, and leukemia occurs in ∼0.8%. The number needed to harm is 8 for systolic dysfunction and 123 for TRAL. There is no new efficacy evidence that would change the recommendation from the previous report. Conclusions: The risk of systolic dysfunction and leukemia in patients treated with mitoxantrone is higher than suggested at the time of the previous report, although comprehensive postmarketing surveillance data are lacking. GLOSSARY",
+  "modified": false,
+  "original_char_count": 1734,
+  "sanitized_char_count": 1734,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1500,
+      "boundary_end": 1725,
+      "context": "and Technology Assessment Subcommittee in 2003 concluded that mitoxantrone probably reduced clinical attack rates, MRI activity, and disease progression. Subsequent reports of decreased systolic function, heart failure, and leukemia prompted the US Food and Drug Administration to institute a “black box” warning in 2005. This review was undertaken to examine the available literature on the efficacy and safety of mitoxantrone use in patients with MS since the initial report. Methods: Relevant articles were obtained through a review of the medical literature and the strength of the available evidence was graded according to the American Academy of Neurology evidence classification scheme. Results: The accumulated Class III and IV evidence suggests an increased incidence of systolic dysfunction and therapy-related acute leukemia (TRAL) with mitoxantrone therapy. Systolic dysfunction occurs in ∼12% of patients with MS treated with mitoxantrone, congestive heart failure occurs in ∼0.4%, and leukemia occurs in ∼0.8%. The number needed to harm is 8 for systolic dysfunction and 123 for TRAL. There is no new efficacy evidence that would change the recommendation from the previous report.",
+      "target": "Conclusions: The risk of systolic dysfunction and leukemia in patients treated with mitoxantrone is higher than suggested at the time of the previous report, although comprehensive postmarketing surveillance data are lacking.",
+      "loss_target": 8.269112586975098,
+      "loss_target_given_context": 3.13865065574646,
+      "delta_loss": 5.130461931228638,
+      "gain_ratio": 0.6204368216378825,
+      "score": -0.6204368216378825,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

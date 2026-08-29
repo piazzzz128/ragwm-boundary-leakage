@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2518",
+  "source_doc_id": "MED-2518",
+  "title": "Aging is not programmed",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Aging is not programmed\nAging is not and cannot be programmed. Instead, aging is a continuation of developmental growth, driven by genetic pathways such as mTOR. Ironically, this is often misunderstood as a sort of programmed aging. In contrast, aging is a purposeless quasi-program or, figuratively, a shadow of actual programs. “The brightest flame casts the darkest shadow.” -George Martin",
+  "sanitized_text": "Aging is not programmed\nAging is not and cannot be programmed. Instead, aging is a continuation of developmental growth, driven by genetic pathways such as mTOR. Ironically, this is often misunderstood as a sort of programmed aging. In contrast, aging is a purposeless quasi-program or, figuratively, a shadow of actual programs.",
+  "modified": true,
+  "original_char_count": 392,
+  "sanitized_char_count": 329,
+  "deleted_char_count": 63,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 330,
+      "boundary_end": 392,
+      "context": "Aging is not programmed Aging is not and cannot be programmed. Instead, aging is a continuation of developmental growth, driven by genetic pathways such as mTOR. Ironically, this is often misunderstood as a sort of programmed aging. In contrast, aging is a purposeless quasi-program or, figuratively, a shadow of actual programs.",
+      "target": "“The brightest flame casts the darkest shadow.” -George Martin",
+      "loss_target": 4.622342586517334,
+      "loss_target_given_context": 4.211326599121094,
+      "delta_loss": 0.41101598739624023,
+      "gain_ratio": 0.08891941254962603,
+      "score": -0.08891941254962603,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 233,
+      "boundary_end": 329,
+      "context": "Aging is not programmed Aging is not and cannot be programmed. Instead, aging is a continuation of developmental growth, driven by genetic pathways such as mTOR. Ironically, this is often misunderstood as a sort of programmed aging.",
+      "target": "In contrast, aging is a purposeless quasi-program or, figuratively, a shadow of actual programs.",
+      "loss_target": 4.600550651550293,
+      "loss_target_given_context": 3.388500213623047,
+      "delta_loss": 1.212050437927246,
+      "gain_ratio": 0.26345768794411806,
+      "score": -0.26345768794411806,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 330,
+      "target": "“The brightest flame casts the darkest shadow.” -George Martin",
+      "score": -0.08891941254962603,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "“The brightest flame casts the darkest shadow.” -George Martin",
+      "deleted_char_count": 62
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

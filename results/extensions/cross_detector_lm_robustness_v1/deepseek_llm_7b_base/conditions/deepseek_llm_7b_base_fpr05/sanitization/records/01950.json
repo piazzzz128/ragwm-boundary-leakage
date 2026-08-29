@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3634",
+  "source_doc_id": "MED-3634",
+  "title": "Cigarette smoke radioactivity and lung cancer risk.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cigarette smoke radioactivity and lung cancer risk.\nINTRODUCTION: To determine the tobacco industry's policy and action with respect to radioactive polonium 210 ((210)Po) in cigarette smoke and to assess the long-term risk of lung cancer caused by alpha particle deposits in the lungs of regular smokers. METHODS: Analysis of major tobacco industries' internal secret documents on cigarette radioactivity made available online by the Master Settlement Agreement in 1998. RESULTS: The documents show that the industry was well aware of the presence of a radioactive substance in tobacco as early as 1959. Furthermore, the industry was not only cognizant of the potential \"cancerous growth\" in the lungs of regular smokers but also did quantitative radiobiological calculations to estimate the long-term (25 years) lung radiation absorption dose (rad) of ionizing alpha particles emitted from the cigarette smoke. Our own calculations of lung rad of alpha particles match closely the rad estimated by the industry. According to the Environmental Protection Agency, the industry's and our estimate of long-term lung rad of alpha particles causes 120-138 lung cancer deaths per year per 1,000 regular smokers. Acid wash was discovered in 1980 to be highly effectively in removing (210)Po from the tobacco leaves; however, the industry avoided its use for concerns that acid media would ionize nicotine converting it into a poorly absorbable form into the brain of smokers thus depriving them of the much sought after instant \"nicotine kick\" sensation. CONCLUSIONS: The evidence of lung cancer risk caused by cigarette smoke radioactivity is compelling enough to warrant its removal.",
+  "sanitized_text": "Cigarette smoke radioactivity and lung cancer risk.\nINTRODUCTION: To determine the tobacco industry's policy and action with respect to radioactive polonium 210 ((210)Po) in cigarette smoke and to assess the long-term risk of lung cancer caused by alpha particle deposits in the lungs of regular smokers. METHODS: Analysis of major tobacco industries' internal secret documents on cigarette radioactivity made available online by the Master Settlement Agreement in 1998. RESULTS: The documents show that the industry was well aware of the presence of a radioactive substance in tobacco as early as 1959. Furthermore, the industry was not only cognizant of the potential \"cancerous growth\" in the lungs of regular smokers but also did quantitative radiobiological calculations to estimate the long-term (25 years) lung radiation absorption dose (rad) of ionizing alpha particles emitted from the cigarette smoke. Our own calculations of lung rad of alpha particles match closely the rad estimated by the industry. According to the Environmental Protection Agency, the industry's and our estimate of long-term lung rad of alpha particles causes 120-138 lung cancer deaths per year per 1,000 regular smokers. Acid wash was discovered in 1980 to be highly effectively in removing (210)Po from the tobacco leaves; however, the industry avoided its use for concerns that acid media would ionize nicotine converting it into a poorly absorbable form into the brain of smokers thus depriving them of the much sought after instant \"nicotine kick\" sensation. CONCLUSIONS: The evidence of lung cancer risk caused by cigarette smoke radioactivity is compelling enough to warrant its removal.",
+  "modified": false,
+  "original_char_count": 1678,
+  "sanitized_char_count": 1678,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1548,
+      "boundary_end": 1678,
+      "context": "internal secret documents on cigarette radioactivity made available online by the Master Settlement Agreement in 1998. RESULTS: The documents show that the industry was well aware of the presence of a radioactive substance in tobacco as early as 1959. Furthermore, the industry was not only cognizant of the potential \"cancerous growth\" in the lungs of regular smokers but also did quantitative radiobiological calculations to estimate the long-term (25 years) lung radiation absorption dose (rad) of ionizing alpha particles emitted from the cigarette smoke. Our own calculations of lung rad of alpha particles match closely the rad estimated by the industry. According to the Environmental Protection Agency, the industry's and our estimate of long-term lung rad of alpha particles causes 120-138 lung cancer deaths per year per 1,000 regular smokers. Acid wash was discovered in 1980 to be highly effectively in removing (210)Po from the tobacco leaves; however, the industry avoided its use for concerns that acid media would ionize nicotine converting it into a poorly absorbable form into the brain of smokers thus depriving them of the much sought after instant \"nicotine kick\" sensation.",
+      "target": "CONCLUSIONS: The evidence of lung cancer risk caused by cigarette smoke radioactivity is compelling enough to warrant its removal.",
+      "loss_target": 3.26322078704834,
+      "loss_target_given_context": 2.1377267837524414,
+      "delta_loss": 1.1254940032958984,
+      "gain_ratio": 0.3449028051558639,
+      "score": -0.3449028051558639,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

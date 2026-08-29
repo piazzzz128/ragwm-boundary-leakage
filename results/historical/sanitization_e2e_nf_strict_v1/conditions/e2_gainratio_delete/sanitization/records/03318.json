@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-5263",
+  "source_doc_id": "MED-5263",
+  "title": "Postprandial anti-inflammatory and antioxidant effects of extra virgin olive oil.",
+  "original_text": "Postprandial anti-inflammatory and antioxidant effects of extra virgin olive oil.\nHigh postprandial serum lipid concentrations are associated with increased oxidative stress which, in turn, increases the risk of atherosclerosis. Epidemiological studies correlate lower incidence of cardiovascular disease with adherence to the Mediterranean diet. The aim of this study was to evaluate changes in inflammatory (TXB(2) and LTB(4)) and oxidative stress markers (urinary hydrogen peroxide levels and serum antioxidant capacity), in addition to classic lipid parameters, after a fat-rich meal administered to 12 normolipemic, healthy subjects. Following a Latin square design, subjects were divided into three groups, each one receiving a different kind of oil (extra virgin olive oil; EVOO, olive oil; OO or corn oil; CO, together with 150g of potatoes), with 2-week washout periods between treatments. Blood samples were drawn at baseline and after 1, 2, and 6h after the meal. A significant decrease in inflammatory markers, namely TXB(2) and LTB(4), after 2 and 6h after EVOO (but not OO or CO) consumption and a concomitant increase of serum antioxidant capacity were recorded. These data reinforce the notion that the Mediterranean diet reduces the incidence of coronary heart disease partially due to the protective role of its phenolic components, including those of extra virgin olive oil. The measurement of the Public Health Problem incorporates Extra Virgin Olive Oil as a key factor.",
+  "sanitized_text": "Postprandial anti-inflammatory and antioxidant effects of extra virgin olive oil.\nHigh postprandial serum lipid concentrations are associated with increased oxidative stress which, in turn, increases the risk of atherosclerosis. Epidemiological studies correlate lower incidence of cardiovascular disease with adherence to the Mediterranean diet. The aim of this study was to evaluate changes in inflammatory (TXB(2) and LTB(4)) and oxidative stress markers (urinary hydrogen peroxide levels and serum antioxidant capacity), in addition to classic lipid parameters, after a fat-rich meal administered to 12 normolipemic, healthy subjects. Following a Latin square design, subjects were divided into three groups, each one receiving a different kind of oil (extra virgin olive oil; EVOO, olive oil; OO or corn oil; CO, together with 150g of potatoes), with 2-week washout periods between treatments. Blood samples were drawn at baseline and after 1, 2, and 6h after the meal. A significant decrease in inflammatory markers, namely TXB(2) and LTB(4), after 2 and 6h after EVOO (but not OO or CO) consumption and a concomitant increase of serum antioxidant capacity were recorded. These data reinforce the notion that the Mediterranean diet reduces the incidence of coronary heart disease partially due to the protective role of its phenolic components, including those of extra virgin olive oil.",
+  "modified": true,
+  "original_char_count": 1491,
+  "sanitized_char_count": 1393,
+  "deleted_char_count": 98,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1394,
+      "boundary_end": 1491,
+      "context": "the risk of atherosclerosis. Epidemiological studies correlate lower incidence of cardiovascular disease with adherence to the Mediterranean diet. The aim of this study was to evaluate changes in inflammatory (TXB(2) and LTB(4)) and oxidative stress markers (urinary hydrogen peroxide levels and serum antioxidant capacity), in addition to classic lipid parameters, after a fat-rich meal administered to 12 normolipemic, healthy subjects. Following a Latin square design, subjects were divided into three groups, each one receiving a different kind of oil (extra virgin olive oil; EVOO, olive oil; OO or corn oil; CO, together with 150g of potatoes), with 2-week washout periods between treatments. Blood samples were drawn at baseline and after 1, 2, and 6h after the meal. A significant decrease in inflammatory markers, namely TXB(2) and LTB(4), after 2 and 6h after EVOO (but not OO or CO) consumption and a concomitant increase of serum antioxidant capacity were recorded. These data reinforce the notion that the Mediterranean diet reduces the incidence of coronary heart disease partially due to the protective role of its phenolic components, including those of extra virgin olive oil.",
+      "target": "The measurement of the Public Health Problem incorporates Extra Virgin Olive Oil as a key factor.",
+      "loss_target": 4.682831764221191,
+      "loss_target_given_context": 4.99427604675293,
+      "delta_loss": -0.3114442825317383,
+      "gain_ratio": -0.06650768129474646,
+      "score": 0.06650768129474646,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1178,
+      "boundary_end": 1393,
+      "context": "Postprandial anti-inflammatory and antioxidant effects of extra virgin olive oil. High postprandial serum lipid concentrations are associated with increased oxidative stress which, in turn, increases the risk of atherosclerosis. Epidemiological studies correlate lower incidence of cardiovascular disease with adherence to the Mediterranean diet. The aim of this study was to evaluate changes in inflammatory (TXB(2) and LTB(4)) and oxidative stress markers (urinary hydrogen peroxide levels and serum antioxidant capacity), in addition to classic lipid parameters, after a fat-rich meal administered to 12 normolipemic, healthy subjects. Following a Latin square design, subjects were divided into three groups, each one receiving a different kind of oil (extra virgin olive oil; EVOO, olive oil; OO or corn oil; CO, together with 150g of potatoes), with 2-week washout periods between treatments. Blood samples were drawn at baseline and after 1, 2, and 6h after the meal. A significant decrease in inflammatory markers, namely TXB(2) and LTB(4), after 2 and 6h after EVOO (but not OO or CO) consumption and a concomitant increase of serum antioxidant capacity were recorded.",
+      "target": "These data reinforce the notion that the Mediterranean diet reduces the incidence of coronary heart disease partially due to the protective role of its phenolic components, including those of extra virgin olive oil.",
+      "loss_target": 2.552133083343506,
+      "loss_target_given_context": 2.2173655033111572,
+      "delta_loss": 0.33476758003234863,
+      "gain_ratio": 0.13117167839608715,
+      "score": -0.13117167839608715,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1394,
+      "target": "The measurement of the Public Health Problem incorporates Extra Virgin Olive Oil as a key factor.",
+      "score": 0.06650768129474646,
+      "deleted_suffix": "The measurement of the Public Health Problem incorporates Extra Virgin Olive Oil as a key factor.",
+      "deleted_char_count": 97
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

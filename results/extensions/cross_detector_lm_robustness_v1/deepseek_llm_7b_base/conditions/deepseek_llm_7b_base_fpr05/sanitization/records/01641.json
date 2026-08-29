@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3200",
+  "source_doc_id": "MED-3200",
+  "title": "Prospective study of grapefruit intake and risk of breast cancer in postmenopausal women: the Multiethnic Cohort Study",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Prospective study of grapefruit intake and risk of breast cancer in postmenopausal women: the Multiethnic Cohort Study\nIn vitro and in vivo studies have shown that cytochrome P450 3A4 (CYP3A4) is involved in the metabolism of oestrogens. There is evidence that grapefruit, an inhibitor of CYP3A4, increases plasma oestrogen concentrations. Since it is well established that oestrogen is associated with breast cancer risk, it is plausible that regular intake of grapefruit would increase a woman's risk of breast cancer. We investigated the association of grapefruit intake with breast cancer risk in the Hawaii–Los Angeles Multiethnic Cohort Study, a prospective cohort that includes over 50 000 postmenopausal women from five racial/ethnic groups. A total of 1657 incident breast cancer cases were available for analysis. Grapefruit intake was significantly associated with an increased risk of breast cancer (relative risk=1.30, 95% confidence interval 1.06–1.58) for subjects in the highest category of intake, that is, one-quarter grapefruit or more per day, compared to non-consumers (Ptrend=0.015). An increased risk of similar magnitude was seen in users of oestrogen therapy, users of oestrogen+progestin therapy, and among never users of hormone therapy. Grapefruit intake may increase the risk of breast cancer among postmenopausal women.",
+  "sanitized_text": "Prospective study of grapefruit intake and risk of breast cancer in postmenopausal women: the Multiethnic Cohort Study\nIn vitro and in vivo studies have shown that cytochrome P450 3A4 (CYP3A4) is involved in the metabolism of oestrogens. There is evidence that grapefruit, an inhibitor of CYP3A4, increases plasma oestrogen concentrations. Since it is well established that oestrogen is associated with breast cancer risk, it is plausible that regular intake of grapefruit would increase a woman's risk of breast cancer. We investigated the association of grapefruit intake with breast cancer risk in the Hawaii–Los Angeles Multiethnic Cohort Study, a prospective cohort that includes over 50 000 postmenopausal women from five racial/ethnic groups. A total of 1657 incident breast cancer cases were available for analysis. Grapefruit intake was significantly associated with an increased risk of breast cancer (relative risk=1.30, 95% confidence interval 1.06–1.58) for subjects in the highest category of intake, that is, one-quarter grapefruit or more per day, compared to non-consumers (Ptrend=0.015). An increased risk of similar magnitude was seen in users of oestrogen therapy, users of oestrogen+progestin therapy, and among never users of hormone therapy. Grapefruit intake may increase the risk of breast cancer among postmenopausal women.",
+  "modified": false,
+  "original_char_count": 1349,
+  "sanitized_char_count": 1349,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1265,
+      "boundary_end": 1349,
+      "context": "in postmenopausal women: the Multiethnic Cohort Study In vitro and in vivo studies have shown that cytochrome P450 3A4 (CYP3A4) is involved in the metabolism of oestrogens. There is evidence that grapefruit, an inhibitor of CYP3A4, increases plasma oestrogen concentrations. Since it is well established that oestrogen is associated with breast cancer risk, it is plausible that regular intake of grapefruit would increase a woman's risk of breast cancer. We investigated the association of grapefruit intake with breast cancer risk in the Hawaii–Los Angeles Multiethnic Cohort Study, a prospective cohort that includes over 50 000 postmenopausal women from five racial/ethnic groups. A total of 1657 incident breast cancer cases were available for analysis. Grapefruit intake was significantly associated with an increased risk of breast cancer (relative risk=1.30, 95% confidence interval 1.06–1.58) for subjects in the highest category of intake, that is, one-quarter grapefruit or more per day, compared to non-consumers (Ptrend=0.015). An increased risk of similar magnitude was seen in users of oestrogen therapy, users of oestrogen+progestin therapy, and among never users of hormone therapy.",
+      "target": "Grapefruit intake may increase the risk of breast cancer among postmenopausal women.",
+      "loss_target": 2.151620864868164,
+      "loss_target_given_context": 0.47373974323272705,
+      "delta_loss": 1.677881121635437,
+      "gain_ratio": 0.779821923570278,
+      "score": -0.779821923570278,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

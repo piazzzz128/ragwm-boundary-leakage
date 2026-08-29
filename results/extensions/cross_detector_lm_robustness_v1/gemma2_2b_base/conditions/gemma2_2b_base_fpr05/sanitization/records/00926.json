@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2128",
+  "source_doc_id": "MED-2128",
+  "title": "Sirolimus for Kaposi's sarcoma in renal-transplant recipients.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Sirolimus for Kaposi's sarcoma in renal-transplant recipients.\nBACKGROUND: Recipients of organ transplants are susceptible to Kaposi's sarcoma as a result of treatment with immunosuppressive drugs. Sirolimus (rapamycin), an immunosuppressive drug, may also have antitumor effects. METHODS: We stopped cyclosporine therapy in 15 kidney-transplant recipients who had biopsy-proven Kaposi's sarcoma and began sirolimus therapy. All patients underwent an excisional biopsy of the lesion and one biopsy of normal skin at the time of diagnosis. A second biopsy was performed at the site of a previous Kaposi's sarcoma lesion six months after sirolimus therapy was begun. We examined biopsy specimens for vascular endothelial growth factor (VEGF), Flk-1/KDR protein, and phosphorylated Akt and p70S6 kinase, two enzymes in the signaling pathway targeted by sirolimus. RESULTS: Three months after sirolimus therapy was begun, all cutaneous Kaposi's sarcoma lesions had disappeared in all patients. Remission was confirmed histologically in all patients six months after sirolimus therapy was begun. There were no acute episodes of rejection or changes in kidney-graft function. Levels of Flk-1/KDR and phosphorylated Akt and p70S6 kinase were increased in Kaposi's sarcoma cells. The expression of VEGF was increased in Kaposi's sarcoma cells and even more so in normal skin cells around the Kaposi's sarcoma lesions. CONCLUSIONS: Sirolimus inhibits the progression of dermal Kaposi's sarcoma in kidney-transplant recipients while providing effective immunosuppression. Copyright 2005 Massachusetts Medical Society.",
+  "sanitized_text": "Sirolimus for Kaposi's sarcoma in renal-transplant recipients.\nBACKGROUND: Recipients of organ transplants are susceptible to Kaposi's sarcoma as a result of treatment with immunosuppressive drugs. Sirolimus (rapamycin), an immunosuppressive drug, may also have antitumor effects. METHODS: We stopped cyclosporine therapy in 15 kidney-transplant recipients who had biopsy-proven Kaposi's sarcoma and began sirolimus therapy. All patients underwent an excisional biopsy of the lesion and one biopsy of normal skin at the time of diagnosis. A second biopsy was performed at the site of a previous Kaposi's sarcoma lesion six months after sirolimus therapy was begun. We examined biopsy specimens for vascular endothelial growth factor (VEGF), Flk-1/KDR protein, and phosphorylated Akt and p70S6 kinase, two enzymes in the signaling pathway targeted by sirolimus. RESULTS: Three months after sirolimus therapy was begun, all cutaneous Kaposi's sarcoma lesions had disappeared in all patients. Remission was confirmed histologically in all patients six months after sirolimus therapy was begun. There were no acute episodes of rejection or changes in kidney-graft function. Levels of Flk-1/KDR and phosphorylated Akt and p70S6 kinase were increased in Kaposi's sarcoma cells. The expression of VEGF was increased in Kaposi's sarcoma cells and even more so in normal skin cells around the Kaposi's sarcoma lesions. CONCLUSIONS: Sirolimus inhibits the progression of dermal Kaposi's sarcoma in kidney-transplant recipients while providing effective immunosuppression. Copyright 2005 Massachusetts Medical Society.",
+  "modified": false,
+  "original_char_count": 1607,
+  "sanitized_char_count": 1607,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1562,
+      "boundary_end": 1607,
+      "context": "biopsy-proven Kaposi's sarcoma and began sirolimus therapy. All patients underwent an excisional biopsy of the lesion and one biopsy of normal skin at the time of diagnosis. A second biopsy was performed at the site of a previous Kaposi's sarcoma lesion six months after sirolimus therapy was begun. We examined biopsy specimens for vascular endothelial growth factor (VEGF), Flk-1/KDR protein, and phosphorylated Akt and p70S6 kinase, two enzymes in the signaling pathway targeted by sirolimus. RESULTS: Three months after sirolimus therapy was begun, all cutaneous Kaposi's sarcoma lesions had disappeared in all patients. Remission was confirmed histologically in all patients six months after sirolimus therapy was begun. There were no acute episodes of rejection or changes in kidney-graft function. Levels of Flk-1/KDR and phosphorylated Akt and p70S6 kinase were increased in Kaposi's sarcoma cells. The expression of VEGF was increased in Kaposi's sarcoma cells and even more so in normal skin cells around the Kaposi's sarcoma lesions. CONCLUSIONS: Sirolimus inhibits the progression of dermal Kaposi's sarcoma in kidney-transplant recipients while providing effective immunosuppression.",
+      "target": "Copyright 2005 Massachusetts Medical Society.",
+      "loss_target": 6.282595157623291,
+      "loss_target_given_context": 3.231278896331787,
+      "delta_loss": 3.051316261291504,
+      "gain_ratio": 0.4856776833040152,
+      "score": -0.4856776833040152,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

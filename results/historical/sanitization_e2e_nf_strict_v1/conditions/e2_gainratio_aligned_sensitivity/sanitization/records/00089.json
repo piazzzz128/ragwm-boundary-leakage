@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1125",
+  "source_doc_id": "MED-1125",
+  "title": "Rheumatoid arthritis is caused by a Proteus urinary tract infection.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Rheumatoid arthritis is caused by a Proteus urinary tract infection.\nGenetic, molecular and biological studies indicate that rheumatoid arthritis (RA), a severe arthritic disorder affecting approximately 1% of the population in developed countries, is caused by an upper urinary tract infection by the microbe, Proteus mirabilis. Elevated levels of specific antibodies against Proteus bacteria have been reported from 16 different countries. The pathogenetic mechanism involves six stages triggered by cross-reactive autoantibodies evoked by Proteus infection. The causative amino acid sequences of Proteus namely, ESRRAL and IRRET, contain arginine doublets which can be acted upon by peptidyl arginine deiminase thereby explaining the early appearance of anti-citrullinated protein antibodies in patients with RA. Consequently, RA patients should be treated early with anti-Proteus antibiotics as well as biological agents to avoid irreversible joint damages. © 2013 APMIS. Published by John Wiley & Sons Ltd.",
+  "sanitized_text": "Rheumatoid arthritis is caused by a Proteus urinary tract infection.\nGenetic, molecular and biological studies indicate that rheumatoid arthritis (RA), a severe arthritic disorder affecting approximately 1% of the population in developed countries, is caused by an upper urinary tract infection by the microbe, Proteus mirabilis. Elevated levels of specific antibodies against Proteus bacteria have been reported from 16 different countries. The pathogenetic mechanism involves six stages triggered by cross-reactive autoantibodies evoked by Proteus infection. The causative amino acid sequences of Proteus namely, ESRRAL and IRRET, contain arginine doublets which can be acted upon by peptidyl arginine deiminase thereby explaining the early appearance of anti-citrullinated protein antibodies in patients with RA. Consequently, RA patients should be treated early with anti-Proteus antibiotics as well as biological agents to avoid irreversible joint damages. © 2013 APMIS. Published by John Wiley & Sons Ltd.",
+  "modified": false,
+  "original_char_count": 1011,
+  "sanitized_char_count": 1011,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 976,
+      "boundary_end": 1011,
+      "context": "Rheumatoid arthritis is caused by a Proteus urinary tract infection. Genetic, molecular and biological studies indicate that rheumatoid arthritis (RA), a severe arthritic disorder affecting approximately 1% of the population in developed countries, is caused by an upper urinary tract infection by the microbe, Proteus mirabilis. Elevated levels of specific antibodies against Proteus bacteria have been reported from 16 different countries. The pathogenetic mechanism involves six stages triggered by cross-reactive autoantibodies evoked by Proteus infection. The causative amino acid sequences of Proteus namely, ESRRAL and IRRET, contain arginine doublets which can be acted upon by peptidyl arginine deiminase thereby explaining the early appearance of anti-citrullinated protein antibodies in patients with RA. Consequently, RA patients should be treated early with anti-Proteus antibiotics as well as biological agents to avoid irreversible joint damages. © 2013 APMIS.",
+      "target": "Published by John Wiley & Sons Ltd.",
+      "loss_target": 1.8572511672973633,
+      "loss_target_given_context": 0.1478649526834488,
+      "delta_loss": 1.7093862146139145,
+      "gain_ratio": 0.9203850533050847,
+      "score": -0.9203850533050847,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1719",
+  "source_doc_id": "MED-1719",
+  "title": "Patients with congenital deficiency of IGF-I seem protected from the development of malignancies: a preliminary report.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Patients with congenital deficiency of IGF-I seem protected from the development of malignancies: a preliminary report.\nOBJECTIVE: Overexpression of IGF-I occurs in tumors diagnosed in childhood (osteosarcoma, Wilms tumor, neuroblastoma, etc.) and in adults (breast, ovaries, colon and prostate cancer). The aim of our study was to establish the prevalence of malignancies in states of congenital IGF-I deficiency. SUBJECTS: We surveyed 222 patients with congenital IGF-I deficiency (Laron syndrome, GH gene deletion, GHRH receptor defects and IGF-I resistance) and 338 first and second-degree relatives. RESULTS: None of the IGF-I deficient patients had cancer, whereas 9-24% of the family members had a history of malignancy. CONCLUSIONS: Congenital IGF-I deficiency acts as a protecting factor for the development of cancer.",
+  "sanitized_text": "Patients with congenital deficiency of IGF-I seem protected from the development of malignancies: a preliminary report.\nOBJECTIVE: Overexpression of IGF-I occurs in tumors diagnosed in childhood (osteosarcoma, Wilms tumor, neuroblastoma, etc.) and in adults (breast, ovaries, colon and prostate cancer). The aim of our study was to establish the prevalence of malignancies in states of congenital IGF-I deficiency. SUBJECTS: We surveyed 222 patients with congenital IGF-I deficiency (Laron syndrome, GH gene deletion, GHRH receptor defects and IGF-I resistance) and 338 first and second-degree relatives. RESULTS: None of the IGF-I deficient patients had cancer, whereas 9-24% of the family members had a history of malignancy. CONCLUSIONS: Congenital IGF-I deficiency acts as a protecting factor for the development of cancer.",
+  "modified": false,
+  "original_char_count": 827,
+  "sanitized_char_count": 827,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 728,
+      "boundary_end": 827,
+      "context": "Patients with congenital deficiency of IGF-I seem protected from the development of malignancies: a preliminary report. OBJECTIVE: Overexpression of IGF-I occurs in tumors diagnosed in childhood (osteosarcoma, Wilms tumor, neuroblastoma, etc.) and in adults (breast, ovaries, colon and prostate cancer). The aim of our study was to establish the prevalence of malignancies in states of congenital IGF-I deficiency. SUBJECTS: We surveyed 222 patients with congenital IGF-I deficiency (Laron syndrome, GH gene deletion, GHRH receptor defects and IGF-I resistance) and 338 first and second-degree relatives. RESULTS: None of the IGF-I deficient patients had cancer, whereas 9-24% of the family members had a history of malignancy.",
+      "target": "CONCLUSIONS: Congenital IGF-I deficiency acts as a protecting factor for the development of cancer.",
+      "loss_target": 2.7705395221710205,
+      "loss_target_given_context": 1.149133324623108,
+      "delta_loss": 1.6214061975479126,
+      "gain_ratio": 0.5852312102291772,
+      "score": -0.5852312102291772,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

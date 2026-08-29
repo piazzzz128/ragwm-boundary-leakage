@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4851",
+  "source_doc_id": "MED-4851",
+  "title": "Rheumatoid arthritis treated with vegetarian diets.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Rheumatoid arthritis treated with vegetarian diets.\nThe notion that dietary factors may influence rheumatoid arthritis (RA) has been a part of the folklore of the disease, but scientific support for this has been sparse. In a controlled, single-blind trial we tested the effect of fasting for 7-10 d, then consuming an individually adjusted, gluten-free, vegan diet for 3.5 mo, and then consuming an individually adjusted lactovegetarian diet for 9 mo on patients with RA. For all clinical variables and most laboratory variables measured, the 27 patients in the fasting and vegetarian diet groups improved significantly compared with the 26 patients in the control group who followed their usual omnivorous diet throughout the study period. One year after the patients completed the trial, they were reexamined. Compared with baseline, the improvements measured were significantly greater in the vegetarians who previously benefited from the diet (diet responders) than in diet nonresponders and omnivores. The beneficial effect could not be explained by patients' psychologic characteristics, antibody activity against food antigens, or changes in concentrations of prostaglandin and leukotriene precursors. However, the fecal flora differed significantly between samples collected at time points at which there was substantial clinical improvement and time points at which there were no or only minor improvements. In summary, the results show that some patients with RA can benefit from a fasting period followed by a vegetarian diet. Thus, dietary treatment may be a valuable adjunct to the ordinary therapeutic armamentarium for RA.",
+  "sanitized_text": "Rheumatoid arthritis treated with vegetarian diets.\nThe notion that dietary factors may influence rheumatoid arthritis (RA) has been a part of the folklore of the disease, but scientific support for this has been sparse. In a controlled, single-blind trial we tested the effect of fasting for 7-10 d, then consuming an individually adjusted, gluten-free, vegan diet for 3.5 mo, and then consuming an individually adjusted lactovegetarian diet for 9 mo on patients with RA. For all clinical variables and most laboratory variables measured, the 27 patients in the fasting and vegetarian diet groups improved significantly compared with the 26 patients in the control group who followed their usual omnivorous diet throughout the study period. One year after the patients completed the trial, they were reexamined. Compared with baseline, the improvements measured were significantly greater in the vegetarians who previously benefited from the diet (diet responders) than in diet nonresponders and omnivores. The beneficial effect could not be explained by patients' psychologic characteristics, antibody activity against food antigens, or changes in concentrations of prostaglandin and leukotriene precursors. However, the fecal flora differed significantly between samples collected at time points at which there was substantial clinical improvement and time points at which there were no or only minor improvements. In summary, the results show that some patients with RA can benefit from a fasting period followed by a vegetarian diet. Thus, dietary treatment may be a valuable adjunct to the ordinary therapeutic armamentarium for RA.",
+  "modified": false,
+  "original_char_count": 1638,
+  "sanitized_char_count": 1638,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1539,
+      "boundary_end": 1638,
+      "context": "gluten-free, vegan diet for 3.5 mo, and then consuming an individually adjusted lactovegetarian diet for 9 mo on patients with RA. For all clinical variables and most laboratory variables measured, the 27 patients in the fasting and vegetarian diet groups improved significantly compared with the 26 patients in the control group who followed their usual omnivorous diet throughout the study period. One year after the patients completed the trial, they were reexamined. Compared with baseline, the improvements measured were significantly greater in the vegetarians who previously benefited from the diet (diet responders) than in diet nonresponders and omnivores. The beneficial effect could not be explained by patients' psychologic characteristics, antibody activity against food antigens, or changes in concentrations of prostaglandin and leukotriene precursors. However, the fecal flora differed significantly between samples collected at time points at which there was substantial clinical improvement and time points at which there were no or only minor improvements. In summary, the results show that some patients with RA can benefit from a fasting period followed by a vegetarian diet.",
+      "target": "Thus, dietary treatment may be a valuable adjunct to the ordinary therapeutic armamentarium for RA.",
+      "loss_target": 3.595853090286255,
+      "loss_target_given_context": 1.82871675491333,
+      "delta_loss": 1.7671363353729248,
+      "gain_ratio": 0.49143730041325145,
+      "score": -0.49143730041325145,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

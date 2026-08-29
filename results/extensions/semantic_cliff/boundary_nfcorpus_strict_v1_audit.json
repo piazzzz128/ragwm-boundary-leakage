@@ -1,0 +1,31 @@
+{
+  "dataset": "nfcorpus",
+  "version": "strict_v1",
+  "seed": 2026,
+  "collection": "nfcorpus_contriever_cosine",
+  "collection_count": 3633,
+  "changed_docs": 143,
+  "clean_docs": 3490,
+  "inject_units": 50,
+  "watermark_candidates": 223,
+  "inject_records": 223,
+  "clean_records": 223,
+  "total_records": 446,
+  "label_counts": {
+    "1": 223,
+    "0": 223
+  },
+  "missing_watermark_candidates_in_changed_docs": 0,
+  "target_in_context": 0,
+  "context_contains_any_wt": 0,
+  "clean_target_contains_any_wt": 0,
+  "duplicate_full_text": 1,
+  "candidate_count_distribution_in_inject_file": {
+    "5": 35,
+    "1": 3,
+    "4": 10,
+    "3": 1,
+    "2": 1
+  },
+  "note": "Strict NFCorpus boundary dataset built from current wmuint_inject.json and current Chroma collection. Context for inject records is cut before the earliest appended watermark text in the changed document to avoid watermark leakage into context."
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4060",
+  "source_doc_id": "MED-4060",
+  "title": "Formation and biochemistry of carcinogenic heterocyclic aromatic amines in cooked meats.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Formation and biochemistry of carcinogenic heterocyclic aromatic amines in cooked meats.\nHeteroyclic aromatic amines (HAAs) are a class of hazardous chemicals that are receiving heightened attention as a risk factor for human cancer. HAAs arise during the cooking of meats, fish, and poultry, and several HAAs also occur in tobacco smoke condensate and diesel exhaust. Many HAAs are carcinogenic and induce tumors at multiple sites in rodents. A number of epidemiologic studies have reported that frequent consumption of well-done cooked meats containing HAAs can result in elevated risks for colon, prostate, and mammary cancers. Moreover, DNA adducts of HAAs have been detected in human tissues, demonstrating that HAAs induce genetic damage even though the concentrations of these compounds in cooked meats are generally in the low parts-per-billion (ppb) range. With recent improvements in sensitivity of mass spectrometry instrumentation, HAAs, their metabolites, and DNA adducts can be detected at trace amounts in biological fluids and tissues of humans. The incorporation of HAA biomarkers in epidemologic studies will help to clarify the role of these dietary genotoxicants in the etiology of human cancer.",
+  "sanitized_text": "Formation and biochemistry of carcinogenic heterocyclic aromatic amines in cooked meats.\nHeteroyclic aromatic amines (HAAs) are a class of hazardous chemicals that are receiving heightened attention as a risk factor for human cancer. HAAs arise during the cooking of meats, fish, and poultry, and several HAAs also occur in tobacco smoke condensate and diesel exhaust. Many HAAs are carcinogenic and induce tumors at multiple sites in rodents. A number of epidemiologic studies have reported that frequent consumption of well-done cooked meats containing HAAs can result in elevated risks for colon, prostate, and mammary cancers. Moreover, DNA adducts of HAAs have been detected in human tissues, demonstrating that HAAs induce genetic damage even though the concentrations of these compounds in cooked meats are generally in the low parts-per-billion (ppb) range. With recent improvements in sensitivity of mass spectrometry instrumentation, HAAs, their metabolites, and DNA adducts can be detected at trace amounts in biological fluids and tissues of humans. The incorporation of HAA biomarkers in epidemologic studies will help to clarify the role of these dietary genotoxicants in the etiology of human cancer.",
+  "modified": false,
+  "original_char_count": 1215,
+  "sanitized_char_count": 1215,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1062,
+      "boundary_end": 1215,
+      "context": "Formation and biochemistry of carcinogenic heterocyclic aromatic amines in cooked meats. Heteroyclic aromatic amines (HAAs) are a class of hazardous chemicals that are receiving heightened attention as a risk factor for human cancer. HAAs arise during the cooking of meats, fish, and poultry, and several HAAs also occur in tobacco smoke condensate and diesel exhaust. Many HAAs are carcinogenic and induce tumors at multiple sites in rodents. A number of epidemiologic studies have reported that frequent consumption of well-done cooked meats containing HAAs can result in elevated risks for colon, prostate, and mammary cancers. Moreover, DNA adducts of HAAs have been detected in human tissues, demonstrating that HAAs induce genetic damage even though the concentrations of these compounds in cooked meats are generally in the low parts-per-billion (ppb) range. With recent improvements in sensitivity of mass spectrometry instrumentation, HAAs, their metabolites, and DNA adducts can be detected at trace amounts in biological fluids and tissues of humans.",
+      "target": "The incorporation of HAA biomarkers in epidemologic studies will help to clarify the role of these dietary genotoxicants in the etiology of human cancer.",
+      "loss_target": 3.103909969329834,
+      "loss_target_given_context": 2.038831949234009,
+      "delta_loss": 1.0650780200958252,
+      "gain_ratio": 0.3431407581469853,
+      "score": -0.3431407581469853,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

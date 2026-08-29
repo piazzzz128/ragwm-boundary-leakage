@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2709",
+  "source_doc_id": "MED-2709",
+  "title": "Cardiac tamponade caused by acupuncture: a review of the literature.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cardiac tamponade caused by acupuncture: a review of the literature.\nThis systematic review aims to summarize all reported cases of cardiac tamponade after acupuncture. Five electronic databases and our own files were searched for reports of cardiac tamponade after acupuncture. No restrictions in time or language were imposed. Data were extracted by two independent reviewers according to predefined criteria. We found a total of 26 cases. In 14 patients, the complications were fatal. In most instances, there is little doubt about causality. We conclude that cardiac tamponade is a serious, often fatal complication after acupuncture. As it is theoretically avoidable, acupuncturists should be trained to minimize the risk. Copyright © 2010 Elsevier Ireland Ltd. All rights reserved.",
+  "sanitized_text": "Cardiac tamponade caused by acupuncture: a review of the literature.\nThis systematic review aims to summarize all reported cases of cardiac tamponade after acupuncture. Five electronic databases and our own files were searched for reports of cardiac tamponade after acupuncture. No restrictions in time or language were imposed. Data were extracted by two independent reviewers according to predefined criteria. We found a total of 26 cases. In 14 patients, the complications were fatal. In most instances, there is little doubt about causality. We conclude that cardiac tamponade is a serious, often fatal complication after acupuncture. As it is theoretically avoidable, acupuncturists should be trained to minimize the risk. Copyright © 2010 Elsevier Ireland Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 787,
+  "sanitized_char_count": 787,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 728,
+      "boundary_end": 766,
+      "context": "Cardiac tamponade caused by acupuncture: a review of the literature. This systematic review aims to summarize all reported cases of cardiac tamponade after acupuncture. Five electronic databases and our own files were searched for reports of cardiac tamponade after acupuncture. No restrictions in time or language were imposed. Data were extracted by two independent reviewers according to predefined criteria. We found a total of 26 cases. In 14 patients, the complications were fatal. In most instances, there is little doubt about causality. We conclude that cardiac tamponade is a serious, often fatal complication after acupuncture. As it is theoretically avoidable, acupuncturists should be trained to minimize the risk.",
+      "target": "Copyright © 2010 Elsevier Ireland Ltd.",
+      "loss_target": 1.305174708366394,
+      "loss_target_given_context": 0.5710816979408264,
+      "delta_loss": 0.7340930104255676,
+      "gain_ratio": 0.5624480812567891,
+      "score": -0.5624480812567891,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1182",
+  "source_doc_id": "MED-1182",
+  "title": "Fruit and Soil Quality of Organic and Conventional Strawberry Agroecosystems",
+  "original_text": "Fruit and Soil Quality of Organic and Conventional Strawberry Agroecosystems\nBackground Sale of organic foods is one of the fastest growing market segments within the global food industry. People often buy organic food because they believe organic farms produce more nutritious and better tasting food from healthier soils. Here we tested if there are significant differences in fruit and soil quality from 13 pairs of commercial organic and conventional strawberry agroecosystems in California. Methodology/Principal Findings At multiple sampling times for two years, we evaluated three varieties of strawberries for mineral elements, shelf life, phytochemical composition, and organoleptic properties. We also analyzed traditional soil properties and soil DNA using microarray technology. We found that the organic farms had strawberries with longer shelf life, greater dry matter, and higher antioxidant activity and concentrations of ascorbic acid and phenolic compounds, but lower concentrations of phosphorus and potassium. In one variety, sensory panels judged organic strawberries to be sweeter and have better flavor, overall acceptance, and appearance than their conventional counterparts. We also found the organically farmed soils to have more total carbon and nitrogen, greater microbial biomass and activity, and higher concentrations of micronutrients. Organically farmed soils also exhibited greater numbers of endemic genes and greater functional gene abundance and diversity for several biogeochemical processes, such as nitrogen fixation and pesticide degradation. Conclusions/Significance Our findings show that the organic strawberry farms produced higher quality fruit and that their higher quality soils may have greater microbial functional capability and resilience to stress. These findings justify additional investigations aimed at detecting and quantifying such effects and their interactions.",
+  "sanitized_text": "Fruit and Soil Quality of Organic and Conventional Strawberry Agroecosystems\nBackground Sale of organic foods is one of the fastest growing market segments within the global food industry. People often buy organic food because they believe organic farms produce more nutritious and better tasting food from healthier soils. Here we tested if there are significant differences in fruit and soil quality from 13 pairs of commercial organic and conventional strawberry agroecosystems in California. Methodology/Principal Findings At multiple sampling times for two years, we evaluated three varieties of strawberries for mineral elements, shelf life, phytochemical composition, and organoleptic properties. We also analyzed traditional soil properties and soil DNA using microarray technology. We found that the organic farms had strawberries with longer shelf life, greater dry matter, and higher antioxidant activity and concentrations of ascorbic acid and phenolic compounds, but lower concentrations of phosphorus and potassium. In one variety, sensory panels judged organic strawberries to be sweeter and have better flavor, overall acceptance, and appearance than their conventional counterparts. We also found the organically farmed soils to have more total carbon and nitrogen, greater microbial biomass and activity, and higher concentrations of micronutrients. Organically farmed soils also exhibited greater numbers of endemic genes and greater functional gene abundance and diversity for several biogeochemical processes, such as nitrogen fixation and pesticide degradation. Conclusions/Significance Our findings show that the organic strawberry farms produced higher quality fruit and that their higher quality soils may have greater microbial functional capability and resilience to stress.",
+  "modified": true,
+  "original_char_count": 1922,
+  "sanitized_char_count": 1801,
+  "deleted_char_count": 121,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1802,
+      "boundary_end": 1922,
+      "context": "for mineral elements, shelf life, phytochemical composition, and organoleptic properties. We also analyzed traditional soil properties and soil DNA using microarray technology. We found that the organic farms had strawberries with longer shelf life, greater dry matter, and higher antioxidant activity and concentrations of ascorbic acid and phenolic compounds, but lower concentrations of phosphorus and potassium. In one variety, sensory panels judged organic strawberries to be sweeter and have better flavor, overall acceptance, and appearance than their conventional counterparts. We also found the organically farmed soils to have more total carbon and nitrogen, greater microbial biomass and activity, and higher concentrations of micronutrients. Organically farmed soils also exhibited greater numbers of endemic genes and greater functional gene abundance and diversity for several biogeochemical processes, such as nitrogen fixation and pesticide degradation. Conclusions/Significance Our findings show that the organic strawberry farms produced higher quality fruit and that their higher quality soils may have greater microbial functional capability and resilience to stress.",
+      "target": "These findings justify additional investigations aimed at detecting and quantifying such effects and their interactions.",
+      "loss_target": 3.9741690158843994,
+      "loss_target_given_context": 3.821402072906494,
+      "delta_loss": 0.15276694297790527,
+      "gain_ratio": 0.038439971316597106,
+      "score": -0.038439971316597106,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1584,
+      "boundary_end": 1801,
+      "context": "and soil quality from 13 pairs of commercial organic and conventional strawberry agroecosystems in California. Methodology/Principal Findings At multiple sampling times for two years, we evaluated three varieties of strawberries for mineral elements, shelf life, phytochemical composition, and organoleptic properties. We also analyzed traditional soil properties and soil DNA using microarray technology. We found that the organic farms had strawberries with longer shelf life, greater dry matter, and higher antioxidant activity and concentrations of ascorbic acid and phenolic compounds, but lower concentrations of phosphorus and potassium. In one variety, sensory panels judged organic strawberries to be sweeter and have better flavor, overall acceptance, and appearance than their conventional counterparts. We also found the organically farmed soils to have more total carbon and nitrogen, greater microbial biomass and activity, and higher concentrations of micronutrients. Organically farmed soils also exhibited greater numbers of endemic genes and greater functional gene abundance and diversity for several biogeochemical processes, such as nitrogen fixation and pesticide degradation.",
+      "target": "Conclusions/Significance Our findings show that the organic strawberry farms produced higher quality fruit and that their higher quality soils may have greater microbial functional capability and resilience to stress.",
+      "loss_target": 3.7698042392730713,
+      "loss_target_given_context": 2.343243360519409,
+      "delta_loss": 1.426560878753662,
+      "gain_ratio": 0.37841776076647016,
+      "score": -0.37841776076647016,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1802,
+      "target": "These findings justify additional investigations aimed at detecting and quantifying such effects and their interactions.",
+      "score": -0.038439971316597106,
+      "deleted_suffix": "These findings justify additional investigations aimed at detecting and quantifying such effects and their interactions.",
+      "deleted_char_count": 120
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

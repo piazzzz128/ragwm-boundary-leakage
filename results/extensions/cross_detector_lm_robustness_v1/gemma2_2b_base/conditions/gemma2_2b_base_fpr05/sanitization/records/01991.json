@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3677",
+  "source_doc_id": "MED-3677",
+  "title": "Probiotics function mechanistically as delivery vehicles for neuroactive compounds: Microbial endocrinology in the design and use of probiotics.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Probiotics function mechanistically as delivery vehicles for neuroactive compounds: Microbial endocrinology in the design and use of probiotics.\nI hypothesize here that the ability of probiotics to synthesize neuroactive compounds provides a unifying microbial endocrinology-based mechanism to explain the hitherto incompletely understood action of commensal microbiota that affect the host's gastrointestinal and psychological health. Once ingested, probiotics enter an interactive environment encompassing microbiological, immunological, and neurophysiological components. By utilizing a trans-disciplinary framework known as microbial endocrinology, mechanisms that would otherwise not be considered become apparent since any candidate would need to be shared among all three components. The range of neurochemicals produced by probiotics includes neurochemicals for which receptor-based targets on immune and neuronal elements (intestinal and extra-intestinal) have been well characterized. Production of neurochemicals by probiotics therefore allows for their consideration as delivery vehicles for neuroactive compounds. This unifying microbial endocrinology-based hypothesis, which may facilitate the selection and design of probiotics for clinical use, also highlights the largely unrecognized role of neuroscience in understanding how microbes may influence health. Copyright © 2011 WILEY Periodicals, Inc.",
+  "sanitized_text": "Probiotics function mechanistically as delivery vehicles for neuroactive compounds: Microbial endocrinology in the design and use of probiotics.\nI hypothesize here that the ability of probiotics to synthesize neuroactive compounds provides a unifying microbial endocrinology-based mechanism to explain the hitherto incompletely understood action of commensal microbiota that affect the host's gastrointestinal and psychological health. Once ingested, probiotics enter an interactive environment encompassing microbiological, immunological, and neurophysiological components. By utilizing a trans-disciplinary framework known as microbial endocrinology, mechanisms that would otherwise not be considered become apparent since any candidate would need to be shared among all three components. The range of neurochemicals produced by probiotics includes neurochemicals for which receptor-based targets on immune and neuronal elements (intestinal and extra-intestinal) have been well characterized. Production of neurochemicals by probiotics therefore allows for their consideration as delivery vehicles for neuroactive compounds. This unifying microbial endocrinology-based hypothesis, which may facilitate the selection and design of probiotics for clinical use, also highlights the largely unrecognized role of neuroscience in understanding how microbes may influence health.",
+  "modified": true,
+  "original_char_count": 1415,
+  "sanitized_char_count": 1374,
+  "deleted_char_count": 41,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1375,
+      "boundary_end": 1415,
+      "context": "of probiotics to synthesize neuroactive compounds provides a unifying microbial endocrinology-based mechanism to explain the hitherto incompletely understood action of commensal microbiota that affect the host's gastrointestinal and psychological health. Once ingested, probiotics enter an interactive environment encompassing microbiological, immunological, and neurophysiological components. By utilizing a trans-disciplinary framework known as microbial endocrinology, mechanisms that would otherwise not be considered become apparent since any candidate would need to be shared among all three components. The range of neurochemicals produced by probiotics includes neurochemicals for which receptor-based targets on immune and neuronal elements (intestinal and extra-intestinal) have been well characterized. Production of neurochemicals by probiotics therefore allows for their consideration as delivery vehicles for neuroactive compounds. This unifying microbial endocrinology-based hypothesis, which may facilitate the selection and design of probiotics for clinical use, also highlights the largely unrecognized role of neuroscience in understanding how microbes may influence health.",
+      "target": "Copyright © 2011 WILEY Periodicals, Inc.",
+      "loss_target": 6.797318935394287,
+      "loss_target_given_context": 5.630504608154297,
+      "delta_loss": 1.1668143272399902,
+      "gain_ratio": 0.17165802257185211,
+      "score": -0.17165802257185211,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1127,
+      "boundary_end": 1374,
+      "context": "Probiotics function mechanistically as delivery vehicles for neuroactive compounds: Microbial endocrinology in the design and use of probiotics. I hypothesize here that the ability of probiotics to synthesize neuroactive compounds provides a unifying microbial endocrinology-based mechanism to explain the hitherto incompletely understood action of commensal microbiota that affect the host's gastrointestinal and psychological health. Once ingested, probiotics enter an interactive environment encompassing microbiological, immunological, and neurophysiological components. By utilizing a trans-disciplinary framework known as microbial endocrinology, mechanisms that would otherwise not be considered become apparent since any candidate would need to be shared among all three components. The range of neurochemicals produced by probiotics includes neurochemicals for which receptor-based targets on immune and neuronal elements (intestinal and extra-intestinal) have been well characterized. Production of neurochemicals by probiotics therefore allows for their consideration as delivery vehicles for neuroactive compounds.",
+      "target": "This unifying microbial endocrinology-based hypothesis, which may facilitate the selection and design of probiotics for clinical use, also highlights the largely unrecognized role of neuroscience in understanding how microbes may influence health.",
+      "loss_target": 8.659001350402832,
+      "loss_target_given_context": 4.071267127990723,
+      "delta_loss": 4.587734222412109,
+      "gain_ratio": 0.5298225553687759,
+      "score": -0.5298225553687759,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1375,
+      "target": "Copyright © 2011 WILEY Periodicals, Inc.",
+      "score": -0.17165802257185211,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Copyright © 2011 WILEY Periodicals, Inc.",
+      "deleted_char_count": 40
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

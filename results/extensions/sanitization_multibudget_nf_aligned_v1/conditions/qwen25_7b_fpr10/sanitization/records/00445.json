@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1542",
+  "source_doc_id": "MED-1542",
+  "title": "Status of Cardiovascular Health in US Adults: Prevalence Estimates from the National Health and Nutrition Examination Surveys (NHANES) 2003-2008",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Status of Cardiovascular Health in US Adults: Prevalence Estimates from the National Health and Nutrition Examination Surveys (NHANES) 2003-2008\nBackground The American Heart Association's 2020 Strategic Impact Goals define a new concept, “cardiovascular (CV) health”; however, current prevalence estimates of the status of CV health in U.S. adults according to age, sex and race/ethnicity have not been published. Methods and Results We included 14,515 adults (≥20 years) from the 2003-2008 National Health and Nutrition Examination Surveys. Participants were stratified by young (20-39 years), middle (40-64 years), and older ages (65+ years). CV health behaviors (diet, physical activity, body mass index, smoking) and CV health factors (blood pressure, total cholesterol, fasting blood glucose, smoking) were defined as poor, intermediate, or ideal. Less than 1% of adults exhibited ideal CV health for all 7 metrics. For CV health behaviors, non-smoking was most prevalent (range:60.2-90.4%) while ideal Healthy Diet Score was least prevalent (range:0.2-2.6%) across groups. Prevalence of ideal BMI (range:36.5-45.3%) and ideal physical activity levels (range:50.2-58.8%) were higher in young adults compared to middle or older ages. Ideal total cholesterol (range:23.7-36.2%), blood pressure (range:11.9-16.3%) and fasting blood glucose (range:31.2-42.9%) were lower in older adults compared with young and middle age adults.Prevalence of poor CV health factors was lowest in young age but higher at middle and older ages. Prevalence estimates by age and sex were consistent across race/ethnic groups. Conclusions These prevalence estimates of CV health represent a starting point from which effectiveness of efforts to promote CV health and prevent CV disease can be monitored and compared in U.S. adult populations.",
+  "sanitized_text": "Status of Cardiovascular Health in US Adults: Prevalence Estimates from the National Health and Nutrition Examination Surveys (NHANES) 2003-2008\nBackground The American Heart Association's 2020 Strategic Impact Goals define a new concept, “cardiovascular (CV) health”; however, current prevalence estimates of the status of CV health in U.S. adults according to age, sex and race/ethnicity have not been published. Methods and Results We included 14,515 adults (≥20 years) from the 2003-2008 National Health and Nutrition Examination Surveys. Participants were stratified by young (20-39 years), middle (40-64 years), and older ages (65+ years). CV health behaviors (diet, physical activity, body mass index, smoking) and CV health factors (blood pressure, total cholesterol, fasting blood glucose, smoking) were defined as poor, intermediate, or ideal. Less than 1% of adults exhibited ideal CV health for all 7 metrics. For CV health behaviors, non-smoking was most prevalent (range:60.2-90.4%) while ideal Healthy Diet Score was least prevalent (range:0.2-2.6%) across groups. Prevalence of ideal BMI (range:36.5-45.3%) and ideal physical activity levels (range:50.2-58.8%) were higher in young adults compared to middle or older ages. Ideal total cholesterol (range:23.7-36.2%), blood pressure (range:11.9-16.3%) and fasting blood glucose (range:31.2-42.9%) were lower in older adults compared with young and middle age adults.Prevalence of poor CV health factors was lowest in young age but higher at middle and older ages. Prevalence estimates by age and sex were consistent across race/ethnic groups. Conclusions These prevalence estimates of CV health represent a starting point from which effectiveness of efforts to promote CV health and prevent CV disease can be monitored and compared in U.S. adult populations.",
+  "modified": false,
+  "original_char_count": 1823,
+  "sanitized_char_count": 1823,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1608,
+      "boundary_end": 1804,
+      "context": "Methods and Results We included 14,515 adults (≥20 years) from the 2003-2008 National Health and Nutrition Examination Surveys. Participants were stratified by young (20-39 years), middle (40-64 years), and older ages (65+ years). CV health behaviors (diet, physical activity, body mass index, smoking) and CV health factors (blood pressure, total cholesterol, fasting blood glucose, smoking) were defined as poor, intermediate, or ideal. Less than 1% of adults exhibited ideal CV health for all 7 metrics. For CV health behaviors, non-smoking was most prevalent (range:60.2-90.4%) while ideal Healthy Diet Score was least prevalent (range:0.2-2.6%) across groups. Prevalence of ideal BMI (range:36.5-45.3%) and ideal physical activity levels (range:50.2-58.8%) were higher in young adults compared to middle or older ages. Ideal total cholesterol (range:23.7-36.2%), blood pressure (range:11.9-16.3%) and fasting blood glucose (range:31.2-42.9%) were lower in older adults compared with young and middle age adults.Prevalence of poor CV health factors was lowest in young age but higher at middle and older ages. Prevalence estimates by age and sex were consistent across race/ethnic groups.",
+      "target": "Conclusions These prevalence estimates of CV health represent a starting point from which effectiveness of efforts to promote CV health and prevent CV disease can be monitored and compared in U.S.",
+      "loss_target": 3.0904431343078613,
+      "loss_target_given_context": 2.083505630493164,
+      "delta_loss": 1.0069375038146973,
+      "gain_ratio": 0.325823016329408,
+      "score": -0.325823016329408,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-874",
+  "source_doc_id": "MED-874",
+  "title": "Vanillin enhances TRAIL-induced apoptosis in cancer cells through inhibition of NF-kappaB activation.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vanillin enhances TRAIL-induced apoptosis in cancer cells through inhibition of NF-kappaB activation.\nBACKGROUND: Tumor necrosis factor-related apoptosis-inducing ligand (TRAIL) is a promising anticancer agent which selectively kills cancer cells with little effect on normal cells. However, TRAIL resistance is widely found in cancer cells. We have previously reported antimetatstatic and antiangiogenic effects of vanillin, a flavoring agent from vanilla. Here we have evaluated the sensitizing effect of vanillin on a TRAIL-resistant human cervical cancer cell line, HeLa. MATERIALS AND METHODS: Cell viability after treatments was determined by the WST-1 cell counting kit. Apoptosis was demonstrated by detection of caspase-3 activation and cleavage of poly (ADP-ribose) polymerase using immunoblot analysis. Effect of treatments on TRAIL signaling pathway and nuclear factor kappaB (FN-kappaB) activation was studied using immunoblot analysis and luciferase reporter assay. RESULTS: Pretreatment of HeLa cells with vanillin enhanced TRAIL-induced cell death through the apoptosis pathway. Vanillin pretreatment inhibited TRAIL-induced phosphorylation of p65 and transcriptional activity of NF-kappaB. CONCLUSION: Vanillin sensitizes HeLa cells to TRAIL-induced apoptosis by inhibiting NF-kappaB activation. Utilizing the Trail may lead to a reduction in the impact of Leukemia. The presence of Nf-Kappab is observed in Hepg2.",
+  "sanitized_text": "Vanillin enhances TRAIL-induced apoptosis in cancer cells through inhibition of NF-kappaB activation.\nBACKGROUND: Tumor necrosis factor-related apoptosis-inducing ligand (TRAIL) is a promising anticancer agent which selectively kills cancer cells with little effect on normal cells. However, TRAIL resistance is widely found in cancer cells. We have previously reported antimetatstatic and antiangiogenic effects of vanillin, a flavoring agent from vanilla. Here we have evaluated the sensitizing effect of vanillin on a TRAIL-resistant human cervical cancer cell line, HeLa. MATERIALS AND METHODS: Cell viability after treatments was determined by the WST-1 cell counting kit. Apoptosis was demonstrated by detection of caspase-3 activation and cleavage of poly (ADP-ribose) polymerase using immunoblot analysis. Effect of treatments on TRAIL signaling pathway and nuclear factor kappaB (FN-kappaB) activation was studied using immunoblot analysis and luciferase reporter assay. RESULTS: Pretreatment of HeLa cells with vanillin enhanced TRAIL-induced cell death through the apoptosis pathway. Vanillin pretreatment inhibited TRAIL-induced phosphorylation of p65 and transcriptional activity of NF-kappaB. CONCLUSION: Vanillin sensitizes HeLa cells to TRAIL-induced apoptosis by inhibiting NF-kappaB activation. Utilizing the Trail may lead to a reduction in the impact of Leukemia. The presence of Nf-Kappab is observed in Hepg2.",
+  "modified": false,
+  "original_char_count": 1431,
+  "sanitized_char_count": 1431,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1384,
+      "boundary_end": 1431,
+      "context": "anticancer agent which selectively kills cancer cells with little effect on normal cells. However, TRAIL resistance is widely found in cancer cells. We have previously reported antimetatstatic and antiangiogenic effects of vanillin, a flavoring agent from vanilla. Here we have evaluated the sensitizing effect of vanillin on a TRAIL-resistant human cervical cancer cell line, HeLa. MATERIALS AND METHODS: Cell viability after treatments was determined by the WST-1 cell counting kit. Apoptosis was demonstrated by detection of caspase-3 activation and cleavage of poly (ADP-ribose) polymerase using immunoblot analysis. Effect of treatments on TRAIL signaling pathway and nuclear factor kappaB (FN-kappaB) activation was studied using immunoblot analysis and luciferase reporter assay. RESULTS: Pretreatment of HeLa cells with vanillin enhanced TRAIL-induced cell death through the apoptosis pathway. Vanillin pretreatment inhibited TRAIL-induced phosphorylation of p65 and transcriptional activity of NF-kappaB. CONCLUSION: Vanillin sensitizes HeLa cells to TRAIL-induced apoptosis by inhibiting NF-kappaB activation. Utilizing the Trail may lead to a reduction in the impact of Leukemia.",
+      "target": "The presence of Nf-Kappab is observed in Hepg2.",
+      "loss_target": 12.628450393676758,
+      "loss_target_given_context": 5.8197503089904785,
+      "delta_loss": 6.808700084686279,
+      "gain_ratio": 0.5391556265759646,
+      "score": -0.5391556265759646,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

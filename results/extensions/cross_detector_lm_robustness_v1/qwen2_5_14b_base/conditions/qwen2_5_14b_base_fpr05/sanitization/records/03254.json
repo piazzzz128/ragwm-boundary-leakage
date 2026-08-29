@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5198",
+  "source_doc_id": "MED-5198",
+  "title": "Why do African Americans get more colon cancer than Native Africans?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Why do African Americans get more colon cancer than Native Africans?\nThe incidence of colorectal cancer (CRC) is dramatically higher in African Americans (AAs) than in Native Africans (NAs) (60:100,000 vs. <1:100,000) and slightly higher than in Caucasian Americans (CAs). To explore whether the difference could be explained by interactions between diet and colonic bacterial flora, we compared randomly selected samples of healthy 50- to 65-y-old AAs (n = 17) with NAs (n = 18) and CAs (n = 17). Diet was measured by 3-d recall, and colonic metabolism by breath hydrogen and methane responses to oral lactulose. Fecal samples were cultured for 7-alpha dehydroxylating bacteria and Lactobacillus plantarum. Colonoscopic mucosal biopsies were taken to measure proliferation rates. In comparison with NAs, AAs consumed more (P < 0.01) protein (94 +/- 9.3 vs. 58 +/- 4.1 g/d) and fat (114 +/- 11.2 vs. 38 +/- 3.0 g/d), meat, saturated fat, and cholesterol. However, they also consumed more (P < 0.05) calcium, vitamin A, and vitamin C, and fiber intake was the same. Breath hydrogen was higher (P < 0.0001) and methane lower in AAs, and fecal colony counts of 7-alpha dehydroxylating bacteria were higher and of Lactobacilli were lower. Colonic crypt cell proliferation rates were dramatically higher in AAs (21.8 +/- 1.1% vs. 3.2 +/- 0.8% labeling, P < 0.0001). In conclusion, the higher CRC risk and mucosal proliferation rates in AAs than in NAs were associated with higher dietary intakes of animal products and higher colonic populations of potentially toxic hydrogen and secondary bile-salt-producing bacteria. This supports our hypothesis that CRC risk is determined by interactions between the external (dietary) and internal (bacterial) environments.",
+  "sanitized_text": "Why do African Americans get more colon cancer than Native Africans?\nThe incidence of colorectal cancer (CRC) is dramatically higher in African Americans (AAs) than in Native Africans (NAs) (60:100,000 vs. <1:100,000) and slightly higher than in Caucasian Americans (CAs). To explore whether the difference could be explained by interactions between diet and colonic bacterial flora, we compared randomly selected samples of healthy 50- to 65-y-old AAs (n = 17) with NAs (n = 18) and CAs (n = 17). Diet was measured by 3-d recall, and colonic metabolism by breath hydrogen and methane responses to oral lactulose. Fecal samples were cultured for 7-alpha dehydroxylating bacteria and Lactobacillus plantarum. Colonoscopic mucosal biopsies were taken to measure proliferation rates. In comparison with NAs, AAs consumed more (P < 0.01) protein (94 +/- 9.3 vs. 58 +/- 4.1 g/d) and fat (114 +/- 11.2 vs. 38 +/- 3.0 g/d), meat, saturated fat, and cholesterol. However, they also consumed more (P < 0.05) calcium, vitamin A, and vitamin C, and fiber intake was the same. Breath hydrogen was higher (P < 0.0001) and methane lower in AAs, and fecal colony counts of 7-alpha dehydroxylating bacteria were higher and of Lactobacilli were lower. Colonic crypt cell proliferation rates were dramatically higher in AAs (21.8 +/- 1.1% vs. 3.2 +/- 0.8% labeling, P < 0.0001). In conclusion, the higher CRC risk and mucosal proliferation rates in AAs than in NAs were associated with higher dietary intakes of animal products and higher colonic populations of potentially toxic hydrogen and secondary bile-salt-producing bacteria. This supports our hypothesis that CRC risk is determined by interactions between the external (dietary) and internal (bacterial) environments.",
+  "modified": false,
+  "original_char_count": 1757,
+  "sanitized_char_count": 1757,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1615,
+      "boundary_end": 1757,
+      "context": "of healthy 50- to 65-y-old AAs (n = 17) with NAs (n = 18) and CAs (n = 17). Diet was measured by 3-d recall, and colonic metabolism by breath hydrogen and methane responses to oral lactulose. Fecal samples were cultured for 7-alpha dehydroxylating bacteria and Lactobacillus plantarum. Colonoscopic mucosal biopsies were taken to measure proliferation rates. In comparison with NAs, AAs consumed more (P < 0.01) protein (94 +/- 9.3 vs. 58 +/- 4.1 g/d) and fat (114 +/- 11.2 vs. 38 +/- 3.0 g/d), meat, saturated fat, and cholesterol. However, they also consumed more (P < 0.05) calcium, vitamin A, and vitamin C, and fiber intake was the same. Breath hydrogen was higher (P < 0.0001) and methane lower in AAs, and fecal colony counts of 7-alpha dehydroxylating bacteria were higher and of Lactobacilli were lower. Colonic crypt cell proliferation rates were dramatically higher in AAs (21.8 +/- 1.1% vs. 3.2 +/- 0.8% labeling, P < 0.0001). In conclusion, the higher CRC risk and mucosal proliferation rates in AAs than in NAs were associated with higher dietary intakes of animal products and higher colonic populations of potentially toxic hydrogen and secondary bile-salt-producing bacteria.",
+      "target": "This supports our hypothesis that CRC risk is determined by interactions between the external (dietary) and internal (bacterial) environments.",
+      "loss_target": 2.7210028171539307,
+      "loss_target_given_context": 1.6106294393539429,
+      "delta_loss": 1.1103733777999878,
+      "gain_ratio": 0.40807505629905877,
+      "score": -0.40807505629905877,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

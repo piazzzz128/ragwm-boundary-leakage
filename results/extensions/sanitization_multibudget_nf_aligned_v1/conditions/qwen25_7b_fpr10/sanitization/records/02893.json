@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4813",
+  "source_doc_id": "MED-4813",
+  "title": "Detection and characterization of infectious Hepatitis E virus from commercial pig livers sold in local grocery stores in the USA.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Detection and characterization of infectious Hepatitis E virus from commercial pig livers sold in local grocery stores in the USA.\nHepatitis E virus (HEV) is a zoonotic pathogen of which pigs are reservoirs. To determine the presence of HEV RNA in commercial pig livers sold in local grocery stores in the USA, 127 packages of commercial pig liver were purchased and tested by a universal RT-PCR assay capable of detecting all four known HEV genotypes. Among the 127 livers tested, 14 were positive for HEV RNA. Sequence and phylogenetic analyses revealed that the 14 isolates all belonged to genotype 3. An animal study was subsequently conducted in pigs to determine whether the PCR-positive pig livers still contained infectious virus. The results showed that pigs inoculated with two of the three PCR-positive pig-liver homogenates became infected, as evidenced by the detection of faecal virus shedding, viraemia and seroconversion. The data demonstrated that commercial pig livers sold in grocery stores are contaminated by HEV and that the contaminating virus remains infectious, thus raising a public-health concern for food-borne HEV infection.",
+  "sanitized_text": "Detection and characterization of infectious Hepatitis E virus from commercial pig livers sold in local grocery stores in the USA.\nHepatitis E virus (HEV) is a zoonotic pathogen of which pigs are reservoirs. To determine the presence of HEV RNA in commercial pig livers sold in local grocery stores in the USA, 127 packages of commercial pig liver were purchased and tested by a universal RT-PCR assay capable of detecting all four known HEV genotypes. Among the 127 livers tested, 14 were positive for HEV RNA. Sequence and phylogenetic analyses revealed that the 14 isolates all belonged to genotype 3. An animal study was subsequently conducted in pigs to determine whether the PCR-positive pig livers still contained infectious virus. The results showed that pigs inoculated with two of the three PCR-positive pig-liver homogenates became infected, as evidenced by the detection of faecal virus shedding, viraemia and seroconversion. The data demonstrated that commercial pig livers sold in grocery stores are contaminated by HEV and that the contaminating virus remains infectious, thus raising a public-health concern for food-borne HEV infection.",
+  "modified": false,
+  "original_char_count": 1153,
+  "sanitized_char_count": 1153,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 938,
+      "boundary_end": 1153,
+      "context": "Detection and characterization of infectious Hepatitis E virus from commercial pig livers sold in local grocery stores in the USA. Hepatitis E virus (HEV) is a zoonotic pathogen of which pigs are reservoirs. To determine the presence of HEV RNA in commercial pig livers sold in local grocery stores in the USA, 127 packages of commercial pig liver were purchased and tested by a universal RT-PCR assay capable of detecting all four known HEV genotypes. Among the 127 livers tested, 14 were positive for HEV RNA. Sequence and phylogenetic analyses revealed that the 14 isolates all belonged to genotype 3. An animal study was subsequently conducted in pigs to determine whether the PCR-positive pig livers still contained infectious virus. The results showed that pigs inoculated with two of the three PCR-positive pig-liver homogenates became infected, as evidenced by the detection of faecal virus shedding, viraemia and seroconversion.",
+      "target": "The data demonstrated that commercial pig livers sold in grocery stores are contaminated by HEV and that the contaminating virus remains infectious, thus raising a public-health concern for food-borne HEV infection.",
+      "loss_target": 3.2119367122650146,
+      "loss_target_given_context": 1.6700546741485596,
+      "delta_loss": 1.541882038116455,
+      "gain_ratio": 0.48004745306115965,
+      "score": -0.48004745306115965,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

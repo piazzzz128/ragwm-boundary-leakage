@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3711",
+  "source_doc_id": "MED-3711",
+  "title": "Regulatory T-cell abnormalities and the global epidemic of immuno-inflammatory disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Regulatory T-cell abnormalities and the global epidemic of immuno-inflammatory disease.\nThe incidence of autoimmune, allergic and inflammatory disease is increasing due to as yet unidentified environmental factors related to western living conditions. Here, I propose that alterations in the gut microbiome, acting via regulatory T cells (Tregs), may be responsible for this epidemic. Tregs control the threshold for peripheral antigen recognition via tonic downregulation of dendritic cell (DC) costimulation, and are also implicated in maintaining the tolerogenic function of DCs. In this model, minor perturbations in Treg number or function are predicted to lower the activation threshold, allowing proliferation and differentiation of self-reactive CD4T cells of too low an affinity to have undergone negative selection in the thymus. Failure to maintain the tolerogenic commitment of DCs exposed to commensal microbes and allergens could result in potentially pathogenic, allergic and inflammatory responses at epithelial surfaces.",
+  "sanitized_text": "Regulatory T-cell abnormalities and the global epidemic of immuno-inflammatory disease.\nThe incidence of autoimmune, allergic and inflammatory disease is increasing due to as yet unidentified environmental factors related to western living conditions. Here, I propose that alterations in the gut microbiome, acting via regulatory T cells (Tregs), may be responsible for this epidemic. Tregs control the threshold for peripheral antigen recognition via tonic downregulation of dendritic cell (DC) costimulation, and are also implicated in maintaining the tolerogenic function of DCs. In this model, minor perturbations in Treg number or function are predicted to lower the activation threshold, allowing proliferation and differentiation of self-reactive CD4T cells of too low an affinity to have undergone negative selection in the thymus. Failure to maintain the tolerogenic commitment of DCs exposed to commensal microbes and allergens could result in potentially pathogenic, allergic and inflammatory responses at epithelial surfaces.",
+  "modified": false,
+  "original_char_count": 1037,
+  "sanitized_char_count": 1037,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 840,
+      "boundary_end": 1037,
+      "context": "Regulatory T-cell abnormalities and the global epidemic of immuno-inflammatory disease. The incidence of autoimmune, allergic and inflammatory disease is increasing due to as yet unidentified environmental factors related to western living conditions. Here, I propose that alterations in the gut microbiome, acting via regulatory T cells (Tregs), may be responsible for this epidemic. Tregs control the threshold for peripheral antigen recognition via tonic downregulation of dendritic cell (DC) costimulation, and are also implicated in maintaining the tolerogenic function of DCs. In this model, minor perturbations in Treg number or function are predicted to lower the activation threshold, allowing proliferation and differentiation of self-reactive CD4T cells of too low an affinity to have undergone negative selection in the thymus.",
+      "target": "Failure to maintain the tolerogenic commitment of DCs exposed to commensal microbes and allergens could result in potentially pathogenic, allergic and inflammatory responses at epithelial surfaces.",
+      "loss_target": 3.3715262413024902,
+      "loss_target_given_context": 2.590087413787842,
+      "delta_loss": 0.7814388275146484,
+      "gain_ratio": 0.2317759885543001,
+      "score": -0.2317759885543001,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3604",
+  "source_doc_id": "MED-3604",
+  "title": "US medical researchers, the Nuremberg Doctors Trial, and the Nuremberg Code. A review of findings of the Advisory Committee on Human Radiation Expe...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "US medical researchers, the Nuremberg Doctors Trial, and the Nuremberg Code. A review of findings of the Advisory Committee on Human Radiation Expe...\nThe Advisory Committee on Human Radiation Experiments (ACHRE), established to review allegations of abuses of human subjects in federally sponsored radiation research, was charged with identifying appropriate standards to evaluate the ethics of cold war radiation experiments. One central question for ACHRE was to determine what role, if any, the Nuremberg Code played in the norms and practices of US medical researchers. Based on the evidence from ACHRE's Ethics Oral History Project and extensive archival research, we conclude that the Code, at the time it was promulgated, had little effect on mainstream medical researchers engaged in human subjects research. Although some clinical investigators raised questions about the conduct of research involving human beings, the medical profession did not pursue this issue until the 1960s.",
+  "sanitized_text": "US medical researchers, the Nuremberg Doctors Trial, and the Nuremberg Code. A review of findings of the Advisory Committee on Human Radiation Expe...\nThe Advisory Committee on Human Radiation Experiments (ACHRE), established to review allegations of abuses of human subjects in federally sponsored radiation research, was charged with identifying appropriate standards to evaluate the ethics of cold war radiation experiments. One central question for ACHRE was to determine what role, if any, the Nuremberg Code played in the norms and practices of US medical researchers. Based on the evidence from ACHRE's Ethics Oral History Project and extensive archival research, we conclude that the Code, at the time it was promulgated, had little effect on mainstream medical researchers engaged in human subjects research.",
+  "modified": true,
+  "original_char_count": 991,
+  "sanitized_char_count": 817,
+  "deleted_char_count": 174,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 818,
+      "boundary_end": 991,
+      "context": "US medical researchers, the Nuremberg Doctors Trial, and the Nuremberg Code. A review of findings of the Advisory Committee on Human Radiation Expe... The Advisory Committee on Human Radiation Experiments (ACHRE), established to review allegations of abuses of human subjects in federally sponsored radiation research, was charged with identifying appropriate standards to evaluate the ethics of cold war radiation experiments. One central question for ACHRE was to determine what role, if any, the Nuremberg Code played in the norms and practices of US medical researchers. Based on the evidence from ACHRE's Ethics Oral History Project and extensive archival research, we conclude that the Code, at the time it was promulgated, had little effect on mainstream medical researchers engaged in human subjects research.",
+      "target": "Although some clinical investigators raised questions about the conduct of research involving human beings, the medical profession did not pursue this issue until the 1960s.",
+      "loss_target": 2.474823474884033,
+      "loss_target_given_context": 2.053591251373291,
+      "delta_loss": 0.4212322235107422,
+      "gain_ratio": 0.17020697750189256,
+      "score": -0.17020697750189256,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 575,
+      "boundary_end": 817,
+      "context": "US medical researchers, the Nuremberg Doctors Trial, and the Nuremberg Code. A review of findings of the Advisory Committee on Human Radiation Expe... The Advisory Committee on Human Radiation Experiments (ACHRE), established to review allegations of abuses of human subjects in federally sponsored radiation research, was charged with identifying appropriate standards to evaluate the ethics of cold war radiation experiments. One central question for ACHRE was to determine what role, if any, the Nuremberg Code played in the norms and practices of US medical researchers.",
+      "target": "Based on the evidence from ACHRE's Ethics Oral History Project and extensive archival research, we conclude that the Code, at the time it was promulgated, had little effect on mainstream medical researchers engaged in human subjects research.",
+      "loss_target": 2.9454009532928467,
+      "loss_target_given_context": 1.9841982126235962,
+      "delta_loss": 0.9612027406692505,
+      "gain_ratio": 0.3263402015249103,
+      "score": -0.3263402015249103,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 818,
+      "target": "Although some clinical investigators raised questions about the conduct of research involving human beings, the medical profession did not pursue this issue until the 1960s.",
+      "score": -0.17020697750189256,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Although some clinical investigators raised questions about the conduct of research involving human beings, the medical profession did not pursue this issue until the 1960s.",
+      "deleted_char_count": 173
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

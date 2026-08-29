@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4355",
+  "source_doc_id": "MED-4355",
+  "title": "Public knowledge and beliefs about diarrheal disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Public knowledge and beliefs about diarrheal disease.\nSixty percent of the U.S. population experiences acute diarrheal illness each year, but little is understood regarding public knowledge and beliefs about the causes and treatment of these diseases. We performed a telephone survey of 2117 Tennessee residents regarding knowledge and practices associated with diarrheal illness. Bloody stool, dehydration, and persistent symptoms were the most common reasons for which the respondents would seek medical care. Although most acute diarrheal disease is self-limited, overuse of antimicrobials for treatment is common. Few people believed that stool cultures (4.5%) or antibiotics (6.9%) are routinely necessary for diarrhea. Over 60% of respondents believed that food is the most common source of diarrhea. Three-fourths believed that it is normal for uncooked meat to contain bacteria, and 45% believed it is legal to sell such products. These results have implications for medical providers, regulators, and public health in the management and prevention of diarrheal disease.",
+  "sanitized_text": "Public knowledge and beliefs about diarrheal disease.\nSixty percent of the U.S. population experiences acute diarrheal illness each year, but little is understood regarding public knowledge and beliefs about the causes and treatment of these diseases. We performed a telephone survey of 2117 Tennessee residents regarding knowledge and practices associated with diarrheal illness. Bloody stool, dehydration, and persistent symptoms were the most common reasons for which the respondents would seek medical care. Although most acute diarrheal disease is self-limited, overuse of antimicrobials for treatment is common. Few people believed that stool cultures (4.5%) or antibiotics (6.9%) are routinely necessary for diarrhea. Over 60% of respondents believed that food is the most common source of diarrhea. Three-fourths believed that it is normal for uncooked meat to contain bacteria, and 45% believed it is legal to sell such products. These results have implications for medical providers, regulators, and public health in the management and prevention of diarrheal disease.",
+  "modified": false,
+  "original_char_count": 1078,
+  "sanitized_char_count": 1078,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 939,
+      "boundary_end": 1078,
+      "context": "Public knowledge and beliefs about diarrheal disease. Sixty percent of the U.S. population experiences acute diarrheal illness each year, but little is understood regarding public knowledge and beliefs about the causes and treatment of these diseases. We performed a telephone survey of 2117 Tennessee residents regarding knowledge and practices associated with diarrheal illness. Bloody stool, dehydration, and persistent symptoms were the most common reasons for which the respondents would seek medical care. Although most acute diarrheal disease is self-limited, overuse of antimicrobials for treatment is common. Few people believed that stool cultures (4.5%) or antibiotics (6.9%) are routinely necessary for diarrhea. Over 60% of respondents believed that food is the most common source of diarrhea. Three-fourths believed that it is normal for uncooked meat to contain bacteria, and 45% believed it is legal to sell such products.",
+      "target": "These results have implications for medical providers, regulators, and public health in the management and prevention of diarrheal disease.",
+      "loss_target": 2.7405948638916016,
+      "loss_target_given_context": 1.7237359285354614,
+      "delta_loss": 1.0168589353561401,
+      "gain_ratio": 0.3710358465432634,
+      "score": -0.3710358465432634,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

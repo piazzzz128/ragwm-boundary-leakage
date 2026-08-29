@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4795",
+  "source_doc_id": "MED-4795",
+  "title": "Increasing incidence of community-associated atypical Clostridium difficile disease in children.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Increasing incidence of community-associated atypical Clostridium difficile disease in children.\nForty-one children with a variety of gastrointestinal complaints were diagnosed with Clostridium difficile infections as part of a routine screen over 3 years. The infection had not been suspected prior to the screen. Each child responded to treatment with metronidazole with resolution of their symptoms. These data suggest that community-associated C difficile is increasing and may produce atypical disease and lead to misdiagnosis.",
+  "sanitized_text": "Increasing incidence of community-associated atypical Clostridium difficile disease in children.\nForty-one children with a variety of gastrointestinal complaints were diagnosed with Clostridium difficile infections as part of a routine screen over 3 years. The infection had not been suspected prior to the screen. Each child responded to treatment with metronidazole with resolution of their symptoms. These data suggest that community-associated C difficile is increasing and may produce atypical disease and lead to misdiagnosis.",
+  "modified": false,
+  "original_char_count": 532,
+  "sanitized_char_count": 532,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 403,
+      "boundary_end": 532,
+      "context": "Increasing incidence of community-associated atypical Clostridium difficile disease in children. Forty-one children with a variety of gastrointestinal complaints were diagnosed with Clostridium difficile infections as part of a routine screen over 3 years. The infection had not been suspected prior to the screen. Each child responded to treatment with metronidazole with resolution of their symptoms.",
+      "target": "These data suggest that community-associated C difficile is increasing and may produce atypical disease and lead to misdiagnosis.",
+      "loss_target": 3.4975969791412354,
+      "loss_target_given_context": 1.9453507661819458,
+      "delta_loss": 1.5522462129592896,
+      "gain_ratio": 0.44380362352108743,
+      "score": -0.44380362352108743,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

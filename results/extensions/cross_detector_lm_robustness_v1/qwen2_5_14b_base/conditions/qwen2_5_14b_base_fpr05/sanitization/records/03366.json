@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5315",
+  "source_doc_id": "MED-5315",
+  "title": "Measurement of Human Brown Adipose Tissue Volume and Activity Using Anatomical MRI and Functional MRI",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Measurement of Human Brown Adipose Tissue Volume and Activity Using Anatomical MRI and Functional MRI\nThe existence of brown adipose tissue (BAT) in humans has previously been assessed in vivo via sequential 18F-FDG PET/CT imaging. We developed a MRI protocol to detect BAT mass based on BAT’s property of having higher water-to-fat ratio than white adipose tissue (WAT). We showed that the signal contrast obtained between water-saturation and without water-saturation was higher in BAT than in WAT in fast spin echo images and in T2-weighted images. The water-to-fat ratio was also higher in BAT via contrasting the water and fat images of the Dixon method. The MRI measured volume and location of BAT was similar to PET/CT results in the same subjects. In addition, we also demonstrated that cold challenges (14 °C) led to significant fMRI BOLD signal increases in BAT.",
+  "sanitized_text": "Measurement of Human Brown Adipose Tissue Volume and Activity Using Anatomical MRI and Functional MRI\nThe existence of brown adipose tissue (BAT) in humans has previously been assessed in vivo via sequential 18F-FDG PET/CT imaging. We developed a MRI protocol to detect BAT mass based on BAT’s property of having higher water-to-fat ratio than white adipose tissue (WAT). We showed that the signal contrast obtained between water-saturation and without water-saturation was higher in BAT than in WAT in fast spin echo images and in T2-weighted images. The water-to-fat ratio was also higher in BAT via contrasting the water and fat images of the Dixon method. The MRI measured volume and location of BAT was similar to PET/CT results in the same subjects. In addition, we also demonstrated that cold challenges (14 °C) led to significant fMRI BOLD signal increases in BAT.",
+  "modified": false,
+  "original_char_count": 872,
+  "sanitized_char_count": 872,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 756,
+      "boundary_end": 872,
+      "context": "Measurement of Human Brown Adipose Tissue Volume and Activity Using Anatomical MRI and Functional MRI The existence of brown adipose tissue (BAT) in humans has previously been assessed in vivo via sequential 18F-FDG PET/CT imaging. We developed a MRI protocol to detect BAT mass based on BAT’s property of having higher water-to-fat ratio than white adipose tissue (WAT). We showed that the signal contrast obtained between water-saturation and without water-saturation was higher in BAT than in WAT in fast spin echo images and in T2-weighted images. The water-to-fat ratio was also higher in BAT via contrasting the water and fat images of the Dixon method. The MRI measured volume and location of BAT was similar to PET/CT results in the same subjects.",
+      "target": "In addition, we also demonstrated that cold challenges (14 °C) led to significant fMRI BOLD signal increases in BAT.",
+      "loss_target": 3.531252861022949,
+      "loss_target_given_context": 2.1992058753967285,
+      "delta_loss": 1.3320469856262207,
+      "gain_ratio": 0.3772165398657822,
+      "score": -0.3772165398657822,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

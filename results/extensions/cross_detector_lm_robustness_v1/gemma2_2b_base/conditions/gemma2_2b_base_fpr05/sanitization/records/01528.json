@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3001",
+  "source_doc_id": "MED-3001",
+  "title": "Towards a new system of health: the challenge of Western disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Towards a new system of health: the challenge of Western disease.\nOver the last three decades, the concept of Western disease has become well established. Medicine has approached this group of diseases by searching for new cures but has achieved relatively little success. We argue that medicine should now accept the failure of this strategy and place a major emphasis on prevention. The key objective is to change the climate of opinion so that prevention is taken seriously by the general population. The chief activity should be a wide ranging public education campaign so as to persuade people to live a healthier lifestyle. Medicine will require restructuring in order to carry out this work. Medical education needs to be reformed so that medical students receive the necessary training. This must be done as part of an integrated approach in which government, industry and medical research all play a major role. Governments should use taxation and subsidies in areas such as food and tobacco so as to shift consumption patterns towards healthier products. Governments must also tighten laws on tobacco sales and advertising, support health education, and improve food labelling. Industry must be made far more responsive to the health needs of the population. This should be done both by public education, so as to alter demand, and by government action. Medical research should change its emphasis from studying the detailed mechanisms of disease (\"complex research\") to studying the role of lifestyle factors (\"simple research\").",
+  "sanitized_text": "Towards a new system of health: the challenge of Western disease.\nOver the last three decades, the concept of Western disease has become well established. Medicine has approached this group of diseases by searching for new cures but has achieved relatively little success. We argue that medicine should now accept the failure of this strategy and place a major emphasis on prevention. The key objective is to change the climate of opinion so that prevention is taken seriously by the general population. The chief activity should be a wide ranging public education campaign so as to persuade people to live a healthier lifestyle. Medicine will require restructuring in order to carry out this work. Medical education needs to be reformed so that medical students receive the necessary training. This must be done as part of an integrated approach in which government, industry and medical research all play a major role. Governments should use taxation and subsidies in areas such as food and tobacco so as to shift consumption patterns towards healthier products. Governments must also tighten laws on tobacco sales and advertising, support health education, and improve food labelling. Industry must be made far more responsive to the health needs of the population. This should be done both by public education, so as to alter demand, and by government action. Medical research should change its emphasis from studying the detailed mechanisms of disease (\"complex research\") to studying the role of lifestyle factors (\"simple research\").",
+  "modified": false,
+  "original_char_count": 1540,
+  "sanitized_char_count": 1540,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1364,
+      "boundary_end": 1540,
+      "context": "has approached this group of diseases by searching for new cures but has achieved relatively little success. We argue that medicine should now accept the failure of this strategy and place a major emphasis on prevention. The key objective is to change the climate of opinion so that prevention is taken seriously by the general population. The chief activity should be a wide ranging public education campaign so as to persuade people to live a healthier lifestyle. Medicine will require restructuring in order to carry out this work. Medical education needs to be reformed so that medical students receive the necessary training. This must be done as part of an integrated approach in which government, industry and medical research all play a major role. Governments should use taxation and subsidies in areas such as food and tobacco so as to shift consumption patterns towards healthier products. Governments must also tighten laws on tobacco sales and advertising, support health education, and improve food labelling. Industry must be made far more responsive to the health needs of the population. This should be done both by public education, so as to alter demand, and by government action.",
+      "target": "Medical research should change its emphasis from studying the detailed mechanisms of disease (\"complex research\") to studying the role of lifestyle factors (\"simple research\").",
+      "loss_target": 8.709473609924316,
+      "loss_target_given_context": 4.446810245513916,
+      "delta_loss": 4.2626633644104,
+      "gain_ratio": 0.489428357593639,
+      "score": -0.489428357593639,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

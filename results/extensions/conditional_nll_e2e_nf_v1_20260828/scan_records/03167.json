@@ -1,0 +1,38 @@
+{
+  "campaign_id": "6e5d52efaf8d240a604cbc0e3040c5c6708432e7fc63c988bdd113c266b6652b",
+  "input_index": 3167,
+  "internal_id": "MED-5107",
+  "source_doc_id": "MED-5107",
+  "title": "Diet and acne.",
+  "original_text": "Diet and acne.\nAcne is caused by the action of dihydrotestosterone, derived from endogenous and exogenous precursors, likely acting synergistically with insulin-like growth factor-1. These sources and interactions are discussed. Both a mechanism of action and recommended dietary changes that limit ingestion and production of these hormones are proposed.",
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 229,
+      "boundary_end": 355,
+      "context": "Diet and acne. Acne is caused by the action of dihydrotestosterone, derived from endogenous and exogenous precursors, likely acting synergistically with insulin-like growth factor-1. These sources and interactions are discussed.",
+      "target": "Both a mechanism of action and recommended dietary changes that limit ingestion and production of these hormones are proposed.",
+      "conditional_nll": 3.2221996784210205,
+      "retained_text": "Diet and acne.\nAcne is caused by the action of dihydrotestosterone, derived from endogenous and exogenous precursors, likely acting synergistically with insulin-like growth factor-1. These sources and interactions are discussed."
+    },
+    {
+      "step": 2,
+      "boundary_start": 183,
+      "boundary_end": 228,
+      "context": "Diet and acne. Acne is caused by the action of dihydrotestosterone, derived from endogenous and exogenous precursors, likely acting synergistically with insulin-like growth factor-1.",
+      "target": "These sources and interactions are discussed.",
+      "conditional_nll": 3.6605710983276367,
+      "retained_text": "Diet and acne.\nAcne is caused by the action of dihydrotestosterone, derived from endogenous and exogenous precursors, likely acting synergistically with insulin-like growth factor-1."
+    },
+    {
+      "step": 3,
+      "boundary_start": 15,
+      "boundary_end": 182,
+      "context": "Diet and acne.",
+      "target": "Acne is caused by the action of dihydrotestosterone, derived from endogenous and exogenous precursors, likely acting synergistically with insulin-like growth factor-1.",
+      "conditional_nll": 2.106210231781006,
+      "retained_text": "Diet and acne."
+    }
+  ],
+  "scan_stop_reason": "below_most_permissive_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1748",
+  "source_doc_id": "MED-1748",
+  "title": "Complete Genes May Pass from Food to Human Blood",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Complete Genes May Pass from Food to Human Blood\nOur bloodstream is considered to be an environment well separated from the outside world and the digestive tract. According to the standard paradigm large macromolecules consumed with food cannot pass directly to the circulatory system. During digestion proteins and DNA are thought to be degraded into small constituents, amino acids and nucleic acids, respectively, and then absorbed by a complex active process and distributed to various parts of the body through the circulation system. Here, based on the analysis of over 1000 human samples from four independent studies, we report evidence that meal-derived DNA fragments which are large enough to carry complete genes can avoid degradation and through an unknown mechanism enter the human circulation system. In one of the blood samples the relative concentration of plant DNA is higher than the human DNA. The plant DNA concentration shows a surprisingly precise log-normal distribution in the plasma samples while non-plasma (cord blood) control sample was found to be free of plant DNA.",
+  "sanitized_text": "Complete Genes May Pass from Food to Human Blood\nOur bloodstream is considered to be an environment well separated from the outside world and the digestive tract. According to the standard paradigm large macromolecules consumed with food cannot pass directly to the circulatory system. During digestion proteins and DNA are thought to be degraded into small constituents, amino acids and nucleic acids, respectively, and then absorbed by a complex active process and distributed to various parts of the body through the circulation system. Here, based on the analysis of over 1000 human samples from four independent studies, we report evidence that meal-derived DNA fragments which are large enough to carry complete genes can avoid degradation and through an unknown mechanism enter the human circulation system. In one of the blood samples the relative concentration of plant DNA is higher than the human DNA. The plant DNA concentration shows a surprisingly precise log-normal distribution in the plasma samples while non-plasma (cord blood) control sample was found to be free of plant DNA.",
+  "modified": false,
+  "original_char_count": 1095,
+  "sanitized_char_count": 1095,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 913,
+      "boundary_end": 1095,
+      "context": "Complete Genes May Pass from Food to Human Blood Our bloodstream is considered to be an environment well separated from the outside world and the digestive tract. According to the standard paradigm large macromolecules consumed with food cannot pass directly to the circulatory system. During digestion proteins and DNA are thought to be degraded into small constituents, amino acids and nucleic acids, respectively, and then absorbed by a complex active process and distributed to various parts of the body through the circulation system. Here, based on the analysis of over 1000 human samples from four independent studies, we report evidence that meal-derived DNA fragments which are large enough to carry complete genes can avoid degradation and through an unknown mechanism enter the human circulation system. In one of the blood samples the relative concentration of plant DNA is higher than the human DNA.",
+      "target": "The plant DNA concentration shows a surprisingly precise log-normal distribution in the plasma samples while non-plasma (cord blood) control sample was found to be free of plant DNA.",
+      "loss_target": 3.889183759689331,
+      "loss_target_given_context": 2.4323570728302,
+      "delta_loss": 1.4568266868591309,
+      "gain_ratio": 0.37458417418042045,
+      "score": -0.37458417418042045,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

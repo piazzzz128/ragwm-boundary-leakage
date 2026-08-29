@@ -1,0 +1,114 @@
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models/PaLM2.py:1: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as palm
+Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath')
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-28 22:45:18] {main.py:539} INFO - args:Namespace(eval_model_code='contriever', eval_dataset='nfcorpus', split='test', score_function='cosine', top_k=5, verify_num=30, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath')
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/log.log
+[2026-08-28 22:45:18] {main.py:548} INFO - llm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+[2026-08-28 22:45:18] {main.py:552} INFO - rllm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+nfcorpus_contriever_cosine
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+
+  0%|                                                                                         | 0/3633 [00:00<?, ?it/s]
+100%|██████████████████████████████████████████████████████████████████████████| 3633/3633 [00:00<00:00, 200169.54it/s]
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Collection exist 总数: 3633
+[2026-08-28 22:45:19] {main.py:584} INFO - datalen:3633, collection_len:3633
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=nfcorpus_contriever_cosine)]
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+Here are using an exsiting local chromadb named nfcorpus_contriever_cosine!!! 
+[2026-08-28 22:45:19] {main.py:268} ERROR - /root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json does not exist!
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-5, correct-1-0.20, wrong-4-0.80,                 unknow-0-0.00 db_search-3-0.60,                  wmunit_exist-0-0.00, wmunit_WE-1-0.20
+[2026-08-28 22:45:37] {main.py:464} INFO - total-5, correct-1-0.20, wrong-4-0.80,                 unknow-0-0.00 db_search-3-0.60,                  wmunit_exist-0-0.00, wmunit_WE-1-0.20
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+2
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-10, correct-3-0.30, wrong-7-0.70,                 unknow-0-0.00 db_search-7-0.70,                  wmunit_exist-3-0.30, wmunit_WE-3-0.30
+[2026-08-28 22:45:49] {main.py:464} INFO - total-10, correct-3-0.30, wrong-7-0.70,                 unknow-0-0.00 db_search-7-0.70,                  wmunit_exist-3-0.30, wmunit_WE-3-0.30
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+4
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-15, correct-6-0.40, wrong-9-0.60,                 unknow-0-0.00 db_search-12-0.80,                  wmunit_exist-8-0.53, wmunit_WE-6-0.40
+[2026-08-28 22:46:22] {main.py:464} INFO - total-15, correct-6-0.40, wrong-9-0.60,                 unknow-0-0.00 db_search-12-0.80,                  wmunit_exist-8-0.53, wmunit_WE-6-0.40
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+4
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+3
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-20, correct-8-0.40, wrong-12-0.60,                 unknow-0-0.00 db_search-16-0.80,                  wmunit_exist-10-0.50, wmunit_WE-8-0.40
+[2026-08-28 22:46:34] {main.py:464} INFO - total-20, correct-8-0.40, wrong-12-0.60,                 unknow-0-0.00 db_search-16-0.80,                  wmunit_exist-10-0.50, wmunit_WE-8-0.40
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-25, correct-9-0.36, wrong-16-0.64,                 unknow-0-0.00 db_search-19-0.76,                  wmunit_exist-11-0.44, wmunit_WE-9-0.36
+[2026-08-28 22:46:47] {main.py:464} INFO - total-25, correct-9-0.36, wrong-16-0.64,                 unknow-0-0.00 db_search-19-0.76,                  wmunit_exist-11-0.44, wmunit_WE-9-0.36
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+2
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json
+total-30, correct-10-0.33, wrong-20-0.67,                 unknow-0-0.00 db_search-23-0.77,                  wmunit_exist-14-0.47, wmunit_WE-10-0.33
+[2026-08-28 22:46:58] {main.py:464} INFO - total-30, correct-10-0.33, wrong-20-0.67,                 unknow-0-0.00 db_search-23-0.77,                  wmunit_exist-14-0.47, wmunit_WE-10-0.33
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+total-30, correct-10-0.33, wrong-20-0.67,                 unknow-0-0.00 db_search-23-0.77,                  wmunit_exist-14-0.47, wmunit_WE-10-0.33
+[2026-08-28 22:46:58] {main.py:464} INFO - total-30, correct-10-0.33, wrong-20-0.67,                 unknow-0-0.00 db_search-23-0.77,                  wmunit_exist-14-0.47, wmunit_WE-10-0.33
+/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/verifier_refresh/conditions/conditional_nll_fpr10/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_stat.json
+[2026-08-28 22:46:58] {main.py:364} INFO - verify watermark doc len :30

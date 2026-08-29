@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3105",
+  "source_doc_id": "MED-3105",
+  "title": "Starting at the beginning: new perspectives on the biology of mucosal T cells.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Starting at the beginning: new perspectives on the biology of mucosal T cells.\nThe gastrointestinal tract is the central organ for uptake of fluids and nutrients, and at the same time it forms the main protective barrier between the sterile environment of the body and the outside world. In mammals, the intestine has further evolved to harbor a vast load of commensal bacteria that have important functions for the host. Discrimination by the host defense system of nonself from self can prevent invasion of pathogens, but equivalent responses to dietary or colonizing bacteria can lead to devastating consequences for the organism. This dilemma imposed by the gut environment has probably contributed significantly to the evolutionary drive that has led to sophisticated mechanisms and diversification of the immune system to allow for protection while maintaining the integrity of the mucosal barrier. The immense expansion and specialization of the immune system is particularly mirrored in the phylogeny, ontogeny, organization, and regulation of the adaptive intraepithelial lymphocytes, or IEL, which are key players in the unique intestinal defense mechanisms that have evolved in mammals.",
+  "sanitized_text": "Starting at the beginning: new perspectives on the biology of mucosal T cells.\nThe gastrointestinal tract is the central organ for uptake of fluids and nutrients, and at the same time it forms the main protective barrier between the sterile environment of the body and the outside world. In mammals, the intestine has further evolved to harbor a vast load of commensal bacteria that have important functions for the host. Discrimination by the host defense system of nonself from self can prevent invasion of pathogens, but equivalent responses to dietary or colonizing bacteria can lead to devastating consequences for the organism. This dilemma imposed by the gut environment has probably contributed significantly to the evolutionary drive that has led to sophisticated mechanisms and diversification of the immune system to allow for protection while maintaining the integrity of the mucosal barrier. The immense expansion and specialization of the immune system is particularly mirrored in the phylogeny, ontogeny, organization, and regulation of the adaptive intraepithelial lymphocytes, or IEL, which are key players in the unique intestinal defense mechanisms that have evolved in mammals.",
+  "modified": false,
+  "original_char_count": 1197,
+  "sanitized_char_count": 1197,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 905,
+      "boundary_end": 1197,
+      "context": "Starting at the beginning: new perspectives on the biology of mucosal T cells. The gastrointestinal tract is the central organ for uptake of fluids and nutrients, and at the same time it forms the main protective barrier between the sterile environment of the body and the outside world. In mammals, the intestine has further evolved to harbor a vast load of commensal bacteria that have important functions for the host. Discrimination by the host defense system of nonself from self can prevent invasion of pathogens, but equivalent responses to dietary or colonizing bacteria can lead to devastating consequences for the organism. This dilemma imposed by the gut environment has probably contributed significantly to the evolutionary drive that has led to sophisticated mechanisms and diversification of the immune system to allow for protection while maintaining the integrity of the mucosal barrier.",
+      "target": "The immense expansion and specialization of the immune system is particularly mirrored in the phylogeny, ontogeny, organization, and regulation of the adaptive intraepithelial lymphocytes, or IEL, which are key players in the unique intestinal defense mechanisms that have evolved in mammals.",
+      "loss_target": 2.649716854095459,
+      "loss_target_given_context": 2.2124156951904297,
+      "delta_loss": 0.4373011589050293,
+      "gain_ratio": 0.165036939033364,
+      "score": -0.165036939033364,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

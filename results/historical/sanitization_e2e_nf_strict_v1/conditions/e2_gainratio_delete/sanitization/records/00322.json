@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1404",
+  "source_doc_id": "MED-1404",
+  "title": "The effect of Mediterranean diet on the development of type 2 diabetes mellitus: a meta-analysis of 10 prospective studies and 136,846 participants.",
+  "original_text": "The effect of Mediterranean diet on the development of type 2 diabetes mellitus: a meta-analysis of 10 prospective studies and 136,846 participants.\nOBJECTIVE: The purpose of this work was to meta-analyze prospective studies that have evaluated the effect of a Mediterranean diet on the development of type 2 diabetes. MATERIALS/METHODS: PubMed, Embase and the Cochrane Central Register of Controlled Trials databases were searched up to 20 November 2013. English language publications were allocated; 17 original research studies (1 clinical trial, 9 prospective and 7 cross-sectional) were identified. Primary analyses were limited to prospective studies and clinical trials, yielding to a sample of 136,846 participants. A systematic review and a random effects meta-analysis were conducted. RESULTS: Higher adherence to the Mediterranean diet was associated with 23% reduced risk of developing type 2 diabetes (combined relative risk for upper versus lowest available centile: 0.77; 95% CI: 0.66, 0.89). Subgroup analyses based on region, health status of participants and number of confounders controlling for, showed similar results. Limitations include variations in Mediterranean diet adherence assessment tools, confounders' adjustment, duration of follow up and number of events with diabetes. CONCLUSIONS: The presented results are of major public health importance, since no consensus exists concerning the best anti-diabetic diet. Mediterranean diet could, if appropriately adjusted to reflect local food availability and individual's needs, constitute a beneficial nutritional choice for the primary prevention of diabetes. Copyright © 2014 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "The effect of Mediterranean diet on the development of type 2 diabetes mellitus: a meta-analysis of 10 prospective studies and 136,846 participants.\nOBJECTIVE: The purpose of this work was to meta-analyze prospective studies that have evaluated the effect of a Mediterranean diet on the development of type 2 diabetes. MATERIALS/METHODS: PubMed, Embase and the Cochrane Central Register of Controlled Trials databases were searched up to 20 November 2013. English language publications were allocated; 17 original research studies (1 clinical trial, 9 prospective and 7 cross-sectional) were identified. Primary analyses were limited to prospective studies and clinical trials, yielding to a sample of 136,846 participants. A systematic review and a random effects meta-analysis were conducted. RESULTS: Higher adherence to the Mediterranean diet was associated with 23% reduced risk of developing type 2 diabetes (combined relative risk for upper versus lowest available centile: 0.77; 95% CI: 0.66, 0.89). Subgroup analyses based on region, health status of participants and number of confounders controlling for, showed similar results. Limitations include variations in Mediterranean diet adherence assessment tools, confounders' adjustment, duration of follow up and number of events with diabetes. CONCLUSIONS: The presented results are of major public health importance, since no consensus exists concerning the best anti-diabetic diet. Mediterranean diet could, if appropriately adjusted to reflect local food availability and individual's needs, constitute a beneficial nutritional choice for the primary prevention of diabetes.",
+  "modified": true,
+  "original_char_count": 1689,
+  "sanitized_char_count": 1637,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1638,
+      "boundary_end": 1668,
+      "context": "20 November 2013. English language publications were allocated; 17 original research studies (1 clinical trial, 9 prospective and 7 cross-sectional) were identified. Primary analyses were limited to prospective studies and clinical trials, yielding to a sample of 136,846 participants. A systematic review and a random effects meta-analysis were conducted. RESULTS: Higher adherence to the Mediterranean diet was associated with 23% reduced risk of developing type 2 diabetes (combined relative risk for upper versus lowest available centile: 0.77; 95% CI: 0.66, 0.89). Subgroup analyses based on region, health status of participants and number of confounders controlling for, showed similar results. Limitations include variations in Mediterranean diet adherence assessment tools, confounders' adjustment, duration of follow up and number of events with diabetes. CONCLUSIONS: The presented results are of major public health importance, since no consensus exists concerning the best anti-diabetic diet. Mediterranean diet could, if appropriately adjusted to reflect local food availability and individual's needs, constitute a beneficial nutritional choice for the primary prevention of diabetes.",
+      "target": "Copyright © 2014 Elsevier Inc.",
+      "loss_target": 1.1038246154785156,
+      "loss_target_given_context": 1.5963915586471558,
+      "delta_loss": -0.49256694316864014,
+      "gain_ratio": -0.44623659978366126,
+      "score": 0.44623659978366126,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1444,
+      "boundary_end": 1637,
+      "context": "the effect of a Mediterranean diet on the development of type 2 diabetes. MATERIALS/METHODS: PubMed, Embase and the Cochrane Central Register of Controlled Trials databases were searched up to 20 November 2013. English language publications were allocated; 17 original research studies (1 clinical trial, 9 prospective and 7 cross-sectional) were identified. Primary analyses were limited to prospective studies and clinical trials, yielding to a sample of 136,846 participants. A systematic review and a random effects meta-analysis were conducted. RESULTS: Higher adherence to the Mediterranean diet was associated with 23% reduced risk of developing type 2 diabetes (combined relative risk for upper versus lowest available centile: 0.77; 95% CI: 0.66, 0.89). Subgroup analyses based on region, health status of participants and number of confounders controlling for, showed similar results. Limitations include variations in Mediterranean diet adherence assessment tools, confounders' adjustment, duration of follow up and number of events with diabetes. CONCLUSIONS: The presented results are of major public health importance, since no consensus exists concerning the best anti-diabetic diet.",
+      "target": "Mediterranean diet could, if appropriately adjusted to reflect local food availability and individual's needs, constitute a beneficial nutritional choice for the primary prevention of diabetes.",
+      "loss_target": 3.147778034210205,
+      "loss_target_given_context": 2.670228958129883,
+      "delta_loss": 0.47754907608032227,
+      "gain_ratio": 0.15170989532625734,
+      "score": -0.15170989532625734,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1638,
+      "target": "Copyright © 2014 Elsevier Inc.",
+      "score": 0.44623659978366126,
+      "deleted_suffix": "Copyright © 2014 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1101",
+  "source_doc_id": "MED-1101",
+  "title": "Exposure of human fetal penile cells to different PCB mixtures: transcriptome analysis points to diverse modes of interference on external genitali...",
+  "original_text": "Exposure of human fetal penile cells to different PCB mixtures: transcriptome analysis points to diverse modes of interference on external genitali...\nThe effects exerted by three mixtures of Polychlorinated Biphenyls (PCBs) were evaluated on human fetal corpora cavernosa cells, as a model for male external genitalia development. The three mixtures feature congeners grouped according to potentially shared modes of action: one dioxin-like (DL) (Mix2) and two non dioxin-like (NDL) mixtures featuring congeners defined as estrogenic (Mix1) and highly persistent-cytochrome P-450 inducers (Mix3). Congeners concentrations used were derived from human internal exposure data. Toxicogenomic analysis revealed that all mixtures modulated critical genes involved in genitourinary development, however displaying three different expression profiles. The DL Mix2 modulated actin-related, cell-cell and epithelial-mesenchymal communication morphogenetic processes; Mix1 modulated smooth muscle function genes, whereas Mix3 mainly modulated genes involved in cell metabolism (e.g., steroid and lipid synthesis) and growth. Our data indicate that fetal exposure to environmentally relevant PCB levels modulates several patterns of genitourinary programming; moreover, NDL congener groups may have specific modes of action. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Exposure of human fetal penile cells to different PCB mixtures: transcriptome analysis points to diverse modes of interference on external genitali...\nThe effects exerted by three mixtures of Polychlorinated Biphenyls (PCBs) were evaluated on human fetal corpora cavernosa cells, as a model for male external genitalia development. The three mixtures feature congeners grouped according to potentially shared modes of action: one dioxin-like (DL) (Mix2) and two non dioxin-like (NDL) mixtures featuring congeners defined as estrogenic (Mix1) and highly persistent-cytochrome P-450 inducers (Mix3). Congeners concentrations used were derived from human internal exposure data. Toxicogenomic analysis revealed that all mixtures modulated critical genes involved in genitourinary development, however displaying three different expression profiles. The DL Mix2 modulated actin-related, cell-cell and epithelial-mesenchymal communication morphogenetic processes; Mix1 modulated smooth muscle function genes, whereas Mix3 mainly modulated genes involved in cell metabolism (e.g., steroid and lipid synthesis) and growth. Our data indicate that fetal exposure to environmentally relevant PCB levels modulates several patterns of genitourinary programming; moreover, NDL congener groups may have specific modes of action.",
+  "modified": true,
+  "original_char_count": 1366,
+  "sanitized_char_count": 1314,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1315,
+      "boundary_end": 1345,
+      "context": "on external genitali... The effects exerted by three mixtures of Polychlorinated Biphenyls (PCBs) were evaluated on human fetal corpora cavernosa cells, as a model for male external genitalia development. The three mixtures feature congeners grouped according to potentially shared modes of action: one dioxin-like (DL) (Mix2) and two non dioxin-like (NDL) mixtures featuring congeners defined as estrogenic (Mix1) and highly persistent-cytochrome P-450 inducers (Mix3). Congeners concentrations used were derived from human internal exposure data. Toxicogenomic analysis revealed that all mixtures modulated critical genes involved in genitourinary development, however displaying three different expression profiles. The DL Mix2 modulated actin-related, cell-cell and epithelial-mesenchymal communication morphogenetic processes; Mix1 modulated smooth muscle function genes, whereas Mix3 mainly modulated genes involved in cell metabolism (e.g., steroid and lipid synthesis) and growth. Our data indicate that fetal exposure to environmentally relevant PCB levels modulates several patterns of genitourinary programming; moreover, NDL congener groups may have specific modes of action.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.1415737867355347,
+      "loss_target_given_context": 1.4621440172195435,
+      "delta_loss": -0.3205702304840088,
+      "gain_ratio": -0.2808142883174615,
+      "score": 0.2808142883174615,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1116,
+      "boundary_end": 1314,
+      "context": "Exposure of human fetal penile cells to different PCB mixtures: transcriptome analysis points to diverse modes of interference on external genitali... The effects exerted by three mixtures of Polychlorinated Biphenyls (PCBs) were evaluated on human fetal corpora cavernosa cells, as a model for male external genitalia development. The three mixtures feature congeners grouped according to potentially shared modes of action: one dioxin-like (DL) (Mix2) and two non dioxin-like (NDL) mixtures featuring congeners defined as estrogenic (Mix1) and highly persistent-cytochrome P-450 inducers (Mix3). Congeners concentrations used were derived from human internal exposure data. Toxicogenomic analysis revealed that all mixtures modulated critical genes involved in genitourinary development, however displaying three different expression profiles. The DL Mix2 modulated actin-related, cell-cell and epithelial-mesenchymal communication morphogenetic processes; Mix1 modulated smooth muscle function genes, whereas Mix3 mainly modulated genes involved in cell metabolism (e.g., steroid and lipid synthesis) and growth.",
+      "target": "Our data indicate that fetal exposure to environmentally relevant PCB levels modulates several patterns of genitourinary programming; moreover, NDL congener groups may have specific modes of action.",
+      "loss_target": 4.248625755310059,
+      "loss_target_given_context": 2.641885757446289,
+      "delta_loss": 1.6067399978637695,
+      "gain_ratio": 0.37817875482575,
+      "score": -0.37817875482575,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1315,
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "score": 0.2808142883174615,
+      "deleted_suffix": "Copyright © 2011 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

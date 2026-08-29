@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2971",
+  "source_doc_id": "MED-2971",
+  "title": "Glucose challenge stimulates reactive oxygen species (ROS) generation by leucocytes.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Glucose challenge stimulates reactive oxygen species (ROS) generation by leucocytes.\nDiabetes mellitus is associated with increased ROS generation, oxidative injury and obesity. To elucidate the relationship between nutrition and ROS generation, we have investigated the effect of glucose challenge on ROS generation by leucocytes, p47phox protein, a key protein in the enzyme NADPH oxidase and alpha-tocopherol levels. Blood samples were drawn from 14 normal subjects prior to, at 1, 2 and 3 h following ingestion of 75 g glucose. ROS generation by polymorphonuclear leucocytes (PMNL) and mononuclear cells (MNC) increased to a peak of 244 +/- 42% and 233 +/- 34% of the basal respectively at 2h. The levels of p47phox in MNC homogenates increased significantly at 2 h and 3 h after glucose intake. alpha-Tocopherol levels decreased significantly at 1 h, 2 h and 3 h. We conclude that glucose intake stimulates ROS generation and p417phox of NADPH oxidase; increases oxidative load and causes a fall in alpha-tocopherol concentration.",
+  "sanitized_text": "Glucose challenge stimulates reactive oxygen species (ROS) generation by leucocytes.\nDiabetes mellitus is associated with increased ROS generation, oxidative injury and obesity. To elucidate the relationship between nutrition and ROS generation, we have investigated the effect of glucose challenge on ROS generation by leucocytes, p47phox protein, a key protein in the enzyme NADPH oxidase and alpha-tocopherol levels. Blood samples were drawn from 14 normal subjects prior to, at 1, 2 and 3 h following ingestion of 75 g glucose. ROS generation by polymorphonuclear leucocytes (PMNL) and mononuclear cells (MNC) increased to a peak of 244 +/- 42% and 233 +/- 34% of the basal respectively at 2h. The levels of p47phox in MNC homogenates increased significantly at 2 h and 3 h after glucose intake. alpha-Tocopherol levels decreased significantly at 1 h, 2 h and 3 h. We conclude that glucose intake stimulates ROS generation and p417phox of NADPH oxidase; increases oxidative load and causes a fall in alpha-tocopherol concentration.",
+  "modified": false,
+  "original_char_count": 1035,
+  "sanitized_char_count": 1035,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 869,
+      "boundary_end": 1035,
+      "context": "Glucose challenge stimulates reactive oxygen species (ROS) generation by leucocytes. Diabetes mellitus is associated with increased ROS generation, oxidative injury and obesity. To elucidate the relationship between nutrition and ROS generation, we have investigated the effect of glucose challenge on ROS generation by leucocytes, p47phox protein, a key protein in the enzyme NADPH oxidase and alpha-tocopherol levels. Blood samples were drawn from 14 normal subjects prior to, at 1, 2 and 3 h following ingestion of 75 g glucose. ROS generation by polymorphonuclear leucocytes (PMNL) and mononuclear cells (MNC) increased to a peak of 244 +/- 42% and 233 +/- 34% of the basal respectively at 2h. The levels of p47phox in MNC homogenates increased significantly at 2 h and 3 h after glucose intake. alpha-Tocopherol levels decreased significantly at 1 h, 2 h and 3 h.",
+      "target": "We conclude that glucose intake stimulates ROS generation and p417phox of NADPH oxidase; increases oxidative load and causes a fall in alpha-tocopherol concentration.",
+      "loss_target": 3.711893320083618,
+      "loss_target_given_context": 1.9588127136230469,
+      "delta_loss": 1.7530806064605713,
+      "gain_ratio": 0.4722874434389939,
+      "score": -0.4722874434389939,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

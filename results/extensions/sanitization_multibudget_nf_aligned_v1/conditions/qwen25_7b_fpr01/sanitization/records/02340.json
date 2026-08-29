@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4131",
+  "source_doc_id": "MED-4131",
+  "title": "Annual cost of illness and quality-adjusted life year losses in the United States due to 14 foodborne pathogens.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Annual cost of illness and quality-adjusted life year losses in the United States due to 14 foodborne pathogens.\nIn this article we estimate the annual cost of illness and quality-adjusted life year (QALY) loss in the United States caused by 14 of the 31 major foodborne pathogens reported on by Scallan et al. (Emerg. Infect. Dis. 17:7-15, 2011), based on their incidence estimates of foodborne illness in the United States. These 14 pathogens account for 95 % of illnesses and hospitalizations and 98 % of deaths due to identifiable pathogens estimated by Scallan et al. We estimate that these 14 pathogens cause $14.0 billion (ranging from $4.4 billion to $33.0 billion) in cost of illness and a loss of 61,000 QALYs (ranging from 19,000 to 145,000 QALYs) per year. Roughly 90 % of this loss is caused by five pathogens: nontyphoidal Salmonella enterica ($3.3 billion; 17,000 QALYs), Campylobacter spp. ($1.7 billion; 13,300 QALYs), Listeria monocytogenes ($2.6 billion; 9,400 QALYs), Toxoplasma gondii ($3 billion; 11,000 QALYs), and norovirus ($2 billion; 5,000 QALYs). A companion article attributes losses estimated in this study to the consumption of specific categories of foods. To arrive at these estimates, for each pathogen we create disease outcome trees that characterize the symptoms, severities, durations, outcomes, and likelihoods of health states associated with that pathogen. We then estimate the cost of illness (medical costs, productivity loss, and valuation of premature mortality) for each pathogen. We also estimate QALY loss for each health state associated with a given pathogen, using the EuroQol 5D scale. Construction of disease outcome trees, outcome-specific cost of illness, and EuroQol 5D scoring are described in greater detail in a second companion article.",
+  "sanitized_text": "Annual cost of illness and quality-adjusted life year losses in the United States due to 14 foodborne pathogens.\nIn this article we estimate the annual cost of illness and quality-adjusted life year (QALY) loss in the United States caused by 14 of the 31 major foodborne pathogens reported on by Scallan et al. (Emerg. Infect. Dis. 17:7-15, 2011), based on their incidence estimates of foodborne illness in the United States. These 14 pathogens account for 95 % of illnesses and hospitalizations and 98 % of deaths due to identifiable pathogens estimated by Scallan et al. We estimate that these 14 pathogens cause $14.0 billion (ranging from $4.4 billion to $33.0 billion) in cost of illness and a loss of 61,000 QALYs (ranging from 19,000 to 145,000 QALYs) per year. Roughly 90 % of this loss is caused by five pathogens: nontyphoidal Salmonella enterica ($3.3 billion; 17,000 QALYs), Campylobacter spp. ($1.7 billion; 13,300 QALYs), Listeria monocytogenes ($2.6 billion; 9,400 QALYs), Toxoplasma gondii ($3 billion; 11,000 QALYs), and norovirus ($2 billion; 5,000 QALYs). A companion article attributes losses estimated in this study to the consumption of specific categories of foods. To arrive at these estimates, for each pathogen we create disease outcome trees that characterize the symptoms, severities, durations, outcomes, and likelihoods of health states associated with that pathogen. We then estimate the cost of illness (medical costs, productivity loss, and valuation of premature mortality) for each pathogen. We also estimate QALY loss for each health state associated with a given pathogen, using the EuroQol 5D scale. Construction of disease outcome trees, outcome-specific cost of illness, and EuroQol 5D scoring are described in greater detail in a second companion article.",
+  "modified": false,
+  "original_char_count": 1796,
+  "sanitized_char_count": 1796,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1638,
+      "boundary_end": 1796,
+      "context": "account for 95 % of illnesses and hospitalizations and 98 % of deaths due to identifiable pathogens estimated by Scallan et al. We estimate that these 14 pathogens cause $14.0 billion (ranging from $4.4 billion to $33.0 billion) in cost of illness and a loss of 61,000 QALYs (ranging from 19,000 to 145,000 QALYs) per year. Roughly 90 % of this loss is caused by five pathogens: nontyphoidal Salmonella enterica ($3.3 billion; 17,000 QALYs), Campylobacter spp. ($1.7 billion; 13,300 QALYs), Listeria monocytogenes ($2.6 billion; 9,400 QALYs), Toxoplasma gondii ($3 billion; 11,000 QALYs), and norovirus ($2 billion; 5,000 QALYs). A companion article attributes losses estimated in this study to the consumption of specific categories of foods. To arrive at these estimates, for each pathogen we create disease outcome trees that characterize the symptoms, severities, durations, outcomes, and likelihoods of health states associated with that pathogen. We then estimate the cost of illness (medical costs, productivity loss, and valuation of premature mortality) for each pathogen. We also estimate QALY loss for each health state associated with a given pathogen, using the EuroQol 5D scale.",
+      "target": "Construction of disease outcome trees, outcome-specific cost of illness, and EuroQol 5D scoring are described in greater detail in a second companion article.",
+      "loss_target": 3.5504956245422363,
+      "loss_target_given_context": 1.6949771642684937,
+      "delta_loss": 1.8555184602737427,
+      "gain_ratio": 0.5226082937401095,
+      "score": -0.5226082937401095,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

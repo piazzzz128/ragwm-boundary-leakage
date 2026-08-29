@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4826",
+  "source_doc_id": "MED-4826",
+  "title": "Macronutrients, fatty acids, cholesterol and pancreatic cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Macronutrients, fatty acids, cholesterol and pancreatic cancer.\nA role of diet and nutrition in pancreatic carcinogenesis has been suggested, but the association between selected macronutrients, fatty acids, cholesterol and pancreatic cancer remains controversial. We analysed data from a hospital-based case-control study conducted in Italy between 1991 and 2008, including 326 cases (174 men and 152 women) with incident pancreatic cancer, and 652 controls (348 men and 304 women) frequency-matched to cases by sex, age and study centre. Odds ratios (ORs) and 95% confidence intervals (CIs) were estimated using multiple logistic regression models conditioned on age, sex and study centre, and adjusted for year of interview, education, tobacco smoking, history of diabetes and energy intake. A positive association was found for animal proteins (OR=1.85 for the highest versus the lowest quintile of intake; 95% CI: 1.15-2.96; p for trend=0.039), whereas a negative association was observed for sugars (OR=0.52; 95% CI: 0.31-0.86; p for trend=0.003). Non-significant negative associations emerged for vegetable proteins (OR=0.69) and polyunsaturated fatty acids (OR=0.67). In conclusion, a diet poor in animal proteins and rich in sugars (mainly derived from fruit) appears to have a beneficial effect on pancreatic cancer risk. Copyright (c) 2009 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Macronutrients, fatty acids, cholesterol and pancreatic cancer.\nA role of diet and nutrition in pancreatic carcinogenesis has been suggested, but the association between selected macronutrients, fatty acids, cholesterol and pancreatic cancer remains controversial. We analysed data from a hospital-based case-control study conducted in Italy between 1991 and 2008, including 326 cases (174 men and 152 women) with incident pancreatic cancer, and 652 controls (348 men and 304 women) frequency-matched to cases by sex, age and study centre. Odds ratios (ORs) and 95% confidence intervals (CIs) were estimated using multiple logistic regression models conditioned on age, sex and study centre, and adjusted for year of interview, education, tobacco smoking, history of diabetes and energy intake. A positive association was found for animal proteins (OR=1.85 for the highest versus the lowest quintile of intake; 95% CI: 1.15-2.96; p for trend=0.039), whereas a negative association was observed for sugars (OR=0.52; 95% CI: 0.31-0.86; p for trend=0.003). Non-significant negative associations emerged for vegetable proteins (OR=0.69) and polyunsaturated fatty acids (OR=0.67). In conclusion, a diet poor in animal proteins and rich in sugars (mainly derived from fruit) appears to have a beneficial effect on pancreatic cancer risk. Copyright (c) 2009 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1385,
+  "sanitized_char_count": 1385,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1332,
+      "boundary_end": 1364,
+      "context": "but the association between selected macronutrients, fatty acids, cholesterol and pancreatic cancer remains controversial. We analysed data from a hospital-based case-control study conducted in Italy between 1991 and 2008, including 326 cases (174 men and 152 women) with incident pancreatic cancer, and 652 controls (348 men and 304 women) frequency-matched to cases by sex, age and study centre. Odds ratios (ORs) and 95% confidence intervals (CIs) were estimated using multiple logistic regression models conditioned on age, sex and study centre, and adjusted for year of interview, education, tobacco smoking, history of diabetes and energy intake. A positive association was found for animal proteins (OR=1.85 for the highest versus the lowest quintile of intake; 95% CI: 1.15-2.96; p for trend=0.039), whereas a negative association was observed for sugars (OR=0.52; 95% CI: 0.31-0.86; p for trend=0.003). Non-significant negative associations emerged for vegetable proteins (OR=0.69) and polyunsaturated fatty acids (OR=0.67). In conclusion, a diet poor in animal proteins and rich in sugars (mainly derived from fruit) appears to have a beneficial effect on pancreatic cancer risk.",
+      "target": "Copyright (c) 2009 Elsevier Ltd.",
+      "loss_target": 4.394985675811768,
+      "loss_target_given_context": 2.4074184894561768,
+      "delta_loss": 1.9875671863555908,
+      "gain_ratio": 0.4522351909573587,
+      "score": -0.4522351909573587,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

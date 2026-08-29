@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4507",
+  "source_doc_id": "MED-4507",
+  "title": "The increase in plasma nitrite after a dietary nitrate load is markedly attenuated by an antibacterial mouthwash.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The increase in plasma nitrite after a dietary nitrate load is markedly attenuated by an antibacterial mouthwash.\nRecent studies surprisingly show that dietary inorganic nitrate, abundant in vegetables, can be metabolized in vivo to form nitrite and then bioactive nitric oxide. A reduction in blood pressure was recently noted in healthy volunteers after dietary supplementation with nitrate; an effect consistent with formation of vasodilatory nitric oxide. Oral bacteria have been suggested to play a role in bioactivation of nitrate by first reducing it to the more reactive anion nitrite. In a cross-over designed study in seven healthy volunteers we examined the effects of a commercially available chlorhexidine-containing antibacterial mouthwash on salivary and plasma levels of nitrite measured after an oral intake of sodium nitrate (10mg/kg dissolved in water). In the control situation the salivary and plasma levels of nitrate and nitrite increased greatly after the nitrate load. Rinsing the mouth with the antibacterial mouthwash prior to the nitrate load had no effect on nitrate accumulation in saliva or plasma but abolished its conversion to nitrite in saliva and markedly attenuated the rise in plasma nitrite. We conclude that the acute increase in plasma nitrite seen after a nitrate load is critically dependent on nitrate reduction in the oral cavity by commensal bacteria. The removal of these bacteria with an antibacterial mouthwash will very likely attenuate the NO-dependent biological effects of dietary nitrate.",
+  "sanitized_text": "The increase in plasma nitrite after a dietary nitrate load is markedly attenuated by an antibacterial mouthwash.\nRecent studies surprisingly show that dietary inorganic nitrate, abundant in vegetables, can be metabolized in vivo to form nitrite and then bioactive nitric oxide. A reduction in blood pressure was recently noted in healthy volunteers after dietary supplementation with nitrate; an effect consistent with formation of vasodilatory nitric oxide. Oral bacteria have been suggested to play a role in bioactivation of nitrate by first reducing it to the more reactive anion nitrite. In a cross-over designed study in seven healthy volunteers we examined the effects of a commercially available chlorhexidine-containing antibacterial mouthwash on salivary and plasma levels of nitrite measured after an oral intake of sodium nitrate (10mg/kg dissolved in water). In the control situation the salivary and plasma levels of nitrate and nitrite increased greatly after the nitrate load. Rinsing the mouth with the antibacterial mouthwash prior to the nitrate load had no effect on nitrate accumulation in saliva or plasma but abolished its conversion to nitrite in saliva and markedly attenuated the rise in plasma nitrite. We conclude that the acute increase in plasma nitrite seen after a nitrate load is critically dependent on nitrate reduction in the oral cavity by commensal bacteria. The removal of these bacteria with an antibacterial mouthwash will very likely attenuate the NO-dependent biological effects of dietary nitrate.",
+  "modified": false,
+  "original_char_count": 1542,
+  "sanitized_char_count": 1542,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1398,
+      "boundary_end": 1542,
+      "context": "can be metabolized in vivo to form nitrite and then bioactive nitric oxide. A reduction in blood pressure was recently noted in healthy volunteers after dietary supplementation with nitrate; an effect consistent with formation of vasodilatory nitric oxide. Oral bacteria have been suggested to play a role in bioactivation of nitrate by first reducing it to the more reactive anion nitrite. In a cross-over designed study in seven healthy volunteers we examined the effects of a commercially available chlorhexidine-containing antibacterial mouthwash on salivary and plasma levels of nitrite measured after an oral intake of sodium nitrate (10mg/kg dissolved in water). In the control situation the salivary and plasma levels of nitrate and nitrite increased greatly after the nitrate load. Rinsing the mouth with the antibacterial mouthwash prior to the nitrate load had no effect on nitrate accumulation in saliva or plasma but abolished its conversion to nitrite in saliva and markedly attenuated the rise in plasma nitrite. We conclude that the acute increase in plasma nitrite seen after a nitrate load is critically dependent on nitrate reduction in the oral cavity by commensal bacteria.",
+      "target": "The removal of these bacteria with an antibacterial mouthwash will very likely attenuate the NO-dependent biological effects of dietary nitrate.",
+      "loss_target": 9.310368537902832,
+      "loss_target_given_context": 4.258802890777588,
+      "delta_loss": 5.051565647125244,
+      "gain_ratio": 0.5425741877520901,
+      "score": -0.5425741877520901,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

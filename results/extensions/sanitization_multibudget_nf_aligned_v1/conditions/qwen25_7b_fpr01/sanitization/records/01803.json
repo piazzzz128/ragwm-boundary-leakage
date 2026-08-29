@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3461",
+  "source_doc_id": "MED-3461",
+  "title": "Acute inflammation: the underlying mechanism in delayed onset muscle soreness?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Acute inflammation: the underlying mechanism in delayed onset muscle soreness?\nIt is well documented in animal and human research that unaccustomed eccentric muscle action of sufficient intensity and/or duration causes disruption of connective and/or contractile tissue. In humans, this appears to be associated with the sensation of delayed onset muscle soreness (DOMS). During the late 1970's, it was proposed that this sensation of soreness might be associated with the acute inflammatory response. However, subsequent research failed to substantiate this theory. The present article suggests that the results of much of the research concerning DOMS reflect events typically seen in acute inflammation. Similarities between the two events include: the cardinal symptoms of pain, swelling, and loss of function; evidence of cellular infiltrates, especially the macrophage; biochemical markers such as increased lysosomal activity and increased circulating levels of some of the acute phase proteins; and histological changes during the initial 72 h. In the final section of this paper, a theoretical sequence of events is proposed, based on research involving acute inflammation and DOMS.",
+  "sanitized_text": "Acute inflammation: the underlying mechanism in delayed onset muscle soreness?\nIt is well documented in animal and human research that unaccustomed eccentric muscle action of sufficient intensity and/or duration causes disruption of connective and/or contractile tissue. In humans, this appears to be associated with the sensation of delayed onset muscle soreness (DOMS). During the late 1970's, it was proposed that this sensation of soreness might be associated with the acute inflammatory response. However, subsequent research failed to substantiate this theory. The present article suggests that the results of much of the research concerning DOMS reflect events typically seen in acute inflammation. Similarities between the two events include: the cardinal symptoms of pain, swelling, and loss of function; evidence of cellular infiltrates, especially the macrophage; biochemical markers such as increased lysosomal activity and increased circulating levels of some of the acute phase proteins; and histological changes during the initial 72 h. In the final section of this paper, a theoretical sequence of events is proposed, based on research involving acute inflammation and DOMS.",
+  "modified": false,
+  "original_char_count": 1190,
+  "sanitized_char_count": 1190,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1052,
+      "boundary_end": 1190,
+      "context": "Acute inflammation: the underlying mechanism in delayed onset muscle soreness? It is well documented in animal and human research that unaccustomed eccentric muscle action of sufficient intensity and/or duration causes disruption of connective and/or contractile tissue. In humans, this appears to be associated with the sensation of delayed onset muscle soreness (DOMS). During the late 1970's, it was proposed that this sensation of soreness might be associated with the acute inflammatory response. However, subsequent research failed to substantiate this theory. The present article suggests that the results of much of the research concerning DOMS reflect events typically seen in acute inflammation. Similarities between the two events include: the cardinal symptoms of pain, swelling, and loss of function; evidence of cellular infiltrates, especially the macrophage; biochemical markers such as increased lysosomal activity and increased circulating levels of some of the acute phase proteins; and histological changes during the initial 72 h.",
+      "target": "In the final section of this paper, a theoretical sequence of events is proposed, based on research involving acute inflammation and DOMS.",
+      "loss_target": 3.685199022293091,
+      "loss_target_given_context": 1.782120943069458,
+      "delta_loss": 1.9030780792236328,
+      "gain_ratio": 0.51641120810877,
+      "score": -0.51641120810877,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

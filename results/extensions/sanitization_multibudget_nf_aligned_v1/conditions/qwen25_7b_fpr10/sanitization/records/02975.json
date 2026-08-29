@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4898",
+  "source_doc_id": "MED-4898",
+  "title": "Animal foods, protein, calcium and prostate cancer risk: the European Prospective Investigation into Cancer and Nutrition",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Animal foods, protein, calcium and prostate cancer risk: the European Prospective Investigation into Cancer and Nutrition\nWe examined consumption of animal foods, protein and calcium in relation to risk of prostate cancer among 142 251 men in the European Prospective Investigation into Cancer and Nutrition. Associations were examined using Cox regression, stratified by recruitment centre and adjusted for height, weight, education, marital status and energy intake. After an average of 8.7 years of follow-up, there were 2727 incident cases of prostate cancer, of which 1131 were known to be localised and 541 advanced-stage disease. A high intake of dairy protein was associated with an increased risk, with a hazard ratio for the top versus the bottom fifth of intake of 1.22 (95% confidence interval (CI): 1.07–1.41, Ptrend=0.02). After calibration to allow for measurement error, we estimated that a 35-g day−1 increase in consumption of dairy protein was associated with an increase in the risk of prostate cancer of 32% (95% CI: 1–72%, Ptrend=0.04). Calcium from dairy products was also positively associated with risk, but not calcium from other foods. The results support the hypothesis that a high intake of protein or calcium from dairy products may increase the risk for prostate cancer.",
+  "sanitized_text": "Animal foods, protein, calcium and prostate cancer risk: the European Prospective Investigation into Cancer and Nutrition\nWe examined consumption of animal foods, protein and calcium in relation to risk of prostate cancer among 142 251 men in the European Prospective Investigation into Cancer and Nutrition. Associations were examined using Cox regression, stratified by recruitment centre and adjusted for height, weight, education, marital status and energy intake. After an average of 8.7 years of follow-up, there were 2727 incident cases of prostate cancer, of which 1131 were known to be localised and 541 advanced-stage disease. A high intake of dairy protein was associated with an increased risk, with a hazard ratio for the top versus the bottom fifth of intake of 1.22 (95% confidence interval (CI): 1.07–1.41, Ptrend=0.02). After calibration to allow for measurement error, we estimated that a 35-g day−1 increase in consumption of dairy protein was associated with an increase in the risk of prostate cancer of 32% (95% CI: 1–72%, Ptrend=0.04). Calcium from dairy products was also positively associated with risk, but not calcium from other foods. The results support the hypothesis that a high intake of protein or calcium from dairy products may increase the risk for prostate cancer.",
+  "modified": false,
+  "original_char_count": 1301,
+  "sanitized_char_count": 1301,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1163,
+      "boundary_end": 1301,
+      "context": "Animal foods, protein, calcium and prostate cancer risk: the European Prospective Investigation into Cancer and Nutrition We examined consumption of animal foods, protein and calcium in relation to risk of prostate cancer among 142 251 men in the European Prospective Investigation into Cancer and Nutrition. Associations were examined using Cox regression, stratified by recruitment centre and adjusted for height, weight, education, marital status and energy intake. After an average of 8.7 years of follow-up, there were 2727 incident cases of prostate cancer, of which 1131 were known to be localised and 541 advanced-stage disease. A high intake of dairy protein was associated with an increased risk, with a hazard ratio for the top versus the bottom fifth of intake of 1.22 (95% confidence interval (CI): 1.07–1.41, Ptrend=0.02). After calibration to allow for measurement error, we estimated that a 35-g day−1 increase in consumption of dairy protein was associated with an increase in the risk of prostate cancer of 32% (95% CI: 1–72%, Ptrend=0.04). Calcium from dairy products was also positively associated with risk, but not calcium from other foods.",
+      "target": "The results support the hypothesis that a high intake of protein or calcium from dairy products may increase the risk for prostate cancer.",
+      "loss_target": 2.5840651988983154,
+      "loss_target_given_context": 1.0695278644561768,
+      "delta_loss": 1.5145373344421387,
+      "gain_ratio": 0.5861064709543099,
+      "score": -0.5861064709543099,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

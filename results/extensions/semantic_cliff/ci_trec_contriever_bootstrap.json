@@ -1,0 +1,49 @@
+{
+  "input": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_contriever_cosine_scores.json",
+  "n": 458,
+  "positive": 229,
+  "negative": 229,
+  "score_orientation": "higher score = more likely injected/anomalous",
+  "bootstrap": {
+    "n_boot": 5000,
+    "seed": 20260609,
+    "sampling": "stratified bootstrap over positive and negative classes"
+  },
+  "metrics": {
+    "roc_auc": {
+      "point": 0.6890600865734825,
+      "ci95": [
+        0.639952518067924,
+        0.7365439255544325
+      ]
+    },
+    "pr_auc": {
+      "point": 0.6640681192289757,
+      "ci95": [
+        0.613232474439844,
+        0.7209115499445583
+      ]
+    },
+    "tpr_at_fpr_5": {
+      "point": 0.13973799126637554,
+      "ci95": [
+        0.0611353711790393,
+        0.2183406113537118
+      ]
+    },
+    "tpr_at_fpr_10": {
+      "point": 0.22707423580786026,
+      "ci95": [
+        0.14410480349344978,
+        0.34497816593886466
+      ]
+    },
+    "best_f1": {
+      "point": 0.7099236641221374,
+      "ci95": [
+        0.6816808381415124,
+        0.7467234792829854
+      ]
+    }
+  }
+}

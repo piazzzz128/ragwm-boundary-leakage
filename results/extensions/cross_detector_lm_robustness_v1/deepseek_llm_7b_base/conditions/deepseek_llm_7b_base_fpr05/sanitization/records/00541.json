@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1655",
+  "source_doc_id": "MED-1655",
+  "title": "An archaeologic dig: a rice-fruit diet reverses ECG changes in hypertension.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "An archaeologic dig: a rice-fruit diet reverses ECG changes in hypertension.\nIn 1940, a young German refugee physician scientist at Duke University in Durham, North Carolina began to treat patients with accelerated or \"malignant\" hypertension with a radical diet consisting of only white rice and fruit, with strikingly favorable results. He reported rapid reduction in blood pressure, rapid improvement in renal failure, papilledema, congestive heart failure and other manifestations of this previously fatal illness. This treatment was based on his theory that the kidney had both an excretory and a metabolic function, and that removing most of the sodium and protein burden from this organ enabled it to regain its normal ability to perform its more important metabolic functions. It was also effective in \"ordinary\" hypertension, in the absence of the dramatic vasculopathy of the accelerated form. The results were so dramatic that many experienced physicians suspected him of falsifying data. Among these results was the normalization of the ECG changes seen with hypertension. This paper reviews his published experience with this radical therapy, its controversial rise to fame, and its decline in popularity with the advent of effective antihypertensive drugs. It features the ECG changes seen in this then fatal disease, and the reversal of these changes by the rice diet. This treatment, though very difficult for the patient, produced effects which make it equal or superior to current multi-drug treatment of hypertension. A poorly known but important observation was that patients who were able to follow the regime, and who were slowly guided through a gradual modification of the diet over many months, were able to transition into a very tolerable low fat, largely vegetarian diet, while leading a normal, active life, without medications, indicating that the disease state had been permanently modified. Copyright © 2014 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "An archaeologic dig: a rice-fruit diet reverses ECG changes in hypertension.\nIn 1940, a young German refugee physician scientist at Duke University in Durham, North Carolina began to treat patients with accelerated or \"malignant\" hypertension with a radical diet consisting of only white rice and fruit, with strikingly favorable results. He reported rapid reduction in blood pressure, rapid improvement in renal failure, papilledema, congestive heart failure and other manifestations of this previously fatal illness. This treatment was based on his theory that the kidney had both an excretory and a metabolic function, and that removing most of the sodium and protein burden from this organ enabled it to regain its normal ability to perform its more important metabolic functions. It was also effective in \"ordinary\" hypertension, in the absence of the dramatic vasculopathy of the accelerated form. The results were so dramatic that many experienced physicians suspected him of falsifying data. Among these results was the normalization of the ECG changes seen with hypertension. This paper reviews his published experience with this radical therapy, its controversial rise to fame, and its decline in popularity with the advent of effective antihypertensive drugs. It features the ECG changes seen in this then fatal disease, and the reversal of these changes by the rice diet. This treatment, though very difficult for the patient, produced effects which make it equal or superior to current multi-drug treatment of hypertension. A poorly known but important observation was that patients who were able to follow the regime, and who were slowly guided through a gradual modification of the diet over many months, were able to transition into a very tolerable low fat, largely vegetarian diet, while leading a normal, active life, without medications, indicating that the disease state had been permanently modified. Copyright © 2014 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1974,
+  "sanitized_char_count": 1974,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1923,
+      "boundary_end": 1953,
+      "context": "ability to perform its more important metabolic functions. It was also effective in \"ordinary\" hypertension, in the absence of the dramatic vasculopathy of the accelerated form. The results were so dramatic that many experienced physicians suspected him of falsifying data. Among these results was the normalization of the ECG changes seen with hypertension. This paper reviews his published experience with this radical therapy, its controversial rise to fame, and its decline in popularity with the advent of effective antihypertensive drugs. It features the ECG changes seen in this then fatal disease, and the reversal of these changes by the rice diet. This treatment, though very difficult for the patient, produced effects which make it equal or superior to current multi-drug treatment of hypertension. A poorly known but important observation was that patients who were able to follow the regime, and who were slowly guided through a gradual modification of the diet over many months, were able to transition into a very tolerable low fat, largely vegetarian diet, while leading a normal, active life, without medications, indicating that the disease state had been permanently modified.",
+      "target": "Copyright © 2014 Elsevier Inc.",
+      "loss_target": 1.245052456855774,
+      "loss_target_given_context": 0.8157166242599487,
+      "delta_loss": 0.4293358325958252,
+      "gain_ratio": 0.3448335290868465,
+      "score": -0.3448335290868465,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

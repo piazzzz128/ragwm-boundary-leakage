@@ -1,0 +1,106 @@
+import os
+from pathlib import Path
+
+import torch
+import chromadb
+from tqdm import tqdm
+from beir.datasets.data_loader import GenericDataLoader
+from transformers import AutoTokenizer
+
+from contriever_src.contriever import Contriever
+
+
+DATA_PATH = "/root/autodl-tmp/ragwm_storage/datasets/nfcorpus"
+MODEL_PATH = "/root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever"
+CHROMA_PATH = "/root/autodl-tmp/ragwm_storage/chromadb_db"
+COLLECTION = "nfcorpus_contriever_cosine"
+BATCH_SIZE = 64
+
+
+def mean_pooling(token_embeddings, mask):
+    mask = mask.unsqueeze(-1).expand(token_embeddings.size()).float()
+    return torch.sum(token_embeddings * mask, 1) / torch.clamp(mask.sum(1), min=1e-9)
+
+
+@torch.no_grad()
+def encode_texts(model, tokenizer, texts, device):
+    inputs = tokenizer(
+        texts,
+        padding=True,
+        truncation=True,
+        max_length=512,
+        return_tensors="pt",
+    )
+    inputs = {k: v.to(device) for k, v in inputs.items()}
+    outputs = model(**inputs)
+    if hasattr(outputs, "last_hidden_state"):
+        emb = mean_pooling(outputs.last_hidden_state, inputs["attention_mask"])
+    else:
+        emb = outputs[0]
+    emb = torch.nn.functional.normalize(emb, p=2, dim=1)
+    return emb.cpu().numpy().tolist()
+
+
+def main():
+    print("DATA_PATH:", DATA_PATH)
+    print("MODEL_PATH:", MODEL_PATH)
+    print("CHROMA_PATH:", CHROMA_PATH)
+    print("COLLECTION:", COLLECTION)
+
+    corpus, queries, qrels = GenericDataLoader(DATA_PATH).load(split="test")
+    print("corpus size:", len(corpus))
+
+    client = chromadb.PersistentClient(path=CHROMA_PATH)
+
+    existing = [c.name for c in client.list_collections()]
+    if COLLECTION in existing:
+        print("delete existing collection:", COLLECTION)
+        client.delete_collection(COLLECTION)
+
+    col = client.create_collection(
+        name=COLLECTION,
+        metadata={"hnsw:space": "cosine"}
+    )
+
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, local_files_only=True)
+    model = Contriever.from_pretrained(MODEL_PATH, local_files_only=True).to(device)
+    model.eval()
+
+    ids, docs, metas = [], [], []
+
+    for doc_id, item in corpus.items():
+        title = item.get("title", "") or ""
+        text = item.get("text", "") or ""
+        content = (title + "\n" + text).strip()
+        if not content:
+            continue
+
+        ids.append(str(doc_id))
+        docs.append(content)
+        metas.append({
+            "id": str(doc_id),
+            "title": title,
+            "dataset": "nfcorpus",
+        })
+
+    print("valid docs:", len(ids))
+
+    for i in tqdm(range(0, len(ids), BATCH_SIZE)):
+        batch_ids = ids[i:i+BATCH_SIZE]
+        batch_docs = docs[i:i+BATCH_SIZE]
+        batch_metas = metas[i:i+BATCH_SIZE]
+        embeds = encode_texts(model, tokenizer, batch_docs, device)
+
+        col.add(
+            ids=batch_ids,
+            documents=batch_docs,
+            metadatas=batch_metas,
+            embeddings=embeds,
+        )
+
+    print("collection count:", col.count())
+
+
+if __name__ == "__main__":
+    main()

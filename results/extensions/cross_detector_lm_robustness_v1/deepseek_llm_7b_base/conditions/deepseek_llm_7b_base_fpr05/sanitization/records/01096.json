@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2332",
+  "source_doc_id": "MED-2332",
+  "title": "Complexity of the heat stress response in plants.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Complexity of the heat stress response in plants.\nPlants have evolved a variety of responses to elevated temperatures that minimize damage and ensure protection of cellular homeostasis. New information about the structure and function of heat stress proteins and molecular chaperones has become available. At the same time, transcriptome analysis of Arabidopsis has revealed the involvement of factors other than classical heat stress responsive genes in thermotolerance. Recent reports suggest that both plant hormones and reactive oxygen species also contribute to heat stress signaling. Additionally, an increasing number of mutants that have altered thermotolerance have extended our understanding of the complexity of the heat stress response in plants.",
+  "sanitized_text": "Complexity of the heat stress response in plants.\nPlants have evolved a variety of responses to elevated temperatures that minimize damage and ensure protection of cellular homeostasis. New information about the structure and function of heat stress proteins and molecular chaperones has become available. At the same time, transcriptome analysis of Arabidopsis has revealed the involvement of factors other than classical heat stress responsive genes in thermotolerance. Recent reports suggest that both plant hormones and reactive oxygen species also contribute to heat stress signaling. Additionally, an increasing number of mutants that have altered thermotolerance have extended our understanding of the complexity of the heat stress response in plants.",
+  "modified": false,
+  "original_char_count": 758,
+  "sanitized_char_count": 758,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 590,
+      "boundary_end": 758,
+      "context": "Complexity of the heat stress response in plants. Plants have evolved a variety of responses to elevated temperatures that minimize damage and ensure protection of cellular homeostasis. New information about the structure and function of heat stress proteins and molecular chaperones has become available. At the same time, transcriptome analysis of Arabidopsis has revealed the involvement of factors other than classical heat stress responsive genes in thermotolerance. Recent reports suggest that both plant hormones and reactive oxygen species also contribute to heat stress signaling.",
+      "target": "Additionally, an increasing number of mutants that have altered thermotolerance have extended our understanding of the complexity of the heat stress response in plants.",
+      "loss_target": 2.8613455295562744,
+      "loss_target_given_context": 1.5198255777359009,
+      "delta_loss": 1.3415199518203735,
+      "gain_ratio": 0.46884234635878136,
+      "score": -0.46884234635878136,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

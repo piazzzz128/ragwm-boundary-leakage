@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4565",
+  "source_doc_id": "MED-4565",
+  "title": "The clinical significance of nasal irrigation bottle contamination.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The clinical significance of nasal irrigation bottle contamination.\nOBJECTIVES/HYPOTHESIS: This study aimed to assess the clinical relevance of contamination of nasal irrigation bottles in patients with recalcitrant chronic rhinosinusitis (CRS). Secondary investigations to identify the presence of bacterial biofilms on the inner surface of the bottles and to assess different sterilization methods were also undertaken. STUDY DESIGN: Prospective, observational. METHODS: Eleven patients with recalcitrant CRS who were already using nasal irrigation as part of their treatment regimen were examined every 2 weeks for a period of 6 weeks. At each visit, a culture sample was taken from their irrigation bottle and middle meatus, and they were given a new irrigation bottle. Irrigation bottles from six patients were analyzed with scanning electron microscopy (SEM) to detect biofilm formation. Finally, new bottles were inoculated with different strains of Staphylococcus aureus and then cleaned with different methods. The bottles were cultured immediately after cleaning and 48 hours later. RESULTS: Overall, 42 of 43 (97%) bottles collected demonstrated bacterial growth. Concurrent sinonasal and bottle infection with S. aureus was seen in 51% of patients during the study. Bacterial biofilms were demonstrated on the inner surface of four of the six irrigation bottles tested. Treatment with Milton's solution (1% NaOCl plus 19% NaCl) and microwaving were found to be effective methods for sterilizing the bottles both initially after the cleaning and 48 hours later. CONCLUSIONS: Patients who irrigate their nose and sinuses commonly contaminate their irrigation bottle, most often with S. aureus, which can be in the biofilm form. Simple cleaning methods could reduce contamination of the bottles.",
+  "sanitized_text": "The clinical significance of nasal irrigation bottle contamination.\nOBJECTIVES/HYPOTHESIS: This study aimed to assess the clinical relevance of contamination of nasal irrigation bottles in patients with recalcitrant chronic rhinosinusitis (CRS). Secondary investigations to identify the presence of bacterial biofilms on the inner surface of the bottles and to assess different sterilization methods were also undertaken. STUDY DESIGN: Prospective, observational. METHODS: Eleven patients with recalcitrant CRS who were already using nasal irrigation as part of their treatment regimen were examined every 2 weeks for a period of 6 weeks. At each visit, a culture sample was taken from their irrigation bottle and middle meatus, and they were given a new irrigation bottle. Irrigation bottles from six patients were analyzed with scanning electron microscopy (SEM) to detect biofilm formation. Finally, new bottles were inoculated with different strains of Staphylococcus aureus and then cleaned with different methods. The bottles were cultured immediately after cleaning and 48 hours later. RESULTS: Overall, 42 of 43 (97%) bottles collected demonstrated bacterial growth. Concurrent sinonasal and bottle infection with S. aureus was seen in 51% of patients during the study. Bacterial biofilms were demonstrated on the inner surface of four of the six irrigation bottles tested. Treatment with Milton's solution (1% NaOCl plus 19% NaCl) and microwaving were found to be effective methods for sterilizing the bottles both initially after the cleaning and 48 hours later. CONCLUSIONS: Patients who irrigate their nose and sinuses commonly contaminate their irrigation bottle, most often with S. aureus, which can be in the biofilm form. Simple cleaning methods could reduce contamination of the bottles.",
+  "modified": false,
+  "original_char_count": 1804,
+  "sanitized_char_count": 1804,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1738,
+      "boundary_end": 1804,
+      "context": "irrigation as part of their treatment regimen were examined every 2 weeks for a period of 6 weeks. At each visit, a culture sample was taken from their irrigation bottle and middle meatus, and they were given a new irrigation bottle. Irrigation bottles from six patients were analyzed with scanning electron microscopy (SEM) to detect biofilm formation. Finally, new bottles were inoculated with different strains of Staphylococcus aureus and then cleaned with different methods. The bottles were cultured immediately after cleaning and 48 hours later. RESULTS: Overall, 42 of 43 (97%) bottles collected demonstrated bacterial growth. Concurrent sinonasal and bottle infection with S. aureus was seen in 51% of patients during the study. Bacterial biofilms were demonstrated on the inner surface of four of the six irrigation bottles tested. Treatment with Milton's solution (1% NaOCl plus 19% NaCl) and microwaving were found to be effective methods for sterilizing the bottles both initially after the cleaning and 48 hours later. CONCLUSIONS: Patients who irrigate their nose and sinuses commonly contaminate their irrigation bottle, most often with S. aureus, which can be in the biofilm form.",
+      "target": "Simple cleaning methods could reduce contamination of the bottles.",
+      "loss_target": 4.918752670288086,
+      "loss_target_given_context": 1.951947569847107,
+      "delta_loss": 2.966805100440979,
+      "gain_ratio": 0.6031620817940448,
+      "score": -0.6031620817940448,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5244",
+  "source_doc_id": "MED-5244",
+  "title": "Effects of habitual coffee consumption on cardiometabolic disease, cardiovascular health, and all-cause mortality.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of habitual coffee consumption on cardiometabolic disease, cardiovascular health, and all-cause mortality.\nCoffee, after water, is the most widely consumed beverage in the United States, and is the principal source of caffeine intake among adults. The biological effects of coffee may be substantial and are not limited to the actions of caffeine. Coffee is a complex beverage containing hundreds of biologically active compounds, and the health effects of chronic coffee intake are wide ranging. From a cardiovascular (CV) standpoint, coffee consumption may reduce the risk of type 2 diabetes mellitus and hypertension, as well as other conditions associated with CV risk such as obesity and depression; but it may adversely affect lipid profiles depending on how the beverage is prepared. Regardless, a growing body of data suggests that habitual coffee consumption is neutral to beneficial regarding the risks of a variety of adverse CV outcomes including coronary heart disease, congestive heart failure, arrhythmias, and stroke. Moreover, large epidemiological studies suggest that regular coffee drinkers have reduced risks of mortality, both CV and all-cause. The potential benefits also include protection against neurodegenerative diseases, improved asthma control, and lower risk of select gastrointestinal diseases. A daily intake of ∼2 to 3 cups of coffee appears to be safe and is associated with neutral to beneficial effects for most of the studied health outcomes. However, most of the data on coffee's health effects are based on observational data, with very few randomized, controlled studies, and association does not prove causation. Additionally, the possible advantages of regular coffee consumption have to be weighed against potential risks (which are mostly related to its high caffeine content) including anxiety, insomnia, tremulousness, and palpitations, as well as bone loss and possibly increased risk of fractures. Copyright © 2013 American College of Cardiology Foundation. Published by Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Effects of habitual coffee consumption on cardiometabolic disease, cardiovascular health, and all-cause mortality.\nCoffee, after water, is the most widely consumed beverage in the United States, and is the principal source of caffeine intake among adults. The biological effects of coffee may be substantial and are not limited to the actions of caffeine. Coffee is a complex beverage containing hundreds of biologically active compounds, and the health effects of chronic coffee intake are wide ranging. From a cardiovascular (CV) standpoint, coffee consumption may reduce the risk of type 2 diabetes mellitus and hypertension, as well as other conditions associated with CV risk such as obesity and depression; but it may adversely affect lipid profiles depending on how the beverage is prepared. Regardless, a growing body of data suggests that habitual coffee consumption is neutral to beneficial regarding the risks of a variety of adverse CV outcomes including coronary heart disease, congestive heart failure, arrhythmias, and stroke. Moreover, large epidemiological studies suggest that regular coffee drinkers have reduced risks of mortality, both CV and all-cause. The potential benefits also include protection against neurodegenerative diseases, improved asthma control, and lower risk of select gastrointestinal diseases. A daily intake of ∼2 to 3 cups of coffee appears to be safe and is associated with neutral to beneficial effects for most of the studied health outcomes. However, most of the data on coffee's health effects are based on observational data, with very few randomized, controlled studies, and association does not prove causation. Additionally, the possible advantages of regular coffee consumption have to be weighed against potential risks (which are mostly related to its high caffeine content) including anxiety, insomnia, tremulousness, and palpitations, as well as bone loss and possibly increased risk of fractures. Copyright © 2013 American College of Cardiology Foundation. Published by Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 2062,
+  "sanitized_char_count": 2062,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 2015,
+      "boundary_end": 2041,
+      "context": "body of data suggests that habitual coffee consumption is neutral to beneficial regarding the risks of a variety of adverse CV outcomes including coronary heart disease, congestive heart failure, arrhythmias, and stroke. Moreover, large epidemiological studies suggest that regular coffee drinkers have reduced risks of mortality, both CV and all-cause. The potential benefits also include protection against neurodegenerative diseases, improved asthma control, and lower risk of select gastrointestinal diseases. A daily intake of ∼2 to 3 cups of coffee appears to be safe and is associated with neutral to beneficial effects for most of the studied health outcomes. However, most of the data on coffee's health effects are based on observational data, with very few randomized, controlled studies, and association does not prove causation. Additionally, the possible advantages of regular coffee consumption have to be weighed against potential risks (which are mostly related to its high caffeine content) including anxiety, insomnia, tremulousness, and palpitations, as well as bone loss and possibly increased risk of fractures. Copyright © 2013 American College of Cardiology Foundation.",
+      "target": "Published by Elsevier Inc.",
+      "loss_target": 2.21758770942688,
+      "loss_target_given_context": 0.017931386828422546,
+      "delta_loss": 2.1996563225984573,
+      "gain_ratio": 0.9919140123512604,
+      "score": -0.9919140123512604,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

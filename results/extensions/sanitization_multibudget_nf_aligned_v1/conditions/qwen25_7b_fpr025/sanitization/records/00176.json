@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1227",
+  "source_doc_id": "MED-1227",
+  "title": "Do breast-feeding and delayed introduction of solid foods protect against subsequent obesity?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Do breast-feeding and delayed introduction of solid foods protect against subsequent obesity?\nTo correct methodologic flaws (Type II error, confounding variables, and nonblinding) in previous studies relating infant feeding to later obesity, we conducted case-control studies of 639 patients 12 to 18 years of age attending our Adolescent Clinic, and 533 similarly aged healthy children attending a Montreal high school. Each subject was classified as either obese, overweight, or nonobese based on measurements of height, weight, and triceps and subscapular skinfolds. Feeding history, family history, and demographic data were later ascertained \"blindly\" by telephone interview. Analysis of the raw data revealed a significantly elevated estimated relative risk of not breast-feeding and a significant trend for rates of breast-feeding among the three weight groups. The magnitude of the protective effect appeared to rise slightly with increased duration of breast-feeding. Delayed introduction of solid foods provided little if any additional benefit. Several demographic and clinical variables proved to be confounding, but the significant protective effect of breast-feeding persisted even after controlling for confounders. We conclude that breast-feeding does protect against later obesity and attribute the conflicting results of previous studies to insufficient attention to methodologic standards.",
+  "sanitized_text": "Do breast-feeding and delayed introduction of solid foods protect against subsequent obesity?\nTo correct methodologic flaws (Type II error, confounding variables, and nonblinding) in previous studies relating infant feeding to later obesity, we conducted case-control studies of 639 patients 12 to 18 years of age attending our Adolescent Clinic, and 533 similarly aged healthy children attending a Montreal high school. Each subject was classified as either obese, overweight, or nonobese based on measurements of height, weight, and triceps and subscapular skinfolds. Feeding history, family history, and demographic data were later ascertained \"blindly\" by telephone interview. Analysis of the raw data revealed a significantly elevated estimated relative risk of not breast-feeding and a significant trend for rates of breast-feeding among the three weight groups. The magnitude of the protective effect appeared to rise slightly with increased duration of breast-feeding. Delayed introduction of solid foods provided little if any additional benefit. Several demographic and clinical variables proved to be confounding, but the significant protective effect of breast-feeding persisted even after controlling for confounders. We conclude that breast-feeding does protect against later obesity and attribute the conflicting results of previous studies to insufficient attention to methodologic standards.",
+  "modified": false,
+  "original_char_count": 1408,
+  "sanitized_char_count": 1408,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1231,
+      "boundary_end": 1408,
+      "context": "of solid foods protect against subsequent obesity? To correct methodologic flaws (Type II error, confounding variables, and nonblinding) in previous studies relating infant feeding to later obesity, we conducted case-control studies of 639 patients 12 to 18 years of age attending our Adolescent Clinic, and 533 similarly aged healthy children attending a Montreal high school. Each subject was classified as either obese, overweight, or nonobese based on measurements of height, weight, and triceps and subscapular skinfolds. Feeding history, family history, and demographic data were later ascertained \"blindly\" by telephone interview. Analysis of the raw data revealed a significantly elevated estimated relative risk of not breast-feeding and a significant trend for rates of breast-feeding among the three weight groups. The magnitude of the protective effect appeared to rise slightly with increased duration of breast-feeding. Delayed introduction of solid foods provided little if any additional benefit. Several demographic and clinical variables proved to be confounding, but the significant protective effect of breast-feeding persisted even after controlling for confounders.",
+      "target": "We conclude that breast-feeding does protect against later obesity and attribute the conflicting results of previous studies to insufficient attention to methodologic standards.",
+      "loss_target": 3.4625744819641113,
+      "loss_target_given_context": 1.8865262269973755,
+      "delta_loss": 1.5760482549667358,
+      "gain_ratio": 0.4551666002207519,
+      "score": -0.4551666002207519,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1628",
+  "source_doc_id": "MED-1628",
+  "title": "Heavy coffee drinking and the risk of suicide.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Heavy coffee drinking and the risk of suicide.\nEarlier research has implicated coffee drinking as a possible protective factor for suicide. We followed-up 43,166 subjects for the mean 14.6 years, and 213 suicides were committed. Daily coffee drinking had a J-shaped association with the risk of suicide. Using the Cox model we controlled for potential covariates, and found that among heavy coffee drinkers (> or = 8 cups/day) the risk of suicide was 58% higher compared with more moderate drinkers. There is a relationship where alcohol consumption results in effects that nutmeg can also produce.",
+  "sanitized_text": "Heavy coffee drinking and the risk of suicide.\nEarlier research has implicated coffee drinking as a possible protective factor for suicide. We followed-up 43,166 subjects for the mean 14.6 years, and 213 suicides were committed. Daily coffee drinking had a J-shaped association with the risk of suicide. Using the Cox model we controlled for potential covariates, and found that among heavy coffee drinkers (> or = 8 cups/day) the risk of suicide was 58% higher compared with more moderate drinkers. There is a relationship where alcohol consumption results in effects that nutmeg can also produce.",
+  "modified": false,
+  "original_char_count": 598,
+  "sanitized_char_count": 598,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 500,
+      "boundary_end": 598,
+      "context": "Heavy coffee drinking and the risk of suicide. Earlier research has implicated coffee drinking as a possible protective factor for suicide. We followed-up 43,166 subjects for the mean 14.6 years, and 213 suicides were committed. Daily coffee drinking had a J-shaped association with the risk of suicide. Using the Cox model we controlled for potential covariates, and found that among heavy coffee drinkers (> or = 8 cups/day) the risk of suicide was 58% higher compared with more moderate drinkers.",
+      "target": "There is a relationship where alcohol consumption results in effects that nutmeg can also produce.",
+      "loss_target": 8.62374210357666,
+      "loss_target_given_context": 6.211532115936279,
+      "delta_loss": 2.412209987640381,
+      "gain_ratio": 0.27971731513630577,
+      "score": -0.27971731513630577,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

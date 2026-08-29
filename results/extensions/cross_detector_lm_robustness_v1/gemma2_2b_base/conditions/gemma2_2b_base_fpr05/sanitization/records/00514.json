@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1621",
+  "source_doc_id": "MED-1621",
+  "title": "Coffee, tea, and mortality.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Coffee, tea, and mortality.\nExcept for conflicting evidence about coffee and risk of coronary disease, coffee and tea are not linked to major causes of death. Because of widespread use of both beverages and limitations of prior studies, concern persists. Using Cox models (ten covariates) we studied relations in 128,934 persons to 4501 subsequent deaths. Except for slightly increased risk from acute myocardial infarction among heavier (> or = 4 cups/d) coffee users (relative risk versus nondrinkers = 1.4, 95% confidence interval = 1.0 to 1.9, P = 0.07), there was no increased risk of mortality for all deaths (relative risk per cup of coffee per day = 0.99, 95% confidence interval = 0.97 to 1.01; relative risk per cup of tea per day = 0.98, 95% confidence interval = 0.96 to 1.00) or major causes in adjusted analyses. Coffee was related to lower risk of liver cirrhosis death (relative risk per cup of coffee per day = 0.77, 95% confidence interval = 0.67 to 0.89). Use of both beverages was related to a lower risk of suicide, progressively lower at higher coffee intake (relative risk per cup of coffee per day = 0.87, 95% confidence interval = 0.77 to 0.98). We conclude that coffee and tea have no overall relation to mortality risk. If coffee increases coronary risk, this is balanced by an unexplained lower risk of other conditions, notably cirrhosis and suicide.",
+  "sanitized_text": "Coffee, tea, and mortality.\nExcept for conflicting evidence about coffee and risk of coronary disease, coffee and tea are not linked to major causes of death. Because of widespread use of both beverages and limitations of prior studies, concern persists. Using Cox models (ten covariates) we studied relations in 128,934 persons to 4501 subsequent deaths. Except for slightly increased risk from acute myocardial infarction among heavier (> or = 4 cups/d) coffee users (relative risk versus nondrinkers = 1.4, 95% confidence interval = 1.0 to 1.9, P = 0.07), there was no increased risk of mortality for all deaths (relative risk per cup of coffee per day = 0.99, 95% confidence interval = 0.97 to 1.01; relative risk per cup of tea per day = 0.98, 95% confidence interval = 0.96 to 1.00) or major causes in adjusted analyses. Coffee was related to lower risk of liver cirrhosis death (relative risk per cup of coffee per day = 0.77, 95% confidence interval = 0.67 to 0.89). Use of both beverages was related to a lower risk of suicide, progressively lower at higher coffee intake (relative risk per cup of coffee per day = 0.87, 95% confidence interval = 0.77 to 0.98). We conclude that coffee and tea have no overall relation to mortality risk. If coffee increases coronary risk, this is balanced by an unexplained lower risk of other conditions, notably cirrhosis and suicide.",
+  "modified": false,
+  "original_char_count": 1379,
+  "sanitized_char_count": 1379,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1247,
+      "boundary_end": 1379,
+      "context": "evidence about coffee and risk of coronary disease, coffee and tea are not linked to major causes of death. Because of widespread use of both beverages and limitations of prior studies, concern persists. Using Cox models (ten covariates) we studied relations in 128,934 persons to 4501 subsequent deaths. Except for slightly increased risk from acute myocardial infarction among heavier (> or = 4 cups/d) coffee users (relative risk versus nondrinkers = 1.4, 95% confidence interval = 1.0 to 1.9, P = 0.07), there was no increased risk of mortality for all deaths (relative risk per cup of coffee per day = 0.99, 95% confidence interval = 0.97 to 1.01; relative risk per cup of tea per day = 0.98, 95% confidence interval = 0.96 to 1.00) or major causes in adjusted analyses. Coffee was related to lower risk of liver cirrhosis death (relative risk per cup of coffee per day = 0.77, 95% confidence interval = 0.67 to 0.89). Use of both beverages was related to a lower risk of suicide, progressively lower at higher coffee intake (relative risk per cup of coffee per day = 0.87, 95% confidence interval = 0.77 to 0.98). We conclude that coffee and tea have no overall relation to mortality risk.",
+      "target": "If coffee increases coronary risk, this is balanced by an unexplained lower risk of other conditions, notably cirrhosis and suicide.",
+      "loss_target": 10.116449356079102,
+      "loss_target_given_context": 4.5630388259887695,
+      "delta_loss": 5.553410530090332,
+      "gain_ratio": 0.5489485821182131,
+      "score": -0.5489485821182131,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

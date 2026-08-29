@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3926",
+  "source_doc_id": "MED-3926",
+  "title": "Protein redistribution diet and antiparkinsonian response to levodopa.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Protein redistribution diet and antiparkinsonian response to levodopa.\nSixteen parkinsonian patients with daily fluctuations in the clinical response to levodopa have been placed on a redistribution protein diet. The diet was virtually protein-free until the evening meal and then unrestricted until bedtime. While on the redistribution protein diet, a group of patients (5 out of 16) had a clear and significant benefit from dietary therapy showing a definite reduction of diurnal motor performance fluctuations. In addition, all patients tended to show an improvement and a more constant response to levodopa treatment. A trial of redistribution protein diet appears a simple, reasonable, worthwhile approach to PD patients who begin to experience oscillating clinical response to levodopa treatment.",
+  "sanitized_text": "Protein redistribution diet and antiparkinsonian response to levodopa.\nSixteen parkinsonian patients with daily fluctuations in the clinical response to levodopa have been placed on a redistribution protein diet. The diet was virtually protein-free until the evening meal and then unrestricted until bedtime. While on the redistribution protein diet, a group of patients (5 out of 16) had a clear and significant benefit from dietary therapy showing a definite reduction of diurnal motor performance fluctuations. In addition, all patients tended to show an improvement and a more constant response to levodopa treatment. A trial of redistribution protein diet appears a simple, reasonable, worthwhile approach to PD patients who begin to experience oscillating clinical response to levodopa treatment.",
+  "modified": false,
+  "original_char_count": 802,
+  "sanitized_char_count": 802,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 622,
+      "boundary_end": 802,
+      "context": "Protein redistribution diet and antiparkinsonian response to levodopa. Sixteen parkinsonian patients with daily fluctuations in the clinical response to levodopa have been placed on a redistribution protein diet. The diet was virtually protein-free until the evening meal and then unrestricted until bedtime. While on the redistribution protein diet, a group of patients (5 out of 16) had a clear and significant benefit from dietary therapy showing a definite reduction of diurnal motor performance fluctuations. In addition, all patients tended to show an improvement and a more constant response to levodopa treatment.",
+      "target": "A trial of redistribution protein diet appears a simple, reasonable, worthwhile approach to PD patients who begin to experience oscillating clinical response to levodopa treatment.",
+      "loss_target": 4.661733627319336,
+      "loss_target_given_context": 2.6450068950653076,
+      "delta_loss": 2.0167267322540283,
+      "gain_ratio": 0.4326130348665414,
+      "score": -0.4326130348665414,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

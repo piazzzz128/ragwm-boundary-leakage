@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1354",
+  "source_doc_id": "MED-1354",
+  "title": "Antidepressant Drug effects and Depression Severity: A Patient-Level Meta-Analysis",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Antidepressant Drug effects and Depression Severity: A Patient-Level Meta-Analysis\nContext Antidepressant medications represent the best established treatment for Major Depressive Disorder (MDD), but there is little evidence that they have a specific pharmacological effect relative to pill-placebo for patients with less severe depression. Objective To estimate the relative benefit of medication vs placebo across a wide range of initial symptom severity in patients diagnosed with depression. Data Sources Pubmed, PsycINFO, and the Cochrane Library databases were searched from January 1980 through March 2009, along with references from meta-analyses and reviews. Study Selection Randomized placebo-controlled trials of FDA approved antidepressants in the treatment of Major or Minor Depressive Disorder were selected. Studies were included if their authors provided the requisite original data, they comprised adult outpatients, included a medication vs placebo comparison for at least 6 weeks, did not exclude patients on the basis of a placebo washout period, and utilized the Hamilton Rating Scale for Depression. Data from six studies (718 patients) were included. Data Extraction Individual patient-level data were obtained from study authors. Results Medication vs placebo differences varied substantially as a function of baseline severity. Among patients with Hamilton scores below 23, Cohen’s d-type effect sizes for the difference between medication and placebo were estimated to be < .20 (a standard definition of a small effect). Estimates of the magnitude of the superiority of medication over placebo increased with increases in baseline Hamilton severity and crossed the NICE threshold for a clinically significant difference at a baseline score of 25. Conclusions The magnitude of benefit of antidepressant medication compared with placebo increases with severity of depression symptoms, and may be minimal or nonexistent, on average, in patients with mild or moderate symptoms. For patients with very severe depression, the benefit of medications over placebo is substantial.",
+  "sanitized_text": "Antidepressant Drug effects and Depression Severity: A Patient-Level Meta-Analysis\nContext Antidepressant medications represent the best established treatment for Major Depressive Disorder (MDD), but there is little evidence that they have a specific pharmacological effect relative to pill-placebo for patients with less severe depression. Objective To estimate the relative benefit of medication vs placebo across a wide range of initial symptom severity in patients diagnosed with depression. Data Sources Pubmed, PsycINFO, and the Cochrane Library databases were searched from January 1980 through March 2009, along with references from meta-analyses and reviews. Study Selection Randomized placebo-controlled trials of FDA approved antidepressants in the treatment of Major or Minor Depressive Disorder were selected. Studies were included if their authors provided the requisite original data, they comprised adult outpatients, included a medication vs placebo comparison for at least 6 weeks, did not exclude patients on the basis of a placebo washout period, and utilized the Hamilton Rating Scale for Depression. Data from six studies (718 patients) were included. Data Extraction Individual patient-level data were obtained from study authors. Results Medication vs placebo differences varied substantially as a function of baseline severity. Among patients with Hamilton scores below 23, Cohen’s d-type effect sizes for the difference between medication and placebo were estimated to be < .20 (a standard definition of a small effect). Estimates of the magnitude of the superiority of medication over placebo increased with increases in baseline Hamilton severity and crossed the NICE threshold for a clinically significant difference at a baseline score of 25. Conclusions The magnitude of benefit of antidepressant medication compared with placebo increases with severity of depression symptoms, and may be minimal or nonexistent, on average, in patients with mild or moderate symptoms. For patients with very severe depression, the benefit of medications over placebo is substantial.",
+  "modified": false,
+  "original_char_count": 2097,
+  "sanitized_char_count": 2097,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 2000,
+      "boundary_end": 2097,
+      "context": "were selected. Studies were included if their authors provided the requisite original data, they comprised adult outpatients, included a medication vs placebo comparison for at least 6 weeks, did not exclude patients on the basis of a placebo washout period, and utilized the Hamilton Rating Scale for Depression. Data from six studies (718 patients) were included. Data Extraction Individual patient-level data were obtained from study authors. Results Medication vs placebo differences varied substantially as a function of baseline severity. Among patients with Hamilton scores below 23, Cohen’s d-type effect sizes for the difference between medication and placebo were estimated to be < .20 (a standard definition of a small effect). Estimates of the magnitude of the superiority of medication over placebo increased with increases in baseline Hamilton severity and crossed the NICE threshold for a clinically significant difference at a baseline score of 25. Conclusions The magnitude of benefit of antidepressant medication compared with placebo increases with severity of depression symptoms, and may be minimal or nonexistent, on average, in patients with mild or moderate symptoms.",
+      "target": "For patients with very severe depression, the benefit of medications over placebo is substantial.",
+      "loss_target": 10.339996337890625,
+      "loss_target_given_context": 3.2610280513763428,
+      "delta_loss": 7.078968286514282,
+      "gain_ratio": 0.6846199993875822,
+      "score": -0.6846199993875822,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

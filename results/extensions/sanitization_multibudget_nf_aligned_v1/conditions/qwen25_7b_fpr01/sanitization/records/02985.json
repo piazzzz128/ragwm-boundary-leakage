@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4909",
+  "source_doc_id": "MED-4909",
+  "title": "Aluminum bioavailability from basic sodium aluminum phosphate, an approved food additive emulsifying agent, incorporated in cheese",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Aluminum bioavailability from basic sodium aluminum phosphate, an approved food additive emulsifying agent, incorporated in cheese\nOral aluminum (Al) bioavailability from drinking water has been previously estimated, but there is little information on Al bioavailability from foods. It was suggested that oral Al bioavailability from drinking water is much greater than from foods. The objective was to further test this hypothesis. Oral Al bioavailability was determined in the rat from basic [26Al]-sodium aluminum phosphate (basic SALP) in a process cheese. Consumption of ~ 1 gm cheese containing 1.5 or 3% basic SALP resulted in oral Al bioavailability (F) of ~ 0.1 and 0.3%, respectively, and time to maximum serum 26Al concentration (Tmax) of 8 to 9 h. These Al bioavailability results were intermediate to previously reported results from drinking water (F ~ 0.3%) and acidic-SALP incorporated into a biscuit (F ~ 0.1%), using the same methods. Considering the similar oral bioavailability of Al from food vs. water, and their contribution to the typical human’s daily Al intake (~ 95 and 1.5%, respectively), these results suggest food contributes much more Al to systemic circulation, and potential Al body burden, than does drinking water. These results do not support the hypothesis that drinking water provides a disproportionate contribution to total Al absorbed from the gastrointestinal tract.",
+  "sanitized_text": "Aluminum bioavailability from basic sodium aluminum phosphate, an approved food additive emulsifying agent, incorporated in cheese\nOral aluminum (Al) bioavailability from drinking water has been previously estimated, but there is little information on Al bioavailability from foods. It was suggested that oral Al bioavailability from drinking water is much greater than from foods. The objective was to further test this hypothesis. Oral Al bioavailability was determined in the rat from basic [26Al]-sodium aluminum phosphate (basic SALP) in a process cheese. Consumption of ~ 1 gm cheese containing 1.5 or 3% basic SALP resulted in oral Al bioavailability (F) of ~ 0.1 and 0.3%, respectively, and time to maximum serum 26Al concentration (Tmax) of 8 to 9 h. These Al bioavailability results were intermediate to previously reported results from drinking water (F ~ 0.3%) and acidic-SALP incorporated into a biscuit (F ~ 0.1%), using the same methods. Considering the similar oral bioavailability of Al from food vs. water, and their contribution to the typical human’s daily Al intake (~ 95 and 1.5%, respectively), these results suggest food contributes much more Al to systemic circulation, and potential Al body burden, than does drinking water. These results do not support the hypothesis that drinking water provides a disproportionate contribution to total Al absorbed from the gastrointestinal tract.",
+  "modified": false,
+  "original_char_count": 1409,
+  "sanitized_char_count": 1409,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1251,
+      "boundary_end": 1409,
+      "context": "phosphate, an approved food additive emulsifying agent, incorporated in cheese Oral aluminum (Al) bioavailability from drinking water has been previously estimated, but there is little information on Al bioavailability from foods. It was suggested that oral Al bioavailability from drinking water is much greater than from foods. The objective was to further test this hypothesis. Oral Al bioavailability was determined in the rat from basic [26Al]-sodium aluminum phosphate (basic SALP) in a process cheese. Consumption of ~ 1 gm cheese containing 1.5 or 3% basic SALP resulted in oral Al bioavailability (F) of ~ 0.1 and 0.3%, respectively, and time to maximum serum 26Al concentration (Tmax) of 8 to 9 h. These Al bioavailability results were intermediate to previously reported results from drinking water (F ~ 0.3%) and acidic-SALP incorporated into a biscuit (F ~ 0.1%), using the same methods. Considering the similar oral bioavailability of Al from food vs. water, and their contribution to the typical human’s daily Al intake (~ 95 and 1.5%, respectively), these results suggest food contributes much more Al to systemic circulation, and potential Al body burden, than does drinking water.",
+      "target": "These results do not support the hypothesis that drinking water provides a disproportionate contribution to total Al absorbed from the gastrointestinal tract.",
+      "loss_target": 3.337965965270996,
+      "loss_target_given_context": 1.608140230178833,
+      "delta_loss": 1.729825735092163,
+      "gain_ratio": 0.5182274933566393,
+      "score": -0.5182274933566393,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

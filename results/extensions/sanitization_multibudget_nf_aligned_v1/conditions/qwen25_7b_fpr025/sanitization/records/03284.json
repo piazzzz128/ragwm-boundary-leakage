@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-5229",
+  "source_doc_id": "MED-5229",
+  "title": "Meat Consumption as a Risk Factor for Type 2 Diabetes",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Meat Consumption as a Risk Factor for Type 2 Diabetes\nDisease risk factors identified in epidemiological studies serve as important public health tools, helping clinicians identify individuals who may benefit from more aggressive screening or risk-modification procedures, allowing policymakers to prioritize intervention programs, and encouraging at-risk individuals to modify behavior and improve their health. These factors have been based primarily on evidence from cross-sectional and prospective studies, as most do not lend themselves to randomized trials. While some risk factors are not modifiable, eating habits are subject to change through both individual action and broader policy initiatives. Meat consumption has been frequently investigated as a variable associated with diabetes risk, but it has not yet been described as a diabetes risk factor. In this article, we evaluate the evidence supporting the use of meat consumption as a clinically useful risk factor for type 2 diabetes, based on studies evaluating the risks associated with meat consumption as a categorical dietary characteristic (i.e., meat consumption versus no meat consumption), as a scalar variable (i.e., gradations of meat consumption), or as part of a broader dietary pattern. In the context of the National Pilot Study, the measurement is based on Dietary Factors.",
+  "sanitized_text": "Meat Consumption as a Risk Factor for Type 2 Diabetes\nDisease risk factors identified in epidemiological studies serve as important public health tools, helping clinicians identify individuals who may benefit from more aggressive screening or risk-modification procedures, allowing policymakers to prioritize intervention programs, and encouraging at-risk individuals to modify behavior and improve their health. These factors have been based primarily on evidence from cross-sectional and prospective studies, as most do not lend themselves to randomized trials. While some risk factors are not modifiable, eating habits are subject to change through both individual action and broader policy initiatives. Meat consumption has been frequently investigated as a variable associated with diabetes risk, but it has not yet been described as a diabetes risk factor. In this article, we evaluate the evidence supporting the use of meat consumption as a clinically useful risk factor for type 2 diabetes, based on studies evaluating the risks associated with meat consumption as a categorical dietary characteristic (i.e., meat consumption versus no meat consumption), as a scalar variable (i.e., gradations of meat consumption), or as part of a broader dietary pattern.",
+  "modified": true,
+  "original_char_count": 1354,
+  "sanitized_char_count": 1265,
+  "deleted_char_count": 89,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1266,
+      "boundary_end": 1354,
+      "context": "factors identified in epidemiological studies serve as important public health tools, helping clinicians identify individuals who may benefit from more aggressive screening or risk-modification procedures, allowing policymakers to prioritize intervention programs, and encouraging at-risk individuals to modify behavior and improve their health. These factors have been based primarily on evidence from cross-sectional and prospective studies, as most do not lend themselves to randomized trials. While some risk factors are not modifiable, eating habits are subject to change through both individual action and broader policy initiatives. Meat consumption has been frequently investigated as a variable associated with diabetes risk, but it has not yet been described as a diabetes risk factor. In this article, we evaluate the evidence supporting the use of meat consumption as a clinically useful risk factor for type 2 diabetes, based on studies evaluating the risks associated with meat consumption as a categorical dietary characteristic (i.e., meat consumption versus no meat consumption), as a scalar variable (i.e., gradations of meat consumption), or as part of a broader dietary pattern.",
+      "target": "In the context of the National Pilot Study, the measurement is based on Dietary Factors.",
+      "loss_target": 4.703665256500244,
+      "loss_target_given_context": 4.3516340255737305,
+      "delta_loss": 0.35203123092651367,
+      "gain_ratio": 0.07484189705889956,
+      "score": -0.07484189705889956,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 863,
+      "boundary_end": 1265,
+      "context": "Meat Consumption as a Risk Factor for Type 2 Diabetes Disease risk factors identified in epidemiological studies serve as important public health tools, helping clinicians identify individuals who may benefit from more aggressive screening or risk-modification procedures, allowing policymakers to prioritize intervention programs, and encouraging at-risk individuals to modify behavior and improve their health. These factors have been based primarily on evidence from cross-sectional and prospective studies, as most do not lend themselves to randomized trials. While some risk factors are not modifiable, eating habits are subject to change through both individual action and broader policy initiatives. Meat consumption has been frequently investigated as a variable associated with diabetes risk, but it has not yet been described as a diabetes risk factor.",
+      "target": "In this article, we evaluate the evidence supporting the use of meat consumption as a clinically useful risk factor for type 2 diabetes, based on studies evaluating the risks associated with meat consumption as a categorical dietary characteristic (i.e., meat consumption versus no meat consumption), as a scalar variable (i.e., gradations of meat consumption), or as part of a broader dietary pattern.",
+      "loss_target": 2.1226155757904053,
+      "loss_target_given_context": 1.6424305438995361,
+      "delta_loss": 0.48018503189086914,
+      "gain_ratio": 0.2262232678246795,
+      "score": -0.2262232678246795,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1266,
+      "target": "In the context of the National Pilot Study, the measurement is based on Dietary Factors.",
+      "score": -0.07484189705889956,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "In the context of the National Pilot Study, the measurement is based on Dietary Factors.",
+      "deleted_char_count": 88
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

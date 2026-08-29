@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2605",
+  "source_doc_id": "MED-2605",
+  "title": "Curcumin-induced apoptosis of human colon cancer colo 205 cells through the production of ROS, Ca2+ and the activation of caspase-3.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Curcumin-induced apoptosis of human colon cancer colo 205 cells through the production of ROS, Ca2+ and the activation of caspase-3.\nCurcumin (diferuloylmethane), the yellow pigment in turmeric (Curcuma longa), is known to inhibit proliferation of cancer cells by arresting them at various phases of the cell cycle and to induce apoptosis in tumor cells. Curcumin-induced apoptosis mainly involves the activation of caspase-3 and mitochondria-mediated pathway in various cancer cells of different tissue origin. In the present study, the induction of apoptosis and cytotoxicity by curcumin in colon cancer colo 205 cells was investigated by using flow cytometry. The results demonstrated that curcumin induced cytotoxicity and apoptosis dose- and time-depedently. Curcumin induced the production of reactive oxygen species (ROS) and Ca+2, decreased the levels of mitochondria membrane potential and induced caspase-3 activity. Curcumin also promoted the expression of Bax, cytochrome C, p53 and p21 but inhibited the expression of Bcl-2. These observations suggest that curcumin may have a possible therapeutic potential in colon cancer patients.",
+  "sanitized_text": "Curcumin-induced apoptosis of human colon cancer colo 205 cells through the production of ROS, Ca2+ and the activation of caspase-3.\nCurcumin (diferuloylmethane), the yellow pigment in turmeric (Curcuma longa), is known to inhibit proliferation of cancer cells by arresting them at various phases of the cell cycle and to induce apoptosis in tumor cells. Curcumin-induced apoptosis mainly involves the activation of caspase-3 and mitochondria-mediated pathway in various cancer cells of different tissue origin. In the present study, the induction of apoptosis and cytotoxicity by curcumin in colon cancer colo 205 cells was investigated by using flow cytometry. The results demonstrated that curcumin induced cytotoxicity and apoptosis dose- and time-depedently. Curcumin induced the production of reactive oxygen species (ROS) and Ca+2, decreased the levels of mitochondria membrane potential and induced caspase-3 activity. Curcumin also promoted the expression of Bax, cytochrome C, p53 and p21 but inhibited the expression of Bcl-2. These observations suggest that curcumin may have a possible therapeutic potential in colon cancer patients.",
+  "modified": false,
+  "original_char_count": 1146,
+  "sanitized_char_count": 1146,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1038,
+      "boundary_end": 1146,
+      "context": "Curcumin-induced apoptosis of human colon cancer colo 205 cells through the production of ROS, Ca2+ and the activation of caspase-3. Curcumin (diferuloylmethane), the yellow pigment in turmeric (Curcuma longa), is known to inhibit proliferation of cancer cells by arresting them at various phases of the cell cycle and to induce apoptosis in tumor cells. Curcumin-induced apoptosis mainly involves the activation of caspase-3 and mitochondria-mediated pathway in various cancer cells of different tissue origin. In the present study, the induction of apoptosis and cytotoxicity by curcumin in colon cancer colo 205 cells was investigated by using flow cytometry. The results demonstrated that curcumin induced cytotoxicity and apoptosis dose- and time-depedently. Curcumin induced the production of reactive oxygen species (ROS) and Ca+2, decreased the levels of mitochondria membrane potential and induced caspase-3 activity. Curcumin also promoted the expression of Bax, cytochrome C, p53 and p21 but inhibited the expression of Bcl-2.",
+      "target": "These observations suggest that curcumin may have a possible therapeutic potential in colon cancer patients.",
+      "loss_target": 8.779610633850098,
+      "loss_target_given_context": 2.918321371078491,
+      "delta_loss": 5.8612892627716064,
+      "gain_ratio": 0.6676024150972253,
+      "score": -0.6676024150972253,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

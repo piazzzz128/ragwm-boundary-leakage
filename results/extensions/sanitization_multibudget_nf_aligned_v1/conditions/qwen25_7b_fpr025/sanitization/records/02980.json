@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4903",
+  "source_doc_id": "MED-4903",
+  "title": "Antioxidant activity of blueberry fruit is impaired by association with milk.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Antioxidant activity of blueberry fruit is impaired by association with milk.\nThe antioxidant properties of dietary phenolics are believed to be reduced in vivo because of their affinity for proteins. In this study we assessed the bioavailability of phenolics and the in vivo plasma antioxidant capacity after the consumption of blueberries (Vaccinium corymbosum L.) with and without milk. In a crossover design, 11 healthy human volunteers consumed either (a) 200 g of blueberries plus 200 ml of water or (b) 200 g of blueberries plus 200 ml of whole milk. Venous samples were collected at baseline and at 1, 2, and 5 h postconsumption. Ingestion of blueberries increased plasma levels of reducing and chain-breaking potential (+6.1%, p<0.001; +11.1%, p<0.05) and enhanced plasma concentrations of caffeic and ferulic acid. When blueberries and milk were ingested there was no increase in plasma antioxidant capacity. There was a reduction in the peak plasma concentrations of caffeic and ferulic acid (-49.7%, p<0.001, and -19.8%, p<0.05, respectively) as well as the overall absorption (AUC) of caffeic acid (p<0.001). The ingestion of blueberries in association with milk, thus, impairs the in vivo antioxidant properties of blueberries and reduces the absorption of caffeic acid.",
+  "sanitized_text": "Antioxidant activity of blueberry fruit is impaired by association with milk.\nThe antioxidant properties of dietary phenolics are believed to be reduced in vivo because of their affinity for proteins. In this study we assessed the bioavailability of phenolics and the in vivo plasma antioxidant capacity after the consumption of blueberries (Vaccinium corymbosum L.) with and without milk. In a crossover design, 11 healthy human volunteers consumed either (a) 200 g of blueberries plus 200 ml of water or (b) 200 g of blueberries plus 200 ml of whole milk. Venous samples were collected at baseline and at 1, 2, and 5 h postconsumption. Ingestion of blueberries increased plasma levels of reducing and chain-breaking potential (+6.1%, p<0.001; +11.1%, p<0.05) and enhanced plasma concentrations of caffeic and ferulic acid. When blueberries and milk were ingested there was no increase in plasma antioxidant capacity. There was a reduction in the peak plasma concentrations of caffeic and ferulic acid (-49.7%, p<0.001, and -19.8%, p<0.05, respectively) as well as the overall absorption (AUC) of caffeic acid (p<0.001). The ingestion of blueberries in association with milk, thus, impairs the in vivo antioxidant properties of blueberries and reduces the absorption of caffeic acid.",
+  "modified": false,
+  "original_char_count": 1284,
+  "sanitized_char_count": 1284,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1122,
+      "boundary_end": 1284,
+      "context": "Antioxidant activity of blueberry fruit is impaired by association with milk. The antioxidant properties of dietary phenolics are believed to be reduced in vivo because of their affinity for proteins. In this study we assessed the bioavailability of phenolics and the in vivo plasma antioxidant capacity after the consumption of blueberries (Vaccinium corymbosum L.) with and without milk. In a crossover design, 11 healthy human volunteers consumed either (a) 200 g of blueberries plus 200 ml of water or (b) 200 g of blueberries plus 200 ml of whole milk. Venous samples were collected at baseline and at 1, 2, and 5 h postconsumption. Ingestion of blueberries increased plasma levels of reducing and chain-breaking potential (+6.1%, p<0.001; +11.1%, p<0.05) and enhanced plasma concentrations of caffeic and ferulic acid. When blueberries and milk were ingested there was no increase in plasma antioxidant capacity. There was a reduction in the peak plasma concentrations of caffeic and ferulic acid (-49.7%, p<0.001, and -19.8%, p<0.05, respectively) as well as the overall absorption (AUC) of caffeic acid (p<0.001).",
+      "target": "The ingestion of blueberries in association with milk, thus, impairs the in vivo antioxidant properties of blueberries and reduces the absorption of caffeic acid.",
+      "loss_target": 3.288215160369873,
+      "loss_target_given_context": 1.3888115882873535,
+      "delta_loss": 1.8994035720825195,
+      "gain_ratio": 0.5776396858011159,
+      "score": -0.5776396858011159,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

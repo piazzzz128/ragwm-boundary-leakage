@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1817",
+  "source_doc_id": "MED-1817",
+  "title": "Meat and fish consumption and risk of pancreatic cancer: results from the European Prospective Investigation into Cancer and Nutrition.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Meat and fish consumption and risk of pancreatic cancer: results from the European Prospective Investigation into Cancer and Nutrition.\nPancreatic cancer is the fourth most common cause of cancer death worldwide with large geographical variation, which implies the contribution of diet and lifestyle in its etiology. We examined the association of meat and fish consumption with risk of pancreatic cancer in the European Prospective Investigation into Cancer and Nutrition (EPIC). A total of 477,202 EPIC participants from 10 European countries recruited between 1992 and 2000 were included in our analysis. Until 2008, 865 nonendocrine pancreatic cancer cases have been observed. Calibrated relative risks (RRs) and 95% confidence intervals (CIs) were computed using multivariable-adjusted Cox hazard regression models. The consumption of red meat (RR per 50 g increase per day = 1.03, 95% CI = 0.93-1.14) and processed meat (RR per 50 g increase per day = 0.93, 95% CI = 0.71-1.23) were not associated with an increased pancreatic cancer risk. Poultry consumption tended to be associated with an increased pancreatic cancer risk (RR per 50 g increase per day = 1.72, 95% CI = 1.04-2.84); however, there was no association with fish consumption (RR per 50 g increase per day = 1.22, 95% CI = 0.92-1.62). Our results do not support the conclusion of the World Cancer Research Fund that red or processed meat consumption may possibly increase the risk of pancreatic cancer. The positive association of poultry consumption with pancreatic cancer might be a chance finding as it contradicts most previous findings. Copyright © 2012 UICC.",
+  "sanitized_text": "Meat and fish consumption and risk of pancreatic cancer: results from the European Prospective Investigation into Cancer and Nutrition.\nPancreatic cancer is the fourth most common cause of cancer death worldwide with large geographical variation, which implies the contribution of diet and lifestyle in its etiology. We examined the association of meat and fish consumption with risk of pancreatic cancer in the European Prospective Investigation into Cancer and Nutrition (EPIC). A total of 477,202 EPIC participants from 10 European countries recruited between 1992 and 2000 were included in our analysis. Until 2008, 865 nonendocrine pancreatic cancer cases have been observed. Calibrated relative risks (RRs) and 95% confidence intervals (CIs) were computed using multivariable-adjusted Cox hazard regression models. The consumption of red meat (RR per 50 g increase per day = 1.03, 95% CI = 0.93-1.14) and processed meat (RR per 50 g increase per day = 0.93, 95% CI = 0.71-1.23) were not associated with an increased pancreatic cancer risk. Poultry consumption tended to be associated with an increased pancreatic cancer risk (RR per 50 g increase per day = 1.72, 95% CI = 1.04-2.84); however, there was no association with fish consumption (RR per 50 g increase per day = 1.22, 95% CI = 0.92-1.62). Our results do not support the conclusion of the World Cancer Research Fund that red or processed meat consumption may possibly increase the risk of pancreatic cancer. The positive association of poultry consumption with pancreatic cancer might be a chance finding as it contradicts most previous findings. Copyright © 2012 UICC.",
+  "modified": false,
+  "original_char_count": 1634,
+  "sanitized_char_count": 1634,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1473,
+      "boundary_end": 1611,
+      "context": "of diet and lifestyle in its etiology. We examined the association of meat and fish consumption with risk of pancreatic cancer in the European Prospective Investigation into Cancer and Nutrition (EPIC). A total of 477,202 EPIC participants from 10 European countries recruited between 1992 and 2000 were included in our analysis. Until 2008, 865 nonendocrine pancreatic cancer cases have been observed. Calibrated relative risks (RRs) and 95% confidence intervals (CIs) were computed using multivariable-adjusted Cox hazard regression models. The consumption of red meat (RR per 50 g increase per day = 1.03, 95% CI = 0.93-1.14) and processed meat (RR per 50 g increase per day = 0.93, 95% CI = 0.71-1.23) were not associated with an increased pancreatic cancer risk. Poultry consumption tended to be associated with an increased pancreatic cancer risk (RR per 50 g increase per day = 1.72, 95% CI = 1.04-2.84); however, there was no association with fish consumption (RR per 50 g increase per day = 1.22, 95% CI = 0.92-1.62). Our results do not support the conclusion of the World Cancer Research Fund that red or processed meat consumption may possibly increase the risk of pancreatic cancer.",
+      "target": "The positive association of poultry consumption with pancreatic cancer might be a chance finding as it contradicts most previous findings.",
+      "loss_target": 9.879413604736328,
+      "loss_target_given_context": 4.669161796569824,
+      "delta_loss": 5.210251808166504,
+      "gain_ratio": 0.5273847230840337,
+      "score": -0.5273847230840337,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

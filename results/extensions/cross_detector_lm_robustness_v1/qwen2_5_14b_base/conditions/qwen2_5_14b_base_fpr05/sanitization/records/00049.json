@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1054",
+  "source_doc_id": "MED-1054",
+  "title": "A global view on the development of non communicable diseases.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A global view on the development of non communicable diseases.\nFor a long time non communicable diseases (NCDs) were discussed as burden of the developed world. Recent alarming data show a reverse trend and a dramatic increase of NCDs in the developing world, in particular in highly populated transition countries. This is true for the main mortality triggering diseases such as CVD, cancer or diabetes. Almost 4 out of 5 NCD based deaths happen in low- and middle income countries. This development is multi-factorial and is based on some main trends such as globalization, supermarket growth, rapid urbanization and increasingly sedentary lifestyles. The latter leads to overweight or obesity, which again promotes NCDs similar as high blood pressure, high cholesterol and elevated blood glucose. A high quality diet including functional food or functional ingredients, accompanied by physical activity and a non-smoking policy, is one of the most promising factors in primary and secondary prevention of NCDs. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "A global view on the development of non communicable diseases.\nFor a long time non communicable diseases (NCDs) were discussed as burden of the developed world. Recent alarming data show a reverse trend and a dramatic increase of NCDs in the developing world, in particular in highly populated transition countries. This is true for the main mortality triggering diseases such as CVD, cancer or diabetes. Almost 4 out of 5 NCD based deaths happen in low- and middle income countries. This development is multi-factorial and is based on some main trends such as globalization, supermarket growth, rapid urbanization and increasingly sedentary lifestyles. The latter leads to overweight or obesity, which again promotes NCDs similar as high blood pressure, high cholesterol and elevated blood glucose. A high quality diet including functional food or functional ingredients, accompanied by physical activity and a non-smoking policy, is one of the most promising factors in primary and secondary prevention of NCDs. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1065,
+  "sanitized_char_count": 1065,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1014,
+      "boundary_end": 1044,
+      "context": "A global view on the development of non communicable diseases. For a long time non communicable diseases (NCDs) were discussed as burden of the developed world. Recent alarming data show a reverse trend and a dramatic increase of NCDs in the developing world, in particular in highly populated transition countries. This is true for the main mortality triggering diseases such as CVD, cancer or diabetes. Almost 4 out of 5 NCD based deaths happen in low- and middle income countries. This development is multi-factorial and is based on some main trends such as globalization, supermarket growth, rapid urbanization and increasingly sedentary lifestyles. The latter leads to overweight or obesity, which again promotes NCDs similar as high blood pressure, high cholesterol and elevated blood glucose. A high quality diet including functional food or functional ingredients, accompanied by physical activity and a non-smoking policy, is one of the most promising factors in primary and secondary prevention of NCDs.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.0088359117507935,
+      "loss_target_given_context": 0.5254223346710205,
+      "delta_loss": 0.48341357707977295,
+      "gain_ratio": 0.47917958852280396,
+      "score": -0.47917958852280396,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

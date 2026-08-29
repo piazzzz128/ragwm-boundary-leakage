@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3141",
+  "source_doc_id": "MED-3141",
+  "title": "A bean-free diet increases the risk of all-cause mortality among Taiwanese women: the role of the metabolic syndrome.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A bean-free diet increases the risk of all-cause mortality among Taiwanese women: the role of the metabolic syndrome.\nOBJECTIVE: To evaluate the associations with chronic disease risk and mortality of the consequences of bean-free diets in Taiwanese adults with regard to gender. DESIGN: A sub-sample of the National Health Interview Survey (NHIS) in 2001 agreed to physical examination in the subsequent year. This group then took part in the Taiwanese Survey of Hyperglycaemia, Hyperlipidaemia and Hypertension (TwSHHH) in 2002. SETTING: Individual records were linked to the eventual death files from 2002 to 2008. SUBJECTS: Up to the end of 2008, a total of 2820 men and 2950 women were tracked by death registry over the 6·8 years of follow-up. RESULTS: Among 38,077 person-years, an average follow-up 6·5 years, 225 all-cause deaths were identified. Generalized linear models showed beans to be favourable for metabolic syndrome (other than for fasting glucose) in men; in women, beans were favourable for waist circumference and HbA1c. Cumulative logistic regression models for the effect of a bean-free diet on metabolic syndrome scores according to the Taiwanese-modified National Cholesterol Education Program-Adult Treatment Panel III (NCEP-tw) gave adjusted odds ratios of 1·83 in men and 1·45 in women. Cox regression models for the bean-free diet showed an increased hazard ratio for all-cause mortality among women (1·98, 95% CI 1·03, 3·81) but not men (1·28, 95% CI 0·76, 2·16). CONCLUSIONS: A bean-free diet may play a role in developing the metabolic syndrome in both genders, and is a significant predictor of all-cause mortality in Taiwanese women but not men.",
+  "sanitized_text": "A bean-free diet increases the risk of all-cause mortality among Taiwanese women: the role of the metabolic syndrome.\nOBJECTIVE: To evaluate the associations with chronic disease risk and mortality of the consequences of bean-free diets in Taiwanese adults with regard to gender. DESIGN: A sub-sample of the National Health Interview Survey (NHIS) in 2001 agreed to physical examination in the subsequent year. This group then took part in the Taiwanese Survey of Hyperglycaemia, Hyperlipidaemia and Hypertension (TwSHHH) in 2002. SETTING: Individual records were linked to the eventual death files from 2002 to 2008. SUBJECTS: Up to the end of 2008, a total of 2820 men and 2950 women were tracked by death registry over the 6·8 years of follow-up. RESULTS: Among 38,077 person-years, an average follow-up 6·5 years, 225 all-cause deaths were identified. Generalized linear models showed beans to be favourable for metabolic syndrome (other than for fasting glucose) in men; in women, beans were favourable for waist circumference and HbA1c. Cumulative logistic regression models for the effect of a bean-free diet on metabolic syndrome scores according to the Taiwanese-modified National Cholesterol Education Program-Adult Treatment Panel III (NCEP-tw) gave adjusted odds ratios of 1·83 in men and 1·45 in women. Cox regression models for the bean-free diet showed an increased hazard ratio for all-cause mortality among women (1·98, 95% CI 1·03, 3·81) but not men (1·28, 95% CI 0·76, 2·16). CONCLUSIONS: A bean-free diet may play a role in developing the metabolic syndrome in both genders, and is a significant predictor of all-cause mortality in Taiwanese women but not men.",
+  "modified": false,
+  "original_char_count": 1680,
+  "sanitized_char_count": 1680,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1495,
+      "boundary_end": 1680,
+      "context": "of the National Health Interview Survey (NHIS) in 2001 agreed to physical examination in the subsequent year. This group then took part in the Taiwanese Survey of Hyperglycaemia, Hyperlipidaemia and Hypertension (TwSHHH) in 2002. SETTING: Individual records were linked to the eventual death files from 2002 to 2008. SUBJECTS: Up to the end of 2008, a total of 2820 men and 2950 women were tracked by death registry over the 6·8 years of follow-up. RESULTS: Among 38,077 person-years, an average follow-up 6·5 years, 225 all-cause deaths were identified. Generalized linear models showed beans to be favourable for metabolic syndrome (other than for fasting glucose) in men; in women, beans were favourable for waist circumference and HbA1c. Cumulative logistic regression models for the effect of a bean-free diet on metabolic syndrome scores according to the Taiwanese-modified National Cholesterol Education Program-Adult Treatment Panel III (NCEP-tw) gave adjusted odds ratios of 1·83 in men and 1·45 in women. Cox regression models for the bean-free diet showed an increased hazard ratio for all-cause mortality among women (1·98, 95% CI 1·03, 3·81) but not men (1·28, 95% CI 0·76, 2·16).",
+      "target": "CONCLUSIONS: A bean-free diet may play a role in developing the metabolic syndrome in both genders, and is a significant predictor of all-cause mortality in Taiwanese women but not men.",
+      "loss_target": 2.665066957473755,
+      "loss_target_given_context": 1.1962529420852661,
+      "delta_loss": 1.4688140153884888,
+      "gain_ratio": 0.5511358771941675,
+      "score": -0.5511358771941675,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2422",
+  "source_doc_id": "MED-2422",
+  "title": "A statistical regression model for the estimation of acrylamide concentrations in French fries for excess lifetime cancer risk assessment.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A statistical regression model for the estimation of acrylamide concentrations in French fries for excess lifetime cancer risk assessment.\nHuman exposure to acrylamide (AA) through consumption of French fries and other foods has been recognized as a potential health concern. Here, we used a statistical non-linear regression model, based on the two most influential factors, cooking temperature and time, to estimate AA concentrations in French fries. The R(2) of the predictive model is 0.83, suggesting the developed model was significant and valid. Based on French fry intake survey data conducted in this study and eight frying temperature-time schemes which can produce tasty and visually appealing French fries, the Monte Carlo simulation results showed that if AA concentration is higher than 168 ppb, the estimated cancer risk for adolescents aged 13-18 years in Taichung City would be already higher than the target excess lifetime cancer risk (ELCR), and that by taking into account this limited life span only. In order to reduce the cancer risk associated with AA intake, the AA levels in French fries might have to be reduced even further if the epidemiological observations are valid. Our mathematical model can serve as basis for further investigations on ELCR including different life stages and behavior and population groups. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "A statistical regression model for the estimation of acrylamide concentrations in French fries for excess lifetime cancer risk assessment.\nHuman exposure to acrylamide (AA) through consumption of French fries and other foods has been recognized as a potential health concern. Here, we used a statistical non-linear regression model, based on the two most influential factors, cooking temperature and time, to estimate AA concentrations in French fries. The R(2) of the predictive model is 0.83, suggesting the developed model was significant and valid. Based on French fry intake survey data conducted in this study and eight frying temperature-time schemes which can produce tasty and visually appealing French fries, the Monte Carlo simulation results showed that if AA concentration is higher than 168 ppb, the estimated cancer risk for adolescents aged 13-18 years in Taichung City would be already higher than the target excess lifetime cancer risk (ELCR), and that by taking into account this limited life span only. In order to reduce the cancer risk associated with AA intake, the AA levels in French fries might have to be reduced even further if the epidemiological observations are valid. Our mathematical model can serve as basis for further investigations on ELCR including different life stages and behavior and population groups. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1396,
+  "sanitized_char_count": 1396,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1345,
+      "boundary_end": 1375,
+      "context": "exposure to acrylamide (AA) through consumption of French fries and other foods has been recognized as a potential health concern. Here, we used a statistical non-linear regression model, based on the two most influential factors, cooking temperature and time, to estimate AA concentrations in French fries. The R(2) of the predictive model is 0.83, suggesting the developed model was significant and valid. Based on French fry intake survey data conducted in this study and eight frying temperature-time schemes which can produce tasty and visually appealing French fries, the Monte Carlo simulation results showed that if AA concentration is higher than 168 ppb, the estimated cancer risk for adolescents aged 13-18 years in Taichung City would be already higher than the target excess lifetime cancer risk (ELCR), and that by taking into account this limited life span only. In order to reduce the cancer risk associated with AA intake, the AA levels in French fries might have to be reduced even further if the epidemiological observations are valid. Our mathematical model can serve as basis for further investigations on ELCR including different life stages and behavior and population groups.",
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "loss_target": 1.1101698875427246,
+      "loss_target_given_context": 0.24119636416435242,
+      "delta_loss": 0.8689735233783722,
+      "gain_ratio": 0.7827392303909252,
+      "score": -0.7827392303909252,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

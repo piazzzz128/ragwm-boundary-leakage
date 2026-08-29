@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5181",
+  "source_doc_id": "MED-5181",
+  "title": "A diet high in fruits and low in meats reduces the risk of colorectal adenomas.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A diet high in fruits and low in meats reduces the risk of colorectal adenomas.\nRecent evidence suggests overall dietary patterns, rather than specific dietary components, may be a better predictor of colorectal adenomas or cancers. Using cluster analysis, we aimed to assess the association between dietary patterns and colorectal adenomas and whether adjusting for total energy consumption prior to creating clusters affects this relation. Data from a case-control study of 725 individuals undergoing a colonoscopy were utilized. Cases (n = 203) had > or =1 adenoma on colonoscopy, and controls (n = 522) were those who had no adenomas. Dietary data were obtained from an FFQ. Daily intake for 18 different food groups was calculated. The values were transformed into Z-scores. Participants were first clustered without energy adjustment, then again based on their consumption per 1000 kcal (4187 kJ). There was no association between dietary patterns and colorectal adenomas without energy adjustment prior to creating dietary clusters, as clusters formed as a by-product of energy consumption. After adjusting for energy consumption, 3 distinct clusters emerged: 1) high fruit-low meat cluster; 2) high vegetable-moderate meat cluster; and 3) high meat cluster. After adjusting for potential confounders, the high vegetable-moderate meat cluster (odds ratio [OR] 2.17: [95% CI] 1.20-3.90) and high meat cluster (OR 1.70: [95% CI] 1.04-2.80) were at significantly increased odds of having had an adenoma compared with the high fruit-low meat cluster. A high-fruit, low-meat diet appears to be protective against colorectal adenomas compared with a dietary pattern of increased vegetable and meat consumption.",
+  "sanitized_text": "A diet high in fruits and low in meats reduces the risk of colorectal adenomas.\nRecent evidence suggests overall dietary patterns, rather than specific dietary components, may be a better predictor of colorectal adenomas or cancers. Using cluster analysis, we aimed to assess the association between dietary patterns and colorectal adenomas and whether adjusting for total energy consumption prior to creating clusters affects this relation. Data from a case-control study of 725 individuals undergoing a colonoscopy were utilized. Cases (n = 203) had > or =1 adenoma on colonoscopy, and controls (n = 522) were those who had no adenomas. Dietary data were obtained from an FFQ. Daily intake for 18 different food groups was calculated. The values were transformed into Z-scores. Participants were first clustered without energy adjustment, then again based on their consumption per 1000 kcal (4187 kJ). There was no association between dietary patterns and colorectal adenomas without energy adjustment prior to creating dietary clusters, as clusters formed as a by-product of energy consumption. After adjusting for energy consumption, 3 distinct clusters emerged: 1) high fruit-low meat cluster; 2) high vegetable-moderate meat cluster; and 3) high meat cluster. After adjusting for potential confounders, the high vegetable-moderate meat cluster (odds ratio [OR] 2.17: [95% CI] 1.20-3.90) and high meat cluster (OR 1.70: [95% CI] 1.04-2.80) were at significantly increased odds of having had an adenoma compared with the high fruit-low meat cluster. A high-fruit, low-meat diet appears to be protective against colorectal adenomas compared with a dietary pattern of increased vegetable and meat consumption.",
+  "modified": false,
+  "original_char_count": 1711,
+  "sanitized_char_count": 1711,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1554,
+      "boundary_end": 1711,
+      "context": "for total energy consumption prior to creating clusters affects this relation. Data from a case-control study of 725 individuals undergoing a colonoscopy were utilized. Cases (n = 203) had > or =1 adenoma on colonoscopy, and controls (n = 522) were those who had no adenomas. Dietary data were obtained from an FFQ. Daily intake for 18 different food groups was calculated. The values were transformed into Z-scores. Participants were first clustered without energy adjustment, then again based on their consumption per 1000 kcal (4187 kJ). There was no association between dietary patterns and colorectal adenomas without energy adjustment prior to creating dietary clusters, as clusters formed as a by-product of energy consumption. After adjusting for energy consumption, 3 distinct clusters emerged: 1) high fruit-low meat cluster; 2) high vegetable-moderate meat cluster; and 3) high meat cluster. After adjusting for potential confounders, the high vegetable-moderate meat cluster (odds ratio [OR] 2.17: [95% CI] 1.20-3.90) and high meat cluster (OR 1.70: [95% CI] 1.04-2.80) were at significantly increased odds of having had an adenoma compared with the high fruit-low meat cluster.",
+      "target": "A high-fruit, low-meat diet appears to be protective against colorectal adenomas compared with a dietary pattern of increased vegetable and meat consumption.",
+      "loss_target": 2.5728349685668945,
+      "loss_target_given_context": 1.3664547204971313,
+      "delta_loss": 1.2063802480697632,
+      "gain_ratio": 0.4688914224225326,
+      "score": -0.4688914224225326,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

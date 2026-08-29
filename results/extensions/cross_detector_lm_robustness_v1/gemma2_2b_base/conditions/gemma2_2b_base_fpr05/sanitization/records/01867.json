@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3531",
+  "source_doc_id": "MED-3531",
+  "title": "Antioxidant and antiinflammatory activities of anthocyanins and their aglycon, cyanidin, from tart cherries.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Antioxidant and antiinflammatory activities of anthocyanins and their aglycon, cyanidin, from tart cherries.\nThe anthocyanins (1-3) and cyanidin isolated from tart cherries exhibited in vitro antioxidant and antiinflammatory activities comparable to commercial products. The inhibition of lipid peroxidation of anthocyanins 1-3 and their aglycon, cyanidin, were 39, 70, 75, and 57%, respectively, at 2-mM concentrations. The antioxidant activities of 1-3 and cyanidin were comparable to the antioxidant activities of tert-butylhydroquinone and butylated hydroxytoluene and superior to vitamin E at 2-mM concentrations. In the antiinflammatory assay, cyanidin gave IC50 values of 90 and 60 mM, respectively, for prostaglandin H endoperoxide synthase-1 and prostaglandin H endoperoxide synthase-2 enzymes.",
+  "sanitized_text": "Antioxidant and antiinflammatory activities of anthocyanins and their aglycon, cyanidin, from tart cherries.\nThe anthocyanins (1-3) and cyanidin isolated from tart cherries exhibited in vitro antioxidant and antiinflammatory activities comparable to commercial products. The inhibition of lipid peroxidation of anthocyanins 1-3 and their aglycon, cyanidin, were 39, 70, 75, and 57%, respectively, at 2-mM concentrations. The antioxidant activities of 1-3 and cyanidin were comparable to the antioxidant activities of tert-butylhydroquinone and butylated hydroxytoluene and superior to vitamin E at 2-mM concentrations. In the antiinflammatory assay, cyanidin gave IC50 values of 90 and 60 mM, respectively, for prostaglandin H endoperoxide synthase-1 and prostaglandin H endoperoxide synthase-2 enzymes.",
+  "modified": false,
+  "original_char_count": 803,
+  "sanitized_char_count": 803,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 619,
+      "boundary_end": 803,
+      "context": "Antioxidant and antiinflammatory activities of anthocyanins and their aglycon, cyanidin, from tart cherries. The anthocyanins (1-3) and cyanidin isolated from tart cherries exhibited in vitro antioxidant and antiinflammatory activities comparable to commercial products. The inhibition of lipid peroxidation of anthocyanins 1-3 and their aglycon, cyanidin, were 39, 70, 75, and 57%, respectively, at 2-mM concentrations. The antioxidant activities of 1-3 and cyanidin were comparable to the antioxidant activities of tert-butylhydroquinone and butylated hydroxytoluene and superior to vitamin E at 2-mM concentrations.",
+      "target": "In the antiinflammatory assay, cyanidin gave IC50 values of 90 and 60 mM, respectively, for prostaglandin H endoperoxide synthase-1 and prostaglandin H endoperoxide synthase-2 enzymes.",
+      "loss_target": 7.248988151550293,
+      "loss_target_given_context": 2.8076298236846924,
+      "delta_loss": 4.441358327865601,
+      "gain_ratio": 0.6126866584705007,
+      "score": -0.6126866584705007,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

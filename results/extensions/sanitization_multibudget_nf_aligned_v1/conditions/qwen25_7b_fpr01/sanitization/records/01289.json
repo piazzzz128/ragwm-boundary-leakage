@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2606",
+  "source_doc_id": "MED-2606",
+  "title": "Effect of turmeric on urinary mutagens in smokers.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of turmeric on urinary mutagens in smokers.\nCurcumin, the active principle of turmeric, is known to act as an anti-oxidant, anti-mutagen and anti-carcinogen in experimental animals. In the present study, anti-mutagenic effects of turmeric were assessed in 16 chronic smokers. It was observed that turmeric, given in doses of 1.5 g/day for 30 days, significantly reduced the urinary excretion of mutagens in smokers. In contrast, in six non-smokers, who served as control, there was no change in the urinary excretion of mutagens after 30 days. Turmeric had no significant effect on serum aspartate aminotransferase and alanine aminotransferase, blood glucose, creatinine and lipid profile. These results indicate that dietary turmeric is an effective anti-mutagen and it may be useful in chemoprevention.",
+  "sanitized_text": "Effect of turmeric on urinary mutagens in smokers.\nCurcumin, the active principle of turmeric, is known to act as an anti-oxidant, anti-mutagen and anti-carcinogen in experimental animals. In the present study, anti-mutagenic effects of turmeric were assessed in 16 chronic smokers. It was observed that turmeric, given in doses of 1.5 g/day for 30 days, significantly reduced the urinary excretion of mutagens in smokers. In contrast, in six non-smokers, who served as control, there was no change in the urinary excretion of mutagens after 30 days. Turmeric had no significant effect on serum aspartate aminotransferase and alanine aminotransferase, blood glucose, creatinine and lipid profile. These results indicate that dietary turmeric is an effective anti-mutagen and it may be useful in chemoprevention.",
+  "modified": false,
+  "original_char_count": 811,
+  "sanitized_char_count": 811,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 697,
+      "boundary_end": 811,
+      "context": "Effect of turmeric on urinary mutagens in smokers. Curcumin, the active principle of turmeric, is known to act as an anti-oxidant, anti-mutagen and anti-carcinogen in experimental animals. In the present study, anti-mutagenic effects of turmeric were assessed in 16 chronic smokers. It was observed that turmeric, given in doses of 1.5 g/day for 30 days, significantly reduced the urinary excretion of mutagens in smokers. In contrast, in six non-smokers, who served as control, there was no change in the urinary excretion of mutagens after 30 days. Turmeric had no significant effect on serum aspartate aminotransferase and alanine aminotransferase, blood glucose, creatinine and lipid profile.",
+      "target": "These results indicate that dietary turmeric is an effective anti-mutagen and it may be useful in chemoprevention.",
+      "loss_target": 2.653282403945923,
+      "loss_target_given_context": 1.2679556608200073,
+      "delta_loss": 1.3853267431259155,
+      "gain_ratio": 0.5221180908092097,
+      "score": -0.5221180908092097,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

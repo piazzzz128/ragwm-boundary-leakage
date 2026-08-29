@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3937",
+  "source_doc_id": "MED-3937",
+  "title": "Traumatic brain injuries in illustrated literature: experience from a series of over 700 head injuries in the Asterix comic books.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Traumatic brain injuries in illustrated literature: experience from a series of over 700 head injuries in the Asterix comic books.\nBACKGROUND: The goal of the present study was to analyze the epidemiology and specific risk factors of traumatic brain injury (TBI) in the Asterix illustrated comic books. Among the illustrated literature, TBI is a predominating injury pattern. METHODS: A retrospective analysis of TBI in all 34 Asterix comic books was performed by examining the initial neurological status and signs of TBI. Clinical data were correlated to information regarding the trauma mechanism, the sociocultural background of victims and offenders, and the circumstances of the traumata, to identify specific risk factors. RESULTS: Seven hundred and four TBIs were identified. The majority of persons involved were adult and male. The major cause of trauma was assault (98.8%). Traumata were classified to be severe in over 50% (GCS 3-8). Different neurological deficits and signs of basal skull fractures were identified. Although over half of head-injury victims had a severe initial impairment of consciousness, no case of death or permanent neurological deficit was found. The largest group of head-injured characters was constituted by Romans (63.9%), while Gauls caused nearly 90% of the TBIs. A helmet had been worn by 70.5% of victims but had been lost in the vast majority of cases (87.7%). In 83% of cases, TBIs were caused under the influence of a doping agent called \"the magic potion\". CONCLUSIONS: Although over half of patients had an initially severe impairment of consciousness after TBI, no permanent deficit could be found. Roman nationality, hypoglossal paresis, lost helmet, and ingestion of the magic potion were significantly correlated with severe initial impairment of consciousness (p ≤ 0.05).",
+  "sanitized_text": "Traumatic brain injuries in illustrated literature: experience from a series of over 700 head injuries in the Asterix comic books.\nBACKGROUND: The goal of the present study was to analyze the epidemiology and specific risk factors of traumatic brain injury (TBI) in the Asterix illustrated comic books. Among the illustrated literature, TBI is a predominating injury pattern. METHODS: A retrospective analysis of TBI in all 34 Asterix comic books was performed by examining the initial neurological status and signs of TBI. Clinical data were correlated to information regarding the trauma mechanism, the sociocultural background of victims and offenders, and the circumstances of the traumata, to identify specific risk factors. RESULTS: Seven hundred and four TBIs were identified. The majority of persons involved were adult and male. The major cause of trauma was assault (98.8%). Traumata were classified to be severe in over 50% (GCS 3-8). Different neurological deficits and signs of basal skull fractures were identified. Although over half of head-injury victims had a severe initial impairment of consciousness, no case of death or permanent neurological deficit was found. The largest group of head-injured characters was constituted by Romans (63.9%), while Gauls caused nearly 90% of the TBIs. A helmet had been worn by 70.5% of victims but had been lost in the vast majority of cases (87.7%). In 83% of cases, TBIs were caused under the influence of a doping agent called \"the magic potion\". CONCLUSIONS: Although over half of patients had an initially severe impairment of consciousness after TBI, no permanent deficit could be found. Roman nationality, hypoglossal paresis, lost helmet, and ingestion of the magic potion were significantly correlated with severe initial impairment of consciousness (p ≤ 0.05).",
+  "modified": false,
+  "original_char_count": 1826,
+  "sanitized_char_count": 1826,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1650,
+      "boundary_end": 1826,
+      "context": "performed by examining the initial neurological status and signs of TBI. Clinical data were correlated to information regarding the trauma mechanism, the sociocultural background of victims and offenders, and the circumstances of the traumata, to identify specific risk factors. RESULTS: Seven hundred and four TBIs were identified. The majority of persons involved were adult and male. The major cause of trauma was assault (98.8%). Traumata were classified to be severe in over 50% (GCS 3-8). Different neurological deficits and signs of basal skull fractures were identified. Although over half of head-injury victims had a severe initial impairment of consciousness, no case of death or permanent neurological deficit was found. The largest group of head-injured characters was constituted by Romans (63.9%), while Gauls caused nearly 90% of the TBIs. A helmet had been worn by 70.5% of victims but had been lost in the vast majority of cases (87.7%). In 83% of cases, TBIs were caused under the influence of a doping agent called \"the magic potion\". CONCLUSIONS: Although over half of patients had an initially severe impairment of consciousness after TBI, no permanent deficit could be found.",
+      "target": "Roman nationality, hypoglossal paresis, lost helmet, and ingestion of the magic potion were significantly correlated with severe initial impairment of consciousness (p ≤ 0.05).",
+      "loss_target": 3.8897552490234375,
+      "loss_target_given_context": 1.7750400304794312,
+      "delta_loss": 2.1147152185440063,
+      "gain_ratio": 0.543662797055143,
+      "score": -0.543662797055143,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

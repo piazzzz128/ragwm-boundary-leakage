@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1951",
+  "source_doc_id": "MED-1951",
+  "title": "Late preterm birth: a review of medical and neuropsychological childhood outcomes.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Late preterm birth: a review of medical and neuropsychological childhood outcomes.\nLate preterm (LP) birth (34 0/7 - 36 6/7 weeks' gestation) accounts for nearly three-fourths of all preterm births, making this population a sizeable public health concern. The immature fetal development associated with LP delivery increases the risk of mortality and short-term medical complications. Which combination of maternal, fetal, or neonatal risk factors may be most critical has only recently begun to be addressed, and whether LP birth's disruptive impact on brain development will exert adverse effects on neuropsychological functioning in childhood and adolescence has been understudied. Early data have shown a graded response, with LP children often functioning better than very preterm children but worse than term children, and with subtle intellectual and neuropsychological deficits in LP children compared with healthy children born at term gestational age. Further characterization of the neuropsychological profile is required and would be best accomplished through prospective longitudinal studies. Moreover, since moderate and LP births result in disparate medical and psychological outcomes, the common methodology of combining these participants into a single research cohort to assess risk and outcome should be reconsidered. The rapidly growing LP outcomes literature reinforces a critical principle: fetal development occurs along a dynamic maturational continuum from conception to birth, with each successive gestational day likely to improve overall outcome.",
+  "sanitized_text": "Late preterm birth: a review of medical and neuropsychological childhood outcomes.\nLate preterm (LP) birth (34 0/7 - 36 6/7 weeks' gestation) accounts for nearly three-fourths of all preterm births, making this population a sizeable public health concern. The immature fetal development associated with LP delivery increases the risk of mortality and short-term medical complications. Which combination of maternal, fetal, or neonatal risk factors may be most critical has only recently begun to be addressed, and whether LP birth's disruptive impact on brain development will exert adverse effects on neuropsychological functioning in childhood and adolescence has been understudied. Early data have shown a graded response, with LP children often functioning better than very preterm children but worse than term children, and with subtle intellectual and neuropsychological deficits in LP children compared with healthy children born at term gestational age. Further characterization of the neuropsychological profile is required and would be best accomplished through prospective longitudinal studies. Moreover, since moderate and LP births result in disparate medical and psychological outcomes, the common methodology of combining these participants into a single research cohort to assess risk and outcome should be reconsidered.",
+  "modified": true,
+  "original_char_count": 1574,
+  "sanitized_char_count": 1336,
+  "deleted_char_count": 238,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1337,
+      "boundary_end": 1574,
+      "context": "accounts for nearly three-fourths of all preterm births, making this population a sizeable public health concern. The immature fetal development associated with LP delivery increases the risk of mortality and short-term medical complications. Which combination of maternal, fetal, or neonatal risk factors may be most critical has only recently begun to be addressed, and whether LP birth's disruptive impact on brain development will exert adverse effects on neuropsychological functioning in childhood and adolescence has been understudied. Early data have shown a graded response, with LP children often functioning better than very preterm children but worse than term children, and with subtle intellectual and neuropsychological deficits in LP children compared with healthy children born at term gestational age. Further characterization of the neuropsychological profile is required and would be best accomplished through prospective longitudinal studies. Moreover, since moderate and LP births result in disparate medical and psychological outcomes, the common methodology of combining these participants into a single research cohort to assess risk and outcome should be reconsidered.",
+      "target": "The rapidly growing LP outcomes literature reinforces a critical principle: fetal development occurs along a dynamic maturational continuum from conception to birth, with each successive gestational day likely to improve overall outcome.",
+      "loss_target": 3.981592893600464,
+      "loss_target_given_context": 3.2053277492523193,
+      "delta_loss": 0.7762651443481445,
+      "gain_ratio": 0.19496346439532286,
+      "score": -0.19496346439532286,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1106,
+      "boundary_end": 1336,
+      "context": "Late preterm birth: a review of medical and neuropsychological childhood outcomes. Late preterm (LP) birth (34 0/7 - 36 6/7 weeks' gestation) accounts for nearly three-fourths of all preterm births, making this population a sizeable public health concern. The immature fetal development associated with LP delivery increases the risk of mortality and short-term medical complications. Which combination of maternal, fetal, or neonatal risk factors may be most critical has only recently begun to be addressed, and whether LP birth's disruptive impact on brain development will exert adverse effects on neuropsychological functioning in childhood and adolescence has been understudied. Early data have shown a graded response, with LP children often functioning better than very preterm children but worse than term children, and with subtle intellectual and neuropsychological deficits in LP children compared with healthy children born at term gestational age. Further characterization of the neuropsychological profile is required and would be best accomplished through prospective longitudinal studies.",
+      "target": "Moreover, since moderate and LP births result in disparate medical and psychological outcomes, the common methodology of combining these participants into a single research cohort to assess risk and outcome should be reconsidered.",
+      "loss_target": 3.8732197284698486,
+      "loss_target_given_context": 3.00882625579834,
+      "delta_loss": 0.8643934726715088,
+      "gain_ratio": 0.22317181396083496,
+      "score": -0.22317181396083496,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1337,
+      "target": "The rapidly growing LP outcomes literature reinforces a critical principle: fetal development occurs along a dynamic maturational continuum from conception to birth, with each successive gestational day likely to improve overall outcome.",
+      "score": -0.19496346439532286,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "The rapidly growing LP outcomes literature reinforces a critical principle: fetal development occurs along a dynamic maturational continuum from conception to birth, with each successive gestational day likely to improve overall outcome.",
+      "deleted_char_count": 237
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

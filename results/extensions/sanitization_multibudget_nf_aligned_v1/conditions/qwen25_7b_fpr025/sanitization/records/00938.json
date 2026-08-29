@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2143",
+  "source_doc_id": "MED-2143",
+  "title": "Antidiabetic drugs used in Europe prior to the discovery of insulin.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Antidiabetic drugs used in Europe prior to the discovery of insulin.\nMany therapeutic agents had been used for the treatment of diabetes mellitus before insulin was discovered and several hundred plants have shown some extent of antidiabetic activity. This study tries to explore which agents were most widely used in Europe in the pre-insulin era. According to the scientific literature and the proprietary drug industry around 1900, more than 100 agents were considered to have hypoglycemic activity. Most of them seem to have been used only occasionally while some others were recommended and marketed to a large extent. Among the medicinal plants, Syzygium cumini (syn. S. jambolanum, Eugenia jambolana), Vaccinum myrtillus and Phaseolus sp. were most common, and other frequently used agents were opium, opium alkaloids, other alkaloids like quinine or Belladonna alkaloids, salicylates, alkaline substances like sodium (bi)carbonate and even strong poisons like arsenic or uranium salts. Syzygium jambolanum seed powder seems to be one of the most intensively studied antidiabetic agents of plant origin.",
+  "sanitized_text": "Antidiabetic drugs used in Europe prior to the discovery of insulin.\nMany therapeutic agents had been used for the treatment of diabetes mellitus before insulin was discovered and several hundred plants have shown some extent of antidiabetic activity. This study tries to explore which agents were most widely used in Europe in the pre-insulin era. According to the scientific literature and the proprietary drug industry around 1900, more than 100 agents were considered to have hypoglycemic activity. Most of them seem to have been used only occasionally while some others were recommended and marketed to a large extent. Among the medicinal plants, Syzygium cumini (syn. S. jambolanum, Eugenia jambolana), Vaccinum myrtillus and Phaseolus sp. were most common, and other frequently used agents were opium, opium alkaloids, other alkaloids like quinine or Belladonna alkaloids, salicylates, alkaline substances like sodium (bi)carbonate and even strong poisons like arsenic or uranium salts. Syzygium jambolanum seed powder seems to be one of the most intensively studied antidiabetic agents of plant origin.",
+  "modified": false,
+  "original_char_count": 1110,
+  "sanitized_char_count": 1110,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 994,
+      "boundary_end": 1110,
+      "context": "Antidiabetic drugs used in Europe prior to the discovery of insulin. Many therapeutic agents had been used for the treatment of diabetes mellitus before insulin was discovered and several hundred plants have shown some extent of antidiabetic activity. This study tries to explore which agents were most widely used in Europe in the pre-insulin era. According to the scientific literature and the proprietary drug industry around 1900, more than 100 agents were considered to have hypoglycemic activity. Most of them seem to have been used only occasionally while some others were recommended and marketed to a large extent. Among the medicinal plants, Syzygium cumini (syn. S. jambolanum, Eugenia jambolana), Vaccinum myrtillus and Phaseolus sp. were most common, and other frequently used agents were opium, opium alkaloids, other alkaloids like quinine or Belladonna alkaloids, salicylates, alkaline substances like sodium (bi)carbonate and even strong poisons like arsenic or uranium salts.",
+      "target": "Syzygium jambolanum seed powder seems to be one of the most intensively studied antidiabetic agents of plant origin.",
+      "loss_target": 2.475356101989746,
+      "loss_target_given_context": 1.5253005027770996,
+      "delta_loss": 0.9500555992126465,
+      "gain_ratio": 0.3838056263698668,
+      "score": -0.3838056263698668,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

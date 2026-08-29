@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1998",
+  "source_doc_id": "MED-1998",
+  "title": "The early treatment of type 2 diabetes.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The early treatment of type 2 diabetes.\nThe growing epidemic of type 2 diabetes is one of the leading causes of premature morbidity and mortality worldwide, mainly due to the micro- and macrovascular complications associated with the disease. A growing body of evidence suggests that although the risk of developing complications is greater with glucose levels beyond the established threshold for diagnosis--increasing in parallel with rising hyperglycemia-individuals with glucose levels in the prediabetic range are already at increased risk. Early intervention, ideally as soon as abnormalities in glucose homeostasis are detected, is of great importance to minimize the burden of the disease. However, as the early stages of the disease are asymptomatic, diagnosing prediabetes and early overt type 2 diabetes is challenging. The aim of this article is to discuss these challenges, the benefits of early intervention--with emphasis on the prevention trials showing that progression to type 2 diabetes can be delayed by addressing prediabetes--and the existing evidence-based guidelines that have been drawn to optimize the standards of care at the prediabetes and overt type 2 diabetes stages. Copyright © 2013. Published by Elsevier Inc.",
+  "sanitized_text": "The early treatment of type 2 diabetes.\nThe growing epidemic of type 2 diabetes is one of the leading causes of premature morbidity and mortality worldwide, mainly due to the micro- and macrovascular complications associated with the disease. A growing body of evidence suggests that although the risk of developing complications is greater with glucose levels beyond the established threshold for diagnosis--increasing in parallel with rising hyperglycemia-individuals with glucose levels in the prediabetic range are already at increased risk. Early intervention, ideally as soon as abnormalities in glucose homeostasis are detected, is of great importance to minimize the burden of the disease. However, as the early stages of the disease are asymptomatic, diagnosing prediabetes and early overt type 2 diabetes is challenging. The aim of this article is to discuss these challenges, the benefits of early intervention--with emphasis on the prevention trials showing that progression to type 2 diabetes can be delayed by addressing prediabetes--and the existing evidence-based guidelines that have been drawn to optimize the standards of care at the prediabetes and overt type 2 diabetes stages. Copyright © 2013. Published by Elsevier Inc.",
+  "modified": false,
+  "original_char_count": 1243,
+  "sanitized_char_count": 1243,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1217,
+      "boundary_end": 1243,
+      "context": "of type 2 diabetes. The growing epidemic of type 2 diabetes is one of the leading causes of premature morbidity and mortality worldwide, mainly due to the micro- and macrovascular complications associated with the disease. A growing body of evidence suggests that although the risk of developing complications is greater with glucose levels beyond the established threshold for diagnosis--increasing in parallel with rising hyperglycemia-individuals with glucose levels in the prediabetic range are already at increased risk. Early intervention, ideally as soon as abnormalities in glucose homeostasis are detected, is of great importance to minimize the burden of the disease. However, as the early stages of the disease are asymptomatic, diagnosing prediabetes and early overt type 2 diabetes is challenging. The aim of this article is to discuss these challenges, the benefits of early intervention--with emphasis on the prevention trials showing that progression to type 2 diabetes can be delayed by addressing prediabetes--and the existing evidence-based guidelines that have been drawn to optimize the standards of care at the prediabetes and overt type 2 diabetes stages. Copyright © 2013.",
+      "target": "Published by Elsevier Inc.",
+      "loss_target": 2.3177590370178223,
+      "loss_target_given_context": 0.41074514389038086,
+      "delta_loss": 1.9070138931274414,
+      "gain_ratio": 0.8227835002128298,
+      "score": -0.8227835002128298,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

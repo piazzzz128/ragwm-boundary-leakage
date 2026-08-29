@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4799",
+  "source_doc_id": "MED-4799",
+  "title": "Clostridium difficile in Retail Meat Products, USA, 2007",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Clostridium difficile in Retail Meat Products, USA, 2007\nTo determine the presence of Clostridium difficile, we sampled cooked and uncooked meat products sold in Tucson, Arizona. Forty-two percent contained toxigenic C. difficile strains (either ribotype 078/toxinotype V [73%] or 027/toxinotype III [NAP1 or NAP1-related; 27%]). These findings indicate that food products may play a role in interspecies C. difficile transmission.",
+  "sanitized_text": "Clostridium difficile in Retail Meat Products, USA, 2007\nTo determine the presence of Clostridium difficile, we sampled cooked and uncooked meat products sold in Tucson, Arizona. Forty-two percent contained toxigenic C. difficile strains (either ribotype 078/toxinotype V [73%] or 027/toxinotype III [NAP1 or NAP1-related; 27%]). These findings indicate that food products may play a role in interspecies C. difficile transmission.",
+  "modified": false,
+  "original_char_count": 431,
+  "sanitized_char_count": 431,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 330,
+      "boundary_end": 407,
+      "context": "Clostridium difficile in Retail Meat Products, USA, 2007 To determine the presence of Clostridium difficile, we sampled cooked and uncooked meat products sold in Tucson, Arizona. Forty-two percent contained toxigenic C. difficile strains (either ribotype 078/toxinotype V [73%] or 027/toxinotype III [NAP1 or NAP1-related; 27%]).",
+      "target": "These findings indicate that food products may play a role in interspecies C.",
+      "loss_target": 3.749687433242798,
+      "loss_target_given_context": 1.8652883768081665,
+      "delta_loss": 1.8843990564346313,
+      "gain_ratio": 0.5025483030208118,
+      "score": -0.5025483030208118,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

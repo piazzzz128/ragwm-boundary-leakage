@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5295",
+  "source_doc_id": "MED-5295",
+  "title": "Dietary salt influences postprandial plasma sodium concentration and systolic blood pressure.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary salt influences postprandial plasma sodium concentration and systolic blood pressure.\nThe plasma sodium concentration has a direct effect on blood pressure in addition to its effects on extracellular volume regulated through changes in the endothelium. The mechanism for elevated blood pressure seen with habitually increased salt intake is unclear, especially the effect of salt in a single meal on plasma sodium concentration and blood pressure. To resolve this we compared the effect of soup with or without 6 g of salt (an amount similar to that in a single meal) on the plasma sodium concentration and blood pressure in 10 normotensive volunteers using a randomized, crossover design. The plasma sodium concentration was significantly increased by 3.13±0.75 mmol/l with salted compared with unsalted soup. Blood pressure increased in volunteers ingesting soup with added salt, and there was a significant positive correlation between plasma sodium concentration and systolic blood pressure. A 1-mmol/l increase in plasma sodium was associated with a 1.91-mm Hg increase in systolic blood pressure by linear regression. Thus, changes in plasma sodium concentration occur each time a meal containing salt is consumed. A potential mechanism for the changes in blood pressure seen with salt intake may be through its effects on plasma sodium concentration.",
+  "sanitized_text": "Dietary salt influences postprandial plasma sodium concentration and systolic blood pressure.\nThe plasma sodium concentration has a direct effect on blood pressure in addition to its effects on extracellular volume regulated through changes in the endothelium. The mechanism for elevated blood pressure seen with habitually increased salt intake is unclear, especially the effect of salt in a single meal on plasma sodium concentration and blood pressure. To resolve this we compared the effect of soup with or without 6 g of salt (an amount similar to that in a single meal) on the plasma sodium concentration and blood pressure in 10 normotensive volunteers using a randomized, crossover design. The plasma sodium concentration was significantly increased by 3.13±0.75 mmol/l with salted compared with unsalted soup. Blood pressure increased in volunteers ingesting soup with added salt, and there was a significant positive correlation between plasma sodium concentration and systolic blood pressure. A 1-mmol/l increase in plasma sodium was associated with a 1.91-mm Hg increase in systolic blood pressure by linear regression. Thus, changes in plasma sodium concentration occur each time a meal containing salt is consumed. A potential mechanism for the changes in blood pressure seen with salt intake may be through its effects on plasma sodium concentration.",
+  "modified": false,
+  "original_char_count": 1365,
+  "sanitized_char_count": 1365,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1229,
+      "boundary_end": 1365,
+      "context": "plasma sodium concentration and systolic blood pressure. The plasma sodium concentration has a direct effect on blood pressure in addition to its effects on extracellular volume regulated through changes in the endothelium. The mechanism for elevated blood pressure seen with habitually increased salt intake is unclear, especially the effect of salt in a single meal on plasma sodium concentration and blood pressure. To resolve this we compared the effect of soup with or without 6 g of salt (an amount similar to that in a single meal) on the plasma sodium concentration and blood pressure in 10 normotensive volunteers using a randomized, crossover design. The plasma sodium concentration was significantly increased by 3.13±0.75 mmol/l with salted compared with unsalted soup. Blood pressure increased in volunteers ingesting soup with added salt, and there was a significant positive correlation between plasma sodium concentration and systolic blood pressure. A 1-mmol/l increase in plasma sodium was associated with a 1.91-mm Hg increase in systolic blood pressure by linear regression. Thus, changes in plasma sodium concentration occur each time a meal containing salt is consumed.",
+      "target": "A potential mechanism for the changes in blood pressure seen with salt intake may be through its effects on plasma sodium concentration.",
+      "loss_target": 2.9967615604400635,
+      "loss_target_given_context": 1.4410349130630493,
+      "delta_loss": 1.5557266473770142,
+      "gain_ratio": 0.5191359459204227,
+      "score": -0.5191359459204227,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

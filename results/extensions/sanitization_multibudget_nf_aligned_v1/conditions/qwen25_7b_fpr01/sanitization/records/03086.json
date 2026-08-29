@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5022",
+  "source_doc_id": "MED-5022",
+  "title": "Severe lactic acidosis associated with juice of the mangosteen fruit Garcinia mangostana.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Severe lactic acidosis associated with juice of the mangosteen fruit Garcinia mangostana.\nThe tropical mangosteen fruit has long been prized in Southeast Asia for its traditional healing properties. Mangosteen fruit juice is now available in the United States and marketed for its purported health benefits. We describe a case of severe lactic acidosis associated with the use of mangosteen juice as a dietary supplement.",
+  "sanitized_text": "Severe lactic acidosis associated with juice of the mangosteen fruit Garcinia mangostana.\nThe tropical mangosteen fruit has long been prized in Southeast Asia for its traditional healing properties. Mangosteen fruit juice is now available in the United States and marketed for its purported health benefits. We describe a case of severe lactic acidosis associated with the use of mangosteen juice as a dietary supplement.",
+  "modified": false,
+  "original_char_count": 421,
+  "sanitized_char_count": 421,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 308,
+      "boundary_end": 421,
+      "context": "Severe lactic acidosis associated with juice of the mangosteen fruit Garcinia mangostana. The tropical mangosteen fruit has long been prized in Southeast Asia for its traditional healing properties. Mangosteen fruit juice is now available in the United States and marketed for its purported health benefits.",
+      "target": "We describe a case of severe lactic acidosis associated with the use of mangosteen juice as a dietary supplement.",
+      "loss_target": 2.261073589324951,
+      "loss_target_given_context": 0.5951071977615356,
+      "delta_loss": 1.6659663915634155,
+      "gain_ratio": 0.7368032599331691,
+      "score": -0.7368032599331691,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

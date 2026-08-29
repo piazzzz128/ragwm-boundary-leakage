@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3462",
+  "source_doc_id": "MED-3462",
+  "title": "Muscle soreness and delayed-onset muscle soreness.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Muscle soreness and delayed-onset muscle soreness.\nImmediate and delayed-onset muscle soreness differ mainly in chronology of presentation. Both conditions share the same quality of pain, eliciting and relieving activities and a varying degree of functional deficits. There is no single mechanism for muscle soreness; instead, it is a culmination of 6 different mechanisms. The developing pathway of DOMS begins with microtrauma to muscles and then surrounding connective tissues. Microtrauma is then followed by an inflammatory process and subsequent shifts of fluid and electrolytes. Throughout the progression of these events, muscle spasms may be present, exacerbating the overall condition. There are a multitude of modalities to manage the associated symptoms of immediate soreness and DOMS. Outcomes of each modality seem to be as diverse as the modalities themselves. The judicious use of NSAIDs and continued exercise are suggested to be the most reliable methods and recommended. This review article and each study cited, however, represent just one part of the clinician's decisionmaking process. Careful affirmation of temporary deficits from muscle soreness is not to be taken lightly, nor is the advisement and medical management of muscle soreness prescribed by the clinician.",
+  "sanitized_text": "Muscle soreness and delayed-onset muscle soreness.\nImmediate and delayed-onset muscle soreness differ mainly in chronology of presentation. Both conditions share the same quality of pain, eliciting and relieving activities and a varying degree of functional deficits. There is no single mechanism for muscle soreness; instead, it is a culmination of 6 different mechanisms. The developing pathway of DOMS begins with microtrauma to muscles and then surrounding connective tissues. Microtrauma is then followed by an inflammatory process and subsequent shifts of fluid and electrolytes. Throughout the progression of these events, muscle spasms may be present, exacerbating the overall condition. There are a multitude of modalities to manage the associated symptoms of immediate soreness and DOMS. Outcomes of each modality seem to be as diverse as the modalities themselves. The judicious use of NSAIDs and continued exercise are suggested to be the most reliable methods and recommended. This review article and each study cited, however, represent just one part of the clinician's decisionmaking process. Careful affirmation of temporary deficits from muscle soreness is not to be taken lightly, nor is the advisement and medical management of muscle soreness prescribed by the clinician.",
+  "modified": false,
+  "original_char_count": 1291,
+  "sanitized_char_count": 1291,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1108,
+      "boundary_end": 1291,
+      "context": "Muscle soreness and delayed-onset muscle soreness. Immediate and delayed-onset muscle soreness differ mainly in chronology of presentation. Both conditions share the same quality of pain, eliciting and relieving activities and a varying degree of functional deficits. There is no single mechanism for muscle soreness; instead, it is a culmination of 6 different mechanisms. The developing pathway of DOMS begins with microtrauma to muscles and then surrounding connective tissues. Microtrauma is then followed by an inflammatory process and subsequent shifts of fluid and electrolytes. Throughout the progression of these events, muscle spasms may be present, exacerbating the overall condition. There are a multitude of modalities to manage the associated symptoms of immediate soreness and DOMS. Outcomes of each modality seem to be as diverse as the modalities themselves. The judicious use of NSAIDs and continued exercise are suggested to be the most reliable methods and recommended. This review article and each study cited, however, represent just one part of the clinician's decisionmaking process.",
+      "target": "Careful affirmation of temporary deficits from muscle soreness is not to be taken lightly, nor is the advisement and medical management of muscle soreness prescribed by the clinician.",
+      "loss_target": 8.840596199035645,
+      "loss_target_given_context": 5.318219184875488,
+      "delta_loss": 3.5223770141601562,
+      "gain_ratio": 0.3984320666681266,
+      "score": -0.3984320666681266,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

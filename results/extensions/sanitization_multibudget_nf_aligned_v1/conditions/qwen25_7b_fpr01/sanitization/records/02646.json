@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4517",
+  "source_doc_id": "MED-4517",
+  "title": "Fecal weight, colon cancer risk, and dietary intake of nonstarch polysaccharides (dietary fiber)",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Fecal weight, colon cancer risk, and dietary intake of nonstarch polysaccharides (dietary fiber)\nLow fecal weight and slow bowel transit time are thought to be associated with bowel cancer risk, but few published data defining bowel habits in different communities exist. Therefore, data on stool weight were collected from 20 populations in 12 countries to define this risk more accurately, and the relationship between stool weight and dietary intake of nonstarch polysaccharides (NSP) (dietary fiber) was quantified. In 220 healthy U.K. adults undertaking careful fecal collections, median daily stool weight was 106 g/day (men, 104 g/day; women, 99 g/day; P = 0.02) and whole-gut transit time was 60 hours (men, 55 hours; women, 72 hours; P = 0.05); 17% of women, but only 1% of men, passed < 50 g stool/day. Data from other populations of the world show average stool weight to vary from 72 to 470 g/day and to be inversely related to colon cancer risk (r = -0.78). Meta-analysis of 11 studies in which daily fecal weight was measured accurately in 26 groups of people (n = 206) on controlled diets of known NSP content shows a significant correlation between fiber intake and mean daily stool weight (r = 0.84). Stool weight in many Westernized populations is low (80-120 g/day), and this is associated with increased colon cancer risk. Fecal output is increased by dietary NSP. Diets characterized by high NSP intake (approximately 18 g/day) are associated with stool weights of 150 g/day and should reduce the risk of bowel cancer.",
+  "sanitized_text": "Fecal weight, colon cancer risk, and dietary intake of nonstarch polysaccharides (dietary fiber)\nLow fecal weight and slow bowel transit time are thought to be associated with bowel cancer risk, but few published data defining bowel habits in different communities exist. Therefore, data on stool weight were collected from 20 populations in 12 countries to define this risk more accurately, and the relationship between stool weight and dietary intake of nonstarch polysaccharides (NSP) (dietary fiber) was quantified. In 220 healthy U.K. adults undertaking careful fecal collections, median daily stool weight was 106 g/day (men, 104 g/day; women, 99 g/day; P = 0.02) and whole-gut transit time was 60 hours (men, 55 hours; women, 72 hours; P = 0.05); 17% of women, but only 1% of men, passed < 50 g stool/day. Data from other populations of the world show average stool weight to vary from 72 to 470 g/day and to be inversely related to colon cancer risk (r = -0.78). Meta-analysis of 11 studies in which daily fecal weight was measured accurately in 26 groups of people (n = 206) on controlled diets of known NSP content shows a significant correlation between fiber intake and mean daily stool weight (r = 0.84). Stool weight in many Westernized populations is low (80-120 g/day), and this is associated with increased colon cancer risk. Fecal output is increased by dietary NSP. Diets characterized by high NSP intake (approximately 18 g/day) are associated with stool weights of 150 g/day and should reduce the risk of bowel cancer.",
+  "modified": false,
+  "original_char_count": 1539,
+  "sanitized_char_count": 1539,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1385,
+      "boundary_end": 1539,
+      "context": "risk, but few published data defining bowel habits in different communities exist. Therefore, data on stool weight were collected from 20 populations in 12 countries to define this risk more accurately, and the relationship between stool weight and dietary intake of nonstarch polysaccharides (NSP) (dietary fiber) was quantified. In 220 healthy U.K. adults undertaking careful fecal collections, median daily stool weight was 106 g/day (men, 104 g/day; women, 99 g/day; P = 0.02) and whole-gut transit time was 60 hours (men, 55 hours; women, 72 hours; P = 0.05); 17% of women, but only 1% of men, passed < 50 g stool/day. Data from other populations of the world show average stool weight to vary from 72 to 470 g/day and to be inversely related to colon cancer risk (r = -0.78). Meta-analysis of 11 studies in which daily fecal weight was measured accurately in 26 groups of people (n = 206) on controlled diets of known NSP content shows a significant correlation between fiber intake and mean daily stool weight (r = 0.84). Stool weight in many Westernized populations is low (80-120 g/day), and this is associated with increased colon cancer risk. Fecal output is increased by dietary NSP.",
+      "target": "Diets characterized by high NSP intake (approximately 18 g/day) are associated with stool weights of 150 g/day and should reduce the risk of bowel cancer.",
+      "loss_target": 2.699782371520996,
+      "loss_target_given_context": 1.3963308334350586,
+      "delta_loss": 1.3034515380859375,
+      "gain_ratio": 0.4827987440156528,
+      "score": -0.4827987440156528,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

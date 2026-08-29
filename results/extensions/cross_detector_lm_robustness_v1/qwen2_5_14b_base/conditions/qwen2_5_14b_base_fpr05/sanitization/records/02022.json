@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3709",
+  "source_doc_id": "MED-3709",
+  "title": "Immunity, inflammation, and allergy in the gut.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Immunity, inflammation, and allergy in the gut.\nThe gut immune system has the challenge of responding to pathogens while remaining relatively unresponsive to food antigens and the commensal microflora. In the developed world, this ability appears to be breaking down, with chronic inflammatory diseases of the gut commonplace in the apparent absence of overt infections. In both mouse and man, mutations in genes that control innate immune recognition, adaptive immunity, and epithelial permeability are all associated with gut inflammation. This suggests that perturbing homeostasis between gut antigens and host immunity represents a critical determinant in the development of gut inflammation and allergy.",
+  "sanitized_text": "Immunity, inflammation, and allergy in the gut.\nThe gut immune system has the challenge of responding to pathogens while remaining relatively unresponsive to food antigens and the commensal microflora. In the developed world, this ability appears to be breaking down, with chronic inflammatory diseases of the gut commonplace in the apparent absence of overt infections. In both mouse and man, mutations in genes that control innate immune recognition, adaptive immunity, and epithelial permeability are all associated with gut inflammation. This suggests that perturbing homeostasis between gut antigens and host immunity represents a critical determinant in the development of gut inflammation and allergy.",
+  "modified": false,
+  "original_char_count": 708,
+  "sanitized_char_count": 708,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 542,
+      "boundary_end": 708,
+      "context": "Immunity, inflammation, and allergy in the gut. The gut immune system has the challenge of responding to pathogens while remaining relatively unresponsive to food antigens and the commensal microflora. In the developed world, this ability appears to be breaking down, with chronic inflammatory diseases of the gut commonplace in the apparent absence of overt infections. In both mouse and man, mutations in genes that control innate immune recognition, adaptive immunity, and epithelial permeability are all associated with gut inflammation.",
+      "target": "This suggests that perturbing homeostasis between gut antigens and host immunity represents a critical determinant in the development of gut inflammation and allergy.",
+      "loss_target": 3.3659019470214844,
+      "loss_target_given_context": 2.0748000144958496,
+      "delta_loss": 1.2911019325256348,
+      "gain_ratio": 0.38358275221538823,
+      "score": -0.38358275221538823,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2603",
+  "source_doc_id": "MED-2603",
+  "title": "FADD: a regulator of life and death.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "FADD: a regulator of life and death.\nFAS-associated protein with death domain (FADD) is the key adaptor protein transmitting apoptotic signals mediated by the main death receptors (DRs). Besides being an essential instrument in cell death, FADD is also implicated in proliferation, cell cycle progression, tumor development, inflammation, innate immunity, and autophagy. Recently, many of these new functions of FADD were shown to be independent of DRs. Moreover, FADD function is dictated by protein localization and phosphorylation state. Thus, FADD is a crucial and unique controller of many essential cellular processes. The full understanding of the networks dictating the ultimate function of FADD may provide a new paradigm for other multifaceted proteins. Copyright 2010 Elsevier Ltd. All rights reserved. Death receptors are known to cause various diseases. The Adventist Health Study-2 employs Death Receptors in its research. Death receptors are included in the broader category of health.",
+  "sanitized_text": "FADD: a regulator of life and death.\nFAS-associated protein with death domain (FADD) is the key adaptor protein transmitting apoptotic signals mediated by the main death receptors (DRs). Besides being an essential instrument in cell death, FADD is also implicated in proliferation, cell cycle progression, tumor development, inflammation, innate immunity, and autophagy. Recently, many of these new functions of FADD were shown to be independent of DRs. Moreover, FADD function is dictated by protein localization and phosphorylation state. Thus, FADD is a crucial and unique controller of many essential cellular processes. The full understanding of the networks dictating the ultimate function of FADD may provide a new paradigm for other multifaceted proteins. Copyright 2010 Elsevier Ltd. All rights reserved. Death receptors are known to cause various diseases. The Adventist Health Study-2 employs Death Receptors in its research. Death receptors are included in the broader category of health.",
+  "modified": false,
+  "original_char_count": 1000,
+  "sanitized_char_count": 1000,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 937,
+      "boundary_end": 1000,
+      "context": "FADD: a regulator of life and death. FAS-associated protein with death domain (FADD) is the key adaptor protein transmitting apoptotic signals mediated by the main death receptors (DRs). Besides being an essential instrument in cell death, FADD is also implicated in proliferation, cell cycle progression, tumor development, inflammation, innate immunity, and autophagy. Recently, many of these new functions of FADD were shown to be independent of DRs. Moreover, FADD function is dictated by protein localization and phosphorylation state. Thus, FADD is a crucial and unique controller of many essential cellular processes. The full understanding of the networks dictating the ultimate function of FADD may provide a new paradigm for other multifaceted proteins. Copyright 2010 Elsevier Ltd. All rights reserved. Death receptors are known to cause various diseases. The Adventist Health Study-2 employs Death Receptors in its research.",
+      "target": "Death receptors are included in the broader category of health.",
+      "loss_target": 5.674798011779785,
+      "loss_target_given_context": 3.2781569957733154,
+      "delta_loss": 2.3966410160064697,
+      "gain_ratio": 0.4223306293953557,
+      "score": -0.4223306293953557,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

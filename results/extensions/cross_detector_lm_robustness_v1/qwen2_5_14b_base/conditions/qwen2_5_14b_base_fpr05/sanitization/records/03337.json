@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5283",
+  "source_doc_id": "MED-5283",
+  "title": "Chocolate/cocoa and human health: a review.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Chocolate/cocoa and human health: a review.\nChocolate/cocoa has been known for its good taste and proposed health effects for centuries. Earlier, chocolate used to be criticised for its fat content and its consumption was a sin rather than a remedy, associated with acne, caries, obesity, high blood pressure, coronary artery disease and diabetes. Therefore, many physicians tended to warn patients about the potential health hazards of consuming large amounts of chocolate. However, the recent discovery of biologically active phenolic compounds in cocoa has changed this perception and stimulated research on its effects in ageing, oxidative stress, blood pressure regulation, and atherosclerosis. Today, chocolate is lauded for its tremendous antioxidant potential. However, in many studies, contradictory results and concerns about methodological issues have made it hard for health professionals and the public to understand the available evidence on chocolate's effects on health. The purpose of this review is to interpret research done in the last decade on the benefits and risks of chocolate consumption.",
+  "sanitized_text": "Chocolate/cocoa and human health: a review.\nChocolate/cocoa has been known for its good taste and proposed health effects for centuries. Earlier, chocolate used to be criticised for its fat content and its consumption was a sin rather than a remedy, associated with acne, caries, obesity, high blood pressure, coronary artery disease and diabetes. Therefore, many physicians tended to warn patients about the potential health hazards of consuming large amounts of chocolate. However, the recent discovery of biologically active phenolic compounds in cocoa has changed this perception and stimulated research on its effects in ageing, oxidative stress, blood pressure regulation, and atherosclerosis. Today, chocolate is lauded for its tremendous antioxidant potential. However, in many studies, contradictory results and concerns about methodological issues have made it hard for health professionals and the public to understand the available evidence on chocolate's effects on health. The purpose of this review is to interpret research done in the last decade on the benefits and risks of chocolate consumption.",
+  "modified": false,
+  "original_char_count": 1114,
+  "sanitized_char_count": 1114,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 987,
+      "boundary_end": 1114,
+      "context": "Chocolate/cocoa and human health: a review. Chocolate/cocoa has been known for its good taste and proposed health effects for centuries. Earlier, chocolate used to be criticised for its fat content and its consumption was a sin rather than a remedy, associated with acne, caries, obesity, high blood pressure, coronary artery disease and diabetes. Therefore, many physicians tended to warn patients about the potential health hazards of consuming large amounts of chocolate. However, the recent discovery of biologically active phenolic compounds in cocoa has changed this perception and stimulated research on its effects in ageing, oxidative stress, blood pressure regulation, and atherosclerosis. Today, chocolate is lauded for its tremendous antioxidant potential. However, in many studies, contradictory results and concerns about methodological issues have made it hard for health professionals and the public to understand the available evidence on chocolate's effects on health.",
+      "target": "The purpose of this review is to interpret research done in the last decade on the benefits and risks of chocolate consumption.",
+      "loss_target": 2.6193456649780273,
+      "loss_target_given_context": 1.6720600128173828,
+      "delta_loss": 0.9472856521606445,
+      "gain_ratio": 0.3616497298643442,
+      "score": -0.3616497298643442,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

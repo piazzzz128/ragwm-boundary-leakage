@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2759",
+  "source_doc_id": "MED-2759",
+  "title": "Vomiting from multivitamins: a potential drug interaction.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vomiting from multivitamins: a potential drug interaction.\nA commercial weight loss program with a client base composed of >95% women experienced sporadic complaints of nausea and vomiting after changing its multivitamin supplier. This retrospective and observational study was designed to determine if related adverse event reports were significant, and to investigate potential mechanism for their occurrence in this group of subjects, many of whom were concurrently receiving oral contraceptives or hormone replacement therapy. Incidence of nausea, vomiting, rash, and total complaints in the 3 months following the change of the multivitamin formulation was compared with the same complaints in the 3 months before the change. In the 3 months following the multivitamin change, there were 166 complaints of nausea and vomiting, 9 complaints of rash and 194 total complaints from a group of 88,468 patients. In the 3 months before the change in the multivitamin, there had been 2 complaints of nausea and vomiting, no complaints of rash, and 11 total complaints from 88,252 patients. The difference detected by a chi-squared test was significant for all events studied; nausea and vomiting (P < 0.0001), rash (P < 0.02), and total complaints (P < 0.0001). The altered multivitamins contained added citrus bioflavanoids not included in the original formula. Citrus bioflavanoids decrease the clearance of exogenous estrogens by inhibiting cytochrome P450 enzyme systems. Elevated estrogen levels could account for the increased incidence of nausea and vomiting. This experience demonstrates that adding dietary herbal supplements to multivitamins may be associated with adverse interactions with prescription drugs.",
+  "sanitized_text": "Vomiting from multivitamins: a potential drug interaction.\nA commercial weight loss program with a client base composed of >95% women experienced sporadic complaints of nausea and vomiting after changing its multivitamin supplier. This retrospective and observational study was designed to determine if related adverse event reports were significant, and to investigate potential mechanism for their occurrence in this group of subjects, many of whom were concurrently receiving oral contraceptives or hormone replacement therapy. Incidence of nausea, vomiting, rash, and total complaints in the 3 months following the change of the multivitamin formulation was compared with the same complaints in the 3 months before the change. In the 3 months following the multivitamin change, there were 166 complaints of nausea and vomiting, 9 complaints of rash and 194 total complaints from a group of 88,468 patients. In the 3 months before the change in the multivitamin, there had been 2 complaints of nausea and vomiting, no complaints of rash, and 11 total complaints from 88,252 patients. The difference detected by a chi-squared test was significant for all events studied; nausea and vomiting (P < 0.0001), rash (P < 0.02), and total complaints (P < 0.0001). The altered multivitamins contained added citrus bioflavanoids not included in the original formula. Citrus bioflavanoids decrease the clearance of exogenous estrogens by inhibiting cytochrome P450 enzyme systems. Elevated estrogen levels could account for the increased incidence of nausea and vomiting. This experience demonstrates that adding dietary herbal supplements to multivitamins may be associated with adverse interactions with prescription drugs.",
+  "modified": false,
+  "original_char_count": 1717,
+  "sanitized_char_count": 1717,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1564,
+      "boundary_end": 1717,
+      "context": "potential mechanism for their occurrence in this group of subjects, many of whom were concurrently receiving oral contraceptives or hormone replacement therapy. Incidence of nausea, vomiting, rash, and total complaints in the 3 months following the change of the multivitamin formulation was compared with the same complaints in the 3 months before the change. In the 3 months following the multivitamin change, there were 166 complaints of nausea and vomiting, 9 complaints of rash and 194 total complaints from a group of 88,468 patients. In the 3 months before the change in the multivitamin, there had been 2 complaints of nausea and vomiting, no complaints of rash, and 11 total complaints from 88,252 patients. The difference detected by a chi-squared test was significant for all events studied; nausea and vomiting (P < 0.0001), rash (P < 0.02), and total complaints (P < 0.0001). The altered multivitamins contained added citrus bioflavanoids not included in the original formula. Citrus bioflavanoids decrease the clearance of exogenous estrogens by inhibiting cytochrome P450 enzyme systems. Elevated estrogen levels could account for the increased incidence of nausea and vomiting.",
+      "target": "This experience demonstrates that adding dietary herbal supplements to multivitamins may be associated with adverse interactions with prescription drugs.",
+      "loss_target": 3.8402955532073975,
+      "loss_target_given_context": 2.496795892715454,
+      "delta_loss": 1.3434996604919434,
+      "gain_ratio": 0.3498427769107142,
+      "score": -0.3498427769107142,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

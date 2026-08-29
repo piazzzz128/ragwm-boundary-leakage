@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1771",
+  "source_doc_id": "MED-1771",
+  "title": "Some observations on human semen analysis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Some observations on human semen analysis.\nSemen analysis of 66 unmarried medical students in the age group of 17-21 years was carried out. A higher liquefaction time pH, motility, lower sperm count and abnormal forms were observed compared to reported values. Liquefaction time, pH and sperm count was found significantly different in non-vegetarians and vegetarians, perhaps due to difference in their dietary proteins. The concept of Homa-Ir has relevance to sperm count. The review indicates that certain factors inhibit sperm count. The consumption of a high-fat meal is associated with changes in sperm count.",
+  "sanitized_text": "Some observations on human semen analysis.\nSemen analysis of 66 unmarried medical students in the age group of 17-21 years was carried out. A higher liquefaction time pH, motility, lower sperm count and abnormal forms were observed compared to reported values. Liquefaction time, pH and sperm count was found significantly different in non-vegetarians and vegetarians, perhaps due to difference in their dietary proteins. The concept of Homa-Ir has relevance to sperm count. The review indicates that certain factors inhibit sperm count. The consumption of a high-fat meal is associated with changes in sperm count.",
+  "modified": false,
+  "original_char_count": 615,
+  "sanitized_char_count": 615,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 538,
+      "boundary_end": 615,
+      "context": "Some observations on human semen analysis. Semen analysis of 66 unmarried medical students in the age group of 17-21 years was carried out. A higher liquefaction time pH, motility, lower sperm count and abnormal forms were observed compared to reported values. Liquefaction time, pH and sperm count was found significantly different in non-vegetarians and vegetarians, perhaps due to difference in their dietary proteins. The concept of Homa-Ir has relevance to sperm count. The review indicates that certain factors inhibit sperm count.",
+      "target": "The consumption of a high-fat meal is associated with changes in sperm count.",
+      "loss_target": 3.5311427116394043,
+      "loss_target_given_context": 2.8177683353424072,
+      "delta_loss": 0.7133743762969971,
+      "gain_ratio": 0.2020236604840586,
+      "score": -0.2020236604840586,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2350",
+  "source_doc_id": "MED-2350",
+  "title": "Analysis of food-allergic and anaphylactic events in the National Electronic Injury Surveillance System.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Analysis of food-allergic and anaphylactic events in the National Electronic Injury Surveillance System.\nBACKGROUND: The National Electronic Injury Surveillance System (NEISS) captures a nationally representative probability sample from hospital emergency departments (EDs) in the United States. OBJECTIVE: Emergency department data from NEISS were analyzed to assess the magnitude and severity of adverse events attributable to food allergies. METHODS: Emergency department events describing food-related allergic symptomatology were identified from 34 participating EDs from August 1 to September 30, 2003. RESULTS: Extrapolation of NEISS event data predicts a total of 20,821 hospital ED visits, 2333 visits for anaphylaxis, and 520 hospitalizations caused by food allergy in the United States during the 2-month study period. The median age was 26 years; 24% of visits involved children < or =5 years old. Shellfish was the most frequently implicated food in persons > or =6 years old, whereas children < or =5 years old experienced more events from eggs, fruit, peanuts, and tree nuts. There were no reported deaths. Review of medical records found that only 19% of patients received epinephrine, and, using criteria established by a 2005 anaphylaxis symposium, 57% of likely anaphylactic events did not have an ED diagnosis of anaphylaxis. CONCLUSION: Analysis of NEISS data may be a useful tool for assessing the magnitude and severity of food-allergic events. A criteria-based review of medical records suggests underdiagnosis of anaphylactic events in EDs.",
+  "sanitized_text": "Analysis of food-allergic and anaphylactic events in the National Electronic Injury Surveillance System.\nBACKGROUND: The National Electronic Injury Surveillance System (NEISS) captures a nationally representative probability sample from hospital emergency departments (EDs) in the United States. OBJECTIVE: Emergency department data from NEISS were analyzed to assess the magnitude and severity of adverse events attributable to food allergies. METHODS: Emergency department events describing food-related allergic symptomatology were identified from 34 participating EDs from August 1 to September 30, 2003. RESULTS: Extrapolation of NEISS event data predicts a total of 20,821 hospital ED visits, 2333 visits for anaphylaxis, and 520 hospitalizations caused by food allergy in the United States during the 2-month study period. The median age was 26 years; 24% of visits involved children < or =5 years old. Shellfish was the most frequently implicated food in persons > or =6 years old, whereas children < or =5 years old experienced more events from eggs, fruit, peanuts, and tree nuts. There were no reported deaths. Review of medical records found that only 19% of patients received epinephrine, and, using criteria established by a 2005 anaphylaxis symposium, 57% of likely anaphylactic events did not have an ED diagnosis of anaphylaxis. CONCLUSION: Analysis of NEISS data may be a useful tool for assessing the magnitude and severity of food-allergic events. A criteria-based review of medical records suggests underdiagnosis of anaphylactic events in EDs.",
+  "modified": false,
+  "original_char_count": 1565,
+  "sanitized_char_count": 1565,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1468,
+      "boundary_end": 1565,
+      "context": "(EDs) in the United States. OBJECTIVE: Emergency department data from NEISS were analyzed to assess the magnitude and severity of adverse events attributable to food allergies. METHODS: Emergency department events describing food-related allergic symptomatology were identified from 34 participating EDs from August 1 to September 30, 2003. RESULTS: Extrapolation of NEISS event data predicts a total of 20,821 hospital ED visits, 2333 visits for anaphylaxis, and 520 hospitalizations caused by food allergy in the United States during the 2-month study period. The median age was 26 years; 24% of visits involved children < or =5 years old. Shellfish was the most frequently implicated food in persons > or =6 years old, whereas children < or =5 years old experienced more events from eggs, fruit, peanuts, and tree nuts. There were no reported deaths. Review of medical records found that only 19% of patients received epinephrine, and, using criteria established by a 2005 anaphylaxis symposium, 57% of likely anaphylactic events did not have an ED diagnosis of anaphylaxis. CONCLUSION: Analysis of NEISS data may be a useful tool for assessing the magnitude and severity of food-allergic events.",
+      "target": "A criteria-based review of medical records suggests underdiagnosis of anaphylactic events in EDs.",
+      "loss_target": 3.6354165077209473,
+      "loss_target_given_context": 1.4723913669586182,
+      "delta_loss": 2.163025140762329,
+      "gain_ratio": 0.5949868842176589,
+      "score": -0.5949868842176589,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

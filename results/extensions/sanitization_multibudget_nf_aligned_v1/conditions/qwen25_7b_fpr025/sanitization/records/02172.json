@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3894",
+  "source_doc_id": "MED-3894",
+  "title": "Sun-dried raisins are a cost-effective alternative to Sports Jelly Beans in prolonged cycling.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Sun-dried raisins are a cost-effective alternative to Sports Jelly Beans in prolonged cycling.\nThe purpose of this study was to examine the effects of a natural carbohydrate (CHO) source in the form of sun-dried raisins (SDRs) vs. Sports Jelly Beans™ (SJBs) on endurance performance in trained cyclists and triathletes. Ten healthy men (18-33 years) completed 1 water-only acclimatization exercise trial and 2 randomized exercise trials administered in a crossover fashion. Each trial consisted of a 120-minute constant-intensity glycogen depletion period followed by a 10-km time trial (TT). During each experimental trial, participants consumed isocaloric amounts of SDRs or SJBs in 20-minute intervals. Measurements included time to complete 10-km TT, power output during 10-km TT, blood glucose levels and respiratory exchange ratio during glycogen depletion period, rate of perceived exertion (RPE), 'flow' questionnaire responses, and a hedonic (i.e., pleasantness) sensory acceptance test. There were no significant differences in endurance performance for TT time (SDRs vs. SJBs, 17.3 ± 0.4 vs. 17.3 ± 0.4 seconds) or power (229.3 ± 13.0 vs. 232.0 ± 13.6 W), resting blood glucose levels (5.8 ± 04 mmol·L(-1) for SDRs and 5.4 ± 0.2 mmol·L(-1) for SJBs), RPE, or flow experiences between SDR and SJB trials. However, the mean sensory acceptance scores were significantly higher for the SDRs compared to the SJBs (50.7 ± 1.7 vs. 44.3 ± 2.7). Consuming SDRs or SJBs during 120 minutes of intense cycling results in similar subsequent TT performances and are equally effective in maintaining blood glucose levels during exercise. Therefore, SDRs are a natural, pleasant, cost-effective CHO alternative to commercial SJBs that can be used during moderate- to high-intensity endurance exercise.",
+  "sanitized_text": "Sun-dried raisins are a cost-effective alternative to Sports Jelly Beans in prolonged cycling.\nThe purpose of this study was to examine the effects of a natural carbohydrate (CHO) source in the form of sun-dried raisins (SDRs) vs. Sports Jelly Beans™ (SJBs) on endurance performance in trained cyclists and triathletes. Ten healthy men (18-33 years) completed 1 water-only acclimatization exercise trial and 2 randomized exercise trials administered in a crossover fashion. Each trial consisted of a 120-minute constant-intensity glycogen depletion period followed by a 10-km time trial (TT). During each experimental trial, participants consumed isocaloric amounts of SDRs or SJBs in 20-minute intervals. Measurements included time to complete 10-km TT, power output during 10-km TT, blood glucose levels and respiratory exchange ratio during glycogen depletion period, rate of perceived exertion (RPE), 'flow' questionnaire responses, and a hedonic (i.e., pleasantness) sensory acceptance test. There were no significant differences in endurance performance for TT time (SDRs vs. SJBs, 17.3 ± 0.4 vs. 17.3 ± 0.4 seconds) or power (229.3 ± 13.0 vs. 232.0 ± 13.6 W), resting blood glucose levels (5.8 ± 04 mmol·L(-1) for SDRs and 5.4 ± 0.2 mmol·L(-1) for SJBs), RPE, or flow experiences between SDR and SJB trials. However, the mean sensory acceptance scores were significantly higher for the SDRs compared to the SJBs (50.7 ± 1.7 vs. 44.3 ± 2.7). Consuming SDRs or SJBs during 120 minutes of intense cycling results in similar subsequent TT performances and are equally effective in maintaining blood glucose levels during exercise. Therefore, SDRs are a natural, pleasant, cost-effective CHO alternative to commercial SJBs that can be used during moderate- to high-intensity endurance exercise.",
+  "modified": false,
+  "original_char_count": 1796,
+  "sanitized_char_count": 1796,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1634,
+      "boundary_end": 1796,
+      "context": "administered in a crossover fashion. Each trial consisted of a 120-minute constant-intensity glycogen depletion period followed by a 10-km time trial (TT). During each experimental trial, participants consumed isocaloric amounts of SDRs or SJBs in 20-minute intervals. Measurements included time to complete 10-km TT, power output during 10-km TT, blood glucose levels and respiratory exchange ratio during glycogen depletion period, rate of perceived exertion (RPE), 'flow' questionnaire responses, and a hedonic (i.e., pleasantness) sensory acceptance test. There were no significant differences in endurance performance for TT time (SDRs vs. SJBs, 17.3 ± 0.4 vs. 17.3 ± 0.4 seconds) or power (229.3 ± 13.0 vs. 232.0 ± 13.6 W), resting blood glucose levels (5.8 ± 04 mmol·L(-1) for SDRs and 5.4 ± 0.2 mmol·L(-1) for SJBs), RPE, or flow experiences between SDR and SJB trials. However, the mean sensory acceptance scores were significantly higher for the SDRs compared to the SJBs (50.7 ± 1.7 vs. 44.3 ± 2.7). Consuming SDRs or SJBs during 120 minutes of intense cycling results in similar subsequent TT performances and are equally effective in maintaining blood glucose levels during exercise.",
+      "target": "Therefore, SDRs are a natural, pleasant, cost-effective CHO alternative to commercial SJBs that can be used during moderate- to high-intensity endurance exercise.",
+      "loss_target": 3.763896942138672,
+      "loss_target_given_context": 1.8128551244735718,
+      "delta_loss": 1.9510418176651,
+      "gain_ratio": 0.5183568646160925,
+      "score": -0.5183568646160925,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

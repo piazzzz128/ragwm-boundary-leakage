@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1301",
+  "source_doc_id": "MED-1301",
+  "title": "The impact of cereal grain consumption on the development and severity of non-alcoholic fatty liver disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The impact of cereal grain consumption on the development and severity of non-alcoholic fatty liver disease.\nPURPOSE: There is evidence that dietary habits contribute to the presence and severity of non-alcoholic fatty liver disease (NAFLD). The aim of the present study was to explore any associations between consumption of grains and the development and severity of NAFLD. METHODS: Seventy-three consecutive NAFLD patients were enrolled. Additionally, 58 controls matched for age, sex and body mass index with 58 patients were also included. Consumption of grains was estimated through a semi-quantitative food frequency questionnaire. Medical history, anthropometric indices, body composition analysis, physical activity data, biochemical and inflammatory markers were available for all the participants. Liver stiffness measurement by transient elastography was performed in 58 and liver biopsy in 34 patients. RESULTS: In patients, consumption of whole grains was associated with lower abdominal fat level (β = -0.24, p = 0.02) and lower levels of insulin resistance index (β = -0.28, p = 0.009), while it also correlated inversely with interleukin-6 levels (ρ = -0.23, p = 0.05). Consumption of whole grains was associated with lower likelihood of having histological steatohepatitis (OR 0.97, 95% CI 0.94-1.000), after adjusting for sex and energy intake, but the association became weaker after further adjusting for abdominal fat or interleukin-6 levels. In the case-control analysis, consumption of refined grains was associated with higher odds of having NAFLD (OR 1.021, 95% CI 1.001-1.042), after adjusting for age, sex, energy intake, abdominal fat level, HOMA-IR, LDL, adiponectin and TNF-α. CONCLUSIONS: Although refined grain consumption increased the likelihood of having NAFLD, whole-grain consumption favorably affected clinical characteristics of patients with NAFLD and tended to be associated with less severe disease.",
+  "sanitized_text": "The impact of cereal grain consumption on the development and severity of non-alcoholic fatty liver disease.\nPURPOSE: There is evidence that dietary habits contribute to the presence and severity of non-alcoholic fatty liver disease (NAFLD). The aim of the present study was to explore any associations between consumption of grains and the development and severity of NAFLD. METHODS: Seventy-three consecutive NAFLD patients were enrolled. Additionally, 58 controls matched for age, sex and body mass index with 58 patients were also included. Consumption of grains was estimated through a semi-quantitative food frequency questionnaire. Medical history, anthropometric indices, body composition analysis, physical activity data, biochemical and inflammatory markers were available for all the participants. Liver stiffness measurement by transient elastography was performed in 58 and liver biopsy in 34 patients. RESULTS: In patients, consumption of whole grains was associated with lower abdominal fat level (β = -0.24, p = 0.02) and lower levels of insulin resistance index (β = -0.28, p = 0.009), while it also correlated inversely with interleukin-6 levels (ρ = -0.23, p = 0.05). Consumption of whole grains was associated with lower likelihood of having histological steatohepatitis (OR 0.97, 95% CI 0.94-1.000), after adjusting for sex and energy intake, but the association became weaker after further adjusting for abdominal fat or interleukin-6 levels. In the case-control analysis, consumption of refined grains was associated with higher odds of having NAFLD (OR 1.021, 95% CI 1.001-1.042), after adjusting for age, sex, energy intake, abdominal fat level, HOMA-IR, LDL, adiponectin and TNF-α. CONCLUSIONS: Although refined grain consumption increased the likelihood of having NAFLD, whole-grain consumption favorably affected clinical characteristics of patients with NAFLD and tended to be associated with less severe disease.",
+  "modified": false,
+  "original_char_count": 1942,
+  "sanitized_char_count": 1942,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1708,
+      "boundary_end": 1942,
+      "context": "with 58 patients were also included. Consumption of grains was estimated through a semi-quantitative food frequency questionnaire. Medical history, anthropometric indices, body composition analysis, physical activity data, biochemical and inflammatory markers were available for all the participants. Liver stiffness measurement by transient elastography was performed in 58 and liver biopsy in 34 patients. RESULTS: In patients, consumption of whole grains was associated with lower abdominal fat level (β = -0.24, p = 0.02) and lower levels of insulin resistance index (β = -0.28, p = 0.009), while it also correlated inversely with interleukin-6 levels (ρ = -0.23, p = 0.05). Consumption of whole grains was associated with lower likelihood of having histological steatohepatitis (OR 0.97, 95% CI 0.94-1.000), after adjusting for sex and energy intake, but the association became weaker after further adjusting for abdominal fat or interleukin-6 levels. In the case-control analysis, consumption of refined grains was associated with higher odds of having NAFLD (OR 1.021, 95% CI 1.001-1.042), after adjusting for age, sex, energy intake, abdominal fat level, HOMA-IR, LDL, adiponectin and TNF-α.",
+      "target": "CONCLUSIONS: Although refined grain consumption increased the likelihood of having NAFLD, whole-grain consumption favorably affected clinical characteristics of patients with NAFLD and tended to be associated with less severe disease.",
+      "loss_target": 2.4651846885681152,
+      "loss_target_given_context": 1.6794006824493408,
+      "delta_loss": 0.7857840061187744,
+      "gain_ratio": 0.3187525907339589,
+      "score": -0.3187525907339589,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

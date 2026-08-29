@@ -1,0 +1,27 @@
+{
+  "experiment_role": "conditional_nll_same_position_multibudget",
+  "budget_id": "fpr05",
+  "target_clean_fpr": 0.05,
+  "threshold": 2.7933995723724365,
+  "same_target_positions": "t2_through_tn",
+  "max_steps": 8,
+  "input_document_count": 3633,
+  "completed_document_count": 3633,
+  "complete": true,
+  "modified_document_count": 285,
+  "modified_document_rate": 0.07844756399669695,
+  "deletion_step_count": 363,
+  "total_original_chars": 5795710,
+  "total_deleted_chars": 42944,
+  "deleted_char_rate": 0.007409618493678946,
+  "stop_reason_counts": {
+    "score_below_threshold": 3628,
+    "empty_context": 5
+  },
+  "sanitized_corpus": "/root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/conditions/conditional_nll_fpr05/sanitization/conditional_nll_sanitized_corpus.jsonl",
+  "sanitized_corpus_sha256": "e94b37ed686859bfe439a11fbafe811915d91d29d7df18f84f9b94c30c2a5276",
+  "candidate_scores_sha256": "ed820507960cff8b6da5e18356b393896baafd9f5df0334f7379d6fca7601d62",
+  "deletion_log_sha256": "a55d6afbef3bf3df0ac685c76a029ec1ac8d5d7a160333a007ac161d62c81d95",
+  "campaign_id": "6e5d52efaf8d240a604cbc0e3040c5c6708432e7fc63c988bdd113c266b6652b",
+  "derivation_note": "one permissive scan; exact nested-threshold stopping derived for each budget"
+}

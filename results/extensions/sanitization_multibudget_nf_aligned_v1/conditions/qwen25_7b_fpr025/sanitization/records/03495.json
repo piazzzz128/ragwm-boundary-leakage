@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-840",
+  "source_doc_id": "MED-840",
+  "title": "Efficacy of home washing methods in controlling surface microbial contamination on fresh produce.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Efficacy of home washing methods in controlling surface microbial contamination on fresh produce.\nMuch effort has been focused on sanitation of fresh produce at the commercial level; however, few options are available to the consumer. The purpose of this study was to determine the efficacy of different cleaning methods in reducing bacterial contamination on fresh produce in a home setting. Lettuce, broccoli, apples, and tomatoes were inoculated with Listeria innocua and then subjected to combinations of the following cleaning procedures: (i) soak for 2 min in tap water, Veggie Wash solution, 5% vinegar solution, or 13% lemon solution and (ii) rinse under running tap water, rinse and rub under running tap water, brush under running tap water, or wipe with wet/dry paper towel. Presoaking in water before rinsing significantly reduced bacteria in apples, tomatoes, and lettuce, but not in broccoli. Wiping apples and tomatoes with wet or dry paper towel showed lower bacterial reductions compared with soaking and rinsing procedures. Blossom ends of apples were more contaminated than the surface after soaking and rinsing; similar results were observed between flower section and stem of broccoli. Reductions of L. innocua in both tomatoes and apples (2.01 to 2.89 log CFU/g) were more than in lettuce and broccoli (1.41 to 1.88 log CFU/g) when subjected to same washing procedures. Reductions of surface contamination of lettuce after soaking in lemon or vinegar solutions were not significantly different (P > 0.05) from lettuce soaking in cold tap water. Therefore, educators and extension workers might consider it appropriate to instruct consumers to rub or brush fresh produce under cold running tap water before consumption.",
+  "sanitized_text": "Efficacy of home washing methods in controlling surface microbial contamination on fresh produce.\nMuch effort has been focused on sanitation of fresh produce at the commercial level; however, few options are available to the consumer. The purpose of this study was to determine the efficacy of different cleaning methods in reducing bacterial contamination on fresh produce in a home setting. Lettuce, broccoli, apples, and tomatoes were inoculated with Listeria innocua and then subjected to combinations of the following cleaning procedures: (i) soak for 2 min in tap water, Veggie Wash solution, 5% vinegar solution, or 13% lemon solution and (ii) rinse under running tap water, rinse and rub under running tap water, brush under running tap water, or wipe with wet/dry paper towel. Presoaking in water before rinsing significantly reduced bacteria in apples, tomatoes, and lettuce, but not in broccoli. Wiping apples and tomatoes with wet or dry paper towel showed lower bacterial reductions compared with soaking and rinsing procedures. Blossom ends of apples were more contaminated than the surface after soaking and rinsing; similar results were observed between flower section and stem of broccoli. Reductions of L. innocua in both tomatoes and apples (2.01 to 2.89 log CFU/g) were more than in lettuce and broccoli (1.41 to 1.88 log CFU/g) when subjected to same washing procedures. Reductions of surface contamination of lettuce after soaking in lemon or vinegar solutions were not significantly different (P > 0.05) from lettuce soaking in cold tap water. Therefore, educators and extension workers might consider it appropriate to instruct consumers to rub or brush fresh produce under cold running tap water before consumption.",
+  "modified": false,
+  "original_char_count": 1740,
+  "sanitized_char_count": 1740,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1567,
+      "boundary_end": 1740,
+      "context": "in a home setting. Lettuce, broccoli, apples, and tomatoes were inoculated with Listeria innocua and then subjected to combinations of the following cleaning procedures: (i) soak for 2 min in tap water, Veggie Wash solution, 5% vinegar solution, or 13% lemon solution and (ii) rinse under running tap water, rinse and rub under running tap water, brush under running tap water, or wipe with wet/dry paper towel. Presoaking in water before rinsing significantly reduced bacteria in apples, tomatoes, and lettuce, but not in broccoli. Wiping apples and tomatoes with wet or dry paper towel showed lower bacterial reductions compared with soaking and rinsing procedures. Blossom ends of apples were more contaminated than the surface after soaking and rinsing; similar results were observed between flower section and stem of broccoli. Reductions of L. innocua in both tomatoes and apples (2.01 to 2.89 log CFU/g) were more than in lettuce and broccoli (1.41 to 1.88 log CFU/g) when subjected to same washing procedures. Reductions of surface contamination of lettuce after soaking in lemon or vinegar solutions were not significantly different (P > 0.05) from lettuce soaking in cold tap water.",
+      "target": "Therefore, educators and extension workers might consider it appropriate to instruct consumers to rub or brush fresh produce under cold running tap water before consumption.",
+      "loss_target": 3.555408477783203,
+      "loss_target_given_context": 2.4792585372924805,
+      "delta_loss": 1.0761499404907227,
+      "gain_ratio": 0.3026796912971592,
+      "score": -0.3026796912971592,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

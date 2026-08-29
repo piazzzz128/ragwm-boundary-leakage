@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3584",
+  "source_doc_id": "MED-3584",
+  "title": "A higher ratio of beans to white rice is associated with lower cardiometabolic risk factors in Costa Rican adults",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A higher ratio of beans to white rice is associated with lower cardiometabolic risk factors in Costa Rican adults\nBackground: A high intake of white rice is associated with the metabolic syndrome and type 2 diabetes. Costa Ricans follow a staple dietary pattern that includes white rice and beans, yet the combined role of these foods on cardiometabolic risk factors has not been studied. Objective: We aimed to determine the association between intake of white rice and beans and the metabolic syndrome and its components in Costa Rican adults (n = 1879) without diabetes. Design: Multivariate-adjusted means were calculated for components of the metabolic syndrome by daily servings of white rice and beans (<1, 1, or >1) and by the ratio of beans to white rice. The OR for the metabolic syndrome was calculated by substituting one serving of beans for one serving of white rice. Results: An increase in daily servings of white rice was positively associated with systolic blood pressure (BP), triglycerides, and fasting glucose and inversely associated with HDL cholesterol (P-trend <0.01 for all). An increase in servings of beans was inversely associated with diastolic BP (P = 0.049). Significant trends for higher HDL cholesterol and lower BP and triglycerides were observed for 1:3, 1:2, 1:1, and 2:1 ratios of beans to white rice. Substituting one serving of beans for one serving of white rice was associated with a 35% (95% CI: 15%, 50%) lower risk of the metabolic syndrome. Conclusion: Increasing the ratio of beans to white rice, or limiting the intake of white rice by substituting beans, may lower cardiometabolic risk factors.",
+  "sanitized_text": "A higher ratio of beans to white rice is associated with lower cardiometabolic risk factors in Costa Rican adults\nBackground: A high intake of white rice is associated with the metabolic syndrome and type 2 diabetes. Costa Ricans follow a staple dietary pattern that includes white rice and beans, yet the combined role of these foods on cardiometabolic risk factors has not been studied. Objective: We aimed to determine the association between intake of white rice and beans and the metabolic syndrome and its components in Costa Rican adults (n = 1879) without diabetes. Design: Multivariate-adjusted means were calculated for components of the metabolic syndrome by daily servings of white rice and beans (<1, 1, or >1) and by the ratio of beans to white rice. The OR for the metabolic syndrome was calculated by substituting one serving of beans for one serving of white rice. Results: An increase in daily servings of white rice was positively associated with systolic blood pressure (BP), triglycerides, and fasting glucose and inversely associated with HDL cholesterol (P-trend <0.01 for all). An increase in servings of beans was inversely associated with diastolic BP (P = 0.049). Significant trends for higher HDL cholesterol and lower BP and triglycerides were observed for 1:3, 1:2, 1:1, and 2:1 ratios of beans to white rice. Substituting one serving of beans for one serving of white rice was associated with a 35% (95% CI: 15%, 50%) lower risk of the metabolic syndrome. Conclusion: Increasing the ratio of beans to white rice, or limiting the intake of white rice by substituting beans, may lower cardiometabolic risk factors.",
+  "modified": false,
+  "original_char_count": 1643,
+  "sanitized_char_count": 1643,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1487,
+      "boundary_end": 1643,
+      "context": "and beans, yet the combined role of these foods on cardiometabolic risk factors has not been studied. Objective: We aimed to determine the association between intake of white rice and beans and the metabolic syndrome and its components in Costa Rican adults (n = 1879) without diabetes. Design: Multivariate-adjusted means were calculated for components of the metabolic syndrome by daily servings of white rice and beans (<1, 1, or >1) and by the ratio of beans to white rice. The OR for the metabolic syndrome was calculated by substituting one serving of beans for one serving of white rice. Results: An increase in daily servings of white rice was positively associated with systolic blood pressure (BP), triglycerides, and fasting glucose and inversely associated with HDL cholesterol (P-trend <0.01 for all). An increase in servings of beans was inversely associated with diastolic BP (P = 0.049). Significant trends for higher HDL cholesterol and lower BP and triglycerides were observed for 1:3, 1:2, 1:1, and 2:1 ratios of beans to white rice. Substituting one serving of beans for one serving of white rice was associated with a 35% (95% CI: 15%, 50%) lower risk of the metabolic syndrome.",
+      "target": "Conclusion: Increasing the ratio of beans to white rice, or limiting the intake of white rice by substituting beans, may lower cardiometabolic risk factors.",
+      "loss_target": 2.6397695541381836,
+      "loss_target_given_context": 1.1385046243667603,
+      "delta_loss": 1.5012649297714233,
+      "gain_ratio": 0.5687106010515177,
+      "score": -0.5687106010515177,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

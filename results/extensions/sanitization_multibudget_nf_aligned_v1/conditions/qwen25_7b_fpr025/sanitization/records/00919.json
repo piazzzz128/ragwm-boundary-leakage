@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2120",
+  "source_doc_id": "MED-2120",
+  "title": "ACNE AND RISK OF PROSTATE CANCER",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "ACNE AND RISK OF PROSTATE CANCER\nIn a recent study, prostatectomy specimens from which Propionibacterium acnes was cultured were more likely to have inflammation than culture-negative specimens or specimens positive for other bacteria, leading the authors to hypothesize that P. acnes-mediated inflammation may contribute to prostate carcinogenesis. To indirectly explore associations between P. acnes and prostate cancer, we investigated severe acne, as measured by tetracycline use for four or more years, in relation to incident prostate cancer in the Health Professionals Follow-up Study. On the 1992 follow-up questionnaire, participants were asked whether they had ever used “tetracycline for at least two months at a time (e.g., for acne or other reason)” and their duration of use. Prostate cancer diagnoses were ascertained on each subsequent biennial questionnaire and confirmed by medical record review. Between 1992 and 2002, 2,147 cases of prostate cancer were reported among 34,629 eligible participants. Men who used tetracycline for four or more years had a significantly higher risk of prostate cancer (16 cases, 1,569 person-years) than men who did not use tetracycline (2,071 cases, 304,822 person-years, multivariable-adjusted RR=1.70, 95% CI:1.03–2.80). Although intriguing, this finding should be viewed cautiously because of the small number of exposed cases, indirect assessment of severe acne, and complex etiology of acne, which is not limited to P. acnes infection. Therefore, additional biologic and epidemiologic studies are necessary to determine and elucidate the possible role of P. acnes infection in prostate carcinogenesis.",
+  "sanitized_text": "ACNE AND RISK OF PROSTATE CANCER\nIn a recent study, prostatectomy specimens from which Propionibacterium acnes was cultured were more likely to have inflammation than culture-negative specimens or specimens positive for other bacteria, leading the authors to hypothesize that P. acnes-mediated inflammation may contribute to prostate carcinogenesis. To indirectly explore associations between P. acnes and prostate cancer, we investigated severe acne, as measured by tetracycline use for four or more years, in relation to incident prostate cancer in the Health Professionals Follow-up Study. On the 1992 follow-up questionnaire, participants were asked whether they had ever used “tetracycline for at least two months at a time (e.g., for acne or other reason)” and their duration of use. Prostate cancer diagnoses were ascertained on each subsequent biennial questionnaire and confirmed by medical record review. Between 1992 and 2002, 2,147 cases of prostate cancer were reported among 34,629 eligible participants. Men who used tetracycline for four or more years had a significantly higher risk of prostate cancer (16 cases, 1,569 person-years) than men who did not use tetracycline (2,071 cases, 304,822 person-years, multivariable-adjusted RR=1.70, 95% CI:1.03–2.80). Although intriguing, this finding should be viewed cautiously because of the small number of exposed cases, indirect assessment of severe acne, and complex etiology of acne, which is not limited to P. acnes infection. Therefore, additional biologic and epidemiologic studies are necessary to determine and elucidate the possible role of P. acnes infection in prostate carcinogenesis.",
+  "modified": false,
+  "original_char_count": 1658,
+  "sanitized_char_count": 1658,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1615,
+      "boundary_end": 1658,
+      "context": "cancer, we investigated severe acne, as measured by tetracycline use for four or more years, in relation to incident prostate cancer in the Health Professionals Follow-up Study. On the 1992 follow-up questionnaire, participants were asked whether they had ever used “tetracycline for at least two months at a time (e.g., for acne or other reason)” and their duration of use. Prostate cancer diagnoses were ascertained on each subsequent biennial questionnaire and confirmed by medical record review. Between 1992 and 2002, 2,147 cases of prostate cancer were reported among 34,629 eligible participants. Men who used tetracycline for four or more years had a significantly higher risk of prostate cancer (16 cases, 1,569 person-years) than men who did not use tetracycline (2,071 cases, 304,822 person-years, multivariable-adjusted RR=1.70, 95% CI:1.03–2.80). Although intriguing, this finding should be viewed cautiously because of the small number of exposed cases, indirect assessment of severe acne, and complex etiology of acne, which is not limited to P. acnes infection. Therefore, additional biologic and epidemiologic studies are necessary to determine and elucidate the possible role of P.",
+      "target": "acnes infection in prostate carcinogenesis.",
+      "loss_target": 5.311973571777344,
+      "loss_target_given_context": 0.5494615435600281,
+      "delta_loss": 4.762512028217316,
+      "gain_ratio": 0.8965616947946933,
+      "score": -0.8965616947946933,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

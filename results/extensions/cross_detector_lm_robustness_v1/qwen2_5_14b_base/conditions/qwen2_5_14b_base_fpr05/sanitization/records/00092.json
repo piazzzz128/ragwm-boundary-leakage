@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1128",
+  "source_doc_id": "MED-1128",
+  "title": "Rheumatoid arthritis is linked to Proteus--the evidence.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Rheumatoid arthritis is linked to Proteus--the evidence.\nRheumatoid arthritis (RA) is a chronic inflammatory arthritic and potentially disabling condition, mainly affecting women of middle age and having characteristic clinical features. Various microbial agents were implicated in the causation of RA. Extensive literature based on the results of various genetic, microbiological, molecular, and immunological studies carried out by independent research groups supports the role of Proteus mirabilis bacteria in the etiopathogenesis of RA. New diagnostic markers and criteria and the use of a novel therapeutic protocol in the form of antibiotic and dietary measures are suggested to be used together with current treatments in the management of RA. Prospective longitudinal studies with the use of antimicrobial measures in patients with RA are required to establish the therapeutic benefit of this microbe-disease association.",
+  "sanitized_text": "Rheumatoid arthritis is linked to Proteus--the evidence.\nRheumatoid arthritis (RA) is a chronic inflammatory arthritic and potentially disabling condition, mainly affecting women of middle age and having characteristic clinical features. Various microbial agents were implicated in the causation of RA. Extensive literature based on the results of various genetic, microbiological, molecular, and immunological studies carried out by independent research groups supports the role of Proteus mirabilis bacteria in the etiopathogenesis of RA. New diagnostic markers and criteria and the use of a novel therapeutic protocol in the form of antibiotic and dietary measures are suggested to be used together with current treatments in the management of RA. Prospective longitudinal studies with the use of antimicrobial measures in patients with RA are required to establish the therapeutic benefit of this microbe-disease association.",
+  "modified": false,
+  "original_char_count": 929,
+  "sanitized_char_count": 929,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 751,
+      "boundary_end": 929,
+      "context": "Rheumatoid arthritis is linked to Proteus--the evidence. Rheumatoid arthritis (RA) is a chronic inflammatory arthritic and potentially disabling condition, mainly affecting women of middle age and having characteristic clinical features. Various microbial agents were implicated in the causation of RA. Extensive literature based on the results of various genetic, microbiological, molecular, and immunological studies carried out by independent research groups supports the role of Proteus mirabilis bacteria in the etiopathogenesis of RA. New diagnostic markers and criteria and the use of a novel therapeutic protocol in the form of antibiotic and dietary measures are suggested to be used together with current treatments in the management of RA.",
+      "target": "Prospective longitudinal studies with the use of antimicrobial measures in patients with RA are required to establish the therapeutic benefit of this microbe-disease association.",
+      "loss_target": 3.229670763015747,
+      "loss_target_given_context": 2.2260406017303467,
+      "delta_loss": 1.0036301612854004,
+      "gain_ratio": 0.31075308752160474,
+      "score": -0.31075308752160474,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

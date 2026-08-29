@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5320",
+  "source_doc_id": "MED-5320",
+  "title": "\"USA-Fat\": prevalence is related to ambient outdoor temperature-evaluation with 18F-FDG PET/CT.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "\"USA-Fat\": prevalence is related to ambient outdoor temperature-evaluation with 18F-FDG PET/CT.\nIncreased (18)F-FDG activity in fatty tissue has previously been reported with PET/CT. We previously named this activity uptake in supraclavicular area fat (\"USA-Fat\"). We and others have speculated that this uptake exists in metabolically active brown adipose tissue (BAT). Such tissue might be expected to have varying metabolic activity depending on the ambient temperature. The purpose of this study was to evaluate the frequency of USA-Fat and its relationship to the outdoor temperature. METHODS: Between July 2001 and June 2002, 1,017 consecutive whole-body scans were obtained with a PET/CT scanner and (18)F-FDG for clinical patients. PET images were reviewed for the presence of USA-Fat. RESULTS: USA-Fat was observed in 68 scans obtained from 62 patients (51 female and 11 male). The incidence of USA-Fat was highest, at 13.7%, in January through March, while outside temperatures were low, and was significantly lower, at 4.1%, during the rest of the year. CONCLUSION: The incidence of USA-Fat is clearly increased during the cooler period of the year. This finding suggests that stimulation by cold temperatures increases the frequency with which USA-Fat occurs, supporting underlying BAT as the etiology for this activity.",
+  "sanitized_text": "\"USA-Fat\": prevalence is related to ambient outdoor temperature-evaluation with 18F-FDG PET/CT.\nIncreased (18)F-FDG activity in fatty tissue has previously been reported with PET/CT. We previously named this activity uptake in supraclavicular area fat (\"USA-Fat\"). We and others have speculated that this uptake exists in metabolically active brown adipose tissue (BAT). Such tissue might be expected to have varying metabolic activity depending on the ambient temperature. The purpose of this study was to evaluate the frequency of USA-Fat and its relationship to the outdoor temperature. METHODS: Between July 2001 and June 2002, 1,017 consecutive whole-body scans were obtained with a PET/CT scanner and (18)F-FDG for clinical patients. PET images were reviewed for the presence of USA-Fat. RESULTS: USA-Fat was observed in 68 scans obtained from 62 patients (51 female and 11 male). The incidence of USA-Fat was highest, at 13.7%, in January through March, while outside temperatures were low, and was significantly lower, at 4.1%, during the rest of the year. CONCLUSION: The incidence of USA-Fat is clearly increased during the cooler period of the year. This finding suggests that stimulation by cold temperatures increases the frequency with which USA-Fat occurs, supporting underlying BAT as the etiology for this activity.",
+  "modified": false,
+  "original_char_count": 1332,
+  "sanitized_char_count": 1332,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1161,
+      "boundary_end": 1332,
+      "context": "\"USA-Fat\": prevalence is related to ambient outdoor temperature-evaluation with 18F-FDG PET/CT. Increased (18)F-FDG activity in fatty tissue has previously been reported with PET/CT. We previously named this activity uptake in supraclavicular area fat (\"USA-Fat\"). We and others have speculated that this uptake exists in metabolically active brown adipose tissue (BAT). Such tissue might be expected to have varying metabolic activity depending on the ambient temperature. The purpose of this study was to evaluate the frequency of USA-Fat and its relationship to the outdoor temperature. METHODS: Between July 2001 and June 2002, 1,017 consecutive whole-body scans were obtained with a PET/CT scanner and (18)F-FDG for clinical patients. PET images were reviewed for the presence of USA-Fat. RESULTS: USA-Fat was observed in 68 scans obtained from 62 patients (51 female and 11 male). The incidence of USA-Fat was highest, at 13.7%, in January through March, while outside temperatures were low, and was significantly lower, at 4.1%, during the rest of the year. CONCLUSION: The incidence of USA-Fat is clearly increased during the cooler period of the year.",
+      "target": "This finding suggests that stimulation by cold temperatures increases the frequency with which USA-Fat occurs, supporting underlying BAT as the etiology for this activity.",
+      "loss_target": 4.950378894805908,
+      "loss_target_given_context": 2.707826614379883,
+      "delta_loss": 2.2425522804260254,
+      "gain_ratio": 0.45300618964317685,
+      "score": -0.45300618964317685,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

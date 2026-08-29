@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4853",
+  "source_doc_id": "MED-4853",
+  "title": "Effects of a very low-fat, vegan diet in subjects with rheumatoid arthritis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of a very low-fat, vegan diet in subjects with rheumatoid arthritis.\nOBJECTIVE: To demonstrate the effects of a very low-fat, vegan diet on patients with rheumatoid arthritis (RA). DESIGN: Single-blind dietary intervention study. SUBJECTS AND STUDY INTERVENTIONS: This study evaluated the influence of a 4-week, very low-fat (approximately 10%), vegan diet on 24 free-living subjects with RA, average age, 56 +/- 11 years old. OUTCOME MEASUREMENTS: Prestudy and poststudy assessment of RA symptomatology was performed by a rheumatologist blind to the study design. Biochemical measures and 4-day diet data were also collected. Subjects met weekly for diet instruction, compliance monitoring, and progress assessments. RESULTS: There were significant (p < 0.001) decreases in fat (69%), protein (24%), and energy (22%), and a significant increase in carbohydrate (55%) intake. All measures of RA symptomatology decreased significantly (p < 0.05), except for duration of morning stiffness (p > 0.05). Weight also decreased significantly (p < 0.001). At 4 weeks, C-reactive protein decreased 16% (ns, p > 0.05), RA factor decreased 10% (ns, p > 0.05), while erythrocyte sedimentation rate was unchanged (p > 0.05). CONCLUSION: This study showed that patients with moderate-to-severe RA, who switch to a very low-fat, vegan diet can experience significant reductions in RA symptoms.",
+  "sanitized_text": "Effects of a very low-fat, vegan diet in subjects with rheumatoid arthritis.\nOBJECTIVE: To demonstrate the effects of a very low-fat, vegan diet on patients with rheumatoid arthritis (RA). DESIGN: Single-blind dietary intervention study. SUBJECTS AND STUDY INTERVENTIONS: This study evaluated the influence of a 4-week, very low-fat (approximately 10%), vegan diet on 24 free-living subjects with RA, average age, 56 +/- 11 years old. OUTCOME MEASUREMENTS: Prestudy and poststudy assessment of RA symptomatology was performed by a rheumatologist blind to the study design. Biochemical measures and 4-day diet data were also collected. Subjects met weekly for diet instruction, compliance monitoring, and progress assessments. RESULTS: There were significant (p < 0.001) decreases in fat (69%), protein (24%), and energy (22%), and a significant increase in carbohydrate (55%) intake. All measures of RA symptomatology decreased significantly (p < 0.05), except for duration of morning stiffness (p > 0.05). Weight also decreased significantly (p < 0.001). At 4 weeks, C-reactive protein decreased 16% (ns, p > 0.05), RA factor decreased 10% (ns, p > 0.05), while erythrocyte sedimentation rate was unchanged (p > 0.05). CONCLUSION: This study showed that patients with moderate-to-severe RA, who switch to a very low-fat, vegan diet can experience significant reductions in RA symptoms.",
+  "modified": false,
+  "original_char_count": 1386,
+  "sanitized_char_count": 1386,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1220,
+      "boundary_end": 1386,
+      "context": "vegan diet in subjects with rheumatoid arthritis. OBJECTIVE: To demonstrate the effects of a very low-fat, vegan diet on patients with rheumatoid arthritis (RA). DESIGN: Single-blind dietary intervention study. SUBJECTS AND STUDY INTERVENTIONS: This study evaluated the influence of a 4-week, very low-fat (approximately 10%), vegan diet on 24 free-living subjects with RA, average age, 56 +/- 11 years old. OUTCOME MEASUREMENTS: Prestudy and poststudy assessment of RA symptomatology was performed by a rheumatologist blind to the study design. Biochemical measures and 4-day diet data were also collected. Subjects met weekly for diet instruction, compliance monitoring, and progress assessments. RESULTS: There were significant (p < 0.001) decreases in fat (69%), protein (24%), and energy (22%), and a significant increase in carbohydrate (55%) intake. All measures of RA symptomatology decreased significantly (p < 0.05), except for duration of morning stiffness (p > 0.05). Weight also decreased significantly (p < 0.001). At 4 weeks, C-reactive protein decreased 16% (ns, p > 0.05), RA factor decreased 10% (ns, p > 0.05), while erythrocyte sedimentation rate was unchanged (p > 0.05).",
+      "target": "CONCLUSION: This study showed that patients with moderate-to-severe RA, who switch to a very low-fat, vegan diet can experience significant reductions in RA symptoms.",
+      "loss_target": 2.4767215251922607,
+      "loss_target_given_context": 1.5255663394927979,
+      "delta_loss": 0.9511551856994629,
+      "gain_ratio": 0.38403800186039383,
+      "score": -0.38403800186039383,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

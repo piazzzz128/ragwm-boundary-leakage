@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4124",
+  "source_doc_id": "MED-4124",
+  "title": "Erythritol is a sweet antioxidant.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Erythritol is a sweet antioxidant.\nOBJECTIVE: Hyperglycemia, oxidative stress, and the onset and progression of diabetic complications are strongly linked. Reduction of oxidative stress could be of utmost importance in the long-term treatment of diabetic patients. The chronic nature of the disease calls for a mode of antioxidant intake that can be sustained easily, e.g., by the diet. Erythritol, a simple polyol, could be such a compound. It is orally available, well tolerated, and its chemical structure resembles that of mannitol, a well-known hydroxyl radical (HO*) scavenger. METHODS: We studied the antioxidant properties of erythritol in vitro and subsequently determined its antioxidant activity and its vasoprotective effect in the streptozotocin diabetic rat. RESULTS: Erythritol was shown to be an excellent HO* radical scavenger and an inhibitor of 2,2'-azobis-2-amidinopropane dihydrochloride-induced hemolysis but inert toward superoxide radicals. High-performance liquid chromatographic and electron spin resonance spectroscopy studies showed that the reaction of erythritol with hydroxyl radicals resulted in the formation of erythrose and erythrulose by abstraction of a carbon-bound hydrogen atom. In the streptozotocin diabetic rat, erythritol displayed an endothelium-protective effect and, in accordance with the in vitro experiments, erythrose was found in the urine of erythritol-consuming rats. CONCLUSION: Erythritol acts as an antioxidant in vivo and may help protect against hyperglycemia-induced vascular damage. Copyright 2010 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Erythritol is a sweet antioxidant.\nOBJECTIVE: Hyperglycemia, oxidative stress, and the onset and progression of diabetic complications are strongly linked. Reduction of oxidative stress could be of utmost importance in the long-term treatment of diabetic patients. The chronic nature of the disease calls for a mode of antioxidant intake that can be sustained easily, e.g., by the diet. Erythritol, a simple polyol, could be such a compound. It is orally available, well tolerated, and its chemical structure resembles that of mannitol, a well-known hydroxyl radical (HO*) scavenger. METHODS: We studied the antioxidant properties of erythritol in vitro and subsequently determined its antioxidant activity and its vasoprotective effect in the streptozotocin diabetic rat. RESULTS: Erythritol was shown to be an excellent HO* radical scavenger and an inhibitor of 2,2'-azobis-2-amidinopropane dihydrochloride-induced hemolysis but inert toward superoxide radicals. High-performance liquid chromatographic and electron spin resonance spectroscopy studies showed that the reaction of erythritol with hydroxyl radicals resulted in the formation of erythrose and erythrulose by abstraction of a carbon-bound hydrogen atom. In the streptozotocin diabetic rat, erythritol displayed an endothelium-protective effect and, in accordance with the in vitro experiments, erythrose was found in the urine of erythritol-consuming rats. CONCLUSION: Erythritol acts as an antioxidant in vivo and may help protect against hyperglycemia-induced vascular damage. Copyright 2010 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1593,
+  "sanitized_char_count": 1593,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1544,
+      "boundary_end": 1572,
+      "context": "be sustained easily, e.g., by the diet. Erythritol, a simple polyol, could be such a compound. It is orally available, well tolerated, and its chemical structure resembles that of mannitol, a well-known hydroxyl radical (HO*) scavenger. METHODS: We studied the antioxidant properties of erythritol in vitro and subsequently determined its antioxidant activity and its vasoprotective effect in the streptozotocin diabetic rat. RESULTS: Erythritol was shown to be an excellent HO* radical scavenger and an inhibitor of 2,2'-azobis-2-amidinopropane dihydrochloride-induced hemolysis but inert toward superoxide radicals. High-performance liquid chromatographic and electron spin resonance spectroscopy studies showed that the reaction of erythritol with hydroxyl radicals resulted in the formation of erythrose and erythrulose by abstraction of a carbon-bound hydrogen atom. In the streptozotocin diabetic rat, erythritol displayed an endothelium-protective effect and, in accordance with the in vitro experiments, erythrose was found in the urine of erythritol-consuming rats. CONCLUSION: Erythritol acts as an antioxidant in vivo and may help protect against hyperglycemia-induced vascular damage.",
+      "target": "Copyright 2010 Elsevier Inc.",
+      "loss_target": 1.8002516031265259,
+      "loss_target_given_context": 0.9344592690467834,
+      "delta_loss": 0.8657923340797424,
+      "gain_ratio": 0.48092851720065516,
+      "score": -0.48092851720065516,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

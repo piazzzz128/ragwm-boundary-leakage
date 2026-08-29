@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1852",
+  "source_doc_id": "MED-1852",
+  "title": "Aluminium migration into beverages: are dented cans safe?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Aluminium migration into beverages: are dented cans safe?\nAluminium (Al) migration from cans to beer and tea was studied along time. Analyses of Al in the canned drinks were performed till the sell-by date, and, in seven months, aluminium migration was found to increase 0.14 mg L(-1) in beer, and 0.6 mg L(-1) in tea. This study included dented cans from which aluminium migration into tea was found to be particularly severe. Al concentration in dented canned tea increased 9.6 mg L(-1) in seven months.",
+  "sanitized_text": "Aluminium migration into beverages: are dented cans safe?\nAluminium (Al) migration from cans to beer and tea was studied along time. Analyses of Al in the canned drinks were performed till the sell-by date, and, in seven months, aluminium migration was found to increase 0.14 mg L(-1) in beer, and 0.6 mg L(-1) in tea. This study included dented cans from which aluminium migration into tea was found to be particularly severe. Al concentration in dented canned tea increased 9.6 mg L(-1) in seven months.",
+  "modified": false,
+  "original_char_count": 505,
+  "sanitized_char_count": 505,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 428,
+      "boundary_end": 505,
+      "context": "Aluminium migration into beverages: are dented cans safe? Aluminium (Al) migration from cans to beer and tea was studied along time. Analyses of Al in the canned drinks were performed till the sell-by date, and, in seven months, aluminium migration was found to increase 0.14 mg L(-1) in beer, and 0.6 mg L(-1) in tea. This study included dented cans from which aluminium migration into tea was found to be particularly severe.",
+      "target": "Al concentration in dented canned tea increased 9.6 mg L(-1) in seven months.",
+      "loss_target": 4.46026086807251,
+      "loss_target_given_context": 1.55287766456604,
+      "delta_loss": 2.9073832035064697,
+      "gain_ratio": 0.6518415154409765,
+      "score": -0.6518415154409765,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

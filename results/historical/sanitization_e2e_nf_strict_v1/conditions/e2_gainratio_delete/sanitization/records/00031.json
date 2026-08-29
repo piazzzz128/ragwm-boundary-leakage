@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1033",
+  "source_doc_id": "MED-1033",
+  "title": "\"Bowel obsession syndrome\" in a patient with chronic constipation.",
+  "original_text": "\"Bowel obsession syndrome\" in a patient with chronic constipation.\nOBJECTIVE: The bowel obsession syndrome (BOS) is a psychosomatic disorder which often remains at the intersection of somatic and psychological domains without being adequately diagnosed and treated. CASE REPORT: A 32-year-old man with chronic constipation presented with restricted diet, compulsions on evacuation, social isolation and depressed mood, thus satisfying the diagnosis of BOS. Cognitive behavioral therapy led to complete remission of symptoms, and results were maintained after 1 year of follow-up. CONCLUSION: Although BOS is not frequently diagnosed, it is probably more prevalent than thought. Clinicians should be aware of its existence in order to assess, diagnose and properly treat it. Copyright © 2013 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "\"Bowel obsession syndrome\" in a patient with chronic constipation.\nOBJECTIVE: The bowel obsession syndrome (BOS) is a psychosomatic disorder which often remains at the intersection of somatic and psychological domains without being adequately diagnosed and treated. CASE REPORT: A 32-year-old man with chronic constipation presented with restricted diet, compulsions on evacuation, social isolation and depressed mood, thus satisfying the diagnosis of BOS. Cognitive behavioral therapy led to complete remission of symptoms, and results were maintained after 1 year of follow-up. CONCLUSION: Although BOS is not frequently diagnosed, it is probably more prevalent than thought. Clinicians should be aware of its existence in order to assess, diagnose and properly treat it.",
+  "modified": true,
+  "original_char_count": 825,
+  "sanitized_char_count": 773,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 774,
+      "boundary_end": 804,
+      "context": "\"Bowel obsession syndrome\" in a patient with chronic constipation. OBJECTIVE: The bowel obsession syndrome (BOS) is a psychosomatic disorder which often remains at the intersection of somatic and psychological domains without being adequately diagnosed and treated. CASE REPORT: A 32-year-old man with chronic constipation presented with restricted diet, compulsions on evacuation, social isolation and depressed mood, thus satisfying the diagnosis of BOS. Cognitive behavioral therapy led to complete remission of symptoms, and results were maintained after 1 year of follow-up. CONCLUSION: Although BOS is not frequently diagnosed, it is probably more prevalent than thought. Clinicians should be aware of its existence in order to assess, diagnose and properly treat it.",
+      "target": "Copyright © 2013 Elsevier Inc.",
+      "loss_target": 1.0089970827102661,
+      "loss_target_given_context": 1.5726889371871948,
+      "delta_loss": -0.5636918544769287,
+      "gain_ratio": -0.5586654948127269,
+      "score": 0.5586654948127269,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 678,
+      "boundary_end": 773,
+      "context": "\"Bowel obsession syndrome\" in a patient with chronic constipation. OBJECTIVE: The bowel obsession syndrome (BOS) is a psychosomatic disorder which often remains at the intersection of somatic and psychological domains without being adequately diagnosed and treated. CASE REPORT: A 32-year-old man with chronic constipation presented with restricted diet, compulsions on evacuation, social isolation and depressed mood, thus satisfying the diagnosis of BOS. Cognitive behavioral therapy led to complete remission of symptoms, and results were maintained after 1 year of follow-up. CONCLUSION: Although BOS is not frequently diagnosed, it is probably more prevalent than thought.",
+      "target": "Clinicians should be aware of its existence in order to assess, diagnose and properly treat it.",
+      "loss_target": 2.48718523979187,
+      "loss_target_given_context": 2.163189649581909,
+      "delta_loss": 0.32399559020996094,
+      "gain_ratio": 0.1302659669358094,
+      "score": -0.1302659669358094,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 774,
+      "target": "Copyright © 2013 Elsevier Inc.",
+      "score": 0.5586654948127269,
+      "deleted_suffix": "Copyright © 2013 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

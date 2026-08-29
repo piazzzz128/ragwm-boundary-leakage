@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-877",
+  "source_doc_id": "MED-877",
+  "title": "Detrimental effects of energy drink consumption on platelet and endothelial function.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Detrimental effects of energy drink consumption on platelet and endothelial function.\nBACKGROUND: Energy drink consumption has been anecdotally linked with sudden cardiac death and, more recently, myocardial infarction. As myocardial infarction is strongly associated with both platelet and endothelial dysfunction, we tested the hypothesis that energy drink consumption alters platelet and endothelial function. METHODS: Fifty healthy volunteers (34 male, aged 22+/-2 years) participated in the study. Platelet aggregation and endothelial function were tested before, and 1 hour after, the consumption of 250 mL (1 can) of a sugar-free energy drink. Platelet function was assessed by adenosine diphosphate-induced (1 micromol/L) optical aggregometry in platelet-rich plasma. Endothelial function was assessed via changes in peripheral arterial tonometry and expressed as the reactive hyperemia index (RHI). RESULTS: Compared with baseline values, there was a significant increase in platelet aggregation following energy drink consumption, while no change was observed with control (13.7+/-3.7% vs 0.3+/-0.8% aggregation, respectively, P <.01). Similarly, RHI decreased following energy drink consumption (-0.33+/-0.13 vs 0.07+/-0.12 RHI [control], P <.05). Mean arterial pressure significantly increased following energy drink consumption, compared with control (P <.05). Heart rate was unaffected by energy drink consumption. CONCLUSION: Energy drink consumption acutely increases platelet aggregation and decreases endothelial function in healthy young adults. Copyright (c) 2010 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Detrimental effects of energy drink consumption on platelet and endothelial function.\nBACKGROUND: Energy drink consumption has been anecdotally linked with sudden cardiac death and, more recently, myocardial infarction. As myocardial infarction is strongly associated with both platelet and endothelial dysfunction, we tested the hypothesis that energy drink consumption alters platelet and endothelial function. METHODS: Fifty healthy volunteers (34 male, aged 22+/-2 years) participated in the study. Platelet aggregation and endothelial function were tested before, and 1 hour after, the consumption of 250 mL (1 can) of a sugar-free energy drink. Platelet function was assessed by adenosine diphosphate-induced (1 micromol/L) optical aggregometry in platelet-rich plasma. Endothelial function was assessed via changes in peripheral arterial tonometry and expressed as the reactive hyperemia index (RHI). RESULTS: Compared with baseline values, there was a significant increase in platelet aggregation following energy drink consumption, while no change was observed with control (13.7+/-3.7% vs 0.3+/-0.8% aggregation, respectively, P <.01). Similarly, RHI decreased following energy drink consumption (-0.33+/-0.13 vs 0.07+/-0.12 RHI [control], P <.05). Mean arterial pressure significantly increased following energy drink consumption, compared with control (P <.05). Heart rate was unaffected by energy drink consumption. CONCLUSION: Energy drink consumption acutely increases platelet aggregation and decreases endothelial function in healthy young adults. Copyright (c) 2010 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1618,
+  "sanitized_char_count": 1618,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1565,
+      "boundary_end": 1597,
+      "context": "alters platelet and endothelial function. METHODS: Fifty healthy volunteers (34 male, aged 22+/-2 years) participated in the study. Platelet aggregation and endothelial function were tested before, and 1 hour after, the consumption of 250 mL (1 can) of a sugar-free energy drink. Platelet function was assessed by adenosine diphosphate-induced (1 micromol/L) optical aggregometry in platelet-rich plasma. Endothelial function was assessed via changes in peripheral arterial tonometry and expressed as the reactive hyperemia index (RHI). RESULTS: Compared with baseline values, there was a significant increase in platelet aggregation following energy drink consumption, while no change was observed with control (13.7+/-3.7% vs 0.3+/-0.8% aggregation, respectively, P <.01). Similarly, RHI decreased following energy drink consumption (-0.33+/-0.13 vs 0.07+/-0.12 RHI [control], P <.05). Mean arterial pressure significantly increased following energy drink consumption, compared with control (P <.05). Heart rate was unaffected by energy drink consumption. CONCLUSION: Energy drink consumption acutely increases platelet aggregation and decreases endothelial function in healthy young adults.",
+      "target": "Copyright (c) 2010 Elsevier Inc.",
+      "loss_target": 1.3851408958435059,
+      "loss_target_given_context": 0.45164754986763,
+      "delta_loss": 0.9334933459758759,
+      "gain_ratio": 0.6739338566762977,
+      "score": -0.6739338566762977,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

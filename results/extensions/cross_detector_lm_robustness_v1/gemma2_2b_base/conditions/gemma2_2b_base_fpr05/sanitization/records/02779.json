@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4685",
+  "source_doc_id": "MED-4685",
+  "title": "Maternal and neonatal vitamin B12 deficiency detected through expanded newborn screening--United States, 2003-2007.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Maternal and neonatal vitamin B12 deficiency detected through expanded newborn screening--United States, 2003-2007.\nThe incidence of neonatal vitamin B12 (cobalamin) deficiency because of maternal deficiency was determined by surveying state newborn screening programs. Thirty-two infants with nutritional vitamin B12 deficiency were identified (0.88/100,000 newborns). Pregnant women should be assessed for their risk of inadequate intake/malabsorption of vitamin B12. Copyright (c) 2010 Mosby, Inc. All rights reserved.",
+  "sanitized_text": "Maternal and neonatal vitamin B12 deficiency detected through expanded newborn screening--United States, 2003-2007.\nThe incidence of neonatal vitamin B12 (cobalamin) deficiency because of maternal deficiency was determined by surveying state newborn screening programs. Thirty-two infants with nutritional vitamin B12 deficiency were identified (0.88/100,000 newborns). Pregnant women should be assessed for their risk of inadequate intake/malabsorption of vitamin B12. Copyright (c) 2010 Mosby, Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 521,
+  "sanitized_char_count": 521,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 470,
+      "boundary_end": 500,
+      "context": "Maternal and neonatal vitamin B12 deficiency detected through expanded newborn screening--United States, 2003-2007. The incidence of neonatal vitamin B12 (cobalamin) deficiency because of maternal deficiency was determined by surveying state newborn screening programs. Thirty-two infants with nutritional vitamin B12 deficiency were identified (0.88/100,000 newborns). Pregnant women should be assessed for their risk of inadequate intake/malabsorption of vitamin B12.",
+      "target": "Copyright (c) 2010 Mosby, Inc.",
+      "loss_target": 4.715494632720947,
+      "loss_target_given_context": 3.686958074569702,
+      "delta_loss": 1.0285365581512451,
+      "gain_ratio": 0.21811848772220024,
+      "score": -0.21811848772220024,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

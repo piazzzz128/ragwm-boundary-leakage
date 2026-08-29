@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3806",
+  "source_doc_id": "MED-3806",
+  "title": "Toxicology of nutmeg abuse.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Toxicology of nutmeg abuse.\nBACKGROUND: Unpleasant and frightening side effects associated with the abuse of nutmeg occasionally generate emergency department referrals. We report a young patient's first-time experience with nutmeg and review the mechanisms of its toxicity. CASE REPORT: A 13-year-old female ingested 15-24 g of nutmeg over a 3-hour period and smoked and shared 2 joints of marijuana. To facilitate ingestion, the nutmeg was put into 00-000 gelatin capsules. Bizarre behavior and visual, auditory, and tactile hallucinations developed. She also experienced nausea, gagging, hot/cold sensations, and blurred vision followed by numbness, double, and \"triple\" vision, headache, and drowsiness. Nystagmus, muscle weakness, and ataxia were present. Her vital signs and laboratory tests were normal. She received 50 g of activated charcoal and except for complaints of dizziness and visual changes, her 2-day admission was uneventful. The central nervous system activity of nutmeg is often postulated to result from biotransformation of its chemical components to amphetamine-like compounds, but this has not been proven. Nutmeg contains several compounds with structural similarities to substances with known central nervous system neuromodulatory activity.",
+  "sanitized_text": "Toxicology of nutmeg abuse.\nBACKGROUND: Unpleasant and frightening side effects associated with the abuse of nutmeg occasionally generate emergency department referrals. We report a young patient's first-time experience with nutmeg and review the mechanisms of its toxicity. CASE REPORT: A 13-year-old female ingested 15-24 g of nutmeg over a 3-hour period and smoked and shared 2 joints of marijuana. To facilitate ingestion, the nutmeg was put into 00-000 gelatin capsules. Bizarre behavior and visual, auditory, and tactile hallucinations developed. She also experienced nausea, gagging, hot/cold sensations, and blurred vision followed by numbness, double, and \"triple\" vision, headache, and drowsiness. Nystagmus, muscle weakness, and ataxia were present. Her vital signs and laboratory tests were normal. She received 50 g of activated charcoal and except for complaints of dizziness and visual changes, her 2-day admission was uneventful. The central nervous system activity of nutmeg is often postulated to result from biotransformation of its chemical components to amphetamine-like compounds, but this has not been proven. Nutmeg contains several compounds with structural similarities to substances with known central nervous system neuromodulatory activity.",
+  "modified": false,
+  "original_char_count": 1269,
+  "sanitized_char_count": 1269,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1133,
+      "boundary_end": 1269,
+      "context": "Toxicology of nutmeg abuse. BACKGROUND: Unpleasant and frightening side effects associated with the abuse of nutmeg occasionally generate emergency department referrals. We report a young patient's first-time experience with nutmeg and review the mechanisms of its toxicity. CASE REPORT: A 13-year-old female ingested 15-24 g of nutmeg over a 3-hour period and smoked and shared 2 joints of marijuana. To facilitate ingestion, the nutmeg was put into 00-000 gelatin capsules. Bizarre behavior and visual, auditory, and tactile hallucinations developed. She also experienced nausea, gagging, hot/cold sensations, and blurred vision followed by numbness, double, and \"triple\" vision, headache, and drowsiness. Nystagmus, muscle weakness, and ataxia were present. Her vital signs and laboratory tests were normal. She received 50 g of activated charcoal and except for complaints of dizziness and visual changes, her 2-day admission was uneventful. The central nervous system activity of nutmeg is often postulated to result from biotransformation of its chemical components to amphetamine-like compounds, but this has not been proven.",
+      "target": "Nutmeg contains several compounds with structural similarities to substances with known central nervous system neuromodulatory activity.",
+      "loss_target": 2.919910430908203,
+      "loss_target_given_context": 1.794538974761963,
+      "delta_loss": 1.1253714561462402,
+      "gain_ratio": 0.38541300590381705,
+      "score": -0.38541300590381705,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

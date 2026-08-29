@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4265",
+  "source_doc_id": "MED-4265",
+  "title": "Microbial ecology: human gut microbes associated with obesity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Microbial ecology: human gut microbes associated with obesity.\nTwo groups of beneficial bacteria are dominant in the human gut, the Bacteroidetes and the Firmicutes. Here we show that the relative proportion of Bacteroidetes is decreased in obese people by comparison with lean people, and that this proportion increases with weight loss on two types of low-calorie diet. Our findings indicate that obesity has a microbial component, which might have potential therapeutic implications. Moderately obese individuals experience an enhancement in their lifespan. The microbiome plays a significant role in the intervention group. Odds ratios are influenced by the composition of the microbiome. In the development of policies and strategies, gut microbiota serves as an important resource.",
+  "sanitized_text": "Microbial ecology: human gut microbes associated with obesity.\nTwo groups of beneficial bacteria are dominant in the human gut, the Bacteroidetes and the Firmicutes. Here we show that the relative proportion of Bacteroidetes is decreased in obese people by comparison with lean people, and that this proportion increases with weight loss on two types of low-calorie diet. Our findings indicate that obesity has a microbial component, which might have potential therapeutic implications. Moderately obese individuals experience an enhancement in their lifespan. The microbiome plays a significant role in the intervention group. Odds ratios are influenced by the composition of the microbiome. In the development of policies and strategies, gut microbiota serves as an important resource.",
+  "modified": false,
+  "original_char_count": 787,
+  "sanitized_char_count": 787,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 693,
+      "boundary_end": 787,
+      "context": "Microbial ecology: human gut microbes associated with obesity. Two groups of beneficial bacteria are dominant in the human gut, the Bacteroidetes and the Firmicutes. Here we show that the relative proportion of Bacteroidetes is decreased in obese people by comparison with lean people, and that this proportion increases with weight loss on two types of low-calorie diet. Our findings indicate that obesity has a microbial component, which might have potential therapeutic implications. Moderately obese individuals experience an enhancement in their lifespan. The microbiome plays a significant role in the intervention group. Odds ratios are influenced by the composition of the microbiome.",
+      "target": "In the development of policies and strategies, gut microbiota serves as an important resource.",
+      "loss_target": 3.865173101425171,
+      "loss_target_given_context": 2.9284396171569824,
+      "delta_loss": 0.9367334842681885,
+      "gain_ratio": 0.24235227237889942,
+      "score": -0.24235227237889942,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

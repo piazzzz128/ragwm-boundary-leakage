@@ -1,0 +1,75 @@
+{
+  "internal_id": "MED-5038",
+  "source_doc_id": "MED-5038",
+  "title": "Chocolate, lifestyle, and health.",
+  "original_text": "Chocolate, lifestyle, and health.\nInterest in the biological activities of cocoa polyphenols is increasing steadily. In fact, the high polyphenol content of cocoa, coupled with its widespread presence in many food items, render this food of particular interest from the nutritional and \"pharmacological\" viewpoints. This paper summarizes the new findings and developments regarding the effects of cocoa and chocolate consumption on human health as presented at the International Conference \"Chocolate, Lifestyle, and Health\" (Milan, Italy, March 2, 2007) regarding the effects of cocoa and chocolate consumption on human health. When food products are consumed, they may result in pharmacological treatment. Polycyclic aromatic hydrocarbons are related to food products.",
+  "sanitized_text": "Chocolate, lifestyle, and health.\nInterest in the biological activities of cocoa polyphenols is increasing steadily. In fact, the high polyphenol content of cocoa, coupled with its widespread presence in many food items, render this food of particular interest from the nutritional and \"pharmacological\" viewpoints. This paper summarizes the new findings and developments regarding the effects of cocoa and chocolate consumption on human health as presented at the International Conference \"Chocolate, Lifestyle, and Health\" (Milan, Italy, March 2, 2007) regarding the effects of cocoa and chocolate consumption on human health.",
+  "modified": true,
+  "original_char_count": 770,
+  "sanitized_char_count": 628,
+  "deleted_char_count": 142,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 708,
+      "boundary_end": 770,
+      "context": "Chocolate, lifestyle, and health. Interest in the biological activities of cocoa polyphenols is increasing steadily. In fact, the high polyphenol content of cocoa, coupled with its widespread presence in many food items, render this food of particular interest from the nutritional and \"pharmacological\" viewpoints. This paper summarizes the new findings and developments regarding the effects of cocoa and chocolate consumption on human health as presented at the International Conference \"Chocolate, Lifestyle, and Health\" (Milan, Italy, March 2, 2007) regarding the effects of cocoa and chocolate consumption on human health. When food products are consumed, they may result in pharmacological treatment.",
+      "target": "Polycyclic aromatic hydrocarbons are related to food products.",
+      "loss_target": 2.4062557220458984,
+      "loss_target_given_context": 3.0674383640289307,
+      "delta_loss": -0.6611826419830322,
+      "gain_ratio": -0.2747765484463419,
+      "score": 0.2747765484463419,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 629,
+      "boundary_end": 707,
+      "context": "Chocolate, lifestyle, and health. Interest in the biological activities of cocoa polyphenols is increasing steadily. In fact, the high polyphenol content of cocoa, coupled with its widespread presence in many food items, render this food of particular interest from the nutritional and \"pharmacological\" viewpoints. This paper summarizes the new findings and developments regarding the effects of cocoa and chocolate consumption on human health as presented at the International Conference \"Chocolate, Lifestyle, and Health\" (Milan, Italy, March 2, 2007) regarding the effects of cocoa and chocolate consumption on human health.",
+      "target": "When food products are consumed, they may result in pharmacological treatment.",
+      "loss_target": 4.167245864868164,
+      "loss_target_given_context": 4.198073387145996,
+      "delta_loss": -0.03082752227783203,
+      "gain_ratio": -0.007397577027485345,
+      "score": 0.007397577027485345,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 316,
+      "boundary_end": 628,
+      "context": "Chocolate, lifestyle, and health. Interest in the biological activities of cocoa polyphenols is increasing steadily. In fact, the high polyphenol content of cocoa, coupled with its widespread presence in many food items, render this food of particular interest from the nutritional and \"pharmacological\" viewpoints.",
+      "target": "This paper summarizes the new findings and developments regarding the effects of cocoa and chocolate consumption on human health as presented at the International Conference \"Chocolate, Lifestyle, and Health\" (Milan, Italy, March 2, 2007) regarding the effects of cocoa and chocolate consumption on human health.",
+      "loss_target": 1.951133131980896,
+      "loss_target_given_context": 1.6748687028884888,
+      "delta_loss": 0.2762644290924072,
+      "gain_ratio": 0.141591788158468,
+      "score": -0.141591788158468,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 708,
+      "target": "Polycyclic aromatic hydrocarbons are related to food products.",
+      "score": 0.2747765484463419,
+      "deleted_suffix": "Polycyclic aromatic hydrocarbons are related to food products.",
+      "deleted_char_count": 62
+    },
+    {
+      "step": 2,
+      "boundary_start": 629,
+      "target": "When food products are consumed, they may result in pharmacological treatment.",
+      "score": 0.007397577027485345,
+      "deleted_suffix": "When food products are consumed, they may result in pharmacological treatment.",
+      "deleted_char_count": 78
+    }
+  ],
+  "deletion_step_count": 2,
+  "stop_reason": "score_below_threshold"
+}

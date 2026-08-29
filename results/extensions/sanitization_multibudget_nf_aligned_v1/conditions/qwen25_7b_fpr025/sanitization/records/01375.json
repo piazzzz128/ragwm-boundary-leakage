@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2747",
+  "source_doc_id": "MED-2747",
+  "title": "Attribution of Foodborne Illnesses, Hospitalizations, and Deaths to Food Commodities by using Outbreak Data, United States, 1998–2008",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Attribution of Foodborne Illnesses, Hospitalizations, and Deaths to Food Commodities by using Outbreak Data, United States, 1998–2008\nEach year, >9 million foodborne illnesses are estimated to be caused by major pathogens acquired in the United States. Preventing these illnesses is challenging because resources are limited and linking individual illnesses to a particular food is rarely possible except during an outbreak. We developed a method of attributing illnesses to food commodities that uses data from outbreaks associated with both simple and complex foods. Using data from outbreak-associated illnesses for 1998–2008, we estimated annual US foodborne illnesses, hospitalizations, and deaths attributable to each of 17 food commodities. We attributed 46% of illnesses to produce and found that more deaths were attributed to poultry than to any other commodity. To the extent that these estimates reflect the commodities causing all foodborne illness, they indicate that efforts are particularly needed to prevent contamination of produce and poultry. Methods to incorporate data from other sources are needed to improve attribution estimates for some commodities and agents.",
+  "sanitized_text": "Attribution of Foodborne Illnesses, Hospitalizations, and Deaths to Food Commodities by using Outbreak Data, United States, 1998–2008\nEach year, >9 million foodborne illnesses are estimated to be caused by major pathogens acquired in the United States. Preventing these illnesses is challenging because resources are limited and linking individual illnesses to a particular food is rarely possible except during an outbreak. We developed a method of attributing illnesses to food commodities that uses data from outbreaks associated with both simple and complex foods. Using data from outbreak-associated illnesses for 1998–2008, we estimated annual US foodborne illnesses, hospitalizations, and deaths attributable to each of 17 food commodities. We attributed 46% of illnesses to produce and found that more deaths were attributed to poultry than to any other commodity. To the extent that these estimates reflect the commodities causing all foodborne illness, they indicate that efforts are particularly needed to prevent contamination of produce and poultry. Methods to incorporate data from other sources are needed to improve attribution estimates for some commodities and agents.",
+  "modified": false,
+  "original_char_count": 1186,
+  "sanitized_char_count": 1186,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1063,
+      "boundary_end": 1186,
+      "context": "Attribution of Foodborne Illnesses, Hospitalizations, and Deaths to Food Commodities by using Outbreak Data, United States, 1998–2008 Each year, >9 million foodborne illnesses are estimated to be caused by major pathogens acquired in the United States. Preventing these illnesses is challenging because resources are limited and linking individual illnesses to a particular food is rarely possible except during an outbreak. We developed a method of attributing illnesses to food commodities that uses data from outbreaks associated with both simple and complex foods. Using data from outbreak-associated illnesses for 1998–2008, we estimated annual US foodborne illnesses, hospitalizations, and deaths attributable to each of 17 food commodities. We attributed 46% of illnesses to produce and found that more deaths were attributed to poultry than to any other commodity. To the extent that these estimates reflect the commodities causing all foodborne illness, they indicate that efforts are particularly needed to prevent contamination of produce and poultry.",
+      "target": "Methods to incorporate data from other sources are needed to improve attribution estimates for some commodities and agents.",
+      "loss_target": 4.125713348388672,
+      "loss_target_given_context": 2.108788251876831,
+      "delta_loss": 2.016925096511841,
+      "gain_ratio": 0.4888669973398821,
+      "score": -0.4888669973398821,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

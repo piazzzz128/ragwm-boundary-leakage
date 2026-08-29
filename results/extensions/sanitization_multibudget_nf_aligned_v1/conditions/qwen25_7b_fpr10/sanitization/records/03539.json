@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-895",
+  "source_doc_id": "MED-895",
+  "title": "Asthma induced by sulphur dioxide, benzoate and tartrazine contained in orange drinks.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Asthma induced by sulphur dioxide, benzoate and tartrazine contained in orange drinks.\nOf 272 patients with asthma, thirty (11%) gave a history of exacerbations occurring after ingestion, solutions of orange orange drinks. Fourteen of these were given provocation tests by drinking, on separate occasions of sulphur dioxide, sodium benzoate and tartrazine, which are present in all orange drinks. Eight reacted to sulphur dioxide with a fall in FEV1, four to sodium benzoate and one to tartrazine, and four did not react to any of these agents. Three of the benzoate patients were also sensitive to sulphur dioxide. The sulphur dioxide sensitive patients were predominantly young, with extrinsic asthma. The benzoate sensitive patients were predominantly middle-aged and the proportion with intrinsic asthma was higher. Prior inhalation of sodium cromoglycate by four patients inhibited the reaction to these substances. Sulphur dioxide has not previously been reported to cause exacerbations of asthma when ingested as a food preservative. It is used as a preservative in a wide range of acidic beverages and foods, and should be considered as possibly causal in patients suffering from apparently cryptogenic asthma, and asthma seemingly due to food allergy.",
+  "sanitized_text": "Asthma induced by sulphur dioxide, benzoate and tartrazine contained in orange drinks.\nOf 272 patients with asthma, thirty (11%) gave a history of exacerbations occurring after ingestion, solutions of orange orange drinks. Fourteen of these were given provocation tests by drinking, on separate occasions of sulphur dioxide, sodium benzoate and tartrazine, which are present in all orange drinks. Eight reacted to sulphur dioxide with a fall in FEV1, four to sodium benzoate and one to tartrazine, and four did not react to any of these agents. Three of the benzoate patients were also sensitive to sulphur dioxide. The sulphur dioxide sensitive patients were predominantly young, with extrinsic asthma. The benzoate sensitive patients were predominantly middle-aged and the proportion with intrinsic asthma was higher. Prior inhalation of sodium cromoglycate by four patients inhibited the reaction to these substances. Sulphur dioxide has not previously been reported to cause exacerbations of asthma when ingested as a food preservative. It is used as a preservative in a wide range of acidic beverages and foods, and should be considered as possibly causal in patients suffering from apparently cryptogenic asthma, and asthma seemingly due to food allergy.",
+  "modified": false,
+  "original_char_count": 1260,
+  "sanitized_char_count": 1260,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1041,
+      "boundary_end": 1260,
+      "context": "Asthma induced by sulphur dioxide, benzoate and tartrazine contained in orange drinks. Of 272 patients with asthma, thirty (11%) gave a history of exacerbations occurring after ingestion, solutions of orange orange drinks. Fourteen of these were given provocation tests by drinking, on separate occasions of sulphur dioxide, sodium benzoate and tartrazine, which are present in all orange drinks. Eight reacted to sulphur dioxide with a fall in FEV1, four to sodium benzoate and one to tartrazine, and four did not react to any of these agents. Three of the benzoate patients were also sensitive to sulphur dioxide. The sulphur dioxide sensitive patients were predominantly young, with extrinsic asthma. The benzoate sensitive patients were predominantly middle-aged and the proportion with intrinsic asthma was higher. Prior inhalation of sodium cromoglycate by four patients inhibited the reaction to these substances. Sulphur dioxide has not previously been reported to cause exacerbations of asthma when ingested as a food preservative.",
+      "target": "It is used as a preservative in a wide range of acidic beverages and foods, and should be considered as possibly causal in patients suffering from apparently cryptogenic asthma, and asthma seemingly due to food allergy.",
+      "loss_target": 3.3149611949920654,
+      "loss_target_given_context": 2.555835247039795,
+      "delta_loss": 0.7591259479522705,
+      "gain_ratio": 0.22899995001422258,
+      "score": -0.22899995001422258,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

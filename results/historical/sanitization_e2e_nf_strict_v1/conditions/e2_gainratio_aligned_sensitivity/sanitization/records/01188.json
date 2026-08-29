@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2444",
+  "source_doc_id": "MED-2444",
+  "title": "Side-effect profile of cyclosporin A in patients treated for psoriasis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Side-effect profile of cyclosporin A in patients treated for psoriasis.\nThis is a review of the side-effects of cyclosporin A (CyA) in patients with severe psoriasis; renal dysfunction and hypertension are discussed elsewhere. In particular, paraesthesia, hypertrichosis, gingival hyperplasia and gastrointestinal disorders may occur, but are generally transient, mild-to-moderate in severity and only rarely require discontinuation of CyA. Infections are not a problem. As expected with an immunosuppressive drug, there is the possible risk of tumour development, particularly squamous cell carcinomas. However, these skin malignancies developed almost exclusively in patients previously treated with PUVA and/or methotrexate. The few lymphoproliferative disorders regressed spontaneously on discontinuation of the drug. Whether the isolated cases of solid tumours were CyA-related is not known. Apart from a raised serum creatinine, an important indicator of renal dysfunction, the laboratory abnormalities included hypomagnesaemia, hyperkalaemia, increased uric acid, changes in liver function tests, and fluctuations in the serum cholesterol and triglyceride levels. Although most of these changes were not clinically relevant, laboratory monitoring of patients with psoriasis treated with CyA is essential.",
+  "sanitized_text": "Side-effect profile of cyclosporin A in patients treated for psoriasis.\nThis is a review of the side-effects of cyclosporin A (CyA) in patients with severe psoriasis; renal dysfunction and hypertension are discussed elsewhere. In particular, paraesthesia, hypertrichosis, gingival hyperplasia and gastrointestinal disorders may occur, but are generally transient, mild-to-moderate in severity and only rarely require discontinuation of CyA. Infections are not a problem. As expected with an immunosuppressive drug, there is the possible risk of tumour development, particularly squamous cell carcinomas. However, these skin malignancies developed almost exclusively in patients previously treated with PUVA and/or methotrexate. The few lymphoproliferative disorders regressed spontaneously on discontinuation of the drug. Whether the isolated cases of solid tumours were CyA-related is not known. Apart from a raised serum creatinine, an important indicator of renal dysfunction, the laboratory abnormalities included hypomagnesaemia, hyperkalaemia, increased uric acid, changes in liver function tests, and fluctuations in the serum cholesterol and triglyceride levels. Although most of these changes were not clinically relevant, laboratory monitoring of patients with psoriasis treated with CyA is essential.",
+  "modified": false,
+  "original_char_count": 1311,
+  "sanitized_char_count": 1311,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1171,
+      "boundary_end": 1311,
+      "context": "Side-effect profile of cyclosporin A in patients treated for psoriasis. This is a review of the side-effects of cyclosporin A (CyA) in patients with severe psoriasis; renal dysfunction and hypertension are discussed elsewhere. In particular, paraesthesia, hypertrichosis, gingival hyperplasia and gastrointestinal disorders may occur, but are generally transient, mild-to-moderate in severity and only rarely require discontinuation of CyA. Infections are not a problem. As expected with an immunosuppressive drug, there is the possible risk of tumour development, particularly squamous cell carcinomas. However, these skin malignancies developed almost exclusively in patients previously treated with PUVA and/or methotrexate. The few lymphoproliferative disorders regressed spontaneously on discontinuation of the drug. Whether the isolated cases of solid tumours were CyA-related is not known. Apart from a raised serum creatinine, an important indicator of renal dysfunction, the laboratory abnormalities included hypomagnesaemia, hyperkalaemia, increased uric acid, changes in liver function tests, and fluctuations in the serum cholesterol and triglyceride levels.",
+      "target": "Although most of these changes were not clinically relevant, laboratory monitoring of patients with psoriasis treated with CyA is essential.",
+      "loss_target": 3.2648231983184814,
+      "loss_target_given_context": 1.433345913887024,
+      "delta_loss": 1.8314772844314575,
+      "gain_ratio": 0.5609728837306547,
+      "score": -0.5609728837306547,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

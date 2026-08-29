@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3176",
+  "source_doc_id": "MED-3176",
+  "title": "Is dementia reversible in patients with neurocysticercosis?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Is dementia reversible in patients with neurocysticercosis?\nMethods: Ninety consecutive patients with untreated NCC underwent a cognitive assessment (Mini-mental State Examination, Neurobehavioral Cognitive Status Examination, and IQCODE) and were classified as having or not having dementia according to DSM-IV criteria. Imaging and cerebrospinal fluid examination data were recorded. The cognitive measures were repeated six months after treatment with albendazole and steroids. Results: At the initial evaluation 15.5% (n = 14) of the patients were classified as having dementia. Dementia was associated with older age, lower education level, increased number of parasitic lesions in the brain (mostly in the frontal, temporal, and parietal lobes). After six months, 21.5% of the patients from the dementia group continued to have a full dementia disorder and 78.5% no longer fulfilled the DSM-IV criteria for dementia, although some of these patients still showed mild cognitive decline. Conclusions: The results of this study suggest that dementia occurs frequently in patients with untreated NCC, and it is reversible in most cases.",
+  "sanitized_text": "Is dementia reversible in patients with neurocysticercosis?\nMethods: Ninety consecutive patients with untreated NCC underwent a cognitive assessment (Mini-mental State Examination, Neurobehavioral Cognitive Status Examination, and IQCODE) and were classified as having or not having dementia according to DSM-IV criteria. Imaging and cerebrospinal fluid examination data were recorded. The cognitive measures were repeated six months after treatment with albendazole and steroids. Results: At the initial evaluation 15.5% (n = 14) of the patients were classified as having dementia. Dementia was associated with older age, lower education level, increased number of parasitic lesions in the brain (mostly in the frontal, temporal, and parietal lobes). After six months, 21.5% of the patients from the dementia group continued to have a full dementia disorder and 78.5% no longer fulfilled the DSM-IV criteria for dementia, although some of these patients still showed mild cognitive decline. Conclusions: The results of this study suggest that dementia occurs frequently in patients with untreated NCC, and it is reversible in most cases.",
+  "modified": false,
+  "original_char_count": 1138,
+  "sanitized_char_count": 1138,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 992,
+      "boundary_end": 1138,
+      "context": "Is dementia reversible in patients with neurocysticercosis? Methods: Ninety consecutive patients with untreated NCC underwent a cognitive assessment (Mini-mental State Examination, Neurobehavioral Cognitive Status Examination, and IQCODE) and were classified as having or not having dementia according to DSM-IV criteria. Imaging and cerebrospinal fluid examination data were recorded. The cognitive measures were repeated six months after treatment with albendazole and steroids. Results: At the initial evaluation 15.5% (n = 14) of the patients were classified as having dementia. Dementia was associated with older age, lower education level, increased number of parasitic lesions in the brain (mostly in the frontal, temporal, and parietal lobes). After six months, 21.5% of the patients from the dementia group continued to have a full dementia disorder and 78.5% no longer fulfilled the DSM-IV criteria for dementia, although some of these patients still showed mild cognitive decline.",
+      "target": "Conclusions: The results of this study suggest that dementia occurs frequently in patients with untreated NCC, and it is reversible in most cases.",
+      "loss_target": 2.735405445098877,
+      "loss_target_given_context": 1.1384751796722412,
+      "delta_loss": 1.5969302654266357,
+      "gain_ratio": 0.5838002071275804,
+      "score": -0.5838002071275804,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

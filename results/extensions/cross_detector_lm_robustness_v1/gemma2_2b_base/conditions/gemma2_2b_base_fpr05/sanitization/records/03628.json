@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-994",
+  "source_doc_id": "MED-994",
+  "title": "Preventing Alzheimer’s disease-related gray matter atrophy by B-vitamin treatment",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Preventing Alzheimer’s disease-related gray matter atrophy by B-vitamin treatment\nIs it possible to prevent atrophy of key brain regions related to cognitive decline and Alzheimer’s disease (AD)? One approach is to modify nongenetic risk factors, for instance by lowering elevated plasma homocysteine using B vitamins. In an initial, randomized controlled study on elderly subjects with increased dementia risk (mild cognitive impairment according to 2004 Petersen criteria), we showed that high-dose B-vitamin treatment (folic acid 0.8 mg, vitamin B6 20 mg, vitamin B12 0.5 mg) slowed shrinkage of the whole brain volume over 2 y. Here, we go further by demonstrating that B-vitamin treatment reduces, by as much as seven fold, the cerebral atrophy in those gray matter (GM) regions specifically vulnerable to the AD process, including the medial temporal lobe. In the placebo group, higher homocysteine levels at baseline are associated with faster GM atrophy, but this deleterious effect is largely prevented by B-vitamin treatment. We additionally show that the beneficial effect of B vitamins is confined to participants with high homocysteine (above the median, 11 µmol/L) and that, in these participants, a causal Bayesian network analysis indicates the following chain of events: B vitamins lower homocysteine, which directly leads to a decrease in GM atrophy, thereby slowing cognitive decline. Our results show that B-vitamin supplementation can slow the atrophy of specific brain regions that are a key component of the AD process and that are associated with cognitive decline. Further B-vitamin supplementation trials focusing on elderly subjets with high homocysteine levels are warranted to see if progression to dementia can be prevented.",
+  "sanitized_text": "Preventing Alzheimer’s disease-related gray matter atrophy by B-vitamin treatment\nIs it possible to prevent atrophy of key brain regions related to cognitive decline and Alzheimer’s disease (AD)? One approach is to modify nongenetic risk factors, for instance by lowering elevated plasma homocysteine using B vitamins. In an initial, randomized controlled study on elderly subjects with increased dementia risk (mild cognitive impairment according to 2004 Petersen criteria), we showed that high-dose B-vitamin treatment (folic acid 0.8 mg, vitamin B6 20 mg, vitamin B12 0.5 mg) slowed shrinkage of the whole brain volume over 2 y. Here, we go further by demonstrating that B-vitamin treatment reduces, by as much as seven fold, the cerebral atrophy in those gray matter (GM) regions specifically vulnerable to the AD process, including the medial temporal lobe. In the placebo group, higher homocysteine levels at baseline are associated with faster GM atrophy, but this deleterious effect is largely prevented by B-vitamin treatment. We additionally show that the beneficial effect of B vitamins is confined to participants with high homocysteine (above the median, 11 µmol/L) and that, in these participants, a causal Bayesian network analysis indicates the following chain of events: B vitamins lower homocysteine, which directly leads to a decrease in GM atrophy, thereby slowing cognitive decline. Our results show that B-vitamin supplementation can slow the atrophy of specific brain regions that are a key component of the AD process and that are associated with cognitive decline. Further B-vitamin supplementation trials focusing on elderly subjets with high homocysteine levels are warranted to see if progression to dementia can be prevented.",
+  "modified": false,
+  "original_char_count": 1754,
+  "sanitized_char_count": 1754,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1590,
+      "boundary_end": 1754,
+      "context": "dementia risk (mild cognitive impairment according to 2004 Petersen criteria), we showed that high-dose B-vitamin treatment (folic acid 0.8 mg, vitamin B6 20 mg, vitamin B12 0.5 mg) slowed shrinkage of the whole brain volume over 2 y. Here, we go further by demonstrating that B-vitamin treatment reduces, by as much as seven fold, the cerebral atrophy in those gray matter (GM) regions specifically vulnerable to the AD process, including the medial temporal lobe. In the placebo group, higher homocysteine levels at baseline are associated with faster GM atrophy, but this deleterious effect is largely prevented by B-vitamin treatment. We additionally show that the beneficial effect of B vitamins is confined to participants with high homocysteine (above the median, 11 µmol/L) and that, in these participants, a causal Bayesian network analysis indicates the following chain of events: B vitamins lower homocysteine, which directly leads to a decrease in GM atrophy, thereby slowing cognitive decline. Our results show that B-vitamin supplementation can slow the atrophy of specific brain regions that are a key component of the AD process and that are associated with cognitive decline.",
+      "target": "Further B-vitamin supplementation trials focusing on elderly subjets with high homocysteine levels are warranted to see if progression to dementia can be prevented.",
+      "loss_target": 9.318053245544434,
+      "loss_target_given_context": 3.2533280849456787,
+      "delta_loss": 6.064725160598755,
+      "gain_ratio": 0.6508575343780841,
+      "score": -0.6508575343780841,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

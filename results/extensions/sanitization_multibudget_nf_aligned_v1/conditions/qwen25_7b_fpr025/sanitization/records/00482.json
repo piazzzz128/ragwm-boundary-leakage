@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1585",
+  "source_doc_id": "MED-1585",
+  "title": "Effects of twin gestation on maternal morbidity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of twin gestation on maternal morbidity.\nAs the incidence of twin gestation increases, it is important to consider the maternal risks associated with carrying multiples. Compared with singleton gestation, there are increased risks to the mother during the antepartum, intrapartum, and postpartum periods. Certain pregnancy complications are more likely to occur during a twin gestation, including preeclampsia and other hypertensive disorders, antepartum hospitalization for preterm labor or abnormal bleeding, nutritional deficiencies, cesarean delivery, and postpartum hemorrhage. Women carrying twins may benefit from early education regarding these issues, close maternal monitoring as well as physical therapy sessions, and nutrition counseling during their pregnancies. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Effects of twin gestation on maternal morbidity.\nAs the incidence of twin gestation increases, it is important to consider the maternal risks associated with carrying multiples. Compared with singleton gestation, there are increased risks to the mother during the antepartum, intrapartum, and postpartum periods. Certain pregnancy complications are more likely to occur during a twin gestation, including preeclampsia and other hypertensive disorders, antepartum hospitalization for preterm labor or abnormal bleeding, nutritional deficiencies, cesarean delivery, and postpartum hemorrhage. Women carrying twins may benefit from early education regarding these issues, close maternal monitoring as well as physical therapy sessions, and nutrition counseling during their pregnancies. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 835,
+  "sanitized_char_count": 835,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 784,
+      "boundary_end": 814,
+      "context": "Effects of twin gestation on maternal morbidity. As the incidence of twin gestation increases, it is important to consider the maternal risks associated with carrying multiples. Compared with singleton gestation, there are increased risks to the mother during the antepartum, intrapartum, and postpartum periods. Certain pregnancy complications are more likely to occur during a twin gestation, including preeclampsia and other hypertensive disorders, antepartum hospitalization for preterm labor or abnormal bleeding, nutritional deficiencies, cesarean delivery, and postpartum hemorrhage. Women carrying twins may benefit from early education regarding these issues, close maternal monitoring as well as physical therapy sessions, and nutrition counseling during their pregnancies.",
+      "target": "Copyright © 2012 Elsevier Inc.",
+      "loss_target": 1.084797978401184,
+      "loss_target_given_context": 0.36359310150146484,
+      "delta_loss": 0.7212048768997192,
+      "gain_ratio": 0.6648287434704275,
+      "score": -0.6648287434704275,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

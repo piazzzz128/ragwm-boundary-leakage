@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1464",
+  "source_doc_id": "MED-1464",
+  "title": "Fasting plasma free fatty acids and risk of type 2 diabetes: the atherosclerosis risk in communities study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Fasting plasma free fatty acids and risk of type 2 diabetes: the atherosclerosis risk in communities study.\nOBJECTIVE: To evaluate whether plasma levels of free fatty acids (FFAs) are independently associated with incidence of type 2 diabetes. RESEARCH DESIGN AND METHODS: A case-cohort design was used to randomly select 580 incident cases of diabetes and 566 noncases from 10,275 African-American and white men and women in the Atherosclerosis Risk in Communities study, aged 45-64 years and without prevalent diabetes at the baseline exam. Incident diabetes was ascertained at three exams over 9 years of follow-up. FFA levels were measured in plasma samples collected at the baseline exam. RESULTS: At baseline, FFA level was inversely associated with height and positively associated with female sex, BMI, waist circumference, waist-to-hip ratio, heart rate, plasma triglycerides, and an inflammation score quantifying levels of six systemic inflammation markers. Relative risks for incident diabetes (fourth vs. first quartile of FFAs) were increased in a basic model adjusted for age, sex, race, and center (hazard ratio 1.68, 95% CI 1.20-2.34) and in a model further adjusted for baseline fasting glucose, insulin, BMI, waist circumference, triglycerides, and the inflammation score (1.63, 1.04-2.57). Relative risks associated with a greater FFA level were lowest among those of normal weight and highest among the obese, but a formal test of interaction between FFAs and BMI was not statistically significant. CONCLUSIONS: Individuals with higher fasting levels of plasma FFAs were at modestly higher risk of type 2 diabetes in this cohort of middle-aged adults.",
+  "sanitized_text": "Fasting plasma free fatty acids and risk of type 2 diabetes: the atherosclerosis risk in communities study.\nOBJECTIVE: To evaluate whether plasma levels of free fatty acids (FFAs) are independently associated with incidence of type 2 diabetes. RESEARCH DESIGN AND METHODS: A case-cohort design was used to randomly select 580 incident cases of diabetes and 566 noncases from 10,275 African-American and white men and women in the Atherosclerosis Risk in Communities study, aged 45-64 years and without prevalent diabetes at the baseline exam. Incident diabetes was ascertained at three exams over 9 years of follow-up. FFA levels were measured in plasma samples collected at the baseline exam. RESULTS: At baseline, FFA level was inversely associated with height and positively associated with female sex, BMI, waist circumference, waist-to-hip ratio, heart rate, plasma triglycerides, and an inflammation score quantifying levels of six systemic inflammation markers. Relative risks for incident diabetes (fourth vs. first quartile of FFAs) were increased in a basic model adjusted for age, sex, race, and center (hazard ratio 1.68, 95% CI 1.20-2.34) and in a model further adjusted for baseline fasting glucose, insulin, BMI, waist circumference, triglycerides, and the inflammation score (1.63, 1.04-2.57). Relative risks associated with a greater FFA level were lowest among those of normal weight and highest among the obese, but a formal test of interaction between FFAs and BMI was not statistically significant. CONCLUSIONS: Individuals with higher fasting levels of plasma FFAs were at modestly higher risk of type 2 diabetes in this cohort of middle-aged adults.",
+  "modified": false,
+  "original_char_count": 1672,
+  "sanitized_char_count": 1672,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1520,
+      "boundary_end": 1672,
+      "context": "580 incident cases of diabetes and 566 noncases from 10,275 African-American and white men and women in the Atherosclerosis Risk in Communities study, aged 45-64 years and without prevalent diabetes at the baseline exam. Incident diabetes was ascertained at three exams over 9 years of follow-up. FFA levels were measured in plasma samples collected at the baseline exam. RESULTS: At baseline, FFA level was inversely associated with height and positively associated with female sex, BMI, waist circumference, waist-to-hip ratio, heart rate, plasma triglycerides, and an inflammation score quantifying levels of six systemic inflammation markers. Relative risks for incident diabetes (fourth vs. first quartile of FFAs) were increased in a basic model adjusted for age, sex, race, and center (hazard ratio 1.68, 95% CI 1.20-2.34) and in a model further adjusted for baseline fasting glucose, insulin, BMI, waist circumference, triglycerides, and the inflammation score (1.63, 1.04-2.57). Relative risks associated with a greater FFA level were lowest among those of normal weight and highest among the obese, but a formal test of interaction between FFAs and BMI was not statistically significant.",
+      "target": "CONCLUSIONS: Individuals with higher fasting levels of plasma FFAs were at modestly higher risk of type 2 diabetes in this cohort of middle-aged adults.",
+      "loss_target": 8.773785591125488,
+      "loss_target_given_context": 4.1116461753845215,
+      "delta_loss": 4.662139415740967,
+      "gain_ratio": 0.5313714778323999,
+      "score": -0.5313714778323999,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

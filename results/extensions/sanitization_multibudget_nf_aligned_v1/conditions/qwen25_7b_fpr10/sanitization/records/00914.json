@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2112",
+  "source_doc_id": "MED-2112",
+  "title": "How evidence-based medicine biases physicians against nutrition.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "How evidence-based medicine biases physicians against nutrition.\nMedical students in the United States are taught little about nutrition and dietetics. Worse yet, their training biases them against the studies that show the power of dietary approaches to managing disease. The current approach to evidence-based medicine encourages physicians to ignore any information that does not come from a double-blind, randomized controlled trial. Yet human beings cannot be blinded to a dietary intervention. As a result, physicians are biased toward drug treatments and against dietary interventions for the management of chronic disease. Copyright © 2013 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "How evidence-based medicine biases physicians against nutrition.\nMedical students in the United States are taught little about nutrition and dietetics. Worse yet, their training biases them against the studies that show the power of dietary approaches to managing disease. The current approach to evidence-based medicine encourages physicians to ignore any information that does not come from a double-blind, randomized controlled trial. Yet human beings cannot be blinded to a dietary intervention. As a result, physicians are biased toward drug treatments and against dietary interventions for the management of chronic disease. Copyright © 2013 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 682,
+  "sanitized_char_count": 682,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 631,
+      "boundary_end": 661,
+      "context": "How evidence-based medicine biases physicians against nutrition. Medical students in the United States are taught little about nutrition and dietetics. Worse yet, their training biases them against the studies that show the power of dietary approaches to managing disease. The current approach to evidence-based medicine encourages physicians to ignore any information that does not come from a double-blind, randomized controlled trial. Yet human beings cannot be blinded to a dietary intervention. As a result, physicians are biased toward drug treatments and against dietary interventions for the management of chronic disease.",
+      "target": "Copyright © 2013 Elsevier Ltd.",
+      "loss_target": 1.2036986351013184,
+      "loss_target_given_context": 0.8042810559272766,
+      "delta_loss": 0.39941757917404175,
+      "gain_ratio": 0.3318252322687246,
+      "score": -0.3318252322687246,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

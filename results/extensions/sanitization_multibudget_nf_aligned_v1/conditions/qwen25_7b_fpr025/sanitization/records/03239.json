@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5182",
+  "source_doc_id": "MED-5182",
+  "title": "Dietary fibre and risk of breast cancer in the UK Women's Cohort Study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary fibre and risk of breast cancer in the UK Women's Cohort Study.\nBACKGROUND: Reports of relationships between dietary fibre intake and breast cancer have been inconsistent. Previous cohort studies have been limited by a narrow range of intakes. METHODS: Women who developed invasive breast cancer, 350 post-menopausally and 257 pre-menopausally, during 240,959 person-years of follow-up in the UK Women's Cohort Study (UKWCS) were studied. This cohort has 35,792 subjects with a wide range of exposure to dietary fibre with intakes of total fibre in the lowest quintile of <20 g/day up to >30 g/day in the top quintile. Fibre and breast cancer relationships were explored using Cox regression modelling adjusted for measurement error. Effects of fibre, adjusting for confounders were examined for pre- and post-menopausal women separately. RESULTS: In pre-menopausal, but not post-menopausal women a statistically significant inverse relationship was found between total fibre intake and risk of breast cancer (P for trend = 0.01). The top quintile of fibre intake was associated with a hazard ratio of 0.48 [95% confidence interval (CI) 0.24-0.96] compared with the lowest quintile. Pre-menopausally, fibre from cereals was inversely associated with risk of breast cancer (P for trend = 0.05) and fibre from fruit had a borderline inverse relationship (P for trend = 0.09). A further model including dietary folate strengthened the significance of the inverse relationship between total fibre and pre-menopausal breast cancer. CONCLUSIONS: These findings suggest that in pre-menopausal women, total fibre is protective against breast cancer; in particular, fibre from cereals and possibly fruit.",
+  "sanitized_text": "Dietary fibre and risk of breast cancer in the UK Women's Cohort Study.\nBACKGROUND: Reports of relationships between dietary fibre intake and breast cancer have been inconsistent. Previous cohort studies have been limited by a narrow range of intakes. METHODS: Women who developed invasive breast cancer, 350 post-menopausally and 257 pre-menopausally, during 240,959 person-years of follow-up in the UK Women's Cohort Study (UKWCS) were studied. This cohort has 35,792 subjects with a wide range of exposure to dietary fibre with intakes of total fibre in the lowest quintile of <20 g/day up to >30 g/day in the top quintile. Fibre and breast cancer relationships were explored using Cox regression modelling adjusted for measurement error. Effects of fibre, adjusting for confounders were examined for pre- and post-menopausal women separately. RESULTS: In pre-menopausal, but not post-menopausal women a statistically significant inverse relationship was found between total fibre intake and risk of breast cancer (P for trend = 0.01). The top quintile of fibre intake was associated with a hazard ratio of 0.48 [95% confidence interval (CI) 0.24-0.96] compared with the lowest quintile. Pre-menopausally, fibre from cereals was inversely associated with risk of breast cancer (P for trend = 0.05) and fibre from fruit had a borderline inverse relationship (P for trend = 0.09). A further model including dietary folate strengthened the significance of the inverse relationship between total fibre and pre-menopausal breast cancer. CONCLUSIONS: These findings suggest that in pre-menopausal women, total fibre is protective against breast cancer; in particular, fibre from cereals and possibly fruit.",
+  "modified": false,
+  "original_char_count": 1703,
+  "sanitized_char_count": 1703,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1535,
+      "boundary_end": 1703,
+      "context": "pre-menopausally, during 240,959 person-years of follow-up in the UK Women's Cohort Study (UKWCS) were studied. This cohort has 35,792 subjects with a wide range of exposure to dietary fibre with intakes of total fibre in the lowest quintile of <20 g/day up to >30 g/day in the top quintile. Fibre and breast cancer relationships were explored using Cox regression modelling adjusted for measurement error. Effects of fibre, adjusting for confounders were examined for pre- and post-menopausal women separately. RESULTS: In pre-menopausal, but not post-menopausal women a statistically significant inverse relationship was found between total fibre intake and risk of breast cancer (P for trend = 0.01). The top quintile of fibre intake was associated with a hazard ratio of 0.48 [95% confidence interval (CI) 0.24-0.96] compared with the lowest quintile. Pre-menopausally, fibre from cereals was inversely associated with risk of breast cancer (P for trend = 0.05) and fibre from fruit had a borderline inverse relationship (P for trend = 0.09). A further model including dietary folate strengthened the significance of the inverse relationship between total fibre and pre-menopausal breast cancer.",
+      "target": "CONCLUSIONS: These findings suggest that in pre-menopausal women, total fibre is protective against breast cancer; in particular, fibre from cereals and possibly fruit.",
+      "loss_target": 2.263047456741333,
+      "loss_target_given_context": 1.2117328643798828,
+      "delta_loss": 1.0513145923614502,
+      "gain_ratio": 0.46455702430354107,
+      "score": -0.46455702430354107,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

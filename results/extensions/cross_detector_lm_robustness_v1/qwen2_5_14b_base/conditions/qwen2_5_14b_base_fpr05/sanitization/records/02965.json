@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4886",
+  "source_doc_id": "MED-4886",
+  "title": "Clinical events in prostate cancer lifestyle trial: results from two years of follow-up.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Clinical events in prostate cancer lifestyle trial: results from two years of follow-up.\nOBJECTIVES: Previous research has demonstrated that patients with prostate cancer participating in the Prostate Cancer Lifestyle Trial had a reduction in prostate-specific antigen (PSA) levels, inhibition of LNCaP cell growth, and fewer prostate cancer-related clinical events at the end of 1 year compared with controls. The aim of this study was to examine the clinical events in this trial during a 2-year period. METHODS: The Prostate Cancer Lifestyle Trial was a 1-year randomized controlled clinical trial of 93 patients with early-stage prostate cancer (Gleason score <7, PSA 4-10 ng/mL) undergoing active surveillance. The patients in the experimental arm were encouraged to adopt a low-fat, plant-based diet, to exercise and practice stress management, and to attend group support sessions. The control patients received the usual care. RESULTS: By 2 years of follow-up, 13 of 49 (27%) control patients and 2 of 43 (5%) experimental patients had undergone conventional prostate cancer treatment (radical prostatectomy, radiotherapy, or androgen deprivation, P < .05). No differences were found between the groups in other clinical events (eg, cardiac), and no deaths occurred. Three of the treated control patients but none of the treated experimental patients had a PSA level of >or=10 ng/mL, and 1 treated control patient but no treated experimental patients had a PSA velocity of >2 ng/mL/y before treatment. No significant differences were found between the untreated experimental and untreated control patients in PSA change or velocity at the end of 2 years. CONCLUSIONS: Patients with early-stage prostate cancer choosing active surveillance might be able to avoid or delay conventional treatment for at least 2 years by making changes in their diet and lifestyle.",
+  "sanitized_text": "Clinical events in prostate cancer lifestyle trial: results from two years of follow-up.\nOBJECTIVES: Previous research has demonstrated that patients with prostate cancer participating in the Prostate Cancer Lifestyle Trial had a reduction in prostate-specific antigen (PSA) levels, inhibition of LNCaP cell growth, and fewer prostate cancer-related clinical events at the end of 1 year compared with controls. The aim of this study was to examine the clinical events in this trial during a 2-year period. METHODS: The Prostate Cancer Lifestyle Trial was a 1-year randomized controlled clinical trial of 93 patients with early-stage prostate cancer (Gleason score <7, PSA 4-10 ng/mL) undergoing active surveillance. The patients in the experimental arm were encouraged to adopt a low-fat, plant-based diet, to exercise and practice stress management, and to attend group support sessions. The control patients received the usual care. RESULTS: By 2 years of follow-up, 13 of 49 (27%) control patients and 2 of 43 (5%) experimental patients had undergone conventional prostate cancer treatment (radical prostatectomy, radiotherapy, or androgen deprivation, P < .05). No differences were found between the groups in other clinical events (eg, cardiac), and no deaths occurred. Three of the treated control patients but none of the treated experimental patients had a PSA level of >or=10 ng/mL, and 1 treated control patient but no treated experimental patients had a PSA velocity of >2 ng/mL/y before treatment. No significant differences were found between the untreated experimental and untreated control patients in PSA change or velocity at the end of 2 years. CONCLUSIONS: Patients with early-stage prostate cancer choosing active surveillance might be able to avoid or delay conventional treatment for at least 2 years by making changes in their diet and lifestyle.",
+  "modified": false,
+  "original_char_count": 1869,
+  "sanitized_char_count": 1869,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1663,
+      "boundary_end": 1869,
+      "context": "in this trial during a 2-year period. METHODS: The Prostate Cancer Lifestyle Trial was a 1-year randomized controlled clinical trial of 93 patients with early-stage prostate cancer (Gleason score <7, PSA 4-10 ng/mL) undergoing active surveillance. The patients in the experimental arm were encouraged to adopt a low-fat, plant-based diet, to exercise and practice stress management, and to attend group support sessions. The control patients received the usual care. RESULTS: By 2 years of follow-up, 13 of 49 (27%) control patients and 2 of 43 (5%) experimental patients had undergone conventional prostate cancer treatment (radical prostatectomy, radiotherapy, or androgen deprivation, P < .05). No differences were found between the groups in other clinical events (eg, cardiac), and no deaths occurred. Three of the treated control patients but none of the treated experimental patients had a PSA level of >or=10 ng/mL, and 1 treated control patient but no treated experimental patients had a PSA velocity of >2 ng/mL/y before treatment. No significant differences were found between the untreated experimental and untreated control patients in PSA change or velocity at the end of 2 years.",
+      "target": "CONCLUSIONS: Patients with early-stage prostate cancer choosing active surveillance might be able to avoid or delay conventional treatment for at least 2 years by making changes in their diet and lifestyle.",
+      "loss_target": 2.197016716003418,
+      "loss_target_given_context": 0.9913497567176819,
+      "delta_loss": 1.205666959285736,
+      "gain_ratio": 0.5487745953426147,
+      "score": -0.5487745953426147,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

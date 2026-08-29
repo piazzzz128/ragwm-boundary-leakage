@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4801",
+  "source_doc_id": "MED-4801",
+  "title": "Methicillin-resistant Staphylococcus aureus (MRSA) in food production animals.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Methicillin-resistant Staphylococcus aureus (MRSA) in food production animals.\nUntil recently, reports on methicillin-resistant Staphylococcus aureus (MRSA) in food production animals were mainly limited to occasional detections in dairy cattle mastitis. However, since 2005 a MRSA clone, CC398, has been reported colonizing pigs, veal calves and broiler chickens and infecting dairy cows. Many aspects of its prevalence in pigs remain unclear. In other livestock, colonizing capacity and reservoir status still require elucidation. MRSA CC398 has also been detected in meat, but, as for other MRSA, the risk this poses is somewhat unclear. Currently, the most worrying aspect of MRSA CC398 appears to be its capacity to spread to humans. This might complicate MRSA control measures in human healthcare, urging research into risk factors and transmission routes. Although infections with MRSA CC398 are much less reported than carriage, more investigation into its pathogenic potential is required. Moreover, the origin and evolution of this clone remain unknown.",
+  "sanitized_text": "Methicillin-resistant Staphylococcus aureus (MRSA) in food production animals.\nUntil recently, reports on methicillin-resistant Staphylococcus aureus (MRSA) in food production animals were mainly limited to occasional detections in dairy cattle mastitis. However, since 2005 a MRSA clone, CC398, has been reported colonizing pigs, veal calves and broiler chickens and infecting dairy cows. Many aspects of its prevalence in pigs remain unclear. In other livestock, colonizing capacity and reservoir status still require elucidation. MRSA CC398 has also been detected in meat, but, as for other MRSA, the risk this poses is somewhat unclear. Currently, the most worrying aspect of MRSA CC398 appears to be its capacity to spread to humans. This might complicate MRSA control measures in human healthcare, urging research into risk factors and transmission routes. Although infections with MRSA CC398 are much less reported than carriage, more investigation into its pathogenic potential is required. Moreover, the origin and evolution of this clone remain unknown.",
+  "modified": false,
+  "original_char_count": 1063,
+  "sanitized_char_count": 1063,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 999,
+      "boundary_end": 1063,
+      "context": "Methicillin-resistant Staphylococcus aureus (MRSA) in food production animals. Until recently, reports on methicillin-resistant Staphylococcus aureus (MRSA) in food production animals were mainly limited to occasional detections in dairy cattle mastitis. However, since 2005 a MRSA clone, CC398, has been reported colonizing pigs, veal calves and broiler chickens and infecting dairy cows. Many aspects of its prevalence in pigs remain unclear. In other livestock, colonizing capacity and reservoir status still require elucidation. MRSA CC398 has also been detected in meat, but, as for other MRSA, the risk this poses is somewhat unclear. Currently, the most worrying aspect of MRSA CC398 appears to be its capacity to spread to humans. This might complicate MRSA control measures in human healthcare, urging research into risk factors and transmission routes. Although infections with MRSA CC398 are much less reported than carriage, more investigation into its pathogenic potential is required.",
+      "target": "Moreover, the origin and evolution of this clone remain unknown.",
+      "loss_target": 3.3814003467559814,
+      "loss_target_given_context": 1.681853175163269,
+      "delta_loss": 1.6995471715927124,
+      "gain_ratio": 0.5026163711206836,
+      "score": -0.5026163711206836,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

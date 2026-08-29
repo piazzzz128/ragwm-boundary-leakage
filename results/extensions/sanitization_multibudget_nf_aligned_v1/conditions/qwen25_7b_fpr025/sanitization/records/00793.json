@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1979",
+  "source_doc_id": "MED-1979",
+  "title": "From pig to pork: methicillin-resistant Staphylococcus aureus in the pork production chain.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "From pig to pork: methicillin-resistant Staphylococcus aureus in the pork production chain.\nMethicillin-resistant Staphylococcus aureus (MRSA) is a major global public health concern and could be a food safety issue. Recurrent reports have documented that pig herds are an important reservoir for MRSA, specifically the livestock-associated sequence type 398. The high prevalence of MRSA in pig primary production facilities and the frequent detection of MRSA of the same types in pork and pig meat products raise the question of underlying mechanisms behind the introduction and transmission of MRSA along the pork production chain. A comprehensive review of current literature on the worldwide presence of livestock-associated MRSA in various steps of the pork production chain revealed that the slaughter process plays a decisive role in MRSA transmission from farm to fork. Superficial heat treatments such as scalding and flaming during the slaughter process can significantly reduce the burden of MRSA on the carcasses. However, recontamination with MRSA might occur via surface treating machinery, as a result of fecal contamination at evisceration, or via increased human handling during meat processing. By optimizing processes for carcass decontamination and avoiding recontamination by effective cleaning and personal hygiene management, transmission of MRSA from pig to pork can be minimized.",
+  "sanitized_text": "From pig to pork: methicillin-resistant Staphylococcus aureus in the pork production chain.\nMethicillin-resistant Staphylococcus aureus (MRSA) is a major global public health concern and could be a food safety issue. Recurrent reports have documented that pig herds are an important reservoir for MRSA, specifically the livestock-associated sequence type 398. The high prevalence of MRSA in pig primary production facilities and the frequent detection of MRSA of the same types in pork and pig meat products raise the question of underlying mechanisms behind the introduction and transmission of MRSA along the pork production chain. A comprehensive review of current literature on the worldwide presence of livestock-associated MRSA in various steps of the pork production chain revealed that the slaughter process plays a decisive role in MRSA transmission from farm to fork. Superficial heat treatments such as scalding and flaming during the slaughter process can significantly reduce the burden of MRSA on the carcasses. However, recontamination with MRSA might occur via surface treating machinery, as a result of fecal contamination at evisceration, or via increased human handling during meat processing. By optimizing processes for carcass decontamination and avoiding recontamination by effective cleaning and personal hygiene management, transmission of MRSA from pig to pork can be minimized.",
+  "modified": false,
+  "original_char_count": 1404,
+  "sanitized_char_count": 1404,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1213,
+      "boundary_end": 1404,
+      "context": "methicillin-resistant Staphylococcus aureus in the pork production chain. Methicillin-resistant Staphylococcus aureus (MRSA) is a major global public health concern and could be a food safety issue. Recurrent reports have documented that pig herds are an important reservoir for MRSA, specifically the livestock-associated sequence type 398. The high prevalence of MRSA in pig primary production facilities and the frequent detection of MRSA of the same types in pork and pig meat products raise the question of underlying mechanisms behind the introduction and transmission of MRSA along the pork production chain. A comprehensive review of current literature on the worldwide presence of livestock-associated MRSA in various steps of the pork production chain revealed that the slaughter process plays a decisive role in MRSA transmission from farm to fork. Superficial heat treatments such as scalding and flaming during the slaughter process can significantly reduce the burden of MRSA on the carcasses. However, recontamination with MRSA might occur via surface treating machinery, as a result of fecal contamination at evisceration, or via increased human handling during meat processing.",
+      "target": "By optimizing processes for carcass decontamination and avoiding recontamination by effective cleaning and personal hygiene management, transmission of MRSA from pig to pork can be minimized.",
+      "loss_target": 3.5632522106170654,
+      "loss_target_given_context": 1.9715662002563477,
+      "delta_loss": 1.5916860103607178,
+      "gain_ratio": 0.4466947373576674,
+      "score": -0.4466947373576674,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

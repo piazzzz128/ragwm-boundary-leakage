@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4658",
+  "source_doc_id": "MED-4658",
+  "title": "Bioavailability of natural carotenoids in human skin compared to blood.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Bioavailability of natural carotenoids in human skin compared to blood.\nSkin functions and structure are significantly influenced by nutrients. Antioxidants protect the supportive layer of the skin against any damaging irradiation effects and the action of free radicals. A lack of suitable methods means that the pharmacokinetic properties of systemically applied carotenoids transferred into the skin remain poorly understood. In this study, a natural kale extract or placebo oil were given orally to 22 healthy volunteers for 4 weeks. Carotenoid bioaccessibility was evaluated using non-invasive resonance Raman spectroscopy on the palm and forehead skin. For the analysis of the blood serum, the standard HPLC method was used. The blood and skin levels of the carotenoids increased significantly during the study but compared to the blood serum values, increases in skin were delayed and depended on the dermal area as well as on the carotenoid. Lycopene, measured as being low in the extract, increases more in the skin compared to the blood indicating that the natural mixture of the extract stabilizes the antioxidative network in the skin. After supplementation had ended, the carotenoids decreased much faster in the blood than in the skin. The delayed decrease in the skin may indicate a peripheral buffer function of the skin for carotenoids. Copyright © 2010 Elsevier B.V. All rights reserved.",
+  "sanitized_text": "Bioavailability of natural carotenoids in human skin compared to blood.\nSkin functions and structure are significantly influenced by nutrients. Antioxidants protect the supportive layer of the skin against any damaging irradiation effects and the action of free radicals. A lack of suitable methods means that the pharmacokinetic properties of systemically applied carotenoids transferred into the skin remain poorly understood. In this study, a natural kale extract or placebo oil were given orally to 22 healthy volunteers for 4 weeks. Carotenoid bioaccessibility was evaluated using non-invasive resonance Raman spectroscopy on the palm and forehead skin. For the analysis of the blood serum, the standard HPLC method was used. The blood and skin levels of the carotenoids increased significantly during the study but compared to the blood serum values, increases in skin were delayed and depended on the dermal area as well as on the carotenoid. Lycopene, measured as being low in the extract, increases more in the skin compared to the blood indicating that the natural mixture of the extract stabilizes the antioxidative network in the skin. After supplementation had ended, the carotenoids decreased much faster in the blood than in the skin. The delayed decrease in the skin may indicate a peripheral buffer function of the skin for carotenoids. Copyright © 2010 Elsevier B.V. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1405,
+  "sanitized_char_count": 1405,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1354,
+      "boundary_end": 1384,
+      "context": "protect the supportive layer of the skin against any damaging irradiation effects and the action of free radicals. A lack of suitable methods means that the pharmacokinetic properties of systemically applied carotenoids transferred into the skin remain poorly understood. In this study, a natural kale extract or placebo oil were given orally to 22 healthy volunteers for 4 weeks. Carotenoid bioaccessibility was evaluated using non-invasive resonance Raman spectroscopy on the palm and forehead skin. For the analysis of the blood serum, the standard HPLC method was used. The blood and skin levels of the carotenoids increased significantly during the study but compared to the blood serum values, increases in skin were delayed and depended on the dermal area as well as on the carotenoid. Lycopene, measured as being low in the extract, increases more in the skin compared to the blood indicating that the natural mixture of the extract stabilizes the antioxidative network in the skin. After supplementation had ended, the carotenoids decreased much faster in the blood than in the skin. The delayed decrease in the skin may indicate a peripheral buffer function of the skin for carotenoids.",
+      "target": "Copyright © 2010 Elsevier B.V.",
+      "loss_target": 0.9804790019989014,
+      "loss_target_given_context": 0.3978063464164734,
+      "delta_loss": 0.582672655582428,
+      "gain_ratio": 0.5942734667387409,
+      "score": -0.5942734667387409,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

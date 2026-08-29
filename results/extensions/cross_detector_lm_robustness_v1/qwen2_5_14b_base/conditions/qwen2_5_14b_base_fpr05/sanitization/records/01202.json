@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2461",
+  "source_doc_id": "MED-2461",
+  "title": "The association of diet with respiratory symptoms and asthma in schoolchildren in Taipei, Taiwan.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The association of diet with respiratory symptoms and asthma in schoolchildren in Taipei, Taiwan.\nThis study aimed to evaluate the association of diet with respiratory symptoms and asthma in schoolchildren in Taipei, Taiwan. An in-class interview survey elicited experiences of asthma and respiratory symptoms and consumption frequencies of the major food categories in 2290 fifth graders. Respiratory symptoms surveyed included persistent cough, chest tightness, wheezing with cold, wheezing without cold, dyspnea-associated wheezing, and exercise-induced cough or wheezing. Results showed that the consumption of sweetened beverages had the strongest association with respiratory symptoms and was positively associated with six of the seven respiratory symptoms (all p < 0.05). The adjusted odds ratios (aOR) ranged from 1.05 (95% confidence interval (CI = 1.01-1.09) for exercise-induced cough to 1.09 (95% CI = 1.03-1.16) for wheezing without cold. Egg consumption was associated with 5 of the 7 respiratory symptoms. Consumptions of seafood, soy products, and fruits were each negatively associated with one of the seven respiratory symptoms (all p < 0.05). Consumption of seafood was negatively associated with physician-diagnosed asthma and consumptions of sweetened beverages and eggs were positively associated with suspected asthma (p < 0.05). In conclusion, the study suggests that diet is associated with the respiratory symptoms in schoolchildren in Taipei. Consumptions of sweetened beverages and eggs are associated with increased risk of respiratory symptoms and asthma whereas consumptions of soy products and fruits are associated with reduced risk of respiratory symptoms.",
+  "sanitized_text": "The association of diet with respiratory symptoms and asthma in schoolchildren in Taipei, Taiwan.\nThis study aimed to evaluate the association of diet with respiratory symptoms and asthma in schoolchildren in Taipei, Taiwan. An in-class interview survey elicited experiences of asthma and respiratory symptoms and consumption frequencies of the major food categories in 2290 fifth graders. Respiratory symptoms surveyed included persistent cough, chest tightness, wheezing with cold, wheezing without cold, dyspnea-associated wheezing, and exercise-induced cough or wheezing. Results showed that the consumption of sweetened beverages had the strongest association with respiratory symptoms and was positively associated with six of the seven respiratory symptoms (all p < 0.05). The adjusted odds ratios (aOR) ranged from 1.05 (95% confidence interval (CI = 1.01-1.09) for exercise-induced cough to 1.09 (95% CI = 1.03-1.16) for wheezing without cold. Egg consumption was associated with 5 of the 7 respiratory symptoms. Consumptions of seafood, soy products, and fruits were each negatively associated with one of the seven respiratory symptoms (all p < 0.05). Consumption of seafood was negatively associated with physician-diagnosed asthma and consumptions of sweetened beverages and eggs were positively associated with suspected asthma (p < 0.05). In conclusion, the study suggests that diet is associated with the respiratory symptoms in schoolchildren in Taipei. Consumptions of sweetened beverages and eggs are associated with increased risk of respiratory symptoms and asthma whereas consumptions of soy products and fruits are associated with reduced risk of respiratory symptoms.",
+  "modified": false,
+  "original_char_count": 1691,
+  "sanitized_char_count": 1691,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1471,
+      "boundary_end": 1691,
+      "context": "of asthma and respiratory symptoms and consumption frequencies of the major food categories in 2290 fifth graders. Respiratory symptoms surveyed included persistent cough, chest tightness, wheezing with cold, wheezing without cold, dyspnea-associated wheezing, and exercise-induced cough or wheezing. Results showed that the consumption of sweetened beverages had the strongest association with respiratory symptoms and was positively associated with six of the seven respiratory symptoms (all p < 0.05). The adjusted odds ratios (aOR) ranged from 1.05 (95% confidence interval (CI = 1.01-1.09) for exercise-induced cough to 1.09 (95% CI = 1.03-1.16) for wheezing without cold. Egg consumption was associated with 5 of the 7 respiratory symptoms. Consumptions of seafood, soy products, and fruits were each negatively associated with one of the seven respiratory symptoms (all p < 0.05). Consumption of seafood was negatively associated with physician-diagnosed asthma and consumptions of sweetened beverages and eggs were positively associated with suspected asthma (p < 0.05). In conclusion, the study suggests that diet is associated with the respiratory symptoms in schoolchildren in Taipei.",
+      "target": "Consumptions of sweetened beverages and eggs are associated with increased risk of respiratory symptoms and asthma whereas consumptions of soy products and fruits are associated with reduced risk of respiratory symptoms.",
+      "loss_target": 2.468219757080078,
+      "loss_target_given_context": 0.8256085515022278,
+      "delta_loss": 1.6426112055778503,
+      "gain_ratio": 0.6655044393296128,
+      "score": -0.6655044393296128,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

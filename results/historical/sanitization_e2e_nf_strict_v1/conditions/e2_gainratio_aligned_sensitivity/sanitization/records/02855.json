@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4771",
+  "source_doc_id": "MED-4771",
+  "title": "From the Cover: The extremely slow and variable activity of dihydrofolate reductase in human liver and its implications for high folic acid intake",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "From the Cover: The extremely slow and variable activity of dihydrofolate reductase in human liver and its implications for high folic acid intake\nNumerous clinical trials using folic acid for prevention of cardiovascular disease, stroke, cognitive decline, and neural tube defects have been completed or are underway. Yet, all functions of folate are performed by tetrahydrofolate and its one-carbon derivatives. Folic acid is a synthetic oxidized form not significantly found in fresh natural foods; to be used it must be converted to tetrahydrofolate by dihydrofolate reductase (DHFR). Increasing evidence suggests that this process may be slow in humans. Here we show, using a sensitive assay we developed, that the reduction of folic acid by DHFR per gram of human liver (n = 6) obtained from organ donors or directly from surgery is, on average, less than 2% of that in rat liver at physiological pH. Moreover, in contrast to rats, there was almost a 5-fold variation of DHFR activity among the human samples. This limited ability to activate the synthetic vitamer raises issues about clinical trials using high levels of folic acid. The extremely low rate of conversion of folic acid suggests that the benefit of its use in high doses will be limited by saturation of DHFR, especially in individuals possessing lower than average activity. These results are also consistent with the reports of unmetabolized folic acid in plasma and urine.",
+  "sanitized_text": "From the Cover: The extremely slow and variable activity of dihydrofolate reductase in human liver and its implications for high folic acid intake\nNumerous clinical trials using folic acid for prevention of cardiovascular disease, stroke, cognitive decline, and neural tube defects have been completed or are underway. Yet, all functions of folate are performed by tetrahydrofolate and its one-carbon derivatives. Folic acid is a synthetic oxidized form not significantly found in fresh natural foods; to be used it must be converted to tetrahydrofolate by dihydrofolate reductase (DHFR). Increasing evidence suggests that this process may be slow in humans. Here we show, using a sensitive assay we developed, that the reduction of folic acid by DHFR per gram of human liver (n = 6) obtained from organ donors or directly from surgery is, on average, less than 2% of that in rat liver at physiological pH. Moreover, in contrast to rats, there was almost a 5-fold variation of DHFR activity among the human samples. This limited ability to activate the synthetic vitamer raises issues about clinical trials using high levels of folic acid. The extremely low rate of conversion of folic acid suggests that the benefit of its use in high doses will be limited by saturation of DHFR, especially in individuals possessing lower than average activity. These results are also consistent with the reports of unmetabolized folic acid in plasma and urine.",
+  "modified": false,
+  "original_char_count": 1446,
+  "sanitized_char_count": 1446,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1347,
+      "boundary_end": 1446,
+      "context": "Numerous clinical trials using folic acid for prevention of cardiovascular disease, stroke, cognitive decline, and neural tube defects have been completed or are underway. Yet, all functions of folate are performed by tetrahydrofolate and its one-carbon derivatives. Folic acid is a synthetic oxidized form not significantly found in fresh natural foods; to be used it must be converted to tetrahydrofolate by dihydrofolate reductase (DHFR). Increasing evidence suggests that this process may be slow in humans. Here we show, using a sensitive assay we developed, that the reduction of folic acid by DHFR per gram of human liver (n = 6) obtained from organ donors or directly from surgery is, on average, less than 2% of that in rat liver at physiological pH. Moreover, in contrast to rats, there was almost a 5-fold variation of DHFR activity among the human samples. This limited ability to activate the synthetic vitamer raises issues about clinical trials using high levels of folic acid. The extremely low rate of conversion of folic acid suggests that the benefit of its use in high doses will be limited by saturation of DHFR, especially in individuals possessing lower than average activity.",
+      "target": "These results are also consistent with the reports of unmetabolized folic acid in plasma and urine.",
+      "loss_target": 3.0761399269104004,
+      "loss_target_given_context": 1.4697262048721313,
+      "delta_loss": 1.606413722038269,
+      "gain_ratio": 0.5222173763895427,
+      "score": -0.5222173763895427,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

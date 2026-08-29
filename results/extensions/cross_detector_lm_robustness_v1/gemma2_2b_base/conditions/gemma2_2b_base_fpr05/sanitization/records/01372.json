@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2744",
+  "source_doc_id": "MED-2744",
+  "title": "Homicide rates among persons aged 10-24 years - United States, 1981-2010.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Homicide rates among persons aged 10-24 years - United States, 1981-2010.\nHomicide disproportionately affects persons aged 10-24 years in the United States and consistently ranks in the top three leading causes of death in this age group, resulting in approximately 4,800 deaths and an estimated $9 billion in lost productivity and medical costs in 2010. To investigate trends in homicide among persons aged 10-24 years for the period 1981-2010, CDC analyzed National Vital Statistics System data on deaths caused by homicide of persons in this age group and examined trends by sex, age, race/ethnicity, and mechanism of injury. This report describes the results of that analysis, which indicated that homicide rates varied substantially during the study period, with a sharp rise from 1985 to 1993 followed by a decline that has slowed since 1999. During the period 2000-2010, rates declined for all groups, although the decline was significantly slower for males compared with females and for blacks compared with Hispanics and persons of other racial/ethnic groups. By mechanism of injury, the decline for firearm homicides from 2000 to 2010 was significantly slower than for nonfirearm homicides. The homicide rate among persons aged 10-24 years in 2010 was 7.5 per 100,000, the lowest in the 30-year study period. Primary prevention strategies remain critical, particularly among groups at increased risk for homicide.",
+  "sanitized_text": "Homicide rates among persons aged 10-24 years - United States, 1981-2010.\nHomicide disproportionately affects persons aged 10-24 years in the United States and consistently ranks in the top three leading causes of death in this age group, resulting in approximately 4,800 deaths and an estimated $9 billion in lost productivity and medical costs in 2010. To investigate trends in homicide among persons aged 10-24 years for the period 1981-2010, CDC analyzed National Vital Statistics System data on deaths caused by homicide of persons in this age group and examined trends by sex, age, race/ethnicity, and mechanism of injury. This report describes the results of that analysis, which indicated that homicide rates varied substantially during the study period, with a sharp rise from 1985 to 1993 followed by a decline that has slowed since 1999. During the period 2000-2010, rates declined for all groups, although the decline was significantly slower for males compared with females and for blacks compared with Hispanics and persons of other racial/ethnic groups. By mechanism of injury, the decline for firearm homicides from 2000 to 2010 was significantly slower than for nonfirearm homicides. The homicide rate among persons aged 10-24 years in 2010 was 7.5 per 100,000, the lowest in the 30-year study period. Primary prevention strategies remain critical, particularly among groups at increased risk for homicide.",
+  "modified": false,
+  "original_char_count": 1423,
+  "sanitized_char_count": 1423,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1319,
+      "boundary_end": 1423,
+      "context": "10-24 years in the United States and consistently ranks in the top three leading causes of death in this age group, resulting in approximately 4,800 deaths and an estimated $9 billion in lost productivity and medical costs in 2010. To investigate trends in homicide among persons aged 10-24 years for the period 1981-2010, CDC analyzed National Vital Statistics System data on deaths caused by homicide of persons in this age group and examined trends by sex, age, race/ethnicity, and mechanism of injury. This report describes the results of that analysis, which indicated that homicide rates varied substantially during the study period, with a sharp rise from 1985 to 1993 followed by a decline that has slowed since 1999. During the period 2000-2010, rates declined for all groups, although the decline was significantly slower for males compared with females and for blacks compared with Hispanics and persons of other racial/ethnic groups. By mechanism of injury, the decline for firearm homicides from 2000 to 2010 was significantly slower than for nonfirearm homicides. The homicide rate among persons aged 10-24 years in 2010 was 7.5 per 100,000, the lowest in the 30-year study period.",
+      "target": "Primary prevention strategies remain critical, particularly among groups at increased risk for homicide.",
+      "loss_target": 10.643667221069336,
+      "loss_target_given_context": 4.4561662673950195,
+      "delta_loss": 6.187500953674316,
+      "gain_ratio": 0.5813316806284627,
+      "score": -0.5813316806284627,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

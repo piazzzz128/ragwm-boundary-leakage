@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1636",
+  "source_doc_id": "MED-1636",
+  "title": "Coffee consumption and serum lipids: a meta-analysis of randomized controlled clinical trials.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Coffee consumption and serum lipids: a meta-analysis of randomized controlled clinical trials.\nCoffee drinking has been associated with increased serum cholesterol levels in some, but not all, studies. A Medline search of the English-language literature published prior to December 1998, a bibliography review, and consultations with experts were performed to identify 14 published trials of coffee consumption. Information was abstracted independently by two reviewers using a standardized protocol. With a random-effects model, treatment effects were estimated by pooling results from individual trials after weighting the results by the inverse of total variance. A dose-response relation between coffee consumption and both total cholesterol and LDL cholesterol was identified (p < 0.01). Increases in serum lipids were greater in studies of patients with hyperlipidemia and in trials of caffeinated or boiled coffee. Trials using filtered coffee demonstrated very little increase in serum cholesterol. Consumption of unfiltered, but not filtered, coffee increases serum levels of total and LDL cholesterol. Ethanol plays a role in the development of dyslipidemia.",
+  "sanitized_text": "Coffee consumption and serum lipids: a meta-analysis of randomized controlled clinical trials.\nCoffee drinking has been associated with increased serum cholesterol levels in some, but not all, studies. A Medline search of the English-language literature published prior to December 1998, a bibliography review, and consultations with experts were performed to identify 14 published trials of coffee consumption. Information was abstracted independently by two reviewers using a standardized protocol. With a random-effects model, treatment effects were estimated by pooling results from individual trials after weighting the results by the inverse of total variance. A dose-response relation between coffee consumption and both total cholesterol and LDL cholesterol was identified (p < 0.01). Increases in serum lipids were greater in studies of patients with hyperlipidemia and in trials of caffeinated or boiled coffee. Trials using filtered coffee demonstrated very little increase in serum cholesterol. Consumption of unfiltered, but not filtered, coffee increases serum levels of total and LDL cholesterol. Ethanol plays a role in the development of dyslipidemia.",
+  "modified": false,
+  "original_char_count": 1168,
+  "sanitized_char_count": 1168,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1112,
+      "boundary_end": 1168,
+      "context": "Coffee consumption and serum lipids: a meta-analysis of randomized controlled clinical trials. Coffee drinking has been associated with increased serum cholesterol levels in some, but not all, studies. A Medline search of the English-language literature published prior to December 1998, a bibliography review, and consultations with experts were performed to identify 14 published trials of coffee consumption. Information was abstracted independently by two reviewers using a standardized protocol. With a random-effects model, treatment effects were estimated by pooling results from individual trials after weighting the results by the inverse of total variance. A dose-response relation between coffee consumption and both total cholesterol and LDL cholesterol was identified (p < 0.01). Increases in serum lipids were greater in studies of patients with hyperlipidemia and in trials of caffeinated or boiled coffee. Trials using filtered coffee demonstrated very little increase in serum cholesterol. Consumption of unfiltered, but not filtered, coffee increases serum levels of total and LDL cholesterol.",
+      "target": "Ethanol plays a role in the development of dyslipidemia.",
+      "loss_target": 2.1398963928222656,
+      "loss_target_given_context": 1.5816689729690552,
+      "delta_loss": 0.5582274198532104,
+      "gain_ratio": 0.2608665642531299,
+      "score": -0.2608665642531299,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

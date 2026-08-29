@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1223",
+  "source_doc_id": "MED-1223",
+  "title": "Cow milk consumption, insulin-like growth factor-I, and human biology: a life history approach.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cow milk consumption, insulin-like growth factor-I, and human biology: a life history approach.\nOBJECTIVE: To assess the life history consequences of cow milk consumption at different stages in early life (prenatal to adolescence), especially with regard to linear growth and age at menarche and the role of insulin-like growth factor I (IGF-I) in mediating a relationship among milk, growth and development, and long-term biological outcomes. METHODS: United States National Health and Nutrition Examination Survey (NHANES) data from 1999 to 2004 and review of existing literature. RESULTS: The literature tends to support milk's role in enhancing growth early in life (prior to age 5 years), but there is less support for this relationship during middle childhood. Milk has been associated with early menarche and with acceleration of linear growth in adolescence. NHANES data show a positive relationship between milk intake and linear growth in early childhood and adolescence, but not middle childhood, a period of relatively slow growth. IGF-I is a candidate bioactive molecule linking milk consumption to more rapid growth and development, although the mechanism by which it may exert such effects is unknown. CONCLUSIONS: Routine milk consumption is an evolutionarily novel dietary behavior that has the potential to alter human life history parameters, especially vis-à-vis linear growth, which in turn may have negative long-term biological consequences. Copyright © 2011 Wiley Periodicals, Inc.",
+  "sanitized_text": "Cow milk consumption, insulin-like growth factor-I, and human biology: a life history approach.\nOBJECTIVE: To assess the life history consequences of cow milk consumption at different stages in early life (prenatal to adolescence), especially with regard to linear growth and age at menarche and the role of insulin-like growth factor I (IGF-I) in mediating a relationship among milk, growth and development, and long-term biological outcomes. METHODS: United States National Health and Nutrition Examination Survey (NHANES) data from 1999 to 2004 and review of existing literature. RESULTS: The literature tends to support milk's role in enhancing growth early in life (prior to age 5 years), but there is less support for this relationship during middle childhood. Milk has been associated with early menarche and with acceleration of linear growth in adolescence. NHANES data show a positive relationship between milk intake and linear growth in early childhood and adolescence, but not middle childhood, a period of relatively slow growth. IGF-I is a candidate bioactive molecule linking milk consumption to more rapid growth and development, although the mechanism by which it may exert such effects is unknown. CONCLUSIONS: Routine milk consumption is an evolutionarily novel dietary behavior that has the potential to alter human life history parameters, especially vis-à-vis linear growth, which in turn may have negative long-term biological consequences. Copyright © 2011 Wiley Periodicals, Inc.",
+  "modified": false,
+  "original_char_count": 1505,
+  "sanitized_char_count": 1505,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1465,
+      "boundary_end": 1505,
+      "context": "growth and age at menarche and the role of insulin-like growth factor I (IGF-I) in mediating a relationship among milk, growth and development, and long-term biological outcomes. METHODS: United States National Health and Nutrition Examination Survey (NHANES) data from 1999 to 2004 and review of existing literature. RESULTS: The literature tends to support milk's role in enhancing growth early in life (prior to age 5 years), but there is less support for this relationship during middle childhood. Milk has been associated with early menarche and with acceleration of linear growth in adolescence. NHANES data show a positive relationship between milk intake and linear growth in early childhood and adolescence, but not middle childhood, a period of relatively slow growth. IGF-I is a candidate bioactive molecule linking milk consumption to more rapid growth and development, although the mechanism by which it may exert such effects is unknown. CONCLUSIONS: Routine milk consumption is an evolutionarily novel dietary behavior that has the potential to alter human life history parameters, especially vis-à-vis linear growth, which in turn may have negative long-term biological consequences.",
+      "target": "Copyright © 2011 Wiley Periodicals, Inc.",
+      "loss_target": 1.282020092010498,
+      "loss_target_given_context": 0.586368203163147,
+      "delta_loss": 0.6956518888473511,
+      "gain_ratio": 0.5426216743268129,
+      "score": -0.5426216743268129,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

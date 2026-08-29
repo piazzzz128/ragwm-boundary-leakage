@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3675",
+  "source_doc_id": "MED-3675",
+  "title": "A randomized, double-blind, placebo-controlled pilot study of a probiotic in emotional symptoms of chronic fatigue syndrome",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A randomized, double-blind, placebo-controlled pilot study of a probiotic in emotional symptoms of chronic fatigue syndrome\nChronic fatigue syndrome (CFS) is complex illness of unknown etiology. Among the broad range of symptoms, many patients report disturbances in the emotional realm, the most frequent of which is anxiety. Research shows that patients with CFS and other so-called functional somatic disorders have alterations in the intestinal microbial flora. Emerging studies have suggested that pathogenic and non-pathogenic gut bacteria might influence mood-related symptoms and even behavior in animals and humans. In this pilot study, 39 CFS patients were randomized to receive either 24 billion colony forming units of Lactobacillus casei strain Shirota (LcS) or a placebo daily for two months. Patients provided stool samples and completed the Beck Depression and Beck Anxiety Inventories before and after the intervention. We found a significant rise in both Lactobacillus and Bifidobacteria in those taking the LcS, and there was also a significant decrease in anxiety symptoms among those taking the probiotic vs controls (p = 0.01). These results lend further support to the presence of a gut-brain interface, one that may be mediated by microbes that reside or pass through the intestinal tract.",
+  "sanitized_text": "A randomized, double-blind, placebo-controlled pilot study of a probiotic in emotional symptoms of chronic fatigue syndrome\nChronic fatigue syndrome (CFS) is complex illness of unknown etiology. Among the broad range of symptoms, many patients report disturbances in the emotional realm, the most frequent of which is anxiety. Research shows that patients with CFS and other so-called functional somatic disorders have alterations in the intestinal microbial flora. Emerging studies have suggested that pathogenic and non-pathogenic gut bacteria might influence mood-related symptoms and even behavior in animals and humans. In this pilot study, 39 CFS patients were randomized to receive either 24 billion colony forming units of Lactobacillus casei strain Shirota (LcS) or a placebo daily for two months. Patients provided stool samples and completed the Beck Depression and Beck Anxiety Inventories before and after the intervention. We found a significant rise in both Lactobacillus and Bifidobacteria in those taking the LcS, and there was also a significant decrease in anxiety symptoms among those taking the probiotic vs controls (p = 0.01). These results lend further support to the presence of a gut-brain interface, one that may be mediated by microbes that reside or pass through the intestinal tract.",
+  "modified": false,
+  "original_char_count": 1313,
+  "sanitized_char_count": 1313,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1150,
+      "boundary_end": 1313,
+      "context": "A randomized, double-blind, placebo-controlled pilot study of a probiotic in emotional symptoms of chronic fatigue syndrome Chronic fatigue syndrome (CFS) is complex illness of unknown etiology. Among the broad range of symptoms, many patients report disturbances in the emotional realm, the most frequent of which is anxiety. Research shows that patients with CFS and other so-called functional somatic disorders have alterations in the intestinal microbial flora. Emerging studies have suggested that pathogenic and non-pathogenic gut bacteria might influence mood-related symptoms and even behavior in animals and humans. In this pilot study, 39 CFS patients were randomized to receive either 24 billion colony forming units of Lactobacillus casei strain Shirota (LcS) or a placebo daily for two months. Patients provided stool samples and completed the Beck Depression and Beck Anxiety Inventories before and after the intervention. We found a significant rise in both Lactobacillus and Bifidobacteria in those taking the LcS, and there was also a significant decrease in anxiety symptoms among those taking the probiotic vs controls (p = 0.01).",
+      "target": "These results lend further support to the presence of a gut-brain interface, one that may be mediated by microbes that reside or pass through the intestinal tract.",
+      "loss_target": 8.285819053649902,
+      "loss_target_given_context": 3.5665993690490723,
+      "delta_loss": 4.71921968460083,
+      "gain_ratio": 0.569553794747909,
+      "score": -0.569553794747909,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

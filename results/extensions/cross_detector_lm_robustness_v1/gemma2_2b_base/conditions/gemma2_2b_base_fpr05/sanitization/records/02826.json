@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4739",
+  "source_doc_id": "MED-4739",
+  "title": "Nowhere to hide: Chemical toxicants and the unborn child.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Nowhere to hide: Chemical toxicants and the unborn child.\nContemporary reproductive aged women and their offspring are facing an unprecedented onslaught of toxicant exposures from myriad sources in their day-to-day life. Public health recommendations regarding optimal diet and nutrition in pregnancy must incorporate several considerations including safety of available foodstuffs, cultural practices and lifestyle issues. Gestational consumption of contaminated seafood remains a potential source of toxicant exposure, including mercury, for the developing child. Health care professionals responsible for the care of women and their developing children need to become apprised of: a) risks associated with toxicant bioaccumulation in pregnancy; b) ongoing information emerging in the important field of reproductive toxicology; and c) strategies within the clinical setting to facilitate nutritional sufficiency and precautionary avoidance of adverse exposure among young women.",
+  "sanitized_text": "Nowhere to hide: Chemical toxicants and the unborn child.\nContemporary reproductive aged women and their offspring are facing an unprecedented onslaught of toxicant exposures from myriad sources in their day-to-day life. Public health recommendations regarding optimal diet and nutrition in pregnancy must incorporate several considerations including safety of available foodstuffs, cultural practices and lifestyle issues. Gestational consumption of contaminated seafood remains a potential source of toxicant exposure, including mercury, for the developing child. Health care professionals responsible for the care of women and their developing children need to become apprised of: a) risks associated with toxicant bioaccumulation in pregnancy; b) ongoing information emerging in the important field of reproductive toxicology; and c) strategies within the clinical setting to facilitate nutritional sufficiency and precautionary avoidance of adverse exposure among young women.",
+  "modified": false,
+  "original_char_count": 981,
+  "sanitized_char_count": 981,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 566,
+      "boundary_end": 981,
+      "context": "Nowhere to hide: Chemical toxicants and the unborn child. Contemporary reproductive aged women and their offspring are facing an unprecedented onslaught of toxicant exposures from myriad sources in their day-to-day life. Public health recommendations regarding optimal diet and nutrition in pregnancy must incorporate several considerations including safety of available foodstuffs, cultural practices and lifestyle issues. Gestational consumption of contaminated seafood remains a potential source of toxicant exposure, including mercury, for the developing child.",
+      "target": "Health care professionals responsible for the care of women and their developing children need to become apprised of: a) risks associated with toxicant bioaccumulation in pregnancy; b) ongoing information emerging in the important field of reproductive toxicology; and c) strategies within the clinical setting to facilitate nutritional sufficiency and precautionary avoidance of adverse exposure among young women.",
+      "loss_target": 6.968324661254883,
+      "loss_target_given_context": 4.722498416900635,
+      "delta_loss": 2.245826244354248,
+      "gain_ratio": 0.3222907016433145,
+      "score": -0.3222907016433145,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

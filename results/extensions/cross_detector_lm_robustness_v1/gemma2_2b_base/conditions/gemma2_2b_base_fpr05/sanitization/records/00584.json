@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1703",
+  "source_doc_id": "MED-1703",
+  "title": "The Projected Impact of Risk Factor Reduction on Alzheimer's Disease Prevalence",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The Projected Impact of Risk Factor Reduction on Alzheimer's Disease Prevalence\nThere are currently approximately 33.9 million individuals with Alzheimer's disease (AD) worldwide, and prevalence is expected to triple over the next 40 years. The goal of this review was to summarize the evidence regarding seven potentially modifiable AD risk factors: diabetes, mid-life hypertension, mid-life obesity, smoking, depression, low educational attainment and physical inactivity. In addition, we projected the impact of risk factor reduction on AD prevalence by calculating population attributable risks (PARs, the percent of cases attributable to a given factor) and the number of AD cases that could potentially be prevented by 10% and 25% risk factor reductions worldwide and in the US. Together, these factors contributed to up to half of AD cases globally (17.2 million) and in the US (2.9 million). A 10%–25% reduction in all seven risk factors could potentially prevent as many as 1.1–3.0 million cases worldwide and 184,000–492,000 cases in the US.",
+  "sanitized_text": "The Projected Impact of Risk Factor Reduction on Alzheimer's Disease Prevalence\nThere are currently approximately 33.9 million individuals with Alzheimer's disease (AD) worldwide, and prevalence is expected to triple over the next 40 years. The goal of this review was to summarize the evidence regarding seven potentially modifiable AD risk factors: diabetes, mid-life hypertension, mid-life obesity, smoking, depression, low educational attainment and physical inactivity. In addition, we projected the impact of risk factor reduction on AD prevalence by calculating population attributable risks (PARs, the percent of cases attributable to a given factor) and the number of AD cases that could potentially be prevented by 10% and 25% risk factor reductions worldwide and in the US. Together, these factors contributed to up to half of AD cases globally (17.2 million) and in the US (2.9 million). A 10%–25% reduction in all seven risk factors could potentially prevent as many as 1.1–3.0 million cases worldwide and 184,000–492,000 cases in the US.",
+  "modified": false,
+  "original_char_count": 1051,
+  "sanitized_char_count": 1051,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 900,
+      "boundary_end": 1051,
+      "context": "The Projected Impact of Risk Factor Reduction on Alzheimer's Disease Prevalence There are currently approximately 33.9 million individuals with Alzheimer's disease (AD) worldwide, and prevalence is expected to triple over the next 40 years. The goal of this review was to summarize the evidence regarding seven potentially modifiable AD risk factors: diabetes, mid-life hypertension, mid-life obesity, smoking, depression, low educational attainment and physical inactivity. In addition, we projected the impact of risk factor reduction on AD prevalence by calculating population attributable risks (PARs, the percent of cases attributable to a given factor) and the number of AD cases that could potentially be prevented by 10% and 25% risk factor reductions worldwide and in the US. Together, these factors contributed to up to half of AD cases globally (17.2 million) and in the US (2.9 million).",
+      "target": "A 10%–25% reduction in all seven risk factors could potentially prevent as many as 1.1–3.0 million cases worldwide and 184,000–492,000 cases in the US.",
+      "loss_target": 5.8252339363098145,
+      "loss_target_given_context": 1.8372961282730103,
+      "delta_loss": 3.987937808036804,
+      "gain_ratio": 0.6845970224782242,
+      "score": -0.6845970224782242,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

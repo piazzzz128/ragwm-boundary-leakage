@@ -1,0 +1,95 @@
+{
+  "experiment_role": "paired_qwen2_5_scale_sensitivity_aligned_v1",
+  "models": [
+    "Qwen2.5-7B",
+    "Qwen2.5-14B"
+  ],
+  "interpretation_guard": "This is a two-point same-family scale sensitivity comparison, not a scaling law or a universal model-size effect.",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "score_direction": "larger score is more suspicious",
+  "bootstrap": {
+    "resampling_unit": "source document cluster",
+    "paired": true,
+    "requested_replicates": 5000,
+    "seed": 20260609
+  },
+  "inputs": {
+    "paths": {
+      "qwen7_nf": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/aligned_sensitivity/nfcorpus_aligned_scores.json",
+      "qwen14_nf": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/scores/qwen14b_nfcorpus_aligned_scores.json",
+      "qwen7_trec": "/root/autodl-tmp/ragwm_storage/repo/ragwm_src/tools/RAGWM_qwen2_5_14b_cross_detector_v1_20260820/inputs/trec_aligned_qwen_v1_scores.json",
+      "qwen14_trec": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/scores/qwen14b_trec_aligned_scores.json",
+      "qwen14_metrics": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/qwen2_5_14b_base/metrics/qwen14b_boundary_metrics.json"
+    },
+    "sha256": {
+      "qwen7_nf": "e1c7dbc745a83b473883ccf9c0d6a3c43c1bb7a14fa9f0dda1551b08f92dd218",
+      "qwen14_nf": "90bb39f9afd874c2f2b3d819cde1b6f56a15919a392946574c60ef9278b90821",
+      "qwen7_trec": "cc6a22420492cf63ddcaa1be90d2528db907912f905ce2f4425e26a894aed4e2",
+      "qwen14_trec": "f25ee58f287f585490fe258306e8c73000d327207d3db24a5bf65b4341c18691",
+      "qwen14_metrics": "c93282665c867a862b6f73bb63cc232145a9b7f2f8524c445963be49807f8a61"
+    }
+  },
+  "datasets": {
+    "nfcorpus": {
+      "difference_direction": "Qwen2.5-14B minus Qwen2.5-7B",
+      "qwen2_5_7b": {
+        "roc_auc": 0.9471937903436627,
+        "pr_auc": 0.9490177842066673
+      },
+      "qwen2_5_14b": {
+        "roc_auc": 0.9566047980051882,
+        "pr_auc": 0.9561889136332712
+      },
+      "paired_difference": {
+        "roc_auc": 0.009411007661525472,
+        "roc_auc_ci": [
+          -0.00121590408048744,
+          0.02085993838360877
+        ],
+        "roc_auc_ci_excludes_zero": false,
+        "pr_auc": 0.007171129426603917,
+        "pr_auc_ci": [
+          -0.003840922958175957,
+          0.018713375544172052
+        ],
+        "pr_auc_ci_excludes_zero": false
+      },
+      "requested_replicates": 5000,
+      "valid_replicates": 5000,
+      "skipped_replicates": 0,
+      "source_document_cluster_count": 359
+    },
+    "trec-covid": {
+      "difference_direction": "Qwen2.5-14B minus Qwen2.5-7B",
+      "qwen2_5_7b": {
+        "roc_auc": 0.9245056349039874,
+        "pr_auc": 0.9279419851637773
+      },
+      "qwen2_5_14b": {
+        "roc_auc": 0.9288724471310615,
+        "pr_auc": 0.9319670971197178
+      },
+      "paired_difference": {
+        "roc_auc": 0.004366812227074135,
+        "roc_auc_ci": [
+          -0.00809716599190291,
+          0.017533733151861276
+        ],
+        "roc_auc_ci_excludes_zero": false,
+        "pr_auc": 0.0040251119559404636,
+        "pr_auc_ci": [
+          -0.008674989158590751,
+          0.01751589837563661
+        ],
+        "pr_auc_ci_excludes_zero": false
+      },
+      "requested_replicates": 5000,
+      "valid_replicates": 5000,
+      "skipped_replicates": 0,
+      "source_document_cluster_count": 410
+    }
+  }
+}
+QWEN2.5 14B-VS-7B PAIRED LOCALIZATION COMPARISON PASS

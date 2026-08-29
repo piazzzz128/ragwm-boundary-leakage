@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4944",
+  "source_doc_id": "MED-4944",
+  "title": "Studies of fish consumption as source of methylmercury should consider fish-meal-fed farmed fish and other animal foods.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Studies of fish consumption as source of methylmercury should consider fish-meal-fed farmed fish and other animal foods.\nThe co-occurrence of fish MeHg and omega-3 fatty acids in wild species can indeed be optimized by choosing certain species. Farmed finfish and shellfish that are fed fish-meal, however, can bioconcentrate both MeHg (in muscle) and organohalogen pollutants passed on in the fat components [Dorea, J.G., 2006. Fish meal in animal feed and human exposure to persistent bioaccumulative and toxic substances. J. Food Prot. 69, 2777-2785); when fish-meal is used to feed farm animals it may offer the worst of both worlds: saturated fat (with organohalogen pollutants) and MeHg. It is time to address the dietary sources of Hg derived from animals raised on fish-meal that may contribute to increase tissue Hg concentrations.",
+  "sanitized_text": "Studies of fish consumption as source of methylmercury should consider fish-meal-fed farmed fish and other animal foods.\nThe co-occurrence of fish MeHg and omega-3 fatty acids in wild species can indeed be optimized by choosing certain species. Farmed finfish and shellfish that are fed fish-meal, however, can bioconcentrate both MeHg (in muscle) and organohalogen pollutants passed on in the fat components [Dorea, J.G., 2006. Fish meal in animal feed and human exposure to persistent bioaccumulative and toxic substances. J. Food Prot. 69, 2777-2785); when fish-meal is used to feed farm animals it may offer the worst of both worlds: saturated fat (with organohalogen pollutants) and MeHg. It is time to address the dietary sources of Hg derived from animals raised on fish-meal that may contribute to increase tissue Hg concentrations.",
+  "modified": false,
+  "original_char_count": 840,
+  "sanitized_char_count": 840,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 694,
+      "boundary_end": 840,
+      "context": "Studies of fish consumption as source of methylmercury should consider fish-meal-fed farmed fish and other animal foods. The co-occurrence of fish MeHg and omega-3 fatty acids in wild species can indeed be optimized by choosing certain species. Farmed finfish and shellfish that are fed fish-meal, however, can bioconcentrate both MeHg (in muscle) and organohalogen pollutants passed on in the fat components [Dorea, J.G., 2006. Fish meal in animal feed and human exposure to persistent bioaccumulative and toxic substances. J. Food Prot. 69, 2777-2785); when fish-meal is used to feed farm animals it may offer the worst of both worlds: saturated fat (with organohalogen pollutants) and MeHg.",
+      "target": "It is time to address the dietary sources of Hg derived from animals raised on fish-meal that may contribute to increase tissue Hg concentrations.",
+      "loss_target": 3.52007794380188,
+      "loss_target_given_context": 2.5408427715301514,
+      "delta_loss": 0.9792351722717285,
+      "gain_ratio": 0.2781856504046896,
+      "score": -0.2781856504046896,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

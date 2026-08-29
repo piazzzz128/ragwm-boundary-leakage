@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3700",
+  "source_doc_id": "MED-3700",
+  "title": "Red Versus White Wine as a Nutritional Aromatase Inhibitor in Premenopausal Women: A Pilot Study",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Red Versus White Wine as a Nutritional Aromatase Inhibitor in Premenopausal Women: A Pilot Study\nBackground An increased risk of breast cancer is associated with alcohol consumption; however, it is controversial whether red wine increases this risk. Aromatase inhibitors (AIs) prevent the conversion of androgens to estrogen and occur naturally in grapes, grape juice, and red, but not white wine. We tested whether red wine is a nutritional AI in premenopausal women. Methods In a cross-over design, 36 women (mean age [SD], 36 [8] years) were assigned to 8 ounces (237 mL) of red wine daily then white wine for 1 month each, or the reverse. Blood was collected twice during the menstrual cycle for measurement of estradiol (E2), estrone (E1), androstenedione (A), total and free testosterone (T), sex hormone binding globulin (SHBG), luteinizing hormone (LH), and follicle stimulating hormone (FSH). Results Red wine demonstrated higher free T vs. white wine (mean difference 0.64 pg/mL [0.2 SE], p=0.009) and lower SHBG (mean difference −5.0 nmol/L [1.9 SE], p=0.007). E2 levels were lower in red vs. white wine but not statistically significant. LH was significantly higher in red vs. white wine (mean difference 2.3 mIU/mL [1.3 SE], p=0.027); however, FSH was not. Conclusion Red wine is associated with significantly higher free T and lower SHBG levels, as well as a significant higher LH level vs. white wine in healthy premenopausal women. These data suggest that red wine is a nutritional AI and may explain the observation that red wine does not appear to increase breast cancer risk.",
+  "sanitized_text": "Red Versus White Wine as a Nutritional Aromatase Inhibitor in Premenopausal Women: A Pilot Study\nBackground An increased risk of breast cancer is associated with alcohol consumption; however, it is controversial whether red wine increases this risk. Aromatase inhibitors (AIs) prevent the conversion of androgens to estrogen and occur naturally in grapes, grape juice, and red, but not white wine. We tested whether red wine is a nutritional AI in premenopausal women. Methods In a cross-over design, 36 women (mean age [SD], 36 [8] years) were assigned to 8 ounces (237 mL) of red wine daily then white wine for 1 month each, or the reverse. Blood was collected twice during the menstrual cycle for measurement of estradiol (E2), estrone (E1), androstenedione (A), total and free testosterone (T), sex hormone binding globulin (SHBG), luteinizing hormone (LH), and follicle stimulating hormone (FSH). Results Red wine demonstrated higher free T vs. white wine (mean difference 0.64 pg/mL [0.2 SE], p=0.009) and lower SHBG (mean difference −5.0 nmol/L [1.9 SE], p=0.007). E2 levels were lower in red vs. white wine but not statistically significant. LH was significantly higher in red vs. white wine (mean difference 2.3 mIU/mL [1.3 SE], p=0.027); however, FSH was not. Conclusion Red wine is associated with significantly higher free T and lower SHBG levels, as well as a significant higher LH level vs. white wine in healthy premenopausal women. These data suggest that red wine is a nutritional AI and may explain the observation that red wine does not appear to increase breast cancer risk.",
+  "modified": false,
+  "original_char_count": 1594,
+  "sanitized_char_count": 1594,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1448,
+      "boundary_end": 1594,
+      "context": "Aromatase inhibitors (AIs) prevent the conversion of androgens to estrogen and occur naturally in grapes, grape juice, and red, but not white wine. We tested whether red wine is a nutritional AI in premenopausal women. Methods In a cross-over design, 36 women (mean age [SD], 36 [8] years) were assigned to 8 ounces (237 mL) of red wine daily then white wine for 1 month each, or the reverse. Blood was collected twice during the menstrual cycle for measurement of estradiol (E2), estrone (E1), androstenedione (A), total and free testosterone (T), sex hormone binding globulin (SHBG), luteinizing hormone (LH), and follicle stimulating hormone (FSH). Results Red wine demonstrated higher free T vs. white wine (mean difference 0.64 pg/mL [0.2 SE], p=0.009) and lower SHBG (mean difference −5.0 nmol/L [1.9 SE], p=0.007). E2 levels were lower in red vs. white wine but not statistically significant. LH was significantly higher in red vs. white wine (mean difference 2.3 mIU/mL [1.3 SE], p=0.027); however, FSH was not. Conclusion Red wine is associated with significantly higher free T and lower SHBG levels, as well as a significant higher LH level vs. white wine in healthy premenopausal women.",
+      "target": "These data suggest that red wine is a nutritional AI and may explain the observation that red wine does not appear to increase breast cancer risk.",
+      "loss_target": 3.229858160018921,
+      "loss_target_given_context": 1.2621443271636963,
+      "delta_loss": 1.9677138328552246,
+      "gain_ratio": 0.6092260821892246,
+      "score": -0.6092260821892246,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

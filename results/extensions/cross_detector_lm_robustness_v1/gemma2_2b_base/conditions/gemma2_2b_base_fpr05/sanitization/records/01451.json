@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2849",
+  "source_doc_id": "MED-2849",
+  "title": "Risk of Gestational Diabetes Mellitus in Relation to Maternal Egg and Cholesterol Intake",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Risk of Gestational Diabetes Mellitus in Relation to Maternal Egg and Cholesterol Intake\nHigher egg and cholesterol intakes are associated with increased risk of type 2 diabetes mellitus. However, their association with gestational diabetes mellitus (GDM) has not been evaluated. The authors assessed such associations in both a prospective cohort study (1996–2008; 3,158 participants) and a case-control study (1998–2002; 185 cases, 411 controls). A food frequency questionnaire was used to assess maternal diet. Multivariable models were used to derive relative risks and 95% confidence intervals. Compared with no egg consumption, adjusted relative risks for GDM were 0.94, 1.01, 1.12, 1.54, and 2.52 for consumption of ≤1, 2–3, 4–6, 7–9, and ≥10 eggs/week, respectively (P for trend = 0.008). Women with high egg consumption (≥7/week) had a 1.77-fold increased risk compared with women with lower consumption (95% confidence interval (CI): 1.19, 2.63). The relative risk for the highest quartile of cholesterol intake (≥294 mg/day) versus the lowest (<151 mg/day) was 2.35 (95% CI: 1.35, 4.09). In the case-control study, the adjusted odds ratio for consuming ≥7 eggs/week versus <7 eggs/week was 2.65 (95% CI: 1.48, 4.72), and the odds of GDM increased with increasing cholesterol intake (P for trend = 0.021). In conclusion, high egg and cholesterol intakes before and during pregnancy are associated with increased risk of GDM.",
+  "sanitized_text": "Risk of Gestational Diabetes Mellitus in Relation to Maternal Egg and Cholesterol Intake\nHigher egg and cholesterol intakes are associated with increased risk of type 2 diabetes mellitus. However, their association with gestational diabetes mellitus (GDM) has not been evaluated. The authors assessed such associations in both a prospective cohort study (1996–2008; 3,158 participants) and a case-control study (1998–2002; 185 cases, 411 controls). A food frequency questionnaire was used to assess maternal diet. Multivariable models were used to derive relative risks and 95% confidence intervals. Compared with no egg consumption, adjusted relative risks for GDM were 0.94, 1.01, 1.12, 1.54, and 2.52 for consumption of ≤1, 2–3, 4–6, 7–9, and ≥10 eggs/week, respectively (P for trend = 0.008). Women with high egg consumption (≥7/week) had a 1.77-fold increased risk compared with women with lower consumption (95% confidence interval (CI): 1.19, 2.63). The relative risk for the highest quartile of cholesterol intake (≥294 mg/day) versus the lowest (<151 mg/day) was 2.35 (95% CI: 1.35, 4.09). In the case-control study, the adjusted odds ratio for consuming ≥7 eggs/week versus <7 eggs/week was 2.65 (95% CI: 1.48, 4.72), and the odds of GDM increased with increasing cholesterol intake (P for trend = 0.021). In conclusion, high egg and cholesterol intakes before and during pregnancy are associated with increased risk of GDM.",
+  "modified": false,
+  "original_char_count": 1434,
+  "sanitized_char_count": 1434,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1316,
+      "boundary_end": 1434,
+      "context": "intakes are associated with increased risk of type 2 diabetes mellitus. However, their association with gestational diabetes mellitus (GDM) has not been evaluated. The authors assessed such associations in both a prospective cohort study (1996–2008; 3,158 participants) and a case-control study (1998–2002; 185 cases, 411 controls). A food frequency questionnaire was used to assess maternal diet. Multivariable models were used to derive relative risks and 95% confidence intervals. Compared with no egg consumption, adjusted relative risks for GDM were 0.94, 1.01, 1.12, 1.54, and 2.52 for consumption of ≤1, 2–3, 4–6, 7–9, and ≥10 eggs/week, respectively (P for trend = 0.008). Women with high egg consumption (≥7/week) had a 1.77-fold increased risk compared with women with lower consumption (95% confidence interval (CI): 1.19, 2.63). The relative risk for the highest quartile of cholesterol intake (≥294 mg/day) versus the lowest (<151 mg/day) was 2.35 (95% CI: 1.35, 4.09). In the case-control study, the adjusted odds ratio for consuming ≥7 eggs/week versus <7 eggs/week was 2.65 (95% CI: 1.48, 4.72), and the odds of GDM increased with increasing cholesterol intake (P for trend = 0.021).",
+      "target": "In conclusion, high egg and cholesterol intakes before and during pregnancy are associated with increased risk of GDM.",
+      "loss_target": 9.253446578979492,
+      "loss_target_given_context": 2.3188729286193848,
+      "delta_loss": 6.934573650360107,
+      "gain_ratio": 0.7494044074467311,
+      "score": -0.7494044074467311,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

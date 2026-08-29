@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2449",
+  "source_doc_id": "MED-2449",
+  "title": "An evaluation of the clinical efficacy of tomato extract for perennial allergic rhinitis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "An evaluation of the clinical efficacy of tomato extract for perennial allergic rhinitis.\nBACKGROUND: Recently, some common foods in daily life have been found to have anti-allergic effects. We have reported that tomato extract (TE) could possibly inhibit histamine release and mouse ear-swelling responses. Moreover, it is reported that TE could relieve the symptoms for Japanese cedar pollinosis. METHODS: To evaluate the anti-allergic effect of TE, we performed a randomized, double-blind, placebo-controlled study in 33 patients with perennial allergic rhinitis (PAR) using oral administration of TE (360 mg per day) or placebo for 8 weeks. RESULTS: We found that the sneezing score significantly decreased in the TE group at the end of the trial compared to the beginning (P < 0.05). There were decreasing tendencies of rhinorrhea and nasal obstruction in the TE group. The patients' quality of life was significantly improved in the TE group after 8 weeks of treatment (P < 0.05), but not in placebo group. A significant improvement in total symptom scores, combining sneezing, rhinorrhea and nasal obstruction, was observed after oral administration of TE for 8 weeks (P < 0.01). The safety of TE treatment was confirmed by laboratory tests and inspection of general conditions. CONCLUSIONS: TE can be expected to safely improve the nasal symptoms of PAR. Allergic Rhinitis is a consequence of health-related factors.",
+  "sanitized_text": "An evaluation of the clinical efficacy of tomato extract for perennial allergic rhinitis.\nBACKGROUND: Recently, some common foods in daily life have been found to have anti-allergic effects. We have reported that tomato extract (TE) could possibly inhibit histamine release and mouse ear-swelling responses. Moreover, it is reported that TE could relieve the symptoms for Japanese cedar pollinosis. METHODS: To evaluate the anti-allergic effect of TE, we performed a randomized, double-blind, placebo-controlled study in 33 patients with perennial allergic rhinitis (PAR) using oral administration of TE (360 mg per day) or placebo for 8 weeks. RESULTS: We found that the sneezing score significantly decreased in the TE group at the end of the trial compared to the beginning (P < 0.05). There were decreasing tendencies of rhinorrhea and nasal obstruction in the TE group. The patients' quality of life was significantly improved in the TE group after 8 weeks of treatment (P < 0.05), but not in placebo group. A significant improvement in total symptom scores, combining sneezing, rhinorrhea and nasal obstruction, was observed after oral administration of TE for 8 weeks (P < 0.01). The safety of TE treatment was confirmed by laboratory tests and inspection of general conditions. CONCLUSIONS: TE can be expected to safely improve the nasal symptoms of PAR.",
+  "modified": true,
+  "original_char_count": 1424,
+  "sanitized_char_count": 1362,
+  "deleted_char_count": 62,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1363,
+      "boundary_end": 1424,
+      "context": "have anti-allergic effects. We have reported that tomato extract (TE) could possibly inhibit histamine release and mouse ear-swelling responses. Moreover, it is reported that TE could relieve the symptoms for Japanese cedar pollinosis. METHODS: To evaluate the anti-allergic effect of TE, we performed a randomized, double-blind, placebo-controlled study in 33 patients with perennial allergic rhinitis (PAR) using oral administration of TE (360 mg per day) or placebo for 8 weeks. RESULTS: We found that the sneezing score significantly decreased in the TE group at the end of the trial compared to the beginning (P < 0.05). There were decreasing tendencies of rhinorrhea and nasal obstruction in the TE group. The patients' quality of life was significantly improved in the TE group after 8 weeks of treatment (P < 0.05), but not in placebo group. A significant improvement in total symptom scores, combining sneezing, rhinorrhea and nasal obstruction, was observed after oral administration of TE for 8 weeks (P < 0.01). The safety of TE treatment was confirmed by laboratory tests and inspection of general conditions. CONCLUSIONS: TE can be expected to safely improve the nasal symptoms of PAR.",
+      "target": "Allergic Rhinitis is a consequence of health-related factors.",
+      "loss_target": 3.3645105361938477,
+      "loss_target_given_context": 3.320303201675415,
+      "delta_loss": 0.04420733451843262,
+      "gain_ratio": 0.01313930631004735,
+      "score": -0.01313930631004735,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1286,
+      "boundary_end": 1362,
+      "context": "BACKGROUND: Recently, some common foods in daily life have been found to have anti-allergic effects. We have reported that tomato extract (TE) could possibly inhibit histamine release and mouse ear-swelling responses. Moreover, it is reported that TE could relieve the symptoms for Japanese cedar pollinosis. METHODS: To evaluate the anti-allergic effect of TE, we performed a randomized, double-blind, placebo-controlled study in 33 patients with perennial allergic rhinitis (PAR) using oral administration of TE (360 mg per day) or placebo for 8 weeks. RESULTS: We found that the sneezing score significantly decreased in the TE group at the end of the trial compared to the beginning (P < 0.05). There were decreasing tendencies of rhinorrhea and nasal obstruction in the TE group. The patients' quality of life was significantly improved in the TE group after 8 weeks of treatment (P < 0.05), but not in placebo group. A significant improvement in total symptom scores, combining sneezing, rhinorrhea and nasal obstruction, was observed after oral administration of TE for 8 weeks (P < 0.01). The safety of TE treatment was confirmed by laboratory tests and inspection of general conditions.",
+      "target": "CONCLUSIONS: TE can be expected to safely improve the nasal symptoms of PAR.",
+      "loss_target": 3.9503207206726074,
+      "loss_target_given_context": 1.781618595123291,
+      "delta_loss": 2.1687021255493164,
+      "gain_ratio": 0.5489939371758299,
+      "score": -0.5489939371758299,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1363,
+      "target": "Allergic Rhinitis is a consequence of health-related factors.",
+      "score": -0.01313930631004735,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Allergic Rhinitis is a consequence of health-related factors.",
+      "deleted_char_count": 61
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

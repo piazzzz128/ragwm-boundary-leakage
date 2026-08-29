@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2029",
+  "source_doc_id": "MED-2029",
+  "title": "Gluten contamination of naturally gluten-free flours and starches used by Canadians with celiac disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Gluten contamination of naturally gluten-free flours and starches used by Canadians with celiac disease.\nA large national investigation into the extent of gluten cross-contamination of naturally gluten-free ingredients (flours and starches) sold in Canada was performed. Samples (n = 640) were purchased from eight Canadian cities and via the internet during the period 2010-2012 and analysed for gluten contamination. The results showed that 61 of the 640 (9.5%) samples were contaminated above the Codex-recommended maximum level for gluten-free products (20 mg kg⁻¹) with a range of 5-7995 mg kg⁻¹. For the ingredients that were labelled gluten-free the contamination range (5-141 mg kg⁻¹) and number of samples were lower (3 of 268). This picture was consistent over time, with approximately the same percentage of samples above 20 mg kg⁻¹ in both the initial set and the subsequent lot. Looking at the total mean (composite) contamination for specific ingredients the largest and most consistent contaminations come from higher fibre ingredients such as soy (902 mg kg⁻¹), millet (272 mg kg⁻¹) and buckwheat (153 mg kg⁻¹). Of the naturally gluten-free flours and starches tested that do not contain a gluten-free label, the higher fibre ingredients would constitute the greatest probability of being contaminated with gluten above 20 mg kg⁻¹.",
+  "sanitized_text": "Gluten contamination of naturally gluten-free flours and starches used by Canadians with celiac disease.\nA large national investigation into the extent of gluten cross-contamination of naturally gluten-free ingredients (flours and starches) sold in Canada was performed. Samples (n = 640) were purchased from eight Canadian cities and via the internet during the period 2010-2012 and analysed for gluten contamination. The results showed that 61 of the 640 (9.5%) samples were contaminated above the Codex-recommended maximum level for gluten-free products (20 mg kg⁻¹) with a range of 5-7995 mg kg⁻¹. For the ingredients that were labelled gluten-free the contamination range (5-141 mg kg⁻¹) and number of samples were lower (3 of 268). This picture was consistent over time, with approximately the same percentage of samples above 20 mg kg⁻¹ in both the initial set and the subsequent lot. Looking at the total mean (composite) contamination for specific ingredients the largest and most consistent contaminations come from higher fibre ingredients such as soy (902 mg kg⁻¹), millet (272 mg kg⁻¹) and buckwheat (153 mg kg⁻¹). Of the naturally gluten-free flours and starches tested that do not contain a gluten-free label, the higher fibre ingredients would constitute the greatest probability of being contaminated with gluten above 20 mg kg⁻¹.",
+  "modified": false,
+  "original_char_count": 1347,
+  "sanitized_char_count": 1347,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1128,
+      "boundary_end": 1347,
+      "context": "Gluten contamination of naturally gluten-free flours and starches used by Canadians with celiac disease. A large national investigation into the extent of gluten cross-contamination of naturally gluten-free ingredients (flours and starches) sold in Canada was performed. Samples (n = 640) were purchased from eight Canadian cities and via the internet during the period 2010-2012 and analysed for gluten contamination. The results showed that 61 of the 640 (9.5%) samples were contaminated above the Codex-recommended maximum level for gluten-free products (20 mg kg⁻¹) with a range of 5-7995 mg kg⁻¹. For the ingredients that were labelled gluten-free the contamination range (5-141 mg kg⁻¹) and number of samples were lower (3 of 268). This picture was consistent over time, with approximately the same percentage of samples above 20 mg kg⁻¹ in both the initial set and the subsequent lot. Looking at the total mean (composite) contamination for specific ingredients the largest and most consistent contaminations come from higher fibre ingredients such as soy (902 mg kg⁻¹), millet (272 mg kg⁻¹) and buckwheat (153 mg kg⁻¹).",
+      "target": "Of the naturally gluten-free flours and starches tested that do not contain a gluten-free label, the higher fibre ingredients would constitute the greatest probability of being contaminated with gluten above 20 mg kg⁻¹.",
+      "loss_target": 3.454010486602783,
+      "loss_target_given_context": 1.706178903579712,
+      "delta_loss": 1.7478315830230713,
+      "gain_ratio": 0.5060296110282408,
+      "score": -0.5060296110282408,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

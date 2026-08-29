@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2589",
+  "source_doc_id": "MED-2589",
+  "title": "Treating hyperlipidemia in the elderly.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Treating hyperlipidemia in the elderly.\nBACKGROUND: Determination of the effects of dietary modification and hyperlipidemic medications in the elderly (> sixty-five years of age) patient has not been significantly investigated to date despite knowledge that elevated cholesterol (TC) and triglyceride (TG) levels increase the risk of coronary artery disease (CAD). METHODS: Twenty-seven individuals were placed into one of three treatment groups and longitudinally followed up to examine the effects of diet and hyperlipidemic medications on TC and TG levels. Group 1 (n = 14) received neither dietary nor drug therapy. Group 2 (n = 9) received dietary counseling without concomitant hyperlipidemic medications. Subjects in group 3 (n = 4) underwent dietary instruction for six months and hyperlipidemic medication(s) for eighteen months. RESULTS: Subjects in group 1 demonstrated a statistical increase in TC (P < or = 0.001) during the study. Patients in groups 2 (P < or = 0.001) and 3 (P < or = 0.05) demonstrated statistical improvement in TC reduction during dietary counseling. The effect on TC was blunted in group 3 after dietary counseling was discontinued. Reductions in TG levels were significant (P < or = 0.001) only for patients in group 2. CONCLUSION: Elderly individuals were able to significantly reduce both TC and TG levels by dietary modification alone. Minimal improvement was seen with the addition of hyperlipidemic medications.",
+  "sanitized_text": "Treating hyperlipidemia in the elderly.\nBACKGROUND: Determination of the effects of dietary modification and hyperlipidemic medications in the elderly (> sixty-five years of age) patient has not been significantly investigated to date despite knowledge that elevated cholesterol (TC) and triglyceride (TG) levels increase the risk of coronary artery disease (CAD). METHODS: Twenty-seven individuals were placed into one of three treatment groups and longitudinally followed up to examine the effects of diet and hyperlipidemic medications on TC and TG levels. Group 1 (n = 14) received neither dietary nor drug therapy. Group 2 (n = 9) received dietary counseling without concomitant hyperlipidemic medications. Subjects in group 3 (n = 4) underwent dietary instruction for six months and hyperlipidemic medication(s) for eighteen months. RESULTS: Subjects in group 1 demonstrated a statistical increase in TC (P < or = 0.001) during the study. Patients in groups 2 (P < or = 0.001) and 3 (P < or = 0.05) demonstrated statistical improvement in TC reduction during dietary counseling. The effect on TC was blunted in group 3 after dietary counseling was discontinued. Reductions in TG levels were significant (P < or = 0.001) only for patients in group 2. CONCLUSION: Elderly individuals were able to significantly reduce both TC and TG levels by dietary modification alone. Minimal improvement was seen with the addition of hyperlipidemic medications.",
+  "modified": false,
+  "original_char_count": 1452,
+  "sanitized_char_count": 1452,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1375,
+      "boundary_end": 1452,
+      "context": "patient has not been significantly investigated to date despite knowledge that elevated cholesterol (TC) and triglyceride (TG) levels increase the risk of coronary artery disease (CAD). METHODS: Twenty-seven individuals were placed into one of three treatment groups and longitudinally followed up to examine the effects of diet and hyperlipidemic medications on TC and TG levels. Group 1 (n = 14) received neither dietary nor drug therapy. Group 2 (n = 9) received dietary counseling without concomitant hyperlipidemic medications. Subjects in group 3 (n = 4) underwent dietary instruction for six months and hyperlipidemic medication(s) for eighteen months. RESULTS: Subjects in group 1 demonstrated a statistical increase in TC (P < or = 0.001) during the study. Patients in groups 2 (P < or = 0.001) and 3 (P < or = 0.05) demonstrated statistical improvement in TC reduction during dietary counseling. The effect on TC was blunted in group 3 after dietary counseling was discontinued. Reductions in TG levels were significant (P < or = 0.001) only for patients in group 2. CONCLUSION: Elderly individuals were able to significantly reduce both TC and TG levels by dietary modification alone.",
+      "target": "Minimal improvement was seen with the addition of hyperlipidemic medications.",
+      "loss_target": 3.3608744144439697,
+      "loss_target_given_context": 0.8639369606971741,
+      "delta_loss": 2.4969374537467957,
+      "gain_ratio": 0.7429428017350937,
+      "score": -0.7429428017350937,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

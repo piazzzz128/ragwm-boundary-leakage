@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3672",
+  "source_doc_id": "MED-3672",
+  "title": "99th Dahlem Conference on Infection, Inflammation and Chronic Inflammatory Disorders: Psycho-neuroimmunology and the intestinal microbiota: clinical observations and basic mechanisms",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "99th Dahlem Conference on Infection, Inflammation and Chronic Inflammatory Disorders: Psycho-neuroimmunology and the intestinal microbiota: clinical observations and basic mechanisms\nThis is a rapidly emerging field. The application of knowledge regarding the relationship between neural and immune systems in order to gain a better understanding of human conditions has been slow. In this discussion we describe how the brain and microbiota interact, and try to bring this into a context that is clinically relevant. We begin by describing established facts pertaining to the gut–brain axis and the role of gut bacteria. We then focus upon emerging data that will contribute to the generation of a new conceptual framework about the microbiota–gut–brain axis. In the final section we anticipate future directions of this field. In the context of inflammatory diseases, animal studies serve as a valuable research tool. The intervention group is influenced by the contributions of the microbiome. Research indicates that the microbiome and odds ratios are interrelated. The application of gut microbiota findings plays a crucial role in shaping policies and strategies.",
+  "sanitized_text": "99th Dahlem Conference on Infection, Inflammation and Chronic Inflammatory Disorders: Psycho-neuroimmunology and the intestinal microbiota: clinical observations and basic mechanisms\nThis is a rapidly emerging field. The application of knowledge regarding the relationship between neural and immune systems in order to gain a better understanding of human conditions has been slow. In this discussion we describe how the brain and microbiota interact, and try to bring this into a context that is clinically relevant. We begin by describing established facts pertaining to the gut–brain axis and the role of gut bacteria. We then focus upon emerging data that will contribute to the generation of a new conceptual framework about the microbiota–gut–brain axis. In the final section we anticipate future directions of this field. In the context of inflammatory diseases, animal studies serve as a valuable research tool. The intervention group is influenced by the contributions of the microbiome. Research indicates that the microbiome and odds ratios are interrelated.",
+  "modified": true,
+  "original_char_count": 1169,
+  "sanitized_char_count": 1069,
+  "deleted_char_count": 100,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1070,
+      "boundary_end": 1169,
+      "context": "99th Dahlem Conference on Infection, Inflammation and Chronic Inflammatory Disorders: Psycho-neuroimmunology and the intestinal microbiota: clinical observations and basic mechanisms This is a rapidly emerging field. The application of knowledge regarding the relationship between neural and immune systems in order to gain a better understanding of human conditions has been slow. In this discussion we describe how the brain and microbiota interact, and try to bring this into a context that is clinically relevant. We begin by describing established facts pertaining to the gut–brain axis and the role of gut bacteria. We then focus upon emerging data that will contribute to the generation of a new conceptual framework about the microbiota–gut–brain axis. In the final section we anticipate future directions of this field. In the context of inflammatory diseases, animal studies serve as a valuable research tool. The intervention group is influenced by the contributions of the microbiome. Research indicates that the microbiome and odds ratios are interrelated.",
+      "target": "The application of gut microbiota findings plays a crucial role in shaping policies and strategies.",
+      "loss_target": 3.8575668334960938,
+      "loss_target_given_context": 3.2251269817352295,
+      "delta_loss": 0.6324398517608643,
+      "gain_ratio": 0.163947866377648,
+      "score": -0.163947866377648,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 997,
+      "boundary_end": 1069,
+      "context": "99th Dahlem Conference on Infection, Inflammation and Chronic Inflammatory Disorders: Psycho-neuroimmunology and the intestinal microbiota: clinical observations and basic mechanisms This is a rapidly emerging field. The application of knowledge regarding the relationship between neural and immune systems in order to gain a better understanding of human conditions has been slow. In this discussion we describe how the brain and microbiota interact, and try to bring this into a context that is clinically relevant. We begin by describing established facts pertaining to the gut–brain axis and the role of gut bacteria. We then focus upon emerging data that will contribute to the generation of a new conceptual framework about the microbiota–gut–brain axis. In the final section we anticipate future directions of this field. In the context of inflammatory diseases, animal studies serve as a valuable research tool. The intervention group is influenced by the contributions of the microbiome.",
+      "target": "Research indicates that the microbiome and odds ratios are interrelated.",
+      "loss_target": 4.2457733154296875,
+      "loss_target_given_context": 3.037660837173462,
+      "delta_loss": 1.2081124782562256,
+      "gain_ratio": 0.2845447433252711,
+      "score": -0.2845447433252711,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1070,
+      "target": "The application of gut microbiota findings plays a crucial role in shaping policies and strategies.",
+      "score": -0.163947866377648,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "The application of gut microbiota findings plays a crucial role in shaping policies and strategies.",
+      "deleted_char_count": 99
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

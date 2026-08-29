@@ -1,0 +1,34 @@
+Input documents: 3633
+Documents selected this run: 20
+Threshold: -0.12495927631268061
+Model: /root/autodl-tmp/ragwm_storage/local_models/DeepSeek-LLM-7B-base-ms
+Scoring version: aligned_minimal_v1
+Selection input fields: ['internal_id', 'source_doc_id', 'text', 'title']
+Loading checkpoint shards:   0%|                                                                 | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|████████████████████████████▌                            | 1/2 [00:03<00:03,  3.16s/it]Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 2/2 [00:04<00:00,  2.06s/it]Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 2/2 [00:04<00:00,  2.23s/it]
+We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+processed 20/20; modified=False; steps=0
+{
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "input_document_count": 20,
+  "completed_document_count": 20,
+  "complete": true,
+  "modified_document_count": 0,
+  "modified_document_rate": 0.0,
+  "candidate_evaluation_count": 19,
+  "deletion_step_count": 0,
+  "total_original_chars": 34213,
+  "total_deleted_chars": 0,
+  "deleted_char_rate": 0.0,
+  "stop_reason_counts": {
+    "score_below_threshold": 19,
+    "empty_context": 1
+  },
+  "sanitized_corpus": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/smoke/deepseek_fpr05/gainratio_sanitized_corpus.jsonl",
+  "sanitized_corpus_sha256": "a1d5fe64b2f26cbc679dbf210938ddbf5fbfb4282069b6809c3fdf50a152601a",
+  "candidate_scores": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/smoke/deepseek_fpr05/gainratio_candidate_scores.jsonl",
+  "deletion_log": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/smoke/deepseek_fpr05/gainratio_deletion_log.jsonl",
+  "warning": "Sensitivity output only. Do not overwrite or rename as the sealed strict-v1 E2 main result."
+}
+ALIGNED GAINRATIO SANITIZATION PASS

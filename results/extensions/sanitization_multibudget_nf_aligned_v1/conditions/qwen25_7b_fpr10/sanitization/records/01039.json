@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2258",
+  "source_doc_id": "MED-2258",
+  "title": "Environmental cadmium and breast cancer risk",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Environmental cadmium and breast cancer risk\nBreast cancer is the most prevalent women's cancer, with an age-adjusted incidence of 122.9 per 100,000 US women. Cadmium, a ubiquitous carcinogenic pollutant with multiple biological effects, has been reported to be associated with breast cancer in one US regional case-control study. We examined the association of breast cancer with urinary cadmium (UCd), in a case-control sample of women living on Long Island (LI), NY (100 with breast cancer and 98 without), a region with an especially high rate of breast cancer (142.7 per 100,000 in Suffolk County) and in a representative sample of US women (NHANES 1999-2008, 92 with breast cancer and 2,884 without). In a multivariable logistic model, both samples showed a significant trend for increased odds of breast cancer across increasing UCd quartiles (NHANES, p=0.039 and LI, p=0.023). Compared to those in the lowest quartile, LI women in the highest quartile had increased risk for breast cancer (OR=2.69; 95% CI=1.07, 6.78) and US women in the two highest quartiles had increased risk (OR=2.50; 95% CI=1.11, 5.63 and OR=2.22; 95% CI=.89, 5.52, respectively). Further research is warranted on the impact of environmental cadmium on breast cancer risk in specific populations and on identifying the underlying molecular mechanisms.",
+  "sanitized_text": "Environmental cadmium and breast cancer risk\nBreast cancer is the most prevalent women's cancer, with an age-adjusted incidence of 122.9 per 100,000 US women. Cadmium, a ubiquitous carcinogenic pollutant with multiple biological effects, has been reported to be associated with breast cancer in one US regional case-control study. We examined the association of breast cancer with urinary cadmium (UCd), in a case-control sample of women living on Long Island (LI), NY (100 with breast cancer and 98 without), a region with an especially high rate of breast cancer (142.7 per 100,000 in Suffolk County) and in a representative sample of US women (NHANES 1999-2008, 92 with breast cancer and 2,884 without). In a multivariable logistic model, both samples showed a significant trend for increased odds of breast cancer across increasing UCd quartiles (NHANES, p=0.039 and LI, p=0.023). Compared to those in the lowest quartile, LI women in the highest quartile had increased risk for breast cancer (OR=2.69; 95% CI=1.07, 6.78) and US women in the two highest quartiles had increased risk (OR=2.50; 95% CI=1.11, 5.63 and OR=2.22; 95% CI=.89, 5.52, respectively). Further research is warranted on the impact of environmental cadmium on breast cancer risk in specific populations and on identifying the underlying molecular mechanisms.",
+  "modified": false,
+  "original_char_count": 1331,
+  "sanitized_char_count": 1331,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1161,
+      "boundary_end": 1331,
+      "context": "Environmental cadmium and breast cancer risk Breast cancer is the most prevalent women's cancer, with an age-adjusted incidence of 122.9 per 100,000 US women. Cadmium, a ubiquitous carcinogenic pollutant with multiple biological effects, has been reported to be associated with breast cancer in one US regional case-control study. We examined the association of breast cancer with urinary cadmium (UCd), in a case-control sample of women living on Long Island (LI), NY (100 with breast cancer and 98 without), a region with an especially high rate of breast cancer (142.7 per 100,000 in Suffolk County) and in a representative sample of US women (NHANES 1999-2008, 92 with breast cancer and 2,884 without). In a multivariable logistic model, both samples showed a significant trend for increased odds of breast cancer across increasing UCd quartiles (NHANES, p=0.039 and LI, p=0.023). Compared to those in the lowest quartile, LI women in the highest quartile had increased risk for breast cancer (OR=2.69; 95% CI=1.07, 6.78) and US women in the two highest quartiles had increased risk (OR=2.50; 95% CI=1.11, 5.63 and OR=2.22; 95% CI=.89, 5.52, respectively).",
+      "target": "Further research is warranted on the impact of environmental cadmium on breast cancer risk in specific populations and on identifying the underlying molecular mechanisms.",
+      "loss_target": 2.6528775691986084,
+      "loss_target_given_context": 1.671390414237976,
+      "delta_loss": 0.9814871549606323,
+      "gain_ratio": 0.36997076923422584,
+      "score": -0.36997076923422584,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

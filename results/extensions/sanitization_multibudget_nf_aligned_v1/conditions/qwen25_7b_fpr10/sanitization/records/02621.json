@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4489",
+  "source_doc_id": "MED-4489",
+  "title": "The nitrate story--no end in sight.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The nitrate story--no end in sight.\nIt has been demonstrated that nitrates are reduced to nitrites in humans, possibly through bacterial activity. Nitrites, together with ubiquitous amines, can lead to an in-vivo synthesis of carcinogenic nitrosamines. The average daily intake of nitrates depends upon the amount of vegetables consumed and on the nitrate concentration in drinking water. Agricultural practices play an important part in the concentration of nitrate in both water and vegetables. If nitrate is taken up by the plant and not metabolised to amino acids, proteins or nucleic acids, it is stored in cell vacuoles as a reserve. However, with an over-supply of nitrate relative to possible photosynthesis, this stored nitrate is still present at harvest and leads to high concentrations in plant tissue. The nitrate content in plants also depends upon other factors, such as plant variety (cultivar), kind and amount of fertiliser, time of harvest and environmental factors such as light intensity, temperature, etc. It is suggested that we should try to meet the recommendations of toxicologists who believe a dramatic reduction nitrate intake for humans is necessary. It has been demonstrated that modern biological-organic farming methods clearly lead both to lower leaching of nitrates and to lower nitrate content in vegetables. Since no synthetic fungicides are used in this farming method, problems with the reaction of metabolites of such products and nitrites e.g. to highly cancerogenic and multigenic nitroso-ethylenethiourea do not exist.",
+  "sanitized_text": "The nitrate story--no end in sight.\nIt has been demonstrated that nitrates are reduced to nitrites in humans, possibly through bacterial activity. Nitrites, together with ubiquitous amines, can lead to an in-vivo synthesis of carcinogenic nitrosamines. The average daily intake of nitrates depends upon the amount of vegetables consumed and on the nitrate concentration in drinking water. Agricultural practices play an important part in the concentration of nitrate in both water and vegetables. If nitrate is taken up by the plant and not metabolised to amino acids, proteins or nucleic acids, it is stored in cell vacuoles as a reserve. However, with an over-supply of nitrate relative to possible photosynthesis, this stored nitrate is still present at harvest and leads to high concentrations in plant tissue. The nitrate content in plants also depends upon other factors, such as plant variety (cultivar), kind and amount of fertiliser, time of harvest and environmental factors such as light intensity, temperature, etc. It is suggested that we should try to meet the recommendations of toxicologists who believe a dramatic reduction nitrate intake for humans is necessary. It has been demonstrated that modern biological-organic farming methods clearly lead both to lower leaching of nitrates and to lower nitrate content in vegetables. Since no synthetic fungicides are used in this farming method, problems with the reaction of metabolites of such products and nitrites e.g. to highly cancerogenic and multigenic nitroso-ethylenethiourea do not exist.",
+  "modified": false,
+  "original_char_count": 1561,
+  "sanitized_char_count": 1561,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1485,
+      "boundary_end": 1561,
+      "context": "depends upon the amount of vegetables consumed and on the nitrate concentration in drinking water. Agricultural practices play an important part in the concentration of nitrate in both water and vegetables. If nitrate is taken up by the plant and not metabolised to amino acids, proteins or nucleic acids, it is stored in cell vacuoles as a reserve. However, with an over-supply of nitrate relative to possible photosynthesis, this stored nitrate is still present at harvest and leads to high concentrations in plant tissue. The nitrate content in plants also depends upon other factors, such as plant variety (cultivar), kind and amount of fertiliser, time of harvest and environmental factors such as light intensity, temperature, etc. It is suggested that we should try to meet the recommendations of toxicologists who believe a dramatic reduction nitrate intake for humans is necessary. It has been demonstrated that modern biological-organic farming methods clearly lead both to lower leaching of nitrates and to lower nitrate content in vegetables. Since no synthetic fungicides are used in this farming method, problems with the reaction of metabolites of such products and nitrites e.g.",
+      "target": "to highly cancerogenic and multigenic nitroso-ethylenethiourea do not exist.",
+      "loss_target": 4.318772315979004,
+      "loss_target_given_context": 3.0826637744903564,
+      "delta_loss": 1.2361085414886475,
+      "gain_ratio": 0.28621757551681426,
+      "score": -0.28621757551681426,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

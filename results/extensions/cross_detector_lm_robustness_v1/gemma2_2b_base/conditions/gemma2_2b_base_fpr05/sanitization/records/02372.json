@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4164",
+  "source_doc_id": "MED-4164",
+  "title": "Evidence that protein requirements have been significantly underestimated.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Evidence that protein requirements have been significantly underestimated.\nPURPOSE OF REVIEW: This review discusses recent evidence that suggests a significant underestimation of protein requirements in adult humans. RECENT FINDINGS: Traditionally, total protein requirements for humans have been determined using nitrogen balance. The recent Dietary Reference Intake recommendations for mean and population-safe intakes of 0.66 and 0.8 g/kg/day, respectively, of high-quality protein in adult humans are based on a meta-analysis of nitrogen balance studies using single linear regression analysis. We reanalyzed existing nitrogen balance studies using two-phase linear regression analysis and obtained mean and safe protein requirements of 0.91 and 0.99 g/kg/day, respectively. The two-phase linear regression analysis is considered more appropriate for biological analysis of dose-response curves. Considering the inherent problems associated with the nitrogen balance method, we developed an alternative method, the indicator amino acid oxidation technique, to determine protein requirements The mean and population-safe requirements in adult men were determined to be 0.93 and 1.2 g/kg/day and are 41 and 50%, respectively, higher than the current Dietary Reference Intakes recommendations. SUMMARY: The indicator amino acid oxidation-based requirement values of 0.93 and 1.2 g protein/kg/day and the reanalysis of existing nitrogen balance studies are significantly higher than current recommendations. Therefore, there is an urgent need to reassess recommendations for protein intake in adult humans.",
+  "sanitized_text": "Evidence that protein requirements have been significantly underestimated.\nPURPOSE OF REVIEW: This review discusses recent evidence that suggests a significant underestimation of protein requirements in adult humans. RECENT FINDINGS: Traditionally, total protein requirements for humans have been determined using nitrogen balance. The recent Dietary Reference Intake recommendations for mean and population-safe intakes of 0.66 and 0.8 g/kg/day, respectively, of high-quality protein in adult humans are based on a meta-analysis of nitrogen balance studies using single linear regression analysis. We reanalyzed existing nitrogen balance studies using two-phase linear regression analysis and obtained mean and safe protein requirements of 0.91 and 0.99 g/kg/day, respectively. The two-phase linear regression analysis is considered more appropriate for biological analysis of dose-response curves. Considering the inherent problems associated with the nitrogen balance method, we developed an alternative method, the indicator amino acid oxidation technique, to determine protein requirements The mean and population-safe requirements in adult men were determined to be 0.93 and 1.2 g/kg/day and are 41 and 50%, respectively, higher than the current Dietary Reference Intakes recommendations. SUMMARY: The indicator amino acid oxidation-based requirement values of 0.93 and 1.2 g protein/kg/day and the reanalysis of existing nitrogen balance studies are significantly higher than current recommendations. Therefore, there is an urgent need to reassess recommendations for protein intake in adult humans.",
+  "modified": false,
+  "original_char_count": 1606,
+  "sanitized_char_count": 1606,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1508,
+      "boundary_end": 1606,
+      "context": "using nitrogen balance. The recent Dietary Reference Intake recommendations for mean and population-safe intakes of 0.66 and 0.8 g/kg/day, respectively, of high-quality protein in adult humans are based on a meta-analysis of nitrogen balance studies using single linear regression analysis. We reanalyzed existing nitrogen balance studies using two-phase linear regression analysis and obtained mean and safe protein requirements of 0.91 and 0.99 g/kg/day, respectively. The two-phase linear regression analysis is considered more appropriate for biological analysis of dose-response curves. Considering the inherent problems associated with the nitrogen balance method, we developed an alternative method, the indicator amino acid oxidation technique, to determine protein requirements The mean and population-safe requirements in adult men were determined to be 0.93 and 1.2 g/kg/day and are 41 and 50%, respectively, higher than the current Dietary Reference Intakes recommendations. SUMMARY: The indicator amino acid oxidation-based requirement values of 0.93 and 1.2 g protein/kg/day and the reanalysis of existing nitrogen balance studies are significantly higher than current recommendations.",
+      "target": "Therefore, there is an urgent need to reassess recommendations for protein intake in adult humans.",
+      "loss_target": 8.225044250488281,
+      "loss_target_given_context": 2.9649720191955566,
+      "delta_loss": 5.260072231292725,
+      "gain_ratio": 0.6395190191202266,
+      "score": -0.6395190191202266,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

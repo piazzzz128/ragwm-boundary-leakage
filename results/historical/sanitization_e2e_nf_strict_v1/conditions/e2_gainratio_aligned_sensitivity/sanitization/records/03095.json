@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5031",
+  "source_doc_id": "MED-5031",
+  "title": "Sleep Habits and Susceptibility to the Common Cold",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Sleep Habits and Susceptibility to the Common Cold\nBackground Sleep quality is thought to be an important predictor of immunity and in turn susceptibility to the common cold. This article examines whether sleep duration and efficiency in the weeks preceding viral exposure are associated with cold susceptibility. Methods Participants were 153 healthy men and women volunteers, ages 21–55. For 14 consecutive days, they reported their sleep duration and sleep efficiency (percent of time in bed actually asleep) for the previous night, and whether they felt rested. Average scores for each sleep variable were calculated over the 14-day baseline. Subsequently, participants were administered nasal drops containing a rhinovirus, quarantined and monitored on the day before and for five days following exposure for development of a clinical cold (infection in the presence of objective signs of illness). Results There was a graded association with average sleep duration, with those with <7 hours sleep 2.94 times (CI[95%]=1.18–7.30) more likely to develop a cold than those with ≥ 8 hours. The association with sleep efficiency was also graded with those with < 92% efficiency 5.50 times (CI[95%]=2.08–14.48) more likely to develop a cold than those with efficiencies ≥98%. These relations could not be explained by differences in pre-challenge virus-specific antibody, demographics, season of the year, body mass, socioeconomic status, psychological variables or health practices. Percent of days feeling rested was not associated with colds. Conclusions Poorer sleep efficiency and shorter sleep duration in the weeks preceding an exposure to a rhinovirus were associated with lower resistance to illness.",
+  "sanitized_text": "Sleep Habits and Susceptibility to the Common Cold\nBackground Sleep quality is thought to be an important predictor of immunity and in turn susceptibility to the common cold. This article examines whether sleep duration and efficiency in the weeks preceding viral exposure are associated with cold susceptibility. Methods Participants were 153 healthy men and women volunteers, ages 21–55. For 14 consecutive days, they reported their sleep duration and sleep efficiency (percent of time in bed actually asleep) for the previous night, and whether they felt rested. Average scores for each sleep variable were calculated over the 14-day baseline. Subsequently, participants were administered nasal drops containing a rhinovirus, quarantined and monitored on the day before and for five days following exposure for development of a clinical cold (infection in the presence of objective signs of illness). Results There was a graded association with average sleep duration, with those with <7 hours sleep 2.94 times (CI[95%]=1.18–7.30) more likely to develop a cold than those with ≥ 8 hours. The association with sleep efficiency was also graded with those with < 92% efficiency 5.50 times (CI[95%]=2.08–14.48) more likely to develop a cold than those with efficiencies ≥98%. These relations could not be explained by differences in pre-challenge virus-specific antibody, demographics, season of the year, body mass, socioeconomic status, psychological variables or health practices. Percent of days feeling rested was not associated with colds. Conclusions Poorer sleep efficiency and shorter sleep duration in the weeks preceding an exposure to a rhinovirus were associated with lower resistance to illness.",
+  "modified": false,
+  "original_char_count": 1708,
+  "sanitized_char_count": 1708,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1545,
+      "boundary_end": 1708,
+      "context": "men and women volunteers, ages 21–55. For 14 consecutive days, they reported their sleep duration and sleep efficiency (percent of time in bed actually asleep) for the previous night, and whether they felt rested. Average scores for each sleep variable were calculated over the 14-day baseline. Subsequently, participants were administered nasal drops containing a rhinovirus, quarantined and monitored on the day before and for five days following exposure for development of a clinical cold (infection in the presence of objective signs of illness). Results There was a graded association with average sleep duration, with those with <7 hours sleep 2.94 times (CI[95%]=1.18–7.30) more likely to develop a cold than those with ≥ 8 hours. The association with sleep efficiency was also graded with those with < 92% efficiency 5.50 times (CI[95%]=2.08–14.48) more likely to develop a cold than those with efficiencies ≥98%. These relations could not be explained by differences in pre-challenge virus-specific antibody, demographics, season of the year, body mass, socioeconomic status, psychological variables or health practices. Percent of days feeling rested was not associated with colds.",
+      "target": "Conclusions Poorer sleep efficiency and shorter sleep duration in the weeks preceding an exposure to a rhinovirus were associated with lower resistance to illness.",
+      "loss_target": 2.928309202194214,
+      "loss_target_given_context": 1.4965416193008423,
+      "delta_loss": 1.4317675828933716,
+      "gain_ratio": 0.48894002785652985,
+      "score": -0.48894002785652985,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

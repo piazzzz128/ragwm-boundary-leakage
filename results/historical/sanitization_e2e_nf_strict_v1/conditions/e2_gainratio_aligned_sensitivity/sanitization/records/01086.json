@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2315",
+  "source_doc_id": "MED-2315",
+  "title": "Promiscuous drugs compared to selective drugs (promiscuity can be a virtue)",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Promiscuous drugs compared to selective drugs (promiscuity can be a virtue)\nBackground The word selectivity describes a drug's ability to affect a particular cell population in preference to others. As part of the current state of art in the search for new therapeutic agents, the property of selectivity is a mode of action thought to have a high degree of desirability. Consequently there is a growing activity in this area of research. Selectivity is generally a worthy property in a drug because a drug having high selectivity may have a dramatic effect when there is a single agent that can be targeted against the appropriate molecular-driver involved in the pathogenesis of a disease. An example is chronic myeloid leukemia (CML). CML has a specific chromosomal abnormality, the Philadelphia chromosome, that results in a single gene that produces an abnormal protein Discussion There is a burgeoning understanding of the cellular mechanisms that control the etiology and pathogeneses of diseases. This understanding both enables and motivates the development of drugs that induce a specific action in a selected cell population; i.e., a targeted treatment. Consequently, drugs that can target distinct molecular targets involved in pathologic/pathogenetic processes, or signal-transduction pathways, are being developed. However, in most cases, diseases involve multiple abnormalities. A disease may be associated with more than one dysfunctional protein and these may be out-of-balance with each other. Likewise a drug might strongly target a protein that shares a similar active domain with other proteins. A drug may also target pleiotropic cytokines, or other proteins that have multi-physiological functions. In this way multiple normal cellular pathways can be simultaneously influenced. Long term experience with drugs supposedly designed for only a single target, but which unavoidably involve other functional effects, is uncovering the fact that molecular targeting is not medically flawless. Summary We contend that an ideal drug may be one whose efficacy is based not on the inhibition of a single target, but rather on the rebalancing of the several proteins or events, that contribute to the etiology, pathogeneses, and progression of diseases, i.e., in effect a promiscuous drug. Ideally, if this could be done at minimum drug concentration, side effects could be minimized. Corollaries to this argument are that the growing fervor for researching truly selective drugs may be imprudent when considering the totality of responses; and that the expensive screening techniques used to discover these, may be both medically and financially inefficient.",
+  "sanitized_text": "Promiscuous drugs compared to selective drugs (promiscuity can be a virtue)\nBackground The word selectivity describes a drug's ability to affect a particular cell population in preference to others. As part of the current state of art in the search for new therapeutic agents, the property of selectivity is a mode of action thought to have a high degree of desirability. Consequently there is a growing activity in this area of research. Selectivity is generally a worthy property in a drug because a drug having high selectivity may have a dramatic effect when there is a single agent that can be targeted against the appropriate molecular-driver involved in the pathogenesis of a disease. An example is chronic myeloid leukemia (CML). CML has a specific chromosomal abnormality, the Philadelphia chromosome, that results in a single gene that produces an abnormal protein Discussion There is a burgeoning understanding of the cellular mechanisms that control the etiology and pathogeneses of diseases. This understanding both enables and motivates the development of drugs that induce a specific action in a selected cell population; i.e., a targeted treatment. Consequently, drugs that can target distinct molecular targets involved in pathologic/pathogenetic processes, or signal-transduction pathways, are being developed. However, in most cases, diseases involve multiple abnormalities. A disease may be associated with more than one dysfunctional protein and these may be out-of-balance with each other. Likewise a drug might strongly target a protein that shares a similar active domain with other proteins. A drug may also target pleiotropic cytokines, or other proteins that have multi-physiological functions. In this way multiple normal cellular pathways can be simultaneously influenced. Long term experience with drugs supposedly designed for only a single target, but which unavoidably involve other functional effects, is uncovering the fact that molecular targeting is not medically flawless. Summary We contend that an ideal drug may be one whose efficacy is based not on the inhibition of a single target, but rather on the rebalancing of the several proteins or events, that contribute to the etiology, pathogeneses, and progression of diseases, i.e., in effect a promiscuous drug. Ideally, if this could be done at minimum drug concentration, side effects could be minimized.",
+  "modified": true,
+  "original_char_count": 2672,
+  "sanitized_char_count": 2397,
+  "deleted_char_count": 275,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 2398,
+      "boundary_end": 2672,
+      "context": "distinct molecular targets involved in pathologic/pathogenetic processes, or signal-transduction pathways, are being developed. However, in most cases, diseases involve multiple abnormalities. A disease may be associated with more than one dysfunctional protein and these may be out-of-balance with each other. Likewise a drug might strongly target a protein that shares a similar active domain with other proteins. A drug may also target pleiotropic cytokines, or other proteins that have multi-physiological functions. In this way multiple normal cellular pathways can be simultaneously influenced. Long term experience with drugs supposedly designed for only a single target, but which unavoidably involve other functional effects, is uncovering the fact that molecular targeting is not medically flawless. Summary We contend that an ideal drug may be one whose efficacy is based not on the inhibition of a single target, but rather on the rebalancing of the several proteins or events, that contribute to the etiology, pathogeneses, and progression of diseases, i.e., in effect a promiscuous drug. Ideally, if this could be done at minimum drug concentration, side effects could be minimized.",
+      "target": "Corollaries to this argument are that the growing fervor for researching truly selective drugs may be imprudent when considering the totality of responses; and that the expensive screening techniques used to discover these, may be both medically and financially inefficient.",
+      "loss_target": 3.9589385986328125,
+      "loss_target_given_context": 3.2680001258850098,
+      "delta_loss": 0.6909384727478027,
+      "gain_ratio": 0.17452619067808042,
+      "score": -0.17452619067808042,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 2303,
+      "boundary_end": 2397,
+      "context": "in a selected cell population; i.e., a targeted treatment. Consequently, drugs that can target distinct molecular targets involved in pathologic/pathogenetic processes, or signal-transduction pathways, are being developed. However, in most cases, diseases involve multiple abnormalities. A disease may be associated with more than one dysfunctional protein and these may be out-of-balance with each other. Likewise a drug might strongly target a protein that shares a similar active domain with other proteins. A drug may also target pleiotropic cytokines, or other proteins that have multi-physiological functions. In this way multiple normal cellular pathways can be simultaneously influenced. Long term experience with drugs supposedly designed for only a single target, but which unavoidably involve other functional effects, is uncovering the fact that molecular targeting is not medically flawless. Summary We contend that an ideal drug may be one whose efficacy is based not on the inhibition of a single target, but rather on the rebalancing of the several proteins or events, that contribute to the etiology, pathogeneses, and progression of diseases, i.e., in effect a promiscuous drug.",
+      "target": "Ideally, if this could be done at minimum drug concentration, side effects could be minimized.",
+      "loss_target": 3.003596067428589,
+      "loss_target_given_context": 2.2694997787475586,
+      "delta_loss": 0.7340962886810303,
+      "gain_ratio": 0.2444057963191762,
+      "score": -0.2444057963191762,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 2398,
+      "target": "Corollaries to this argument are that the growing fervor for researching truly selective drugs may be imprudent when considering the totality of responses; and that the expensive screening techniques used to discover these, may be both medically and financially inefficient.",
+      "score": -0.17452619067808042,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Corollaries to this argument are that the growing fervor for researching truly selective drugs may be imprudent when considering the totality of responses; and that the expensive screening techniques used to discover these, may be both medically and financially inefficient.",
+      "deleted_char_count": 274
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

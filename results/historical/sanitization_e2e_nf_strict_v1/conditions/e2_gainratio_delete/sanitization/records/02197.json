@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3933",
+  "source_doc_id": "MED-3933",
+  "title": "Clinical and pharmacokinetic effects of a diet rich in insoluble fiber on Parkinson disease.",
+  "original_text": "Clinical and pharmacokinetic effects of a diet rich in insoluble fiber on Parkinson disease.\nIn this study, the effects of a diet rich in insoluble fiber (DRIF) on motor disability and the peripheral pharmacokinetics of orally administered L-dopa in Parkinsonian patients with marked constipation are analyzed. We found a useful effect of a DRIF on plasma L-dopa concentration and motor function. The greatest effect on the plasma L-dopa levels was found early (at 30 and 60 min) after oral administration. There was a relationship between the improvement of constipation and the higher bioavailability of L-dopa. DRIF can be a coadjuvant treatment in patients with Parkinson's disease. The measurement of constipation is associated with vitamin D deficiency.",
+  "sanitized_text": "Clinical and pharmacokinetic effects of a diet rich in insoluble fiber on Parkinson disease.\nIn this study, the effects of a diet rich in insoluble fiber (DRIF) on motor disability and the peripheral pharmacokinetics of orally administered L-dopa in Parkinsonian patients with marked constipation are analyzed. We found a useful effect of a DRIF on plasma L-dopa concentration and motor function. The greatest effect on the plasma L-dopa levels was found early (at 30 and 60 min) after oral administration. There was a relationship between the improvement of constipation and the higher bioavailability of L-dopa. DRIF can be a coadjuvant treatment in patients with Parkinson's disease.",
+  "modified": true,
+  "original_char_count": 759,
+  "sanitized_char_count": 686,
+  "deleted_char_count": 73,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 687,
+      "boundary_end": 759,
+      "context": "Clinical and pharmacokinetic effects of a diet rich in insoluble fiber on Parkinson disease. In this study, the effects of a diet rich in insoluble fiber (DRIF) on motor disability and the peripheral pharmacokinetics of orally administered L-dopa in Parkinsonian patients with marked constipation are analyzed. We found a useful effect of a DRIF on plasma L-dopa concentration and motor function. The greatest effect on the plasma L-dopa levels was found early (at 30 and 60 min) after oral administration. There was a relationship between the improvement of constipation and the higher bioavailability of L-dopa. DRIF can be a coadjuvant treatment in patients with Parkinson's disease.",
+      "target": "The measurement of constipation is associated with vitamin D deficiency.",
+      "loss_target": 4.406158924102783,
+      "loss_target_given_context": 4.382277011871338,
+      "delta_loss": 0.023881912231445312,
+      "gain_ratio": 0.0054201204819929035,
+      "score": -0.0054201204819929035,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 614,
+      "boundary_end": 686,
+      "context": "Clinical and pharmacokinetic effects of a diet rich in insoluble fiber on Parkinson disease. In this study, the effects of a diet rich in insoluble fiber (DRIF) on motor disability and the peripheral pharmacokinetics of orally administered L-dopa in Parkinsonian patients with marked constipation are analyzed. We found a useful effect of a DRIF on plasma L-dopa concentration and motor function. The greatest effect on the plasma L-dopa levels was found early (at 30 and 60 min) after oral administration. There was a relationship between the improvement of constipation and the higher bioavailability of L-dopa.",
+      "target": "DRIF can be a coadjuvant treatment in patients with Parkinson's disease.",
+      "loss_target": 3.0672707557678223,
+      "loss_target_given_context": 1.9435415267944336,
+      "delta_loss": 1.1237292289733887,
+      "gain_ratio": 0.36636127634323834,
+      "score": -0.36636127634323834,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 687,
+      "target": "The measurement of constipation is associated with vitamin D deficiency.",
+      "score": -0.0054201204819929035,
+      "deleted_suffix": "The measurement of constipation is associated with vitamin D deficiency.",
+      "deleted_char_count": 72
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

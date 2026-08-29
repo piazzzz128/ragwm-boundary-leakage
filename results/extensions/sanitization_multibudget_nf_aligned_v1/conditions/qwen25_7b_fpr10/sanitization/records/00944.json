@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2149",
+  "source_doc_id": "MED-2149",
+  "title": "Legume intake is inversely associated with metabolic syndrome in adults.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Legume intake is inversely associated with metabolic syndrome in adults.\nBACKGROUND: Studies on the association between legume intake and metabolic syndrome (MetS) are sparse. The objective of this study is to evaluate the association between legume intake, MetS, and its components. METHODS: This study was conducted on 80 subjects (48% female) with MetS as cases and 160 age and gender-matched healthy controls. Anthropometric measures, blood pressure, fasting blood glucose, and lipid profiles were evaluated by standard methods. Dietary data were collected using a food frequency questionnaire (FFQ) and legume intake was determined. MetS was defined according to the definition of the Adult Treatment Panel III. RESULTS: The mean (SD) intake of legumes was 1.4 (0.9) servings/week for cases and 2.3 (1.1) servings/week for control subjects (P < 0.05). After adjustment for potential confounders, decreases in mean systolic blood pressure, fasting blood glucose, and increase in HDL cholesterol levels were observed across increasing quartile categories of legume intake. After adjustments for life style and food groups, subjects in the highest quartile of legume intake had lower odds of having MetS compared with those in the lowest quartile [odds ratio (OR): 0.25; 95% CI: 0.11 - 0.64, P < 0.05], an association that weakened after adjustment for body mass index (BMI), but remained significant (OR: 0.28; 95% CI: 0.12 - 0.81, P < 0.05). CONCLUSIONS: Legume intake is inversely associated with the risk of having MetS and some of its components.",
+  "sanitized_text": "Legume intake is inversely associated with metabolic syndrome in adults.\nBACKGROUND: Studies on the association between legume intake and metabolic syndrome (MetS) are sparse. The objective of this study is to evaluate the association between legume intake, MetS, and its components. METHODS: This study was conducted on 80 subjects (48% female) with MetS as cases and 160 age and gender-matched healthy controls. Anthropometric measures, blood pressure, fasting blood glucose, and lipid profiles were evaluated by standard methods. Dietary data were collected using a food frequency questionnaire (FFQ) and legume intake was determined. MetS was defined according to the definition of the Adult Treatment Panel III. RESULTS: The mean (SD) intake of legumes was 1.4 (0.9) servings/week for cases and 2.3 (1.1) servings/week for control subjects (P < 0.05). After adjustment for potential confounders, decreases in mean systolic blood pressure, fasting blood glucose, and increase in HDL cholesterol levels were observed across increasing quartile categories of legume intake. After adjustments for life style and food groups, subjects in the highest quartile of legume intake had lower odds of having MetS compared with those in the lowest quartile [odds ratio (OR): 0.25; 95% CI: 0.11 - 0.64, P < 0.05], an association that weakened after adjustment for body mass index (BMI), but remained significant (OR: 0.28; 95% CI: 0.12 - 0.81, P < 0.05). CONCLUSIONS: Legume intake is inversely associated with the risk of having MetS and some of its components.",
+  "modified": false,
+  "original_char_count": 1553,
+  "sanitized_char_count": 1553,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1446,
+      "boundary_end": 1553,
+      "context": "intake, MetS, and its components. METHODS: This study was conducted on 80 subjects (48% female) with MetS as cases and 160 age and gender-matched healthy controls. Anthropometric measures, blood pressure, fasting blood glucose, and lipid profiles were evaluated by standard methods. Dietary data were collected using a food frequency questionnaire (FFQ) and legume intake was determined. MetS was defined according to the definition of the Adult Treatment Panel III. RESULTS: The mean (SD) intake of legumes was 1.4 (0.9) servings/week for cases and 2.3 (1.1) servings/week for control subjects (P < 0.05). After adjustment for potential confounders, decreases in mean systolic blood pressure, fasting blood glucose, and increase in HDL cholesterol levels were observed across increasing quartile categories of legume intake. After adjustments for life style and food groups, subjects in the highest quartile of legume intake had lower odds of having MetS compared with those in the lowest quartile [odds ratio (OR): 0.25; 95% CI: 0.11 - 0.64, P < 0.05], an association that weakened after adjustment for body mass index (BMI), but remained significant (OR: 0.28; 95% CI: 0.12 - 0.81, P < 0.05).",
+      "target": "CONCLUSIONS: Legume intake is inversely associated with the risk of having MetS and some of its components.",
+      "loss_target": 2.025092601776123,
+      "loss_target_given_context": 0.705099880695343,
+      "delta_loss": 1.31999272108078,
+      "gain_ratio": 0.651818450140537,
+      "score": -0.651818450140537,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

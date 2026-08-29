@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5110",
+  "source_doc_id": "MED-5110",
+  "title": "Applying morphologic techniques to evaluate hotdogs: what is in the hotdogs we eat?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Applying morphologic techniques to evaluate hotdogs: what is in the hotdogs we eat?\nAmericans consume billions of hotdogs per year resulting in more than a billion dollars in retail sales. Package labels typically list some type of meat as the primary ingredient. The purpose of this study is to assess the meat and water content of several hotdog brands to determine if the package labels are accurate. Eight brands of hotdogs were evaluated for water content by weight. A variety of routine techniques in surgical pathology including routine light microscopy with hematoxylin-eosin-stained sections, special staining, immunohistochemistry, and electron microscopy were used to assess for meat content and for other recognizable components. Package labels indicated that the top-listed ingredient in all 8 brands was meat; the second listed ingredient was water (n = 6) and another type of meat (n = 2). Water comprised 44% to 69% (median, 57%) of the total weight. Meat content determined by microscopic cross-section analysis ranged from 2.9% to 21.2% (median, 5.7%). The cost per hotdog ($0.12-$0.42) roughly correlated with meat content. A variety of tissues were observed besides skeletal muscle including bone (n = 8), collagen (n = 8), blood vessels (n = 8), plant material (n = 8), peripheral nerve (n = 7), adipose (n = 5), cartilage (n = 4), and skin (n = 1). Glial fibrillary acidic protein immunostaining was not observed in any of the hotdogs. Lipid content on oil red O staining was graded as moderate in 3 hotdogs and marked in 5 hotdogs. Electron microscopy showed recognizable skeletal muscle with evidence of degenerative changes. In conclusion, hotdog ingredient labels are misleading; most brands are more than 50% water by weight. The amount of meat (skeletal muscle) in most brands comprised less than 10% of the cross-sectional surface area. More expensive brands generally had more meat. All hotdogs contained other tissue types (bone and cartilage) not related to skeletal muscle; brain tissue was not present.",
+  "sanitized_text": "Applying morphologic techniques to evaluate hotdogs: what is in the hotdogs we eat?\nAmericans consume billions of hotdogs per year resulting in more than a billion dollars in retail sales. Package labels typically list some type of meat as the primary ingredient. The purpose of this study is to assess the meat and water content of several hotdog brands to determine if the package labels are accurate. Eight brands of hotdogs were evaluated for water content by weight. A variety of routine techniques in surgical pathology including routine light microscopy with hematoxylin-eosin-stained sections, special staining, immunohistochemistry, and electron microscopy were used to assess for meat content and for other recognizable components. Package labels indicated that the top-listed ingredient in all 8 brands was meat; the second listed ingredient was water (n = 6) and another type of meat (n = 2). Water comprised 44% to 69% (median, 57%) of the total weight. Meat content determined by microscopic cross-section analysis ranged from 2.9% to 21.2% (median, 5.7%). The cost per hotdog ($0.12-$0.42) roughly correlated with meat content. A variety of tissues were observed besides skeletal muscle including bone (n = 8), collagen (n = 8), blood vessels (n = 8), plant material (n = 8), peripheral nerve (n = 7), adipose (n = 5), cartilage (n = 4), and skin (n = 1). Glial fibrillary acidic protein immunostaining was not observed in any of the hotdogs. Lipid content on oil red O staining was graded as moderate in 3 hotdogs and marked in 5 hotdogs. Electron microscopy showed recognizable skeletal muscle with evidence of degenerative changes. In conclusion, hotdog ingredient labels are misleading; most brands are more than 50% water by weight. The amount of meat (skeletal muscle) in most brands comprised less than 10% of the cross-sectional surface area. More expensive brands generally had more meat. All hotdogs contained other tissue types (bone and cartilage) not related to skeletal muscle; brain tissue was not present.",
+  "modified": false,
+  "original_char_count": 2036,
+  "sanitized_char_count": 2036,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1913,
+      "boundary_end": 2036,
+      "context": "recognizable components. Package labels indicated that the top-listed ingredient in all 8 brands was meat; the second listed ingredient was water (n = 6) and another type of meat (n = 2). Water comprised 44% to 69% (median, 57%) of the total weight. Meat content determined by microscopic cross-section analysis ranged from 2.9% to 21.2% (median, 5.7%). The cost per hotdog ($0.12-$0.42) roughly correlated with meat content. A variety of tissues were observed besides skeletal muscle including bone (n = 8), collagen (n = 8), blood vessels (n = 8), plant material (n = 8), peripheral nerve (n = 7), adipose (n = 5), cartilage (n = 4), and skin (n = 1). Glial fibrillary acidic protein immunostaining was not observed in any of the hotdogs. Lipid content on oil red O staining was graded as moderate in 3 hotdogs and marked in 5 hotdogs. Electron microscopy showed recognizable skeletal muscle with evidence of degenerative changes. In conclusion, hotdog ingredient labels are misleading; most brands are more than 50% water by weight. The amount of meat (skeletal muscle) in most brands comprised less than 10% of the cross-sectional surface area. More expensive brands generally had more meat.",
+      "target": "All hotdogs contained other tissue types (bone and cartilage) not related to skeletal muscle; brain tissue was not present.",
+      "loss_target": 4.655210494995117,
+      "loss_target_given_context": 2.0380642414093018,
+      "delta_loss": 2.6171462535858154,
+      "gain_ratio": 0.5621971888058652,
+      "score": -0.5621971888058652,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

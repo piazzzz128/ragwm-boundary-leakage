@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-924",
+  "source_doc_id": "MED-924",
+  "title": "Severe metabolic alkalosis due to baking soda ingestion: case reports of two patients with unsuspected antacid overdose.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Severe metabolic alkalosis due to baking soda ingestion: case reports of two patients with unsuspected antacid overdose.\nOral ingestion of baking soda (sodium bicarbonate) has been used for decades as a home remedy for acid indigestion. Excessive bicarbonate ingestion places patients at risk for a variety of metabolic derangements including metabolic alkalosis, hypokalemia, hypernatremia, and even hypoxia. The clinical presentation is highly variable but can include seizures, dysrhythmias, and cardiopulmonary arrest. We present two cases of severe metabolic alkalosis in patients with unsuspected antacid overdose. The presentation and pathophysiology of antacid-related metabolic alkalosis is reviewed.",
+  "sanitized_text": "Severe metabolic alkalosis due to baking soda ingestion: case reports of two patients with unsuspected antacid overdose.\nOral ingestion of baking soda (sodium bicarbonate) has been used for decades as a home remedy for acid indigestion. Excessive bicarbonate ingestion places patients at risk for a variety of metabolic derangements including metabolic alkalosis, hypokalemia, hypernatremia, and even hypoxia. The clinical presentation is highly variable but can include seizures, dysrhythmias, and cardiopulmonary arrest. We present two cases of severe metabolic alkalosis in patients with unsuspected antacid overdose. The presentation and pathophysiology of antacid-related metabolic alkalosis is reviewed.",
+  "modified": false,
+  "original_char_count": 709,
+  "sanitized_char_count": 709,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 621,
+      "boundary_end": 709,
+      "context": "Severe metabolic alkalosis due to baking soda ingestion: case reports of two patients with unsuspected antacid overdose. Oral ingestion of baking soda (sodium bicarbonate) has been used for decades as a home remedy for acid indigestion. Excessive bicarbonate ingestion places patients at risk for a variety of metabolic derangements including metabolic alkalosis, hypokalemia, hypernatremia, and even hypoxia. The clinical presentation is highly variable but can include seizures, dysrhythmias, and cardiopulmonary arrest. We present two cases of severe metabolic alkalosis in patients with unsuspected antacid overdose.",
+      "target": "The presentation and pathophysiology of antacid-related metabolic alkalosis is reviewed.",
+      "loss_target": 3.597992181777954,
+      "loss_target_given_context": 1.4566001892089844,
+      "delta_loss": 2.1413919925689697,
+      "gain_ratio": 0.5951630477170179,
+      "score": -0.5951630477170179,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

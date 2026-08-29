@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2024",
+  "source_doc_id": "MED-2024",
+  "title": "Cutting-edge issues in celiac disease and in gluten intolerance.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cutting-edge issues in celiac disease and in gluten intolerance.\nCeliac disease (CD) is a gluten-dependent immune-mediated disease with a prevalence in the general population estimated between 0.3% and 1.2%. Large-scale epidemiological studies have shown that only 10-20% of cases of CD are identified on the basis of clinical findings and that laboratory tests are crucial to identify subjects with subtle or atypical symptoms. The correct choice and clinical use of these diagnostic tools may enable accurate diagnosis and early recognition of silent CD cases. In this review, we have considered some relevant aspects related to the laboratory diagnosis of CD and, more extensively, of gluten intolerance, such as the best combination of tests for early and accurate diagnosis, the diagnostic role of new tests for detecting antibodies against neoepitopes produced by the transglutaminase-gliadin complex, the forms of non-celiac gluten intolerance (gluten sensitivity), and the use and significance of measuring cytokines in CD.",
+  "sanitized_text": "Cutting-edge issues in celiac disease and in gluten intolerance.\nCeliac disease (CD) is a gluten-dependent immune-mediated disease with a prevalence in the general population estimated between 0.3% and 1.2%. Large-scale epidemiological studies have shown that only 10-20% of cases of CD are identified on the basis of clinical findings and that laboratory tests are crucial to identify subjects with subtle or atypical symptoms. The correct choice and clinical use of these diagnostic tools may enable accurate diagnosis and early recognition of silent CD cases. In this review, we have considered some relevant aspects related to the laboratory diagnosis of CD and, more extensively, of gluten intolerance, such as the best combination of tests for early and accurate diagnosis, the diagnostic role of new tests for detecting antibodies against neoepitopes produced by the transglutaminase-gliadin complex, the forms of non-celiac gluten intolerance (gluten sensitivity), and the use and significance of measuring cytokines in CD.",
+  "modified": false,
+  "original_char_count": 1031,
+  "sanitized_char_count": 1031,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 563,
+      "boundary_end": 1031,
+      "context": "Cutting-edge issues in celiac disease and in gluten intolerance. Celiac disease (CD) is a gluten-dependent immune-mediated disease with a prevalence in the general population estimated between 0.3% and 1.2%. Large-scale epidemiological studies have shown that only 10-20% of cases of CD are identified on the basis of clinical findings and that laboratory tests are crucial to identify subjects with subtle or atypical symptoms. The correct choice and clinical use of these diagnostic tools may enable accurate diagnosis and early recognition of silent CD cases.",
+      "target": "In this review, we have considered some relevant aspects related to the laboratory diagnosis of CD and, more extensively, of gluten intolerance, such as the best combination of tests for early and accurate diagnosis, the diagnostic role of new tests for detecting antibodies against neoepitopes produced by the transglutaminase-gliadin complex, the forms of non-celiac gluten intolerance (gluten sensitivity), and the use and significance of measuring cytokines in CD.",
+      "loss_target": 2.5796866416931152,
+      "loss_target_given_context": 2.120180130004883,
+      "delta_loss": 0.4595065116882324,
+      "gain_ratio": 0.17812493357202733,
+      "score": -0.17812493357202733,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3619",
+  "source_doc_id": "MED-3619",
+  "title": "Update on the biological effects of ionizing radiation, relative dose factors and radiation hygiene.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Update on the biological effects of ionizing radiation, relative dose factors and radiation hygiene.\nDiagnostic imaging is an indispensable part of contemporary medical and dental practice. Over the last few decades there has been a dramatic increase in the use of ionizing radiation for diagnostic imaging. The carcinogenic effects of high-dose exposure are well known. Does diagnostic radiation rarely cause cancer? We don't know but we should act as if it does. Accordingly, dentists should select patients wisely - only make radiographs when there is patient-specific reason to believe there is a reasonable expectation the radiograph will offer unique information influencing diagnosis or treatment. Low-dose examinations should be made: intraoral imaging - use fast film or digital sensors, thyroid collars, rectangular collimation; panoramic and lateral cephalometric imaging - use digital systems or rare-earth film screen combinations; and cone beam computed tomography - use low-dose machines, restrict field size to region of interest, reduce mA and length of exposure arc as appropriate. © 2012 Australian Dental Association.",
+  "sanitized_text": "Update on the biological effects of ionizing radiation, relative dose factors and radiation hygiene.\nDiagnostic imaging is an indispensable part of contemporary medical and dental practice. Over the last few decades there has been a dramatic increase in the use of ionizing radiation for diagnostic imaging. The carcinogenic effects of high-dose exposure are well known. Does diagnostic radiation rarely cause cancer? We don't know but we should act as if it does. Accordingly, dentists should select patients wisely - only make radiographs when there is patient-specific reason to believe there is a reasonable expectation the radiograph will offer unique information influencing diagnosis or treatment. Low-dose examinations should be made: intraoral imaging - use fast film or digital sensors, thyroid collars, rectangular collimation; panoramic and lateral cephalometric imaging - use digital systems or rare-earth film screen combinations; and cone beam computed tomography - use low-dose machines, restrict field size to region of interest, reduce mA and length of exposure arc as appropriate. © 2012 Australian Dental Association.",
+  "modified": false,
+  "original_char_count": 1137,
+  "sanitized_char_count": 1137,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1100,
+      "boundary_end": 1137,
+      "context": "Update on the biological effects of ionizing radiation, relative dose factors and radiation hygiene. Diagnostic imaging is an indispensable part of contemporary medical and dental practice. Over the last few decades there has been a dramatic increase in the use of ionizing radiation for diagnostic imaging. The carcinogenic effects of high-dose exposure are well known. Does diagnostic radiation rarely cause cancer? We don't know but we should act as if it does. Accordingly, dentists should select patients wisely - only make radiographs when there is patient-specific reason to believe there is a reasonable expectation the radiograph will offer unique information influencing diagnosis or treatment. Low-dose examinations should be made: intraoral imaging - use fast film or digital sensors, thyroid collars, rectangular collimation; panoramic and lateral cephalometric imaging - use digital systems or rare-earth film screen combinations; and cone beam computed tomography - use low-dose machines, restrict field size to region of interest, reduce mA and length of exposure arc as appropriate.",
+      "target": "© 2012 Australian Dental Association.",
+      "loss_target": 2.123551368713379,
+      "loss_target_given_context": 0.6556105613708496,
+      "delta_loss": 1.4679408073425293,
+      "gain_ratio": 0.6912669168120609,
+      "score": -0.6912669168120609,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

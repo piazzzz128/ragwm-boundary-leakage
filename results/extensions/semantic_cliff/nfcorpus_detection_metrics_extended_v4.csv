@@ -1,0 +1,3 @@
+dataset,method,model,n,positive_inject,negative_clean,roc_auc,pr_auc,tpr_at_fpr_5,tpr_at_fpr_10,best_f1,score_file,score_key
+NFCorpus,Contriever + Cosine,Contriever,1000,500,500,0.91526,0.892739067780343,0.604,0.754,0.856353591160221,/root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_contriever_cosine_scores_v4.json,embedding_anomaly_score
+NFCorpus,GainRatio,Qwen2.5-7B,1000,500,500,0.9432760000000001,0.8817921510620208,0.696,0.89,0.9040835707502374,/root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_delta_loss_scores_qwen2_5_7b_v4.json,gain_anomaly_score

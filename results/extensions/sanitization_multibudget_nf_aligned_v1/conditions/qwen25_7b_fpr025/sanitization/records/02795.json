@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4702",
+  "source_doc_id": "MED-4702",
+  "title": "Delayed gastric emptying rate may explain improved glycaemia in healthy subjects to a starchy meal with added vinegar.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Delayed gastric emptying rate may explain improved glycaemia in healthy subjects to a starchy meal with added vinegar.\nOBJECTIVES: The aim of the study was to evaluate the possible influence of acetic acid (administered as vinegar) on the postprandial glucose and insulin responses, and the potential involvement of a modified gastric emptying rate was studied by use of paracetamol as a marker. DESIGN: The white bread reference meal as well as the corresponding meal supplemented with vinegar had the same content of starch, protein and fat. The meals were served in the morning after an over-night fast and in random order. Capillary blood samples for analysis of glucose, insulin and paracetamol were collected postprandially. SETTING: The study was performed at the Department of Applied Nutrition and Food Chemistry, Lund University, Sweden. SUBJECTS: Ten healthy volunteers, seven women and three men, aged 22-51 y, with normal body mass indices were recruited. RESULTS: The presence of acetic acid, given as vinegar, significantly reduced the postprandial glucose (GI=64) and insulin responses (II=65) to a starchy meal. As judged from lowered paracetamol levels after the test meal with vinegar, the mechanism is probably a delayed gastric emptying rate. CONCLUSIONS: Fermented foods or food products with added organic acids should preferably be included in the diet in order to reduce glycaemia and insulin demand.",
+  "sanitized_text": "Delayed gastric emptying rate may explain improved glycaemia in healthy subjects to a starchy meal with added vinegar.\nOBJECTIVES: The aim of the study was to evaluate the possible influence of acetic acid (administered as vinegar) on the postprandial glucose and insulin responses, and the potential involvement of a modified gastric emptying rate was studied by use of paracetamol as a marker. DESIGN: The white bread reference meal as well as the corresponding meal supplemented with vinegar had the same content of starch, protein and fat. The meals were served in the morning after an over-night fast and in random order. Capillary blood samples for analysis of glucose, insulin and paracetamol were collected postprandially. SETTING: The study was performed at the Department of Applied Nutrition and Food Chemistry, Lund University, Sweden. SUBJECTS: Ten healthy volunteers, seven women and three men, aged 22-51 y, with normal body mass indices were recruited. RESULTS: The presence of acetic acid, given as vinegar, significantly reduced the postprandial glucose (GI=64) and insulin responses (II=65) to a starchy meal. As judged from lowered paracetamol levels after the test meal with vinegar, the mechanism is probably a delayed gastric emptying rate. CONCLUSIONS: Fermented foods or food products with added organic acids should preferably be included in the diet in order to reduce glycaemia and insulin demand.",
+  "modified": false,
+  "original_char_count": 1425,
+  "sanitized_char_count": 1425,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1264,
+      "boundary_end": 1425,
+      "context": "healthy subjects to a starchy meal with added vinegar. OBJECTIVES: The aim of the study was to evaluate the possible influence of acetic acid (administered as vinegar) on the postprandial glucose and insulin responses, and the potential involvement of a modified gastric emptying rate was studied by use of paracetamol as a marker. DESIGN: The white bread reference meal as well as the corresponding meal supplemented with vinegar had the same content of starch, protein and fat. The meals were served in the morning after an over-night fast and in random order. Capillary blood samples for analysis of glucose, insulin and paracetamol were collected postprandially. SETTING: The study was performed at the Department of Applied Nutrition and Food Chemistry, Lund University, Sweden. SUBJECTS: Ten healthy volunteers, seven women and three men, aged 22-51 y, with normal body mass indices were recruited. RESULTS: The presence of acetic acid, given as vinegar, significantly reduced the postprandial glucose (GI=64) and insulin responses (II=65) to a starchy meal. As judged from lowered paracetamol levels after the test meal with vinegar, the mechanism is probably a delayed gastric emptying rate.",
+      "target": "CONCLUSIONS: Fermented foods or food products with added organic acids should preferably be included in the diet in order to reduce glycaemia and insulin demand.",
+      "loss_target": 2.6690447330474854,
+      "loss_target_given_context": 2.076503038406372,
+      "delta_loss": 0.5925416946411133,
+      "gain_ratio": 0.2220051568654512,
+      "score": -0.2220051568654512,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

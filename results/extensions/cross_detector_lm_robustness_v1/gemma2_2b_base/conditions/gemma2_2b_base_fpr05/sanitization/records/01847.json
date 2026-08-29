@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3510",
+  "source_doc_id": "MED-3510",
+  "title": "A risk-benefit assessment of cisapride in the treatment of gastrointestinal disorders.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A risk-benefit assessment of cisapride in the treatment of gastrointestinal disorders.\nCisapride is a substituted benzamide compound that stimulates motor activity in all segments of the gastrointestinal tract by enhancing the release of acetylcholine from the enteric nervous system. Cisapride is administered orally in the treatment of gastro-oesophageal reflux disease, functional dyspepsia, gastroparesis, chronic intestinal pseudo-obstruction syndromes and chronic constipation. In gastro-oesophageal reflux disease in both adults and children, cisapride provides symptomatic improvement and mucosal healing. Long term treatment with cisapride is effective in the prevention of relapse of oesophagitis. Cisapride improves gastric emptying rates and improves symptoms in patients with gastroparesis of various origins. Unlike domperidone and metoclopramide, long term administration of cisapride seems to result in persistently enhanced gastric emptying. Cisapride is also effective in improving symptoms in patients with functional dyspepsia. In comparative studies in patients with functional dyspepsia, cisapride was at least as effective as metoclopramide, domperidone, clebopride, ranitidine and cimetidine. Cisapride increases stool frequency and reduces laxative consumption in patients with idiopathic constipation. Severe cases of slow transit constipation seem refractory to cisapride. Clinical studies also indicate that cisapride might be effective in the treatment of chronic intestinal pseudo-obstruction, postoperative ileus, peptic ulcer and irritable bowel syndrome. Further clinical studies are warranted to define the role of cisapride in these conditions. The dosage of cisapride ranges from 5mg 3 times daily to 20mg twice daily. Cisapride is generally well tolerated, both during short and long term treatment. In children, cisapride is also well tolerated in doses of 0.2 to 0.3 mg/kg, 3 to 4 times daily.(ABSTRACT TRUNCATED AT 250 WORDS)",
+  "sanitized_text": "A risk-benefit assessment of cisapride in the treatment of gastrointestinal disorders.\nCisapride is a substituted benzamide compound that stimulates motor activity in all segments of the gastrointestinal tract by enhancing the release of acetylcholine from the enteric nervous system. Cisapride is administered orally in the treatment of gastro-oesophageal reflux disease, functional dyspepsia, gastroparesis, chronic intestinal pseudo-obstruction syndromes and chronic constipation. In gastro-oesophageal reflux disease in both adults and children, cisapride provides symptomatic improvement and mucosal healing. Long term treatment with cisapride is effective in the prevention of relapse of oesophagitis. Cisapride improves gastric emptying rates and improves symptoms in patients with gastroparesis of various origins. Unlike domperidone and metoclopramide, long term administration of cisapride seems to result in persistently enhanced gastric emptying. Cisapride is also effective in improving symptoms in patients with functional dyspepsia. In comparative studies in patients with functional dyspepsia, cisapride was at least as effective as metoclopramide, domperidone, clebopride, ranitidine and cimetidine. Cisapride increases stool frequency and reduces laxative consumption in patients with idiopathic constipation. Severe cases of slow transit constipation seem refractory to cisapride. Clinical studies also indicate that cisapride might be effective in the treatment of chronic intestinal pseudo-obstruction, postoperative ileus, peptic ulcer and irritable bowel syndrome. Further clinical studies are warranted to define the role of cisapride in these conditions. The dosage of cisapride ranges from 5mg 3 times daily to 20mg twice daily. Cisapride is generally well tolerated, both during short and long term treatment. In children, cisapride is also well tolerated in doses of 0.2 to 0.3 mg/kg, 3 to 4 times daily.(ABSTRACT TRUNCATED AT 250 WORDS)",
+  "modified": false,
+  "original_char_count": 1965,
+  "sanitized_char_count": 1965,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1837,
+      "boundary_end": 1965,
+      "context": "cisapride is effective in the prevention of relapse of oesophagitis. Cisapride improves gastric emptying rates and improves symptoms in patients with gastroparesis of various origins. Unlike domperidone and metoclopramide, long term administration of cisapride seems to result in persistently enhanced gastric emptying. Cisapride is also effective in improving symptoms in patients with functional dyspepsia. In comparative studies in patients with functional dyspepsia, cisapride was at least as effective as metoclopramide, domperidone, clebopride, ranitidine and cimetidine. Cisapride increases stool frequency and reduces laxative consumption in patients with idiopathic constipation. Severe cases of slow transit constipation seem refractory to cisapride. Clinical studies also indicate that cisapride might be effective in the treatment of chronic intestinal pseudo-obstruction, postoperative ileus, peptic ulcer and irritable bowel syndrome. Further clinical studies are warranted to define the role of cisapride in these conditions. The dosage of cisapride ranges from 5mg 3 times daily to 20mg twice daily. Cisapride is generally well tolerated, both during short and long term treatment.",
+      "target": "In children, cisapride is also well tolerated in doses of 0.2 to 0.3 mg/kg, 3 to 4 times daily.(ABSTRACT TRUNCATED AT 250 WORDS)",
+      "loss_target": 7.207235336303711,
+      "loss_target_given_context": 2.691413164138794,
+      "delta_loss": 4.515822172164917,
+      "gain_ratio": 0.6265678809484932,
+      "score": -0.6265678809484932,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

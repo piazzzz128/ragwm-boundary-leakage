@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2720",
+  "source_doc_id": "MED-2720",
+  "title": "Potential effect of physical activity based menu labels on the calorie content of selected fast food meals.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Potential effect of physical activity based menu labels on the calorie content of selected fast food meals.\nIn this study we examined the effect of physical activity based labels on the calorie content of meals selected from a sample fast food menu. Using a web-based survey, participants were randomly assigned to one of four menus which differed only in their labeling schemes (n=802): (1) a menu with no nutritional information, (2) a menu with calorie information, (3) a menu with calorie information and minutes to walk to burn those calories, or (4) a menu with calorie information and miles to walk to burn those calories. There was a significant difference in the mean number of calories ordered based on menu type (p=0.02), with an average of 1020 calories ordered from a menu with no nutritional information, 927 calories ordered from a menu with only calorie information, 916 calories ordered from a menu with both calorie information and minutes to walk to burn those calories, and 826 calories ordered from the menu with calorie information and the number of miles to walk to burn those calories. The menu with calories and the number of miles to walk to burn those calories appeared the most effective in influencing the selection of lower calorie meals (p=0.0007) when compared to the menu with no nutritional information provided. The majority of participants (82%) reported a preference for physical activity based menu labels over labels with calorie information alone and no nutritional information. Whether these labels are effective in real-life scenarios remains to be tested. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Potential effect of physical activity based menu labels on the calorie content of selected fast food meals.\nIn this study we examined the effect of physical activity based labels on the calorie content of meals selected from a sample fast food menu. Using a web-based survey, participants were randomly assigned to one of four menus which differed only in their labeling schemes (n=802): (1) a menu with no nutritional information, (2) a menu with calorie information, (3) a menu with calorie information and minutes to walk to burn those calories, or (4) a menu with calorie information and miles to walk to burn those calories. There was a significant difference in the mean number of calories ordered based on menu type (p=0.02), with an average of 1020 calories ordered from a menu with no nutritional information, 927 calories ordered from a menu with only calorie information, 916 calories ordered from a menu with both calorie information and minutes to walk to burn those calories, and 826 calories ordered from the menu with calorie information and the number of miles to walk to burn those calories. The menu with calories and the number of miles to walk to burn those calories appeared the most effective in influencing the selection of lower calorie meals (p=0.0007) when compared to the menu with no nutritional information provided. The majority of participants (82%) reported a preference for physical activity based menu labels over labels with calorie information alone and no nutritional information. Whether these labels are effective in real-life scenarios remains to be tested. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1650,
+  "sanitized_char_count": 1650,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1599,
+      "boundary_end": 1629,
+      "context": "with no nutritional information, (2) a menu with calorie information, (3) a menu with calorie information and minutes to walk to burn those calories, or (4) a menu with calorie information and miles to walk to burn those calories. There was a significant difference in the mean number of calories ordered based on menu type (p=0.02), with an average of 1020 calories ordered from a menu with no nutritional information, 927 calories ordered from a menu with only calorie information, 916 calories ordered from a menu with both calorie information and minutes to walk to burn those calories, and 826 calories ordered from the menu with calorie information and the number of miles to walk to burn those calories. The menu with calories and the number of miles to walk to burn those calories appeared the most effective in influencing the selection of lower calorie meals (p=0.0007) when compared to the menu with no nutritional information provided. The majority of participants (82%) reported a preference for physical activity based menu labels over labels with calorie information alone and no nutritional information. Whether these labels are effective in real-life scenarios remains to be tested.",
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "loss_target": 4.34721040725708,
+      "loss_target_given_context": 2.7240779399871826,
+      "delta_loss": 1.6231324672698975,
+      "gain_ratio": 0.3733733395007284,
+      "score": -0.3733733395007284,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

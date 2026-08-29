@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3567",
+  "source_doc_id": "MED-3567",
+  "title": "Nonfatal bathroom injuries among persons aged ≥15 years--United States, 2008.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Nonfatal bathroom injuries among persons aged ≥15 years--United States, 2008.\nIn 2008, approximately 21.8 million persons aged ≥15 years sustained nonfatal, unintentional injuries, resulting in approximately $67.3 billion in lifetime medical costs. Information about where injuries occur is limited, but bathrooms commonly are believed to be a particularly hazardous location. To investigate this assumption, CDC analyzed data from a nationally representative sample of emergency departments (EDs) to describe the incidence and circumstances of nonfatal injuries in bathrooms (in any setting) among persons aged ≥15 years in the United States. This report describes the results of that investigation, which found that, based on 3,339 cases documented in the 2008 National Electronic Surveillance System All Injury Program (NEISS-AIP) database, an estimated 234,094 nonfatal bathroom injuries were treated in U.S. EDs. Injury rates increased with age, and most injuries (81.1%) were caused by falls. All persons, but especially older adults, should be aware of bathroom activities that are associated with a high risk for injury and of environmental modifications that might reduce that risk.",
+  "sanitized_text": "Nonfatal bathroom injuries among persons aged ≥15 years--United States, 2008.\nIn 2008, approximately 21.8 million persons aged ≥15 years sustained nonfatal, unintentional injuries, resulting in approximately $67.3 billion in lifetime medical costs. Information about where injuries occur is limited, but bathrooms commonly are believed to be a particularly hazardous location. To investigate this assumption, CDC analyzed data from a nationally representative sample of emergency departments (EDs) to describe the incidence and circumstances of nonfatal injuries in bathrooms (in any setting) among persons aged ≥15 years in the United States. This report describes the results of that investigation, which found that, based on 3,339 cases documented in the 2008 National Electronic Surveillance System All Injury Program (NEISS-AIP) database, an estimated 234,094 nonfatal bathroom injuries were treated in U.S. EDs. Injury rates increased with age, and most injuries (81.1%) were caused by falls. All persons, but especially older adults, should be aware of bathroom activities that are associated with a high risk for injury and of environmental modifications that might reduce that risk.",
+  "modified": false,
+  "original_char_count": 1191,
+  "sanitized_char_count": 1191,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 999,
+      "boundary_end": 1191,
+      "context": "Nonfatal bathroom injuries among persons aged ≥15 years--United States, 2008. In 2008, approximately 21.8 million persons aged ≥15 years sustained nonfatal, unintentional injuries, resulting in approximately $67.3 billion in lifetime medical costs. Information about where injuries occur is limited, but bathrooms commonly are believed to be a particularly hazardous location. To investigate this assumption, CDC analyzed data from a nationally representative sample of emergency departments (EDs) to describe the incidence and circumstances of nonfatal injuries in bathrooms (in any setting) among persons aged ≥15 years in the United States. This report describes the results of that investigation, which found that, based on 3,339 cases documented in the 2008 National Electronic Surveillance System All Injury Program (NEISS-AIP) database, an estimated 234,094 nonfatal bathroom injuries were treated in U.S. EDs. Injury rates increased with age, and most injuries (81.1%) were caused by falls.",
+      "target": "All persons, but especially older adults, should be aware of bathroom activities that are associated with a high risk for injury and of environmental modifications that might reduce that risk.",
+      "loss_target": 2.7700648307800293,
+      "loss_target_given_context": 1.5300153493881226,
+      "delta_loss": 1.2400494813919067,
+      "gain_ratio": 0.4476608155927954,
+      "score": -0.4476608155927954,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

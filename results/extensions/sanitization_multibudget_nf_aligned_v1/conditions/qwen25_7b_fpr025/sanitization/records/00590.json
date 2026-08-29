@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1709",
+  "source_doc_id": "MED-1709",
+  "title": "Dietary sugar and body weight: have we reached a crisis in the epidemic of obesity and diabetes?: we have, but the pox on sugar is overwrought and ...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary sugar and body weight: have we reached a crisis in the epidemic of obesity and diabetes?: we have, but the pox on sugar is overwrought and ...\nIn the preceding point narrative, Drs. Bray and Popkin provide their opinion and review data that suggest to them that we need to reconsider the consumption of dietary sugar based on the growing concern of obesity and type 2 diabetes. In the counterpoint narrative below, we argue that there is no clear or convincing evidence that any dietary or added sugar has a unique or detrimental impact relative to any other source of calories on the development of obesity or diabetes. Sugar is purely a highly palatable source of energy; because it has no other property that appears to contribute to our nutritional well-being, it is not an essential food for most of us. For those who wish to reduce energy consumption, ingesting less sugar is a good place to start. However, doing so does not automatically portend any clinical benefit.",
+  "sanitized_text": "Dietary sugar and body weight: have we reached a crisis in the epidemic of obesity and diabetes?: we have, but the pox on sugar is overwrought and ...\nIn the preceding point narrative, Drs. Bray and Popkin provide their opinion and review data that suggest to them that we need to reconsider the consumption of dietary sugar based on the growing concern of obesity and type 2 diabetes. In the counterpoint narrative below, we argue that there is no clear or convincing evidence that any dietary or added sugar has a unique or detrimental impact relative to any other source of calories on the development of obesity or diabetes. Sugar is purely a highly palatable source of energy; because it has no other property that appears to contribute to our nutritional well-being, it is not an essential food for most of us. For those who wish to reduce energy consumption, ingesting less sugar is a good place to start. However, doing so does not automatically portend any clinical benefit.",
+  "modified": false,
+  "original_char_count": 983,
+  "sanitized_char_count": 983,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 913,
+      "boundary_end": 983,
+      "context": "Dietary sugar and body weight: have we reached a crisis in the epidemic of obesity and diabetes?: we have, but the pox on sugar is overwrought and ... In the preceding point narrative, Drs. Bray and Popkin provide their opinion and review data that suggest to them that we need to reconsider the consumption of dietary sugar based on the growing concern of obesity and type 2 diabetes. In the counterpoint narrative below, we argue that there is no clear or convincing evidence that any dietary or added sugar has a unique or detrimental impact relative to any other source of calories on the development of obesity or diabetes. Sugar is purely a highly palatable source of energy; because it has no other property that appears to contribute to our nutritional well-being, it is not an essential food for most of us. For those who wish to reduce energy consumption, ingesting less sugar is a good place to start.",
+      "target": "However, doing so does not automatically portend any clinical benefit.",
+      "loss_target": 3.7582924365997314,
+      "loss_target_given_context": 2.8388874530792236,
+      "delta_loss": 0.9194049835205078,
+      "gain_ratio": 0.24463369975337207,
+      "score": -0.24463369975337207,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

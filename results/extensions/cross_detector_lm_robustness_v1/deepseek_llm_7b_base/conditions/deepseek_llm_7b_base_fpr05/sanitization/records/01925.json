@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3603",
+  "source_doc_id": "MED-3603",
+  "title": "Richard Pearson Strong and the iatrogenic plague disaster in Bilibid Prison, Manila, 1906.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Richard Pearson Strong and the iatrogenic plague disaster in Bilibid Prison, Manila, 1906.\nIn November 1906, Richard Pearson Strong, then head of the Philippine Biological Laboratory, inoculated 24 men--inmates of Manila's Bilibid Prison--with a cholera vaccine that somehow had been contaminated with plague organisms; 13 men died. The governor-general of the Philippines appointed a general committee to investigate the affair, and the U.S. Senate demanded information about the episode. Although the Senate, the secretary of war, and even the president were kept informed of developments, no mainland investigations ensued. The general committee concluded that Strong was negligent for not having locks on his incubators and for leaving a visiting physician alone in the laboratory, where he might have mixed up the cholera and plague cultures on the fateful day. The committee's charge was referred to the attorney general, who found Strong innocent of criminal negligence, whereupon the governor-general exonerated Strong. Strong was despondent over Bilibid but recovered and developed a noteworthy career in American tropical medicine. In retrospect, the disaster at Bilibid presents an epitome of the problems surrounding the use of prisoner-subjects without authorization and without their voluntary consent. Far ahead of its time, the general committee recognized and condemned the shortcomings and urged reform, pleas the government ignored. The Bilibid episode remains, however, as a cautionary tale for those engaged in clinical research.",
+  "sanitized_text": "Richard Pearson Strong and the iatrogenic plague disaster in Bilibid Prison, Manila, 1906.\nIn November 1906, Richard Pearson Strong, then head of the Philippine Biological Laboratory, inoculated 24 men--inmates of Manila's Bilibid Prison--with a cholera vaccine that somehow had been contaminated with plague organisms; 13 men died. The governor-general of the Philippines appointed a general committee to investigate the affair, and the U.S. Senate demanded information about the episode. Although the Senate, the secretary of war, and even the president were kept informed of developments, no mainland investigations ensued. The general committee concluded that Strong was negligent for not having locks on his incubators and for leaving a visiting physician alone in the laboratory, where he might have mixed up the cholera and plague cultures on the fateful day. The committee's charge was referred to the attorney general, who found Strong innocent of criminal negligence, whereupon the governor-general exonerated Strong. Strong was despondent over Bilibid but recovered and developed a noteworthy career in American tropical medicine. In retrospect, the disaster at Bilibid presents an epitome of the problems surrounding the use of prisoner-subjects without authorization and without their voluntary consent. Far ahead of its time, the general committee recognized and condemned the shortcomings and urged reform, pleas the government ignored. The Bilibid episode remains, however, as a cautionary tale for those engaged in clinical research.",
+  "modified": false,
+  "original_char_count": 1550,
+  "sanitized_char_count": 1550,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1452,
+      "boundary_end": 1550,
+      "context": "vaccine that somehow had been contaminated with plague organisms; 13 men died. The governor-general of the Philippines appointed a general committee to investigate the affair, and the U.S. Senate demanded information about the episode. Although the Senate, the secretary of war, and even the president were kept informed of developments, no mainland investigations ensued. The general committee concluded that Strong was negligent for not having locks on his incubators and for leaving a visiting physician alone in the laboratory, where he might have mixed up the cholera and plague cultures on the fateful day. The committee's charge was referred to the attorney general, who found Strong innocent of criminal negligence, whereupon the governor-general exonerated Strong. Strong was despondent over Bilibid but recovered and developed a noteworthy career in American tropical medicine. In retrospect, the disaster at Bilibid presents an epitome of the problems surrounding the use of prisoner-subjects without authorization and without their voluntary consent. Far ahead of its time, the general committee recognized and condemned the shortcomings and urged reform, pleas the government ignored.",
+      "target": "The Bilibid episode remains, however, as a cautionary tale for those engaged in clinical research.",
+      "loss_target": 3.3608264923095703,
+      "loss_target_given_context": 1.8024269342422485,
+      "delta_loss": 1.5583995580673218,
+      "gain_ratio": 0.4636953325717165,
+      "score": -0.4636953325717165,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

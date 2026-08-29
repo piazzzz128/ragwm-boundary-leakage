@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5075",
+  "source_doc_id": "MED-5075",
+  "title": "Effect of meal composition and cooking duration on the fate of sulforaphane following consumption of broccoli by healthy human subjects.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of meal composition and cooking duration on the fate of sulforaphane following consumption of broccoli by healthy human subjects.\nThe isothiocyanate, sulforaphane, has been implicated in the cancer-protective effects of brassica vegetables. When broccoli is consumed, sulforaphane is released from hydrolysis of glucoraphanin by plant myrosinase and/or colonic microbiota. The influence of meal composition and broccoli-cooking duration on isothiocyanate uptake was investigated in a designed experiment. Volunteers (n 12) were each offered a meal, with or without beef, together with 150 g lightly cooked broccoli (microwaved 2.0 min) or fully cooked broccoli (microwaved 5.5 min), or a broccoli seed extract. They received 3 g mustard containing pre-formed allyl isothiocyanate (AITC) with each meal. Urinary output of allyl (AMA) and sulforaphane (SFMA) mercapturic acids, the biomarkers of production of AITC and sulforaphane respectively, were measured for 24 h after meal consumption. The estimated yield of sulforaphane in vivo was about 3-fold higher after consumption of lightly cooked broccoli than fully cooked broccoli. Absorption of AITC from mustard was about 1.3-fold higher following consumption of the meat-containing meal compared with the non meat-containing alternative. The meal matrix did not significantly influence the hydrolysis of glucoraphanin and its excretion as SFMA from broccoli. Isothiocyanates may interact with the meal matrix to a greater extent if they are ingested pre-formed rather than after their production from hydrolysis of glucosinolates in vivo. The main influence on the production of isothiocyanates in vivo is the way in which brassica vegetables are cooked, rather than the effect of the meal matrix.",
+  "sanitized_text": "Effect of meal composition and cooking duration on the fate of sulforaphane following consumption of broccoli by healthy human subjects.\nThe isothiocyanate, sulforaphane, has been implicated in the cancer-protective effects of brassica vegetables. When broccoli is consumed, sulforaphane is released from hydrolysis of glucoraphanin by plant myrosinase and/or colonic microbiota. The influence of meal composition and broccoli-cooking duration on isothiocyanate uptake was investigated in a designed experiment. Volunteers (n 12) were each offered a meal, with or without beef, together with 150 g lightly cooked broccoli (microwaved 2.0 min) or fully cooked broccoli (microwaved 5.5 min), or a broccoli seed extract. They received 3 g mustard containing pre-formed allyl isothiocyanate (AITC) with each meal. Urinary output of allyl (AMA) and sulforaphane (SFMA) mercapturic acids, the biomarkers of production of AITC and sulforaphane respectively, were measured for 24 h after meal consumption. The estimated yield of sulforaphane in vivo was about 3-fold higher after consumption of lightly cooked broccoli than fully cooked broccoli. Absorption of AITC from mustard was about 1.3-fold higher following consumption of the meat-containing meal compared with the non meat-containing alternative. The meal matrix did not significantly influence the hydrolysis of glucoraphanin and its excretion as SFMA from broccoli. Isothiocyanates may interact with the meal matrix to a greater extent if they are ingested pre-formed rather than after their production from hydrolysis of glucosinolates in vivo. The main influence on the production of isothiocyanates in vivo is the way in which brassica vegetables are cooked, rather than the effect of the meal matrix.",
+  "modified": false,
+  "original_char_count": 1757,
+  "sanitized_char_count": 1757,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1599,
+      "boundary_end": 1757,
+      "context": "composition and broccoli-cooking duration on isothiocyanate uptake was investigated in a designed experiment. Volunteers (n 12) were each offered a meal, with or without beef, together with 150 g lightly cooked broccoli (microwaved 2.0 min) or fully cooked broccoli (microwaved 5.5 min), or a broccoli seed extract. They received 3 g mustard containing pre-formed allyl isothiocyanate (AITC) with each meal. Urinary output of allyl (AMA) and sulforaphane (SFMA) mercapturic acids, the biomarkers of production of AITC and sulforaphane respectively, were measured for 24 h after meal consumption. The estimated yield of sulforaphane in vivo was about 3-fold higher after consumption of lightly cooked broccoli than fully cooked broccoli. Absorption of AITC from mustard was about 1.3-fold higher following consumption of the meat-containing meal compared with the non meat-containing alternative. The meal matrix did not significantly influence the hydrolysis of glucoraphanin and its excretion as SFMA from broccoli. Isothiocyanates may interact with the meal matrix to a greater extent if they are ingested pre-formed rather than after their production from hydrolysis of glucosinolates in vivo.",
+      "target": "The main influence on the production of isothiocyanates in vivo is the way in which brassica vegetables are cooked, rather than the effect of the meal matrix.",
+      "loss_target": 2.8639731407165527,
+      "loss_target_given_context": 1.4844567775726318,
+      "delta_loss": 1.379516363143921,
+      "gain_ratio": 0.4816792251057118,
+      "score": -0.4816792251057118,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

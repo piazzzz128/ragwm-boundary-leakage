@@ -1,0 +1,64 @@
+{
+  "dataset": "trec-covid",
+  "boundary_file": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3.json",
+  "model_repo_id": "gpt2-medium",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/gpt2-medium",
+  "tag": "gpt2_medium_smoke20",
+  "n_input": 20,
+  "n_scored": 20,
+  "n_failed": 0,
+  "positive_inject": 9,
+  "negative_clean": 11,
+  "record_delta_loss": {
+    "roc_auc": 0.5858585858585859,
+    "pr_auc": 0.6730622853429871,
+    "score_mean_inject": -0.7669270833333334,
+    "score_mean_clean": -0.8902698863636364
+  },
+  "record_gain_ratio": {
+    "roc_auc": 0.6767676767676768,
+    "pr_auc": 0.7077126577126578,
+    "score_mean_inject": -0.13956936967654376,
+    "score_mean_clean": -0.21895227055324884
+  },
+  "group_mean_delta_loss": {
+    "groups": 19,
+    "positive_groups": 8,
+    "negative_groups": 11,
+    "roc_auc": 0.6590909090909091,
+    "pr_auc": 0.7009450710108605,
+    "score_mean_inject": -0.65087890625,
+    "score_mean_clean": -0.8902698863636364
+  },
+  "group_median_delta_loss": {
+    "groups": 19,
+    "positive_groups": 8,
+    "negative_groups": 11,
+    "roc_auc": 0.6590909090909091,
+    "pr_auc": 0.7009450710108605,
+    "score_mean_inject": -0.65087890625,
+    "score_mean_clean": -0.8902698863636364
+  },
+  "group_mean_gain_ratio": {
+    "groups": 19,
+    "positive_groups": 8,
+    "negative_groups": 11,
+    "roc_auc": 0.7045454545454545,
+    "pr_auc": 0.7210839598997494,
+    "score_mean_inject": -0.12297142323905293,
+    "score_mean_clean": -0.21895227055324884
+  },
+  "group_median_gain_ratio": {
+    "groups": 19,
+    "positive_groups": 8,
+    "negative_groups": 11,
+    "roc_auc": 0.7045454545454545,
+    "pr_auc": 0.7210839598997494,
+    "score_mean_inject": -0.12297142323905293,
+    "score_mean_clean": -0.21895227055324884
+  },
+  "delta_loss_mean_inject": 0.7669270833333334,
+  "delta_loss_mean_clean": 0.8902698863636364,
+  "gain_ratio_mean_inject": 0.13956936967654376,
+  "gain_ratio_mean_clean": 0.21895227055324884
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3656",
+  "source_doc_id": "MED-3656",
+  "title": "A Longitudinal Study of Vaginal Douching and Bacterial Vaginosis—A Marginal Structural Modeling Analysis",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A Longitudinal Study of Vaginal Douching and Bacterial Vaginosis—A Marginal Structural Modeling Analysis\nThe etiology of bacterial vaginosis is unknown, and there are no long-term therapies for preventing this frequently recurring condition. Vaginal douching has been reported to be associated with bacterial vaginosis in observational studies. However, this association may be due to confounding by indication—that is, confounding by women douching in response to vaginal symptoms associated with bacterial vaginosis. The authors used marginal structural modeling to estimate the causal effect of douching on bacterial vaginosis risk while controlling for this confounding effect. In 1999–2002, nonpregnant women (n = 3,620) were recruited into a prospective study when they visited one of 12 public health clinics in Birmingham, Alabama, for routine care. Participants were assessed quarterly for 1 year. Bacterial vaginosis was based on a Nugent's Gram stain score of 7 or higher. Thirty-two percent of participants douched in every study interval, and 43.0% never douched. Of the 12,349 study visits, 40.2% were classified as involving bacterial vaginosis. The relative risk for regular douching as compared with no douching was 1.21 (95% confidence interval: 1.08, 1.38). These findings indicate that douching confers increased risk of disruption of vaginal flora. In the absence of a large randomized trial, these findings provide the best evidence to date for a risk of bacterial vaginosis associated with douching.",
+  "sanitized_text": "A Longitudinal Study of Vaginal Douching and Bacterial Vaginosis—A Marginal Structural Modeling Analysis\nThe etiology of bacterial vaginosis is unknown, and there are no long-term therapies for preventing this frequently recurring condition. Vaginal douching has been reported to be associated with bacterial vaginosis in observational studies. However, this association may be due to confounding by indication—that is, confounding by women douching in response to vaginal symptoms associated with bacterial vaginosis. The authors used marginal structural modeling to estimate the causal effect of douching on bacterial vaginosis risk while controlling for this confounding effect. In 1999–2002, nonpregnant women (n = 3,620) were recruited into a prospective study when they visited one of 12 public health clinics in Birmingham, Alabama, for routine care. Participants were assessed quarterly for 1 year. Bacterial vaginosis was based on a Nugent's Gram stain score of 7 or higher. Thirty-two percent of participants douched in every study interval, and 43.0% never douched. Of the 12,349 study visits, 40.2% were classified as involving bacterial vaginosis. The relative risk for regular douching as compared with no douching was 1.21 (95% confidence interval: 1.08, 1.38). These findings indicate that douching confers increased risk of disruption of vaginal flora. In the absence of a large randomized trial, these findings provide the best evidence to date for a risk of bacterial vaginosis associated with douching.",
+  "modified": false,
+  "original_char_count": 1522,
+  "sanitized_char_count": 1522,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1370,
+      "boundary_end": 1522,
+      "context": "long-term therapies for preventing this frequently recurring condition. Vaginal douching has been reported to be associated with bacterial vaginosis in observational studies. However, this association may be due to confounding by indication—that is, confounding by women douching in response to vaginal symptoms associated with bacterial vaginosis. The authors used marginal structural modeling to estimate the causal effect of douching on bacterial vaginosis risk while controlling for this confounding effect. In 1999–2002, nonpregnant women (n = 3,620) were recruited into a prospective study when they visited one of 12 public health clinics in Birmingham, Alabama, for routine care. Participants were assessed quarterly for 1 year. Bacterial vaginosis was based on a Nugent's Gram stain score of 7 or higher. Thirty-two percent of participants douched in every study interval, and 43.0% never douched. Of the 12,349 study visits, 40.2% were classified as involving bacterial vaginosis. The relative risk for regular douching as compared with no douching was 1.21 (95% confidence interval: 1.08, 1.38). These findings indicate that douching confers increased risk of disruption of vaginal flora.",
+      "target": "In the absence of a large randomized trial, these findings provide the best evidence to date for a risk of bacterial vaginosis associated with douching.",
+      "loss_target": 2.6458280086517334,
+      "loss_target_given_context": 1.264159083366394,
+      "delta_loss": 1.3816689252853394,
+      "gain_ratio": 0.5222066289899974,
+      "score": -0.5222066289899974,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1140",
+  "source_doc_id": "MED-1140",
+  "title": "Organic food: buying more safety or just peace of mind? A critical review of the literature.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Organic food: buying more safety or just peace of mind? A critical review of the literature.\nConsumer concern over the quality and safety of conventional food has intensified in recent years, and primarily drives the increasing demand for organically grown food, which is perceived as healthier and safer. Relevant scientific evidence, however, is scarce, while anecdotal reports abound. Although there is an urgent need for information related to health benefits and/or hazards of food products of both origins, generalized conclusions remain tentative in the absence of adequate comparative data. Organic fruits and vegetables can be expected to contain fewer agrochemical residues than conventionally grown alternatives; yet, the significance of this difference is questionable, inasmuch as actual levels of contamination in both types of food are generally well below acceptable limits. Also, some leafy, root, and tuber organic vegetables appear to have lower nitrate content compared with conventional ones, but whether or not dietary nitrate indeed constitutes a threat to human health is a matter of debate. On the other hand, no differences can be identified for environmental contaminants (e.g. cadmium and other heavy metals), which are likely to be present in food from both origins. With respect to other food hazards, such as endogenous plant toxins, biological pesticides and pathogenic microorganisms, available evidence is extremely limited preventing generalized statements. Also, results for mycotoxin contamination in cereal crops are variable and inconclusive; hence, no clear picture emerges. It is difficult, therefore, to weigh the risks, but what should be made clear is that 'organic' does not automatically equal 'safe.' Additional studies in this area of research are warranted. At our present state of knowledge, other factors rather than safety aspects seem to speak in favor of organic food.",
+  "sanitized_text": "Organic food: buying more safety or just peace of mind? A critical review of the literature.\nConsumer concern over the quality and safety of conventional food has intensified in recent years, and primarily drives the increasing demand for organically grown food, which is perceived as healthier and safer. Relevant scientific evidence, however, is scarce, while anecdotal reports abound. Although there is an urgent need for information related to health benefits and/or hazards of food products of both origins, generalized conclusions remain tentative in the absence of adequate comparative data. Organic fruits and vegetables can be expected to contain fewer agrochemical residues than conventionally grown alternatives; yet, the significance of this difference is questionable, inasmuch as actual levels of contamination in both types of food are generally well below acceptable limits. Also, some leafy, root, and tuber organic vegetables appear to have lower nitrate content compared with conventional ones, but whether or not dietary nitrate indeed constitutes a threat to human health is a matter of debate. On the other hand, no differences can be identified for environmental contaminants (e.g. cadmium and other heavy metals), which are likely to be present in food from both origins. With respect to other food hazards, such as endogenous plant toxins, biological pesticides and pathogenic microorganisms, available evidence is extremely limited preventing generalized statements. Also, results for mycotoxin contamination in cereal crops are variable and inconclusive; hence, no clear picture emerges. It is difficult, therefore, to weigh the risks, but what should be made clear is that 'organic' does not automatically equal 'safe.' Additional studies in this area of research are warranted. At our present state of knowledge, other factors rather than safety aspects seem to speak in favor of organic food.",
+  "modified": false,
+  "original_char_count": 1922,
+  "sanitized_char_count": 1922,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1807,
+      "boundary_end": 1922,
+      "context": "fruits and vegetables can be expected to contain fewer agrochemical residues than conventionally grown alternatives; yet, the significance of this difference is questionable, inasmuch as actual levels of contamination in both types of food are generally well below acceptable limits. Also, some leafy, root, and tuber organic vegetables appear to have lower nitrate content compared with conventional ones, but whether or not dietary nitrate indeed constitutes a threat to human health is a matter of debate. On the other hand, no differences can be identified for environmental contaminants (e.g. cadmium and other heavy metals), which are likely to be present in food from both origins. With respect to other food hazards, such as endogenous plant toxins, biological pesticides and pathogenic microorganisms, available evidence is extremely limited preventing generalized statements. Also, results for mycotoxin contamination in cereal crops are variable and inconclusive; hence, no clear picture emerges. It is difficult, therefore, to weigh the risks, but what should be made clear is that 'organic' does not automatically equal 'safe.' Additional studies in this area of research are warranted.",
+      "target": "At our present state of knowledge, other factors rather than safety aspects seem to speak in favor of organic food.",
+      "loss_target": 3.4767532348632812,
+      "loss_target_given_context": 2.1148972511291504,
+      "delta_loss": 1.3618559837341309,
+      "gain_ratio": 0.3917033771848016,
+      "score": -0.3917033771848016,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

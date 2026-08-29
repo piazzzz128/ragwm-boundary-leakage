@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3089",
+  "source_doc_id": "MED-3089",
+  "title": "PHOSPHORUS CONTAINING FOOD ADDITIVES AND THE ACCURACY OF NUTRIENT DATABASES: IMPLICATIONS FOR RENAL PATIENTS",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "PHOSPHORUS CONTAINING FOOD ADDITIVES AND THE ACCURACY OF NUTRIENT DATABASES: IMPLICATIONS FOR RENAL PATIENTS\nObjective Phosphorus containing additives are increasingly added to food products. We sought to determine the potential impact of these additives. We focused on chicken products as an example. Methods We purchased a variety of chicken products, prepared them according to package directions, and performed laboratory analyses to determine their actual phosphorus content. We used ESHA Food Processor SQL Software to determine the expected phosphorus content of each product. Results Of 38 chicken products, 35 (92%) had phosphorus containing additives listed among their ingredients. For every category of chicken products containing additives, the actual phosphorus content was greater than the content expected from nutrient database. For example, actual phosphorus content exceeded expected phosphorus content by an average of 84 mg/100g for breaded breast strips. There was also a great deal of variation within each category. For example, the difference between actual and expected phosphorus content ranged from 59 to 165 mg/100g for breast patties. Two 100 g servings of additive containing products contain an average of 440 mg of phosphorus, or about half the total daily recommended intake for dialysis patients. Conclusion Phosphorus containing additives significantly increase the amount of phosphorus in chicken products. Available nutrient databases do not reflect this higher phosphorus content, and the variation between similar products makes it impossible for patients and dietitians to accurately estimate phosphorus content. We recommend that dialysis patients limit their intake of additive containing products and that the phosphorus content of food products be included on nutrition facts labels.",
+  "sanitized_text": "PHOSPHORUS CONTAINING FOOD ADDITIVES AND THE ACCURACY OF NUTRIENT DATABASES: IMPLICATIONS FOR RENAL PATIENTS\nObjective Phosphorus containing additives are increasingly added to food products. We sought to determine the potential impact of these additives. We focused on chicken products as an example. Methods We purchased a variety of chicken products, prepared them according to package directions, and performed laboratory analyses to determine their actual phosphorus content. We used ESHA Food Processor SQL Software to determine the expected phosphorus content of each product. Results Of 38 chicken products, 35 (92%) had phosphorus containing additives listed among their ingredients. For every category of chicken products containing additives, the actual phosphorus content was greater than the content expected from nutrient database. For example, actual phosphorus content exceeded expected phosphorus content by an average of 84 mg/100g for breaded breast strips. There was also a great deal of variation within each category. For example, the difference between actual and expected phosphorus content ranged from 59 to 165 mg/100g for breast patties. Two 100 g servings of additive containing products contain an average of 440 mg of phosphorus, or about half the total daily recommended intake for dialysis patients. Conclusion Phosphorus containing additives significantly increase the amount of phosphorus in chicken products. Available nutrient databases do not reflect this higher phosphorus content, and the variation between similar products makes it impossible for patients and dietitians to accurately estimate phosphorus content. We recommend that dialysis patients limit their intake of additive containing products and that the phosphorus content of food products be included on nutrition facts labels.",
+  "modified": false,
+  "original_char_count": 1828,
+  "sanitized_char_count": 1828,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1654,
+      "boundary_end": 1828,
+      "context": "actual phosphorus content. We used ESHA Food Processor SQL Software to determine the expected phosphorus content of each product. Results Of 38 chicken products, 35 (92%) had phosphorus containing additives listed among their ingredients. For every category of chicken products containing additives, the actual phosphorus content was greater than the content expected from nutrient database. For example, actual phosphorus content exceeded expected phosphorus content by an average of 84 mg/100g for breaded breast strips. There was also a great deal of variation within each category. For example, the difference between actual and expected phosphorus content ranged from 59 to 165 mg/100g for breast patties. Two 100 g servings of additive containing products contain an average of 440 mg of phosphorus, or about half the total daily recommended intake for dialysis patients. Conclusion Phosphorus containing additives significantly increase the amount of phosphorus in chicken products. Available nutrient databases do not reflect this higher phosphorus content, and the variation between similar products makes it impossible for patients and dietitians to accurately estimate phosphorus content.",
+      "target": "We recommend that dialysis patients limit their intake of additive containing products and that the phosphorus content of food products be included on nutrition facts labels.",
+      "loss_target": 3.1280035972595215,
+      "loss_target_given_context": 1.3993650674819946,
+      "delta_loss": 1.7286385297775269,
+      "gain_ratio": 0.5526331655411159,
+      "score": -0.5526331655411159,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

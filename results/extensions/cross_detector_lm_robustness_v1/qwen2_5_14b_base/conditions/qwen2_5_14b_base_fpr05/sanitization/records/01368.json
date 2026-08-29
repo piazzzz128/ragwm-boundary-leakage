@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2740",
+  "source_doc_id": "MED-2740",
+  "title": "FoodNet estimate of the burden of illness caused by nontyphoidal Salmonella infections in the United States.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "FoodNet estimate of the burden of illness caused by nontyphoidal Salmonella infections in the United States.\nTo determine the burden of Salmonella infections in the United States, Foodborne Diseases Active Surveillance Network (FoodNet) investigators conducted population-based active surveillance for culture-confirmed Salmonella infections during 1996-1999 at FoodNet laboratories. In addition, all clinical microbiology FoodNet laboratories were surveyed to determine their practices for isolating Salmonella. Telephone interviews were also conducted among residents of the FoodNet sites to determine the proportion of persons with diarrheal illness who sought medical care and the proportion who submitted stool specimens for bacterial culture. Using our model, we estimated that there were 1.4 million nontyphoidal Salmonella infections in the United States, resulting in 168,000 physician office visits per year during 1996-1999. Including both culture-confirmed infections and those not confirmed by culture, we estimated that Salmonella infections resulted in 15,000 hospitalizations and 400 deaths annually. These estimates indicate that salmonellosis presents a major ongoing burden to public health.",
+  "sanitized_text": "FoodNet estimate of the burden of illness caused by nontyphoidal Salmonella infections in the United States.\nTo determine the burden of Salmonella infections in the United States, Foodborne Diseases Active Surveillance Network (FoodNet) investigators conducted population-based active surveillance for culture-confirmed Salmonella infections during 1996-1999 at FoodNet laboratories. In addition, all clinical microbiology FoodNet laboratories were surveyed to determine their practices for isolating Salmonella. Telephone interviews were also conducted among residents of the FoodNet sites to determine the proportion of persons with diarrheal illness who sought medical care and the proportion who submitted stool specimens for bacterial culture. Using our model, we estimated that there were 1.4 million nontyphoidal Salmonella infections in the United States, resulting in 168,000 physician office visits per year during 1996-1999. Including both culture-confirmed infections and those not confirmed by culture, we estimated that Salmonella infections resulted in 15,000 hospitalizations and 400 deaths annually. These estimates indicate that salmonellosis presents a major ongoing burden to public health.",
+  "modified": false,
+  "original_char_count": 1210,
+  "sanitized_char_count": 1210,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1117,
+      "boundary_end": 1210,
+      "context": "FoodNet estimate of the burden of illness caused by nontyphoidal Salmonella infections in the United States. To determine the burden of Salmonella infections in the United States, Foodborne Diseases Active Surveillance Network (FoodNet) investigators conducted population-based active surveillance for culture-confirmed Salmonella infections during 1996-1999 at FoodNet laboratories. In addition, all clinical microbiology FoodNet laboratories were surveyed to determine their practices for isolating Salmonella. Telephone interviews were also conducted among residents of the FoodNet sites to determine the proportion of persons with diarrheal illness who sought medical care and the proportion who submitted stool specimens for bacterial culture. Using our model, we estimated that there were 1.4 million nontyphoidal Salmonella infections in the United States, resulting in 168,000 physician office visits per year during 1996-1999. Including both culture-confirmed infections and those not confirmed by culture, we estimated that Salmonella infections resulted in 15,000 hospitalizations and 400 deaths annually.",
+      "target": "These estimates indicate that salmonellosis presents a major ongoing burden to public health.",
+      "loss_target": 3.3076422214508057,
+      "loss_target_given_context": 1.9639161825180054,
+      "delta_loss": 1.3437260389328003,
+      "gain_ratio": 0.4062489075204186,
+      "score": -0.4062489075204186,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-5162",
+  "source_doc_id": "MED-5162",
+  "title": "Antimutagenic effect of broccoli flower head by the ames salmonella reverse mutation assay.",
+  "original_text": "Antimutagenic effect of broccoli flower head by the ames salmonella reverse mutation assay.\nA study was performed to investigate the antimutagenic effect of broccoli flower head by the Ames Salmonella reverse mutation assay. Broccoli flower head being the most highly edible part in the plant was analysed for its antimutagenic effect. Without isolating the phytomolecules, the crude ethanol extract of broccoli flower head was tested for suppressing the mutagenic effect induced by certain chemical mutagens. Three strains - TA 98, TA102 and TA 1535 were used in the study. The tester strains were challenged with their respective mutagens. These were challenged with the ethanol extract of broccoli flower head at concentrations of 23 and 46 mg/plate. The plates were incubated for 72 h and the revertant colonies were counted. The crude extract did not prove to be promutagenic. The ethanol extract of the broccoli flower head at 46 mg/plate suppressed the mutagenic effect induced by the corresponding positive mutagens on all the three tester strains used in this study. The crude extract of broccoli flower head alone was not cytotoxic even at the maximum concentration tested (46 mg/plate). In conclusion, the ethanol extract of broccoli at 46 mg/plate suggests their diverse antimutagenic potential against the mutagenic chemicals employed in this study. (c) 2007 John Wiley & Sons, Ltd.",
+  "sanitized_text": "Antimutagenic effect of broccoli flower head by the ames salmonella reverse mutation assay.\nA study was performed to investigate the antimutagenic effect of broccoli flower head by the Ames Salmonella reverse mutation assay. Broccoli flower head being the most highly edible part in the plant was analysed for its antimutagenic effect. Without isolating the phytomolecules, the crude ethanol extract of broccoli flower head was tested for suppressing the mutagenic effect induced by certain chemical mutagens. Three strains - TA 98, TA102 and TA 1535 were used in the study. The tester strains were challenged with their respective mutagens. These were challenged with the ethanol extract of broccoli flower head at concentrations of 23 and 46 mg/plate. The plates were incubated for 72 h and the revertant colonies were counted. The crude extract did not prove to be promutagenic. The ethanol extract of the broccoli flower head at 46 mg/plate suppressed the mutagenic effect induced by the corresponding positive mutagens on all the three tester strains used in this study. The crude extract of broccoli flower head alone was not cytotoxic even at the maximum concentration tested (46 mg/plate). In conclusion, the ethanol extract of broccoli at 46 mg/plate suggests their diverse antimutagenic potential against the mutagenic chemicals employed in this study.",
+  "modified": true,
+  "original_char_count": 1395,
+  "sanitized_char_count": 1362,
+  "deleted_char_count": 33,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1363,
+      "boundary_end": 1395,
+      "context": "flower head by the Ames Salmonella reverse mutation assay. Broccoli flower head being the most highly edible part in the plant was analysed for its antimutagenic effect. Without isolating the phytomolecules, the crude ethanol extract of broccoli flower head was tested for suppressing the mutagenic effect induced by certain chemical mutagens. Three strains - TA 98, TA102 and TA 1535 were used in the study. The tester strains were challenged with their respective mutagens. These were challenged with the ethanol extract of broccoli flower head at concentrations of 23 and 46 mg/plate. The plates were incubated for 72 h and the revertant colonies were counted. The crude extract did not prove to be promutagenic. The ethanol extract of the broccoli flower head at 46 mg/plate suppressed the mutagenic effect induced by the corresponding positive mutagens on all the three tester strains used in this study. The crude extract of broccoli flower head alone was not cytotoxic even at the maximum concentration tested (46 mg/plate). In conclusion, the ethanol extract of broccoli at 46 mg/plate suggests their diverse antimutagenic potential against the mutagenic chemicals employed in this study.",
+      "target": "(c) 2007 John Wiley & Sons, Ltd.",
+      "loss_target": 1.2403037548065186,
+      "loss_target_given_context": 1.6747299432754517,
+      "delta_loss": -0.4344261884689331,
+      "gain_ratio": -0.3502578999583062,
+      "score": 0.3502578999583062,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1198,
+      "boundary_end": 1362,
+      "context": "Antimutagenic effect of broccoli flower head by the ames salmonella reverse mutation assay. A study was performed to investigate the antimutagenic effect of broccoli flower head by the Ames Salmonella reverse mutation assay. Broccoli flower head being the most highly edible part in the plant was analysed for its antimutagenic effect. Without isolating the phytomolecules, the crude ethanol extract of broccoli flower head was tested for suppressing the mutagenic effect induced by certain chemical mutagens. Three strains - TA 98, TA102 and TA 1535 were used in the study. The tester strains were challenged with their respective mutagens. These were challenged with the ethanol extract of broccoli flower head at concentrations of 23 and 46 mg/plate. The plates were incubated for 72 h and the revertant colonies were counted. The crude extract did not prove to be promutagenic. The ethanol extract of the broccoli flower head at 46 mg/plate suppressed the mutagenic effect induced by the corresponding positive mutagens on all the three tester strains used in this study. The crude extract of broccoli flower head alone was not cytotoxic even at the maximum concentration tested (46 mg/plate).",
+      "target": "In conclusion, the ethanol extract of broccoli at 46 mg/plate suggests their diverse antimutagenic potential against the mutagenic chemicals employed in this study.",
+      "loss_target": 3.6384963989257812,
+      "loss_target_given_context": 2.0010929107666016,
+      "delta_loss": 1.6374034881591797,
+      "gain_ratio": 0.4500220169635462,
+      "score": -0.4500220169635462,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1363,
+      "target": "(c) 2007 John Wiley & Sons, Ltd.",
+      "score": 0.3502578999583062,
+      "deleted_suffix": "(c) 2007 John Wiley & Sons, Ltd.",
+      "deleted_char_count": 32
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

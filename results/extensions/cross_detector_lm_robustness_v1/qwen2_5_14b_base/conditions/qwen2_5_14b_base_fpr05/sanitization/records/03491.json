@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-836",
+  "source_doc_id": "MED-836",
+  "title": "The optimal diet for women with polycystic ovary syndrome?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The optimal diet for women with polycystic ovary syndrome?\nAn optimal diet is one that not only prevents nutrient deficiencies by providing sufficient nutrients and energy for human growth and reproduction, but that also promotes health and longevity and reduces the risk of diet-related chronic diseases. The composition of the optimal diet for women with polycystic ovary syndrome (PCOS) is not yet known, but such a diet must not only assist short term with weight management, symptoms and fertility, but also specifically target the long-term risks of type 2 diabetes, CVD and certain cancers. With insulin resistance and compensatory hyperinsulinaemia now recognised as a key factor in the pathogenesis of PCOS, it has become clear that reducing insulin levels and improving insulin sensitivity are an essential part of management. Diet plays a significant role in the regulation of blood glucose and insulin levels, yet research into the dietary management of PCOS is lacking and most studies have focused on energy restriction rather than dietary composition per se. On the balance of evidence to date, a diet low in saturated fat and high in fibre from predominantly low-glycaemic-index-carbohydrate foods is recommended. Because PCOS carries significant metabolic risks, more research is clearly needed.",
+  "sanitized_text": "The optimal diet for women with polycystic ovary syndrome?\nAn optimal diet is one that not only prevents nutrient deficiencies by providing sufficient nutrients and energy for human growth and reproduction, but that also promotes health and longevity and reduces the risk of diet-related chronic diseases. The composition of the optimal diet for women with polycystic ovary syndrome (PCOS) is not yet known, but such a diet must not only assist short term with weight management, symptoms and fertility, but also specifically target the long-term risks of type 2 diabetes, CVD and certain cancers. With insulin resistance and compensatory hyperinsulinaemia now recognised as a key factor in the pathogenesis of PCOS, it has become clear that reducing insulin levels and improving insulin sensitivity are an essential part of management. Diet plays a significant role in the regulation of blood glucose and insulin levels, yet research into the dietary management of PCOS is lacking and most studies have focused on energy restriction rather than dietary composition per se. On the balance of evidence to date, a diet low in saturated fat and high in fibre from predominantly low-glycaemic-index-carbohydrate foods is recommended. Because PCOS carries significant metabolic risks, more research is clearly needed.",
+  "modified": false,
+  "original_char_count": 1312,
+  "sanitized_char_count": 1312,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1230,
+      "boundary_end": 1312,
+      "context": "polycystic ovary syndrome? An optimal diet is one that not only prevents nutrient deficiencies by providing sufficient nutrients and energy for human growth and reproduction, but that also promotes health and longevity and reduces the risk of diet-related chronic diseases. The composition of the optimal diet for women with polycystic ovary syndrome (PCOS) is not yet known, but such a diet must not only assist short term with weight management, symptoms and fertility, but also specifically target the long-term risks of type 2 diabetes, CVD and certain cancers. With insulin resistance and compensatory hyperinsulinaemia now recognised as a key factor in the pathogenesis of PCOS, it has become clear that reducing insulin levels and improving insulin sensitivity are an essential part of management. Diet plays a significant role in the regulation of blood glucose and insulin levels, yet research into the dietary management of PCOS is lacking and most studies have focused on energy restriction rather than dietary composition per se. On the balance of evidence to date, a diet low in saturated fat and high in fibre from predominantly low-glycaemic-index-carbohydrate foods is recommended.",
+      "target": "Because PCOS carries significant metabolic risks, more research is clearly needed.",
+      "loss_target": 3.8018076419830322,
+      "loss_target_given_context": 2.380175828933716,
+      "delta_loss": 1.4216318130493164,
+      "gain_ratio": 0.37393575554700864,
+      "score": -0.37393575554700864,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

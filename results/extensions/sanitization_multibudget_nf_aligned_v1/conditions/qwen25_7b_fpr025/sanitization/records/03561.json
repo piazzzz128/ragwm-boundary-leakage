@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-920",
+  "source_doc_id": "MED-920",
+  "title": "Vitamin D in the treatment of pulmonary tuberculosis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vitamin D in the treatment of pulmonary tuberculosis.\nVitamin D was used to treat tuberculosis in the pre-antibiotic era. New insights into the immunomodulatory properties of 1alpha,25-dihydroxy-vitamin D have rekindled interest in vitamin D as an adjunct to antituberculous therapy. We describe the historical use of vitamin D in tuberculosis treatment; discuss the mechanisms by which it may modulate host response to infection with Mycobacterium tuberculosis; and review three clinical trials and ten case series in which vitamin D has been used in the treatment of pulmonary tuberculosis.",
+  "sanitized_text": "Vitamin D in the treatment of pulmonary tuberculosis.\nVitamin D was used to treat tuberculosis in the pre-antibiotic era. New insights into the immunomodulatory properties of 1alpha,25-dihydroxy-vitamin D have rekindled interest in vitamin D as an adjunct to antituberculous therapy. We describe the historical use of vitamin D in tuberculosis treatment; discuss the mechanisms by which it may modulate host response to infection with Mycobacterium tuberculosis; and review three clinical trials and ten case series in which vitamin D has been used in the treatment of pulmonary tuberculosis.",
+  "modified": false,
+  "original_char_count": 592,
+  "sanitized_char_count": 592,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 284,
+      "boundary_end": 592,
+      "context": "Vitamin D in the treatment of pulmonary tuberculosis. Vitamin D was used to treat tuberculosis in the pre-antibiotic era. New insights into the immunomodulatory properties of 1alpha,25-dihydroxy-vitamin D have rekindled interest in vitamin D as an adjunct to antituberculous therapy.",
+      "target": "We describe the historical use of vitamin D in tuberculosis treatment; discuss the mechanisms by which it may modulate host response to infection with Mycobacterium tuberculosis; and review three clinical trials and ten case series in which vitamin D has been used in the treatment of pulmonary tuberculosis.",
+      "loss_target": 2.0453689098358154,
+      "loss_target_given_context": 1.4164031744003296,
+      "delta_loss": 0.6289657354354858,
+      "gain_ratio": 0.3075072337371031,
+      "score": -0.3075072337371031,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

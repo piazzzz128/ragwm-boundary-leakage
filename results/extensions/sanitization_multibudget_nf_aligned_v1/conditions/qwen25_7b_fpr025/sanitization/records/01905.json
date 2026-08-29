@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3581",
+  "source_doc_id": "MED-3581",
+  "title": "Colonic fermentation of indigestible carbohydrates contributes to the second-meal effect.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Colonic fermentation of indigestible carbohydrates contributes to the second-meal effect.\nBACKGROUND: Low postprandial blood glucose is associated with low risk of metabolic diseases. A meal's ability to diminish the glucose response to carbohydrates eaten during the following meal is known as the \"second-meal effect\" (SME). The reduced glycemia elicited by low-glycemic-index (LGI) foods consumed during the first meal has been suggested as the main mechanism for SME. However, LGI foods often increase colonic fermentation because of the presence of fiber and resistant starch. OBJECTIVE: The objective was to study the SME of greater fermentation of high-glycemic-index (HGI) and LGI carbohydrates eaten during a previous meal. DESIGN: Ten healthy volunteers ate 3 breakfast test meals consisting of sponge cakes made with rapidly digestible, nonfermentable amylopectin starch plus cellulose (HGI meal), amylopectin starch plus the fermentable disaccharide lactulose (HGI-Lac meal), or slowly digestible, partly fermentable amylose starch plus cellulose (LGI meal). Five hours later, subjects were fed the same standard lunch containing 93 g available carbohydrates. Blood was collected for measurement of glucose, insulin, and nonesterified fatty acids (NEFAs). Breath hydrogen was measured as a marker of colonic fermentation. Postlunch gastric emptying was measured by using ultrasonography. RESULTS: Both the HGI-Lac and LGI meals improved glucose tolerance at lunch. In the case of the HGI-Lac meal, this effect was concomitant with low NEFA concentrations and delayed gastric emptying. CONCLUSION: Fermentable carbohydrates, independent of their effect on a food's glycemic index, have the potential to regulate postprandial responses to a second meal by reducing NEFA competition for glucose disposal and, to a minor extent, by affecting intestinal motility.",
+  "sanitized_text": "Colonic fermentation of indigestible carbohydrates contributes to the second-meal effect.\nBACKGROUND: Low postprandial blood glucose is associated with low risk of metabolic diseases. A meal's ability to diminish the glucose response to carbohydrates eaten during the following meal is known as the \"second-meal effect\" (SME). The reduced glycemia elicited by low-glycemic-index (LGI) foods consumed during the first meal has been suggested as the main mechanism for SME. However, LGI foods often increase colonic fermentation because of the presence of fiber and resistant starch. OBJECTIVE: The objective was to study the SME of greater fermentation of high-glycemic-index (HGI) and LGI carbohydrates eaten during a previous meal. DESIGN: Ten healthy volunteers ate 3 breakfast test meals consisting of sponge cakes made with rapidly digestible, nonfermentable amylopectin starch plus cellulose (HGI meal), amylopectin starch plus the fermentable disaccharide lactulose (HGI-Lac meal), or slowly digestible, partly fermentable amylose starch plus cellulose (LGI meal). Five hours later, subjects were fed the same standard lunch containing 93 g available carbohydrates. Blood was collected for measurement of glucose, insulin, and nonesterified fatty acids (NEFAs). Breath hydrogen was measured as a marker of colonic fermentation. Postlunch gastric emptying was measured by using ultrasonography. RESULTS: Both the HGI-Lac and LGI meals improved glucose tolerance at lunch. In the case of the HGI-Lac meal, this effect was concomitant with low NEFA concentrations and delayed gastric emptying. CONCLUSION: Fermentable carbohydrates, independent of their effect on a food's glycemic index, have the potential to regulate postprandial responses to a second meal by reducing NEFA competition for glucose disposal and, to a minor extent, by affecting intestinal motility.",
+  "modified": false,
+  "original_char_count": 1870,
+  "sanitized_char_count": 1870,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1597,
+      "boundary_end": 1870,
+      "context": "during the first meal has been suggested as the main mechanism for SME. However, LGI foods often increase colonic fermentation because of the presence of fiber and resistant starch. OBJECTIVE: The objective was to study the SME of greater fermentation of high-glycemic-index (HGI) and LGI carbohydrates eaten during a previous meal. DESIGN: Ten healthy volunteers ate 3 breakfast test meals consisting of sponge cakes made with rapidly digestible, nonfermentable amylopectin starch plus cellulose (HGI meal), amylopectin starch plus the fermentable disaccharide lactulose (HGI-Lac meal), or slowly digestible, partly fermentable amylose starch plus cellulose (LGI meal). Five hours later, subjects were fed the same standard lunch containing 93 g available carbohydrates. Blood was collected for measurement of glucose, insulin, and nonesterified fatty acids (NEFAs). Breath hydrogen was measured as a marker of colonic fermentation. Postlunch gastric emptying was measured by using ultrasonography. RESULTS: Both the HGI-Lac and LGI meals improved glucose tolerance at lunch. In the case of the HGI-Lac meal, this effect was concomitant with low NEFA concentrations and delayed gastric emptying.",
+      "target": "CONCLUSION: Fermentable carbohydrates, independent of their effect on a food's glycemic index, have the potential to regulate postprandial responses to a second meal by reducing NEFA competition for glucose disposal and, to a minor extent, by affecting intestinal motility.",
+      "loss_target": 2.7085306644439697,
+      "loss_target_given_context": 2.019270896911621,
+      "delta_loss": 0.6892597675323486,
+      "gain_ratio": 0.25447737276175375,
+      "score": -0.25447737276175375,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

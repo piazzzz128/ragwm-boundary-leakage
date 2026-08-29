@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1363",
+  "source_doc_id": "MED-1363",
+  "title": "\"Towards an even healthier Mediterranean diet\".",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "\"Towards an even healthier Mediterranean diet\".\nDietary guidelines to promote good health are usually based on foods, nutrients, and dietary patterns predictive of chronic disease risk in epidemiologic studies. However, sound nutritional recommendations for cardiovascular prevention should be based on the results of large randomized clinical trials with \"hard\" end-points as the main outcome. Such evidence has been obtained for the Mediterranean diet from the PREDIMED (Prevención con Dieta Mediterránea) trial and the Lyon Heart Study. The traditional Mediterranean diet was that found in olive growing areas of Crete, Greece, and Southern Italy in the late 1950s. Their major characteristics include: a) a high consumption of cereals, legumes, nuts, vegetables, and fruits; b) a relatively high-fat consumption, mostly provided by olive oil; c) moderate to high fish consumption; d) poultry and dairy products consumed in moderate to small amounts; e) low consumption of red meats, and meat products; and f) moderate alcohol intake, usually in the form of red wine. However, these protective effects of the traditional Mediterranean diet may be even greater if we upgrade the health effects of this dietary pattern changing the common olive oil used for extra-virgin olive oil, increasing the consumption of nuts, fatty fish and whole grain cereals, reducing sodium intake, and maintaining a moderate consumption of wine with meals. © 2013 Elsevier B.V. All rights reserved.",
+  "sanitized_text": "\"Towards an even healthier Mediterranean diet\".\nDietary guidelines to promote good health are usually based on foods, nutrients, and dietary patterns predictive of chronic disease risk in epidemiologic studies. However, sound nutritional recommendations for cardiovascular prevention should be based on the results of large randomized clinical trials with \"hard\" end-points as the main outcome. Such evidence has been obtained for the Mediterranean diet from the PREDIMED (Prevención con Dieta Mediterránea) trial and the Lyon Heart Study. The traditional Mediterranean diet was that found in olive growing areas of Crete, Greece, and Southern Italy in the late 1950s. Their major characteristics include: a) a high consumption of cereals, legumes, nuts, vegetables, and fruits; b) a relatively high-fat consumption, mostly provided by olive oil; c) moderate to high fish consumption; d) poultry and dairy products consumed in moderate to small amounts; e) low consumption of red meats, and meat products; and f) moderate alcohol intake, usually in the form of red wine.",
+  "modified": true,
+  "original_char_count": 1479,
+  "sanitized_char_count": 1070,
+  "deleted_char_count": 409,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1071,
+      "boundary_end": 1437,
+      "context": "\"Towards an even healthier Mediterranean diet\". Dietary guidelines to promote good health are usually based on foods, nutrients, and dietary patterns predictive of chronic disease risk in epidemiologic studies. However, sound nutritional recommendations for cardiovascular prevention should be based on the results of large randomized clinical trials with \"hard\" end-points as the main outcome. Such evidence has been obtained for the Mediterranean diet from the PREDIMED (Prevención con Dieta Mediterránea) trial and the Lyon Heart Study. The traditional Mediterranean diet was that found in olive growing areas of Crete, Greece, and Southern Italy in the late 1950s. Their major characteristics include: a) a high consumption of cereals, legumes, nuts, vegetables, and fruits; b) a relatively high-fat consumption, mostly provided by olive oil; c) moderate to high fish consumption; d) poultry and dairy products consumed in moderate to small amounts; e) low consumption of red meats, and meat products; and f) moderate alcohol intake, usually in the form of red wine.",
+      "target": "However, these protective effects of the traditional Mediterranean diet may be even greater if we upgrade the health effects of this dietary pattern changing the common olive oil used for extra-virgin olive oil, increasing the consumption of nuts, fatty fish and whole grain cereals, reducing sodium intake, and maintaining a moderate consumption of wine with meals.",
+      "loss_target": 2.5286178588867188,
+      "loss_target_given_context": 2.162747859954834,
+      "delta_loss": 0.36586999893188477,
+      "gain_ratio": 0.1446916929919048,
+      "score": -0.1446916929919048,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 669,
+      "boundary_end": 1070,
+      "context": "\"Towards an even healthier Mediterranean diet\". Dietary guidelines to promote good health are usually based on foods, nutrients, and dietary patterns predictive of chronic disease risk in epidemiologic studies. However, sound nutritional recommendations for cardiovascular prevention should be based on the results of large randomized clinical trials with \"hard\" end-points as the main outcome. Such evidence has been obtained for the Mediterranean diet from the PREDIMED (Prevención con Dieta Mediterránea) trial and the Lyon Heart Study. The traditional Mediterranean diet was that found in olive growing areas of Crete, Greece, and Southern Italy in the late 1950s.",
+      "target": "Their major characteristics include: a) a high consumption of cereals, legumes, nuts, vegetables, and fruits; b) a relatively high-fat consumption, mostly provided by olive oil; c) moderate to high fish consumption; d) poultry and dairy products consumed in moderate to small amounts; e) low consumption of red meats, and meat products; and f) moderate alcohol intake, usually in the form of red wine.",
+      "loss_target": 1.7219152450561523,
+      "loss_target_given_context": 1.3586344718933105,
+      "delta_loss": 0.3632807731628418,
+      "gain_ratio": 0.21097482829417372,
+      "score": -0.21097482829417372,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1071,
+      "target": "However, these protective effects of the traditional Mediterranean diet may be even greater if we upgrade the health effects of this dietary pattern changing the common olive oil used for extra-virgin olive oil, increasing the consumption of nuts, fatty fish and whole grain cereals, reducing sodium intake, and maintaining a moderate consumption of wine with meals.",
+      "score": -0.1446916929919048,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "However, these protective effects of the traditional Mediterranean diet may be even greater if we upgrade the health effects of this dietary pattern changing the common olive oil used for extra-virgin olive oil, increasing the consumption of nuts, fatty fish and whole grain cereals, reducing sodium intake, and maintaining a moderate consumption of wine with meals. © 2013 Elsevier B.V. All rights reserved.",
+      "deleted_char_count": 408
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

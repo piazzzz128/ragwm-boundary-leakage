@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4595",
+  "source_doc_id": "MED-4595",
+  "title": "Too much of too little: xylitol, an unusual trigger of a chronic metabolic hyperchloremic acidosis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Too much of too little: xylitol, an unusual trigger of a chronic metabolic hyperchloremic acidosis.\nHomeopathic globules are frequently used in children as a first-line treatment. Most of these globules are coated with sugar substitutes like xylitol; these substitutes are known for their laxative effect. Our patient shows that consumption of globules coated with xylitol does not have only laxative effects. It may cause indeed considerable weight loss and life-threatening enteral bicarbonate loss by diarrhea when overdosed in an infant.",
+  "sanitized_text": "Too much of too little: xylitol, an unusual trigger of a chronic metabolic hyperchloremic acidosis.\nHomeopathic globules are frequently used in children as a first-line treatment. Most of these globules are coated with sugar substitutes like xylitol; these substitutes are known for their laxative effect. Our patient shows that consumption of globules coated with xylitol does not have only laxative effects. It may cause indeed considerable weight loss and life-threatening enteral bicarbonate loss by diarrhea when overdosed in an infant.",
+  "modified": false,
+  "original_char_count": 541,
+  "sanitized_char_count": 541,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 410,
+      "boundary_end": 541,
+      "context": "Too much of too little: xylitol, an unusual trigger of a chronic metabolic hyperchloremic acidosis. Homeopathic globules are frequently used in children as a first-line treatment. Most of these globules are coated with sugar substitutes like xylitol; these substitutes are known for their laxative effect. Our patient shows that consumption of globules coated with xylitol does not have only laxative effects.",
+      "target": "It may cause indeed considerable weight loss and life-threatening enteral bicarbonate loss by diarrhea when overdosed in an infant.",
+      "loss_target": 4.978081226348877,
+      "loss_target_given_context": 3.84407901763916,
+      "delta_loss": 1.1340022087097168,
+      "gain_ratio": 0.2277990569353243,
+      "score": -0.2277990569353243,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

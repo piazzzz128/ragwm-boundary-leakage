@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3302",
+  "source_doc_id": "MED-3302",
+  "title": "A clustering of immune-mediated polyradiculoneuropathy among swine abattoir workers exposed to aerosolized porcine brains, Indiana, United States.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A clustering of immune-mediated polyradiculoneuropathy among swine abattoir workers exposed to aerosolized porcine brains, Indiana, United States.\nIn November 2007 a novel neuropathy, immune-mediated polyradiculoneuropathy (IP), was identified among workers at a Minnesota swine abattoir where a unique compressed air technique was used to remove porcine brains. An epidemiologic investigation at another abattoir in Indiana that also uses this process was launched to evaluate workers self-reporting neurologic illness compatible with IP. A nested case-control study was performed to identify cases and risk factors. Six confirmed, one probable, and three possible IP cases were detected. IP cases were 28-52 years old, of Latino origin, and 62.5% female. Onset dates ranged from April 2005-December 2007; 60% were hospitalized. IP cases at this plant were similar in clinical presentation and exposure risks to those detected in Minnesota. Swine abattoirs using similar brain extraction methods should discontinue this process.",
+  "sanitized_text": "A clustering of immune-mediated polyradiculoneuropathy among swine abattoir workers exposed to aerosolized porcine brains, Indiana, United States.\nIn November 2007 a novel neuropathy, immune-mediated polyradiculoneuropathy (IP), was identified among workers at a Minnesota swine abattoir where a unique compressed air technique was used to remove porcine brains. An epidemiologic investigation at another abattoir in Indiana that also uses this process was launched to evaluate workers self-reporting neurologic illness compatible with IP. A nested case-control study was performed to identify cases and risk factors. Six confirmed, one probable, and three possible IP cases were detected. IP cases were 28-52 years old, of Latino origin, and 62.5% female. Onset dates ranged from April 2005-December 2007; 60% were hospitalized. IP cases at this plant were similar in clinical presentation and exposure risks to those detected in Minnesota. Swine abattoirs using similar brain extraction methods should discontinue this process.",
+  "modified": false,
+  "original_char_count": 1029,
+  "sanitized_char_count": 1029,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 942,
+      "boundary_end": 1029,
+      "context": "A clustering of immune-mediated polyradiculoneuropathy among swine abattoir workers exposed to aerosolized porcine brains, Indiana, United States. In November 2007 a novel neuropathy, immune-mediated polyradiculoneuropathy (IP), was identified among workers at a Minnesota swine abattoir where a unique compressed air technique was used to remove porcine brains. An epidemiologic investigation at another abattoir in Indiana that also uses this process was launched to evaluate workers self-reporting neurologic illness compatible with IP. A nested case-control study was performed to identify cases and risk factors. Six confirmed, one probable, and three possible IP cases were detected. IP cases were 28-52 years old, of Latino origin, and 62.5% female. Onset dates ranged from April 2005-December 2007; 60% were hospitalized. IP cases at this plant were similar in clinical presentation and exposure risks to those detected in Minnesota.",
+      "target": "Swine abattoirs using similar brain extraction methods should discontinue this process.",
+      "loss_target": 4.432668685913086,
+      "loss_target_given_context": 1.7801423072814941,
+      "delta_loss": 2.652526378631592,
+      "gain_ratio": 0.5984039337434031,
+      "score": -0.5984039337434031,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

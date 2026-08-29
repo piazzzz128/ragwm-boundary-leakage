@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2559",
+  "source_doc_id": "MED-2559",
+  "title": "Effect of IP6 on human neutrophil cytokine production and cell morphology.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of IP6 on human neutrophil cytokine production and cell morphology.\nInositol hexaphosphate (IP6) has anti-cancer properties, but recently other extracellular functions have been observed for IP6, including enhancing superoxide production and phagocytosis by neutrophils in the presence of microbial stimuli. This study investigated other inflammatory functions of IP6 on adherent neutrophils. The effect of IP6 on the release of IL-8, tumour necrosis factor (TNF-alpha) and IL-6 by neutrophils attached to either plastic or laminin for up to 6 hours in response to stimulation with lipopolysaccharide or N-formyl-Met-Leu-Phe (fMLP) was investigated. An increase in IL-8 secretion by stimulated cells occurred in the presence of IP6. The incubation of cells attached to laminin with IP6 alone (100-250 BM) did not effect cell morphology, but in the presence of 10(-7) M fMLP altered cell shape. A direct effect of IP6 on cell function was to trigger a sustained assembly of F-actin. Thus, exposure of neutrophils to low levels of IP6 appears to modulate selective neutrophil functions.",
+  "sanitized_text": "Effect of IP6 on human neutrophil cytokine production and cell morphology.\nInositol hexaphosphate (IP6) has anti-cancer properties, but recently other extracellular functions have been observed for IP6, including enhancing superoxide production and phagocytosis by neutrophils in the presence of microbial stimuli. This study investigated other inflammatory functions of IP6 on adherent neutrophils. The effect of IP6 on the release of IL-8, tumour necrosis factor (TNF-alpha) and IL-6 by neutrophils attached to either plastic or laminin for up to 6 hours in response to stimulation with lipopolysaccharide or N-formyl-Met-Leu-Phe (fMLP) was investigated. An increase in IL-8 secretion by stimulated cells occurred in the presence of IP6. The incubation of cells attached to laminin with IP6 alone (100-250 BM) did not effect cell morphology, but in the presence of 10(-7) M fMLP altered cell shape. A direct effect of IP6 on cell function was to trigger a sustained assembly of F-actin. Thus, exposure of neutrophils to low levels of IP6 appears to modulate selective neutrophil functions.",
+  "modified": false,
+  "original_char_count": 1091,
+  "sanitized_char_count": 1091,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 989,
+      "boundary_end": 1091,
+      "context": "Effect of IP6 on human neutrophil cytokine production and cell morphology. Inositol hexaphosphate (IP6) has anti-cancer properties, but recently other extracellular functions have been observed for IP6, including enhancing superoxide production and phagocytosis by neutrophils in the presence of microbial stimuli. This study investigated other inflammatory functions of IP6 on adherent neutrophils. The effect of IP6 on the release of IL-8, tumour necrosis factor (TNF-alpha) and IL-6 by neutrophils attached to either plastic or laminin for up to 6 hours in response to stimulation with lipopolysaccharide or N-formyl-Met-Leu-Phe (fMLP) was investigated. An increase in IL-8 secretion by stimulated cells occurred in the presence of IP6. The incubation of cells attached to laminin with IP6 alone (100-250 BM) did not effect cell morphology, but in the presence of 10(-7) M fMLP altered cell shape. A direct effect of IP6 on cell function was to trigger a sustained assembly of F-actin.",
+      "target": "Thus, exposure of neutrophils to low levels of IP6 appears to modulate selective neutrophil functions.",
+      "loss_target": 3.100062608718872,
+      "loss_target_given_context": 1.5472140312194824,
+      "delta_loss": 1.5528485774993896,
+      "gain_ratio": 0.5009087794330443,
+      "score": -0.5009087794330443,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

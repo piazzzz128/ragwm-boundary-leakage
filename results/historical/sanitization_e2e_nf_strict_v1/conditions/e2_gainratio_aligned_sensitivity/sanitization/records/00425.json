@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1519",
+  "source_doc_id": "MED-1519",
+  "title": "Improved performance on clerical tasks associated with administration of peppermint odor.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Improved performance on clerical tasks associated with administration of peppermint odor.\nPrevious research indicates the presence of certain odors is associated with enhanced task performance. The present study investigated use of peppermint odor during typing performance, memorization, and alphabetization. Participants completed the protocol twice--once with peppermint odor present and once without. Analysis indicated significant differences in the gross speed, net speed, and accuracy on the typing task, with odor associated with improved performance. Alphabetization also improved significantly under the odor condition but not typing duration or memorization. These results suggest peppermint odor may promote a general arousal of attention, so participants stay focused on their task and increase performance.",
+  "sanitized_text": "Improved performance on clerical tasks associated with administration of peppermint odor.\nPrevious research indicates the presence of certain odors is associated with enhanced task performance. The present study investigated use of peppermint odor during typing performance, memorization, and alphabetization. Participants completed the protocol twice--once with peppermint odor present and once without. Analysis indicated significant differences in the gross speed, net speed, and accuracy on the typing task, with odor associated with improved performance. Alphabetization also improved significantly under the odor condition but not typing duration or memorization. These results suggest peppermint odor may promote a general arousal of attention, so participants stay focused on their task and increase performance.",
+  "modified": false,
+  "original_char_count": 820,
+  "sanitized_char_count": 820,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 670,
+      "boundary_end": 820,
+      "context": "Improved performance on clerical tasks associated with administration of peppermint odor. Previous research indicates the presence of certain odors is associated with enhanced task performance. The present study investigated use of peppermint odor during typing performance, memorization, and alphabetization. Participants completed the protocol twice--once with peppermint odor present and once without. Analysis indicated significant differences in the gross speed, net speed, and accuracy on the typing task, with odor associated with improved performance. Alphabetization also improved significantly under the odor condition but not typing duration or memorization.",
+      "target": "These results suggest peppermint odor may promote a general arousal of attention, so participants stay focused on their task and increase performance.",
+      "loss_target": 4.161707401275635,
+      "loss_target_given_context": 2.622431755065918,
+      "delta_loss": 1.5392756462097168,
+      "gain_ratio": 0.3698663788179588,
+      "score": -0.3698663788179588,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

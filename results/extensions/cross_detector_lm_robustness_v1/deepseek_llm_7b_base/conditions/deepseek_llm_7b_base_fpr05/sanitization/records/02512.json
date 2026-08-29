@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4360",
+  "source_doc_id": "MED-4360",
+  "title": "Can ciguatera be a sexually transmitted disease?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Can ciguatera be a sexually transmitted disease?\nCiguatera is a type of food poisoning associated with the consumption of contaminated marine fish. We report two cases in which painful ejaculation in an affected male and dyspareunia in an unaffected female following her partner's ejaculation suggest the sexual transfer of the responsible agent, ciguatoxin (CTX). Immunoassay of semen samples for CTX were not diagnostic, but the sensitivity and timing of the test employed may have precluded detection of small quantities of the toxin. We conclude that CTX may be present in the semen of men affected with ciguatera toxicity and be capable of producing symptomatology in both males and females during sexual intercourse.",
+  "sanitized_text": "Can ciguatera be a sexually transmitted disease?\nCiguatera is a type of food poisoning associated with the consumption of contaminated marine fish. We report two cases in which painful ejaculation in an affected male and dyspareunia in an unaffected female following her partner's ejaculation suggest the sexual transfer of the responsible agent, ciguatoxin (CTX). Immunoassay of semen samples for CTX were not diagnostic, but the sensitivity and timing of the test employed may have precluded detection of small quantities of the toxin. We conclude that CTX may be present in the semen of men affected with ciguatera toxicity and be capable of producing symptomatology in both males and females during sexual intercourse.",
+  "modified": false,
+  "original_char_count": 722,
+  "sanitized_char_count": 722,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 538,
+      "boundary_end": 722,
+      "context": "Can ciguatera be a sexually transmitted disease? Ciguatera is a type of food poisoning associated with the consumption of contaminated marine fish. We report two cases in which painful ejaculation in an affected male and dyspareunia in an unaffected female following her partner's ejaculation suggest the sexual transfer of the responsible agent, ciguatoxin (CTX). Immunoassay of semen samples for CTX were not diagnostic, but the sensitivity and timing of the test employed may have precluded detection of small quantities of the toxin.",
+      "target": "We conclude that CTX may be present in the semen of men affected with ciguatera toxicity and be capable of producing symptomatology in both males and females during sexual intercourse.",
+      "loss_target": 2.8920748233795166,
+      "loss_target_given_context": 1.5731139183044434,
+      "delta_loss": 1.3189609050750732,
+      "gain_ratio": 0.4560604360622349,
+      "score": -0.4560604360622349,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

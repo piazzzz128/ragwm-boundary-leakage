@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5346",
+  "source_doc_id": "MED-5346",
+  "title": "Resident duty-hour restrictions-who are we protecting?: AOA critical issues.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Resident duty-hour restrictions-who are we protecting?: AOA critical issues.\nAs advocated by Nasca, our teaching programs must nurture professionalism and the effacement of self interest that is the core of the practice of medicine and the profession. The evidence to date suggests that work-hour restrictions based solely on clock-defined time limits discourage, rather than promote, the professional behavior that we desire in tomorrow's physicians. Notwithstanding any issues related to duty hours or fitness for duty, a competency-based system of medical education is both desirable and necessary in the current environment of medical education. In the absence of evidence to suggest that duty-hour limits reduce medical errors and enhance patient safety, and until we have evolved to a competency-based system of resident education, a misguided and overzealous focus on limiting work hours should not be allowed to exert the unintended consequence of eroding the ethos of professionalism that we, and our patients, have come to expect of a physician.",
+  "sanitized_text": "Resident duty-hour restrictions-who are we protecting?: AOA critical issues.\nAs advocated by Nasca, our teaching programs must nurture professionalism and the effacement of self interest that is the core of the practice of medicine and the profession. The evidence to date suggests that work-hour restrictions based solely on clock-defined time limits discourage, rather than promote, the professional behavior that we desire in tomorrow's physicians. Notwithstanding any issues related to duty hours or fitness for duty, a competency-based system of medical education is both desirable and necessary in the current environment of medical education. In the absence of evidence to suggest that duty-hour limits reduce medical errors and enhance patient safety, and until we have evolved to a competency-based system of resident education, a misguided and overzealous focus on limiting work hours should not be allowed to exert the unintended consequence of eroding the ethos of professionalism that we, and our patients, have come to expect of a physician.",
+  "modified": false,
+  "original_char_count": 1055,
+  "sanitized_char_count": 1055,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 650,
+      "boundary_end": 1055,
+      "context": "Resident duty-hour restrictions-who are we protecting?: AOA critical issues. As advocated by Nasca, our teaching programs must nurture professionalism and the effacement of self interest that is the core of the practice of medicine and the profession. The evidence to date suggests that work-hour restrictions based solely on clock-defined time limits discourage, rather than promote, the professional behavior that we desire in tomorrow's physicians. Notwithstanding any issues related to duty hours or fitness for duty, a competency-based system of medical education is both desirable and necessary in the current environment of medical education.",
+      "target": "In the absence of evidence to suggest that duty-hour limits reduce medical errors and enhance patient safety, and until we have evolved to a competency-based system of resident education, a misguided and overzealous focus on limiting work hours should not be allowed to exert the unintended consequence of eroding the ethos of professionalism that we, and our patients, have come to expect of a physician.",
+      "loss_target": 2.6070990562438965,
+      "loss_target_given_context": 2.056253671646118,
+      "delta_loss": 0.5508453845977783,
+      "gain_ratio": 0.2112867109051825,
+      "score": -0.2112867109051825,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,595 @@
+==================================================
+A. BOUNDARY BUILDER FULL SOURCE
+==================================================
+import json
+import re
+import random
+from pathlib import Path
+from collections import Counter
+import chromadb
+
+SEED = 2026
+random.seed(SEED)
+
+DB_PATH = "/root/autodl-tmp/ragwm_storage/chromadb_db"
+COLLECTION = "nfcorpus_contriever_cosine"
+
+INJECT_PATH = Path("/root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject.json")
+OUT_PATH = Path("/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_strict_v1.json")
+AUDIT_PATH = Path("/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_strict_v1_audit.json")
+
+MAX_CONTEXT_CHARS = 1200
+MIN_TARGET_CHARS = 25
+
+def norm_space(s: str) -> str:
+    return re.sub(r"\s+", " ", (s or "")).strip()
+
+def split_sentences(text: str):
+    text = norm_space(text)
+    if not text:
+        return []
+    parts = re.split(r"(?<=[.!?])\s+", text)
+    parts = [p.strip() for p in parts if len(p.strip()) >= MIN_TARGET_CHARS]
+    return parts
+
+def tail_context(text: str, max_chars: int = MAX_CONTEXT_CHARS):
+    text = norm_space(text)
+    if len(text) <= max_chars:
+        return text
+    cut = text[-max_chars:]
+    # avoid starting in the middle of a word/sentence too badly
+    first_space = cut.find(" ")
+    if first_space > 0:
+        cut = cut[first_space+1:]
+    return cut.strip()
+
+def load_inject_units():
+    data = json.load(open(INJECT_PATH, "r", encoding="utf-8"))
+    units = []
+    all_wt = []
+    for unit_idx, item in enumerate(data):
+        tup = item[0]
+        doc_ids = item[1]
+        candidates = item[2]
+        for cand_idx, cand in enumerate(candidates):
+            wt = norm_space(cand[0])
+            if not wt:
+                continue
+            units.append({
+                "unit_idx": unit_idx,
+                "candidate_idx": cand_idx,
+                "tuple": tup,
+                "doc_ids": doc_ids,
+                "watermark_text": wt,
+                "wd1": cand[1] if len(cand) > 1 else None,
+                "wd2": cand[2] if len(cand) > 2 else None,
+            })
+            all_wt.append(wt)
+    return units, all_wt
+
+def main():
+    assert INJECT_PATH.exists(), f"missing {INJECT_PATH}"
+
+    units, all_wt = load_inject_units()
+    print("inject units:", len(json.load(open(INJECT_PATH, "r", encoding="utf-8"))))
+    print("watermark candidates:", len(units))
+
+    client = chromadb.PersistentClient(path=DB_PATH)
+    col = client.get_collection(COLLECTION)
+    print("collection count:", col.count())
+
+    # get all docs
+    all_data = col.get(include=["documents", "metadatas"])
+    ids = all_data["ids"]
+    docs = all_data["documents"]
+    metas = all_data["metadatas"]
+
+    by_source_id = {}
+    changed_docs = []
+    clean_docs = []
+
+    for chroma_id, doc, meta in zip(ids, docs, metas):
+        meta = meta or {}
+        source_id = meta.get("id", chroma_id)
+        rec = {
+            "chroma_id": chroma_id,
+            "source_doc_id": source_id,
+            "document": doc or "",
+            "metadata": meta,
+            "change": bool(meta.get("change", False)),
+        }
+        by_source_id.setdefault(source_id, []).append(rec)
+        if rec["change"]:
+            changed_docs.append(rec)
+        else:
+            clean_docs.append(rec)
+
+    print("changed docs:", len(changed_docs))
+    print("clean docs:", len(clean_docs))
+
+    # Build a quick searchable list of changed documents.
+    changed_by_docid = {}
+    for rec in changed_docs:
+        changed_by_docid.setdefault(rec["source_doc_id"], []).append(rec)
+
+    inject_records = []
+    missing = []
+
+    for idx, u in enumerate(units):
+        wt = u["watermark_text"]
+        candidate_recs = []
+
+        # Prefer the doc_ids recorded in wmuint_inject.json
+        for did in u["doc_ids"]:
+            candidate_recs.extend(changed_by_docid.get(did, []))
+
+        # Fallback: scan all changed docs
+        if not candidate_recs:
+            candidate_recs = changed_docs
+
+        found = False
+        for rec in candidate_recs:
+            doc = rec["document"]
+            pos = doc.find(wt)
+            if pos < 0:
+                continue
+
+            # To avoid previous appended WT leaking into context, cut context at earliest WT occurrence in this doc.
+            wt_positions = [doc.find(x) for x in all_wt if x and doc.find(x) >= 0]
+            earliest_wt_pos = min(wt_positions) if wt_positions else pos
+            original_context = doc[:earliest_wt_pos]
+            context = tail_context(original_context)
+
+            if not context:
+                continue
+            if wt in context:
+                continue
+
+            full_text = norm_space(context + " " + wt)
+            inject_records.append({
+                "id": f"nfcorpus_strict_inject_{len(inject_records)}",
+                "dataset": "nfcorpus",
+                "source": "strict_inject",
+                "label": 1,
+                "boundary_type": "inject",
+                "group_id": "||".join(map(str, u["tuple"])),
+                "tuple": u["tuple"],
+                "source_doc_id": rec["source_doc_id"],
+                "chroma_id": rec["chroma_id"],
+                "unit_idx": u["unit_idx"],
+                "candidate_idx": u["candidate_idx"],
+                "context": context,
+                "target": wt,
+                "context_text": context,
+                "target_text": wt,
+                "watermark_text": wt,
+                "full_text": full_text,
+                "wd1": u["wd1"],
+                "wd2": u["wd2"],
+            })
+            found = True
+            break
+
+        if not found:
+            missing.append(u)
+
+    print("inject boundary records:", len(inject_records))
+    print("missing watermark candidates in changed docs:", len(missing))
+
+    # Build clean boundary records from unchanged docs.
+    clean_candidates = []
+    for rec in clean_docs:
+        text = rec["document"]
+        sents = split_sentences(text)
+        if len(sents) < 2:
+            continue
+
+        # choose a later sentence as target; context is preceding text
+        for j in range(1, min(len(sents), 5)):
+            target = sents[j]
+            if any(wt in target for wt in all_wt):
+                continue
+            context = tail_context(" ".join(sents[:j]))
+            if not context or target in context:
+                continue
+            full_text = norm_space(context + " " + target)
+            clean_candidates.append({
+                "id": f"nfcorpus_strict_clean_candidate_{len(clean_candidates)}",
+                "dataset": "nfcorpus",
+                "source": "clean",
+                "label": 0,
+                "boundary_type": "clean",
+                "group_id": rec["source_doc_id"],
+                "tuple": None,
+                "source_doc_id": rec["source_doc_id"],
+                "chroma_id": rec["chroma_id"],
+                "context": context,
+                "target": target,
+                "context_text": context,
+                "target_text": target,
+                "watermark_text": None,
+                "full_text": full_text,
+            })
+
+    print("clean candidates:", len(clean_candidates))
+
+    if not inject_records:
+        raise RuntimeError("No inject boundary records generated.")
+    if len(clean_candidates) < len(inject_records):
+        raise RuntimeError(f"Not enough clean candidates: {len(clean_candidates)} < {len(inject_records)}")
+
+    random.shuffle(clean_candidates)
+    clean_records = clean_candidates[:len(inject_records)]
+    for i, rec in enumerate(clean_records):
+        rec["id"] = f"nfcorpus_strict_clean_{i}"
+
+    records = inject_records + clean_records
+    random.shuffle(records)
+
+    # Audit
+    full_texts = [r["full_text"] for r in records]
+    full_counter = Counter(full_texts)
+
+    target_in_context = sum(1 for r in records if r["target"] and r["target"] in r["context"])
+    context_contains_any_wt = sum(1 for r in inject_records if any(wt in r["context"] for wt in all_wt))
+    clean_target_contains_any_wt = sum(1 for r in clean_records if any(wt in r["target"] for wt in all_wt))
+    duplicate_full_text = sum(1 for k, v in full_counter.items() if v > 1)
+
+    audit = {
+        "dataset": "nfcorpus",
+        "version": "strict_v1",
+        "seed": SEED,
+        "collection": COLLECTION,
+        "collection_count": col.count(),
+        "changed_docs": len(changed_docs),
+        "clean_docs": len(clean_docs),
+        "inject_units": len(json.load(open(INJECT_PATH, "r", encoding="utf-8"))),
+        "watermark_candidates": len(units),
+        "inject_records": len(inject_records),
+        "clean_records": len(clean_records),
+        "total_records": len(records),
+        "label_counts": dict(Counter(r["label"] for r in records)),
+        "missing_watermark_candidates_in_changed_docs": len(missing),
+        "target_in_context": target_in_context,
+        "context_contains_any_wt": context_contains_any_wt,
+        "clean_target_contains_any_wt": clean_target_contains_any_wt,
+        "duplicate_full_text": duplicate_full_text,
+        "candidate_count_distribution_in_inject_file": dict(Counter(len(x[2]) for x in json.load(open(INJECT_PATH, "r", encoding="utf-8")))),
+        "note": "Strict NFCorpus boundary dataset built from current wmuint_inject.json and current Chroma collection. Context for inject records is cut before the earliest appended watermark text in the changed document to avoid watermark leakage into context."
+    }
+
+    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    json.dump(records, open(OUT_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    json.dump(audit, open(AUDIT_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+
+    print("saved:", OUT_PATH)
+    print("saved:", AUDIT_PATH)
+    print(json.dumps(audit, ensure_ascii=False, indent=2))
+
+if __name__ == "__main__":
+    main()
+
+==================================================
+B. GAINRATIO SCORER FULL SOURCE
+==================================================
+import json
+from pathlib import Path
+from collections import defaultdict
+
+import numpy as np
+import torch
+from sklearn.metrics import roc_auc_score, average_precision_score, precision_recall_curve, roc_curve
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+BOUNDARY_PATH = Path("/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_strict_v1.json")
+SCORES_PATH = Path("/root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_qwen_gainratio_scores.json")
+METRICS_PATH = Path("/root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_qwen_gainratio_metrics.json")
+FAILED_PATH = Path("/root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_qwen_gainratio_failed.json")
+
+MODEL_PATH = "/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-7B"
+
+MAX_CONTEXT_TOKENS = 1024
+MAX_TARGET_TOKENS = 128
+
+def tpr_at_fpr(y_true, scores, fpr_level):
+    fpr, tpr, _ = roc_curve(y_true, scores)
+    valid = np.where(fpr <= fpr_level)[0]
+    if len(valid) == 0:
+        return 0.0
+    return float(np.max(tpr[valid]))
+
+def best_f1(y_true, scores):
+    precision, recall, _ = precision_recall_curve(y_true, scores)
+    f1 = 2 * precision * recall / np.clip(precision + recall, 1e-12, None)
+    return float(np.max(f1))
+
+def aggregate_group(records, key):
+    groups = defaultdict(list)
+    labels = {}
+    for r in records:
+        gid = r.get("group_id") or r.get("source_doc_id") or r.get("id")
+        groups[gid].append(float(r[key]))
+        labels[gid] = int(r["label"])
+    y = []
+    mean_scores = []
+    median_scores = []
+    for gid, vals in groups.items():
+        y.append(labels[gid])
+        mean_scores.append(float(np.mean(vals)))
+        median_scores.append(float(np.median(vals)))
+    return np.array(y), np.array(mean_scores), np.array(median_scores)
+
+def calc_metrics(y, score):
+    return {
+        "roc_auc": float(roc_auc_score(y, score)),
+        "pr_auc": float(average_precision_score(y, score)),
+        "tpr_at_fpr_5": tpr_at_fpr(y, score, 0.05),
+        "tpr_at_fpr_10": tpr_at_fpr(y, score, 0.10),
+        "best_f1": best_f1(y, score),
+    }
+
+@torch.no_grad()
+def target_nll(tokenizer, model, device, context, target):
+    context = (context or "").strip()
+    target = (target or "").strip()
+
+    target_ids = tokenizer(
+        target,
+        add_special_tokens=False,
+        truncation=True,
+        max_length=MAX_TARGET_TOKENS
+    )["input_ids"]
+
+    if len(target_ids) < 2:
+        return None
+
+    if context:
+        context_ids = tokenizer(
+            context,
+            add_special_tokens=False,
+            truncation=True,
+            max_length=MAX_CONTEXT_TOKENS
+        )["input_ids"]
+    else:
+        context_ids = []
+
+    input_ids = context_ids + target_ids
+    if len(input_ids) < 2:
+        return None
+
+    ids = torch.tensor([input_ids], dtype=torch.long, device=device)
+    out = model(ids)
+    logits = out.logits
+
+    # target token positions in input_ids
+    start = len(context_ids)
+    end = len(input_ids)
+
+    # logits at position p-1 predict token at position p
+    pred_positions = []
+    label_positions = []
+    for p in range(start, end):
+        if p == 0:
+            continue
+        pred_positions.append(p - 1)
+        label_positions.append(p)
+
+    if not pred_positions:
+        return None
+
+    pred_logits = logits[0, pred_positions, :]
+    labels = ids[0, label_positions]
+
+    loss = torch.nn.functional.cross_entropy(
+        pred_logits.float(),
+        labels,
+        reduction="mean"
+    )
+    return float(loss.item())
+
+def main():
+    data = json.load(open(BOUNDARY_PATH, "r", encoding="utf-8"))
+    print("loaded boundary:", len(data))
+    print("model:", MODEL_PATH)
+
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print("device:", device)
+
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+
+    dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float32
+    model = AutoModelForCausalLM.from_pretrained(
+        MODEL_PATH,
+        torch_dtype=dtype,
+        device_map="auto" if torch.cuda.is_available() else None,
+        trust_remote_code=True
+    )
+    model.eval()
+
+    records = []
+    failed = []
+
+    for i, item in enumerate(data):
+        context = item.get("context") or item.get("context_text") or ""
+        target = item.get("target") or item.get("target_text") or ""
+
+        try:
+            loss_t = target_nll(tokenizer, model, device, "", target)
+            loss_tc = target_nll(tokenizer, model, device, context, target)
+
+            if loss_t is None or loss_tc is None or loss_t <= 0:
+                failed.append({"index": i, "reason": "invalid_loss", "id": item.get("id")})
+                continue
+
+            delta_loss = loss_t - loss_tc
+            gain_ratio = delta_loss / loss_t
+
+            # label=1 is inject. Inject boundary should have smaller gain_ratio.
+            score = -gain_ratio
+
+            r = dict(item)
+            r["loss_target"] = loss_t
+            r["loss_target_given_context"] = loss_tc
+            r["delta_loss"] = delta_loss
+            r["gain_ratio"] = gain_ratio
+            r["score"] = score
+            records.append(r)
+
+            if (i + 1) % 25 == 0:
+                print(f"scored {i+1}/{len(data)} records, valid={len(records)}, failed={len(failed)}", flush=True)
+
+        except Exception as e:
+            failed.append({"index": i, "reason": repr(e), "id": item.get("id")})
+            print("FAILED", i, repr(e), flush=True)
+
+    if not records:
+        raise RuntimeError("No records scored.")
+
+    y = np.array([int(r["label"]) for r in records])
+    score_gain = np.array([float(r["score"]) for r in records])
+    score_delta = np.array([-float(r["delta_loss"]) for r in records])
+
+    metrics = {
+        "dataset": "nfcorpus_strict_v1",
+        "method": "GainRatio",
+        "model": "Qwen2.5-7B",
+        "n_input": len(data),
+        "n_scored": len(records),
+        "n_failed": len(failed),
+        "positive_inject": int(y.sum()),
+        "negative_clean": int((y == 0).sum()),
+
+        "record_gain_ratio": calc_metrics(y, score_gain),
+        "record_delta_loss": calc_metrics(y, score_delta),
+
+        "gain_ratio_mean_inject": float(np.mean([r["gain_ratio"] for r in records if int(r["label"]) == 1])),
+        "gain_ratio_mean_clean": float(np.mean([r["gain_ratio"] for r in records if int(r["label"]) == 0])),
+        "delta_loss_mean_inject": float(np.mean([r["delta_loss"] for r in records if int(r["label"]) == 1])),
+        "delta_loss_mean_clean": float(np.mean([r["delta_loss"] for r in records if int(r["label"]) == 0])),
+    }
+
+    gy, gmean_gain, gmedian_gain = aggregate_group(records, "score")
+    metrics["group_mean_gain_ratio"] = calc_metrics(gy, gmean_gain)
+    metrics["group_median_gain_ratio"] = calc_metrics(gy, gmedian_gain)
+
+    gy2, gmean_delta, gmedian_delta = aggregate_group(
+        [{**r, "delta_score": -float(r["delta_loss"])} for r in records],
+        "delta_score"
+    )
+    metrics["group_mean_delta_loss"] = calc_metrics(gy2, gmean_delta)
+    metrics["group_median_delta_loss"] = calc_metrics(gy2, gmedian_delta)
+
+    SCORES_PATH.parent.mkdir(parents=True, exist_ok=True)
+    json.dump(records, open(SCORES_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    json.dump(metrics, open(METRICS_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    json.dump(failed, open(FAILED_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+
+    print("saved scores:", SCORES_PATH)
+    print("saved metrics:", METRICS_PATH)
+    print("saved failed:", FAILED_PATH)
+    print(json.dumps(metrics, ensure_ascii=False, indent=2))
+
+if __name__ == "__main__":
+    main()
+
+==================================================
+C. LOCAL MODEL DIRECTORIES
+==================================================
+/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-7B/config.json
+
+==================================================
+D. CURRENT STRICT SCORE SUMMARY
+==================================================
+score rows: 446
+score keys: ['boundary_type', 'candidate_idx', 'chroma_id', 'context', 'context_text', 'dataset', 'delta_loss', 'full_text', 'gain_ratio', 'group_id', 'id', 'label', 'loss_target', 'loss_target_given_context', 'score', 'source', 'source_doc_id', 'target', 'target_text', 'tuple', 'unit_idx', 'watermark_text', 'wd1', 'wd2']
+metrics:
+{
+  "dataset": "nfcorpus_strict_v1",
+  "method": "GainRatio",
+  "model": "Qwen2.5-7B",
+  "n_input": 446,
+  "n_scored": 446,
+  "n_failed": 0,
+  "positive_inject": 223,
+  "negative_clean": 223,
+  "record_gain_ratio": {
+    "roc_auc": 0.9777393472621609,
+    "pr_auc": 0.9757771647006732,
+    "tpr_at_fpr_5": 0.9013452914798207,
+    "tpr_at_fpr_10": 0.9551569506726457,
+    "best_f1": 0.9380530973451328
+  },
+  "record_delta_loss": {
+    "roc_auc": 0.9603852882623821,
+    "pr_auc": 0.9688039110376259,
+    "tpr_at_fpr_5": 0.874439461883408,
+    "tpr_at_fpr_10": 0.8923766816143498,
+    "best_f1": 0.9112149532710279
+  },
+  "gain_ratio_mean_inject": -0.12438938934603173,
+  "gain_ratio_mean_clean": 0.2278470395018499,
+  "delta_loss_mean_inject": -0.4756219750562591,
+  "delta_loss_mean_clean": 0.6541518162718802,
+  "group_mean_gain_ratio": {
+    "roc_auc": 0.9934562211981567,
+    "pr_auc": 0.9684554390116742,
+    "tpr_at_fpr_5": 0.98,
+    "tpr_at_fpr_10": 1.0,
+    "best_f1": 0.9423076923076924
+  },
+  "group_median_gain_ratio": {
+    "roc_auc": 0.9903225806451612,
+    "pr_auc": 0.9575502376410157,
+    "tpr_at_fpr_5": 0.98,
+    "tpr_at_fpr_10": 0.98,
+    "best_f1": 0.923076923076923
+  },
+  "group_mean_delta_loss": {
+    "roc_auc": 0.992258064516129,
+    "pr_auc": 0.9748850504957156,
+    "tpr_at_fpr_5": 0.98,
+    "tpr_at_fpr_10": 0.98,
+    "best_f1": 0.9411764705882353
+  },
+  "group_median_delta_loss": {
+    "roc_auc": 0.9848847926267281,
+    "pr_auc": 0.9627112742873065,
+    "tpr_at_fpr_5": 0.96,
+    "tpr_at_fpr_10": 0.96,
+    "best_f1": 0.92
+  }
+}
+
+First three rows:
+{
+  "id": "nfcorpus_strict_inject_167",
+  "label": 1,
+  "context": "How free fatty acids inhibit glucose utilization in human skeletal muscle. Rat muscle studies suggest competition between free fatty acids (FFA) and glucose for oxidation, resulting in glucose-6-phosphate accumulation. However, FFA decrease glucose-6-phosphate in human skeletal muscle, indicating direct inhibition of glucose transport/phosphorylation. This mechanism could redirect glucose from muscle to brain during fasting and explain the insulin resistance associated with high-lipid diets and obesity.",
+  "target": "High-fat meals are considered a component of overall health.",
+  "loss_target": 4.209649085998535,
+  "loss_target_given_context": 5.050883769989014,
+  "gain_ratio": -0.19983487145958542,
+  "score": 0.19983487145958542
+}
+{
+  "id": "nfcorpus_strict_inject_155",
+  "label": 1,
+  "context": "Recent studies suggest that neurocysticercosis may be a risk factor for human cancer. Pathogenetic mechanisms explaining possible oncogenic effects of cysticerci include the following: (a) parasite-induced modulation of the host immune response that may be associated with loss of regulatory mechanisms implicated in the immunological surveillance against cancer; (b) transfer of genetic material from the parasite to the host, causing DNA damage and malignant transformation of host cells, and (c) chronic inflammation with liberation of nitric oxide and inhibition of tumor suppressor genes. Further research is needed to confirm the potential role of cysticercosis in the development of cancer. These studies should determine the presence of cysticercotic factors responsible for the transfer of genetic material and potential mutations in the tumor suppressor genes in proliferating astrocytes surrounding cysticercotic lesions. Additionally, the complex interaction between the immune state of the host with variable cytokine release and the presence of inflammatory cells releasing nitric oxide that cause DNA damage and impair tumor suppressive mechanisms needs to be investigated.",
+  "target": "Cysticercosis is measured in terms of triacylglycerol levels.",
+  "loss_target": 3.078158378601074,
+  "loss_target_given_context": 3.209122896194458,
+  "gain_ratio": -0.042546386990296135,
+  "score": 0.042546386990296135
+}
+{
+  "id": "nfcorpus_strict_clean_90",
+  "label": 0,
+  "context": "Chemical composition and nutritional value of the most widely appreciated cultivated mushrooms: an inter-species comparative study.",
+  "target": "Herein, it was reported and compared the chemical composition and nutritional value of the most consumed species as fresh cultivated mushrooms: Agaricus bisporus (white and brown mushrooms), Pleurotus ostreatus (oyster mushroom), Pleurotus eryngii (King oyster mushroom), Lentinula edodes (Shiitake) and Flammulina velutipes (Golden needle mushroom).",
+  "loss_target": 1.4971990585327148,
+  "loss_target_given_context": 1.1890729665756226,
+  "gain_ratio": 0.20580168695741904,
+  "score": -0.20580168695741904
+}

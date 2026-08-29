@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4298",
+  "source_doc_id": "MED-4298",
+  "title": "Effects of almond consumption on the reduction of LDL-cholesterol: a discussion of potential mechanisms and future research directions.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of almond consumption on the reduction of LDL-cholesterol: a discussion of potential mechanisms and future research directions.\nDiet plays a seminal role in the prevention and treatment of cardiovascular disease. Consumption of tree nuts has been shown to reduce low-density lipoprotein cholesterol (LDL-C), a primary target for coronary disease prevention, by 3-19%. Almonds have been found to have a consistent LDL-C-lowering effect in healthy individuals, and in individuals with high cholesterol and diabetes, in both controlled and free-living settings. Almonds are low in saturated fatty acids, rich in unsaturated fatty acids, and contain fiber, phytosterols, and plant protein. Other cardioprotective nutrients unique to almonds include α-tocopherol, arginine, magnesium, copper, manganese, calcium, and potassium. Mechanisms responsible for the LDL-C reduction observed with almond consumption are likely associated with the nutrients almonds provide. Biologically active by nature, these nutrients target primary mechanistic routes of LDL-C reduction, including decreased (re)absorption of cholesterol and bile acid, increased bile acid and cholesterol excretion, and increased LDL-C receptor activity. The nutrients present in almonds may regulate enzymes involved in de novo cholesterol synthesis and bile acid production. Research is needed to understand all mechanisms by which almonds reduce cardiovascular disease risk. © 2011 International Life Sciences Institute.",
+  "sanitized_text": "Effects of almond consumption on the reduction of LDL-cholesterol: a discussion of potential mechanisms and future research directions.\nDiet plays a seminal role in the prevention and treatment of cardiovascular disease. Consumption of tree nuts has been shown to reduce low-density lipoprotein cholesterol (LDL-C), a primary target for coronary disease prevention, by 3-19%. Almonds have been found to have a consistent LDL-C-lowering effect in healthy individuals, and in individuals with high cholesterol and diabetes, in both controlled and free-living settings. Almonds are low in saturated fatty acids, rich in unsaturated fatty acids, and contain fiber, phytosterols, and plant protein. Other cardioprotective nutrients unique to almonds include α-tocopherol, arginine, magnesium, copper, manganese, calcium, and potassium. Mechanisms responsible for the LDL-C reduction observed with almond consumption are likely associated with the nutrients almonds provide. Biologically active by nature, these nutrients target primary mechanistic routes of LDL-C reduction, including decreased (re)absorption of cholesterol and bile acid, increased bile acid and cholesterol excretion, and increased LDL-C receptor activity. The nutrients present in almonds may regulate enzymes involved in de novo cholesterol synthesis and bile acid production. Research is needed to understand all mechanisms by which almonds reduce cardiovascular disease risk. © 2011 International Life Sciences Institute.",
+  "modified": false,
+  "original_char_count": 1489,
+  "sanitized_char_count": 1489,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1444,
+      "boundary_end": 1489,
+      "context": "has been shown to reduce low-density lipoprotein cholesterol (LDL-C), a primary target for coronary disease prevention, by 3-19%. Almonds have been found to have a consistent LDL-C-lowering effect in healthy individuals, and in individuals with high cholesterol and diabetes, in both controlled and free-living settings. Almonds are low in saturated fatty acids, rich in unsaturated fatty acids, and contain fiber, phytosterols, and plant protein. Other cardioprotective nutrients unique to almonds include α-tocopherol, arginine, magnesium, copper, manganese, calcium, and potassium. Mechanisms responsible for the LDL-C reduction observed with almond consumption are likely associated with the nutrients almonds provide. Biologically active by nature, these nutrients target primary mechanistic routes of LDL-C reduction, including decreased (re)absorption of cholesterol and bile acid, increased bile acid and cholesterol excretion, and increased LDL-C receptor activity. The nutrients present in almonds may regulate enzymes involved in de novo cholesterol synthesis and bile acid production. Research is needed to understand all mechanisms by which almonds reduce cardiovascular disease risk.",
+      "target": "© 2011 International Life Sciences Institute.",
+      "loss_target": 2.0511574745178223,
+      "loss_target_given_context": 0.8539350628852844,
+      "delta_loss": 1.1972224116325378,
+      "gain_ratio": 0.5836813733250666,
+      "score": -0.5836813733250666,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

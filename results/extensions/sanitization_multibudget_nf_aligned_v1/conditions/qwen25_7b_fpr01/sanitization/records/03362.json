@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5311",
+  "source_doc_id": "MED-5311",
+  "title": "Dinitrophenol and obesity: an early twentieth-century regulatory dilemma.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dinitrophenol and obesity: an early twentieth-century regulatory dilemma.\nIn the early 1930s, the industrial chemical dinitrophenol found widespread favor as a weight-loss drug, due principally to the work of Maurice Tainter, a clinical pharmacologist from Stanford University. Unfortunately the compound's therapeutic index was razor thin and it was not until thousands of people suffered irreversible harm that mainstream physicians realized that dinitrophenol's risks outweighed its benefits and abandoned its use. Yet, it took passage of the Food, Drug, and Cosmetic Act in 1938 before federal regulators had the ability to stop patent medicine men from selling dinitrophenol to Americans lured by the promise of a drug that would safely melt one's fat away.",
+  "sanitized_text": "Dinitrophenol and obesity: an early twentieth-century regulatory dilemma.\nIn the early 1930s, the industrial chemical dinitrophenol found widespread favor as a weight-loss drug, due principally to the work of Maurice Tainter, a clinical pharmacologist from Stanford University. Unfortunately the compound's therapeutic index was razor thin and it was not until thousands of people suffered irreversible harm that mainstream physicians realized that dinitrophenol's risks outweighed its benefits and abandoned its use. Yet, it took passage of the Food, Drug, and Cosmetic Act in 1938 before federal regulators had the ability to stop patent medicine men from selling dinitrophenol to Americans lured by the promise of a drug that would safely melt one's fat away.",
+  "modified": false,
+  "original_char_count": 762,
+  "sanitized_char_count": 762,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 518,
+      "boundary_end": 762,
+      "context": "Dinitrophenol and obesity: an early twentieth-century regulatory dilemma. In the early 1930s, the industrial chemical dinitrophenol found widespread favor as a weight-loss drug, due principally to the work of Maurice Tainter, a clinical pharmacologist from Stanford University. Unfortunately the compound's therapeutic index was razor thin and it was not until thousands of people suffered irreversible harm that mainstream physicians realized that dinitrophenol's risks outweighed its benefits and abandoned its use.",
+      "target": "Yet, it took passage of the Food, Drug, and Cosmetic Act in 1938 before federal regulators had the ability to stop patent medicine men from selling dinitrophenol to Americans lured by the promise of a drug that would safely melt one's fat away.",
+      "loss_target": 2.3432881832122803,
+      "loss_target_given_context": 1.8628488779067993,
+      "delta_loss": 0.48043930530548096,
+      "gain_ratio": 0.20502783599022553,
+      "score": -0.20502783599022553,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

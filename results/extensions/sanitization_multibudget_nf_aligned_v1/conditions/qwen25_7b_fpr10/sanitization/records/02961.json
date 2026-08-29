@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4882",
+  "source_doc_id": "MED-4882",
+  "title": "Comparisons of a chicken-based formula with soy-based formula in infants with cow milk allergy.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Comparisons of a chicken-based formula with soy-based formula in infants with cow milk allergy.\nOBJECTIVE: To determine whether chicken-based formula can replace soy-based formula in infants with cow milk allergy. SUBJECTS AND METHODS: Thirty-eight infants with cow's milk allergy, aged between 2-24 months of age were randomized to receive either chicken-based formula or soy-based formula for 14 days. RESULTS: In the group of soy-based formula, 12 out of 18 infants had evidence of intolerance and could not continue with the formula. However, only 4 out of 20 infants in the chicken-based formula group had evidence of clinical intolerance. All other 16 infants were fed the chicken-based formula with success. The number of infants who were intolerant to chicken formula was significantly lower than the number of those fed soy-based formula (p = 0.009). CONCLUSION: Chicken-based formula can be used more effectively than soy-based formula in infants with cow milk allergy.",
+  "sanitized_text": "Comparisons of a chicken-based formula with soy-based formula in infants with cow milk allergy.\nOBJECTIVE: To determine whether chicken-based formula can replace soy-based formula in infants with cow milk allergy. SUBJECTS AND METHODS: Thirty-eight infants with cow's milk allergy, aged between 2-24 months of age were randomized to receive either chicken-based formula or soy-based formula for 14 days. RESULTS: In the group of soy-based formula, 12 out of 18 infants had evidence of intolerance and could not continue with the formula. However, only 4 out of 20 infants in the chicken-based formula group had evidence of clinical intolerance. All other 16 infants were fed the chicken-based formula with success. The number of infants who were intolerant to chicken formula was significantly lower than the number of those fed soy-based formula (p = 0.009). CONCLUSION: Chicken-based formula can be used more effectively than soy-based formula in infants with cow milk allergy.",
+  "modified": false,
+  "original_char_count": 979,
+  "sanitized_char_count": 979,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 860,
+      "boundary_end": 979,
+      "context": "Comparisons of a chicken-based formula with soy-based formula in infants with cow milk allergy. OBJECTIVE: To determine whether chicken-based formula can replace soy-based formula in infants with cow milk allergy. SUBJECTS AND METHODS: Thirty-eight infants with cow's milk allergy, aged between 2-24 months of age were randomized to receive either chicken-based formula or soy-based formula for 14 days. RESULTS: In the group of soy-based formula, 12 out of 18 infants had evidence of intolerance and could not continue with the formula. However, only 4 out of 20 infants in the chicken-based formula group had evidence of clinical intolerance. All other 16 infants were fed the chicken-based formula with success. The number of infants who were intolerant to chicken formula was significantly lower than the number of those fed soy-based formula (p = 0.009).",
+      "target": "CONCLUSION: Chicken-based formula can be used more effectively than soy-based formula in infants with cow milk allergy.",
+      "loss_target": 2.9152936935424805,
+      "loss_target_given_context": 0.7758504152297974,
+      "delta_loss": 2.139443278312683,
+      "gain_ratio": 0.7338688664718946,
+      "score": -0.7338688664718946,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

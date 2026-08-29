@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2130",
+  "source_doc_id": "MED-2130",
+  "title": "Deconvoluting mTOR biology",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Deconvoluting mTOR biology\nIn metazoans, TOR is an essential protein that functions as a master regulator of cellular growth and proliferation. Over the past decade, there has been an explosion of information about this critical master kinase, ranging from the composition of the TOR protein complex to its ability to act as an integrator of numerous extracellular signals. Unfortunately, this plethora of information has also raised numerous questions regarding TOR function. Currently, the prevailing view is that mammalian TOR (mTOR) exists in at least two molecular complexes, mTORC1 and mTORC2, which are largely defined by the presence of either RAPTOR or RICTOR. However, additional co-factors have been identified for each complex, and their importance in mediating mTOR signals has been incompletely elucidated. Similarly, there are differences in mTOR function that reflect the tissue of origin. In this review, we present an alternative view to mTOR complex formation and function, which envisions mTOR regulation and signal propagation as a reflection of cell type- and basal state-dependent conditions. The re-interpretation of mTOR biology in this framework may facilitate the design of therapies most likely to effectively inhibit this central regulator of cell behavior.",
+  "sanitized_text": "Deconvoluting mTOR biology\nIn metazoans, TOR is an essential protein that functions as a master regulator of cellular growth and proliferation. Over the past decade, there has been an explosion of information about this critical master kinase, ranging from the composition of the TOR protein complex to its ability to act as an integrator of numerous extracellular signals. Unfortunately, this plethora of information has also raised numerous questions regarding TOR function. Currently, the prevailing view is that mammalian TOR (mTOR) exists in at least two molecular complexes, mTORC1 and mTORC2, which are largely defined by the presence of either RAPTOR or RICTOR. However, additional co-factors have been identified for each complex, and their importance in mediating mTOR signals has been incompletely elucidated. Similarly, there are differences in mTOR function that reflect the tissue of origin. In this review, we present an alternative view to mTOR complex formation and function, which envisions mTOR regulation and signal propagation as a reflection of cell type- and basal state-dependent conditions. The re-interpretation of mTOR biology in this framework may facilitate the design of therapies most likely to effectively inhibit this central regulator of cell behavior.",
+  "modified": false,
+  "original_char_count": 1286,
+  "sanitized_char_count": 1286,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1116,
+      "boundary_end": 1286,
+      "context": "Deconvoluting mTOR biology In metazoans, TOR is an essential protein that functions as a master regulator of cellular growth and proliferation. Over the past decade, there has been an explosion of information about this critical master kinase, ranging from the composition of the TOR protein complex to its ability to act as an integrator of numerous extracellular signals. Unfortunately, this plethora of information has also raised numerous questions regarding TOR function. Currently, the prevailing view is that mammalian TOR (mTOR) exists in at least two molecular complexes, mTORC1 and mTORC2, which are largely defined by the presence of either RAPTOR or RICTOR. However, additional co-factors have been identified for each complex, and their importance in mediating mTOR signals has been incompletely elucidated. Similarly, there are differences in mTOR function that reflect the tissue of origin. In this review, we present an alternative view to mTOR complex formation and function, which envisions mTOR regulation and signal propagation as a reflection of cell type- and basal state-dependent conditions.",
+      "target": "The re-interpretation of mTOR biology in this framework may facilitate the design of therapies most likely to effectively inhibit this central regulator of cell behavior.",
+      "loss_target": 3.8412139415740967,
+      "loss_target_given_context": 2.4630415439605713,
+      "delta_loss": 1.3781723976135254,
+      "gain_ratio": 0.35878563875272257,
+      "score": -0.35878563875272257,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

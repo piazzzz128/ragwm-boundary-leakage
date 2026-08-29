@@ -1,0 +1,70 @@
+{
+  "internal_id": "MED-1049",
+  "source_doc_id": "MED-1049",
+  "title": "Bowel movement: the sixth vital sign.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Bowel movement: the sixth vital sign.\nBowel movements provide vital information on how the body is functioning, and constipation among older adults is especially problematic. Although we do not like hearing the details of someone else's bowel movement, it is a function that nurses need to assess, support, and treat with the same attitude as when caring for patients with pain.",
+  "sanitized_text": "Bowel movement: the sixth vital sign.",
+  "modified": true,
+  "original_char_count": 378,
+  "sanitized_char_count": 37,
+  "deleted_char_count": 341,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 175,
+      "boundary_end": 378,
+      "context": "Bowel movement: the sixth vital sign. Bowel movements provide vital information on how the body is functioning, and constipation among older adults is especially problematic.",
+      "target": "Although we do not like hearing the details of someone else's bowel movement, it is a function that nurses need to assess, support, and treat with the same attitude as when caring for patients with pain.",
+      "loss_target": 5.863719940185547,
+      "loss_target_given_context": 5.1040544509887695,
+      "delta_loss": 0.7596654891967773,
+      "gain_ratio": 0.1295535081733012,
+      "score": -0.1295535081733012,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 38,
+      "boundary_end": 174,
+      "context": "Bowel movement: the sixth vital sign.",
+      "target": "Bowel movements provide vital information on how the body is functioning, and constipation among older adults is especially problematic.",
+      "loss_target": 8.837885856628418,
+      "loss_target_given_context": 7.375399112701416,
+      "delta_loss": 1.462486743927002,
+      "gain_ratio": 0.16547925235197922,
+      "score": -0.16547925235197922,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": true
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 175,
+      "target": "Although we do not like hearing the details of someone else's bowel movement, it is a function that nurses need to assess, support, and treat with the same attitude as when caring for patients with pain.",
+      "score": -0.1295535081733012,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Although we do not like hearing the details of someone else's bowel movement, it is a function that nurses need to assess, support, and treat with the same attitude as when caring for patients with pain.",
+      "deleted_char_count": 203
+    },
+    {
+      "step": 2,
+      "boundary_start": 38,
+      "target": "Bowel movements provide vital information on how the body is functioning, and constipation among older adults is especially problematic.",
+      "score": -0.16547925235197922,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Bowel movements provide vital information on how the body is functioning, and constipation among older adults is especially problematic.",
+      "deleted_char_count": 136
+    }
+  ],
+  "deletion_step_count": 2,
+  "stop_reason": "empty_context"
+}

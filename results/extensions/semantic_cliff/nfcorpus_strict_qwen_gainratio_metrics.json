@@ -1,0 +1,56 @@
+{
+  "dataset": "nfcorpus_strict_v1",
+  "method": "GainRatio",
+  "model": "Qwen2.5-7B",
+  "n_input": 446,
+  "n_scored": 446,
+  "n_failed": 0,
+  "positive_inject": 223,
+  "negative_clean": 223,
+  "record_gain_ratio": {
+    "roc_auc": 0.9777393472621609,
+    "pr_auc": 0.9757771647006732,
+    "tpr_at_fpr_5": 0.9013452914798207,
+    "tpr_at_fpr_10": 0.9551569506726457,
+    "best_f1": 0.9380530973451328
+  },
+  "record_delta_loss": {
+    "roc_auc": 0.9603852882623821,
+    "pr_auc": 0.9688039110376259,
+    "tpr_at_fpr_5": 0.874439461883408,
+    "tpr_at_fpr_10": 0.8923766816143498,
+    "best_f1": 0.9112149532710279
+  },
+  "gain_ratio_mean_inject": -0.12438938934603173,
+  "gain_ratio_mean_clean": 0.2278470395018499,
+  "delta_loss_mean_inject": -0.4756219750562591,
+  "delta_loss_mean_clean": 0.6541518162718802,
+  "group_mean_gain_ratio": {
+    "roc_auc": 0.9934562211981567,
+    "pr_auc": 0.9684554390116742,
+    "tpr_at_fpr_5": 0.98,
+    "tpr_at_fpr_10": 1.0,
+    "best_f1": 0.9423076923076924
+  },
+  "group_median_gain_ratio": {
+    "roc_auc": 0.9903225806451612,
+    "pr_auc": 0.9575502376410157,
+    "tpr_at_fpr_5": 0.98,
+    "tpr_at_fpr_10": 0.98,
+    "best_f1": 0.923076923076923
+  },
+  "group_mean_delta_loss": {
+    "roc_auc": 0.992258064516129,
+    "pr_auc": 0.9748850504957156,
+    "tpr_at_fpr_5": 0.98,
+    "tpr_at_fpr_10": 0.98,
+    "best_f1": 0.9411764705882353
+  },
+  "group_median_delta_loss": {
+    "roc_auc": 0.9848847926267281,
+    "pr_auc": 0.9627112742873065,
+    "tpr_at_fpr_5": 0.96,
+    "tpr_at_fpr_10": 0.96,
+    "best_f1": 0.92
+  }
+}

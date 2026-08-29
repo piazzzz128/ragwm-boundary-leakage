@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4660",
+  "source_doc_id": "MED-4660",
+  "title": "Variability of iodine content in common commercially available edible seaweeds.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Variability of iodine content in common commercially available edible seaweeds.\nDietary seaweeds, common in Asia and in Asian restaurants, have become established as part of popular international cuisine. To understand the possibility for iodine-induced thyroid dysfunction better, we collected samples of the most common dietary seaweeds available from commercial sources in the United States, as well as harvester-provided samples from Canada, Tasmania, and Namibia. Altogether, 12 different species of seaweeds were analyzed for iodine content, and found to range from 16 microg/g (+/-2) in nori (Porphyra tenera) to over 8165 +/- 373 microg/g in one sample of processed kelp granules (a salt substitute) made from Laminaria digitata. We explored variation in preharvest conditions in a small study of two Namibian kelps (Laminaria pallida and Ecklonia maxima), and found that iodine content was lowest in sun-bleached blades (514 +/- 42 microg/g), and highest amount in freshly cut juvenile blades (6571 +/- 715 microg/g). Iodine is water-soluble in cooking and may vaporize in humid storage conditions, making average iodine content of prepared foods difficult to estimate. It is possible some Asian seaweed dishes may exceed the tolerable upper iodine intake level of 1100 microg/d.",
+  "sanitized_text": "Variability of iodine content in common commercially available edible seaweeds.\nDietary seaweeds, common in Asia and in Asian restaurants, have become established as part of popular international cuisine. To understand the possibility for iodine-induced thyroid dysfunction better, we collected samples of the most common dietary seaweeds available from commercial sources in the United States, as well as harvester-provided samples from Canada, Tasmania, and Namibia. Altogether, 12 different species of seaweeds were analyzed for iodine content, and found to range from 16 microg/g (+/-2) in nori (Porphyra tenera) to over 8165 +/- 373 microg/g in one sample of processed kelp granules (a salt substitute) made from Laminaria digitata. We explored variation in preharvest conditions in a small study of two Namibian kelps (Laminaria pallida and Ecklonia maxima), and found that iodine content was lowest in sun-bleached blades (514 +/- 42 microg/g), and highest amount in freshly cut juvenile blades (6571 +/- 715 microg/g). Iodine is water-soluble in cooking and may vaporize in humid storage conditions, making average iodine content of prepared foods difficult to estimate. It is possible some Asian seaweed dishes may exceed the tolerable upper iodine intake level of 1100 microg/d.",
+  "modified": false,
+  "original_char_count": 1288,
+  "sanitized_char_count": 1288,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1179,
+      "boundary_end": 1288,
+      "context": "Variability of iodine content in common commercially available edible seaweeds. Dietary seaweeds, common in Asia and in Asian restaurants, have become established as part of popular international cuisine. To understand the possibility for iodine-induced thyroid dysfunction better, we collected samples of the most common dietary seaweeds available from commercial sources in the United States, as well as harvester-provided samples from Canada, Tasmania, and Namibia. Altogether, 12 different species of seaweeds were analyzed for iodine content, and found to range from 16 microg/g (+/-2) in nori (Porphyra tenera) to over 8165 +/- 373 microg/g in one sample of processed kelp granules (a salt substitute) made from Laminaria digitata. We explored variation in preharvest conditions in a small study of two Namibian kelps (Laminaria pallida and Ecklonia maxima), and found that iodine content was lowest in sun-bleached blades (514 +/- 42 microg/g), and highest amount in freshly cut juvenile blades (6571 +/- 715 microg/g). Iodine is water-soluble in cooking and may vaporize in humid storage conditions, making average iodine content of prepared foods difficult to estimate.",
+      "target": "It is possible some Asian seaweed dishes may exceed the tolerable upper iodine intake level of 1100 microg/d.",
+      "loss_target": 3.190584421157837,
+      "loss_target_given_context": 1.5721237659454346,
+      "delta_loss": 1.6184606552124023,
+      "gain_ratio": 0.5072615049706399,
+      "score": -0.5072615049706399,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

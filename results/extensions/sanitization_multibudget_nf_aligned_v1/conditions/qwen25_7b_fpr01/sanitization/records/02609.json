@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4476",
+  "source_doc_id": "MED-4476",
+  "title": "Determination of total N-nitroso compounds and their precursors in frankfurters, fresh meat, dried salted fish, sauces, tobacco, and tobacco smoke ...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Determination of total N-nitroso compounds and their precursors in frankfurters, fresh meat, dried salted fish, sauces, tobacco, and tobacco smoke ...\nTotal N-nitroso compounds (NOC) and NOC precursors (NOCP) were determined in extracts of food and tobacco products. Following Walters' method, NOC were decomposed to NO with refluxing HBr/HCl/HOAc/EtOAc and NO was measured by chemiluminescence. NOC were determined after sulfamic acid treatment to destroy nitrite, and NOCP were determined after treatment with 110 mM nitrite and then sulfamic acid. Analysis without HBr gave results < or =20% of those with HBr. This NOC method was efficient for nitrosamines but not nitrosoureas. The standard nitrosation for determining NOCP gave high yields for readily nitrosated amines, including 1-deoxy-1-fructosylvaline, but not for simple amines, dipeptides, and alkylureas. Mean NOC and NOCP results were (respectively, in micromol/kg of product) 5.5 and 2700 for frankfurters, 0.5 and 660 for fresh meat, 5.8 and 5800 for salted, dried fish, and 660 and 2900 for chewing tobacco (all for aqueous extracts) and 220 and 20000 nmol/cigarette for MeCN extracts of cigarette smoke filter pads.",
+  "sanitized_text": "Determination of total N-nitroso compounds and their precursors in frankfurters, fresh meat, dried salted fish, sauces, tobacco, and tobacco smoke ...\nTotal N-nitroso compounds (NOC) and NOC precursors (NOCP) were determined in extracts of food and tobacco products. Following Walters' method, NOC were decomposed to NO with refluxing HBr/HCl/HOAc/EtOAc and NO was measured by chemiluminescence. NOC were determined after sulfamic acid treatment to destroy nitrite, and NOCP were determined after treatment with 110 mM nitrite and then sulfamic acid. Analysis without HBr gave results < or =20% of those with HBr. This NOC method was efficient for nitrosamines but not nitrosoureas. The standard nitrosation for determining NOCP gave high yields for readily nitrosated amines, including 1-deoxy-1-fructosylvaline, but not for simple amines, dipeptides, and alkylureas. Mean NOC and NOCP results were (respectively, in micromol/kg of product) 5.5 and 2700 for frankfurters, 0.5 and 660 for fresh meat, 5.8 and 5800 for salted, dried fish, and 660 and 2900 for chewing tobacco (all for aqueous extracts) and 220 and 20000 nmol/cigarette for MeCN extracts of cigarette smoke filter pads.",
+  "modified": false,
+  "original_char_count": 1184,
+  "sanitized_char_count": 1184,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 869,
+      "boundary_end": 1184,
+      "context": "Determination of total N-nitroso compounds and their precursors in frankfurters, fresh meat, dried salted fish, sauces, tobacco, and tobacco smoke ... Total N-nitroso compounds (NOC) and NOC precursors (NOCP) were determined in extracts of food and tobacco products. Following Walters' method, NOC were decomposed to NO with refluxing HBr/HCl/HOAc/EtOAc and NO was measured by chemiluminescence. NOC were determined after sulfamic acid treatment to destroy nitrite, and NOCP were determined after treatment with 110 mM nitrite and then sulfamic acid. Analysis without HBr gave results < or =20% of those with HBr. This NOC method was efficient for nitrosamines but not nitrosoureas. The standard nitrosation for determining NOCP gave high yields for readily nitrosated amines, including 1-deoxy-1-fructosylvaline, but not for simple amines, dipeptides, and alkylureas.",
+      "target": "Mean NOC and NOCP results were (respectively, in micromol/kg of product) 5.5 and 2700 for frankfurters, 0.5 and 660 for fresh meat, 5.8 and 5800 for salted, dried fish, and 660 and 2900 for chewing tobacco (all for aqueous extracts) and 220 and 20000 nmol/cigarette for MeCN extracts of cigarette smoke filter pads.",
+      "loss_target": 2.622803211212158,
+      "loss_target_given_context": 1.8050450086593628,
+      "delta_loss": 0.8177582025527954,
+      "gain_ratio": 0.3117878608112803,
+      "score": -0.3117878608112803,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

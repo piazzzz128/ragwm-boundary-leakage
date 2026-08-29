@@ -1,0 +1,5 @@
+Dataset,Construction,Method,Model,N,Inject/Clean,ROC-AUC,PR-AUC,TPR@FPR=5%,TPR@FPR=10%,Best F1
+NFCorpus,strict v1,Contriever + Cosine,Contriever,446,223 / 223,0.8346,0.8034,0.2735,0.4395,0.79
+NFCorpus,strict v1,GainRatio,Qwen2.5-7B,446,223 / 223,0.9777,0.9758,0.9013,0.9552,0.9381
+TREC-COVID,strict v3,Contriever + Cosine,Contriever,458,229 / 229,0.6891,0.6641,0.1397,0.2271,0.7099
+TREC-COVID,strict v3,GainRatio,Qwen2.5-7B,458,229 / 229,0.9779,0.978,0.9127,0.9432,0.9316

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3792",
+  "source_doc_id": "MED-3792",
+  "title": "Serum prolactin and oestradiol levels in women with cyclical mastalgia.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Serum prolactin and oestradiol levels in women with cyclical mastalgia.\nBasal serum prolactin and serum oestradiol-17-beta concentrations were measured four times during one menstrual cycle in 20 women with severe cyclical mastalgia and normal to slightly fibroadenotic breasts. A group of 10 normal women who had never experienced mastalgia served as controls. Basal serum prolactin was significantly elevated in patients compared to normals, although within the normal range. Serum oestradiol concentrations did not differ in the two groups and were also within the normal range. A significant positive correlation between oestradiol and prolactin was found in patients and normals, but with larger prolactin levels in patients. The results point towards a prolactin secretory hypersensitivity for oestradiol in patients with cyclical mastalgia. Prolactin is considered a central factor in the eliciting of cyclical mastalgia.",
+  "sanitized_text": "Serum prolactin and oestradiol levels in women with cyclical mastalgia.\nBasal serum prolactin and serum oestradiol-17-beta concentrations were measured four times during one menstrual cycle in 20 women with severe cyclical mastalgia and normal to slightly fibroadenotic breasts. A group of 10 normal women who had never experienced mastalgia served as controls. Basal serum prolactin was significantly elevated in patients compared to normals, although within the normal range. Serum oestradiol concentrations did not differ in the two groups and were also within the normal range. A significant positive correlation between oestradiol and prolactin was found in patients and normals, but with larger prolactin levels in patients. The results point towards a prolactin secretory hypersensitivity for oestradiol in patients with cyclical mastalgia. Prolactin is considered a central factor in the eliciting of cyclical mastalgia.",
+  "modified": false,
+  "original_char_count": 928,
+  "sanitized_char_count": 928,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 848,
+      "boundary_end": 928,
+      "context": "Serum prolactin and oestradiol levels in women with cyclical mastalgia. Basal serum prolactin and serum oestradiol-17-beta concentrations were measured four times during one menstrual cycle in 20 women with severe cyclical mastalgia and normal to slightly fibroadenotic breasts. A group of 10 normal women who had never experienced mastalgia served as controls. Basal serum prolactin was significantly elevated in patients compared to normals, although within the normal range. Serum oestradiol concentrations did not differ in the two groups and were also within the normal range. A significant positive correlation between oestradiol and prolactin was found in patients and normals, but with larger prolactin levels in patients. The results point towards a prolactin secretory hypersensitivity for oestradiol in patients with cyclical mastalgia.",
+      "target": "Prolactin is considered a central factor in the eliciting of cyclical mastalgia.",
+      "loss_target": 3.3089652061462402,
+      "loss_target_given_context": 1.780861258506775,
+      "delta_loss": 1.5281039476394653,
+      "gain_ratio": 0.4618071972473713,
+      "score": -0.4618071972473713,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

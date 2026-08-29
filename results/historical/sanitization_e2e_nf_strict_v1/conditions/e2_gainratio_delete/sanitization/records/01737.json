@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3372",
+  "source_doc_id": "MED-3372",
+  "title": "Associations of parenting styles, parental feeding practices and child characteristics with young children's fruit and vegetable consumption.",
+  "original_text": "Associations of parenting styles, parental feeding practices and child characteristics with young children's fruit and vegetable consumption.\nThe purpose of this study was to investigate the role of parent and child characteristics in explaining children's fruit and vegetable intakes. In 2008, parents of preschoolers (mean age 3.5 years) from 56 schools in Belgium-Flanders completed questionnaires including a parent and child fruit and vegetable food frequency questionnaire, general parenting styles (laxness, overreactivity and positive interactions), specific food parenting practices (child-centered and parent-centered feeding practices) and children's characteristics (children's shyness, emotionality, stubbornness, activity, sociability, and negative reactions to food). Multiple linear regression analyses (n = 755) indicated a significant positive association between children's fruit and vegetable intake and parent's intake and a negative association with children's negative reactions to food. No general parenting style dimension or child personality characteristic explained differences in children's fruit and vegetable intakes. Child-centered feeding practices were positively related to children's fruit and vegetable intakes, while parent-centered feeding practices were negatively related to children's vegetable intakes. In order to try to increase children's fruit and vegetable consumption, parents should be guided to improve their own diet and to use child-centered parenting practices and strategies known to decrease negative reactions to food. Copyright © 2010 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Associations of parenting styles, parental feeding practices and child characteristics with young children's fruit and vegetable consumption.\nThe purpose of this study was to investigate the role of parent and child characteristics in explaining children's fruit and vegetable intakes. In 2008, parents of preschoolers (mean age 3.5 years) from 56 schools in Belgium-Flanders completed questionnaires including a parent and child fruit and vegetable food frequency questionnaire, general parenting styles (laxness, overreactivity and positive interactions), specific food parenting practices (child-centered and parent-centered feeding practices) and children's characteristics (children's shyness, emotionality, stubbornness, activity, sociability, and negative reactions to food). Multiple linear regression analyses (n = 755) indicated a significant positive association between children's fruit and vegetable intake and parent's intake and a negative association with children's negative reactions to food. No general parenting style dimension or child personality characteristic explained differences in children's fruit and vegetable intakes. Child-centered feeding practices were positively related to children's fruit and vegetable intakes, while parent-centered feeding practices were negatively related to children's vegetable intakes. In order to try to increase children's fruit and vegetable consumption, parents should be guided to improve their own diet and to use child-centered parenting practices and strategies known to decrease negative reactions to food.",
+  "modified": true,
+  "original_char_count": 1627,
+  "sanitized_char_count": 1575,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1576,
+      "boundary_end": 1606,
+      "context": "completed questionnaires including a parent and child fruit and vegetable food frequency questionnaire, general parenting styles (laxness, overreactivity and positive interactions), specific food parenting practices (child-centered and parent-centered feeding practices) and children's characteristics (children's shyness, emotionality, stubbornness, activity, sociability, and negative reactions to food). Multiple linear regression analyses (n = 755) indicated a significant positive association between children's fruit and vegetable intake and parent's intake and a negative association with children's negative reactions to food. No general parenting style dimension or child personality characteristic explained differences in children's fruit and vegetable intakes. Child-centered feeding practices were positively related to children's fruit and vegetable intakes, while parent-centered feeding practices were negatively related to children's vegetable intakes. In order to try to increase children's fruit and vegetable consumption, parents should be guided to improve their own diet and to use child-centered parenting practices and strategies known to decrease negative reactions to food.",
+      "target": "Copyright © 2010 Elsevier Ltd.",
+      "loss_target": 1.1775972843170166,
+      "loss_target_given_context": 1.3854949474334717,
+      "delta_loss": -0.20789766311645508,
+      "gain_ratio": -0.17654393898932236,
+      "score": 0.17654393898932236,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1346,
+      "boundary_end": 1575,
+      "context": "purpose of this study was to investigate the role of parent and child characteristics in explaining children's fruit and vegetable intakes. In 2008, parents of preschoolers (mean age 3.5 years) from 56 schools in Belgium-Flanders completed questionnaires including a parent and child fruit and vegetable food frequency questionnaire, general parenting styles (laxness, overreactivity and positive interactions), specific food parenting practices (child-centered and parent-centered feeding practices) and children's characteristics (children's shyness, emotionality, stubbornness, activity, sociability, and negative reactions to food). Multiple linear regression analyses (n = 755) indicated a significant positive association between children's fruit and vegetable intake and parent's intake and a negative association with children's negative reactions to food. No general parenting style dimension or child personality characteristic explained differences in children's fruit and vegetable intakes. Child-centered feeding practices were positively related to children's fruit and vegetable intakes, while parent-centered feeding practices were negatively related to children's vegetable intakes.",
+      "target": "In order to try to increase children's fruit and vegetable consumption, parents should be guided to improve their own diet and to use child-centered parenting practices and strategies known to decrease negative reactions to food.",
+      "loss_target": 3.1910555362701416,
+      "loss_target_given_context": 2.264667510986328,
+      "delta_loss": 0.9263880252838135,
+      "gain_ratio": 0.2903077100208103,
+      "score": -0.2903077100208103,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1576,
+      "target": "Copyright © 2010 Elsevier Ltd.",
+      "score": 0.17654393898932236,
+      "deleted_suffix": "Copyright © 2010 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

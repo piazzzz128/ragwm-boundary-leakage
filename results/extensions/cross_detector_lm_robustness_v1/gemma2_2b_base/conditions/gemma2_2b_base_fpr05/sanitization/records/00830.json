@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2022",
+  "source_doc_id": "MED-2022",
+  "title": "Whole grains and human health.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Whole grains and human health.\nEpidemiological studies find that whole-grain intake is protective against cancer, CVD, diabetes, and obesity. Despite recommendations to consume three servings of whole grains daily, usual intake in Western countries is only about one serving/d. Whole grains are rich in nutrients and phytochemicals with known health benefits. Whole grains have high concentrations of dietary fibre, resistant starch, and oligosaccharides. Whole grains are rich in antioxidants including trace minerals and phenolic compounds and these compounds have been linked to disease prevention. Other protective compounds in whole grains include phytate, phyto-oestrogens such as lignan, plant stanols and sterols, and vitamins and minerals. Published whole-grain feeding studies report improvements in biomarkers with whole-grain consumption, such as weight loss, blood-lipid improvement, and antioxidant protection. Although it is difficult to separate the protective properties of whole grains from dietary fibre and other components, the disease protection seen from whole grains in prospective epidemiological studies far exceeds the protection from isolated nutrients and phytochemicals in whole grains.",
+  "sanitized_text": "Whole grains and human health.\nEpidemiological studies find that whole-grain intake is protective against cancer, CVD, diabetes, and obesity. Despite recommendations to consume three servings of whole grains daily, usual intake in Western countries is only about one serving/d. Whole grains are rich in nutrients and phytochemicals with known health benefits. Whole grains have high concentrations of dietary fibre, resistant starch, and oligosaccharides. Whole grains are rich in antioxidants including trace minerals and phenolic compounds and these compounds have been linked to disease prevention. Other protective compounds in whole grains include phytate, phyto-oestrogens such as lignan, plant stanols and sterols, and vitamins and minerals. Published whole-grain feeding studies report improvements in biomarkers with whole-grain consumption, such as weight loss, blood-lipid improvement, and antioxidant protection. Although it is difficult to separate the protective properties of whole grains from dietary fibre and other components, the disease protection seen from whole grains in prospective epidemiological studies far exceeds the protection from isolated nutrients and phytochemicals in whole grains.",
+  "modified": false,
+  "original_char_count": 1216,
+  "sanitized_char_count": 1216,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 925,
+      "boundary_end": 1216,
+      "context": "Whole grains and human health. Epidemiological studies find that whole-grain intake is protective against cancer, CVD, diabetes, and obesity. Despite recommendations to consume three servings of whole grains daily, usual intake in Western countries is only about one serving/d. Whole grains are rich in nutrients and phytochemicals with known health benefits. Whole grains have high concentrations of dietary fibre, resistant starch, and oligosaccharides. Whole grains are rich in antioxidants including trace minerals and phenolic compounds and these compounds have been linked to disease prevention. Other protective compounds in whole grains include phytate, phyto-oestrogens such as lignan, plant stanols and sterols, and vitamins and minerals. Published whole-grain feeding studies report improvements in biomarkers with whole-grain consumption, such as weight loss, blood-lipid improvement, and antioxidant protection.",
+      "target": "Although it is difficult to separate the protective properties of whole grains from dietary fibre and other components, the disease protection seen from whole grains in prospective epidemiological studies far exceeds the protection from isolated nutrients and phytochemicals in whole grains.",
+      "loss_target": 6.802849292755127,
+      "loss_target_given_context": 3.6536123752593994,
+      "delta_loss": 3.1492369174957275,
+      "gain_ratio": 0.46292910249380215,
+      "score": -0.46292910249380215,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

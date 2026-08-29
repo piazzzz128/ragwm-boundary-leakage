@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3880",
+  "source_doc_id": "MED-3880",
+  "title": "Estimating changes in public health following implementation of hazard analysis and critical control point in the United States broiler slaughter i...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Estimating changes in public health following implementation of hazard analysis and critical control point in the United States broiler slaughter i...\nA common approach to reducing microbial contamination has been the implementation of a Hazard Analysis and Critical Control Point (HACCP) program to prevent or reduce contamination during production. One example is the Pathogen Reduction HACCP program implemented by the U.S. Department of Agriculture's Food Safety and Inspection Service (FSIS). This program consisted of a staged implementation between 1996 and 2000 to reduce microbial contamination on meat and poultry products. Of the commodities regulated by FSIS, one of the largest observed reductions was for Salmonella contamination on broiler chicken carcasses. Nevertheless, how this reduction might have influenced the total number of salmonellosis cases in the United States has not been assessed. This study incorporates information from public health surveillance and surveys of the poultry slaughter industry into a model that estimates the number of broiler-related salmonellosis cases through time. The model estimates that-following the 56% reduction in the proportion of contaminated broiler carcasses observed between 1995 and 2000-approximately 190,000 fewer annual salmonellosis cases (attributed to broilers) occurred in 2000 compared with 1995. The uncertainty bounds for this estimate range from approximately 37,000 to 500,000 illnesses. Estimated illnesses prevented, due to the more modest reduction in contamination of 13% between 2000 and 2007, were not statistically significant. An analysis relating the necessary magnitude of change in contamination required for detection via human surveillance also is provided.",
+  "sanitized_text": "Estimating changes in public health following implementation of hazard analysis and critical control point in the United States broiler slaughter i...\nA common approach to reducing microbial contamination has been the implementation of a Hazard Analysis and Critical Control Point (HACCP) program to prevent or reduce contamination during production. One example is the Pathogen Reduction HACCP program implemented by the U.S. Department of Agriculture's Food Safety and Inspection Service (FSIS). This program consisted of a staged implementation between 1996 and 2000 to reduce microbial contamination on meat and poultry products. Of the commodities regulated by FSIS, one of the largest observed reductions was for Salmonella contamination on broiler chicken carcasses. Nevertheless, how this reduction might have influenced the total number of salmonellosis cases in the United States has not been assessed. This study incorporates information from public health surveillance and surveys of the poultry slaughter industry into a model that estimates the number of broiler-related salmonellosis cases through time. The model estimates that-following the 56% reduction in the proportion of contaminated broiler carcasses observed between 1995 and 2000-approximately 190,000 fewer annual salmonellosis cases (attributed to broilers) occurred in 2000 compared with 1995. The uncertainty bounds for this estimate range from approximately 37,000 to 500,000 illnesses. Estimated illnesses prevented, due to the more modest reduction in contamination of 13% between 2000 and 2007, were not statistically significant. An analysis relating the necessary magnitude of change in contamination required for detection via human surveillance also is provided.",
+  "modified": false,
+  "original_char_count": 1749,
+  "sanitized_char_count": 1749,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1614,
+      "boundary_end": 1749,
+      "context": "by the U.S. Department of Agriculture's Food Safety and Inspection Service (FSIS). This program consisted of a staged implementation between 1996 and 2000 to reduce microbial contamination on meat and poultry products. Of the commodities regulated by FSIS, one of the largest observed reductions was for Salmonella contamination on broiler chicken carcasses. Nevertheless, how this reduction might have influenced the total number of salmonellosis cases in the United States has not been assessed. This study incorporates information from public health surveillance and surveys of the poultry slaughter industry into a model that estimates the number of broiler-related salmonellosis cases through time. The model estimates that-following the 56% reduction in the proportion of contaminated broiler carcasses observed between 1995 and 2000-approximately 190,000 fewer annual salmonellosis cases (attributed to broilers) occurred in 2000 compared with 1995. The uncertainty bounds for this estimate range from approximately 37,000 to 500,000 illnesses. Estimated illnesses prevented, due to the more modest reduction in contamination of 13% between 2000 and 2007, were not statistically significant.",
+      "target": "An analysis relating the necessary magnitude of change in contamination required for detection via human surveillance also is provided.",
+      "loss_target": 5.33744478225708,
+      "loss_target_given_context": 3.709408760070801,
+      "delta_loss": 1.6280360221862793,
+      "gain_ratio": 0.30502161401243033,
+      "score": -0.30502161401243033,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

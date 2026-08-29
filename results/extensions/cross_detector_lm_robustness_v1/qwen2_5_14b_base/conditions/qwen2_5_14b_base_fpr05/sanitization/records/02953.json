@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4874",
+  "source_doc_id": "MED-4874",
+  "title": "Species identification and vitamin A level in lutjanid fish implicated in vitamin A poisoning.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Species identification and vitamin A level in lutjanid fish implicated in vitamin A poisoning.\nOne outbreak of food poisoning associated with ingestion of the liver of a large lutjanid fish was investigated in this study. The symptoms in three patients primarily included headache, nausea, vomiting, fever, vertigo, and visual disorientation and later included peeling of the skin. The species of fish implicated in this incident was Etelis carbunculus (family Lutjanidae) as determined by direct sequence analysis and PCR plus restriction fragment length polymorphism analysis for detection of the cytochrome b gene. Subsequently, several specimens of E. carbunculus of different body weights were collected, and the level of vitamin A in the muscle and liver was determined by high-performance liquid chromatography. The average level of vitamin A in E. carbunculus muscle was 12 +/- 2 IU/g and that in the liver was 9,844 +/- 7,812 IU/g. Regression models indicate that E. carbunculus with higher body weight and liver weight will have higher levels of vitamin A levels in the liver.",
+  "sanitized_text": "Species identification and vitamin A level in lutjanid fish implicated in vitamin A poisoning.\nOne outbreak of food poisoning associated with ingestion of the liver of a large lutjanid fish was investigated in this study. The symptoms in three patients primarily included headache, nausea, vomiting, fever, vertigo, and visual disorientation and later included peeling of the skin. The species of fish implicated in this incident was Etelis carbunculus (family Lutjanidae) as determined by direct sequence analysis and PCR plus restriction fragment length polymorphism analysis for detection of the cytochrome b gene. Subsequently, several specimens of E. carbunculus of different body weights were collected, and the level of vitamin A in the muscle and liver was determined by high-performance liquid chromatography. The average level of vitamin A in E. carbunculus muscle was 12 +/- 2 IU/g and that in the liver was 9,844 +/- 7,812 IU/g. Regression models indicate that E. carbunculus with higher body weight and liver weight will have higher levels of vitamin A levels in the liver.",
+  "modified": false,
+  "original_char_count": 1086,
+  "sanitized_char_count": 1086,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 976,
+      "boundary_end": 1086,
+      "context": "Species identification and vitamin A level in lutjanid fish implicated in vitamin A poisoning. One outbreak of food poisoning associated with ingestion of the liver of a large lutjanid fish was investigated in this study. The symptoms in three patients primarily included headache, nausea, vomiting, fever, vertigo, and visual disorientation and later included peeling of the skin. The species of fish implicated in this incident was Etelis carbunculus (family Lutjanidae) as determined by direct sequence analysis and PCR plus restriction fragment length polymorphism analysis for detection of the cytochrome b gene. Subsequently, several specimens of E. carbunculus of different body weights were collected, and the level of vitamin A in the muscle and liver was determined by high-performance liquid chromatography. The average level of vitamin A in E. carbunculus muscle was 12 +/- 2 IU/g and that in the liver was 9,844 +/- 7,812 IU/g. Regression models indicate that E.",
+      "target": "carbunculus with higher body weight and liver weight will have higher levels of vitamin A levels in the liver.",
+      "loss_target": 3.5447657108306885,
+      "loss_target_given_context": 1.5134716033935547,
+      "delta_loss": 2.031294107437134,
+      "gain_ratio": 0.5730404413557464,
+      "score": -0.5730404413557464,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

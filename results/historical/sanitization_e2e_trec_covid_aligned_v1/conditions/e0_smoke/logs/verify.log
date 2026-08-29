@@ -1,0 +1,47 @@
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/src/models/PaLM2.py:1: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as palm
+Namespace(eval_model_code='contriever', eval_dataset='trec-covid', split='test', score_function='cosine', top_k=5, verify_num=3, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_trec_covid_aligned_v1/conditions/e0_smoke/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_trec_covid_aligned_v1/conditions/e0_smoke/basepath/wm_generate/trec-covid/gpt4o_mini_e2e/10/log.log
+[2026-07-17 23:05:35] {main.py:539} INFO - args:Namespace(eval_model_code='contriever', eval_dataset='trec-covid', split='test', score_function='cosine', top_k=5, verify_num=3, verify_seed=633, model_config_path=None, model_name_rllm='gpt4o_mini_e2e', model_name_llm='gpt4o_mini_e2e', adv_per_wmunit=5, gpu_id=0, seed=12, name='debug', mutual_times=10, doc=0, inject=0, verify=1, stat=0, clean=0, basepath='/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_trec_covid_aligned_v1/conditions/e0_smoke/basepath')
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_trec_covid_aligned_v1/conditions/e0_smoke/basepath/wm_generate/trec-covid/gpt4o_mini_e2e/10/log.log
+[2026-07-17 23:05:35] {main.py:548} INFO - llm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+[2026-07-17 23:05:35] {main.py:552} INFO - rllm args.model_config_path: model_configs/gpt4o_mini_e2e_config.json
+load json: model_configs/gpt4o_mini_e2e_config.json
+trec-covid_contriever_cosine
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/data/sunmengjie/lpz/ragwm/datasets/trec-covid
+/data/sunmengjie/lpz/ragwm/datasets/trec-covid
+  0%|                                                                                       | 0/171332 [00:00<?, ?it/s]  7%|████▋                                                                  | 11344/171332 [00:00<00:01, 113423.88it/s] 16%|███████████▎                                                           | 27293/171332 [00:00<00:01, 140507.88it/s] 24%|█████████████████▏                                                     | 41344/171332 [00:00<00:00, 140265.37it/s] 32%|██████████████████████▉                                                | 55371/171332 [00:00<00:00, 137085.34it/s] 40%|████████████████████████████▋                                          | 69090/171332 [00:00<00:00, 136763.16it/s] 48%|██████████████████████████████████▍                                    | 83061/171332 [00:00<00:00, 137750.91it/s] 57%|████████████████████████████████████████▋                              | 98070/171332 [00:00<00:00, 141747.84it/s] 67%|███████████████████████████████████████████████▏                      | 115516/171332 [00:00<00:00, 152096.26it/s] 76%|█████████████████████████████████████████████████████▍                | 130736/171332 [00:00<00:00, 150472.23it/s] 85%|███████████████████████████████████████████████████████████▌          | 145794/171332 [00:01<00:00, 143779.45it/s] 94%|█████████████████████████████████████████████████████████████████▍    | 160235/171332 [00:01<00:00, 140331.42it/s]100%|██████████████████████████████████████████████████████████████████████| 171332/171332 [00:01<00:00, 140585.38it/s]
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=trec-covid_contriever_cosine), Collection(name=nfcorpus_contriever_cosine), Collection(name=nq_contriever_cosine)]
+Collection exist 总数: 171332
+[2026-07-17 23:05:36] {main.py:584} INFO - datalen:171332, collection_len:171332
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[Collection(name=trec-covid_contriever_cosine), Collection(name=nfcorpus_contriever_cosine), Collection(name=nq_contriever_cosine)]
+Here are using an exsiting local chromadb named trec-covid_contriever_cosine!!! 
+Here are using an exsiting local chromadb named trec-covid_contriever_cosine!!! 
+[2026-07-17 23:05:37] {main.py:268} ERROR - /root/autodl-tmp/ragwm_storage/output/sanitization_e2e_trec_covid_aligned_v1/conditions/e0_smoke/basepath/wm_generate/trec-covid/gpt4o_mini_e2e/10/wmuint_verify.json does not exist!
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+4
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_trec_covid_aligned_v1/conditions/e0_smoke/basepath/wm_generate/trec-covid/gpt4o_mini_e2e/10/wmuint_verify.json
+1
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_trec_covid_aligned_v1/conditions/e0_smoke/basepath/wm_generate/trec-covid/gpt4o_mini_e2e/10/wmuint_verify.json
+0
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_trec_covid_aligned_v1/conditions/e0_smoke/basepath/wm_generate/trec-covid/gpt4o_mini_e2e/10/wmuint_verify.json
+total-3, correct-2-0.67, wrong-1-0.33,                 unknow-0-0.00 db_search-3-1.00,                  wmunit_exist-3-1.00, wmunit_WE-2-0.67
+[2026-07-17 23:06:49] {main.py:464} INFO - total-3, correct-2-0.67, wrong-1-0.33,                 unknow-0-0.00 db_search-3-1.00,                  wmunit_exist-3-1.00, wmunit_WE-2-0.67
+/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_trec_covid_aligned_v1/conditions/e0_smoke/basepath/wm_generate/trec-covid/gpt4o_mini_e2e/10/wmuint_stat.json
+[2026-07-17 23:06:49] {main.py:364} INFO - verify watermark doc len :3

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1412",
+  "source_doc_id": "MED-1412",
+  "title": "Faecal pH value and its modification by dietary means in South African black and white schoolchildren.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Faecal pH value and its modification by dietary means in South African black and white schoolchildren.\nMean faecal pH values did not differ significantly in groups of rural South African Black schoolchildren of 10--12 years who ate their traditional high-fibre low-fat diet, and urban dwellers who consumed a partially westernized diet. However, both means were significantly lower than those of groups of White schoolchildren. In feeding studies of 5 days' duration, mean faecal pH value of Black children became significantly less acid when white bread replaced maize meal, and became significantly more acid when a supplement of 6 oranges was consumed daily. Supplements which consisted of skim milk, butter, and sugar had no significant effect on mean faecal pH value. In White children in an institution, the mean pH value of faeces became significantly more acid when a supplement of 6 oranges, although not of bran 'crunchies', was consumed daily.",
+  "sanitized_text": "Faecal pH value and its modification by dietary means in South African black and white schoolchildren.\nMean faecal pH values did not differ significantly in groups of rural South African Black schoolchildren of 10--12 years who ate their traditional high-fibre low-fat diet, and urban dwellers who consumed a partially westernized diet. However, both means were significantly lower than those of groups of White schoolchildren. In feeding studies of 5 days' duration, mean faecal pH value of Black children became significantly less acid when white bread replaced maize meal, and became significantly more acid when a supplement of 6 oranges was consumed daily. Supplements which consisted of skim milk, butter, and sugar had no significant effect on mean faecal pH value. In White children in an institution, the mean pH value of faeces became significantly more acid when a supplement of 6 oranges, although not of bran 'crunchies', was consumed daily.",
+  "modified": false,
+  "original_char_count": 954,
+  "sanitized_char_count": 954,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 773,
+      "boundary_end": 954,
+      "context": "Faecal pH value and its modification by dietary means in South African black and white schoolchildren. Mean faecal pH values did not differ significantly in groups of rural South African Black schoolchildren of 10--12 years who ate their traditional high-fibre low-fat diet, and urban dwellers who consumed a partially westernized diet. However, both means were significantly lower than those of groups of White schoolchildren. In feeding studies of 5 days' duration, mean faecal pH value of Black children became significantly less acid when white bread replaced maize meal, and became significantly more acid when a supplement of 6 oranges was consumed daily. Supplements which consisted of skim milk, butter, and sugar had no significant effect on mean faecal pH value.",
+      "target": "In White children in an institution, the mean pH value of faeces became significantly more acid when a supplement of 6 oranges, although not of bran 'crunchies', was consumed daily.",
+      "loss_target": 4.40026330947876,
+      "loss_target_given_context": 2.0282976627349854,
+      "delta_loss": 2.3719656467437744,
+      "gain_ratio": 0.5390508430789224,
+      "score": -0.5390508430789224,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

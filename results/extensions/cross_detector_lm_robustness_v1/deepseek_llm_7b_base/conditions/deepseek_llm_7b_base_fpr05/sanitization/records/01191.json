@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2448",
+  "source_doc_id": "MED-2448",
+  "title": "Clinical efficacy of apple polyphenol for treating cedar pollinosis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Clinical efficacy of apple polyphenol for treating cedar pollinosis.\nA double-blind comparative study was conducted on cedar pollinosis patients in order to evaluate the treatment efficacy of apple polyphenol (Ap). Ap was administered (500 mg) once daily for 12 weeks, starting about 2 weeks prior to cedar pollen dispersion. Pollinosis symptoms during the study were evaluated according to the classification in the guidelines for allergic rhinitis diagnosis and treatment. The results show that the sneezing score was significantly lower for the Ap group than with the placebo group during the early period of pollen dispersion and during the main dispersion period. In addition, no adverse reactions were induced by Ap during the study. These results suggest that Ap may alleviate the symptoms of cedar pollinosis.",
+  "sanitized_text": "Clinical efficacy of apple polyphenol for treating cedar pollinosis.\nA double-blind comparative study was conducted on cedar pollinosis patients in order to evaluate the treatment efficacy of apple polyphenol (Ap). Ap was administered (500 mg) once daily for 12 weeks, starting about 2 weeks prior to cedar pollen dispersion. Pollinosis symptoms during the study were evaluated according to the classification in the guidelines for allergic rhinitis diagnosis and treatment. The results show that the sneezing score was significantly lower for the Ap group than with the placebo group during the early period of pollen dispersion and during the main dispersion period. In addition, no adverse reactions were induced by Ap during the study. These results suggest that Ap may alleviate the symptoms of cedar pollinosis.",
+  "modified": false,
+  "original_char_count": 817,
+  "sanitized_char_count": 817,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 740,
+      "boundary_end": 817,
+      "context": "Clinical efficacy of apple polyphenol for treating cedar pollinosis. A double-blind comparative study was conducted on cedar pollinosis patients in order to evaluate the treatment efficacy of apple polyphenol (Ap). Ap was administered (500 mg) once daily for 12 weeks, starting about 2 weeks prior to cedar pollen dispersion. Pollinosis symptoms during the study were evaluated according to the classification in the guidelines for allergic rhinitis diagnosis and treatment. The results show that the sneezing score was significantly lower for the Ap group than with the placebo group during the early period of pollen dispersion and during the main dispersion period. In addition, no adverse reactions were induced by Ap during the study.",
+      "target": "These results suggest that Ap may alleviate the symptoms of cedar pollinosis.",
+      "loss_target": 3.878882884979248,
+      "loss_target_given_context": 0.829414963722229,
+      "delta_loss": 3.049467921257019,
+      "gain_ratio": 0.7861716921296874,
+      "score": -0.7861716921296874,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

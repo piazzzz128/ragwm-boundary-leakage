@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4668",
+  "source_doc_id": "MED-4668",
+  "title": "Cretinism revisited.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cretinism revisited.\nEndemic cretinism includes two syndromes: a more common neurological disorder with brain damage, deaf mutism, squint and spastic paresis of the legs and a less common syndrome of severe hypothyroidism, growth retardation and less severe mental defect. Both conditions are due to dietary iodine deficiency and can be prevented by correction of iodine deficiency before pregnancy. Endemic cretinism is now included in the spectrum of the effects of iodine deficiency in a population termed the 'iodine deficiency disorders (IDDs)', which also includes a wide range of lesser degrees of cognitive defect that can be prevented by the correction of iodine deficiency. Iodine deficiency is now recognised by the World Health Organization (WHO) as the most common preventable cause of brain damage with in excess of 2 billion at risk from 130 countries. A global United Nations (UN) programme of prevention has achieved 68% household usage of iodised salt by the year 2000 compared with less than 20% prior to 1990. Copyright 2009 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Cretinism revisited.\nEndemic cretinism includes two syndromes: a more common neurological disorder with brain damage, deaf mutism, squint and spastic paresis of the legs and a less common syndrome of severe hypothyroidism, growth retardation and less severe mental defect. Both conditions are due to dietary iodine deficiency and can be prevented by correction of iodine deficiency before pregnancy. Endemic cretinism is now included in the spectrum of the effects of iodine deficiency in a population termed the 'iodine deficiency disorders (IDDs)', which also includes a wide range of lesser degrees of cognitive defect that can be prevented by the correction of iodine deficiency. Iodine deficiency is now recognised by the World Health Organization (WHO) as the most common preventable cause of brain damage with in excess of 2 billion at risk from 130 countries. A global United Nations (UN) programme of prevention has achieved 68% household usage of iodised salt by the year 2000 compared with less than 20% prior to 1990. Copyright 2009 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1079,
+  "sanitized_char_count": 1079,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1030,
+      "boundary_end": 1058,
+      "context": "Cretinism revisited. Endemic cretinism includes two syndromes: a more common neurological disorder with brain damage, deaf mutism, squint and spastic paresis of the legs and a less common syndrome of severe hypothyroidism, growth retardation and less severe mental defect. Both conditions are due to dietary iodine deficiency and can be prevented by correction of iodine deficiency before pregnancy. Endemic cretinism is now included in the spectrum of the effects of iodine deficiency in a population termed the 'iodine deficiency disorders (IDDs)', which also includes a wide range of lesser degrees of cognitive defect that can be prevented by the correction of iodine deficiency. Iodine deficiency is now recognised by the World Health Organization (WHO) as the most common preventable cause of brain damage with in excess of 2 billion at risk from 130 countries. A global United Nations (UN) programme of prevention has achieved 68% household usage of iodised salt by the year 2000 compared with less than 20% prior to 1990.",
+      "target": "Copyright 2009 Elsevier Ltd.",
+      "loss_target": 1.538169264793396,
+      "loss_target_given_context": 0.9188101887702942,
+      "delta_loss": 0.6193590760231018,
+      "gain_ratio": 0.40265989589012685,
+      "score": -0.40265989589012685,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

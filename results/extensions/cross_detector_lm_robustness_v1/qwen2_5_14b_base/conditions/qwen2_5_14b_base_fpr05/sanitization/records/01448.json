@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2846",
+  "source_doc_id": "MED-2846",
+  "title": "A hospital based study of prevalence of gestational diabetes mellitus in an urban population of India.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A hospital based study of prevalence of gestational diabetes mellitus in an urban population of India.\nOBJECTIVE: A cross-sectional institutional-based study was undertaken to know the prevalence of Gestational Diabetes Mellitus (GDM) among Indian pregnant women. SUBJECTS AND METHODS: 325 pregnant women were screened for evidence of diabetes who were previously not known to be diabetic. They underwent 75 g, 2 hour, oral glucose tolerance test (OGTT). Chi-square test was done for statistically association of variables in GDM. RESULTS AND CONCLUSIONS: The results of this study indicate that bad obstetrics history, obese patient on high calorie diet especially non vegetarian diet with less physical activity are highly prone to develop GDM.",
+  "sanitized_text": "A hospital based study of prevalence of gestational diabetes mellitus in an urban population of India.\nOBJECTIVE: A cross-sectional institutional-based study was undertaken to know the prevalence of Gestational Diabetes Mellitus (GDM) among Indian pregnant women. SUBJECTS AND METHODS: 325 pregnant women were screened for evidence of diabetes who were previously not known to be diabetic. They underwent 75 g, 2 hour, oral glucose tolerance test (OGTT). Chi-square test was done for statistically association of variables in GDM. RESULTS AND CONCLUSIONS: The results of this study indicate that bad obstetrics history, obese patient on high calorie diet especially non vegetarian diet with less physical activity are highly prone to develop GDM.",
+  "modified": false,
+  "original_char_count": 746,
+  "sanitized_char_count": 746,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 531,
+      "boundary_end": 746,
+      "context": "A hospital based study of prevalence of gestational diabetes mellitus in an urban population of India. OBJECTIVE: A cross-sectional institutional-based study was undertaken to know the prevalence of Gestational Diabetes Mellitus (GDM) among Indian pregnant women. SUBJECTS AND METHODS: 325 pregnant women were screened for evidence of diabetes who were previously not known to be diabetic. They underwent 75 g, 2 hour, oral glucose tolerance test (OGTT). Chi-square test was done for statistically association of variables in GDM.",
+      "target": "RESULTS AND CONCLUSIONS: The results of this study indicate that bad obstetrics history, obese patient on high calorie diet especially non vegetarian diet with less physical activity are highly prone to develop GDM.",
+      "loss_target": 3.0325331687927246,
+      "loss_target_given_context": 2.3545494079589844,
+      "delta_loss": 0.6779837608337402,
+      "gain_ratio": 0.22357010561689947,
+      "score": -0.22357010561689947,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

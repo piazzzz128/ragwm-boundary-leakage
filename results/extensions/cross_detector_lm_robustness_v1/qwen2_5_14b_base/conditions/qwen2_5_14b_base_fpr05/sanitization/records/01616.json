@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3158",
+  "source_doc_id": "MED-3158",
+  "title": "Inhibition of xanthine oxidase by flavonoids.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Inhibition of xanthine oxidase by flavonoids.\nVarious dietary flavonoids were evaluated in vitro for their inhibitory effect on xanthine oxidase, which has been implicated in oxidative injury to tissue by ischemia-reperfusion. Xanthine oxidase activity was determined by directly measuring uric acid formation by HPLC. The structure-activity relationship revealed that the planar flavones and flavonols with a 7-hydroxyl group such as chrysin, luteolin, kaempferol, quercetin, myricetin, and isorhamnetin inhibited xanthine oxidase activity at low concentrations (IC50 values from 0.40 to 5.02 microM) in a mixed-type mode, while the nonplanar flavonoids, isoflavones and anthocyanidins were less inhibitory. These results suggest that certain flavonoids might suppress in vivo the formation of active oxygen species and urate by xanthine oxidase.",
+  "sanitized_text": "Inhibition of xanthine oxidase by flavonoids.\nVarious dietary flavonoids were evaluated in vitro for their inhibitory effect on xanthine oxidase, which has been implicated in oxidative injury to tissue by ischemia-reperfusion. Xanthine oxidase activity was determined by directly measuring uric acid formation by HPLC. The structure-activity relationship revealed that the planar flavones and flavonols with a 7-hydroxyl group such as chrysin, luteolin, kaempferol, quercetin, myricetin, and isorhamnetin inhibited xanthine oxidase activity at low concentrations (IC50 values from 0.40 to 5.02 microM) in a mixed-type mode, while the nonplanar flavonoids, isoflavones and anthocyanidins were less inhibitory. These results suggest that certain flavonoids might suppress in vivo the formation of active oxygen species and urate by xanthine oxidase.",
+  "modified": false,
+  "original_char_count": 847,
+  "sanitized_char_count": 847,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 709,
+      "boundary_end": 847,
+      "context": "Inhibition of xanthine oxidase by flavonoids. Various dietary flavonoids were evaluated in vitro for their inhibitory effect on xanthine oxidase, which has been implicated in oxidative injury to tissue by ischemia-reperfusion. Xanthine oxidase activity was determined by directly measuring uric acid formation by HPLC. The structure-activity relationship revealed that the planar flavones and flavonols with a 7-hydroxyl group such as chrysin, luteolin, kaempferol, quercetin, myricetin, and isorhamnetin inhibited xanthine oxidase activity at low concentrations (IC50 values from 0.40 to 5.02 microM) in a mixed-type mode, while the nonplanar flavonoids, isoflavones and anthocyanidins were less inhibitory.",
+      "target": "These results suggest that certain flavonoids might suppress in vivo the formation of active oxygen species and urate by xanthine oxidase.",
+      "loss_target": 2.777708053588867,
+      "loss_target_given_context": 1.7230451107025146,
+      "delta_loss": 1.0546629428863525,
+      "gain_ratio": 0.3796881898814751,
+      "score": -0.3796881898814751,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

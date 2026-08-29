@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5207",
+  "source_doc_id": "MED-5207",
+  "title": "Fecal bacterial beta-glucuronidase: control by diet.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Fecal bacterial beta-glucuronidase: control by diet.\nThe effect of a mixed Western, high meat diet or a nonmeat diet on the intestinal bacterial beta-glucuronidase activity was studied in human volunteers. This enzyme was significantly higher in stools of subjects on a high meat diet as compared to the nonmeat regimen. Thus, intestinal flora of subjects on a high meat diet was more able to hydrolyze glucuronide conjugates than that of individuals on a nonmeat diet. This, in turn, may raise the amount of substances, such as carcinogens, within the colonic lumen.",
+  "sanitized_text": "Fecal bacterial beta-glucuronidase: control by diet.\nThe effect of a mixed Western, high meat diet or a nonmeat diet on the intestinal bacterial beta-glucuronidase activity was studied in human volunteers. This enzyme was significantly higher in stools of subjects on a high meat diet as compared to the nonmeat regimen. Thus, intestinal flora of subjects on a high meat diet was more able to hydrolyze glucuronide conjugates than that of individuals on a nonmeat diet. This, in turn, may raise the amount of substances, such as carcinogens, within the colonic lumen.",
+  "modified": false,
+  "original_char_count": 567,
+  "sanitized_char_count": 567,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 470,
+      "boundary_end": 567,
+      "context": "Fecal bacterial beta-glucuronidase: control by diet. The effect of a mixed Western, high meat diet or a nonmeat diet on the intestinal bacterial beta-glucuronidase activity was studied in human volunteers. This enzyme was significantly higher in stools of subjects on a high meat diet as compared to the nonmeat regimen. Thus, intestinal flora of subjects on a high meat diet was more able to hydrolyze glucuronide conjugates than that of individuals on a nonmeat diet.",
+      "target": "This, in turn, may raise the amount of substances, such as carcinogens, within the colonic lumen.",
+      "loss_target": 2.5971295833587646,
+      "loss_target_given_context": 2.0044379234313965,
+      "delta_loss": 0.5926916599273682,
+      "gain_ratio": 0.22821027634703678,
+      "score": -0.22821027634703678,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

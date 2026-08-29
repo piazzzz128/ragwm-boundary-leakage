@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1430",
+  "source_doc_id": "MED-1430",
+  "title": "Vegetarian diet and cholesterol and triglycerides levels.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vegetarian diet and cholesterol and triglycerides levels.\nOBJECTIVE: Compare levels of triglyceride (TG), total cholesterol (TC), low density lipoprotein (LDL) and high density lipoprotein (HDL) among vegetarians and omnivores. METHODS: Blood samples were collected from 76 individuals--both males and females--separated in four different diet groups: omnivores, lacto-ovo vegetarians, lacto vegetarians, and restricted vegetarians (or vegans). Dosing was done for: TC, LDL, HDL and TG. RESULTS: Significant difference was reported for TC, LDL and TG levels among the samples. Higher levels were reported by omnivores, with decreased levels for vegetarians as animal products were restricted, with lowest levels having been reported by vegans. Mean and standard deviation for TC were 208.09 +/- 49.09 mg/dl in the group of omnivores, and 141.06 +/- 30.56 mg/dl in the group of vegans (p < 0.001). LDL values for omnivores and vegans were respectively: 123.43 +/- 42.67 mg/dl and 69.28 +/- 29.53 mg/dl (p < 0.001). As for TG, those values were 155.68 +/- 119.84 mg/dl and 81.67 +/- 81.90 mg/dl (p < 0.01). As for HDL level no difference was reported between the samples, but HDL/TC ratio was significantly higher in vegans (p = 0.01). CONCLUSION: Vegetarian diet was associated to lower levels of TG, TC and LDL as compared to the diet of omnivores.",
+  "sanitized_text": "Vegetarian diet and cholesterol and triglycerides levels.\nOBJECTIVE: Compare levels of triglyceride (TG), total cholesterol (TC), low density lipoprotein (LDL) and high density lipoprotein (HDL) among vegetarians and omnivores. METHODS: Blood samples were collected from 76 individuals--both males and females--separated in four different diet groups: omnivores, lacto-ovo vegetarians, lacto vegetarians, and restricted vegetarians (or vegans). Dosing was done for: TC, LDL, HDL and TG. RESULTS: Significant difference was reported for TC, LDL and TG levels among the samples. Higher levels were reported by omnivores, with decreased levels for vegetarians as animal products were restricted, with lowest levels having been reported by vegans. Mean and standard deviation for TC were 208.09 +/- 49.09 mg/dl in the group of omnivores, and 141.06 +/- 30.56 mg/dl in the group of vegans (p < 0.001). LDL values for omnivores and vegans were respectively: 123.43 +/- 42.67 mg/dl and 69.28 +/- 29.53 mg/dl (p < 0.001). As for TG, those values were 155.68 +/- 119.84 mg/dl and 81.67 +/- 81.90 mg/dl (p < 0.01). As for HDL level no difference was reported between the samples, but HDL/TC ratio was significantly higher in vegans (p = 0.01). CONCLUSION: Vegetarian diet was associated to lower levels of TG, TC and LDL as compared to the diet of omnivores.",
+  "modified": false,
+  "original_char_count": 1348,
+  "sanitized_char_count": 1348,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1234,
+      "boundary_end": 1348,
+      "context": "triglycerides levels. OBJECTIVE: Compare levels of triglyceride (TG), total cholesterol (TC), low density lipoprotein (LDL) and high density lipoprotein (HDL) among vegetarians and omnivores. METHODS: Blood samples were collected from 76 individuals--both males and females--separated in four different diet groups: omnivores, lacto-ovo vegetarians, lacto vegetarians, and restricted vegetarians (or vegans). Dosing was done for: TC, LDL, HDL and TG. RESULTS: Significant difference was reported for TC, LDL and TG levels among the samples. Higher levels were reported by omnivores, with decreased levels for vegetarians as animal products were restricted, with lowest levels having been reported by vegans. Mean and standard deviation for TC were 208.09 +/- 49.09 mg/dl in the group of omnivores, and 141.06 +/- 30.56 mg/dl in the group of vegans (p < 0.001). LDL values for omnivores and vegans were respectively: 123.43 +/- 42.67 mg/dl and 69.28 +/- 29.53 mg/dl (p < 0.001). As for TG, those values were 155.68 +/- 119.84 mg/dl and 81.67 +/- 81.90 mg/dl (p < 0.01). As for HDL level no difference was reported between the samples, but HDL/TC ratio was significantly higher in vegans (p = 0.01).",
+      "target": "CONCLUSION: Vegetarian diet was associated to lower levels of TG, TC and LDL as compared to the diet of omnivores.",
+      "loss_target": 2.4564943313598633,
+      "loss_target_given_context": 1.1697652339935303,
+      "delta_loss": 1.286729097366333,
+      "gain_ratio": 0.5238070696682727,
+      "score": -0.5238070696682727,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

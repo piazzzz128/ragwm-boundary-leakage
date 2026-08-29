@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5084",
+  "source_doc_id": "MED-5084",
+  "title": "Several culinary and medicinal herbs are important sources of dietary antioxidants.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Several culinary and medicinal herbs are important sources of dietary antioxidants.\nWe assessed the contribution of culinary and medicinal herbs to the total intake of dietary antioxidants. Our results demonstrate that there is more than a 1000-fold difference among antioxidant concentrations of various herbs. Of the dried culinary herbs tested, oregano, sage, peppermint, garden thyme, lemon balm, clove, allspice and cinnamon as well as the Chinese medicinal herbs Cinnamomi cortex and Scutellariae radix all contained very high concentrations of antioxidants (i.e., >75 mmol/100 g). In a normal diet, intake of herbs may therefore contribute significantly to the total intake of plant antioxidants, and be an even better source of dietary antioxidants than many other food groups such as fruits, berries, cereals and vegetables. In addition, the herbal drug, Stronger Neo-Minophagen C, a glycyrrhizin preparation used as an intravenous injection for the treatment of chronic hepatitis, boosts total antioxidant intake. It is tempting to speculate that several of the effects due to these herbs are mediated by their antioxidant activities.",
+  "sanitized_text": "Several culinary and medicinal herbs are important sources of dietary antioxidants.\nWe assessed the contribution of culinary and medicinal herbs to the total intake of dietary antioxidants. Our results demonstrate that there is more than a 1000-fold difference among antioxidant concentrations of various herbs. Of the dried culinary herbs tested, oregano, sage, peppermint, garden thyme, lemon balm, clove, allspice and cinnamon as well as the Chinese medicinal herbs Cinnamomi cortex and Scutellariae radix all contained very high concentrations of antioxidants (i.e., >75 mmol/100 g). In a normal diet, intake of herbs may therefore contribute significantly to the total intake of plant antioxidants, and be an even better source of dietary antioxidants than many other food groups such as fruits, berries, cereals and vegetables. In addition, the herbal drug, Stronger Neo-Minophagen C, a glycyrrhizin preparation used as an intravenous injection for the treatment of chronic hepatitis, boosts total antioxidant intake. It is tempting to speculate that several of the effects due to these herbs are mediated by their antioxidant activities.",
+  "modified": false,
+  "original_char_count": 1144,
+  "sanitized_char_count": 1144,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1024,
+      "boundary_end": 1144,
+      "context": "Several culinary and medicinal herbs are important sources of dietary antioxidants. We assessed the contribution of culinary and medicinal herbs to the total intake of dietary antioxidants. Our results demonstrate that there is more than a 1000-fold difference among antioxidant concentrations of various herbs. Of the dried culinary herbs tested, oregano, sage, peppermint, garden thyme, lemon balm, clove, allspice and cinnamon as well as the Chinese medicinal herbs Cinnamomi cortex and Scutellariae radix all contained very high concentrations of antioxidants (i.e., >75 mmol/100 g). In a normal diet, intake of herbs may therefore contribute significantly to the total intake of plant antioxidants, and be an even better source of dietary antioxidants than many other food groups such as fruits, berries, cereals and vegetables. In addition, the herbal drug, Stronger Neo-Minophagen C, a glycyrrhizin preparation used as an intravenous injection for the treatment of chronic hepatitis, boosts total antioxidant intake.",
+      "target": "It is tempting to speculate that several of the effects due to these herbs are mediated by their antioxidant activities.",
+      "loss_target": 3.2355117797851562,
+      "loss_target_given_context": 2.1857259273529053,
+      "delta_loss": 1.049785852432251,
+      "gain_ratio": 0.32445743483028167,
+      "score": -0.32445743483028167,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,111 @@
+{
+  "internal_id": "MED-1407",
+  "source_doc_id": "MED-1407",
+  "title": "The Mediterranean Diet: A History of Health",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The Mediterranean Diet: A History of Health\nThe Mediterranean tradition offers a cousine rich in colors, aromas and memories, which support the taste and the spirit of those who live in harmony with nature. Everyone is talking about the Mediterranean diet, but few are those who do it properly, thus generating a lot of confusion in the reader. And so for some it coincides with the pizza, others identified it with the noodles with meat sauce, in a mixture of pseudo historical traditions and folklore that do not help to solve the question that is at the basis of any diet: combine and balance the food so as to satisfy the qualitative and quantitative needs of an individual and in a sense, preserves his health through the use of substances that help the body to perform normal vital functions. The purpose of our work is to demonstrate that the combination of taste and health is a goal that can be absolutely carried out by everybody, despite those who believe that only a generous caloric intake can guarantee the goodness of a dish and the satisfaction of the consumers. That should not be an absolute novelty, since the sound traditions of the Mediterranean cuisine we have used for some time in a wide variety of tasty gastronomic choices, from inviting colors and strong scents and absolutely in line with health.",
+  "sanitized_text": "The Mediterranean Diet: A History of Health\nThe Mediterranean tradition offers a cousine rich in colors, aromas and memories, which support the taste and the spirit of those who live in harmony with nature. Everyone is talking about the Mediterranean diet, but few are those who do it properly, thus generating a lot of confusion in the reader.",
+  "modified": true,
+  "original_char_count": 1324,
+  "sanitized_char_count": 344,
+  "deleted_char_count": 980,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1079,
+      "boundary_end": 1324,
+      "context": "The Mediterranean Diet: A History of Health The Mediterranean tradition offers a cousine rich in colors, aromas and memories, which support the taste and the spirit of those who live in harmony with nature. Everyone is talking about the Mediterranean diet, but few are those who do it properly, thus generating a lot of confusion in the reader. And so for some it coincides with the pizza, others identified it with the noodles with meat sauce, in a mixture of pseudo historical traditions and folklore that do not help to solve the question that is at the basis of any diet: combine and balance the food so as to satisfy the qualitative and quantitative needs of an individual and in a sense, preserves his health through the use of substances that help the body to perform normal vital functions. The purpose of our work is to demonstrate that the combination of taste and health is a goal that can be absolutely carried out by everybody, despite those who believe that only a generous caloric intake can guarantee the goodness of a dish and the satisfaction of the consumers.",
+      "target": "That should not be an absolute novelty, since the sound traditions of the Mediterranean cuisine we have used for some time in a wide variety of tasty gastronomic choices, from inviting colors and strong scents and absolutely in line with health.",
+      "loss_target": 4.175807476043701,
+      "loss_target_given_context": 3.6079132556915283,
+      "delta_loss": 0.5678942203521729,
+      "gain_ratio": 0.13599626506014467,
+      "score": -0.13599626506014467,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 799,
+      "boundary_end": 1078,
+      "context": "The Mediterranean Diet: A History of Health The Mediterranean tradition offers a cousine rich in colors, aromas and memories, which support the taste and the spirit of those who live in harmony with nature. Everyone is talking about the Mediterranean diet, but few are those who do it properly, thus generating a lot of confusion in the reader. And so for some it coincides with the pizza, others identified it with the noodles with meat sauce, in a mixture of pseudo historical traditions and folklore that do not help to solve the question that is at the basis of any diet: combine and balance the food so as to satisfy the qualitative and quantitative needs of an individual and in a sense, preserves his health through the use of substances that help the body to perform normal vital functions.",
+      "target": "The purpose of our work is to demonstrate that the combination of taste and health is a goal that can be absolutely carried out by everybody, despite those who believe that only a generous caloric intake can guarantee the goodness of a dish and the satisfaction of the consumers.",
+      "loss_target": 3.2065014839172363,
+      "loss_target_given_context": 2.8316893577575684,
+      "delta_loss": 0.37481212615966797,
+      "gain_ratio": 0.11689129976692764,
+      "score": -0.11689129976692764,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 345,
+      "boundary_end": 798,
+      "context": "The Mediterranean Diet: A History of Health The Mediterranean tradition offers a cousine rich in colors, aromas and memories, which support the taste and the spirit of those who live in harmony with nature. Everyone is talking about the Mediterranean diet, but few are those who do it properly, thus generating a lot of confusion in the reader.",
+      "target": "And so for some it coincides with the pizza, others identified it with the noodles with meat sauce, in a mixture of pseudo historical traditions and folklore that do not help to solve the question that is at the basis of any diet: combine and balance the food so as to satisfy the qualitative and quantitative needs of an individual and in a sense, preserves his health through the use of substances that help the body to perform normal vital functions.",
+      "loss_target": 3.3997890949249268,
+      "loss_target_given_context": 3.016975164413452,
+      "delta_loss": 0.3828139305114746,
+      "gain_ratio": 0.1125993171408557,
+      "score": -0.1125993171408557,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 4,
+      "boundary_start": 207,
+      "boundary_end": 344,
+      "context": "The Mediterranean Diet: A History of Health The Mediterranean tradition offers a cousine rich in colors, aromas and memories, which support the taste and the spirit of those who live in harmony with nature.",
+      "target": "Everyone is talking about the Mediterranean diet, but few are those who do it properly, thus generating a lot of confusion in the reader.",
+      "loss_target": 2.839060068130493,
+      "loss_target_given_context": 2.265336751937866,
+      "delta_loss": 0.573723316192627,
+      "gain_ratio": 0.20208213367264924,
+      "score": -0.20208213367264924,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1079,
+      "target": "That should not be an absolute novelty, since the sound traditions of the Mediterranean cuisine we have used for some time in a wide variety of tasty gastronomic choices, from inviting colors and strong scents and absolutely in line with health.",
+      "score": -0.13599626506014467,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "That should not be an absolute novelty, since the sound traditions of the Mediterranean cuisine we have used for some time in a wide variety of tasty gastronomic choices, from inviting colors and strong scents and absolutely in line with health.",
+      "deleted_char_count": 245
+    },
+    {
+      "step": 2,
+      "boundary_start": 799,
+      "target": "The purpose of our work is to demonstrate that the combination of taste and health is a goal that can be absolutely carried out by everybody, despite those who believe that only a generous caloric intake can guarantee the goodness of a dish and the satisfaction of the consumers.",
+      "score": -0.11689129976692764,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "The purpose of our work is to demonstrate that the combination of taste and health is a goal that can be absolutely carried out by everybody, despite those who believe that only a generous caloric intake can guarantee the goodness of a dish and the satisfaction of the consumers.",
+      "deleted_char_count": 279
+    },
+    {
+      "step": 3,
+      "boundary_start": 345,
+      "target": "And so for some it coincides with the pizza, others identified it with the noodles with meat sauce, in a mixture of pseudo historical traditions and folklore that do not help to solve the question that is at the basis of any diet: combine and balance the food so as to satisfy the qualitative and quantitative needs of an individual and in a sense, preserves his health through the use of substances that help the body to perform normal vital functions.",
+      "score": -0.1125993171408557,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "And so for some it coincides with the pizza, others identified it with the noodles with meat sauce, in a mixture of pseudo historical traditions and folklore that do not help to solve the question that is at the basis of any diet: combine and balance the food so as to satisfy the qualitative and quantitative needs of an individual and in a sense, preserves his health through the use of substances that help the body to perform normal vital functions.",
+      "deleted_char_count": 453
+    }
+  ],
+  "deletion_step_count": 3,
+  "stop_reason": "score_below_threshold"
+}

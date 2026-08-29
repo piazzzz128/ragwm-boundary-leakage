@@ -1,0 +1,41 @@
+Loading checkpoint shards:   0%|                                                                 | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██████████████▎                                          | 1/4 [00:00<00:02,  1.20it/s]Loading checkpoint shards:  50%|████████████████████████████▌                            | 2/4 [00:01<00:01,  1.28it/s]Loading checkpoint shards:  75%|██████████████████████████████████████████▊              | 3/4 [00:02<00:00,  1.31it/s]Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 4/4 [00:03<00:00,  1.37it/s]Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 4/4 [00:03<00:00,  1.33it/s]
+[SKIP] Complete current score file: /root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/localization/nfcorpus_same_position_current_scores.json
+{
+  "localization_metrics": {
+    "target_only_nll": {
+      "roc_auc": 0.8793460556214684,
+      "pr_auc": 0.8542782877227595,
+      "best_f1": 0.8361344537815126,
+      "tpr_at_fpr_0.01": 0.13901345291479822,
+      "tpr_at_fpr_0.05": 0.4304932735426009,
+      "tpr_at_fpr_0.1": 0.6278026905829597
+    },
+    "conditional_nll": {
+      "roc_auc": 0.9770757505680789,
+      "pr_auc": 0.977796839450465,
+      "best_f1": 0.926829268292683,
+      "tpr_at_fpr_0.01": 0.7085201793721974,
+      "tpr_at_fpr_0.05": 0.8699551569506726,
+      "tpr_at_fpr_0.1": 0.9417040358744395
+    },
+    "gainratio_recomputed_same_environment": {
+      "roc_auc": 0.9483400028152587,
+      "pr_auc": 0.9504339241289328,
+      "best_f1": 0.8685968819599109,
+      "tpr_at_fpr_0.01": 0.5964125560538116,
+      "tpr_at_fpr_0.05": 0.757847533632287,
+      "tpr_at_fpr_0.1": 0.8251121076233184
+    }
+  },
+  "thresholds": {
+    "fpr01": 3.314114809036255,
+    "fpr025": 3.1628453731536865,
+    "fpr05": 2.7933995723724365,
+    "fpr10": 2.4420993328094482
+  }
+}
+{"budget": "fpr01", "modified_docs": 101, "deleted_chars": 9874, "steps": 117}
+{"budget": "fpr025", "modified_docs": 138, "deleted_chars": 15578, "steps": 165}
+{"budget": "fpr05", "modified_docs": 285, "deleted_chars": 42944, "steps": 363}
+{"budget": "fpr10", "modified_docs": 563, "deleted_chars": 112382, "steps": 793}
+CONDITIONAL NLL SCORE/CALIBRATION/SANITIZATION PASS

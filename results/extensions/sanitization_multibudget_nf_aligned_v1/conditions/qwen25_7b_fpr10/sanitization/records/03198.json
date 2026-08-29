@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5139",
+  "source_doc_id": "MED-5139",
+  "title": "Aspartame bioassay findings portend human cancer hazards.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Aspartame bioassay findings portend human cancer hazards.\nThe U.S. Food and Drug Administration (FDA) should reevaluate its position on aspartame as being safe under all conditions. Animal bioassay results predict human cancer risks, and a recent animal study confirms that there is a potential aspartame risk to humans. Aspartame is produced and packaged in China for domestic use and global distribution. Japan, France, and the United States are also major producers. No study of long-term adverse occupational health effects on aspartame workers have been conducted. The FDA should consider sponsoring a prospective epidemiologic study of aspartame workers.",
+  "sanitized_text": "Aspartame bioassay findings portend human cancer hazards.\nThe U.S. Food and Drug Administration (FDA) should reevaluate its position on aspartame as being safe under all conditions. Animal bioassay results predict human cancer risks, and a recent animal study confirms that there is a potential aspartame risk to humans. Aspartame is produced and packaged in China for domestic use and global distribution. Japan, France, and the United States are also major producers. No study of long-term adverse occupational health effects on aspartame workers have been conducted. The FDA should consider sponsoring a prospective epidemiologic study of aspartame workers.",
+  "modified": false,
+  "original_char_count": 660,
+  "sanitized_char_count": 660,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 570,
+      "boundary_end": 660,
+      "context": "Aspartame bioassay findings portend human cancer hazards. The U.S. Food and Drug Administration (FDA) should reevaluate its position on aspartame as being safe under all conditions. Animal bioassay results predict human cancer risks, and a recent animal study confirms that there is a potential aspartame risk to humans. Aspartame is produced and packaged in China for domestic use and global distribution. Japan, France, and the United States are also major producers. No study of long-term adverse occupational health effects on aspartame workers have been conducted.",
+      "target": "The FDA should consider sponsoring a prospective epidemiologic study of aspartame workers.",
+      "loss_target": 4.2127885818481445,
+      "loss_target_given_context": 1.925710916519165,
+      "delta_loss": 2.2870776653289795,
+      "gain_ratio": 0.5428892575296627,
+      "score": -0.5428892575296627,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

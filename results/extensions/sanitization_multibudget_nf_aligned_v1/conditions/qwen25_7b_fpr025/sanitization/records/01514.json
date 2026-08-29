@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2984",
+  "source_doc_id": "MED-2984",
+  "title": "An algorithm to assess intestinal iron availability for use in dietary surveys",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "An algorithm to assess intestinal iron availability for use in dietary surveys\nIn nutritional epidemiology, it is often assumed that nutrient absorption is proportional to nutrient intake. For several nutrients, including non-haem Fe, this assumption may not hold. Depending on the nutrients ingested with non-haem Fe, its availability for absorption varies greatly. Therefore, using Fe intake to examine associations between Fe and health can impact upon the validity of findings. Previous algorithms that adjust Fe intakes for dietary factors known to affect absorption have been found to underestimate Fe absorption and, in the present study, perform poorly on independent dietary data. We have designed a new algorithm to adjust Fe intakes for the effects of ascorbic acid, meat, fish and poultry, phytate, polyphenols and Ca, incorporating not only absorption data from test meals but also current understanding of Fe absorption. In so doing, we have created a robust and universal Fe algorithm with potential for use in large cohorts. The algorithm described aims not to predict Fe absorption but available Fe in the gut, a measure we believe to be of greater use in epidemiological research. Available Fe is Fe available for absorption from the gastrointestinal tract, taking into account enhancing or inhibiting effects of dietary modifiers. Our algorithm successfully estimated average Fe availability in test meal data used to construct the algorithm and, unlike other algorithms tested, also provided plausible predictions when applied to independent dietary data. Future research is needed to evaluate the extent to which this algorithm is useful in epidemiological research to relate Fe to health outcomes.",
+  "sanitized_text": "An algorithm to assess intestinal iron availability for use in dietary surveys\nIn nutritional epidemiology, it is often assumed that nutrient absorption is proportional to nutrient intake. For several nutrients, including non-haem Fe, this assumption may not hold. Depending on the nutrients ingested with non-haem Fe, its availability for absorption varies greatly. Therefore, using Fe intake to examine associations between Fe and health can impact upon the validity of findings. Previous algorithms that adjust Fe intakes for dietary factors known to affect absorption have been found to underestimate Fe absorption and, in the present study, perform poorly on independent dietary data. We have designed a new algorithm to adjust Fe intakes for the effects of ascorbic acid, meat, fish and poultry, phytate, polyphenols and Ca, incorporating not only absorption data from test meals but also current understanding of Fe absorption. In so doing, we have created a robust and universal Fe algorithm with potential for use in large cohorts. The algorithm described aims not to predict Fe absorption but available Fe in the gut, a measure we believe to be of greater use in epidemiological research. Available Fe is Fe available for absorption from the gastrointestinal tract, taking into account enhancing or inhibiting effects of dietary modifiers. Our algorithm successfully estimated average Fe availability in test meal data used to construct the algorithm and, unlike other algorithms tested, also provided plausible predictions when applied to independent dietary data. Future research is needed to evaluate the extent to which this algorithm is useful in epidemiological research to relate Fe to health outcomes.",
+  "modified": false,
+  "original_char_count": 1719,
+  "sanitized_char_count": 1719,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1576,
+      "boundary_end": 1719,
+      "context": "using Fe intake to examine associations between Fe and health can impact upon the validity of findings. Previous algorithms that adjust Fe intakes for dietary factors known to affect absorption have been found to underestimate Fe absorption and, in the present study, perform poorly on independent dietary data. We have designed a new algorithm to adjust Fe intakes for the effects of ascorbic acid, meat, fish and poultry, phytate, polyphenols and Ca, incorporating not only absorption data from test meals but also current understanding of Fe absorption. In so doing, we have created a robust and universal Fe algorithm with potential for use in large cohorts. The algorithm described aims not to predict Fe absorption but available Fe in the gut, a measure we believe to be of greater use in epidemiological research. Available Fe is Fe available for absorption from the gastrointestinal tract, taking into account enhancing or inhibiting effects of dietary modifiers. Our algorithm successfully estimated average Fe availability in test meal data used to construct the algorithm and, unlike other algorithms tested, also provided plausible predictions when applied to independent dietary data.",
+      "target": "Future research is needed to evaluate the extent to which this algorithm is useful in epidemiological research to relate Fe to health outcomes.",
+      "loss_target": 3.264183282852173,
+      "loss_target_given_context": 1.6598097085952759,
+      "delta_loss": 1.604373574256897,
+      "gain_ratio": 0.49150842193365746,
+      "score": -0.49150842193365746,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

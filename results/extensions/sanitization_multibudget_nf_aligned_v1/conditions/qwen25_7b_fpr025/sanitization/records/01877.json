@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3541",
+  "source_doc_id": "MED-3541",
+  "title": "Frequent consumption of vegetables predicts lower risk of depression in older Taiwanese - results of a prospective population-based study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Frequent consumption of vegetables predicts lower risk of depression in older Taiwanese - results of a prospective population-based study.\nOBJECTIVE: The study evaluated the association between consumption frequencies of the major food categories and the risk of new depression four years later in older Taiwanese. DESIGN: A prospective cohort study with multistage random sampling. Logistic regression analysis evaluated the significance of the longitudinal associations of intake frequencies of the major food categories with future (4 years later) risk of new depression, controlled for possible confounding factors with or without adjustment for cognitive status. SETTING: Population-based free-living elderly. SUBJECTS: Men and women (n 1609) ≥65 years of age. RESULTS: In a regression model that controlled for demographic, socio-economic, lifestyle and disease/health-related variables but not cognitive status, both fruits (OR = 0·66, 95 % CI 0·45, 0·98, P = 0·038) and vegetables (OR = 0·38, 95 % CI 0·17, 0·86, P = 0·021) were protective against depressive symptoms 4 years later. However, when the same regression model was also adjusted for cognitive status, only vegetables (OR = 0·40, 95 % CI 0·17, 0·95, P = 0·039) were protective against depressive symptoms. Higher consumption of eggs was close to being significant in both regression models (P = 0·087 and 0·069, respectively). Other food categories including meat/poultry, fish, seafood, dairy, legumes, grains and tea showed no significant associations. CONCLUSIONS: Results suggest that although confounding factors cannot be totally ruled out, more frequent consumption of vegetables seems to be protective against depressive symptoms in the elderly. Further studies are needed to elucidate the causal role and the mechanism of the association.",
+  "sanitized_text": "Frequent consumption of vegetables predicts lower risk of depression in older Taiwanese - results of a prospective population-based study.\nOBJECTIVE: The study evaluated the association between consumption frequencies of the major food categories and the risk of new depression four years later in older Taiwanese. DESIGN: A prospective cohort study with multistage random sampling. Logistic regression analysis evaluated the significance of the longitudinal associations of intake frequencies of the major food categories with future (4 years later) risk of new depression, controlled for possible confounding factors with or without adjustment for cognitive status. SETTING: Population-based free-living elderly. SUBJECTS: Men and women (n 1609) ≥65 years of age. RESULTS: In a regression model that controlled for demographic, socio-economic, lifestyle and disease/health-related variables but not cognitive status, both fruits (OR = 0·66, 95 % CI 0·45, 0·98, P = 0·038) and vegetables (OR = 0·38, 95 % CI 0·17, 0·86, P = 0·021) were protective against depressive symptoms 4 years later. However, when the same regression model was also adjusted for cognitive status, only vegetables (OR = 0·40, 95 % CI 0·17, 0·95, P = 0·039) were protective against depressive symptoms. Higher consumption of eggs was close to being significant in both regression models (P = 0·087 and 0·069, respectively). Other food categories including meat/poultry, fish, seafood, dairy, legumes, grains and tea showed no significant associations. CONCLUSIONS: Results suggest that although confounding factors cannot be totally ruled out, more frequent consumption of vegetables seems to be protective against depressive symptoms in the elderly. Further studies are needed to elucidate the causal role and the mechanism of the association.",
+  "modified": false,
+  "original_char_count": 1816,
+  "sanitized_char_count": 1816,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1723,
+      "boundary_end": 1816,
+      "context": "with future (4 years later) risk of new depression, controlled for possible confounding factors with or without adjustment for cognitive status. SETTING: Population-based free-living elderly. SUBJECTS: Men and women (n 1609) ≥65 years of age. RESULTS: In a regression model that controlled for demographic, socio-economic, lifestyle and disease/health-related variables but not cognitive status, both fruits (OR = 0·66, 95 % CI 0·45, 0·98, P = 0·038) and vegetables (OR = 0·38, 95 % CI 0·17, 0·86, P = 0·021) were protective against depressive symptoms 4 years later. However, when the same regression model was also adjusted for cognitive status, only vegetables (OR = 0·40, 95 % CI 0·17, 0·95, P = 0·039) were protective against depressive symptoms. Higher consumption of eggs was close to being significant in both regression models (P = 0·087 and 0·069, respectively). Other food categories including meat/poultry, fish, seafood, dairy, legumes, grains and tea showed no significant associations. CONCLUSIONS: Results suggest that although confounding factors cannot be totally ruled out, more frequent consumption of vegetables seems to be protective against depressive symptoms in the elderly.",
+      "target": "Further studies are needed to elucidate the causal role and the mechanism of the association.",
+      "loss_target": 2.262802839279175,
+      "loss_target_given_context": 1.635894536972046,
+      "delta_loss": 0.6269083023071289,
+      "gain_ratio": 0.2770494589386467,
+      "score": -0.2770494589386467,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

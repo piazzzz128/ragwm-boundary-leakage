@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-4643",
+  "source_doc_id": "MED-4643",
+  "title": "Dietary habits and breast cancer incidence among Seventh-day Adventists.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary habits and breast cancer incidence among Seventh-day Adventists.\nBreast cancer incidence was monitored in a cohort of 20,341 California Seventh-day Adventist women who completed a detailed lifestyle questionnaire in 1976, and who were followed for 6 years. There were 215 histologically confirmed primary breast cancer detected among some 115,000 person-years of follow-up. Mean age at diagnosis was 66 years, indicating a primarily postmenopausal case series. Established risk factors for breast cancer showed strong relationships to risk in these data. Age at first live birth, maternal history of breast cancer, age at menopause, educational attainment, and obesity were all significantly related to risk. However, increasing consumption of high fat animal products was not associated with increased risk of breast cancer in a consistent fashion. Nor were childhood and early teenage dietary habits (vegetarian versus nonvegetarian) related to subsequent, adult risk of developing breast cancer. Also, a derived index of percent of calories from animal fat in the adult years was not significantly related to risk. These results persisted after simultaneously controlling for other, potentially confounding variables, utilizing Cox proportional hazard regression models.",
+  "sanitized_text": "Dietary habits and breast cancer incidence among Seventh-day Adventists.\nBreast cancer incidence was monitored in a cohort of 20,341 California Seventh-day Adventist women who completed a detailed lifestyle questionnaire in 1976, and who were followed for 6 years. There were 215 histologically confirmed primary breast cancer detected among some 115,000 person-years of follow-up. Mean age at diagnosis was 66 years, indicating a primarily postmenopausal case series. Established risk factors for breast cancer showed strong relationships to risk in these data. Age at first live birth, maternal history of breast cancer, age at menopause, educational attainment, and obesity were all significantly related to risk. However, increasing consumption of high fat animal products was not associated with increased risk of breast cancer in a consistent fashion. Nor were childhood and early teenage dietary habits (vegetarian versus nonvegetarian) related to subsequent, adult risk of developing breast cancer. Also, a derived index of percent of calories from animal fat in the adult years was not significantly related to risk.",
+  "modified": true,
+  "original_char_count": 1281,
+  "sanitized_char_count": 1125,
+  "deleted_char_count": 156,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1126,
+      "boundary_end": 1281,
+      "context": "Dietary habits and breast cancer incidence among Seventh-day Adventists. Breast cancer incidence was monitored in a cohort of 20,341 California Seventh-day Adventist women who completed a detailed lifestyle questionnaire in 1976, and who were followed for 6 years. There were 215 histologically confirmed primary breast cancer detected among some 115,000 person-years of follow-up. Mean age at diagnosis was 66 years, indicating a primarily postmenopausal case series. Established risk factors for breast cancer showed strong relationships to risk in these data. Age at first live birth, maternal history of breast cancer, age at menopause, educational attainment, and obesity were all significantly related to risk. However, increasing consumption of high fat animal products was not associated with increased risk of breast cancer in a consistent fashion. Nor were childhood and early teenage dietary habits (vegetarian versus nonvegetarian) related to subsequent, adult risk of developing breast cancer. Also, a derived index of percent of calories from animal fat in the adult years was not significantly related to risk.",
+      "target": "These results persisted after simultaneously controlling for other, potentially confounding variables, utilizing Cox proportional hazard regression models.",
+      "loss_target": 3.239861249923706,
+      "loss_target_given_context": 2.9326539039611816,
+      "delta_loss": 0.3072073459625244,
+      "gain_ratio": 0.0948211427170712,
+      "score": -0.0948211427170712,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1007,
+      "boundary_end": 1125,
+      "context": "Dietary habits and breast cancer incidence among Seventh-day Adventists. Breast cancer incidence was monitored in a cohort of 20,341 California Seventh-day Adventist women who completed a detailed lifestyle questionnaire in 1976, and who were followed for 6 years. There were 215 histologically confirmed primary breast cancer detected among some 115,000 person-years of follow-up. Mean age at diagnosis was 66 years, indicating a primarily postmenopausal case series. Established risk factors for breast cancer showed strong relationships to risk in these data. Age at first live birth, maternal history of breast cancer, age at menopause, educational attainment, and obesity were all significantly related to risk. However, increasing consumption of high fat animal products was not associated with increased risk of breast cancer in a consistent fashion. Nor were childhood and early teenage dietary habits (vegetarian versus nonvegetarian) related to subsequent, adult risk of developing breast cancer.",
+      "target": "Also, a derived index of percent of calories from animal fat in the adult years was not significantly related to risk.",
+      "loss_target": 3.9805829524993896,
+      "loss_target_given_context": 2.3179306983947754,
+      "delta_loss": 1.6626522541046143,
+      "gain_ratio": 0.4176906432914914,
+      "score": -0.4176906432914914,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1126,
+      "target": "These results persisted after simultaneously controlling for other, potentially confounding variables, utilizing Cox proportional hazard regression models.",
+      "score": -0.0948211427170712,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "These results persisted after simultaneously controlling for other, potentially confounding variables, utilizing Cox proportional hazard regression models.",
+      "deleted_char_count": 155
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

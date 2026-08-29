@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3846",
+  "source_doc_id": "MED-3846",
+  "title": "High-performance liquid chromatographic analysis of secoisolariciresinol diglucoside and hydroxycinnamic acid glucosides in flaxseed by alkaline ex...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "High-performance liquid chromatographic analysis of secoisolariciresinol diglucoside and hydroxycinnamic acid glucosides in flaxseed by alkaline ex...\nA HPLC method was developed for the analysis of secoisolariciresinol diglucoside (SDG) and hydroxycinnamic acid glucosides in milled defatted flaxseed flour. Direct extraction by 1 M NaOH for 1 h at 20 degrees C resulted in a higher yield than that obtained by hydrolysis of alcoholic extracts. An internal standard, o-coumaric acid, was used and the method was found to be easy, fast, and with good repeatability. On dry matter basis, different samples of flaxseeds varied considerably in their content of (+)-SDG (11.9-25.9 mg/g), (-)-SDG (2.2-5.0 mg/g), p-coumaric acid glucoside (1.2-8.5 mg/g), and ferulic acid glucoside (1.6-5.0 mg/g).",
+  "sanitized_text": "High-performance liquid chromatographic analysis of secoisolariciresinol diglucoside and hydroxycinnamic acid glucosides in flaxseed by alkaline ex...\nA HPLC method was developed for the analysis of secoisolariciresinol diglucoside (SDG) and hydroxycinnamic acid glucosides in milled defatted flaxseed flour. Direct extraction by 1 M NaOH for 1 h at 20 degrees C resulted in a higher yield than that obtained by hydrolysis of alcoholic extracts. An internal standard, o-coumaric acid, was used and the method was found to be easy, fast, and with good repeatability. On dry matter basis, different samples of flaxseeds varied considerably in their content of (+)-SDG (11.9-25.9 mg/g), (-)-SDG (2.2-5.0 mg/g), p-coumaric acid glucoside (1.2-8.5 mg/g), and ferulic acid glucoside (1.6-5.0 mg/g).",
+  "modified": false,
+  "original_char_count": 792,
+  "sanitized_char_count": 792,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 566,
+      "boundary_end": 792,
+      "context": "High-performance liquid chromatographic analysis of secoisolariciresinol diglucoside and hydroxycinnamic acid glucosides in flaxseed by alkaline ex... A HPLC method was developed for the analysis of secoisolariciresinol diglucoside (SDG) and hydroxycinnamic acid glucosides in milled defatted flaxseed flour. Direct extraction by 1 M NaOH for 1 h at 20 degrees C resulted in a higher yield than that obtained by hydrolysis of alcoholic extracts. An internal standard, o-coumaric acid, was used and the method was found to be easy, fast, and with good repeatability.",
+      "target": "On dry matter basis, different samples of flaxseeds varied considerably in their content of (+)-SDG (11.9-25.9 mg/g), (-)-SDG (2.2-5.0 mg/g), p-coumaric acid glucoside (1.2-8.5 mg/g), and ferulic acid glucoside (1.6-5.0 mg/g).",
+      "loss_target": 1.6560429334640503,
+      "loss_target_given_context": 1.1500613689422607,
+      "delta_loss": 0.5059815645217896,
+      "gain_ratio": 0.30553650167957647,
+      "score": -0.30553650167957647,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

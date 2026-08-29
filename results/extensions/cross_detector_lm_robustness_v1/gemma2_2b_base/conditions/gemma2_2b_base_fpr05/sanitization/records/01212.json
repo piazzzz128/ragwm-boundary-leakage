@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2482",
+  "source_doc_id": "MED-2482",
+  "title": "Randomized placebo-controlled trial of lactobacillus on asthmatic children with allergic rhinitis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Randomized placebo-controlled trial of lactobacillus on asthmatic children with allergic rhinitis.\nPrevious studies have suggested that probiotic administration may have therapeutic and/or preventive effects on atopic dermatitis in infants; however, its role in allergic airway diseases remains controversial. To determine whether daily supplementation with specific Lactobacillus gasseri A5 for 8 weeks can improve the clinical symptoms and immunoregulatory changes in school children suffering from asthma and allergic rhinitis (AR). We conducted a randomized, double-blind, placebo-controlled study on school children (age, 6-12 years) with asthma and AR. The eligible study subjects received either L. gasseri A5 (n = 49) or a placebo (n = 56) daily for 2 months. Pulmonary function tests were performed, and the clinical severity of asthma and AR was evaluated by the attending physicians in the study period. Diary cards with records of the day- and nighttime peak expiratory flow rates (PEFR), symptoms of asthma, and AR scores of the patients were used for measuring the outcome of the treatment. Immunological parameters such as the total IgE and cytokine production by the peripheral blood mononuclear cells (PBMCs) were determined before and after the probiotic treatments. Our results showed the pulmonary function and PEFR increased significantly, and the clinical symptom scores for asthma and AR decreased in the probiotic-treated patients as compared to the controls. Further, there was a significant reduction in the TNF-α, IFN-γ, IL-12, and IL-13 production by the PBMCs following the probiotic treatment. In conclusion, probiotic supplementation may have clinical benefits for school children suffering from allergic airway diseases such as asthma and AR.",
+  "sanitized_text": "Randomized placebo-controlled trial of lactobacillus on asthmatic children with allergic rhinitis.\nPrevious studies have suggested that probiotic administration may have therapeutic and/or preventive effects on atopic dermatitis in infants; however, its role in allergic airway diseases remains controversial. To determine whether daily supplementation with specific Lactobacillus gasseri A5 for 8 weeks can improve the clinical symptoms and immunoregulatory changes in school children suffering from asthma and allergic rhinitis (AR). We conducted a randomized, double-blind, placebo-controlled study on school children (age, 6-12 years) with asthma and AR. The eligible study subjects received either L. gasseri A5 (n = 49) or a placebo (n = 56) daily for 2 months. Pulmonary function tests were performed, and the clinical severity of asthma and AR was evaluated by the attending physicians in the study period. Diary cards with records of the day- and nighttime peak expiratory flow rates (PEFR), symptoms of asthma, and AR scores of the patients were used for measuring the outcome of the treatment. Immunological parameters such as the total IgE and cytokine production by the peripheral blood mononuclear cells (PBMCs) were determined before and after the probiotic treatments. Our results showed the pulmonary function and PEFR increased significantly, and the clinical symptom scores for asthma and AR decreased in the probiotic-treated patients as compared to the controls. Further, there was a significant reduction in the TNF-α, IFN-γ, IL-12, and IL-13 production by the PBMCs following the probiotic treatment. In conclusion, probiotic supplementation may have clinical benefits for school children suffering from allergic airway diseases such as asthma and AR.",
+  "modified": false,
+  "original_char_count": 1774,
+  "sanitized_char_count": 1774,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1624,
+      "boundary_end": 1774,
+      "context": "symptoms and immunoregulatory changes in school children suffering from asthma and allergic rhinitis (AR). We conducted a randomized, double-blind, placebo-controlled study on school children (age, 6-12 years) with asthma and AR. The eligible study subjects received either L. gasseri A5 (n = 49) or a placebo (n = 56) daily for 2 months. Pulmonary function tests were performed, and the clinical severity of asthma and AR was evaluated by the attending physicians in the study period. Diary cards with records of the day- and nighttime peak expiratory flow rates (PEFR), symptoms of asthma, and AR scores of the patients were used for measuring the outcome of the treatment. Immunological parameters such as the total IgE and cytokine production by the peripheral blood mononuclear cells (PBMCs) were determined before and after the probiotic treatments. Our results showed the pulmonary function and PEFR increased significantly, and the clinical symptom scores for asthma and AR decreased in the probiotic-treated patients as compared to the controls. Further, there was a significant reduction in the TNF-α, IFN-γ, IL-12, and IL-13 production by the PBMCs following the probiotic treatment.",
+      "target": "In conclusion, probiotic supplementation may have clinical benefits for school children suffering from allergic airway diseases such as asthma and AR.",
+      "loss_target": 7.279543876647949,
+      "loss_target_given_context": 2.6178197860717773,
+      "delta_loss": 4.661724090576172,
+      "gain_ratio": 0.6403868387318219,
+      "score": -0.6403868387318219,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

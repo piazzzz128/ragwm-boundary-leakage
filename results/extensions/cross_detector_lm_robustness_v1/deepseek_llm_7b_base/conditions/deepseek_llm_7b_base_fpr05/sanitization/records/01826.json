@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3488",
+  "source_doc_id": "MED-3488",
+  "title": "Aloe-induced Toxic Hepatitis",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Aloe-induced Toxic Hepatitis\nAloe has been widely used in phytomedicine. Phytomedicine describes aloe as a herb which has anti-inflammatory, anti-proliferative, anti-aging effects. In recent years several cases of aloe-induced hepatotoxicity were reported. But its pharmacokinetics and toxicity are poorly described in the literature. Here we report three cases with aloe-induced toxic hepatitis. A 57-yr-old woman, a 62-yr-old woman and a 55-yr-old woman were admitted to the hospital for acute hepatitis. They had taken aloe preparation for months. Their clinical manifestation, laboratory findings and histologic findings met diagnostic criteria (RUCAM scale) of toxic hepatitis. Upon discontinuation of the oral aloe preparations, liver enzymes returned to normal level. Aloe should be considered as a causative agent in hepatotoxicity.",
+  "sanitized_text": "Aloe-induced Toxic Hepatitis\nAloe has been widely used in phytomedicine. Phytomedicine describes aloe as a herb which has anti-inflammatory, anti-proliferative, anti-aging effects. In recent years several cases of aloe-induced hepatotoxicity were reported. But its pharmacokinetics and toxicity are poorly described in the literature. Here we report three cases with aloe-induced toxic hepatitis. A 57-yr-old woman, a 62-yr-old woman and a 55-yr-old woman were admitted to the hospital for acute hepatitis. They had taken aloe preparation for months. Their clinical manifestation, laboratory findings and histologic findings met diagnostic criteria (RUCAM scale) of toxic hepatitis. Upon discontinuation of the oral aloe preparations, liver enzymes returned to normal level. Aloe should be considered as a causative agent in hepatotoxicity.",
+  "modified": false,
+  "original_char_count": 840,
+  "sanitized_char_count": 840,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 775,
+      "boundary_end": 840,
+      "context": "Aloe-induced Toxic Hepatitis Aloe has been widely used in phytomedicine. Phytomedicine describes aloe as a herb which has anti-inflammatory, anti-proliferative, anti-aging effects. In recent years several cases of aloe-induced hepatotoxicity were reported. But its pharmacokinetics and toxicity are poorly described in the literature. Here we report three cases with aloe-induced toxic hepatitis. A 57-yr-old woman, a 62-yr-old woman and a 55-yr-old woman were admitted to the hospital for acute hepatitis. They had taken aloe preparation for months. Their clinical manifestation, laboratory findings and histologic findings met diagnostic criteria (RUCAM scale) of toxic hepatitis. Upon discontinuation of the oral aloe preparations, liver enzymes returned to normal level.",
+      "target": "Aloe should be considered as a causative agent in hepatotoxicity.",
+      "loss_target": 3.382323741912842,
+      "loss_target_given_context": 1.2818858623504639,
+      "delta_loss": 2.100437879562378,
+      "gain_ratio": 0.6210043862845888,
+      "score": -0.6210043862845888,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

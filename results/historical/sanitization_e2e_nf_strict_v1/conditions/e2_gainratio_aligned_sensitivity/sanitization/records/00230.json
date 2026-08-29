@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1293",
+  "source_doc_id": "MED-1293",
+  "title": "Immunity: plants as effective mediators.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Immunity: plants as effective mediators.\nIn the domain of nutrition, exploring the diet-health linkages is major area of research. The outcomes of such interventions led to widespread acceptance of functional and nutraceutical foods; however, augmenting immunity is a major concern of dietary regimens. Indeed, the immune system is incredible arrangement of specific organs and cells that enabled humans to carry out defense against undesired responses. Its proper functionality is essential to maintain the body homeostasis. Array of plants and their components hold immunomodulating properties. Their possible inclusion in diets could explore new therapeutic avenues to enhanced immunity against diseases. The review intended to highlight the importance of garlic (Allium sativum), green tea (Camellia sinensis), ginger (Zingiber officinale), purple coneflower (Echinacea), black cumin (Nigella sativa), licorice (Glycyrrhiza glabra), Astragalus and St. John's wort (Hypericum perforatum) as natural immune boosters. These plants are bestowed with functional ingredients that may provide protection against various menaces. Modes of their actions include boosting and functioning of immune system, activation and suppression of immune specialized cells, interfering in several pathways that eventually led to improvement in immune responses and defense system. In addition, some of these plants carry free radical scavenging and anti-inflammatory activities that are helpful against cancer insurgence. Nevertheless, interaction between drugs and herbs/botanicals should be well investigated before recommended for their safe use, and such information must be disseminated to the allied stakeholders.",
+  "sanitized_text": "Immunity: plants as effective mediators.\nIn the domain of nutrition, exploring the diet-health linkages is major area of research. The outcomes of such interventions led to widespread acceptance of functional and nutraceutical foods; however, augmenting immunity is a major concern of dietary regimens. Indeed, the immune system is incredible arrangement of specific organs and cells that enabled humans to carry out defense against undesired responses. Its proper functionality is essential to maintain the body homeostasis. Array of plants and their components hold immunomodulating properties. Their possible inclusion in diets could explore new therapeutic avenues to enhanced immunity against diseases. The review intended to highlight the importance of garlic (Allium sativum), green tea (Camellia sinensis), ginger (Zingiber officinale), purple coneflower (Echinacea), black cumin (Nigella sativa), licorice (Glycyrrhiza glabra), Astragalus and St. John's wort (Hypericum perforatum) as natural immune boosters. These plants are bestowed with functional ingredients that may provide protection against various menaces. Modes of their actions include boosting and functioning of immune system, activation and suppression of immune specialized cells, interfering in several pathways that eventually led to improvement in immune responses and defense system. In addition, some of these plants carry free radical scavenging and anti-inflammatory activities that are helpful against cancer insurgence.",
+  "modified": true,
+  "original_char_count": 1701,
+  "sanitized_char_count": 1503,
+  "deleted_char_count": 198,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1504,
+      "boundary_end": 1701,
+      "context": "the immune system is incredible arrangement of specific organs and cells that enabled humans to carry out defense against undesired responses. Its proper functionality is essential to maintain the body homeostasis. Array of plants and their components hold immunomodulating properties. Their possible inclusion in diets could explore new therapeutic avenues to enhanced immunity against diseases. The review intended to highlight the importance of garlic (Allium sativum), green tea (Camellia sinensis), ginger (Zingiber officinale), purple coneflower (Echinacea), black cumin (Nigella sativa), licorice (Glycyrrhiza glabra), Astragalus and St. John's wort (Hypericum perforatum) as natural immune boosters. These plants are bestowed with functional ingredients that may provide protection against various menaces. Modes of their actions include boosting and functioning of immune system, activation and suppression of immune specialized cells, interfering in several pathways that eventually led to improvement in immune responses and defense system. In addition, some of these plants carry free radical scavenging and anti-inflammatory activities that are helpful against cancer insurgence.",
+      "target": "Nevertheless, interaction between drugs and herbs/botanicals should be well investigated before recommended for their safe use, and such information must be disseminated to the allied stakeholders.",
+      "loss_target": 3.416766405105591,
+      "loss_target_given_context": 2.8233208656311035,
+      "delta_loss": 0.5934455394744873,
+      "gain_ratio": 0.1736863072019545,
+      "score": -0.1736863072019545,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1363,
+      "boundary_end": 1503,
+      "context": "led to widespread acceptance of functional and nutraceutical foods; however, augmenting immunity is a major concern of dietary regimens. Indeed, the immune system is incredible arrangement of specific organs and cells that enabled humans to carry out defense against undesired responses. Its proper functionality is essential to maintain the body homeostasis. Array of plants and their components hold immunomodulating properties. Their possible inclusion in diets could explore new therapeutic avenues to enhanced immunity against diseases. The review intended to highlight the importance of garlic (Allium sativum), green tea (Camellia sinensis), ginger (Zingiber officinale), purple coneflower (Echinacea), black cumin (Nigella sativa), licorice (Glycyrrhiza glabra), Astragalus and St. John's wort (Hypericum perforatum) as natural immune boosters. These plants are bestowed with functional ingredients that may provide protection against various menaces. Modes of their actions include boosting and functioning of immune system, activation and suppression of immune specialized cells, interfering in several pathways that eventually led to improvement in immune responses and defense system.",
+      "target": "In addition, some of these plants carry free radical scavenging and anti-inflammatory activities that are helpful against cancer insurgence.",
+      "loss_target": 3.3389170169830322,
+      "loss_target_given_context": 2.3364768028259277,
+      "delta_loss": 1.0024402141571045,
+      "gain_ratio": 0.30022914887021845,
+      "score": -0.30022914887021845,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1504,
+      "target": "Nevertheless, interaction between drugs and herbs/botanicals should be well investigated before recommended for their safe use, and such information must be disseminated to the allied stakeholders.",
+      "score": -0.1736863072019545,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Nevertheless, interaction between drugs and herbs/botanicals should be well investigated before recommended for their safe use, and such information must be disseminated to the allied stakeholders.",
+      "deleted_char_count": 197
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

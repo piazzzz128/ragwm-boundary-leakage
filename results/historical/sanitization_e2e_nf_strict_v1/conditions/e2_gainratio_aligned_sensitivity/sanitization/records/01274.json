@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2590",
+  "source_doc_id": "MED-2590",
+  "title": "Reversing heart disease in the new millennium--the Fleming unified theory.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Reversing heart disease in the new millennium--the Fleming unified theory.\nNineteen people without prior history of documented heart disease were studied for 8 months to determine the effect of treatment based on an immunologic unified theory of vascular disease. Subjects underwent myocardial perfusion imaging to quantify the extent and severity of coronary artery disease, along with assessment of wall motion abnormalities and ejection fraction by both nuclear and echocardiographic methods. These tests were repeated at the end of the study. Treatment consisted of dietary changes, treatment of cholesterol, triglycerides, homocysteine, lipoprotein (a), fibrinogen, C-reactive protein, and infection. Patients who followed the dietary recommendations demonstrated statistically reduced disease in all three major coronary arteries, whereas those individuals who followed high-protein diets demonstrated statistically greater levels of disease.",
+  "sanitized_text": "Reversing heart disease in the new millennium--the Fleming unified theory.\nNineteen people without prior history of documented heart disease were studied for 8 months to determine the effect of treatment based on an immunologic unified theory of vascular disease. Subjects underwent myocardial perfusion imaging to quantify the extent and severity of coronary artery disease, along with assessment of wall motion abnormalities and ejection fraction by both nuclear and echocardiographic methods. These tests were repeated at the end of the study. Treatment consisted of dietary changes, treatment of cholesterol, triglycerides, homocysteine, lipoprotein (a), fibrinogen, C-reactive protein, and infection.",
+  "modified": true,
+  "original_char_count": 948,
+  "sanitized_char_count": 705,
+  "deleted_char_count": 243,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 706,
+      "boundary_end": 948,
+      "context": "Reversing heart disease in the new millennium--the Fleming unified theory. Nineteen people without prior history of documented heart disease were studied for 8 months to determine the effect of treatment based on an immunologic unified theory of vascular disease. Subjects underwent myocardial perfusion imaging to quantify the extent and severity of coronary artery disease, along with assessment of wall motion abnormalities and ejection fraction by both nuclear and echocardiographic methods. These tests were repeated at the end of the study. Treatment consisted of dietary changes, treatment of cholesterol, triglycerides, homocysteine, lipoprotein (a), fibrinogen, C-reactive protein, and infection.",
+      "target": "Patients who followed the dietary recommendations demonstrated statistically reduced disease in all three major coronary arteries, whereas those individuals who followed high-protein diets demonstrated statistically greater levels of disease.",
+      "loss_target": 3.538102626800537,
+      "loss_target_given_context": 2.962423324584961,
+      "delta_loss": 0.5756793022155762,
+      "gain_ratio": 0.16270848048750805,
+      "score": -0.16270848048750805,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 547,
+      "boundary_end": 705,
+      "context": "Reversing heart disease in the new millennium--the Fleming unified theory. Nineteen people without prior history of documented heart disease were studied for 8 months to determine the effect of treatment based on an immunologic unified theory of vascular disease. Subjects underwent myocardial perfusion imaging to quantify the extent and severity of coronary artery disease, along with assessment of wall motion abnormalities and ejection fraction by both nuclear and echocardiographic methods. These tests were repeated at the end of the study.",
+      "target": "Treatment consisted of dietary changes, treatment of cholesterol, triglycerides, homocysteine, lipoprotein (a), fibrinogen, C-reactive protein, and infection.",
+      "loss_target": 2.0584263801574707,
+      "loss_target_given_context": 1.2906583547592163,
+      "delta_loss": 0.7677680253982544,
+      "gain_ratio": 0.3729878478041657,
+      "score": -0.3729878478041657,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 706,
+      "target": "Patients who followed the dietary recommendations demonstrated statistically reduced disease in all three major coronary arteries, whereas those individuals who followed high-protein diets demonstrated statistically greater levels of disease.",
+      "score": -0.16270848048750805,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Patients who followed the dietary recommendations demonstrated statistically reduced disease in all three major coronary arteries, whereas those individuals who followed high-protein diets demonstrated statistically greater levels of disease.",
+      "deleted_char_count": 242
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

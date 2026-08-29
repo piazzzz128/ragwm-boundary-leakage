@@ -1,0 +1,16 @@
+# Main Results: Boundary-level Watermark Detection
+
+| Dataset | Construction | Method | Model | N | Inject / Clean | ROC-AUC | PR-AUC | TPR@FPR=5% | TPR@FPR=10% | Best F1 |
+|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
+| NFCorpus | strict v1 | Contriever + Cosine | Contriever | 446 | 223 / 223 | 0.8346 | 0.8034 | 0.2735 | 0.4395 | 0.7900 |
+| NFCorpus | strict v1 | GainRatio | Qwen2.5-7B | 446 | 223 / 223 | 0.9904 | 0.9909 | 0.9462 | 0.9686 | 0.9513 |
+| TREC-COVID | strict v3 | Contriever + Cosine | Contriever | 458 | 229 / 229 | 0.6891 | 0.6641 | 0.1397 | 0.2271 | 0.7099 |
+| TREC-COVID | strict v3 | GainRatio | Qwen2.5-7B | 458 | 229 / 229 | 0.9779 | 0.9781 | 0.8996 | 0.9432 | 0.9318 |
+| Natural Questions | sampled strict v2 | Contriever + Cosine | Contriever | 442 | 221 / 221 | 0.8953 | 0.8646 | 0.5068 | 0.6471 | 0.8373 |
+| Natural Questions | sampled strict v2 | GainRatio | Qwen2.5-7B | 442 | 221 / 221 | 0.9652 | 0.9667 | 0.8597 | 0.9276 | 0.9182 |
+
+## Notes
+
+- GainRatio results use the aligned Qwen2.5-7B loss computation: eos-prefix unconditional loss and masked target-token loss.
+- Natural Questions is a 20k-document sampled strict subset, not the full NQ corpus.
+- Across all three datasets, GainRatio outperforms Contriever + Cosine on ROC-AUC, PR-AUC, low-FPR detection, and Best F1.

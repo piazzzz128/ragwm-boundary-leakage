@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1324",
+  "source_doc_id": "MED-1324",
+  "title": "Differential effect of protein and fat ingestion on blood glucose responses to high- and low-glycemic-index carbohydrates in noninsulin-dependent d...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Differential effect of protein and fat ingestion on blood glucose responses to high- and low-glycemic-index carbohydrates in noninsulin-dependent d...\nSix noninsulin-dependent diabetic subjects received meals containing 25 g carbohydrate either as potato or as spaghetti. The meals were repeated with the addition of 25 g protein and with 25 g protein and 25 g fat. Blood glucose and insulin responses were measured for 4 h after the test meal. When carbohydrate was given alone, the blood glucose and serum insulin increments were higher for the potato meal. The addition of protein increased the insulin responses to both carbohydrates and slightly reduced the glycemic response to mashed potato (F = 2.04, p less than 0.05). The further addition of fat reduced the glycemic response to mashed potato (F = 14.63, p less than 0.001) without any change in the blood glucose response to spaghetti (F = 0.94, NS). The different responses to coingestion of protein and fat reduced the difference between the glycemic responses to the two carbohydrates.",
+  "sanitized_text": "Differential effect of protein and fat ingestion on blood glucose responses to high- and low-glycemic-index carbohydrates in noninsulin-dependent d...\nSix noninsulin-dependent diabetic subjects received meals containing 25 g carbohydrate either as potato or as spaghetti. The meals were repeated with the addition of 25 g protein and with 25 g protein and 25 g fat. Blood glucose and insulin responses were measured for 4 h after the test meal. When carbohydrate was given alone, the blood glucose and serum insulin increments were higher for the potato meal. The addition of protein increased the insulin responses to both carbohydrates and slightly reduced the glycemic response to mashed potato (F = 2.04, p less than 0.05). The further addition of fat reduced the glycemic response to mashed potato (F = 14.63, p less than 0.001) without any change in the blood glucose response to spaghetti (F = 0.94, NS). The different responses to coingestion of protein and fat reduced the difference between the glycemic responses to the two carbohydrates.",
+  "modified": false,
+  "original_char_count": 1049,
+  "sanitized_char_count": 1049,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 912,
+      "boundary_end": 1049,
+      "context": "Differential effect of protein and fat ingestion on blood glucose responses to high- and low-glycemic-index carbohydrates in noninsulin-dependent d... Six noninsulin-dependent diabetic subjects received meals containing 25 g carbohydrate either as potato or as spaghetti. The meals were repeated with the addition of 25 g protein and with 25 g protein and 25 g fat. Blood glucose and insulin responses were measured for 4 h after the test meal. When carbohydrate was given alone, the blood glucose and serum insulin increments were higher for the potato meal. The addition of protein increased the insulin responses to both carbohydrates and slightly reduced the glycemic response to mashed potato (F = 2.04, p less than 0.05). The further addition of fat reduced the glycemic response to mashed potato (F = 14.63, p less than 0.001) without any change in the blood glucose response to spaghetti (F = 0.94, NS).",
+      "target": "The different responses to coingestion of protein and fat reduced the difference between the glycemic responses to the two carbohydrates.",
+      "loss_target": 3.7075254917144775,
+      "loss_target_given_context": 1.8041101694107056,
+      "delta_loss": 1.903415322303772,
+      "gain_ratio": 0.513392376278328,
+      "score": -0.513392376278328,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

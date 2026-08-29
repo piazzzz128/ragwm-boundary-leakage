@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1319",
+  "source_doc_id": "MED-1319",
+  "title": "Diet and chronic degenerative diseases: perspectives from China.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet and chronic degenerative diseases: perspectives from China.\nA comprehensive ecologic survey of dietary, life-style, and mortality characteristics of 65 counties in rural China showed that diets are substantially richer in foods of plant origin when compared with diets consumed in the more industrialized, Western societies. Mean intakes of animal protein (about one-tenth of the mean intake in the United States as energy percent), total fat (14.5% of energy), and dietary fiber (33.3 g/d) reflected a substantial preference for foods of plant origin. Mean plasma cholesterol concentration, at approximately 3.23-3.49 mmol/L, corresponds to this dietary life-style. The principal hypothesis under investigation in this paper is that chronic degenerative diseases are prevented by an aggregate effect of nutrients and nutrient-intake amounts that are commonly supplied by foods of plant origin. The breadth and consistency of evidence for this hypothesis was investigated with multiple intake-biomarker-disease associations, which were appropriately adjusted. There appears to be no threshold of plant-food enrichment or minimization of fat intake beyond which further disease prevention does not occur. These findings suggest that even small intakes of foods of animal origin are associated with significant increases in plasma cholesterol concentrations, which are associated, in turn, with significant increases in chronic degenerative disease mortality rates.",
+  "sanitized_text": "Diet and chronic degenerative diseases: perspectives from China.\nA comprehensive ecologic survey of dietary, life-style, and mortality characteristics of 65 counties in rural China showed that diets are substantially richer in foods of plant origin when compared with diets consumed in the more industrialized, Western societies. Mean intakes of animal protein (about one-tenth of the mean intake in the United States as energy percent), total fat (14.5% of energy), and dietary fiber (33.3 g/d) reflected a substantial preference for foods of plant origin. Mean plasma cholesterol concentration, at approximately 3.23-3.49 mmol/L, corresponds to this dietary life-style. The principal hypothesis under investigation in this paper is that chronic degenerative diseases are prevented by an aggregate effect of nutrients and nutrient-intake amounts that are commonly supplied by foods of plant origin. The breadth and consistency of evidence for this hypothesis was investigated with multiple intake-biomarker-disease associations, which were appropriately adjusted. There appears to be no threshold of plant-food enrichment or minimization of fat intake beyond which further disease prevention does not occur. These findings suggest that even small intakes of foods of animal origin are associated with significant increases in plasma cholesterol concentrations, which are associated, in turn, with significant increases in chronic degenerative disease mortality rates.",
+  "modified": false,
+  "original_char_count": 1468,
+  "sanitized_char_count": 1468,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1209,
+      "boundary_end": 1468,
+      "context": "chronic degenerative diseases: perspectives from China. A comprehensive ecologic survey of dietary, life-style, and mortality characteristics of 65 counties in rural China showed that diets are substantially richer in foods of plant origin when compared with diets consumed in the more industrialized, Western societies. Mean intakes of animal protein (about one-tenth of the mean intake in the United States as energy percent), total fat (14.5% of energy), and dietary fiber (33.3 g/d) reflected a substantial preference for foods of plant origin. Mean plasma cholesterol concentration, at approximately 3.23-3.49 mmol/L, corresponds to this dietary life-style. The principal hypothesis under investigation in this paper is that chronic degenerative diseases are prevented by an aggregate effect of nutrients and nutrient-intake amounts that are commonly supplied by foods of plant origin. The breadth and consistency of evidence for this hypothesis was investigated with multiple intake-biomarker-disease associations, which were appropriately adjusted. There appears to be no threshold of plant-food enrichment or minimization of fat intake beyond which further disease prevention does not occur.",
+      "target": "These findings suggest that even small intakes of foods of animal origin are associated with significant increases in plasma cholesterol concentrations, which are associated, in turn, with significant increases in chronic degenerative disease mortality rates.",
+      "loss_target": 6.419724941253662,
+      "loss_target_given_context": 2.3519253730773926,
+      "delta_loss": 4.0677995681762695,
+      "gain_ratio": 0.6336407876350382,
+      "score": -0.6336407876350382,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

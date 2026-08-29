@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2267",
+  "source_doc_id": "MED-2267",
+  "title": "Effect of non-steroidal anti-inflammatory drugs and prostaglandins on the permeability of the human small intestine.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of non-steroidal anti-inflammatory drugs and prostaglandins on the permeability of the human small intestine.\nIntestinal permeability was estimated in healthy subjects after ingestion of aspirin (1.2+1.2 g), ibuprofen (400+400 mg) and indomethacin (75+50 mg) at midnight and an hour before starting a 51chromium labelled ethylenediaminetetraacetate absorption test. Intestinal permeability increased significantly from control levels following each drug and the effect was related to drug potency to inhibit cyclooxygenase. Intestinal permeability increased to a similar extent after oral and rectal administration of indomethacin showing that the effect is systemically mediated. Prostaglandin E2 decreased intestinal permeability significantly but failed to prevent the indomethacin induced increased intestinal permeability. These studies show that non-steroidal anti-inflammatory drugs disrupt the intestinal barrier function in man and suggest that the morphological correlates of the damage may reside at the level of the intercellular junctions.",
+  "sanitized_text": "Effect of non-steroidal anti-inflammatory drugs and prostaglandins on the permeability of the human small intestine.\nIntestinal permeability was estimated in healthy subjects after ingestion of aspirin (1.2+1.2 g), ibuprofen (400+400 mg) and indomethacin (75+50 mg) at midnight and an hour before starting a 51chromium labelled ethylenediaminetetraacetate absorption test. Intestinal permeability increased significantly from control levels following each drug and the effect was related to drug potency to inhibit cyclooxygenase. Intestinal permeability increased to a similar extent after oral and rectal administration of indomethacin showing that the effect is systemically mediated. Prostaglandin E2 decreased intestinal permeability significantly but failed to prevent the indomethacin induced increased intestinal permeability. These studies show that non-steroidal anti-inflammatory drugs disrupt the intestinal barrier function in man and suggest that the morphological correlates of the damage may reside at the level of the intercellular junctions.",
+  "modified": false,
+  "original_char_count": 1059,
+  "sanitized_char_count": 1059,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 835,
+      "boundary_end": 1059,
+      "context": "Effect of non-steroidal anti-inflammatory drugs and prostaglandins on the permeability of the human small intestine. Intestinal permeability was estimated in healthy subjects after ingestion of aspirin (1.2+1.2 g), ibuprofen (400+400 mg) and indomethacin (75+50 mg) at midnight and an hour before starting a 51chromium labelled ethylenediaminetetraacetate absorption test. Intestinal permeability increased significantly from control levels following each drug and the effect was related to drug potency to inhibit cyclooxygenase. Intestinal permeability increased to a similar extent after oral and rectal administration of indomethacin showing that the effect is systemically mediated. Prostaglandin E2 decreased intestinal permeability significantly but failed to prevent the indomethacin induced increased intestinal permeability.",
+      "target": "These studies show that non-steroidal anti-inflammatory drugs disrupt the intestinal barrier function in man and suggest that the morphological correlates of the damage may reside at the level of the intercellular junctions.",
+      "loss_target": 2.556790590286255,
+      "loss_target_given_context": 1.7462623119354248,
+      "delta_loss": 0.8105282783508301,
+      "gain_ratio": 0.31701003650051934,
+      "score": -0.31701003650051934,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

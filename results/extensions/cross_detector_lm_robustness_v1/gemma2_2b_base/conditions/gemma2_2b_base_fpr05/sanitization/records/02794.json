@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4701",
+  "source_doc_id": "MED-4701",
+  "title": "Examination of the antiglycemic properties of vinegar in healthy adults.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Examination of the antiglycemic properties of vinegar in healthy adults.\nBACKGROUND: Vinegar reduces postprandial glycemia (PPG) in healthy adults. This study investigated the vinegar dosage (10 vs. 20 g), timing (during mealtime vs. 5 h before meal) and application (acetic acid as vinegar vs. neutralized salt) for reducing PPG. METHODS: Four randomized crossover trials were conducted in adults (n = 9-10/trial) with type 2 diabetes (1 trial) or without diabetes (3 trials). All trials followed the same protocol: a standardized meal the evening prior to testing, an overnight fast ( 1 10 h) and 2-hour glucose testing following consumption of a bagel and juice test meal (3 trials) or dextrose solution (1 trial). For each trial, PPG was compared between treatments using area-under-the-curve calculations 120 min after the meal. RESULTS: Two teaspoons of vinegar ( 10 g) effectively reduced PPG, and this effect was most pronounced when vinegar was ingested during mealtime as compared to 5 h before the meal. Vinegar did not alter PPG when ingested with monosaccharides, suggesting that the antiglycemic action of vinegar is related to the digestion of carbohydrates. Finally, sodium acetate did not alter PPG, indicating that acetate salts lack antiglycemic properties. CONCLUSIONS: The antiglycemic properties of vinegar are evident when small amounts of vinegar are ingested with meals composed of complex carbohydrates. In these situations, vinegar attenuated PPG by 20% compared to placebo. 2009 S. Karger AG, Basel.",
+  "sanitized_text": "Examination of the antiglycemic properties of vinegar in healthy adults.\nBACKGROUND: Vinegar reduces postprandial glycemia (PPG) in healthy adults. This study investigated the vinegar dosage (10 vs. 20 g), timing (during mealtime vs. 5 h before meal) and application (acetic acid as vinegar vs. neutralized salt) for reducing PPG. METHODS: Four randomized crossover trials were conducted in adults (n = 9-10/trial) with type 2 diabetes (1 trial) or without diabetes (3 trials). All trials followed the same protocol: a standardized meal the evening prior to testing, an overnight fast ( 1 10 h) and 2-hour glucose testing following consumption of a bagel and juice test meal (3 trials) or dextrose solution (1 trial). For each trial, PPG was compared between treatments using area-under-the-curve calculations 120 min after the meal. RESULTS: Two teaspoons of vinegar ( 10 g) effectively reduced PPG, and this effect was most pronounced when vinegar was ingested during mealtime as compared to 5 h before the meal. Vinegar did not alter PPG when ingested with monosaccharides, suggesting that the antiglycemic action of vinegar is related to the digestion of carbohydrates. Finally, sodium acetate did not alter PPG, indicating that acetate salts lack antiglycemic properties. CONCLUSIONS: The antiglycemic properties of vinegar are evident when small amounts of vinegar are ingested with meals composed of complex carbohydrates. In these situations, vinegar attenuated PPG by 20% compared to placebo. 2009 S. Karger AG, Basel.",
+  "modified": false,
+  "original_char_count": 1527,
+  "sanitized_char_count": 1527,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1430,
+      "boundary_end": 1501,
+      "context": "vs. 5 h before meal) and application (acetic acid as vinegar vs. neutralized salt) for reducing PPG. METHODS: Four randomized crossover trials were conducted in adults (n = 9-10/trial) with type 2 diabetes (1 trial) or without diabetes (3 trials). All trials followed the same protocol: a standardized meal the evening prior to testing, an overnight fast ( 1 10 h) and 2-hour glucose testing following consumption of a bagel and juice test meal (3 trials) or dextrose solution (1 trial). For each trial, PPG was compared between treatments using area-under-the-curve calculations 120 min after the meal. RESULTS: Two teaspoons of vinegar ( 10 g) effectively reduced PPG, and this effect was most pronounced when vinegar was ingested during mealtime as compared to 5 h before the meal. Vinegar did not alter PPG when ingested with monosaccharides, suggesting that the antiglycemic action of vinegar is related to the digestion of carbohydrates. Finally, sodium acetate did not alter PPG, indicating that acetate salts lack antiglycemic properties. CONCLUSIONS: The antiglycemic properties of vinegar are evident when small amounts of vinegar are ingested with meals composed of complex carbohydrates.",
+      "target": "In these situations, vinegar attenuated PPG by 20% compared to placebo.",
+      "loss_target": 10.425625801086426,
+      "loss_target_given_context": 2.996317148208618,
+      "delta_loss": 7.429308652877808,
+      "gain_ratio": 0.7126007392384657,
+      "score": -0.7126007392384657,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

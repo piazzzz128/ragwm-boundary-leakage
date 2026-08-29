@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2414",
+  "source_doc_id": "MED-2414",
+  "title": "Review of epidemiologic studies of dietary acrylamide intake and the risk of cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Review of epidemiologic studies of dietary acrylamide intake and the risk of cancer.\nConjectured associations between dietary acrylamide intake and cancer have been evaluated in more than 15 epidemiologic studies examining almost every major cancer site. We have critically reviewed the epidemiologic studies of estimated dietary acrylamide exposure and cancer. As substantially greater acrylamide exposure occurs through tobacco smoke than dietary exposure, we present the results separately for never smokers or adjusted statistically for smoking status, where possible. After an extensive examination of the published literature, we found no consistent or credible evidence that dietary acrylamide increases the risk of any type of cancer in humans, either overall or among nonsmokers. In particular, the collective evidence suggests that a high level of dietary acrylamide intake is not a risk factor for breast, endometrial, or ovarian cancers, which have generated particular interest because of a conjectured hormonal mechanism of acrylamide. Moreover, the absence of a positive association between smoking and ovarian and endometrial cancers suggests that any association of these cancers with the much lower, more sporadic dietary acrylamide intake is unlikely. In conclusion, epidemiologic studies of dietary acrylamide intake have failed to demonstrate an increased risk of cancer. In fact, the sporadically and slightly increased and decreased risk ratios reported in more than two dozen papers examined in this review strongly suggest the pattern one would expect to find for a true null association over the course of a series of trials. Therefore, continued epidemiologic investigation of acrylamide and cancer risk appears to be a misguided research priority.",
+  "sanitized_text": "Review of epidemiologic studies of dietary acrylamide intake and the risk of cancer.\nConjectured associations between dietary acrylamide intake and cancer have been evaluated in more than 15 epidemiologic studies examining almost every major cancer site. We have critically reviewed the epidemiologic studies of estimated dietary acrylamide exposure and cancer. As substantially greater acrylamide exposure occurs through tobacco smoke than dietary exposure, we present the results separately for never smokers or adjusted statistically for smoking status, where possible. After an extensive examination of the published literature, we found no consistent or credible evidence that dietary acrylamide increases the risk of any type of cancer in humans, either overall or among nonsmokers. In particular, the collective evidence suggests that a high level of dietary acrylamide intake is not a risk factor for breast, endometrial, or ovarian cancers, which have generated particular interest because of a conjectured hormonal mechanism of acrylamide. Moreover, the absence of a positive association between smoking and ovarian and endometrial cancers suggests that any association of these cancers with the much lower, more sporadic dietary acrylamide intake is unlikely. In conclusion, epidemiologic studies of dietary acrylamide intake have failed to demonstrate an increased risk of cancer. In fact, the sporadically and slightly increased and decreased risk ratios reported in more than two dozen papers examined in this review strongly suggest the pattern one would expect to find for a true null association over the course of a series of trials. Therefore, continued epidemiologic investigation of acrylamide and cancer risk appears to be a misguided research priority.",
+  "modified": false,
+  "original_char_count": 1775,
+  "sanitized_char_count": 1775,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1652,
+      "boundary_end": 1775,
+      "context": "we present the results separately for never smokers or adjusted statistically for smoking status, where possible. After an extensive examination of the published literature, we found no consistent or credible evidence that dietary acrylamide increases the risk of any type of cancer in humans, either overall or among nonsmokers. In particular, the collective evidence suggests that a high level of dietary acrylamide intake is not a risk factor for breast, endometrial, or ovarian cancers, which have generated particular interest because of a conjectured hormonal mechanism of acrylamide. Moreover, the absence of a positive association between smoking and ovarian and endometrial cancers suggests that any association of these cancers with the much lower, more sporadic dietary acrylamide intake is unlikely. In conclusion, epidemiologic studies of dietary acrylamide intake have failed to demonstrate an increased risk of cancer. In fact, the sporadically and slightly increased and decreased risk ratios reported in more than two dozen papers examined in this review strongly suggest the pattern one would expect to find for a true null association over the course of a series of trials.",
+      "target": "Therefore, continued epidemiologic investigation of acrylamide and cancer risk appears to be a misguided research priority.",
+      "loss_target": 3.5101265907287598,
+      "loss_target_given_context": 1.9132107496261597,
+      "delta_loss": 1.5969158411026,
+      "gain_ratio": 0.45494537015289077,
+      "score": -0.45494537015289077,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

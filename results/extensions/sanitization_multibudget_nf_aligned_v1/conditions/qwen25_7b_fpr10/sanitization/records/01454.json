@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2852",
+  "source_doc_id": "MED-2852",
+  "title": "A prospective study of dietary patterns, meat intake and the risk of gestational diabetes mellitus.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A prospective study of dietary patterns, meat intake and the risk of gestational diabetes mellitus.\nAIMS/HYPOTHESIS: The aim of this study was to prospectively examine whether dietary patterns are related to risk of gestational diabetes mellitus (GDM). METHODS: This prospective cohort study included 13,110 women who were free of cardiovascular disease, cancer, type 2 diabetes and history of GDM. Subjects completed a validated semi-quantitative food frequency questionnaire in 1991, and reported at least one singleton pregnancy between 1992 and 1998 in the Nurses' Health Study II. Two major dietary patterns (i.e. 'prudent' and 'Western') were identified through factor analysis. The prudent pattern was characterised by a high intake of fruit, green leafy vegetables, poultry and fish, whereas the Western pattern was characterised by high intake of red meat, processed meat, refined grain products, sweets, French fries and pizza. RESULTS: We documented 758 incident cases of GDM. After adjustment for age, parity, pre-pregnancy BMI and other covariates, the relative risk (RR) of GDM, comparing the highest with the lowest quintile of the Western pattern scores, was 1.63 (95% CI 1.20-2.21; p (trend)=0.001), whereas the RR comparing the lowest with the highest quintile of the prudent pattern scores was 1.39 (95% CI 1.08-1.80; p (trend)=0.018). The RR for each increment of one serving/day was 1.61 (95% CI 1.25-2.07) for red meat and 1.64 (95% CI 1.13-2.38) for processed meat. CONCLUSIONS/INTERPRETATION: These findings suggest that pre-pregnancy dietary patterns may affect women's risk of developing GDM. A diet high in red and processed meat was associated with a significantly elevated risk.",
+  "sanitized_text": "A prospective study of dietary patterns, meat intake and the risk of gestational diabetes mellitus.\nAIMS/HYPOTHESIS: The aim of this study was to prospectively examine whether dietary patterns are related to risk of gestational diabetes mellitus (GDM). METHODS: This prospective cohort study included 13,110 women who were free of cardiovascular disease, cancer, type 2 diabetes and history of GDM. Subjects completed a validated semi-quantitative food frequency questionnaire in 1991, and reported at least one singleton pregnancy between 1992 and 1998 in the Nurses' Health Study II. Two major dietary patterns (i.e. 'prudent' and 'Western') were identified through factor analysis. The prudent pattern was characterised by a high intake of fruit, green leafy vegetables, poultry and fish, whereas the Western pattern was characterised by high intake of red meat, processed meat, refined grain products, sweets, French fries and pizza. RESULTS: We documented 758 incident cases of GDM. After adjustment for age, parity, pre-pregnancy BMI and other covariates, the relative risk (RR) of GDM, comparing the highest with the lowest quintile of the Western pattern scores, was 1.63 (95% CI 1.20-2.21; p (trend)=0.001), whereas the RR comparing the lowest with the highest quintile of the prudent pattern scores was 1.39 (95% CI 1.08-1.80; p (trend)=0.018). The RR for each increment of one serving/day was 1.61 (95% CI 1.25-2.07) for red meat and 1.64 (95% CI 1.13-2.38) for processed meat. CONCLUSIONS/INTERPRETATION: These findings suggest that pre-pregnancy dietary patterns may affect women's risk of developing GDM. A diet high in red and processed meat was associated with a significantly elevated risk.",
+  "modified": false,
+  "original_char_count": 1707,
+  "sanitized_char_count": 1707,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1619,
+      "boundary_end": 1707,
+      "context": "validated semi-quantitative food frequency questionnaire in 1991, and reported at least one singleton pregnancy between 1992 and 1998 in the Nurses' Health Study II. Two major dietary patterns (i.e. 'prudent' and 'Western') were identified through factor analysis. The prudent pattern was characterised by a high intake of fruit, green leafy vegetables, poultry and fish, whereas the Western pattern was characterised by high intake of red meat, processed meat, refined grain products, sweets, French fries and pizza. RESULTS: We documented 758 incident cases of GDM. After adjustment for age, parity, pre-pregnancy BMI and other covariates, the relative risk (RR) of GDM, comparing the highest with the lowest quintile of the Western pattern scores, was 1.63 (95% CI 1.20-2.21; p (trend)=0.001), whereas the RR comparing the lowest with the highest quintile of the prudent pattern scores was 1.39 (95% CI 1.08-1.80; p (trend)=0.018). The RR for each increment of one serving/day was 1.61 (95% CI 1.25-2.07) for red meat and 1.64 (95% CI 1.13-2.38) for processed meat. CONCLUSIONS/INTERPRETATION: These findings suggest that pre-pregnancy dietary patterns may affect women's risk of developing GDM.",
+      "target": "A diet high in red and processed meat was associated with a significantly elevated risk.",
+      "loss_target": 2.7303614616394043,
+      "loss_target_given_context": 1.281243085861206,
+      "delta_loss": 1.4491183757781982,
+      "gain_ratio": 0.53074231970301,
+      "score": -0.53074231970301,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

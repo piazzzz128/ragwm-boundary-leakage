@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5195",
+  "source_doc_id": "MED-5195",
+  "title": "Meat consumption and risk of breast cancer in the UK Women's Cohort Study",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Meat consumption and risk of breast cancer in the UK Women's Cohort Study\nWe performed a survival analysis to assess the effect of meat consumption and meat type on the risk of breast cancer in the UK Women's Cohort Study. Between 1995 and 1998 a cohort of 35 372 women was recruited, aged between 35 and 69 years with a wide range of dietary intakes, assessed by a 217-item food frequency questionnaire. Hazard ratios (HRs) were estimated using Cox regression adjusted for known confounders. High consumption of total meat compared with none was associated with premenopausal breast cancer, HR=1.20 (95% CI: 0.86–1.68), and high non-processed meat intake compared with none, HR=1.20 (95% CI: 0.86–1.68). Larger effect sizes were found in postmenopausal women for all meat types, with significant associations with total, processed and red meat consumption. Processed meat showed the strongest HR=1.64 (95% CI: 1.14–2.37) for high consumption compared with none. Women, both pre- and postmenopausal, who consumed the most meat had the highest risk of breast cancer.",
+  "sanitized_text": "Meat consumption and risk of breast cancer in the UK Women's Cohort Study\nWe performed a survival analysis to assess the effect of meat consumption and meat type on the risk of breast cancer in the UK Women's Cohort Study. Between 1995 and 1998 a cohort of 35 372 women was recruited, aged between 35 and 69 years with a wide range of dietary intakes, assessed by a 217-item food frequency questionnaire. Hazard ratios (HRs) were estimated using Cox regression adjusted for known confounders. High consumption of total meat compared with none was associated with premenopausal breast cancer, HR=1.20 (95% CI: 0.86–1.68), and high non-processed meat intake compared with none, HR=1.20 (95% CI: 0.86–1.68). Larger effect sizes were found in postmenopausal women for all meat types, with significant associations with total, processed and red meat consumption. Processed meat showed the strongest HR=1.64 (95% CI: 1.14–2.37) for high consumption compared with none. Women, both pre- and postmenopausal, who consumed the most meat had the highest risk of breast cancer.",
+  "modified": false,
+  "original_char_count": 1065,
+  "sanitized_char_count": 1065,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 963,
+      "boundary_end": 1065,
+      "context": "Meat consumption and risk of breast cancer in the UK Women's Cohort Study We performed a survival analysis to assess the effect of meat consumption and meat type on the risk of breast cancer in the UK Women's Cohort Study. Between 1995 and 1998 a cohort of 35 372 women was recruited, aged between 35 and 69 years with a wide range of dietary intakes, assessed by a 217-item food frequency questionnaire. Hazard ratios (HRs) were estimated using Cox regression adjusted for known confounders. High consumption of total meat compared with none was associated with premenopausal breast cancer, HR=1.20 (95% CI: 0.86–1.68), and high non-processed meat intake compared with none, HR=1.20 (95% CI: 0.86–1.68). Larger effect sizes were found in postmenopausal women for all meat types, with significant associations with total, processed and red meat consumption. Processed meat showed the strongest HR=1.64 (95% CI: 1.14–2.37) for high consumption compared with none.",
+      "target": "Women, both pre- and postmenopausal, who consumed the most meat had the highest risk of breast cancer.",
+      "loss_target": 1.9057098627090454,
+      "loss_target_given_context": 0.9800113439559937,
+      "delta_loss": 0.9256985187530518,
+      "gain_ratio": 0.485749975306909,
+      "score": -0.485749975306909,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

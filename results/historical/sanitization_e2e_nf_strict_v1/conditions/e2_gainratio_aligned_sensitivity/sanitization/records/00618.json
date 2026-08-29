@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1741",
+  "source_doc_id": "MED-1741",
+  "title": "Differential Effects of Glyphosate and Roundup on Human Placental Cells and Aromatase",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Differential Effects of Glyphosate and Roundup on Human Placental Cells and Aromatase\nRoundup is a glyphosate-based herbicide used worldwide, including on most genetically modified plants that have been designed to tolerate it. Its residues may thus enter the food chain, and glyphosate is found as a contaminant in rivers. Some agricultural workers using glyphosate have pregnancy problems, but its mechanism of action in mammals is questioned. Here we show that glyphosate is toxic to human placental JEG3 cells within 18 hr with concentrations lower than those found with agricultural use, and this effect increases with concentration and time or in the presence of Roundup adjuvants. Surprisingly, Roundup is always more toxic than its active ingredient. We tested the effects of glyphosate and Roundup at lower nontoxic concentrations on aromatase, the enzyme responsible for estrogen synthesis. The glyphosate-based herbicide disrupts aromatase activity and mRNA levels and interacts with the active site of the purified enzyme, but the effects of glyphosate are facilitated by the Roundup formulation in microsomes or in cell culture. We conclude that endocrine and toxic effects of Roundup, not just glyphosate, can be observed in mammals. We suggest that the presence of Roundup adjuvants enhances glyphosate bioavailability and/or bioaccumulation.",
+  "sanitized_text": "Differential Effects of Glyphosate and Roundup on Human Placental Cells and Aromatase\nRoundup is a glyphosate-based herbicide used worldwide, including on most genetically modified plants that have been designed to tolerate it. Its residues may thus enter the food chain, and glyphosate is found as a contaminant in rivers. Some agricultural workers using glyphosate have pregnancy problems, but its mechanism of action in mammals is questioned. Here we show that glyphosate is toxic to human placental JEG3 cells within 18 hr with concentrations lower than those found with agricultural use, and this effect increases with concentration and time or in the presence of Roundup adjuvants. Surprisingly, Roundup is always more toxic than its active ingredient. We tested the effects of glyphosate and Roundup at lower nontoxic concentrations on aromatase, the enzyme responsible for estrogen synthesis. The glyphosate-based herbicide disrupts aromatase activity and mRNA levels and interacts with the active site of the purified enzyme, but the effects of glyphosate are facilitated by the Roundup formulation in microsomes or in cell culture. We conclude that endocrine and toxic effects of Roundup, not just glyphosate, can be observed in mammals. We suggest that the presence of Roundup adjuvants enhances glyphosate bioavailability and/or bioaccumulation.",
+  "modified": false,
+  "original_char_count": 1357,
+  "sanitized_char_count": 1357,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1248,
+      "boundary_end": 1357,
+      "context": "Human Placental Cells and Aromatase Roundup is a glyphosate-based herbicide used worldwide, including on most genetically modified plants that have been designed to tolerate it. Its residues may thus enter the food chain, and glyphosate is found as a contaminant in rivers. Some agricultural workers using glyphosate have pregnancy problems, but its mechanism of action in mammals is questioned. Here we show that glyphosate is toxic to human placental JEG3 cells within 18 hr with concentrations lower than those found with agricultural use, and this effect increases with concentration and time or in the presence of Roundup adjuvants. Surprisingly, Roundup is always more toxic than its active ingredient. We tested the effects of glyphosate and Roundup at lower nontoxic concentrations on aromatase, the enzyme responsible for estrogen synthesis. The glyphosate-based herbicide disrupts aromatase activity and mRNA levels and interacts with the active site of the purified enzyme, but the effects of glyphosate are facilitated by the Roundup formulation in microsomes or in cell culture. We conclude that endocrine and toxic effects of Roundup, not just glyphosate, can be observed in mammals.",
+      "target": "We suggest that the presence of Roundup adjuvants enhances glyphosate bioavailability and/or bioaccumulation.",
+      "loss_target": 2.729188919067383,
+      "loss_target_given_context": 1.5234917402267456,
+      "delta_loss": 1.2056971788406372,
+      "gain_ratio": 0.44177857033533885,
+      "score": -0.44177857033533885,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

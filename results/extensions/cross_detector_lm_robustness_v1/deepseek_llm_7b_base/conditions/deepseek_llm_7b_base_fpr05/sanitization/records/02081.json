@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3776",
+  "source_doc_id": "MED-3776",
+  "title": "Does having a drink help you think? 6-7-Year-old children show improvements in cognitive performance from baseline to test after having a drink of ...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Does having a drink help you think? 6-7-Year-old children show improvements in cognitive performance from baseline to test after having a drink of ...\nLittle research has examined the effect of water consumption on cognition in children. We examined whether drinking water improves performance from baseline to test in twenty-three 6-7-year-old children. There were significant interactions between time of test and water group (water/no water), with improvements in the water group on thirst and happiness ratings, visual attention and visual search, but not visual memory or visuomotor performance. These results indicate that even under conditions of mild dehydration, not as a result of exercise, intentional water deprivation or heat exposure, children's cognitive performance can be improved by having a drink of water.",
+  "sanitized_text": "Does having a drink help you think? 6-7-Year-old children show improvements in cognitive performance from baseline to test after having a drink of ...\nLittle research has examined the effect of water consumption on cognition in children. We examined whether drinking water improves performance from baseline to test in twenty-three 6-7-year-old children. There were significant interactions between time of test and water group (water/no water), with improvements in the water group on thirst and happiness ratings, visual attention and visual search, but not visual memory or visuomotor performance. These results indicate that even under conditions of mild dehydration, not as a result of exercise, intentional water deprivation or heat exposure, children's cognitive performance can be improved by having a drink of water.",
+  "modified": false,
+  "original_char_count": 825,
+  "sanitized_char_count": 825,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 601,
+      "boundary_end": 825,
+      "context": "Does having a drink help you think? 6-7-Year-old children show improvements in cognitive performance from baseline to test after having a drink of ... Little research has examined the effect of water consumption on cognition in children. We examined whether drinking water improves performance from baseline to test in twenty-three 6-7-year-old children. There were significant interactions between time of test and water group (water/no water), with improvements in the water group on thirst and happiness ratings, visual attention and visual search, but not visual memory or visuomotor performance.",
+      "target": "These results indicate that even under conditions of mild dehydration, not as a result of exercise, intentional water deprivation or heat exposure, children's cognitive performance can be improved by having a drink of water.",
+      "loss_target": 2.67098331451416,
+      "loss_target_given_context": 1.9648399353027344,
+      "delta_loss": 0.7061433792114258,
+      "gain_ratio": 0.2643758107264216,
+      "score": -0.2643758107264216,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

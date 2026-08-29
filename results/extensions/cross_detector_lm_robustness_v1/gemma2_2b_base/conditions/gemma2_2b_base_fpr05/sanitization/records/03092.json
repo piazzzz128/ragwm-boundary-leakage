@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5028",
+  "source_doc_id": "MED-5028",
+  "title": "Food groups and renal cell carcinoma: results from a case-control study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Food groups and renal cell carcinoma: results from a case-control study.\nBACKGROUND: The role of diet in renal cell carcinoma risk has been inconclusive. This study uses an integrative approach to assess the role of food groups and food items in renal cell carcinoma risk. DESIGN: A case-control study was conducted from 2003-2006. SUBJECTS/SETTING: Incident cases (n=335) were identified from hospital records and the Florida cancer registry, and population controls (n=337) frequency matched by age (+/-5 years), sex, and race were identified through random-digit dialing. Eating habits were assessed through the use of the 70-item Block food frequency questionnaire. STATISTICAL ANALYSES: Odds ratios (ORs), 95% confidence intervals (CIs), and tests for trends were calculated using logistic regression, controlled for age, sex, race, income, body mass index, and pack-years of smoking. RESULTS: Decreased renal cell carcinoma risk was observed among the total sample and for men for vegetable consumption (all subjects: OR 0.56, 95% CI 0.35, 0.88; men: OR 0.49, 95% CI 0.25, 0.96) but not for fruit consumption. Tomato consumption decreased renal cell carcinoma risk for the total population and for men (all subjects: OR 0.50, 95% CI 0.31, 0.81; men: OR 0.47, 95% CI 0.24, 0.95). Increased risk of renal cell carcinoma was observed among all subjects and among women with increased consumption of red meat (all subjects: OR 4.43, 95% CI 2.02, 9.75; women: OR 3.04, 95% CI 1.60, 5.79). White bread consumption increased renal cell carcinoma risk among women only (OR 3.05, 95% CI 1.50, 6.20), as did total dairy consumption (OR 2.36, 95% CI 1.21, 4.60). CONCLUSIONS: The protective role of vegetables and the increased risk of renal cell carcinoma with meat consumption are supported. The protective role of fruits is not. Novel findings include the increased risk of renal cell carcinoma with white bread and white potato consumption and the decreased risk of renal cell carcinoma with tomato consumption.",
+  "sanitized_text": "Food groups and renal cell carcinoma: results from a case-control study.\nBACKGROUND: The role of diet in renal cell carcinoma risk has been inconclusive. This study uses an integrative approach to assess the role of food groups and food items in renal cell carcinoma risk. DESIGN: A case-control study was conducted from 2003-2006. SUBJECTS/SETTING: Incident cases (n=335) were identified from hospital records and the Florida cancer registry, and population controls (n=337) frequency matched by age (+/-5 years), sex, and race were identified through random-digit dialing. Eating habits were assessed through the use of the 70-item Block food frequency questionnaire. STATISTICAL ANALYSES: Odds ratios (ORs), 95% confidence intervals (CIs), and tests for trends were calculated using logistic regression, controlled for age, sex, race, income, body mass index, and pack-years of smoking. RESULTS: Decreased renal cell carcinoma risk was observed among the total sample and for men for vegetable consumption (all subjects: OR 0.56, 95% CI 0.35, 0.88; men: OR 0.49, 95% CI 0.25, 0.96) but not for fruit consumption. Tomato consumption decreased renal cell carcinoma risk for the total population and for men (all subjects: OR 0.50, 95% CI 0.31, 0.81; men: OR 0.47, 95% CI 0.24, 0.95). Increased risk of renal cell carcinoma was observed among all subjects and among women with increased consumption of red meat (all subjects: OR 4.43, 95% CI 2.02, 9.75; women: OR 3.04, 95% CI 1.60, 5.79). White bread consumption increased renal cell carcinoma risk among women only (OR 3.05, 95% CI 1.50, 6.20), as did total dairy consumption (OR 2.36, 95% CI 1.21, 4.60). CONCLUSIONS: The protective role of vegetables and the increased risk of renal cell carcinoma with meat consumption are supported. The protective role of fruits is not. Novel findings include the increased risk of renal cell carcinoma with white bread and white potato consumption and the decreased risk of renal cell carcinoma with tomato consumption.",
+  "modified": false,
+  "original_char_count": 2010,
+  "sanitized_char_count": 2010,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1827,
+      "boundary_end": 2010,
+      "context": "Block food frequency questionnaire. STATISTICAL ANALYSES: Odds ratios (ORs), 95% confidence intervals (CIs), and tests for trends were calculated using logistic regression, controlled for age, sex, race, income, body mass index, and pack-years of smoking. RESULTS: Decreased renal cell carcinoma risk was observed among the total sample and for men for vegetable consumption (all subjects: OR 0.56, 95% CI 0.35, 0.88; men: OR 0.49, 95% CI 0.25, 0.96) but not for fruit consumption. Tomato consumption decreased renal cell carcinoma risk for the total population and for men (all subjects: OR 0.50, 95% CI 0.31, 0.81; men: OR 0.47, 95% CI 0.24, 0.95). Increased risk of renal cell carcinoma was observed among all subjects and among women with increased consumption of red meat (all subjects: OR 4.43, 95% CI 2.02, 9.75; women: OR 3.04, 95% CI 1.60, 5.79). White bread consumption increased renal cell carcinoma risk among women only (OR 3.05, 95% CI 1.50, 6.20), as did total dairy consumption (OR 2.36, 95% CI 1.21, 4.60). CONCLUSIONS: The protective role of vegetables and the increased risk of renal cell carcinoma with meat consumption are supported. The protective role of fruits is not.",
+      "target": "Novel findings include the increased risk of renal cell carcinoma with white bread and white potato consumption and the decreased risk of renal cell carcinoma with tomato consumption.",
+      "loss_target": 7.85372257232666,
+      "loss_target_given_context": 2.058295488357544,
+      "delta_loss": 5.795427083969116,
+      "gain_ratio": 0.7379210343372524,
+      "score": -0.7379210343372524,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5183",
+  "source_doc_id": "MED-5183",
+  "title": "Diet and Risk of Ovarian Cancer in the California Teachers Study Cohort",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet and Risk of Ovarian Cancer in the California Teachers Study Cohort\nDietary phytochemical compounds, including isoflavones and isothiocyanates, may inhibit cancer development but have not yet been examined in prospective epidemiologic studies of ovarian cancer. The authors have investigated the association between consumption of these and other nutrients and ovarian cancer risk in a prospective cohort study. Among 97,275 eligible women in the California Teachers Study cohort who completed the baseline dietary assessment in 1995–1996, 280 women developed invasive or borderline ovarian cancer by December 31, 2003. Multivariable Cox proportional hazards regression, with age as the timescale, was used to estimate relative risks and 95% confidence intervals; all statistical tests were two sided. Intake of isoflavones was associated with lower risk of ovarian cancer. Compared with the risk for women who consumed less than 1 mg of total isoflavones per day, the relative risk of ovarian cancer associated with consumption of more than 3 mg/day was 0.56 (95% confidence interval: 0.33, 0.96). Intake of isothiocyanates or foods high in isothiocyanates was not associated with ovarian cancer risk, nor was intake of macronutrients, antioxidant vitamins, or other micronutrients. Although dietary consumption of isoflavones may be associated with decreased ovarian cancer risk, most dietary factors are unlikely to play a major role in ovarian cancer development.",
+  "sanitized_text": "Diet and Risk of Ovarian Cancer in the California Teachers Study Cohort\nDietary phytochemical compounds, including isoflavones and isothiocyanates, may inhibit cancer development but have not yet been examined in prospective epidemiologic studies of ovarian cancer. The authors have investigated the association between consumption of these and other nutrients and ovarian cancer risk in a prospective cohort study. Among 97,275 eligible women in the California Teachers Study cohort who completed the baseline dietary assessment in 1995–1996, 280 women developed invasive or borderline ovarian cancer by December 31, 2003. Multivariable Cox proportional hazards regression, with age as the timescale, was used to estimate relative risks and 95% confidence intervals; all statistical tests were two sided. Intake of isoflavones was associated with lower risk of ovarian cancer. Compared with the risk for women who consumed less than 1 mg of total isoflavones per day, the relative risk of ovarian cancer associated with consumption of more than 3 mg/day was 0.56 (95% confidence interval: 0.33, 0.96). Intake of isothiocyanates or foods high in isothiocyanates was not associated with ovarian cancer risk, nor was intake of macronutrients, antioxidant vitamins, or other micronutrients. Although dietary consumption of isoflavones may be associated with decreased ovarian cancer risk, most dietary factors are unlikely to play a major role in ovarian cancer development.",
+  "modified": false,
+  "original_char_count": 1471,
+  "sanitized_char_count": 1471,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1288,
+      "boundary_end": 1471,
+      "context": "compounds, including isoflavones and isothiocyanates, may inhibit cancer development but have not yet been examined in prospective epidemiologic studies of ovarian cancer. The authors have investigated the association between consumption of these and other nutrients and ovarian cancer risk in a prospective cohort study. Among 97,275 eligible women in the California Teachers Study cohort who completed the baseline dietary assessment in 1995–1996, 280 women developed invasive or borderline ovarian cancer by December 31, 2003. Multivariable Cox proportional hazards regression, with age as the timescale, was used to estimate relative risks and 95% confidence intervals; all statistical tests were two sided. Intake of isoflavones was associated with lower risk of ovarian cancer. Compared with the risk for women who consumed less than 1 mg of total isoflavones per day, the relative risk of ovarian cancer associated with consumption of more than 3 mg/day was 0.56 (95% confidence interval: 0.33, 0.96). Intake of isothiocyanates or foods high in isothiocyanates was not associated with ovarian cancer risk, nor was intake of macronutrients, antioxidant vitamins, or other micronutrients.",
+      "target": "Although dietary consumption of isoflavones may be associated with decreased ovarian cancer risk, most dietary factors are unlikely to play a major role in ovarian cancer development.",
+      "loss_target": 2.0770010948181152,
+      "loss_target_given_context": 1.2160581350326538,
+      "delta_loss": 0.8609429597854614,
+      "gain_ratio": 0.4145125209290537,
+      "score": -0.4145125209290537,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

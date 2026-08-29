@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1194",
+  "source_doc_id": "MED-1194",
+  "title": "Can noncommunicable diseases be prevented? Lessons from studies of populations and individuals.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Can noncommunicable diseases be prevented? Lessons from studies of populations and individuals.\nNoncommunicable diseases (NCDs)--mainly cancers, cardiovascular diseases, diabetes, and chronic respiratory diseases--are responsible for about two-thirds of deaths worldwide, mostly in low- and middle-income countries. There is an urgent need for policies and strategies that prevent NCDs by reducing their major risk factors. Effective approaches for large-scale NCD prevention include comprehensive tobacco and alcohol control through taxes and regulation of sales and advertising; reducing dietary salt, unhealthy fats, and sugars through regulation and well-designed public education; increasing the consumption of fresh fruits and vegetables, healthy fats, and whole grains by lowering prices and improving availability; and implementing a universal, effective, and equitable primary-care system that reduces NCD risk factors, including cardiometabolic risk factors and infections that are precursors to NCDs, through clinical interventions.",
+  "sanitized_text": "Can noncommunicable diseases be prevented? Lessons from studies of populations and individuals.\nNoncommunicable diseases (NCDs)--mainly cancers, cardiovascular diseases, diabetes, and chronic respiratory diseases--are responsible for about two-thirds of deaths worldwide, mostly in low- and middle-income countries. There is an urgent need for policies and strategies that prevent NCDs by reducing their major risk factors.",
+  "modified": true,
+  "original_char_count": 1043,
+  "sanitized_char_count": 423,
+  "deleted_char_count": 620,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 424,
+      "boundary_end": 1043,
+      "context": "Can noncommunicable diseases be prevented? Lessons from studies of populations and individuals. Noncommunicable diseases (NCDs)--mainly cancers, cardiovascular diseases, diabetes, and chronic respiratory diseases--are responsible for about two-thirds of deaths worldwide, mostly in low- and middle-income countries. There is an urgent need for policies and strategies that prevent NCDs by reducing their major risk factors.",
+      "target": "Effective approaches for large-scale NCD prevention include comprehensive tobacco and alcohol control through taxes and regulation of sales and advertising; reducing dietary salt, unhealthy fats, and sugars through regulation and well-designed public education; increasing the consumption of fresh fruits and vegetables, healthy fats, and whole grains by lowering prices and improving availability; and implementing a universal, effective, and equitable primary-care system that reduces NCD risk factors, including cardiometabolic risk factors and infections that are precursors to NCDs, through clinical interventions.",
+      "loss_target": 2.37650465965271,
+      "loss_target_given_context": 2.169511556625366,
+      "delta_loss": 0.20699310302734375,
+      "gain_ratio": 0.08709980945612479,
+      "score": -0.08709980945612479,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 316,
+      "boundary_end": 423,
+      "context": "Can noncommunicable diseases be prevented? Lessons from studies of populations and individuals. Noncommunicable diseases (NCDs)--mainly cancers, cardiovascular diseases, diabetes, and chronic respiratory diseases--are responsible for about two-thirds of deaths worldwide, mostly in low- and middle-income countries.",
+      "target": "There is an urgent need for policies and strategies that prevent NCDs by reducing their major risk factors.",
+      "loss_target": 2.3926146030426025,
+      "loss_target_given_context": 1.4545094966888428,
+      "delta_loss": 0.9381051063537598,
+      "gain_ratio": 0.3920836666134216,
+      "score": -0.3920836666134216,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 424,
+      "target": "Effective approaches for large-scale NCD prevention include comprehensive tobacco and alcohol control through taxes and regulation of sales and advertising; reducing dietary salt, unhealthy fats, and sugars through regulation and well-designed public education; increasing the consumption of fresh fruits and vegetables, healthy fats, and whole grains by lowering prices and improving availability; and implementing a universal, effective, and equitable primary-care system that reduces NCD risk factors, including cardiometabolic risk factors and infections that are precursors to NCDs, through clinical interventions.",
+      "score": -0.08709980945612479,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Effective approaches for large-scale NCD prevention include comprehensive tobacco and alcohol control through taxes and regulation of sales and advertising; reducing dietary salt, unhealthy fats, and sugars through regulation and well-designed public education; increasing the consumption of fresh fruits and vegetables, healthy fats, and whole grains by lowering prices and improving availability; and implementing a universal, effective, and equitable primary-care system that reduces NCD risk factors, including cardiometabolic risk factors and infections that are precursors to NCDs, through clinical interventions.",
+      "deleted_char_count": 619
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

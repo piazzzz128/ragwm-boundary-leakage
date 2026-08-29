@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3542",
+  "source_doc_id": "MED-3542",
+  "title": "Monoamine oxidase inhibitors and the cheese effect.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Monoamine oxidase inhibitors and the cheese effect.\nThe behavior of inhibitors of monoamine oxidase-A (MAO-A) is considered in terms of the possibility of having an effective antidepressant that does not give rise to hypertensive interactions with dietary tyramine. Studies with punch-biopsy samples of human intestine and rat intestinal samples show MAO-A to be the predominant form of the enzyme in both species. Transport studies with everted rat intestinal preparations indicate that tyramine is extensively metabolized during transport through the intestine. Selective inhibition of MAO-A by clorgyline results in a large increase in the amount of unchanged tyramine transported, whereas selective inhibition of MAO-B with L-deprenyl (selegiline) has no significant effect. The behavior of reversible MAO-A inhibitors can significantly reduce, but not entirely eliminate, these effects on the intestinal metabolism of tyramine, but only if the inhibition is competitive in nature.",
+  "sanitized_text": "Monoamine oxidase inhibitors and the cheese effect.\nThe behavior of inhibitors of monoamine oxidase-A (MAO-A) is considered in terms of the possibility of having an effective antidepressant that does not give rise to hypertensive interactions with dietary tyramine. Studies with punch-biopsy samples of human intestine and rat intestinal samples show MAO-A to be the predominant form of the enzyme in both species. Transport studies with everted rat intestinal preparations indicate that tyramine is extensively metabolized during transport through the intestine. Selective inhibition of MAO-A by clorgyline results in a large increase in the amount of unchanged tyramine transported, whereas selective inhibition of MAO-B with L-deprenyl (selegiline) has no significant effect. The behavior of reversible MAO-A inhibitors can significantly reduce, but not entirely eliminate, these effects on the intestinal metabolism of tyramine, but only if the inhibition is competitive in nature.",
+  "modified": false,
+  "original_char_count": 985,
+  "sanitized_char_count": 985,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 779,
+      "boundary_end": 985,
+      "context": "Monoamine oxidase inhibitors and the cheese effect. The behavior of inhibitors of monoamine oxidase-A (MAO-A) is considered in terms of the possibility of having an effective antidepressant that does not give rise to hypertensive interactions with dietary tyramine. Studies with punch-biopsy samples of human intestine and rat intestinal samples show MAO-A to be the predominant form of the enzyme in both species. Transport studies with everted rat intestinal preparations indicate that tyramine is extensively metabolized during transport through the intestine. Selective inhibition of MAO-A by clorgyline results in a large increase in the amount of unchanged tyramine transported, whereas selective inhibition of MAO-B with L-deprenyl (selegiline) has no significant effect.",
+      "target": "The behavior of reversible MAO-A inhibitors can significantly reduce, but not entirely eliminate, these effects on the intestinal metabolism of tyramine, but only if the inhibition is competitive in nature.",
+      "loss_target": 8.368570327758789,
+      "loss_target_given_context": 3.876744508743286,
+      "delta_loss": 4.491825819015503,
+      "gain_ratio": 0.5367494856458321,
+      "score": -0.5367494856458321,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

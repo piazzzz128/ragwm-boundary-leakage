@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3661",
+  "source_doc_id": "MED-3661",
+  "title": "An introduction to migraine: from ancient treatment to functional pharmacology and antimigraine therapy.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "An introduction to migraine: from ancient treatment to functional pharmacology and antimigraine therapy.\nMigraine treatment has evolved from the realms of the supernatural into the scientific arena, but it seems still controversial whether migraine is primarily a vascular or a neurological dysfunction. Irrespective of this controversy, the levels of serotonin (5-hydroxytryptamine; 5-HT), a vasoconstrictor and a central neurotransmitter, seem to decrease during migraine (with associated carotid vasodilatation) whereas an i.v. infusion of 5-HT can abort migraine. In fact, 5-HT as well as ergotamine, dihydroergotamine and other antimigraine agents invariably produce vasoconstriction in the external carotid circulation. The last decade has witnessed the advent of sumatriptan and second generation triptans (e.g. zolmitriptan, rizatriptan, naratriptan), which belong to a new class of drugs, now known as 5-HT1B/1D/1F receptor agonists. Compared to sumatriptan, the second-generation triptans have a higher oral bioavailability and longer plasma half-life. In line with the vascular and neurogenic theories of migraine, all triptans produce selective carotid vasoconstriction (via 5-HT1B receptors) and presynaptic inhibition of the trigeminovascular inflammatory responses implicated in migraine (via 5-HT1D/5-ht1F receptors). Moreover, selective agonists at 5-HT1D (PNU-142633) and 5-ht1F (LY344864) receptors inhibit the trigeminovascular system without producing vasoconstriction. Nevertheless, PNU-142633 proved to be ineffective in the acute treatment of migraine, whilst LY344864 did show some efficacy when used in doses which interact with 5-HT1B receptors. Finally, although the triptans are effective antimigraine agents producing selective cranial vasoconstriction, efforts are being made to develop other effective antimigraine alternatives acting via the direct blockade of vasodilator mechanisms (e.g. antagonists at CGRP receptors, antagonists at 5-HT7 receptors, inhibitors of nitric oxide biosynthesis, etc). These alternatives will hopefully lead to fewer side-effects.",
+  "sanitized_text": "An introduction to migraine: from ancient treatment to functional pharmacology and antimigraine therapy.\nMigraine treatment has evolved from the realms of the supernatural into the scientific arena, but it seems still controversial whether migraine is primarily a vascular or a neurological dysfunction. Irrespective of this controversy, the levels of serotonin (5-hydroxytryptamine; 5-HT), a vasoconstrictor and a central neurotransmitter, seem to decrease during migraine (with associated carotid vasodilatation) whereas an i.v. infusion of 5-HT can abort migraine. In fact, 5-HT as well as ergotamine, dihydroergotamine and other antimigraine agents invariably produce vasoconstriction in the external carotid circulation. The last decade has witnessed the advent of sumatriptan and second generation triptans (e.g. zolmitriptan, rizatriptan, naratriptan), which belong to a new class of drugs, now known as 5-HT1B/1D/1F receptor agonists. Compared to sumatriptan, the second-generation triptans have a higher oral bioavailability and longer plasma half-life. In line with the vascular and neurogenic theories of migraine, all triptans produce selective carotid vasoconstriction (via 5-HT1B receptors) and presynaptic inhibition of the trigeminovascular inflammatory responses implicated in migraine (via 5-HT1D/5-ht1F receptors). Moreover, selective agonists at 5-HT1D (PNU-142633) and 5-ht1F (LY344864) receptors inhibit the trigeminovascular system without producing vasoconstriction. Nevertheless, PNU-142633 proved to be ineffective in the acute treatment of migraine, whilst LY344864 did show some efficacy when used in doses which interact with 5-HT1B receptors. Finally, although the triptans are effective antimigraine agents producing selective cranial vasoconstriction, efforts are being made to develop other effective antimigraine alternatives acting via the direct blockade of vasodilator mechanisms (e.g. antagonists at CGRP receptors, antagonists at 5-HT7 receptors, inhibitors of nitric oxide biosynthesis, etc). These alternatives will hopefully lead to fewer side-effects.",
+  "modified": false,
+  "original_char_count": 2094,
+  "sanitized_char_count": 2094,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 2033,
+      "boundary_end": 2094,
+      "context": "rizatriptan, naratriptan), which belong to a new class of drugs, now known as 5-HT1B/1D/1F receptor agonists. Compared to sumatriptan, the second-generation triptans have a higher oral bioavailability and longer plasma half-life. In line with the vascular and neurogenic theories of migraine, all triptans produce selective carotid vasoconstriction (via 5-HT1B receptors) and presynaptic inhibition of the trigeminovascular inflammatory responses implicated in migraine (via 5-HT1D/5-ht1F receptors). Moreover, selective agonists at 5-HT1D (PNU-142633) and 5-ht1F (LY344864) receptors inhibit the trigeminovascular system without producing vasoconstriction. Nevertheless, PNU-142633 proved to be ineffective in the acute treatment of migraine, whilst LY344864 did show some efficacy when used in doses which interact with 5-HT1B receptors. Finally, although the triptans are effective antimigraine agents producing selective cranial vasoconstriction, efforts are being made to develop other effective antimigraine alternatives acting via the direct blockade of vasodilator mechanisms (e.g. antagonists at CGRP receptors, antagonists at 5-HT7 receptors, inhibitors of nitric oxide biosynthesis, etc).",
+      "target": "These alternatives will hopefully lead to fewer side-effects.",
+      "loss_target": 4.0976128578186035,
+      "loss_target_given_context": 2.53482985496521,
+      "delta_loss": 1.5627830028533936,
+      "gain_ratio": 0.3813886418946258,
+      "score": -0.3813886418946258,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

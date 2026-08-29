@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2252",
+  "source_doc_id": "MED-2252",
+  "title": "Diet and nutrients are contributing factors that influence blood cadmium levels.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet and nutrients are contributing factors that influence blood cadmium levels.\nStudies suggested the intake of Cd from diet can be approximately equivalent to that from smoking. Moreover, a mutual metabolic influence between Cd and nutrients has been reported. The purpose of this study was to evaluate the relationship between blood cadmium concentration (BCdC) and food consumption, nutrients intake (Ca, Fe, Zn, vitamin C, and vitamin D), tobacco smoking, and some other variables (age, body mass index, and residence) in 243 adults living in the Italian island of Sardinia (Sassari Province). Specifically, we hypothesized that offal consumption contributes to Cd intakes and blood levels. The BCdC was quantified by graphite furnace atomic absorption spectrometry, and information on personal data was collected through questionnaires. Smoke significantly contributed to the BCdC (P < .001). Nonsmoker subjects who eat offal showed significantly higher BCdC (P = .04). Moreover, slightly higher BCdCs were also observed in nonsmoker subjects who eat rice, fish, and bread. The BCdC positively correlated with age of subjects (r = 0.144; P = .025) and offal daily intake in nonsmokers (r = 0.393; P < .001). The intake of Ca was negatively correlated (r = -0.281; P = .001) with the BCdC in females. The multiple linear regression analysis showed smoking > consumption of offal > body mass index ≈ age as the most important risk factors for the BCdC in the selected population. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Diet and nutrients are contributing factors that influence blood cadmium levels.\nStudies suggested the intake of Cd from diet can be approximately equivalent to that from smoking. Moreover, a mutual metabolic influence between Cd and nutrients has been reported. The purpose of this study was to evaluate the relationship between blood cadmium concentration (BCdC) and food consumption, nutrients intake (Ca, Fe, Zn, vitamin C, and vitamin D), tobacco smoking, and some other variables (age, body mass index, and residence) in 243 adults living in the Italian island of Sardinia (Sassari Province). Specifically, we hypothesized that offal consumption contributes to Cd intakes and blood levels. The BCdC was quantified by graphite furnace atomic absorption spectrometry, and information on personal data was collected through questionnaires. Smoke significantly contributed to the BCdC (P < .001). Nonsmoker subjects who eat offal showed significantly higher BCdC (P = .04). Moreover, slightly higher BCdCs were also observed in nonsmoker subjects who eat rice, fish, and bread. The BCdC positively correlated with age of subjects (r = 0.144; P = .025) and offal daily intake in nonsmokers (r = 0.393; P < .001). The intake of Ca was negatively correlated (r = -0.281; P = .001) with the BCdC in females. The multiple linear regression analysis showed smoking > consumption of offal > body mass index ≈ age as the most important risk factors for the BCdC in the selected population. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1535,
+  "sanitized_char_count": 1535,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1484,
+      "boundary_end": 1514,
+      "context": "was to evaluate the relationship between blood cadmium concentration (BCdC) and food consumption, nutrients intake (Ca, Fe, Zn, vitamin C, and vitamin D), tobacco smoking, and some other variables (age, body mass index, and residence) in 243 adults living in the Italian island of Sardinia (Sassari Province). Specifically, we hypothesized that offal consumption contributes to Cd intakes and blood levels. The BCdC was quantified by graphite furnace atomic absorption spectrometry, and information on personal data was collected through questionnaires. Smoke significantly contributed to the BCdC (P < .001). Nonsmoker subjects who eat offal showed significantly higher BCdC (P = .04). Moreover, slightly higher BCdCs were also observed in nonsmoker subjects who eat rice, fish, and bread. The BCdC positively correlated with age of subjects (r = 0.144; P = .025) and offal daily intake in nonsmokers (r = 0.393; P < .001). The intake of Ca was negatively correlated (r = -0.281; P = .001) with the BCdC in females. The multiple linear regression analysis showed smoking > consumption of offal > body mass index ≈ age as the most important risk factors for the BCdC in the selected population.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.2384780645370483,
+      "loss_target_given_context": 0.6493754386901855,
+      "delta_loss": 0.5891026258468628,
+      "gain_ratio": 0.47566658039040316,
+      "score": -0.47566658039040316,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

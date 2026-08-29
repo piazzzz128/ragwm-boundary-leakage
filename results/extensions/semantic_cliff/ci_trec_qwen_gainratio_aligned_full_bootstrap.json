@@ -1,0 +1,58 @@
+{
+  "input": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_length_ablation_qwen2_5_7b_aligned_scores.json",
+  "filters": {
+    "dataset": "TREC-COVID",
+    "construction": null,
+    "model": null,
+    "context_budget": "full",
+    "attack": null,
+    "variant": null,
+    "score_field": "gain_anomaly_score"
+  },
+  "n": 458,
+  "positive": 229,
+  "negative": 229,
+  "score_orientation": "higher score = more likely injected/anomalous",
+  "bootstrap": {
+    "n_boot": 5000,
+    "seed": 20260609,
+    "sampling": "stratified bootstrap over positive and negative classes"
+  },
+  "metrics": {
+    "roc_auc": {
+      "point": 0.9778989721782574,
+      "ci95": [
+        0.9654278141149101,
+        0.988482294387979
+      ]
+    },
+    "pr_auc": {
+      "point": 0.9781491491310244,
+      "ci95": [
+        0.9635316367376839,
+        0.989564171253994
+      ]
+    },
+    "tpr_at_fpr_5": {
+      "point": 0.8995633187772926,
+      "ci95": [
+        0.8558951965065502,
+        0.9519650655021834
+      ]
+    },
+    "tpr_at_fpr_10": {
+      "point": 0.9432314410480349,
+      "ci95": [
+        0.9039301310043668,
+        0.9737991266375546
+      ]
+    },
+    "best_f1": {
+      "point": 0.9318181818181818,
+      "ci95": [
+        0.9135254988913525,
+        0.9574944071588367
+      ]
+    }
+  }
+}

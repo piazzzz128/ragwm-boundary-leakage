@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5354",
+  "source_doc_id": "MED-5354",
+  "title": "Lignans and human health.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Lignans and human health.\nThis review focuses on the possible role in human health of the consumption of lignan-rich foods. Most of the plant lignans in human foods are converted by the intestinal microflora in the upper part of the large bowel to enterolactone and enterodiol, called mammalian or enterolignans. The protective role of these compounds, particularly in chronic Western diseases, is discussed. Evidence suggests that fiber- and lignan-rich whole-grain cereals, beans, berries, nuts, and various seeds are the main protective foods. Many factors, in addition to diet, such as intestinal microflora, smoking, antibiotics, and obesity affect circulating lignan levels in the body. Lignan-rich diets may be beneficial, particularly if consumed for life. Experimental evidence in animals has shown clear anticarcinogenic effects of flaxseed or pure lignans in many types of cancer. Many epidemiological results are controversial, partly because the determinants of plasma enterolactone are very different in different countries. The source of the lignans seems to play a role because other factors in the food obviously participate in the protective effects. The results are promising, but much work is still needed in this area of medicine.",
+  "sanitized_text": "Lignans and human health.\nThis review focuses on the possible role in human health of the consumption of lignan-rich foods. Most of the plant lignans in human foods are converted by the intestinal microflora in the upper part of the large bowel to enterolactone and enterodiol, called mammalian or enterolignans. The protective role of these compounds, particularly in chronic Western diseases, is discussed. Evidence suggests that fiber- and lignan-rich whole-grain cereals, beans, berries, nuts, and various seeds are the main protective foods. Many factors, in addition to diet, such as intestinal microflora, smoking, antibiotics, and obesity affect circulating lignan levels in the body. Lignan-rich diets may be beneficial, particularly if consumed for life. Experimental evidence in animals has shown clear anticarcinogenic effects of flaxseed or pure lignans in many types of cancer. Many epidemiological results are controversial, partly because the determinants of plasma enterolactone are very different in different countries. The source of the lignans seems to play a role because other factors in the food obviously participate in the protective effects. The results are promising, but much work is still needed in this area of medicine.",
+  "modified": false,
+  "original_char_count": 1251,
+  "sanitized_char_count": 1251,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1169,
+      "boundary_end": 1251,
+      "context": "Lignans and human health. This review focuses on the possible role in human health of the consumption of lignan-rich foods. Most of the plant lignans in human foods are converted by the intestinal microflora in the upper part of the large bowel to enterolactone and enterodiol, called mammalian or enterolignans. The protective role of these compounds, particularly in chronic Western diseases, is discussed. Evidence suggests that fiber- and lignan-rich whole-grain cereals, beans, berries, nuts, and various seeds are the main protective foods. Many factors, in addition to diet, such as intestinal microflora, smoking, antibiotics, and obesity affect circulating lignan levels in the body. Lignan-rich diets may be beneficial, particularly if consumed for life. Experimental evidence in animals has shown clear anticarcinogenic effects of flaxseed or pure lignans in many types of cancer. Many epidemiological results are controversial, partly because the determinants of plasma enterolactone are very different in different countries. The source of the lignans seems to play a role because other factors in the food obviously participate in the protective effects.",
+      "target": "The results are promising, but much work is still needed in this area of medicine.",
+      "loss_target": 8.250064849853516,
+      "loss_target_given_context": 3.1461167335510254,
+      "delta_loss": 5.10394811630249,
+      "gain_ratio": 0.6186555147373313,
+      "score": -0.6186555147373313,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

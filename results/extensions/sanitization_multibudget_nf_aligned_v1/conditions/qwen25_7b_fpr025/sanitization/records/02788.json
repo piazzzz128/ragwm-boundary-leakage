@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4695",
+  "source_doc_id": "MED-4695",
+  "title": "Electric light causes cancer? Surely you're joking, Mr. Stevens.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Electric light causes cancer? Surely you're joking, Mr. Stevens.\nNight is no longer dark in the modern world, and the Milky Way has disappeared. Electric light has benefits but there are also a few detriments. These are (1) loss of the night sky, (2) wasted energy, (3) harm to animal and plant life, (4) and perhaps increases in some severe human maladies such as cancers of breast and prostate. The science on phototransduction for the circadian system and on clock gene function is evolving rapidly, and it provides a rationale for the idea that circadian disruption from light at night could cause disease. Direct evidence from humans and rodent models has also accumulated to the point where the idea is no longer fanciful. Although it may seem logical now, the journey on the path from electric light to breast cancer has been a tortuous one, at least for me.",
+  "sanitized_text": "Electric light causes cancer? Surely you're joking, Mr. Stevens.\nNight is no longer dark in the modern world, and the Milky Way has disappeared. Electric light has benefits but there are also a few detriments. These are (1) loss of the night sky, (2) wasted energy, (3) harm to animal and plant life, (4) and perhaps increases in some severe human maladies such as cancers of breast and prostate. The science on phototransduction for the circadian system and on clock gene function is evolving rapidly, and it provides a rationale for the idea that circadian disruption from light at night could cause disease. Direct evidence from humans and rodent models has also accumulated to the point where the idea is no longer fanciful. Although it may seem logical now, the journey on the path from electric light to breast cancer has been a tortuous one, at least for me.",
+  "modified": false,
+  "original_char_count": 865,
+  "sanitized_char_count": 865,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 729,
+      "boundary_end": 865,
+      "context": "Electric light causes cancer? Surely you're joking, Mr. Stevens. Night is no longer dark in the modern world, and the Milky Way has disappeared. Electric light has benefits but there are also a few detriments. These are (1) loss of the night sky, (2) wasted energy, (3) harm to animal and plant life, (4) and perhaps increases in some severe human maladies such as cancers of breast and prostate. The science on phototransduction for the circadian system and on clock gene function is evolving rapidly, and it provides a rationale for the idea that circadian disruption from light at night could cause disease. Direct evidence from humans and rodent models has also accumulated to the point where the idea is no longer fanciful.",
+      "target": "Although it may seem logical now, the journey on the path from electric light to breast cancer has been a tortuous one, at least for me.",
+      "loss_target": 3.281439781188965,
+      "loss_target_given_context": 2.527125358581543,
+      "delta_loss": 0.7543144226074219,
+      "gain_ratio": 0.2298730048107453,
+      "score": -0.2298730048107453,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

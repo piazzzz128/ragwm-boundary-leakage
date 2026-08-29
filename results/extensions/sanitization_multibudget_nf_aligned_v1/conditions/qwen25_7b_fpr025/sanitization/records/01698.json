@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-329",
+  "source_doc_id": "MED-329",
+  "title": "Phosphate is a vascular toxin.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Phosphate is a vascular toxin.\nElevated phosphate (P) levels are seen in advanced renal failure and, together with dysregulated calcium, parathyroid hormone and vitamin D levels, contribute to the complex of chronic kidney disease-mineral and bone disease (CKD-MBD). Converging evidence from in vitro, clinical and epidemiological studies suggest that increased P is associated with vascular calcification and mortality. When vessels are exposed to high P conditions in vitro, they develop apoptosis, convert to bone-like cells and develop extensive calcification. Clinical studies in children on dialysis show that high P is associated with increased vessel wall thickness, arterial stiffness and coronary calcification. Epidemiological studies in adult dialysis patients demonstrate a significant and independent association between raised P and mortality. Importantly, raised P is associated with cardiovascular changes even in pre-dialysis CKD, and also in subjects with normal renal function but high P. All P binders can effectively reduce serum P, and this decrease is linked to improved survival. Raised serum P triggers the release of fibroblast growth factor 23 (FGF-23), which has the beneficial effect of increasing P excretion in early CKD, but is increased several 1,000-fold in dialysis, and may be an independent cardiovascular risk factor. Both FGF-23 and its co-receptor Klotho may have direct effects on the vasculature leading to calcification. Fascinatingly, disturbances in FGF-23-Klotho and raised P have also been associated with premature aging. These data suggest that high P levels have adverse vascular effects and that maintaining the serum P levels in the normal range reduces cardiovascular risk and mortality.",
+  "sanitized_text": "Phosphate is a vascular toxin.\nElevated phosphate (P) levels are seen in advanced renal failure and, together with dysregulated calcium, parathyroid hormone and vitamin D levels, contribute to the complex of chronic kidney disease-mineral and bone disease (CKD-MBD). Converging evidence from in vitro, clinical and epidemiological studies suggest that increased P is associated with vascular calcification and mortality. When vessels are exposed to high P conditions in vitro, they develop apoptosis, convert to bone-like cells and develop extensive calcification. Clinical studies in children on dialysis show that high P is associated with increased vessel wall thickness, arterial stiffness and coronary calcification. Epidemiological studies in adult dialysis patients demonstrate a significant and independent association between raised P and mortality. Importantly, raised P is associated with cardiovascular changes even in pre-dialysis CKD, and also in subjects with normal renal function but high P. All P binders can effectively reduce serum P, and this decrease is linked to improved survival. Raised serum P triggers the release of fibroblast growth factor 23 (FGF-23), which has the beneficial effect of increasing P excretion in early CKD, but is increased several 1,000-fold in dialysis, and may be an independent cardiovascular risk factor. Both FGF-23 and its co-receptor Klotho may have direct effects on the vasculature leading to calcification. Fascinatingly, disturbances in FGF-23-Klotho and raised P have also been associated with premature aging. These data suggest that high P levels have adverse vascular effects and that maintaining the serum P levels in the normal range reduces cardiovascular risk and mortality.",
+  "modified": false,
+  "original_char_count": 1741,
+  "sanitized_char_count": 1741,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1571,
+      "boundary_end": 1741,
+      "context": "with vascular calcification and mortality. When vessels are exposed to high P conditions in vitro, they develop apoptosis, convert to bone-like cells and develop extensive calcification. Clinical studies in children on dialysis show that high P is associated with increased vessel wall thickness, arterial stiffness and coronary calcification. Epidemiological studies in adult dialysis patients demonstrate a significant and independent association between raised P and mortality. Importantly, raised P is associated with cardiovascular changes even in pre-dialysis CKD, and also in subjects with normal renal function but high P. All P binders can effectively reduce serum P, and this decrease is linked to improved survival. Raised serum P triggers the release of fibroblast growth factor 23 (FGF-23), which has the beneficial effect of increasing P excretion in early CKD, but is increased several 1,000-fold in dialysis, and may be an independent cardiovascular risk factor. Both FGF-23 and its co-receptor Klotho may have direct effects on the vasculature leading to calcification. Fascinatingly, disturbances in FGF-23-Klotho and raised P have also been associated with premature aging.",
+      "target": "These data suggest that high P levels have adverse vascular effects and that maintaining the serum P levels in the normal range reduces cardiovascular risk and mortality.",
+      "loss_target": 3.1086039543151855,
+      "loss_target_given_context": 1.8757227659225464,
+      "delta_loss": 1.2328811883926392,
+      "gain_ratio": 0.39660285018978514,
+      "score": -0.39660285018978514,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

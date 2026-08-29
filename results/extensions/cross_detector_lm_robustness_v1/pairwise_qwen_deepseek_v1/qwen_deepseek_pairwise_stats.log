@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/root/autodl-tmp/ragwm_storage/repo/ragwm_src/tools/RAGWM_pairwise_qwen_deepseek_v1_20260819/scripts/01_pairwise_qwen_deepseek.py", line 444, in <module>
+    main()
+  File "/root/autodl-tmp/ragwm_storage/repo/ragwm_src/tools/RAGWM_pairwise_qwen_deepseek_v1_20260819/scripts/01_pairwise_qwen_deepseek.py", line 393, in main
+    qwen_trec, deep_trec = pair_rows(
+                           ^^^^^^^^^^
+  File "/root/autodl-tmp/ragwm_storage/repo/ragwm_src/tools/RAGWM_pairwise_qwen_deepseek_v1_20260819/scripts/01_pairwise_qwen_deepseek.py", line 142, in pair_rows
+    raise RuntimeError(
+RuntimeError: trec-covid: Qwen row 0 lacks score_aligned

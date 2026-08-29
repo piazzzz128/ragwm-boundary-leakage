@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2770",
+  "source_doc_id": "MED-2770",
+  "title": "The experience of Japan as a clue to the etiology of breast and ovarian cancers: relationship between death from both malignancies and dietary prac...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The experience of Japan as a clue to the etiology of breast and ovarian cancers: relationship between death from both malignancies and dietary prac...\nAlthough breast and ovarian cancers are rare in Japan compared with other developed countries, the death rates for both are increasing. In Japan, dramatic lifestyle changes occurred after World War II. Over the past 50 years (1947-1997), the age-standardized death rates of breast and ovarian cancers increased about 2- and 4-fold, respectively, and the respective intake of milk, meat, and eggs increased 20-, 10-, and 7-fold. The increase in the annual death rates from breast and ovarian cancers might be due to the lifestyle changes (increased consumption of animal-derived food) that occurred after 1945. Among the food, milk and dairy products should receive particular attention since they contain considerable amounts of estrogens.",
+  "sanitized_text": "The experience of Japan as a clue to the etiology of breast and ovarian cancers: relationship between death from both malignancies and dietary prac...\nAlthough breast and ovarian cancers are rare in Japan compared with other developed countries, the death rates for both are increasing. In Japan, dramatic lifestyle changes occurred after World War II. Over the past 50 years (1947-1997), the age-standardized death rates of breast and ovarian cancers increased about 2- and 4-fold, respectively, and the respective intake of milk, meat, and eggs increased 20-, 10-, and 7-fold. The increase in the annual death rates from breast and ovarian cancers might be due to the lifestyle changes (increased consumption of animal-derived food) that occurred after 1945. Among the food, milk and dairy products should receive particular attention since they contain considerable amounts of estrogens.",
+  "modified": false,
+  "original_char_count": 890,
+  "sanitized_char_count": 890,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 761,
+      "boundary_end": 890,
+      "context": "The experience of Japan as a clue to the etiology of breast and ovarian cancers: relationship between death from both malignancies and dietary prac... Although breast and ovarian cancers are rare in Japan compared with other developed countries, the death rates for both are increasing. In Japan, dramatic lifestyle changes occurred after World War II. Over the past 50 years (1947-1997), the age-standardized death rates of breast and ovarian cancers increased about 2- and 4-fold, respectively, and the respective intake of milk, meat, and eggs increased 20-, 10-, and 7-fold. The increase in the annual death rates from breast and ovarian cancers might be due to the lifestyle changes (increased consumption of animal-derived food) that occurred after 1945.",
+      "target": "Among the food, milk and dairy products should receive particular attention since they contain considerable amounts of estrogens.",
+      "loss_target": 9.052125930786133,
+      "loss_target_given_context": 4.81986665725708,
+      "delta_loss": 4.232259273529053,
+      "gain_ratio": 0.46754312808830994,
+      "score": -0.46754312808830994,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

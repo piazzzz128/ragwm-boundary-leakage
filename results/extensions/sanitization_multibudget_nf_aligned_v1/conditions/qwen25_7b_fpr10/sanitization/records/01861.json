@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3524",
+  "source_doc_id": "MED-3524",
+  "title": "Diet promotes sleep duration and quality.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet promotes sleep duration and quality.\nSleep, much like eating, is an essential part of life. The mechanisms of sleep are only partially clear and are the subject of intense research. There is increasing evidence showing that sleep has an influence on dietary choices. Both cross-sectional and epidemiologic studies have demonstrated that those who sleep less are more likely to consume energy-rich foods (such as fats or refined carbohydrates), to consume fewer portions of vegetables, and to have more irregular meal patterns. In this narrative review, we pose the opposite question: can ingested food affect sleep? The purpose of this review is to discuss the evidence linking diet and sleep and to determine whether what we eat and what kind of nutrients we obtain from the food consumed before bedtime matter. In addition, scientific evidence behind traditional sleep-promoting foods such as milk and some herbal products is briefly described. These are reviewed using data from clinical trials, mostly in healthy subjects. In addition, we discuss the possible mechanisms behind these observations. Lastly, we summarize our findings that emerging evidence confirms a link between diet and sleep. Overall, foods impacting the availability of tryptophan, as well as the synthesis of serotonin and melatonin, may be the most helpful in promoting sleep. Although there are clear physiological connections behind these effects, the clinical relevance needs to be studied further. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Diet promotes sleep duration and quality.\nSleep, much like eating, is an essential part of life. The mechanisms of sleep are only partially clear and are the subject of intense research. There is increasing evidence showing that sleep has an influence on dietary choices. Both cross-sectional and epidemiologic studies have demonstrated that those who sleep less are more likely to consume energy-rich foods (such as fats or refined carbohydrates), to consume fewer portions of vegetables, and to have more irregular meal patterns. In this narrative review, we pose the opposite question: can ingested food affect sleep? The purpose of this review is to discuss the evidence linking diet and sleep and to determine whether what we eat and what kind of nutrients we obtain from the food consumed before bedtime matter. In addition, scientific evidence behind traditional sleep-promoting foods such as milk and some herbal products is briefly described. These are reviewed using data from clinical trials, mostly in healthy subjects. In addition, we discuss the possible mechanisms behind these observations. Lastly, we summarize our findings that emerging evidence confirms a link between diet and sleep. Overall, foods impacting the availability of tryptophan, as well as the synthesis of serotonin and melatonin, may be the most helpful in promoting sleep. Although there are clear physiological connections behind these effects, the clinical relevance needs to be studied further. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1534,
+  "sanitized_char_count": 1534,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1483,
+      "boundary_end": 1513,
+      "context": "and epidemiologic studies have demonstrated that those who sleep less are more likely to consume energy-rich foods (such as fats or refined carbohydrates), to consume fewer portions of vegetables, and to have more irregular meal patterns. In this narrative review, we pose the opposite question: can ingested food affect sleep? The purpose of this review is to discuss the evidence linking diet and sleep and to determine whether what we eat and what kind of nutrients we obtain from the food consumed before bedtime matter. In addition, scientific evidence behind traditional sleep-promoting foods such as milk and some herbal products is briefly described. These are reviewed using data from clinical trials, mostly in healthy subjects. In addition, we discuss the possible mechanisms behind these observations. Lastly, we summarize our findings that emerging evidence confirms a link between diet and sleep. Overall, foods impacting the availability of tryptophan, as well as the synthesis of serotonin and melatonin, may be the most helpful in promoting sleep. Although there are clear physiological connections behind these effects, the clinical relevance needs to be studied further.",
+      "target": "Copyright © 2012 Elsevier Inc.",
+      "loss_target": 1.084797978401184,
+      "loss_target_given_context": 0.4690302908420563,
+      "delta_loss": 0.6157676875591278,
+      "gain_ratio": 0.5676335131695851,
+      "score": -0.5676335131695851,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

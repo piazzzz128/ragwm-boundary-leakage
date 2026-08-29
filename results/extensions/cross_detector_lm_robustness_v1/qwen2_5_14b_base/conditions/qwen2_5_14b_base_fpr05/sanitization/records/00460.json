@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1559",
+  "source_doc_id": "MED-1559",
+  "title": "Adherence to the WCRF/AICR guidelines for cancer prevention is associated with lower mortality among older female cancer survivors",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Adherence to the WCRF/AICR guidelines for cancer prevention is associated with lower mortality among older female cancer survivors\nBackground The 2007 World Cancer Research Fund/American Institute for Cancer Research (WCRF/AICR) guidelines encourage cancer survivors to follow its cancer prevention recommendations. We evaluated whether adherence to the WCRF/AICR guidelines for cancer prevention was associated with lower mortality among older female cancer survivors. Methods From 2004–2009, 2,017 participants in the Iowa Women’s Health Study who had a confirmed cancer diagnosis (1986–2002) and completed the 2004 follow-up questionnaire were followed. Adherence scores for the WCRF/AICR guidelines for body weight, physical activity, and diet were computed assigning one, 0.5 or 0 points to each of eight recommendations depending on the degree of adherence. All-cause (n=461), cancer-specific (n=184), and cardiovascular disease (CVD)-specific mortality (n=145) were compared by the total adherence score and by adherence scores for each of the three components of the recommendations. Results Women with the highest (6–8) vs. lowest (0–4) adherence score had lower all-cause mortality (HR=0.67, 95%CI=0.50–0.94). Meeting the physical activity recommendation was associated with lower all-cause (ptrend<0.0001), cancer-specific (ptrend=0.04), and CVD-specific mortality (ptrend=0.03). Adherence to dietary recommendations was associated with lower all-cause mortality (ptrend<0.05), whereas adherence to the body weight recommendation was associated with higher all-cause mortality (ptrend=0.009). Conclusions Adherence to the WCRF/AICR guidelines was associated with lower all-cause mortality among older female cancer survivors. Adherence to the physical activity recommendation had the strongest association with lower all-cause and disease-specific mortality. Impact Older cancer survivors may decrease their risk of death by leading a healthy lifestyle after a cancer diagnosis.",
+  "sanitized_text": "Adherence to the WCRF/AICR guidelines for cancer prevention is associated with lower mortality among older female cancer survivors\nBackground The 2007 World Cancer Research Fund/American Institute for Cancer Research (WCRF/AICR) guidelines encourage cancer survivors to follow its cancer prevention recommendations. We evaluated whether adherence to the WCRF/AICR guidelines for cancer prevention was associated with lower mortality among older female cancer survivors. Methods From 2004–2009, 2,017 participants in the Iowa Women’s Health Study who had a confirmed cancer diagnosis (1986–2002) and completed the 2004 follow-up questionnaire were followed. Adherence scores for the WCRF/AICR guidelines for body weight, physical activity, and diet were computed assigning one, 0.5 or 0 points to each of eight recommendations depending on the degree of adherence. All-cause (n=461), cancer-specific (n=184), and cardiovascular disease (CVD)-specific mortality (n=145) were compared by the total adherence score and by adherence scores for each of the three components of the recommendations. Results Women with the highest (6–8) vs. lowest (0–4) adherence score had lower all-cause mortality (HR=0.67, 95%CI=0.50–0.94). Meeting the physical activity recommendation was associated with lower all-cause (ptrend<0.0001), cancer-specific (ptrend=0.04), and CVD-specific mortality (ptrend=0.03). Adherence to dietary recommendations was associated with lower all-cause mortality (ptrend<0.05), whereas adherence to the body weight recommendation was associated with higher all-cause mortality (ptrend=0.009). Conclusions Adherence to the WCRF/AICR guidelines was associated with lower all-cause mortality among older female cancer survivors. Adherence to the physical activity recommendation had the strongest association with lower all-cause and disease-specific mortality. Impact Older cancer survivors may decrease their risk of death by leading a healthy lifestyle after a cancer diagnosis.",
+  "modified": false,
+  "original_char_count": 1989,
+  "sanitized_char_count": 1989,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1870,
+      "boundary_end": 1989,
+      "context": "for the WCRF/AICR guidelines for body weight, physical activity, and diet were computed assigning one, 0.5 or 0 points to each of eight recommendations depending on the degree of adherence. All-cause (n=461), cancer-specific (n=184), and cardiovascular disease (CVD)-specific mortality (n=145) were compared by the total adherence score and by adherence scores for each of the three components of the recommendations. Results Women with the highest (6–8) vs. lowest (0–4) adherence score had lower all-cause mortality (HR=0.67, 95%CI=0.50–0.94). Meeting the physical activity recommendation was associated with lower all-cause (ptrend<0.0001), cancer-specific (ptrend=0.04), and CVD-specific mortality (ptrend=0.03). Adherence to dietary recommendations was associated with lower all-cause mortality (ptrend<0.05), whereas adherence to the body weight recommendation was associated with higher all-cause mortality (ptrend=0.009). Conclusions Adherence to the WCRF/AICR guidelines was associated with lower all-cause mortality among older female cancer survivors. Adherence to the physical activity recommendation had the strongest association with lower all-cause and disease-specific mortality.",
+      "target": "Impact Older cancer survivors may decrease their risk of death by leading a healthy lifestyle after a cancer diagnosis.",
+      "loss_target": 3.4716691970825195,
+      "loss_target_given_context": 1.7164509296417236,
+      "delta_loss": 1.755218267440796,
+      "gain_ratio": 0.5055833859158659,
+      "score": -0.5055833859158659,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

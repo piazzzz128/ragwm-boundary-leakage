@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2968",
+  "source_doc_id": "MED-2968",
+  "title": "Postprandial plasma lipid hydroperoxides: a possible link between diet and atherosclerosis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Postprandial plasma lipid hydroperoxides: a possible link between diet and atherosclerosis.\nThere is increasing evidence implicating a dietary source of plasma lipid peroxides that become elevated in the postprandial state. This phenomenon may be a contributing factor to the correlation found between postprandial hyperlipidemia and increased risk of cardiovascular disease. Using a newly developed method for measuring lipid hydroperoxides directly in plasma, a pilot study was performed which revealed that lipid hydroperoxides are indeed elevated following a fatty meal. Lipid hydroperoxides increased within 2-4 h after the meal and returned to basal levels, corresponding to the usual postprandial hyperlipidemia. A marked suppression of postprandial hydroperoxides was found when a meal was consumed with wine, suggesting that these hydroperoxides can be formed and then absorbed during the digestive process.",
+  "sanitized_text": "Postprandial plasma lipid hydroperoxides: a possible link between diet and atherosclerosis.\nThere is increasing evidence implicating a dietary source of plasma lipid peroxides that become elevated in the postprandial state. This phenomenon may be a contributing factor to the correlation found between postprandial hyperlipidemia and increased risk of cardiovascular disease. Using a newly developed method for measuring lipid hydroperoxides directly in plasma, a pilot study was performed which revealed that lipid hydroperoxides are indeed elevated following a fatty meal. Lipid hydroperoxides increased within 2-4 h after the meal and returned to basal levels, corresponding to the usual postprandial hyperlipidemia. A marked suppression of postprandial hydroperoxides was found when a meal was consumed with wine, suggesting that these hydroperoxides can be formed and then absorbed during the digestive process.",
+  "modified": false,
+  "original_char_count": 916,
+  "sanitized_char_count": 916,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 720,
+      "boundary_end": 916,
+      "context": "Postprandial plasma lipid hydroperoxides: a possible link between diet and atherosclerosis. There is increasing evidence implicating a dietary source of plasma lipid peroxides that become elevated in the postprandial state. This phenomenon may be a contributing factor to the correlation found between postprandial hyperlipidemia and increased risk of cardiovascular disease. Using a newly developed method for measuring lipid hydroperoxides directly in plasma, a pilot study was performed which revealed that lipid hydroperoxides are indeed elevated following a fatty meal. Lipid hydroperoxides increased within 2-4 h after the meal and returned to basal levels, corresponding to the usual postprandial hyperlipidemia.",
+      "target": "A marked suppression of postprandial hydroperoxides was found when a meal was consumed with wine, suggesting that these hydroperoxides can be formed and then absorbed during the digestive process.",
+      "loss_target": 2.828655242919922,
+      "loss_target_given_context": 2.103137731552124,
+      "delta_loss": 0.7255175113677979,
+      "gain_ratio": 0.2564884897810564,
+      "score": -0.2564884897810564,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

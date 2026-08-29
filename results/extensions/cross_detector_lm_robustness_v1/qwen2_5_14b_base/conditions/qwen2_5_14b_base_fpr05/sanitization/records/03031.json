@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4960",
+  "source_doc_id": "MED-4960",
+  "title": "A fishy cause of sudden near fatal hypotension.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A fishy cause of sudden near fatal hypotension.\nSeafood-borne illnesses are a common but under recognised source of morbidity. We report the case of an 80-year-old woman who presented to hospital after collapsing in a restaurant following lunch consisting of mackerel fish. A detailed food history and clinical exclusion helped diagnose the condition as scombroid poisoning. The patient made a complete recovery following antihistamine therapy.",
+  "sanitized_text": "A fishy cause of sudden near fatal hypotension.\nSeafood-borne illnesses are a common but under recognised source of morbidity. We report the case of an 80-year-old woman who presented to hospital after collapsing in a restaurant following lunch consisting of mackerel fish. A detailed food history and clinical exclusion helped diagnose the condition as scombroid poisoning. The patient made a complete recovery following antihistamine therapy.",
+  "modified": false,
+  "original_char_count": 444,
+  "sanitized_char_count": 444,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 375,
+      "boundary_end": 444,
+      "context": "A fishy cause of sudden near fatal hypotension. Seafood-borne illnesses are a common but under recognised source of morbidity. We report the case of an 80-year-old woman who presented to hospital after collapsing in a restaurant following lunch consisting of mackerel fish. A detailed food history and clinical exclusion helped diagnose the condition as scombroid poisoning.",
+      "target": "The patient made a complete recovery following antihistamine therapy.",
+      "loss_target": 3.8572137355804443,
+      "loss_target_given_context": 1.248515009880066,
+      "delta_loss": 2.6086987257003784,
+      "gain_ratio": 0.6763168713303915,
+      "score": -0.6763168713303915,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

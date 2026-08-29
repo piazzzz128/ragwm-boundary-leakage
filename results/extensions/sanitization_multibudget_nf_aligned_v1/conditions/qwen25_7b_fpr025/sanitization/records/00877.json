@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2071",
+  "source_doc_id": "MED-2071",
+  "title": "The potential to intensify sulforaphane formation in cooked broccoli (Brassica oleracea var. italica) using mustard seeds (Sinapis alba).",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The potential to intensify sulforaphane formation in cooked broccoli (Brassica oleracea var. italica) using mustard seeds (Sinapis alba).\nSulforaphane, a naturally occurring cancer chemopreventive, is the hydrolysis product of glucoraphanin, the main glucosinolate in broccoli. The hydrolysis requires myrosinase isoenzyme to be present in sufficient activity; however, processing leads to its denaturation and hence reduced hydrolysis. In this study, the effect of adding mustard seeds, which contain a more resilient isoform of myrosinase, to processed broccoli was investigated with a view to intensify the formation of sulforaphane. Thermal inactivation of myrosinase from both broccoli and mustard seeds was studied. Thermal degradation of broccoli glucoraphanin was investigated in addition to the effects of thermal processing on the formation of sulforaphane and sulforaphane nitrile. Limited thermal degradation of glucoraphanin (less than 12%) was observed when broccoli was placed in vacuum sealed bag (sous vide) and cooked in a water bath at 100°C for 8 and 12 min. Boiling broccoli in water prevented the formation of any significant levels of sulforaphane due to inactivated myrosinase. However, addition of powdered mustard seeds to the heat processed broccoli significantly increased the formation of sulforaphane. Crown Copyright © 2012. Published by Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "The potential to intensify sulforaphane formation in cooked broccoli (Brassica oleracea var. italica) using mustard seeds (Sinapis alba).\nSulforaphane, a naturally occurring cancer chemopreventive, is the hydrolysis product of glucoraphanin, the main glucosinolate in broccoli. The hydrolysis requires myrosinase isoenzyme to be present in sufficient activity; however, processing leads to its denaturation and hence reduced hydrolysis. In this study, the effect of adding mustard seeds, which contain a more resilient isoform of myrosinase, to processed broccoli was investigated with a view to intensify the formation of sulforaphane. Thermal inactivation of myrosinase from both broccoli and mustard seeds was studied. Thermal degradation of broccoli glucoraphanin was investigated in addition to the effects of thermal processing on the formation of sulforaphane and sulforaphane nitrile. Limited thermal degradation of glucoraphanin (less than 12%) was observed when broccoli was placed in vacuum sealed bag (sous vide) and cooked in a water bath at 100°C for 8 and 12 min. Boiling broccoli in water prevented the formation of any significant levels of sulforaphane due to inactivated myrosinase. However, addition of powdered mustard seeds to the heat processed broccoli significantly increased the formation of sulforaphane. Crown Copyright © 2012. Published by Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1403,
+  "sanitized_char_count": 1403,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1356,
+      "boundary_end": 1382,
+      "context": "occurring cancer chemopreventive, is the hydrolysis product of glucoraphanin, the main glucosinolate in broccoli. The hydrolysis requires myrosinase isoenzyme to be present in sufficient activity; however, processing leads to its denaturation and hence reduced hydrolysis. In this study, the effect of adding mustard seeds, which contain a more resilient isoform of myrosinase, to processed broccoli was investigated with a view to intensify the formation of sulforaphane. Thermal inactivation of myrosinase from both broccoli and mustard seeds was studied. Thermal degradation of broccoli glucoraphanin was investigated in addition to the effects of thermal processing on the formation of sulforaphane and sulforaphane nitrile. Limited thermal degradation of glucoraphanin (less than 12%) was observed when broccoli was placed in vacuum sealed bag (sous vide) and cooked in a water bath at 100°C for 8 and 12 min. Boiling broccoli in water prevented the formation of any significant levels of sulforaphane due to inactivated myrosinase. However, addition of powdered mustard seeds to the heat processed broccoli significantly increased the formation of sulforaphane. Crown Copyright © 2012.",
+      "target": "Published by Elsevier Ltd.",
+      "loss_target": 2.2897441387176514,
+      "loss_target_given_context": 0.04126930981874466,
+      "delta_loss": 2.2484748288989067,
+      "gain_ratio": 0.9819764535605026,
+      "score": -0.9819764535605026,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

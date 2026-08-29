@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1150",
+  "source_doc_id": "MED-1150",
+  "title": "Organically Grown Food Provides Health Benefits to Drosophila melanogaster",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Organically Grown Food Provides Health Benefits to Drosophila melanogaster\nThe “organic food” market is the fastest growing food sector, yet it is unclear whether organically raised food is nutritionally superior to conventionally grown food and whether consuming organic food bestows health benefits. In order to evaluate potential health benefits of organic foods, we used the well-characterized fruit fly Drosophila melanogaster as a model system. Fruit flies were raised on a diets consisting of extracts of either conventionally or organically raised produce (bananas, potatoes, raisins, soy beans). Flies were then subjected to a variety of tests designed to assess overall fly health. Flies raised on diets made from organically grown produce had greater fertility and longevity. On certain food sources, greater activity and greater stress resistance was additionally observed, suggesting that organic food bestows positive effects on fly health. Our data show that Drosophila can be used as a convenient model system to experimentally test potential health effects of dietary components. Using this system, we provide evidence that organically raised food may provide animals with tangible benefits to overall health.",
+  "sanitized_text": "Organically Grown Food Provides Health Benefits to Drosophila melanogaster\nThe “organic food” market is the fastest growing food sector, yet it is unclear whether organically raised food is nutritionally superior to conventionally grown food and whether consuming organic food bestows health benefits. In order to evaluate potential health benefits of organic foods, we used the well-characterized fruit fly Drosophila melanogaster as a model system. Fruit flies were raised on a diets consisting of extracts of either conventionally or organically raised produce (bananas, potatoes, raisins, soy beans). Flies were then subjected to a variety of tests designed to assess overall fly health. Flies raised on diets made from organically grown produce had greater fertility and longevity. On certain food sources, greater activity and greater stress resistance was additionally observed, suggesting that organic food bestows positive effects on fly health. Our data show that Drosophila can be used as a convenient model system to experimentally test potential health effects of dietary components. Using this system, we provide evidence that organically raised food may provide animals with tangible benefits to overall health.",
+  "modified": false,
+  "original_char_count": 1226,
+  "sanitized_char_count": 1226,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1097,
+      "boundary_end": 1226,
+      "context": "Organically Grown Food Provides Health Benefits to Drosophila melanogaster The “organic food” market is the fastest growing food sector, yet it is unclear whether organically raised food is nutritionally superior to conventionally grown food and whether consuming organic food bestows health benefits. In order to evaluate potential health benefits of organic foods, we used the well-characterized fruit fly Drosophila melanogaster as a model system. Fruit flies were raised on a diets consisting of extracts of either conventionally or organically raised produce (bananas, potatoes, raisins, soy beans). Flies were then subjected to a variety of tests designed to assess overall fly health. Flies raised on diets made from organically grown produce had greater fertility and longevity. On certain food sources, greater activity and greater stress resistance was additionally observed, suggesting that organic food bestows positive effects on fly health. Our data show that Drosophila can be used as a convenient model system to experimentally test potential health effects of dietary components.",
+      "target": "Using this system, we provide evidence that organically raised food may provide animals with tangible benefits to overall health.",
+      "loss_target": 4.21771764755249,
+      "loss_target_given_context": 2.108487606048584,
+      "delta_loss": 2.1092300415039062,
+      "gain_ratio": 0.5000880138877661,
+      "score": -0.5000880138877661,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

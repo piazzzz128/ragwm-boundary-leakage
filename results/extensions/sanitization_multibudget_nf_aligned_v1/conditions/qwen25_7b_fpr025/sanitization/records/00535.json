@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1646",
+  "source_doc_id": "MED-1646",
+  "title": "A new proposed guidance system for beverage consumption in the United States.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A new proposed guidance system for beverage consumption in the United States.\nThe Beverage Guidance Panel was assembled to provide guidance on the relative health and nutritional benefits and risks of various beverage categories. The beverage panel was initiated by the first author. The Panel's purpose is to attempt to systematically review the literature on beverages and health and provide guidance to the consumer. An additional purpose of the Panel is to develop a deeper dialog among the scientific community on overall beverage consumption patterns in the United States and on the great potential to change this pattern as a way to improve health. Over the past several decades, levels of overweight and obesity have increased across all population groups in the United States. Concurrently, an increased daily intake of 150-300 kcal (for different age-sex groups) has occurred, with approximately 50% of the increased calories coming from the consumption of calorically sweetened beverages. The panel ranked beverages from the lowest to the highest value based on caloric and nutrient contents and related health benefits and risks. Drinking water was ranked as the preferred beverage to fulfill daily water needs and was followed in decreasing value by tea and coffee, low-fat (1.5% or 1%) and skim (nonfat) milk and soy beverages, noncalorically sweetened beverages, beverages with some nutritional benefits (fruit and vegetable juices, whole milk, alcohol, and sports drinks), and calorically sweetened, nutrient-poor beverages. The Panel recommends that the consumption of beverages with no or few calories should take precedence over the consumption of beverages with more calories.",
+  "sanitized_text": "A new proposed guidance system for beverage consumption in the United States.\nThe Beverage Guidance Panel was assembled to provide guidance on the relative health and nutritional benefits and risks of various beverage categories. The beverage panel was initiated by the first author. The Panel's purpose is to attempt to systematically review the literature on beverages and health and provide guidance to the consumer. An additional purpose of the Panel is to develop a deeper dialog among the scientific community on overall beverage consumption patterns in the United States and on the great potential to change this pattern as a way to improve health. Over the past several decades, levels of overweight and obesity have increased across all population groups in the United States. Concurrently, an increased daily intake of 150-300 kcal (for different age-sex groups) has occurred, with approximately 50% of the increased calories coming from the consumption of calorically sweetened beverages. The panel ranked beverages from the lowest to the highest value based on caloric and nutrient contents and related health benefits and risks. Drinking water was ranked as the preferred beverage to fulfill daily water needs and was followed in decreasing value by tea and coffee, low-fat (1.5% or 1%) and skim (nonfat) milk and soy beverages, noncalorically sweetened beverages, beverages with some nutritional benefits (fruit and vegetable juices, whole milk, alcohol, and sports drinks), and calorically sweetened, nutrient-poor beverages. The Panel recommends that the consumption of beverages with no or few calories should take precedence over the consumption of beverages with more calories.",
+  "modified": false,
+  "original_char_count": 1696,
+  "sanitized_char_count": 1696,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1541,
+      "boundary_end": 1696,
+      "context": "the literature on beverages and health and provide guidance to the consumer. An additional purpose of the Panel is to develop a deeper dialog among the scientific community on overall beverage consumption patterns in the United States and on the great potential to change this pattern as a way to improve health. Over the past several decades, levels of overweight and obesity have increased across all population groups in the United States. Concurrently, an increased daily intake of 150-300 kcal (for different age-sex groups) has occurred, with approximately 50% of the increased calories coming from the consumption of calorically sweetened beverages. The panel ranked beverages from the lowest to the highest value based on caloric and nutrient contents and related health benefits and risks. Drinking water was ranked as the preferred beverage to fulfill daily water needs and was followed in decreasing value by tea and coffee, low-fat (1.5% or 1%) and skim (nonfat) milk and soy beverages, noncalorically sweetened beverages, beverages with some nutritional benefits (fruit and vegetable juices, whole milk, alcohol, and sports drinks), and calorically sweetened, nutrient-poor beverages.",
+      "target": "The Panel recommends that the consumption of beverages with no or few calories should take precedence over the consumption of beverages with more calories.",
+      "loss_target": 2.963893175125122,
+      "loss_target_given_context": 1.4319673776626587,
+      "delta_loss": 1.5319257974624634,
+      "gain_ratio": 0.5168626893571467,
+      "score": -0.5168626893571467,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1356",
+  "source_doc_id": "MED-1356",
+  "title": "Association between physical activity and mental disorders among adults in the United States.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Association between physical activity and mental disorders among adults in the United States.\nBACKGROUND: The objective of this study was to determine the association between regular physical activity and mental disorders among adults in the United States. METHODS: Multiple logistic regression analyses were used to compare the prevalence of mental disorders among those who did and did not report regular physical activity using data from the National Comorbidity Survey (n = 8098), a nationally representative sample of adults ages 15-54 in the United States. CONCLUSIONS: Slightly over one-half of adults reported regular physical activity (60.3%). Regular physical activity was associated with a significantly decreased prevalence of current major depression and anxiety disorders, but was not significantly associated with other affective, substance use, or psychotic disorders. The association between regular physical activity and lower prevalence of current major depression (OR = 0.75 (0.6,0.94)), panic attacks (OR = 0.73 (0.56, 0.96)), social phobia (OR = 0.65 (0.53, 0.8)), specific phobia (OR = 0.78 (0.63, 0.97)), and agoraphobia (OR = 0.64 (0.43, 0.94)) persisted after adjusting for differences in sociodemographic characteristics, self-reported physical disorders, and comorbid mental disorders. Self-reported frequency of physical activity also showed a dose-response relation with current mental disorders. DISCUSSION: These data document a negative association between regular physical activity and depressive and anxiety disorders among adults in the U.S. population. Future research that investigates the mechanism of this association using longitudinal data to examine the link between physical activity and incident and recurrent mental disorders across the lifespan is needed.",
+  "sanitized_text": "Association between physical activity and mental disorders among adults in the United States.\nBACKGROUND: The objective of this study was to determine the association between regular physical activity and mental disorders among adults in the United States. METHODS: Multiple logistic regression analyses were used to compare the prevalence of mental disorders among those who did and did not report regular physical activity using data from the National Comorbidity Survey (n = 8098), a nationally representative sample of adults ages 15-54 in the United States. CONCLUSIONS: Slightly over one-half of adults reported regular physical activity (60.3%). Regular physical activity was associated with a significantly decreased prevalence of current major depression and anxiety disorders, but was not significantly associated with other affective, substance use, or psychotic disorders. The association between regular physical activity and lower prevalence of current major depression (OR = 0.75 (0.6,0.94)), panic attacks (OR = 0.73 (0.56, 0.96)), social phobia (OR = 0.65 (0.53, 0.8)), specific phobia (OR = 0.78 (0.63, 0.97)), and agoraphobia (OR = 0.64 (0.43, 0.94)) persisted after adjusting for differences in sociodemographic characteristics, self-reported physical disorders, and comorbid mental disorders. Self-reported frequency of physical activity also showed a dose-response relation with current mental disorders. DISCUSSION: These data document a negative association between regular physical activity and depressive and anxiety disorders among adults in the U.S. population. Future research that investigates the mechanism of this association using longitudinal data to examine the link between physical activity and incident and recurrent mental disorders across the lifespan is needed.",
+  "modified": false,
+  "original_char_count": 1802,
+  "sanitized_char_count": 1802,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1590,
+      "boundary_end": 1802,
+      "context": "report regular physical activity using data from the National Comorbidity Survey (n = 8098), a nationally representative sample of adults ages 15-54 in the United States. CONCLUSIONS: Slightly over one-half of adults reported regular physical activity (60.3%). Regular physical activity was associated with a significantly decreased prevalence of current major depression and anxiety disorders, but was not significantly associated with other affective, substance use, or psychotic disorders. The association between regular physical activity and lower prevalence of current major depression (OR = 0.75 (0.6,0.94)), panic attacks (OR = 0.73 (0.56, 0.96)), social phobia (OR = 0.65 (0.53, 0.8)), specific phobia (OR = 0.78 (0.63, 0.97)), and agoraphobia (OR = 0.64 (0.43, 0.94)) persisted after adjusting for differences in sociodemographic characteristics, self-reported physical disorders, and comorbid mental disorders. Self-reported frequency of physical activity also showed a dose-response relation with current mental disorders. DISCUSSION: These data document a negative association between regular physical activity and depressive and anxiety disorders among adults in the U.S. population.",
+      "target": "Future research that investigates the mechanism of this association using longitudinal data to examine the link between physical activity and incident and recurrent mental disorders across the lifespan is needed.",
+      "loss_target": 2.8153016567230225,
+      "loss_target_given_context": 2.1186041831970215,
+      "delta_loss": 0.696697473526001,
+      "gain_ratio": 0.2474681431960469,
+      "score": -0.2474681431960469,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

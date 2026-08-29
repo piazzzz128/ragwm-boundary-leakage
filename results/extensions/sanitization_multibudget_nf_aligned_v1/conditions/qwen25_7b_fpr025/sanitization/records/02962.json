@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4883",
+  "source_doc_id": "MED-4883",
+  "title": "[Flatufonia--or the musical anus].",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "[Flatufonia--or the musical anus].\nThe art of the musical anus is reviewed in the light of its most prominent performers and of anorectal physiological aspects related to this specific musical performance.",
+  "sanitized_text": "[Flatufonia--or the musical anus].\nThe art of the musical anus is reviewed in the light of its most prominent performers and of anorectal physiological aspects related to this specific musical performance.",
+  "modified": false,
+  "original_char_count": 205,
+  "sanitized_char_count": 205,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 35,
+      "boundary_end": 205,
+      "context": "[Flatufonia--or the musical anus].",
+      "target": "The art of the musical anus is reviewed in the light of its most prominent performers and of anorectal physiological aspects related to this specific musical performance.",
+      "loss_target": 4.087003707885742,
+      "loss_target_given_context": 3.062188148498535,
+      "delta_loss": 1.024815559387207,
+      "gain_ratio": 0.2507498482102814,
+      "score": -0.2507498482102814,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

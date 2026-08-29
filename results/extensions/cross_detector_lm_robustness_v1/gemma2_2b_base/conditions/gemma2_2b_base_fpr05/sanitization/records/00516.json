@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1623",
+  "source_doc_id": "MED-1623",
+  "title": "Possible neurologic effects of aspartame, a widely used food additive.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Possible neurologic effects of aspartame, a widely used food additive.\nThe artificial sweetener aspartame (L-aspartyl-L-phenylalanyl-methyl ester), is consumed, primarily in beverages, by a very large number of Americans, causing significant elevations in plasma and, probably, brain phenylalanine levels. Anecdotal reports suggest that some people suffer neurologic or behavioral reactions in association with aspartame consumption. Since phenylalanine can be neurotoxic and can affect the synthesis of inhibitory monoamine neurotransmitters, the phenylalanine in aspartame could conceiveably mediate neurologic effects. If mice are given aspartame in doses that elevate plasma phenylalanine levels more than those of tyrosine (which probably occurs after any aspartame dose in humans), the frequency of seizures following the administration of an epileptogenic drug, pentylenetetrazole, is enhanced. This effect is simulated by equimolar phenylalanine and blocked by concurrent administration of valine, which blocks phenylalanine's entry into the brain. Aspartame also potentiates the induction of seizures by inhaled fluorothyl or by electroconvulsive shock. Perhaps regulations concerning the sale of food additives should be modified to require the reporting of adverse reactions and the continuing conduct of mandated safety research.",
+  "sanitized_text": "Possible neurologic effects of aspartame, a widely used food additive.\nThe artificial sweetener aspartame (L-aspartyl-L-phenylalanyl-methyl ester), is consumed, primarily in beverages, by a very large number of Americans, causing significant elevations in plasma and, probably, brain phenylalanine levels. Anecdotal reports suggest that some people suffer neurologic or behavioral reactions in association with aspartame consumption. Since phenylalanine can be neurotoxic and can affect the synthesis of inhibitory monoamine neurotransmitters, the phenylalanine in aspartame could conceiveably mediate neurologic effects. If mice are given aspartame in doses that elevate plasma phenylalanine levels more than those of tyrosine (which probably occurs after any aspartame dose in humans), the frequency of seizures following the administration of an epileptogenic drug, pentylenetetrazole, is enhanced. This effect is simulated by equimolar phenylalanine and blocked by concurrent administration of valine, which blocks phenylalanine's entry into the brain. Aspartame also potentiates the induction of seizures by inhaled fluorothyl or by electroconvulsive shock. Perhaps regulations concerning the sale of food additives should be modified to require the reporting of adverse reactions and the continuing conduct of mandated safety research.",
+  "modified": false,
+  "original_char_count": 1341,
+  "sanitized_char_count": 1341,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1163,
+      "boundary_end": 1341,
+      "context": "Possible neurologic effects of aspartame, a widely used food additive. The artificial sweetener aspartame (L-aspartyl-L-phenylalanyl-methyl ester), is consumed, primarily in beverages, by a very large number of Americans, causing significant elevations in plasma and, probably, brain phenylalanine levels. Anecdotal reports suggest that some people suffer neurologic or behavioral reactions in association with aspartame consumption. Since phenylalanine can be neurotoxic and can affect the synthesis of inhibitory monoamine neurotransmitters, the phenylalanine in aspartame could conceiveably mediate neurologic effects. If mice are given aspartame in doses that elevate plasma phenylalanine levels more than those of tyrosine (which probably occurs after any aspartame dose in humans), the frequency of seizures following the administration of an epileptogenic drug, pentylenetetrazole, is enhanced. This effect is simulated by equimolar phenylalanine and blocked by concurrent administration of valine, which blocks phenylalanine's entry into the brain. Aspartame also potentiates the induction of seizures by inhaled fluorothyl or by electroconvulsive shock.",
+      "target": "Perhaps regulations concerning the sale of food additives should be modified to require the reporting of adverse reactions and the continuing conduct of mandated safety research.",
+      "loss_target": 8.27981185913086,
+      "loss_target_given_context": 5.476348876953125,
+      "delta_loss": 2.8034629821777344,
+      "gain_ratio": 0.33859017932709606,
+      "score": -0.33859017932709606,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

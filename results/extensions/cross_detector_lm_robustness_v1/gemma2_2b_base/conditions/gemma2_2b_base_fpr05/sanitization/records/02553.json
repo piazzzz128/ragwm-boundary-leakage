@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4410",
+  "source_doc_id": "MED-4410",
+  "title": "Do vegetables and fruits reduce the risk of chronic obstructive pulmonary disease? A case-control study in Japan.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Do vegetables and fruits reduce the risk of chronic obstructive pulmonary disease? A case-control study in Japan.\nOBJECTIVE: To investigate the relationship between vegetable and fruit consumption and the risk of chronic obstructive pulmonary disease (COPD), a case-control study was conducted in central Japan in 2006. METHODS: A total of 278 referred patients with COPD diagnosed within the past four years and 340 community-based controls undertook spirometric measurements of respiratory function. A structured questionnaire was administered face-to-face to obtain information on demographics, lifestyle and habitual food consumption. RESULTS: The mean vegetable and fruit intakes of cases (155.62 (SD 88.84) and 248.32 (SD 188.17) g/day) were significantly lower (p<0.01) than controls (199.14 (SD 121.41) and 304.09 (SD 253.72) g/day). A substantial reduction in COPD risk was found by increasing daily total vegetable intake, p for trend=0.037. The prevalence of breathlessness also decreased with vegetable consumption, the adjusted odds ratio being 0.49 (95% CI 0.27-0.88) for the highest versus lowest quartile of intake. However, the effects of fruit consumption were not significant. Among the nutrients contained in vegetables and fruits, vitamin A was particularly significant (p=0.008) with an estimated 52% reduction in COPD risk at the highest level of intake. CONCLUSION: The study provided evidence of an inverse association between vegetable consumption and the risk of COPD for Japanese adults.",
+  "sanitized_text": "Do vegetables and fruits reduce the risk of chronic obstructive pulmonary disease? A case-control study in Japan.\nOBJECTIVE: To investigate the relationship between vegetable and fruit consumption and the risk of chronic obstructive pulmonary disease (COPD), a case-control study was conducted in central Japan in 2006. METHODS: A total of 278 referred patients with COPD diagnosed within the past four years and 340 community-based controls undertook spirometric measurements of respiratory function. A structured questionnaire was administered face-to-face to obtain information on demographics, lifestyle and habitual food consumption. RESULTS: The mean vegetable and fruit intakes of cases (155.62 (SD 88.84) and 248.32 (SD 188.17) g/day) were significantly lower (p<0.01) than controls (199.14 (SD 121.41) and 304.09 (SD 253.72) g/day). A substantial reduction in COPD risk was found by increasing daily total vegetable intake, p for trend=0.037. The prevalence of breathlessness also decreased with vegetable consumption, the adjusted odds ratio being 0.49 (95% CI 0.27-0.88) for the highest versus lowest quartile of intake. However, the effects of fruit consumption were not significant. Among the nutrients contained in vegetables and fruits, vitamin A was particularly significant (p=0.008) with an estimated 52% reduction in COPD risk at the highest level of intake. CONCLUSION: The study provided evidence of an inverse association between vegetable consumption and the risk of COPD for Japanese adults.",
+  "modified": false,
+  "original_char_count": 1515,
+  "sanitized_char_count": 1515,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1378,
+      "boundary_end": 1515,
+      "context": "fruit consumption and the risk of chronic obstructive pulmonary disease (COPD), a case-control study was conducted in central Japan in 2006. METHODS: A total of 278 referred patients with COPD diagnosed within the past four years and 340 community-based controls undertook spirometric measurements of respiratory function. A structured questionnaire was administered face-to-face to obtain information on demographics, lifestyle and habitual food consumption. RESULTS: The mean vegetable and fruit intakes of cases (155.62 (SD 88.84) and 248.32 (SD 188.17) g/day) were significantly lower (p<0.01) than controls (199.14 (SD 121.41) and 304.09 (SD 253.72) g/day). A substantial reduction in COPD risk was found by increasing daily total vegetable intake, p for trend=0.037. The prevalence of breathlessness also decreased with vegetable consumption, the adjusted odds ratio being 0.49 (95% CI 0.27-0.88) for the highest versus lowest quartile of intake. However, the effects of fruit consumption were not significant. Among the nutrients contained in vegetables and fruits, vitamin A was particularly significant (p=0.008) with an estimated 52% reduction in COPD risk at the highest level of intake.",
+      "target": "CONCLUSION: The study provided evidence of an inverse association between vegetable consumption and the risk of COPD for Japanese adults.",
+      "loss_target": 8.635966300964355,
+      "loss_target_given_context": 2.786501169204712,
+      "delta_loss": 5.8494651317596436,
+      "gain_ratio": 0.6773376513878301,
+      "score": -0.6773376513878301,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

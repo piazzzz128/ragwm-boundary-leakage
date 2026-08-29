@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4381",
+  "source_doc_id": "MED-4381",
+  "title": "Amnesic shellfish poison.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Amnesic shellfish poison.\nAmnesic shellfish poisoning (ASP) is caused by consumption of shellfish that have accumulated domoic acid, a neurotoxin produced by some strains of phytoplankton. The neurotoxic properties of domoic acid result in neuronal degeneration and necrosis in specific regions of the hippocampus. A serious outbreak of ASP occurred in Canada in 1987 and involved 150 reported cases, 19 hospitalisations and 4 deaths after consumption of contaminated mussels. Symptoms ranged from gastrointestinal disturbances, to neurotoxic effects such as hallucinations, memory loss and coma. Monitoring programmes are in place in numerous countries worldwide and closures of shellfish harvesting areas occur when domoic acid concentrations exceed regulatory limits. This paper reviews the chemistry, sources, metabolism and toxicology of domoic acid as well as human case reports of ASP and discusses a possible mechanism of toxicity.",
+  "sanitized_text": "Amnesic shellfish poison.\nAmnesic shellfish poisoning (ASP) is caused by consumption of shellfish that have accumulated domoic acid, a neurotoxin produced by some strains of phytoplankton. The neurotoxic properties of domoic acid result in neuronal degeneration and necrosis in specific regions of the hippocampus. A serious outbreak of ASP occurred in Canada in 1987 and involved 150 reported cases, 19 hospitalisations and 4 deaths after consumption of contaminated mussels. Symptoms ranged from gastrointestinal disturbances, to neurotoxic effects such as hallucinations, memory loss and coma. Monitoring programmes are in place in numerous countries worldwide and closures of shellfish harvesting areas occur when domoic acid concentrations exceed regulatory limits. This paper reviews the chemistry, sources, metabolism and toxicology of domoic acid as well as human case reports of ASP and discusses a possible mechanism of toxicity.",
+  "modified": false,
+  "original_char_count": 939,
+  "sanitized_char_count": 939,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 771,
+      "boundary_end": 939,
+      "context": "Amnesic shellfish poison. Amnesic shellfish poisoning (ASP) is caused by consumption of shellfish that have accumulated domoic acid, a neurotoxin produced by some strains of phytoplankton. The neurotoxic properties of domoic acid result in neuronal degeneration and necrosis in specific regions of the hippocampus. A serious outbreak of ASP occurred in Canada in 1987 and involved 150 reported cases, 19 hospitalisations and 4 deaths after consumption of contaminated mussels. Symptoms ranged from gastrointestinal disturbances, to neurotoxic effects such as hallucinations, memory loss and coma. Monitoring programmes are in place in numerous countries worldwide and closures of shellfish harvesting areas occur when domoic acid concentrations exceed regulatory limits.",
+      "target": "This paper reviews the chemistry, sources, metabolism and toxicology of domoic acid as well as human case reports of ASP and discusses a possible mechanism of toxicity.",
+      "loss_target": 2.9669644832611084,
+      "loss_target_given_context": 1.7382360696792603,
+      "delta_loss": 1.2287284135818481,
+      "gain_ratio": 0.41413654275743267,
+      "score": -0.41413654275743267,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

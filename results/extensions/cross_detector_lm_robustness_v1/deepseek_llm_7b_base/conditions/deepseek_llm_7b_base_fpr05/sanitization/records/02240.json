@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3979",
+  "source_doc_id": "MED-3979",
+  "title": "History of respiratory infections in the first 12 yr among children from a birth cohort.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "History of respiratory infections in the first 12 yr among children from a birth cohort.\nRespiratory infections are the most frequent health problem in childhood. There is little precise information on how many respiratory illness episodes can be expected in a normal child. This study was designed to create reference values for the frequency of respiratory infections as recordable by history. Respiratory illnesses were recorded in a prospective birth cohort of 1314 German children born in 1990 and tracked until age 12 yr (760 children). Parents recorded the child's illnesses in a diary and answered structured questions yearly up to age 12. Age of study subjects was categorized into infancy (0-2 yr), pre-school age (3-5 yr), and school age (6-12 yr). The mean cumulative number of respiratory infection episodes up to age 12 yr was 21.9 (s.d. 9.0) episodes. In infancy, the mean annual number was 3.4 (3.7) episodes; at pre-school age, 2.3 (2.6) episodes; and at school, age 1.1 (1.2) episodes. The mean cumulative time of episodes up to age 7 yr was 20.1 (15.2) wk. Forty-five percent of the infants in the upper episode incidence tertile continued to be in the upper tertile at school age. Based on a twofold standard deviation of the mean number, up to 11 respiratory infection episodes per year in infancy, 8 episodes per year at pre-school age, and 4 episodes per year at school age could be regarded as normal. Episodes within these reference values per se should not cause unwarranted concern or intervention because of suspected immunodeficiency.",
+  "sanitized_text": "History of respiratory infections in the first 12 yr among children from a birth cohort.\nRespiratory infections are the most frequent health problem in childhood. There is little precise information on how many respiratory illness episodes can be expected in a normal child. This study was designed to create reference values for the frequency of respiratory infections as recordable by history. Respiratory illnesses were recorded in a prospective birth cohort of 1314 German children born in 1990 and tracked until age 12 yr (760 children). Parents recorded the child's illnesses in a diary and answered structured questions yearly up to age 12. Age of study subjects was categorized into infancy (0-2 yr), pre-school age (3-5 yr), and school age (6-12 yr). The mean cumulative number of respiratory infection episodes up to age 12 yr was 21.9 (s.d. 9.0) episodes. In infancy, the mean annual number was 3.4 (3.7) episodes; at pre-school age, 2.3 (2.6) episodes; and at school, age 1.1 (1.2) episodes. The mean cumulative time of episodes up to age 7 yr was 20.1 (15.2) wk. Forty-five percent of the infants in the upper episode incidence tertile continued to be in the upper tertile at school age. Based on a twofold standard deviation of the mean number, up to 11 respiratory infection episodes per year in infancy, 8 episodes per year at pre-school age, and 4 episodes per year at school age could be regarded as normal. Episodes within these reference values per se should not cause unwarranted concern or intervention because of suspected immunodeficiency.",
+  "modified": false,
+  "original_char_count": 1563,
+  "sanitized_char_count": 1563,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1426,
+      "boundary_end": 1563,
+      "context": "episodes can be expected in a normal child. This study was designed to create reference values for the frequency of respiratory infections as recordable by history. Respiratory illnesses were recorded in a prospective birth cohort of 1314 German children born in 1990 and tracked until age 12 yr (760 children). Parents recorded the child's illnesses in a diary and answered structured questions yearly up to age 12. Age of study subjects was categorized into infancy (0-2 yr), pre-school age (3-5 yr), and school age (6-12 yr). The mean cumulative number of respiratory infection episodes up to age 12 yr was 21.9 (s.d. 9.0) episodes. In infancy, the mean annual number was 3.4 (3.7) episodes; at pre-school age, 2.3 (2.6) episodes; and at school, age 1.1 (1.2) episodes. The mean cumulative time of episodes up to age 7 yr was 20.1 (15.2) wk. Forty-five percent of the infants in the upper episode incidence tertile continued to be in the upper tertile at school age. Based on a twofold standard deviation of the mean number, up to 11 respiratory infection episodes per year in infancy, 8 episodes per year at pre-school age, and 4 episodes per year at school age could be regarded as normal.",
+      "target": "Episodes within these reference values per se should not cause unwarranted concern or intervention because of suspected immunodeficiency.",
+      "loss_target": 4.257408618927002,
+      "loss_target_given_context": 2.7238595485687256,
+      "delta_loss": 1.5335490703582764,
+      "gain_ratio": 0.36020716065181874,
+      "score": -0.36020716065181874,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

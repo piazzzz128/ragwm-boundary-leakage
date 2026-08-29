@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4581",
+  "source_doc_id": "MED-4581",
+  "title": "Fruit and vegetable consumption and cognitive decline in aging women.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Fruit and vegetable consumption and cognitive decline in aging women.\nWe prospectively examined fruit and vegetable intake in relation to cognitive function and decline among aging women. Participants were followed from in 1976 with biennial questionnaires, and food frequency questionnaires were administered in 1984, 1986, and every 4 years thereafter. From 1995 to 2001, we administered, by telephone, six cognitive tests measuring general cognition, verbal memory, category fluency, and working memory. We repeated assessments two years later for 13,388 women (>90% follow-up). We averaged dietary intakes from 1984 through the first cognitive assessment, and used linear regression to obtain multivariable-adjusted mean differences in performance and decline in performance across intake levels. Fruits were not associated with cognition or cognitive decline. However, total vegetable intake was significantly associated with less decline. Specifically, on a global score combining all tests, women in the highest quintile of cruciferous vegetables declined slower (by 0.04 unit; 95% confidence interval, 0.003, 0.07; p trend = 0.1) compared with the lowest quintile. Women consuming the most green leafy vegetables also experienced slower decline than women consuming the least amount (by 0.05 unit; 95% confidence interval, 0.02, 0.09; p trend < 0.001). These mean differences were equivalent to those observed for women about 1 to 2 years apart in age.",
+  "sanitized_text": "Fruit and vegetable consumption and cognitive decline in aging women.\nWe prospectively examined fruit and vegetable intake in relation to cognitive function and decline among aging women. Participants were followed from in 1976 with biennial questionnaires, and food frequency questionnaires were administered in 1984, 1986, and every 4 years thereafter. From 1995 to 2001, we administered, by telephone, six cognitive tests measuring general cognition, verbal memory, category fluency, and working memory. We repeated assessments two years later for 13,388 women (>90% follow-up). We averaged dietary intakes from 1984 through the first cognitive assessment, and used linear regression to obtain multivariable-adjusted mean differences in performance and decline in performance across intake levels. Fruits were not associated with cognition or cognitive decline. However, total vegetable intake was significantly associated with less decline. Specifically, on a global score combining all tests, women in the highest quintile of cruciferous vegetables declined slower (by 0.04 unit; 95% confidence interval, 0.003, 0.07; p trend = 0.1) compared with the lowest quintile. Women consuming the most green leafy vegetables also experienced slower decline than women consuming the least amount (by 0.05 unit; 95% confidence interval, 0.02, 0.09; p trend < 0.001). These mean differences were equivalent to those observed for women about 1 to 2 years apart in age.",
+  "modified": false,
+  "original_char_count": 1460,
+  "sanitized_char_count": 1460,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1361,
+      "boundary_end": 1460,
+      "context": "decline among aging women. Participants were followed from in 1976 with biennial questionnaires, and food frequency questionnaires were administered in 1984, 1986, and every 4 years thereafter. From 1995 to 2001, we administered, by telephone, six cognitive tests measuring general cognition, verbal memory, category fluency, and working memory. We repeated assessments two years later for 13,388 women (>90% follow-up). We averaged dietary intakes from 1984 through the first cognitive assessment, and used linear regression to obtain multivariable-adjusted mean differences in performance and decline in performance across intake levels. Fruits were not associated with cognition or cognitive decline. However, total vegetable intake was significantly associated with less decline. Specifically, on a global score combining all tests, women in the highest quintile of cruciferous vegetables declined slower (by 0.04 unit; 95% confidence interval, 0.003, 0.07; p trend = 0.1) compared with the lowest quintile. Women consuming the most green leafy vegetables also experienced slower decline than women consuming the least amount (by 0.05 unit; 95% confidence interval, 0.02, 0.09; p trend < 0.001).",
+      "target": "These mean differences were equivalent to those observed for women about 1 to 2 years apart in age.",
+      "loss_target": 3.230026960372925,
+      "loss_target_given_context": 1.9143931865692139,
+      "delta_loss": 1.315633773803711,
+      "gain_ratio": 0.4073135580428139,
+      "score": -0.4073135580428139,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

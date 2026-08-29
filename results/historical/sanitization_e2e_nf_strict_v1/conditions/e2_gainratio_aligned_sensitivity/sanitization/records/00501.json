@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1607",
+  "source_doc_id": "MED-1607",
+  "title": "Long-term dietary sodium, potassium and fluid intake; exploring potential novel risk factors for renal cell cancer in the Netherlands Cohort Study on diet and cancer",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Long-term dietary sodium, potassium and fluid intake; exploring potential novel risk factors for renal cell cancer in the Netherlands Cohort Study on diet and cancer\nBackground: As sodium, potassium and fluid intake are related to hypertension, an established risk factor for renal cell cancer (RCC), they may be independent risk factors for RCC. Methods: The Netherlands Cohort Study (NLCS) with case-cohort design included 120 852 participants aged 55–69 years. At baseline, diet and lifestyle were assessed with questionnaires. After 17.3 years of follow-up, 485 RCC cases and 4438 subcohort members were available for analyses. Results: Sodium intake increased RCC risk (P-trend=0.03), whereas fluid and potassium intake did not. For high sodium and low fluid intake, the RCC risk additionally increased (P-interaction=0.02). Conclusion: Sodium intake is a potential risk factor for RCC, particularly if fluid consumption is low. Renal Cell Carcinoma (Rcc) is a significant cause of cancer-related health issues in the United States.",
+  "sanitized_text": "Long-term dietary sodium, potassium and fluid intake; exploring potential novel risk factors for renal cell cancer in the Netherlands Cohort Study on diet and cancer\nBackground: As sodium, potassium and fluid intake are related to hypertension, an established risk factor for renal cell cancer (RCC), they may be independent risk factors for RCC. Methods: The Netherlands Cohort Study (NLCS) with case-cohort design included 120 852 participants aged 55–69 years. At baseline, diet and lifestyle were assessed with questionnaires. After 17.3 years of follow-up, 485 RCC cases and 4438 subcohort members were available for analyses. Results: Sodium intake increased RCC risk (P-trend=0.03), whereas fluid and potassium intake did not. For high sodium and low fluid intake, the RCC risk additionally increased (P-interaction=0.02). Conclusion: Sodium intake is a potential risk factor for RCC, particularly if fluid consumption is low.",
+  "modified": true,
+  "original_char_count": 1037,
+  "sanitized_char_count": 933,
+  "deleted_char_count": 104,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 934,
+      "boundary_end": 1037,
+      "context": "Long-term dietary sodium, potassium and fluid intake; exploring potential novel risk factors for renal cell cancer in the Netherlands Cohort Study on diet and cancer Background: As sodium, potassium and fluid intake are related to hypertension, an established risk factor for renal cell cancer (RCC), they may be independent risk factors for RCC. Methods: The Netherlands Cohort Study (NLCS) with case-cohort design included 120 852 participants aged 55–69 years. At baseline, diet and lifestyle were assessed with questionnaires. After 17.3 years of follow-up, 485 RCC cases and 4438 subcohort members were available for analyses. Results: Sodium intake increased RCC risk (P-trend=0.03), whereas fluid and potassium intake did not. For high sodium and low fluid intake, the RCC risk additionally increased (P-interaction=0.02). Conclusion: Sodium intake is a potential risk factor for RCC, particularly if fluid consumption is low.",
+      "target": "Renal Cell Carcinoma (Rcc) is a significant cause of cancer-related health issues in the United States.",
+      "loss_target": 1.884392261505127,
+      "loss_target_given_context": 1.8114200830459595,
+      "delta_loss": 0.07297217845916748,
+      "gain_ratio": 0.03872451609458541,
+      "score": -0.03872451609458541,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 830,
+      "boundary_end": 933,
+      "context": "Long-term dietary sodium, potassium and fluid intake; exploring potential novel risk factors for renal cell cancer in the Netherlands Cohort Study on diet and cancer Background: As sodium, potassium and fluid intake are related to hypertension, an established risk factor for renal cell cancer (RCC), they may be independent risk factors for RCC. Methods: The Netherlands Cohort Study (NLCS) with case-cohort design included 120 852 participants aged 55–69 years. At baseline, diet and lifestyle were assessed with questionnaires. After 17.3 years of follow-up, 485 RCC cases and 4438 subcohort members were available for analyses. Results: Sodium intake increased RCC risk (P-trend=0.03), whereas fluid and potassium intake did not. For high sodium and low fluid intake, the RCC risk additionally increased (P-interaction=0.02).",
+      "target": "Conclusion: Sodium intake is a potential risk factor for RCC, particularly if fluid consumption is low.",
+      "loss_target": 3.1428561210632324,
+      "loss_target_given_context": 1.3408849239349365,
+      "delta_loss": 1.801971197128296,
+      "gain_ratio": 0.5733546582204618,
+      "score": -0.5733546582204618,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 934,
+      "target": "Renal Cell Carcinoma (Rcc) is a significant cause of cancer-related health issues in the United States.",
+      "score": -0.03872451609458541,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Renal Cell Carcinoma (Rcc) is a significant cause of cancer-related health issues in the United States.",
+      "deleted_char_count": 103
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

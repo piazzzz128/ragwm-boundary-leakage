@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2436",
+  "source_doc_id": "MED-2436",
+  "title": "Content of low density lipoprotein receptors in breast cancer tissue related to survival of patients.",
+  "original_text": "Content of low density lipoprotein receptors in breast cancer tissue related to survival of patients.\nThe content of low density lipoprotein (LDL) receptors in tissue from primary breast cancers was determined and its prognostic information compared with that of variables of established prognostic importance. Frozen tumour specimens were selected, and tissue from 72 patients (32 of whom had died) were studied. The LDL receptor content showed an inverse correlation with the survival time. Analysis by a multivariate statistical method showed that the presence of axillary metastasis, content of receptors for oestrogen and LDL, diameter of the tumour, and DNA pattern were all of prognostic value with regard to patient survival. Improved methods of predicting survival time in patients with breast cancer may be of value in the choice of treatment for individual patients.",
+  "sanitized_text": "Content of low density lipoprotein receptors in breast cancer tissue related to survival of patients.\nThe content of low density lipoprotein (LDL) receptors in tissue from primary breast cancers was determined and its prognostic information compared with that of variables of established prognostic importance. Frozen tumour specimens were selected, and tissue from 72 patients (32 of whom had died) were studied. The LDL receptor content showed an inverse correlation with the survival time. Analysis by a multivariate statistical method showed that the presence of axillary metastasis, content of receptors for oestrogen and LDL, diameter of the tumour, and DNA pattern were all of prognostic value with regard to patient survival.",
+  "modified": true,
+  "original_char_count": 877,
+  "sanitized_char_count": 733,
+  "deleted_char_count": 144,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 734,
+      "boundary_end": 877,
+      "context": "Content of low density lipoprotein receptors in breast cancer tissue related to survival of patients. The content of low density lipoprotein (LDL) receptors in tissue from primary breast cancers was determined and its prognostic information compared with that of variables of established prognostic importance. Frozen tumour specimens were selected, and tissue from 72 patients (32 of whom had died) were studied. The LDL receptor content showed an inverse correlation with the survival time. Analysis by a multivariate statistical method showed that the presence of axillary metastasis, content of receptors for oestrogen and LDL, diameter of the tumour, and DNA pattern were all of prognostic value with regard to patient survival.",
+      "target": "Improved methods of predicting survival time in patients with breast cancer may be of value in the choice of treatment for individual patients.",
+      "loss_target": 2.2234156131744385,
+      "loss_target_given_context": 2.1787848472595215,
+      "delta_loss": 0.04463076591491699,
+      "gain_ratio": 0.02007306490539404,
+      "score": -0.02007306490539404,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 493,
+      "boundary_end": 733,
+      "context": "Content of low density lipoprotein receptors in breast cancer tissue related to survival of patients. The content of low density lipoprotein (LDL) receptors in tissue from primary breast cancers was determined and its prognostic information compared with that of variables of established prognostic importance. Frozen tumour specimens were selected, and tissue from 72 patients (32 of whom had died) were studied. The LDL receptor content showed an inverse correlation with the survival time.",
+      "target": "Analysis by a multivariate statistical method showed that the presence of axillary metastasis, content of receptors for oestrogen and LDL, diameter of the tumour, and DNA pattern were all of prognostic value with regard to patient survival.",
+      "loss_target": 2.90213942527771,
+      "loss_target_given_context": 2.3670406341552734,
+      "delta_loss": 0.5350987911224365,
+      "gain_ratio": 0.18438080075054702,
+      "score": -0.18438080075054702,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 734,
+      "target": "Improved methods of predicting survival time in patients with breast cancer may be of value in the choice of treatment for individual patients.",
+      "score": -0.02007306490539404,
+      "deleted_suffix": "Improved methods of predicting survival time in patients with breast cancer may be of value in the choice of treatment for individual patients.",
+      "deleted_char_count": 143
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

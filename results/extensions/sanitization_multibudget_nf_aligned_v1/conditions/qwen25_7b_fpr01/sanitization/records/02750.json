@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4651",
+  "source_doc_id": "MED-4651",
+  "title": "Breast cancer incidence rates in U.S. women are no longer declining.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Breast cancer incidence rates in U.S. women are no longer declining.\nBACKGROUND: Several publications reported breast cancer incidence rates continued to decrease among white women, following the decline of about 7% from 2002 to 2003. However, none of these reports exclusively examined the trend after 2003. In this paper, we examined breast cancer incidence rates among non-Hispanic (NH) white women from 2003 to 2007 to determine whether the decrease in breast cancer incidence rates indeed persisted through 2007. In addition, we present breast cancer incidence trends for NH black and Hispanic women and postmenopausal hormone use for all three racial/ethnic groups. METHODS: Breast cancer incidence rates were calculated by race/ethnicity, age and ER status using data from the Surveillance, Epidemiology, and End Results (SEER) 12 registries for 2000 to 2007. Prevalence of postmenopausal hormone use was calculated using National Health Interview Survey data from 2000, 2005, and 2008. RESULTS: From 2003 to 2007, overall breast cancer incidence rates did not change significantly among NH white women in any age group. However, rates increased (2.7% per year) for ER+ breast cancers in ages 40 to 49, and decreased for ER- breast cancers in ages 40 to 49 and 60 to 69. Similarly, overall breast cancer incidence rates did not change significantly for black and Hispanic women. Hormone use continued to decrease from 2005 to 2008 in all groups, although the decreases were smaller compared to those from 2000 to 2005. CONCLUSIONS: The sharp decline in breast cancer incidence rates that occurred from 2002 to 2003 among NH white women did not continue through 2007. IMPACT: Further studies are needed to better understand the recent breast cancer trends. ©2011 AACR.",
+  "sanitized_text": "Breast cancer incidence rates in U.S. women are no longer declining.\nBACKGROUND: Several publications reported breast cancer incidence rates continued to decrease among white women, following the decline of about 7% from 2002 to 2003. However, none of these reports exclusively examined the trend after 2003. In this paper, we examined breast cancer incidence rates among non-Hispanic (NH) white women from 2003 to 2007 to determine whether the decrease in breast cancer incidence rates indeed persisted through 2007. In addition, we present breast cancer incidence trends for NH black and Hispanic women and postmenopausal hormone use for all three racial/ethnic groups. METHODS: Breast cancer incidence rates were calculated by race/ethnicity, age and ER status using data from the Surveillance, Epidemiology, and End Results (SEER) 12 registries for 2000 to 2007. Prevalence of postmenopausal hormone use was calculated using National Health Interview Survey data from 2000, 2005, and 2008. RESULTS: From 2003 to 2007, overall breast cancer incidence rates did not change significantly among NH white women in any age group. However, rates increased (2.7% per year) for ER+ breast cancers in ages 40 to 49, and decreased for ER- breast cancers in ages 40 to 49 and 60 to 69. Similarly, overall breast cancer incidence rates did not change significantly for black and Hispanic women. Hormone use continued to decrease from 2005 to 2008 in all groups, although the decreases were smaller compared to those from 2000 to 2005. CONCLUSIONS: The sharp decline in breast cancer incidence rates that occurred from 2002 to 2003 among NH white women did not continue through 2007. IMPACT: Further studies are needed to better understand the recent breast cancer trends. ©2011 AACR.",
+  "modified": false,
+  "original_char_count": 1774,
+  "sanitized_char_count": 1774,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1674,
+      "boundary_end": 1762,
+      "context": "rates indeed persisted through 2007. In addition, we present breast cancer incidence trends for NH black and Hispanic women and postmenopausal hormone use for all three racial/ethnic groups. METHODS: Breast cancer incidence rates were calculated by race/ethnicity, age and ER status using data from the Surveillance, Epidemiology, and End Results (SEER) 12 registries for 2000 to 2007. Prevalence of postmenopausal hormone use was calculated using National Health Interview Survey data from 2000, 2005, and 2008. RESULTS: From 2003 to 2007, overall breast cancer incidence rates did not change significantly among NH white women in any age group. However, rates increased (2.7% per year) for ER+ breast cancers in ages 40 to 49, and decreased for ER- breast cancers in ages 40 to 49 and 60 to 69. Similarly, overall breast cancer incidence rates did not change significantly for black and Hispanic women. Hormone use continued to decrease from 2005 to 2008 in all groups, although the decreases were smaller compared to those from 2000 to 2005. CONCLUSIONS: The sharp decline in breast cancer incidence rates that occurred from 2002 to 2003 among NH white women did not continue through 2007.",
+      "target": "IMPACT: Further studies are needed to better understand the recent breast cancer trends.",
+      "loss_target": 3.336243152618408,
+      "loss_target_given_context": 1.441888451576233,
+      "delta_loss": 1.8943547010421753,
+      "gain_ratio": 0.5678107423181715,
+      "score": -0.5678107423181715,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

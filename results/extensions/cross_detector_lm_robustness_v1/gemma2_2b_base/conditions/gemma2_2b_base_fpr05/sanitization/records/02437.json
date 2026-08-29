@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4253",
+  "source_doc_id": "MED-4253",
+  "title": "Effects of cake made from whole soy powder on postprandial blood glucose and insulin levels in human subjects.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of cake made from whole soy powder on postprandial blood glucose and insulin levels in human subjects.\nWe investigated the glycemic index (GI) and the insulinemic index (II) of cake made from whole soy powder (SBC) and the suppressive effects of SBC on the postprandial blood glucose and insulin by other carbohydrate foods. Furthermore, breath hydrogen excretion was simultaneously investigated. Twenty subjects were given 114 g SBC, 144 g cooked paddy-rice, and 60 g SBC with 144 g cooked paddy-rice in random order using a within-subject, repeated-measures design. Blood and end-expiratory gas were collected at the indicated periods after ingestion. The GI and the II of SBC were 22+/-6 and 48+/-29, respectively. The elevation of blood glucose by cooked paddy-rice was significantly suppressed by the addition of 60 g SBC, although the insulin secretion did not decrease. Breath hydrogen excretion by the addition of SBC to 144 g cooked paddy-rice was not significantly increased in comparison with cooked paddy-rice alone. SBC was of low GI and low II, but the postprandial insulin secretion in response to cooked paddy-rice was not suppressed.",
+  "sanitized_text": "Effects of cake made from whole soy powder on postprandial blood glucose and insulin levels in human subjects.\nWe investigated the glycemic index (GI) and the insulinemic index (II) of cake made from whole soy powder (SBC) and the suppressive effects of SBC on the postprandial blood glucose and insulin by other carbohydrate foods. Furthermore, breath hydrogen excretion was simultaneously investigated. Twenty subjects were given 114 g SBC, 144 g cooked paddy-rice, and 60 g SBC with 144 g cooked paddy-rice in random order using a within-subject, repeated-measures design. Blood and end-expiratory gas were collected at the indicated periods after ingestion. The GI and the II of SBC were 22+/-6 and 48+/-29, respectively. The elevation of blood glucose by cooked paddy-rice was significantly suppressed by the addition of 60 g SBC, although the insulin secretion did not decrease. Breath hydrogen excretion by the addition of SBC to 144 g cooked paddy-rice was not significantly increased in comparison with cooked paddy-rice alone. SBC was of low GI and low II, but the postprandial insulin secretion in response to cooked paddy-rice was not suppressed.",
+  "modified": false,
+  "original_char_count": 1158,
+  "sanitized_char_count": 1158,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1037,
+      "boundary_end": 1158,
+      "context": "Effects of cake made from whole soy powder on postprandial blood glucose and insulin levels in human subjects. We investigated the glycemic index (GI) and the insulinemic index (II) of cake made from whole soy powder (SBC) and the suppressive effects of SBC on the postprandial blood glucose and insulin by other carbohydrate foods. Furthermore, breath hydrogen excretion was simultaneously investigated. Twenty subjects were given 114 g SBC, 144 g cooked paddy-rice, and 60 g SBC with 144 g cooked paddy-rice in random order using a within-subject, repeated-measures design. Blood and end-expiratory gas were collected at the indicated periods after ingestion. The GI and the II of SBC were 22+/-6 and 48+/-29, respectively. The elevation of blood glucose by cooked paddy-rice was significantly suppressed by the addition of 60 g SBC, although the insulin secretion did not decrease. Breath hydrogen excretion by the addition of SBC to 144 g cooked paddy-rice was not significantly increased in comparison with cooked paddy-rice alone.",
+      "target": "SBC was of low GI and low II, but the postprandial insulin secretion in response to cooked paddy-rice was not suppressed.",
+      "loss_target": 9.325627326965332,
+      "loss_target_given_context": 2.401153087615967,
+      "delta_loss": 6.924474239349365,
+      "gain_ratio": 0.7425210118923624,
+      "score": -0.7425210118923624,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

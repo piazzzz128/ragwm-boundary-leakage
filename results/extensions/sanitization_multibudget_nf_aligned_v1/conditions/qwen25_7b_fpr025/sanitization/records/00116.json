@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1157",
+  "source_doc_id": "MED-1157",
+  "title": "Reduction of pesticide residues on produce by rinsing.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Reduction of pesticide residues on produce by rinsing.\nIn 1997 this laboratory initiated a research program with the objective of examining the effect that rinsing of produce with tap water would have on pesticide residues. Samples were obtained from local markets and/or grown at our experimental farm. Because approximately 35% of produce from retail sources contains pesticide residues, growing and treating produce at an experimental farm had the advantage that all such samples contain pesticide residues. Pesticides were applied under normal field conditions to a variety of food crops and the vegetation was allowed to undergo natural weathering prior to harvest. The resulting samples contained field-incurred or \"field-fortified\" residues. This experimental design was employed to mimic as closely as possible real world samples. Crops were treated, harvested, and divided into equal subsamples. One subsample was processed unwashed, whereas the other was rinsed under tap water. The extraction and analysis method used was a multi-residue method developed in our laboratory. Twelve pesticides were included in this study: the fungicides captan, chlorothalonil, iprodione, and vinclozolin; and the insecticides endosulfan, permethrin, methoxychlor, malathion, diazinon, chlorpyrifos, bifenthrin, and DDE (a soil metabolite of DDT). Statistical analysis of the data using the Wilcoxon signed-rank test showed that rinsing removed residues for nine of the twelve pesticides studied. Residues of vinclozolin, bifenthrin, and chlorpyrifos were not reduced. The rinsability of a pesticide is not correlated with its water solubility.",
+  "sanitized_text": "Reduction of pesticide residues on produce by rinsing.\nIn 1997 this laboratory initiated a research program with the objective of examining the effect that rinsing of produce with tap water would have on pesticide residues. Samples were obtained from local markets and/or grown at our experimental farm. Because approximately 35% of produce from retail sources contains pesticide residues, growing and treating produce at an experimental farm had the advantage that all such samples contain pesticide residues. Pesticides were applied under normal field conditions to a variety of food crops and the vegetation was allowed to undergo natural weathering prior to harvest. The resulting samples contained field-incurred or \"field-fortified\" residues. This experimental design was employed to mimic as closely as possible real world samples. Crops were treated, harvested, and divided into equal subsamples. One subsample was processed unwashed, whereas the other was rinsed under tap water. The extraction and analysis method used was a multi-residue method developed in our laboratory. Twelve pesticides were included in this study: the fungicides captan, chlorothalonil, iprodione, and vinclozolin; and the insecticides endosulfan, permethrin, methoxychlor, malathion, diazinon, chlorpyrifos, bifenthrin, and DDE (a soil metabolite of DDT). Statistical analysis of the data using the Wilcoxon signed-rank test showed that rinsing removed residues for nine of the twelve pesticides studied. Residues of vinclozolin, bifenthrin, and chlorpyrifos were not reduced. The rinsability of a pesticide is not correlated with its water solubility.",
+  "modified": false,
+  "original_char_count": 1637,
+  "sanitized_char_count": 1637,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1562,
+      "boundary_end": 1637,
+      "context": "pesticide residues, growing and treating produce at an experimental farm had the advantage that all such samples contain pesticide residues. Pesticides were applied under normal field conditions to a variety of food crops and the vegetation was allowed to undergo natural weathering prior to harvest. The resulting samples contained field-incurred or \"field-fortified\" residues. This experimental design was employed to mimic as closely as possible real world samples. Crops were treated, harvested, and divided into equal subsamples. One subsample was processed unwashed, whereas the other was rinsed under tap water. The extraction and analysis method used was a multi-residue method developed in our laboratory. Twelve pesticides were included in this study: the fungicides captan, chlorothalonil, iprodione, and vinclozolin; and the insecticides endosulfan, permethrin, methoxychlor, malathion, diazinon, chlorpyrifos, bifenthrin, and DDE (a soil metabolite of DDT). Statistical analysis of the data using the Wilcoxon signed-rank test showed that rinsing removed residues for nine of the twelve pesticides studied. Residues of vinclozolin, bifenthrin, and chlorpyrifos were not reduced.",
+      "target": "The rinsability of a pesticide is not correlated with its water solubility.",
+      "loss_target": 3.6011545658111572,
+      "loss_target_given_context": 1.8838227987289429,
+      "delta_loss": 1.7173317670822144,
+      "gain_ratio": 0.4768836593092434,
+      "score": -0.4768836593092434,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

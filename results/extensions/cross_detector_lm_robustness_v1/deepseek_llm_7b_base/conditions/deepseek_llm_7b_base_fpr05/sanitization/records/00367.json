@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1455",
+  "source_doc_id": "MED-1455",
+  "title": "Lipotoxicity: Effects of Dietary Saturated and Transfatty Acids",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Lipotoxicity: Effects of Dietary Saturated and Transfatty Acids\nThe ingestion of excessive amounts of saturated fatty acids (SFAs) and transfatty acids (TFAs) is considered to be a risk factor for cardiovascular diseases, insulin resistance, dyslipidemia, and obesity. The focus of this paper was to elucidate the influence of dietary SFA and TFA intake on the promotion of lipotoxicity to the liver and cardiovascular, endothelial, and gut microbiota systems, as well as on insulin resistance and endoplasmic reticulum stress. The saturated and transfatty acids favor a proinflammatory state leading to insulin resistance. These fatty acids can be involved in several inflammatory pathways, contributing to disease progression in chronic inflammation, autoimmunity, allergy, cancer, atherosclerosis, hypertension, and heart hypertrophy as well as other metabolic and degenerative diseases. As a consequence, lipotoxicity may occur in several target organs by direct effects, represented by inflammation pathways, and through indirect effects, including an important alteration in the gut microbiota associated with endotoxemia. Interactions between these pathways may perpetuate a feedback process that exacerbates an inflammatory state. The importance of lifestyle modification, including an improved diet, is recommended as a strategy for treatment of these diseases.",
+  "sanitized_text": "Lipotoxicity: Effects of Dietary Saturated and Transfatty Acids\nThe ingestion of excessive amounts of saturated fatty acids (SFAs) and transfatty acids (TFAs) is considered to be a risk factor for cardiovascular diseases, insulin resistance, dyslipidemia, and obesity. The focus of this paper was to elucidate the influence of dietary SFA and TFA intake on the promotion of lipotoxicity to the liver and cardiovascular, endothelial, and gut microbiota systems, as well as on insulin resistance and endoplasmic reticulum stress. The saturated and transfatty acids favor a proinflammatory state leading to insulin resistance. These fatty acids can be involved in several inflammatory pathways, contributing to disease progression in chronic inflammation, autoimmunity, allergy, cancer, atherosclerosis, hypertension, and heart hypertrophy as well as other metabolic and degenerative diseases. As a consequence, lipotoxicity may occur in several target organs by direct effects, represented by inflammation pathways, and through indirect effects, including an important alteration in the gut microbiota associated with endotoxemia. Interactions between these pathways may perpetuate a feedback process that exacerbates an inflammatory state. The importance of lifestyle modification, including an improved diet, is recommended as a strategy for treatment of these diseases.",
+  "modified": false,
+  "original_char_count": 1370,
+  "sanitized_char_count": 1370,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1239,
+      "boundary_end": 1370,
+      "context": "and Transfatty Acids The ingestion of excessive amounts of saturated fatty acids (SFAs) and transfatty acids (TFAs) is considered to be a risk factor for cardiovascular diseases, insulin resistance, dyslipidemia, and obesity. The focus of this paper was to elucidate the influence of dietary SFA and TFA intake on the promotion of lipotoxicity to the liver and cardiovascular, endothelial, and gut microbiota systems, as well as on insulin resistance and endoplasmic reticulum stress. The saturated and transfatty acids favor a proinflammatory state leading to insulin resistance. These fatty acids can be involved in several inflammatory pathways, contributing to disease progression in chronic inflammation, autoimmunity, allergy, cancer, atherosclerosis, hypertension, and heart hypertrophy as well as other metabolic and degenerative diseases. As a consequence, lipotoxicity may occur in several target organs by direct effects, represented by inflammation pathways, and through indirect effects, including an important alteration in the gut microbiota associated with endotoxemia. Interactions between these pathways may perpetuate a feedback process that exacerbates an inflammatory state.",
+      "target": "The importance of lifestyle modification, including an improved diet, is recommended as a strategy for treatment of these diseases.",
+      "loss_target": 3.20894193649292,
+      "loss_target_given_context": 2.4576165676116943,
+      "delta_loss": 0.7513253688812256,
+      "gain_ratio": 0.23413492165032923,
+      "score": -0.23413492165032923,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

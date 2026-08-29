@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5126",
+  "source_doc_id": "MED-5126",
+  "title": "Pathogen detection, testing, and control in fresh broccoli sprouts",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Pathogen detection, testing, and control in fresh broccoli sprouts\nBackground The recent increased interest in consuming green vegetable sprouts has been tempered by the fact that fresh sprouts can in some cases be vehicles for food-borne illnesses. They must be grown according to proper conditions of sanitation and handled as a food product rather than as an agricultural commodity. When sprouts are grown in accordance with the criteria proposed from within the sprout industry, developed by regulatory agencies, and adhered to by many sprouters, green sprouts can be produced with very low risk. Contamination may occur when these guidelines are not followed. Methods A one year program of microbial hold-and-release testing, conducted in concert with strict seed and facility cleaning procedures by 13 U.S. broccoli sprout growers was evaluated. Microbial contamination tests were performed on 6839 drums of sprouts, equivalent to about 5 million consumer packages of fresh green sprouts. Results Only 24 (0.75%) of the 3191 sprout samples gave an initial positive test for Escherichia coli O157:H7 or Salmonella spp., and when re-tested, 3 drums again tested positive. Composite testing (e.g., pooling up to 7 drums for pathogen testing) was equally sensitive to single drum testing. Conclusion By using a \"test-and-re-test\" protocol, growers were able to minimize crop destruction. By pooling drums for testing, they were also able to reduce testing costs which now represent a substantial portion of the costs associated with sprout growing. The test-and-hold scheme described herein allowed those few batches of contaminated sprouts to be found prior to packaging and shipping. These events were isolated, and only safe sprouts entered the food supply.",
+  "sanitized_text": "Pathogen detection, testing, and control in fresh broccoli sprouts\nBackground The recent increased interest in consuming green vegetable sprouts has been tempered by the fact that fresh sprouts can in some cases be vehicles for food-borne illnesses. They must be grown according to proper conditions of sanitation and handled as a food product rather than as an agricultural commodity. When sprouts are grown in accordance with the criteria proposed from within the sprout industry, developed by regulatory agencies, and adhered to by many sprouters, green sprouts can be produced with very low risk. Contamination may occur when these guidelines are not followed. Methods A one year program of microbial hold-and-release testing, conducted in concert with strict seed and facility cleaning procedures by 13 U.S. broccoli sprout growers was evaluated. Microbial contamination tests were performed on 6839 drums of sprouts, equivalent to about 5 million consumer packages of fresh green sprouts. Results Only 24 (0.75%) of the 3191 sprout samples gave an initial positive test for Escherichia coli O157:H7 or Salmonella spp., and when re-tested, 3 drums again tested positive. Composite testing (e.g., pooling up to 7 drums for pathogen testing) was equally sensitive to single drum testing. Conclusion By using a \"test-and-re-test\" protocol, growers were able to minimize crop destruction. By pooling drums for testing, they were also able to reduce testing costs which now represent a substantial portion of the costs associated with sprout growing. The test-and-hold scheme described herein allowed those few batches of contaminated sprouts to be found prior to packaging and shipping. These events were isolated, and only safe sprouts entered the food supply.",
+  "modified": false,
+  "original_char_count": 1762,
+  "sanitized_char_count": 1762,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1688,
+      "boundary_end": 1762,
+      "context": "by regulatory agencies, and adhered to by many sprouters, green sprouts can be produced with very low risk. Contamination may occur when these guidelines are not followed. Methods A one year program of microbial hold-and-release testing, conducted in concert with strict seed and facility cleaning procedures by 13 U.S. broccoli sprout growers was evaluated. Microbial contamination tests were performed on 6839 drums of sprouts, equivalent to about 5 million consumer packages of fresh green sprouts. Results Only 24 (0.75%) of the 3191 sprout samples gave an initial positive test for Escherichia coli O157:H7 or Salmonella spp., and when re-tested, 3 drums again tested positive. Composite testing (e.g., pooling up to 7 drums for pathogen testing) was equally sensitive to single drum testing. Conclusion By using a \"test-and-re-test\" protocol, growers were able to minimize crop destruction. By pooling drums for testing, they were also able to reduce testing costs which now represent a substantial portion of the costs associated with sprout growing. The test-and-hold scheme described herein allowed those few batches of contaminated sprouts to be found prior to packaging and shipping.",
+      "target": "These events were isolated, and only safe sprouts entered the food supply.",
+      "loss_target": 4.949478626251221,
+      "loss_target_given_context": 2.5540804862976074,
+      "delta_loss": 2.3953981399536133,
+      "gain_ratio": 0.4839697917370156,
+      "score": -0.4839697917370156,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4809",
+  "source_doc_id": "MED-4809",
+  "title": "Food Reservoir for Escherichia coli Causing Urinary Tract Infections",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Food Reservoir for Escherichia coli Causing Urinary Tract Infections\nClosely related strains of Escherichia coli have been shown to cause extraintestinal infections in unrelated persons. This study tests whether a food reservoir may exist for these E. coli. Isolates from 3 sources over the same time period (2005–2007) and geographic area were compared. The sources comprised prospectively collected E. coli isolates from women with urinary tract infection (UTI) (n = 353); retail meat (n = 417); and restaurant/ready-to-eat foods (n = 74). E. coli were evaluated for antimicrobial drug susceptibility and O:H serotype and compared by using 4 different genotyping methods. We identified 17 clonal groups that contained E. coli isolates (n = 72) from >1 source. E. coli from retail chicken (O25:H4-ST131 and O114:H4-ST117) and honeydew melon (O2:H7-ST95) were indistinguishable from or closely related to E. coli from human UTIs. This study provides strong support for the role of food reservoirs or foodborne transmission in the dissemination of E. coli causing common community-acquired UTIs.",
+  "sanitized_text": "Food Reservoir for Escherichia coli Causing Urinary Tract Infections\nClosely related strains of Escherichia coli have been shown to cause extraintestinal infections in unrelated persons. This study tests whether a food reservoir may exist for these E. coli. Isolates from 3 sources over the same time period (2005–2007) and geographic area were compared. The sources comprised prospectively collected E. coli isolates from women with urinary tract infection (UTI) (n = 353); retail meat (n = 417); and restaurant/ready-to-eat foods (n = 74). E. coli were evaluated for antimicrobial drug susceptibility and O:H serotype and compared by using 4 different genotyping methods. We identified 17 clonal groups that contained E. coli isolates (n = 72) from >1 source. E. coli from retail chicken (O25:H4-ST131 and O114:H4-ST117) and honeydew melon (O2:H7-ST95) were indistinguishable from or closely related to E. coli from human UTIs. This study provides strong support for the role of food reservoirs or foodborne transmission in the dissemination of E. coli causing common community-acquired UTIs.",
+  "modified": false,
+  "original_char_count": 1094,
+  "sanitized_char_count": 1094,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1050,
+      "boundary_end": 1094,
+      "context": "Food Reservoir for Escherichia coli Causing Urinary Tract Infections Closely related strains of Escherichia coli have been shown to cause extraintestinal infections in unrelated persons. This study tests whether a food reservoir may exist for these E. coli. Isolates from 3 sources over the same time period (2005–2007) and geographic area were compared. The sources comprised prospectively collected E. coli isolates from women with urinary tract infection (UTI) (n = 353); retail meat (n = 417); and restaurant/ready-to-eat foods (n = 74). E. coli were evaluated for antimicrobial drug susceptibility and O:H serotype and compared by using 4 different genotyping methods. We identified 17 clonal groups that contained E. coli isolates (n = 72) from >1 source. E. coli from retail chicken (O25:H4-ST131 and O114:H4-ST117) and honeydew melon (O2:H7-ST95) were indistinguishable from or closely related to E. coli from human UTIs. This study provides strong support for the role of food reservoirs or foodborne transmission in the dissemination of E.",
+      "target": "coli causing common community-acquired UTIs.",
+      "loss_target": 3.865731954574585,
+      "loss_target_given_context": 1.4986863136291504,
+      "delta_loss": 2.3670456409454346,
+      "gain_ratio": 0.6123149946142405,
+      "score": -0.6123149946142405,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

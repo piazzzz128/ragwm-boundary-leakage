@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1571",
+  "source_doc_id": "MED-1571",
+  "title": "Ciguatera in Réunion Island (SW Indian Ocean): epidemiology and clinical patterns.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Ciguatera in Réunion Island (SW Indian Ocean): epidemiology and clinical patterns.\nOne hundred and fifty-nine ichtyosarcotoxic outbreaks, including 477 people, were recorded in the island of Réunion (SW Indian ocean) between 1986 and 1994. Ciguatera outbreaks represented 78.6% of the total cases and its annual incidence rate was estimated to be 0.78/10,000 residents. Symptoms caused by ciguatera poisoning are not different from those reported in Pacific and Caribbean islands, except for the additional symptoms of hallucinatory poisoning in 16% of the patients. Serranidae fish, including species of great commercial value, were the most commonly incriminated accounting for 50% of the outbreaks.",
+  "sanitized_text": "Ciguatera in Réunion Island (SW Indian Ocean): epidemiology and clinical patterns.\nOne hundred and fifty-nine ichtyosarcotoxic outbreaks, including 477 people, were recorded in the island of Réunion (SW Indian ocean) between 1986 and 1994. Ciguatera outbreaks represented 78.6% of the total cases and its annual incidence rate was estimated to be 0.78/10,000 residents. Symptoms caused by ciguatera poisoning are not different from those reported in Pacific and Caribbean islands, except for the additional symptoms of hallucinatory poisoning in 16% of the patients. Serranidae fish, including species of great commercial value, were the most commonly incriminated accounting for 50% of the outbreaks.",
+  "modified": false,
+  "original_char_count": 701,
+  "sanitized_char_count": 701,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 567,
+      "boundary_end": 701,
+      "context": "Ciguatera in Réunion Island (SW Indian Ocean): epidemiology and clinical patterns. One hundred and fifty-nine ichtyosarcotoxic outbreaks, including 477 people, were recorded in the island of Réunion (SW Indian ocean) between 1986 and 1994. Ciguatera outbreaks represented 78.6% of the total cases and its annual incidence rate was estimated to be 0.78/10,000 residents. Symptoms caused by ciguatera poisoning are not different from those reported in Pacific and Caribbean islands, except for the additional symptoms of hallucinatory poisoning in 16% of the patients.",
+      "target": "Serranidae fish, including species of great commercial value, were the most commonly incriminated accounting for 50% of the outbreaks.",
+      "loss_target": 3.067906141281128,
+      "loss_target_given_context": 2.0230021476745605,
+      "delta_loss": 1.0449039936065674,
+      "gain_ratio": 0.3405919038873287,
+      "score": -0.3405919038873287,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

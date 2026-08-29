@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-926",
+  "source_doc_id": "MED-926",
+  "title": "Severe metabolic alkalosis in the emergency department.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Severe metabolic alkalosis in the emergency department.\nA case of severe metabolic alkalosis (MA) resulting from ingestion of baking soda (sodium bicarbonate) is presented. On admission to the emergency department, the patient was alert and stable with an initial examination that was remarkable only for carpopedal spasm. Shortly thereafter, the patient had a sudden, unexpected cardiopulmonary arrest. Following resuscitation, without administration of sodium bicarbonate, the arterial blood gas revealed a pH of 7.73, pO2 of 51 mm Hg, and pCO2 of 52 mm Hg. After admission to the intensive care unit, the patient's MA was corrected using IV 0.25 N hydrochloric acid. The patient remained comatose as a result of severe anoxic encephalopathy and died two weeks after admission. We believe this is the first reported case of severe MA resulting in sudden cardiopulmonary arrest in a previously ambulatory patient.",
+  "sanitized_text": "Severe metabolic alkalosis in the emergency department.\nA case of severe metabolic alkalosis (MA) resulting from ingestion of baking soda (sodium bicarbonate) is presented. On admission to the emergency department, the patient was alert and stable with an initial examination that was remarkable only for carpopedal spasm. Shortly thereafter, the patient had a sudden, unexpected cardiopulmonary arrest. Following resuscitation, without administration of sodium bicarbonate, the arterial blood gas revealed a pH of 7.73, pO2 of 51 mm Hg, and pCO2 of 52 mm Hg. After admission to the intensive care unit, the patient's MA was corrected using IV 0.25 N hydrochloric acid. The patient remained comatose as a result of severe anoxic encephalopathy and died two weeks after admission. We believe this is the first reported case of severe MA resulting in sudden cardiopulmonary arrest in a previously ambulatory patient.",
+  "modified": false,
+  "original_char_count": 914,
+  "sanitized_char_count": 914,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 780,
+      "boundary_end": 914,
+      "context": "Severe metabolic alkalosis in the emergency department. A case of severe metabolic alkalosis (MA) resulting from ingestion of baking soda (sodium bicarbonate) is presented. On admission to the emergency department, the patient was alert and stable with an initial examination that was remarkable only for carpopedal spasm. Shortly thereafter, the patient had a sudden, unexpected cardiopulmonary arrest. Following resuscitation, without administration of sodium bicarbonate, the arterial blood gas revealed a pH of 7.73, pO2 of 51 mm Hg, and pCO2 of 52 mm Hg. After admission to the intensive care unit, the patient's MA was corrected using IV 0.25 N hydrochloric acid. The patient remained comatose as a result of severe anoxic encephalopathy and died two weeks after admission.",
+      "target": "We believe this is the first reported case of severe MA resulting in sudden cardiopulmonary arrest in a previously ambulatory patient.",
+      "loss_target": 2.8357770442962646,
+      "loss_target_given_context": 1.0695064067840576,
+      "delta_loss": 1.766270637512207,
+      "gain_ratio": 0.6228524351252481,
+      "score": -0.6228524351252481,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

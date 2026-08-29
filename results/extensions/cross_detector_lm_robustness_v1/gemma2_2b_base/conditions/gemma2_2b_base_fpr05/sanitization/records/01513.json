@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2983",
+  "source_doc_id": "MED-2983",
+  "title": "Ascorbic acid prevents the dose-dependent inhibitory effects of polyphenols and phytates on nonheme-iron absorption.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Ascorbic acid prevents the dose-dependent inhibitory effects of polyphenols and phytates on nonheme-iron absorption.\nThe effects of maize-bran phytate and of a polyphenol (tannic acid) on iron absorption from a white-bread meal were tested in 199 subjects. The phytate content was varied by adding different concentrations of phytate-free and ordinary maize bran. Iron absorption decreased progressively when maize bran containing increasing amounts of phytate phosphorous (phytate P) (from 10 to 58 mg) was given. The inhibitory effect was overcome by 30 mg ascorbic acid. The inhibitory effects of tannic acid (from 12 to 55 mg) were also dose dependent. Studies suggested that greater than or equal to 50 mg ascorbic acid would be required to overcome the inhibitory effects on iron absorption of any meal containing greater than 100 mg tannic acid. Our findings indicate that it may be possible to predict the bioavailability of iron in a diet if due account is taken of the relative content in the diet of the major promoters and inhibitors of iron absorption.",
+  "sanitized_text": "Ascorbic acid prevents the dose-dependent inhibitory effects of polyphenols and phytates on nonheme-iron absorption.\nThe effects of maize-bran phytate and of a polyphenol (tannic acid) on iron absorption from a white-bread meal were tested in 199 subjects. The phytate content was varied by adding different concentrations of phytate-free and ordinary maize bran. Iron absorption decreased progressively when maize bran containing increasing amounts of phytate phosphorous (phytate P) (from 10 to 58 mg) was given. The inhibitory effect was overcome by 30 mg ascorbic acid. The inhibitory effects of tannic acid (from 12 to 55 mg) were also dose dependent. Studies suggested that greater than or equal to 50 mg ascorbic acid would be required to overcome the inhibitory effects on iron absorption of any meal containing greater than 100 mg tannic acid. Our findings indicate that it may be possible to predict the bioavailability of iron in a diet if due account is taken of the relative content in the diet of the major promoters and inhibitors of iron absorption.",
+  "modified": false,
+  "original_char_count": 1065,
+  "sanitized_char_count": 1065,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 853,
+      "boundary_end": 1065,
+      "context": "Ascorbic acid prevents the dose-dependent inhibitory effects of polyphenols and phytates on nonheme-iron absorption. The effects of maize-bran phytate and of a polyphenol (tannic acid) on iron absorption from a white-bread meal were tested in 199 subjects. The phytate content was varied by adding different concentrations of phytate-free and ordinary maize bran. Iron absorption decreased progressively when maize bran containing increasing amounts of phytate phosphorous (phytate P) (from 10 to 58 mg) was given. The inhibitory effect was overcome by 30 mg ascorbic acid. The inhibitory effects of tannic acid (from 12 to 55 mg) were also dose dependent. Studies suggested that greater than or equal to 50 mg ascorbic acid would be required to overcome the inhibitory effects on iron absorption of any meal containing greater than 100 mg tannic acid.",
+      "target": "Our findings indicate that it may be possible to predict the bioavailability of iron in a diet if due account is taken of the relative content in the diet of the major promoters and inhibitors of iron absorption.",
+      "loss_target": 6.6170477867126465,
+      "loss_target_given_context": 3.586928606033325,
+      "delta_loss": 3.0301191806793213,
+      "gain_ratio": 0.4579261444603661,
+      "score": -0.4579261444603661,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

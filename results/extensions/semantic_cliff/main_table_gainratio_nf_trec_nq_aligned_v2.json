@@ -1,0 +1,80 @@
+[
+  {
+    "Dataset": "NFCorpus",
+    "Construction": "strict v1",
+    "Method": "Contriever + Cosine",
+    "Model": "Contriever",
+    "N": 446,
+    "Inject/Clean": "223 / 223",
+    "ROC-AUC": 0.8346,
+    "PR-AUC": 0.8034,
+    "TPR@FPR=5%": 0.2735,
+    "TPR@FPR=10%": 0.4395,
+    "Best F1": 0.79
+  },
+  {
+    "Dataset": "NFCorpus",
+    "Construction": "strict v1",
+    "Method": "GainRatio",
+    "Model": "Qwen2.5-7B",
+    "N": 446,
+    "Inject/Clean": "223 / 223",
+    "ROC-AUC": 0.9904,
+    "PR-AUC": 0.9909,
+    "TPR@FPR=5%": 0.9462,
+    "TPR@FPR=10%": 0.9686,
+    "Best F1": 0.9513
+  },
+  {
+    "Dataset": "TREC-COVID",
+    "Construction": "strict v3",
+    "Method": "Contriever + Cosine",
+    "Model": "Contriever",
+    "N": 458,
+    "Inject/Clean": "229 / 229",
+    "ROC-AUC": 0.6891,
+    "PR-AUC": 0.6641,
+    "TPR@FPR=5%": 0.1397,
+    "TPR@FPR=10%": 0.2271,
+    "Best F1": 0.7099
+  },
+  {
+    "Dataset": "TREC-COVID",
+    "Construction": "strict v3",
+    "Method": "GainRatio",
+    "Model": "Qwen2.5-7B",
+    "N": 458,
+    "Inject/Clean": "229 / 229",
+    "ROC-AUC": 0.9779,
+    "PR-AUC": 0.9781,
+    "TPR@FPR=5%": 0.8996,
+    "TPR@FPR=10%": 0.9432,
+    "Best F1": 0.9318
+  },
+  {
+    "Dataset": "Natural Questions",
+    "Construction": "sampled strict v2",
+    "Method": "Contriever + Cosine",
+    "Model": "Contriever",
+    "N": 442,
+    "Inject/Clean": "221 / 221",
+    "ROC-AUC": 0.8953,
+    "PR-AUC": 0.8646,
+    "TPR@FPR=5%": 0.5068,
+    "TPR@FPR=10%": 0.6471,
+    "Best F1": 0.8373
+  },
+  {
+    "Dataset": "Natural Questions",
+    "Construction": "sampled strict v2",
+    "Method": "GainRatio",
+    "Model": "Qwen2.5-7B",
+    "N": 442,
+    "Inject/Clean": "221 / 221",
+    "ROC-AUC": 0.9652,
+    "PR-AUC": 0.9667,
+    "TPR@FPR=5%": 0.8597,
+    "TPR@FPR=10%": 0.9276,
+    "Best F1": 0.9182
+  }
+]

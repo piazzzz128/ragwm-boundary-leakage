@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-904",
+  "source_doc_id": "MED-904",
+  "title": "A systematic review and meta-analysis of the effects of pasteurization on milk vitamins, and evidence for raw milk consumption and other health-rel...",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A systematic review and meta-analysis of the effects of pasteurization on milk vitamins, and evidence for raw milk consumption and other health-rel...\nPasteurization of milk ensures safety for human consumption by reducing the number of viable pathogenic bacteria. Although the public health benefits of pasteurization are well established, pro-raw milk advocate organizations continue to promote raw milk as \"nature's perfect food.\" Advocacy groups' claims include statements that pasteurization destroys important vitamins and that raw milk consumption can prevent and treat allergies, cancer, and lactose intolerance. A systematic review and meta-analysis was completed to summarize available evidence for these selected claims. Forty studies assessing the effects of pasteurization on vitamin levels were found. Qualitatively, vitamins B12 and E decreased following pasteurization, and vitamin A increased. Random effects meta-analysis revealed no significant effect of pasteurization on vitamin B6 concentrations (standardized mean difference [SMD], -2.66; 95% confidence interval [CI], -5.40, 0.8; P = 0.06) but a decrease in concentrations of vitamins B1 (SMD, -1.77; 95% CI, -2.57, -0.96; P < 0.001), B2 (SMD, -0.41; 95% CI, -0.81, -0.01; P < 0.05), C (SMD, -2.13; 95% CI, -3.52, -0.74; P < 0.01), and folate (SMD, -11.99; 95% CI, -20.95, -3.03; P < 0.01). The effect of pasteurization on milk's nutritive value was minimal because many of these vitamins are naturally found in relatively low levels. However, milk is an important dietary source of vitamin B2, and the impact of heat treatment should be further considered. Raw milk consumption may have a protective association with allergy development (six studies), although this relationship may be potentially confounded by other farming-related factors. Raw milk consumption was not associated with cancer (two studies) or lactose intolerance (one study). Overall, these findings should be interpreted with caution given the poor quality of reported methodology in many of the included studies.",
+  "sanitized_text": "A systematic review and meta-analysis of the effects of pasteurization on milk vitamins, and evidence for raw milk consumption and other health-rel...\nPasteurization of milk ensures safety for human consumption by reducing the number of viable pathogenic bacteria. Although the public health benefits of pasteurization are well established, pro-raw milk advocate organizations continue to promote raw milk as \"nature's perfect food.\" Advocacy groups' claims include statements that pasteurization destroys important vitamins and that raw milk consumption can prevent and treat allergies, cancer, and lactose intolerance. A systematic review and meta-analysis was completed to summarize available evidence for these selected claims. Forty studies assessing the effects of pasteurization on vitamin levels were found. Qualitatively, vitamins B12 and E decreased following pasteurization, and vitamin A increased. Random effects meta-analysis revealed no significant effect of pasteurization on vitamin B6 concentrations (standardized mean difference [SMD], -2.66; 95% confidence interval [CI], -5.40, 0.8; P = 0.06) but a decrease in concentrations of vitamins B1 (SMD, -1.77; 95% CI, -2.57, -0.96; P < 0.001), B2 (SMD, -0.41; 95% CI, -0.81, -0.01; P < 0.05), C (SMD, -2.13; 95% CI, -3.52, -0.74; P < 0.01), and folate (SMD, -11.99; 95% CI, -20.95, -3.03; P < 0.01). The effect of pasteurization on milk's nutritive value was minimal because many of these vitamins are naturally found in relatively low levels. However, milk is an important dietary source of vitamin B2, and the impact of heat treatment should be further considered. Raw milk consumption may have a protective association with allergy development (six studies), although this relationship may be potentially confounded by other farming-related factors. Raw milk consumption was not associated with cancer (two studies) or lactose intolerance (one study). Overall, these findings should be interpreted with caution given the poor quality of reported methodology in many of the included studies.",
+  "modified": false,
+  "original_char_count": 2058,
+  "sanitized_char_count": 2058,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1920,
+      "boundary_end": 2058,
+      "context": "claims. Forty studies assessing the effects of pasteurization on vitamin levels were found. Qualitatively, vitamins B12 and E decreased following pasteurization, and vitamin A increased. Random effects meta-analysis revealed no significant effect of pasteurization on vitamin B6 concentrations (standardized mean difference [SMD], -2.66; 95% confidence interval [CI], -5.40, 0.8; P = 0.06) but a decrease in concentrations of vitamins B1 (SMD, -1.77; 95% CI, -2.57, -0.96; P < 0.001), B2 (SMD, -0.41; 95% CI, -0.81, -0.01; P < 0.05), C (SMD, -2.13; 95% CI, -3.52, -0.74; P < 0.01), and folate (SMD, -11.99; 95% CI, -20.95, -3.03; P < 0.01). The effect of pasteurization on milk's nutritive value was minimal because many of these vitamins are naturally found in relatively low levels. However, milk is an important dietary source of vitamin B2, and the impact of heat treatment should be further considered. Raw milk consumption may have a protective association with allergy development (six studies), although this relationship may be potentially confounded by other farming-related factors. Raw milk consumption was not associated with cancer (two studies) or lactose intolerance (one study).",
+      "target": "Overall, these findings should be interpreted with caution given the poor quality of reported methodology in many of the included studies.",
+      "loss_target": 2.110819101333618,
+      "loss_target_given_context": 1.5765169858932495,
+      "delta_loss": 0.5343021154403687,
+      "gain_ratio": 0.2531254881589786,
+      "score": -0.2531254881589786,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

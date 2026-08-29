@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4525",
+  "source_doc_id": "MED-4525",
+  "title": "Studies on the antidiarrhoeal effect of dragon's blood from Croton urucurana.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Studies on the antidiarrhoeal effect of dragon's blood from Croton urucurana.\nThe red sap obtained by slashing the bark of Croton urucurana Baill. (Euphorbiaceae), also known as dragon's blood, was screened for a possible antidiarrhoeal activity on castor oil-induced diarrhoea in rats, cholera toxin-induced intestinal secretion in mice and on small intestinal transit in mice. Dragon's blood at an oral dose of 600 mg/kg caused in marked inhibition of the diarrhoeal response following castor oil administration as well as the intestinal fluid accumulation promoted by cholera toxin. At a similar dose the red sap significantly inhibited the small intestinal transit which was, however, found to be independent of the opioid mechanism. These results suggest a potential usefulness of the red sap from Croton urucurana Baill. in the control of secretory diarrhoea associated pathologies. Copyright 2001 John Wiley & Sons, Ltd.",
+  "sanitized_text": "Studies on the antidiarrhoeal effect of dragon's blood from Croton urucurana.\nThe red sap obtained by slashing the bark of Croton urucurana Baill. (Euphorbiaceae), also known as dragon's blood, was screened for a possible antidiarrhoeal activity on castor oil-induced diarrhoea in rats, cholera toxin-induced intestinal secretion in mice and on small intestinal transit in mice. Dragon's blood at an oral dose of 600 mg/kg caused in marked inhibition of the diarrhoeal response following castor oil administration as well as the intestinal fluid accumulation promoted by cholera toxin. At a similar dose the red sap significantly inhibited the small intestinal transit which was, however, found to be independent of the opioid mechanism. These results suggest a potential usefulness of the red sap from Croton urucurana Baill. in the control of secretory diarrhoea associated pathologies. Copyright 2001 John Wiley & Sons, Ltd.",
+  "modified": false,
+  "original_char_count": 927,
+  "sanitized_char_count": 927,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 889,
+      "boundary_end": 927,
+      "context": "Studies on the antidiarrhoeal effect of dragon's blood from Croton urucurana. The red sap obtained by slashing the bark of Croton urucurana Baill. (Euphorbiaceae), also known as dragon's blood, was screened for a possible antidiarrhoeal activity on castor oil-induced diarrhoea in rats, cholera toxin-induced intestinal secretion in mice and on small intestinal transit in mice. Dragon's blood at an oral dose of 600 mg/kg caused in marked inhibition of the diarrhoeal response following castor oil administration as well as the intestinal fluid accumulation promoted by cholera toxin. At a similar dose the red sap significantly inhibited the small intestinal transit which was, however, found to be independent of the opioid mechanism. These results suggest a potential usefulness of the red sap from Croton urucurana Baill. in the control of secretory diarrhoea associated pathologies.",
+      "target": "Copyright 2001 John Wiley & Sons, Ltd.",
+      "loss_target": 6.157617568969727,
+      "loss_target_given_context": 4.3560662269592285,
+      "delta_loss": 1.801551342010498,
+      "gain_ratio": 0.2925727883928862,
+      "score": -0.2925727883928862,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5151",
+  "source_doc_id": "MED-5151",
+  "title": "The emerging role of flavonoid-rich cocoa and chocolate in cardiovascular health and disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The emerging role of flavonoid-rich cocoa and chocolate in cardiovascular health and disease.\nCocoa and chocolate have recently been found to be rich plant-derived sources of antioxidant flavonoids with beneficial cardiovascular properties. These favorable physiological effects include: antioxidant activity, vasodilation and blood pressure reduction, inhibition of platelet activity, and decreased inflammation. Increasing evidence from experimental and clinical studies using cocoa-derived products and chocolate suggest an important role for these high-flavanol-containing foods in heart and vascular protection.",
+  "sanitized_text": "The emerging role of flavonoid-rich cocoa and chocolate in cardiovascular health and disease.\nCocoa and chocolate have recently been found to be rich plant-derived sources of antioxidant flavonoids with beneficial cardiovascular properties. These favorable physiological effects include: antioxidant activity, vasodilation and blood pressure reduction, inhibition of platelet activity, and decreased inflammation. Increasing evidence from experimental and clinical studies using cocoa-derived products and chocolate suggest an important role for these high-flavanol-containing foods in heart and vascular protection.",
+  "modified": false,
+  "original_char_count": 616,
+  "sanitized_char_count": 616,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 414,
+      "boundary_end": 616,
+      "context": "The emerging role of flavonoid-rich cocoa and chocolate in cardiovascular health and disease. Cocoa and chocolate have recently been found to be rich plant-derived sources of antioxidant flavonoids with beneficial cardiovascular properties. These favorable physiological effects include: antioxidant activity, vasodilation and blood pressure reduction, inhibition of platelet activity, and decreased inflammation.",
+      "target": "Increasing evidence from experimental and clinical studies using cocoa-derived products and chocolate suggest an important role for these high-flavanol-containing foods in heart and vascular protection.",
+      "loss_target": 2.7252964973449707,
+      "loss_target_given_context": 2.099388837814331,
+      "delta_loss": 0.6259076595306396,
+      "gain_ratio": 0.22966589512018576,
+      "score": -0.22966589512018576,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

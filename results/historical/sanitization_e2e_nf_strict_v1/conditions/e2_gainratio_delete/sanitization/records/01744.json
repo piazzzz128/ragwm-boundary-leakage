@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3379",
+  "source_doc_id": "MED-3379",
+  "title": "The urban rise and fall of air lead (Pb) and the latent surge and retreat of societal violence.",
+  "original_text": "The urban rise and fall of air lead (Pb) and the latent surge and retreat of societal violence.\nWe evaluate air Pb emissions and latent aggravated assault behavior at the scale of the city. We accomplish this by regressing annual Federal Bureau of Investigation aggravated assault rate records against the rise and fall of annual vehicle Pb emissions in Chicago (Illinois), Indianapolis (Indiana), Minneapolis (Minnesota), San Diego (California), Atlanta (Georgia), and New Orleans (Louisiana). Other things held equal, a 1% increase in tonnages of air Pb released 22 years prior raises the present period aggravated assault rate by 0.46% (95% CI, 0.28 to 0.64). Overall our model explains 90% of the variation in aggravated assault across the cities examined. In the case of New Orleans, 85% of temporal variation in the aggravated assault rate is explained by the annual rise and fall of air Pb (total=10,179 metric tons) released on the population of New Orleans 22 years earlier. For every metric ton of Pb released 22 years prior, a latent increase of 1.59 (95% CI, 1.36 to 1.83, p<0.001) aggravated assaults per 100,000 were reported. Vehicles consuming fuel containing Pb additives contributed much larger quantities of Pb dust than generally recognized. Our findings along with others predict that prevention of children's lead exposure from lead dust now will realize numerous societal benefits two decades into the future, including lower rates of aggravated assault. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "The urban rise and fall of air lead (Pb) and the latent surge and retreat of societal violence.\nWe evaluate air Pb emissions and latent aggravated assault behavior at the scale of the city. We accomplish this by regressing annual Federal Bureau of Investigation aggravated assault rate records against the rise and fall of annual vehicle Pb emissions in Chicago (Illinois), Indianapolis (Indiana), Minneapolis (Minnesota), San Diego (California), Atlanta (Georgia), and New Orleans (Louisiana). Other things held equal, a 1% increase in tonnages of air Pb released 22 years prior raises the present period aggravated assault rate by 0.46% (95% CI, 0.28 to 0.64). Overall our model explains 90% of the variation in aggravated assault across the cities examined. In the case of New Orleans, 85% of temporal variation in the aggravated assault rate is explained by the annual rise and fall of air Pb (total=10,179 metric tons) released on the population of New Orleans 22 years earlier. For every metric ton of Pb released 22 years prior, a latent increase of 1.59 (95% CI, 1.36 to 1.83, p<0.001) aggravated assaults per 100,000 were reported. Vehicles consuming fuel containing Pb additives contributed much larger quantities of Pb dust than generally recognized. Our findings along with others predict that prevention of children's lead exposure from lead dust now will realize numerous societal benefits two decades into the future, including lower rates of aggravated assault.",
+  "modified": true,
+  "original_char_count": 1529,
+  "sanitized_char_count": 1477,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1478,
+      "boundary_end": 1508,
+      "context": "rate records against the rise and fall of annual vehicle Pb emissions in Chicago (Illinois), Indianapolis (Indiana), Minneapolis (Minnesota), San Diego (California), Atlanta (Georgia), and New Orleans (Louisiana). Other things held equal, a 1% increase in tonnages of air Pb released 22 years prior raises the present period aggravated assault rate by 0.46% (95% CI, 0.28 to 0.64). Overall our model explains 90% of the variation in aggravated assault across the cities examined. In the case of New Orleans, 85% of temporal variation in the aggravated assault rate is explained by the annual rise and fall of air Pb (total=10,179 metric tons) released on the population of New Orleans 22 years earlier. For every metric ton of Pb released 22 years prior, a latent increase of 1.59 (95% CI, 1.36 to 1.83, p<0.001) aggravated assaults per 100,000 were reported. Vehicles consuming fuel containing Pb additives contributed much larger quantities of Pb dust than generally recognized. Our findings along with others predict that prevention of children's lead exposure from lead dust now will realize numerous societal benefits two decades into the future, including lower rates of aggravated assault.",
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "loss_target": 1.1579636335372925,
+      "loss_target_given_context": 1.371625304222107,
+      "delta_loss": -0.21366167068481445,
+      "gain_ratio": -0.18451500936357637,
+      "score": 0.18451500936357637,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1262,
+      "boundary_end": 1477,
+      "context": "and retreat of societal violence. We evaluate air Pb emissions and latent aggravated assault behavior at the scale of the city. We accomplish this by regressing annual Federal Bureau of Investigation aggravated assault rate records against the rise and fall of annual vehicle Pb emissions in Chicago (Illinois), Indianapolis (Indiana), Minneapolis (Minnesota), San Diego (California), Atlanta (Georgia), and New Orleans (Louisiana). Other things held equal, a 1% increase in tonnages of air Pb released 22 years prior raises the present period aggravated assault rate by 0.46% (95% CI, 0.28 to 0.64). Overall our model explains 90% of the variation in aggravated assault across the cities examined. In the case of New Orleans, 85% of temporal variation in the aggravated assault rate is explained by the annual rise and fall of air Pb (total=10,179 metric tons) released on the population of New Orleans 22 years earlier. For every metric ton of Pb released 22 years prior, a latent increase of 1.59 (95% CI, 1.36 to 1.83, p<0.001) aggravated assaults per 100,000 were reported. Vehicles consuming fuel containing Pb additives contributed much larger quantities of Pb dust than generally recognized.",
+      "target": "Our findings along with others predict that prevention of children's lead exposure from lead dust now will realize numerous societal benefits two decades into the future, including lower rates of aggravated assault.",
+      "loss_target": 3.9736690521240234,
+      "loss_target_given_context": 3.1682424545288086,
+      "delta_loss": 0.8054265975952148,
+      "gain_ratio": 0.20269091034762812,
+      "score": -0.20269091034762812,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1478,
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "score": 0.18451500936357637,
+      "deleted_suffix": "Copyright © 2012 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

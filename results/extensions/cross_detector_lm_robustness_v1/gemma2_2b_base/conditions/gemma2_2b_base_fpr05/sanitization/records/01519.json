@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2989",
+  "source_doc_id": "MED-2989",
+  "title": "Phytate levels and bone parameters: a retrospective pilot clinical trial.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Phytate levels and bone parameters: a retrospective pilot clinical trial.\nThis study evaluated the relationship between phytate urinary levels and bone characteristics in a large population of postmenopausal women. The study population consisted of 180 postmenopausal women who participated in a descriptive cross-sectional study. A urine sample was collected from each subject to determine phytate levels and the volunteers were divided into two groups according to phytate urinary concentration (i.e., low and high levels). Bone mineral density was determined in the lumbar spine and femoral neck of groups with low and high phytate urinary levels. Urinary levels of phytate were linked to dietary phytate consumption. Hence, bone mineral density values were significantly higher in the lumbar spines and femoral necks of women who consumed high levels of phytate than in women with low urinary phytate concentrations. Higher urinary levels of phytate correlated with higher bone mineral density in the lumbar spine and femoral necks of postmenopausal women. This finding demonstrates the potential use of phytate in the treatment of bone related diseases, as it uses a mechanism of action similar to some bisphosphonates.",
+  "sanitized_text": "Phytate levels and bone parameters: a retrospective pilot clinical trial.\nThis study evaluated the relationship between phytate urinary levels and bone characteristics in a large population of postmenopausal women. The study population consisted of 180 postmenopausal women who participated in a descriptive cross-sectional study. A urine sample was collected from each subject to determine phytate levels and the volunteers were divided into two groups according to phytate urinary concentration (i.e., low and high levels). Bone mineral density was determined in the lumbar spine and femoral neck of groups with low and high phytate urinary levels. Urinary levels of phytate were linked to dietary phytate consumption. Hence, bone mineral density values were significantly higher in the lumbar spines and femoral necks of women who consumed high levels of phytate than in women with low urinary phytate concentrations. Higher urinary levels of phytate correlated with higher bone mineral density in the lumbar spine and femoral necks of postmenopausal women. This finding demonstrates the potential use of phytate in the treatment of bone related diseases, as it uses a mechanism of action similar to some bisphosphonates.",
+  "modified": false,
+  "original_char_count": 1224,
+  "sanitized_char_count": 1224,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1061,
+      "boundary_end": 1224,
+      "context": "Phytate levels and bone parameters: a retrospective pilot clinical trial. This study evaluated the relationship between phytate urinary levels and bone characteristics in a large population of postmenopausal women. The study population consisted of 180 postmenopausal women who participated in a descriptive cross-sectional study. A urine sample was collected from each subject to determine phytate levels and the volunteers were divided into two groups according to phytate urinary concentration (i.e., low and high levels). Bone mineral density was determined in the lumbar spine and femoral neck of groups with low and high phytate urinary levels. Urinary levels of phytate were linked to dietary phytate consumption. Hence, bone mineral density values were significantly higher in the lumbar spines and femoral necks of women who consumed high levels of phytate than in women with low urinary phytate concentrations. Higher urinary levels of phytate correlated with higher bone mineral density in the lumbar spine and femoral necks of postmenopausal women.",
+      "target": "This finding demonstrates the potential use of phytate in the treatment of bone related diseases, as it uses a mechanism of action similar to some bisphosphonates.",
+      "loss_target": 8.542119026184082,
+      "loss_target_given_context": 4.516452312469482,
+      "delta_loss": 4.0256667137146,
+      "gain_ratio": 0.4712726082807742,
+      "score": -0.4712726082807742,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

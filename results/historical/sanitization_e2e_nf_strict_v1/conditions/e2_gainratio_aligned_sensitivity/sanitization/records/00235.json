@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1299",
+  "source_doc_id": "MED-1299",
+  "title": "Baker's yeast beta-glucan supplement reduces upper respiratory symptoms and improves mood state in stressed women.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Baker's yeast beta-glucan supplement reduces upper respiratory symptoms and improves mood state in stressed women.\nOBJECTIVE: Several studies have shown a baker's yeast beta-1,3/1,6-d-glucan, extracted from Saccharomyces cerevisiae, is effective in reducing the incidence of cold and flu symptoms. This study evaluated the effect of a specific beta-glucan supplement (Wellmune) on upper respiratory tract symptoms and psychological well-being in women with moderate levels of psychological stress. METHODS: Healthy women (38 ± 12 years old) prescreened for moderate levels of psychological stress, self-administered a placebo (n = 38) or 250 mg of Wellmune (n = 39) daily for 12 weeks. We used the Profile of Mood States (POMS) psychological survey to assess changes in mental/physical energy levels (vigor) and overall well-being (global mood state). A quantitative health perception log was used to track upper respiratory symptoms. RESULTS: Subjects in the Wellmune group reported fewer upper respiratory symptoms compared to placebo (10% vs 29%), better overall well-being (global mood state: 99 ± 19 vs 108 ± 23, p < 0.05), and superior mental/physical energy levels (vigor: 19.9 ± 4.7 vs 15.8 ± 6.3, p < 0.05). CONCLUSIONS: These data show that daily dietary supplementation with Wellmune reduces upper respiratory symptoms and improves mood state in stressed subjects, and thus it may be a useful approach for maintaining immune protection against daily stressors.",
+  "sanitized_text": "Baker's yeast beta-glucan supplement reduces upper respiratory symptoms and improves mood state in stressed women.\nOBJECTIVE: Several studies have shown a baker's yeast beta-1,3/1,6-d-glucan, extracted from Saccharomyces cerevisiae, is effective in reducing the incidence of cold and flu symptoms. This study evaluated the effect of a specific beta-glucan supplement (Wellmune) on upper respiratory tract symptoms and psychological well-being in women with moderate levels of psychological stress. METHODS: Healthy women (38 ± 12 years old) prescreened for moderate levels of psychological stress, self-administered a placebo (n = 38) or 250 mg of Wellmune (n = 39) daily for 12 weeks. We used the Profile of Mood States (POMS) psychological survey to assess changes in mental/physical energy levels (vigor) and overall well-being (global mood state). A quantitative health perception log was used to track upper respiratory symptoms. RESULTS: Subjects in the Wellmune group reported fewer upper respiratory symptoms compared to placebo (10% vs 29%), better overall well-being (global mood state: 99 ± 19 vs 108 ± 23, p < 0.05), and superior mental/physical energy levels (vigor: 19.9 ± 4.7 vs 15.8 ± 6.3, p < 0.05). CONCLUSIONS: These data show that daily dietary supplementation with Wellmune reduces upper respiratory symptoms and improves mood state in stressed subjects, and thus it may be a useful approach for maintaining immune protection against daily stressors.",
+  "modified": false,
+  "original_char_count": 1471,
+  "sanitized_char_count": 1471,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1217,
+      "boundary_end": 1471,
+      "context": "supplement reduces upper respiratory symptoms and improves mood state in stressed women. OBJECTIVE: Several studies have shown a baker's yeast beta-1,3/1,6-d-glucan, extracted from Saccharomyces cerevisiae, is effective in reducing the incidence of cold and flu symptoms. This study evaluated the effect of a specific beta-glucan supplement (Wellmune) on upper respiratory tract symptoms and psychological well-being in women with moderate levels of psychological stress. METHODS: Healthy women (38 ± 12 years old) prescreened for moderate levels of psychological stress, self-administered a placebo (n = 38) or 250 mg of Wellmune (n = 39) daily for 12 weeks. We used the Profile of Mood States (POMS) psychological survey to assess changes in mental/physical energy levels (vigor) and overall well-being (global mood state). A quantitative health perception log was used to track upper respiratory symptoms. RESULTS: Subjects in the Wellmune group reported fewer upper respiratory symptoms compared to placebo (10% vs 29%), better overall well-being (global mood state: 99 ± 19 vs 108 ± 23, p < 0.05), and superior mental/physical energy levels (vigor: 19.9 ± 4.7 vs 15.8 ± 6.3, p < 0.05).",
+      "target": "CONCLUSIONS: These data show that daily dietary supplementation with Wellmune reduces upper respiratory symptoms and improves mood state in stressed subjects, and thus it may be a useful approach for maintaining immune protection against daily stressors.",
+      "loss_target": 2.559011459350586,
+      "loss_target_given_context": 1.6647080183029175,
+      "delta_loss": 0.8943034410476685,
+      "gain_ratio": 0.3494722299034255,
+      "score": -0.3494722299034255,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

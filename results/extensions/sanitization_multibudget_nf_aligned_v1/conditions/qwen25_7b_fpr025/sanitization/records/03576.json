@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-938",
+  "source_doc_id": "MED-938",
+  "title": "Study of cytotoxic and apoptogenic properties of saffron extract in human cancer cell lines.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Study of cytotoxic and apoptogenic properties of saffron extract in human cancer cell lines.\nSaffron (dried stigmas of Crocus sativus L.) has been used as a spice, food colorant and medicinal plant for millennia. In this study cytotoxic effect of saffron extract was evaluated in HepG2 and HeLa cell lines. Meanwhile role of apoptosis and ROS were explored. Malignant and non-malignant cells (L929) were cultured in DMEM medium and incubated with different concentrations of ethanolic saffron extract. Cell viability was quantitated by MTT assay. Apoptotic cells were determined using PI staining of DNA fragmentation by flow cytometry (sub-G1 peak). ROS was measured using DCF-DA by flow cytometry analysis. Saffron could decrease cell viability in malignant cells as a concentration and time-dependent manner. The IC50 values against HeLa and HepG2 were determined 800 and 950 microg/ml after 48 h, respectively. Saffron induced a sub-G1 peak in flow cytometry histogram of treated cells compared to control indicating apoptotic cell death is involved in saffron toxicity. This toxicity was also independent of ROS production. It might be concluded that saffron could cause cell death in HeLa and HepG2 cells, in which apoptosis or programmed cell death plays an important role. Saffron could be also considered as a promising chemotherapeutic agent in cancer treatment in future.",
+  "sanitized_text": "Study of cytotoxic and apoptogenic properties of saffron extract in human cancer cell lines.\nSaffron (dried stigmas of Crocus sativus L.) has been used as a spice, food colorant and medicinal plant for millennia. In this study cytotoxic effect of saffron extract was evaluated in HepG2 and HeLa cell lines. Meanwhile role of apoptosis and ROS were explored. Malignant and non-malignant cells (L929) were cultured in DMEM medium and incubated with different concentrations of ethanolic saffron extract. Cell viability was quantitated by MTT assay. Apoptotic cells were determined using PI staining of DNA fragmentation by flow cytometry (sub-G1 peak). ROS was measured using DCF-DA by flow cytometry analysis. Saffron could decrease cell viability in malignant cells as a concentration and time-dependent manner. The IC50 values against HeLa and HepG2 were determined 800 and 950 microg/ml after 48 h, respectively. Saffron induced a sub-G1 peak in flow cytometry histogram of treated cells compared to control indicating apoptotic cell death is involved in saffron toxicity. This toxicity was also independent of ROS production. It might be concluded that saffron could cause cell death in HeLa and HepG2 cells, in which apoptosis or programmed cell death plays an important role. Saffron could be also considered as a promising chemotherapeutic agent in cancer treatment in future.",
+  "modified": false,
+  "original_char_count": 1382,
+  "sanitized_char_count": 1382,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1281,
+      "boundary_end": 1382,
+      "context": "cell lines. Saffron (dried stigmas of Crocus sativus L.) has been used as a spice, food colorant and medicinal plant for millennia. In this study cytotoxic effect of saffron extract was evaluated in HepG2 and HeLa cell lines. Meanwhile role of apoptosis and ROS were explored. Malignant and non-malignant cells (L929) were cultured in DMEM medium and incubated with different concentrations of ethanolic saffron extract. Cell viability was quantitated by MTT assay. Apoptotic cells were determined using PI staining of DNA fragmentation by flow cytometry (sub-G1 peak). ROS was measured using DCF-DA by flow cytometry analysis. Saffron could decrease cell viability in malignant cells as a concentration and time-dependent manner. The IC50 values against HeLa and HepG2 were determined 800 and 950 microg/ml after 48 h, respectively. Saffron induced a sub-G1 peak in flow cytometry histogram of treated cells compared to control indicating apoptotic cell death is involved in saffron toxicity. This toxicity was also independent of ROS production. It might be concluded that saffron could cause cell death in HeLa and HepG2 cells, in which apoptosis or programmed cell death plays an important role.",
+      "target": "Saffron could be also considered as a promising chemotherapeutic agent in cancer treatment in future.",
+      "loss_target": 3.4241509437561035,
+      "loss_target_given_context": 1.461243987083435,
+      "delta_loss": 1.9629069566726685,
+      "gain_ratio": 0.5732536295609295,
+      "score": -0.5732536295609295,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

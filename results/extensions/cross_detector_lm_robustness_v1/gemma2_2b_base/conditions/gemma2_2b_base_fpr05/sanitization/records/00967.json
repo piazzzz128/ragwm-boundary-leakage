@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2173",
+  "source_doc_id": "MED-2173",
+  "title": "MPTP: an industrial chemical and contaminant of illicit narcotics stimulates a new era in research on Parkinson's disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "MPTP: an industrial chemical and contaminant of illicit narcotics stimulates a new era in research on Parkinson's disease.\nMPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) causes selective destruction of dopaminergic neurons of the nigrostriatal pathway in humans and other primates. It is less specific and much less potent in mice and has only slight effects in rats. Differences in rates and sites of metabolism of MPTP to its active, toxic, highly polar metabolite, MPP+ (1-methyl-4-phenylpyridine), appear to influence species specificity. In rats, type B monoamine oxidase (MAO-B), which mediates the conversion of MPTP to MPP+, may act as an enzymatic barrier at brain microvessels, whereas in primates the enzyme, present mainly in astrocytes, appears important for bioactivation of MPTP into the toxic metabolite. MPP+ is a substrate for catecholamine uptake sites and is concentrated in these neurons. The molecular mechanism of MPP+ toxicity has not been established definitively, but conversion to a free radical or uptake by mitochondria and inhibition of mitochondrial respiratory enzymes, leading to calcium release and cell death have been suggested. The discovery of toxin which causes an animal model of Parkinson's disease has stimulated new research on environmental factors that might contribute to this progressive degenerative disorder and provides a means for assessing new approaches to therapy.",
+  "sanitized_text": "MPTP: an industrial chemical and contaminant of illicit narcotics stimulates a new era in research on Parkinson's disease.\nMPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) causes selective destruction of dopaminergic neurons of the nigrostriatal pathway in humans and other primates. It is less specific and much less potent in mice and has only slight effects in rats. Differences in rates and sites of metabolism of MPTP to its active, toxic, highly polar metabolite, MPP+ (1-methyl-4-phenylpyridine), appear to influence species specificity. In rats, type B monoamine oxidase (MAO-B), which mediates the conversion of MPTP to MPP+, may act as an enzymatic barrier at brain microvessels, whereas in primates the enzyme, present mainly in astrocytes, appears important for bioactivation of MPTP into the toxic metabolite. MPP+ is a substrate for catecholamine uptake sites and is concentrated in these neurons. The molecular mechanism of MPP+ toxicity has not been established definitively, but conversion to a free radical or uptake by mitochondria and inhibition of mitochondrial respiratory enzymes, leading to calcium release and cell death have been suggested. The discovery of toxin which causes an animal model of Parkinson's disease has stimulated new research on environmental factors that might contribute to this progressive degenerative disorder and provides a means for assessing new approaches to therapy.",
+  "modified": false,
+  "original_char_count": 1423,
+  "sanitized_char_count": 1423,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1170,
+      "boundary_end": 1423,
+      "context": "MPTP: an industrial chemical and contaminant of illicit narcotics stimulates a new era in research on Parkinson's disease. MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) causes selective destruction of dopaminergic neurons of the nigrostriatal pathway in humans and other primates. It is less specific and much less potent in mice and has only slight effects in rats. Differences in rates and sites of metabolism of MPTP to its active, toxic, highly polar metabolite, MPP+ (1-methyl-4-phenylpyridine), appear to influence species specificity. In rats, type B monoamine oxidase (MAO-B), which mediates the conversion of MPTP to MPP+, may act as an enzymatic barrier at brain microvessels, whereas in primates the enzyme, present mainly in astrocytes, appears important for bioactivation of MPTP into the toxic metabolite. MPP+ is a substrate for catecholamine uptake sites and is concentrated in these neurons. The molecular mechanism of MPP+ toxicity has not been established definitively, but conversion to a free radical or uptake by mitochondria and inhibition of mitochondrial respiratory enzymes, leading to calcium release and cell death have been suggested.",
+      "target": "The discovery of toxin which causes an animal model of Parkinson's disease has stimulated new research on environmental factors that might contribute to this progressive degenerative disorder and provides a means for assessing new approaches to therapy.",
+      "loss_target": 7.652868747711182,
+      "loss_target_given_context": 4.594747066497803,
+      "delta_loss": 3.058121681213379,
+      "gain_ratio": 0.399604616520831,
+      "score": -0.399604616520831,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

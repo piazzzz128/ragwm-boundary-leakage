@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3535",
+  "source_doc_id": "MED-3535",
+  "title": "Cherries and health: a review.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cherries and health: a review.\nCherries, and in particular sweet cherries, are a nutritionally dense food rich in anthocyanins, quercetin, hydroxycinnamates, potassium, fiber, vitamin C, carotenoids, and melatonin. UV concentration, degree of ripeness, postharvest storage conditions, and processing, each can significantly alter the amounts of nutrients and bioactive components. These constituent nutrients and bioactive food components support the potential preventive health benefits of cherry intake in relation to cancer, cardiovascular disease, diabetes, inflammatory diseases, and Alzheimer's disease. Mechanistically, cherries exhibit relatively high antioxidant activity, low glycemic response, COX 1 and 2 enzyme inhibition, and other anti-carcinogenic effects in vitro and in animal experiments. Well-designed cherry feeding studies are needed to further substantiate any health benefits in humans.",
+  "sanitized_text": "Cherries and health: a review.\nCherries, and in particular sweet cherries, are a nutritionally dense food rich in anthocyanins, quercetin, hydroxycinnamates, potassium, fiber, vitamin C, carotenoids, and melatonin. UV concentration, degree of ripeness, postharvest storage conditions, and processing, each can significantly alter the amounts of nutrients and bioactive components. These constituent nutrients and bioactive food components support the potential preventive health benefits of cherry intake in relation to cancer, cardiovascular disease, diabetes, inflammatory diseases, and Alzheimer's disease. Mechanistically, cherries exhibit relatively high antioxidant activity, low glycemic response, COX 1 and 2 enzyme inhibition, and other anti-carcinogenic effects in vitro and in animal experiments. Well-designed cherry feeding studies are needed to further substantiate any health benefits in humans.",
+  "modified": false,
+  "original_char_count": 910,
+  "sanitized_char_count": 910,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 808,
+      "boundary_end": 910,
+      "context": "Cherries and health: a review. Cherries, and in particular sweet cherries, are a nutritionally dense food rich in anthocyanins, quercetin, hydroxycinnamates, potassium, fiber, vitamin C, carotenoids, and melatonin. UV concentration, degree of ripeness, postharvest storage conditions, and processing, each can significantly alter the amounts of nutrients and bioactive components. These constituent nutrients and bioactive food components support the potential preventive health benefits of cherry intake in relation to cancer, cardiovascular disease, diabetes, inflammatory diseases, and Alzheimer's disease. Mechanistically, cherries exhibit relatively high antioxidant activity, low glycemic response, COX 1 and 2 enzyme inhibition, and other anti-carcinogenic effects in vitro and in animal experiments.",
+      "target": "Well-designed cherry feeding studies are needed to further substantiate any health benefits in humans.",
+      "loss_target": 3.8266148567199707,
+      "loss_target_given_context": 1.9356811046600342,
+      "delta_loss": 1.8909337520599365,
+      "gain_ratio": 0.49415314131738186,
+      "score": -0.49415314131738186,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

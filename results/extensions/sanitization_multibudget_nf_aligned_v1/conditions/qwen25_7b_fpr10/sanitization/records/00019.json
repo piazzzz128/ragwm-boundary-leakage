@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1019",
+  "source_doc_id": "MED-1019",
+  "title": "Diabetic retinopathy.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diabetic retinopathy.\nDiabetic retinopathy is a common and specific microvascular complication of diabetes, and remains the leading cause of preventable blindness in working-aged people. It is identified in a third of people with diabetes and associated with increased risk of life-threatening systemic vascular complications, including stroke, coronary heart disease, and heart failure. Optimum control of blood glucose, blood pressure, and possibly blood lipids remains the foundation for reduction of risk of retinopathy development and progression. Timely laser therapy is effective for preservation of sight in proliferative retinopathy and macular oedema, but its ability to reverse visual loss is poor. Vitrectomy surgery might occasionally be needed for advanced retinopathy. New therapies, such as intraocular injection of steroids and antivascular endothelial growth-factor agents, are less destructive to the retina than are older therapies, and could be useful in patients who respond poorly to conventional therapy. The outlook for future treatment modalities, such as inhibition of other angiogenic factors, regenerative therapy, and topical therapy, is promising. Copyright 2010 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Diabetic retinopathy.\nDiabetic retinopathy is a common and specific microvascular complication of diabetes, and remains the leading cause of preventable blindness in working-aged people. It is identified in a third of people with diabetes and associated with increased risk of life-threatening systemic vascular complications, including stroke, coronary heart disease, and heart failure. Optimum control of blood glucose, blood pressure, and possibly blood lipids remains the foundation for reduction of risk of retinopathy development and progression. Timely laser therapy is effective for preservation of sight in proliferative retinopathy and macular oedema, but its ability to reverse visual loss is poor. Vitrectomy surgery might occasionally be needed for advanced retinopathy. New therapies, such as intraocular injection of steroids and antivascular endothelial growth-factor agents, are less destructive to the retina than are older therapies, and could be useful in patients who respond poorly to conventional therapy. The outlook for future treatment modalities, such as inhibition of other angiogenic factors, regenerative therapy, and topical therapy, is promising. Copyright 2010 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1228,
+  "sanitized_char_count": 1228,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1179,
+      "boundary_end": 1207,
+      "context": "Diabetic retinopathy. Diabetic retinopathy is a common and specific microvascular complication of diabetes, and remains the leading cause of preventable blindness in working-aged people. It is identified in a third of people with diabetes and associated with increased risk of life-threatening systemic vascular complications, including stroke, coronary heart disease, and heart failure. Optimum control of blood glucose, blood pressure, and possibly blood lipids remains the foundation for reduction of risk of retinopathy development and progression. Timely laser therapy is effective for preservation of sight in proliferative retinopathy and macular oedema, but its ability to reverse visual loss is poor. Vitrectomy surgery might occasionally be needed for advanced retinopathy. New therapies, such as intraocular injection of steroids and antivascular endothelial growth-factor agents, are less destructive to the retina than are older therapies, and could be useful in patients who respond poorly to conventional therapy. The outlook for future treatment modalities, such as inhibition of other angiogenic factors, regenerative therapy, and topical therapy, is promising.",
+      "target": "Copyright 2010 Elsevier Ltd.",
+      "loss_target": 1.519086480140686,
+      "loss_target_given_context": 0.7514586448669434,
+      "delta_loss": 0.7676278352737427,
+      "gain_ratio": 0.5053220111620313,
+      "score": -0.5053220111620313,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

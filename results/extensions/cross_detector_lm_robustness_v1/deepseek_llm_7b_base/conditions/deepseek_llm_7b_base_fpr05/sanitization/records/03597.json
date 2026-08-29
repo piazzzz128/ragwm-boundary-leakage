@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-959",
+  "source_doc_id": "MED-959",
+  "title": "Neurologic abnormalities in cobalamin deficiency are associated with higher cobalamin \"analogue\" values than are hematologic abnormalities.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Neurologic abnormalities in cobalamin deficiency are associated with higher cobalamin \"analogue\" values than are hematologic abnormalities.\nSerum cobalamin \"analogue\" levels were estimated by the discrepancy in cobalamin results with radioassays done with pure intrinsic factor and R binder in 364 patients with low cobalamin levels. No differences were found among the various causes of low cobalamin levels, except for the lower \"analogue\" levels among pregnant women. However, 76 patients with low cobalamin levels and primarily neurologic (spinal cord, neuropathic, cerebral, or a combination of these) symptoms had significantly higher \"analogue\" levels than 19 patients with primarily hematologic abnormalities. Moreover, the \"analogue\" levels correlated with hemoglobin values and were significantly higher in patients without megaloblastic changes in their bone marrow than in patients with megaloblastosis. An analysis limited to 47 patients with pernicious anemia yielded similar findings. The seven patients with only neurologic abnormalities had higher \"analogue\" levels than did the nine patients with only hematologic abnormalities. Because of the higher \"analogue\" levels, the assay done with R binder failed to register low cobalamin levels in 33 of 76 patients with low cobalamin levels and primarily neurologic abnormality (compared with only two of 19 with hematologic abnormality) and in 10 of 20 patients with pernicious anemia who had neurologic abnormalities (compared with only two of 12 without such abnormalities). These differences between patients with hematologic disturbances and patients with neurologic disturbances, and the inverse relationship of \"analogue\" level with severity of anemia, suggest that the disproportionate accumulation of analogues may explain why some patients with cobalamin deficiency display neurologic abnormalities while others do not.",
+  "sanitized_text": "Neurologic abnormalities in cobalamin deficiency are associated with higher cobalamin \"analogue\" values than are hematologic abnormalities.\nSerum cobalamin \"analogue\" levels were estimated by the discrepancy in cobalamin results with radioassays done with pure intrinsic factor and R binder in 364 patients with low cobalamin levels. No differences were found among the various causes of low cobalamin levels, except for the lower \"analogue\" levels among pregnant women. However, 76 patients with low cobalamin levels and primarily neurologic (spinal cord, neuropathic, cerebral, or a combination of these) symptoms had significantly higher \"analogue\" levels than 19 patients with primarily hematologic abnormalities. Moreover, the \"analogue\" levels correlated with hemoglobin values and were significantly higher in patients without megaloblastic changes in their bone marrow than in patients with megaloblastosis. An analysis limited to 47 patients with pernicious anemia yielded similar findings. The seven patients with only neurologic abnormalities had higher \"analogue\" levels than did the nine patients with only hematologic abnormalities. Because of the higher \"analogue\" levels, the assay done with R binder failed to register low cobalamin levels in 33 of 76 patients with low cobalamin levels and primarily neurologic abnormality (compared with only two of 19 with hematologic abnormality) and in 10 of 20 patients with pernicious anemia who had neurologic abnormalities (compared with only two of 12 without such abnormalities). These differences between patients with hematologic disturbances and patients with neurologic disturbances, and the inverse relationship of \"analogue\" level with severity of anemia, suggest that the disproportionate accumulation of analogues may explain why some patients with cobalamin deficiency display neurologic abnormalities while others do not.",
+  "modified": false,
+  "original_char_count": 1892,
+  "sanitized_char_count": 1892,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1541,
+      "boundary_end": 1892,
+      "context": "were found among the various causes of low cobalamin levels, except for the lower \"analogue\" levels among pregnant women. However, 76 patients with low cobalamin levels and primarily neurologic (spinal cord, neuropathic, cerebral, or a combination of these) symptoms had significantly higher \"analogue\" levels than 19 patients with primarily hematologic abnormalities. Moreover, the \"analogue\" levels correlated with hemoglobin values and were significantly higher in patients without megaloblastic changes in their bone marrow than in patients with megaloblastosis. An analysis limited to 47 patients with pernicious anemia yielded similar findings. The seven patients with only neurologic abnormalities had higher \"analogue\" levels than did the nine patients with only hematologic abnormalities. Because of the higher \"analogue\" levels, the assay done with R binder failed to register low cobalamin levels in 33 of 76 patients with low cobalamin levels and primarily neurologic abnormality (compared with only two of 19 with hematologic abnormality) and in 10 of 20 patients with pernicious anemia who had neurologic abnormalities (compared with only two of 12 without such abnormalities).",
+      "target": "These differences between patients with hematologic disturbances and patients with neurologic disturbances, and the inverse relationship of \"analogue\" level with severity of anemia, suggest that the disproportionate accumulation of analogues may explain why some patients with cobalamin deficiency display neurologic abnormalities while others do not.",
+      "loss_target": 2.8248443603515625,
+      "loss_target_given_context": 1.8087965250015259,
+      "delta_loss": 1.0160478353500366,
+      "gain_ratio": 0.35968276681395134,
+      "score": -0.35968276681395134,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

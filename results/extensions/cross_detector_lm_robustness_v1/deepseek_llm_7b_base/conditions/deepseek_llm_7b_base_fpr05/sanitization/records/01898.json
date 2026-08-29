@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3562",
+  "source_doc_id": "MED-3562",
+  "title": "CT evaluation of cervical cancer: spectrum of disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "CT evaluation of cervical cancer: spectrum of disease.\nInvasive cervical cancer is the third most common gynecologic malignancy. The prognosis is based on the stage, size, and histologic grade of the primary tumor and the status of the lymph nodes. Assessment of the stage of disease is important in determining whether the patient may benefit from surgery or will receive radiation therapy. The official clinical staging system of the International Federation of Gynecology and Obstetrics has led to errors of 65%-90% in stage III and IV disease; the result has been unofficial extended staging with cross-sectional imaging modalities such as computed tomography (CT). CT is useful in staging advanced disease and in monitoring patients for recurrence. The primary tumor is heterogeneous and hypoattenuating relative to normal stroma on contrast material-enhanced scans. Obliteration of the periureteral fat plane and a soft-tissue mass are the most reliable signs of parametrial extension. Less than 3 mm separation of the tumor from the pelvic muscles and vascular encasement are signs of pelvic side wall invasion. Lymphatic spread is along the external and internal iliac nodal chains and the presacral route to the paraaortic nodes. Distant metastases are seen with primary or recurrent disease and can involve the liver, lung, and bone.",
+  "sanitized_text": "CT evaluation of cervical cancer: spectrum of disease.\nInvasive cervical cancer is the third most common gynecologic malignancy. The prognosis is based on the stage, size, and histologic grade of the primary tumor and the status of the lymph nodes. Assessment of the stage of disease is important in determining whether the patient may benefit from surgery or will receive radiation therapy. The official clinical staging system of the International Federation of Gynecology and Obstetrics has led to errors of 65%-90% in stage III and IV disease; the result has been unofficial extended staging with cross-sectional imaging modalities such as computed tomography (CT). CT is useful in staging advanced disease and in monitoring patients for recurrence. The primary tumor is heterogeneous and hypoattenuating relative to normal stroma on contrast material-enhanced scans. Obliteration of the periureteral fat plane and a soft-tissue mass are the most reliable signs of parametrial extension. Less than 3 mm separation of the tumor from the pelvic muscles and vascular encasement are signs of pelvic side wall invasion. Lymphatic spread is along the external and internal iliac nodal chains and the presacral route to the paraaortic nodes. Distant metastases are seen with primary or recurrent disease and can involve the liver, lung, and bone.",
+  "modified": false,
+  "original_char_count": 1343,
+  "sanitized_char_count": 1343,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1239,
+      "boundary_end": 1343,
+      "context": "of disease. Invasive cervical cancer is the third most common gynecologic malignancy. The prognosis is based on the stage, size, and histologic grade of the primary tumor and the status of the lymph nodes. Assessment of the stage of disease is important in determining whether the patient may benefit from surgery or will receive radiation therapy. The official clinical staging system of the International Federation of Gynecology and Obstetrics has led to errors of 65%-90% in stage III and IV disease; the result has been unofficial extended staging with cross-sectional imaging modalities such as computed tomography (CT). CT is useful in staging advanced disease and in monitoring patients for recurrence. The primary tumor is heterogeneous and hypoattenuating relative to normal stroma on contrast material-enhanced scans. Obliteration of the periureteral fat plane and a soft-tissue mass are the most reliable signs of parametrial extension. Less than 3 mm separation of the tumor from the pelvic muscles and vascular encasement are signs of pelvic side wall invasion. Lymphatic spread is along the external and internal iliac nodal chains and the presacral route to the paraaortic nodes.",
+      "target": "Distant metastases are seen with primary or recurrent disease and can involve the liver, lung, and bone.",
+      "loss_target": 2.653862476348877,
+      "loss_target_given_context": 1.5939369201660156,
+      "delta_loss": 1.0599255561828613,
+      "gain_ratio": 0.39938978211149906,
+      "score": -0.39938978211149906,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

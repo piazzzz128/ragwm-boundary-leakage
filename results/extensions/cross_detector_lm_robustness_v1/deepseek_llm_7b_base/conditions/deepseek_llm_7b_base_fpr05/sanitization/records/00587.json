@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1706",
+  "source_doc_id": "MED-1706",
+  "title": "The glycemic index: physiological mechanisms relating to obesity, diabetes, and cardiovascular disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The glycemic index: physiological mechanisms relating to obesity, diabetes, and cardiovascular disease.\nThe glycemic index was proposed in 1981 as an alternative system for classifying carbohydrate-containing food. Since then, several hundred scientific articles and numerous popular diet books have been published on the topic. However, the clinical significance of the glycemic index remains the subject of debate. The purpose of this review is to examine the physiological effects of the glycemic index and the relevance of these effects in preventing and treating obesity, diabetes, and cardiovascular disease. There is a direct relationship where food products result in pharmacological treatment. The connection between food products and polycyclic aromatic hydrocarbons is significant.",
+  "sanitized_text": "The glycemic index: physiological mechanisms relating to obesity, diabetes, and cardiovascular disease.\nThe glycemic index was proposed in 1981 as an alternative system for classifying carbohydrate-containing food. Since then, several hundred scientific articles and numerous popular diet books have been published on the topic. However, the clinical significance of the glycemic index remains the subject of debate. The purpose of this review is to examine the physiological effects of the glycemic index and the relevance of these effects in preventing and treating obesity, diabetes, and cardiovascular disease. There is a direct relationship where food products result in pharmacological treatment. The connection between food products and polycyclic aromatic hydrocarbons is significant.",
+  "modified": false,
+  "original_char_count": 792,
+  "sanitized_char_count": 792,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 703,
+      "boundary_end": 792,
+      "context": "The glycemic index: physiological mechanisms relating to obesity, diabetes, and cardiovascular disease. The glycemic index was proposed in 1981 as an alternative system for classifying carbohydrate-containing food. Since then, several hundred scientific articles and numerous popular diet books have been published on the topic. However, the clinical significance of the glycemic index remains the subject of debate. The purpose of this review is to examine the physiological effects of the glycemic index and the relevance of these effects in preventing and treating obesity, diabetes, and cardiovascular disease. There is a direct relationship where food products result in pharmacological treatment.",
+      "target": "The connection between food products and polycyclic aromatic hydrocarbons is significant.",
+      "loss_target": 3.3146586418151855,
+      "loss_target_given_context": 2.5632646083831787,
+      "delta_loss": 0.7513940334320068,
+      "gain_ratio": 0.22668820974594406,
+      "score": -0.22668820974594406,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

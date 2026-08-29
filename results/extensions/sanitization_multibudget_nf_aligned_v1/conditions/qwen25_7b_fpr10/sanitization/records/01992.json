@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3678",
+  "source_doc_id": "MED-3678",
+  "title": "Mood and gut feelings.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Mood and gut feelings.\nEvidence is accumulating to suggest that gut microbes (microbiota) may be involved in neural development and function, both peripherally in the enteric nervous system and centrally in the brain. There is an increasing and intense current interest in the role that gut bacteria play in maintaining the health of the host. Altogether the mass of intestinal bacteria represents a virtual inner organ with 100 times the total genetic material contained in all the cells in the human body. Surprisingly, the characterization of this extraordinarily diverse population is only just beginning, since some 60% of these microbes have never been cultured. Commensal organisms live in a state of harmonious symbiosis with each other and their host, however, a disordered balance amongst gut microbes is now thought to be an associated or even causal factor for chronic medical conditions as varied as obesity and inflammatory bowel diseases. While evidence is still limited in psychiatric illnesses, there are rapidly coalescing clusters of evidence which point to the possibility that variations in the composition of gut microbes may be associated with changes in the normal functioning of the nervous system. This review focuses on these data and suggests that the concept should be explored further to increase our understanding of mood disorders, and possibly even uncover missing links to a number of co-morbid medical diseases.",
+  "sanitized_text": "Mood and gut feelings.\nEvidence is accumulating to suggest that gut microbes (microbiota) may be involved in neural development and function, both peripherally in the enteric nervous system and centrally in the brain. There is an increasing and intense current interest in the role that gut bacteria play in maintaining the health of the host. Altogether the mass of intestinal bacteria represents a virtual inner organ with 100 times the total genetic material contained in all the cells in the human body. Surprisingly, the characterization of this extraordinarily diverse population is only just beginning, since some 60% of these microbes have never been cultured. Commensal organisms live in a state of harmonious symbiosis with each other and their host, however, a disordered balance amongst gut microbes is now thought to be an associated or even causal factor for chronic medical conditions as varied as obesity and inflammatory bowel diseases. While evidence is still limited in psychiatric illnesses, there are rapidly coalescing clusters of evidence which point to the possibility that variations in the composition of gut microbes may be associated with changes in the normal functioning of the nervous system.",
+  "modified": true,
+  "original_char_count": 1446,
+  "sanitized_char_count": 1223,
+  "deleted_char_count": 223,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1224,
+      "boundary_end": 1446,
+      "context": "is accumulating to suggest that gut microbes (microbiota) may be involved in neural development and function, both peripherally in the enteric nervous system and centrally in the brain. There is an increasing and intense current interest in the role that gut bacteria play in maintaining the health of the host. Altogether the mass of intestinal bacteria represents a virtual inner organ with 100 times the total genetic material contained in all the cells in the human body. Surprisingly, the characterization of this extraordinarily diverse population is only just beginning, since some 60% of these microbes have never been cultured. Commensal organisms live in a state of harmonious symbiosis with each other and their host, however, a disordered balance amongst gut microbes is now thought to be an associated or even causal factor for chronic medical conditions as varied as obesity and inflammatory bowel diseases. While evidence is still limited in psychiatric illnesses, there are rapidly coalescing clusters of evidence which point to the possibility that variations in the composition of gut microbes may be associated with changes in the normal functioning of the nervous system.",
+      "target": "This review focuses on these data and suggests that the concept should be explored further to increase our understanding of mood disorders, and possibly even uncover missing links to a number of co-morbid medical diseases.",
+      "loss_target": 3.1968345642089844,
+      "loss_target_given_context": 2.61112904548645,
+      "delta_loss": 0.5857055187225342,
+      "gain_ratio": 0.18321420985619863,
+      "score": -0.18321420985619863,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 954,
+      "boundary_end": 1223,
+      "context": "Mood and gut feelings. Evidence is accumulating to suggest that gut microbes (microbiota) may be involved in neural development and function, both peripherally in the enteric nervous system and centrally in the brain. There is an increasing and intense current interest in the role that gut bacteria play in maintaining the health of the host. Altogether the mass of intestinal bacteria represents a virtual inner organ with 100 times the total genetic material contained in all the cells in the human body. Surprisingly, the characterization of this extraordinarily diverse population is only just beginning, since some 60% of these microbes have never been cultured. Commensal organisms live in a state of harmonious symbiosis with each other and their host, however, a disordered balance amongst gut microbes is now thought to be an associated or even causal factor for chronic medical conditions as varied as obesity and inflammatory bowel diseases.",
+      "target": "While evidence is still limited in psychiatric illnesses, there are rapidly coalescing clusters of evidence which point to the possibility that variations in the composition of gut microbes may be associated with changes in the normal functioning of the nervous system.",
+      "loss_target": 2.796816349029541,
+      "loss_target_given_context": 2.2175467014312744,
+      "delta_loss": 0.5792696475982666,
+      "gain_ratio": 0.20711751338240914,
+      "score": -0.20711751338240914,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1224,
+      "target": "This review focuses on these data and suggests that the concept should be explored further to increase our understanding of mood disorders, and possibly even uncover missing links to a number of co-morbid medical diseases.",
+      "score": -0.18321420985619863,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "This review focuses on these data and suggests that the concept should be explored further to increase our understanding of mood disorders, and possibly even uncover missing links to a number of co-morbid medical diseases.",
+      "deleted_char_count": 222
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

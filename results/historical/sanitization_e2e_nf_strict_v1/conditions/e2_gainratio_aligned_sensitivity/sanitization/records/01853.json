@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3516",
+  "source_doc_id": "MED-3516",
+  "title": "Secretion, pain and sneezing induced by the application of capsaicin to the nasal mucosa in man.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Secretion, pain and sneezing induced by the application of capsaicin to the nasal mucosa in man.\n1. Topical application of capsaicin to the human nasal mucosa induced a burning sensation and sneezing. A dose-dependent seromucous nasal secretion was also observed. Capsaicin (75 micrograms) was more potent than methacholine (50 mg) in producing nasal secretion, while topical histamine (200 micrograms), substance P (135 micrograms) and calcitonin gene-related peptide (36 micrograms) did not induce rhinorrhea. 2. Pretreatment with either topical ipratropium bromide, systemic dexchlorpheniramine or indomethacin did not influence the effects induced by capsaicin. Topical pretreatment with lidocaine inhibited the painful sensation but failed to block the rhinorrhea. Desensitization to the effects of capsaicin occurred following 4-5 subsequent applications, and full recovery was observed within 30-40 days. 3. It is proposed that the effects of capsaicin in human nasal mucosa are due to excitation of primary afferent neurones that (a) convey burning and painful sensation, (b) evoke a sneezing reflex and (c) induce nasal secretion by releasing transmitter(s) from their peripheral terminals.",
+  "sanitized_text": "Secretion, pain and sneezing induced by the application of capsaicin to the nasal mucosa in man.\n1. Topical application of capsaicin to the human nasal mucosa induced a burning sensation and sneezing. A dose-dependent seromucous nasal secretion was also observed. Capsaicin (75 micrograms) was more potent than methacholine (50 mg) in producing nasal secretion, while topical histamine (200 micrograms), substance P (135 micrograms) and calcitonin gene-related peptide (36 micrograms) did not induce rhinorrhea. 2. Pretreatment with either topical ipratropium bromide, systemic dexchlorpheniramine or indomethacin did not influence the effects induced by capsaicin. Topical pretreatment with lidocaine inhibited the painful sensation but failed to block the rhinorrhea. Desensitization to the effects of capsaicin occurred following 4-5 subsequent applications, and full recovery was observed within 30-40 days. 3. It is proposed that the effects of capsaicin in human nasal mucosa are due to excitation of primary afferent neurones that (a) convey burning and painful sensation, (b) evoke a sneezing reflex and (c) induce nasal secretion by releasing transmitter(s) from their peripheral terminals.",
+  "modified": false,
+  "original_char_count": 1199,
+  "sanitized_char_count": 1199,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 915,
+      "boundary_end": 1199,
+      "context": "Secretion, pain and sneezing induced by the application of capsaicin to the nasal mucosa in man. 1. Topical application of capsaicin to the human nasal mucosa induced a burning sensation and sneezing. A dose-dependent seromucous nasal secretion was also observed. Capsaicin (75 micrograms) was more potent than methacholine (50 mg) in producing nasal secretion, while topical histamine (200 micrograms), substance P (135 micrograms) and calcitonin gene-related peptide (36 micrograms) did not induce rhinorrhea. 2. Pretreatment with either topical ipratropium bromide, systemic dexchlorpheniramine or indomethacin did not influence the effects induced by capsaicin. Topical pretreatment with lidocaine inhibited the painful sensation but failed to block the rhinorrhea. Desensitization to the effects of capsaicin occurred following 4-5 subsequent applications, and full recovery was observed within 30-40 days. 3.",
+      "target": "It is proposed that the effects of capsaicin in human nasal mucosa are due to excitation of primary afferent neurones that (a) convey burning and painful sensation, (b) evoke a sneezing reflex and (c) induce nasal secretion by releasing transmitter(s) from their peripheral terminals.",
+      "loss_target": 2.303659677505493,
+      "loss_target_given_context": 1.5584697723388672,
+      "delta_loss": 0.745189905166626,
+      "gain_ratio": 0.3234808997366969,
+      "score": -0.3234808997366969,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

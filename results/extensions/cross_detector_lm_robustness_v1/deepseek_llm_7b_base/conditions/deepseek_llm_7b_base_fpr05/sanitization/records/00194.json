@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1248",
+  "source_doc_id": "MED-1248",
+  "title": "Patients' attitudes to rectal drug administration.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Patients' attitudes to rectal drug administration.\nOne hundred adult patients attending for day case surgery were surveyed by anonymous questionnaire in order to determine their attitudes to rectal drug administration. Fifty four patients did not want an analgesic drug (diclofenac sodium) administered rectally whilst under anaesthesia, all preferring to take it orally if available. Ninety eight patients thought that drugs administered per rectum should always be discussed with them beforehand and a few had very strong feelings about this route of administration. We suggest that prescribers of rectal diclofenac should always discuss it with patients pre-operatively. Whilst many are happy to have suppositories, some young patients are sensitive about this and prefer to take such medication by mouth.",
+  "sanitized_text": "Patients' attitudes to rectal drug administration.\nOne hundred adult patients attending for day case surgery were surveyed by anonymous questionnaire in order to determine their attitudes to rectal drug administration. Fifty four patients did not want an analgesic drug (diclofenac sodium) administered rectally whilst under anaesthesia, all preferring to take it orally if available. Ninety eight patients thought that drugs administered per rectum should always be discussed with them beforehand and a few had very strong feelings about this route of administration. We suggest that prescribers of rectal diclofenac should always discuss it with patients pre-operatively. Whilst many are happy to have suppositories, some young patients are sensitive about this and prefer to take such medication by mouth.",
+  "modified": false,
+  "original_char_count": 808,
+  "sanitized_char_count": 808,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 674,
+      "boundary_end": 808,
+      "context": "Patients' attitudes to rectal drug administration. One hundred adult patients attending for day case surgery were surveyed by anonymous questionnaire in order to determine their attitudes to rectal drug administration. Fifty four patients did not want an analgesic drug (diclofenac sodium) administered rectally whilst under anaesthesia, all preferring to take it orally if available. Ninety eight patients thought that drugs administered per rectum should always be discussed with them beforehand and a few had very strong feelings about this route of administration. We suggest that prescribers of rectal diclofenac should always discuss it with patients pre-operatively.",
+      "target": "Whilst many are happy to have suppositories, some young patients are sensitive about this and prefer to take such medication by mouth.",
+      "loss_target": 3.3497374057769775,
+      "loss_target_given_context": 2.7268941402435303,
+      "delta_loss": 0.6228432655334473,
+      "gain_ratio": 0.1859379378393327,
+      "score": -0.1859379378393327,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

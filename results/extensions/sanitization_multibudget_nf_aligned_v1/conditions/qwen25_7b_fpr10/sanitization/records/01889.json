@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3553",
+  "source_doc_id": "MED-3553",
+  "title": "Diet-derived polyphenols inhibit angiogenesis by modulating the interleukin-6/STAT3 pathway.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet-derived polyphenols inhibit angiogenesis by modulating the interleukin-6/STAT3 pathway.\nSeveral epidemiological studies have indicated that abundant consumption of foods from plant origin is associated with a reduced risk of developing several types of cancers. This chemopreventive effect is related to the high content of these foods in phytochemicals, such as polyphenols, that interfere with several processes involved in cancer progression including tumor cell growth, survival and angiogenesis. In addition to the low intake of plant-based foods, increased body mass and physical inactivity have recently emerged as other important lifestyle factors influencing cancer risk, leading to the generation of low-grade chronic inflammatory conditions which are a key process involved in tumor progression. The objectives of the current study are to investigate the inhibitory effects of these polyphenols on angiogenesis triggered by an inflammatory cytokine (IL-6) and to determine the mechanisms underlying this action. We found that, among the tested polyphenols, apigenin and luteolin were the most potent angiogenesis inhibitors through their inhibitory effect on the inflammatory cytokine IL-6/STAT3 pathway. These effects resulted in modulation of the activation of extracellular signal-regulated kinase-1/2 signaling triggered by IL-6, as well as in a marked reduction in the proliferation, migration and morphogenic differentiation of endothelial cells. Interestingly, these polyphenols also modulated the expression of IL-6 signal transducing receptor (IL-6Rα) and the secretion of the extracellular matrix degrading enzyme MMP-2 as well as the expression of suppressor of cytokine signaling (SOCS3) protein. Overall, these results may provide important new information on the role of diet in cancer prevention. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Diet-derived polyphenols inhibit angiogenesis by modulating the interleukin-6/STAT3 pathway.\nSeveral epidemiological studies have indicated that abundant consumption of foods from plant origin is associated with a reduced risk of developing several types of cancers. This chemopreventive effect is related to the high content of these foods in phytochemicals, such as polyphenols, that interfere with several processes involved in cancer progression including tumor cell growth, survival and angiogenesis. In addition to the low intake of plant-based foods, increased body mass and physical inactivity have recently emerged as other important lifestyle factors influencing cancer risk, leading to the generation of low-grade chronic inflammatory conditions which are a key process involved in tumor progression. The objectives of the current study are to investigate the inhibitory effects of these polyphenols on angiogenesis triggered by an inflammatory cytokine (IL-6) and to determine the mechanisms underlying this action. We found that, among the tested polyphenols, apigenin and luteolin were the most potent angiogenesis inhibitors through their inhibitory effect on the inflammatory cytokine IL-6/STAT3 pathway. These effects resulted in modulation of the activation of extracellular signal-regulated kinase-1/2 signaling triggered by IL-6, as well as in a marked reduction in the proliferation, migration and morphogenic differentiation of endothelial cells. Interestingly, these polyphenols also modulated the expression of IL-6 signal transducing receptor (IL-6Rα) and the secretion of the extracellular matrix degrading enzyme MMP-2 as well as the expression of suppressor of cytokine signaling (SOCS3) protein. Overall, these results may provide important new information on the role of diet in cancer prevention. Copyright © 2012 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1879,
+  "sanitized_char_count": 1879,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1828,
+      "boundary_end": 1858,
+      "context": "important lifestyle factors influencing cancer risk, leading to the generation of low-grade chronic inflammatory conditions which are a key process involved in tumor progression. The objectives of the current study are to investigate the inhibitory effects of these polyphenols on angiogenesis triggered by an inflammatory cytokine (IL-6) and to determine the mechanisms underlying this action. We found that, among the tested polyphenols, apigenin and luteolin were the most potent angiogenesis inhibitors through their inhibitory effect on the inflammatory cytokine IL-6/STAT3 pathway. These effects resulted in modulation of the activation of extracellular signal-regulated kinase-1/2 signaling triggered by IL-6, as well as in a marked reduction in the proliferation, migration and morphogenic differentiation of endothelial cells. Interestingly, these polyphenols also modulated the expression of IL-6 signal transducing receptor (IL-6Rα) and the secretion of the extracellular matrix degrading enzyme MMP-2 as well as the expression of suppressor of cytokine signaling (SOCS3) protein. Overall, these results may provide important new information on the role of diet in cancer prevention.",
+      "target": "Copyright © 2012 Elsevier Inc.",
+      "loss_target": 1.084797978401184,
+      "loss_target_given_context": 0.4373483657836914,
+      "delta_loss": 0.6474496126174927,
+      "gain_ratio": 0.5968388819932429,
+      "score": -0.5968388819932429,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

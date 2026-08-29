@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3768",
+  "source_doc_id": "MED-3768",
+  "title": "The positive and negative health effects of alcohol- and the public health implications.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The positive and negative health effects of alcohol- and the public health implications.\nIn this paper, the negative and the positive effects of alcohol on health are reviewed. It is first of all established facts that a high alcohol intake implies an increased risk of a large number of health outcomes, such as dementia, breast cancer, colorectal cancer, cirrhosis, upper digestive tract cancer and alcohol dependency. Second, it is justified that alcohol has beneficial effects for some individuals, especially with regard to prevention of thrombosis of the heart. The public health relevance of these results is considered. The sensible drinking limits, used in both the UK and Denmark, of a maximum of 21 drinks per week for men and 14 drinks per week for women seem valid. A broader public health message of the beneficial effects of alcohol does not seem to be of interest in Western societies, where only a very small fraction of the population are non drinkers and may have very good reasons therefore.",
+  "sanitized_text": "The positive and negative health effects of alcohol- and the public health implications.\nIn this paper, the negative and the positive effects of alcohol on health are reviewed. It is first of all established facts that a high alcohol intake implies an increased risk of a large number of health outcomes, such as dementia, breast cancer, colorectal cancer, cirrhosis, upper digestive tract cancer and alcohol dependency. Second, it is justified that alcohol has beneficial effects for some individuals, especially with regard to prevention of thrombosis of the heart. The public health relevance of these results is considered. The sensible drinking limits, used in both the UK and Denmark, of a maximum of 21 drinks per week for men and 14 drinks per week for women seem valid. A broader public health message of the beneficial effects of alcohol does not seem to be of interest in Western societies, where only a very small fraction of the population are non drinkers and may have very good reasons therefore.",
+  "modified": false,
+  "original_char_count": 1011,
+  "sanitized_char_count": 1011,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 779,
+      "boundary_end": 1011,
+      "context": "The positive and negative health effects of alcohol- and the public health implications. In this paper, the negative and the positive effects of alcohol on health are reviewed. It is first of all established facts that a high alcohol intake implies an increased risk of a large number of health outcomes, such as dementia, breast cancer, colorectal cancer, cirrhosis, upper digestive tract cancer and alcohol dependency. Second, it is justified that alcohol has beneficial effects for some individuals, especially with regard to prevention of thrombosis of the heart. The public health relevance of these results is considered. The sensible drinking limits, used in both the UK and Denmark, of a maximum of 21 drinks per week for men and 14 drinks per week for women seem valid.",
+      "target": "A broader public health message of the beneficial effects of alcohol does not seem to be of interest in Western societies, where only a very small fraction of the population are non drinkers and may have very good reasons therefore.",
+      "loss_target": 3.2477946281433105,
+      "loss_target_given_context": 2.4697539806365967,
+      "delta_loss": 0.7780406475067139,
+      "gain_ratio": 0.23955968174979764,
+      "score": -0.23955968174979764,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

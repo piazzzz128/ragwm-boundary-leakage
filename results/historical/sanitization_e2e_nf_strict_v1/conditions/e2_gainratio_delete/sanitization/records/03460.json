@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-749",
+  "source_doc_id": "MED-749",
+  "title": "Current perception of nutrition education in U.S. medical schools.",
+  "original_text": "Current perception of nutrition education in U.S. medical schools.\nHistorically, physicians have perceived the quality of nutrition training during medical school as inadequate. A literature review suggests that this perception has not significantly changed since the 1950s. Many schools have worked to create clinical nutrition curricula for use during medical school. Interestingly, data suggest that medical students' perception of the importance of clinical nutrition can decrease during medical school. Recent data support the importance of targeted nutritional therapy to reduce morbidity and mortality, yet the number of physicians interested in nutrition appears to be declining, and fewer hours of nutrition training are occurring in medical school. One possible solution to improve both training and awareness of the problem is to implement a certification program for both students and preceptors modeled after the Cardiac Life Support training offered by the American Heart Association.",
+  "sanitized_text": "Current perception of nutrition education in U.S. medical schools.\nHistorically, physicians have perceived the quality of nutrition training during medical school as inadequate. A literature review suggests that this perception has not significantly changed since the 1950s. Many schools have worked to create clinical nutrition curricula for use during medical school. Interestingly, data suggest that medical students' perception of the importance of clinical nutrition can decrease during medical school. Recent data support the importance of targeted nutritional therapy to reduce morbidity and mortality, yet the number of physicians interested in nutrition appears to be declining, and fewer hours of nutrition training are occurring in medical school.",
+  "modified": true,
+  "original_char_count": 998,
+  "sanitized_char_count": 758,
+  "deleted_char_count": 240,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 759,
+      "boundary_end": 998,
+      "context": "Current perception of nutrition education in U.S. medical schools. Historically, physicians have perceived the quality of nutrition training during medical school as inadequate. A literature review suggests that this perception has not significantly changed since the 1950s. Many schools have worked to create clinical nutrition curricula for use during medical school. Interestingly, data suggest that medical students' perception of the importance of clinical nutrition can decrease during medical school. Recent data support the importance of targeted nutritional therapy to reduce morbidity and mortality, yet the number of physicians interested in nutrition appears to be declining, and fewer hours of nutrition training are occurring in medical school.",
+      "target": "One possible solution to improve both training and awareness of the problem is to implement a certification program for both students and preceptors modeled after the Cardiac Life Support training offered by the American Heart Association.",
+      "loss_target": 2.9405627250671387,
+      "loss_target_given_context": 2.9299981594085693,
+      "delta_loss": 0.010564565658569336,
+      "gain_ratio": 0.0035927020255376893,
+      "score": -0.0035927020255376893,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 508,
+      "boundary_end": 758,
+      "context": "Current perception of nutrition education in U.S. medical schools. Historically, physicians have perceived the quality of nutrition training during medical school as inadequate. A literature review suggests that this perception has not significantly changed since the 1950s. Many schools have worked to create clinical nutrition curricula for use during medical school. Interestingly, data suggest that medical students' perception of the importance of clinical nutrition can decrease during medical school.",
+      "target": "Recent data support the importance of targeted nutritional therapy to reduce morbidity and mortality, yet the number of physicians interested in nutrition appears to be declining, and fewer hours of nutrition training are occurring in medical school.",
+      "loss_target": 2.70212721824646,
+      "loss_target_given_context": 2.4090657234191895,
+      "delta_loss": 0.2930614948272705,
+      "gain_ratio": 0.10845584650801607,
+      "score": -0.10845584650801607,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 759,
+      "target": "One possible solution to improve both training and awareness of the problem is to implement a certification program for both students and preceptors modeled after the Cardiac Life Support training offered by the American Heart Association.",
+      "score": -0.0035927020255376893,
+      "deleted_suffix": "One possible solution to improve both training and awareness of the problem is to implement a certification program for both students and preceptors modeled after the Cardiac Life Support training offered by the American Heart Association.",
+      "deleted_char_count": 239
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

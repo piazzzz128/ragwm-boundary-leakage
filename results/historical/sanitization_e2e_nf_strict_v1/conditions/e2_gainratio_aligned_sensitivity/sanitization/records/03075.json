@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5011",
+  "source_doc_id": "MED-5011",
+  "title": "Effects of AV119, a natural sugar from avocado, on Malassezia furfur invasiveness and on the expression of HBD-2 and cytokines in human keratinocytes.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of AV119, a natural sugar from avocado, on Malassezia furfur invasiveness and on the expression of HBD-2 and cytokines in human keratinocytes.\nAV119 is a patented blend of two sugars from avocado that can induce human beta-defensin-2 production by normal human keratinocytes. In this study, we analysed the effect of AV119 on growth and invasiveness of Malassezia furfur, a dimorphic, lipid-dependent yeast that is part of the normal human cutaneous commensal flora. The ability to modulate the expression of the proinflammatory and immunomodulatory cytokines in normal human keratinocytes was also investigated. Microbiological assay demonstrated that this sugar induced the aggregation of yeast cells and inhibited the invasiveness of M. furfur, without affecting its growth. Real-time PCR analysis demonstrated that AV119 was able to modulate the HBD-2 response in treated keratinocytes, reaching a maximum after 48-h treatment, and to induce the recovery of a satisfactory proinflammatory response in human keratinocytes. As AV119 can induce aggregation of yeast cells, thus inhibiting their penetration into the keratinocytes, the sugar could be used in the preparation of cosmetics or pharmacological drugs to inhibit colonization of the skin by pathogenic strains of M. furfur.",
+  "sanitized_text": "Effects of AV119, a natural sugar from avocado, on Malassezia furfur invasiveness and on the expression of HBD-2 and cytokines in human keratinocytes.\nAV119 is a patented blend of two sugars from avocado that can induce human beta-defensin-2 production by normal human keratinocytes. In this study, we analysed the effect of AV119 on growth and invasiveness of Malassezia furfur, a dimorphic, lipid-dependent yeast that is part of the normal human cutaneous commensal flora. The ability to modulate the expression of the proinflammatory and immunomodulatory cytokines in normal human keratinocytes was also investigated. Microbiological assay demonstrated that this sugar induced the aggregation of yeast cells and inhibited the invasiveness of M. furfur, without affecting its growth. Real-time PCR analysis demonstrated that AV119 was able to modulate the HBD-2 response in treated keratinocytes, reaching a maximum after 48-h treatment, and to induce the recovery of a satisfactory proinflammatory response in human keratinocytes. As AV119 can induce aggregation of yeast cells, thus inhibiting their penetration into the keratinocytes, the sugar could be used in the preparation of cosmetics or pharmacological drugs to inhibit colonization of the skin by pathogenic strains of M. furfur.",
+  "modified": false,
+  "original_char_count": 1292,
+  "sanitized_char_count": 1292,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1034,
+      "boundary_end": 1284,
+      "context": "Effects of AV119, a natural sugar from avocado, on Malassezia furfur invasiveness and on the expression of HBD-2 and cytokines in human keratinocytes. AV119 is a patented blend of two sugars from avocado that can induce human beta-defensin-2 production by normal human keratinocytes. In this study, we analysed the effect of AV119 on growth and invasiveness of Malassezia furfur, a dimorphic, lipid-dependent yeast that is part of the normal human cutaneous commensal flora. The ability to modulate the expression of the proinflammatory and immunomodulatory cytokines in normal human keratinocytes was also investigated. Microbiological assay demonstrated that this sugar induced the aggregation of yeast cells and inhibited the invasiveness of M. furfur, without affecting its growth. Real-time PCR analysis demonstrated that AV119 was able to modulate the HBD-2 response in treated keratinocytes, reaching a maximum after 48-h treatment, and to induce the recovery of a satisfactory proinflammatory response in human keratinocytes.",
+      "target": "As AV119 can induce aggregation of yeast cells, thus inhibiting their penetration into the keratinocytes, the sugar could be used in the preparation of cosmetics or pharmacological drugs to inhibit colonization of the skin by pathogenic strains of M.",
+      "loss_target": 3.336261034011841,
+      "loss_target_given_context": 1.9302387237548828,
+      "delta_loss": 1.406022310256958,
+      "gain_ratio": 0.42143654106292205,
+      "score": -0.42143654106292205,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

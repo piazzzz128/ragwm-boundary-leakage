@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2818",
+  "source_doc_id": "MED-2818",
+  "title": "Curcumin: the story so far.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Curcumin: the story so far.\nCurcumin is a polyphenol derived from the herbal remedy and dietary spice turmeric. It possesses diverse anti-inflammatory and anti-cancer properties following oral or topical administration. Apart from curcumin's potent antioxidant capacity at neutral and acidic pH, its mechanisms of action include inhibition of several cell signalling pathways at multiple levels, effects on cellular enzymes such as cyclooxygenase and glutathione S-transferases, immuno-modulation and effects on angiogenesis and cell-cell adhesion. Curcumin's ability to affect gene transcription and to induce apoptosis in preclinical models is likely to be of particular relevance to cancer chemoprevention and chemotherapy in patients. Although curcumin's low systemic bioavailability following oral dosing may limit access of sufficient concentrations for pharmacological effect in certain tissues, the attainment of biologically active levels in the gastrointestinal tract has been demonstrated in animals and humans. Sufficient data currently exist to advocate phase II clinical evaluation of oral curcumin in patients with invasive malignancy or pre-invasive lesions of the gastrointestinal tract, particularly the colon and rectum.",
+  "sanitized_text": "Curcumin: the story so far.\nCurcumin is a polyphenol derived from the herbal remedy and dietary spice turmeric. It possesses diverse anti-inflammatory and anti-cancer properties following oral or topical administration. Apart from curcumin's potent antioxidant capacity at neutral and acidic pH, its mechanisms of action include inhibition of several cell signalling pathways at multiple levels, effects on cellular enzymes such as cyclooxygenase and glutathione S-transferases, immuno-modulation and effects on angiogenesis and cell-cell adhesion. Curcumin's ability to affect gene transcription and to induce apoptosis in preclinical models is likely to be of particular relevance to cancer chemoprevention and chemotherapy in patients. Although curcumin's low systemic bioavailability following oral dosing may limit access of sufficient concentrations for pharmacological effect in certain tissues, the attainment of biologically active levels in the gastrointestinal tract has been demonstrated in animals and humans. Sufficient data currently exist to advocate phase II clinical evaluation of oral curcumin in patients with invasive malignancy or pre-invasive lesions of the gastrointestinal tract, particularly the colon and rectum.",
+  "modified": false,
+  "original_char_count": 1239,
+  "sanitized_char_count": 1239,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1023,
+      "boundary_end": 1239,
+      "context": "Curcumin: the story so far. Curcumin is a polyphenol derived from the herbal remedy and dietary spice turmeric. It possesses diverse anti-inflammatory and anti-cancer properties following oral or topical administration. Apart from curcumin's potent antioxidant capacity at neutral and acidic pH, its mechanisms of action include inhibition of several cell signalling pathways at multiple levels, effects on cellular enzymes such as cyclooxygenase and glutathione S-transferases, immuno-modulation and effects on angiogenesis and cell-cell adhesion. Curcumin's ability to affect gene transcription and to induce apoptosis in preclinical models is likely to be of particular relevance to cancer chemoprevention and chemotherapy in patients. Although curcumin's low systemic bioavailability following oral dosing may limit access of sufficient concentrations for pharmacological effect in certain tissues, the attainment of biologically active levels in the gastrointestinal tract has been demonstrated in animals and humans.",
+      "target": "Sufficient data currently exist to advocate phase II clinical evaluation of oral curcumin in patients with invasive malignancy or pre-invasive lesions of the gastrointestinal tract, particularly the colon and rectum.",
+      "loss_target": 2.71771240234375,
+      "loss_target_given_context": 2.143244981765747,
+      "delta_loss": 0.5744674205780029,
+      "gain_ratio": 0.21137903336739505,
+      "score": -0.21137903336739505,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

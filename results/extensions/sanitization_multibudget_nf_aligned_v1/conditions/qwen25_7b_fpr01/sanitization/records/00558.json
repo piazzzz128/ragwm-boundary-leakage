@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1673",
+  "source_doc_id": "MED-1673",
+  "title": "Dietary polyphenols decrease glucose uptake by human intestinal Caco-2 cells.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary polyphenols decrease glucose uptake by human intestinal Caco-2 cells.\nThe effect of different classes of dietary polyphenols on intestinal glucose uptake was investigated using polarised Caco-2 intestinal cells. Glucose uptake into cells under sodium-dependent conditions was inhibited by flavonoid glycosides and non-glycosylated polyphenols whereas aglycones and phenolic acids were without effect. Under sodium-free conditions, aglycones and non-glycosylated polyphenols inhibited glucose uptake whereas glycosides and phenolic acids were ineffective. These data suggest that aglycones inhibit facilitated glucose uptake whereas glycosides inhibit the active transport of glucose. The non-glycosylated dietary polyphenols appear to exert their effects via steric hindrance, and (-)-epigallochatechingallate, (-)-epichatechingallate and (-)-epigallochatechin are effective against both transporters.",
+  "sanitized_text": "Dietary polyphenols decrease glucose uptake by human intestinal Caco-2 cells.\nThe effect of different classes of dietary polyphenols on intestinal glucose uptake was investigated using polarised Caco-2 intestinal cells. Glucose uptake into cells under sodium-dependent conditions was inhibited by flavonoid glycosides and non-glycosylated polyphenols whereas aglycones and phenolic acids were without effect. Under sodium-free conditions, aglycones and non-glycosylated polyphenols inhibited glucose uptake whereas glycosides and phenolic acids were ineffective. These data suggest that aglycones inhibit facilitated glucose uptake whereas glycosides inhibit the active transport of glucose. The non-glycosylated dietary polyphenols appear to exert their effects via steric hindrance, and (-)-epigallochatechingallate, (-)-epichatechingallate and (-)-epigallochatechin are effective against both transporters.",
+  "modified": false,
+  "original_char_count": 909,
+  "sanitized_char_count": 909,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 692,
+      "boundary_end": 909,
+      "context": "Dietary polyphenols decrease glucose uptake by human intestinal Caco-2 cells. The effect of different classes of dietary polyphenols on intestinal glucose uptake was investigated using polarised Caco-2 intestinal cells. Glucose uptake into cells under sodium-dependent conditions was inhibited by flavonoid glycosides and non-glycosylated polyphenols whereas aglycones and phenolic acids were without effect. Under sodium-free conditions, aglycones and non-glycosylated polyphenols inhibited glucose uptake whereas glycosides and phenolic acids were ineffective. These data suggest that aglycones inhibit facilitated glucose uptake whereas glycosides inhibit the active transport of glucose.",
+      "target": "The non-glycosylated dietary polyphenols appear to exert their effects via steric hindrance, and (-)-epigallochatechingallate, (-)-epichatechingallate and (-)-epigallochatechin are effective against both transporters.",
+      "loss_target": 2.59125018119812,
+      "loss_target_given_context": 1.9153220653533936,
+      "delta_loss": 0.6759281158447266,
+      "gain_ratio": 0.26085019530310144,
+      "score": -0.26085019530310144,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

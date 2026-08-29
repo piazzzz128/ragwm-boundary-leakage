@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2054",
+  "source_doc_id": "MED-2054",
+  "title": "Prevalence, symptoms and outcome of constipation in infants and toddlers.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Prevalence, symptoms and outcome of constipation in infants and toddlers.\nOBJECTIVE: To determine the prevalence of constipation in children <or=2 years, describe the symptoms of constipation, and review how often specific interventions were effective. STUDY DESIGN: Retrospective chart review. RESULTS: Of 4,157 children <2 years of age, 185 children had constipation. The prevalence rate for constipation in the first year of life was 2.9%, and in the second year of life, the rate was 10.1%. Functional constipation was the cause in 97% of the children. Boys and girls were affected with equal frequency. Constipation was caused by an underlying organic disease in 1.6% of cases, and 97% of the children had functional constipation. Dietary changes and corn syrup were the initial treatment suggestions for 116 children; 93% of these children underwent follow-up examinations, and the constipation resolved in 25% of the children. Of 100 children treated with milk of magnesia or polyethylene glycol 3350 without electrolytes, 93 children underwent follow-up examinations, and the constipation was resolved with treatment in 92% of the children. CONCLUSIONS: Dietary changes, corn syrup, or both resolved constipation in 25% of children, and laxatives resolved constipation in 92% of children. Both milk of magnesia and polyethylene glycol were efficient and safe in infants and toddlers.",
+  "sanitized_text": "Prevalence, symptoms and outcome of constipation in infants and toddlers.\nOBJECTIVE: To determine the prevalence of constipation in children <or=2 years, describe the symptoms of constipation, and review how often specific interventions were effective. STUDY DESIGN: Retrospective chart review. RESULTS: Of 4,157 children <2 years of age, 185 children had constipation. The prevalence rate for constipation in the first year of life was 2.9%, and in the second year of life, the rate was 10.1%. Functional constipation was the cause in 97% of the children. Boys and girls were affected with equal frequency. Constipation was caused by an underlying organic disease in 1.6% of cases, and 97% of the children had functional constipation. Dietary changes and corn syrup were the initial treatment suggestions for 116 children; 93% of these children underwent follow-up examinations, and the constipation resolved in 25% of the children. Of 100 children treated with milk of magnesia or polyethylene glycol 3350 without electrolytes, 93 children underwent follow-up examinations, and the constipation was resolved with treatment in 92% of the children. CONCLUSIONS: Dietary changes, corn syrup, or both resolved constipation in 25% of children, and laxatives resolved constipation in 92% of children. Both milk of magnesia and polyethylene glycol were efficient and safe in infants and toddlers.",
+  "modified": false,
+  "original_char_count": 1391,
+  "sanitized_char_count": 1391,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1297,
+      "boundary_end": 1391,
+      "context": "the prevalence of constipation in children <or=2 years, describe the symptoms of constipation, and review how often specific interventions were effective. STUDY DESIGN: Retrospective chart review. RESULTS: Of 4,157 children <2 years of age, 185 children had constipation. The prevalence rate for constipation in the first year of life was 2.9%, and in the second year of life, the rate was 10.1%. Functional constipation was the cause in 97% of the children. Boys and girls were affected with equal frequency. Constipation was caused by an underlying organic disease in 1.6% of cases, and 97% of the children had functional constipation. Dietary changes and corn syrup were the initial treatment suggestions for 116 children; 93% of these children underwent follow-up examinations, and the constipation resolved in 25% of the children. Of 100 children treated with milk of magnesia or polyethylene glycol 3350 without electrolytes, 93 children underwent follow-up examinations, and the constipation was resolved with treatment in 92% of the children. CONCLUSIONS: Dietary changes, corn syrup, or both resolved constipation in 25% of children, and laxatives resolved constipation in 92% of children.",
+      "target": "Both milk of magnesia and polyethylene glycol were efficient and safe in infants and toddlers.",
+      "loss_target": 2.9437692165374756,
+      "loss_target_given_context": 1.3832778930664062,
+      "delta_loss": 1.5604913234710693,
+      "gain_ratio": 0.5300997492278123,
+      "score": -0.5300997492278123,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

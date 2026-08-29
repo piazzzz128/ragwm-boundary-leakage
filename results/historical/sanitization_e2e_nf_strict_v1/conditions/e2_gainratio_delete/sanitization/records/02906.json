@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4826",
+  "source_doc_id": "MED-4826",
+  "title": "Macronutrients, fatty acids, cholesterol and pancreatic cancer.",
+  "original_text": "Macronutrients, fatty acids, cholesterol and pancreatic cancer.\nA role of diet and nutrition in pancreatic carcinogenesis has been suggested, but the association between selected macronutrients, fatty acids, cholesterol and pancreatic cancer remains controversial. We analysed data from a hospital-based case-control study conducted in Italy between 1991 and 2008, including 326 cases (174 men and 152 women) with incident pancreatic cancer, and 652 controls (348 men and 304 women) frequency-matched to cases by sex, age and study centre. Odds ratios (ORs) and 95% confidence intervals (CIs) were estimated using multiple logistic regression models conditioned on age, sex and study centre, and adjusted for year of interview, education, tobacco smoking, history of diabetes and energy intake. A positive association was found for animal proteins (OR=1.85 for the highest versus the lowest quintile of intake; 95% CI: 1.15-2.96; p for trend=0.039), whereas a negative association was observed for sugars (OR=0.52; 95% CI: 0.31-0.86; p for trend=0.003). Non-significant negative associations emerged for vegetable proteins (OR=0.69) and polyunsaturated fatty acids (OR=0.67). In conclusion, a diet poor in animal proteins and rich in sugars (mainly derived from fruit) appears to have a beneficial effect on pancreatic cancer risk. Copyright (c) 2009 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Macronutrients, fatty acids, cholesterol and pancreatic cancer.\nA role of diet and nutrition in pancreatic carcinogenesis has been suggested, but the association between selected macronutrients, fatty acids, cholesterol and pancreatic cancer remains controversial. We analysed data from a hospital-based case-control study conducted in Italy between 1991 and 2008, including 326 cases (174 men and 152 women) with incident pancreatic cancer, and 652 controls (348 men and 304 women) frequency-matched to cases by sex, age and study centre. Odds ratios (ORs) and 95% confidence intervals (CIs) were estimated using multiple logistic regression models conditioned on age, sex and study centre, and adjusted for year of interview, education, tobacco smoking, history of diabetes and energy intake. A positive association was found for animal proteins (OR=1.85 for the highest versus the lowest quintile of intake; 95% CI: 1.15-2.96; p for trend=0.039), whereas a negative association was observed for sugars (OR=0.52; 95% CI: 0.31-0.86; p for trend=0.003). Non-significant negative associations emerged for vegetable proteins (OR=0.69) and polyunsaturated fatty acids (OR=0.67). In conclusion, a diet poor in animal proteins and rich in sugars (mainly derived from fruit) appears to have a beneficial effect on pancreatic cancer risk.",
+  "modified": true,
+  "original_char_count": 1385,
+  "sanitized_char_count": 1331,
+  "deleted_char_count": 54,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1332,
+      "boundary_end": 1364,
+      "context": "but the association between selected macronutrients, fatty acids, cholesterol and pancreatic cancer remains controversial. We analysed data from a hospital-based case-control study conducted in Italy between 1991 and 2008, including 326 cases (174 men and 152 women) with incident pancreatic cancer, and 652 controls (348 men and 304 women) frequency-matched to cases by sex, age and study centre. Odds ratios (ORs) and 95% confidence intervals (CIs) were estimated using multiple logistic regression models conditioned on age, sex and study centre, and adjusted for year of interview, education, tobacco smoking, history of diabetes and energy intake. A positive association was found for animal proteins (OR=1.85 for the highest versus the lowest quintile of intake; 95% CI: 1.15-2.96; p for trend=0.039), whereas a negative association was observed for sugars (OR=0.52; 95% CI: 0.31-0.86; p for trend=0.003). Non-significant negative associations emerged for vegetable proteins (OR=0.69) and polyunsaturated fatty acids (OR=0.67). In conclusion, a diet poor in animal proteins and rich in sugars (mainly derived from fruit) appears to have a beneficial effect on pancreatic cancer risk.",
+      "target": "Copyright (c) 2009 Elsevier Ltd.",
+      "loss_target": 1.239388108253479,
+      "loss_target_given_context": 1.5669834613800049,
+      "delta_loss": -0.3275953531265259,
+      "gain_ratio": -0.2643202326575222,
+      "score": 0.2643202326575222,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1176,
+      "boundary_end": 1331,
+      "context": "Macronutrients, fatty acids, cholesterol and pancreatic cancer. A role of diet and nutrition in pancreatic carcinogenesis has been suggested, but the association between selected macronutrients, fatty acids, cholesterol and pancreatic cancer remains controversial. We analysed data from a hospital-based case-control study conducted in Italy between 1991 and 2008, including 326 cases (174 men and 152 women) with incident pancreatic cancer, and 652 controls (348 men and 304 women) frequency-matched to cases by sex, age and study centre. Odds ratios (ORs) and 95% confidence intervals (CIs) were estimated using multiple logistic regression models conditioned on age, sex and study centre, and adjusted for year of interview, education, tobacco smoking, history of diabetes and energy intake. A positive association was found for animal proteins (OR=1.85 for the highest versus the lowest quintile of intake; 95% CI: 1.15-2.96; p for trend=0.039), whereas a negative association was observed for sugars (OR=0.52; 95% CI: 0.31-0.86; p for trend=0.003). Non-significant negative associations emerged for vegetable proteins (OR=0.69) and polyunsaturated fatty acids (OR=0.67).",
+      "target": "In conclusion, a diet poor in animal proteins and rich in sugars (mainly derived from fruit) appears to have a beneficial effect on pancreatic cancer risk.",
+      "loss_target": 2.8133153915405273,
+      "loss_target_given_context": 1.5653622150421143,
+      "delta_loss": 1.247953176498413,
+      "gain_ratio": 0.4435880812549259,
+      "score": -0.4435880812549259,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1332,
+      "target": "Copyright (c) 2009 Elsevier Ltd.",
+      "score": 0.2643202326575222,
+      "deleted_suffix": "Copyright (c) 2009 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 53
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

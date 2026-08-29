@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2355",
+  "source_doc_id": "MED-2355",
+  "title": "Delayed Anaphylaxis to Red Meat in Patients with IgE Specific for Galactose alpha-1,3-Galactose (alpha-gal)",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Delayed Anaphylaxis to Red Meat in Patients with IgE Specific for Galactose alpha-1,3-Galactose (alpha-gal)\nAnaphylaxis is a severe allergic reaction that can be rapidly progressing and fatal. In instances where the triggering allergen is not known, establishing the etiology of anaphylaxis is pivotal to long-term risk management. Our recent work has identified a novel IgE antibody (Ab) response to a mammalian oligosaccharide epitope, galactose-alpha-1,3-galactose (alpha-gal), that has been associated with two distinct forms of anaphylaxis: (1) immediate onset anaphylaxis during first exposure to intravenous cetuximab, and (2) delayed onset anaphylaxis 3–6 h after ingestion of mammalian food products (e.g., beef and pork). The results of our studies strongly suggest that tick bites are a cause, if not the only significant cause, of IgE Ab responses to alpha-gal in the southern, eastern and central United States. Patients with IgE Ab to alpha-gal continue to emerge and, increasingly, these cases involve children. This IgE Ab response cross-reacts with cat and dog but does not appear to pose a risk for asthma; however, it may impair diagnostic testing in some situations.",
+  "sanitized_text": "Delayed Anaphylaxis to Red Meat in Patients with IgE Specific for Galactose alpha-1,3-Galactose (alpha-gal)\nAnaphylaxis is a severe allergic reaction that can be rapidly progressing and fatal. In instances where the triggering allergen is not known, establishing the etiology of anaphylaxis is pivotal to long-term risk management. Our recent work has identified a novel IgE antibody (Ab) response to a mammalian oligosaccharide epitope, galactose-alpha-1,3-galactose (alpha-gal), that has been associated with two distinct forms of anaphylaxis: (1) immediate onset anaphylaxis during first exposure to intravenous cetuximab, and (2) delayed onset anaphylaxis 3–6 h after ingestion of mammalian food products (e.g., beef and pork). The results of our studies strongly suggest that tick bites are a cause, if not the only significant cause, of IgE Ab responses to alpha-gal in the southern, eastern and central United States. Patients with IgE Ab to alpha-gal continue to emerge and, increasingly, these cases involve children. This IgE Ab response cross-reacts with cat and dog but does not appear to pose a risk for asthma; however, it may impair diagnostic testing in some situations.",
+  "modified": false,
+  "original_char_count": 1186,
+  "sanitized_char_count": 1186,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1027,
+      "boundary_end": 1186,
+      "context": "Delayed Anaphylaxis to Red Meat in Patients with IgE Specific for Galactose alpha-1,3-Galactose (alpha-gal) Anaphylaxis is a severe allergic reaction that can be rapidly progressing and fatal. In instances where the triggering allergen is not known, establishing the etiology of anaphylaxis is pivotal to long-term risk management. Our recent work has identified a novel IgE antibody (Ab) response to a mammalian oligosaccharide epitope, galactose-alpha-1,3-galactose (alpha-gal), that has been associated with two distinct forms of anaphylaxis: (1) immediate onset anaphylaxis during first exposure to intravenous cetuximab, and (2) delayed onset anaphylaxis 3–6 h after ingestion of mammalian food products (e.g., beef and pork). The results of our studies strongly suggest that tick bites are a cause, if not the only significant cause, of IgE Ab responses to alpha-gal in the southern, eastern and central United States. Patients with IgE Ab to alpha-gal continue to emerge and, increasingly, these cases involve children.",
+      "target": "This IgE Ab response cross-reacts with cat and dog but does not appear to pose a risk for asthma; however, it may impair diagnostic testing in some situations.",
+      "loss_target": 3.569174289703369,
+      "loss_target_given_context": 2.941154718399048,
+      "delta_loss": 0.6280195713043213,
+      "gain_ratio": 0.17595654353895826,
+      "score": -0.17595654353895826,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

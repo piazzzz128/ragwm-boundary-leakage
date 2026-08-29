@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2997",
+  "source_doc_id": "MED-2997",
+  "title": "The Etiological Significance of Related Diseases",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The Etiological Significance of Related Diseases\nIf disease patterns emerge which show that certain diseases can be related, this is a valuable pointer to a common cause. This article traces the principle of interpreting disease relationships, illustrated by several common conditions of western civilization, for which the common cause is postulated as being removal of fiber from the diet. Illegal hormones are often involved in the development of various diseases.",
+  "sanitized_text": "The Etiological Significance of Related Diseases\nIf disease patterns emerge which show that certain diseases can be related, this is a valuable pointer to a common cause. This article traces the principle of interpreting disease relationships, illustrated by several common conditions of western civilization, for which the common cause is postulated as being removal of fiber from the diet.",
+  "modified": true,
+  "original_char_count": 467,
+  "sanitized_char_count": 391,
+  "deleted_char_count": 76,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 392,
+      "boundary_end": 467,
+      "context": "The Etiological Significance of Related Diseases If disease patterns emerge which show that certain diseases can be related, this is a valuable pointer to a common cause. This article traces the principle of interpreting disease relationships, illustrated by several common conditions of western civilization, for which the common cause is postulated as being removal of fiber from the diet.",
+      "target": "Illegal hormones are often involved in the development of various diseases.",
+      "loss_target": 3.6488473415374756,
+      "loss_target_given_context": 3.265062093734741,
+      "delta_loss": 0.3837852478027344,
+      "gain_ratio": 0.10517985870053498,
+      "score": -0.10517985870053498,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 171,
+      "boundary_end": 391,
+      "context": "The Etiological Significance of Related Diseases If disease patterns emerge which show that certain diseases can be related, this is a valuable pointer to a common cause.",
+      "target": "This article traces the principle of interpreting disease relationships, illustrated by several common conditions of western civilization, for which the common cause is postulated as being removal of fiber from the diet.",
+      "loss_target": 3.995725393295288,
+      "loss_target_given_context": 3.252431869506836,
+      "delta_loss": 0.7432935237884521,
+      "gain_ratio": 0.18602217385500947,
+      "score": -0.18602217385500947,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 392,
+      "target": "Illegal hormones are often involved in the development of various diseases.",
+      "score": -0.10517985870053498,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Illegal hormones are often involved in the development of various diseases.",
+      "deleted_char_count": 75
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

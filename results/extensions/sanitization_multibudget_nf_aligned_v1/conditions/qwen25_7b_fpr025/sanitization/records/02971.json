@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4893",
+  "source_doc_id": "MED-4893",
+  "title": "Incident Heart Failure Is Associated with Lower Whole-Grain Intake and Greater High-Fat Dairy and Egg Intake in the Atherosclerosis Risk in Communities (ARIC) Study",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Incident Heart Failure Is Associated with Lower Whole-Grain Intake and Greater High-Fat Dairy and Egg Intake in the Atherosclerosis Risk in Communities (ARIC) Study\nBackground Prospective studies evaluating associations between food intake and risk of heart failure (HF) in diverse populations are needed. Objectives Relationships between incident HF (death or hospitalization) and intake of seven food categories (whole grains, fruits/vegetables, fish, nuts, high-fat dairy, eggs, red meat) were investigated in an observational cohort of 14,153 African-American and white adults, age 45 to 64 years, sampled from four US communities. Methods Between baseline (1987–1989) and Exam 3 (1993–1995), dietary intake was based on responses to a 66-item food frequency questionnaire administered at baseline; thereafter, intake was based on averaged baseline and Exam 3 responses. Hazard ratios (HR [95% CI]) for HF were calculated per 1–daily serving difference in food group intake. Results During a mean of 13 years, 1,140 HF hospitalizations were identified. After multivariable adjustment (energy intake, demographics, lifestyle factors, prevalent cardiovascular disease, diabetes, hypertension), HF risk was lower with greater whole-grain intake (0.93 [0.87, 0.99]), but HF risk was higher with greater intake of eggs (1.23 [1.08, 1.41]) and high-fat dairy (1.08 [1.01, 1.16]). These associations remained significant independent of intakes of the five other food categories, which were not associated with HF. Conclusions In this large, population-based sample of African-American and white adults, whole-grain intake was associated with lower HF risk, whereas intake of eggs and high-fat dairy were associated with greater HF risk after adjustment for several confounders.",
+  "sanitized_text": "Incident Heart Failure Is Associated with Lower Whole-Grain Intake and Greater High-Fat Dairy and Egg Intake in the Atherosclerosis Risk in Communities (ARIC) Study\nBackground Prospective studies evaluating associations between food intake and risk of heart failure (HF) in diverse populations are needed. Objectives Relationships between incident HF (death or hospitalization) and intake of seven food categories (whole grains, fruits/vegetables, fish, nuts, high-fat dairy, eggs, red meat) were investigated in an observational cohort of 14,153 African-American and white adults, age 45 to 64 years, sampled from four US communities. Methods Between baseline (1987–1989) and Exam 3 (1993–1995), dietary intake was based on responses to a 66-item food frequency questionnaire administered at baseline; thereafter, intake was based on averaged baseline and Exam 3 responses. Hazard ratios (HR [95% CI]) for HF were calculated per 1–daily serving difference in food group intake. Results During a mean of 13 years, 1,140 HF hospitalizations were identified. After multivariable adjustment (energy intake, demographics, lifestyle factors, prevalent cardiovascular disease, diabetes, hypertension), HF risk was lower with greater whole-grain intake (0.93 [0.87, 0.99]), but HF risk was higher with greater intake of eggs (1.23 [1.08, 1.41]) and high-fat dairy (1.08 [1.01, 1.16]). These associations remained significant independent of intakes of the five other food categories, which were not associated with HF. Conclusions In this large, population-based sample of African-American and white adults, whole-grain intake was associated with lower HF risk, whereas intake of eggs and high-fat dairy were associated with greater HF risk after adjustment for several confounders.",
+  "modified": false,
+  "original_char_count": 1774,
+  "sanitized_char_count": 1774,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1511,
+      "boundary_end": 1774,
+      "context": "Relationships between incident HF (death or hospitalization) and intake of seven food categories (whole grains, fruits/vegetables, fish, nuts, high-fat dairy, eggs, red meat) were investigated in an observational cohort of 14,153 African-American and white adults, age 45 to 64 years, sampled from four US communities. Methods Between baseline (1987–1989) and Exam 3 (1993–1995), dietary intake was based on responses to a 66-item food frequency questionnaire administered at baseline; thereafter, intake was based on averaged baseline and Exam 3 responses. Hazard ratios (HR [95% CI]) for HF were calculated per 1–daily serving difference in food group intake. Results During a mean of 13 years, 1,140 HF hospitalizations were identified. After multivariable adjustment (energy intake, demographics, lifestyle factors, prevalent cardiovascular disease, diabetes, hypertension), HF risk was lower with greater whole-grain intake (0.93 [0.87, 0.99]), but HF risk was higher with greater intake of eggs (1.23 [1.08, 1.41]) and high-fat dairy (1.08 [1.01, 1.16]). These associations remained significant independent of intakes of the five other food categories, which were not associated with HF.",
+      "target": "Conclusions In this large, population-based sample of African-American and white adults, whole-grain intake was associated with lower HF risk, whereas intake of eggs and high-fat dairy were associated with greater HF risk after adjustment for several confounders.",
+      "loss_target": 2.2359426021575928,
+      "loss_target_given_context": 0.8810835480690002,
+      "delta_loss": 1.3548590540885925,
+      "gain_ratio": 0.6059453640631066,
+      "score": -0.6059453640631066,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

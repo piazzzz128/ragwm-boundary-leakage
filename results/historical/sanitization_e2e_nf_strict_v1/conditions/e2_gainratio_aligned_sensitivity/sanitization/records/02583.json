@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4446",
+  "source_doc_id": "MED-4446",
+  "title": "Quantification of a broad spectrum of lignans in cereals, oilseeds, and nuts.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Quantification of a broad spectrum of lignans in cereals, oilseeds, and nuts.\nTwenty-four plant lignans were analyzed by high-performance liquid chromatography-tandem mass spectrometry in bran extracts of 16 cereal species, in four nut species, and in two oilseed species (sesame seeds and linseeds). Eighteen of these were lignans previously unidentified in these species, and of these, 16 were identified in the analyzed samples. Four different extraction methods were applied as follows: alkaline extraction, mild acid extraction, a combination of alkaline and mild acid extraction, or accelerated solvent extraction. The extraction method was of great importance for the lignan yield. 7-Hydroxymatairesinol, which has not previously been detected in cereals because of destructive extraction methods, was the dominant lignan in wheat, triticale, oat, barley, millet, corn bran, and amaranth whole grain. Syringaresinol was the other dominant cereal lignan. Wheat and rye bran had the highest lignan content of all cereals; however, linseeds and sesame seeds were by far the most lignan-rich of the studied species.",
+  "sanitized_text": "Quantification of a broad spectrum of lignans in cereals, oilseeds, and nuts.\nTwenty-four plant lignans were analyzed by high-performance liquid chromatography-tandem mass spectrometry in bran extracts of 16 cereal species, in four nut species, and in two oilseed species (sesame seeds and linseeds). Eighteen of these were lignans previously unidentified in these species, and of these, 16 were identified in the analyzed samples. Four different extraction methods were applied as follows: alkaline extraction, mild acid extraction, a combination of alkaline and mild acid extraction, or accelerated solvent extraction. The extraction method was of great importance for the lignan yield. 7-Hydroxymatairesinol, which has not previously been detected in cereals because of destructive extraction methods, was the dominant lignan in wheat, triticale, oat, barley, millet, corn bran, and amaranth whole grain. Syringaresinol was the other dominant cereal lignan. Wheat and rye bran had the highest lignan content of all cereals; however, linseeds and sesame seeds were by far the most lignan-rich of the studied species.",
+  "modified": false,
+  "original_char_count": 1118,
+  "sanitized_char_count": 1118,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 961,
+      "boundary_end": 1118,
+      "context": "Quantification of a broad spectrum of lignans in cereals, oilseeds, and nuts. Twenty-four plant lignans were analyzed by high-performance liquid chromatography-tandem mass spectrometry in bran extracts of 16 cereal species, in four nut species, and in two oilseed species (sesame seeds and linseeds). Eighteen of these were lignans previously unidentified in these species, and of these, 16 were identified in the analyzed samples. Four different extraction methods were applied as follows: alkaline extraction, mild acid extraction, a combination of alkaline and mild acid extraction, or accelerated solvent extraction. The extraction method was of great importance for the lignan yield. 7-Hydroxymatairesinol, which has not previously been detected in cereals because of destructive extraction methods, was the dominant lignan in wheat, triticale, oat, barley, millet, corn bran, and amaranth whole grain. Syringaresinol was the other dominant cereal lignan.",
+      "target": "Wheat and rye bran had the highest lignan content of all cereals; however, linseeds and sesame seeds were by far the most lignan-rich of the studied species.",
+      "loss_target": 2.3786590099334717,
+      "loss_target_given_context": 1.2962737083435059,
+      "delta_loss": 1.0823853015899658,
+      "gain_ratio": 0.45504012852192666,
+      "score": -0.45504012852192666,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

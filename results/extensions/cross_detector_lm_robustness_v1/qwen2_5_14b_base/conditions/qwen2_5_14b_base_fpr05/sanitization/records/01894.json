@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3558",
+  "source_doc_id": "MED-3558",
+  "title": "Vitamin A, carotenoids, and risk of persistent oncogenic human papillomavirus infection.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vitamin A, carotenoids, and risk of persistent oncogenic human papillomavirus infection.\nOncogenic human papillomavirus (HPV) infection is the main etiologic factor for cervical neoplasia, although infection alone is insufficient to produce disease. Cofactors such as nutritional factors may be necessary for viral progression to neoplasia. Results from previous studies have suggested that higher dietary consumption and circulating levels of certain micronutrients may be protective against cervical neoplasia. This study evaluated the role of vitamin A and carotenoids on HPV persistence comparing women with intermittent and persistent infections. As determined by the Hybrid Capture II system, oncogenic HPV infections were assessed at baseline and at approximately 3 and 9 months postbaseline. Multivariate logistic regression analysis was used to determine the risk of persistent HPV infection associated with each tertile of dietary and circulating micronutrients. Higher levels of vegetable consumption were associated with a 54% decrease risk of HPV persistence (adjusted odds ratio, 0.46; 95% confidence interval, 0.21-0.97). Also, a 56% reduction in HPV persistence risk was observed in women with the highest plasma cis-lycopene concentrations compared with women with the lowest plasma cis-lycopene concentrations (adjusted odds ratio, 0.44; 95% confidence interval, 0.19-1.01). These data suggest that vegetable consumption and circulating cis-lycopene may be protective against HPV persistence.",
+  "sanitized_text": "Vitamin A, carotenoids, and risk of persistent oncogenic human papillomavirus infection.\nOncogenic human papillomavirus (HPV) infection is the main etiologic factor for cervical neoplasia, although infection alone is insufficient to produce disease. Cofactors such as nutritional factors may be necessary for viral progression to neoplasia. Results from previous studies have suggested that higher dietary consumption and circulating levels of certain micronutrients may be protective against cervical neoplasia. This study evaluated the role of vitamin A and carotenoids on HPV persistence comparing women with intermittent and persistent infections. As determined by the Hybrid Capture II system, oncogenic HPV infections were assessed at baseline and at approximately 3 and 9 months postbaseline. Multivariate logistic regression analysis was used to determine the risk of persistent HPV infection associated with each tertile of dietary and circulating micronutrients. Higher levels of vegetable consumption were associated with a 54% decrease risk of HPV persistence (adjusted odds ratio, 0.46; 95% confidence interval, 0.21-0.97). Also, a 56% reduction in HPV persistence risk was observed in women with the highest plasma cis-lycopene concentrations compared with women with the lowest plasma cis-lycopene concentrations (adjusted odds ratio, 0.44; 95% confidence interval, 0.19-1.01). These data suggest that vegetable consumption and circulating cis-lycopene may be protective against HPV persistence.",
+  "modified": false,
+  "original_char_count": 1510,
+  "sanitized_char_count": 1510,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1393,
+      "boundary_end": 1510,
+      "context": "infection alone is insufficient to produce disease. Cofactors such as nutritional factors may be necessary for viral progression to neoplasia. Results from previous studies have suggested that higher dietary consumption and circulating levels of certain micronutrients may be protective against cervical neoplasia. This study evaluated the role of vitamin A and carotenoids on HPV persistence comparing women with intermittent and persistent infections. As determined by the Hybrid Capture II system, oncogenic HPV infections were assessed at baseline and at approximately 3 and 9 months postbaseline. Multivariate logistic regression analysis was used to determine the risk of persistent HPV infection associated with each tertile of dietary and circulating micronutrients. Higher levels of vegetable consumption were associated with a 54% decrease risk of HPV persistence (adjusted odds ratio, 0.46; 95% confidence interval, 0.21-0.97). Also, a 56% reduction in HPV persistence risk was observed in women with the highest plasma cis-lycopene concentrations compared with women with the lowest plasma cis-lycopene concentrations (adjusted odds ratio, 0.44; 95% confidence interval, 0.19-1.01).",
+      "target": "These data suggest that vegetable consumption and circulating cis-lycopene may be protective against HPV persistence.",
+      "loss_target": 3.4090487957000732,
+      "loss_target_given_context": 0.674966037273407,
+      "delta_loss": 2.7340827584266663,
+      "gain_ratio": 0.8020075165469147,
+      "score": -0.8020075165469147,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

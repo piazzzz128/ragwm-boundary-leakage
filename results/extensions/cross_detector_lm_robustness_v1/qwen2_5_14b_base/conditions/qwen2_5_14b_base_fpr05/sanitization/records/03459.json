@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-748",
+  "source_doc_id": "MED-748",
+  "title": "Medical practice and social authority.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Medical practice and social authority.\nQuestions of medical ethics are often treated as especially difficult casuistical problems or as difficult cases illustrative of paradoxes or advantages in global moral theories. I argue here, in opposition to such approaches, for the inseparability of questions of social history and social theory from any normative assessment of medical practices. The focus of the discussion is the question of the legitimacy of the social authority exercised by physicians, and the insufficiency of traditional defences of such authority in liberal societies (voluntarist, informed consent approaches), as well as traditional attacks on such strategies (ideology critique). Seeing such authority as institution bound and role based, it is argued, can help reframe, more broadly and more adequately, what is an \"ethical problem\" in medical practice and why.",
+  "sanitized_text": "Medical practice and social authority.\nQuestions of medical ethics are often treated as especially difficult casuistical problems or as difficult cases illustrative of paradoxes or advantages in global moral theories. I argue here, in opposition to such approaches, for the inseparability of questions of social history and social theory from any normative assessment of medical practices. The focus of the discussion is the question of the legitimacy of the social authority exercised by physicians, and the insufficiency of traditional defences of such authority in liberal societies (voluntarist, informed consent approaches), as well as traditional attacks on such strategies (ideology critique). Seeing such authority as institution bound and role based, it is argued, can help reframe, more broadly and more adequately, what is an \"ethical problem\" in medical practice and why.",
+  "modified": false,
+  "original_char_count": 883,
+  "sanitized_char_count": 883,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 701,
+      "boundary_end": 883,
+      "context": "Medical practice and social authority. Questions of medical ethics are often treated as especially difficult casuistical problems or as difficult cases illustrative of paradoxes or advantages in global moral theories. I argue here, in opposition to such approaches, for the inseparability of questions of social history and social theory from any normative assessment of medical practices. The focus of the discussion is the question of the legitimacy of the social authority exercised by physicians, and the insufficiency of traditional defences of such authority in liberal societies (voluntarist, informed consent approaches), as well as traditional attacks on such strategies (ideology critique).",
+      "target": "Seeing such authority as institution bound and role based, it is argued, can help reframe, more broadly and more adequately, what is an \"ethical problem\" in medical practice and why.",
+      "loss_target": 3.852346420288086,
+      "loss_target_given_context": 2.8793036937713623,
+      "delta_loss": 0.9730427265167236,
+      "gain_ratio": 0.25258443046354007,
+      "score": -0.25258443046354007,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

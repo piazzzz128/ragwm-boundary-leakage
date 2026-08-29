@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1955",
+  "source_doc_id": "MED-1955",
+  "title": "Maternal dietary patterns and preterm delivery: results from large prospective cohort study",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Maternal dietary patterns and preterm delivery: results from large prospective cohort study\nObjective To examine whether an association exists between maternal dietary patterns and risk of preterm delivery. Design Prospective cohort study. Setting Norway, between 2002 and 2008. Participants 66 000 pregnant women (singletons, answered food frequency questionnaire, no missing information about parity or previously preterm delivery, pregnancy duration between 22+0 and 41+6 gestational weeks, no diabetes, first enrolment pregnancy). Main outcome measure Hazard ratio for preterm delivery according to level of adherence to three distinct dietary patterns interpreted as “prudent” (for example, vegetables, fruits, oils, water as beverage, whole grain cereals, fibre rich bread), “Western” (salty and sweet snacks, white bread, desserts, processed meat products), and “traditional” (potatoes, fish). Results After adjustment for covariates, high scores on the “prudent” pattern were associated with significantly reduced risk of preterm delivery hazard ratio for the highest versus the lowest third (0.88, 95% confidence interval 0.80 to 0.97). The prudent pattern was also associated with a significantly lower risk of late and spontaneous preterm delivery. No independent association with preterm delivery was found for the “Western” pattern. The “traditional” pattern was associated with reduced risk of preterm delivery for the highest versus the lowest third (hazard ratio 0.91, 0.83 to 0.99). Conclusion This study showed that women adhering to a “prudent” or a “traditional” dietary pattern during pregnancy were at lower risk of preterm delivery compared with other women. Although these findings cannot establish causality, they support dietary advice to pregnant women to eat a balanced diet including vegetables, fruit, whole grains, and fish and to drink water. Our results indicate that increasing the intake of foods associated with a prudent dietary pattern is more important than totally excluding processed food, fast food, junk food, and snacks.",
+  "sanitized_text": "Maternal dietary patterns and preterm delivery: results from large prospective cohort study\nObjective To examine whether an association exists between maternal dietary patterns and risk of preterm delivery. Design Prospective cohort study. Setting Norway, between 2002 and 2008. Participants 66 000 pregnant women (singletons, answered food frequency questionnaire, no missing information about parity or previously preterm delivery, pregnancy duration between 22+0 and 41+6 gestational weeks, no diabetes, first enrolment pregnancy). Main outcome measure Hazard ratio for preterm delivery according to level of adherence to three distinct dietary patterns interpreted as “prudent” (for example, vegetables, fruits, oils, water as beverage, whole grain cereals, fibre rich bread), “Western” (salty and sweet snacks, white bread, desserts, processed meat products), and “traditional” (potatoes, fish). Results After adjustment for covariates, high scores on the “prudent” pattern were associated with significantly reduced risk of preterm delivery hazard ratio for the highest versus the lowest third (0.88, 95% confidence interval 0.80 to 0.97). The prudent pattern was also associated with a significantly lower risk of late and spontaneous preterm delivery. No independent association with preterm delivery was found for the “Western” pattern. The “traditional” pattern was associated with reduced risk of preterm delivery for the highest versus the lowest third (hazard ratio 0.91, 0.83 to 0.99). Conclusion This study showed that women adhering to a “prudent” or a “traditional” dietary pattern during pregnancy were at lower risk of preterm delivery compared with other women. Although these findings cannot establish causality, they support dietary advice to pregnant women to eat a balanced diet including vegetables, fruit, whole grains, and fish and to drink water. Our results indicate that increasing the intake of foods associated with a prudent dietary pattern is more important than totally excluding processed food, fast food, junk food, and snacks.",
+  "modified": false,
+  "original_char_count": 2064,
+  "sanitized_char_count": 2064,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1875,
+      "boundary_end": 2064,
+      "context": "(for example, vegetables, fruits, oils, water as beverage, whole grain cereals, fibre rich bread), “Western” (salty and sweet snacks, white bread, desserts, processed meat products), and “traditional” (potatoes, fish). Results After adjustment for covariates, high scores on the “prudent” pattern were associated with significantly reduced risk of preterm delivery hazard ratio for the highest versus the lowest third (0.88, 95% confidence interval 0.80 to 0.97). The prudent pattern was also associated with a significantly lower risk of late and spontaneous preterm delivery. No independent association with preterm delivery was found for the “Western” pattern. The “traditional” pattern was associated with reduced risk of preterm delivery for the highest versus the lowest third (hazard ratio 0.91, 0.83 to 0.99). Conclusion This study showed that women adhering to a “prudent” or a “traditional” dietary pattern during pregnancy were at lower risk of preterm delivery compared with other women. Although these findings cannot establish causality, they support dietary advice to pregnant women to eat a balanced diet including vegetables, fruit, whole grains, and fish and to drink water.",
+      "target": "Our results indicate that increasing the intake of foods associated with a prudent dietary pattern is more important than totally excluding processed food, fast food, junk food, and snacks.",
+      "loss_target": 2.8087873458862305,
+      "loss_target_given_context": 2.108821153640747,
+      "delta_loss": 0.6999661922454834,
+      "gain_ratio": 0.24920583370993135,
+      "score": -0.24920583370993135,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

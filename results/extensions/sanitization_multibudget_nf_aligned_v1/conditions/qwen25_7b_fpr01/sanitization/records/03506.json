@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-853",
+  "source_doc_id": "MED-853",
+  "title": "Hydrogen peroxide 3% exposures.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Hydrogen peroxide 3% exposures.\nOBJECTIVE: To present a child who developed gastric ulcers and duodenal erosions after ingestion of hydrogen peroxide 3% and delineate the epidemiology, medical outcomes, and toxicity of exposures to this agent managed by a poison control center. METHODS: A retrospective chart review of exposures to hydrogen peroxide 3% reported to the Long Island Regional Poison Control Center from January 1992 to April 1995 was conducted. Data extracted included age, route of exposure, amount of agent, symptoms, therapy, and medical outcome. RESULTS: There were 670 exposures to hydrogen peroxide 3% of 81,126 total exposures reported during the 40 months. Most exposures were by oral route (77%), occurred in children < 17 years old (67%), and were asymptomatic (85.6%). All but one exposure resulted in a benign outcome. One child, who presented with bloody emesis, developed multiple gastric ulcers and duodenal erosions after ingestion of hydrogen peroxide 2-4 oz. CONCLUSIONS: Exposure to hydrogen peroxide 3% is usually benign, however, severe gastric injury may occur following small ingestions in children. Patients who report persistent vomiting or bloody emesis require medical evaluation and consideration of endoscopy to evaluate gastrointestinal injury.",
+  "sanitized_text": "Hydrogen peroxide 3% exposures.\nOBJECTIVE: To present a child who developed gastric ulcers and duodenal erosions after ingestion of hydrogen peroxide 3% and delineate the epidemiology, medical outcomes, and toxicity of exposures to this agent managed by a poison control center. METHODS: A retrospective chart review of exposures to hydrogen peroxide 3% reported to the Long Island Regional Poison Control Center from January 1992 to April 1995 was conducted. Data extracted included age, route of exposure, amount of agent, symptoms, therapy, and medical outcome. RESULTS: There were 670 exposures to hydrogen peroxide 3% of 81,126 total exposures reported during the 40 months. Most exposures were by oral route (77%), occurred in children < 17 years old (67%), and were asymptomatic (85.6%). All but one exposure resulted in a benign outcome. One child, who presented with bloody emesis, developed multiple gastric ulcers and duodenal erosions after ingestion of hydrogen peroxide 2-4 oz. CONCLUSIONS: Exposure to hydrogen peroxide 3% is usually benign, however, severe gastric injury may occur following small ingestions in children. Patients who report persistent vomiting or bloody emesis require medical evaluation and consideration of endoscopy to evaluate gastrointestinal injury.",
+  "modified": false,
+  "original_char_count": 1289,
+  "sanitized_char_count": 1289,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1138,
+      "boundary_end": 1289,
+      "context": "Hydrogen peroxide 3% exposures. OBJECTIVE: To present a child who developed gastric ulcers and duodenal erosions after ingestion of hydrogen peroxide 3% and delineate the epidemiology, medical outcomes, and toxicity of exposures to this agent managed by a poison control center. METHODS: A retrospective chart review of exposures to hydrogen peroxide 3% reported to the Long Island Regional Poison Control Center from January 1992 to April 1995 was conducted. Data extracted included age, route of exposure, amount of agent, symptoms, therapy, and medical outcome. RESULTS: There were 670 exposures to hydrogen peroxide 3% of 81,126 total exposures reported during the 40 months. Most exposures were by oral route (77%), occurred in children < 17 years old (67%), and were asymptomatic (85.6%). All but one exposure resulted in a benign outcome. One child, who presented with bloody emesis, developed multiple gastric ulcers and duodenal erosions after ingestion of hydrogen peroxide 2-4 oz. CONCLUSIONS: Exposure to hydrogen peroxide 3% is usually benign, however, severe gastric injury may occur following small ingestions in children.",
+      "target": "Patients who report persistent vomiting or bloody emesis require medical evaluation and consideration of endoscopy to evaluate gastrointestinal injury.",
+      "loss_target": 3.0699005126953125,
+      "loss_target_given_context": 2.0187342166900635,
+      "delta_loss": 1.051166296005249,
+      "gain_ratio": 0.3424105412075213,
+      "score": -0.3424105412075213,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1753",
+  "source_doc_id": "MED-1753",
+  "title": "The current state of GMO governance: are we ready for GM animals?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The current state of GMO governance: are we ready for GM animals?\nGiven the history of GMO conflict and debate, the GM animal future is dependent on the response of the regulatory landscape and its associated range of interest groups at national, regional and international levels. Focusing on the EU and the USA, this article examines the likely form of that multi-level response, the increased role of cultural values, the contribution of new and existing interest groups and the consequent implications for the commercialization of both green and red GM animal biotechnology. Copyright © 2012. Published by Elsevier Inc.",
+  "sanitized_text": "The current state of GMO governance: are we ready for GM animals?\nGiven the history of GMO conflict and debate, the GM animal future is dependent on the response of the regulatory landscape and its associated range of interest groups at national, regional and international levels. Focusing on the EU and the USA, this article examines the likely form of that multi-level response, the increased role of cultural values, the contribution of new and existing interest groups and the consequent implications for the commercialization of both green and red GM animal biotechnology. Copyright © 2012. Published by Elsevier Inc.",
+  "modified": false,
+  "original_char_count": 623,
+  "sanitized_char_count": 623,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 597,
+      "boundary_end": 623,
+      "context": "The current state of GMO governance: are we ready for GM animals? Given the history of GMO conflict and debate, the GM animal future is dependent on the response of the regulatory landscape and its associated range of interest groups at national, regional and international levels. Focusing on the EU and the USA, this article examines the likely form of that multi-level response, the increased role of cultural values, the contribution of new and existing interest groups and the consequent implications for the commercialization of both green and red GM animal biotechnology. Copyright © 2012.",
+      "target": "Published by Elsevier Inc.",
+      "loss_target": 2.3177590370178223,
+      "loss_target_given_context": 1.0688153505325317,
+      "delta_loss": 1.2489436864852905,
+      "gain_ratio": 0.5388582965433119,
+      "score": -0.5388582965433119,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

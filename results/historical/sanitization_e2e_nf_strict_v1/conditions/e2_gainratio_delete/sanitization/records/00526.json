@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1636",
+  "source_doc_id": "MED-1636",
+  "title": "Coffee consumption and serum lipids: a meta-analysis of randomized controlled clinical trials.",
+  "original_text": "Coffee consumption and serum lipids: a meta-analysis of randomized controlled clinical trials.\nCoffee drinking has been associated with increased serum cholesterol levels in some, but not all, studies. A Medline search of the English-language literature published prior to December 1998, a bibliography review, and consultations with experts were performed to identify 14 published trials of coffee consumption. Information was abstracted independently by two reviewers using a standardized protocol. With a random-effects model, treatment effects were estimated by pooling results from individual trials after weighting the results by the inverse of total variance. A dose-response relation between coffee consumption and both total cholesterol and LDL cholesterol was identified (p < 0.01). Increases in serum lipids were greater in studies of patients with hyperlipidemia and in trials of caffeinated or boiled coffee. Trials using filtered coffee demonstrated very little increase in serum cholesterol. Consumption of unfiltered, but not filtered, coffee increases serum levels of total and LDL cholesterol. Ethanol plays a role in the development of dyslipidemia.",
+  "sanitized_text": "Coffee consumption and serum lipids: a meta-analysis of randomized controlled clinical trials.\nCoffee drinking has been associated with increased serum cholesterol levels in some, but not all, studies. A Medline search of the English-language literature published prior to December 1998, a bibliography review, and consultations with experts were performed to identify 14 published trials of coffee consumption. Information was abstracted independently by two reviewers using a standardized protocol. With a random-effects model, treatment effects were estimated by pooling results from individual trials after weighting the results by the inverse of total variance. A dose-response relation between coffee consumption and both total cholesterol and LDL cholesterol was identified (p < 0.01). Increases in serum lipids were greater in studies of patients with hyperlipidemia and in trials of caffeinated or boiled coffee. Trials using filtered coffee demonstrated very little increase in serum cholesterol. Consumption of unfiltered, but not filtered, coffee increases serum levels of total and LDL cholesterol.",
+  "modified": true,
+  "original_char_count": 1168,
+  "sanitized_char_count": 1111,
+  "deleted_char_count": 57,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1112,
+      "boundary_end": 1168,
+      "context": "Coffee consumption and serum lipids: a meta-analysis of randomized controlled clinical trials. Coffee drinking has been associated with increased serum cholesterol levels in some, but not all, studies. A Medline search of the English-language literature published prior to December 1998, a bibliography review, and consultations with experts were performed to identify 14 published trials of coffee consumption. Information was abstracted independently by two reviewers using a standardized protocol. With a random-effects model, treatment effects were estimated by pooling results from individual trials after weighting the results by the inverse of total variance. A dose-response relation between coffee consumption and both total cholesterol and LDL cholesterol was identified (p < 0.01). Increases in serum lipids were greater in studies of patients with hyperlipidemia and in trials of caffeinated or boiled coffee. Trials using filtered coffee demonstrated very little increase in serum cholesterol. Consumption of unfiltered, but not filtered, coffee increases serum levels of total and LDL cholesterol.",
+      "target": "Ethanol plays a role in the development of dyslipidemia.",
+      "loss_target": 2.182062864303589,
+      "loss_target_given_context": 3.052274465560913,
+      "delta_loss": -0.8702116012573242,
+      "gain_ratio": -0.3988022597758908,
+      "score": 0.3988022597758908,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1007,
+      "boundary_end": 1111,
+      "context": "Coffee consumption and serum lipids: a meta-analysis of randomized controlled clinical trials. Coffee drinking has been associated with increased serum cholesterol levels in some, but not all, studies. A Medline search of the English-language literature published prior to December 1998, a bibliography review, and consultations with experts were performed to identify 14 published trials of coffee consumption. Information was abstracted independently by two reviewers using a standardized protocol. With a random-effects model, treatment effects were estimated by pooling results from individual trials after weighting the results by the inverse of total variance. A dose-response relation between coffee consumption and both total cholesterol and LDL cholesterol was identified (p < 0.01). Increases in serum lipids were greater in studies of patients with hyperlipidemia and in trials of caffeinated or boiled coffee. Trials using filtered coffee demonstrated very little increase in serum cholesterol.",
+      "target": "Consumption of unfiltered, but not filtered, coffee increases serum levels of total and LDL cholesterol.",
+      "loss_target": 2.0744335651397705,
+      "loss_target_given_context": 1.6319860219955444,
+      "delta_loss": 0.4424475431442261,
+      "gain_ratio": 0.21328595457546745,
+      "score": -0.21328595457546745,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1112,
+      "target": "Ethanol plays a role in the development of dyslipidemia.",
+      "score": 0.3988022597758908,
+      "deleted_suffix": "Ethanol plays a role in the development of dyslipidemia.",
+      "deleted_char_count": 56
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

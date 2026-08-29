@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4414",
+  "source_doc_id": "MED-4414",
+  "title": "Fruit and vegetable intake and risk of acute coronary syndrome.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Fruit and vegetable intake and risk of acute coronary syndrome.\nProspective epidemiological studies have reported that a higher fruit and vegetable intake is associated with a lower risk of CHD. The aim of the present study was to examine associations between fruit and vegetable consumption, in particular the subgroupings citrus fruits, apples and cruciferous vegetables, and the risk of acute coronary syndrome (ACS). During a median follow-up of 7.7 years, 1075 incident ACS cases were identified among 53 383 men and women, aged 50-64 years at recruitment into the Diet, Cancer and Health cohort study in 1993-7. Fruit and vegetable intake was estimated from a validated FFQ, and ACS incidence rate ratios (IRR) were estimated using Cox proportional hazards models. Overall, a tendency towards a lower risk of ACS was observed for both men and women with higher fruit and vegetable consumption. For men, we found an inverse association for apple intake (IRR per 25 g/d: 0.97; 95 % CI 0.94, 0.99). This association was also seen among women, albeit borderline significant. However, a higher risk was seen among women with higher fruit juice intake (IRR per 25 g/d: 1.04; 95 % CI 1.00, 1.08). The present results provide some support for previously observed inverse associations between fresh fruit intake, particularly apples, and ACS risk.",
+  "sanitized_text": "Fruit and vegetable intake and risk of acute coronary syndrome.\nProspective epidemiological studies have reported that a higher fruit and vegetable intake is associated with a lower risk of CHD. The aim of the present study was to examine associations between fruit and vegetable consumption, in particular the subgroupings citrus fruits, apples and cruciferous vegetables, and the risk of acute coronary syndrome (ACS). During a median follow-up of 7.7 years, 1075 incident ACS cases were identified among 53 383 men and women, aged 50-64 years at recruitment into the Diet, Cancer and Health cohort study in 1993-7. Fruit and vegetable intake was estimated from a validated FFQ, and ACS incidence rate ratios (IRR) were estimated using Cox proportional hazards models. Overall, a tendency towards a lower risk of ACS was observed for both men and women with higher fruit and vegetable consumption. For men, we found an inverse association for apple intake (IRR per 25 g/d: 0.97; 95 % CI 0.94, 0.99). This association was also seen among women, albeit borderline significant. However, a higher risk was seen among women with higher fruit juice intake (IRR per 25 g/d: 1.04; 95 % CI 1.00, 1.08). The present results provide some support for previously observed inverse associations between fresh fruit intake, particularly apples, and ACS risk.",
+  "modified": false,
+  "original_char_count": 1344,
+  "sanitized_char_count": 1344,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1196,
+      "boundary_end": 1344,
+      "context": "Fruit and vegetable intake and risk of acute coronary syndrome. Prospective epidemiological studies have reported that a higher fruit and vegetable intake is associated with a lower risk of CHD. The aim of the present study was to examine associations between fruit and vegetable consumption, in particular the subgroupings citrus fruits, apples and cruciferous vegetables, and the risk of acute coronary syndrome (ACS). During a median follow-up of 7.7 years, 1075 incident ACS cases were identified among 53 383 men and women, aged 50-64 years at recruitment into the Diet, Cancer and Health cohort study in 1993-7. Fruit and vegetable intake was estimated from a validated FFQ, and ACS incidence rate ratios (IRR) were estimated using Cox proportional hazards models. Overall, a tendency towards a lower risk of ACS was observed for both men and women with higher fruit and vegetable consumption. For men, we found an inverse association for apple intake (IRR per 25 g/d: 0.97; 95 % CI 0.94, 0.99). This association was also seen among women, albeit borderline significant. However, a higher risk was seen among women with higher fruit juice intake (IRR per 25 g/d: 1.04; 95 % CI 1.00, 1.08).",
+      "target": "The present results provide some support for previously observed inverse associations between fresh fruit intake, particularly apples, and ACS risk.",
+      "loss_target": 3.4528448581695557,
+      "loss_target_given_context": 1.616161823272705,
+      "delta_loss": 1.8366830348968506,
+      "gain_ratio": 0.5319332638277078,
+      "score": -0.5319332638277078,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

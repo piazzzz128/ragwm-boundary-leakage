@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1026",
+  "source_doc_id": "MED-1026",
+  "title": "Pressure changes in varicose veins.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Pressure changes in varicose veins.\nPressures in the superficial leg veins of 24 patients with varicose veins and 6 normal controls were studied. In the controls there was no rise in pressure in the veins on increasing the intra-abdominal pressure, but in the patients with varicose veins pressure rose significantly. Squatting was no better than sitting in preventing transmission of intra-abdominal pressure to the leg veins. It was concluded that the difference in the positions adopted for defaecation is not the cause of the wide variation in the geographical distribution of varicose veins.",
+  "sanitized_text": "Pressure changes in varicose veins.\nPressures in the superficial leg veins of 24 patients with varicose veins and 6 normal controls were studied. In the controls there was no rise in pressure in the veins on increasing the intra-abdominal pressure, but in the patients with varicose veins pressure rose significantly. Squatting was no better than sitting in preventing transmission of intra-abdominal pressure to the leg veins. It was concluded that the difference in the positions adopted for defaecation is not the cause of the wide variation in the geographical distribution of varicose veins.",
+  "modified": false,
+  "original_char_count": 596,
+  "sanitized_char_count": 596,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 428,
+      "boundary_end": 596,
+      "context": "Pressure changes in varicose veins. Pressures in the superficial leg veins of 24 patients with varicose veins and 6 normal controls were studied. In the controls there was no rise in pressure in the veins on increasing the intra-abdominal pressure, but in the patients with varicose veins pressure rose significantly. Squatting was no better than sitting in preventing transmission of intra-abdominal pressure to the leg veins.",
+      "target": "It was concluded that the difference in the positions adopted for defaecation is not the cause of the wide variation in the geographical distribution of varicose veins.",
+      "loss_target": 3.054863929748535,
+      "loss_target_given_context": 2.2642204761505127,
+      "delta_loss": 0.7906434535980225,
+      "gain_ratio": 0.2588146221174261,
+      "score": -0.2588146221174261,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

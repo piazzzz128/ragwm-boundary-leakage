@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-745",
+  "source_doc_id": "MED-745",
+  "title": "The double-blind, randomized, placebo-controlled trial: gold standard or golden calf?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The double-blind, randomized, placebo-controlled trial: gold standard or golden calf?\nThe double-blind randomized controlled trial (RCT) is accepted by medicine as objective scientific methodology that, when ideally performed, produces knowledge untainted by bias. The validity of the RCT rests not just on theoretical arguments, but also on the discrepancy between the RCT and less rigorous evidence (the difference is sometimes considered an objective measure of bias). A brief overview of historical and recent developments in \"the discrepancy argument\" is presented. The article then examines the possibility that some of this \"deviation from truth\" may be the result of artifacts introduced by the masked RCT itself. Can an \"unbiased\" method produce bias? Among the experiments examined are those that augment the methodological stringency of a normal RCT in order to render the experiment less susceptible to subversion by the mind. This methodology, a hypothetical \"platinum\" standard, can be used to judge the \"gold\" standard. The concealment in a placebo-controlled RCT seems capable of generating a \"masking bias.\" Other potential biases, such as \"investigator self-selection,\" \"preference,\" and \"consent\" are also briefly discussed. Such potential distortions indicate that the double-blind RCT may not be objective in the realist sense, but rather is objective in a \"softer\" disciplinary sense. Some \"facts\" may not exist independent of the apparatus of their production.",
+  "sanitized_text": "The double-blind, randomized, placebo-controlled trial: gold standard or golden calf?\nThe double-blind randomized controlled trial (RCT) is accepted by medicine as objective scientific methodology that, when ideally performed, produces knowledge untainted by bias. The validity of the RCT rests not just on theoretical arguments, but also on the discrepancy between the RCT and less rigorous evidence (the difference is sometimes considered an objective measure of bias). A brief overview of historical and recent developments in \"the discrepancy argument\" is presented. The article then examines the possibility that some of this \"deviation from truth\" may be the result of artifacts introduced by the masked RCT itself. Can an \"unbiased\" method produce bias? Among the experiments examined are those that augment the methodological stringency of a normal RCT in order to render the experiment less susceptible to subversion by the mind. This methodology, a hypothetical \"platinum\" standard, can be used to judge the \"gold\" standard. The concealment in a placebo-controlled RCT seems capable of generating a \"masking bias.\" Other potential biases, such as \"investigator self-selection,\" \"preference,\" and \"consent\" are also briefly discussed. Such potential distortions indicate that the double-blind RCT may not be objective in the realist sense, but rather is objective in a \"softer\" disciplinary sense. Some \"facts\" may not exist independent of the apparatus of their production.",
+  "modified": false,
+  "original_char_count": 1483,
+  "sanitized_char_count": 1483,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1407,
+      "boundary_end": 1483,
+      "context": "ideally performed, produces knowledge untainted by bias. The validity of the RCT rests not just on theoretical arguments, but also on the discrepancy between the RCT and less rigorous evidence (the difference is sometimes considered an objective measure of bias). A brief overview of historical and recent developments in \"the discrepancy argument\" is presented. The article then examines the possibility that some of this \"deviation from truth\" may be the result of artifacts introduced by the masked RCT itself. Can an \"unbiased\" method produce bias? Among the experiments examined are those that augment the methodological stringency of a normal RCT in order to render the experiment less susceptible to subversion by the mind. This methodology, a hypothetical \"platinum\" standard, can be used to judge the \"gold\" standard. The concealment in a placebo-controlled RCT seems capable of generating a \"masking bias.\" Other potential biases, such as \"investigator self-selection,\" \"preference,\" and \"consent\" are also briefly discussed. Such potential distortions indicate that the double-blind RCT may not be objective in the realist sense, but rather is objective in a \"softer\" disciplinary sense.",
+      "target": "Some \"facts\" may not exist independent of the apparatus of their production.",
+      "loss_target": 3.86708402633667,
+      "loss_target_given_context": 2.8496744632720947,
+      "delta_loss": 1.0174095630645752,
+      "gain_ratio": 0.2630947649793837,
+      "score": -0.2630947649793837,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

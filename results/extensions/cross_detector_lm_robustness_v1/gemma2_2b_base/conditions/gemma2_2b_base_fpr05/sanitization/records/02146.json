@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3860",
+  "source_doc_id": "MED-3860",
+  "title": "Dietary fiber intake and risk of breast cancer by menopausal and estrogen receptor status",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary fiber intake and risk of breast cancer by menopausal and estrogen receptor status\nPurpose Evaluate the hypothesis that relation of breast cancer associated with dietary fiber intakes varies by type of fiber, menopausal, and the tumor’s hormone receptor status. Methods A case-control study of female breast cancer was conducted in Connecticut. A total of 557 incident breast cancer cases and 536 age frequency-matched controls were included in the analysis. Information on dietary intakes was collected through in-person interviews with a semi-quantitative food frequency questionnaire and was converted into nutrient intakes. Odds ratios and 95% confidence intervals were estimated by unconditional logistic regression. Results Among pre-menopausal women, higher intake of soluble fiber (highest versus lowest quartile of intake) was associated with a significantly reduced risk of breast cancer (OR = 0.38, 95% CI, 0.15–0.97, Ptrend = 0.08). When further restricted to pre-menopausal women with ER− tumors, the adjusted OR for the highest quartile of intake was 0.15 (95% CI, 0.03–0.69, Ptrend = 0.02) for soluble fiber intake. Among post-menopausal women, no reduced risk of breast cancer was observed for either soluble or insoluble fiber intakes or among ER+ or ER− tumor groups. Conclusions The results from this study show that dietary soluble fiber intake is associated with a significantly reduced risk of ER− breast cancer among pre-menopausal women. Additional studies with larger sample size are needed to confirm these results.",
+  "sanitized_text": "Dietary fiber intake and risk of breast cancer by menopausal and estrogen receptor status\nPurpose Evaluate the hypothesis that relation of breast cancer associated with dietary fiber intakes varies by type of fiber, menopausal, and the tumor’s hormone receptor status. Methods A case-control study of female breast cancer was conducted in Connecticut. A total of 557 incident breast cancer cases and 536 age frequency-matched controls were included in the analysis. Information on dietary intakes was collected through in-person interviews with a semi-quantitative food frequency questionnaire and was converted into nutrient intakes. Odds ratios and 95% confidence intervals were estimated by unconditional logistic regression. Results Among pre-menopausal women, higher intake of soluble fiber (highest versus lowest quartile of intake) was associated with a significantly reduced risk of breast cancer (OR = 0.38, 95% CI, 0.15–0.97, Ptrend = 0.08). When further restricted to pre-menopausal women with ER− tumors, the adjusted OR for the highest quartile of intake was 0.15 (95% CI, 0.03–0.69, Ptrend = 0.02) for soluble fiber intake. Among post-menopausal women, no reduced risk of breast cancer was observed for either soluble or insoluble fiber intakes or among ER+ or ER− tumor groups. Conclusions The results from this study show that dietary soluble fiber intake is associated with a significantly reduced risk of ER− breast cancer among pre-menopausal women. Additional studies with larger sample size are needed to confirm these results.",
+  "modified": false,
+  "original_char_count": 1548,
+  "sanitized_char_count": 1548,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1469,
+      "boundary_end": 1548,
+      "context": "Methods A case-control study of female breast cancer was conducted in Connecticut. A total of 557 incident breast cancer cases and 536 age frequency-matched controls were included in the analysis. Information on dietary intakes was collected through in-person interviews with a semi-quantitative food frequency questionnaire and was converted into nutrient intakes. Odds ratios and 95% confidence intervals were estimated by unconditional logistic regression. Results Among pre-menopausal women, higher intake of soluble fiber (highest versus lowest quartile of intake) was associated with a significantly reduced risk of breast cancer (OR = 0.38, 95% CI, 0.15–0.97, Ptrend = 0.08). When further restricted to pre-menopausal women with ER− tumors, the adjusted OR for the highest quartile of intake was 0.15 (95% CI, 0.03–0.69, Ptrend = 0.02) for soluble fiber intake. Among post-menopausal women, no reduced risk of breast cancer was observed for either soluble or insoluble fiber intakes or among ER+ or ER− tumor groups. Conclusions The results from this study show that dietary soluble fiber intake is associated with a significantly reduced risk of ER− breast cancer among pre-menopausal women.",
+      "target": "Additional studies with larger sample size are needed to confirm these results.",
+      "loss_target": 10.027877807617188,
+      "loss_target_given_context": 2.8819925785064697,
+      "delta_loss": 7.145885229110718,
+      "gain_ratio": 0.7126019449182652,
+      "score": -0.7126019449182652,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

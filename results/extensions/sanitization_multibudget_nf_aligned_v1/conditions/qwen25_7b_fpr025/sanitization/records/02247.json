@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3985",
+  "source_doc_id": "MED-3985",
+  "title": "Vitamin D deficiency treated by consuming UVB-irradiated mushrooms",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vitamin D deficiency treated by consuming UVB-irradiated mushrooms\nDeficiency of vitamin D is usually caused by dietary deficiency and/or lack of exposure to sunlight in dark skinned individuals living at northern latitudes. Simple vitamin D deficiency is commonly treated by prescribing a vitamin D containing calcium supplement. This report presents a patient who rejected this approach and instead, after researching alternative treatment options independently, opted to self-treat by consuming UVB-irradiated mushrooms. The beneficial effect of this on the patient's plasma biochemical markers is shown. Further research into the beneficial effect of consuming UVB-irradiated mushrooms is required.",
+  "sanitized_text": "Vitamin D deficiency treated by consuming UVB-irradiated mushrooms\nDeficiency of vitamin D is usually caused by dietary deficiency and/or lack of exposure to sunlight in dark skinned individuals living at northern latitudes. Simple vitamin D deficiency is commonly treated by prescribing a vitamin D containing calcium supplement. This report presents a patient who rejected this approach and instead, after researching alternative treatment options independently, opted to self-treat by consuming UVB-irradiated mushrooms. The beneficial effect of this on the patient's plasma biochemical markers is shown. Further research into the beneficial effect of consuming UVB-irradiated mushrooms is required.",
+  "modified": false,
+  "original_char_count": 702,
+  "sanitized_char_count": 702,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 608,
+      "boundary_end": 702,
+      "context": "Vitamin D deficiency treated by consuming UVB-irradiated mushrooms Deficiency of vitamin D is usually caused by dietary deficiency and/or lack of exposure to sunlight in dark skinned individuals living at northern latitudes. Simple vitamin D deficiency is commonly treated by prescribing a vitamin D containing calcium supplement. This report presents a patient who rejected this approach and instead, after researching alternative treatment options independently, opted to self-treat by consuming UVB-irradiated mushrooms. The beneficial effect of this on the patient's plasma biochemical markers is shown.",
+      "target": "Further research into the beneficial effect of consuming UVB-irradiated mushrooms is required.",
+      "loss_target": 2.8830478191375732,
+      "loss_target_given_context": 1.0939329862594604,
+      "delta_loss": 1.7891148328781128,
+      "gain_ratio": 0.6205637038005507,
+      "score": -0.6205637038005507,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

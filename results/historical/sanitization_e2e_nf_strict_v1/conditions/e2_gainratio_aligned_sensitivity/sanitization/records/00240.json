@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1304",
+  "source_doc_id": "MED-1304",
+  "title": "Nonalcoholic fatty liver disease: an emerging threat to obese and diabetic individuals",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Nonalcoholic fatty liver disease: an emerging threat to obese and diabetic individuals\nNonalcoholic fatty liver disease (NAFLD) is the most common liver disease in the Western world and its incidence is increasing rapidly. NAFLD is a spectrum ranging from simple steatosis, which is relatively benign hepatically, to nonalcoholic steatohepatitis (NASH), which can progress to cirrhosis. Obesity, insulin resistance, type 2 diabetes mellitus, and dyslipidemia are the most important risk factors for NAFLD. Due to heavy enrichment with metabolic risk factors, individuals with NAFLD are at significantly higher risk for cardiovascular disease. Individuals with NAFLD have higher incidence of type 2 diabetes. The diagnosis of NAFLD requires imaging evidence of hepatic steatosis in the absence of competing etiologies including significant alcohol consumption. Liver biopsy remains the gold standard for diagnosing NASH and for determining prognosis. Weight loss remains a cornerstone of treatment. Weight loss of ∼5% is believed to improve steatosis, whereas ∼10% weight loss is necessary to improve steatohepatitis. A number of pharmacologic therapies have been investigated to treat NASH, and agents such as vitamin E and thiazolidinediones have shown promise in select patient subgroups.",
+  "sanitized_text": "Nonalcoholic fatty liver disease: an emerging threat to obese and diabetic individuals\nNonalcoholic fatty liver disease (NAFLD) is the most common liver disease in the Western world and its incidence is increasing rapidly. NAFLD is a spectrum ranging from simple steatosis, which is relatively benign hepatically, to nonalcoholic steatohepatitis (NASH), which can progress to cirrhosis. Obesity, insulin resistance, type 2 diabetes mellitus, and dyslipidemia are the most important risk factors for NAFLD. Due to heavy enrichment with metabolic risk factors, individuals with NAFLD are at significantly higher risk for cardiovascular disease. Individuals with NAFLD have higher incidence of type 2 diabetes. The diagnosis of NAFLD requires imaging evidence of hepatic steatosis in the absence of competing etiologies including significant alcohol consumption. Liver biopsy remains the gold standard for diagnosing NASH and for determining prognosis. Weight loss remains a cornerstone of treatment. Weight loss of ∼5% is believed to improve steatosis, whereas ∼10% weight loss is necessary to improve steatohepatitis. A number of pharmacologic therapies have been investigated to treat NASH, and agents such as vitamin E and thiazolidinediones have shown promise in select patient subgroups.",
+  "modified": false,
+  "original_char_count": 1290,
+  "sanitized_char_count": 1290,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1117,
+      "boundary_end": 1290,
+      "context": "Nonalcoholic fatty liver disease: an emerging threat to obese and diabetic individuals Nonalcoholic fatty liver disease (NAFLD) is the most common liver disease in the Western world and its incidence is increasing rapidly. NAFLD is a spectrum ranging from simple steatosis, which is relatively benign hepatically, to nonalcoholic steatohepatitis (NASH), which can progress to cirrhosis. Obesity, insulin resistance, type 2 diabetes mellitus, and dyslipidemia are the most important risk factors for NAFLD. Due to heavy enrichment with metabolic risk factors, individuals with NAFLD are at significantly higher risk for cardiovascular disease. Individuals with NAFLD have higher incidence of type 2 diabetes. The diagnosis of NAFLD requires imaging evidence of hepatic steatosis in the absence of competing etiologies including significant alcohol consumption. Liver biopsy remains the gold standard for diagnosing NASH and for determining prognosis. Weight loss remains a cornerstone of treatment. Weight loss of ∼5% is believed to improve steatosis, whereas ∼10% weight loss is necessary to improve steatohepatitis.",
+      "target": "A number of pharmacologic therapies have been investigated to treat NASH, and agents such as vitamin E and thiazolidinediones have shown promise in select patient subgroups.",
+      "loss_target": 2.2439801692962646,
+      "loss_target_given_context": 1.3747297525405884,
+      "delta_loss": 0.8692504167556763,
+      "gain_ratio": 0.3873699191505254,
+      "score": -0.3873699191505254,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

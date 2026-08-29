@@ -1,0 +1,334 @@
+{
+  "summary": {
+    "experiment_role": "cross_detector_lm_robustness_aligned_v1",
+    "detector_lm": "Qwen2.5-14B",
+    "verifier_reference": "aligned_extension_verifier_reference_25_4",
+    "registry_provenance_reference": "current_provider_verifier_audit_v1_20260818",
+    "verifier_model": "gpt-4o-mini",
+    "total": 30,
+    "e0_aligned_extension_WSN": 25,
+    "e1_aligned_extension_oracle_WSN": 4,
+    "qwen2_5_14b_gainratio_WSN": 20,
+    "absolute_WSN_drop": 5,
+    "relative_WSN_reduction": 0.2,
+    "paired_baseline_positive_count": 25,
+    "paired_broken_count": 5,
+    "paired_retained_count": 20,
+    "false_gain_count": 0,
+    "paired_attack_success_rate": 0.2,
+    "oracle_gap_closure": 0.23809523809523808,
+    "mcnemar_yes_to_no": 5,
+    "mcnemar_no_to_yes": 0,
+    "mcnemar_exact_two_sided_p": 0.0625,
+    "attack_unknown_count": 0,
+    "modified_document_count": 129,
+    "total_deleted_chars": 24463,
+    "deletion_step_count": 153,
+    "ownership_threshold": 2,
+    "above_ownership_threshold": true,
+    "run_valid": true,
+    "warning": "Aligned cross-detector extension. Do not replace or pool with sealed strict-v1 E0=26, E1=5, E2=17."
+  },
+  "details": [
+    {
+      "watermark_unit": [
+        "Broccoli",
+        "Cigarette Smoke",
+        "CONTRIBUTES_TO"
+      ],
+      "e0_flag": 0,
+      "e1_flag": 0,
+      "attack_flag": 0
+    },
+    {
+      "watermark_unit": [
+        "Constipation",
+        "Vitamin D Deficiency",
+        "MEASURED"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Death Receptors",
+        "Disease",
+        "CAUSES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 1,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Depression",
+        "Sugar-Free Jams",
+        "MEASURED_BY"
+      ],
+      "e0_flag": 0,
+      "e1_flag": 0,
+      "attack_flag": 0
+    },
+    {
+      "watermark_unit": [
+        "Dietary Factors",
+        "Dioxins",
+        "MEASURED_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Dietary Factors",
+        "Eggs",
+        "MEASURED_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 0
+    },
+    {
+      "watermark_unit": [
+        "Dietary Portfolio Study",
+        "Flatulence",
+        "RESULTS_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Food Products",
+        "Pharmacological Treatment",
+        "RESULTS_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Food Products",
+        "Polycyclic Aromatic Hydrocarbons",
+        "RELATED_TO"
+      ],
+      "e0_flag": 0,
+      "e1_flag": 1,
+      "attack_flag": 0
+    },
+    {
+      "watermark_unit": [
+        "Gut Microbiota",
+        "Policies And Strategies",
+        "USED_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Hand Hygiene Compliance Rates",
+        "Intervention Group",
+        "AFFECTS"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Health",
+        "Allergic Rhinitis",
+        "RESULTS_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 1,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Health",
+        "High-Fat Meal",
+        "INCLUDES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 1,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Homa-Ir",
+        "Sweetened Dried Cranberries",
+        "INVOLVES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 0
+    },
+    {
+      "watermark_unit": [
+        "Inflammatory Diseases",
+        "Animal Studies",
+        "USED_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Lethal Prostate Cancer",
+        "Disease",
+        "RESULTS_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Lethal Prostate Cancer",
+        "Patient 1",
+        "REDUCES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Leukemia",
+        "Randomized Double-Blind Parallel Trial",
+        "REDUCES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Meta_Analysis",
+        "Whole Grain Consumption",
+        "USED_IN"
+      ],
+      "e0_flag": 0,
+      "e1_flag": 0,
+      "attack_flag": 0
+    },
+    {
+      "watermark_unit": [
+        "Microbiome",
+        "Odds Ratios",
+        "RELATED_TO"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Moderately Obese Subjects",
+        "Lifespan",
+        "IMPROVES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Nf-Kappab",
+        "Hepg2",
+        "CONTAINS"
+      ],
+      "e0_flag": 0,
+      "e1_flag": 0,
+      "attack_flag": 0
+    },
+    {
+      "watermark_unit": [
+        "Paediatric Asthma",
+        "Saffron",
+        "MEASURES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 0
+    },
+    {
+      "watermark_unit": [
+        "Pharmacological Treatment",
+        "Depression",
+        "INVOLVES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Renal Cell Carcinoma (Rcc)",
+        "United States",
+        "CAUSES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 0
+    },
+    {
+      "watermark_unit": [
+        "Review",
+        "Sperm Count",
+        "INHIBITS"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Sugar-Free Jams",
+        "Polonium-210",
+        "USED_IN"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Trail",
+        "Leukemia",
+        "REDUCES"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 0
+    },
+    {
+      "watermark_unit": [
+        "Triglyceride",
+        "Oats",
+        "CONTAINS"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    },
+    {
+      "watermark_unit": [
+        "Virgin Olive Oil",
+        "Flatulence",
+        "MEASURED_BY"
+      ],
+      "e0_flag": 1,
+      "e1_flag": 0,
+      "attack_flag": 1
+    }
+  ]
+}

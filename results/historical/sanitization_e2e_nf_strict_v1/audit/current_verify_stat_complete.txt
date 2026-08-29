@@ -1,0 +1,262 @@
+===== MODEL BASE CLASS =====
+import random
+import os
+import torch
+import numpy as np
+
+
+class Model:
+    def __init__(self, config):
+        self.provider = config["model_info"]["provider"]
+        self.name = config["model_info"]["name"]
+        self.seed = int(config["params"]["seed"])
+        self.temperature = float(config["params"]["temperature"])
+        self.gpus = [str(gpu) for gpu in config["params"]["gpus"]]
+        self.initialize_seed()
+        if len(self.gpus) > 0:
+            self.initialize_gpus()
+
+    def print_model_info(self):
+        print(f"{'-'*len(f'| Model name: {self.name}')}\n| Provider: {self.provider}\n| Model name: {self.name}\n{'-'*len(f'| Model name: {self.name}')}")
+
+    def set_API_key(self):
+        raise NotImplementedError("ERROR: Interface doesn't have the implementation for set_API_key")
+    
+    def query(self):
+        raise NotImplementedError("ERROR: Interface doesn't have the implementation for query")
+    
+    def initialize_seed(self):
+        random.seed(self.seed)
+        os.environ['PYTHONHASHSEED'] = str(self.seed)
+        np.random.seed(self.seed)
+        torch.manual_seed(self.seed)
+        torch.cuda.manual_seed(self.seed)
+        torch.backends.cudnn.benchmark = False
+        torch.backends.cudnn.deterministic = True
+        # if you are using multi-GPU.
+        if len(self.gpus) > 1:
+            torch.cuda.manual_seed_all(self.seed)
+    
+    def initialize_gpus(self):
+        os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+        os.environ["CUDA_VISIBLE_DEVICES"] = ','.join(self.gpus)
+===== STAT FUNCTION LOCATIONS =====
+262:def wm_verify_run(verify_path, loc_path, doc_path, stat_path,  filter_flag=False, verify_num = 30):
+355:def wm_verify_clean(verify_path, loc_path, doc_path, stat_path,    verify_num = 30):
+409:def stat_result(verify_path, stat_path):
+
+===== COMPLETE CURRENT VERIFY AND STAT CODE =====
+def wm_verify_run(verify_path, loc_path, doc_path, stat_path,  filter_flag=False, verify_num = 30):
+ 
+    verify_ids = [] ### wmunit, inject ids, search id, contain id,before contain wmunit, after contain wmunit, result, [result detail] 
+    try:
+        verify_ids = load_json(verify_path)
+    except FileNotFoundError:
+        logger.error(f'{verify_path} does not exist!')
+
+ 
+
+    wmunit_loc_list = []
+    try:
+        wmunit_loc_list = load_json(loc_path)
+    except FileNotFoundError:
+        logger.error(f'{loc_path} does not exist!')
+
+    def find_loc(wmunit, ids):
+        for wmunit_loc in wmunit_loc_list:
+            if wmunit == wmunit_loc[0]:
+                for item, idsl in enumerate(wmunit_loc[1]):
+                    if ids == idsl :
+                        return 1, item
+        
+        return 0, -1
+    
+    def find_doc(wmunit, item):
+        for wmunit_loc in wmunit_loc_list:
+            if wmunit == wmunit_loc[0]:
+                return wmunit_loc[2][item] 
+
+
+    eg0_verify_ids = [['e1','e2','r'],['ids','WT_exsit','WE'],['result','WD']]
+
+     
+    rwmunit_loc_list = random.sample(wmunit_loc_list, verify_num)
+
+    for  wmunit_loc in rwmunit_loc_list:
+        wmunit = wmunit_loc[0]
+        if any(wmunit == vid[0] for vid in verify_ids):
+            continue
+
+        eg_verify_ids = copy.deepcopy(eg0_verify_ids)  # 使用深拷贝
+        eg_verify_ids[0] = wmunit
+        visiter.wm_unit = wmunit
+        checker.wm_unit = wmunit
+
+        rag_document, db_ids = visiter.ask_wm()
+        db_search =  0
+        wmunit_exist = -1
+        wmunit_WE = -1
+        wmunit_doc_info  = []
+        db_search, item = find_loc(wmunit, db_ids)
+        wmunit_WE = 0 if find_substrings_containing_sentences(rag_document, wmunit[:2])[1] == 0 else 1
+
+        if item != -1:
+            print(item)
+            wmunit_doc_info = find_doc(wmunit, item)
+            # print(wmunit_doc)
+            wmunit_exist = 0 if find_substrings_containing_sentences(wmunit_doc_info[0], wmunit[:2])[1] == 0 else 1
+             
+        if filter_flag == True:
+            checker.rag_document= find_substrings_containing_sentences(rag_document, wmunit[:2])[0]
+        else:
+            checker.rag_document= rag_document
+
+        eg_verify_ids[1] = [db_ids, db_search, wmunit_exist, checker.rag_document, wmunit_WE, wmunit_doc_info]
+        result = checker.check_wm()
+        result_flag = -1
+
+    #  re.compile(r'^(yes|YES|Yes)\.?$')
+        if result in ['Yes', 'YES', 'yes', 'Yes.', 'YES.', 'yes.' ]:
+            result_flag = 1
+        elif result in ['No', 'no', 'NO', 'No.','no.','NO.']:
+            result_flag = 0
+        else:
+            result_flag = 2
+        
+        eg_verify_ids[2] = [result_flag, result]
+
+        if eg_verify_ids not in verify_ids:  # 确保唯一性
+            verify_ids.append(eg_verify_ids)
+
+        save_json(verify_ids, verify_path)
+
+        if len(verify_ids) % 5 == 0:
+            stat_result(verify_path, stat_path )
+
+    stat_result(verify_path,stat_path )
+    logger.info(f'verify watermark doc len :{len(verify_ids)}')
+    return  True
+
+
+
+def wm_verify_clean(verify_path, loc_path, doc_path, stat_path,    verify_num = 30):
+ 
+    verify_ids = [] ### wmunit, inject ids, search id, contain id,before contain wmunit, after contain wmunit, result, [result detail] 
+    try:
+        verify_ids = load_json(verify_path)
+    except FileNotFoundError:
+        logger.error(f'{verify_path} does not exist!')
+
+    wmunit_doc_list = load_json(doc_path)
+
+    
+
+     
+    rwmunit_loc_list = random.sample(wmunit_doc_list, verify_num)
+
+    for  wmunit_loc in rwmunit_loc_list:
+        wmunit = wmunit_loc[0]
+        if any(wmunit == vid[0] for vid in verify_ids):
+            continue
+
+
+        visiter.wm_unit = wmunit
+        checker.wm_unit = wmunit
+
+        rag_document, db_ids, context_db = visiter.ask_wm_test()
+ 
+        checker.rag_document= rag_document
+        result = checker.check_wm()
+        result_flag = -1
+
+    #  re.compile(r'^(yes|YES|Yes)\.?$')
+        if result in ['Yes', 'YES', 'yes', 'Yes.', 'YES.', 'yes.' ]:
+            result_flag = 1
+        elif result in ['No', 'no', 'NO', 'No.','no.','NO.']:
+            result_flag = 0
+        else:
+            result_flag = 2
+        
+        eg_verify_ids = [wmunit, [db_ids, context_db,rag_document], [result,result_flag]]
+        if eg_verify_ids not in verify_ids:  # 确保唯一性
+            verify_ids.append(eg_verify_ids)
+
+        save_json(verify_ids, verify_path)
+
+        if len(verify_ids) % 5 == 0:
+            stat_result(verify_path, stat_path )
+
+    stat_result(verify_path,stat_path )
+    logger.info(f'verify watermark doc len :{len(verify_ids)}')
+    return  True
+
+
+
+
+def stat_result(verify_path, stat_path):
+
+    verify_ids = []
+    try:
+        verify_ids = load_json(verify_path)
+    except FileNotFoundError:
+        logger.error(f'{verify_path} does not exist!')
+
+
+    total =0
+    correct = 0
+    wrong = 0
+    unknow =0 
+    db_search =  0
+    wmunit_exist = 0
+    wmunit_WE = 0 
+ 
+
+    for vids in verify_ids:
+        total += 1
+        db_search += vids[1][1]
+        wmunit_exist += vids[1][2]
+        wmunit_WE += vids[1][4]
+        if vids[2][0] == 0:
+            wrong += 1
+        elif vids[2][0]  == 1:
+            correct += 1
+        elif vids[2][0]  == 2:
+            unknow += 1
+
+    stat_dict = {}
+    stat_dict['total'] = total
+    stat_dict['correct'] = correct/total 
+    stat_dict['wrong'] = wrong/total
+    stat_dict['unknow'] = unknow/total
+    stat_dict['db_search'] = db_search/total
+    stat_dict['wmunit_exist'] = wmunit_exist/total
+    stat_dict['wmunit_WE'] = wmunit_WE/total
+    print(f"total-{total}, correct-{correct}-{correct/total:.2f}, wrong-{wrong}-{wrong/total:.2f}, \
+                unknow-{unknow}-{unknow/total:.2f} db_search-{db_search}-{db_search/total:.2f},  \
+                wmunit_exist-{wmunit_exist}-{wmunit_exist/total:.2f}, wmunit_WE-{wmunit_WE}-{wmunit_WE/total:.2f}")
+    logger.info(f"total-{total}, correct-{correct}-{correct/total:.2f}, wrong-{wrong}-{wrong/total:.2f}, \
+                unknow-{unknow}-{unknow/total:.2f} db_search-{db_search}-{db_search/total:.2f},  \
+                wmunit_exist-{wmunit_exist}-{wmunit_exist/total:.2f}, wmunit_WE-{wmunit_WE}-{wmunit_WE/total:.2f}")
+    save_json(stat_dict, stat_path)
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='test')
+
+    # Retriever and BEIR datasets
+    # Retriever and BEIR datasets
+    parser.add_argument("--eval_model_code", type=str, default="contriever", choices=["contriever","contriever-msmarco","ance"])
+    parser.add_argument('--eval_dataset', type=str, default="trec-covid", help='BEIR dataset to evaluate', choices= ['trec-covid','nq', 'msmarco', 'hotpotqa', 'nfcorpus'])
+    parser.add_argument('--split', type=str, default='test')
+    parser.add_argument('--score_function', type=str, default='cosine', choices=['cosine','l2','ip' ])
+
+    parser.add_argument('--top_k', type=int, default=5)
+
+    # LLM settings
+    parser.add_argument('--model_config_path', default=None, type=str)
+    parser.add_argument('--model_name_rllm', default='gpt3.5', type=str, choices=['gpt3.5', 'qwen_plus', 'deepseek_chat', 'llama7b', 'llama13b', 'vicuna7b', 'vicuna13b', 'palm2'])
+    parser.add_argument('--model_name_llm', type=str, default='gpt3.5')
+    
+
+    parser.add_argument('--adv_per_wmunit', type=int, default=5, help='The number of adv texts for each target query.')
+

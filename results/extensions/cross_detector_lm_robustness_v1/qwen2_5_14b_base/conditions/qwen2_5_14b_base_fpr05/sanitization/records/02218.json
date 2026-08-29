@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3956",
+  "source_doc_id": "MED-3956",
+  "title": "Beyond overweight: nutrition as an important lifestyle factor influencing timing of puberty.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Beyond overweight: nutrition as an important lifestyle factor influencing timing of puberty.\nEarly onset of puberty may confer adverse health consequences. Thus, modifiable factors influencing the timing of puberty are of public health interest. Childhood overweight as a factor in the earlier onset of menarche has been supported by prospective evidence; nonetheless, its overall contribution may have been overemphasized, since secular trends toward a younger age at menarche have not been a universal finding during the recent obesity epidemic. Current observational studies suggest notable associations between dietary intakes and pubertal timing beyond contributions to an energy imbalance: children with the highest intakes of vegetable protein or animal protein experience pubertal onset up to 7 months later or 7 months earlier, respectively. Furthermore, girls with high isoflavone intakes may experience the onset of breast development and peak height velocity approximately 7-8 months later. These effect sizes are on the order of those observed for potentially neuroactive steroid hormones. Thus, dietary patterns characterized by higher intakes of vegetable protein and isoflavones and lower intakes of animal protein may contribute to a lower risk of breast cancer or a lower total mortality. © 2012 International Life Sciences Institute.",
+  "sanitized_text": "Beyond overweight: nutrition as an important lifestyle factor influencing timing of puberty.\nEarly onset of puberty may confer adverse health consequences. Thus, modifiable factors influencing the timing of puberty are of public health interest. Childhood overweight as a factor in the earlier onset of menarche has been supported by prospective evidence; nonetheless, its overall contribution may have been overemphasized, since secular trends toward a younger age at menarche have not been a universal finding during the recent obesity epidemic. Current observational studies suggest notable associations between dietary intakes and pubertal timing beyond contributions to an energy imbalance: children with the highest intakes of vegetable protein or animal protein experience pubertal onset up to 7 months later or 7 months earlier, respectively. Furthermore, girls with high isoflavone intakes may experience the onset of breast development and peak height velocity approximately 7-8 months later. These effect sizes are on the order of those observed for potentially neuroactive steroid hormones. Thus, dietary patterns characterized by higher intakes of vegetable protein and isoflavones and lower intakes of animal protein may contribute to a lower risk of breast cancer or a lower total mortality. © 2012 International Life Sciences Institute.",
+  "modified": false,
+  "original_char_count": 1352,
+  "sanitized_char_count": 1352,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1307,
+      "boundary_end": 1352,
+      "context": "puberty may confer adverse health consequences. Thus, modifiable factors influencing the timing of puberty are of public health interest. Childhood overweight as a factor in the earlier onset of menarche has been supported by prospective evidence; nonetheless, its overall contribution may have been overemphasized, since secular trends toward a younger age at menarche have not been a universal finding during the recent obesity epidemic. Current observational studies suggest notable associations between dietary intakes and pubertal timing beyond contributions to an energy imbalance: children with the highest intakes of vegetable protein or animal protein experience pubertal onset up to 7 months later or 7 months earlier, respectively. Furthermore, girls with high isoflavone intakes may experience the onset of breast development and peak height velocity approximately 7-8 months later. These effect sizes are on the order of those observed for potentially neuroactive steroid hormones. Thus, dietary patterns characterized by higher intakes of vegetable protein and isoflavones and lower intakes of animal protein may contribute to a lower risk of breast cancer or a lower total mortality.",
+      "target": "© 2012 International Life Sciences Institute.",
+      "loss_target": 1.974561333656311,
+      "loss_target_given_context": 0.8837069272994995,
+      "delta_loss": 1.0908544063568115,
+      "gain_ratio": 0.5524540503063876,
+      "score": -0.5524540503063876,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

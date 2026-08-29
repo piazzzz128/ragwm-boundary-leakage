@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3295",
+  "source_doc_id": "MED-3295",
+  "title": "Cancer and Noncancer Mortality Among American Seafood Workers",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cancer and Noncancer Mortality Among American Seafood Workers\nBackground Few studies have investigated mortality in seafood workers worldwide, and no such study has been conducted in the United States. The objective of this study was to investigate mortality in American seafood workers. Methods The study population was derived from 4 states and consisted of 4116 subjects who worked mainly in seafood processing plants. They were followed up from 1966 to 2003. Standardized mortality ratios (SMRs) and proportional mortality ratios (PMRs) were estimated, using the US general population for comparison. Results About 45% of the cohort was born after 1949. A total of 788 deaths were recorded; 53% of the decedents were female, and 88% were white. The SMRs for stomach cancer and disorders of the thyroid gland in the cohort as a whole were 2.1 (95% confidence interval [CI], 1.1–3.8) and 6.1 (95% CI 1.3–18.0), respectively. The SMRs for breast cancer, and occlusion/stenosis of the pre-cerebral/cerebral arteries in the cohort as a whole were 0.5 (95% CI, 0.3–0.9) and 0.5 (95% CI, 0.2–0.8), respectively. The SMR for ischemic heart disease in white females was 0.8 (95% CI, 0.6–0.9). Conclusions This cohort had excess deaths from stomach cancer and disorders of the thyroid gland, and deficit of deaths from breast cancer, stroke and ischemic heart disease. The significance of these findings is unknown, especially as less than 20% of the cohort were deceased. Nevertheless, the cohort is unique and important, and further follow-up may shed more light on mortality patterns in this occupational group.",
+  "sanitized_text": "Cancer and Noncancer Mortality Among American Seafood Workers\nBackground Few studies have investigated mortality in seafood workers worldwide, and no such study has been conducted in the United States. The objective of this study was to investigate mortality in American seafood workers. Methods The study population was derived from 4 states and consisted of 4116 subjects who worked mainly in seafood processing plants. They were followed up from 1966 to 2003. Standardized mortality ratios (SMRs) and proportional mortality ratios (PMRs) were estimated, using the US general population for comparison. Results About 45% of the cohort was born after 1949. A total of 788 deaths were recorded; 53% of the decedents were female, and 88% were white. The SMRs for stomach cancer and disorders of the thyroid gland in the cohort as a whole were 2.1 (95% confidence interval [CI], 1.1–3.8) and 6.1 (95% CI 1.3–18.0), respectively. The SMRs for breast cancer, and occlusion/stenosis of the pre-cerebral/cerebral arteries in the cohort as a whole were 0.5 (95% CI, 0.3–0.9) and 0.5 (95% CI, 0.2–0.8), respectively. The SMR for ischemic heart disease in white females was 0.8 (95% CI, 0.6–0.9). Conclusions This cohort had excess deaths from stomach cancer and disorders of the thyroid gland, and deficit of deaths from breast cancer, stroke and ischemic heart disease. The significance of these findings is unknown, especially as less than 20% of the cohort were deceased. Nevertheless, the cohort is unique and important, and further follow-up may shed more light on mortality patterns in this occupational group.",
+  "modified": false,
+  "original_char_count": 1608,
+  "sanitized_char_count": 1608,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1467,
+      "boundary_end": 1608,
+      "context": "seafood workers. Methods The study population was derived from 4 states and consisted of 4116 subjects who worked mainly in seafood processing plants. They were followed up from 1966 to 2003. Standardized mortality ratios (SMRs) and proportional mortality ratios (PMRs) were estimated, using the US general population for comparison. Results About 45% of the cohort was born after 1949. A total of 788 deaths were recorded; 53% of the decedents were female, and 88% were white. The SMRs for stomach cancer and disorders of the thyroid gland in the cohort as a whole were 2.1 (95% confidence interval [CI], 1.1–3.8) and 6.1 (95% CI 1.3–18.0), respectively. The SMRs for breast cancer, and occlusion/stenosis of the pre-cerebral/cerebral arteries in the cohort as a whole were 0.5 (95% CI, 0.3–0.9) and 0.5 (95% CI, 0.2–0.8), respectively. The SMR for ischemic heart disease in white females was 0.8 (95% CI, 0.6–0.9). Conclusions This cohort had excess deaths from stomach cancer and disorders of the thyroid gland, and deficit of deaths from breast cancer, stroke and ischemic heart disease. The significance of these findings is unknown, especially as less than 20% of the cohort were deceased.",
+      "target": "Nevertheless, the cohort is unique and important, and further follow-up may shed more light on mortality patterns in this occupational group.",
+      "loss_target": 3.098202705383301,
+      "loss_target_given_context": 1.7395011186599731,
+      "delta_loss": 1.3587015867233276,
+      "gain_ratio": 0.43854509079167336,
+      "score": -0.43854509079167336,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

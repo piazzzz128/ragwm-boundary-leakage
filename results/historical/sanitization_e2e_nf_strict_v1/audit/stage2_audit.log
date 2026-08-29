@@ -1,0 +1,1855 @@
+==================================================
+A. REPOSITORY VERSION
+==================================================
+Repository: /root/autodl-tmp/ragwm_storage/repo/ragwm_src
+cf56163c97af0ac837d2dae30e9eb95a27f01bf9
+ M contriever_src/__pycache__/__init__.cpython-312.pyc
+ M contriever_src/__pycache__/contriever.cpython-312.pyc
+ M entity_generate/generate_entity_llm_check.py
+ M entity_generate/generate_hash_entity.py
+ M model_configs/gpt3.5_config.json
+ M model_configs/gpt3.5_config_para.json
+ M rag/__pycache__/__init__.cpython-312.pyc
+ M rag/__pycache__/vectorstore.cpython-312.pyc
+ M rag/vectorstore.py
+ M src/__pycache__/__init__.cpython-312.pyc
+ M src/__pycache__/utils.cpython-312.pyc
+ M src/main.py
+ M src/models/__init__.py
+ M src/models/__pycache__/PaLM2.cpython-312.pyc
+ M src/models/__pycache__/__init__.cpython-312.pyc
+ M src/utils.py
+?? contriever_src/__pycache__/dist_utils.cpython-312.pyc
+?? contriever_src/__pycache__/utils.cpython-312.pyc
+?? entity_generate/__pycache__/
+?? entity_generate/generate_entity_llm_check.py.bak_before_safe_patch
+?? entity_generate/generate_entity_llm_check.py.bak_filter_0530_190647
+?? entity_generate/generate_entity_llm_check.py.bak_model_fix_0530_191958
+?? entity_generate/generate_hash_entity.py.bak_hash_0530_190655
+?? entity_generate/generate_hash_entity.py.bak_hash_0530_190727
+?? entity_generate/generate_hash_entity.py.bak_hash_0530_190733
+?? entity_generate/generate_hash_entity.py.bak_hash_0530_190736
+?? entity_generate/safe_llm_patch.py
+?? entity_generate/safe_llm_patch.py.bak_force_model_20260603_213002
+?? local_models/
+?? model_configs/gpt3.5_config.json.bak_20260601_154141
+?? model_configs/gpt3.5_config.json.bak_20260603_160308
+?? model_configs/gpt3.5_config.json.bak_before_params_fix
+?? model_configs/gpt3.5_config.json.bak_force_model_20260603_213002
+?? model_configs/gpt3.5_config.json.bak_force_qwen_turbo_20260603_212802
+?? model_configs/gpt3.5_config.json.bak_keep_4o_20260603_213419
+?? rag/vectorstore.py.bak_all_change_get_20260604_204213
+?? rag/vectorstore.py.bak_before_nfcorpus_v4_chroma
+?? rag/vectorstore.py.bak_change_key_20260604_204012
+?? rag/vectorstore.py.bak_chromapath_20260601_180610
+?? rag/vectorstore.py.bak_fix_all_change_20260604_204213
+?? rag/vectorstore.py.bak_fix_missing_change_20260604_204015
+?? src/__pycache__/main.cpython-312.pyc
+?? src/__pycache__/prompt_define.cpython-312.pyc
+?? src/__pycache__/watermark_role.cpython-312.pyc
+?? src/main.py.bak_disable_active_exit_20260605_010104
+?? src/models/__init__.py.bak_before_optional_model_fix
+?? src/models/__init__.py.bak_optional_imports
+?? src/models/__init__.py.broken_20260601_154307
+?? src/models/__pycache__/GPT.cpython-312.pyc
+?? src/models/__pycache__/Llama.cpython-312.pyc
+?? src/models/__pycache__/Model.cpython-312.pyc
+?? src/models/__pycache__/Vicuna.cpython-312.pyc
+?? src/utils.py.bak_before_local_contriever
+?? tools/
+
+==================================================
+B. STRICT NFCORPUS BACKUP CONTENTS
+==================================================
+
+----- /root/autodl-tmp/ragwm_storage/backup_nfcorpus_strict_wm_prepare_wmunit_20260604_121756.tar.gz
+988K	/root/autodl-tmp/ragwm_storage/backup_nfcorpus_strict_wm_prepare_wmunit_20260604_121756.tar.gz
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/checkpoint.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entities_dict_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_type_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_type_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_list_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/log.log
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_top_list.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/init_hash.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_hash.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_top.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/wmunit.json
+
+----- /root/autodl-tmp/ragwm_storage/backup_nfcorpus_strict_doc_before_inject_20260604_203812.tar.gz
+1016K	/root/autodl-tmp/ragwm_storage/backup_nfcorpus_strict_doc_before_inject_20260604_203812.tar.gz
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/checkpoint.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entities_dict_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_type_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_type_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_list_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/log.log
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_top_list.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/init_hash.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_hash.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_top.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/wmunit.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_offline_v4_audit.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_doc.json
+
+----- /root/autodl-tmp/ragwm_storage/backup_nfcorpus_strict_inject_20260604_204526.tar.gz
+994M	/root/autodl-tmp/ragwm_storage/backup_nfcorpus_strict_inject_20260604_204526.tar.gz
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/checkpoint.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entities_dict_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_type_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_type_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_list_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/log.log
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_top_list.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/init_hash.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_hash.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_top.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/wmunit.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_doc.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_old_before_strict_20260604_203826.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_offline_v4_audit_old_20260604_203826.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_failed_change_key_20260604_204021.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_failed_keychange_20260604_204236.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject.json
+root/autodl-tmp/ragwm_storage/chromadb_db/
+root/autodl-tmp/ragwm_storage/chromadb_db/651b746a-8337-4ae5-965d-f7035870736d/
+root/autodl-tmp/ragwm_storage/chromadb_db/651b746a-8337-4ae5-965d-f7035870736d/data_level0.bin
+root/autodl-tmp/ragwm_storage/chromadb_db/651b746a-8337-4ae5-965d-f7035870736d/header.bin
+root/autodl-tmp/ragwm_storage/chromadb_db/651b746a-8337-4ae5-965d-f7035870736d/index_metadata.pickle
+root/autodl-tmp/ragwm_storage/chromadb_db/651b746a-8337-4ae5-965d-f7035870736d/length.bin
+root/autodl-tmp/ragwm_storage/chromadb_db/651b746a-8337-4ae5-965d-f7035870736d/link_lists.bin
+root/autodl-tmp/ragwm_storage/chromadb_db/chroma.sqlite3
+root/autodl-tmp/ragwm_storage/chromadb_db/7948b4e0-420c-47a2-ba0c-e78fe38dbd9c/
+root/autodl-tmp/ragwm_storage/chromadb_db/7948b4e0-420c-47a2-ba0c-e78fe38dbd9c/header.bin
+root/autodl-tmp/ragwm_storage/chromadb_db/7948b4e0-420c-47a2-ba0c-e78fe38dbd9c/data_level0.bin
+root/autodl-tmp/ragwm_storage/chromadb_db/7948b4e0-420c-47a2-ba0c-e78fe38dbd9c/length.bin
+root/autodl-tmp/ragwm_storage/chromadb_db/7948b4e0-420c-47a2-ba0c-e78fe38dbd9c/link_lists.bin
+root/autodl-tmp/ragwm_storage/chromadb_db/7948b4e0-420c-47a2-ba0c-e78fe38dbd9c/index_metadata.pickle
+root/autodl-tmp/ragwm_storage/chromadb_db/210a3b7b-a2c2-4a25-b1e7-222659cd3a79/
+root/autodl-tmp/ragwm_storage/chromadb_db/210a3b7b-a2c2-4a25-b1e7-222659cd3a79/header.bin
+root/autodl-tmp/ragwm_storage/chromadb_db/210a3b7b-a2c2-4a25-b1e7-222659cd3a79/data_level0.bin
+root/autodl-tmp/ragwm_storage/chromadb_db/210a3b7b-a2c2-4a25-b1e7-222659cd3a79/length.bin
+root/autodl-tmp/ragwm_storage/chromadb_db/210a3b7b-a2c2-4a25-b1e7-222659cd3a79/link_lists.bin
+root/autodl-tmp/ragwm_storage/chromadb_db/210a3b7b-a2c2-4a25-b1e7-222659cd3a79/index_metadata.pickle
+
+----- /root/autodl-tmp/ragwm_storage/backup_nfcorpus_strict_boundary_v1_20260604_205433.tar.gz
+196K	/root/autodl-tmp/ragwm_storage/backup_nfcorpus_strict_boundary_v1_20260604_205433.tar.gz
+root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_strict_v1.json
+root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_strict_v1_audit.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_doc.json
+
+----- /root/autodl-tmp/ragwm_storage/backup_nfcorpus_strict_final_gainratio_20260604_205826.tar.gz
+1.6M	/root/autodl-tmp/ragwm_storage/backup_nfcorpus_strict_final_gainratio_20260604_205826.tar.gz
+root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_strict_v1.json
+root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_strict_v1_audit.json
+root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_contriever_cosine_scores.json
+root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_contriever_cosine_metrics.json
+root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_qwen_gainratio_scores.json
+root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_qwen_gainratio_metrics.json
+root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_qwen_gainratio_failed.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/checkpoint.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entities_dict_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_type_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_type_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_list_llm.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/log.log
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_top_list.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/init_hash.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_hash.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_top.json
+root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/wmunit.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_doc.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_old_before_strict_20260604_203826.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_offline_v4_audit_old_20260604_203826.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_failed_change_key_20260604_204021.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_failed_keychange_20260604_204236.json
+root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject.json
+
+==================================================
+C. CURRENT NFCORPUS DIRECTORIES
+==================================================
+
+----- /root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus
+2026-06-03 21:34         332  /root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/log.log
+2026-06-04 06:15           9  /root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/checkpoint.json
+2026-06-04 06:15       35062  /root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_type_llm.json
+2026-06-04 06:15      201756  /root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_type_llm.json
+2026-06-04 06:15     1125353  /root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entities_dict_llm.json
+2026-06-04 06:15     4061784  /root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_list_llm.json
+2026-06-04 12:17          66  /root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/init_hash.json
+2026-06-04 12:17         348  /root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/relation_top.json
+2026-06-04 12:17        2362  /root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_hash.json
+2026-06-04 12:17       20667  /root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/wmunit.json
+2026-06-04 12:17       47105  /root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/entity_top_list.json
+
+----- /root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus
+2026-06-03 15:19         407  /root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_offline_v4_audit_old_20260604_203826.json
+2026-06-03 15:19       43740  /root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_old_before_strict_20260604_203826.json
+2026-06-04 19:57      180885  /root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_doc.json
+2026-06-04 20:38       38297  /root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_failed_change_key_20260604_204021.json
+2026-06-04 20:40       38297  /root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject_failed_keychange_20260604_204236.json
+2026-06-04 20:43       48557  /root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/10/wmuint_inject.json
+2026-06-04 20:43     1366922  /root/autodl-tmp/ragwm_storage/output/wm_generate/nfcorpus/gpt3.5/10/log.log
+
+----- /root/autodl-tmp/ragwm_storage/output/semantic_cliff
+2026-06-02 15:20      430928  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5.json
+2026-06-02 15:22      357453  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v2.json
+2026-06-02 15:25         475  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3_audit.json
+2026-06-02 15:25      660933  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3.json
+2026-06-02 15:27         475  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3_audit_BACKUP_20260602_152707.json
+2026-06-02 15:27      660933  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3_BACKUP_20260602_152707.json
+2026-06-02 15:29         478  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_contriever_cosine_metrics.json
+2026-06-02 15:29      705027  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_contriever_cosine_scores.json
+2026-06-02 15:50           2  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_failed_distilgpt2_smoke20.json
+2026-06-02 15:50        1961  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_metrics_distilgpt2_smoke20.json
+2026-06-02 15:50       33541  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_scores_distilgpt2_smoke20.json
+2026-06-02 15:51           2  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_failed_distilgpt2.json
+2026-06-02 15:51        2008  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_metrics_distilgpt2.json
+2026-06-02 15:51      759121  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_scores_distilgpt2.json
+2026-06-02 18:11           2  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_failed_gpt2_medium.json
+2026-06-02 18:11           2  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_failed_gpt2_medium_smoke20.json
+2026-06-02 18:11        1996  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_metrics_gpt2_medium_smoke20.json
+2026-06-02 18:11        2015  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_metrics_gpt2_medium.json
+2026-06-02 18:11       33501  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_scores_gpt2_medium_smoke20.json
+2026-06-02 18:11      759052  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_scores_gpt2_medium.json
+2026-06-02 18:32         413  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_summary_table.md
+2026-06-02 18:32         884  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_summary_table.json
+2026-06-02 19:17           2  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_failed_qwen2_5_7b_smoke20.json
+2026-06-02 19:17        1856  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_metrics_qwen2_5_7b_smoke20.json
+2026-06-02 19:17       34204  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_scores_qwen2_5_7b_smoke20.json
+2026-06-02 19:18           2  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_failed_qwen2_5_7b.json
+2026-06-02 19:18        2015  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_metrics_qwen2_5_7b.json
+2026-06-02 19:18      774392  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_delta_loss_scores_qwen2_5_7b.json
+2026-06-02 19:21         541  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_final_summary_table.md
+2026-06-02 19:21        1232  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_final_summary_table.json
+2026-06-02 19:46        1617  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_detection_metrics_extended.md
+2026-06-02 19:46        4006  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_detection_metrics_extended.csv
+2026-06-02 19:46       14051  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/trec_detection_metrics_extended.json
+2026-06-03 15:19         371  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_contriever_cosine_metrics_v4.json
+2026-06-03 15:19         490  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_k3_v4_audit.json
+2026-06-03 15:19     2232065  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_k3_v4.json
+2026-06-03 15:19     2318449  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_contriever_cosine_scores_v4.json
+2026-06-03 15:21           2  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_delta_loss_failed_qwen2_5_7b_v4.json
+2026-06-03 15:21         447  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_detection_metrics_extended_v4.md
+2026-06-03 15:21         528  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_trec_v4.md
+2026-06-03 15:21         585  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_detection_metrics_extended_v4.csv
+2026-06-03 15:21         965  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_delta_loss_metrics_qwen2_5_7b_v4.json
+2026-06-03 15:21        3451  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_detection_metrics_extended_v4.json
+2026-06-03 15:21        7486  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_trec_v4.json
+2026-06-03 15:21     2489464  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_delta_loss_scores_qwen2_5_7b_v4.json
+2026-06-04 20:52         917  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_strict_v1_audit.json
+2026-06-04 20:52     1234999  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_strict_v1.json
+2026-06-04 20:54         421  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_contriever_cosine_metrics.json
+2026-06-04 20:54     1270415  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_contriever_cosine_scores.json
+2026-06-04 20:57           2  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_qwen_gainratio_failed.json
+2026-06-04 20:57        1559  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_qwen_gainratio_metrics.json
+2026-06-04 20:57     1325451  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_qwen_gainratio_scores.json
+2026-06-04 20:58        1194  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_nfcorpus_strict_v1.md
+2026-06-04 21:00         477  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_strict_trec_v1.csv
+2026-06-04 21:00        1183  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_strict_trec_v1.json
+2026-06-04 21:00        1215  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_strict_trec_v1.md
+2026-06-05 12:45         887  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nq_sampled_strict_v1_audit.json
+2026-06-05 12:45      782960  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nq_sampled_strict_v1.json
+2026-06-05 12:49        1153  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nq_sampled_strict_v2_audit.json
+2026-06-05 12:49      780527  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nq_sampled_strict_v2.json
+2026-06-05 12:50         424  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nq_sampled_strict_v2_contriever_cosine_metrics.json
+2026-06-05 12:50      815627  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nq_sampled_strict_v2_contriever_cosine_scores.json
+2026-06-05 12:52           2  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nq_sampled_strict_v2_qwen_gainratio_failed.json
+2026-06-05 12:52        1578  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nq_sampled_strict_v2_qwen_gainratio_metrics.json
+2026-06-05 12:52      890084  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/nq_sampled_strict_v2_qwen_gainratio_scores.json
+2026-06-05 12:55         701  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_trec_nq_v1.csv
+2026-06-05 12:55        1486  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_trec_nq_v1.md
+2026-06-05 12:55        1807  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_trec_nq_v1.json
+2026-06-05 13:05        1784  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_length_ablation_qwen2_5_7b_table.md
+2026-06-05 13:05        4478  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_length_ablation_qwen2_5_7b_table.csv
+2026-06-05 13:05       11126  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_length_ablation_qwen2_5_7b_metrics.json
+2026-06-05 13:05     3715982  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_length_ablation_qwen2_5_7b_scores.json
+2026-06-05 13:12        1784  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_ablation_misaligned_20260605_131245/context_length_ablation_qwen2_5_7b_table.md
+2026-06-05 13:12        4478  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_ablation_misaligned_20260605_131245/context_length_ablation_qwen2_5_7b_table.csv
+2026-06-05 13:12       11126  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_ablation_misaligned_20260605_131245/context_length_ablation_qwen2_5_7b_metrics.json
+2026-06-05 13:12     3715982  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_ablation_misaligned_20260605_131245/context_length_ablation_qwen2_5_7b_scores.json
+2026-06-05 13:20        1792  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_length_ablation_qwen2_5_7b_aligned_table.md
+2026-06-05 13:20        4532  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_length_ablation_qwen2_5_7b_aligned_table.csv
+2026-06-05 13:20       11477  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_length_ablation_qwen2_5_7b_aligned_metrics.json
+2026-06-05 13:20     4077535  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/context_length_ablation_qwen2_5_7b_aligned_scores.json
+2026-06-05 13:21         702  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_trec_nq_aligned_v2.csv
+2026-06-05 13:21        1316  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_trec_nq_aligned_v2.md
+2026-06-05 13:21        1808  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_trec_nq_aligned_v2.json
+2026-06-05 13:39        2144  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/model_scale_ablation_aligned_all_datasets_table.md
+2026-06-05 13:39        5187  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/model_scale_ablation_aligned_all_datasets_table.csv
+2026-06-05 13:39       12164  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/model_scale_ablation_aligned_all_datasets_metrics.json
+2026-06-05 13:39     1806917  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/model_scale_ablation_aligned_all_datasets_scores.json
+2026-06-09 22:11        1086  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/ci_trec_qwen_gainratio_bootstrap.json
+2026-06-09 22:20        1093  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/ci_nfcorpus_contriever_bootstrap.json
+2026-06-09 22:21        1099  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/ci_nq_contriever_bootstrap.json
+2026-06-09 22:26        1085  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/ci_trec_contriever_bootstrap.json
+2026-06-09 22:26        1090  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/ci_nfcorpus_qwen_gainratio_bootstrap.json
+2026-06-09 22:26        1095  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/ci_nq_qwen_gainratio_bootstrap.json
+2026-06-09 22:43        1303  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/ci_nfcorpus_qwen_gainratio_aligned_full_bootstrap.json
+2026-06-09 22:44        1315  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/ci_nq_qwen_gainratio_aligned_full_bootstrap.json
+2026-06-09 22:46        1306  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/ci_trec_qwen_gainratio_aligned_full_bootstrap.json
+2026-06-10 00:39        1178  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_trec_nq_aligned_v2_with_ci.BAK.md
+2026-06-10 00:39        1178  /root/autodl-tmp/ragwm_storage/output/semantic_cliff/main_table_gainratio_nf_trec_nq_aligned_v2_with_ci.md
+
+----- /root/autodl-tmp/ragwm_storage/datasets/nfcorpus
+2026-06-03 14:56      258218  /root/autodl-tmp/ragwm_storage/datasets/nfcorpus/qrels/dev.tsv
+2026-06-03 14:56      279572  /root/autodl-tmp/ragwm_storage/datasets/nfcorpus/qrels/test.tsv
+2026-06-03 14:56      441466  /root/autodl-tmp/ragwm_storage/datasets/nfcorpus/queries.jsonl
+2026-06-03 14:56     2504643  /root/autodl-tmp/ragwm_storage/datasets/nfcorpus/qrels/train.tsv
+2026-06-03 14:56     6219364  /root/autodl-tmp/ragwm_storage/datasets/nfcorpus/corpus.jsonl
+
+==================================================
+D. IMPORTANT JSON STRUCTURES
+==================================================
+
+================================================================================
+/root/autodl-tmp/ragwm_storage/output/wm_prepare/nfcorpus/wmunit.json
+size_bytes: 20667
+top_type: list
+length: 235
+first_type: list
+first_item: ['Food Products', 'Pharmacological Treatment', 'RESULTS_IN']
+
+================================================================================
+/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_strict_v1.json
+size_bytes: 1234999
+top_type: list
+length: 446
+first_type: dict
+first_keys: ['boundary_type', 'candidate_idx', 'chroma_id', 'context', 'context_text', 'dataset', 'full_text', 'group_id', 'id', 'label', 'source', 'source_doc_id', 'target', 'target_text', 'tuple', 'unit_idx', 'watermark_text', 'wd1', 'wd2']
+  id: 'nfcorpus_strict_inject_167'
+  dataset: 'nfcorpus'
+  source: 'strict_inject'
+  label: 1
+  boundary_type: 'inject'
+  group_id: 'Health||High-Fat Meal||INCLUDES'
+  tuple: ['Health', 'High-Fat Meal', 'INCLUDES']
+  source_doc_id: 'MED-1466'
+  chroma_id: 'MED-1466'
+  unit_idx: 36
+  candidate_idx: 3
+  context: 'How free fatty acids inhibit glucose utilization in human skeletal muscle. Rat muscle studies suggest competition between free fatty acids (FFA) and glucose for oxidation, resulti...
+  target: 'High-fat meals are considered a component of overall health.'
+  context_text: 'How free fatty acids inhibit glucose utilization in human skeletal muscle. Rat muscle studies suggest competition between free fatty acids (FFA) and glucose for oxidation, resulti...
+  target_text: 'High-fat meals are considered a component of overall health.'
+  watermark_text: 'High-fat meals are considered a component of overall health.'
+  full_text: 'How free fatty acids inhibit glucose utilization in human skeletal muscle. Rat muscle studies suggest competition between free fatty acids (FFA) and glucose for oxidation, resulti...
+  wd1: 1
+  wd2: 1
+
+================================================================================
+/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_strict_v1_audit.json
+size_bytes: 917
+top_type: dict
+num_keys: 20
+top_keys: ['dataset', 'version', 'seed', 'collection', 'collection_count', 'changed_docs', 'clean_docs', 'inject_units', 'watermark_candidates', 'inject_records', 'clean_records', 'total_records', 'label_counts', 'missing_watermark_candidates_in_changed_docs', 'target_in_context', 'context_contains_any_wt', 'clean_target_contains_any_wt', 'duplicate_full_text', 'candidate_count_distribution_in_inject_file', 'note']
+  dataset: 'nfcorpus'
+  version: 'strict_v1'
+  seed: 2026
+  collection: 'nfcorpus_contriever_cosine'
+  collection_count: 3633
+
+================================================================================
+/root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_qwen_gainratio_scores.json
+size_bytes: 1325451
+top_type: list
+length: 446
+first_type: dict
+first_keys: ['boundary_type', 'candidate_idx', 'chroma_id', 'context', 'context_text', 'dataset', 'delta_loss', 'full_text', 'gain_ratio', 'group_id', 'id', 'label', 'loss_target', 'loss_target_given_context', 'score', 'source', 'source_doc_id', 'target', 'target_text', 'tuple', 'unit_idx', 'watermark_text', 'wd1', 'wd2']
+  id: 'nfcorpus_strict_inject_167'
+  dataset: 'nfcorpus'
+  source: 'strict_inject'
+  label: 1
+  boundary_type: 'inject'
+  group_id: 'Health||High-Fat Meal||INCLUDES'
+  tuple: ['Health', 'High-Fat Meal', 'INCLUDES']
+  source_doc_id: 'MED-1466'
+  chroma_id: 'MED-1466'
+  unit_idx: 36
+  candidate_idx: 3
+  context: 'How free fatty acids inhibit glucose utilization in human skeletal muscle. Rat muscle studies suggest competition between free fatty acids (FFA) and glucose for oxidation, resulti...
+  target: 'High-fat meals are considered a component of overall health.'
+  context_text: 'How free fatty acids inhibit glucose utilization in human skeletal muscle. Rat muscle studies suggest competition between free fatty acids (FFA) and glucose for oxidation, resulti...
+  target_text: 'High-fat meals are considered a component of overall health.'
+  watermark_text: 'High-fat meals are considered a component of overall health.'
+  full_text: 'How free fatty acids inhibit glucose utilization in human skeletal muscle. Rat muscle studies suggest competition between free fatty acids (FFA) and glucose for oxidation, resulti...
+  wd1: 1
+  wd2: 1
+  loss_target: 4.209649085998535
+  loss_target_given_context: 5.050883769989014
+  delta_loss: -0.8412346839904785
+  gain_ratio: -0.19983487145958542
+  score: 0.19983487145958542
+
+================================================================================
+/root/autodl-tmp/ragwm_storage/output/semantic_cliff/nfcorpus_strict_qwen_gainratio_metrics.json
+size_bytes: 1559
+top_type: dict
+num_keys: 18
+top_keys: ['dataset', 'method', 'model', 'n_input', 'n_scored', 'n_failed', 'positive_inject', 'negative_clean', 'record_gain_ratio', 'record_delta_loss', 'gain_ratio_mean_inject', 'gain_ratio_mean_clean', 'delta_loss_mean_inject', 'delta_loss_mean_clean', 'group_mean_gain_ratio', 'group_median_gain_ratio', 'group_mean_delta_loss', 'group_median_delta_loss']
+  dataset: 'nfcorpus_strict_v1'
+  method: 'GainRatio'
+  model: 'Qwen2.5-7B'
+  n_input: 446
+  n_scored: 446
+
+==================================================
+E. SEARCH ORIGINAL RAG-WM VERIFICATION LOGIC
+==================================================
+README.md:44:### 6、Watermark text generation, injection, and verification
+README.md:51:# verification
+src/main.py:487:    parser.add_argument('--stat', type=int, default=0, help='Statistical verification information')
+src/prompt_define.py:52:2. **Watermark Discriminator**: This model evaluates whether the extractor's output (WE) correctly implies that the relationship (R1) exists between (E1) and (E2). The discriminator’s output is labeled as (WD), with a focus on determining if the relationship is clear and accurate.
+src/prompt_define.py:57:- Discriminator feedback: ({WD})
+src/prompt_define.py:64:2. The discriminator’s answer (WD) confirms that the relationship (R1) between (E1) and (E2) is still evident and accurate.
+src/prompt_define.py:76:    - **Watermark Discriminator 1 (WD1)**: This model evaluates whether the watermark text (WT) accurately implies the relationship (R1) between (E1) and (E2).
+src/prompt_define.py:80:    - **Watermark Discriminator 2 (WD2)**: After the extraction, this model assesses whether the relationship (R1) is still clearly and accurately implied.
+src/prompt_define.py:84:2. Both discriminators (WD1 and WD2) confirm that the relationship (R1) is correctly encoded.
+src/prompt_define.py:89:- Discriminator feedback (WD1): ({WD1})
+src/prompt_define.py:90:- Discriminator feedback (WD2): ({WD2})
+src/prompt_define.py:105:    - **Watermark Discriminator 1 (WD1)**: This model evaluates whether the watermark text (WT) accurately implies the relationship (R1) between (E1) and (E2).
+src/prompt_define.py:109:    - **Watermark Discriminator 2 (WD2)**: After the extraction, this model assesses whether the relationship (R1) is still clearly and accurately implied.
+src/prompt_define.py:113:2. Both discriminators (WD1 and WD2) confirm that the relationship (R1) is correctly encoded within the word limit (L).
+src/prompt_define.py:118:- Discriminator feedback (WD1): ({WD1})
+src/prompt_define.py:119:- Discriminator feedback (WD2): ({WD2})
+src/prompt_define.py:138:    - **Watermark Discriminator 1 (WD1)**: This model evaluates whether the watermark text (WT) accurately implies the relationship (R1) between (E1) and (E2).
+src/prompt_define.py:142:    - **Watermark Discriminator 2 (WD2)**: After the extraction, this model assesses whether the relationship (R1) is still clearly and accurately implied.
+src/prompt_define.py:146:2. Both discriminators (WD1 and WD2) confirm that the relationship (R1) is correctly encoded.
+src/prompt_define.py:153:- Discriminator feedback (WD1): {WD1}
+src/prompt_define.py:154:- Discriminator feedback (WD2): {WD2}
+src/watermark_role.py:80:        Generate watermark text of watermark unit based on prompt, with the feedback of watermark generater, watermark extracter, and watermark discriminator
+src/watermark_role.py:94:        Generate watermark text of watermark unit based on prompt, with the feedback of watermark generater, watermark extracter, and watermark discriminator
+src/watermark_role.py:105:        Generate watermark text of watermark unit based on prompt, with the feedback of watermark generater, watermark extracter, and watermark discriminator
+src/watermark_role.py:115:        Generate watermark text of watermark unit based on prompt, with the feedback of watermark generater, watermark extracter, and watermark discriminator
+src/main.py.bak_disable_active_exit_20260605_010104:487:    parser.add_argument('--stat', type=int, default=0, help='Statistical verification information')
+rag/backup/main.py:388:    parser.add_argument('--stat', type=int, default=0, help='Statistical verification information')
+tools/trec_extended_detection_metrics.py:283:        f.write("- Bootstrap 95% CI estimates statistical uncertainty by stratified resampling with replacement.\n")
+
+==================================================
+F. MAIN ENTRY FILES
+==================================================
+
+----- src/main.py
+
+import os
+import sys
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+# 添加项目根目录到sys.path
+sys.path.append(project_root)
+import argparse
+ 
+
+from watermark_role import Advisor, Visiter, Checker 
+
+
+from rag.vectorstore import  VectorStore, check_collection
+from src.utils import load_json, save_json, find_substrings_containing_sentences,Log,extract_doc_list,extract_doc, file_exist
+from src.models import create_model
+from src.utils import load_beir_datasets, load_models
+
+import re
+import copy 
+import torch
+import numpy as np
+import random
+
+seed = 633
+
+torch.backends.cudnn.deterministic = True
+random.seed(seed)
+np.random.seed(seed)
+torch.manual_seed(seed)
+torch.cuda.manual_seed_all(seed)
+# logger = Log().get(__file__)
+
+def doc_llm_run_mutual(doc_path, mutual_times=0):
+    '''
+    python  wm_generate/role.py  --doc 1 --auto 2
+    '''
+    wmunit_list = load_json(watermark_unit_path)
+    
+    wmunit_doc_list = []
+    try:
+        wmunit_doc_list = load_json(doc_path)
+    except FileNotFoundError:
+        logger.error(f'{doc_path} does not exist!')
+
+ 
+    advisor.K = args.adv_per_wmunit
+ 
+
+    def get_WT_list(wmunit):
+        advisor.wm_unit = wmunit
+        len_WT = 0
+        WT_list = []
+        count = 0
+        while len_WT != advisor.K and count < 10:
+            WTs = advisor.get_document()
+            count+=1
+            try:
+                if isinstance( WTs, str):
+                    logger.info(f'count: {count} ,WTs : {WTs}')
+                    WT_list= extract_doc_list(WTs)
+                    len_WT = len(WT_list)
+                    logger.info(f'count: {count} ,{wmunit} len_WT {len_WT}; {WTs}; {WT_list }')
+            except Exception as e:
+                print(f"Error encountered: {e}. Retrying...")
+                continue  # 捕获异常后继续循环
+            
+        return WT_list
+
+    def direct_check(wmunit, WT_list ):
+        WT_flag = []
+        for WT in WT_list:
+            checker.rag_document = WT
+            checker.wm_unit = wmunit
+            result = checker.check_wm()
+    
+            if result in ['Yes', 'YES', 'yes', 'Yes.', 'YES.', 'yes.' ]:
+                WT_flag.append(1)
+            elif result in ['No', 'no', 'NO', 'No.','no.','NO.']:
+                WT_flag.append(0)
+            else:
+                WT_flag.append(2)
+        
+        return WT_flag
+    
+    def simulate_check(wmunit, WT_list ):
+        WT_flag = []
+        for WT in WT_list:
+            WE = visiter.ask_wm_with_wt(WT)
+            checker.rag_document = WE
+            checker.wm_unit = wmunit
+            result = checker.check_wm()
+    
+            if result in ['Yes', 'YES', 'yes', 'Yes.', 'YES.', 'yes.' ]:
+                WT_flag.append(1)
+            elif result in ['No', 'no', 'NO', 'No.','no.','NO.']:
+                WT_flag.append(0)
+            else:
+                WT_flag.append(2)
+        
+        return WT_flag
+ 
+    def get_WT_interation_both_list(wmunit, WT_list, mtimes):
+        visiter.wm_unit = wmunit
+        checker.wm_unit = wmunit
+        WT_list_interaction = []
+
+        for WT in WT_list:
+            checker.rag_document = WT
+            WD1 = checker.check_wm()
+
+            WE = visiter.ask_wm_with_wt(WT)
+            checker.rag_document = WE
+            WD2 = checker.check_wm()
+ 
+            flag = 0
+            true_list =  ['Yes', 'YES', 'yes', 'Yes.', 'YES.', 'yes.' ]
+            while  WD1 not in true_list or WD2 not in true_list or WT in WT_list_interaction:
+                if flag >mtimes : break
+                flag += 1
+                logger.info(f'mutual_time: {flag}, WD1:{WD1}, WD2:{WD2}, WT:{WT}, WE:{WE}')
+                try:
+                    WT = advisor.get_document_feedback_both(WT=WT, WE=WE, WD1=WD1, WD2=WD2)
+                    logger.info(f'before WT for advisor with feedback: {WT }')
+                    WT = extract_doc(WT) 
+                    logger.info(f'after WT for advisor with feedback: {WT }')
+                    checker.rag_document = WT
+                    WD1 = checker.check_wm()
+
+                    WE = visiter.ask_wm_with_wt(WT)
+                    checker.rag_document = WE
+                    WD2 = checker.check_wm()
+ 
+                except Exception as e:
+                    logger.info(f"Error encountered: {e}. Retrying...")
+                    continue  # 捕获异常后继续循环
+
+            WT_list_interaction.append(WT)
+        logger.info(f'WT_list_interaction: {WT_list_interaction}')
+        return WT_list_interaction
+ 
+    logger.info(f"len wmunit: {len(wmunit_list)}")
+    for item, wmunit in enumerate(wmunit_list):
+        if  any(wmunit == wl[0] for wl in wmunit_doc_list): 
+            print(item,wmunit)
+            continue
+        logger.info(f'item:{item},wmunit:{wmunit}')
+        wmunit_doc = []
+        WT_list = get_WT_list(wmunit)
+
+        if mutual_times != 0 :
+            WT_list = get_WT_interation_both_list(wmunit, WT_list, mutual_times)
+
+        WT_direct_flag = direct_check(wmunit, WT_list)
+        WT_simulate_flag = simulate_check(wmunit, WT_list)
+
+        wmunit_doc.append(wmunit) 
+        wmunit_doc.append(WT_list)
+        wmunit_doc.append(WT_direct_flag)
+        wmunit_doc.append(WT_simulate_flag)
+        # if  wmunit_doc not in wmunit_doc_list:
+        wmunit_doc_list.append(wmunit_doc)
+        logger.info(f'save path :{doc_path}')
+        save_json(wmunit_doc_list, doc_path)
+        
+    wmdoclen = len(wmunit_doc_list)
+    wmlen = len(wmunit_list)
+    # logger.info(f'wm len {wmlen}: wm doc len {wmdoclen}')
+    # assert(wmlen == wmdoclen)
+    
+    save_json(wmunit_doc_list, doc_path)
+
+    return  True
+
+
+def wm_inject_run(doc_path, loc_path, aim_count = 50 ):
+    '''
+    input: doc_path, db
+    output: loc_path
+    '''
+
+    wmunit_doc_list = load_json(doc_path)
+    wmunit_inject_loc = []
+     
+    count_doc = len(wmunit_doc_list)
+    
+    aim_wmunit_list = []
+
+    def filter_wmunit(wmunit_doc_list, count_doc, aim_count):
+        '''
+        filt out wmunit with 2 yes checker
+        '''
+        awmunit = []
+        uawmunit = []
+        for i in range(count_doc):
+            
+            rag_document = []
+            rag_document = [j for j in range(len(wmunit_doc_list[i][1])) if wmunit_doc_list[i][2][j] == 1 and wmunit_doc_list[i][3][j] == 1]
+            if len( rag_document ) == 0: 
+                uawmunit.append(wmunit_doc_list[i])
+                continue
+            awmunit.append(wmunit_doc_list[i])
+            
+        aim_len = len(awmunit)
+        ### 
+        logger.info(f'wmunit filter with two yes: {aim_len}, aim_count: {aim_count}')
+        if aim_len > aim_count:
+            random_wmunit = random.sample(awmunit, aim_count)
+        elif aim_len < aim_count:
+
+            random_wmunit = awmunit + random.sample(uawmunit, aim_count-len(awmunit))
+        else:
+            random_wmunit = awmunit 
+
+        return random_wmunit
+    
+    aim_wmunit_list = filter_wmunit(wmunit_doc_list, count_doc, aim_count)
+    save_json(aim_wmunit_list , loc_path)
+    # exit()
+    count_doc = len(aim_wmunit_list)
+    
+    for i in range(count_doc):
+        visiter.wm_unit = aim_wmunit_list[i][0]
+        rag_document = []
+        rag_document = [j for j in range(len(aim_wmunit_list[i][1])) if aim_wmunit_list[i][2][j] == 1 and aim_wmunit_list[i][3][j] == 1]
+
+        if len( rag_document ) == 0: 
+            rag_document= [j for j in range(len(aim_wmunit_list[i][1])) if aim_wmunit_list[i][2][j] == 1 ] 
+            if len( rag_document ) == 0: 
+                rag_document= [j for j in range(len(aim_wmunit_list[i][1])) if aim_wmunit_list[i][3][j] == 1 ]  
+            else:
+                rag_document = rag_document[:1]
+            if len( rag_document ) == 0:
+                rag_document.append(0)
+            else:
+                rag_document = rag_document[:1]
+
+        try:
+            visiter.rag_document = [aim_wmunit_list[i][1][j] for j in rag_document ]
+        except Exception as e:
+                print(f'e: {e}, rag_document: {rag_document}')
+                logger.info(f"Error encountered: {e}. ")
+
+                continue  # 捕获异常后继续循环
+        
+        doc_info =    [ [aim_wmunit_list[i][1][j], aim_wmunit_list[i][2][j], aim_wmunit_list[i][3][j]] for j in  rag_document ]
+        
+        # visiter.rag_document = wmunit_doc[3] ## is list
+        loc_list = visiter.inject_wm()
+        # logger.info(f'inject wmunit_doc[0] {wmunit_doc[0]}; loc_list {loc_list}, doc_info {doc_info}')
+        # direct_check_list = 
+        wmunit_inject_loc.append([visiter.wm_unit, loc_list, doc_info])
+        save_json(wmunit_inject_loc, loc_path)
+
+    logger.info(f'inject watermark unit count: {count_doc}')
+ 
+    logger.info(f' inject watermark len : {count_doc}')
+    return  True
+
+import random
+
+
+def wm_verify_run(verify_path, loc_path, doc_path, stat_path,  filter_flag=False, verify_num = 30):
+ 
+    verify_ids = [] ### wmunit, inject ids, search id, contain id,before contain wmunit, after contain wmunit, result, [result detail] 
+    try:
+        verify_ids = load_json(verify_path)
+    except FileNotFoundError:
+        logger.error(f'{verify_path} does not exist!')
+
+ 
+
+    wmunit_loc_list = []
+    try:
+        wmunit_loc_list = load_json(loc_path)
+    except FileNotFoundError:
+        logger.error(f'{loc_path} does not exist!')
+
+    def find_loc(wmunit, ids):
+        for wmunit_loc in wmunit_loc_list:
+            if wmunit == wmunit_loc[0]:
+
+----- rag/backup/main.py
+
+import os
+import sys
+ 
+import argparse
+ 
+
+from watermark_role import Advisor, Visiter, Checker 
+
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+# 添加项目根目录到sys.path
+sys.path.append(project_root)
+from rag.vectorstore import  VectorStore, check_collection
+from src.utils import load_json, save_json, find_substrings_containing_sentences,Log,extract_doc_list,extract_doc, file_exist
+from src.models import create_model
+from src.utils import load_beir_datasets, load_models
+
+import re
+import copy 
+import torch
+
+# logger = Log().get(__file__)
+
+def doc_llm_run_mutual(doc_path, mutual_times=0):
+    '''
+    python  wm_generate/role.py  --doc 1 --auto 2
+    '''
+    wmunit_list = load_json(watermark_unit_path)
+    
+    wmunit_doc_list = []
+    try:
+        wmunit_doc_list = load_json(doc_path)
+    except FileNotFoundError:
+        logger.error(f'{doc_path} does not exist!')
+
+ 
+    advisor.K = args.adv_per_wmunit
+ 
+
+    def get_WT_list(wmunit):
+        advisor.wm_unit = wmunit
+        len_WT = 0
+        WT_list = []
+        count = 0
+        while len_WT != advisor.K and count < 10:
+            WTs = advisor.get_document()
+            count+=1
+            try:
+                if isinstance( WTs, str):
+                    logger.info(f'count: {count} ,WTs : {WTs}')
+                    WT_list= extract_doc_list(WTs)
+                    len_WT = len(WT_list)
+                    logger.info(f'count: {count} ,{wmunit} len_WT {len_WT}; {WTs}; {WT_list }')
+            except Exception as e:
+                print(f"Error encountered: {e}. Retrying...")
+                continue  # 捕获异常后继续循环
+            
+        return WT_list
+
+    def direct_check(wmunit, WT_list ):
+        WT_flag = []
+        for WT in WT_list:
+            checker.rag_document = WT
+            checker.wm_unit = wmunit
+            result = checker.check_wm()
+    
+            if result in ['Yes', 'YES', 'yes', 'Yes.', 'YES.', 'yes.' ]:
+                WT_flag.append(1)
+            elif result in ['No', 'no', 'NO', 'No.','no.','NO.']:
+                WT_flag.append(0)
+            else:
+                WT_flag.append(2)
+        
+        return WT_flag
+    
+    def simulate_check(wmunit, WT_list ):
+        WT_flag = []
+        for WT in WT_list:
+            WE = visiter.ask_wm_with_wt(WT)
+            checker.rag_document = WE
+            checker.wm_unit = wmunit
+            result = checker.check_wm()
+    
+            if result in ['Yes', 'YES', 'yes', 'Yes.', 'YES.', 'yes.' ]:
+                WT_flag.append(1)
+            elif result in ['No', 'no', 'NO', 'No.','no.','NO.']:
+                WT_flag.append(0)
+            else:
+                WT_flag.append(2)
+        
+        return WT_flag
+ 
+    def get_WT_interation_both_list(wmunit, WT_list, mtimes):
+        visiter.wm_unit = wmunit
+        checker.wm_unit = wmunit
+        WT_list_interaction = []
+
+        for WT in WT_list:
+            checker.rag_document = WT
+            WD1 = checker.check_wm()
+
+            WE = visiter.ask_wm_with_wt(WT)
+            checker.rag_document = WE
+            WD2 = checker.check_wm()
+ 
+            flag = 0
+            true_list =  ['Yes', 'YES', 'yes', 'Yes.', 'YES.', 'yes.' ]
+            while  WD1 not in true_list or WD2 not in true_list or WT in WT_list_interaction:
+                if flag >mtimes : break
+                flag += 1
+                logger.info(f'mutual_time: {flag}, WD1:{WD1}, WD2:{WD2}, WT:{WT}, WE:{WE}')
+                try:
+                    WT = advisor.get_document_feedback_both(WT=WT, WE=WE, WD1=WD1, WD2=WD2)
+                    logger.info(f'before WT for advisor with feedback: {WT }')
+                    WT = extract_doc(WT) 
+                    logger.info(f'after WT for advisor with feedback: {WT }')
+                    checker.rag_document = WT
+                    WD1 = checker.check_wm()
+
+                    WE = visiter.ask_wm_with_wt(WT)
+                    checker.rag_document = WE
+                    WD2 = checker.check_wm()
+ 
+                except Exception as e:
+                    logger.info(f"Error encountered: {e}. Retrying...")
+                    continue  # 捕获异常后继续循环
+
+            WT_list_interaction.append(WT)
+        logger.info(f'WT_list_interaction: {WT_list_interaction}')
+        return WT_list_interaction
+ 
+    logger.info(f"len wmunit: {len(wmunit_list)}")
+    for item, wmunit in enumerate(wmunit_list):
+        if  any(wmunit == wl[0] for wl in wmunit_doc_list): 
+            print(item,wmunit)
+            continue
+        logger.info(f'item:{item},wmunit:{wmunit}')
+        wmunit_doc = []
+        WT_list = get_WT_list(wmunit)
+
+        if mutual_times != 0 :
+            WT_list = get_WT_interation_both_list(wmunit, WT_list, mutual_times)
+
+        WT_direct_flag = direct_check(wmunit, WT_list)
+        WT_simulate_flag = simulate_check(wmunit, WT_list)
+
+        wmunit_doc.append(wmunit) 
+        wmunit_doc.append(WT_list)
+        wmunit_doc.append(WT_direct_flag)
+        wmunit_doc.append(WT_simulate_flag)
+        # if  wmunit_doc not in wmunit_doc_list:
+        wmunit_doc_list.append(wmunit_doc)
+        logger.info(f'save path :{doc_path}')
+        save_json(wmunit_doc_list, doc_path)
+        
+    wmdoclen = len(wmunit_doc_list)
+    wmlen = len(wmunit_list)
+    logger.info(f'wm len {wmlen}: wm doc len {wmdoclen}')
+    assert(wmlen == wmdoclen)
+    
+    save_json(wmunit_doc_list, doc_path)
+
+    return  True
+
+
+def wm_inject_run(doc_path, loc_path ):
+    '''
+    input: doc_path, db
+    output: loc_path
+    '''
+
+    wmunit_doc_list = load_json(doc_path)
+    wmunit_inject_loc = []
+     
+    count = 0
+
+    for wmunit_doc in wmunit_doc_list:
+        
+        print(f'wmunit_doc[0]: {wmunit_doc[0]}; count: {count} ')
+        count+=1
+        visiter.wm_unit = wmunit_doc[0]
+        
+        rag_document = []
+        rag_document = [i for i in range(len(wmunit_doc[1])) if wmunit_doc[2][i] == 1 and wmunit_doc[3][i] == 1]
+
+         
+        if len( rag_document ) == 0: 
+            rag_document= [i for i in range(len(wmunit_doc[1])) if wmunit_doc[2][i] == 1 ] 
+            if len( rag_document ) == 0: 
+                rag_document= [i for i in range(len(wmunit_doc[1])) if wmunit_doc[3][i] == 1 ]  
+            else:
+                rag_document = rag_document[:1]
+            if len( rag_document ) == 0:
+                rag_document.append(0)
+            else:
+                rag_document = rag_document[:1]
+
+         
+        try:
+            visiter.rag_document = [wmunit_doc[1][i] for i in rag_document ]
+        except Exception as e:
+                    print(f'e: {e}, rag_document: {rag_document}')
+                    logger.info(f"Error encountered: {e}. ")
+                    exit()
+                    continue  # 捕获异常后继续循环
+        
+        doc_info =    [ [wmunit_doc[1][i], wmunit_doc[2][i], wmunit_doc[3][i]] for i in  rag_document ]
+         
+        # visiter.rag_document = wmunit_doc[3] ## is list
+        loc_list = visiter.inject_wm()
+        logger.info(f'inject wmunit_doc[0] {wmunit_doc[0]}; loc_list {loc_list}, doc_info {doc_info}')
+        # direct_check_list = 
+        wmunit_inject_loc.append([visiter.wm_unit, loc_list, doc_info])
+        save_json(wmunit_inject_loc, loc_path)
+
+    return  True
+
+
+
+def wm_verify_run(verify_path, loc_path, doc_path, stat_path,  filter_flag=False):
+ 
+    verify_ids = [] ### wmunit, inject ids, search id, contain id,before contain wmunit, after contain wmunit, result, [result detail] 
+    try:
+        verify_ids = load_json(verify_path)
+    except FileNotFoundError:
+        logger.error(f'{verify_path} does not exist!')
+
+    wmunit_doc_list = []
+    try:
+        wmunit_doc_list = load_json(doc_path)
+    except FileNotFoundError:
+        logger.error(f'{doc_path} does not exist!')
+    
+    def find_doc(wmunit, item):
+        for wmunit_doc in wmunit_doc_list:
+            if wmunit == wmunit_doc[0]:
+                return wmunit_doc[1][item]
+
+    wmunit_loc_list = []
+    try:
+        wmunit_loc_list = load_json(loc_path)
+    except FileNotFoundError:
+        logger.error(f'{loc_path} does not exist!')
+
+    def find_loc(wmunit, ids):
+        for wmunit_loc in wmunit_loc_list:
+            if wmunit == wmunit_loc[0]:
+                for item, idsl in enumerate(wmunit_loc[1]):
+                    if ids == idsl :
+                        return 1, item
+        
+        return 0, -1
+
+    eg0_verify_ids = [['e1','e2','r'],['ids','WT_exsit','WE'],['result','WD']]
+
+    wmunit_list = load_json(watermark_unit_path)
+    for  wmunit_loc in wmunit_loc_list:
+        wmunit = wmunit_loc[0]
+        if any(wmunit == vid[0] for vid in verify_ids):
+            continue
+
+        eg_verify_ids = copy.deepcopy(eg0_verify_ids)  # 使用深拷贝
+        eg_verify_ids[0] = wmunit
+        visiter.wm_unit = wmunit
+        checker.wm_unit = wmunit
+
+        rag_document, db_ids = visiter.ask_wm()
+        db_search =  0
+        wmunit_exist = -1
+        wmunit_WE = -1
+        wmunit_doc = ''
+        db_search, item = find_loc(wmunit, db_ids)
+        wmunit_WE = 0 if find_substrings_containing_sentences(rag_document, wmunit[:2])[1] == 0 else 1
+        if item != -1:
+            print(item)
+            wmunit_doc = find_doc(wmunit, item)
+            print(wmunit_doc)
+            wmunit_exist = 0 if find_substrings_containing_sentences(wmunit_doc, wmunit[:2])[1] == 0 else 1
+            
+                
+
+==================================================
+G. VECTORSTORE IMPLEMENTATION
+==================================================
+
+ 
+
+import argparse
+
+import chromadb
+ 
+
+import os
+import sys
+
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(project_root)
+from src.utils import load_beir_datasets, load_models,load_json
+import argparse
+import torch
+ 
+ChromadbPath = '/root/autodl-tmp/ragwm_storage/chromadb_db'
+ 
+      
+class VectorStore:
+    def __init__(self, embedding_model, tokenizer, get_emb, dataset, device, collection_name, use_local, distance= 'cosine'):
+ 
+        # self.chroma_client = chromadb.Client()
+        # self.use_local = use_local
+        ## will autoload and autosave update
+        self.chroma_client = chromadb.PersistentClient(path=ChromadbPath ) 
+        collections = self.chroma_client.list_collections()
+        print(collections)
+        collection_exists = any(col.name == collection_name for col in collections)
+        if collection_exists and use_local:
+            print(f"Here are using an exsiting local chromadb named {collection_name}!!! ")
+            self.collection = self.chroma_client.get_collection(name=collection_name)
+            print(f"Here are using an exsiting local chromadb named {collection_name}!!! ")
+        else:
+            print('ok',collection_exists)
+            if collection_exists : 
+                print(f"Here are delete a existent local chromadb named {collection_name}!!!")
+                # collection = self.chroma_client.get_collection(name=collection_name)
+                self.chroma_client.delete_collection(name=collection_name)
+            print(f"Here are creating a nonexistent local chromadb named {collection_name}!!!")
+            self.collection = self.chroma_client.create_collection(name=collection_name, metadata={"hnsw:space": distance})
+        
+        # Filter the dataset to only include entries with the 'closed_qa' category
+        self.embedding_model = embedding_model
+        self.tokenizer = tokenizer
+        self.dataset = dataset
+        self.get_emb = get_emb
+        # torch.cuda.set_device(2)
+        # device = 'cuda'
+        self.device = device
+        self.embedding_model.eval()
+        self.embedding_model.to(self.device)
+
+    def get_embedding (self, text):
+            text_input = self.tokenizer(text,padding=True, truncation=True, return_tensors="pt")
+            # text_input = {key: value.cuda() for key, value in text_input.items()}
+            text_input = {key: value.to(self.device) for key, value in text_input.items()}
+
+            # print(f"text_input device: {text_input['input_ids'].device}")
+            # print(f"embedding_model device: {next(self.embedding_model.parameters()).device}")
+            with torch.no_grad():
+                text_emb = self.get_emb(self.embedding_model, text_input).squeeze().tolist()
+            return text_emb
+
+    # Method to populate the vector store with embeddings from a dataset
+    def populate_vectors_backup(self):
+        # {'doc0':{'text': "In accounting, minority interest (or non-controlling interest) is the portion of a subsidiary corporation's stock that is not owned by the parent corporation. The magnitude of the minority interest in the subsidiary company is generally less than 50% of outstanding shares, or the corporation would generally cease to be a subsidiary of the parent.[1]", 'title': 'Minority interest'}}
+        count = 0 
+        for key, value in  self.dataset.items() :
+  
+            # print(key, value)
+            text_emb = self.get_embedding(value['text'])
+            self.collection.add(embeddings=[text_emb ], documents=[value['text']], ids=[f'id_{count}'], metadatas={'title': value['title'], 'id':key , 'change':False})
+            count+=1
+
+            if count % 100 == 0:
+                print(count)
+
+    def populate_vectors(self):
+            # 按 key 排序遍历
+        
+        current_key  =  self.collection.count()
+        for count, key in enumerate(sorted(self.dataset.keys())):
+            # logger.info(f'i: {i}, key:{key}')
+            if count < current_key:
+                # 跳过已处理的 key
+                # print(f'key has run,count:{count} key:{key}, current_key:{current_key}')
+                continue
+                        # print(key, value)
+            # print(f'key has run,count:{count} key:{key}, current_key:{current_key}')
+            # print(self.dataset[key])
+            value = self.dataset[key]
+            text_emb = self.get_embedding(value['text'])
+            self.collection.add(embeddings=[text_emb ], documents=[value['text']], ids=[f'id_{count}'], metadatas={'title': value['title'], 'id':key , 'change':False})
+             
+
+            if count % 500 == 0:
+                print(count)
+
+
+    # Method to search the ChromaDB collection for relevant context based on a query
+    def search_context(self, query, n_results ):
+        text_emb = self.get_embedding(query)
+        return self.collection.query(query_embeddings=text_emb, n_results=n_results)
+
+ 
+    def update_context(self,  id, str_add='', pos='end'):
+        id_data = self.get_id(id)
+        
+        if id_data['metadatas'][0].get('change', False) == True and str_add=='':
+            # for clean_collection
+            print(id_data)
+            context = self.dataset[id_data['metadatas'][0]['id']]['text']
+            flag = False  
+        elif id_data['metadatas'][0].get('change', False) == False and str_add=='':
+            return True
+        else:
+            if pos =='end':
+                context = id_data['documents'][0] + ' ' + str_add
+            elif pos =='front':
+                context =  str_add+ ' ' + id_data['documents'][0]
+            else:
+                context = id_data['documents'][0] + ' ' + str_add
+            flag = True
+
+        embeddings = self.get_embedding(context)
+        metadata={'title': self.dataset[id_data['metadatas'][0]['id']]['title'], 'id':id_data['metadatas'][0]['id'], 'change':flag}
+
+        self.collection.update(ids=[id], embeddings=[embeddings], documents =[context], metadatas=metadata)
+        # self.collection.update(ids=[id], embeddings=[embeddings], documents =[context], metadatas=metadata)
+
+    def clean_collect(self):
+        print('befor clean')
+        # 过滤出 metadata 中 'change' 为 True 的记录
+        results = self.collection.get(
+            where={'change': True} # 过滤条件
+ 
+        )
+        # print(f'results: {results}')
+        if len(results['ids']) == 0 : return True
+        for i in range(len(results['ids'])):
+            # id_{count}
+            
+            doc_id = results['ids'][i]
+            count = doc_id.split('_')[1]
+            print('befor clean',  self.collection.count())
+            if int(count) >= len(self.dataset) :
+                self.collection.delete(doc_id)
+                print('after delete',  self.collection.count())
+            elif results['metadatas'][i]['id'] == ' ':
+                self.collection.delete(doc_id)
+                print('after delete',  self.collection.count())
+        
+        # if id_data['metadatas'][0].get('change', False) == True and str_add=='':
+        #     # for clean_collection
+        #     print(id_data)
+        #     context = self.dataset[id_data['metadatas'][0]['id']]['text']
+        #     flag = False   
+            else:
+                self.update_context(doc_id)
+            print(doc_id)
+        return True
+    # Method to show the contents of the collection
+    def show_context(self):
+        # top10_documents = self.collection.peek()
+        # print(top10_documents)
+        # print(self.collection.count())
+        id = 'doc0'
+        get_id = self.collection.get(ids=[id])
+        print(get_id)
+
+    def get_id(self,id):
+        # print(self.collection.get(ids=[id]))
+        return self.collection.get(ids=[id])    
+    
+    def inject_direct(self,text):
+
+        text_emb = self.get_embedding(text)
+        doc_id = self.collection.count()
+        print('before inject direct',doc_id)
+        self.collection.add(embeddings=[text_emb ], documents=[text], ids=[f'id_{doc_id}'], metadatas={'title': ' ', 'id':' ' , 'change':True})
+        print('after inject direct',self.collection.count())
+        return f'id_{doc_id}'
+             
+
+    def clean_vectors(self):
+           # 按 key 排序遍历
+        
+        total_count  =  self.collection.count()
+        for count in range(total_count):
+
+            ids=f'id_{count}'
+            print('befor clean',  self.collection.count())
+            if int(count) >= len(self.dataset):
+                self.collection.delete(ids)
+                print('after delete',  self.collection.count())
+            else:
+                self.update_context(ids)
+            print(ids)
+
+         
+
+def check_collection(collection_name):
+        chroma_client = chromadb.PersistentClient(path=ChromadbPath ) 
+        collections =  chroma_client.list_collections()
+        print(collections)
+        collection_exists = any(col.name == collection_name for col in collections)
+        total_items = 0
+        if collection_exists :
+            # print(f" collection exist:{collection_name}")
+            collection = chroma_client.get_collection(name=collection_name)
+            # # 获取所有 ID
+            # all_ids = collection.get(include=['documents' ] )
+            # # print(all_ids)
+            # print(type(all_ids))
+            # print(len(all_ids['ids']))
+            # 计算 ID 的数量
+            # total_items = len(all_ids['documents'])
+            total_items = collection.count()
+            print(f"Collection exist 总数: {total_items}")
+            return True, total_items
+        else:
+            print(f" collection not exist:{collection_name}")
+            return False, total_items
+ 
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='access the database')
+    parser.add_argument('--access', type=int, default=0, help='access ids ')
+    parser.add_argument('--ids', type=str, default='id_1434', help='access ids ')
+
+    # Retriever and BEIR datasets
+    parser.add_argument("--eval_model_code", type=str, default="contriever", choices=["contriever","contriever-msmarco","ance"])
+    parser.add_argument('--eval_dataset', type=str, default='msmarco', help='BEIR dataset to evaluate', choices= ['trec-covid','nfcorpus','nq', 'msmarco', 'hotpotqa'])
+    parser.add_argument('--split', type=str, default='test', choices=['train','test'])
+    parser.add_argument('--score_function', type=str, default='cosine', choices=['cosine','l2','ip' ])
+    parser.add_argument('--gpu_id', type=int, default=0, choices=[0,1,2,3 ])
+
+    return parser.parse_args()
+
+if __name__ == '__main__':
+
+
+    args = parse_arguments()
+    torch.cuda.set_device(args.gpu_id)
+    device = 'cuda'
+        # 初始化嵌入模型和向量数据库
+
+
+    
+    ## create vector db
+    collection_name = args.eval_dataset+'_'+args.eval_model_code+'_'+args.score_function
+    print(collection_name)
+    # exit()
+    ### load retriver model
+    model, c_model, tokenizer, get_emb = load_models(args.eval_model_code)
+    
+    # load target queries and answers
+    if args.eval_dataset == 'msmarco':
+        corpus, queries, qrels = load_beir_datasets('msmarco', 'train')
+        
+    else:
+        corpus, queries, qrels = load_beir_datasets(args.eval_dataset, args.split)
+
+    datalen = len(corpus)
+    collection_exist, collection_len = check_collection(collection_name)
+    print(collection_exist, datalen,collection_len)
+    # exit()
+    if  collection_exist and datalen==collection_len:
+        use_local = True
+        vectorstore = VectorStore(model, tokenizer, get_emb, corpus, device, collection_name, use_local)
+
+    else :
+        use_local = True
+        vectorstore = VectorStore(model, tokenizer, get_emb, corpus, device, collection_name, use_local)
+ 
+        # if use_local == False:
+
+        vectorstore.populate_vectors()
+    
+    vectorstore.update_context('id_3','ok,ok,ok')
+    result = vectorstore.get_id('id_3')
+    print(result)
+    vectorstore.clean_collect()
+     
+    result = vectorstore.get_id('id_3')
+    print(result)
+
+# total 3633 
+# python rag/vectorstore.py --eval_dataset 'nfcorpus' --gpu_id 3
+# total 171332 
+# python rag/vectorstore.py --eval_dataset 'trec-covid'
+# total 2681468 1484090
+# python rag/vectorstore.py --eval_dataset 'hotpotqa' --eval_model_code "contriever-msmarco"  --score_function 'cosine'
+# total 8841823 1484090
+# python rag/vectorstore.py --eval_dataset 'msmarco' --gpu_id 0
+# total 5233329
+# python rag/vectorstore.py --eval_dataset  'hotpotqa'
+
+==================================================
+H. CURRENT CHROMA COLLECTIONS - READ ONLY
+==================================================
+path: /root/autodl-tmp/ragwm_storage/chromadb_db
+exists: True
+collection_count: 3
+trec-covid_contriever_cosine 171332
+nfcorpus_contriever_cosine 3633
+nq_contriever_cosine 20000
+
+==================================================
+I. MODEL CONFIGS
+==================================================
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config_para.json
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt4_config.json
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/llama13b_config.json
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/llama7b_config.json
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/palm2_config.json
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/vicuna13b_config.json
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/vicuna33b_config.json
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/vicuna7b_config.json
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json.bak_before_params_fix
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json.bak_20260601_154141
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json.bak_20260603_160308
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json.bak_force_qwen_turbo_20260603_212802
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json.bak_force_model_20260603_213002
+/root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json.bak_keep_4o_20260603_213419
+
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json
+{
+  "model_info": {
+    "provider": "gpt",
+    "name": "gpt-4o-mini"
+  },
+  "api_key_info": {
+    "api_base": [
+      "https://api.whatai.cc/v1"
+    ],
+    "api_keys": [
+      "<REDACTED_SECRET>"
+    ],
+    "api_key_use": 0
+  },
+  "params": {
+    "seed": 2026,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "max_tokens": 768,
+    "max_token": 1024,
+    "max_output_tokens": 1024,
+    "max_output_token": 1024,
+    "request_timeout": 120,
+    "timeout": 120,
+    "max_retries": 3,
+    "n": 1,
+    "stream": false,
+    "gpus": [
+      0
+    ],
+    "gpu": 0,
+    "gpu_id": 0,
+    "device": "cuda:0",
+    "top_k": 5,
+    "max_new_tokens": 1024,
+    "retry_time": 3,
+    "sleep_time": 20,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "stop": null,
+    "use_cache": true,
+    "do_sample": false,
+    "num_beams": 1,
+    "repetition_penalty": 1.0,
+    "cpu_offloading": null,
+    "debug": null,
+    "device_ids": null,
+    "load_8bit": null,
+    "max_gpu_memory": 0,
+    "revision": null,
+    "model": "qwen-turbo",
+    "model_name": "qwen-turbo"
+  },
+  "model": "gpt-4o-mini",
+  "model_name": "gpt-4o-mini",
+  "api_key": "<REDACTED_SECRET>",
+  "base_url": "https://api.whatai.cc/v1",
+  "api_base": "https://api.whatai.cc/v1",
+  "openai_api_base": "https://api.whatai.cc/v1",
+  "openai_api_key": "<REDACTED_SECRET>",
+  "gpus": []
+}
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json.bak_20260601_154141
+{
+  "model_info": {
+    "provider": "gpt",
+    "name": "gpt-4o-mini"
+  },
+  "api_key_info": {
+    "api_base": [
+      "https://api.whatai.cc/v1"
+    ],
+    "api_keys": [
+      "<REDACTED_SECRET>"
+    ],
+    "api_key_use": 0
+  },
+  "params": {
+    "seed": 12,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "max_tokens": 1024,
+    "max_token": 1024,
+    "max_output_tokens": 1024,
+    "max_output_token": 1024,
+    "request_timeout": 120,
+    "timeout": 120,
+    "max_retries": 3,
+    "n": 1,
+    "stream": false
+  }
+}
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json.bak_20260603_160308
+{
+  "model_info": {
+    "provider": "gpt",
+    "name": "gpt-4o-mini"
+  },
+  "api_key_info": {
+    "api_base": [
+      "https://api.whatai.cc/v1"
+    ],
+    "api_keys": [
+      "<REDACTED_SECRET>"
+    ],
+    "api_key_use": 0
+  },
+  "params": {
+    "seed": 12,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "max_tokens": 1024,
+    "max_token": 1024,
+    "max_output_tokens": 1024,
+    "max_output_token": 1024,
+    "request_timeout": 120,
+    "timeout": 120,
+    "max_retries": 3,
+    "n": 1,
+    "stream": false,
+    "gpus": [
+      0
+    ],
+    "gpu": 0,
+    "gpu_id": 0,
+    "device": "cuda:0",
+    "top_k": 5,
+    "max_new_tokens": 1024,
+    "retry_time": 3,
+    "sleep_time": 20,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "stop": null,
+    "use_cache": true,
+    "do_sample": false,
+    "num_beams": 1,
+    "repetition_penalty": 1.0,
+    "cpu_offloading": null,
+    "debug": null,
+    "device_ids": null,
+    "load_8bit": null,
+    "max_gpu_memory": 0,
+    "revision": null
+  }
+}
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json.bak_before_params_fix
+{
+  "model_info": {
+    "provider": "gpt",
+    "name": "gpt-4o-mini"
+  },
+  "api_key_info": {
+    "api_base": [
+      "https://api.whatai.cc/v1"
+    ],
+    "api_keys": [
+      "<REDACTED_SECRET>"
+    ],
+    "api_key_use": 0
+  }
+}
+
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json.bak_force_model_20260603_213002
+{
+  "model_info": {
+    "provider": "gpt",
+    "name": "gpt-4o-mini"
+  },
+  "api_key_info": {
+    "api_base": [
+      "https://api.whatai.cc/v1"
+    ],
+    "api_keys": [
+      "<REDACTED_SECRET>"
+    ],
+    "api_key_use": 0
+  },
+  "params": {
+    "seed": 2026,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "max_tokens": 768,
+    "max_token": 1024,
+    "max_output_tokens": 1024,
+    "max_output_token": 1024,
+    "request_timeout": 120,
+    "timeout": 120,
+    "max_retries": 3,
+    "n": 1,
+    "stream": false,
+    "gpus": [
+      0
+    ],
+    "gpu": 0,
+    "gpu_id": 0,
+    "device": "cuda:0",
+    "top_k": 5,
+    "max_new_tokens": 1024,
+    "retry_time": 3,
+    "sleep_time": 20,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "stop": null,
+    "use_cache": true,
+    "do_sample": false,
+    "num_beams": 1,
+    "repetition_penalty": 1.0,
+    "cpu_offloading": null,
+    "debug": null,
+    "device_ids": null,
+    "load_8bit": null,
+    "max_gpu_memory": 0,
+    "revision": null,
+    "model": "qwen-turbo",
+    "model_name": "qwen-turbo"
+  },
+  "model": "qwen-turbo",
+  "model_name": "qwen-turbo",
+  "api_key": "<REDACTED_SECRET>",
+  "base_url": "https://api.whatai.cc/v1",
+  "api_base": "https://api.whatai.cc/v1",
+  "openai_api_base": "https://api.whatai.cc/v1",
+  "openai_api_key": "<REDACTED_SECRET>",
+  "gpus": []
+}
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json.bak_force_qwen_turbo_20260603_212802
+{
+  "model_info": {
+    "provider": "gpt",
+    "name": "gpt-4o-mini"
+  },
+  "api_key_info": {
+    "api_base": [
+      "https://api.whatai.cc/v1"
+    ],
+    "api_keys": [
+      "<REDACTED_SECRET>"
+    ],
+    "api_key_use": 0
+  },
+  "params": {
+    "seed": 2026,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "max_tokens": 768,
+    "max_token": 1024,
+    "max_output_tokens": 1024,
+    "max_output_token": 1024,
+    "request_timeout": 120,
+    "timeout": 120,
+    "max_retries": 3,
+    "n": 1,
+    "stream": false,
+    "gpus": [
+      0
+    ],
+    "gpu": 0,
+    "gpu_id": 0,
+    "device": "cuda:0",
+    "top_k": 5,
+    "max_new_tokens": 1024,
+    "retry_time": 3,
+    "sleep_time": 20,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "stop": null,
+    "use_cache": true,
+    "do_sample": false,
+    "num_beams": 1,
+    "repetition_penalty": 1.0,
+    "cpu_offloading": null,
+    "debug": null,
+    "device_ids": null,
+    "load_8bit": null,
+    "max_gpu_memory": 0,
+    "revision": null
+  },
+  "model": "qwen-turbo",
+  "model_name": "qwen-turbo",
+  "api_key": "<REDACTED_SECRET>",
+  "base_url": "https://api.whatai.cc/v1",
+  "api_base": "https://api.whatai.cc/v1",
+  "openai_api_base": "https://api.whatai.cc/v1",
+  "openai_api_key": "<REDACTED_SECRET>",
+  "gpus": []
+}
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config.json.bak_keep_4o_20260603_213419
+{
+  "model_info": {
+    "provider": "gpt",
+    "name": "gpt-4o-mini"
+  },
+  "api_key_info": {
+    "api_base": [
+      "https://api.whatai.cc/v1"
+    ],
+    "api_keys": [
+      "<REDACTED_SECRET>"
+    ],
+    "api_key_use": 0
+  },
+  "params": {
+    "seed": 2026,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "max_tokens": 768,
+    "max_token": 1024,
+    "max_output_tokens": 1024,
+    "max_output_token": 1024,
+    "request_timeout": 120,
+    "timeout": 120,
+    "max_retries": 3,
+    "n": 1,
+    "stream": false,
+    "gpus": [
+      0
+    ],
+    "gpu": 0,
+    "gpu_id": 0,
+    "device": "cuda:0",
+    "top_k": 5,
+    "max_new_tokens": 1024,
+    "retry_time": 3,
+    "sleep_time": 20,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "stop": null,
+    "use_cache": true,
+    "do_sample": false,
+    "num_beams": 1,
+    "repetition_penalty": 1.0,
+    "cpu_offloading": null,
+    "debug": null,
+    "device_ids": null,
+    "load_8bit": null,
+    "max_gpu_memory": 0,
+    "revision": null,
+    "model": "qwen-turbo",
+    "model_name": "qwen-turbo"
+  },
+  "model": "qwen-turbo",
+  "model_name": "qwen-turbo",
+  "api_key": "<REDACTED_SECRET>",
+  "base_url": "https://api.whatai.cc/v1",
+  "api_base": "https://api.whatai.cc/v1",
+  "openai_api_base": "https://api.whatai.cc/v1",
+  "openai_api_key": "<REDACTED_SECRET>",
+  "gpus": []
+}
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt3.5_config_para.json
+{
+  "model_info": {
+    "provider": "gpt",
+    "name": "gpt-4o-mini"
+  },
+  "api_key_info": {
+    "api_base": [
+      "https://api.whatai.cc/v1"
+    ],
+    "api_keys": [
+      "<REDACTED_SECRET>"
+    ],
+    "api_key_use": 0
+  }
+}
+
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/gpt4_config.json
+{
+    "model_info":{
+        "provider":"gpt",
+        "name":"gpt-4-0613"
+    },
+    "api_key_info":{
+        "api_keys":[
+            "Your api key here"
+        ],
+        "api_key_use": 0
+    },
+    "params":{
+        "temperature":0.1,
+        "seed":100,
+        "gpus":[],
+        "max_output_tokens":150
+    }
+}
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/llama13b_config.json
+{
+    "model_info":{
+        "provider":"llama",
+        "name":"meta-llama/Llama-2-13b-chat-hf"
+    },
+    "api_key_info":{
+        "api_keys":[
+            "<REDACTED_SECRET>"
+        ],
+        "api_key_use": 0
+    },
+    "params":{
+        "temperature":0.1,
+        "seed":100,
+        "gpus":[0],
+        "device":"cuda:2",
+        "max_output_tokens":150,
+        "device_ids":[ 2,3]
+    }
+}
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/llama7b_config.json
+{
+    "model_info":{
+        "provider":"llama",
+        "name":"meta-llama/Llama-2-7b-chat-hf"
+    },
+    "api_key_info":{
+        "api_keys":[
+            "<REDACTED_SECRET>"
+        ],
+        "api_key_use": 0
+    },
+    "params":{
+        "temperature":0.01,
+        "seed":100,
+        "gpus":[ 2,3],
+        "device":"cuda",
+        "max_output_tokens":150,
+        "device_ids":[ 2,3]
+    }
+}
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/palm2_config.json
+{
+    "model_info":{
+        "provider":"palm2",
+        "name":"models/text-bison-001"
+    },
+    "api_key_info":{
+        "api_keys":[
+            "AIzaSyA3-85_Ubq3qiFOVS3zAe4LPUERpUxiQH8"
+        ],
+        "api_key_use": -1
+    },
+    "params":{
+        "temperature":0,
+        "seed":100,
+        "gpus":[],
+        "max_output_tokens":800
+    }
+}
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/vicuna13b_config.json
+{
+    "model_info":{
+        "provider":"vicuna",
+        "name":"lmsys/vicuna-13b-v1.3"
+    },
+    "api_key_info":{
+        "api_keys":[0],
+        "api_key_use": 0
+    },
+    "params":{
+        "temperature":0.1,
+        "seed":100,
+        "gpus":[0],
+        "max_output_tokens":150,
+        "repetition_penalty":1.0,
+        "device":"cuda",
+        "max_gpu_memory":"9GiB",
+        "revision":"main",
+        "load_8bit":"False",
+        "debug":"False",
+        "cpu_offloading":"False"
+    }
+}
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/vicuna33b_config.json
+{
+    "model_info":{
+        "provider":"vicuna",
+        "name":"lmsys/vicuna-33b-v1.3"
+    },
+    "api_key_info":{
+        "api_keys":[0],
+        "api_key_use": 0
+    },
+    "params":{
+        "temperature":0.1,
+        "seed":100,
+        "gpus":[0],
+        "max_output_tokens":150,
+        "repetition_penalty":1.0,
+        "device":"cuda",
+        "max_gpu_memory":"9GiB",
+        "revision":"main",
+        "load_8bit":"False",
+        "debug":"False",
+        "cpu_offloading":"False"
+    }
+}
+----- /root/autodl-tmp/ragwm_storage/repo/ragwm_src/model_configs/vicuna7b_config.json
+{
+    "model_info":{
+        "provider":"vicuna",
+        "name":"lmsys/vicuna-7b-v1.3"
+    },
+    "api_key_info":{
+        "api_keys":[0],
+        "api_key_use": 0
+    },
+    "params":{
+        "temperature":0.1,
+        "seed":100,
+        "gpus":[3],
+        "max_output_tokens":150,
+        "repetition_penalty":1.0,
+        "device":"cuda",
+        "max_gpu_memory":"9GiB",
+        "revision":"main",
+        "load_8bit":"False",
+        "debug":"False",
+        "cpu_offloading":"False"
+    }
+}

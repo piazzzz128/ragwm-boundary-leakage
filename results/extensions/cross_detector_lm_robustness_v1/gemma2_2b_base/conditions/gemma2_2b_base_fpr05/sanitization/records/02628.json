@@ -1,0 +1,45 @@
+{
+  "internal_id": "MED-4497",
+  "source_doc_id": "MED-4497",
+  "title": "The case of the purple colon.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The case of the purple colon.\nPurple discoloration of the large bowel at autopsy was related to beetroot ingestion and post-mortem changes.",
+  "sanitized_text": "The case of the purple colon.",
+  "modified": true,
+  "original_char_count": 139,
+  "sanitized_char_count": 29,
+  "deleted_char_count": 110,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 30,
+      "boundary_end": 139,
+      "context": "The case of the purple colon.",
+      "target": "Purple discoloration of the large bowel at autopsy was related to beetroot ingestion and post-mortem changes.",
+      "loss_target": 9.531047821044922,
+      "loss_target_given_context": 10.209904670715332,
+      "delta_loss": -0.6788568496704102,
+      "gain_ratio": -0.07122583606930058,
+      "score": 0.07122583606930058,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": true
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 30,
+      "target": "Purple discoloration of the large bowel at autopsy was related to beetroot ingestion and post-mortem changes.",
+      "score": 0.07122583606930058,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Purple discoloration of the large bowel at autopsy was related to beetroot ingestion and post-mortem changes.",
+      "deleted_char_count": 109
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "empty_context"
+}

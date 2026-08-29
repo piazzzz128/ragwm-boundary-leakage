@@ -1,0 +1,36 @@
+{
+  "experiment_role": "gemma_score_direction_integrity_audit_v1",
+  "formal_score_direction": "larger score is more suspicious",
+  "formula": "score = -(loss_target-loss_conditioned)/loss_target",
+  "datasets": {
+    "nfcorpus": {
+      "records": 446,
+      "label_counts": {
+        "1": 223,
+        "0": 223
+      },
+      "max_formula_residual": 0.0,
+      "formal_roc_auc_recomputed": 0.37473104224898945,
+      "formal_pr_auc_recomputed": 0.4249760575370967,
+      "posthoc_negated_score_roc_auc_diagnostic": 0.6252689577510104,
+      "posthoc_negated_score_pr_auc_diagnostic": 0.5818136246970913,
+      "formula_identity_pass": true
+    },
+    "trec-covid": {
+      "records": 458,
+      "label_counts": {
+        "0": 229,
+        "1": 229
+      },
+      "max_formula_residual": 0.0,
+      "formal_roc_auc_recomputed": 0.5351156537823458,
+      "formal_pr_auc_recomputed": 0.5124424696333014,
+      "posthoc_negated_score_roc_auc_diagnostic": 0.4648843462176541,
+      "posthoc_negated_score_pr_auc_diagnostic": 0.44885026100845477,
+      "formula_identity_pass": true
+    }
+  },
+  "warning": "Negated-score metrics are post-hoc diagnostics only. They must not replace the frozen formal metrics or threshold.",
+  "threshold_score_hash_matches": true,
+  "pass": true
+}

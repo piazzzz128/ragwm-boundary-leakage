@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2710",
+  "source_doc_id": "MED-2710",
+  "title": "Aromatherapy facts and fictions: a scientific analysis of olfactory effects on mood, physiology and behavior.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Aromatherapy facts and fictions: a scientific analysis of olfactory effects on mood, physiology and behavior.\nA systematic review of scientific experimentation addressing olfactory effects on mood, physiology and behavior was undertaken. From this review, 18 studies meeting stringent empirical criteria were then analyzed in detail and it was found that credible evidence that odors can affect mood, physiology and behavior exists. To explain these effects, pharmacological and psychological mechanisms were explored and a psychological interpretation of the data was found to be more comprehensive. Methodological problems regarding dependent measures and stimuli, which led to inconsistencies in the data were discussed, as were the mediating variables of culture, experience, sex differences, and personality.",
+  "sanitized_text": "Aromatherapy facts and fictions: a scientific analysis of olfactory effects on mood, physiology and behavior.\nA systematic review of scientific experimentation addressing olfactory effects on mood, physiology and behavior was undertaken. From this review, 18 studies meeting stringent empirical criteria were then analyzed in detail and it was found that credible evidence that odors can affect mood, physiology and behavior exists. To explain these effects, pharmacological and psychological mechanisms were explored and a psychological interpretation of the data was found to be more comprehensive.",
+  "modified": true,
+  "original_char_count": 813,
+  "sanitized_char_count": 600,
+  "deleted_char_count": 213,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 601,
+      "boundary_end": 813,
+      "context": "Aromatherapy facts and fictions: a scientific analysis of olfactory effects on mood, physiology and behavior. A systematic review of scientific experimentation addressing olfactory effects on mood, physiology and behavior was undertaken. From this review, 18 studies meeting stringent empirical criteria were then analyzed in detail and it was found that credible evidence that odors can affect mood, physiology and behavior exists. To explain these effects, pharmacological and psychological mechanisms were explored and a psychological interpretation of the data was found to be more comprehensive.",
+      "target": "Methodological problems regarding dependent measures and stimuli, which led to inconsistencies in the data were discussed, as were the mediating variables of culture, experience, sex differences, and personality.",
+      "loss_target": 3.4134528636932373,
+      "loss_target_given_context": 2.753592014312744,
+      "delta_loss": 0.6598608493804932,
+      "gain_ratio": 0.19331183869536334,
+      "score": -0.19331183869536334,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 433,
+      "boundary_end": 600,
+      "context": "Aromatherapy facts and fictions: a scientific analysis of olfactory effects on mood, physiology and behavior. A systematic review of scientific experimentation addressing olfactory effects on mood, physiology and behavior was undertaken. From this review, 18 studies meeting stringent empirical criteria were then analyzed in detail and it was found that credible evidence that odors can affect mood, physiology and behavior exists.",
+      "target": "To explain these effects, pharmacological and psychological mechanisms were explored and a psychological interpretation of the data was found to be more comprehensive.",
+      "loss_target": 3.317608118057251,
+      "loss_target_given_context": 2.1912059783935547,
+      "delta_loss": 1.1264021396636963,
+      "gain_ratio": 0.339522360562375,
+      "score": -0.339522360562375,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 601,
+      "target": "Methodological problems regarding dependent measures and stimuli, which led to inconsistencies in the data were discussed, as were the mediating variables of culture, experience, sex differences, and personality.",
+      "score": -0.19331183869536334,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Methodological problems regarding dependent measures and stimuli, which led to inconsistencies in the data were discussed, as were the mediating variables of culture, experience, sex differences, and personality.",
+      "deleted_char_count": 212
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

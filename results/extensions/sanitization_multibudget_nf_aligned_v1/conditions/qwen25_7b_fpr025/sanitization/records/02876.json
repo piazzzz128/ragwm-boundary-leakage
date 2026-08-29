@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4796",
+  "source_doc_id": "MED-4796",
+  "title": "Clostridium difficile in food--innocent bystander or serious threat?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Clostridium difficile in food--innocent bystander or serious threat?\nClostridium difficile is a critically important cause of disease in humans, particularly in hospitalized individuals. Three major factors have raised concern about the potential for this pathogen to be a cause of foodborne disease: the increasing recognition of community-associated C. difficile infection, recent studies identifying C. difficile in food animals and food, and similarities in C. difficile isolates from animals, food and humans. It is clear that C. difficile can be commonly found in food animals and food in many regions, and that strains important in human infections, such as ribotype 027/NAP1/toxinotype III and ribotype 078/toxinotype V, are often present. However, it is currently unclear whether ingestion of contaminated food can result in colonization or infection. Many questions remain unanswered regarding the role of C. difficile in community-associated diarrhoea: its source when it is a food contaminant, the infective dose, and the association between ingestion of contaminated food and disease. The significant role of this pathogen in human disease and its potential emergence as an important community-associated pathogen indicate that careful evaluation of different sources of exposure, including food, is required, but determination of the potential role of food in C. difficile infection may be difficult.",
+  "sanitized_text": "Clostridium difficile in food--innocent bystander or serious threat?\nClostridium difficile is a critically important cause of disease in humans, particularly in hospitalized individuals. Three major factors have raised concern about the potential for this pathogen to be a cause of foodborne disease: the increasing recognition of community-associated C. difficile infection, recent studies identifying C. difficile in food animals and food, and similarities in C. difficile isolates from animals, food and humans. It is clear that C. difficile can be commonly found in food animals and food in many regions, and that strains important in human infections, such as ribotype 027/NAP1/toxinotype III and ribotype 078/toxinotype V, are often present. However, it is currently unclear whether ingestion of contaminated food can result in colonization or infection. Many questions remain unanswered regarding the role of C. difficile in community-associated diarrhoea: its source when it is a food contaminant, the infective dose, and the association between ingestion of contaminated food and disease. The significant role of this pathogen in human disease and its potential emergence as an important community-associated pathogen indicate that careful evaluation of different sources of exposure, including food, is required, but determination of the potential role of food in C. difficile infection may be difficult.",
+  "modified": false,
+  "original_char_count": 1414,
+  "sanitized_char_count": 1414,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1377,
+      "boundary_end": 1414,
+      "context": "Three major factors have raised concern about the potential for this pathogen to be a cause of foodborne disease: the increasing recognition of community-associated C. difficile infection, recent studies identifying C. difficile in food animals and food, and similarities in C. difficile isolates from animals, food and humans. It is clear that C. difficile can be commonly found in food animals and food in many regions, and that strains important in human infections, such as ribotype 027/NAP1/toxinotype III and ribotype 078/toxinotype V, are often present. However, it is currently unclear whether ingestion of contaminated food can result in colonization or infection. Many questions remain unanswered regarding the role of C. difficile in community-associated diarrhoea: its source when it is a food contaminant, the infective dose, and the association between ingestion of contaminated food and disease. The significant role of this pathogen in human disease and its potential emergence as an important community-associated pathogen indicate that careful evaluation of different sources of exposure, including food, is required, but determination of the potential role of food in C.",
+      "target": "difficile infection may be difficult.",
+      "loss_target": 4.006163120269775,
+      "loss_target_given_context": 1.2599536180496216,
+      "delta_loss": 2.746209502220154,
+      "gain_ratio": 0.6854961767096552,
+      "score": -0.6854961767096552,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

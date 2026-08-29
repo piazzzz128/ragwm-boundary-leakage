@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1489",
+  "source_doc_id": "MED-1489",
+  "title": "A way to reverse CAD?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A way to reverse CAD?\nPURPOSE: Plant-based nutrition achieved coronary artery disease (CAD) arrest and reversal in a small study. However, there was skepticism that this approach could succeed in a larger group of patients. The purpose of our follow-up study was to define the degree of adherence and outcomes of 198 consecutive patient volunteers who received counseling to convert from a usual diet to plant-based nutrition. METHODS: We followed 198 consecutive patients counseled in plant-based nutrition. These patients with established cardiovascular disease (CVD) were interested in transitioning to plant-based nutrition as an adjunct to usual cardiovascular care. We considered participants adherent if they eliminated dairy, fish, and meat, and added oil. RESULTS: Of the 198 patients with CVD, 177 (89%) were adherent. Major cardiac events judged to be recurrent disease totaled one stroke in the adherent cardiovascular participants—a recurrent event rate of .6%, significantly less than reported by other studies of plant-based nutrition therapy. Thirteen of 21 (62%) nonadherent participants experienced adverse events. CONCLUSION: Most of the volunteer patients with CVD responded to intensive counseling, and those who sustained plant-based nutrition for a mean of 3.7 years experienced a low rate of subsequent cardiac events. This dietary approach to treatment deserves a wider test to see if adherence can be sustained in broader populations. Plant-based nutrition has the potential for a large effect on the CVD epidemic.",
+  "sanitized_text": "A way to reverse CAD?\nPURPOSE: Plant-based nutrition achieved coronary artery disease (CAD) arrest and reversal in a small study. However, there was skepticism that this approach could succeed in a larger group of patients. The purpose of our follow-up study was to define the degree of adherence and outcomes of 198 consecutive patient volunteers who received counseling to convert from a usual diet to plant-based nutrition. METHODS: We followed 198 consecutive patients counseled in plant-based nutrition. These patients with established cardiovascular disease (CVD) were interested in transitioning to plant-based nutrition as an adjunct to usual cardiovascular care. We considered participants adherent if they eliminated dairy, fish, and meat, and added oil. RESULTS: Of the 198 patients with CVD, 177 (89%) were adherent. Major cardiac events judged to be recurrent disease totaled one stroke in the adherent cardiovascular participants—a recurrent event rate of .6%, significantly less than reported by other studies of plant-based nutrition therapy. Thirteen of 21 (62%) nonadherent participants experienced adverse events. CONCLUSION: Most of the volunteer patients with CVD responded to intensive counseling, and those who sustained plant-based nutrition for a mean of 3.7 years experienced a low rate of subsequent cardiac events. This dietary approach to treatment deserves a wider test to see if adherence can be sustained in broader populations. Plant-based nutrition has the potential for a large effect on the CVD epidemic.",
+  "modified": false,
+  "original_char_count": 1540,
+  "sanitized_char_count": 1540,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1461,
+      "boundary_end": 1540,
+      "context": "to define the degree of adherence and outcomes of 198 consecutive patient volunteers who received counseling to convert from a usual diet to plant-based nutrition. METHODS: We followed 198 consecutive patients counseled in plant-based nutrition. These patients with established cardiovascular disease (CVD) were interested in transitioning to plant-based nutrition as an adjunct to usual cardiovascular care. We considered participants adherent if they eliminated dairy, fish, and meat, and added oil. RESULTS: Of the 198 patients with CVD, 177 (89%) were adherent. Major cardiac events judged to be recurrent disease totaled one stroke in the adherent cardiovascular participants—a recurrent event rate of .6%, significantly less than reported by other studies of plant-based nutrition therapy. Thirteen of 21 (62%) nonadherent participants experienced adverse events. CONCLUSION: Most of the volunteer patients with CVD responded to intensive counseling, and those who sustained plant-based nutrition for a mean of 3.7 years experienced a low rate of subsequent cardiac events. This dietary approach to treatment deserves a wider test to see if adherence can be sustained in broader populations.",
+      "target": "Plant-based nutrition has the potential for a large effect on the CVD epidemic.",
+      "loss_target": 3.291377067565918,
+      "loss_target_given_context": 1.7047380208969116,
+      "delta_loss": 1.5866390466690063,
+      "gain_ratio": 0.482059336897057,
+      "score": -0.482059336897057,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

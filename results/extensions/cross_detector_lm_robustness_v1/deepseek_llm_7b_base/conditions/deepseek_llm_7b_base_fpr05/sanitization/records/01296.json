@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2627",
+  "source_doc_id": "MED-2627",
+  "title": "Human exposure to endocrine disrupters: carcinogenic risk assessment.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Human exposure to endocrine disrupters: carcinogenic risk assessment.\nHuman exposure to endocrine disrupters (EDs) is widespread and is considered to pose a growing threat to human health. Recent advances in molecular and genetic research and better understanding of mechanisms of blastic cell transformation have led to efforts to improve cancer risk assessment for populations exposed to this family of xenobiotics. In risk assessment, low dose extrapolation of cancer incidence data from both experimental animals and epidemiology studies has been largely based on models assuming linear correlation at low doses, despite existence of evidence showing otherwise. Another weakness of ED risk assessment is poor exposure data in ecological studies. Those are frequently rough estimates derived from contaminated items of local food basket surveys. Polyhalogenated hydrocarbons are treated as examples. There is growing sense of urgency to develop a biologically based dose response model of cancer risk, integrating emerging data from molecular biology and epidemiology to provide more realistic data for risk assessors, public, public health managers and environmental issues administrators.",
+  "sanitized_text": "Human exposure to endocrine disrupters: carcinogenic risk assessment.\nHuman exposure to endocrine disrupters (EDs) is widespread and is considered to pose a growing threat to human health. Recent advances in molecular and genetic research and better understanding of mechanisms of blastic cell transformation have led to efforts to improve cancer risk assessment for populations exposed to this family of xenobiotics. In risk assessment, low dose extrapolation of cancer incidence data from both experimental animals and epidemiology studies has been largely based on models assuming linear correlation at low doses, despite existence of evidence showing otherwise. Another weakness of ED risk assessment is poor exposure data in ecological studies. Those are frequently rough estimates derived from contaminated items of local food basket surveys. Polyhalogenated hydrocarbons are treated as examples. There is growing sense of urgency to develop a biologically based dose response model of cancer risk, integrating emerging data from molecular biology and epidemiology to provide more realistic data for risk assessors, public, public health managers and environmental issues administrators.",
+  "modified": false,
+  "original_char_count": 1193,
+  "sanitized_char_count": 1193,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 903,
+      "boundary_end": 1193,
+      "context": "Human exposure to endocrine disrupters: carcinogenic risk assessment. Human exposure to endocrine disrupters (EDs) is widespread and is considered to pose a growing threat to human health. Recent advances in molecular and genetic research and better understanding of mechanisms of blastic cell transformation have led to efforts to improve cancer risk assessment for populations exposed to this family of xenobiotics. In risk assessment, low dose extrapolation of cancer incidence data from both experimental animals and epidemiology studies has been largely based on models assuming linear correlation at low doses, despite existence of evidence showing otherwise. Another weakness of ED risk assessment is poor exposure data in ecological studies. Those are frequently rough estimates derived from contaminated items of local food basket surveys. Polyhalogenated hydrocarbons are treated as examples.",
+      "target": "There is growing sense of urgency to develop a biologically based dose response model of cancer risk, integrating emerging data from molecular biology and epidemiology to provide more realistic data for risk assessors, public, public health managers and environmental issues administrators.",
+      "loss_target": 3.49190354347229,
+      "loss_target_given_context": 2.8811330795288086,
+      "delta_loss": 0.6107704639434814,
+      "gain_ratio": 0.17491046254277162,
+      "score": -0.17491046254277162,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

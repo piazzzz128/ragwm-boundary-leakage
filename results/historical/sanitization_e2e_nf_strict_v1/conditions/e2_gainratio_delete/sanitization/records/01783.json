@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3441",
+  "source_doc_id": "MED-3441",
+  "title": "Marine edible algae as disease preventers.",
+  "original_text": "Marine edible algae as disease preventers.\nAs modern lifestyles and new feeding habits settle in the world, noncommunicable diseases (NCDs) have evolved to be major causes of disability in developing as well as developed countries. As a concomitant effect, there is a growing interest in natural, healthy food and an increasing awareness of risk factors and determinants of disease. This chapter describes some nutritional facts about seaweeds, which have been used as food since ancient times in China, Japan, Egypt, and India and comments on the potential utilization of marine algae as functional foods. This concept and the description of metabolic syndrome are used as a basis to comprehension of seaweeds against two dreadful illnesses of our times: high blood pressure and cancer. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Marine edible algae as disease preventers.\nAs modern lifestyles and new feeding habits settle in the world, noncommunicable diseases (NCDs) have evolved to be major causes of disability in developing as well as developed countries. As a concomitant effect, there is a growing interest in natural, healthy food and an increasing awareness of risk factors and determinants of disease. This chapter describes some nutritional facts about seaweeds, which have been used as food since ancient times in China, Japan, Egypt, and India and comments on the potential utilization of marine algae as functional foods. This concept and the description of metabolic syndrome are used as a basis to comprehension of seaweeds against two dreadful illnesses of our times: high blood pressure and cancer.",
+  "modified": true,
+  "original_char_count": 839,
+  "sanitized_char_count": 787,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 788,
+      "boundary_end": 818,
+      "context": "Marine edible algae as disease preventers. As modern lifestyles and new feeding habits settle in the world, noncommunicable diseases (NCDs) have evolved to be major causes of disability in developing as well as developed countries. As a concomitant effect, there is a growing interest in natural, healthy food and an increasing awareness of risk factors and determinants of disease. This chapter describes some nutritional facts about seaweeds, which have been used as food since ancient times in China, Japan, Egypt, and India and comments on the potential utilization of marine algae as functional foods. This concept and the description of metabolic syndrome are used as a basis to comprehension of seaweeds against two dreadful illnesses of our times: high blood pressure and cancer.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.1415737867355347,
+      "loss_target_given_context": 1.799615740776062,
+      "delta_loss": -0.6580419540405273,
+      "gain_ratio": -0.5764340086349357,
+      "score": 0.5764340086349357,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 607,
+      "boundary_end": 787,
+      "context": "Marine edible algae as disease preventers. As modern lifestyles and new feeding habits settle in the world, noncommunicable diseases (NCDs) have evolved to be major causes of disability in developing as well as developed countries. As a concomitant effect, there is a growing interest in natural, healthy food and an increasing awareness of risk factors and determinants of disease. This chapter describes some nutritional facts about seaweeds, which have been used as food since ancient times in China, Japan, Egypt, and India and comments on the potential utilization of marine algae as functional foods.",
+      "target": "This concept and the description of metabolic syndrome are used as a basis to comprehension of seaweeds against two dreadful illnesses of our times: high blood pressure and cancer.",
+      "loss_target": 4.1786909103393555,
+      "loss_target_given_context": 3.764434576034546,
+      "delta_loss": 0.41425633430480957,
+      "gain_ratio": 0.09913543336737662,
+      "score": -0.09913543336737662,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 788,
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "score": 0.5764340086349357,
+      "deleted_suffix": "Copyright © 2011 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-918",
+  "source_doc_id": "MED-918",
+  "title": "Combination of erythritol and fructose increases gastrointestinal symptoms in healthy adults.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Combination of erythritol and fructose increases gastrointestinal symptoms in healthy adults.\nConsumption of a large amount of dietary fructose induces gastrointestinal intolerance, and glucose has been known as an enhancer of fructose absorption. Erythritol is a nonglycemic sugar alcohol, and it has been suggested that erythritol is absorbed paracellularly. It was hypothesized that paracellular absorption of erythritol could also enhance paracellular absorption of fructose in healthy adults. This is one of the proposed pathways for how additional glucose enhances the absorption of fructose. Thirty-seven nondiabetic, healthy adults participated in a randomized, double-masked, controlled crossover study. After an overnight fast, participants consumed beverages containing either 50 g fructose and 50 g glucose, 50 g fructose and 33.3 g erythritol (an equimolar concentration of fructose), or 50 g fructose alone. Breath hydrogen response was determined for 8 hours postprandially. Gastrointestinal intolerance symptoms and the number and consistency of bowel movements were recorded for 24 hours postprandially. The breath hydrogen area under the curve (AUC) of the fructose and erythritol beverage was 2 times the AUC of the fructose beverage and 8.75 times the AUC of the fructose and glucose beverage (P < .001, respectively). Compared with fructose and glucose beverage and fructose alone, frequency of watery stools increased (P < .05) and gastrointestinal tolerance worsened (P < .05) when participants consumed fructose and erythritol. These data suggest that coingestion of equimolar concentrations of fructose and erythritol increased carbohydrate malabsorption. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Combination of erythritol and fructose increases gastrointestinal symptoms in healthy adults.\nConsumption of a large amount of dietary fructose induces gastrointestinal intolerance, and glucose has been known as an enhancer of fructose absorption. Erythritol is a nonglycemic sugar alcohol, and it has been suggested that erythritol is absorbed paracellularly. It was hypothesized that paracellular absorption of erythritol could also enhance paracellular absorption of fructose in healthy adults. This is one of the proposed pathways for how additional glucose enhances the absorption of fructose. Thirty-seven nondiabetic, healthy adults participated in a randomized, double-masked, controlled crossover study. After an overnight fast, participants consumed beverages containing either 50 g fructose and 50 g glucose, 50 g fructose and 33.3 g erythritol (an equimolar concentration of fructose), or 50 g fructose alone. Breath hydrogen response was determined for 8 hours postprandially. Gastrointestinal intolerance symptoms and the number and consistency of bowel movements were recorded for 24 hours postprandially. The breath hydrogen area under the curve (AUC) of the fructose and erythritol beverage was 2 times the AUC of the fructose beverage and 8.75 times the AUC of the fructose and glucose beverage (P < .001, respectively). Compared with fructose and glucose beverage and fructose alone, frequency of watery stools increased (P < .05) and gastrointestinal tolerance worsened (P < .05) when participants consumed fructose and erythritol. These data suggest that coingestion of equimolar concentrations of fructose and erythritol increased carbohydrate malabsorption. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1732,
+  "sanitized_char_count": 1732,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1681,
+      "boundary_end": 1711,
+      "context": "healthy adults. This is one of the proposed pathways for how additional glucose enhances the absorption of fructose. Thirty-seven nondiabetic, healthy adults participated in a randomized, double-masked, controlled crossover study. After an overnight fast, participants consumed beverages containing either 50 g fructose and 50 g glucose, 50 g fructose and 33.3 g erythritol (an equimolar concentration of fructose), or 50 g fructose alone. Breath hydrogen response was determined for 8 hours postprandially. Gastrointestinal intolerance symptoms and the number and consistency of bowel movements were recorded for 24 hours postprandially. The breath hydrogen area under the curve (AUC) of the fructose and erythritol beverage was 2 times the AUC of the fructose beverage and 8.75 times the AUC of the fructose and glucose beverage (P < .001, respectively). Compared with fructose and glucose beverage and fructose alone, frequency of watery stools increased (P < .05) and gastrointestinal tolerance worsened (P < .05) when participants consumed fructose and erythritol. These data suggest that coingestion of equimolar concentrations of fructose and erythritol increased carbohydrate malabsorption.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.2384780645370483,
+      "loss_target_given_context": 0.525836169719696,
+      "delta_loss": 0.7126418948173523,
+      "gain_ratio": 0.5754174540699215,
+      "score": -0.5754174540699215,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

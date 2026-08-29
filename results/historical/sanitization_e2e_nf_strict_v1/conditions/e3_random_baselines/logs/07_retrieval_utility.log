@@ -1,0 +1,231 @@
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+  0%|                                                                                         | 0/3633 [00:00<?, ?it/s]100%|██████████████████████████████████████████████████████████████████████████| 3633/3633 [00:00<00:00, 110171.33it/s]
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+encoded queries 32/323
+encoded queries 64/323
+encoded queries 96/323
+encoded queries 128/323
+encoded queries 160/323
+encoded queries 192/323
+encoded queries 224/323
+encoded queries 256/323
+encoded queries 288/323
+encoded queries 320/323
+encoded queries 323/323
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+e0_watermarked {
+  "query_count": 323,
+  "ndcg_at_10": 0.26806049289299566,
+  "map_at_100": 0.1172189560562715,
+  "recall_at_100": 0.251794307397446,
+  "mrr_at_10": 0.4528650056513834
+}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+e1_oracle {
+  "query_count": 323,
+  "ndcg_at_10": 0.2542501051819339,
+  "map_at_100": 0.10845179643607722,
+  "recall_at_100": 0.2515962854791348,
+  "mrr_at_10": 0.4349083493046341
+}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+e2_gainratio {
+  "query_count": 323,
+  "ndcg_at_10": 0.2683897276283186,
+  "map_at_100": 0.11905996869052234,
+  "recall_at_100": 0.25587164642755283,
+  "mrr_at_10": 0.45410093862106243
+}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+e3_random_101 {
+  "query_count": 323,
+  "ndcg_at_10": 0.2643399332423984,
+  "map_at_100": 0.11612876969376972,
+  "recall_at_100": 0.24889586969344335,
+  "mrr_at_10": 0.44545800776450933
+}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+e3_random_202 {
+  "query_count": 323,
+  "ndcg_at_10": 0.26764849651766165,
+  "map_at_100": 0.11654422765085029,
+  "recall_at_100": 0.25191249834855506,
+  "mrr_at_10": 0.4537765983586417
+}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+e3_random_303 {
+  "query_count": 323,
+  "ndcg_at_10": 0.2683774621252065,
+  "map_at_100": 0.11740234817554386,
+  "recall_at_100": 0.25468169158471005,
+  "mrr_at_10": 0.45462799154749617
+}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+e3_random_404 {
+  "query_count": 323,
+  "ndcg_at_10": 0.2646641897645923,
+  "map_at_100": 0.1155921590524455,
+  "recall_at_100": 0.24939111810398248,
+  "mrr_at_10": 0.44862155388471175
+}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+e3_random_505 {
+  "query_count": 323,
+  "ndcg_at_10": 0.2672120696487404,
+  "map_at_100": 0.11704411690739065,
+  "recall_at_100": 0.25335478715344273,
+  "mrr_at_10": 0.45547078480515013
+}
+{
+  "dataset": "nfcorpus",
+  "split": "test",
+  "retriever": "contriever",
+  "query_count": 323,
+  "baseline_name": "e0_watermarked",
+  "metrics": {
+    "e0_watermarked": {
+      "query_count": 323,
+      "ndcg_at_10": 0.26806049289299566,
+      "map_at_100": 0.1172189560562715,
+      "recall_at_100": 0.251794307397446,
+      "mrr_at_10": 0.4528650056513834
+    },
+    "e1_oracle": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2542501051819339,
+      "map_at_100": 0.10845179643607722,
+      "recall_at_100": 0.2515962854791348,
+      "mrr_at_10": 0.4349083493046341
+    },
+    "e2_gainratio": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2683897276283186,
+      "map_at_100": 0.11905996869052234,
+      "recall_at_100": 0.25587164642755283,
+      "mrr_at_10": 0.45410093862106243
+    },
+    "e3_random_101": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2643399332423984,
+      "map_at_100": 0.11612876969376972,
+      "recall_at_100": 0.24889586969344335,
+      "mrr_at_10": 0.44545800776450933
+    },
+    "e3_random_202": {
+      "query_count": 323,
+      "ndcg_at_10": 0.26764849651766165,
+      "map_at_100": 0.11654422765085029,
+      "recall_at_100": 0.25191249834855506,
+      "mrr_at_10": 0.4537765983586417
+    },
+    "e3_random_303": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2683774621252065,
+      "map_at_100": 0.11740234817554386,
+      "recall_at_100": 0.25468169158471005,
+      "mrr_at_10": 0.45462799154749617
+    },
+    "e3_random_404": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2646641897645923,
+      "map_at_100": 0.1155921590524455,
+      "recall_at_100": 0.24939111810398248,
+      "mrr_at_10": 0.44862155388471175
+    },
+    "e3_random_505": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2672120696487404,
+      "map_at_100": 0.11704411690739065,
+      "recall_at_100": 0.25335478715344273,
+      "mrr_at_10": 0.45547078480515013
+    }
+  },
+  "metric_deltas_vs_baseline": {
+    "e1_oracle": {
+      "ndcg_at_10": -0.013810387711061745,
+      "map_at_100": -0.008767159620194281,
+      "recall_at_100": -0.00019802191831119753,
+      "mrr_at_10": -0.017956656346749256
+    },
+    "e2_gainratio": {
+      "ndcg_at_10": 0.00032923473532292524,
+      "map_at_100": 0.0018410126342508354,
+      "recall_at_100": 0.004077339030106819,
+      "mrr_at_10": 0.0012359329696790544
+    },
+    "e3_random_101": {
+      "ndcg_at_10": -0.003720559650597255,
+      "map_at_100": -0.0010901863625017855,
+      "recall_at_100": -0.0028984377040026654,
+      "mrr_at_10": -0.007406997886874045
+    },
+    "e3_random_202": {
+      "ndcg_at_10": -0.0004119963753340117,
+      "map_at_100": -0.0006747284054212099,
+      "recall_at_100": 0.00011819095110904287,
+      "mrr_at_10": 0.0009115927072583241
+    },
+    "e3_random_303": {
+      "ndcg_at_10": 0.00031696923221086193,
+      "map_at_100": 0.00018339211927236032,
+      "recall_at_100": 0.0028873841872640305,
+      "mrr_at_10": 0.0017629858961127898
+    },
+    "e3_random_404": {
+      "ndcg_at_10": -0.0033963031284033884,
+      "map_at_100": -0.0016267970038259943,
+      "recall_at_100": -0.0024031892934635313,
+      "mrr_at_10": -0.004243451766671624
+    },
+    "e3_random_505": {
+      "ndcg_at_10": -0.0008484232442552697,
+      "map_at_100": -0.00017483914888084817,
+      "recall_at_100": 0.0015604797559967132,
+      "mrr_at_10": 0.002605779153766752
+    }
+  },
+  "retrieval_overlap": {
+    "e1_oracle": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.7034055727554179,
+      "mean_top100_overlap_fraction_vs_baseline": 0.7552631578947369
+    },
+    "e2_gainratio": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.8690402476780186,
+      "mean_top100_overlap_fraction_vs_baseline": 0.8844582043343653
+    },
+    "e3_random_101": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.9126934984520124,
+      "mean_top100_overlap_fraction_vs_baseline": 0.9061300309597523
+    },
+    "e3_random_202": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.9089783281733747,
+      "mean_top100_overlap_fraction_vs_baseline": 0.9052012383900929
+    },
+    "e3_random_303": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.921671826625387,
+      "mean_top100_overlap_fraction_vs_baseline": 0.9069040247678019
+    },
+    "e3_random_404": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.9179566563467493,
+      "mean_top100_overlap_fraction_vs_baseline": 0.9091331269349845
+    },
+    "e3_random_505": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.9114551083591331,
+      "mean_top100_overlap_fraction_vs_baseline": 0.9085758513931889
+    }
+  }
+}
+RETRIEVAL UTILITY EVALUATION PASS

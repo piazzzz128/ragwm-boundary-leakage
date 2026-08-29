@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4234",
+  "source_doc_id": "MED-4234",
+  "title": "Dietary patterns, supplement use, and the risk of benign prostatic hyperplasia.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary patterns, supplement use, and the risk of benign prostatic hyperplasia.\nIt has long been appreciated that a healthy lifestyle plays a critical role in cardiovascular health. It is now apparent that the same is true in the development of benign prostatic hyperplasia (BPH). Prospective cohort data originating from recently published randomized trials on the medical treatment of BPH and prevention of prostate cancer have been invaluable. A growing body of evidence suggests that exercise and the intake of specific macronutrients and micronutrients through regular diet play a beneficial role. Most strikingly, the magnitude of these effects is similar to medical therapies using alpha-blockers and 5-alpha-reductase inhibitors. The use of supplements for prostate disease is a multibillion dollar business in the United States, and supplements are more commonly prescribed than medical therapy in many countries. In contrast to consumption of micronutrients through regular diet, supplemental intake of micronutrients and phytotherapies currently lack evidence to support their efficacy.",
+  "sanitized_text": "Dietary patterns, supplement use, and the risk of benign prostatic hyperplasia.\nIt has long been appreciated that a healthy lifestyle plays a critical role in cardiovascular health. It is now apparent that the same is true in the development of benign prostatic hyperplasia (BPH). Prospective cohort data originating from recently published randomized trials on the medical treatment of BPH and prevention of prostate cancer have been invaluable. A growing body of evidence suggests that exercise and the intake of specific macronutrients and micronutrients through regular diet play a beneficial role. Most strikingly, the magnitude of these effects is similar to medical therapies using alpha-blockers and 5-alpha-reductase inhibitors. The use of supplements for prostate disease is a multibillion dollar business in the United States, and supplements are more commonly prescribed than medical therapy in many countries. In contrast to consumption of micronutrients through regular diet, supplemental intake of micronutrients and phytotherapies currently lack evidence to support their efficacy.",
+  "modified": false,
+  "original_char_count": 1097,
+  "sanitized_char_count": 1097,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 923,
+      "boundary_end": 1097,
+      "context": "Dietary patterns, supplement use, and the risk of benign prostatic hyperplasia. It has long been appreciated that a healthy lifestyle plays a critical role in cardiovascular health. It is now apparent that the same is true in the development of benign prostatic hyperplasia (BPH). Prospective cohort data originating from recently published randomized trials on the medical treatment of BPH and prevention of prostate cancer have been invaluable. A growing body of evidence suggests that exercise and the intake of specific macronutrients and micronutrients through regular diet play a beneficial role. Most strikingly, the magnitude of these effects is similar to medical therapies using alpha-blockers and 5-alpha-reductase inhibitors. The use of supplements for prostate disease is a multibillion dollar business in the United States, and supplements are more commonly prescribed than medical therapy in many countries.",
+      "target": "In contrast to consumption of micronutrients through regular diet, supplemental intake of micronutrients and phytotherapies currently lack evidence to support their efficacy.",
+      "loss_target": 3.0040037631988525,
+      "loss_target_given_context": 2.061861038208008,
+      "delta_loss": 0.9421427249908447,
+      "gain_ratio": 0.31362900956808115,
+      "score": -0.31362900956808115,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

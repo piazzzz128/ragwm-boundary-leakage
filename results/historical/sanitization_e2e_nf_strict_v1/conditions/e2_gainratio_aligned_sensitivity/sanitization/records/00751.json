@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1919",
+  "source_doc_id": "MED-1919",
+  "title": "Human telomerase model shows the role of the TEN domain in advancing the double helix for the next polymerization step",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Human telomerase model shows the role of the TEN domain in advancing the double helix for the next polymerization step\nTelomerases constitute a group of specialized ribonucleoprotein enzymes that remediate chromosomal shrinkage resulting from the “end-replication” problem. Defects in telomere length regulation are associated with several diseases as well as with aging and cancer. Despite significant progress in understanding the roles of telomerase, the complete structure of the human telomerase enzyme bound to telomeric DNA remains elusive, with the detailed molecular mechanism of telomere elongation still unknown. By application of computational methods for distant homology detection, comparative modeling, and molecular docking, guided by available experimental data, we have generated a three-dimensional structural model of a partial telomerase elongation complex composed of three essential protein domains bound to a single-stranded telomeric DNA sequence in the form of a heteroduplex with the template region of the human RNA subunit, TER. This model provides a structural mechanism for the processivity of telomerase and offers new insights into elongation. We conclude that the RNA∶DNA heteroduplex is constrained by the telomerase TEN domain through repeated extension cycles and that the TEN domain controls the process by moving the template ahead one base at a time by translation and rotation of the double helix. The RNA region directly following the template can bind complementarily to the newly synthesized telomeric DNA, while the template itself is reused in the telomerase active site during the next reaction cycle. This first structural model of the human telomerase enzyme provides many details of the molecular mechanism of telomerase and immediately provides an important target for rational drug design.",
+  "sanitized_text": "Human telomerase model shows the role of the TEN domain in advancing the double helix for the next polymerization step\nTelomerases constitute a group of specialized ribonucleoprotein enzymes that remediate chromosomal shrinkage resulting from the “end-replication” problem. Defects in telomere length regulation are associated with several diseases as well as with aging and cancer. Despite significant progress in understanding the roles of telomerase, the complete structure of the human telomerase enzyme bound to telomeric DNA remains elusive, with the detailed molecular mechanism of telomere elongation still unknown. By application of computational methods for distant homology detection, comparative modeling, and molecular docking, guided by available experimental data, we have generated a three-dimensional structural model of a partial telomerase elongation complex composed of three essential protein domains bound to a single-stranded telomeric DNA sequence in the form of a heteroduplex with the template region of the human RNA subunit, TER. This model provides a structural mechanism for the processivity of telomerase and offers new insights into elongation. We conclude that the RNA∶DNA heteroduplex is constrained by the telomerase TEN domain through repeated extension cycles and that the TEN domain controls the process by moving the template ahead one base at a time by translation and rotation of the double helix. The RNA region directly following the template can bind complementarily to the newly synthesized telomeric DNA, while the template itself is reused in the telomerase active site during the next reaction cycle. This first structural model of the human telomerase enzyme provides many details of the molecular mechanism of telomerase and immediately provides an important target for rational drug design.",
+  "modified": false,
+  "original_char_count": 1841,
+  "sanitized_char_count": 1841,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1649,
+      "boundary_end": 1841,
+      "context": "the complete structure of the human telomerase enzyme bound to telomeric DNA remains elusive, with the detailed molecular mechanism of telomere elongation still unknown. By application of computational methods for distant homology detection, comparative modeling, and molecular docking, guided by available experimental data, we have generated a three-dimensional structural model of a partial telomerase elongation complex composed of three essential protein domains bound to a single-stranded telomeric DNA sequence in the form of a heteroduplex with the template region of the human RNA subunit, TER. This model provides a structural mechanism for the processivity of telomerase and offers new insights into elongation. We conclude that the RNA∶DNA heteroduplex is constrained by the telomerase TEN domain through repeated extension cycles and that the TEN domain controls the process by moving the template ahead one base at a time by translation and rotation of the double helix. The RNA region directly following the template can bind complementarily to the newly synthesized telomeric DNA, while the template itself is reused in the telomerase active site during the next reaction cycle.",
+      "target": "This first structural model of the human telomerase enzyme provides many details of the molecular mechanism of telomerase and immediately provides an important target for rational drug design.",
+      "loss_target": 2.870699644088745,
+      "loss_target_given_context": 2.100245475769043,
+      "delta_loss": 0.7704541683197021,
+      "gain_ratio": 0.2683855031320317,
+      "score": -0.2683855031320317,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

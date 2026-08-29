@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4085",
+  "source_doc_id": "MED-4085",
+  "title": "Vegan diet alleviates fibromyalgia symptoms.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vegan diet alleviates fibromyalgia symptoms.\nThe effect of a strict, low-salt, uncooked vegan diet rich in lactobacteria on symptoms in 18 fibromyalgia patients during and after a 3-month intervention period in an open, non-randomized controlled study was evaluated. As control 15 patients continued their omnivorous diet. The groups did not differ significantly from each other in the beginning of the study in any other parameters except in pain and urine sodium. The results revealed significant improvements in Visual analogue scale of pain (VAS) (p=0.005), joint stiffness (p=0.001), quality of sleep (p=0.0001), Health assessment questionnaire (HAQ) (p=0.031), General health questionnaire (GHQ) (p=0.021), and a rheumatologist's own questionnaire (p=0.038). The majority of patients were overweight to some extent at the beginning of the study and shifting to a vegan food caused a significant reduction in body mass index (BMI) (p=0.0001). Total serum cholesterol showed a statistically significant lowering (p=0.003). Urine sodium dropped to 1/3 of the beginning values (p=0.0001) indicating good diet compliance. It can be concluded that vegan diet had beneficial effects on fibromyalgia symptoms at least in the short run.",
+  "sanitized_text": "Vegan diet alleviates fibromyalgia symptoms.\nThe effect of a strict, low-salt, uncooked vegan diet rich in lactobacteria on symptoms in 18 fibromyalgia patients during and after a 3-month intervention period in an open, non-randomized controlled study was evaluated. As control 15 patients continued their omnivorous diet. The groups did not differ significantly from each other in the beginning of the study in any other parameters except in pain and urine sodium. The results revealed significant improvements in Visual analogue scale of pain (VAS) (p=0.005), joint stiffness (p=0.001), quality of sleep (p=0.0001), Health assessment questionnaire (HAQ) (p=0.031), General health questionnaire (GHQ) (p=0.021), and a rheumatologist's own questionnaire (p=0.038). The majority of patients were overweight to some extent at the beginning of the study and shifting to a vegan food caused a significant reduction in body mass index (BMI) (p=0.0001). Total serum cholesterol showed a statistically significant lowering (p=0.003). Urine sodium dropped to 1/3 of the beginning values (p=0.0001) indicating good diet compliance. It can be concluded that vegan diet had beneficial effects on fibromyalgia symptoms at least in the short run.",
+  "modified": false,
+  "original_char_count": 1233,
+  "sanitized_char_count": 1233,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1123,
+      "boundary_end": 1233,
+      "context": "Vegan diet alleviates fibromyalgia symptoms. The effect of a strict, low-salt, uncooked vegan diet rich in lactobacteria on symptoms in 18 fibromyalgia patients during and after a 3-month intervention period in an open, non-randomized controlled study was evaluated. As control 15 patients continued their omnivorous diet. The groups did not differ significantly from each other in the beginning of the study in any other parameters except in pain and urine sodium. The results revealed significant improvements in Visual analogue scale of pain (VAS) (p=0.005), joint stiffness (p=0.001), quality of sleep (p=0.0001), Health assessment questionnaire (HAQ) (p=0.031), General health questionnaire (GHQ) (p=0.021), and a rheumatologist's own questionnaire (p=0.038). The majority of patients were overweight to some extent at the beginning of the study and shifting to a vegan food caused a significant reduction in body mass index (BMI) (p=0.0001). Total serum cholesterol showed a statistically significant lowering (p=0.003). Urine sodium dropped to 1/3 of the beginning values (p=0.0001) indicating good diet compliance.",
+      "target": "It can be concluded that vegan diet had beneficial effects on fibromyalgia symptoms at least in the short run.",
+      "loss_target": 3.0016520023345947,
+      "loss_target_given_context": 1.308590292930603,
+      "delta_loss": 1.6930617094039917,
+      "gain_ratio": 0.5640433028502901,
+      "score": -0.5640433028502901,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

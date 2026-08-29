@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5300",
+  "source_doc_id": "MED-5300",
+  "title": "Salt, volume and the prevention of hypertension.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Salt, volume and the prevention of hypertension.\nThe evidence supporting the thesis that hypertension can be prevented by eliminating salt from the diet is based on four principal sources: (1) epidemiological studies in unacculturated peoples showing that the prevalence of hypertension is inversely correlated with the degree of salt intake; (2) hemodynamic studies suggesting that the development of chronic experimental hypertension is a homeostatic response to a maintained increase in extracellular fluid volume (ECF); (3) evidence that the ECF of \"salt eaters\" is expanded in comparison to that of \"no-salt eaters\"; and (4) investigations in hypertensive patients receiving either diets greatly restricted in salt or continuous diuretic therapy which correlate the fall in blood pressure with a reduction in ECF. Although this mechanism of essential hypertension is still obscure the evidence is very good if not conclusive that reduction of salt in the diet to below 2 g/day would result in the prevention of essential hypertension and its disappearance as a major public health problem.",
+  "sanitized_text": "Salt, volume and the prevention of hypertension.\nThe evidence supporting the thesis that hypertension can be prevented by eliminating salt from the diet is based on four principal sources: (1) epidemiological studies in unacculturated peoples showing that the prevalence of hypertension is inversely correlated with the degree of salt intake; (2) hemodynamic studies suggesting that the development of chronic experimental hypertension is a homeostatic response to a maintained increase in extracellular fluid volume (ECF); (3) evidence that the ECF of \"salt eaters\" is expanded in comparison to that of \"no-salt eaters\"; and (4) investigations in hypertensive patients receiving either diets greatly restricted in salt or continuous diuretic therapy which correlate the fall in blood pressure with a reduction in ECF. Although this mechanism of essential hypertension is still obscure the evidence is very good if not conclusive that reduction of salt in the diet to below 2 g/day would result in the prevention of essential hypertension and its disappearance as a major public health problem.",
+  "modified": false,
+  "original_char_count": 1094,
+  "sanitized_char_count": 1094,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 819,
+      "boundary_end": 1094,
+      "context": "Salt, volume and the prevention of hypertension. The evidence supporting the thesis that hypertension can be prevented by eliminating salt from the diet is based on four principal sources: (1) epidemiological studies in unacculturated peoples showing that the prevalence of hypertension is inversely correlated with the degree of salt intake; (2) hemodynamic studies suggesting that the development of chronic experimental hypertension is a homeostatic response to a maintained increase in extracellular fluid volume (ECF); (3) evidence that the ECF of \"salt eaters\" is expanded in comparison to that of \"no-salt eaters\"; and (4) investigations in hypertensive patients receiving either diets greatly restricted in salt or continuous diuretic therapy which correlate the fall in blood pressure with a reduction in ECF.",
+      "target": "Although this mechanism of essential hypertension is still obscure the evidence is very good if not conclusive that reduction of salt in the diet to below 2 g/day would result in the prevention of essential hypertension and its disappearance as a major public health problem.",
+      "loss_target": 6.78370475769043,
+      "loss_target_given_context": 4.058028697967529,
+      "delta_loss": 2.7256760597229004,
+      "gain_ratio": 0.4017975659440226,
+      "score": -0.4017975659440226,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2303",
+  "source_doc_id": "MED-2303",
+  "title": "Balancing life-style and genomics research for disease prevention.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Balancing life-style and genomics research for disease prevention.\nGenetic and environmental factors, including diet and life-style, both contribute to cardiovascular disease, cancers, and other major causes of mortality, but various lines of evidence indicate that environmental factors are most important. Overly enthusiastic expectations regarding the benefits of genetic research for disease prevention have the potential to distort research priorities and spending for health. However, integration of new genetic information into epidemiologic studies can help clarify causal relations between both life-style and genetic factors and risks of disease. Thus, a balanced approach should provide the best data to make informed choices about the most effective means to prevent disease.",
+  "sanitized_text": "Balancing life-style and genomics research for disease prevention.\nGenetic and environmental factors, including diet and life-style, both contribute to cardiovascular disease, cancers, and other major causes of mortality, but various lines of evidence indicate that environmental factors are most important. Overly enthusiastic expectations regarding the benefits of genetic research for disease prevention have the potential to distort research priorities and spending for health. However, integration of new genetic information into epidemiologic studies can help clarify causal relations between both life-style and genetic factors and risks of disease. Thus, a balanced approach should provide the best data to make informed choices about the most effective means to prevent disease.",
+  "modified": false,
+  "original_char_count": 787,
+  "sanitized_char_count": 787,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 657,
+      "boundary_end": 787,
+      "context": "Balancing life-style and genomics research for disease prevention. Genetic and environmental factors, including diet and life-style, both contribute to cardiovascular disease, cancers, and other major causes of mortality, but various lines of evidence indicate that environmental factors are most important. Overly enthusiastic expectations regarding the benefits of genetic research for disease prevention have the potential to distort research priorities and spending for health. However, integration of new genetic information into epidemiologic studies can help clarify causal relations between both life-style and genetic factors and risks of disease.",
+      "target": "Thus, a balanced approach should provide the best data to make informed choices about the most effective means to prevent disease.",
+      "loss_target": 3.194965362548828,
+      "loss_target_given_context": 2.1993000507354736,
+      "delta_loss": 0.9956653118133545,
+      "gain_ratio": 0.31163571395310796,
+      "score": -0.31163571395310796,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

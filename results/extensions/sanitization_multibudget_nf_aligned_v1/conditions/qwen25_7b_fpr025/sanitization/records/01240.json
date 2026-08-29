@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-2520",
+  "source_doc_id": "MED-2520",
+  "title": "TOR-driven aging: speeding car without brakes.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "TOR-driven aging: speeding car without brakes.\nThis article discusses that the traditional analogy of an aging organism with a rusting (albeit self-repairing) car is misleading. The true analogy is a speeding car that enters a low-speed zone and damages itself because it does not and cannot slow down. For such a car without brakes (and actually without a driver), aging from rusting never occurs. Using simple analogies (although turning gerontology upside down), this article discusses the origin of aging, how overactivation of the mTOR (Target of Rapamycin) pathway causes aging, why aging causes damage (organ damage) not damage causes aging, the link between aging and age-related diseases, slow aging versus aging tolerance and suppression of aging with rapamycin.",
+  "sanitized_text": "TOR-driven aging: speeding car without brakes.\nThis article discusses that the traditional analogy of an aging organism with a rusting (albeit self-repairing) car is misleading. The true analogy is a speeding car that enters a low-speed zone and damages itself because it does not and cannot slow down. For such a car without brakes (and actually without a driver), aging from rusting never occurs.",
+  "modified": true,
+  "original_char_count": 772,
+  "sanitized_char_count": 398,
+  "deleted_char_count": 374,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 399,
+      "boundary_end": 772,
+      "context": "TOR-driven aging: speeding car without brakes. This article discusses that the traditional analogy of an aging organism with a rusting (albeit self-repairing) car is misleading. The true analogy is a speeding car that enters a low-speed zone and damages itself because it does not and cannot slow down. For such a car without brakes (and actually without a driver), aging from rusting never occurs.",
+      "target": "Using simple analogies (although turning gerontology upside down), this article discusses the origin of aging, how overactivation of the mTOR (Target of Rapamycin) pathway causes aging, why aging causes damage (organ damage) not damage causes aging, the link between aging and age-related diseases, slow aging versus aging tolerance and suppression of aging with rapamycin.",
+      "loss_target": 3.18562912940979,
+      "loss_target_given_context": 2.7376229763031006,
+      "delta_loss": 0.44800615310668945,
+      "gain_ratio": 0.14063349338775438,
+      "score": -0.14063349338775438,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 303,
+      "boundary_end": 398,
+      "context": "TOR-driven aging: speeding car without brakes. This article discusses that the traditional analogy of an aging organism with a rusting (albeit self-repairing) car is misleading. The true analogy is a speeding car that enters a low-speed zone and damages itself because it does not and cannot slow down.",
+      "target": "For such a car without brakes (and actually without a driver), aging from rusting never occurs.",
+      "loss_target": 5.20269250869751,
+      "loss_target_given_context": 3.4521987438201904,
+      "delta_loss": 1.7504937648773193,
+      "gain_ratio": 0.3364592010677091,
+      "score": -0.3364592010677091,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 399,
+      "target": "Using simple analogies (although turning gerontology upside down), this article discusses the origin of aging, how overactivation of the mTOR (Target of Rapamycin) pathway causes aging, why aging causes damage (organ damage) not damage causes aging, the link between aging and age-related diseases, slow aging versus aging tolerance and suppression of aging with rapamycin.",
+      "score": -0.14063349338775438,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Using simple analogies (although turning gerontology upside down), this article discusses the origin of aging, how overactivation of the mTOR (Target of Rapamycin) pathway causes aging, why aging causes damage (organ damage) not damage causes aging, the link between aging and age-related diseases, slow aging versus aging tolerance and suppression of aging with rapamycin.",
+      "deleted_char_count": 373
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

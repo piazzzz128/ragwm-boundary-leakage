@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-925",
+  "source_doc_id": "MED-925",
+  "title": "Baking soda: a potentially fatal home remedy.",
+  "original_text": "Baking soda: a potentially fatal home remedy.\nWe present a case of a six-week-old infant who developed life-threatening complications after unintentional sodium bicarbonate intoxication. Baking soda was being used by the mother as a home remedy to \"help the baby burp.\" A review of the literature regarding the use (or misuse) of baking soda follows. Our patient, along with the other noted case reports, emphasizes the need for warnings on baking soda products whose labels recommend its use as an antacid. Poisonings must be high in the differential diagnosis of any patient, regardless of age, who presents with altered mental status or status epilepticus.",
+  "sanitized_text": "Baking soda: a potentially fatal home remedy.\nWe present a case of a six-week-old infant who developed life-threatening complications after unintentional sodium bicarbonate intoxication. Baking soda was being used by the mother as a home remedy to \"help the baby burp.\" A review of the literature regarding the use (or misuse) of baking soda follows. Our patient, along with the other noted case reports, emphasizes the need for warnings on baking soda products whose labels recommend its use as an antacid.",
+  "modified": true,
+  "original_char_count": 659,
+  "sanitized_char_count": 507,
+  "deleted_char_count": 152,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 508,
+      "boundary_end": 659,
+      "context": "Baking soda: a potentially fatal home remedy. We present a case of a six-week-old infant who developed life-threatening complications after unintentional sodium bicarbonate intoxication. Baking soda was being used by the mother as a home remedy to \"help the baby burp.\" A review of the literature regarding the use (or misuse) of baking soda follows. Our patient, along with the other noted case reports, emphasizes the need for warnings on baking soda products whose labels recommend its use as an antacid.",
+      "target": "Poisonings must be high in the differential diagnosis of any patient, regardless of age, who presents with altered mental status or status epilepticus.",
+      "loss_target": 2.349792957305908,
+      "loss_target_given_context": 2.351029634475708,
+      "delta_loss": -0.0012366771697998047,
+      "gain_ratio": -0.0005262919722160048,
+      "score": 0.0005262919722160048,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 351,
+      "boundary_end": 507,
+      "context": "Baking soda: a potentially fatal home remedy. We present a case of a six-week-old infant who developed life-threatening complications after unintentional sodium bicarbonate intoxication. Baking soda was being used by the mother as a home remedy to \"help the baby burp.\" A review of the literature regarding the use (or misuse) of baking soda follows.",
+      "target": "Our patient, along with the other noted case reports, emphasizes the need for warnings on baking soda products whose labels recommend its use as an antacid.",
+      "loss_target": 3.701700210571289,
+      "loss_target_given_context": 2.8971810340881348,
+      "delta_loss": 0.8045191764831543,
+      "gain_ratio": 0.21733774501393013,
+      "score": -0.21733774501393013,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 508,
+      "target": "Poisonings must be high in the differential diagnosis of any patient, regardless of age, who presents with altered mental status or status epilepticus.",
+      "score": 0.0005262919722160048,
+      "deleted_suffix": "Poisonings must be high in the differential diagnosis of any patient, regardless of age, who presents with altered mental status or status epilepticus.",
+      "deleted_char_count": 151
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

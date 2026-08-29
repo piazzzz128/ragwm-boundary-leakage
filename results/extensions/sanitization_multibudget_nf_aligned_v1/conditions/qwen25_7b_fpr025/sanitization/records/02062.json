@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3757",
+  "source_doc_id": "MED-3757",
+  "title": "A duty to deceive: placebos in clinical practice.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A duty to deceive: placebos in clinical practice.\nAmong medical researchers and clinicians the dominant view is that it is unethical to deceive patients by prescribing a placebo. This opinion is formalized in a recent policy issued by the American Medical Association (AMA [Chicago, IL]). Although placebos can be shown to be always safe, often effective, and sometimes necessary, doctors are now effectively prohibited from using them in clinical practice. I argue that the deceptive administration of placebos is not subject to the same moral objections that face other forms of deception in clinical practice and medical research. Although deception is normally objectionable on the grounds that it limits autonomy and breaches trust, these grounds do not apply to placebos when they are prescribed within appropriate ethical limits. Patients have reason to prefer that doctors can prescribe placebos in ethically responsible ways. Hence, the AMA has an obligation to endorse and to promote the responsible use of deceptive placebos in clinical practice.",
+  "sanitized_text": "A duty to deceive: placebos in clinical practice.\nAmong medical researchers and clinicians the dominant view is that it is unethical to deceive patients by prescribing a placebo. This opinion is formalized in a recent policy issued by the American Medical Association (AMA [Chicago, IL]). Although placebos can be shown to be always safe, often effective, and sometimes necessary, doctors are now effectively prohibited from using them in clinical practice. I argue that the deceptive administration of placebos is not subject to the same moral objections that face other forms of deception in clinical practice and medical research. Although deception is normally objectionable on the grounds that it limits autonomy and breaches trust, these grounds do not apply to placebos when they are prescribed within appropriate ethical limits. Patients have reason to prefer that doctors can prescribe placebos in ethically responsible ways. Hence, the AMA has an obligation to endorse and to promote the responsible use of deceptive placebos in clinical practice.",
+  "modified": false,
+  "original_char_count": 1057,
+  "sanitized_char_count": 1057,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 935,
+      "boundary_end": 1057,
+      "context": "A duty to deceive: placebos in clinical practice. Among medical researchers and clinicians the dominant view is that it is unethical to deceive patients by prescribing a placebo. This opinion is formalized in a recent policy issued by the American Medical Association (AMA [Chicago, IL]). Although placebos can be shown to be always safe, often effective, and sometimes necessary, doctors are now effectively prohibited from using them in clinical practice. I argue that the deceptive administration of placebos is not subject to the same moral objections that face other forms of deception in clinical practice and medical research. Although deception is normally objectionable on the grounds that it limits autonomy and breaches trust, these grounds do not apply to placebos when they are prescribed within appropriate ethical limits. Patients have reason to prefer that doctors can prescribe placebos in ethically responsible ways.",
+      "target": "Hence, the AMA has an obligation to endorse and to promote the responsible use of deceptive placebos in clinical practice.",
+      "loss_target": 3.6445863246917725,
+      "loss_target_given_context": 1.6707626581192017,
+      "delta_loss": 1.9738236665725708,
+      "gain_ratio": 0.5415768734026349,
+      "score": -0.5415768734026349,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

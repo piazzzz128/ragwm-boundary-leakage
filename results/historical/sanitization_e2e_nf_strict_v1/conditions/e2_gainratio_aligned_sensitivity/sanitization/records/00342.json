@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1428",
+  "source_doc_id": "MED-1428",
+  "title": "Optimal low-density lipoprotein is 50 to 70 mg/dl: lower is better and physiologically normal.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Optimal low-density lipoprotein is 50 to 70 mg/dl: lower is better and physiologically normal.\nThe normal low-density lipoprotein (LDL) cholesterol range is 50 to 70 mg/dl for native hunter-gatherers, healthy human neonates, free-living primates, and other wild mammals (all of whom do not develop atherosclerosis). Randomized trial data suggest atherosclerosis progression and coronary heart disease events are minimized when LDL is lowered to <70 mg/dl. No major safety concerns have surfaced in studies that lowered LDL to this range of 50 to 70 mg/dl. The current guidelines setting the target LDL at 100 to 115 mg/dl may lead to substantial undertreatment in high-risk individuals.",
+  "sanitized_text": "Optimal low-density lipoprotein is 50 to 70 mg/dl: lower is better and physiologically normal.\nThe normal low-density lipoprotein (LDL) cholesterol range is 50 to 70 mg/dl for native hunter-gatherers, healthy human neonates, free-living primates, and other wild mammals (all of whom do not develop atherosclerosis). Randomized trial data suggest atherosclerosis progression and coronary heart disease events are minimized when LDL is lowered to <70 mg/dl. No major safety concerns have surfaced in studies that lowered LDL to this range of 50 to 70 mg/dl. The current guidelines setting the target LDL at 100 to 115 mg/dl may lead to substantial undertreatment in high-risk individuals.",
+  "modified": false,
+  "original_char_count": 686,
+  "sanitized_char_count": 686,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 556,
+      "boundary_end": 686,
+      "context": "Optimal low-density lipoprotein is 50 to 70 mg/dl: lower is better and physiologically normal. The normal low-density lipoprotein (LDL) cholesterol range is 50 to 70 mg/dl for native hunter-gatherers, healthy human neonates, free-living primates, and other wild mammals (all of whom do not develop atherosclerosis). Randomized trial data suggest atherosclerosis progression and coronary heart disease events are minimized when LDL is lowered to <70 mg/dl. No major safety concerns have surfaced in studies that lowered LDL to this range of 50 to 70 mg/dl.",
+      "target": "The current guidelines setting the target LDL at 100 to 115 mg/dl may lead to substantial undertreatment in high-risk individuals.",
+      "loss_target": 2.7773423194885254,
+      "loss_target_given_context": 1.880622148513794,
+      "delta_loss": 0.8967201709747314,
+      "gain_ratio": 0.3228698762419287,
+      "score": -0.3228698762419287,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

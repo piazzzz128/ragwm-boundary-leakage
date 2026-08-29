@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3012",
+  "source_doc_id": "MED-3012",
+  "title": "Fish consumption during child bearing age: a quantitative risk-benefit analysis on neurodevelopment.",
+  "original_text": "Fish consumption during child bearing age: a quantitative risk-benefit analysis on neurodevelopment.\nThe fish ingredient N3-docosahexaenoic acid 22:6 n-3 (DHA) stimulates brain development. On the other hand methylmercury (MeHg) in fish disturbs the developing central nervous system. In this Context the IQ score in children is considered as an aggregate measure of in utero brain development. To determine the effect of DHA exposure on prenatal neurodevelopment the maternal DHA intake during pregnancy was compared with its epidemiologically observed effect on the IQ score of children. For MeHg the maternal intake was converted into its accumulation in the maternal body. The maternal body burden then was compared with its epidemiologically observed relationship with the IQ score. Taking the MeHg and DHA content of 33 fish species the net effect of these compounds on the IQ score was quantified. For most fish species the adverse effect of MeHg on the IQ score exceeded the beneficial effect of DHA. In the case of long-living predators a negative effect up to 10 points on the IQ score was found. The results of this study indicate that food interventions aiming at the beneficial effects of fish consumption should focus on fish species with a high DHA content, while avoiding fish species with a high MeHg content. Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Fish consumption during child bearing age: a quantitative risk-benefit analysis on neurodevelopment.\nThe fish ingredient N3-docosahexaenoic acid 22:6 n-3 (DHA) stimulates brain development. On the other hand methylmercury (MeHg) in fish disturbs the developing central nervous system. In this Context the IQ score in children is considered as an aggregate measure of in utero brain development. To determine the effect of DHA exposure on prenatal neurodevelopment the maternal DHA intake during pregnancy was compared with its epidemiologically observed effect on the IQ score of children. For MeHg the maternal intake was converted into its accumulation in the maternal body. The maternal body burden then was compared with its epidemiologically observed relationship with the IQ score. Taking the MeHg and DHA content of 33 fish species the net effect of these compounds on the IQ score was quantified. For most fish species the adverse effect of MeHg on the IQ score exceeded the beneficial effect of DHA. In the case of long-living predators a negative effect up to 10 points on the IQ score was found. The results of this study indicate that food interventions aiming at the beneficial effects of fish consumption should focus on fish species with a high DHA content, while avoiding fish species with a high MeHg content.",
+  "modified": true,
+  "original_char_count": 1378,
+  "sanitized_char_count": 1326,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1327,
+      "boundary_end": 1357,
+      "context": "acid 22:6 n-3 (DHA) stimulates brain development. On the other hand methylmercury (MeHg) in fish disturbs the developing central nervous system. In this Context the IQ score in children is considered as an aggregate measure of in utero brain development. To determine the effect of DHA exposure on prenatal neurodevelopment the maternal DHA intake during pregnancy was compared with its epidemiologically observed effect on the IQ score of children. For MeHg the maternal intake was converted into its accumulation in the maternal body. The maternal body burden then was compared with its epidemiologically observed relationship with the IQ score. Taking the MeHg and DHA content of 33 fish species the net effect of these compounds on the IQ score was quantified. For most fish species the adverse effect of MeHg on the IQ score exceeded the beneficial effect of DHA. In the case of long-living predators a negative effect up to 10 points on the IQ score was found. The results of this study indicate that food interventions aiming at the beneficial effects of fish consumption should focus on fish species with a high DHA content, while avoiding fish species with a high MeHg content.",
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "loss_target": 1.2711169719696045,
+      "loss_target_given_context": 1.5178074836730957,
+      "delta_loss": -0.2466905117034912,
+      "gain_ratio": -0.1940738084247609,
+      "score": 0.1940738084247609,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1107,
+      "boundary_end": 1326,
+      "context": "Fish consumption during child bearing age: a quantitative risk-benefit analysis on neurodevelopment. The fish ingredient N3-docosahexaenoic acid 22:6 n-3 (DHA) stimulates brain development. On the other hand methylmercury (MeHg) in fish disturbs the developing central nervous system. In this Context the IQ score in children is considered as an aggregate measure of in utero brain development. To determine the effect of DHA exposure on prenatal neurodevelopment the maternal DHA intake during pregnancy was compared with its epidemiologically observed effect on the IQ score of children. For MeHg the maternal intake was converted into its accumulation in the maternal body. The maternal body burden then was compared with its epidemiologically observed relationship with the IQ score. Taking the MeHg and DHA content of 33 fish species the net effect of these compounds on the IQ score was quantified. For most fish species the adverse effect of MeHg on the IQ score exceeded the beneficial effect of DHA. In the case of long-living predators a negative effect up to 10 points on the IQ score was found.",
+      "target": "The results of this study indicate that food interventions aiming at the beneficial effects of fish consumption should focus on fish species with a high DHA content, while avoiding fish species with a high MeHg content.",
+      "loss_target": 2.400397777557373,
+      "loss_target_given_context": 1.806771993637085,
+      "delta_loss": 0.5936257839202881,
+      "gain_ratio": 0.24730308845909585,
+      "score": -0.24730308845909585,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1327,
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "score": 0.1940738084247609,
+      "deleted_suffix": "Copyright © 2011 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

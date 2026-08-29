@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3103",
+  "source_doc_id": "MED-3103",
+  "title": "Intraepithelial Lymphocytes: To Serve and Protect",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Intraepithelial Lymphocytes: To Serve and Protect\nThe mucosal immune system is constantly exposed to a wide range of commensal and potentially pathogenic microbial species. Chronic exposure to foreign organisms makes generation of an appropriate immune response critical in maintaining a balance between elimination of harmful pathogens, peaceful coexistence with commensals, and prevention of autoimmunity. Intestinal intraepithelial lymphocytes provide a first line of defense at this extensive barrier with the outside world, and as such, understanding their role in immunity is critical.",
+  "sanitized_text": "Intraepithelial Lymphocytes: To Serve and Protect\nThe mucosal immune system is constantly exposed to a wide range of commensal and potentially pathogenic microbial species. Chronic exposure to foreign organisms makes generation of an appropriate immune response critical in maintaining a balance between elimination of harmful pathogens, peaceful coexistence with commensals, and prevention of autoimmunity. Intestinal intraepithelial lymphocytes provide a first line of defense at this extensive barrier with the outside world, and as such, understanding their role in immunity is critical.",
+  "modified": false,
+  "original_char_count": 591,
+  "sanitized_char_count": 591,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 408,
+      "boundary_end": 591,
+      "context": "Intraepithelial Lymphocytes: To Serve and Protect The mucosal immune system is constantly exposed to a wide range of commensal and potentially pathogenic microbial species. Chronic exposure to foreign organisms makes generation of an appropriate immune response critical in maintaining a balance between elimination of harmful pathogens, peaceful coexistence with commensals, and prevention of autoimmunity.",
+      "target": "Intestinal intraepithelial lymphocytes provide a first line of defense at this extensive barrier with the outside world, and as such, understanding their role in immunity is critical.",
+      "loss_target": 2.5235424041748047,
+      "loss_target_given_context": 1.875305414199829,
+      "delta_loss": 0.6482369899749756,
+      "gain_ratio": 0.25687580636749724,
+      "score": -0.25687580636749724,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

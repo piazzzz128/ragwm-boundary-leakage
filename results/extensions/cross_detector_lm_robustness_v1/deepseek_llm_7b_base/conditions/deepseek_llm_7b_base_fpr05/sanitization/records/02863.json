@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4779",
+  "source_doc_id": "MED-4779",
+  "title": "Tea Consumption and Risk of Type 2 Diabetes: A Meta-Analysis of Cohort Studies",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Tea Consumption and Risk of Type 2 Diabetes: A Meta-Analysis of Cohort Studies\nABSTRACT BACKGROUND Tea consumption has been extensively studied in relation to various diseases, several epidemiologic studies have been performed to investigate the association of tea consumption with type 2 diabetes; however, the results of these studies were not entirely consistent. OBJECTIVE To conduct a meta-analysis of studies that assessed the association of tea consumption and the risk of type 2 diabetes. RESEARCH DESIGN AND METHODS We performed a systematic literature search through November 2008 in PUBMED, MEDLINE, EMBASE, and Cochrane Database of Systematic Reviews. The search was limited to English-language studies. Studies were excluded if they were type 1 diabetes, animal studies. Nine cohort studies were identified by two authors, and summary relative risks (RRs) were calculated using a random-effects model. RESULTS We identified nine cohort studies, including 324,141 participants and 11,400 incident cases of type 2 diabetes with follow-up ranging from 5 to 18 years. The summary adjusted RR did not show that tea consumption was associated with a reduced type 2 diabetes risk (RR, 0.96; 95% confidence interval (CI), 0.92–1.01). Evidence from the results of our stratified analyses revealed that tea consumption ≥4 cups per day (RR, 0.8; 95% CI, 0.7–0.93) might play a role in the prevention of type 2 diabetes. However, no statistically significant association was observed for sex and the follow-up durations stratified between tea consumption and type 2 diabetes. CONCLUSIONS This meta-analysis indicates that tea consumption ≥4 cups per day may lower the risk of type 2 diabetes.",
+  "sanitized_text": "Tea Consumption and Risk of Type 2 Diabetes: A Meta-Analysis of Cohort Studies\nABSTRACT BACKGROUND Tea consumption has been extensively studied in relation to various diseases, several epidemiologic studies have been performed to investigate the association of tea consumption with type 2 diabetes; however, the results of these studies were not entirely consistent. OBJECTIVE To conduct a meta-analysis of studies that assessed the association of tea consumption and the risk of type 2 diabetes. RESEARCH DESIGN AND METHODS We performed a systematic literature search through November 2008 in PUBMED, MEDLINE, EMBASE, and Cochrane Database of Systematic Reviews. The search was limited to English-language studies. Studies were excluded if they were type 1 diabetes, animal studies. Nine cohort studies were identified by two authors, and summary relative risks (RRs) were calculated using a random-effects model. RESULTS We identified nine cohort studies, including 324,141 participants and 11,400 incident cases of type 2 diabetes with follow-up ranging from 5 to 18 years. The summary adjusted RR did not show that tea consumption was associated with a reduced type 2 diabetes risk (RR, 0.96; 95% confidence interval (CI), 0.92–1.01). Evidence from the results of our stratified analyses revealed that tea consumption ≥4 cups per day (RR, 0.8; 95% CI, 0.7–0.93) might play a role in the prevention of type 2 diabetes. However, no statistically significant association was observed for sex and the follow-up durations stratified between tea consumption and type 2 diabetes. CONCLUSIONS This meta-analysis indicates that tea consumption ≥4 cups per day may lower the risk of type 2 diabetes.",
+  "modified": false,
+  "original_char_count": 1693,
+  "sanitized_char_count": 1693,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1577,
+      "boundary_end": 1693,
+      "context": "To conduct a meta-analysis of studies that assessed the association of tea consumption and the risk of type 2 diabetes. RESEARCH DESIGN AND METHODS We performed a systematic literature search through November 2008 in PUBMED, MEDLINE, EMBASE, and Cochrane Database of Systematic Reviews. The search was limited to English-language studies. Studies were excluded if they were type 1 diabetes, animal studies. Nine cohort studies were identified by two authors, and summary relative risks (RRs) were calculated using a random-effects model. RESULTS We identified nine cohort studies, including 324,141 participants and 11,400 incident cases of type 2 diabetes with follow-up ranging from 5 to 18 years. The summary adjusted RR did not show that tea consumption was associated with a reduced type 2 diabetes risk (RR, 0.96; 95% confidence interval (CI), 0.92–1.01). Evidence from the results of our stratified analyses revealed that tea consumption ≥4 cups per day (RR, 0.8; 95% CI, 0.7–0.93) might play a role in the prevention of type 2 diabetes. However, no statistically significant association was observed for sex and the follow-up durations stratified between tea consumption and type 2 diabetes.",
+      "target": "CONCLUSIONS This meta-analysis indicates that tea consumption ≥4 cups per day may lower the risk of type 2 diabetes.",
+      "loss_target": 2.127516508102417,
+      "loss_target_given_context": 0.6232777237892151,
+      "delta_loss": 1.504238784313202,
+      "gain_ratio": 0.7070397708240904,
+      "score": -0.7070397708240904,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

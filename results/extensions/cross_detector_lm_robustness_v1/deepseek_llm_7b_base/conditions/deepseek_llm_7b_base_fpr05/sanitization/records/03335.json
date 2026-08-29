@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5281",
+  "source_doc_id": "MED-5281",
+  "title": "The Vascular Endothelium and Human Diseases",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The Vascular Endothelium and Human Diseases\nAlterations of endothelial cells and the vasculature play a central role in the pathogenesis of a broad spectrum of the most dreadful of human diseases, as endothelial cells have the key function of participating in the maintenance of patent and functional capillaries. The endothelium is directly involved in peripheral vascular disease, stroke, heart disease, diabetes, insulin resistance, chronic kidney failure, tumor growth, metastasis, venous thrombosis, and severe viral infectious diseases. Dysfunction of the vascular endothelium is thus a hallmark of human diseases. In this review the main endothelial abnormalities found in various human diseases such as cancer, diabetes mellitus, atherosclerosis, and viral infections are addressed.",
+  "sanitized_text": "The Vascular Endothelium and Human Diseases\nAlterations of endothelial cells and the vasculature play a central role in the pathogenesis of a broad spectrum of the most dreadful of human diseases, as endothelial cells have the key function of participating in the maintenance of patent and functional capillaries. The endothelium is directly involved in peripheral vascular disease, stroke, heart disease, diabetes, insulin resistance, chronic kidney failure, tumor growth, metastasis, venous thrombosis, and severe viral infectious diseases. Dysfunction of the vascular endothelium is thus a hallmark of human diseases. In this review the main endothelial abnormalities found in various human diseases such as cancer, diabetes mellitus, atherosclerosis, and viral infections are addressed.",
+  "modified": false,
+  "original_char_count": 790,
+  "sanitized_char_count": 790,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 621,
+      "boundary_end": 790,
+      "context": "The Vascular Endothelium and Human Diseases Alterations of endothelial cells and the vasculature play a central role in the pathogenesis of a broad spectrum of the most dreadful of human diseases, as endothelial cells have the key function of participating in the maintenance of patent and functional capillaries. The endothelium is directly involved in peripheral vascular disease, stroke, heart disease, diabetes, insulin resistance, chronic kidney failure, tumor growth, metastasis, venous thrombosis, and severe viral infectious diseases. Dysfunction of the vascular endothelium is thus a hallmark of human diseases.",
+      "target": "In this review the main endothelial abnormalities found in various human diseases such as cancer, diabetes mellitus, atherosclerosis, and viral infections are addressed.",
+      "loss_target": 2.4833884239196777,
+      "loss_target_given_context": 1.6475529670715332,
+      "delta_loss": 0.8358354568481445,
+      "gain_ratio": 0.33657056978984234,
+      "score": -0.33657056978984234,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4818",
+  "source_doc_id": "MED-4818",
+  "title": "Pork intake and human papillomavirus-related disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Pork intake and human papillomavirus-related disease.\nClinical and ecological evidence supporting an association between human papillomavirus (HPV)-related tumors and dietary factors are presented. Abstinence from high intake of fried pork (600-1,000 g/day) was associated with regression of an urethral condyloma in a healthy 19-year-old man treated with interferon gamma. International correlations suggest that pork intake is positively associated with incidence of cervical cancer, a disease also related to HPV. Pork meat or dietary factors associated with pork meat consumption may be involved in the development of HPV-related diseases.",
+  "sanitized_text": "Pork intake and human papillomavirus-related disease.\nClinical and ecological evidence supporting an association between human papillomavirus (HPV)-related tumors and dietary factors are presented. Abstinence from high intake of fried pork (600-1,000 g/day) was associated with regression of an urethral condyloma in a healthy 19-year-old man treated with interferon gamma. International correlations suggest that pork intake is positively associated with incidence of cervical cancer, a disease also related to HPV. Pork meat or dietary factors associated with pork meat consumption may be involved in the development of HPV-related diseases.",
+  "modified": false,
+  "original_char_count": 643,
+  "sanitized_char_count": 643,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 517,
+      "boundary_end": 643,
+      "context": "Pork intake and human papillomavirus-related disease. Clinical and ecological evidence supporting an association between human papillomavirus (HPV)-related tumors and dietary factors are presented. Abstinence from high intake of fried pork (600-1,000 g/day) was associated with regression of an urethral condyloma in a healthy 19-year-old man treated with interferon gamma. International correlations suggest that pork intake is positively associated with incidence of cervical cancer, a disease also related to HPV.",
+      "target": "Pork meat or dietary factors associated with pork meat consumption may be involved in the development of HPV-related diseases.",
+      "loss_target": 3.3673698902130127,
+      "loss_target_given_context": 1.5191049575805664,
+      "delta_loss": 1.8482649326324463,
+      "gain_ratio": 0.5488749358970865,
+      "score": -0.5488749358970865,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

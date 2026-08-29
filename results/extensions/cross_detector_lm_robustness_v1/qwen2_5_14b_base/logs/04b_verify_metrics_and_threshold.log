@@ -1,0 +1,15 @@
+actual_hashes: {'nf': '90bb39f9afd874c2f2b3d819cde1b6f56a15919a392946574c60ef9278b90821', 'trec': 'f25ee58f287f585490fe258306e8c73000d327207d3db24a5bf65b4341c18691', 'metrics': 'c93282665c867a862b6f73bb63cc232145a9b7f2f8524c445963be49807f8a61', 'threshold': 'bcb8ee34466a25cd7b124e36a71a6d471d8154f45ff5c9956c856a348b8f0c74'}
+
+dataset: nfcorpus
+recomputed: {'roc_auc': 0.9566047980051882, 'pr_auc': 0.9561889136332712, 'score_mean_clean': -0.4055007495508675, 'score_mean_injected': -0.09369942749525607, 'roc_auc_ci': [0.9385236949104271, 0.9722949808550112], 'pr_auc_ci': [0.9332361329569709, 0.9737901763864933], 'cluster_count': 359, 'requested_replicates': 5000, 'valid_replicates': 5000, 'skipped_replicates': 0}
+
+dataset: trec-covid
+recomputed: {'roc_auc': 0.9288724471310615, 'pr_auc': 0.9319670971197178, 'score_mean_clean': -0.35441845633580193, 'score_mean_injected': -0.08999077354426666, 'roc_auc_ci': [0.9048028906002085, 0.9501614206057134], 'pr_auc_ci': [0.9045276383804773, 0.9541671320615667], 'cluster_count': 410, 'requested_replicates': 5000, 'valid_replicates': 5000, 'skipped_replicates': 0}
+
+recomputed_threshold: -0.16983939416116475
+recomputed_calibration_fpr: 0.05325443786982249
+recomputed_holdout_fpr: 0.037037037037037035
+recomputed_injected_tpr: 0.7533632286995515
+threshold_checks: {'model': True, 'budget_id': True, 'score_direction': True, 'alignment': True, 'no_bos': True, 'no_separator': True, 'target_fpr': True, 'quantile': True, 'seed': True, 'calibration_records': True, 'holdout_records': True, 'threshold_value': True, 'calibration_fpr': True, 'holdout_fpr': True, 'injected_tpr': True, 'scores_sha': True, 'metrics_sha': True}
+failure_count: 0
+QWEN2.5-14B METRICS AND FPR05 INDEPENDENT VERIFICATION PASS

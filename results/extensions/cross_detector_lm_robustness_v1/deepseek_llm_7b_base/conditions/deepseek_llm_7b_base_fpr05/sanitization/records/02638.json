@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4509",
+  "source_doc_id": "MED-4509",
+  "title": "A meta-analysis of the effect of soy protein supplementation on serum lipids.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A meta-analysis of the effect of soy protein supplementation on serum lipids.\nHypercholesterolemia is a major modifiable risk factor for cardiovascular disease. Some, but not all, studies have shown that soy protein intake decreases total and low-density lipoprotein cholesterol and triglycerides and increases high-density lipoprotein cholesterol. The objective of this meta-analysis was to examine the effect of soy protein supplementation on serum lipid levels in adults. English language articles were retrieved by searching MEDLINE (1966 to February 2005) and the bibliographies of the retrieved articles. A total of 41 randomized controlled trials in which isolated soy protein supplementation was the only intervention and the net changes in serum lipids during intervention were reported. Information on study design, sample size, participant characteristics, intervention, follow-up duration, and treatment outcomes was independently abstracted using a standardized protocol. Using a random-effects model, data from each study were pooled and weighted by the inverse of their variance. Soy protein supplementation was associated with a significant reduction in mean serum total cholesterol (-5.26 mg/dl, 95% confidence interval [CI] -7.14 to -3.38), low-density lipoprotein cholesterol (-4.25 mg/dl, 95% CI -6.00 to -2.50), and triglycerides (-6.26 mg/dl, 95% CI -9.14 to -3.38) and a significant increase in high-density lipoprotein cholesterol (0.77 mg/dl, 95% CI 0.20 to 1.34). Meta-regression analyses showed a dose-response relation between soy protein and isoflavone supplementation and net changes in serum lipids. These results indicate that soy protein supplementation reduces serum lipids among adults with or without hypercholesterolemia. In conclusion, replacing foods high in saturated fat, trans-saturated fat, and cholesterol with soy protein may have a beneficial effect on coronary risk factors.",
+  "sanitized_text": "A meta-analysis of the effect of soy protein supplementation on serum lipids.\nHypercholesterolemia is a major modifiable risk factor for cardiovascular disease. Some, but not all, studies have shown that soy protein intake decreases total and low-density lipoprotein cholesterol and triglycerides and increases high-density lipoprotein cholesterol. The objective of this meta-analysis was to examine the effect of soy protein supplementation on serum lipid levels in adults. English language articles were retrieved by searching MEDLINE (1966 to February 2005) and the bibliographies of the retrieved articles. A total of 41 randomized controlled trials in which isolated soy protein supplementation was the only intervention and the net changes in serum lipids during intervention were reported. Information on study design, sample size, participant characteristics, intervention, follow-up duration, and treatment outcomes was independently abstracted using a standardized protocol. Using a random-effects model, data from each study were pooled and weighted by the inverse of their variance. Soy protein supplementation was associated with a significant reduction in mean serum total cholesterol (-5.26 mg/dl, 95% confidence interval [CI] -7.14 to -3.38), low-density lipoprotein cholesterol (-4.25 mg/dl, 95% CI -6.00 to -2.50), and triglycerides (-6.26 mg/dl, 95% CI -9.14 to -3.38) and a significant increase in high-density lipoprotein cholesterol (0.77 mg/dl, 95% CI 0.20 to 1.34). Meta-regression analyses showed a dose-response relation between soy protein and isoflavone supplementation and net changes in serum lipids. These results indicate that soy protein supplementation reduces serum lipids among adults with or without hypercholesterolemia. In conclusion, replacing foods high in saturated fat, trans-saturated fat, and cholesterol with soy protein may have a beneficial effect on coronary risk factors.",
+  "modified": false,
+  "original_char_count": 1921,
+  "sanitized_char_count": 1921,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1759,
+      "boundary_end": 1921,
+      "context": "and the bibliographies of the retrieved articles. A total of 41 randomized controlled trials in which isolated soy protein supplementation was the only intervention and the net changes in serum lipids during intervention were reported. Information on study design, sample size, participant characteristics, intervention, follow-up duration, and treatment outcomes was independently abstracted using a standardized protocol. Using a random-effects model, data from each study were pooled and weighted by the inverse of their variance. Soy protein supplementation was associated with a significant reduction in mean serum total cholesterol (-5.26 mg/dl, 95% confidence interval [CI] -7.14 to -3.38), low-density lipoprotein cholesterol (-4.25 mg/dl, 95% CI -6.00 to -2.50), and triglycerides (-6.26 mg/dl, 95% CI -9.14 to -3.38) and a significant increase in high-density lipoprotein cholesterol (0.77 mg/dl, 95% CI 0.20 to 1.34). Meta-regression analyses showed a dose-response relation between soy protein and isoflavone supplementation and net changes in serum lipids. These results indicate that soy protein supplementation reduces serum lipids among adults with or without hypercholesterolemia.",
+      "target": "In conclusion, replacing foods high in saturated fat, trans-saturated fat, and cholesterol with soy protein may have a beneficial effect on coronary risk factors.",
+      "loss_target": 2.2872588634490967,
+      "loss_target_given_context": 1.6286643743515015,
+      "delta_loss": 0.6585944890975952,
+      "gain_ratio": 0.287940512384532,
+      "score": -0.287940512384532,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

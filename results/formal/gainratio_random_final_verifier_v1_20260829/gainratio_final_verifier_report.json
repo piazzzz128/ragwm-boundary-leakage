@@ -1,0 +1,166 @@
+{
+  "experiment_role": "gainratio_fpr05_final_matched_random_verifier_v1",
+  "campaign_manifest": "/root/autodl-tmp/ragwm_storage/output/gainratio_random_final_verifier_v1_20260829/verifier_campaign/campaign_manifest_complete.json",
+  "campaign_status": "complete",
+  "provider_model": "ephone:gpt-4o-mini (repo alias: gpt4o_mini_e2e)",
+  "start_utc": "2026-08-29T09:04:27.270382+00:00",
+  "end_utc": "2026-08-29T09:16:36.876431+00:00",
+  "verify_num": 30,
+  "verify_seed": 633,
+  "condition_count": 8,
+  "unit_identity_and_order_match": true,
+  "all_unknown_counts_zero": true,
+  "conditions": {
+    "watermarked": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/gainratio_random_final_verifier_v1_20260829/verifier_campaign/conditions/watermarked/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json",
+      "wsn": 26,
+      "unknown": 0
+    },
+    "oracle_restore": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/gainratio_random_final_verifier_v1_20260829/verifier_campaign/conditions/oracle_restore/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json",
+      "wsn": 4,
+      "unknown": 0
+    },
+    "gainratio_fpr05": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/gainratio_random_final_verifier_v1_20260829/verifier_campaign/conditions/gainratio_fpr05/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json",
+      "wsn": 21,
+      "unknown": 0
+    },
+    "random_gainratio_fpr05_seed101": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/gainratio_random_final_verifier_v1_20260829/verifier_campaign/conditions/random_gainratio_fpr05_seed101/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json",
+      "wsn": 22,
+      "unknown": 0
+    },
+    "random_gainratio_fpr05_seed202": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/gainratio_random_final_verifier_v1_20260829/verifier_campaign/conditions/random_gainratio_fpr05_seed202/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json",
+      "wsn": 25,
+      "unknown": 0
+    },
+    "random_gainratio_fpr05_seed303": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/gainratio_random_final_verifier_v1_20260829/verifier_campaign/conditions/random_gainratio_fpr05_seed303/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json",
+      "wsn": 25,
+      "unknown": 0
+    },
+    "random_gainratio_fpr05_seed404": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/gainratio_random_final_verifier_v1_20260829/verifier_campaign/conditions/random_gainratio_fpr05_seed404/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json",
+      "wsn": 22,
+      "unknown": 0
+    },
+    "random_gainratio_fpr05_seed505": {
+      "path": "/root/autodl-tmp/ragwm_storage/output/gainratio_random_final_verifier_v1_20260829/verifier_campaign/conditions/random_gainratio_fpr05_seed505/basepath/wm_generate/nfcorpus/gpt4o_mini_e2e/10/wmuint_verify.json",
+      "wsn": 24,
+      "unknown": 0
+    }
+  },
+  "paired_vs_watermarked": {
+    "oracle_restore": {
+      "yes_to_no": 24,
+      "no_to_yes": 2,
+      "discordant": 26,
+      "mcnemar_exact_two_sided_p": 1.049041748046875e-05,
+      "paired_attack_success_rate": 0.9230769230769231
+    },
+    "gainratio_fpr05": {
+      "yes_to_no": 5,
+      "no_to_yes": 0,
+      "discordant": 5,
+      "mcnemar_exact_two_sided_p": 0.0625,
+      "paired_attack_success_rate": 0.19230769230769232
+    },
+    "random_gainratio_fpr05_seed101": {
+      "yes_to_no": 4,
+      "no_to_yes": 0,
+      "discordant": 4,
+      "mcnemar_exact_two_sided_p": 0.125,
+      "paired_attack_success_rate": 0.15384615384615385
+    },
+    "random_gainratio_fpr05_seed202": {
+      "yes_to_no": 1,
+      "no_to_yes": 0,
+      "discordant": 1,
+      "mcnemar_exact_two_sided_p": 1.0,
+      "paired_attack_success_rate": 0.038461538461538464
+    },
+    "random_gainratio_fpr05_seed303": {
+      "yes_to_no": 1,
+      "no_to_yes": 0,
+      "discordant": 1,
+      "mcnemar_exact_two_sided_p": 1.0,
+      "paired_attack_success_rate": 0.038461538461538464
+    },
+    "random_gainratio_fpr05_seed404": {
+      "yes_to_no": 4,
+      "no_to_yes": 0,
+      "discordant": 4,
+      "mcnemar_exact_two_sided_p": 0.125,
+      "paired_attack_success_rate": 0.15384615384615385
+    },
+    "random_gainratio_fpr05_seed505": {
+      "yes_to_no": 2,
+      "no_to_yes": 0,
+      "discordant": 2,
+      "mcnemar_exact_two_sided_p": 0.5,
+      "paired_attack_success_rate": 0.07692307692307693
+    }
+  },
+  "gainratio_vs_each_matched_random": {
+    "101": {
+      "yes_to_no": 4,
+      "no_to_yes": 3,
+      "discordant": 7,
+      "mcnemar_exact_two_sided_p": 1.0,
+      "paired_attack_success_rate": 0.18181818181818182
+    },
+    "202": {
+      "yes_to_no": 5,
+      "no_to_yes": 1,
+      "discordant": 6,
+      "mcnemar_exact_two_sided_p": 0.21875,
+      "paired_attack_success_rate": 0.2
+    },
+    "303": {
+      "yes_to_no": 5,
+      "no_to_yes": 1,
+      "discordant": 6,
+      "mcnemar_exact_two_sided_p": 0.21875,
+      "paired_attack_success_rate": 0.2
+    },
+    "404": {
+      "yes_to_no": 5,
+      "no_to_yes": 4,
+      "discordant": 9,
+      "mcnemar_exact_two_sided_p": 1.0,
+      "paired_attack_success_rate": 0.22727272727272727
+    },
+    "505": {
+      "yes_to_no": 4,
+      "no_to_yes": 1,
+      "discordant": 5,
+      "mcnemar_exact_two_sided_p": 0.375,
+      "paired_attack_success_rate": 0.16666666666666666
+    }
+  },
+  "random_summary": {
+    "values": [
+      22,
+      25,
+      25,
+      22,
+      24
+    ],
+    "mean": 23.6,
+    "sample_standard_deviation": 1.51657508881031,
+    "minimum": 22,
+    "maximum": 25,
+    "all_wsn_above_gainratio": true
+  },
+  "oracle_gap_closure": 0.22727272727272727,
+  "budget_reference": {
+    "method": "GainRatio at 5% clean FPR",
+    "modified_documents": 174,
+    "target_deleted_characters": 37586,
+    "random_character_tolerance": 0.01,
+    "random_budget_audit_passed": true
+  },
+  "claim_guard": "Per-seed GainRatio-versus-random comparisons must be reported descriptively unless their exact paired tests support stronger claims. Results do not establish ownership-verification bypass."
+}

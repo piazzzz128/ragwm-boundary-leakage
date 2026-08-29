@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-912",
+  "source_doc_id": "MED-912",
+  "title": "Report: prunes and liver function: a clinical trial.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Report: prunes and liver function: a clinical trial.\nPrunes are used by folks as a remedy of various diseases including hepatitis. A clinical trial was designed to see the effects of prunes (Prunus domestica) on liver function. 166 healthy volunteers were divided into three groups randomly. Either three (about 11.43g) or six (23g approx.) prunes were soaked in a glass of water (250ml) overnight. Each subject from two test groups was asked to drink prune juice & eat whole fruit(single or double dose of prunes) as well, early in the morning, daily for 8 weeks; whereas each subject from control group was given a glass of water to drink. Blood samples were taken at week 0 and week 8 for chemical analysis. There was significant reduction of serum alanine transaminase (p 0.048) and serum alkaline phosphatase (p 0.017) by the lower dose of prunes. There was no change in serum aspartate transaminase and bilirubin. Alteration in liver function by use of prunes may have clinical relevance in appropriate cases and prunes might prove beneficial in hepatic disease.",
+  "sanitized_text": "Report: prunes and liver function: a clinical trial.\nPrunes are used by folks as a remedy of various diseases including hepatitis. A clinical trial was designed to see the effects of prunes (Prunus domestica) on liver function. 166 healthy volunteers were divided into three groups randomly. Either three (about 11.43g) or six (23g approx.) prunes were soaked in a glass of water (250ml) overnight. Each subject from two test groups was asked to drink prune juice & eat whole fruit(single or double dose of prunes) as well, early in the morning, daily for 8 weeks; whereas each subject from control group was given a glass of water to drink. Blood samples were taken at week 0 and week 8 for chemical analysis. There was significant reduction of serum alanine transaminase (p 0.048) and serum alkaline phosphatase (p 0.017) by the lower dose of prunes. There was no change in serum aspartate transaminase and bilirubin. Alteration in liver function by use of prunes may have clinical relevance in appropriate cases and prunes might prove beneficial in hepatic disease.",
+  "modified": false,
+  "original_char_count": 1068,
+  "sanitized_char_count": 1068,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 920,
+      "boundary_end": 1068,
+      "context": "Report: prunes and liver function: a clinical trial. Prunes are used by folks as a remedy of various diseases including hepatitis. A clinical trial was designed to see the effects of prunes (Prunus domestica) on liver function. 166 healthy volunteers were divided into three groups randomly. Either three (about 11.43g) or six (23g approx.) prunes were soaked in a glass of water (250ml) overnight. Each subject from two test groups was asked to drink prune juice & eat whole fruit(single or double dose of prunes) as well, early in the morning, daily for 8 weeks; whereas each subject from control group was given a glass of water to drink. Blood samples were taken at week 0 and week 8 for chemical analysis. There was significant reduction of serum alanine transaminase (p 0.048) and serum alkaline phosphatase (p 0.017) by the lower dose of prunes. There was no change in serum aspartate transaminase and bilirubin.",
+      "target": "Alteration in liver function by use of prunes may have clinical relevance in appropriate cases and prunes might prove beneficial in hepatic disease.",
+      "loss_target": 3.6827151775360107,
+      "loss_target_given_context": 2.387664318084717,
+      "delta_loss": 1.295050859451294,
+      "gain_ratio": 0.35165653519742784,
+      "score": -0.35165653519742784,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

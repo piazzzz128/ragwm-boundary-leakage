@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3667",
+  "source_doc_id": "MED-3667",
+  "title": "Genotoxicity of lavender oil, linalyl acetate, and linalool on human lymphocytes in vitro.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Genotoxicity of lavender oil, linalyl acetate, and linalool on human lymphocytes in vitro.\nThe potential genotoxicity of lavender essential oil and its major components, linalool, and linalyl acetate, was evaluated in vitro by the micronucleus test on peripheral human lymphocytes. In the range of non-toxic concentrations (0.5-100 μg/ml), linalyl acetate increased the frequency of micronuclei significantly and in concentration-dependent manner; lavender oil did so only at the highest concentration tested, whereas linalool was devoid of genotoxicity. None of the tested substances led to an increase in nucleoplasmic bridges or nuclear buds frequency. These findings suggest that the mutagenic activity of lavender oil can be related to the presence of linalyl acetate, which seems to have a profile of an aneugenic agent. Copyright © 2010 Wiley-Liss, Inc.",
+  "sanitized_text": "Genotoxicity of lavender oil, linalyl acetate, and linalool on human lymphocytes in vitro.\nThe potential genotoxicity of lavender essential oil and its major components, linalool, and linalyl acetate, was evaluated in vitro by the micronucleus test on peripheral human lymphocytes. In the range of non-toxic concentrations (0.5-100 μg/ml), linalyl acetate increased the frequency of micronuclei significantly and in concentration-dependent manner; lavender oil did so only at the highest concentration tested, whereas linalool was devoid of genotoxicity. None of the tested substances led to an increase in nucleoplasmic bridges or nuclear buds frequency. These findings suggest that the mutagenic activity of lavender oil can be related to the presence of linalyl acetate, which seems to have a profile of an aneugenic agent. Copyright © 2010 Wiley-Liss, Inc.",
+  "modified": false,
+  "original_char_count": 860,
+  "sanitized_char_count": 860,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 827,
+      "boundary_end": 860,
+      "context": "Genotoxicity of lavender oil, linalyl acetate, and linalool on human lymphocytes in vitro. The potential genotoxicity of lavender essential oil and its major components, linalool, and linalyl acetate, was evaluated in vitro by the micronucleus test on peripheral human lymphocytes. In the range of non-toxic concentrations (0.5-100 μg/ml), linalyl acetate increased the frequency of micronuclei significantly and in concentration-dependent manner; lavender oil did so only at the highest concentration tested, whereas linalool was devoid of genotoxicity. None of the tested substances led to an increase in nucleoplasmic bridges or nuclear buds frequency. These findings suggest that the mutagenic activity of lavender oil can be related to the presence of linalyl acetate, which seems to have a profile of an aneugenic agent.",
+      "target": "Copyright © 2010 Wiley-Liss, Inc.",
+      "loss_target": 1.139867901802063,
+      "loss_target_given_context": 0.6641559600830078,
+      "delta_loss": 0.4757119417190552,
+      "gain_ratio": 0.41733953642082827,
+      "score": -0.41733953642082827,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

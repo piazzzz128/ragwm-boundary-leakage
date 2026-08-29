@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4117",
+  "source_doc_id": "MED-4117",
+  "title": "Immunological enhancement of breast cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Immunological enhancement of breast cancer.\nBreast cancer is a complex disease. Its aetiology is multifactorial, its period of development can span decades, and its clinical course is highly variable. Evaluation of the role of the immune response in either the development or control of breast cancer is also complex. Nevertheless, there is substantial information that in this disease, the immune response is not a host defence reaction and may even serve to facilitate cancer development. This evidence comes from a variety of sources including clinical-pathological investigations in women that show a correlation between the intensity of lymphocytic infiltration into the tumour mass with poor prognosis, studies in breast cancer patients that demonstrate a similar correlation between delayed hypersensitivity reactivity or in vitro assays of immune reactivity to tumour cell membranes or non-specific antigens and poor prognosis, and analyses of cancer incidence in chronically immunosuppressed, kidney transplant recipients who develop an unexpectedly low incidence of breast cancer. The overall conclusions from these human studies are corroborated by observations in mouse mammary tumour models that also demonstrate immune enhancement of breast cell proliferation in vitro and of breast cancer development in vivo. Potential mechanisms for these effects include production, by inflammatory cell infiltrates, of direct or indirect modulators of breast cell growth, e.g. cytokines, peptide or steroid hormones, enzymes involved in steroid metabolism, as well as of antibodies to growth factors or their receptors. These immune facilitatory mechanisms must be overcome if immune-based therapies are to be applied successfully in breast cancer.",
+  "sanitized_text": "Immunological enhancement of breast cancer.\nBreast cancer is a complex disease. Its aetiology is multifactorial, its period of development can span decades, and its clinical course is highly variable. Evaluation of the role of the immune response in either the development or control of breast cancer is also complex. Nevertheless, there is substantial information that in this disease, the immune response is not a host defence reaction and may even serve to facilitate cancer development. This evidence comes from a variety of sources including clinical-pathological investigations in women that show a correlation between the intensity of lymphocytic infiltration into the tumour mass with poor prognosis, studies in breast cancer patients that demonstrate a similar correlation between delayed hypersensitivity reactivity or in vitro assays of immune reactivity to tumour cell membranes or non-specific antigens and poor prognosis, and analyses of cancer incidence in chronically immunosuppressed, kidney transplant recipients who develop an unexpectedly low incidence of breast cancer. The overall conclusions from these human studies are corroborated by observations in mouse mammary tumour models that also demonstrate immune enhancement of breast cell proliferation in vitro and of breast cancer development in vivo. Potential mechanisms for these effects include production, by inflammatory cell infiltrates, of direct or indirect modulators of breast cell growth, e.g. cytokines, peptide or steroid hormones, enzymes involved in steroid metabolism, as well as of antibodies to growth factors or their receptors. These immune facilitatory mechanisms must be overcome if immune-based therapies are to be applied successfully in breast cancer.",
+  "modified": false,
+  "original_char_count": 1750,
+  "sanitized_char_count": 1750,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1622,
+      "boundary_end": 1750,
+      "context": "reaction and may even serve to facilitate cancer development. This evidence comes from a variety of sources including clinical-pathological investigations in women that show a correlation between the intensity of lymphocytic infiltration into the tumour mass with poor prognosis, studies in breast cancer patients that demonstrate a similar correlation between delayed hypersensitivity reactivity or in vitro assays of immune reactivity to tumour cell membranes or non-specific antigens and poor prognosis, and analyses of cancer incidence in chronically immunosuppressed, kidney transplant recipients who develop an unexpectedly low incidence of breast cancer. The overall conclusions from these human studies are corroborated by observations in mouse mammary tumour models that also demonstrate immune enhancement of breast cell proliferation in vitro and of breast cancer development in vivo. Potential mechanisms for these effects include production, by inflammatory cell infiltrates, of direct or indirect modulators of breast cell growth, e.g. cytokines, peptide or steroid hormones, enzymes involved in steroid metabolism, as well as of antibodies to growth factors or their receptors.",
+      "target": "These immune facilitatory mechanisms must be overcome if immune-based therapies are to be applied successfully in breast cancer.",
+      "loss_target": 3.5206260681152344,
+      "loss_target_given_context": 2.313694715499878,
+      "delta_loss": 1.2069313526153564,
+      "gain_ratio": 0.3428172516093101,
+      "score": -0.3428172516093101,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

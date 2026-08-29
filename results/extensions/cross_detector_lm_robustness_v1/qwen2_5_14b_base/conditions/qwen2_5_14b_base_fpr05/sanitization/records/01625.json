@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3171",
+  "source_doc_id": "MED-3171",
+  "title": "Freezing of infested pork muscle kills cysticerci.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Freezing of infested pork muscle kills cysticerci.\nA method for culturing cysticerci that allows successful evagination and growth of scolexes from metacestodes of Taenia solium was used to study the survival of cysticerci subjected to low temperatures. Refrigeration of pork muscle infested with cysticerci at temperatures above 0 degrees C did not affect the parasites' survival in culture. Conversely, freezing of meat prevented survival of cysts. A practical procedure to kill cysticerci is the storage of pork muscle for four days at -5 degrees C, three days at -15 degrees C, or one day at -24 degrees C. These simple measures would help prevent the most frequent parasitosis of man's central nervous system.",
+  "sanitized_text": "Freezing of infested pork muscle kills cysticerci.\nA method for culturing cysticerci that allows successful evagination and growth of scolexes from metacestodes of Taenia solium was used to study the survival of cysticerci subjected to low temperatures. Refrigeration of pork muscle infested with cysticerci at temperatures above 0 degrees C did not affect the parasites' survival in culture. Conversely, freezing of meat prevented survival of cysts. A practical procedure to kill cysticerci is the storage of pork muscle for four days at -5 degrees C, three days at -15 degrees C, or one day at -24 degrees C. These simple measures would help prevent the most frequent parasitosis of man's central nervous system.",
+  "modified": false,
+  "original_char_count": 714,
+  "sanitized_char_count": 714,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 611,
+      "boundary_end": 714,
+      "context": "Freezing of infested pork muscle kills cysticerci. A method for culturing cysticerci that allows successful evagination and growth of scolexes from metacestodes of Taenia solium was used to study the survival of cysticerci subjected to low temperatures. Refrigeration of pork muscle infested with cysticerci at temperatures above 0 degrees C did not affect the parasites' survival in culture. Conversely, freezing of meat prevented survival of cysts. A practical procedure to kill cysticerci is the storage of pork muscle for four days at -5 degrees C, three days at -15 degrees C, or one day at -24 degrees C.",
+      "target": "These simple measures would help prevent the most frequent parasitosis of man's central nervous system.",
+      "loss_target": 3.9731500148773193,
+      "loss_target_given_context": 2.6788578033447266,
+      "delta_loss": 1.2942922115325928,
+      "gain_ratio": 0.32575971375008783,
+      "score": -0.32575971375008783,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

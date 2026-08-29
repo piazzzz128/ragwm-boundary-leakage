@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1208",
+  "source_doc_id": "MED-1208",
+  "title": "Death row nutrition. Curious conclusions of last meals.",
+  "original_text": "Death row nutrition. Curious conclusions of last meals.\nThe growing macabre fascination with \"last meals\" offers a window into one's true consumption desires when one's value of the future is discounted close to zero. But in contrast to popular anecdotes and individual case studies, we created an empirical catalog of actual last meals - the final food requests of 247 individuals executed in the United States during a recent five-year period. Our content analyses reveal three key findings: (1) the average last meal is calorically rich (2756 calories) and proportionally averages 2.5 times the daily recommended servings of protein and fat, (2) the most frequent requests are also calorie dense: meat (83.9%), fried food (67.9%), desserts (66.3%), and soft drinks (60.0%), and (3) 39.9% requested branded foods or beverages. These findings are respectfully consistent with a model of environmentally contingent temporal discounting, and they are consistent with studies of how food is used to mediate feelings of stress and distress. Given that some people who are warned about the ill effects of obesity might counterintuitively engage in unhealthy overconsumption, the findings also suggest further study relating to the artificial use of mortality salience in campaigns against obesity. Copyright © 2012 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Death row nutrition. Curious conclusions of last meals.\nThe growing macabre fascination with \"last meals\" offers a window into one's true consumption desires when one's value of the future is discounted close to zero. But in contrast to popular anecdotes and individual case studies, we created an empirical catalog of actual last meals - the final food requests of 247 individuals executed in the United States during a recent five-year period. Our content analyses reveal three key findings: (1) the average last meal is calorically rich (2756 calories) and proportionally averages 2.5 times the daily recommended servings of protein and fat, (2) the most frequent requests are also calorie dense: meat (83.9%), fried food (67.9%), desserts (66.3%), and soft drinks (60.0%), and (3) 39.9% requested branded foods or beverages. These findings are respectfully consistent with a model of environmentally contingent temporal discounting, and they are consistent with studies of how food is used to mediate feelings of stress and distress. Given that some people who are warned about the ill effects of obesity might counterintuitively engage in unhealthy overconsumption, the findings also suggest further study relating to the artificial use of mortality salience in campaigns against obesity.",
+  "modified": true,
+  "original_char_count": 1345,
+  "sanitized_char_count": 1293,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1294,
+      "boundary_end": 1324,
+      "context": "meals\" offers a window into one's true consumption desires when one's value of the future is discounted close to zero. But in contrast to popular anecdotes and individual case studies, we created an empirical catalog of actual last meals - the final food requests of 247 individuals executed in the United States during a recent five-year period. Our content analyses reveal three key findings: (1) the average last meal is calorically rich (2756 calories) and proportionally averages 2.5 times the daily recommended servings of protein and fat, (2) the most frequent requests are also calorie dense: meat (83.9%), fried food (67.9%), desserts (66.3%), and soft drinks (60.0%), and (3) 39.9% requested branded foods or beverages. These findings are respectfully consistent with a model of environmentally contingent temporal discounting, and they are consistent with studies of how food is used to mediate feelings of stress and distress. Given that some people who are warned about the ill effects of obesity might counterintuitively engage in unhealthy overconsumption, the findings also suggest further study relating to the artificial use of mortality salience in campaigns against obesity.",
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "loss_target": 1.1579636335372925,
+      "loss_target_given_context": 1.35912024974823,
+      "delta_loss": -0.2011566162109375,
+      "gain_ratio": -0.1737158321599909,
+      "score": 0.1737158321599909,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1038,
+      "boundary_end": 1293,
+      "context": "Death row nutrition. Curious conclusions of last meals. The growing macabre fascination with \"last meals\" offers a window into one's true consumption desires when one's value of the future is discounted close to zero. But in contrast to popular anecdotes and individual case studies, we created an empirical catalog of actual last meals - the final food requests of 247 individuals executed in the United States during a recent five-year period. Our content analyses reveal three key findings: (1) the average last meal is calorically rich (2756 calories) and proportionally averages 2.5 times the daily recommended servings of protein and fat, (2) the most frequent requests are also calorie dense: meat (83.9%), fried food (67.9%), desserts (66.3%), and soft drinks (60.0%), and (3) 39.9% requested branded foods or beverages. These findings are respectfully consistent with a model of environmentally contingent temporal discounting, and they are consistent with studies of how food is used to mediate feelings of stress and distress.",
+      "target": "Given that some people who are warned about the ill effects of obesity might counterintuitively engage in unhealthy overconsumption, the findings also suggest further study relating to the artificial use of mortality salience in campaigns against obesity.",
+      "loss_target": 3.8098692893981934,
+      "loss_target_given_context": 3.4047982692718506,
+      "delta_loss": 0.4050710201263428,
+      "gain_ratio": 0.10632150064925922,
+      "score": -0.10632150064925922,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1294,
+      "target": "Copyright © 2012 Elsevier Ltd.",
+      "score": 0.1737158321599909,
+      "deleted_suffix": "Copyright © 2012 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

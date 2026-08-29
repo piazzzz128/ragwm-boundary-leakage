@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3620",
+  "source_doc_id": "MED-3620",
+  "title": "Dietary factors and cancer mortality among atomic-bomb survivors.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary factors and cancer mortality among atomic-bomb survivors.\nDietary factors such as fruit and vegetables are thought to reduce the risk of cancer incidence and mortality. We investigated the effect of a diet rich in fruit and vegetables against the long-term effects of radiation exposure on the risk of cancer. A cohort of 36,228 atomic-bomb survivors of Hiroshima and Nagasaki, for whom radiation dose estimates were currently available, had their diet assessed in 1980. They were followed for a period of 20 years for cancer mortality. The joint-effect of fruit and vegetables intake and radiation exposure on risk of cancer death was examined, in additive (sum of effects of diet alone and radiation alone) and multiplicative (product of effects of diet alone and radiation alone) models. In the additive model, a daily intake of fruit and vegetables significantly reduced the risk of cancer deaths by 13%, compared to an intake of once or less per week. Radiation exposure of 1 Sievert (Sv) increased significantly the risk of cancer death by 48-49%. The additive joint-effects showed a lower risk of cancer among those exposed to 1 Sv who had a diet rich in vegetables (49%-13%=36%) or fruit (48%-13%=35%). The multiplicative model gave similar results. The cancer risk reduction by vegetables in exposed persons went from 52% (effect of radiation alone) to 32% (product of effect of vegetables and radiation), and cancer risk reduction by fruit was 52% (radiation alone) to 34% (product of effect of fruit and radiation). There was no significant evidence to reject either the additive or the multiplicative model. A daily intake of fruit and vegetables was beneficial to the persons exposed to radiation in reducing their risks of cancer death.",
+  "sanitized_text": "Dietary factors and cancer mortality among atomic-bomb survivors.\nDietary factors such as fruit and vegetables are thought to reduce the risk of cancer incidence and mortality. We investigated the effect of a diet rich in fruit and vegetables against the long-term effects of radiation exposure on the risk of cancer. A cohort of 36,228 atomic-bomb survivors of Hiroshima and Nagasaki, for whom radiation dose estimates were currently available, had their diet assessed in 1980. They were followed for a period of 20 years for cancer mortality. The joint-effect of fruit and vegetables intake and radiation exposure on risk of cancer death was examined, in additive (sum of effects of diet alone and radiation alone) and multiplicative (product of effects of diet alone and radiation alone) models. In the additive model, a daily intake of fruit and vegetables significantly reduced the risk of cancer deaths by 13%, compared to an intake of once or less per week. Radiation exposure of 1 Sievert (Sv) increased significantly the risk of cancer death by 48-49%. The additive joint-effects showed a lower risk of cancer among those exposed to 1 Sv who had a diet rich in vegetables (49%-13%=36%) or fruit (48%-13%=35%). The multiplicative model gave similar results. The cancer risk reduction by vegetables in exposed persons went from 52% (effect of radiation alone) to 32% (product of effect of vegetables and radiation), and cancer risk reduction by fruit was 52% (radiation alone) to 34% (product of effect of fruit and radiation). There was no significant evidence to reject either the additive or the multiplicative model. A daily intake of fruit and vegetables was beneficial to the persons exposed to radiation in reducing their risks of cancer death.",
+  "modified": false,
+  "original_char_count": 1758,
+  "sanitized_char_count": 1758,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1628,
+      "boundary_end": 1758,
+      "context": "available, had their diet assessed in 1980. They were followed for a period of 20 years for cancer mortality. The joint-effect of fruit and vegetables intake and radiation exposure on risk of cancer death was examined, in additive (sum of effects of diet alone and radiation alone) and multiplicative (product of effects of diet alone and radiation alone) models. In the additive model, a daily intake of fruit and vegetables significantly reduced the risk of cancer deaths by 13%, compared to an intake of once or less per week. Radiation exposure of 1 Sievert (Sv) increased significantly the risk of cancer death by 48-49%. The additive joint-effects showed a lower risk of cancer among those exposed to 1 Sv who had a diet rich in vegetables (49%-13%=36%) or fruit (48%-13%=35%). The multiplicative model gave similar results. The cancer risk reduction by vegetables in exposed persons went from 52% (effect of radiation alone) to 32% (product of effect of vegetables and radiation), and cancer risk reduction by fruit was 52% (radiation alone) to 34% (product of effect of fruit and radiation). There was no significant evidence to reject either the additive or the multiplicative model.",
+      "target": "A daily intake of fruit and vegetables was beneficial to the persons exposed to radiation in reducing their risks of cancer death.",
+      "loss_target": 3.7627909183502197,
+      "loss_target_given_context": 1.6113117933273315,
+      "delta_loss": 2.151479125022888,
+      "gain_ratio": 0.5717774842419879,
+      "score": -0.5717774842419879,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

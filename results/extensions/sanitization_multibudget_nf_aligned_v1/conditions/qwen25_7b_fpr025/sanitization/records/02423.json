@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4232",
+  "source_doc_id": "MED-4232",
+  "title": "Food groups and risk of benign prostatic hyperplasia.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Food groups and risk of benign prostatic hyperplasia.\nOBJECTIVES: To evaluate the role of a wide range of foods on the risk of benign prostatic hyperplasia (BPH), we conducted a case-control study in Italy between 1991 and 2002. Although BPH is an extremely common condition, particularly among older men, its risk factors, including dietary ones, remain largely undefined. METHODS: Included in the study were 1369 patients younger than 75 years old surgically treated for BPH and 1451 controls younger than 75 years of age who had been admitted to the same hospitals as cases for a wide spectrum of acute, non-neoplastic conditions. A validated and reproducible food frequency questionnaire, including 78 foods and beverages, plus a separate section on alcoholic beverages, was used to assess patients' dietary habits 2 years before diagnosis or hospital admission. Multivariate odds ratios (OR) were obtained after allowance for energy intake and other major potential confounding factors. RESULTS: A significant trend of increasing risk with more frequent consumption was found for cereals (OR 1.55 for the greatest versus lowest quintile), bread (OR 1.69), eggs (OR 1.43), and poultry (OR 1.39). Inverse associations were observed for soups (OR 0.74), pulses (OR 0.74), cooked vegetables (OR 0.66), and citrus fruit (OR 0.82). No association was observed for milk and yogurt products, coffee and tea, pasta and rice, fish, cheese, row vegetables, potatoes, fruit, or desserts. CONCLUSIONS: The results of this study suggest a role for dietary habits on the risk of BPH. In particular, a diet rich in cereals and some types of meat and poor in vegetables and pulses may have an unfavorable effect in this Italian population.",
+  "sanitized_text": "Food groups and risk of benign prostatic hyperplasia.\nOBJECTIVES: To evaluate the role of a wide range of foods on the risk of benign prostatic hyperplasia (BPH), we conducted a case-control study in Italy between 1991 and 2002. Although BPH is an extremely common condition, particularly among older men, its risk factors, including dietary ones, remain largely undefined. METHODS: Included in the study were 1369 patients younger than 75 years old surgically treated for BPH and 1451 controls younger than 75 years of age who had been admitted to the same hospitals as cases for a wide spectrum of acute, non-neoplastic conditions. A validated and reproducible food frequency questionnaire, including 78 foods and beverages, plus a separate section on alcoholic beverages, was used to assess patients' dietary habits 2 years before diagnosis or hospital admission. Multivariate odds ratios (OR) were obtained after allowance for energy intake and other major potential confounding factors. RESULTS: A significant trend of increasing risk with more frequent consumption was found for cereals (OR 1.55 for the greatest versus lowest quintile), bread (OR 1.69), eggs (OR 1.43), and poultry (OR 1.39). Inverse associations were observed for soups (OR 0.74), pulses (OR 0.74), cooked vegetables (OR 0.66), and citrus fruit (OR 0.82). No association was observed for milk and yogurt products, coffee and tea, pasta and rice, fish, cheese, row vegetables, potatoes, fruit, or desserts. CONCLUSIONS: The results of this study suggest a role for dietary habits on the risk of BPH. In particular, a diet rich in cereals and some types of meat and poor in vegetables and pulses may have an unfavorable effect in this Italian population.",
+  "modified": false,
+  "original_char_count": 1727,
+  "sanitized_char_count": 1727,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1574,
+      "boundary_end": 1727,
+      "context": "METHODS: Included in the study were 1369 patients younger than 75 years old surgically treated for BPH and 1451 controls younger than 75 years of age who had been admitted to the same hospitals as cases for a wide spectrum of acute, non-neoplastic conditions. A validated and reproducible food frequency questionnaire, including 78 foods and beverages, plus a separate section on alcoholic beverages, was used to assess patients' dietary habits 2 years before diagnosis or hospital admission. Multivariate odds ratios (OR) were obtained after allowance for energy intake and other major potential confounding factors. RESULTS: A significant trend of increasing risk with more frequent consumption was found for cereals (OR 1.55 for the greatest versus lowest quintile), bread (OR 1.69), eggs (OR 1.43), and poultry (OR 1.39). Inverse associations were observed for soups (OR 0.74), pulses (OR 0.74), cooked vegetables (OR 0.66), and citrus fruit (OR 0.82). No association was observed for milk and yogurt products, coffee and tea, pasta and rice, fish, cheese, row vegetables, potatoes, fruit, or desserts. CONCLUSIONS: The results of this study suggest a role for dietary habits on the risk of BPH.",
+      "target": "In particular, a diet rich in cereals and some types of meat and poor in vegetables and pulses may have an unfavorable effect in this Italian population.",
+      "loss_target": 3.3318276405334473,
+      "loss_target_given_context": 1.8156046867370605,
+      "delta_loss": 1.5162229537963867,
+      "gain_ratio": 0.45507244593049523,
+      "score": -0.45507244593049523,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

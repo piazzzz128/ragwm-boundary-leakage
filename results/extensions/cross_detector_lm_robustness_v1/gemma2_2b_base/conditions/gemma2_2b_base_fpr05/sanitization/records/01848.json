@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3511",
+  "source_doc_id": "MED-3511",
+  "title": "The treatment of functional dyspepsia with red pepper.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The treatment of functional dyspepsia with red pepper.\nAIM: : To decrease the intensity of dyspeptic symptoms by impairing the visceral nociceptive C-type fibres with capsaicin, contained in red pepper powder. METHODS: : The study was performed on 30 patients with functional dyspepsia and without gastro-oesophageal reflux disease and irritable bowel syndrome. After a 2-week washout period, 15 patients received, before meals randomly and in a double-blind manner, 2.5 g/day of red pepper powder for 5 weeks, and 15 patients received placebo. A diary sheet was given to each patient to record, each day, the scores of individual and overall symptom intensity, which subsequently were averaged weekly and over the entire treatment duration. RESULTS: : The overall symptom score and the epigastric pain, fullness and nausea scores of the red pepper group were significantly lower than those of the placebo group, starting from the third week of treatment. The decrease reached about 60% at the end of treatment in the red pepper group, whilst placebo scores decreased by less than 30%. CONCLUSIONS: : Red pepper was more effective than placebo in decreasing the intensity of dyspeptic symptoms, probably through a desensitization of gastric nociceptive C-fibres induced by its content of capsaicin. It could represent a potential therapy for functional dyspepsia.",
+  "sanitized_text": "The treatment of functional dyspepsia with red pepper.\nAIM: : To decrease the intensity of dyspeptic symptoms by impairing the visceral nociceptive C-type fibres with capsaicin, contained in red pepper powder. METHODS: : The study was performed on 30 patients with functional dyspepsia and without gastro-oesophageal reflux disease and irritable bowel syndrome. After a 2-week washout period, 15 patients received, before meals randomly and in a double-blind manner, 2.5 g/day of red pepper powder for 5 weeks, and 15 patients received placebo. A diary sheet was given to each patient to record, each day, the scores of individual and overall symptom intensity, which subsequently were averaged weekly and over the entire treatment duration. RESULTS: : The overall symptom score and the epigastric pain, fullness and nausea scores of the red pepper group were significantly lower than those of the placebo group, starting from the third week of treatment. The decrease reached about 60% at the end of treatment in the red pepper group, whilst placebo scores decreased by less than 30%. CONCLUSIONS: : Red pepper was more effective than placebo in decreasing the intensity of dyspeptic symptoms, probably through a desensitization of gastric nociceptive C-fibres induced by its content of capsaicin. It could represent a potential therapy for functional dyspepsia.",
+  "modified": false,
+  "original_char_count": 1363,
+  "sanitized_char_count": 1363,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1299,
+      "boundary_end": 1363,
+      "context": "symptoms by impairing the visceral nociceptive C-type fibres with capsaicin, contained in red pepper powder. METHODS: : The study was performed on 30 patients with functional dyspepsia and without gastro-oesophageal reflux disease and irritable bowel syndrome. After a 2-week washout period, 15 patients received, before meals randomly and in a double-blind manner, 2.5 g/day of red pepper powder for 5 weeks, and 15 patients received placebo. A diary sheet was given to each patient to record, each day, the scores of individual and overall symptom intensity, which subsequently were averaged weekly and over the entire treatment duration. RESULTS: : The overall symptom score and the epigastric pain, fullness and nausea scores of the red pepper group were significantly lower than those of the placebo group, starting from the third week of treatment. The decrease reached about 60% at the end of treatment in the red pepper group, whilst placebo scores decreased by less than 30%. CONCLUSIONS: : Red pepper was more effective than placebo in decreasing the intensity of dyspeptic symptoms, probably through a desensitization of gastric nociceptive C-fibres induced by its content of capsaicin.",
+      "target": "It could represent a potential therapy for functional dyspepsia.",
+      "loss_target": 10.310662269592285,
+      "loss_target_given_context": 4.061535358428955,
+      "delta_loss": 6.24912691116333,
+      "gain_ratio": 0.6060839495822647,
+      "score": -0.6060839495822647,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

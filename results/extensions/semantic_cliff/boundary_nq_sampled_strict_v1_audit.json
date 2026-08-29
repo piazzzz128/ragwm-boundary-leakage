@@ -1,0 +1,31 @@
+{
+  "dataset": "nq",
+  "version": "sampled_strict_v1",
+  "seed": 2026,
+  "collection": "nq_contriever_cosine",
+  "collection_count": 20000,
+  "changed_docs": 137,
+  "clean_docs": 19863,
+  "inject_units": 50,
+  "watermark_candidates": 222,
+  "inject_records": 222,
+  "clean_records": 222,
+  "total_records": 444,
+  "label_counts": {
+    "0": 222,
+    "1": 222
+  },
+  "missing_watermark_candidates_in_changed_docs": 0,
+  "target_in_context": 0,
+  "context_contains_any_wt": 0,
+  "clean_target_contains_any_wt": 0,
+  "duplicate_full_text": 1,
+  "candidate_count_distribution_in_inject_file": {
+    "5": 34,
+    "4": 10,
+    "1": 2,
+    "3": 2,
+    "2": 2
+  },
+  "note": "NQ sampled strict v1 boundary dataset. The 20k corpus is a sampled open-domain subset of Natural Questions. Inject contexts are cut before the earliest appended watermark text to avoid watermark leakage into context."
+}

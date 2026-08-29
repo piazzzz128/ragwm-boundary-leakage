@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1549",
+  "source_doc_id": "MED-1549",
+  "title": "Physicians' health habits are associated with lifestyle counseling for hypertensive patients.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Physicians' health habits are associated with lifestyle counseling for hypertensive patients.\nBACKGROUND: The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure (JNC VII) recommended lifestyle interventions, either with or without pharmacologic treatment, for all patients with high blood pressure. The objective of this study is to determine the association of physicians' personal habits with their attitudes and behaviors regarding JNC VII lifestyle modification guidelines. METHODS: One thousand primary care physicians completed DocStyles 2010, a voluntary web-based survey designed to provide insight into physician attitudes and behaviors regarding various health issues. RESULTS: The respondents' average age was 45.3 years, and 68% were male. In regards to physician behavior, 4.0% smoked at least once a week, 38.6% ate ≥5 cups of fruits and/or vegetables ≥5 days/week, and 27.4% exercised ≥5 days/week. When asked about specific types of advice offered to their hypertensive patients, physicians reported recommending that their patients eat a healthy diet (92.2%), or cut down on salt (96.1%), or attain or maintain a healthy weight (94.8%), or limit the use of alcohol (75.4%), or be physically active (94.4%). Collectively, 66.5% made all 5 lifestyle modification recommendations. Nonsmoking physicians were more likely to recommend each lifestyle intervention to their hypertensive patients. Those who exercised at least 1 day per week were more likely to recommend limiting alcohol use. CONCLUSIONS: The probability of recommending all 5 JNC VII interventions was greater for physicians who were nonsmoking and who exercised at least 1 day a week.",
+  "sanitized_text": "Physicians' health habits are associated with lifestyle counseling for hypertensive patients.\nBACKGROUND: The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure (JNC VII) recommended lifestyle interventions, either with or without pharmacologic treatment, for all patients with high blood pressure. The objective of this study is to determine the association of physicians' personal habits with their attitudes and behaviors regarding JNC VII lifestyle modification guidelines. METHODS: One thousand primary care physicians completed DocStyles 2010, a voluntary web-based survey designed to provide insight into physician attitudes and behaviors regarding various health issues. RESULTS: The respondents' average age was 45.3 years, and 68% were male. In regards to physician behavior, 4.0% smoked at least once a week, 38.6% ate ≥5 cups of fruits and/or vegetables ≥5 days/week, and 27.4% exercised ≥5 days/week. When asked about specific types of advice offered to their hypertensive patients, physicians reported recommending that their patients eat a healthy diet (92.2%), or cut down on salt (96.1%), or attain or maintain a healthy weight (94.8%), or limit the use of alcohol (75.4%), or be physically active (94.4%). Collectively, 66.5% made all 5 lifestyle modification recommendations. Nonsmoking physicians were more likely to recommend each lifestyle intervention to their hypertensive patients. Those who exercised at least 1 day per week were more likely to recommend limiting alcohol use. CONCLUSIONS: The probability of recommending all 5 JNC VII interventions was greater for physicians who were nonsmoking and who exercised at least 1 day a week.",
+  "modified": false,
+  "original_char_count": 1734,
+  "sanitized_char_count": 1734,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1574,
+      "boundary_end": 1734,
+      "context": "objective of this study is to determine the association of physicians' personal habits with their attitudes and behaviors regarding JNC VII lifestyle modification guidelines. METHODS: One thousand primary care physicians completed DocStyles 2010, a voluntary web-based survey designed to provide insight into physician attitudes and behaviors regarding various health issues. RESULTS: The respondents' average age was 45.3 years, and 68% were male. In regards to physician behavior, 4.0% smoked at least once a week, 38.6% ate ≥5 cups of fruits and/or vegetables ≥5 days/week, and 27.4% exercised ≥5 days/week. When asked about specific types of advice offered to their hypertensive patients, physicians reported recommending that their patients eat a healthy diet (92.2%), or cut down on salt (96.1%), or attain or maintain a healthy weight (94.8%), or limit the use of alcohol (75.4%), or be physically active (94.4%). Collectively, 66.5% made all 5 lifestyle modification recommendations. Nonsmoking physicians were more likely to recommend each lifestyle intervention to their hypertensive patients. Those who exercised at least 1 day per week were more likely to recommend limiting alcohol use.",
+      "target": "CONCLUSIONS: The probability of recommending all 5 JNC VII interventions was greater for physicians who were nonsmoking and who exercised at least 1 day a week.",
+      "loss_target": 2.9180164337158203,
+      "loss_target_given_context": 1.339299201965332,
+      "delta_loss": 1.5787172317504883,
+      "gain_ratio": 0.5410241057964639,
+      "score": -0.5410241057964639,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

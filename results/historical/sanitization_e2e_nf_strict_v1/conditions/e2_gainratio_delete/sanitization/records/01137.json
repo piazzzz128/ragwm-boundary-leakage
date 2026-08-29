@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2380",
+  "source_doc_id": "MED-2380",
+  "title": "Nuts, hypertension and endothelial function.",
+  "original_text": "Nuts, hypertension and endothelial function.\nBACKGROUND AND AIMS: High blood pressure (BP) is considered a major risk factor for cardiovascular disease. Among lifestyle factors, diet plays a key role in the prevention and control of high BP. Therefore, it is important to elucidate which dietary components can exert beneficial effects on BP through modulation of endothelial function (EF) or by other mechanisms. In this paper we review the role of nutrients, foods, particularly nuts, and dietary patterns on BP control. DATA SYNTHESIS: Because nuts are low in sodium and contain significant amounts of mono- and polyunsaturated fatty acids, fiber, minerals such as magnesium, potassium and calcium, and antioxidants, they have been suggested as potentially protective foods against hypertension. Limited evidence from prospective studies and clinical trials suggests that nut consumption has a beneficial effect on both BP and EF. However, BP changes were a secondary outcome in nut feeding trials and no study used ambulatory BP monitoring as the standard for BP measurements. CONCLUSIONS: Further clinical trials, ideally using ambulatory BP monitoring, are needed to establish the potential protective effect of nut consumption on hypertension and vascular reactivity. Copyright © 2011 Elsevier B.V. All rights reserved.",
+  "sanitized_text": "Nuts, hypertension and endothelial function.\nBACKGROUND AND AIMS: High blood pressure (BP) is considered a major risk factor for cardiovascular disease. Among lifestyle factors, diet plays a key role in the prevention and control of high BP. Therefore, it is important to elucidate which dietary components can exert beneficial effects on BP through modulation of endothelial function (EF) or by other mechanisms. In this paper we review the role of nutrients, foods, particularly nuts, and dietary patterns on BP control. DATA SYNTHESIS: Because nuts are low in sodium and contain significant amounts of mono- and polyunsaturated fatty acids, fiber, minerals such as magnesium, potassium and calcium, and antioxidants, they have been suggested as potentially protective foods against hypertension. Limited evidence from prospective studies and clinical trials suggests that nut consumption has a beneficial effect on both BP and EF. However, BP changes were a secondary outcome in nut feeding trials and no study used ambulatory BP monitoring as the standard for BP measurements. CONCLUSIONS: Further clinical trials, ideally using ambulatory BP monitoring, are needed to establish the potential protective effect of nut consumption on hypertension and vascular reactivity.",
+  "modified": true,
+  "original_char_count": 1326,
+  "sanitized_char_count": 1274,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1275,
+      "boundary_end": 1305,
+      "context": "pressure (BP) is considered a major risk factor for cardiovascular disease. Among lifestyle factors, diet plays a key role in the prevention and control of high BP. Therefore, it is important to elucidate which dietary components can exert beneficial effects on BP through modulation of endothelial function (EF) or by other mechanisms. In this paper we review the role of nutrients, foods, particularly nuts, and dietary patterns on BP control. DATA SYNTHESIS: Because nuts are low in sodium and contain significant amounts of mono- and polyunsaturated fatty acids, fiber, minerals such as magnesium, potassium and calcium, and antioxidants, they have been suggested as potentially protective foods against hypertension. Limited evidence from prospective studies and clinical trials suggests that nut consumption has a beneficial effect on both BP and EF. However, BP changes were a secondary outcome in nut feeding trials and no study used ambulatory BP monitoring as the standard for BP measurements. CONCLUSIONS: Further clinical trials, ideally using ambulatory BP monitoring, are needed to establish the potential protective effect of nut consumption on hypertension and vascular reactivity.",
+      "target": "Copyright © 2011 Elsevier B.V.",
+      "loss_target": 1.0373278856277466,
+      "loss_target_given_context": 1.665319561958313,
+      "delta_loss": -0.6279916763305664,
+      "gain_ratio": -0.6053936127924804,
+      "score": 0.6053936127924804,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1081,
+      "boundary_end": 1274,
+      "context": "Nuts, hypertension and endothelial function. BACKGROUND AND AIMS: High blood pressure (BP) is considered a major risk factor for cardiovascular disease. Among lifestyle factors, diet plays a key role in the prevention and control of high BP. Therefore, it is important to elucidate which dietary components can exert beneficial effects on BP through modulation of endothelial function (EF) or by other mechanisms. In this paper we review the role of nutrients, foods, particularly nuts, and dietary patterns on BP control. DATA SYNTHESIS: Because nuts are low in sodium and contain significant amounts of mono- and polyunsaturated fatty acids, fiber, minerals such as magnesium, potassium and calcium, and antioxidants, they have been suggested as potentially protective foods against hypertension. Limited evidence from prospective studies and clinical trials suggests that nut consumption has a beneficial effect on both BP and EF. However, BP changes were a secondary outcome in nut feeding trials and no study used ambulatory BP monitoring as the standard for BP measurements.",
+      "target": "CONCLUSIONS: Further clinical trials, ideally using ambulatory BP monitoring, are needed to establish the potential protective effect of nut consumption on hypertension and vascular reactivity.",
+      "loss_target": 2.7487356662750244,
+      "loss_target_given_context": 1.591371774673462,
+      "delta_loss": 1.1573638916015625,
+      "gain_ratio": 0.42105317939501086,
+      "score": -0.42105317939501086,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1275,
+      "target": "Copyright © 2011 Elsevier B.V.",
+      "score": 0.6053936127924804,
+      "deleted_suffix": "Copyright © 2011 Elsevier B.V. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4921",
+  "source_doc_id": "MED-4921",
+  "title": "Diagnosing mild enteropathy celiac disease: a randomized, controlled clinical study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diagnosing mild enteropathy celiac disease: a randomized, controlled clinical study.\nBACKGROUND & AIMS: The diagnostic criteria for celiac disease require small-bowel mucosal villous atrophy with crypt hyperplasia (Marsh III). However, mucosal damage develops gradually and patients may evince clinical symptoms before histologic changes appear. Endomysial antibodies are specific in predicting forthcoming villous atrophy. We hypothesized that patients with mild enteropathy but positive endomysial antibodies benefit from a gluten-free diet (GFD) similarly to patients with more severe enteropathy. METHODS: Small-bowel endoscopy together with clinical evaluations was performed in all together 70 consecutive adults with positive endomysial antibodies. Of these, 23 had only mild enteropathy (Marsh I-II) and they were randomized either to continue on a gluten-containing diet or start a GFD. After 1 year, clinical, serologic, and histologic evaluations were repeated. A total of 47 participants had small-bowel mucosal lesions compatible with celiac disease (Marsh III), and these served as disease controls. RESULTS: In the gluten-containing diet group (Marsh I-II) the small-bowel mucosal villous architecture deteriorated in all participants, and the symptoms and abnormal antibody titers persisted. In contrast, in the GFD group (Marsh I-II) the symptoms were alleviated, antibody titers decreased, and mucosal inflammation diminished equally to celiac controls (Marsh III). When the trial was completed, all participants chose to continue on a life-long GFD. CONCLUSIONS: Patients with endomysial antibodies benefit from a GFD regardless of the degree of enteropathy. The diagnostic criteria for celiac disease need re-evaluation: endomysial antibody positivity without atrophy belongs to the spectrum of genetic gluten intolerance, and warrants dietary treatment.",
+  "sanitized_text": "Diagnosing mild enteropathy celiac disease: a randomized, controlled clinical study.\nBACKGROUND & AIMS: The diagnostic criteria for celiac disease require small-bowel mucosal villous atrophy with crypt hyperplasia (Marsh III). However, mucosal damage develops gradually and patients may evince clinical symptoms before histologic changes appear. Endomysial antibodies are specific in predicting forthcoming villous atrophy. We hypothesized that patients with mild enteropathy but positive endomysial antibodies benefit from a gluten-free diet (GFD) similarly to patients with more severe enteropathy. METHODS: Small-bowel endoscopy together with clinical evaluations was performed in all together 70 consecutive adults with positive endomysial antibodies. Of these, 23 had only mild enteropathy (Marsh I-II) and they were randomized either to continue on a gluten-containing diet or start a GFD. After 1 year, clinical, serologic, and histologic evaluations were repeated. A total of 47 participants had small-bowel mucosal lesions compatible with celiac disease (Marsh III), and these served as disease controls. RESULTS: In the gluten-containing diet group (Marsh I-II) the small-bowel mucosal villous architecture deteriorated in all participants, and the symptoms and abnormal antibody titers persisted. In contrast, in the GFD group (Marsh I-II) the symptoms were alleviated, antibody titers decreased, and mucosal inflammation diminished equally to celiac controls (Marsh III). When the trial was completed, all participants chose to continue on a life-long GFD. CONCLUSIONS: Patients with endomysial antibodies benefit from a GFD regardless of the degree of enteropathy. The diagnostic criteria for celiac disease need re-evaluation: endomysial antibody positivity without atrophy belongs to the spectrum of genetic gluten intolerance, and warrants dietary treatment.",
+  "modified": false,
+  "original_char_count": 1874,
+  "sanitized_char_count": 1874,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1678,
+      "boundary_end": 1874,
+      "context": "positive endomysial antibodies benefit from a gluten-free diet (GFD) similarly to patients with more severe enteropathy. METHODS: Small-bowel endoscopy together with clinical evaluations was performed in all together 70 consecutive adults with positive endomysial antibodies. Of these, 23 had only mild enteropathy (Marsh I-II) and they were randomized either to continue on a gluten-containing diet or start a GFD. After 1 year, clinical, serologic, and histologic evaluations were repeated. A total of 47 participants had small-bowel mucosal lesions compatible with celiac disease (Marsh III), and these served as disease controls. RESULTS: In the gluten-containing diet group (Marsh I-II) the small-bowel mucosal villous architecture deteriorated in all participants, and the symptoms and abnormal antibody titers persisted. In contrast, in the GFD group (Marsh I-II) the symptoms were alleviated, antibody titers decreased, and mucosal inflammation diminished equally to celiac controls (Marsh III). When the trial was completed, all participants chose to continue on a life-long GFD. CONCLUSIONS: Patients with endomysial antibodies benefit from a GFD regardless of the degree of enteropathy.",
+      "target": "The diagnostic criteria for celiac disease need re-evaluation: endomysial antibody positivity without atrophy belongs to the spectrum of genetic gluten intolerance, and warrants dietary treatment.",
+      "loss_target": 3.55800199508667,
+      "loss_target_given_context": 2.3929924964904785,
+      "delta_loss": 1.1650094985961914,
+      "gain_ratio": 0.32743362713258195,
+      "score": -0.32743362713258195,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4389",
+  "source_doc_id": "MED-4389",
+  "title": "Usefulness of vegetarian and vegan diets for treating type 2 diabetes.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Usefulness of vegetarian and vegan diets for treating type 2 diabetes.\nSignificant benefits for diabetes prevention and management have been observed with vegetarian and especially vegan diets. This article reviews observational studies and intervention trials on such diets, and discusses their efficacy, nutritional adequacy, acceptability, and sustainability. Research to date has demonstrated that a low-fat, plant-based nutritional approach improves control of weight, glycemia, and cardiovascular risk. These studies have also shown that carefully planned vegan diets can be more nutritious than diets based on more conventional diet guidelines, with an acceptability that is comparable with that of other therapeutic regimens. Current intervention guidelines from professional organizations offer support for this approach. Vegetarian and vegan diets present potential advantages in managing type 2 diabetes that merit the attention of individuals with diabetes and their caregivers.",
+  "sanitized_text": "Usefulness of vegetarian and vegan diets for treating type 2 diabetes.\nSignificant benefits for diabetes prevention and management have been observed with vegetarian and especially vegan diets. This article reviews observational studies and intervention trials on such diets, and discusses their efficacy, nutritional adequacy, acceptability, and sustainability. Research to date has demonstrated that a low-fat, plant-based nutritional approach improves control of weight, glycemia, and cardiovascular risk. These studies have also shown that carefully planned vegan diets can be more nutritious than diets based on more conventional diet guidelines, with an acceptability that is comparable with that of other therapeutic regimens. Current intervention guidelines from professional organizations offer support for this approach. Vegetarian and vegan diets present potential advantages in managing type 2 diabetes that merit the attention of individuals with diabetes and their caregivers.",
+  "modified": false,
+  "original_char_count": 990,
+  "sanitized_char_count": 990,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 831,
+      "boundary_end": 990,
+      "context": "Usefulness of vegetarian and vegan diets for treating type 2 diabetes. Significant benefits for diabetes prevention and management have been observed with vegetarian and especially vegan diets. This article reviews observational studies and intervention trials on such diets, and discusses their efficacy, nutritional adequacy, acceptability, and sustainability. Research to date has demonstrated that a low-fat, plant-based nutritional approach improves control of weight, glycemia, and cardiovascular risk. These studies have also shown that carefully planned vegan diets can be more nutritious than diets based on more conventional diet guidelines, with an acceptability that is comparable with that of other therapeutic regimens. Current intervention guidelines from professional organizations offer support for this approach.",
+      "target": "Vegetarian and vegan diets present potential advantages in managing type 2 diabetes that merit the attention of individuals with diabetes and their caregivers.",
+      "loss_target": 2.487842559814453,
+      "loss_target_given_context": 1.7436308860778809,
+      "delta_loss": 0.7442116737365723,
+      "gain_ratio": 0.29913937712846134,
+      "score": -0.29913937712846134,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,111 @@
+{
+  "internal_id": "MED-3058",
+  "source_doc_id": "MED-3058",
+  "title": "Implications from addiction research towards the understanding and treatment of obesity.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Implications from addiction research towards the understanding and treatment of obesity.\nRecent research indicates similarities between obesity and addictive disorders on both the phenomenological and neurobiological level. In particular, neuroendocrine and imaging studies suggest a close link between the homeostatic regulation of appetite on the on hand, and motivation and reward expectancy on the other. In addition, findings from neuropsychological studies additionally demonstrate alterations of cognitive function in both obesity and addictive disorders that possibly contribute to a lack of control in resisting consumption. In this review, recent findings on overlapping neurobiological and phenomenological pathways are summarized and the impact with regard to new treatment approaches for obesity is discussed. © 2011 The Authors, Addiction Biology © 2011 Society for the Study of Addiction. Pharmacological treatment is a consequence of certain food products. The relationship between illegal hormones and disease is one of direct involvement. Pharmacological treatment encompasses various strategies aimed at alleviating depression.",
+  "sanitized_text": "Implications from addiction research towards the understanding and treatment of obesity.\nRecent research indicates similarities between obesity and addictive disorders on both the phenomenological and neurobiological level. In particular, neuroendocrine and imaging studies suggest a close link between the homeostatic regulation of appetite on the on hand, and motivation and reward expectancy on the other. In addition, findings from neuropsychological studies additionally demonstrate alterations of cognitive function in both obesity and addictive disorders that possibly contribute to a lack of control in resisting consumption. In this review, recent findings on overlapping neurobiological and phenomenological pathways are summarized and the impact with regard to new treatment approaches for obesity is discussed. © 2011 The Authors, Addiction Biology © 2011 Society for the Study of Addiction.",
+  "modified": true,
+  "original_char_count": 1146,
+  "sanitized_char_count": 903,
+  "deleted_char_count": 243,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1057,
+      "boundary_end": 1146,
+      "context": "Implications from addiction research towards the understanding and treatment of obesity. Recent research indicates similarities between obesity and addictive disorders on both the phenomenological and neurobiological level. In particular, neuroendocrine and imaging studies suggest a close link between the homeostatic regulation of appetite on the on hand, and motivation and reward expectancy on the other. In addition, findings from neuropsychological studies additionally demonstrate alterations of cognitive function in both obesity and addictive disorders that possibly contribute to a lack of control in resisting consumption. In this review, recent findings on overlapping neurobiological and phenomenological pathways are summarized and the impact with regard to new treatment approaches for obesity is discussed. © 2011 The Authors, Addiction Biology © 2011 Society for the Study of Addiction. Pharmacological treatment is a consequence of certain food products. The relationship between illegal hormones and disease is one of direct involvement.",
+      "target": "Pharmacological treatment encompasses various strategies aimed at alleviating depression.",
+      "loss_target": 3.003652334213257,
+      "loss_target_given_context": 2.947303056716919,
+      "delta_loss": 0.05634927749633789,
+      "gain_ratio": 0.01876025292757372,
+      "score": -0.01876025292757372,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 973,
+      "boundary_end": 1056,
+      "context": "Implications from addiction research towards the understanding and treatment of obesity. Recent research indicates similarities between obesity and addictive disorders on both the phenomenological and neurobiological level. In particular, neuroendocrine and imaging studies suggest a close link between the homeostatic regulation of appetite on the on hand, and motivation and reward expectancy on the other. In addition, findings from neuropsychological studies additionally demonstrate alterations of cognitive function in both obesity and addictive disorders that possibly contribute to a lack of control in resisting consumption. In this review, recent findings on overlapping neurobiological and phenomenological pathways are summarized and the impact with regard to new treatment approaches for obesity is discussed. © 2011 The Authors, Addiction Biology © 2011 Society for the Study of Addiction. Pharmacological treatment is a consequence of certain food products.",
+      "target": "The relationship between illegal hormones and disease is one of direct involvement.",
+      "loss_target": 5.209195137023926,
+      "loss_target_given_context": 4.718728065490723,
+      "delta_loss": 0.4904670715332031,
+      "gain_ratio": 0.09415409840327324,
+      "score": -0.09415409840327324,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 904,
+      "boundary_end": 972,
+      "context": "Implications from addiction research towards the understanding and treatment of obesity. Recent research indicates similarities between obesity and addictive disorders on both the phenomenological and neurobiological level. In particular, neuroendocrine and imaging studies suggest a close link between the homeostatic regulation of appetite on the on hand, and motivation and reward expectancy on the other. In addition, findings from neuropsychological studies additionally demonstrate alterations of cognitive function in both obesity and addictive disorders that possibly contribute to a lack of control in resisting consumption. In this review, recent findings on overlapping neurobiological and phenomenological pathways are summarized and the impact with regard to new treatment approaches for obesity is discussed. © 2011 The Authors, Addiction Biology © 2011 Society for the Study of Addiction.",
+      "target": "Pharmacological treatment is a consequence of certain food products.",
+      "loss_target": 4.068976402282715,
+      "loss_target_given_context": 3.9504661560058594,
+      "delta_loss": 0.11851024627685547,
+      "gain_ratio": 0.029125321594485203,
+      "score": -0.029125321594485203,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 4,
+      "boundary_start": 823,
+      "boundary_end": 903,
+      "context": "Implications from addiction research towards the understanding and treatment of obesity. Recent research indicates similarities between obesity and addictive disorders on both the phenomenological and neurobiological level. In particular, neuroendocrine and imaging studies suggest a close link between the homeostatic regulation of appetite on the on hand, and motivation and reward expectancy on the other. In addition, findings from neuropsychological studies additionally demonstrate alterations of cognitive function in both obesity and addictive disorders that possibly contribute to a lack of control in resisting consumption. In this review, recent findings on overlapping neurobiological and phenomenological pathways are summarized and the impact with regard to new treatment approaches for obesity is discussed.",
+      "target": "© 2011 The Authors, Addiction Biology © 2011 Society for the Study of Addiction.",
+      "loss_target": 1.2315305471420288,
+      "loss_target_given_context": 0.3931868076324463,
+      "delta_loss": 0.8383437395095825,
+      "gain_ratio": 0.6807332075157198,
+      "score": -0.6807332075157198,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1057,
+      "target": "Pharmacological treatment encompasses various strategies aimed at alleviating depression.",
+      "score": -0.01876025292757372,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Pharmacological treatment encompasses various strategies aimed at alleviating depression.",
+      "deleted_char_count": 89
+    },
+    {
+      "step": 2,
+      "boundary_start": 973,
+      "target": "The relationship between illegal hormones and disease is one of direct involvement.",
+      "score": -0.09415409840327324,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "The relationship between illegal hormones and disease is one of direct involvement.",
+      "deleted_char_count": 83
+    },
+    {
+      "step": 3,
+      "boundary_start": 904,
+      "target": "Pharmacological treatment is a consequence of certain food products.",
+      "score": -0.029125321594485203,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Pharmacological treatment is a consequence of certain food products.",
+      "deleted_char_count": 68
+    }
+  ],
+  "deletion_step_count": 3,
+  "stop_reason": "score_below_threshold"
+}

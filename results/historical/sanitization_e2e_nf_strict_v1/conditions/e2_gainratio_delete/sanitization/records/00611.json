@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-1732",
+  "source_doc_id": "MED-1732",
+  "title": "Glyphosate induces human breast cancer cells growth via estrogen receptors.",
+  "original_text": "Glyphosate induces human breast cancer cells growth via estrogen receptors.\nGlyphosate is an active ingredient of the most widely used herbicide and it is believed to be less toxic than other pesticides. However, several recent studies showed its potential adverse health effects to humans as it may be an endocrine disruptor. This study focuses on the effects of pure glyphosate on estrogen receptors (ERs) mediated transcriptional activity and their expressions. Glyphosate exerted proliferative effects only in human hormone-dependent breast cancer, T47D cells, but not in hormone-independent breast cancer, MDA-MB231 cells, at 10⁻¹² to 10⁻⁶M in estrogen withdrawal condition. The proliferative concentrations of glyphosate that induced the activation of estrogen response element (ERE) transcription activity were 5-13 fold of control in T47D-KBluc cells and this activation was inhibited by an estrogen antagonist, ICI 182780, indicating that the estrogenic activity of glyphosate was mediated via ERs. Furthermore, glyphosate also altered both ERα and β expression. These results indicated that low and environmentally relevant concentrations of glyphosate possessed estrogenic activity. Glyphosate-based herbicides are widely used for soybean cultivation, and our results also found that there was an additive estrogenic effect between glyphosate and genistein, a phytoestrogen in soybeans. However, these additive effects of glyphosate contamination in soybeans need further animal study. Copyright © 2013 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Glyphosate induces human breast cancer cells growth via estrogen receptors.\nGlyphosate is an active ingredient of the most widely used herbicide and it is believed to be less toxic than other pesticides. However, several recent studies showed its potential adverse health effects to humans as it may be an endocrine disruptor. This study focuses on the effects of pure glyphosate on estrogen receptors (ERs) mediated transcriptional activity and their expressions. Glyphosate exerted proliferative effects only in human hormone-dependent breast cancer, T47D cells, but not in hormone-independent breast cancer, MDA-MB231 cells, at 10⁻¹² to 10⁻⁶M in estrogen withdrawal condition. The proliferative concentrations of glyphosate that induced the activation of estrogen response element (ERE) transcription activity were 5-13 fold of control in T47D-KBluc cells and this activation was inhibited by an estrogen antagonist, ICI 182780, indicating that the estrogenic activity of glyphosate was mediated via ERs. Furthermore, glyphosate also altered both ERα and β expression. These results indicated that low and environmentally relevant concentrations of glyphosate possessed estrogenic activity. Glyphosate-based herbicides are widely used for soybean cultivation, and our results also found that there was an additive estrogenic effect between glyphosate and genistein, a phytoestrogen in soybeans. However, these additive effects of glyphosate contamination in soybeans need further animal study.",
+  "modified": true,
+  "original_char_count": 1548,
+  "sanitized_char_count": 1496,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1497,
+      "boundary_end": 1527,
+      "context": "be an endocrine disruptor. This study focuses on the effects of pure glyphosate on estrogen receptors (ERs) mediated transcriptional activity and their expressions. Glyphosate exerted proliferative effects only in human hormone-dependent breast cancer, T47D cells, but not in hormone-independent breast cancer, MDA-MB231 cells, at 10⁻¹² to 10⁻⁶M in estrogen withdrawal condition. The proliferative concentrations of glyphosate that induced the activation of estrogen response element (ERE) transcription activity were 5-13 fold of control in T47D-KBluc cells and this activation was inhibited by an estrogen antagonist, ICI 182780, indicating that the estrogenic activity of glyphosate was mediated via ERs. Furthermore, glyphosate also altered both ERα and β expression. These results indicated that low and environmentally relevant concentrations of glyphosate possessed estrogenic activity. Glyphosate-based herbicides are widely used for soybean cultivation, and our results also found that there was an additive estrogenic effect between glyphosate and genistein, a phytoestrogen in soybeans. However, these additive effects of glyphosate contamination in soybeans need further animal study.",
+      "target": "Copyright © 2013 Elsevier Ltd.",
+      "loss_target": 1.2036986351013184,
+      "loss_target_given_context": 1.4845503568649292,
+      "delta_loss": -0.28085172176361084,
+      "gain_ratio": -0.23332395133934072,
+      "score": 0.23332395133934072,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1398,
+      "boundary_end": 1496,
+      "context": "However, several recent studies showed its potential adverse health effects to humans as it may be an endocrine disruptor. This study focuses on the effects of pure glyphosate on estrogen receptors (ERs) mediated transcriptional activity and their expressions. Glyphosate exerted proliferative effects only in human hormone-dependent breast cancer, T47D cells, but not in hormone-independent breast cancer, MDA-MB231 cells, at 10⁻¹² to 10⁻⁶M in estrogen withdrawal condition. The proliferative concentrations of glyphosate that induced the activation of estrogen response element (ERE) transcription activity were 5-13 fold of control in T47D-KBluc cells and this activation was inhibited by an estrogen antagonist, ICI 182780, indicating that the estrogenic activity of glyphosate was mediated via ERs. Furthermore, glyphosate also altered both ERα and β expression. These results indicated that low and environmentally relevant concentrations of glyphosate possessed estrogenic activity. Glyphosate-based herbicides are widely used for soybean cultivation, and our results also found that there was an additive estrogenic effect between glyphosate and genistein, a phytoestrogen in soybeans.",
+      "target": "However, these additive effects of glyphosate contamination in soybeans need further animal study.",
+      "loss_target": 4.217273712158203,
+      "loss_target_given_context": 3.4727962017059326,
+      "delta_loss": 0.7444775104522705,
+      "gain_ratio": 0.17653051740653602,
+      "score": -0.17653051740653602,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1497,
+      "target": "Copyright © 2013 Elsevier Ltd.",
+      "score": 0.23332395133934072,
+      "deleted_suffix": "Copyright © 2013 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

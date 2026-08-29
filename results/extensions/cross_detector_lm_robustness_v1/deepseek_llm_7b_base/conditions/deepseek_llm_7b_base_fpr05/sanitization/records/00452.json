@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1551",
+  "source_doc_id": "MED-1551",
+  "title": "Effect of ingestion of meat on plasma cholesterol of vegetarians.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of ingestion of meat on plasma cholesterol of vegetarians.\nIn a controlled trial, 21 strict vegetarians were studied prospectively for eight weeks: a two-week control period of the usual vegetarian diet was followed by four weeks, during which 250 g of beef was added isocalorically to the daily vegetarian diet and then by two weeks of the control diet. Plasma high-density lipoprotein-cholesterol did not change during the study, whereas plasma total cholesterol rose significantly by 19% at the end of the meat-eating period. Systolic blood pressure (BP) increased significantly during the meat eating by 3% over control values, whereas diastolic BP showed no major changes. Plasma renin activity, prostaglandin A and E levels, and urinary kallikrein, norepinephrine, and epinephrine excretions were within normal limits and did not change notably throughout the trial. The study suggests an adverse effect of consumption of beef on plasma lipid and BP levels.",
+  "sanitized_text": "Effect of ingestion of meat on plasma cholesterol of vegetarians.\nIn a controlled trial, 21 strict vegetarians were studied prospectively for eight weeks: a two-week control period of the usual vegetarian diet was followed by four weeks, during which 250 g of beef was added isocalorically to the daily vegetarian diet and then by two weeks of the control diet. Plasma high-density lipoprotein-cholesterol did not change during the study, whereas plasma total cholesterol rose significantly by 19% at the end of the meat-eating period. Systolic blood pressure (BP) increased significantly during the meat eating by 3% over control values, whereas diastolic BP showed no major changes. Plasma renin activity, prostaglandin A and E levels, and urinary kallikrein, norepinephrine, and epinephrine excretions were within normal limits and did not change notably throughout the trial. The study suggests an adverse effect of consumption of beef on plasma lipid and BP levels.",
+  "modified": false,
+  "original_char_count": 970,
+  "sanitized_char_count": 970,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 880,
+      "boundary_end": 970,
+      "context": "Effect of ingestion of meat on plasma cholesterol of vegetarians. In a controlled trial, 21 strict vegetarians were studied prospectively for eight weeks: a two-week control period of the usual vegetarian diet was followed by four weeks, during which 250 g of beef was added isocalorically to the daily vegetarian diet and then by two weeks of the control diet. Plasma high-density lipoprotein-cholesterol did not change during the study, whereas plasma total cholesterol rose significantly by 19% at the end of the meat-eating period. Systolic blood pressure (BP) increased significantly during the meat eating by 3% over control values, whereas diastolic BP showed no major changes. Plasma renin activity, prostaglandin A and E levels, and urinary kallikrein, norepinephrine, and epinephrine excretions were within normal limits and did not change notably throughout the trial.",
+      "target": "The study suggests an adverse effect of consumption of beef on plasma lipid and BP levels.",
+      "loss_target": 3.8497259616851807,
+      "loss_target_given_context": 1.940293788909912,
+      "delta_loss": 1.9094321727752686,
+      "gain_ratio": 0.49599171259957237,
+      "score": -0.49599171259957237,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

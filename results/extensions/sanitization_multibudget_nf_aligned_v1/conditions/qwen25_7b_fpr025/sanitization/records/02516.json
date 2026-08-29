@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4365",
+  "source_doc_id": "MED-4365",
+  "title": "Adverse effects of concentrated green tea extracts.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Adverse effects of concentrated green tea extracts.\nA myriad of health claims are being made in favor of the consumption of green tea. However, mostly due to the easy availability and greater than ever popularity of highly concentrated green tea extracts, sometimes combined with an attitude of more-is-better, certain health risks of green tea consumption have begun to emerge. Among such risks are the possibility of liver damage, the potential to interact with prescription drugs to alter their therapeutic efficacy, and the chance to cause harm when combined with other highly popular herbal remedies. This review will summarize documented examples of adverse effects of green tea in humans, and will discuss risks of copious consumption of highly concentrated green tea extracts as indicated by studies in animals. While there is no intention to minimize any of the scientifically established benefits of the use of green tea, the purpose of this review is to focus primarily on the potential for adverse effects and raise awareness of the rare, yet under-appreciated risks. Copyright © 2011 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim.",
+  "sanitized_text": "Adverse effects of concentrated green tea extracts.\nA myriad of health claims are being made in favor of the consumption of green tea. However, mostly due to the easy availability and greater than ever popularity of highly concentrated green tea extracts, sometimes combined with an attitude of more-is-better, certain health risks of green tea consumption have begun to emerge. Among such risks are the possibility of liver damage, the potential to interact with prescription drugs to alter their therapeutic efficacy, and the chance to cause harm when combined with other highly popular herbal remedies. This review will summarize documented examples of adverse effects of green tea in humans, and will discuss risks of copious consumption of highly concentrated green tea extracts as indicated by studies in animals. While there is no intention to minimize any of the scientifically established benefits of the use of green tea, the purpose of this review is to focus primarily on the potential for adverse effects and raise awareness of the rare, yet under-appreciated risks. Copyright © 2011 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim.",
+  "modified": false,
+  "original_char_count": 1140,
+  "sanitized_char_count": 1140,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1080,
+      "boundary_end": 1124,
+      "context": "Adverse effects of concentrated green tea extracts. A myriad of health claims are being made in favor of the consumption of green tea. However, mostly due to the easy availability and greater than ever popularity of highly concentrated green tea extracts, sometimes combined with an attitude of more-is-better, certain health risks of green tea consumption have begun to emerge. Among such risks are the possibility of liver damage, the potential to interact with prescription drugs to alter their therapeutic efficacy, and the chance to cause harm when combined with other highly popular herbal remedies. This review will summarize documented examples of adverse effects of green tea in humans, and will discuss risks of copious consumption of highly concentrated green tea extracts as indicated by studies in animals. While there is no intention to minimize any of the scientifically established benefits of the use of green tea, the purpose of this review is to focus primarily on the potential for adverse effects and raise awareness of the rare, yet under-appreciated risks.",
+      "target": "Copyright © 2011 WILEY-VCH Verlag GmbH & Co.",
+      "loss_target": 0.9054223299026489,
+      "loss_target_given_context": 0.4354155361652374,
+      "delta_loss": 0.4700067937374115,
+      "gain_ratio": 0.5191022777049763,
+      "score": -0.5191022777049763,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

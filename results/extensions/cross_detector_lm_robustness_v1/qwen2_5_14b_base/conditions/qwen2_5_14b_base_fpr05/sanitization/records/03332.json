@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5278",
+  "source_doc_id": "MED-5278",
+  "title": "Brachial artery ultrasound: a noninvasive tool in the assessment of triglyceride-rich lipoproteins.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Brachial artery ultrasound: a noninvasive tool in the assessment of triglyceride-rich lipoproteins.\nIn recent years, endothelial dysfunction has been identified as an early feature of atherosclerosis. Endothelial function can be measured noninvasively by using brachial artery ultrasound. A variety of factors associated with atherosclerosis also impair endothelial function. Some of these factors are lipoproteins such as various forms of low-density lipoproteins, postprandial chylomicron remnants, fasting triglyceride-rich particles, and free fatty acids. A high-fat diet also has an adverse effect on endothelial function. Several interventions can improve endothelial function and, at the same time, reduce cardiovascular events. Measuring endothelial function may eventually serve as a useful index to determine an individual's risk for coronary artery disease.",
+  "sanitized_text": "Brachial artery ultrasound: a noninvasive tool in the assessment of triglyceride-rich lipoproteins.\nIn recent years, endothelial dysfunction has been identified as an early feature of atherosclerosis. Endothelial function can be measured noninvasively by using brachial artery ultrasound. A variety of factors associated with atherosclerosis also impair endothelial function. Some of these factors are lipoproteins such as various forms of low-density lipoproteins, postprandial chylomicron remnants, fasting triglyceride-rich particles, and free fatty acids. A high-fat diet also has an adverse effect on endothelial function. Several interventions can improve endothelial function and, at the same time, reduce cardiovascular events. Measuring endothelial function may eventually serve as a useful index to determine an individual's risk for coronary artery disease.",
+  "modified": false,
+  "original_char_count": 868,
+  "sanitized_char_count": 868,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 736,
+      "boundary_end": 868,
+      "context": "Brachial artery ultrasound: a noninvasive tool in the assessment of triglyceride-rich lipoproteins. In recent years, endothelial dysfunction has been identified as an early feature of atherosclerosis. Endothelial function can be measured noninvasively by using brachial artery ultrasound. A variety of factors associated with atherosclerosis also impair endothelial function. Some of these factors are lipoproteins such as various forms of low-density lipoproteins, postprandial chylomicron remnants, fasting triglyceride-rich particles, and free fatty acids. A high-fat diet also has an adverse effect on endothelial function. Several interventions can improve endothelial function and, at the same time, reduce cardiovascular events.",
+      "target": "Measuring endothelial function may eventually serve as a useful index to determine an individual's risk for coronary artery disease.",
+      "loss_target": 2.578364610671997,
+      "loss_target_given_context": 1.586159586906433,
+      "delta_loss": 0.992205023765564,
+      "gain_ratio": 0.3848195168591638,
+      "score": -0.3848195168591638,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

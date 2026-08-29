@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3494",
+  "source_doc_id": "MED-3494",
+  "title": "Reducing the fat content in ground beef without sacrificing quality: a review.",
+  "original_text": "Reducing the fat content in ground beef without sacrificing quality: a review.\nAmericans are becoming more health conscious in their food choices and many are interested in reducing dietary fat intake. Fat replacers can affect meat flavor both by adding flavors of their own, by reducing the original aroma-generating substrate (fat) and by altering release of aroma compounds. When fat is removed from meat, water is generally added to replace it. Water-binding compounds can be added to prevent the added water from cooking out or evaporating and to prevent patty shrinkage. Fat replacers are generally classified by their composition: protein-based replacers including whey, soy and collagen, lipid-based substances such as soy lecithin which function as emulsifiers maintaining the fat that is retained distributed in the product, and carbohydrate-based substances including flours (wheat, soy, oat), starches (potato, modified corn starch, tapioca) and gums (carrageenan, xanthin). Duplication of the characteristics contributed by fat often requires a combination of replacers to address juiciness and texture (firmness) without negatively impacting flavor. Published by Elsevier Ltd.",
+  "sanitized_text": "Reducing the fat content in ground beef without sacrificing quality: a review.\nAmericans are becoming more health conscious in their food choices and many are interested in reducing dietary fat intake. Fat replacers can affect meat flavor both by adding flavors of their own, by reducing the original aroma-generating substrate (fat) and by altering release of aroma compounds. When fat is removed from meat, water is generally added to replace it. Water-binding compounds can be added to prevent the added water from cooking out or evaporating and to prevent patty shrinkage. Fat replacers are generally classified by their composition: protein-based replacers including whey, soy and collagen, lipid-based substances such as soy lecithin which function as emulsifiers maintaining the fat that is retained distributed in the product, and carbohydrate-based substances including flours (wheat, soy, oat), starches (potato, modified corn starch, tapioca) and gums (carrageenan, xanthin). Duplication of the characteristics contributed by fat often requires a combination of replacers to address juiciness and texture (firmness) without negatively impacting flavor.",
+  "modified": true,
+  "original_char_count": 1190,
+  "sanitized_char_count": 1163,
+  "deleted_char_count": 27,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1164,
+      "boundary_end": 1190,
+      "context": "Reducing the fat content in ground beef without sacrificing quality: a review. Americans are becoming more health conscious in their food choices and many are interested in reducing dietary fat intake. Fat replacers can affect meat flavor both by adding flavors of their own, by reducing the original aroma-generating substrate (fat) and by altering release of aroma compounds. When fat is removed from meat, water is generally added to replace it. Water-binding compounds can be added to prevent the added water from cooking out or evaporating and to prevent patty shrinkage. Fat replacers are generally classified by their composition: protein-based replacers including whey, soy and collagen, lipid-based substances such as soy lecithin which function as emulsifiers maintaining the fat that is retained distributed in the product, and carbohydrate-based substances including flours (wheat, soy, oat), starches (potato, modified corn starch, tapioca) and gums (carrageenan, xanthin). Duplication of the characteristics contributed by fat often requires a combination of replacers to address juiciness and texture (firmness) without negatively impacting flavor.",
+      "target": "Published by Elsevier Ltd.",
+      "loss_target": 2.2897441387176514,
+      "loss_target_given_context": 2.9426498413085938,
+      "delta_loss": -0.6529057025909424,
+      "gain_ratio": -0.28514351955349726,
+      "score": 0.28514351955349726,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 987,
+      "boundary_end": 1163,
+      "context": "Reducing the fat content in ground beef without sacrificing quality: a review. Americans are becoming more health conscious in their food choices and many are interested in reducing dietary fat intake. Fat replacers can affect meat flavor both by adding flavors of their own, by reducing the original aroma-generating substrate (fat) and by altering release of aroma compounds. When fat is removed from meat, water is generally added to replace it. Water-binding compounds can be added to prevent the added water from cooking out or evaporating and to prevent patty shrinkage. Fat replacers are generally classified by their composition: protein-based replacers including whey, soy and collagen, lipid-based substances such as soy lecithin which function as emulsifiers maintaining the fat that is retained distributed in the product, and carbohydrate-based substances including flours (wheat, soy, oat), starches (potato, modified corn starch, tapioca) and gums (carrageenan, xanthin).",
+      "target": "Duplication of the characteristics contributed by fat often requires a combination of replacers to address juiciness and texture (firmness) without negatively impacting flavor.",
+      "loss_target": 4.095016002655029,
+      "loss_target_given_context": 3.038648843765259,
+      "delta_loss": 1.0563671588897705,
+      "gain_ratio": 0.257964110080368,
+      "score": -0.257964110080368,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1164,
+      "target": "Published by Elsevier Ltd.",
+      "score": 0.28514351955349726,
+      "deleted_suffix": "Published by Elsevier Ltd.",
+      "deleted_char_count": 26
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

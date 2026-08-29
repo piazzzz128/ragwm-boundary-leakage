@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-5335",
+  "source_doc_id": "MED-5335",
+  "title": "Does a vegan diet reduce risk for Parkinson's disease?",
+  "original_text": "Does a vegan diet reduce risk for Parkinson's disease?\nThree recent case-control studies conclude that diets high in animal fat or cholesterol are associated with a substantial increase in risk for Parkinson's disease (PD); in contrast, fat of plant origin does not appear to increase risk. Whereas reported age-adjusted prevalence rates of PD tend to be relatively uniform throughout Europe and the Americas, sub-Saharan black Africans, rural Chinese, and Japanese, groups whose diets tend to be vegan or quasi-vegan, appear to enjoy substantially lower rates. Since current PD prevalence in African-Americans is little different from that in whites, environmental factors are likely to be responsible for the low PD risk in black Africans. In aggregate, these findings suggest that vegan diets may be notably protective with respect to PD. However, they offer no insight into whether saturated fat, compounds associated with animal fat, animal protein, or the integrated impact of the components of animal products mediates the risk associated with animal fat consumption. Caloric restriction has recently been shown to protect the central dopaminergic neurons of mice from neurotoxins, at least in part by induction of heat-shock proteins; conceivably, the protection afforded by vegan diets reflects a similar mechanism. The possibility that vegan diets could be therapeutically beneficial in PD, by slowing the loss of surviving dopaminergic neurons, thus retarding progression of the syndrome, may merit examination. Vegan diets could also be helpful to PD patients by promoting vascular health and aiding blood-brain barrier transport of L-dopa. Copyright 2001 Harcourt Publishers Ltd.",
+  "sanitized_text": "Does a vegan diet reduce risk for Parkinson's disease?\nThree recent case-control studies conclude that diets high in animal fat or cholesterol are associated with a substantial increase in risk for Parkinson's disease (PD); in contrast, fat of plant origin does not appear to increase risk. Whereas reported age-adjusted prevalence rates of PD tend to be relatively uniform throughout Europe and the Americas, sub-Saharan black Africans, rural Chinese, and Japanese, groups whose diets tend to be vegan or quasi-vegan, appear to enjoy substantially lower rates. Since current PD prevalence in African-Americans is little different from that in whites, environmental factors are likely to be responsible for the low PD risk in black Africans. In aggregate, these findings suggest that vegan diets may be notably protective with respect to PD. However, they offer no insight into whether saturated fat, compounds associated with animal fat, animal protein, or the integrated impact of the components of animal products mediates the risk associated with animal fat consumption. Caloric restriction has recently been shown to protect the central dopaminergic neurons of mice from neurotoxins, at least in part by induction of heat-shock proteins; conceivably, the protection afforded by vegan diets reflects a similar mechanism. The possibility that vegan diets could be therapeutically beneficial in PD, by slowing the loss of surviving dopaminergic neurons, thus retarding progression of the syndrome, may merit examination. Vegan diets could also be helpful to PD patients by promoting vascular health and aiding blood-brain barrier transport of L-dopa.",
+  "modified": true,
+  "original_char_count": 1692,
+  "sanitized_char_count": 1652,
+  "deleted_char_count": 40,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1653,
+      "boundary_end": 1692,
+      "context": "and Japanese, groups whose diets tend to be vegan or quasi-vegan, appear to enjoy substantially lower rates. Since current PD prevalence in African-Americans is little different from that in whites, environmental factors are likely to be responsible for the low PD risk in black Africans. In aggregate, these findings suggest that vegan diets may be notably protective with respect to PD. However, they offer no insight into whether saturated fat, compounds associated with animal fat, animal protein, or the integrated impact of the components of animal products mediates the risk associated with animal fat consumption. Caloric restriction has recently been shown to protect the central dopaminergic neurons of mice from neurotoxins, at least in part by induction of heat-shock proteins; conceivably, the protection afforded by vegan diets reflects a similar mechanism. The possibility that vegan diets could be therapeutically beneficial in PD, by slowing the loss of surviving dopaminergic neurons, thus retarding progression of the syndrome, may merit examination. Vegan diets could also be helpful to PD patients by promoting vascular health and aiding blood-brain barrier transport of L-dopa.",
+      "target": "Copyright 2001 Harcourt Publishers Ltd.",
+      "loss_target": 2.3148696422576904,
+      "loss_target_given_context": 2.4244093894958496,
+      "delta_loss": -0.10953974723815918,
+      "gain_ratio": -0.04732005000995441,
+      "score": 0.04732005000995441,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1523,
+      "boundary_end": 1652,
+      "context": "rates of PD tend to be relatively uniform throughout Europe and the Americas, sub-Saharan black Africans, rural Chinese, and Japanese, groups whose diets tend to be vegan or quasi-vegan, appear to enjoy substantially lower rates. Since current PD prevalence in African-Americans is little different from that in whites, environmental factors are likely to be responsible for the low PD risk in black Africans. In aggregate, these findings suggest that vegan diets may be notably protective with respect to PD. However, they offer no insight into whether saturated fat, compounds associated with animal fat, animal protein, or the integrated impact of the components of animal products mediates the risk associated with animal fat consumption. Caloric restriction has recently been shown to protect the central dopaminergic neurons of mice from neurotoxins, at least in part by induction of heat-shock proteins; conceivably, the protection afforded by vegan diets reflects a similar mechanism. The possibility that vegan diets could be therapeutically beneficial in PD, by slowing the loss of surviving dopaminergic neurons, thus retarding progression of the syndrome, may merit examination.",
+      "target": "Vegan diets could also be helpful to PD patients by promoting vascular health and aiding blood-brain barrier transport of L-dopa.",
+      "loss_target": 3.558842658996582,
+      "loss_target_given_context": 2.7596399784088135,
+      "delta_loss": 0.7992026805877686,
+      "gain_ratio": 0.22456814115325466,
+      "score": -0.22456814115325466,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1653,
+      "target": "Copyright 2001 Harcourt Publishers Ltd.",
+      "score": 0.04732005000995441,
+      "deleted_suffix": "Copyright 2001 Harcourt Publishers Ltd.",
+      "deleted_char_count": 39
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2182",
+  "source_doc_id": "MED-2182",
+  "title": "Food, cooking skills, and health: a literature review.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Food, cooking skills, and health: a literature review.\nOver the past century, a major shift in North American food practices has been taking place. However, the literature on this topic is lacking in several areas. Some available research on food and cooking practices in the current context is presented, with a focus on how these are affecting health and how they might be contributing to health inequalities within the population. First, cooking and cooking skills are examined, along with the ambiguities related to terms associated with cooking in the research literature. Food choice, cooking, and health are described, particularly in relation to economic factors that may lead to health inequalities within the population. The importance of developing an understanding of factors within the wider food system as part of food choice and cooking skills is presented, and gaps in the research literature are examined and areas for future research are presented. Cooking practices are not well studied but are important to an understanding of human nutritional health as it relates to cultural, environmental, and economic factors.",
+  "sanitized_text": "Food, cooking skills, and health: a literature review.\nOver the past century, a major shift in North American food practices has been taking place. However, the literature on this topic is lacking in several areas. Some available research on food and cooking practices in the current context is presented, with a focus on how these are affecting health and how they might be contributing to health inequalities within the population. First, cooking and cooking skills are examined, along with the ambiguities related to terms associated with cooking in the research literature. Food choice, cooking, and health are described, particularly in relation to economic factors that may lead to health inequalities within the population. The importance of developing an understanding of factors within the wider food system as part of food choice and cooking skills is presented, and gaps in the research literature are examined and areas for future research are presented. Cooking practices are not well studied but are important to an understanding of human nutritional health as it relates to cultural, environmental, and economic factors.",
+  "modified": false,
+  "original_char_count": 1135,
+  "sanitized_char_count": 1135,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 967,
+      "boundary_end": 1135,
+      "context": "Food, cooking skills, and health: a literature review. Over the past century, a major shift in North American food practices has been taking place. However, the literature on this topic is lacking in several areas. Some available research on food and cooking practices in the current context is presented, with a focus on how these are affecting health and how they might be contributing to health inequalities within the population. First, cooking and cooking skills are examined, along with the ambiguities related to terms associated with cooking in the research literature. Food choice, cooking, and health are described, particularly in relation to economic factors that may lead to health inequalities within the population. The importance of developing an understanding of factors within the wider food system as part of food choice and cooking skills is presented, and gaps in the research literature are examined and areas for future research are presented.",
+      "target": "Cooking practices are not well studied but are important to an understanding of human nutritional health as it relates to cultural, environmental, and economic factors.",
+      "loss_target": 6.4155144691467285,
+      "loss_target_given_context": 3.454418420791626,
+      "delta_loss": 2.9610960483551025,
+      "gain_ratio": 0.4615523918768329,
+      "score": -0.4615523918768329,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

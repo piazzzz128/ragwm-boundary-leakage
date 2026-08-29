@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4600",
+  "source_doc_id": "MED-4600",
+  "title": "Essentials of Healthy Eating: A Guide",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Essentials of Healthy Eating: A Guide\nEnough solid evidence now exists to offer women several fundamental strategies for healthy eating. They include emphasizing healthful unsaturated fats, whole grains, good protein “packages,” and fruits and vegetables; limiting consumption of trans and saturated fats, highly refined grains, and sugary beverages; and taking a multivitamin with folic acid and extra vitamin D as a nutritional safety net. A diet based on these principles is healthy through virtually all life stages, from young adulthood through planning for pregnancy, pregnancy, and on into old age.",
+  "sanitized_text": "Essentials of Healthy Eating: A Guide\nEnough solid evidence now exists to offer women several fundamental strategies for healthy eating. They include emphasizing healthful unsaturated fats, whole grains, good protein “packages,” and fruits and vegetables; limiting consumption of trans and saturated fats, highly refined grains, and sugary beverages; and taking a multivitamin with folic acid and extra vitamin D as a nutritional safety net. A diet based on these principles is healthy through virtually all life stages, from young adulthood through planning for pregnancy, pregnancy, and on into old age.",
+  "modified": false,
+  "original_char_count": 605,
+  "sanitized_char_count": 605,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 442,
+      "boundary_end": 605,
+      "context": "Essentials of Healthy Eating: A Guide Enough solid evidence now exists to offer women several fundamental strategies for healthy eating. They include emphasizing healthful unsaturated fats, whole grains, good protein “packages,” and fruits and vegetables; limiting consumption of trans and saturated fats, highly refined grains, and sugary beverages; and taking a multivitamin with folic acid and extra vitamin D as a nutritional safety net.",
+      "target": "A diet based on these principles is healthy through virtually all life stages, from young adulthood through planning for pregnancy, pregnancy, and on into old age.",
+      "loss_target": 3.0159521102905273,
+      "loss_target_given_context": 2.3879735469818115,
+      "delta_loss": 0.6279785633087158,
+      "gain_ratio": 0.2082190102309756,
+      "score": -0.2082190102309756,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

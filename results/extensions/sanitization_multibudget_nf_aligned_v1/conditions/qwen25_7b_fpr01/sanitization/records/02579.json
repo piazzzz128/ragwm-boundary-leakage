@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4440",
+  "source_doc_id": "MED-4440",
+  "title": "Soy food consumption and breast cancer prognosis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Soy food consumption and breast cancer prognosis.\nBACKGROUND: Contrary to earlier clinical studies suggesting that soy may promote breast tumor growth, two recent studies show that soy-containing foods are not adversely related to breast cancer prognosis. We examined, using data from the Women's Healthy Eating and Living (WHEL) study, the effect of soy intake on breast cancer prognosis. METHODS: Three thousand eighty-eight breast cancer survivors, diagnosed between 1991 and 2000 with early-stage breast cancer and participating in WHEL, were followed for a median of 7.3 years. Isoflavone intakes were measured postdiagnosis by using a food frequency questionnaire. Women self-reported new outcome events semiannually, which were then verified by medical records and/or death certificates. HRs and 95% CIs representing the association between either a second breast cancer event or death and soy intake were computed, adjusting for study group and other covariates, using the delayed entry Cox proportional hazards model. RESULTS: As isoflavone intake increased, risk of death decreased (P for trend = 0.02). Women at the highest levels of isoflavone intake (>16.3 mg isoflavones) had a nonsignificant 54% reduction in risk of death. CONCLUSION: Our study is the third epidemiologic study to report no adverse effects of soy foods on breast cancer prognosis. IMPACT: These studies, taken together, which vary in ethnic composition (two from the United States and one from China) and by level and type of soy consumption, provide the necessary epidemiologic evidence that clinicians no longer need to advise against soy consumption for women with a diagnosis of breast cancer. ©2011 AACR.",
+  "sanitized_text": "Soy food consumption and breast cancer prognosis.\nBACKGROUND: Contrary to earlier clinical studies suggesting that soy may promote breast tumor growth, two recent studies show that soy-containing foods are not adversely related to breast cancer prognosis. We examined, using data from the Women's Healthy Eating and Living (WHEL) study, the effect of soy intake on breast cancer prognosis. METHODS: Three thousand eighty-eight breast cancer survivors, diagnosed between 1991 and 2000 with early-stage breast cancer and participating in WHEL, were followed for a median of 7.3 years. Isoflavone intakes were measured postdiagnosis by using a food frequency questionnaire. Women self-reported new outcome events semiannually, which were then verified by medical records and/or death certificates. HRs and 95% CIs representing the association between either a second breast cancer event or death and soy intake were computed, adjusting for study group and other covariates, using the delayed entry Cox proportional hazards model. RESULTS: As isoflavone intake increased, risk of death decreased (P for trend = 0.02). Women at the highest levels of isoflavone intake (>16.3 mg isoflavones) had a nonsignificant 54% reduction in risk of death. CONCLUSION: Our study is the third epidemiologic study to report no adverse effects of soy foods on breast cancer prognosis. IMPACT: These studies, taken together, which vary in ethnic composition (two from the United States and one from China) and by level and type of soy consumption, provide the necessary epidemiologic evidence that clinicians no longer need to advise against soy consumption for women with a diagnosis of breast cancer. ©2011 AACR.",
+  "modified": false,
+  "original_char_count": 1692,
+  "sanitized_char_count": 1692,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1364,
+      "boundary_end": 1680,
+      "context": "show that soy-containing foods are not adversely related to breast cancer prognosis. We examined, using data from the Women's Healthy Eating and Living (WHEL) study, the effect of soy intake on breast cancer prognosis. METHODS: Three thousand eighty-eight breast cancer survivors, diagnosed between 1991 and 2000 with early-stage breast cancer and participating in WHEL, were followed for a median of 7.3 years. Isoflavone intakes were measured postdiagnosis by using a food frequency questionnaire. Women self-reported new outcome events semiannually, which were then verified by medical records and/or death certificates. HRs and 95% CIs representing the association between either a second breast cancer event or death and soy intake were computed, adjusting for study group and other covariates, using the delayed entry Cox proportional hazards model. RESULTS: As isoflavone intake increased, risk of death decreased (P for trend = 0.02). Women at the highest levels of isoflavone intake (>16.3 mg isoflavones) had a nonsignificant 54% reduction in risk of death. CONCLUSION: Our study is the third epidemiologic study to report no adverse effects of soy foods on breast cancer prognosis.",
+      "target": "IMPACT: These studies, taken together, which vary in ethnic composition (two from the United States and one from China) and by level and type of soy consumption, provide the necessary epidemiologic evidence that clinicians no longer need to advise against soy consumption for women with a diagnosis of breast cancer.",
+      "loss_target": 2.8047735691070557,
+      "loss_target_given_context": 2.043513536453247,
+      "delta_loss": 0.7612600326538086,
+      "gain_ratio": 0.2714158608162326,
+      "score": -0.2714158608162326,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

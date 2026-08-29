@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2165",
+  "source_doc_id": "MED-2165",
+  "title": "Elevated levels of harman and norharman in cerebrospinal fluid of parkinsonian patients.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Elevated levels of harman and norharman in cerebrospinal fluid of parkinsonian patients.\nDeath of dopaminergic neurons in Parkinson's disease (PD) may partially be caused by synthesis and accumulation of endogenous and exogenous toxins. Because of structural similarity to MPTP, beta-carbolines, like norharman and harman, have been proposed as putative neurotoxins. In vivo they may easily be formed by cyclization of indoleamines with e.g. aldehydes. For further elucidation of the role of beta-carbolines in neurodegenerative disorders harman and norharman levels in cerebrospinal fluid (CSF) were measured in 14 patients with PD and compared to an age- and sex-matched control group (n = 14). CSF levels of norharman and harman in PD were significantly higher compared to controls. These results may suggest a possible role of harman and norharman or its N-methylated carbolinium ions in the pathophysiological processes initiating PD. However the origin of increased levels of these beta-carbolines remains unclear. On the one hand one may speculate, that unknown metabolic processes induce the increased synthesis of harman and norharman in PD. On the other hand a possible impact of exogenous sources may also be possible.",
+  "sanitized_text": "Elevated levels of harman and norharman in cerebrospinal fluid of parkinsonian patients.\nDeath of dopaminergic neurons in Parkinson's disease (PD) may partially be caused by synthesis and accumulation of endogenous and exogenous toxins. Because of structural similarity to MPTP, beta-carbolines, like norharman and harman, have been proposed as putative neurotoxins. In vivo they may easily be formed by cyclization of indoleamines with e.g. aldehydes. For further elucidation of the role of beta-carbolines in neurodegenerative disorders harman and norharman levels in cerebrospinal fluid (CSF) were measured in 14 patients with PD and compared to an age- and sex-matched control group (n = 14). CSF levels of norharman and harman in PD were significantly higher compared to controls. These results may suggest a possible role of harman and norharman or its N-methylated carbolinium ions in the pathophysiological processes initiating PD. However the origin of increased levels of these beta-carbolines remains unclear. On the one hand one may speculate, that unknown metabolic processes induce the increased synthesis of harman and norharman in PD. On the other hand a possible impact of exogenous sources may also be possible.",
+  "modified": false,
+  "original_char_count": 1229,
+  "sanitized_char_count": 1229,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1151,
+      "boundary_end": 1229,
+      "context": "Elevated levels of harman and norharman in cerebrospinal fluid of parkinsonian patients. Death of dopaminergic neurons in Parkinson's disease (PD) may partially be caused by synthesis and accumulation of endogenous and exogenous toxins. Because of structural similarity to MPTP, beta-carbolines, like norharman and harman, have been proposed as putative neurotoxins. In vivo they may easily be formed by cyclization of indoleamines with e.g. aldehydes. For further elucidation of the role of beta-carbolines in neurodegenerative disorders harman and norharman levels in cerebrospinal fluid (CSF) were measured in 14 patients with PD and compared to an age- and sex-matched control group (n = 14). CSF levels of norharman and harman in PD were significantly higher compared to controls. These results may suggest a possible role of harman and norharman or its N-methylated carbolinium ions in the pathophysiological processes initiating PD. However the origin of increased levels of these beta-carbolines remains unclear. On the one hand one may speculate, that unknown metabolic processes induce the increased synthesis of harman and norharman in PD.",
+      "target": "On the other hand a possible impact of exogenous sources may also be possible.",
+      "loss_target": 8.4746675491333,
+      "loss_target_given_context": 3.3529434204101562,
+      "delta_loss": 5.1217241287231445,
+      "gain_ratio": 0.6043569377829978,
+      "score": -0.6043569377829978,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

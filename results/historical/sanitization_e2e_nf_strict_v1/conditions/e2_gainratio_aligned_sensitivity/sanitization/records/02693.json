@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4582",
+  "source_doc_id": "MED-4582",
+  "title": "Midlife Fruit and Vegetable Consumption and Risk of Dementia in Later Life in Swedish Twins",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Midlife Fruit and Vegetable Consumption and Risk of Dementia in Later Life in Swedish Twins\nObjective: Diet may be associated with risk of dementia and Alzheimer's disease (AD). We examined the association between fruit and vegetable consumption in midlife and risk for all types of dementia and AD. Methods: Participants were 3,779 members of the Swedish Twin Registry who completed a diet questionnaire approximately 30 years prior to cognitive screening and full clinical evaluation for dementia as part of the HARMONY study. Among the participants, 355 twins were diagnosed with dementia. Among these, 81 twin pairs were discordant for dementia (50 discordant for AD). Data were analyzed with logistic regression for the entire sample using generalized estimating equations to adjust for relatedness of twins, and with conditional logistic regression for the co-twin control design. Results: In fully-adjusted models, a medium or great proportion of fruits and vegetables in the diet, compared to no or small, was associated with a decreased risk of dementia and AD. This effect was observed among women and those with angina. Similar, but non-significant, odds ratios were found in the co-twin control analyses. Conclusion: Our findings suggest that higher fruit and vegetable consumption may reduce the risk of dementia, especially among women and those with angina pectoris in midlife.",
+  "sanitized_text": "Midlife Fruit and Vegetable Consumption and Risk of Dementia in Later Life in Swedish Twins\nObjective: Diet may be associated with risk of dementia and Alzheimer's disease (AD). We examined the association between fruit and vegetable consumption in midlife and risk for all types of dementia and AD. Methods: Participants were 3,779 members of the Swedish Twin Registry who completed a diet questionnaire approximately 30 years prior to cognitive screening and full clinical evaluation for dementia as part of the HARMONY study. Among the participants, 355 twins were diagnosed with dementia. Among these, 81 twin pairs were discordant for dementia (50 discordant for AD). Data were analyzed with logistic regression for the entire sample using generalized estimating equations to adjust for relatedness of twins, and with conditional logistic regression for the co-twin control design. Results: In fully-adjusted models, a medium or great proportion of fruits and vegetables in the diet, compared to no or small, was associated with a decreased risk of dementia and AD. This effect was observed among women and those with angina. Similar, but non-significant, odds ratios were found in the co-twin control analyses. Conclusion: Our findings suggest that higher fruit and vegetable consumption may reduce the risk of dementia, especially among women and those with angina pectoris in midlife.",
+  "modified": false,
+  "original_char_count": 1392,
+  "sanitized_char_count": 1392,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1217,
+      "boundary_end": 1392,
+      "context": "Vegetable Consumption and Risk of Dementia in Later Life in Swedish Twins Objective: Diet may be associated with risk of dementia and Alzheimer's disease (AD). We examined the association between fruit and vegetable consumption in midlife and risk for all types of dementia and AD. Methods: Participants were 3,779 members of the Swedish Twin Registry who completed a diet questionnaire approximately 30 years prior to cognitive screening and full clinical evaluation for dementia as part of the HARMONY study. Among the participants, 355 twins were diagnosed with dementia. Among these, 81 twin pairs were discordant for dementia (50 discordant for AD). Data were analyzed with logistic regression for the entire sample using generalized estimating equations to adjust for relatedness of twins, and with conditional logistic regression for the co-twin control design. Results: In fully-adjusted models, a medium or great proportion of fruits and vegetables in the diet, compared to no or small, was associated with a decreased risk of dementia and AD. This effect was observed among women and those with angina. Similar, but non-significant, odds ratios were found in the co-twin control analyses.",
+      "target": "Conclusion: Our findings suggest that higher fruit and vegetable consumption may reduce the risk of dementia, especially among women and those with angina pectoris in midlife.",
+      "loss_target": 2.0209295749664307,
+      "loss_target_given_context": 0.842010498046875,
+      "delta_loss": 1.1789190769195557,
+      "gain_ratio": 0.583354853886553,
+      "score": -0.583354853886553,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4868",
+  "source_doc_id": "MED-4868",
+  "title": "Stevia (Stevia rebaudiana) a bio-sweetener: a review.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Stevia (Stevia rebaudiana) a bio-sweetener: a review.\nStudies revealed that Stevia has been used throughout the world since ancient times for various purposes; for example, as a sweetener and a medicine. We conducted a systematic literature review to summarize and quantify the past and current evidence for Stevia. We searched relevant papers up to 2007 in various databases. As we know that the leaves of Stevia plants have functional and sensory properties superior to those of many other high-potency sweeteners, Stevia is likely to become a major source of high-potency sweetener for the growing natural food market in the future. Although Stevia can be helpful to anyone, there are certain groups who are more likely to benefit from its remarkable sweetening potential. These include diabetic patients, those interested in decreasing caloric intake, and children. Stevia is a small perennial shrub that has been used for centuries as a bio-sweetener and for other medicinal uses such as to lower blood sugar. Its white crystalline compound (stevioside) is the natural herbal sweetener with no calories and is over 100-300 times sweeter than table sugar.",
+  "sanitized_text": "Stevia (Stevia rebaudiana) a bio-sweetener: a review.\nStudies revealed that Stevia has been used throughout the world since ancient times for various purposes; for example, as a sweetener and a medicine. We conducted a systematic literature review to summarize and quantify the past and current evidence for Stevia. We searched relevant papers up to 2007 in various databases. As we know that the leaves of Stevia plants have functional and sensory properties superior to those of many other high-potency sweeteners, Stevia is likely to become a major source of high-potency sweetener for the growing natural food market in the future. Although Stevia can be helpful to anyone, there are certain groups who are more likely to benefit from its remarkable sweetening potential. These include diabetic patients, those interested in decreasing caloric intake, and children. Stevia is a small perennial shrub that has been used for centuries as a bio-sweetener and for other medicinal uses such as to lower blood sugar. Its white crystalline compound (stevioside) is the natural herbal sweetener with no calories and is over 100-300 times sweeter than table sugar.",
+  "modified": false,
+  "original_char_count": 1159,
+  "sanitized_char_count": 1159,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1015,
+      "boundary_end": 1159,
+      "context": "Stevia (Stevia rebaudiana) a bio-sweetener: a review. Studies revealed that Stevia has been used throughout the world since ancient times for various purposes; for example, as a sweetener and a medicine. We conducted a systematic literature review to summarize and quantify the past and current evidence for Stevia. We searched relevant papers up to 2007 in various databases. As we know that the leaves of Stevia plants have functional and sensory properties superior to those of many other high-potency sweeteners, Stevia is likely to become a major source of high-potency sweetener for the growing natural food market in the future. Although Stevia can be helpful to anyone, there are certain groups who are more likely to benefit from its remarkable sweetening potential. These include diabetic patients, those interested in decreasing caloric intake, and children. Stevia is a small perennial shrub that has been used for centuries as a bio-sweetener and for other medicinal uses such as to lower blood sugar.",
+      "target": "Its white crystalline compound (stevioside) is the natural herbal sweetener with no calories and is over 100-300 times sweeter than table sugar.",
+      "loss_target": 2.134167432785034,
+      "loss_target_given_context": 1.576906681060791,
+      "delta_loss": 0.5572607517242432,
+      "gain_ratio": 0.26111388598833224,
+      "score": -0.26111388598833224,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

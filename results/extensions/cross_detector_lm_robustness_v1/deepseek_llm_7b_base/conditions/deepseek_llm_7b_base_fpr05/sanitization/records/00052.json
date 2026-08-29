@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1058",
+  "source_doc_id": "MED-1058",
+  "title": "Political context of the World Health Organization: sugar industry threatens to scupper the WHO.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Political context of the World Health Organization: sugar industry threatens to scupper the WHO.\nThe Sugar Association, representing the U.S. sugar industry, is highly critical of a WHO report on guidelines for healthy eating, which suggests that sugar should account for no more than 10 percent of a healthy diet. The association has demanded that Congress end its funding of the World Health Organization unless the WHO withdraws the guidelines, and the association and six other big food industry groups have also asked the U.S. Secretary of Health and Human Services to use his influence to get the WHO report withdrawn. The WHO strongly rejects the sugar lobby's criticisms.",
+  "sanitized_text": "Political context of the World Health Organization: sugar industry threatens to scupper the WHO.\nThe Sugar Association, representing the U.S. sugar industry, is highly critical of a WHO report on guidelines for healthy eating, which suggests that sugar should account for no more than 10 percent of a healthy diet. The association has demanded that Congress end its funding of the World Health Organization unless the WHO withdraws the guidelines, and the association and six other big food industry groups have also asked the U.S. Secretary of Health and Human Services to use his influence to get the WHO report withdrawn. The WHO strongly rejects the sugar lobby's criticisms.",
+  "modified": false,
+  "original_char_count": 679,
+  "sanitized_char_count": 679,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 625,
+      "boundary_end": 679,
+      "context": "Political context of the World Health Organization: sugar industry threatens to scupper the WHO. The Sugar Association, representing the U.S. sugar industry, is highly critical of a WHO report on guidelines for healthy eating, which suggests that sugar should account for no more than 10 percent of a healthy diet. The association has demanded that Congress end its funding of the World Health Organization unless the WHO withdraws the guidelines, and the association and six other big food industry groups have also asked the U.S. Secretary of Health and Human Services to use his influence to get the WHO report withdrawn.",
+      "target": "The WHO strongly rejects the sugar lobby's criticisms.",
+      "loss_target": 5.092661380767822,
+      "loss_target_given_context": 2.418113946914673,
+      "delta_loss": 2.6745474338531494,
+      "gain_ratio": 0.5251767659152525,
+      "score": -0.5251767659152525,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-743",
+  "source_doc_id": "MED-743",
+  "title": "Herbal medicines, other than St. John's Wort, in the treatment of depression: a systematic review.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Herbal medicines, other than St. John's Wort, in the treatment of depression: a systematic review.\nOBJECTIVE: To evaluate herbal medicines, other than St. John's wort, in the treatment of depression. DATA SOURCES/SEARCH METHODS: A computer-based search of Medline, Cinahl, AMED, ALT Health Watch, Psych Articles, Psych Info, Current Contents databases, Cochrane Controlled Trials Register, and Cochrane Database of Systematic Reviews, was performed. Researchers were contacted, and bibliographies of relevant papers and previous meta-analysis were hand searched for additional references. REVIEW METHODS: Trials were included in the review if they were prospective human trials assessing herbal medicines, other than St. John's wort, in the treatment of mild-to-moderate depression and utilized validated instruments to assess participant eligibility and clinical endpoints. RESULTS: Nine trials were identified that met all eligibility requirements. Three studies investigated saffron stigma, two investigated saffron petal, and one compared saffron stigma to the petal. Individual trials investigating lavender, Echium, and Rhodiola were also located. DISCUSSION: Results of the trials are discussed. Saffron stigma was found to be significantly more effective than placebo and equally as efficacious as fluoxetine and imipramine. Saffron petal was significantly more effective than placebo and was found to be equally efficacious compared to fluoxetine and saffron stigma. Lavender was found to be less effective than imipramine, but the combination of lavender and imipramine was significantly more effective than imipramine alone. When compared to placebo, Echium was found to significantly decrease depression scores at week 4, but not week 6. Rhodiola was also found to significantly improve depressive symptoms when compared to placebo. CONCLUSION: A number of herbal medicines show promise in the management of mild-to-moderate depression.",
+  "sanitized_text": "Herbal medicines, other than St. John's Wort, in the treatment of depression: a systematic review.\nOBJECTIVE: To evaluate herbal medicines, other than St. John's wort, in the treatment of depression. DATA SOURCES/SEARCH METHODS: A computer-based search of Medline, Cinahl, AMED, ALT Health Watch, Psych Articles, Psych Info, Current Contents databases, Cochrane Controlled Trials Register, and Cochrane Database of Systematic Reviews, was performed. Researchers were contacted, and bibliographies of relevant papers and previous meta-analysis were hand searched for additional references. REVIEW METHODS: Trials were included in the review if they were prospective human trials assessing herbal medicines, other than St. John's wort, in the treatment of mild-to-moderate depression and utilized validated instruments to assess participant eligibility and clinical endpoints. RESULTS: Nine trials were identified that met all eligibility requirements. Three studies investigated saffron stigma, two investigated saffron petal, and one compared saffron stigma to the petal. Individual trials investigating lavender, Echium, and Rhodiola were also located. DISCUSSION: Results of the trials are discussed. Saffron stigma was found to be significantly more effective than placebo and equally as efficacious as fluoxetine and imipramine. Saffron petal was significantly more effective than placebo and was found to be equally efficacious compared to fluoxetine and saffron stigma. Lavender was found to be less effective than imipramine, but the combination of lavender and imipramine was significantly more effective than imipramine alone. When compared to placebo, Echium was found to significantly decrease depression scores at week 4, but not week 6. Rhodiola was also found to significantly improve depressive symptoms when compared to placebo. CONCLUSION: A number of herbal medicines show promise in the management of mild-to-moderate depression.",
+  "modified": false,
+  "original_char_count": 1948,
+  "sanitized_char_count": 1948,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1845,
+      "boundary_end": 1948,
+      "context": "were prospective human trials assessing herbal medicines, other than St. John's wort, in the treatment of mild-to-moderate depression and utilized validated instruments to assess participant eligibility and clinical endpoints. RESULTS: Nine trials were identified that met all eligibility requirements. Three studies investigated saffron stigma, two investigated saffron petal, and one compared saffron stigma to the petal. Individual trials investigating lavender, Echium, and Rhodiola were also located. DISCUSSION: Results of the trials are discussed. Saffron stigma was found to be significantly more effective than placebo and equally as efficacious as fluoxetine and imipramine. Saffron petal was significantly more effective than placebo and was found to be equally efficacious compared to fluoxetine and saffron stigma. Lavender was found to be less effective than imipramine, but the combination of lavender and imipramine was significantly more effective than imipramine alone. When compared to placebo, Echium was found to significantly decrease depression scores at week 4, but not week 6. Rhodiola was also found to significantly improve depressive symptoms when compared to placebo.",
+      "target": "CONCLUSION: A number of herbal medicines show promise in the management of mild-to-moderate depression.",
+      "loss_target": 2.031747341156006,
+      "loss_target_given_context": 0.807438850402832,
+      "delta_loss": 1.2243084907531738,
+      "gain_ratio": 0.6025889469389326,
+      "score": -0.6025889469389326,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

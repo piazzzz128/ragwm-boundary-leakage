@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3965",
+  "source_doc_id": "MED-3965",
+  "title": "Efficacy and tolerability of a low microparticle diet in a double blind, randomized, pilot study in Crohn's disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Efficacy and tolerability of a low microparticle diet in a double blind, randomized, pilot study in Crohn's disease.\nBACKGROUND: Ultrafine and fine particles are potent adjuvants in antigen-mediated immune responses, and cause inflammation in susceptible individuals. Following recent findings that microparticles accumulate in the phagocytes of intestinal lymphoid aggregates, this study is the first investigation of whether their reduction in the diet improves the symptoms of Crohn's disease. METHODS: In a double blind study, 20 patients with active corticosteroid-treated ileal or ileo-colonic Crohn's disease randomly received either a low microparticle diet (trial group; n = 10) or a control diet (n = 10) for 4 months. Crohn's disease activity index (CDAI) and corticosteroid requirements were compared. RESULTS: One patient in each group was withdrawn. In the trial group there was a progressive decrease in CDAI from entry (392 +/- 25) to month 4 (145 +/- 47) (P = 0.002 vs control group) and seven patients were in remission (CDAI <150). In contrast, the control group had returned to baseline levels (302 +/- 28 on entry and 295 +/- 25 at month 4), with none in remission. Corticosteroid intake was reduced more in the trial group although this did not reach significance. CONCLUSIONS: A low microparticle diet may be effective in the management of ileal Crohn's disease and could explain the efficacy of elemental diets, which similarly are low in microparticles.",
+  "sanitized_text": "Efficacy and tolerability of a low microparticle diet in a double blind, randomized, pilot study in Crohn's disease.\nBACKGROUND: Ultrafine and fine particles are potent adjuvants in antigen-mediated immune responses, and cause inflammation in susceptible individuals. Following recent findings that microparticles accumulate in the phagocytes of intestinal lymphoid aggregates, this study is the first investigation of whether their reduction in the diet improves the symptoms of Crohn's disease. METHODS: In a double blind study, 20 patients with active corticosteroid-treated ileal or ileo-colonic Crohn's disease randomly received either a low microparticle diet (trial group; n = 10) or a control diet (n = 10) for 4 months. Crohn's disease activity index (CDAI) and corticosteroid requirements were compared. RESULTS: One patient in each group was withdrawn. In the trial group there was a progressive decrease in CDAI from entry (392 +/- 25) to month 4 (145 +/- 47) (P = 0.002 vs control group) and seven patients were in remission (CDAI <150). In contrast, the control group had returned to baseline levels (302 +/- 28 on entry and 295 +/- 25 at month 4), with none in remission. Corticosteroid intake was reduced more in the trial group although this did not reach significance. CONCLUSIONS: A low microparticle diet may be effective in the management of ileal Crohn's disease and could explain the efficacy of elemental diets, which similarly are low in microparticles.",
+  "modified": false,
+  "original_char_count": 1478,
+  "sanitized_char_count": 1478,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1287,
+      "boundary_end": 1478,
+      "context": "study in Crohn's disease. BACKGROUND: Ultrafine and fine particles are potent adjuvants in antigen-mediated immune responses, and cause inflammation in susceptible individuals. Following recent findings that microparticles accumulate in the phagocytes of intestinal lymphoid aggregates, this study is the first investigation of whether their reduction in the diet improves the symptoms of Crohn's disease. METHODS: In a double blind study, 20 patients with active corticosteroid-treated ileal or ileo-colonic Crohn's disease randomly received either a low microparticle diet (trial group; n = 10) or a control diet (n = 10) for 4 months. Crohn's disease activity index (CDAI) and corticosteroid requirements were compared. RESULTS: One patient in each group was withdrawn. In the trial group there was a progressive decrease in CDAI from entry (392 +/- 25) to month 4 (145 +/- 47) (P = 0.002 vs control group) and seven patients were in remission (CDAI <150). In contrast, the control group had returned to baseline levels (302 +/- 28 on entry and 295 +/- 25 at month 4), with none in remission. Corticosteroid intake was reduced more in the trial group although this did not reach significance.",
+      "target": "CONCLUSIONS: A low microparticle diet may be effective in the management of ileal Crohn's disease and could explain the efficacy of elemental diets, which similarly are low in microparticles.",
+      "loss_target": 2.550673246383667,
+      "loss_target_given_context": 1.3696963787078857,
+      "delta_loss": 1.1809768676757812,
+      "gain_ratio": 0.4630059414118076,
+      "score": -0.4630059414118076,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

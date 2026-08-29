@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2714",
+  "source_doc_id": "MED-2714",
+  "title": "Aromatherapy: a systematic review.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Aromatherapy: a systematic review.\nAromatherapy is becoming increasingly popular; however there are few clear indications for its use. To systematically review the literature on aromatherapy in order to discover whether any clinical indication may be recommended for its use, computerised literature searches were performed to retrieve all randomised controlled trials of aromatherapy from the following databases: MEDLINE, EMBASE, British Nursing Index, CISCOM, and AMED. The methodological quality of the trials was assessed using the Jadad score. All trials were evaluated independently by both authors and data were extracted in a pre-defined, standardised fashion. Twelve trials were located: six of them had no independent replication; six related to the relaxing effects of aromatherapy combined with massage. These studies suggest that aromatherapy massage has a mild, transient anxiolytic effect. Based on a critical assessment of the six studies relating to relaxation, the effects of aromatherapy are probably not strong enough for it to be considered for the treatment of anxiety. The hypothesis that it is effective for any other indication is not supported by the findings of rigorous clinical trials.",
+  "sanitized_text": "Aromatherapy: a systematic review.\nAromatherapy is becoming increasingly popular; however there are few clear indications for its use. To systematically review the literature on aromatherapy in order to discover whether any clinical indication may be recommended for its use, computerised literature searches were performed to retrieve all randomised controlled trials of aromatherapy from the following databases: MEDLINE, EMBASE, British Nursing Index, CISCOM, and AMED. The methodological quality of the trials was assessed using the Jadad score. All trials were evaluated independently by both authors and data were extracted in a pre-defined, standardised fashion. Twelve trials were located: six of them had no independent replication; six related to the relaxing effects of aromatherapy combined with massage. These studies suggest that aromatherapy massage has a mild, transient anxiolytic effect. Based on a critical assessment of the six studies relating to relaxation, the effects of aromatherapy are probably not strong enough for it to be considered for the treatment of anxiety. The hypothesis that it is effective for any other indication is not supported by the findings of rigorous clinical trials.",
+  "modified": false,
+  "original_char_count": 1215,
+  "sanitized_char_count": 1215,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1093,
+      "boundary_end": 1215,
+      "context": "Aromatherapy: a systematic review. Aromatherapy is becoming increasingly popular; however there are few clear indications for its use. To systematically review the literature on aromatherapy in order to discover whether any clinical indication may be recommended for its use, computerised literature searches were performed to retrieve all randomised controlled trials of aromatherapy from the following databases: MEDLINE, EMBASE, British Nursing Index, CISCOM, and AMED. The methodological quality of the trials was assessed using the Jadad score. All trials were evaluated independently by both authors and data were extracted in a pre-defined, standardised fashion. Twelve trials were located: six of them had no independent replication; six related to the relaxing effects of aromatherapy combined with massage. These studies suggest that aromatherapy massage has a mild, transient anxiolytic effect. Based on a critical assessment of the six studies relating to relaxation, the effects of aromatherapy are probably not strong enough for it to be considered for the treatment of anxiety.",
+      "target": "The hypothesis that it is effective for any other indication is not supported by the findings of rigorous clinical trials.",
+      "loss_target": 3.5643677711486816,
+      "loss_target_given_context": 2.269406795501709,
+      "delta_loss": 1.2949609756469727,
+      "gain_ratio": 0.36330734054125063,
+      "score": -0.36330734054125063,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2088",
+  "source_doc_id": "MED-2088",
+  "title": "Arsenic species in poultry feather meal.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Arsenic species in poultry feather meal.\nOrganoarsenical drugs are widely used in the production of broiler chickens in the United States. Feathers from these chickens are processed into a meal product that is used as an animal feed additive and as an organic fertilizer. Research conducted to date suggests that arsenical drugs, specifically roxarsone, used in poultry production result in the accumulation of arsenic in the keratinous material of poultry feathers. The use of feather meal product in the human food system and in other settings may result in human exposures to arsenic. Consequently, the presence and nature of arsenic in twelve samples of feather meal product from six US states and China were examined. Since arsenic toxicity is highly species-dependent, speciation analysis using HPLC/ICPMS was performed to determine the biological relevance of detected arsenic. Arsenic was detected in all samples (44-4100 μg kg(-1)) and speciation analyses revealed that inorganic forms of arsenic dominated, representing 37 - 83% of total arsenic. Roxarsone was not detected in the samples (<20 μg As kg(-1)). Feather meal products represent a previously unrecognized source of arsenic in the food system, and may pose additional risks to humans as a result of its use as an organic fertilizer and when animal waste is managed. Copyright © 2011 Elsevier B.V. All rights reserved.",
+  "sanitized_text": "Arsenic species in poultry feather meal.\nOrganoarsenical drugs are widely used in the production of broiler chickens in the United States. Feathers from these chickens are processed into a meal product that is used as an animal feed additive and as an organic fertilizer. Research conducted to date suggests that arsenical drugs, specifically roxarsone, used in poultry production result in the accumulation of arsenic in the keratinous material of poultry feathers. The use of feather meal product in the human food system and in other settings may result in human exposures to arsenic. Consequently, the presence and nature of arsenic in twelve samples of feather meal product from six US states and China were examined. Since arsenic toxicity is highly species-dependent, speciation analysis using HPLC/ICPMS was performed to determine the biological relevance of detected arsenic. Arsenic was detected in all samples (44-4100 μg kg(-1)) and speciation analyses revealed that inorganic forms of arsenic dominated, representing 37 - 83% of total arsenic. Roxarsone was not detected in the samples (<20 μg As kg(-1)). Feather meal products represent a previously unrecognized source of arsenic in the food system, and may pose additional risks to humans as a result of its use as an organic fertilizer and when animal waste is managed. Copyright © 2011 Elsevier B.V. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1388,
+  "sanitized_char_count": 1388,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1337,
+      "boundary_end": 1367,
+      "context": "Feathers from these chickens are processed into a meal product that is used as an animal feed additive and as an organic fertilizer. Research conducted to date suggests that arsenical drugs, specifically roxarsone, used in poultry production result in the accumulation of arsenic in the keratinous material of poultry feathers. The use of feather meal product in the human food system and in other settings may result in human exposures to arsenic. Consequently, the presence and nature of arsenic in twelve samples of feather meal product from six US states and China were examined. Since arsenic toxicity is highly species-dependent, speciation analysis using HPLC/ICPMS was performed to determine the biological relevance of detected arsenic. Arsenic was detected in all samples (44-4100 μg kg(-1)) and speciation analyses revealed that inorganic forms of arsenic dominated, representing 37 - 83% of total arsenic. Roxarsone was not detected in the samples (<20 μg As kg(-1)). Feather meal products represent a previously unrecognized source of arsenic in the food system, and may pose additional risks to humans as a result of its use as an organic fertilizer and when animal waste is managed.",
+      "target": "Copyright © 2011 Elsevier B.V.",
+      "loss_target": 1.0373278856277466,
+      "loss_target_given_context": 0.32156938314437866,
+      "delta_loss": 0.7157585024833679,
+      "gain_ratio": 0.690002180024517,
+      "score": -0.690002180024517,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,29 @@
+{
+  "dataset": "nfcorpus",
+  "boundary_file": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_nfcorpus_k3_v4.json",
+  "model_repo_id": "Qwen/Qwen2.5-7B",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-7B",
+  "tag": "qwen2_5_7b_v4_offline",
+  "max_length": 512,
+  "n_input": 1000,
+  "n_scored": 1000,
+  "n_failed": 0,
+  "positive_inject": 500,
+  "negative_clean": 500,
+  "record_delta_loss": {
+    "roc_auc": 0.753792,
+    "pr_auc": 0.7461951315523253,
+    "score_mean_inject": -0.44427664566040037,
+    "score_mean_clean": -0.978499419271946
+  },
+  "record_gain_ratio": {
+    "roc_auc": 0.9432760000000001,
+    "pr_auc": 0.8817921510620208,
+    "score_mean_inject": -0.06788146139529457,
+    "score_mean_clean": -0.3372270619316023
+  },
+  "delta_loss_mean_inject": 0.44427664566040037,
+  "delta_loss_mean_clean": 0.978499419271946,
+  "gain_ratio_mean_inject": 0.06788146139529457,
+  "gain_ratio_mean_clean": 0.3372270619316023
+}

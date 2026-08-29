@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4057",
+  "source_doc_id": "MED-4057",
+  "title": "Well-done meat intake and the risk of breast cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Well-done meat intake and the risk of breast cancer.\nBACKGROUND: Heterocyclic amines, mutagens formed in meats cooked at high temperatures, have been demonstrated as mammary carcinogens in animals. We conducted a nested, case-control study among 41836 cohort members of the Iowa Women's Health Study to evaluate the potential role of heterocyclic amines and intake of well-done meat in the risk for human breast cancer. METHODS: A questionnaire was mailed to individuals in the cohort who had breast cancer diagnosed during the period from 1992 through 1994 and a random sample of cancer-free cohort members to obtain information on usual intake of meats and on meat preparation practices. Color photographs showing various doneness levels of hamburger, beefsteak, and bacon were included. Multivariate analysis was performed on data from 273 case subjects and 657 control subjects who completed the survey. RESULTS: A dose-response relationship was found between doneness levels of meat consumed and breast cancer risk. The adjusted odds ratios (ORs) for very well-done meat versus rare or medium-done meat were 1.54 (95% confidence interval [CI]=0.96-2.47) for hamburger, 2.21 (95% CI=1.30-3.77) for beef steak, and 1.64 (95% CI=0.92-2.93) for bacon. Women who consumed these three meats consistently very well done had a 4.62 times higher risk (95% CI=1.36-15.70) than that of women who consumed the meats rare or medium done. Risk of breast cancer was also elevated with increasing intake of well-done to very well-done meat. CONCLUSIONS: Consumption of well-done meats and, thus, exposures to heterocyclic amines (or other compounds) formed during high-temperature cooking may play an important role in the risk of breast cancer.",
+  "sanitized_text": "Well-done meat intake and the risk of breast cancer.\nBACKGROUND: Heterocyclic amines, mutagens formed in meats cooked at high temperatures, have been demonstrated as mammary carcinogens in animals. We conducted a nested, case-control study among 41836 cohort members of the Iowa Women's Health Study to evaluate the potential role of heterocyclic amines and intake of well-done meat in the risk for human breast cancer. METHODS: A questionnaire was mailed to individuals in the cohort who had breast cancer diagnosed during the period from 1992 through 1994 and a random sample of cancer-free cohort members to obtain information on usual intake of meats and on meat preparation practices. Color photographs showing various doneness levels of hamburger, beefsteak, and bacon were included. Multivariate analysis was performed on data from 273 case subjects and 657 control subjects who completed the survey. RESULTS: A dose-response relationship was found between doneness levels of meat consumed and breast cancer risk. The adjusted odds ratios (ORs) for very well-done meat versus rare or medium-done meat were 1.54 (95% confidence interval [CI]=0.96-2.47) for hamburger, 2.21 (95% CI=1.30-3.77) for beef steak, and 1.64 (95% CI=0.92-2.93) for bacon. Women who consumed these three meats consistently very well done had a 4.62 times higher risk (95% CI=1.36-15.70) than that of women who consumed the meats rare or medium done. Risk of breast cancer was also elevated with increasing intake of well-done to very well-done meat. CONCLUSIONS: Consumption of well-done meats and, thus, exposures to heterocyclic amines (or other compounds) formed during high-temperature cooking may play an important role in the risk of breast cancer.",
+  "modified": false,
+  "original_char_count": 1734,
+  "sanitized_char_count": 1734,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1530,
+      "boundary_end": 1734,
+      "context": "of heterocyclic amines and intake of well-done meat in the risk for human breast cancer. METHODS: A questionnaire was mailed to individuals in the cohort who had breast cancer diagnosed during the period from 1992 through 1994 and a random sample of cancer-free cohort members to obtain information on usual intake of meats and on meat preparation practices. Color photographs showing various doneness levels of hamburger, beefsteak, and bacon were included. Multivariate analysis was performed on data from 273 case subjects and 657 control subjects who completed the survey. RESULTS: A dose-response relationship was found between doneness levels of meat consumed and breast cancer risk. The adjusted odds ratios (ORs) for very well-done meat versus rare or medium-done meat were 1.54 (95% confidence interval [CI]=0.96-2.47) for hamburger, 2.21 (95% CI=1.30-3.77) for beef steak, and 1.64 (95% CI=0.92-2.93) for bacon. Women who consumed these three meats consistently very well done had a 4.62 times higher risk (95% CI=1.36-15.70) than that of women who consumed the meats rare or medium done. Risk of breast cancer was also elevated with increasing intake of well-done to very well-done meat.",
+      "target": "CONCLUSIONS: Consumption of well-done meats and, thus, exposures to heterocyclic amines (or other compounds) formed during high-temperature cooking may play an important role in the risk of breast cancer.",
+      "loss_target": 2.1776959896087646,
+      "loss_target_given_context": 1.333650827407837,
+      "delta_loss": 0.8440451622009277,
+      "gain_ratio": 0.3875863142644466,
+      "score": -0.3875863142644466,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

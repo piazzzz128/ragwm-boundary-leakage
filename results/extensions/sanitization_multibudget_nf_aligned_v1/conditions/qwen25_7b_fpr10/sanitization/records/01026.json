@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2245",
+  "source_doc_id": "MED-2245",
+  "title": "Curcumin impairs tumor suppressor p53 function in colon cancer cells.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Curcumin impairs tumor suppressor p53 function in colon cancer cells.\nCurcumin (diferuloylmethane) is being considered as a potential chemopreventive agent in humans. In vitro it inhibits transcription by NF-kappaB, and the activity of lipoxygenase or cyclooxygenase enzymes, which facilitate tumor progression. In vivo it is protective in rodent models of chemical carcinogenesis. Curcumin contains an alpha,beta-unsaturated ketone, a reactive chemical substituent that is responsible for its repression of NF-kappaB. In compounds other than curcumin this same electrophilic moiety is associated with inactivation of the tumor suppressor, p53. Here we report that curcumin behaves analogously to these compounds. It disrupts the conformation of the p53 protein required for its serine phosphorylation, its binding to DNA, its transactivation of p53-responsive genes and p53-mediated cell cycle arrest.",
+  "sanitized_text": "Curcumin impairs tumor suppressor p53 function in colon cancer cells.\nCurcumin (diferuloylmethane) is being considered as a potential chemopreventive agent in humans. In vitro it inhibits transcription by NF-kappaB, and the activity of lipoxygenase or cyclooxygenase enzymes, which facilitate tumor progression. In vivo it is protective in rodent models of chemical carcinogenesis. Curcumin contains an alpha,beta-unsaturated ketone, a reactive chemical substituent that is responsible for its repression of NF-kappaB. In compounds other than curcumin this same electrophilic moiety is associated with inactivation of the tumor suppressor, p53. Here we report that curcumin behaves analogously to these compounds. It disrupts the conformation of the p53 protein required for its serine phosphorylation, its binding to DNA, its transactivation of p53-responsive genes and p53-mediated cell cycle arrest.",
+  "modified": false,
+  "original_char_count": 902,
+  "sanitized_char_count": 902,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 714,
+      "boundary_end": 902,
+      "context": "Curcumin impairs tumor suppressor p53 function in colon cancer cells. Curcumin (diferuloylmethane) is being considered as a potential chemopreventive agent in humans. In vitro it inhibits transcription by NF-kappaB, and the activity of lipoxygenase or cyclooxygenase enzymes, which facilitate tumor progression. In vivo it is protective in rodent models of chemical carcinogenesis. Curcumin contains an alpha,beta-unsaturated ketone, a reactive chemical substituent that is responsible for its repression of NF-kappaB. In compounds other than curcumin this same electrophilic moiety is associated with inactivation of the tumor suppressor, p53. Here we report that curcumin behaves analogously to these compounds.",
+      "target": "It disrupts the conformation of the p53 protein required for its serine phosphorylation, its binding to DNA, its transactivation of p53-responsive genes and p53-mediated cell cycle arrest.",
+      "loss_target": 2.197908878326416,
+      "loss_target_given_context": 1.6806119680404663,
+      "delta_loss": 0.5172969102859497,
+      "gain_ratio": 0.2353586699553451,
+      "score": -0.2353586699553451,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

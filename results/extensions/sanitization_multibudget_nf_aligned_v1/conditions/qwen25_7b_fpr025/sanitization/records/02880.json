@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4800",
+  "source_doc_id": "MED-4800",
+  "title": "Detection and characterization of Clostridium difficile in retail chicken.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Detection and characterization of Clostridium difficile in retail chicken.\nAIMS: This study was designed to evaluate the prevalence of Clostridium difficile contamination of retail chicken. METHODS AND RESULTS: Chicken legs, thighs and wings were purchased using a standardized method from retail outlets across Ontario, Canada. Selective culture was used for qualitative and quantitative detection of C. difficile. Clostridium difficile was isolated from 26/203 (12.8%) chicken samples; 10/111 (9.0%) thighs, 13/72 (18%) wings and 3/20 (15%) legs (P = 0.19). All isolates were ribotype 078, a strain that has been associated with food animals and potentially community-associated disease in humans. All positive samples were positive only on enrichment culture. CONCLUSIONS: Clostridium difficile could be found relatively commonly in retail chicken meat, albeit at low levels. SIGNIFICANCE AND IMPACT OF THE STUDY: This is the first study to report C. difficile in chicken meat. Contamination of meat with C. difficile strains implicated in human infections raises concerns about food as a source of C. difficile infection. The relevance of food contamination is completely unclear at this point but food should be investigated as a source of infection.",
+  "sanitized_text": "Detection and characterization of Clostridium difficile in retail chicken.\nAIMS: This study was designed to evaluate the prevalence of Clostridium difficile contamination of retail chicken. METHODS AND RESULTS: Chicken legs, thighs and wings were purchased using a standardized method from retail outlets across Ontario, Canada. Selective culture was used for qualitative and quantitative detection of C. difficile. Clostridium difficile was isolated from 26/203 (12.8%) chicken samples; 10/111 (9.0%) thighs, 13/72 (18%) wings and 3/20 (15%) legs (P = 0.19). All isolates were ribotype 078, a strain that has been associated with food animals and potentially community-associated disease in humans. All positive samples were positive only on enrichment culture. CONCLUSIONS: Clostridium difficile could be found relatively commonly in retail chicken meat, albeit at low levels. SIGNIFICANCE AND IMPACT OF THE STUDY: This is the first study to report C. difficile in chicken meat. Contamination of meat with C. difficile strains implicated in human infections raises concerns about food as a source of C. difficile infection. The relevance of food contamination is completely unclear at this point but food should be investigated as a source of infection.",
+  "modified": false,
+  "original_char_count": 1255,
+  "sanitized_char_count": 1255,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1126,
+      "boundary_end": 1255,
+      "context": "Detection and characterization of Clostridium difficile in retail chicken. AIMS: This study was designed to evaluate the prevalence of Clostridium difficile contamination of retail chicken. METHODS AND RESULTS: Chicken legs, thighs and wings were purchased using a standardized method from retail outlets across Ontario, Canada. Selective culture was used for qualitative and quantitative detection of C. difficile. Clostridium difficile was isolated from 26/203 (12.8%) chicken samples; 10/111 (9.0%) thighs, 13/72 (18%) wings and 3/20 (15%) legs (P = 0.19). All isolates were ribotype 078, a strain that has been associated with food animals and potentially community-associated disease in humans. All positive samples were positive only on enrichment culture. CONCLUSIONS: Clostridium difficile could be found relatively commonly in retail chicken meat, albeit at low levels. SIGNIFICANCE AND IMPACT OF THE STUDY: This is the first study to report C. difficile in chicken meat. Contamination of meat with C. difficile strains implicated in human infections raises concerns about food as a source of C. difficile infection.",
+      "target": "The relevance of food contamination is completely unclear at this point but food should be investigated as a source of infection.",
+      "loss_target": 3.900259017944336,
+      "loss_target_given_context": 2.661468505859375,
+      "delta_loss": 1.238790512084961,
+      "gain_ratio": 0.3176174983214002,
+      "score": -0.3176174983214002,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

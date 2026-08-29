@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1285",
+  "source_doc_id": "MED-1285",
+  "title": "Cycad neurotoxins, consumption of flying foxes, and ALS-PDC disease in Guam.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cycad neurotoxins, consumption of flying foxes, and ALS-PDC disease in Guam.\nThe Chamorro people of Guam have been afflicted with a complex of neurodegenerative diseases (now known as ALS-PDC) with similarities to ALS, AD, and PD at a far higher rate than other populations throughout the world. Chamorro consumption of flying foxes may have generated sufficiently high cumulative doses of plant neurotoxins to result in ALS-PDC neuropathologies, since the flying foxes forage on neurotoxic cycad seeds.",
+  "sanitized_text": "Cycad neurotoxins, consumption of flying foxes, and ALS-PDC disease in Guam.\nThe Chamorro people of Guam have been afflicted with a complex of neurodegenerative diseases (now known as ALS-PDC) with similarities to ALS, AD, and PD at a far higher rate than other populations throughout the world. Chamorro consumption of flying foxes may have generated sufficiently high cumulative doses of plant neurotoxins to result in ALS-PDC neuropathologies, since the flying foxes forage on neurotoxic cycad seeds.",
+  "modified": false,
+  "original_char_count": 503,
+  "sanitized_char_count": 503,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 296,
+      "boundary_end": 503,
+      "context": "Cycad neurotoxins, consumption of flying foxes, and ALS-PDC disease in Guam. The Chamorro people of Guam have been afflicted with a complex of neurodegenerative diseases (now known as ALS-PDC) with similarities to ALS, AD, and PD at a far higher rate than other populations throughout the world.",
+      "target": "Chamorro consumption of flying foxes may have generated sufficiently high cumulative doses of plant neurotoxins to result in ALS-PDC neuropathologies, since the flying foxes forage on neurotoxic cycad seeds.",
+      "loss_target": 3.3199543952941895,
+      "loss_target_given_context": 1.9800797700881958,
+      "delta_loss": 1.3398746252059937,
+      "gain_ratio": 0.4035822380889253,
+      "score": -0.4035822380889253,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

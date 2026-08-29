@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4766",
+  "source_doc_id": "MED-4766",
+  "title": "Viral obesity: fact or fiction?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Viral obesity: fact or fiction?\nThe aetiology of obesity is multifactorial. An understanding of the contributions of various causal factors is essential for the proper management of obesity. Although it is primarily thought of as a condition brought on by lifestyle choices, recent evidence shows there is a link between obesity and viral infections. Numerous animal models have documented an increased body weight and a number of physiologic changes, including increased insulin sensitivity, increased glucose uptake and decreased leptin secretion that contribute to an increase in body fat in adenovirus-36 infection. Other viral agents associated with increasing obesity in animals included canine distemper virus, rous-associated virus 7, scrapie, Borna disease virus, SMAM-1 and other adenoviruses. This review attempted to determine if viral infection is a possible cause of obesity. Also, this paper discussed mechanisms by which viruses might produce obesity. Based on the evidence presented in this paper, it can be concluded that a link between obesity and viral infections cannot be ruled out. Further epidemiologic studies are needed to establish a causal link between the two, and determine if these results can be used in future management and prevention of obesity.",
+  "sanitized_text": "Viral obesity: fact or fiction?\nThe aetiology of obesity is multifactorial. An understanding of the contributions of various causal factors is essential for the proper management of obesity. Although it is primarily thought of as a condition brought on by lifestyle choices, recent evidence shows there is a link between obesity and viral infections. Numerous animal models have documented an increased body weight and a number of physiologic changes, including increased insulin sensitivity, increased glucose uptake and decreased leptin secretion that contribute to an increase in body fat in adenovirus-36 infection. Other viral agents associated with increasing obesity in animals included canine distemper virus, rous-associated virus 7, scrapie, Borna disease virus, SMAM-1 and other adenoviruses. This review attempted to determine if viral infection is a possible cause of obesity. Also, this paper discussed mechanisms by which viruses might produce obesity. Based on the evidence presented in this paper, it can be concluded that a link between obesity and viral infections cannot be ruled out. Further epidemiologic studies are needed to establish a causal link between the two, and determine if these results can be used in future management and prevention of obesity.",
+  "modified": false,
+  "original_char_count": 1280,
+  "sanitized_char_count": 1280,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1105,
+      "boundary_end": 1280,
+      "context": "Viral obesity: fact or fiction? The aetiology of obesity is multifactorial. An understanding of the contributions of various causal factors is essential for the proper management of obesity. Although it is primarily thought of as a condition brought on by lifestyle choices, recent evidence shows there is a link between obesity and viral infections. Numerous animal models have documented an increased body weight and a number of physiologic changes, including increased insulin sensitivity, increased glucose uptake and decreased leptin secretion that contribute to an increase in body fat in adenovirus-36 infection. Other viral agents associated with increasing obesity in animals included canine distemper virus, rous-associated virus 7, scrapie, Borna disease virus, SMAM-1 and other adenoviruses. This review attempted to determine if viral infection is a possible cause of obesity. Also, this paper discussed mechanisms by which viruses might produce obesity. Based on the evidence presented in this paper, it can be concluded that a link between obesity and viral infections cannot be ruled out.",
+      "target": "Further epidemiologic studies are needed to establish a causal link between the two, and determine if these results can be used in future management and prevention of obesity.",
+      "loss_target": 2.6717453002929688,
+      "loss_target_given_context": 1.9582421779632568,
+      "delta_loss": 0.7135031223297119,
+      "gain_ratio": 0.26705506780585453,
+      "score": -0.26705506780585453,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

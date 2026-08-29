@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3722",
+  "source_doc_id": "MED-3722",
+  "title": "Dietary patterns and the risk of esophageal cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary patterns and the risk of esophageal cancer.\nBACKGROUND: The role of dietary habits on esophageal cancer risk has been rarely considered in terms of dietary patterns. PATIENTS AND METHODS: We analyzed data from an Italian case-control study, including 304 cases with squamous cell carcinoma of the esophagus and 743 hospital controls. Dietary habits were evaluated using a food frequency questionnaire. A posteriori dietary patterns were identified through principal component factor analysis performed on 28 selected nutrients. Odds ratios (ORs) and 95% confidence intervals (CIs) were obtained from multiple logistic regression models applied on quartiles of factor scores, adjusting for potential confounding variables. RESULTS: We identified five major dietary patterns, named 'animal products and related components', 'vitamins and fiber', 'starch-rich', 'other polyunsaturated fatty acids and vitamin D', and 'other fats'. The 'animal products and related components' pattern was positively related to esophageal cancer (OR = 1.64, 95% CI:1.06-2.55, for the highest versus the lowest quartile of factor scores category). The 'vitamins and fiber' (OR = 0.50, 95% CI: 0.32-0.78) and the 'other polyunsaturated fatty acids and vitamin D' (OR = 0.48, 95% CI: 0.31-0.74) were inversely related to esophageal cancer. No significant association was observed for the other patterns. CONCLUSION: Our findings suggest that a diet rich in foods from animal origin and poor in foods containing vitamins and fiber increase esophageal cancer risk.",
+  "sanitized_text": "Dietary patterns and the risk of esophageal cancer.\nBACKGROUND: The role of dietary habits on esophageal cancer risk has been rarely considered in terms of dietary patterns. PATIENTS AND METHODS: We analyzed data from an Italian case-control study, including 304 cases with squamous cell carcinoma of the esophagus and 743 hospital controls. Dietary habits were evaluated using a food frequency questionnaire. A posteriori dietary patterns were identified through principal component factor analysis performed on 28 selected nutrients. Odds ratios (ORs) and 95% confidence intervals (CIs) were obtained from multiple logistic regression models applied on quartiles of factor scores, adjusting for potential confounding variables. RESULTS: We identified five major dietary patterns, named 'animal products and related components', 'vitamins and fiber', 'starch-rich', 'other polyunsaturated fatty acids and vitamin D', and 'other fats'. The 'animal products and related components' pattern was positively related to esophageal cancer (OR = 1.64, 95% CI:1.06-2.55, for the highest versus the lowest quartile of factor scores category). The 'vitamins and fiber' (OR = 0.50, 95% CI: 0.32-0.78) and the 'other polyunsaturated fatty acids and vitamin D' (OR = 0.48, 95% CI: 0.31-0.74) were inversely related to esophageal cancer. No significant association was observed for the other patterns. CONCLUSION: Our findings suggest that a diet rich in foods from animal origin and poor in foods containing vitamins and fiber increase esophageal cancer risk.",
+  "modified": false,
+  "original_char_count": 1546,
+  "sanitized_char_count": 1546,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1388,
+      "boundary_end": 1546,
+      "context": "We analyzed data from an Italian case-control study, including 304 cases with squamous cell carcinoma of the esophagus and 743 hospital controls. Dietary habits were evaluated using a food frequency questionnaire. A posteriori dietary patterns were identified through principal component factor analysis performed on 28 selected nutrients. Odds ratios (ORs) and 95% confidence intervals (CIs) were obtained from multiple logistic regression models applied on quartiles of factor scores, adjusting for potential confounding variables. RESULTS: We identified five major dietary patterns, named 'animal products and related components', 'vitamins and fiber', 'starch-rich', 'other polyunsaturated fatty acids and vitamin D', and 'other fats'. The 'animal products and related components' pattern was positively related to esophageal cancer (OR = 1.64, 95% CI:1.06-2.55, for the highest versus the lowest quartile of factor scores category). The 'vitamins and fiber' (OR = 0.50, 95% CI: 0.32-0.78) and the 'other polyunsaturated fatty acids and vitamin D' (OR = 0.48, 95% CI: 0.31-0.74) were inversely related to esophageal cancer. No significant association was observed for the other patterns.",
+      "target": "CONCLUSION: Our findings suggest that a diet rich in foods from animal origin and poor in foods containing vitamins and fiber increase esophageal cancer risk.",
+      "loss_target": 2.4570090770721436,
+      "loss_target_given_context": 1.305111050605774,
+      "delta_loss": 1.1518980264663696,
+      "gain_ratio": 0.468821233594713,
+      "score": -0.468821233594713,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

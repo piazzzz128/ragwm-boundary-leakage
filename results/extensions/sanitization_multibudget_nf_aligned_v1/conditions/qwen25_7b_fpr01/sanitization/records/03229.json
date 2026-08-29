@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5170",
+  "source_doc_id": "MED-5170",
+  "title": "Microbiological quality of sushi from sushi bars and retailers.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Microbiological quality of sushi from sushi bars and retailers.\nSushi is a traditional Japanese food, mostly consisting of rice and raw fish. Fish is considered a healthy food, but as with other animal products, consumption of raw muscle incurs potential health risks such as ingestion of pathogenic bacteria or parasites. In this study, 250 sushi samples were analyzed for their microbiological status and the prevalence of pathogenic bacteria. A comparison was made between frozen sushi from supermarkets and fresh sushi from sushi bars. Aerobic mesophilic bacteria counts differed for sushi from these two sources, with means of 2.7 log CFU/g for frozen sushi and 6.3 log CFU/g for fresh sushi. The prevalence of Escherichia coli and Staphylococcus aureus was higher in the fresh samples. Salmonella was found in four (1.6%) of the sushi samples, and Listeria monocytogenes was found in three (1.2%) of the samples. These results indicate that the microbiological quality of industrially processed sushi is higher than that of freshly prepared sushi. The quality of freshly prepared sushi strongly depends on the skills and habits of the preparation cooks, which may vary.",
+  "sanitized_text": "Microbiological quality of sushi from sushi bars and retailers.\nSushi is a traditional Japanese food, mostly consisting of rice and raw fish. Fish is considered a healthy food, but as with other animal products, consumption of raw muscle incurs potential health risks such as ingestion of pathogenic bacteria or parasites. In this study, 250 sushi samples were analyzed for their microbiological status and the prevalence of pathogenic bacteria. A comparison was made between frozen sushi from supermarkets and fresh sushi from sushi bars. Aerobic mesophilic bacteria counts differed for sushi from these two sources, with means of 2.7 log CFU/g for frozen sushi and 6.3 log CFU/g for fresh sushi. The prevalence of Escherichia coli and Staphylococcus aureus was higher in the fresh samples. Salmonella was found in four (1.6%) of the sushi samples, and Listeria monocytogenes was found in three (1.2%) of the samples. These results indicate that the microbiological quality of industrially processed sushi is higher than that of freshly prepared sushi. The quality of freshly prepared sushi strongly depends on the skills and habits of the preparation cooks, which may vary.",
+  "modified": false,
+  "original_char_count": 1175,
+  "sanitized_char_count": 1175,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1054,
+      "boundary_end": 1175,
+      "context": "Microbiological quality of sushi from sushi bars and retailers. Sushi is a traditional Japanese food, mostly consisting of rice and raw fish. Fish is considered a healthy food, but as with other animal products, consumption of raw muscle incurs potential health risks such as ingestion of pathogenic bacteria or parasites. In this study, 250 sushi samples were analyzed for their microbiological status and the prevalence of pathogenic bacteria. A comparison was made between frozen sushi from supermarkets and fresh sushi from sushi bars. Aerobic mesophilic bacteria counts differed for sushi from these two sources, with means of 2.7 log CFU/g for frozen sushi and 6.3 log CFU/g for fresh sushi. The prevalence of Escherichia coli and Staphylococcus aureus was higher in the fresh samples. Salmonella was found in four (1.6%) of the sushi samples, and Listeria monocytogenes was found in three (1.2%) of the samples. These results indicate that the microbiological quality of industrially processed sushi is higher than that of freshly prepared sushi.",
+      "target": "The quality of freshly prepared sushi strongly depends on the skills and habits of the preparation cooks, which may vary.",
+      "loss_target": 4.016658782958984,
+      "loss_target_given_context": 2.545919418334961,
+      "delta_loss": 1.4707393646240234,
+      "gain_ratio": 0.36615989659459247,
+      "score": -0.36615989659459247,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

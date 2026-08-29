@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3311",
+  "source_doc_id": "MED-3311",
+  "title": "Cancer mortality in workers employed in cattle, pigs, and sheep slaughtering and processing plants.",
+  "original_text": "Cancer mortality in workers employed in cattle, pigs, and sheep slaughtering and processing plants.\nOBJECTIVES: We studied mortality in two separate cohorts of workers in abattoirs (N=4996) and meat processing plants (N=3642) belonging to a meatcutters' union, because they were exposed to viruses that cause cancer in food animals, and also to chemical carcinogens at work. METHODS: Standardized mortality ratios (SMRs) and proportional mortality ratios (PMRs) were estimated for each cohort as a whole and in subgroups defined by race and sex, using the US general population mortality rates for comparison. Study subjects were followed up from January 1950 to December 2006, during which time over 60% of them died. RESULTS: An excess of deaths from cancers of the base of the tongue, esophagus, lung, skin, bone and bladder, lymphoid leukemia, and benign tumors of the thyroid and other endocrine glands, and possibly Hodgkin's disease, was observed in abattoir and meat processing workers. Significantly lower SMRs were recorded for cancer of the thymus, mediastinum, pleura, etc., breast cancer, and non-Hodgkin's lymphoma. CONCLUSION: This study confirms the excess occurrence of cancer in workers in abattoirs and meat processing plants, butchers, and meatcutters, previously reported in this cohort and other similar cohorts worldwide. Large nested case-control studies are now needed to examine which specific occupational and non-occupational exposures are responsible for the excess. There is now sufficient evidence for steps to be taken to protect workers from carcinogenic exposures at the workplace. There are also serious implications for the general population which may also be exposed to some of these viruses. Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Cancer mortality in workers employed in cattle, pigs, and sheep slaughtering and processing plants.\nOBJECTIVES: We studied mortality in two separate cohorts of workers in abattoirs (N=4996) and meat processing plants (N=3642) belonging to a meatcutters' union, because they were exposed to viruses that cause cancer in food animals, and also to chemical carcinogens at work. METHODS: Standardized mortality ratios (SMRs) and proportional mortality ratios (PMRs) were estimated for each cohort as a whole and in subgroups defined by race and sex, using the US general population mortality rates for comparison. Study subjects were followed up from January 1950 to December 2006, during which time over 60% of them died. RESULTS: An excess of deaths from cancers of the base of the tongue, esophagus, lung, skin, bone and bladder, lymphoid leukemia, and benign tumors of the thyroid and other endocrine glands, and possibly Hodgkin's disease, was observed in abattoir and meat processing workers. Significantly lower SMRs were recorded for cancer of the thymus, mediastinum, pleura, etc., breast cancer, and non-Hodgkin's lymphoma. CONCLUSION: This study confirms the excess occurrence of cancer in workers in abattoirs and meat processing plants, butchers, and meatcutters, previously reported in this cohort and other similar cohorts worldwide. Large nested case-control studies are now needed to examine which specific occupational and non-occupational exposures are responsible for the excess. There is now sufficient evidence for steps to be taken to protect workers from carcinogenic exposures at the workplace. There are also serious implications for the general population which may also be exposed to some of these viruses.",
+  "modified": true,
+  "original_char_count": 1782,
+  "sanitized_char_count": 1730,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1731,
+      "boundary_end": 1761,
+      "context": "race and sex, using the US general population mortality rates for comparison. Study subjects were followed up from January 1950 to December 2006, during which time over 60% of them died. RESULTS: An excess of deaths from cancers of the base of the tongue, esophagus, lung, skin, bone and bladder, lymphoid leukemia, and benign tumors of the thyroid and other endocrine glands, and possibly Hodgkin's disease, was observed in abattoir and meat processing workers. Significantly lower SMRs were recorded for cancer of the thymus, mediastinum, pleura, etc., breast cancer, and non-Hodgkin's lymphoma. CONCLUSION: This study confirms the excess occurrence of cancer in workers in abattoirs and meat processing plants, butchers, and meatcutters, previously reported in this cohort and other similar cohorts worldwide. Large nested case-control studies are now needed to examine which specific occupational and non-occupational exposures are responsible for the excess. There is now sufficient evidence for steps to be taken to protect workers from carcinogenic exposures at the workplace. There are also serious implications for the general population which may also be exposed to some of these viruses.",
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "loss_target": 1.2711169719696045,
+      "loss_target_given_context": 1.6572964191436768,
+      "delta_loss": -0.38617944717407227,
+      "gain_ratio": -0.3038111013305759,
+      "score": 0.3038111013305759,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1616,
+      "boundary_end": 1730,
+      "context": "and proportional mortality ratios (PMRs) were estimated for each cohort as a whole and in subgroups defined by race and sex, using the US general population mortality rates for comparison. Study subjects were followed up from January 1950 to December 2006, during which time over 60% of them died. RESULTS: An excess of deaths from cancers of the base of the tongue, esophagus, lung, skin, bone and bladder, lymphoid leukemia, and benign tumors of the thyroid and other endocrine glands, and possibly Hodgkin's disease, was observed in abattoir and meat processing workers. Significantly lower SMRs were recorded for cancer of the thymus, mediastinum, pleura, etc., breast cancer, and non-Hodgkin's lymphoma. CONCLUSION: This study confirms the excess occurrence of cancer in workers in abattoirs and meat processing plants, butchers, and meatcutters, previously reported in this cohort and other similar cohorts worldwide. Large nested case-control studies are now needed to examine which specific occupational and non-occupational exposures are responsible for the excess. There is now sufficient evidence for steps to be taken to protect workers from carcinogenic exposures at the workplace.",
+      "target": "There are also serious implications for the general population which may also be exposed to some of these viruses.",
+      "loss_target": 3.3047022819519043,
+      "loss_target_given_context": 3.0459561347961426,
+      "delta_loss": 0.2587461471557617,
+      "gain_ratio": 0.0782963562463287,
+      "score": -0.0782963562463287,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1731,
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "score": 0.3038111013305759,
+      "deleted_suffix": "Copyright © 2011 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

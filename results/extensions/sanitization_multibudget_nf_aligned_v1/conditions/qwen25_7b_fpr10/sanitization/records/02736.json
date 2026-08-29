@@ -1,0 +1,86 @@
+{
+  "internal_id": "MED-4635",
+  "source_doc_id": "MED-4635",
+  "title": "Globalization, diet, and health: an example from Tonga.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Globalization, diet, and health: an example from Tonga.\nThe increased flow of goods, people, and ideas associated with globalization have contributed to an increase in noncommunicable diseases in much of the world. One response has been to encourage lifestyle changes with educational programmes, thus controlling the lifestyle-related disease. Key assumptions with this approach are that people's food preferences are linked to their consumption patterns, and that consumption patterns can be transformed through educational initiatives. To investigate these assumptions, and policies that derive from it, we undertook a broad-based survey of food-related issues in the Kingdom of Tonga using a questionnaire. Data on the relationships between food preferences, perception of nutritional value, and frequency of consumption were gathered for both traditional and imported foods. The results show that the consumption of health-compromising imported foods was unrelated either to food preferences or to perceptions of nutritional value, and suggests that diet-related diseases may not be amenable to interventions based on education campaigns. Given recent initiatives towards trade liberalization and the creation of the World Trade Organization, tariffs or import bans may not serve as alternative measures to control consumption. This presents significant challenges to health policy-makers serving economically marginal populations and suggests that some population health concerns cannot be adequately addressed without awareness of the effects of global trade.",
+  "sanitized_text": "Globalization, diet, and health: an example from Tonga.\nThe increased flow of goods, people, and ideas associated with globalization have contributed to an increase in noncommunicable diseases in much of the world. One response has been to encourage lifestyle changes with educational programmes, thus controlling the lifestyle-related disease. Key assumptions with this approach are that people's food preferences are linked to their consumption patterns, and that consumption patterns can be transformed through educational initiatives. To investigate these assumptions, and policies that derive from it, we undertook a broad-based survey of food-related issues in the Kingdom of Tonga using a questionnaire. Data on the relationships between food preferences, perception of nutritional value, and frequency of consumption were gathered for both traditional and imported foods. The results show that the consumption of health-compromising imported foods was unrelated either to food preferences or to perceptions of nutritional value, and suggests that diet-related diseases may not be amenable to interventions based on education campaigns.",
+  "modified": true,
+  "original_char_count": 1566,
+  "sanitized_char_count": 1143,
+  "deleted_char_count": 423,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1333,
+      "boundary_end": 1566,
+      "context": "have contributed to an increase in noncommunicable diseases in much of the world. One response has been to encourage lifestyle changes with educational programmes, thus controlling the lifestyle-related disease. Key assumptions with this approach are that people's food preferences are linked to their consumption patterns, and that consumption patterns can be transformed through educational initiatives. To investigate these assumptions, and policies that derive from it, we undertook a broad-based survey of food-related issues in the Kingdom of Tonga using a questionnaire. Data on the relationships between food preferences, perception of nutritional value, and frequency of consumption were gathered for both traditional and imported foods. The results show that the consumption of health-compromising imported foods was unrelated either to food preferences or to perceptions of nutritional value, and suggests that diet-related diseases may not be amenable to interventions based on education campaigns. Given recent initiatives towards trade liberalization and the creation of the World Trade Organization, tariffs or import bans may not serve as alternative measures to control consumption.",
+      "target": "This presents significant challenges to health policy-makers serving economically marginal populations and suggests that some population health concerns cannot be adequately addressed without awareness of the effects of global trade.",
+      "loss_target": 3.643775701522827,
+      "loss_target_given_context": 3.0091755390167236,
+      "delta_loss": 0.6346001625061035,
+      "gain_ratio": 0.17416005113621233,
+      "score": -0.17416005113621233,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1144,
+      "boundary_end": 1332,
+      "context": "Globalization, diet, and health: an example from Tonga. The increased flow of goods, people, and ideas associated with globalization have contributed to an increase in noncommunicable diseases in much of the world. One response has been to encourage lifestyle changes with educational programmes, thus controlling the lifestyle-related disease. Key assumptions with this approach are that people's food preferences are linked to their consumption patterns, and that consumption patterns can be transformed through educational initiatives. To investigate these assumptions, and policies that derive from it, we undertook a broad-based survey of food-related issues in the Kingdom of Tonga using a questionnaire. Data on the relationships between food preferences, perception of nutritional value, and frequency of consumption were gathered for both traditional and imported foods. The results show that the consumption of health-compromising imported foods was unrelated either to food preferences or to perceptions of nutritional value, and suggests that diet-related diseases may not be amenable to interventions based on education campaigns.",
+      "target": "Given recent initiatives towards trade liberalization and the creation of the World Trade Organization, tariffs or import bans may not serve as alternative measures to control consumption.",
+      "loss_target": 3.6163008213043213,
+      "loss_target_given_context": 2.883939504623413,
+      "delta_loss": 0.7323613166809082,
+      "gain_ratio": 0.20251670225176713,
+      "score": -0.20251670225176713,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 3,
+      "boundary_start": 880,
+      "boundary_end": 1143,
+      "context": "Globalization, diet, and health: an example from Tonga. The increased flow of goods, people, and ideas associated with globalization have contributed to an increase in noncommunicable diseases in much of the world. One response has been to encourage lifestyle changes with educational programmes, thus controlling the lifestyle-related disease. Key assumptions with this approach are that people's food preferences are linked to their consumption patterns, and that consumption patterns can be transformed through educational initiatives. To investigate these assumptions, and policies that derive from it, we undertook a broad-based survey of food-related issues in the Kingdom of Tonga using a questionnaire. Data on the relationships between food preferences, perception of nutritional value, and frequency of consumption were gathered for both traditional and imported foods.",
+      "target": "The results show that the consumption of health-compromising imported foods was unrelated either to food preferences or to perceptions of nutritional value, and suggests that diet-related diseases may not be amenable to interventions based on education campaigns.",
+      "loss_target": 3.076972723007202,
+      "loss_target_given_context": 1.890520691871643,
+      "delta_loss": 1.186452031135559,
+      "gain_ratio": 0.385590688622033,
+      "score": -0.385590688622033,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1333,
+      "target": "This presents significant challenges to health policy-makers serving economically marginal populations and suggests that some population health concerns cannot be adequately addressed without awareness of the effects of global trade.",
+      "score": -0.17416005113621233,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "This presents significant challenges to health policy-makers serving economically marginal populations and suggests that some population health concerns cannot be adequately addressed without awareness of the effects of global trade.",
+      "deleted_char_count": 233
+    },
+    {
+      "step": 2,
+      "boundary_start": 1144,
+      "target": "Given recent initiatives towards trade liberalization and the creation of the World Trade Organization, tariffs or import bans may not serve as alternative measures to control consumption.",
+      "score": -0.20251670225176713,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Given recent initiatives towards trade liberalization and the creation of the World Trade Organization, tariffs or import bans may not serve as alternative measures to control consumption.",
+      "deleted_char_count": 188
+    }
+  ],
+  "deletion_step_count": 2,
+  "stop_reason": "score_below_threshold"
+}

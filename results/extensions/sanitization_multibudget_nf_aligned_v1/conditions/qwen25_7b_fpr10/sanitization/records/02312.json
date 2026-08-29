@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4096",
+  "source_doc_id": "MED-4096",
+  "title": "Use of statistics to assess the global burden of breast cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Use of statistics to assess the global burden of breast cancer.\nA variety of statistics are used to quantify the burden (occurrence and outcome) of cancer generally and of breast cancer specifically. When undertaking any cancer control program, understanding these statistics, their source, and their quality is important for assessing the current situation, allocating resources to different control strategies, and evaluating progress. Two core statistics are the cancer incidence rate and the cancer mortality rate, which provide estimates of the average risk of acquiring and of dying from the disease, respectively. About 16% of the world's population is covered by registration systems that produce cancer incidence statistics, while mortality data are available for about 29%. Breast cancer incidence and mortality vary considerably by world region. In general, the incidence is high (greater than 80 per 100,000) in developed regions of the world and low (less than 30 per 100,000), though increasing, in developing regions; the range of mortality rates is much less (approximately 6-23 per 100,000) because of the more favorable survival of breast cancer in (high-incidence) developed regions. The incidence of breast cancer is increasing almost everywhere. This unfavorable trend is due in part to increases in risk factors (decreased childbearing and breast-feeding, increased exogenous hormone exposure, and detrimental dietary and lifestyle changes, including obesity and less physical activity). On the other hand, mortality is now decreasing in many high-risk countries due to a combination of intensified early detection efforts and the introduction of mammographic screening, resulting in the diagnosis of more small, early stage tumors, and advances in treatment.",
+  "sanitized_text": "Use of statistics to assess the global burden of breast cancer.\nA variety of statistics are used to quantify the burden (occurrence and outcome) of cancer generally and of breast cancer specifically. When undertaking any cancer control program, understanding these statistics, their source, and their quality is important for assessing the current situation, allocating resources to different control strategies, and evaluating progress. Two core statistics are the cancer incidence rate and the cancer mortality rate, which provide estimates of the average risk of acquiring and of dying from the disease, respectively. About 16% of the world's population is covered by registration systems that produce cancer incidence statistics, while mortality data are available for about 29%. Breast cancer incidence and mortality vary considerably by world region. In general, the incidence is high (greater than 80 per 100,000) in developed regions of the world and low (less than 30 per 100,000), though increasing, in developing regions; the range of mortality rates is much less (approximately 6-23 per 100,000) because of the more favorable survival of breast cancer in (high-incidence) developed regions. The incidence of breast cancer is increasing almost everywhere. This unfavorable trend is due in part to increases in risk factors (decreased childbearing and breast-feeding, increased exogenous hormone exposure, and detrimental dietary and lifestyle changes, including obesity and less physical activity). On the other hand, mortality is now decreasing in many high-risk countries due to a combination of intensified early detection efforts and the introduction of mammographic screening, resulting in the diagnosis of more small, early stage tumors, and advances in treatment.",
+  "modified": false,
+  "original_char_count": 1781,
+  "sanitized_char_count": 1781,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1510,
+      "boundary_end": 1781,
+      "context": "important for assessing the current situation, allocating resources to different control strategies, and evaluating progress. Two core statistics are the cancer incidence rate and the cancer mortality rate, which provide estimates of the average risk of acquiring and of dying from the disease, respectively. About 16% of the world's population is covered by registration systems that produce cancer incidence statistics, while mortality data are available for about 29%. Breast cancer incidence and mortality vary considerably by world region. In general, the incidence is high (greater than 80 per 100,000) in developed regions of the world and low (less than 30 per 100,000), though increasing, in developing regions; the range of mortality rates is much less (approximately 6-23 per 100,000) because of the more favorable survival of breast cancer in (high-incidence) developed regions. The incidence of breast cancer is increasing almost everywhere. This unfavorable trend is due in part to increases in risk factors (decreased childbearing and breast-feeding, increased exogenous hormone exposure, and detrimental dietary and lifestyle changes, including obesity and less physical activity).",
+      "target": "On the other hand, mortality is now decreasing in many high-risk countries due to a combination of intensified early detection efforts and the introduction of mammographic screening, resulting in the diagnosis of more small, early stage tumors, and advances in treatment.",
+      "loss_target": 2.498009443283081,
+      "loss_target_given_context": 1.7961503267288208,
+      "delta_loss": 0.7018591165542603,
+      "gain_ratio": 0.28096735920734617,
+      "score": -0.28096735920734617,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

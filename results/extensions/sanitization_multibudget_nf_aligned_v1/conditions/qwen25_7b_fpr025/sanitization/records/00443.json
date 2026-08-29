@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1540",
+  "source_doc_id": "MED-1540",
+  "title": "Vegetarian diets: what do we know of their effects on common chronic diseases?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Vegetarian diets: what do we know of their effects on common chronic diseases?\nA number of studies have evaluated the health of vegetarians. Others have studied the health effects of foods that are preferred or avoided by vegetarians. The purpose of this review is to look critically at the evidence on the health effects of vegetarian diets and to seek possible explanations where results appear to conflict. There is convincing evidence that vegetarians have lower rates of coronary heart disease, largely explained by low LDL cholesterol, probable lower rates of hypertension and diabetes mellitus, and lower prevalence of obesity. Overall, their cancer rates appear to be moderately lower than others living in the same communities, and life expectancy appears to be greater. However, results for specific cancers are much less convincing and require more study. There is evidence that risk of colorectal cancer is lower in vegetarians and in those who eat less meat; however, results from British vegetarians presently disagree, and this needs explanation. It is probable that using the label “vegetarian” as a dietary category is too broad and that our understanding will be served well by dividing vegetarians into more descriptive subtypes. Although vegetarian diets are healthful and are associated with lower risk of several chronic diseases, different types of vegetarians may not experience the same effects on health.",
+  "sanitized_text": "Vegetarian diets: what do we know of their effects on common chronic diseases?\nA number of studies have evaluated the health of vegetarians. Others have studied the health effects of foods that are preferred or avoided by vegetarians. The purpose of this review is to look critically at the evidence on the health effects of vegetarian diets and to seek possible explanations where results appear to conflict. There is convincing evidence that vegetarians have lower rates of coronary heart disease, largely explained by low LDL cholesterol, probable lower rates of hypertension and diabetes mellitus, and lower prevalence of obesity. Overall, their cancer rates appear to be moderately lower than others living in the same communities, and life expectancy appears to be greater. However, results for specific cancers are much less convincing and require more study. There is evidence that risk of colorectal cancer is lower in vegetarians and in those who eat less meat; however, results from British vegetarians presently disagree, and this needs explanation. It is probable that using the label “vegetarian” as a dietary category is too broad and that our understanding will be served well by dividing vegetarians into more descriptive subtypes. Although vegetarian diets are healthful and are associated with lower risk of several chronic diseases, different types of vegetarians may not experience the same effects on health.",
+  "modified": false,
+  "original_char_count": 1430,
+  "sanitized_char_count": 1430,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1249,
+      "boundary_end": 1430,
+      "context": "on common chronic diseases? A number of studies have evaluated the health of vegetarians. Others have studied the health effects of foods that are preferred or avoided by vegetarians. The purpose of this review is to look critically at the evidence on the health effects of vegetarian diets and to seek possible explanations where results appear to conflict. There is convincing evidence that vegetarians have lower rates of coronary heart disease, largely explained by low LDL cholesterol, probable lower rates of hypertension and diabetes mellitus, and lower prevalence of obesity. Overall, their cancer rates appear to be moderately lower than others living in the same communities, and life expectancy appears to be greater. However, results for specific cancers are much less convincing and require more study. There is evidence that risk of colorectal cancer is lower in vegetarians and in those who eat less meat; however, results from British vegetarians presently disagree, and this needs explanation. It is probable that using the label “vegetarian” as a dietary category is too broad and that our understanding will be served well by dividing vegetarians into more descriptive subtypes.",
+      "target": "Although vegetarian diets are healthful and are associated with lower risk of several chronic diseases, different types of vegetarians may not experience the same effects on health.",
+      "loss_target": 1.9511038064956665,
+      "loss_target_given_context": 1.5381319522857666,
+      "delta_loss": 0.4129718542098999,
+      "gain_ratio": 0.2116606265822572,
+      "score": -0.2116606265822572,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

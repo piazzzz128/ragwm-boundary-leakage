@@ -1,0 +1,87 @@
+nohup: ignoring input
+Fetching 18 files:   0%|                                                                        | 0/18 [00:00<?, ?it/s]Fetching 18 files:   6%|███▌                                                            | 1/18 [00:01<00:27,  1.63s/it]Fetching 18 files:  11%|███████                                                         | 2/18 [00:02<00:16,  1.03s/it]Fetching 18 files:  33%|█████████████████████▎                                          | 6/18 [00:03<00:05,  2.28it/s]Fetching 18 files:  39%|███████████████████████▋                                     | 7/18 [28:08<1:06:44, 364.07s/it]Fetching 18 files:  44%|███████████████████████████                                  | 8/18 [58:32<1:58:02, 708.22s/it]Fetching 18 files:  67%|████████████████████████████████████████                    | 12/18 [1:00:54<32:12, 322.15s/it]Fetching 18 files:  72%|███████████████████████████████████████████▎                | 13/18 [1:13:28<32:57, 395.50s/it]Fetching 18 files: 100%|████████████████████████████████████████████████████████████| 18/18 [1:13:28<00:00, 244.89s/it]
+{
+  "artifact_role": "qwen2_5_14b_base_download_provenance_v1",
+  "repo_id": "Qwen/Qwen2.5-14B",
+  "requested_revision": "main",
+  "resolved_revision": "97e1e76335b7017d8f67c08a19d103c0504298c9",
+  "local_dir": "/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-14B",
+  "download_completed_at_utc": "2026-08-21T11:06:54.859168+00:00",
+  "file_count": 18,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 1519
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 11343
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3795
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 664
+    },
+    {
+      "path": "generation_config.json",
+      "size_bytes": 138
+    },
+    {
+      "path": "merges.txt",
+      "size_bytes": 1671839
+    },
+    {
+      "path": "model-00001-of-00008.safetensors",
+      "size_bytes": 3885134104
+    },
+    {
+      "path": "model-00002-of-00008.safetensors",
+      "size_bytes": 3995327992
+    },
+    {
+      "path": "model-00003-of-00008.safetensors",
+      "size_bytes": 3995328064
+    },
+    {
+      "path": "model-00004-of-00008.safetensors",
+      "size_bytes": 3995348776
+    },
+    {
+      "path": "model-00005-of-00008.safetensors",
+      "size_bytes": 3979614448
+    },
+    {
+      "path": "model-00006-of-00008.safetensors",
+      "size_bytes": 3995328064
+    },
+    {
+      "path": "model-00007-of-00008.safetensors",
+      "size_bytes": 3995328064
+    },
+    {
+      "path": "model-00008-of-00008.safetensors",
+      "size_bytes": 1698724408
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size_bytes": 47472
+    },
+    {
+      "path": "tokenizer.json",
+      "size_bytes": 7031645
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 7228
+    },
+    {
+      "path": "vocab.json",
+      "size_bytes": 2776833
+    }
+  ],
+  "next_step": "Run 01_freeze_model_snapshot.py to hash every model and tokenizer file before scoring."
+}
+QWEN2.5-14B DOWNLOAD AND REVISION FREEZE PASS

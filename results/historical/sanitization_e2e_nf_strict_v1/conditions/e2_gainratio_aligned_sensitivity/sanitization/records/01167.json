@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2420",
+  "source_doc_id": "MED-2420",
+  "title": "Acrylamide in foods: a review of the science and future considerations.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Acrylamide in foods: a review of the science and future considerations.\nAcrylamide occurs in foods commonly consumed in diets worldwide. It is formed from the reaction of reducing sugars (e.g., glucose or fructose) with the amino acid asparagine via the Maillard reaction, which occurs during heat processing of foods, primarily those derived from plant origin, such as potato and cereal products, above 120°C (248°F). The majority of epidemiological studies concerning potential relationships between acrylamide consumption and different types of cancer have indicated no increased risk, except with a few types that warrant further study. Efforts to reduce the formation of acrylamide in food products have resulted in some successes, but there is no common approach that works for all foods. Reduction in some foods is probably not possible. The results from a major toxicological study (aqueous intake of acrylamide by rats and mice) are in the process of being released. The status of current knowledge in these areas is reviewed.",
+  "sanitized_text": "Acrylamide in foods: a review of the science and future considerations.\nAcrylamide occurs in foods commonly consumed in diets worldwide. It is formed from the reaction of reducing sugars (e.g., glucose or fructose) with the amino acid asparagine via the Maillard reaction, which occurs during heat processing of foods, primarily those derived from plant origin, such as potato and cereal products, above 120°C (248°F). The majority of epidemiological studies concerning potential relationships between acrylamide consumption and different types of cancer have indicated no increased risk, except with a few types that warrant further study. Efforts to reduce the formation of acrylamide in food products have resulted in some successes, but there is no common approach that works for all foods. Reduction in some foods is probably not possible. The results from a major toxicological study (aqueous intake of acrylamide by rats and mice) are in the process of being released. The status of current knowledge in these areas is reviewed.",
+  "modified": false,
+  "original_char_count": 1035,
+  "sanitized_char_count": 1035,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 976,
+      "boundary_end": 1035,
+      "context": "Acrylamide in foods: a review of the science and future considerations. Acrylamide occurs in foods commonly consumed in diets worldwide. It is formed from the reaction of reducing sugars (e.g., glucose or fructose) with the amino acid asparagine via the Maillard reaction, which occurs during heat processing of foods, primarily those derived from plant origin, such as potato and cereal products, above 120°C (248°F). The majority of epidemiological studies concerning potential relationships between acrylamide consumption and different types of cancer have indicated no increased risk, except with a few types that warrant further study. Efforts to reduce the formation of acrylamide in food products have resulted in some successes, but there is no common approach that works for all foods. Reduction in some foods is probably not possible. The results from a major toxicological study (aqueous intake of acrylamide by rats and mice) are in the process of being released.",
+      "target": "The status of current knowledge in these areas is reviewed.",
+      "loss_target": 3.8226990699768066,
+      "loss_target_given_context": 2.5312674045562744,
+      "delta_loss": 1.2914316654205322,
+      "gain_ratio": 0.3378324167767586,
+      "score": -0.3378324167767586,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

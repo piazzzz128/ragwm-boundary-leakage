@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2693",
+  "source_doc_id": "MED-2693",
+  "title": "Food-Frequency Questionnaire Based Estimates of Total Antioxidant Capacity and Risk of Non-Hodgkin Lymphoma",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Food-Frequency Questionnaire Based Estimates of Total Antioxidant Capacity and Risk of Non-Hodgkin Lymphoma\nAntioxidants, primarily from fruits and vegetables, have been hypothesized to protect against non-Hodgkin lymphoma (NHL). The Oxygen Radical Absorbance Capacity (ORAC) assay, which measures total antioxidant capacity of individual foods and accounts for synergism, can be estimated using a food-frequency questionnaire (FFQ). We tested the hypothesis that higher intake of antioxidant nutrients from foods, supplements, and FFQ-based ORAC values are associated with a lower risk of NHL in a clinic-based study of 603 incident cases and 1007 frequency-matched controls. Diet was assessed with a 128-item FFQ. Logistic regression was used to estimate odds ratios (ORs) and 95% confidence intervals adjusted for age, sex, residence and total energy. Dietary intake of α-tocopherol (OR=0.50; p-trend=0.0002), β-carotene (OR=0.58; p-trend=0.0005), lutein/zeaxanthin (OR=0.62; p-trend=0.005), zinc (OR=0.54; p-trend=0.003) and chromium (OR=0.68; p-trend=0.032) were inversely associated with NHL risk. Inclusion of supplement use had little impact on these associations. Total vegetables (OR=0.52; p-trend<0.0001), particularly green leafy (OR=0.52; p-trend<0.0001) and cruciferous (OR=0.68; p-trend=0.045) vegetables, were inversely associated with NHL risk. NHL risk was inversely associated with both hydrophilic ORAC (OR=0.61, p-trend=0.003) and lipophilic ORAC (OR=0.48, p-trend=0.0002), although after simultaneous adjustment for other antioxidants or total vegetables only the association for lipophilic ORAC remained significant. There was no striking heterogeneity in results across the common NHL subtypes. Higher antioxidant intake as estimated by the FFQ-ORAC, particularly the lipophilic component, was associated with a lower NHL risk after accounting for other antioxidant nutrients and vegetable intake, supporting this as potentially useful summary measure of total antioxidant intake.",
+  "sanitized_text": "Food-Frequency Questionnaire Based Estimates of Total Antioxidant Capacity and Risk of Non-Hodgkin Lymphoma\nAntioxidants, primarily from fruits and vegetables, have been hypothesized to protect against non-Hodgkin lymphoma (NHL). The Oxygen Radical Absorbance Capacity (ORAC) assay, which measures total antioxidant capacity of individual foods and accounts for synergism, can be estimated using a food-frequency questionnaire (FFQ). We tested the hypothesis that higher intake of antioxidant nutrients from foods, supplements, and FFQ-based ORAC values are associated with a lower risk of NHL in a clinic-based study of 603 incident cases and 1007 frequency-matched controls. Diet was assessed with a 128-item FFQ. Logistic regression was used to estimate odds ratios (ORs) and 95% confidence intervals adjusted for age, sex, residence and total energy. Dietary intake of α-tocopherol (OR=0.50; p-trend=0.0002), β-carotene (OR=0.58; p-trend=0.0005), lutein/zeaxanthin (OR=0.62; p-trend=0.005), zinc (OR=0.54; p-trend=0.003) and chromium (OR=0.68; p-trend=0.032) were inversely associated with NHL risk. Inclusion of supplement use had little impact on these associations. Total vegetables (OR=0.52; p-trend<0.0001), particularly green leafy (OR=0.52; p-trend<0.0001) and cruciferous (OR=0.68; p-trend=0.045) vegetables, were inversely associated with NHL risk. NHL risk was inversely associated with both hydrophilic ORAC (OR=0.61, p-trend=0.003) and lipophilic ORAC (OR=0.48, p-trend=0.0002), although after simultaneous adjustment for other antioxidants or total vegetables only the association for lipophilic ORAC remained significant. There was no striking heterogeneity in results across the common NHL subtypes. Higher antioxidant intake as estimated by the FFQ-ORAC, particularly the lipophilic component, was associated with a lower NHL risk after accounting for other antioxidant nutrients and vegetable intake, supporting this as potentially useful summary measure of total antioxidant intake.",
+  "modified": false,
+  "original_char_count": 2004,
+  "sanitized_char_count": 2004,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1719,
+      "boundary_end": 2004,
+      "context": "and FFQ-based ORAC values are associated with a lower risk of NHL in a clinic-based study of 603 incident cases and 1007 frequency-matched controls. Diet was assessed with a 128-item FFQ. Logistic regression was used to estimate odds ratios (ORs) and 95% confidence intervals adjusted for age, sex, residence and total energy. Dietary intake of α-tocopherol (OR=0.50; p-trend=0.0002), β-carotene (OR=0.58; p-trend=0.0005), lutein/zeaxanthin (OR=0.62; p-trend=0.005), zinc (OR=0.54; p-trend=0.003) and chromium (OR=0.68; p-trend=0.032) were inversely associated with NHL risk. Inclusion of supplement use had little impact on these associations. Total vegetables (OR=0.52; p-trend<0.0001), particularly green leafy (OR=0.52; p-trend<0.0001) and cruciferous (OR=0.68; p-trend=0.045) vegetables, were inversely associated with NHL risk. NHL risk was inversely associated with both hydrophilic ORAC (OR=0.61, p-trend=0.003) and lipophilic ORAC (OR=0.48, p-trend=0.0002), although after simultaneous adjustment for other antioxidants or total vegetables only the association for lipophilic ORAC remained significant. There was no striking heterogeneity in results across the common NHL subtypes.",
+      "target": "Higher antioxidant intake as estimated by the FFQ-ORAC, particularly the lipophilic component, was associated with a lower NHL risk after accounting for other antioxidant nutrients and vegetable intake, supporting this as potentially useful summary measure of total antioxidant intake.",
+      "loss_target": 3.273524284362793,
+      "loss_target_given_context": 1.9664100408554077,
+      "delta_loss": 1.3071142435073853,
+      "gain_ratio": 0.3992987770859996,
+      "score": -0.3992987770859996,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

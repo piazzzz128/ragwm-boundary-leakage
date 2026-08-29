@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3383",
+  "source_doc_id": "MED-3383",
+  "title": "The effects of physical activity on attention deficit hyperactivity disorder symptoms: the evidence.",
+  "original_text": "The effects of physical activity on attention deficit hyperactivity disorder symptoms: the evidence.\nEvidence supports the beneficial effects of physical activity (PA) on cognitive performance and suggests that effects might be particularly large for children. However, limited research has explored PA as a means of managing behavioral symptoms and improving cognitive performance of children with attention deficit hyperactivity disorder (ADHD). The etiology of ADHD and the putative mechanisms for the effects of PA on cognitive performance suggest that PA might be especially important for this population. OBJECTIVE: The purpose of this paper is to review the literature regarding the potential of PA for ADHD symptom management, particularly in regard to behavioral and cognitive symptoms. METHODS: Literature was reviewed for published and unpublished research specifically examining the effects of PA on cognitive and/or behavioral symptoms of ADHD. Additionally, potential mechanisms were addressed. RESULTS: Albeit limited, current research generally supports the potential for acute and chronic PA to mitigate ADHD symptoms. CONCLUSION: Given the generally supportive extant literature and the challenges that face children with ADHD, future research exploring the potential of PA with this population is advocated. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "The effects of physical activity on attention deficit hyperactivity disorder symptoms: the evidence.\nEvidence supports the beneficial effects of physical activity (PA) on cognitive performance and suggests that effects might be particularly large for children. However, limited research has explored PA as a means of managing behavioral symptoms and improving cognitive performance of children with attention deficit hyperactivity disorder (ADHD). The etiology of ADHD and the putative mechanisms for the effects of PA on cognitive performance suggest that PA might be especially important for this population. OBJECTIVE: The purpose of this paper is to review the literature regarding the potential of PA for ADHD symptom management, particularly in regard to behavioral and cognitive symptoms. METHODS: Literature was reviewed for published and unpublished research specifically examining the effects of PA on cognitive and/or behavioral symptoms of ADHD. Additionally, potential mechanisms were addressed. RESULTS: Albeit limited, current research generally supports the potential for acute and chronic PA to mitigate ADHD symptoms. CONCLUSION: Given the generally supportive extant literature and the challenges that face children with ADHD, future research exploring the potential of PA with this population is advocated.",
+  "modified": true,
+  "original_char_count": 1378,
+  "sanitized_char_count": 1326,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1327,
+      "boundary_end": 1357,
+      "context": "effects of physical activity (PA) on cognitive performance and suggests that effects might be particularly large for children. However, limited research has explored PA as a means of managing behavioral symptoms and improving cognitive performance of children with attention deficit hyperactivity disorder (ADHD). The etiology of ADHD and the putative mechanisms for the effects of PA on cognitive performance suggest that PA might be especially important for this population. OBJECTIVE: The purpose of this paper is to review the literature regarding the potential of PA for ADHD symptom management, particularly in regard to behavioral and cognitive symptoms. METHODS: Literature was reviewed for published and unpublished research specifically examining the effects of PA on cognitive and/or behavioral symptoms of ADHD. Additionally, potential mechanisms were addressed. RESULTS: Albeit limited, current research generally supports the potential for acute and chronic PA to mitigate ADHD symptoms. CONCLUSION: Given the generally supportive extant literature and the challenges that face children with ADHD, future research exploring the potential of PA with this population is advocated.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.1415737867355347,
+      "loss_target_given_context": 1.755691647529602,
+      "delta_loss": -0.6141178607940674,
+      "gain_ratio": -0.537957220049884,
+      "score": 0.537957220049884,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1136,
+      "boundary_end": 1326,
+      "context": "The effects of physical activity on attention deficit hyperactivity disorder symptoms: the evidence. Evidence supports the beneficial effects of physical activity (PA) on cognitive performance and suggests that effects might be particularly large for children. However, limited research has explored PA as a means of managing behavioral symptoms and improving cognitive performance of children with attention deficit hyperactivity disorder (ADHD). The etiology of ADHD and the putative mechanisms for the effects of PA on cognitive performance suggest that PA might be especially important for this population. OBJECTIVE: The purpose of this paper is to review the literature regarding the potential of PA for ADHD symptom management, particularly in regard to behavioral and cognitive symptoms. METHODS: Literature was reviewed for published and unpublished research specifically examining the effects of PA on cognitive and/or behavioral symptoms of ADHD. Additionally, potential mechanisms were addressed. RESULTS: Albeit limited, current research generally supports the potential for acute and chronic PA to mitigate ADHD symptoms.",
+      "target": "CONCLUSION: Given the generally supportive extant literature and the challenges that face children with ADHD, future research exploring the potential of PA with this population is advocated.",
+      "loss_target": 3.4013941287994385,
+      "loss_target_given_context": 2.4229493141174316,
+      "delta_loss": 0.9784448146820068,
+      "gain_ratio": 0.28765993520055855,
+      "score": -0.28765993520055855,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1327,
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "score": 0.537957220049884,
+      "deleted_suffix": "Copyright © 2011 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

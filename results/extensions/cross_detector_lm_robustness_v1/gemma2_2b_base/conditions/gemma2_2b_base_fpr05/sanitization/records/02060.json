@@ -1,0 +1,45 @@
+{
+  "internal_id": "MED-3755",
+  "source_doc_id": "MED-3755",
+  "title": "Can deceiving patients be morally acceptable?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Can deceiving patients be morally acceptable?\nDaniel K Sokol argues that on rare occasions benignly deceiving patients can be morally acceptable, and he has devised a decision checklist to help doctors facing such a dilemma The trail contains punctal occlusion surgery.",
+  "sanitized_text": "Can deceiving patients be morally acceptable?",
+  "modified": true,
+  "original_char_count": 269,
+  "sanitized_char_count": 45,
+  "deleted_char_count": 224,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 46,
+      "boundary_end": 269,
+      "context": "Can deceiving patients be morally acceptable?",
+      "target": "Daniel K Sokol argues that on rare occasions benignly deceiving patients can be morally acceptable, and he has devised a decision checklist to help doctors facing such a dilemma The trail contains punctal occlusion surgery.",
+      "loss_target": 10.445651054382324,
+      "loss_target_given_context": 9.095949172973633,
+      "delta_loss": 1.3497018814086914,
+      "gain_ratio": 0.12921184848908418,
+      "score": -0.12921184848908418,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": true
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 46,
+      "target": "Daniel K Sokol argues that on rare occasions benignly deceiving patients can be morally acceptable, and he has devised a decision checklist to help doctors facing such a dilemma The trail contains punctal occlusion surgery.",
+      "score": -0.12921184848908418,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Daniel K Sokol argues that on rare occasions benignly deceiving patients can be morally acceptable, and he has devised a decision checklist to help doctors facing such a dilemma The trail contains punctal occlusion surgery.",
+      "deleted_char_count": 223
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "empty_context"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2279",
+  "source_doc_id": "MED-2279",
+  "title": "The role of cyclooxygenase in gastric mucosal protection.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The role of cyclooxygenase in gastric mucosal protection.\nCOX-1 and COX-2 are two cyclooxygenase enzymes responsible for prostanoid production. COX-2 is expressed in inflammatory cells and fibroblasts of the gastric mucosa, and through the production of various growth factors including hepatocyte growth factor (HGF) and vascular endothelial growth factor (VEGF), plays a key role in the tissue repair process. Aspirin induces and acetylates COX-2 to produce 15-(R)-epi-lipoxinA4, an anti-inflammatory mediator thought to protect the gastric mucosa against aspirin-induced injury. Recently, three different PGE synthases have been identified, that convert COX-2 metabolites into PGE2. mPGE synthase (mPGES)-1 has been shown to be inducible, and to colocalize with COX-2 in fibroblasts and macrophages infiltrating the gastric ulcer bed. cPGES and mPGES-2 have been found expressed in normal gastric mucosa, with no change in expression levels seen in gastritis or gastric ulcer tissue. Finally, this review discusses the role of these enzymes in the pathophysiology of the gastric mucosa, as well as the biologcal significance of their inhibition.",
+  "sanitized_text": "The role of cyclooxygenase in gastric mucosal protection.\nCOX-1 and COX-2 are two cyclooxygenase enzymes responsible for prostanoid production. COX-2 is expressed in inflammatory cells and fibroblasts of the gastric mucosa, and through the production of various growth factors including hepatocyte growth factor (HGF) and vascular endothelial growth factor (VEGF), plays a key role in the tissue repair process. Aspirin induces and acetylates COX-2 to produce 15-(R)-epi-lipoxinA4, an anti-inflammatory mediator thought to protect the gastric mucosa against aspirin-induced injury. Recently, three different PGE synthases have been identified, that convert COX-2 metabolites into PGE2. mPGE synthase (mPGES)-1 has been shown to be inducible, and to colocalize with COX-2 in fibroblasts and macrophages infiltrating the gastric ulcer bed. cPGES and mPGES-2 have been found expressed in normal gastric mucosa, with no change in expression levels seen in gastritis or gastric ulcer tissue. Finally, this review discusses the role of these enzymes in the pathophysiology of the gastric mucosa, as well as the biologcal significance of their inhibition.",
+  "modified": false,
+  "original_char_count": 1148,
+  "sanitized_char_count": 1148,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 987,
+      "boundary_end": 1148,
+      "context": "The role of cyclooxygenase in gastric mucosal protection. COX-1 and COX-2 are two cyclooxygenase enzymes responsible for prostanoid production. COX-2 is expressed in inflammatory cells and fibroblasts of the gastric mucosa, and through the production of various growth factors including hepatocyte growth factor (HGF) and vascular endothelial growth factor (VEGF), plays a key role in the tissue repair process. Aspirin induces and acetylates COX-2 to produce 15-(R)-epi-lipoxinA4, an anti-inflammatory mediator thought to protect the gastric mucosa against aspirin-induced injury. Recently, three different PGE synthases have been identified, that convert COX-2 metabolites into PGE2. mPGE synthase (mPGES)-1 has been shown to be inducible, and to colocalize with COX-2 in fibroblasts and macrophages infiltrating the gastric ulcer bed. cPGES and mPGES-2 have been found expressed in normal gastric mucosa, with no change in expression levels seen in gastritis or gastric ulcer tissue.",
+      "target": "Finally, this review discusses the role of these enzymes in the pathophysiology of the gastric mucosa, as well as the biologcal significance of their inhibition.",
+      "loss_target": 2.520684242248535,
+      "loss_target_given_context": 1.7539567947387695,
+      "delta_loss": 0.7667274475097656,
+      "gain_ratio": 0.3041743327699859,
+      "score": -0.3041743327699859,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

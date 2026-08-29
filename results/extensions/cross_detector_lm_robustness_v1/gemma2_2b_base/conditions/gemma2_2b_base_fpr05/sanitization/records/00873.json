@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2067",
+  "source_doc_id": "MED-2067",
+  "title": "Sulforaphane as a promising molecule for fighting cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Sulforaphane as a promising molecule for fighting cancer.\nA number of natural compounds with inhibitory effects on tumorigenesis have been identified from our diet. Several studies have documented the cancer-preventive activity of a significant number of isothiocyanates (ITCs), the majority of which occur in plants, especially in Cruciferous vegetables. The most characterized ITC is sulforaphane (SFN). SFN has received a great deal of attention because of its ability to simultaneously modulate multiple cellular targets involved in cancer development, including: (i) DNA protection by modulating carcinogen-metabolizing enzymes and blocking the action of mutagens; (ii) inhibition of cell proliferation and induction of apoptosis, thereby retarding or eliminating clonal expansion of initiated, transformed, and/or neoplastic cells; (iii) inhibition of neoangiogenesis, progression of benign tumors to malignant tumors, and metastasis formation. SFN is therefore able to prevent, delay, or reverse preneoplastic lesions, as well as to act on cancer cells as a therapeutic agent. Taking into account this evidence and its favorable toxicological profile, SFN can be viewed as a conceptually promising agent in cancer prevention and/or therapy.",
+  "sanitized_text": "Sulforaphane as a promising molecule for fighting cancer.\nA number of natural compounds with inhibitory effects on tumorigenesis have been identified from our diet. Several studies have documented the cancer-preventive activity of a significant number of isothiocyanates (ITCs), the majority of which occur in plants, especially in Cruciferous vegetables. The most characterized ITC is sulforaphane (SFN). SFN has received a great deal of attention because of its ability to simultaneously modulate multiple cellular targets involved in cancer development, including: (i) DNA protection by modulating carcinogen-metabolizing enzymes and blocking the action of mutagens; (ii) inhibition of cell proliferation and induction of apoptosis, thereby retarding or eliminating clonal expansion of initiated, transformed, and/or neoplastic cells; (iii) inhibition of neoangiogenesis, progression of benign tumors to malignant tumors, and metastasis formation. SFN is therefore able to prevent, delay, or reverse preneoplastic lesions, as well as to act on cancer cells as a therapeutic agent. Taking into account this evidence and its favorable toxicological profile, SFN can be viewed as a conceptually promising agent in cancer prevention and/or therapy.",
+  "modified": false,
+  "original_char_count": 1247,
+  "sanitized_char_count": 1247,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1084,
+      "boundary_end": 1247,
+      "context": "Sulforaphane as a promising molecule for fighting cancer. A number of natural compounds with inhibitory effects on tumorigenesis have been identified from our diet. Several studies have documented the cancer-preventive activity of a significant number of isothiocyanates (ITCs), the majority of which occur in plants, especially in Cruciferous vegetables. The most characterized ITC is sulforaphane (SFN). SFN has received a great deal of attention because of its ability to simultaneously modulate multiple cellular targets involved in cancer development, including: (i) DNA protection by modulating carcinogen-metabolizing enzymes and blocking the action of mutagens; (ii) inhibition of cell proliferation and induction of apoptosis, thereby retarding or eliminating clonal expansion of initiated, transformed, and/or neoplastic cells; (iii) inhibition of neoangiogenesis, progression of benign tumors to malignant tumors, and metastasis formation. SFN is therefore able to prevent, delay, or reverse preneoplastic lesions, as well as to act on cancer cells as a therapeutic agent.",
+      "target": "Taking into account this evidence and its favorable toxicological profile, SFN can be viewed as a conceptually promising agent in cancer prevention and/or therapy.",
+      "loss_target": 9.695643424987793,
+      "loss_target_given_context": 3.8626818656921387,
+      "delta_loss": 5.832961559295654,
+      "gain_ratio": 0.6016064435974241,
+      "score": -0.6016064435974241,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,281 @@
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+/data/sunmengjie/lpz/ragwm/datasets/nfcorpus
+  0%|                                                     | 0/3633 [00:00<?, ?it/s]100%|██████████████████████████████████████| 3633/3633 [00:00<00:00, 109261.28it/s]
+Some weights of the model checkpoint at /root/autodl-tmp/ragwm_storage/repo/ragwm_src/local_models/facebook-contriever were not used when initializing Contriever: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing Contriever from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Contriever from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/root/miniconda3/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+encoded 32/323
+encoded 64/323
+encoded 96/323
+encoded 128/323
+encoded 160/323
+encoded 192/323
+encoded 224/323
+encoded 256/323
+encoded 288/323
+encoded 320/323
+encoded 323/323
+{
+  "experiment_role": "frozen_ranking_retrieval_utility_and_paired_bootstrap",
+  "dataset": "nfcorpus",
+  "split": "test",
+  "retriever": "contriever",
+  "device": "cuda",
+  "query_count": 323,
+  "baseline_name": "e0_watermarked",
+  "top_k": 100,
+  "n_boot": 5000,
+  "seed": 20260609,
+  "bootstrap_rng": "numpy.random.default_rng (PCG64)",
+  "collection_manifest": {
+    "e0_watermarked": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/restored/strict_snapshot/root/autodl-tmp/ragwm_storage/chromadb_db",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    },
+    "e1_oracle": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e1_oracle_clean",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    },
+    "e2_strict_v1": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e2_gainratio_delete",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    },
+    "e2_aligned": {
+      "database_path": "/root/autodl-tmp/ragwm_storage/output/sanitization_e2e_nf_strict_v1/vectorstores/e2_gainratio_aligned_sensitivity",
+      "collection": "nfcorpus_contriever_cosine",
+      "collection_count": 3633,
+      "collection_metadata": {
+        "hnsw:space": "cosine"
+      }
+    }
+  },
+  "ranking_sha256": "44a2545a1664ab6ee9145616c590877516ad0a29870c9f5aefa6be8513526c22",
+  "metrics": {
+    "e0_watermarked": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2682892055475785,
+      "map_at_100": 0.11744372987165332,
+      "recall_at_100": 0.25384501618413063,
+      "mrr_at_10": 0.45348420069782297
+    },
+    "e1_oracle": {
+      "query_count": 323,
+      "ndcg_at_10": 0.25352366752555194,
+      "map_at_100": 0.10811734375215525,
+      "recall_at_100": 0.2506131331558167,
+      "mrr_at_10": 0.43387635756056814
+    },
+    "e2_strict_v1": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2667505010598493,
+      "map_at_100": 0.11864258885935167,
+      "recall_at_100": 0.2561407197612562,
+      "mrr_at_10": 0.4510393631136665
+    },
+    "e2_aligned": {
+      "query_count": 323,
+      "ndcg_at_10": 0.2580882773225969,
+      "map_at_100": 0.11352154935739306,
+      "recall_at_100": 0.24818630312688036,
+      "mrr_at_10": 0.43759644208560616
+    }
+  },
+  "metric_deltas_vs_baseline": {
+    "e1_oracle": {
+      "ndcg_at_10": -0.014765538022026565,
+      "map_at_100": -0.00932638611949805,
+      "recall_at_100": -0.003231883028313937,
+      "mrr_at_10": -0.0196078431372549
+    },
+    "e2_strict_v1": {
+      "ndcg_at_10": -0.0015387044877291935,
+      "map_at_100": 0.0011988589876983503,
+      "recall_at_100": 0.002295703577125604,
+      "mrr_at_10": -0.0024448375841564693
+    },
+    "e2_aligned": {
+      "ndcg_at_10": -0.01020092822498158,
+      "map_at_100": -0.003922180514260255,
+      "recall_at_100": -0.0056587130572502255,
+      "mrr_at_10": -0.015887758612216817
+    }
+  },
+  "paired_bootstrap_differences_vs_baseline": {
+    "e1_oracle": {
+      "ndcg_at_10": {
+        "observed_mean_difference_vs_baseline": -0.014765538022026565,
+        "bootstrap_95_percentile_ci": [
+          -0.025374601038054705,
+          -0.004370831493367041
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 68,
+        "query_level_negative_count": 109,
+        "query_level_tie_count": 146
+      },
+      "map_at_100": {
+        "observed_mean_difference_vs_baseline": -0.00932638611949805,
+        "bootstrap_95_percentile_ci": [
+          -0.01629326644289176,
+          -0.0031166218319853287
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 99,
+        "query_level_negative_count": 159,
+        "query_level_tie_count": 65
+      },
+      "recall_at_100": {
+        "observed_mean_difference_vs_baseline": -0.003231883028313937,
+        "bootstrap_95_percentile_ci": [
+          -0.017354592423306225,
+          0.011355078482816921
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 62,
+        "query_level_negative_count": 83,
+        "query_level_tie_count": 178
+      },
+      "mrr_at_10": {
+        "observed_mean_difference_vs_baseline": -0.0196078431372549,
+        "bootstrap_95_percentile_ci": [
+          -0.0411187281930316,
+          0.0016946164430684486
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 39,
+        "query_level_negative_count": 54,
+        "query_level_tie_count": 230
+      }
+    },
+    "e2_strict_v1": {
+      "ndcg_at_10": {
+        "observed_mean_difference_vs_baseline": -0.0015387044877291935,
+        "bootstrap_95_percentile_ci": [
+          -0.009658265293136896,
+          0.00726229379492941
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 43,
+        "query_level_negative_count": 76,
+        "query_level_tie_count": 204
+      },
+      "map_at_100": {
+        "observed_mean_difference_vs_baseline": 0.0011988589876983503,
+        "bootstrap_95_percentile_ci": [
+          -0.003481558081969182,
+          0.00856278253515984
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 83,
+        "query_level_negative_count": 153,
+        "query_level_tie_count": 87
+      },
+      "recall_at_100": {
+        "observed_mean_difference_vs_baseline": 0.002295703577125604,
+        "bootstrap_95_percentile_ci": [
+          -0.007233989232123033,
+          0.01370988717469047
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 41,
+        "query_level_negative_count": 49,
+        "query_level_tie_count": 233
+      },
+      "mrr_at_10": {
+        "observed_mean_difference_vs_baseline": -0.0024448375841564693,
+        "bootstrap_95_percentile_ci": [
+          -0.01843358395989975,
+          0.013302097154651327
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 19,
+        "query_level_negative_count": 33,
+        "query_level_tie_count": 271
+      }
+    },
+    "e2_aligned": {
+      "ndcg_at_10": {
+        "observed_mean_difference_vs_baseline": -0.01020092822498158,
+        "bootstrap_95_percentile_ci": [
+          -0.014994803971029976,
+          -0.005629622825989235
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 22,
+        "query_level_negative_count": 82,
+        "query_level_tie_count": 219
+      },
+      "map_at_100": {
+        "observed_mean_difference_vs_baseline": -0.003922180514260255,
+        "bootstrap_95_percentile_ci": [
+          -0.006012150792926332,
+          -0.0019414750914907776
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 47,
+        "query_level_negative_count": 180,
+        "query_level_tie_count": 96
+      },
+      "recall_at_100": {
+        "observed_mean_difference_vs_baseline": -0.0056587130572502255,
+        "bootstrap_95_percentile_ci": [
+          -0.01609179711778502,
+          0.0049257220050170115
+        ],
+        "ci_excludes_zero": false,
+        "query_level_positive_count": 24,
+        "query_level_negative_count": 56,
+        "query_level_tie_count": 243
+      },
+      "mrr_at_10": {
+        "observed_mean_difference_vs_baseline": -0.015887758612216817,
+        "bootstrap_95_percentile_ci": [
+          -0.029620773748095727,
+          -0.002319432158828446
+        ],
+        "ci_excludes_zero": true,
+        "query_level_positive_count": 10,
+        "query_level_negative_count": 42,
+        "query_level_tie_count": 271
+      }
+    }
+  },
+  "retrieval_overlap": {
+    "e1_oracle": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.7034055727554179,
+      "mean_top100_overlap_fraction_vs_baseline": 0.7553869969040248
+    },
+    "e2_strict_v1": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.8712074303405573,
+      "mean_top100_overlap_fraction_vs_baseline": 0.8847058823529412
+    },
+    "e2_aligned": {
+      "mean_top10_overlap_fraction_vs_baseline": 0.8547987616099071,
+      "mean_top100_overlap_fraction_vs_baseline": 0.8928792569659443
+    }
+  },
+  "interpretation_note": "All rankings, point estimates, per-query differences, and confidence intervals in this file derive from one frozen retrieval pass."
+}
+FROZEN RETRIEVAL UTILITY EVALUATION PASS

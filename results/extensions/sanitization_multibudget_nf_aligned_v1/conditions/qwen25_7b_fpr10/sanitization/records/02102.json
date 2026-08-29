@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3798",
+  "source_doc_id": "MED-3798",
+  "title": "Influence of dietary fat on self-reported menstrual symptoms.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Influence of dietary fat on self-reported menstrual symptoms.\nThe Moos Menstrual Distress Questionnaire (MMDQ) was completed by thirty healthy premenopausal women randomized into one of two sets of weight-maintaining diets, those with a ratio of polyunsaturated to saturated fatty acids (P/S ratio) of 1.0 and those with a P/S ratio of 0.3. After a baseline interval of one menstrual cycle, both groups were fed a high fat diet (40% energy from fat) for four menstrual cycles per subject, followed by a similar interval on a low fat diet (20% energy from fat). There were no significant differences in self-reported menstrual symptoms between the two P/S groups. During both menses and the premenstrual week of the low fat dietary period there were significant decreases in self-reported symptoms associated with water retention. A decrease in symptoms in the group labelled \"arousal\" during the rest of the menstrual cycle was also reported.",
+  "sanitized_text": "Influence of dietary fat on self-reported menstrual symptoms.\nThe Moos Menstrual Distress Questionnaire (MMDQ) was completed by thirty healthy premenopausal women randomized into one of two sets of weight-maintaining diets, those with a ratio of polyunsaturated to saturated fatty acids (P/S ratio) of 1.0 and those with a P/S ratio of 0.3. After a baseline interval of one menstrual cycle, both groups were fed a high fat diet (40% energy from fat) for four menstrual cycles per subject, followed by a similar interval on a low fat diet (20% energy from fat). There were no significant differences in self-reported menstrual symptoms between the two P/S groups. During both menses and the premenstrual week of the low fat dietary period there were significant decreases in self-reported symptoms associated with water retention. A decrease in symptoms in the group labelled \"arousal\" during the rest of the menstrual cycle was also reported.",
+  "modified": false,
+  "original_char_count": 942,
+  "sanitized_char_count": 942,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 830,
+      "boundary_end": 942,
+      "context": "Influence of dietary fat on self-reported menstrual symptoms. The Moos Menstrual Distress Questionnaire (MMDQ) was completed by thirty healthy premenopausal women randomized into one of two sets of weight-maintaining diets, those with a ratio of polyunsaturated to saturated fatty acids (P/S ratio) of 1.0 and those with a P/S ratio of 0.3. After a baseline interval of one menstrual cycle, both groups were fed a high fat diet (40% energy from fat) for four menstrual cycles per subject, followed by a similar interval on a low fat diet (20% energy from fat). There were no significant differences in self-reported menstrual symptoms between the two P/S groups. During both menses and the premenstrual week of the low fat dietary period there were significant decreases in self-reported symptoms associated with water retention.",
+      "target": "A decrease in symptoms in the group labelled \"arousal\" during the rest of the menstrual cycle was also reported.",
+      "loss_target": 4.020431041717529,
+      "loss_target_given_context": 2.8294272422790527,
+      "delta_loss": 1.1910037994384766,
+      "gain_ratio": 0.2962378379532358,
+      "score": -0.2962378379532358,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,45 @@
+nohup: ignoring input
+Loading checkpoint shards:   0%|                                                                 | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|████████████████████████████▌                            | 1/2 [00:03<00:03,  3.31s/it]Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 2/2 [00:04<00:00,  2.12s/it]Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 2/2 [00:04<00:00,  2.30s/it]
+trec-covid: scored 25/458
+trec-covid: scored 50/458
+trec-covid: scored 75/458
+trec-covid: scored 100/458
+trec-covid: scored 125/458
+trec-covid: scored 150/458
+trec-covid: scored 175/458
+trec-covid: scored 200/458
+trec-covid: scored 225/458
+trec-covid: scored 250/458
+trec-covid: scored 275/458
+trec-covid: scored 300/458
+trec-covid: scored 325/458
+trec-covid: scored 350/458
+trec-covid: scored 375/458
+trec-covid: scored 400/458
+trec-covid: scored 425/458
+trec-covid: scored 450/458
+trec-covid: scored 458/458
+{
+  "experiment_role": "cross_detector_lm_robustness_aligned_v1",
+  "dataset": "trec-covid",
+  "model": "DeepSeek-LLM-7B-base",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/DeepSeek-LLM-7B-base-ms",
+  "input": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3.json",
+  "input_sha256": "d526aa72f48662521b67339f58849c1ea6c26de4042eb8b3dd842403f8ed293f",
+  "preflight": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/audit/preflight.json",
+  "preflight_sha256": "164274803c2d947c58daa484ba2f506f4a5e48ea892e22f101b609978f62671b",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "max_context_tokens": 1024,
+  "max_target_tokens": 128,
+  "requested_record_count": 458,
+  "completed_record_count": 458,
+  "failed_record_count": 0,
+  "failures": [],
+  "complete": true,
+  "scores": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/scores/deepseek_trec_aligned_scores.json",
+  "scores_sha256": "16b89d599fdcd1a792f783174f83560537d3227693f6843218b9c16cdf245118",
+  "warning": "Cross-detector extension only; do not overwrite Qwen or sealed strict-v1 scores."
+}
+DEEPSEEK TREC-COVID ALIGNED SCORING PASS

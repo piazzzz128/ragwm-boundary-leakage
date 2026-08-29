@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1814",
+  "source_doc_id": "MED-1814",
+  "title": "Dietary patterns and risk of pancreatic cancer in a large population-based case-control study in the San Francisco Bay Area",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary patterns and risk of pancreatic cancer in a large population-based case-control study in the San Francisco Bay Area\nPancreatic cancer is highly lethal, and identifying modifiable risk factors could have substantial public health impact. In this population-based case-control study (532 cases, 1701 controls), we used principal component analysis and multivariable unconditional logistic regression models to examine whether a particular dietary pattern was associated with risk of pancreatic cancer, adjusting for other known risk factors. A Prudent dietary pattern, characterized by greater intake of vegetables, fruit, fish, poultry, whole grains, and low-fat dairy, was associated with an approximate 50% reduction in pancreatic cancer risk among men (OR=0.51, 95% CI 0.31-0.84, p-trend=0.001) and women (OR=0.51, 95% CI 0.29-0.90, p-trend=0.04). A Western dietary pattern, characterized by higher intake of red and processed meats, potato chips, sugary beverages, sweets, high fat dairy, eggs, and refined grains, was associated with a 2.4-fold increased risk of pancreatic cancer among men (95% CI 1.3-4.2, p-trend=0.008); but was not associated with risk among women. Among men, those in the upper quintiles of the Western diet and lower quintiles of the Prudent diet had a 3-fold increased risk. Consistent with what has been recommended for several other chronic diseases, consuming a diet rich in plant-based foods, whole grains, and white meat, might reduce risk of pancreatic cancer.",
+  "sanitized_text": "Dietary patterns and risk of pancreatic cancer in a large population-based case-control study in the San Francisco Bay Area\nPancreatic cancer is highly lethal, and identifying modifiable risk factors could have substantial public health impact. In this population-based case-control study (532 cases, 1701 controls), we used principal component analysis and multivariable unconditional logistic regression models to examine whether a particular dietary pattern was associated with risk of pancreatic cancer, adjusting for other known risk factors. A Prudent dietary pattern, characterized by greater intake of vegetables, fruit, fish, poultry, whole grains, and low-fat dairy, was associated with an approximate 50% reduction in pancreatic cancer risk among men (OR=0.51, 95% CI 0.31-0.84, p-trend=0.001) and women (OR=0.51, 95% CI 0.29-0.90, p-trend=0.04). A Western dietary pattern, characterized by higher intake of red and processed meats, potato chips, sugary beverages, sweets, high fat dairy, eggs, and refined grains, was associated with a 2.4-fold increased risk of pancreatic cancer among men (95% CI 1.3-4.2, p-trend=0.008); but was not associated with risk among women. Among men, those in the upper quintiles of the Western diet and lower quintiles of the Prudent diet had a 3-fold increased risk. Consistent with what has been recommended for several other chronic diseases, consuming a diet rich in plant-based foods, whole grains, and white meat, might reduce risk of pancreatic cancer.",
+  "modified": false,
+  "original_char_count": 1502,
+  "sanitized_char_count": 1502,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1311,
+      "boundary_end": 1502,
+      "context": "Bay Area Pancreatic cancer is highly lethal, and identifying modifiable risk factors could have substantial public health impact. In this population-based case-control study (532 cases, 1701 controls), we used principal component analysis and multivariable unconditional logistic regression models to examine whether a particular dietary pattern was associated with risk of pancreatic cancer, adjusting for other known risk factors. A Prudent dietary pattern, characterized by greater intake of vegetables, fruit, fish, poultry, whole grains, and low-fat dairy, was associated with an approximate 50% reduction in pancreatic cancer risk among men (OR=0.51, 95% CI 0.31-0.84, p-trend=0.001) and women (OR=0.51, 95% CI 0.29-0.90, p-trend=0.04). A Western dietary pattern, characterized by higher intake of red and processed meats, potato chips, sugary beverages, sweets, high fat dairy, eggs, and refined grains, was associated with a 2.4-fold increased risk of pancreatic cancer among men (95% CI 1.3-4.2, p-trend=0.008); but was not associated with risk among women. Among men, those in the upper quintiles of the Western diet and lower quintiles of the Prudent diet had a 3-fold increased risk.",
+      "target": "Consistent with what has been recommended for several other chronic diseases, consuming a diet rich in plant-based foods, whole grains, and white meat, might reduce risk of pancreatic cancer.",
+      "loss_target": 6.378422260284424,
+      "loss_target_given_context": 3.441624402999878,
+      "delta_loss": 2.936797857284546,
+      "gain_ratio": 0.46042700489910643,
+      "score": -0.46042700489910643,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

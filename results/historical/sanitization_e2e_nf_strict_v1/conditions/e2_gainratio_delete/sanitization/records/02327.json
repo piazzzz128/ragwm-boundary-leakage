@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4116",
+  "source_doc_id": "MED-4116",
+  "title": "The flip side of immune surveillance: immune dependency.",
+  "original_text": "The flip side of immune surveillance: immune dependency.\nThe growths of many and perhaps all tumors may be stimulated rather than inhibited by a quantitatively low level of immunity. The reason tumors have antigens may be that tumors do not develop in vivo in the absence of at least a minimal immune reaction; in this sense, cancer may be considered an autoimmune disease. This review, based largely on the work of our own laboratory, outlines the data showing that the titration of anti-tumor immunity exhibits the phenomenon of hormesis, i.e. the dose-response curve is non-linear such that low levels of immunity are generally stimulatory but larger quantities of the same immune reactants may inhibit tumor growth. Evidence is also reviewed that suggests that the immune response may vary qualitatively and quantitatively during progression, such that there seems to be, during oncogenesis, a very low level of immune reaction that aids initial tumor growth, followed by a larger reaction that may cause remission of early neoplasms, followed, if the neoplasm survives, by a relative immunologic tolerance to the tumor that may be dependent, at least in part, on suppressor cells. This knowledge may help to explain some clinical observations concerning the relationships among tumor types and the organ distribution of metastases.",
+  "sanitized_text": "The flip side of immune surveillance: immune dependency.\nThe growths of many and perhaps all tumors may be stimulated rather than inhibited by a quantitatively low level of immunity. The reason tumors have antigens may be that tumors do not develop in vivo in the absence of at least a minimal immune reaction; in this sense, cancer may be considered an autoimmune disease. This review, based largely on the work of our own laboratory, outlines the data showing that the titration of anti-tumor immunity exhibits the phenomenon of hormesis, i.e. the dose-response curve is non-linear such that low levels of immunity are generally stimulatory but larger quantities of the same immune reactants may inhibit tumor growth. Evidence is also reviewed that suggests that the immune response may vary qualitatively and quantitatively during progression, such that there seems to be, during oncogenesis, a very low level of immune reaction that aids initial tumor growth, followed by a larger reaction that may cause remission of early neoplasms, followed, if the neoplasm survives, by a relative immunologic tolerance to the tumor that may be dependent, at least in part, on suppressor cells.",
+  "modified": true,
+  "original_char_count": 1336,
+  "sanitized_char_count": 1185,
+  "deleted_char_count": 151,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1186,
+      "boundary_end": 1336,
+      "context": "The flip side of immune surveillance: immune dependency. The growths of many and perhaps all tumors may be stimulated rather than inhibited by a quantitatively low level of immunity. The reason tumors have antigens may be that tumors do not develop in vivo in the absence of at least a minimal immune reaction; in this sense, cancer may be considered an autoimmune disease. This review, based largely on the work of our own laboratory, outlines the data showing that the titration of anti-tumor immunity exhibits the phenomenon of hormesis, i.e. the dose-response curve is non-linear such that low levels of immunity are generally stimulatory but larger quantities of the same immune reactants may inhibit tumor growth. Evidence is also reviewed that suggests that the immune response may vary qualitatively and quantitatively during progression, such that there seems to be, during oncogenesis, a very low level of immune reaction that aids initial tumor growth, followed by a larger reaction that may cause remission of early neoplasms, followed, if the neoplasm survives, by a relative immunologic tolerance to the tumor that may be dependent, at least in part, on suppressor cells.",
+      "target": "This knowledge may help to explain some clinical observations concerning the relationships among tumor types and the organ distribution of metastases.",
+      "loss_target": 3.442572593688965,
+      "loss_target_given_context": 3.3178904056549072,
+      "delta_loss": 0.12468218803405762,
+      "gain_ratio": 0.03621773677703385,
+      "score": -0.03621773677703385,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 720,
+      "boundary_end": 1185,
+      "context": "The flip side of immune surveillance: immune dependency. The growths of many and perhaps all tumors may be stimulated rather than inhibited by a quantitatively low level of immunity. The reason tumors have antigens may be that tumors do not develop in vivo in the absence of at least a minimal immune reaction; in this sense, cancer may be considered an autoimmune disease. This review, based largely on the work of our own laboratory, outlines the data showing that the titration of anti-tumor immunity exhibits the phenomenon of hormesis, i.e. the dose-response curve is non-linear such that low levels of immunity are generally stimulatory but larger quantities of the same immune reactants may inhibit tumor growth.",
+      "target": "Evidence is also reviewed that suggests that the immune response may vary qualitatively and quantitatively during progression, such that there seems to be, during oncogenesis, a very low level of immune reaction that aids initial tumor growth, followed by a larger reaction that may cause remission of early neoplasms, followed, if the neoplasm survives, by a relative immunologic tolerance to the tumor that may be dependent, at least in part, on suppressor cells.",
+      "loss_target": 2.4243369102478027,
+      "loss_target_given_context": 2.219904661178589,
+      "delta_loss": 0.20443224906921387,
+      "gain_ratio": 0.08432501613330545,
+      "score": -0.08432501613330545,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1186,
+      "target": "This knowledge may help to explain some clinical observations concerning the relationships among tumor types and the organ distribution of metastases.",
+      "score": -0.03621773677703385,
+      "deleted_suffix": "This knowledge may help to explain some clinical observations concerning the relationships among tumor types and the organ distribution of metastases.",
+      "deleted_char_count": 150
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

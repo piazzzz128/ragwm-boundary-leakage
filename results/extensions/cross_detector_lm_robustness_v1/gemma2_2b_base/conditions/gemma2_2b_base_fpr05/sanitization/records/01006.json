@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2221",
+  "source_doc_id": "MED-2221",
+  "title": "The Perils of Ignoring History: Big Tobacco Played Dirty and Millions Died. How Similar Is Big Food?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The Perils of Ignoring History: Big Tobacco Played Dirty and Millions Died. How Similar Is Big Food?\nContext: In 1954 the tobacco industry paid to publish the “Frank Statement to Cigarette Smokers” in hundreds of U.S. newspapers. It stated that the public's health was the industry's concern above all others and promised a variety of good-faith changes. What followed were decades of deceit and actions that cost millions of lives. In the hope that the food history will be written differently, this article both highlights important lessons that can be learned from the tobacco experience and recommends actions for the food industry. Methods: A review and analysis of empirical and historical evidence pertaining to tobacco and food industry practices, messages, and strategies to influence public opinion, legislation and regulation, litigation, and the conduct of science. Findings: The tobacco industry had a playbook, a script, that emphasized personal responsibility, paying scientists who delivered research that instilled doubt, criticizing the “junk” science that found harms associated with smoking, making self-regulatory pledges, lobbying with massive resources to stifle government action, introducing “safer” products, and simultaneously manipulating and denying both the addictive nature of their products and their marketing to children. The script of the food industry is both similar to and different from the tobacco industry script. Conclusions: Food is obviously different from tobacco, and the food industry differs from tobacco companies in important ways, but there also are significant similarities in the actions that these industries have taken in response to concern that their products cause harm. Because obesity is now a major global problem, the world cannot afford a repeat of the tobacco history, in which industry talks about the moral high ground but does not occupy it.",
+  "sanitized_text": "The Perils of Ignoring History: Big Tobacco Played Dirty and Millions Died. How Similar Is Big Food?\nContext: In 1954 the tobacco industry paid to publish the “Frank Statement to Cigarette Smokers” in hundreds of U.S. newspapers. It stated that the public's health was the industry's concern above all others and promised a variety of good-faith changes. What followed were decades of deceit and actions that cost millions of lives. In the hope that the food history will be written differently, this article both highlights important lessons that can be learned from the tobacco experience and recommends actions for the food industry. Methods: A review and analysis of empirical and historical evidence pertaining to tobacco and food industry practices, messages, and strategies to influence public opinion, legislation and regulation, litigation, and the conduct of science. Findings: The tobacco industry had a playbook, a script, that emphasized personal responsibility, paying scientists who delivered research that instilled doubt, criticizing the “junk” science that found harms associated with smoking, making self-regulatory pledges, lobbying with massive resources to stifle government action, introducing “safer” products, and simultaneously manipulating and denying both the addictive nature of their products and their marketing to children. The script of the food industry is both similar to and different from the tobacco industry script. Conclusions: Food is obviously different from tobacco, and the food industry differs from tobacco companies in important ways, but there also are significant similarities in the actions that these industries have taken in response to concern that their products cause harm. Because obesity is now a major global problem, the world cannot afford a repeat of the tobacco history, in which industry talks about the moral high ground but does not occupy it.",
+  "modified": false,
+  "original_char_count": 1908,
+  "sanitized_char_count": 1908,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1729,
+      "boundary_end": 1908,
+      "context": "lessons that can be learned from the tobacco experience and recommends actions for the food industry. Methods: A review and analysis of empirical and historical evidence pertaining to tobacco and food industry practices, messages, and strategies to influence public opinion, legislation and regulation, litigation, and the conduct of science. Findings: The tobacco industry had a playbook, a script, that emphasized personal responsibility, paying scientists who delivered research that instilled doubt, criticizing the “junk” science that found harms associated with smoking, making self-regulatory pledges, lobbying with massive resources to stifle government action, introducing “safer” products, and simultaneously manipulating and denying both the addictive nature of their products and their marketing to children. The script of the food industry is both similar to and different from the tobacco industry script. Conclusions: Food is obviously different from tobacco, and the food industry differs from tobacco companies in important ways, but there also are significant similarities in the actions that these industries have taken in response to concern that their products cause harm.",
+      "target": "Because obesity is now a major global problem, the world cannot afford a repeat of the tobacco history, in which industry talks about the moral high ground but does not occupy it.",
+      "loss_target": 7.731577396392822,
+      "loss_target_given_context": 4.765556335449219,
+      "delta_loss": 2.9660210609436035,
+      "gain_ratio": 0.3836243122040536,
+      "score": -0.3836243122040536,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

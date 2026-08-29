@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4949",
+  "source_doc_id": "MED-4949",
+  "title": "Public Health and Economic Consequences of Methyl Mercury Toxicity to the Developing Brain",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Public Health and Economic Consequences of Methyl Mercury Toxicity to the Developing Brain\nMethyl mercury is a developmental neurotoxicant. Exposure results principally from consumption by pregnant women of seafood contaminated by mercury from anthropogenic (70%) and natural (30%) sources. Throughout the 1990s, the U.S. Environmental Protection Agency (EPA) made steady progress in reducing mercury emissions from anthropogenic sources, especially from power plants, which account for 41% of anthropogenic emissions. However, the U.S. EPA recently proposed to slow this progress, citing high costs of pollution abatement. To put into perspective the costs of controlling emissions from American power plants, we have estimated the economic costs of methyl mercury toxicity attributable to mercury from these plants. We used an environmentally attributable fraction model and limited our analysis to the neurodevelopmental impacts—specifically loss of intelligence. Using national blood mercury prevalence data from the Centers for Disease Control and Prevention, we found that between 316,588 and 637,233 children each year have cord blood mercury levels > 5.8 μg/L, a level associated with loss of IQ. The resulting loss of intelligence causes diminished economic productivity that persists over the entire lifetime of these children. This lost productivity is the major cost of methyl mercury toxicity, and it amounts to $8.7 billion annually (range, $2.2–43.8 billion; all costs are in 2000 US$). Of this total, $1.3 billion (range, $0.1–6.5 billion) each year is attributable to mercury emissions from American power plants. This significant toll threatens the economic health and security of the United States and should be considered in the debate on mercury pollution controls.",
+  "sanitized_text": "Public Health and Economic Consequences of Methyl Mercury Toxicity to the Developing Brain\nMethyl mercury is a developmental neurotoxicant. Exposure results principally from consumption by pregnant women of seafood contaminated by mercury from anthropogenic (70%) and natural (30%) sources. Throughout the 1990s, the U.S. Environmental Protection Agency (EPA) made steady progress in reducing mercury emissions from anthropogenic sources, especially from power plants, which account for 41% of anthropogenic emissions. However, the U.S. EPA recently proposed to slow this progress, citing high costs of pollution abatement. To put into perspective the costs of controlling emissions from American power plants, we have estimated the economic costs of methyl mercury toxicity attributable to mercury from these plants. We used an environmentally attributable fraction model and limited our analysis to the neurodevelopmental impacts—specifically loss of intelligence. Using national blood mercury prevalence data from the Centers for Disease Control and Prevention, we found that between 316,588 and 637,233 children each year have cord blood mercury levels > 5.8 μg/L, a level associated with loss of IQ. The resulting loss of intelligence causes diminished economic productivity that persists over the entire lifetime of these children. This lost productivity is the major cost of methyl mercury toxicity, and it amounts to $8.7 billion annually (range, $2.2–43.8 billion; all costs are in 2000 US$). Of this total, $1.3 billion (range, $0.1–6.5 billion) each year is attributable to mercury emissions from American power plants. This significant toll threatens the economic health and security of the United States and should be considered in the debate on mercury pollution controls.",
+  "modified": false,
+  "original_char_count": 1786,
+  "sanitized_char_count": 1786,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1631,
+      "boundary_end": 1786,
+      "context": "especially from power plants, which account for 41% of anthropogenic emissions. However, the U.S. EPA recently proposed to slow this progress, citing high costs of pollution abatement. To put into perspective the costs of controlling emissions from American power plants, we have estimated the economic costs of methyl mercury toxicity attributable to mercury from these plants. We used an environmentally attributable fraction model and limited our analysis to the neurodevelopmental impacts—specifically loss of intelligence. Using national blood mercury prevalence data from the Centers for Disease Control and Prevention, we found that between 316,588 and 637,233 children each year have cord blood mercury levels > 5.8 μg/L, a level associated with loss of IQ. The resulting loss of intelligence causes diminished economic productivity that persists over the entire lifetime of these children. This lost productivity is the major cost of methyl mercury toxicity, and it amounts to $8.7 billion annually (range, $2.2–43.8 billion; all costs are in 2000 US$). Of this total, $1.3 billion (range, $0.1–6.5 billion) each year is attributable to mercury emissions from American power plants.",
+      "target": "This significant toll threatens the economic health and security of the United States and should be considered in the debate on mercury pollution controls.",
+      "loss_target": 3.4174280166625977,
+      "loss_target_given_context": 2.226757287979126,
+      "delta_loss": 1.1906707286834717,
+      "gain_ratio": 0.3484113558143825,
+      "score": -0.3484113558143825,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-884",
+  "source_doc_id": "MED-884",
+  "title": "Effect of different cooking methods on vegetable oxalate content.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of different cooking methods on vegetable oxalate content.\nApproximately 75% of all kidney stones are composed primarily of calcium oxalate, and hyperoxaluria is a primary risk factor for this disorder. Nine types of raw and cooked vegetables were analyzed for oxalate using an enzymatic method. There was a high proportion of water-soluble oxalate in most of the tested raw vegetables. Boiling markedly reduced soluble oxalate content by 30-87% and was more effective than steaming (5-53%) and baking (used only for potatoes, no oxalate loss). An assessment of the oxalate content of cooking water used for boiling and steaming revealed an approximately 100% recovery of oxalate losses. The losses of insoluble oxalate during cooking varied greatly, ranging from 0 to 74%. Because soluble sources of oxalate appear to be better absorbed than insoluble sources, employing cooking methods that significantly reduce soluble oxalate may be an effective strategy for decreasing oxaluria in individuals predisposed to the development of kidney stones.",
+  "sanitized_text": "Effect of different cooking methods on vegetable oxalate content.\nApproximately 75% of all kidney stones are composed primarily of calcium oxalate, and hyperoxaluria is a primary risk factor for this disorder. Nine types of raw and cooked vegetables were analyzed for oxalate using an enzymatic method. There was a high proportion of water-soluble oxalate in most of the tested raw vegetables. Boiling markedly reduced soluble oxalate content by 30-87% and was more effective than steaming (5-53%) and baking (used only for potatoes, no oxalate loss). An assessment of the oxalate content of cooking water used for boiling and steaming revealed an approximately 100% recovery of oxalate losses. The losses of insoluble oxalate during cooking varied greatly, ranging from 0 to 74%. Because soluble sources of oxalate appear to be better absorbed than insoluble sources, employing cooking methods that significantly reduce soluble oxalate may be an effective strategy for decreasing oxaluria in individuals predisposed to the development of kidney stones.",
+  "modified": false,
+  "original_char_count": 1053,
+  "sanitized_char_count": 1053,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 781,
+      "boundary_end": 1053,
+      "context": "Effect of different cooking methods on vegetable oxalate content. Approximately 75% of all kidney stones are composed primarily of calcium oxalate, and hyperoxaluria is a primary risk factor for this disorder. Nine types of raw and cooked vegetables were analyzed for oxalate using an enzymatic method. There was a high proportion of water-soluble oxalate in most of the tested raw vegetables. Boiling markedly reduced soluble oxalate content by 30-87% and was more effective than steaming (5-53%) and baking (used only for potatoes, no oxalate loss). An assessment of the oxalate content of cooking water used for boiling and steaming revealed an approximately 100% recovery of oxalate losses. The losses of insoluble oxalate during cooking varied greatly, ranging from 0 to 74%.",
+      "target": "Because soluble sources of oxalate appear to be better absorbed than insoluble sources, employing cooking methods that significantly reduce soluble oxalate may be an effective strategy for decreasing oxaluria in individuals predisposed to the development of kidney stones.",
+      "loss_target": 2.311657190322876,
+      "loss_target_given_context": 1.5143563747406006,
+      "delta_loss": 0.7973008155822754,
+      "gain_ratio": 0.344904434325279,
+      "score": -0.344904434325279,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

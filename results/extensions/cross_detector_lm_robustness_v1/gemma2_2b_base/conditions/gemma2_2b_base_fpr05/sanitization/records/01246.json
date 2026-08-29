@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2526",
+  "source_doc_id": "MED-2526",
+  "title": "Diet, lifestyle, and the etiology of coronary artery disease: the Cornell China study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet, lifestyle, and the etiology of coronary artery disease: the Cornell China study.\nInvestigators collected and analyzed mortality data for >50 diseases, including 7 different cancers, from 65 counties and 130 villages in rural mainland China. Blood, urine, food samples, and detailed dietary data were collected from 50 adults in each village and analyzed for a variety of nutritional, viral, hormonal, and toxic chemical factors. In rural China, fat intake was less than half that in the United States, and fiber intake was 3 times higher. Animal protein intake was very low, only about 10% of the US intake. Mean serum total cholesterol was 127 mg/dL in rural China versus 203 mg/dL for adults aged 20-74 years in the United States. Coronary artery disease mortality was 16.7-fold greater for US men and 5.6-fold greater for US women than for their Chinese counterparts. The combined coronary artery disease mortality rates for both genders in rural China were inversely associated with the frequency of intake of green vegetables and plasma erythrocyte monounsaturated fatty acids, but positively associated with a combined index of salt intake plus urinary sodium and plasma apolipoprotein B. These apolipoproteins, in turn, are positively associated with animal protein intake and the frequency of meat intake and inversely associated with plant protein, legume, and light-colored vegetable intake. Rates of other diseases were also correlated with dietary factors. There was no evidence of a threshold beyond which further benefits did not accrue with increasing proportions of plant-based foods in the diet.",
+  "sanitized_text": "Diet, lifestyle, and the etiology of coronary artery disease: the Cornell China study.\nInvestigators collected and analyzed mortality data for >50 diseases, including 7 different cancers, from 65 counties and 130 villages in rural mainland China. Blood, urine, food samples, and detailed dietary data were collected from 50 adults in each village and analyzed for a variety of nutritional, viral, hormonal, and toxic chemical factors. In rural China, fat intake was less than half that in the United States, and fiber intake was 3 times higher. Animal protein intake was very low, only about 10% of the US intake. Mean serum total cholesterol was 127 mg/dL in rural China versus 203 mg/dL for adults aged 20-74 years in the United States. Coronary artery disease mortality was 16.7-fold greater for US men and 5.6-fold greater for US women than for their Chinese counterparts. The combined coronary artery disease mortality rates for both genders in rural China were inversely associated with the frequency of intake of green vegetables and plasma erythrocyte monounsaturated fatty acids, but positively associated with a combined index of salt intake plus urinary sodium and plasma apolipoprotein B. These apolipoproteins, in turn, are positively associated with animal protein intake and the frequency of meat intake and inversely associated with plant protein, legume, and light-colored vegetable intake. Rates of other diseases were also correlated with dietary factors. There was no evidence of a threshold beyond which further benefits did not accrue with increasing proportions of plant-based foods in the diet.",
+  "modified": false,
+  "original_char_count": 1618,
+  "sanitized_char_count": 1618,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1475,
+      "boundary_end": 1618,
+      "context": "and detailed dietary data were collected from 50 adults in each village and analyzed for a variety of nutritional, viral, hormonal, and toxic chemical factors. In rural China, fat intake was less than half that in the United States, and fiber intake was 3 times higher. Animal protein intake was very low, only about 10% of the US intake. Mean serum total cholesterol was 127 mg/dL in rural China versus 203 mg/dL for adults aged 20-74 years in the United States. Coronary artery disease mortality was 16.7-fold greater for US men and 5.6-fold greater for US women than for their Chinese counterparts. The combined coronary artery disease mortality rates for both genders in rural China were inversely associated with the frequency of intake of green vegetables and plasma erythrocyte monounsaturated fatty acids, but positively associated with a combined index of salt intake plus urinary sodium and plasma apolipoprotein B. These apolipoproteins, in turn, are positively associated with animal protein intake and the frequency of meat intake and inversely associated with plant protein, legume, and light-colored vegetable intake. Rates of other diseases were also correlated with dietary factors.",
+      "target": "There was no evidence of a threshold beyond which further benefits did not accrue with increasing proportions of plant-based foods in the diet.",
+      "loss_target": 8.34123420715332,
+      "loss_target_given_context": 4.249985218048096,
+      "delta_loss": 4.091248989105225,
+      "gain_ratio": 0.4904848476256223,
+      "score": -0.4904848476256223,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

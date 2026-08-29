@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1198",
+  "source_doc_id": "MED-1198",
+  "title": "High-dose ascorbic acid increases intercourse frequency and improves mood: a randomized controlled clinical trial.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "High-dose ascorbic acid increases intercourse frequency and improves mood: a randomized controlled clinical trial.\nBACKGROUND: Ascorbic acid (AA) modulates catecholaminergic activity, decreases stress reactivity, approach anxiety and prolactin release, improves vascular function, and increases oxytocin release. These processes are relevant to sexual behavior and mood. METHODS: In this randomized double-blind, placebo-controlled 14 day trial of sustained-release AA (42 healthy young adults; 3000 mg/day Cetebe) and placebo (39 healthy young adults), subjects with partners recorded penile-vaginal intercourse (FSI), noncoital partner sex, and masturbation in daily diaries, and also completed the Beck Depression Inventory before and after the trial. RESULTS: The AA group reported greater FSI (but, as hypothesized, not other sexual behavior) frequency, an effect most prominent in subjects not cohabiting with their sexual partner, and in women. The AA but not placebo group also experienced a decrease in Beck Depression scores. CONCLUSIONS: AA appears to increase FSI, and the differential benefit to noncohabitants suggests that a central activation or disinhibition, rather than peripheral mechanism may be responsible.",
+  "sanitized_text": "High-dose ascorbic acid increases intercourse frequency and improves mood: a randomized controlled clinical trial.\nBACKGROUND: Ascorbic acid (AA) modulates catecholaminergic activity, decreases stress reactivity, approach anxiety and prolactin release, improves vascular function, and increases oxytocin release. These processes are relevant to sexual behavior and mood. METHODS: In this randomized double-blind, placebo-controlled 14 day trial of sustained-release AA (42 healthy young adults; 3000 mg/day Cetebe) and placebo (39 healthy young adults), subjects with partners recorded penile-vaginal intercourse (FSI), noncoital partner sex, and masturbation in daily diaries, and also completed the Beck Depression Inventory before and after the trial. RESULTS: The AA group reported greater FSI (but, as hypothesized, not other sexual behavior) frequency, an effect most prominent in subjects not cohabiting with their sexual partner, and in women. The AA but not placebo group also experienced a decrease in Beck Depression scores. CONCLUSIONS: AA appears to increase FSI, and the differential benefit to noncohabitants suggests that a central activation or disinhibition, rather than peripheral mechanism may be responsible.",
+  "modified": false,
+  "original_char_count": 1229,
+  "sanitized_char_count": 1229,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1036,
+      "boundary_end": 1229,
+      "context": "High-dose ascorbic acid increases intercourse frequency and improves mood: a randomized controlled clinical trial. BACKGROUND: Ascorbic acid (AA) modulates catecholaminergic activity, decreases stress reactivity, approach anxiety and prolactin release, improves vascular function, and increases oxytocin release. These processes are relevant to sexual behavior and mood. METHODS: In this randomized double-blind, placebo-controlled 14 day trial of sustained-release AA (42 healthy young adults; 3000 mg/day Cetebe) and placebo (39 healthy young adults), subjects with partners recorded penile-vaginal intercourse (FSI), noncoital partner sex, and masturbation in daily diaries, and also completed the Beck Depression Inventory before and after the trial. RESULTS: The AA group reported greater FSI (but, as hypothesized, not other sexual behavior) frequency, an effect most prominent in subjects not cohabiting with their sexual partner, and in women. The AA but not placebo group also experienced a decrease in Beck Depression scores.",
+      "target": "CONCLUSIONS: AA appears to increase FSI, and the differential benefit to noncohabitants suggests that a central activation or disinhibition, rather than peripheral mechanism may be responsible.",
+      "loss_target": 3.974500894546509,
+      "loss_target_given_context": 2.4312567710876465,
+      "delta_loss": 1.5432441234588623,
+      "gain_ratio": 0.38828626899452406,
+      "score": -0.38828626899452406,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

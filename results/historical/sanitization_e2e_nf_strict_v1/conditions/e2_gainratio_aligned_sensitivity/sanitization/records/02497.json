@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4342",
+  "source_doc_id": "MED-4342",
+  "title": "Animal protein intake and risk of inflammatory bowel disease: The E3N prospective study.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Animal protein intake and risk of inflammatory bowel disease: The E3N prospective study.\nOBJECTIVES: Diet composition has long been suspected to contribute to inflammatory bowel disease (IBD), but has not been thoroughly assessed, and has been assessed only in retrospective studies that are prone to recall bias. The aim of the present study was to evaluate the role of dietary macronutrients in the etiology of IBD in a large prospective cohort. METHODS: The Etude Épidémiologique des femmes de la Mutuelle Générale de l'Education Nationale cohort consists of women living in France, aged 40-65 years, and free of major diseases at inclusion. A self-administered questionnaire was used to record dietary habits at baseline. Questionnaires on disease occurrence and lifestyle factors were completed every 24 months. IBDs were assessed in each questionnaire until June 2005, and subsequently validated using clinical and pathological criteria. We estimated the association between nutrients or foods and IBD using Cox proportional hazards models adjusted for energy intake. RESULTS: Among 67,581 participants (705,445 person-years, mean follow-up since completion of the baseline dietary questionnaire 10.4 years), we validated 77 incident IBD cases. High total protein intake, specifically animal protein, was associated with a significantly increased risk of IBD, (hazards ratio for the third vs. first tertile and 95% confidence interval being 3.31 and 1.41-7.77 (P trend=0.007), and 3.03 and 1.45-6.34 (P trend=0.005) for total and animal protein, respectively). Among sources of animal protein, high consumption of meat or fish but not of eggs or dairy products was associated with IBD risk. CONCLUSIONS: High protein intake is associated with an increased risk of incident IBD in French middle-aged women.",
+  "sanitized_text": "Animal protein intake and risk of inflammatory bowel disease: The E3N prospective study.\nOBJECTIVES: Diet composition has long been suspected to contribute to inflammatory bowel disease (IBD), but has not been thoroughly assessed, and has been assessed only in retrospective studies that are prone to recall bias. The aim of the present study was to evaluate the role of dietary macronutrients in the etiology of IBD in a large prospective cohort. METHODS: The Etude Épidémiologique des femmes de la Mutuelle Générale de l'Education Nationale cohort consists of women living in France, aged 40-65 years, and free of major diseases at inclusion. A self-administered questionnaire was used to record dietary habits at baseline. Questionnaires on disease occurrence and lifestyle factors were completed every 24 months. IBDs were assessed in each questionnaire until June 2005, and subsequently validated using clinical and pathological criteria. We estimated the association between nutrients or foods and IBD using Cox proportional hazards models adjusted for energy intake. RESULTS: Among 67,581 participants (705,445 person-years, mean follow-up since completion of the baseline dietary questionnaire 10.4 years), we validated 77 incident IBD cases. High total protein intake, specifically animal protein, was associated with a significantly increased risk of IBD, (hazards ratio for the third vs. first tertile and 95% confidence interval being 3.31 and 1.41-7.77 (P trend=0.007), and 3.03 and 1.45-6.34 (P trend=0.005) for total and animal protein, respectively). Among sources of animal protein, high consumption of meat or fish but not of eggs or dairy products was associated with IBD risk. CONCLUSIONS: High protein intake is associated with an increased risk of incident IBD in French middle-aged women.",
+  "modified": false,
+  "original_char_count": 1811,
+  "sanitized_char_count": 1811,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1697,
+      "boundary_end": 1811,
+      "context": "la Mutuelle Générale de l'Education Nationale cohort consists of women living in France, aged 40-65 years, and free of major diseases at inclusion. A self-administered questionnaire was used to record dietary habits at baseline. Questionnaires on disease occurrence and lifestyle factors were completed every 24 months. IBDs were assessed in each questionnaire until June 2005, and subsequently validated using clinical and pathological criteria. We estimated the association between nutrients or foods and IBD using Cox proportional hazards models adjusted for energy intake. RESULTS: Among 67,581 participants (705,445 person-years, mean follow-up since completion of the baseline dietary questionnaire 10.4 years), we validated 77 incident IBD cases. High total protein intake, specifically animal protein, was associated with a significantly increased risk of IBD, (hazards ratio for the third vs. first tertile and 95% confidence interval being 3.31 and 1.41-7.77 (P trend=0.007), and 3.03 and 1.45-6.34 (P trend=0.005) for total and animal protein, respectively). Among sources of animal protein, high consumption of meat or fish but not of eggs or dairy products was associated with IBD risk.",
+      "target": "CONCLUSIONS: High protein intake is associated with an increased risk of incident IBD in French middle-aged women.",
+      "loss_target": 2.393660545349121,
+      "loss_target_given_context": 0.9558455944061279,
+      "delta_loss": 1.4378149509429932,
+      "gain_ratio": 0.6006762127306086,
+      "score": -0.6006762127306086,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

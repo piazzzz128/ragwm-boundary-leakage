@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4559",
+  "source_doc_id": "MED-4559",
+  "title": "Can a statin neutralize the cardiovascular risk of unhealthy dietary choices?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Can a statin neutralize the cardiovascular risk of unhealthy dietary choices?\nThe cardiovascular risk reduction associated with different statins for the prevention of cardiovascular disease and the cardiovascular risk increase associated with excess dietary intake of fat have been quantified. However, these relative risks have never been directly juxtaposed to determine whether an increase in relative risk by 1 activity could be neutralized by an opposing change in relative risk from a second activity. The investigators compared the increase in relative risk for cardiovascular disease associated with the total fat and trans fat content of fast foods against the relative risk decrease provided by daily statin consumption from a meta-analysis of statins in primary prevention of coronary artery disease (7 randomized controlled trials including 42,848 patients). The risk reduction associated with the daily consumption of most statins, with the exception of pravastatin, is more powerful than the risk increase caused by the daily extra fat intake associated with a 7-oz hamburger (Quarter Pounder) with cheese and a small milkshake. In conclusion, statin therapy can neutralize the cardiovascular risk caused by harmful diet choices. In other spheres of human activity, individuals choosing risky pursuits (motorcycling, smoking, driving) are advised or compelled to use measures to minimize the risk (safety equipment, filters, seatbelts). Likewise, some individuals eat unhealthily. Routine accessibility of statins in establishments providing unhealthy food might be a rational modern means to offset the cardiovascular risk. Fast food outlets already offer free condiments to supplement meals. A free statin-containing accompaniment would offer cardiovascular benefits, opposite to the effects of equally available salt, sugar, and high-fat condiments. Although no substitute for systematic lifestyle improvements, including healthy diet, regular exercise, weight loss, and smoking cessation, complimentary statin packets would add, at little cost, 1 positive choice to a panoply of negative ones.",
+  "sanitized_text": "Can a statin neutralize the cardiovascular risk of unhealthy dietary choices?\nThe cardiovascular risk reduction associated with different statins for the prevention of cardiovascular disease and the cardiovascular risk increase associated with excess dietary intake of fat have been quantified. However, these relative risks have never been directly juxtaposed to determine whether an increase in relative risk by 1 activity could be neutralized by an opposing change in relative risk from a second activity. The investigators compared the increase in relative risk for cardiovascular disease associated with the total fat and trans fat content of fast foods against the relative risk decrease provided by daily statin consumption from a meta-analysis of statins in primary prevention of coronary artery disease (7 randomized controlled trials including 42,848 patients). The risk reduction associated with the daily consumption of most statins, with the exception of pravastatin, is more powerful than the risk increase caused by the daily extra fat intake associated with a 7-oz hamburger (Quarter Pounder) with cheese and a small milkshake. In conclusion, statin therapy can neutralize the cardiovascular risk caused by harmful diet choices. In other spheres of human activity, individuals choosing risky pursuits (motorcycling, smoking, driving) are advised or compelled to use measures to minimize the risk (safety equipment, filters, seatbelts). Likewise, some individuals eat unhealthily. Routine accessibility of statins in establishments providing unhealthy food might be a rational modern means to offset the cardiovascular risk. Fast food outlets already offer free condiments to supplement meals. A free statin-containing accompaniment would offer cardiovascular benefits, opposite to the effects of equally available salt, sugar, and high-fat condiments. Although no substitute for systematic lifestyle improvements, including healthy diet, regular exercise, weight loss, and smoking cessation, complimentary statin packets would add, at little cost, 1 positive choice to a panoply of negative ones.",
+  "modified": false,
+  "original_char_count": 2112,
+  "sanitized_char_count": 2112,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1868,
+      "boundary_end": 2112,
+      "context": "relative risk decrease provided by daily statin consumption from a meta-analysis of statins in primary prevention of coronary artery disease (7 randomized controlled trials including 42,848 patients). The risk reduction associated with the daily consumption of most statins, with the exception of pravastatin, is more powerful than the risk increase caused by the daily extra fat intake associated with a 7-oz hamburger (Quarter Pounder) with cheese and a small milkshake. In conclusion, statin therapy can neutralize the cardiovascular risk caused by harmful diet choices. In other spheres of human activity, individuals choosing risky pursuits (motorcycling, smoking, driving) are advised or compelled to use measures to minimize the risk (safety equipment, filters, seatbelts). Likewise, some individuals eat unhealthily. Routine accessibility of statins in establishments providing unhealthy food might be a rational modern means to offset the cardiovascular risk. Fast food outlets already offer free condiments to supplement meals. A free statin-containing accompaniment would offer cardiovascular benefits, opposite to the effects of equally available salt, sugar, and high-fat condiments.",
+      "target": "Although no substitute for systematic lifestyle improvements, including healthy diet, regular exercise, weight loss, and smoking cessation, complimentary statin packets would add, at little cost, 1 positive choice to a panoply of negative ones.",
+      "loss_target": 3.484583854675293,
+      "loss_target_given_context": 2.644260883331299,
+      "delta_loss": 0.8403229713439941,
+      "gain_ratio": 0.24115446962670345,
+      "score": -0.24115446962670345,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

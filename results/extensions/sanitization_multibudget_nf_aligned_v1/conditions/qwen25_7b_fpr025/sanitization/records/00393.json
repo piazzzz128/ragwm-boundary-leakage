@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1487",
+  "source_doc_id": "MED-1487",
+  "title": "Patients' Expectations of Screening and Preventive Treatments",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Patients' Expectations of Screening and Preventive Treatments\nPURPOSE An informed decision to accept a health care intervention requires an understanding of its likely benefit. This study assessed participants' estimates of the benefit, as well as minimum acceptable benefit, of screening for breast and bowel cancer and medication to prevent hip fracture and cardiovascular disease. METHODS Three general practitioners sent questionnaires to all registered patients aged 50 to 70 years. Patients agreeing to participate in the study were asked to estimate the number of events (fractures or deaths) prevented in a group of 5,000 patients undergoing each intervention over a period of 10 years, and to indicate the minimum number of events avoided by the intervention that they considered justified its use. The proportions of participants that overestimated each intervention's benefit were calculated, and univariate and multivariable analyses of predictors of response were performed. RESULTS The participation rate was 36%: 977 patients were invited to participate in the study, and 354 returned a completed questionnaire. Participants overestimated the degree of benefit conferred by all interventions: 90% of participants overestimated the effect of breast cancer screening, 94% overestimated the effect of bowel cancer screening, 82% overestimated the effect of hip fracture preventive medication, and 69% overestimated the effect of preventive medication for cardiovascular disease. Estimates of minimum acceptable benefit were more conservative, but other than for cardiovascular disease mortality prevention, most respondents indicated a minimum benefit greater than these interventions achieve. A lower level of education was associated with higher estimates of minimum acceptable benefit for all interventions. CONCLUSION Patients overestimated the risk reduction achieved with 4 examples of screening and preventive medications. A lower level of education was associated with higher minimum benefit to justify intervention use. This tendency to overestimate benefits may affect patients' decisions to use such interventions, and practitioners should be aware of this tendency when discussing these interventions with patients.",
+  "sanitized_text": "Patients' Expectations of Screening and Preventive Treatments\nPURPOSE An informed decision to accept a health care intervention requires an understanding of its likely benefit. This study assessed participants' estimates of the benefit, as well as minimum acceptable benefit, of screening for breast and bowel cancer and medication to prevent hip fracture and cardiovascular disease. METHODS Three general practitioners sent questionnaires to all registered patients aged 50 to 70 years. Patients agreeing to participate in the study were asked to estimate the number of events (fractures or deaths) prevented in a group of 5,000 patients undergoing each intervention over a period of 10 years, and to indicate the minimum number of events avoided by the intervention that they considered justified its use. The proportions of participants that overestimated each intervention's benefit were calculated, and univariate and multivariable analyses of predictors of response were performed. RESULTS The participation rate was 36%: 977 patients were invited to participate in the study, and 354 returned a completed questionnaire. Participants overestimated the degree of benefit conferred by all interventions: 90% of participants overestimated the effect of breast cancer screening, 94% overestimated the effect of bowel cancer screening, 82% overestimated the effect of hip fracture preventive medication, and 69% overestimated the effect of preventive medication for cardiovascular disease. Estimates of minimum acceptable benefit were more conservative, but other than for cardiovascular disease mortality prevention, most respondents indicated a minimum benefit greater than these interventions achieve. A lower level of education was associated with higher estimates of minimum acceptable benefit for all interventions. CONCLUSION Patients overestimated the risk reduction achieved with 4 examples of screening and preventive medications. A lower level of education was associated with higher minimum benefit to justify intervention use. This tendency to overestimate benefits may affect patients' decisions to use such interventions, and practitioners should be aware of this tendency when discussing these interventions with patients.",
+  "modified": false,
+  "original_char_count": 2239,
+  "sanitized_char_count": 2239,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 2041,
+      "boundary_end": 2239,
+      "context": "overestimated each intervention's benefit were calculated, and univariate and multivariable analyses of predictors of response were performed. RESULTS The participation rate was 36%: 977 patients were invited to participate in the study, and 354 returned a completed questionnaire. Participants overestimated the degree of benefit conferred by all interventions: 90% of participants overestimated the effect of breast cancer screening, 94% overestimated the effect of bowel cancer screening, 82% overestimated the effect of hip fracture preventive medication, and 69% overestimated the effect of preventive medication for cardiovascular disease. Estimates of minimum acceptable benefit were more conservative, but other than for cardiovascular disease mortality prevention, most respondents indicated a minimum benefit greater than these interventions achieve. A lower level of education was associated with higher estimates of minimum acceptable benefit for all interventions. CONCLUSION Patients overestimated the risk reduction achieved with 4 examples of screening and preventive medications. A lower level of education was associated with higher minimum benefit to justify intervention use.",
+      "target": "This tendency to overestimate benefits may affect patients' decisions to use such interventions, and practitioners should be aware of this tendency when discussing these interventions with patients.",
+      "loss_target": 2.6855859756469727,
+      "loss_target_given_context": 1.5004311800003052,
+      "delta_loss": 1.1851547956466675,
+      "gain_ratio": 0.4413021241523117,
+      "score": -0.4413021241523117,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

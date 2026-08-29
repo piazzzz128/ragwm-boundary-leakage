@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2497",
+  "source_doc_id": "MED-2497",
+  "title": "Prenatal exposure to polychlorinated biphenyls and dioxins is associated with increased risk of wheeze and infections in infants.",
+  "original_text": "Prenatal exposure to polychlorinated biphenyls and dioxins is associated with increased risk of wheeze and infections in infants.\nThe birth cohort BraMat (n = 205; a sub-cohort of the Norwegian Mother and Child Cohort Study (MoBa) conducted by the Norwegian Institute of Public Health) was established to study whether prenatal exposure to toxicants from the maternal diet affects immunological health outcomes in children. We here report on the environmental pollutants polychlorinated biphenyls (PCBs) and dioxins, as well as acrylamide generated in food during heat treatment. The frequency of common infections, eczema or itchiness, and periods of more than 10 days of dry cough, chest tightness or wheeze (called wheeze) in the children during the first year of life was assessed by questionnaire data (n = 195). Prenatal dietary exposure to the toxicants was estimated using a validated food frequency questionnaire from MoBa. Prenatal exposure to PCBs and dioxins was found to be associated with increased risk of wheeze and exanthema subitum, and also with increased frequency of upper respiratory tract infections. We found no associations between prenatal exposure to acrylamide and the health outcomes investigated. Our results suggest that prenatal dietary exposure to dioxins and PCBs may increase the risk of wheeze and infectious diseases during the first year of life. Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Prenatal exposure to polychlorinated biphenyls and dioxins is associated with increased risk of wheeze and infections in infants.\nThe birth cohort BraMat (n = 205; a sub-cohort of the Norwegian Mother and Child Cohort Study (MoBa) conducted by the Norwegian Institute of Public Health) was established to study whether prenatal exposure to toxicants from the maternal diet affects immunological health outcomes in children. We here report on the environmental pollutants polychlorinated biphenyls (PCBs) and dioxins, as well as acrylamide generated in food during heat treatment. The frequency of common infections, eczema or itchiness, and periods of more than 10 days of dry cough, chest tightness or wheeze (called wheeze) in the children during the first year of life was assessed by questionnaire data (n = 195). Prenatal dietary exposure to the toxicants was estimated using a validated food frequency questionnaire from MoBa. Prenatal exposure to PCBs and dioxins was found to be associated with increased risk of wheeze and exanthema subitum, and also with increased frequency of upper respiratory tract infections. We found no associations between prenatal exposure to acrylamide and the health outcomes investigated. Our results suggest that prenatal dietary exposure to dioxins and PCBs may increase the risk of wheeze and infectious diseases during the first year of life.",
+  "modified": true,
+  "original_char_count": 1436,
+  "sanitized_char_count": 1384,
+  "deleted_char_count": 52,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1385,
+      "boundary_end": 1415,
+      "context": "Mother and Child Cohort Study (MoBa) conducted by the Norwegian Institute of Public Health) was established to study whether prenatal exposure to toxicants from the maternal diet affects immunological health outcomes in children. We here report on the environmental pollutants polychlorinated biphenyls (PCBs) and dioxins, as well as acrylamide generated in food during heat treatment. The frequency of common infections, eczema or itchiness, and periods of more than 10 days of dry cough, chest tightness or wheeze (called wheeze) in the children during the first year of life was assessed by questionnaire data (n = 195). Prenatal dietary exposure to the toxicants was estimated using a validated food frequency questionnaire from MoBa. Prenatal exposure to PCBs and dioxins was found to be associated with increased risk of wheeze and exanthema subitum, and also with increased frequency of upper respiratory tract infections. We found no associations between prenatal exposure to acrylamide and the health outcomes investigated. Our results suggest that prenatal dietary exposure to dioxins and PCBs may increase the risk of wheeze and infectious diseases during the first year of life.",
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "loss_target": 1.2711169719696045,
+      "loss_target_given_context": 1.506377100944519,
+      "delta_loss": -0.23526012897491455,
+      "gain_ratio": -0.18508141592223204,
+      "score": 0.18508141592223204,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1227,
+      "boundary_end": 1384,
+      "context": "biphenyls and dioxins is associated with increased risk of wheeze and infections in infants. The birth cohort BraMat (n = 205; a sub-cohort of the Norwegian Mother and Child Cohort Study (MoBa) conducted by the Norwegian Institute of Public Health) was established to study whether prenatal exposure to toxicants from the maternal diet affects immunological health outcomes in children. We here report on the environmental pollutants polychlorinated biphenyls (PCBs) and dioxins, as well as acrylamide generated in food during heat treatment. The frequency of common infections, eczema or itchiness, and periods of more than 10 days of dry cough, chest tightness or wheeze (called wheeze) in the children during the first year of life was assessed by questionnaire data (n = 195). Prenatal dietary exposure to the toxicants was estimated using a validated food frequency questionnaire from MoBa. Prenatal exposure to PCBs and dioxins was found to be associated with increased risk of wheeze and exanthema subitum, and also with increased frequency of upper respiratory tract infections. We found no associations between prenatal exposure to acrylamide and the health outcomes investigated.",
+      "target": "Our results suggest that prenatal dietary exposure to dioxins and PCBs may increase the risk of wheeze and infectious diseases during the first year of life.",
+      "loss_target": 2.138594388961792,
+      "loss_target_given_context": 1.1214656829833984,
+      "delta_loss": 1.0171287059783936,
+      "gain_ratio": 0.47560617909980196,
+      "score": -0.47560617909980196,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1385,
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "score": 0.18508141592223204,
+      "deleted_suffix": "Copyright © 2011 Elsevier Ltd. All rights reserved.",
+      "deleted_char_count": 51
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

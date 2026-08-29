@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4141",
+  "source_doc_id": "MED-4141",
+  "title": "Piglets Are a Source of Pathogenic Yersinia enterocolitica on Fattening-Pig Farms",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Piglets Are a Source of Pathogenic Yersinia enterocolitica on Fattening-Pig Farms\nTo study the origin and spread of Yersinia enterocolitica among pigs, fecal and blood samples were repeatedly taken on a fattening farm. A few piglets were found to be already infected on breeding farms. After the piglets were mixed, the infection spread through the whole unit. Eventually, all the pigs excreted the pathogen.",
+  "sanitized_text": "Piglets Are a Source of Pathogenic Yersinia enterocolitica on Fattening-Pig Farms\nTo study the origin and spread of Yersinia enterocolitica among pigs, fecal and blood samples were repeatedly taken on a fattening farm. A few piglets were found to be already infected on breeding farms. After the piglets were mixed, the infection spread through the whole unit. Eventually, all the pigs excreted the pathogen.",
+  "modified": false,
+  "original_char_count": 408,
+  "sanitized_char_count": 408,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 361,
+      "boundary_end": 408,
+      "context": "Piglets Are a Source of Pathogenic Yersinia enterocolitica on Fattening-Pig Farms To study the origin and spread of Yersinia enterocolitica among pigs, fecal and blood samples were repeatedly taken on a fattening farm. A few piglets were found to be already infected on breeding farms. After the piglets were mixed, the infection spread through the whole unit.",
+      "target": "Eventually, all the pigs excreted the pathogen.",
+      "loss_target": 11.005661964416504,
+      "loss_target_given_context": 3.882753610610962,
+      "delta_loss": 7.122908353805542,
+      "gain_ratio": 0.647203991621342,
+      "score": -0.647203991621342,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

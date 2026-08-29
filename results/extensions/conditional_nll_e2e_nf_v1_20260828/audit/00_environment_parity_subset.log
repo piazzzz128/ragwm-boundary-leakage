@@ -1,0 +1,54 @@
+Loading Qwen2.5-7B...
+Loading checkpoint shards:   0%|                                                                                                                                                                                                          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|████████████████████████████████████████████████▌                                                                                                                                                 | 1/4 [00:01<00:05,  1.95s/it]Loading checkpoint shards:  50%|█████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                 | 2/4 [00:03<00:03,  1.86s/it]Loading checkpoint shards:  75%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                | 3/4 [00:05<00:01,  1.83s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:07<00:00,  1.72s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:07<00:00,  1.78s/it]
+We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+Model loaded on: cuda
+row=  0 label=1 target_err=0.00409889 conditional_err=0.01507521 score_err=0.00265694
+row= 29 label=0 target_err=0.01807165 conditional_err=0.01259053 score_err=0.00541369
+row= 59 label=0 target_err=0.01786852 conditional_err=0.00827283 score_err=0.00493422
+row= 89 label=0 target_err=0.00549793 conditional_err=0.00914407 score_err=0.00519509
+row=118 label=1 target_err=0.00279379 conditional_err=0.01393580 score_err=0.00267682
+row=148 label=1 target_err=0.00441051 conditional_err=0.01326108 score_err=0.00562987
+row=178 label=0 target_err=0.01101995 conditional_err=0.00819564 score_err=0.00127420
+row=207 label=1 target_err=0.00377512 conditional_err=0.00288033 score_err=0.00113910
+row=237 label=1 target_err=0.00625372 conditional_err=0.00593758 score_err=0.00229288
+row=267 label=0 target_err=0.00157881 conditional_err=0.00801015 score_err=0.00244073
+row=296 label=0 target_err=0.01351213 conditional_err=0.00621676 score_err=0.00096543
+row=326 label=1 target_err=0.01659632 conditional_err=0.00305939 score_err=0.00534470
+row=356 label=1 target_err=0.01632428 conditional_err=0.00305367 score_err=0.00327346
+row=385 label=1 target_err=0.00362921 conditional_err=0.00029373 score_err=0.00096478
+row=415 label=1 target_err=0.00543833 conditional_err=0.00676870 score_err=0.00211646
+row=445 label=1 target_err=0.00535870 conditional_err=0.00425339 score_err=0.00015090
+{
+  "experiment_role": "qwen25_7b_blackwell_environment_parity_subset_v1",
+  "reference_environment": "historical frozen score environment",
+  "current_torch": "2.7.1+cu128",
+  "current_gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/Qwen2.5-7B",
+  "record_count": 16,
+  "indices": [
+    0,
+    29,
+    59,
+    89,
+    118,
+    148,
+    178,
+    207,
+    237,
+    267,
+    296,
+    326,
+    356,
+    385,
+    415,
+    445
+  ],
+  "target_max_abs_error": 0.018071651458740234,
+  "target_mean_abs_error": 0.008514240384101868,
+  "conditional_max_abs_error": 0.015075206756591797,
+  "conditional_mean_abs_error": 0.007559303194284439,
+  "score_max_abs_error": 0.005629871007756984,
+  "score_mean_abs_error": 0.002904329386802987
+}
+PARITY SUBSET AUDIT COMPLETE
+Saved: /root/autodl-tmp/ragwm_storage/output/conditional_nll_e2e_nf_v1_20260828/audit/environment_parity_subset.json

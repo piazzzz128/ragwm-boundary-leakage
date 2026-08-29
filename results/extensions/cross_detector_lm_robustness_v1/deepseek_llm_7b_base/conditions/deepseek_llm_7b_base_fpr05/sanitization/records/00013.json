@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1013",
+  "source_doc_id": "MED-1013",
+  "title": "Quality of life in patients with irritable bowel syndrome.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Quality of life in patients with irritable bowel syndrome.\nThere has been an underestimation of the impact of irritable bowel syndrome (IBS) on an individual's functioning and quality of life (QoL). The general health status of both young and elderly individuals with IBS is generally found to be poorer than that of the general population. Patients with IBS seem to have worse health-related quality of life (HRQoL) than patients with certain other conditions such as gastroesophageal reflux disease, diabetes, and end-stage renal disease. Various disease-specific instruments are now available and are widely used in clinical trials to measure changes in QoL in patients with IBS after treatment intervention. Although few such data are presently available from clinical trials, it seems that patients who have a therapeutic response to therapy for IBS have a corresponding improvement in HRQoL. There seems to be no major differences in HRQoL based on IBS subtype (constipation-dominant or diarrhea-dominant). However, the severity of bowel symptoms in IBS is associated with a corresponding impact on HRQoL and patients with worse bowel symptoms have a greater diminished QoL compared with patients with milder symptoms. Evidence also indicates that HRQoL in patients with IBS is affected by sex and psychological conditions. Careful consideration of these factors may help to individualize a therapeutic strategy to optimize long-term outcomes.",
+  "sanitized_text": "Quality of life in patients with irritable bowel syndrome.\nThere has been an underestimation of the impact of irritable bowel syndrome (IBS) on an individual's functioning and quality of life (QoL). The general health status of both young and elderly individuals with IBS is generally found to be poorer than that of the general population. Patients with IBS seem to have worse health-related quality of life (HRQoL) than patients with certain other conditions such as gastroesophageal reflux disease, diabetes, and end-stage renal disease. Various disease-specific instruments are now available and are widely used in clinical trials to measure changes in QoL in patients with IBS after treatment intervention. Although few such data are presently available from clinical trials, it seems that patients who have a therapeutic response to therapy for IBS have a corresponding improvement in HRQoL. There seems to be no major differences in HRQoL based on IBS subtype (constipation-dominant or diarrhea-dominant). However, the severity of bowel symptoms in IBS is associated with a corresponding impact on HRQoL and patients with worse bowel symptoms have a greater diminished QoL compared with patients with milder symptoms. Evidence also indicates that HRQoL in patients with IBS is affected by sex and psychological conditions. Careful consideration of these factors may help to individualize a therapeutic strategy to optimize long-term outcomes.",
+  "modified": false,
+  "original_char_count": 1449,
+  "sanitized_char_count": 1449,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1330,
+      "boundary_end": 1449,
+      "context": "(IBS) on an individual's functioning and quality of life (QoL). The general health status of both young and elderly individuals with IBS is generally found to be poorer than that of the general population. Patients with IBS seem to have worse health-related quality of life (HRQoL) than patients with certain other conditions such as gastroesophageal reflux disease, diabetes, and end-stage renal disease. Various disease-specific instruments are now available and are widely used in clinical trials to measure changes in QoL in patients with IBS after treatment intervention. Although few such data are presently available from clinical trials, it seems that patients who have a therapeutic response to therapy for IBS have a corresponding improvement in HRQoL. There seems to be no major differences in HRQoL based on IBS subtype (constipation-dominant or diarrhea-dominant). However, the severity of bowel symptoms in IBS is associated with a corresponding impact on HRQoL and patients with worse bowel symptoms have a greater diminished QoL compared with patients with milder symptoms. Evidence also indicates that HRQoL in patients with IBS is affected by sex and psychological conditions.",
+      "target": "Careful consideration of these factors may help to individualize a therapeutic strategy to optimize long-term outcomes.",
+      "loss_target": 2.564033031463623,
+      "loss_target_given_context": 2.0116193294525146,
+      "delta_loss": 0.5524137020111084,
+      "gain_ratio": 0.21544718622278236,
+      "score": -0.21544718622278236,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

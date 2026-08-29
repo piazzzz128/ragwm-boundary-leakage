@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1953",
+  "source_doc_id": "MED-1953",
+  "title": "Antimicrobial properties of Allium sativum (garlic).",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Antimicrobial properties of Allium sativum (garlic).\nAlthough garlic has been used for its medicinal properties for thousands of years, investigations into its mode of action are relatively recent. Garlic has a wide spectrum of actions; not only is it antibacterial, antiviral, antifungal and antiprotozoal, but it also has beneficial effects on the cardiovascular and immune systems. Resurgence in the use of natural herbal alternatives has brought the use of medicinal plants to the forefront of pharmacological investigations, and many new drugs are being discovered. This review aims to address the historical use of garlic and its sulfur chemistry, and to provide a basis for further research into its antimicrobial properties.",
+  "sanitized_text": "Antimicrobial properties of Allium sativum (garlic).\nAlthough garlic has been used for its medicinal properties for thousands of years, investigations into its mode of action are relatively recent. Garlic has a wide spectrum of actions; not only is it antibacterial, antiviral, antifungal and antiprotozoal, but it also has beneficial effects on the cardiovascular and immune systems. Resurgence in the use of natural herbal alternatives has brought the use of medicinal plants to the forefront of pharmacological investigations, and many new drugs are being discovered. This review aims to address the historical use of garlic and its sulfur chemistry, and to provide a basis for further research into its antimicrobial properties.",
+  "modified": false,
+  "original_char_count": 732,
+  "sanitized_char_count": 732,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 571,
+      "boundary_end": 732,
+      "context": "Antimicrobial properties of Allium sativum (garlic). Although garlic has been used for its medicinal properties for thousands of years, investigations into its mode of action are relatively recent. Garlic has a wide spectrum of actions; not only is it antibacterial, antiviral, antifungal and antiprotozoal, but it also has beneficial effects on the cardiovascular and immune systems. Resurgence in the use of natural herbal alternatives has brought the use of medicinal plants to the forefront of pharmacological investigations, and many new drugs are being discovered.",
+      "target": "This review aims to address the historical use of garlic and its sulfur chemistry, and to provide a basis for further research into its antimicrobial properties.",
+      "loss_target": 2.840961217880249,
+      "loss_target_given_context": 1.9784828424453735,
+      "delta_loss": 0.8624783754348755,
+      "gain_ratio": 0.3035868177315014,
+      "score": -0.3035868177315014,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

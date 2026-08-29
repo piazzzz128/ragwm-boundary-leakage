@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4356",
+  "source_doc_id": "MED-4356",
+  "title": "Delusional parasitosis in neurological patients.",
+  "original_text": "Delusional parasitosis in neurological patients.\nOBJECTIVE: Delusional parasitosis has been described in a wide range of patients with general medical conditions, but there are few reports about its frequency and possible pathogenic mechanisms in neurological patients. This paper describes this delusional syndrome in a sample of neurological patients. METHODS: We reviewed all clinical charts of hospitalized patients at the neuropsychiatry ward of a neurological center, from January 2005 to June 2009. Cases with delusional parasitosis were described in terms of demographic, clinical and brain imaging features. RESULTS: From a total sample of 1598 patients, we identified 636 patients with neurological disease (39.80%); of these, four patients showed delusional parasitosis (0.62% of the neurological sample). Their diagnoses were brain cysticercosis (n=1), cerebrovascular disease (n=2), and dementia due to vitamin B12 deficit (n=1). They were women in late life, with depressive features. Three of them had significant cognitive decline. Two of them had paraesthesia and pruritus related to peripheral neuropathy. One of them had pruritus of unknown origin (possibly hallucinatory). CONCLUSIONS: Delusional parasitosis was infrequent in this sample of hospitalized neurological patients. Female sex, advanced age, depressive features, cognitive decline, pruritus and paraesthesia of peripheral or central origin may contribute to delusional parasitosis in this population. Copyright 2010 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Delusional parasitosis in neurological patients.\nOBJECTIVE: Delusional parasitosis has been described in a wide range of patients with general medical conditions, but there are few reports about its frequency and possible pathogenic mechanisms in neurological patients. This paper describes this delusional syndrome in a sample of neurological patients. METHODS: We reviewed all clinical charts of hospitalized patients at the neuropsychiatry ward of a neurological center, from January 2005 to June 2009. Cases with delusional parasitosis were described in terms of demographic, clinical and brain imaging features. RESULTS: From a total sample of 1598 patients, we identified 636 patients with neurological disease (39.80%); of these, four patients showed delusional parasitosis (0.62% of the neurological sample). Their diagnoses were brain cysticercosis (n=1), cerebrovascular disease (n=2), and dementia due to vitamin B12 deficit (n=1). They were women in late life, with depressive features. Three of them had significant cognitive decline. Two of them had paraesthesia and pruritus related to peripheral neuropathy. One of them had pruritus of unknown origin (possibly hallucinatory). CONCLUSIONS: Delusional parasitosis was infrequent in this sample of hospitalized neurological patients. Female sex, advanced age, depressive features, cognitive decline, pruritus and paraesthesia of peripheral or central origin may contribute to delusional parasitosis in this population.",
+  "modified": true,
+  "original_char_count": 1532,
+  "sanitized_char_count": 1482,
+  "deleted_char_count": 50,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1483,
+      "boundary_end": 1511,
+      "context": "this delusional syndrome in a sample of neurological patients. METHODS: We reviewed all clinical charts of hospitalized patients at the neuropsychiatry ward of a neurological center, from January 2005 to June 2009. Cases with delusional parasitosis were described in terms of demographic, clinical and brain imaging features. RESULTS: From a total sample of 1598 patients, we identified 636 patients with neurological disease (39.80%); of these, four patients showed delusional parasitosis (0.62% of the neurological sample). Their diagnoses were brain cysticercosis (n=1), cerebrovascular disease (n=2), and dementia due to vitamin B12 deficit (n=1). They were women in late life, with depressive features. Three of them had significant cognitive decline. Two of them had paraesthesia and pruritus related to peripheral neuropathy. One of them had pruritus of unknown origin (possibly hallucinatory). CONCLUSIONS: Delusional parasitosis was infrequent in this sample of hospitalized neurological patients. Female sex, advanced age, depressive features, cognitive decline, pruritus and paraesthesia of peripheral or central origin may contribute to delusional parasitosis in this population.",
+      "target": "Copyright 2010 Elsevier Inc.",
+      "loss_target": 1.416924238204956,
+      "loss_target_given_context": 1.9050209522247314,
+      "delta_loss": -0.4880967140197754,
+      "gain_ratio": -0.3444762259400159,
+      "score": 0.3444762259400159,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1298,
+      "boundary_end": 1482,
+      "context": "in a wide range of patients with general medical conditions, but there are few reports about its frequency and possible pathogenic mechanisms in neurological patients. This paper describes this delusional syndrome in a sample of neurological patients. METHODS: We reviewed all clinical charts of hospitalized patients at the neuropsychiatry ward of a neurological center, from January 2005 to June 2009. Cases with delusional parasitosis were described in terms of demographic, clinical and brain imaging features. RESULTS: From a total sample of 1598 patients, we identified 636 patients with neurological disease (39.80%); of these, four patients showed delusional parasitosis (0.62% of the neurological sample). Their diagnoses were brain cysticercosis (n=1), cerebrovascular disease (n=2), and dementia due to vitamin B12 deficit (n=1). They were women in late life, with depressive features. Three of them had significant cognitive decline. Two of them had paraesthesia and pruritus related to peripheral neuropathy. One of them had pruritus of unknown origin (possibly hallucinatory). CONCLUSIONS: Delusional parasitosis was infrequent in this sample of hospitalized neurological patients.",
+      "target": "Female sex, advanced age, depressive features, cognitive decline, pruritus and paraesthesia of peripheral or central origin may contribute to delusional parasitosis in this population.",
+      "loss_target": 2.9292521476745605,
+      "loss_target_given_context": 1.5506362915039062,
+      "delta_loss": 1.3786158561706543,
+      "gain_ratio": 0.4706374824253669,
+      "score": -0.4706374824253669,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1483,
+      "target": "Copyright 2010 Elsevier Inc.",
+      "score": 0.3444762259400159,
+      "deleted_suffix": "Copyright 2010 Elsevier Inc. All rights reserved.",
+      "deleted_char_count": 49
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

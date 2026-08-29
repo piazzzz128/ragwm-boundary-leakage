@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5024",
+  "source_doc_id": "MED-5024",
+  "title": "Disseminated chlorellosis in a dog.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Disseminated chlorellosis in a dog.\nAn adult dog with ataxia and a lingual mass, previously diagnosed as protothecosis, was euthanized. At the postmortem examination, the lingual mass, regions of the lungs and hilar lymph nodes, liver, mesenteric and sublumbar lymph nodes, and spinal meninges had pronounced green discoloration. Histologically, pyogranulomatous inflammation and algal organisms were found in the tongue, spinal meninges, hilar and mesenteric lymph nodes, liver, and lung. The algae had cell walls positive for periodic acid-Schiff and cytoplasmic granules. Ultrastructurally, the algae had a well-defined cell wall, stacks of grana and thylakoid membrane, and dense bodies, typical of starch granules. The organisms were identified as Chlorella, a green alga, based on the results of histochemistical and electron microscopic examination. To the author's knowledge this is the first report of disseminated Chlorella infection and the first report in a companion animal.",
+  "sanitized_text": "Disseminated chlorellosis in a dog.\nAn adult dog with ataxia and a lingual mass, previously diagnosed as protothecosis, was euthanized. At the postmortem examination, the lingual mass, regions of the lungs and hilar lymph nodes, liver, mesenteric and sublumbar lymph nodes, and spinal meninges had pronounced green discoloration. Histologically, pyogranulomatous inflammation and algal organisms were found in the tongue, spinal meninges, hilar and mesenteric lymph nodes, liver, and lung. The algae had cell walls positive for periodic acid-Schiff and cytoplasmic granules. Ultrastructurally, the algae had a well-defined cell wall, stacks of grana and thylakoid membrane, and dense bodies, typical of starch granules. The organisms were identified as Chlorella, a green alga, based on the results of histochemistical and electron microscopic examination. To the author's knowledge this is the first report of disseminated Chlorella infection and the first report in a companion animal.",
+  "modified": false,
+  "original_char_count": 987,
+  "sanitized_char_count": 987,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 857,
+      "boundary_end": 987,
+      "context": "Disseminated chlorellosis in a dog. An adult dog with ataxia and a lingual mass, previously diagnosed as protothecosis, was euthanized. At the postmortem examination, the lingual mass, regions of the lungs and hilar lymph nodes, liver, mesenteric and sublumbar lymph nodes, and spinal meninges had pronounced green discoloration. Histologically, pyogranulomatous inflammation and algal organisms were found in the tongue, spinal meninges, hilar and mesenteric lymph nodes, liver, and lung. The algae had cell walls positive for periodic acid-Schiff and cytoplasmic granules. Ultrastructurally, the algae had a well-defined cell wall, stacks of grana and thylakoid membrane, and dense bodies, typical of starch granules. The organisms were identified as Chlorella, a green alga, based on the results of histochemistical and electron microscopic examination.",
+      "target": "To the author's knowledge this is the first report of disseminated Chlorella infection and the first report in a companion animal.",
+      "loss_target": 2.8863232135772705,
+      "loss_target_given_context": 1.137152075767517,
+      "delta_loss": 1.7491711378097534,
+      "gain_ratio": 0.6060205349080965,
+      "score": -0.6060205349080965,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

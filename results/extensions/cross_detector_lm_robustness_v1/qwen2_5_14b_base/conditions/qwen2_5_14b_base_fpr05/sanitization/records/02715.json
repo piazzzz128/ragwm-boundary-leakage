@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4609",
+  "source_doc_id": "MED-4609",
+  "title": "The beriberi analogy to myocardial infarction.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The beriberi analogy to myocardial infarction.\nTwo pandemics of heart attack deaths have plagued the world's population during the past 130 years. The first pandemic, induced by beriberi, was caused by the industrial revolution altering the nutritional composition of rice. By 1892 a simple working knowledge, then at hand, could have terminated the beriberi plague; however, orthodox medicine being then enchanted with the false concept that all disease was caused by germs, permitted millions of Asians to die needlessly of beriberi by refusing to tell them to eat rice bran or to drink rice bran tea. A second pandemic of heart attack deaths, called myocardial infarction (MI), struck the developed nations of the Western World in full force after 1930. As a hypothesis, it is suggested that this MI pandemic, still raging today, was caused by a change in food processing that occurred after 1920, when the new oil seed industry introduced into our food three greatly harmful lipid substances. The unnatural trans-trans isomer of linoleic acid, which had never been in human food prior to 1920 and which entered our food in margarines and refined oils, blocked the conversion of natural cis-cis linoleic acid to prostaglandin E1, which tends to prevent MI, both by acting as a vasodilator and by minimizing platelet aggregation. Harmful lactones were also introduced into our food, increasing the risk of MI by decreasing the fibrinolytic activity of our blood. The oil seed industry also introduced into our diet free radical lipid peroxides that make the myocardium more vulnerable to infarction. It is suggested that except for the one in 500 of us who is afflicted by familial hypercholesterolemia, the cholesterol concept of MI is as false today as was the concept in 1900 that germs caused beriberi. It is further suggested that a working knowledge is at hand today that can make death from MI just as rare as death is now from a beriberi-induced heart attack.",
+  "sanitized_text": "The beriberi analogy to myocardial infarction.\nTwo pandemics of heart attack deaths have plagued the world's population during the past 130 years. The first pandemic, induced by beriberi, was caused by the industrial revolution altering the nutritional composition of rice. By 1892 a simple working knowledge, then at hand, could have terminated the beriberi plague; however, orthodox medicine being then enchanted with the false concept that all disease was caused by germs, permitted millions of Asians to die needlessly of beriberi by refusing to tell them to eat rice bran or to drink rice bran tea. A second pandemic of heart attack deaths, called myocardial infarction (MI), struck the developed nations of the Western World in full force after 1930. As a hypothesis, it is suggested that this MI pandemic, still raging today, was caused by a change in food processing that occurred after 1920, when the new oil seed industry introduced into our food three greatly harmful lipid substances. The unnatural trans-trans isomer of linoleic acid, which had never been in human food prior to 1920 and which entered our food in margarines and refined oils, blocked the conversion of natural cis-cis linoleic acid to prostaglandin E1, which tends to prevent MI, both by acting as a vasodilator and by minimizing platelet aggregation. Harmful lactones were also introduced into our food, increasing the risk of MI by decreasing the fibrinolytic activity of our blood. The oil seed industry also introduced into our diet free radical lipid peroxides that make the myocardium more vulnerable to infarction. It is suggested that except for the one in 500 of us who is afflicted by familial hypercholesterolemia, the cholesterol concept of MI is as false today as was the concept in 1900 that germs caused beriberi. It is further suggested that a working knowledge is at hand today that can make death from MI just as rare as death is now from a beriberi-induced heart attack.",
+  "modified": false,
+  "original_char_count": 1969,
+  "sanitized_char_count": 1969,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1809,
+      "boundary_end": 1969,
+      "context": "pandemic of heart attack deaths, called myocardial infarction (MI), struck the developed nations of the Western World in full force after 1930. As a hypothesis, it is suggested that this MI pandemic, still raging today, was caused by a change in food processing that occurred after 1920, when the new oil seed industry introduced into our food three greatly harmful lipid substances. The unnatural trans-trans isomer of linoleic acid, which had never been in human food prior to 1920 and which entered our food in margarines and refined oils, blocked the conversion of natural cis-cis linoleic acid to prostaglandin E1, which tends to prevent MI, both by acting as a vasodilator and by minimizing platelet aggregation. Harmful lactones were also introduced into our food, increasing the risk of MI by decreasing the fibrinolytic activity of our blood. The oil seed industry also introduced into our diet free radical lipid peroxides that make the myocardium more vulnerable to infarction. It is suggested that except for the one in 500 of us who is afflicted by familial hypercholesterolemia, the cholesterol concept of MI is as false today as was the concept in 1900 that germs caused beriberi.",
+      "target": "It is further suggested that a working knowledge is at hand today that can make death from MI just as rare as death is now from a beriberi-induced heart attack.",
+      "loss_target": 3.7835426330566406,
+      "loss_target_given_context": 2.5766968727111816,
+      "delta_loss": 1.206845760345459,
+      "gain_ratio": 0.31897242277681825,
+      "score": -0.31897242277681825,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3310",
+  "source_doc_id": "MED-3310",
+  "title": "A new type of Hypersensitivity Pneumonitis: salami brusher's disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "A new type of Hypersensitivity Pneumonitis: salami brusher's disease.\nWe observed five consecutive cases of Hypersensitivity Pneumonitis in subjects working in a salami factory. The workers had to clean the white mould growing on salami surface using a manual wire brush. The five patients (four female) had a mean age of 39 +/- 15 years; two were smokers. Three patients had an acute clinical presentation with fever, dyspnoea, dry cough, oxygen desaturation, and presented at the emergency department with suspected diagnosis of community acquired pneumonia. The mean latency for developing respiratory symptoms was 11.6 days. Pulmonary function test demonstrated a reduction in diffusing capacity (DLCO) in all 5 patients (60 +/- 15% of predicted value). Skin prick test was positive for Penicillium spp in 3 cases and for Cladosporium and Aspergillus spp in 2 others. Specific IgG antibodies against Penicillium spp were positive in 3 subjects; 2 were positive for Aspergillus Fumigatus. The prevailing radiological pattern was a ground glass appearance in the three patients with acute clinical onset and a centrilobular one in patients with subacute onset. All patients were advised to avoid exposure to the antigens. Follow-up visits including pulmonary function testing, and DLCO measurement were conducted at one, three and six months. HRCT was performed at six month. Four subjects had a complete radiological and clinical resolution after changing work. Only one patient was treated with oral steroids for severe dyspnoea and progressive reduction of DLCO, gaining a complete radiological and clinical stability at six months.",
+  "sanitized_text": "A new type of Hypersensitivity Pneumonitis: salami brusher's disease.\nWe observed five consecutive cases of Hypersensitivity Pneumonitis in subjects working in a salami factory. The workers had to clean the white mould growing on salami surface using a manual wire brush. The five patients (four female) had a mean age of 39 +/- 15 years; two were smokers. Three patients had an acute clinical presentation with fever, dyspnoea, dry cough, oxygen desaturation, and presented at the emergency department with suspected diagnosis of community acquired pneumonia. The mean latency for developing respiratory symptoms was 11.6 days. Pulmonary function test demonstrated a reduction in diffusing capacity (DLCO) in all 5 patients (60 +/- 15% of predicted value). Skin prick test was positive for Penicillium spp in 3 cases and for Cladosporium and Aspergillus spp in 2 others. Specific IgG antibodies against Penicillium spp were positive in 3 subjects; 2 were positive for Aspergillus Fumigatus. The prevailing radiological pattern was a ground glass appearance in the three patients with acute clinical onset and a centrilobular one in patients with subacute onset. All patients were advised to avoid exposure to the antigens. Follow-up visits including pulmonary function testing, and DLCO measurement were conducted at one, three and six months. HRCT was performed at six month. Four subjects had a complete radiological and clinical resolution after changing work. Only one patient was treated with oral steroids for severe dyspnoea and progressive reduction of DLCO, gaining a complete radiological and clinical stability at six months.",
+  "modified": false,
+  "original_char_count": 1637,
+  "sanitized_char_count": 1637,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1465,
+      "boundary_end": 1637,
+      "context": "brush. The five patients (four female) had a mean age of 39 +/- 15 years; two were smokers. Three patients had an acute clinical presentation with fever, dyspnoea, dry cough, oxygen desaturation, and presented at the emergency department with suspected diagnosis of community acquired pneumonia. The mean latency for developing respiratory symptoms was 11.6 days. Pulmonary function test demonstrated a reduction in diffusing capacity (DLCO) in all 5 patients (60 +/- 15% of predicted value). Skin prick test was positive for Penicillium spp in 3 cases and for Cladosporium and Aspergillus spp in 2 others. Specific IgG antibodies against Penicillium spp were positive in 3 subjects; 2 were positive for Aspergillus Fumigatus. The prevailing radiological pattern was a ground glass appearance in the three patients with acute clinical onset and a centrilobular one in patients with subacute onset. All patients were advised to avoid exposure to the antigens. Follow-up visits including pulmonary function testing, and DLCO measurement were conducted at one, three and six months. HRCT was performed at six month. Four subjects had a complete radiological and clinical resolution after changing work.",
+      "target": "Only one patient was treated with oral steroids for severe dyspnoea and progressive reduction of DLCO, gaining a complete radiological and clinical stability at six months.",
+      "loss_target": 3.456198215484619,
+      "loss_target_given_context": 2.0515875816345215,
+      "delta_loss": 1.4046106338500977,
+      "gain_ratio": 0.40640337916879193,
+      "score": -0.40640337916879193,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

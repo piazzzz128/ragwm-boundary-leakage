@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4184",
+  "source_doc_id": "MED-4184",
+  "title": "High concentrations of polybrominated diphenylethers (PBDEs) in breast adipose tissue of California women.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "High concentrations of polybrominated diphenylethers (PBDEs) in breast adipose tissue of California women.\nWe measured major PBDEs and PCBs in breast adipose tissues of California women participating in a breast cancer study in the late 1990s. Samples were analyzed using gas chromatography with electron impact ionization and tandem mass spectrometry detection. The congener profile observed was: BDE47>BDE99>BDE153>BDE100>BDE154 and PCB153>PCB180>PCB138>PCB118. Whereas high correlations were observed within each chemical class, very weak correlations appeared between classes, pointing to different exposure pathways. Weak negative associations were observed for PBDE congeners and age. Our PBDE data are among the highest reported, exceeding data from the National Health and Nutrition Examination Survey and consistent with the high use of PBDEs in California. These data may be helpful in establishing a baseline for PBDE body burdens to gauge changes over time as a result of restrictions in the use of PBDE formulations. Copyright © 2010 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "High concentrations of polybrominated diphenylethers (PBDEs) in breast adipose tissue of California women.\nWe measured major PBDEs and PCBs in breast adipose tissues of California women participating in a breast cancer study in the late 1990s. Samples were analyzed using gas chromatography with electron impact ionization and tandem mass spectrometry detection. The congener profile observed was: BDE47>BDE99>BDE153>BDE100>BDE154 and PCB153>PCB180>PCB138>PCB118. Whereas high correlations were observed within each chemical class, very weak correlations appeared between classes, pointing to different exposure pathways. Weak negative associations were observed for PBDE congeners and age. Our PBDE data are among the highest reported, exceeding data from the National Health and Nutrition Examination Survey and consistent with the high use of PBDEs in California. These data may be helpful in establishing a baseline for PBDE body burdens to gauge changes over time as a result of restrictions in the use of PBDE formulations. Copyright © 2010 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1081,
+  "sanitized_char_count": 1081,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1030,
+      "boundary_end": 1060,
+      "context": "High concentrations of polybrominated diphenylethers (PBDEs) in breast adipose tissue of California women. We measured major PBDEs and PCBs in breast adipose tissues of California women participating in a breast cancer study in the late 1990s. Samples were analyzed using gas chromatography with electron impact ionization and tandem mass spectrometry detection. The congener profile observed was: BDE47>BDE99>BDE153>BDE100>BDE154 and PCB153>PCB180>PCB138>PCB118. Whereas high correlations were observed within each chemical class, very weak correlations appeared between classes, pointing to different exposure pathways. Weak negative associations were observed for PBDE congeners and age. Our PBDE data are among the highest reported, exceeding data from the National Health and Nutrition Examination Survey and consistent with the high use of PBDEs in California. These data may be helpful in establishing a baseline for PBDE body burdens to gauge changes over time as a result of restrictions in the use of PBDE formulations.",
+      "target": "Copyright © 2010 Elsevier Ltd.",
+      "loss_target": 1.1817370653152466,
+      "loss_target_given_context": 0.46372610330581665,
+      "delta_loss": 0.7180109620094299,
+      "gain_ratio": 0.6075894402261889,
+      "score": -0.6075894402261889,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

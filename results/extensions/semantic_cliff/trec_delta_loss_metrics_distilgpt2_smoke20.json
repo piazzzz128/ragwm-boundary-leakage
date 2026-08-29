@@ -1,0 +1,64 @@
+{
+  "dataset": "trec-covid",
+  "boundary_file": "/root/autodl-tmp/ragwm_storage/output/semantic_cliff/boundary_trec_k5_v3.json",
+  "model_repo_id": "distilgpt2",
+  "model_path": "/root/autodl-tmp/ragwm_storage/local_models/distilgpt2",
+  "tag": "distilgpt2_smoke20",
+  "n_input": 20,
+  "n_scored": 20,
+  "n_failed": 0,
+  "positive_inject": 9,
+  "negative_clean": 11,
+  "record_delta_loss": {
+    "roc_auc": 0.606060606060606,
+    "pr_auc": 0.609440813362382,
+    "score_mean_inject": -0.6080729166666666,
+    "score_mean_clean": -0.8309659090909091
+  },
+  "record_gain_ratio": {
+    "roc_auc": 0.6666666666666666,
+    "pr_auc": 0.6398428731762065,
+    "score_mean_inject": -0.11415093014797499,
+    "score_mean_clean": -0.1757991567298292
+  },
+  "group_mean_delta_loss": {
+    "groups": 19,
+    "positive_groups": 8,
+    "negative_groups": 11,
+    "roc_auc": 0.625,
+    "pr_auc": 0.5986111111111112,
+    "score_mean_inject": -0.59423828125,
+    "score_mean_clean": -0.8309659090909091
+  },
+  "group_median_delta_loss": {
+    "groups": 19,
+    "positive_groups": 8,
+    "negative_groups": 11,
+    "roc_auc": 0.625,
+    "pr_auc": 0.5986111111111112,
+    "score_mean_inject": -0.59423828125,
+    "score_mean_clean": -0.8309659090909091
+  },
+  "group_mean_gain_ratio": {
+    "groups": 19,
+    "positive_groups": 8,
+    "negative_groups": 11,
+    "roc_auc": 0.6704545454545454,
+    "pr_auc": 0.6324346405228758,
+    "score_mean_inject": -0.11494532860918902,
+    "score_mean_clean": -0.1757991567298292
+  },
+  "group_median_gain_ratio": {
+    "groups": 19,
+    "positive_groups": 8,
+    "negative_groups": 11,
+    "roc_auc": 0.6704545454545454,
+    "pr_auc": 0.6324346405228758,
+    "score_mean_inject": -0.11494532860918902,
+    "score_mean_clean": -0.1757991567298292
+  },
+  "delta_loss_mean_inject": 0.6080729166666666,
+  "delta_loss_mean_clean": 0.8309659090909091,
+  "gain_ratio_mean_inject": 0.11415093014797499,
+  "gain_ratio_mean_clean": 0.1757991567298292
+}

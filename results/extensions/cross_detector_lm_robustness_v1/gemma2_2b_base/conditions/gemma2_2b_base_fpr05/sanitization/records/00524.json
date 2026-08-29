@@ -1,0 +1,45 @@
+{
+  "internal_id": "MED-1634",
+  "source_doc_id": "MED-1634",
+  "title": "Cardiovascular disease data to be standardized across Europe.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Cardiovascular disease data to be standardized across Europe.\nESC is to create an inventory of cardiovascular disease registries and a task force on data standardization",
+  "sanitized_text": "Cardiovascular disease data to be standardized across Europe.",
+  "modified": true,
+  "original_char_count": 169,
+  "sanitized_char_count": 61,
+  "deleted_char_count": 108,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 62,
+      "boundary_end": 169,
+      "context": "Cardiovascular disease data to be standardized across Europe.",
+      "target": "ESC is to create an inventory of cardiovascular disease registries and a task force on data standardization",
+      "loss_target": 8.602556228637695,
+      "loss_target_given_context": 7.673884868621826,
+      "delta_loss": 0.9286713600158691,
+      "gain_ratio": 0.10795295437004472,
+      "score": -0.10795295437004472,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": true
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 62,
+      "target": "ESC is to create an inventory of cardiovascular disease registries and a task force on data standardization",
+      "score": -0.10795295437004472,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "ESC is to create an inventory of cardiovascular disease registries and a task force on data standardization",
+      "deleted_char_count": 107
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "empty_context"
+}

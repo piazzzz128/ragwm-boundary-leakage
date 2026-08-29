@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1666",
+  "source_doc_id": "MED-1666",
+  "title": "Nutrition of the intervertebral disc.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Nutrition of the intervertebral disc.\nSTUDY DESIGN: A review of the literature on disc nutrition. OBJECTIVES: To summarize the information on disc nutrition in relation to disc degeneration. SUMMARY OF THE BACKGROUND DATA: The disc is avascular, and the disc cells depend on diffusion from blood vessels at the disc's margins to supply the nutrients essential for cellular activity and viability and to remove metabolic wastes such as lactic acid. The nutrient supply can fail due to changes in blood supply, sclerosis of the subchondral bone or endplate calcification, all of which can block transport from blood supply to the disc or due to changes in cellular demand. METHODS: A review of the studies on disc blood supply, solute transport, studies of solute transport in animal and human disc in vitro, and of theoretical modeling studies that have examined factors affecting disc nutrition. RESULTS: Small nutrients such as oxygen and glucose are supplied to the disc's cells virtually entirely by diffusion; convective transport, arising from load-induced fluid movement in and out of the disc, has virtually no direct influence on transport of these nutrients. Consequently, there are steep concentration gradients of oxygen, glucose, and lactic acid across the disc; oxygen and glucose concentrations are lowest in the center of the nucleus where lactic acid concentrations are greatest. The actual levels of concentration depend on the balance between diffusive transport and cellular demand and can fall to critical levels if the endplate calcifies or nutritional demand increases. CONCLUSIONS: Loss of nutrient supply can lead to cell death, loss of matrix production, and increase in matrix degradation and hence to disc degeneration.",
+  "sanitized_text": "Nutrition of the intervertebral disc.\nSTUDY DESIGN: A review of the literature on disc nutrition. OBJECTIVES: To summarize the information on disc nutrition in relation to disc degeneration. SUMMARY OF THE BACKGROUND DATA: The disc is avascular, and the disc cells depend on diffusion from blood vessels at the disc's margins to supply the nutrients essential for cellular activity and viability and to remove metabolic wastes such as lactic acid. The nutrient supply can fail due to changes in blood supply, sclerosis of the subchondral bone or endplate calcification, all of which can block transport from blood supply to the disc or due to changes in cellular demand. METHODS: A review of the studies on disc blood supply, solute transport, studies of solute transport in animal and human disc in vitro, and of theoretical modeling studies that have examined factors affecting disc nutrition. RESULTS: Small nutrients such as oxygen and glucose are supplied to the disc's cells virtually entirely by diffusion; convective transport, arising from load-induced fluid movement in and out of the disc, has virtually no direct influence on transport of these nutrients. Consequently, there are steep concentration gradients of oxygen, glucose, and lactic acid across the disc; oxygen and glucose concentrations are lowest in the center of the nucleus where lactic acid concentrations are greatest. The actual levels of concentration depend on the balance between diffusive transport and cellular demand and can fall to critical levels if the endplate calcifies or nutritional demand increases. CONCLUSIONS: Loss of nutrient supply can lead to cell death, loss of matrix production, and increase in matrix degradation and hence to disc degeneration.",
+  "modified": false,
+  "original_char_count": 1746,
+  "sanitized_char_count": 1746,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1592,
+      "boundary_end": 1746,
+      "context": "and to remove metabolic wastes such as lactic acid. The nutrient supply can fail due to changes in blood supply, sclerosis of the subchondral bone or endplate calcification, all of which can block transport from blood supply to the disc or due to changes in cellular demand. METHODS: A review of the studies on disc blood supply, solute transport, studies of solute transport in animal and human disc in vitro, and of theoretical modeling studies that have examined factors affecting disc nutrition. RESULTS: Small nutrients such as oxygen and glucose are supplied to the disc's cells virtually entirely by diffusion; convective transport, arising from load-induced fluid movement in and out of the disc, has virtually no direct influence on transport of these nutrients. Consequently, there are steep concentration gradients of oxygen, glucose, and lactic acid across the disc; oxygen and glucose concentrations are lowest in the center of the nucleus where lactic acid concentrations are greatest. The actual levels of concentration depend on the balance between diffusive transport and cellular demand and can fall to critical levels if the endplate calcifies or nutritional demand increases.",
+      "target": "CONCLUSIONS: Loss of nutrient supply can lead to cell death, loss of matrix production, and increase in matrix degradation and hence to disc degeneration.",
+      "loss_target": 2.6159088611602783,
+      "loss_target_given_context": 1.3122375011444092,
+      "delta_loss": 1.3036713600158691,
+      "gain_ratio": 0.4983626835675115,
+      "score": -0.4983626835675115,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

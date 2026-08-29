@@ -1,0 +1,69 @@
+{
+  "experiment_role": "cross_detector_lm_robustness_aligned_v1",
+  "model": "DeepSeek-LLM-7B-base",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "no_bos": true,
+  "no_separator": true,
+  "datasets": {
+    "nfcorpus": {
+      "dataset": "nfcorpus",
+      "score_file": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/scores/deepseek_nfcorpus_aligned_scores.json",
+      "score_file_sha256": "fd29d143ac4c08f23d36b8fac5d4bad7e6d85172f68bb7eb4c1d19275552cc86",
+      "record_count": 446,
+      "label_counts": {
+        "clean": 223,
+        "injected": 223
+      },
+      "score_direction": "larger score is more suspicious",
+      "roc_auc": 0.9185183695630316,
+      "pr_auc": 0.9200262709561458,
+      "score_mean_clean": -0.3425124461682959,
+      "score_mean_injected": -0.10252553715968993,
+      "source_document_cluster_bootstrap": {
+        "roc_auc_ci": [
+          0.8913594995644878,
+          0.9416649030872956
+        ],
+        "pr_auc_ci": [
+          0.8863892962506423,
+          0.9466962228765373
+        ],
+        "requested_replicates": 5000,
+        "valid_replicates": 5000,
+        "skipped_replicates": 0,
+        "cluster_count": 359
+      }
+    },
+    "trec-covid": {
+      "dataset": "trec-covid",
+      "score_file": "/root/autodl-tmp/ragwm_storage/output/cross_detector_lm_robustness_v1/deepseek_llm_7b_base/scores/deepseek_trec_aligned_scores.json",
+      "score_file_sha256": "16b89d599fdcd1a792f783174f83560537d3227693f6843218b9c16cdf245118",
+      "record_count": 458,
+      "label_counts": {
+        "clean": 229,
+        "injected": 229
+      },
+      "score_direction": "larger score is more suspicious",
+      "roc_auc": 0.9210732060792128,
+      "pr_auc": 0.9236409714206109,
+      "score_mean_clean": -0.31263802448284056,
+      "score_mean_injected": -0.0932769919034901,
+      "source_document_cluster_bootstrap": {
+        "roc_auc_ci": [
+          0.8962528905441587,
+          0.9425480960105427
+        ],
+        "pr_auc_ci": [
+          0.8953467228612598,
+          0.9471733265802881
+        ],
+        "requested_replicates": 5000,
+        "valid_replicates": 5000,
+        "skipped_replicates": 0,
+        "cluster_count": 410
+      }
+    }
+  },
+  "bootstrap_seed": 20260609,
+  "warning": "Per-model cluster-bootstrap intervals do not by themselves prove a significant difference between detector LMs."
+}

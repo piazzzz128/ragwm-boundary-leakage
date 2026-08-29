@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1366",
+  "source_doc_id": "MED-1366",
+  "title": "Mediterranean diet and public health: personal reflections.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Mediterranean diet and public health: personal reflections.\nMy concern about diet as a public health problem began in the early 1950s in Naples, where we observed very low incidences of coronary heart disease associated with what we later came to call the \"good Mediterranean diet.\" The heart of this diet is mainly vegetarian, and differs from American and northern European diets in that it is much lower in meat and dairy products and uses fruit for dessert. These observations led to our subsequent research in the Seven Countries Study, in which we demonstrated that saturated fat is the major dietary villain. Today, the healthy Mediterranean diet is changing and coronary heart disease is no longer confined to medical textbooks. Our challenge is to persuade children to tell their parents to eat as Mediterraneans do.",
+  "sanitized_text": "Mediterranean diet and public health: personal reflections.\nMy concern about diet as a public health problem began in the early 1950s in Naples, where we observed very low incidences of coronary heart disease associated with what we later came to call the \"good Mediterranean diet.\" The heart of this diet is mainly vegetarian, and differs from American and northern European diets in that it is much lower in meat and dairy products and uses fruit for dessert. These observations led to our subsequent research in the Seven Countries Study, in which we demonstrated that saturated fat is the major dietary villain. Today, the healthy Mediterranean diet is changing and coronary heart disease is no longer confined to medical textbooks. Our challenge is to persuade children to tell their parents to eat as Mediterraneans do.",
+  "modified": false,
+  "original_char_count": 825,
+  "sanitized_char_count": 825,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 737,
+      "boundary_end": 825,
+      "context": "Mediterranean diet and public health: personal reflections. My concern about diet as a public health problem began in the early 1950s in Naples, where we observed very low incidences of coronary heart disease associated with what we later came to call the \"good Mediterranean diet.\" The heart of this diet is mainly vegetarian, and differs from American and northern European diets in that it is much lower in meat and dairy products and uses fruit for dessert. These observations led to our subsequent research in the Seven Countries Study, in which we demonstrated that saturated fat is the major dietary villain. Today, the healthy Mediterranean diet is changing and coronary heart disease is no longer confined to medical textbooks.",
+      "target": "Our challenge is to persuade children to tell their parents to eat as Mediterraneans do.",
+      "loss_target": 4.0454511642456055,
+      "loss_target_given_context": 2.7953145503997803,
+      "delta_loss": 1.2501366138458252,
+      "gain_ratio": 0.3090227920422691,
+      "score": -0.3090227920422691,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

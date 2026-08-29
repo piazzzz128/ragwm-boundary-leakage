@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5074",
+  "source_doc_id": "MED-5074",
+  "title": "Effects of microwave cooking conditions on bioactive compounds present in broccoli inflorescences.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of microwave cooking conditions on bioactive compounds present in broccoli inflorescences.\nCooking as a domestic processing method has a great impact on food nutrients. Most Brassica (Brassicaceae, Cruciferae) vegetables are mainly consumed after being cooked, and cooking considerably affects their health-promoting compounds (specifically, glucosinolates, phenolic compunds, minerals, and vitamin C studied here). The microwave cooking process presents controversial results in the literature due to the different conditions that are employed (time, power, and added water). Therefore, the aim of this work was to study the influence of these conditions during microwave cooking on the human bioactive compounds of broccoli. The results show a general decrease in the levels of all the studied compounds except for mineral nutrients which were stable under all cooking conditions. Vitamin C showed the greatest losses mainly because of degradation and leaching, whereas losses for phenolic compounds and glucosinolates were mainly due to leaching into water. In general, the longest microwave cooking time and the higher volume of cooking water should be avoided to minimize losses of nutrients.",
+  "sanitized_text": "Effects of microwave cooking conditions on bioactive compounds present in broccoli inflorescences.\nCooking as a domestic processing method has a great impact on food nutrients. Most Brassica (Brassicaceae, Cruciferae) vegetables are mainly consumed after being cooked, and cooking considerably affects their health-promoting compounds (specifically, glucosinolates, phenolic compunds, minerals, and vitamin C studied here). The microwave cooking process presents controversial results in the literature due to the different conditions that are employed (time, power, and added water). Therefore, the aim of this work was to study the influence of these conditions during microwave cooking on the human bioactive compounds of broccoli. The results show a general decrease in the levels of all the studied compounds except for mineral nutrients which were stable under all cooking conditions. Vitamin C showed the greatest losses mainly because of degradation and leaching, whereas losses for phenolic compounds and glucosinolates were mainly due to leaching into water. In general, the longest microwave cooking time and the higher volume of cooking water should be avoided to minimize losses of nutrients.",
+  "modified": false,
+  "original_char_count": 1205,
+  "sanitized_char_count": 1205,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1069,
+      "boundary_end": 1205,
+      "context": "Effects of microwave cooking conditions on bioactive compounds present in broccoli inflorescences. Cooking as a domestic processing method has a great impact on food nutrients. Most Brassica (Brassicaceae, Cruciferae) vegetables are mainly consumed after being cooked, and cooking considerably affects their health-promoting compounds (specifically, glucosinolates, phenolic compunds, minerals, and vitamin C studied here). The microwave cooking process presents controversial results in the literature due to the different conditions that are employed (time, power, and added water). Therefore, the aim of this work was to study the influence of these conditions during microwave cooking on the human bioactive compounds of broccoli. The results show a general decrease in the levels of all the studied compounds except for mineral nutrients which were stable under all cooking conditions. Vitamin C showed the greatest losses mainly because of degradation and leaching, whereas losses for phenolic compounds and glucosinolates were mainly due to leaching into water.",
+      "target": "In general, the longest microwave cooking time and the higher volume of cooking water should be avoided to minimize losses of nutrients.",
+      "loss_target": 3.8748056888580322,
+      "loss_target_given_context": 1.9839955568313599,
+      "delta_loss": 1.8908101320266724,
+      "gain_ratio": 0.4879754712510306,
+      "score": -0.4879754712510306,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

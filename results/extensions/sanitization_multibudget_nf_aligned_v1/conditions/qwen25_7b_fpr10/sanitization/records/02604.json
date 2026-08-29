@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4470",
+  "source_doc_id": "MED-4470",
+  "title": "Effects of vitamins C and E on N-nitroso compound formation, carcinogenesis, and cancer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of vitamins C and E on N-nitroso compound formation, carcinogenesis, and cancer.\nThe properties of N-nitroso compounds (NNC) and of vitamins C and E are briefly described. The author reviews the ability of vitamins C and E to inhibit NNC formation in chemical systems, in nitrite-preserved meat, in experimental animals and in humans. Dietary vitamins C and E both produced 30% to 60% inhibitions in most carcinogenesis experiments employing preformed carcinogens. Vitamin C reversed transformation in an in vitro system. Carcinogenicity tests of the vitamins are reviewed (vitamin C can promote bladder carcinogenesis). Intake of fresh fruits and vegetables (which contain vitamin C) is negatively correlated with cancer of the stomach, esophagus, larynx, mouth and cervix. For gastric and esophageal cancer, there is evidence that this association is due to an inhibition of in vivo NNC formation. Vitamin C is apparently not a useful treatment for cancer. The author supports the recommendation that fresh fruit and vegetable intake be increased to lower the risk of cancer.",
+  "sanitized_text": "Effects of vitamins C and E on N-nitroso compound formation, carcinogenesis, and cancer.\nThe properties of N-nitroso compounds (NNC) and of vitamins C and E are briefly described. The author reviews the ability of vitamins C and E to inhibit NNC formation in chemical systems, in nitrite-preserved meat, in experimental animals and in humans. Dietary vitamins C and E both produced 30% to 60% inhibitions in most carcinogenesis experiments employing preformed carcinogens. Vitamin C reversed transformation in an in vitro system. Carcinogenicity tests of the vitamins are reviewed (vitamin C can promote bladder carcinogenesis). Intake of fresh fruits and vegetables (which contain vitamin C) is negatively correlated with cancer of the stomach, esophagus, larynx, mouth and cervix. For gastric and esophageal cancer, there is evidence that this association is due to an inhibition of in vivo NNC formation. Vitamin C is apparently not a useful treatment for cancer. The author supports the recommendation that fresh fruit and vegetable intake be increased to lower the risk of cancer.",
+  "modified": false,
+  "original_char_count": 1085,
+  "sanitized_char_count": 1085,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 967,
+      "boundary_end": 1085,
+      "context": "Effects of vitamins C and E on N-nitroso compound formation, carcinogenesis, and cancer. The properties of N-nitroso compounds (NNC) and of vitamins C and E are briefly described. The author reviews the ability of vitamins C and E to inhibit NNC formation in chemical systems, in nitrite-preserved meat, in experimental animals and in humans. Dietary vitamins C and E both produced 30% to 60% inhibitions in most carcinogenesis experiments employing preformed carcinogens. Vitamin C reversed transformation in an in vitro system. Carcinogenicity tests of the vitamins are reviewed (vitamin C can promote bladder carcinogenesis). Intake of fresh fruits and vegetables (which contain vitamin C) is negatively correlated with cancer of the stomach, esophagus, larynx, mouth and cervix. For gastric and esophageal cancer, there is evidence that this association is due to an inhibition of in vivo NNC formation. Vitamin C is apparently not a useful treatment for cancer.",
+      "target": "The author supports the recommendation that fresh fruit and vegetable intake be increased to lower the risk of cancer.",
+      "loss_target": 3.145037889480591,
+      "loss_target_given_context": 1.7807247638702393,
+      "delta_loss": 1.3643131256103516,
+      "gain_ratio": 0.4337986293181576,
+      "score": -0.4337986293181576,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

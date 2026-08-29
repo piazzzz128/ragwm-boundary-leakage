@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1290",
+  "source_doc_id": "MED-1290",
+  "title": "Possible therapy for ALS based on the cyanobacteria/BMAA hypothesis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Possible therapy for ALS based on the cyanobacteria/BMAA hypothesis.\nAlthough the cyanobacteria/BMAA hypothesis of the cause of ALS and other age-related neurodegenerative diseases remains to be proven, it is not too early to ask whether treatment would be possible if the hypothesis were correct. This paper reviews the possible ways that chronic BMAA neurotoxicity could be prevented or treated.",
+  "sanitized_text": "Possible therapy for ALS based on the cyanobacteria/BMAA hypothesis.\nAlthough the cyanobacteria/BMAA hypothesis of the cause of ALS and other age-related neurodegenerative diseases remains to be proven, it is not too early to ask whether treatment would be possible if the hypothesis were correct. This paper reviews the possible ways that chronic BMAA neurotoxicity could be prevented or treated.",
+  "modified": false,
+  "original_char_count": 397,
+  "sanitized_char_count": 397,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 298,
+      "boundary_end": 397,
+      "context": "Possible therapy for ALS based on the cyanobacteria/BMAA hypothesis. Although the cyanobacteria/BMAA hypothesis of the cause of ALS and other age-related neurodegenerative diseases remains to be proven, it is not too early to ask whether treatment would be possible if the hypothesis were correct.",
+      "target": "This paper reviews the possible ways that chronic BMAA neurotoxicity could be prevented or treated.",
+      "loss_target": 3.0130181312561035,
+      "loss_target_given_context": 1.6066229343414307,
+      "delta_loss": 1.4063951969146729,
+      "gain_ratio": 0.46677289536533845,
+      "score": -0.46677289536533845,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4560",
+  "source_doc_id": "MED-4560",
+  "title": "Preventing and arresting coronary atherosclerosis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Preventing and arresting coronary atherosclerosis.\nThe good news about coronary atherosclerosis is that it takes an awful lot of plaque before symptoms of myocardial ischemia occur. The bad news is that despite the need for large quantities of plaque for symptoms to occur, nevertheless nearly half of us in the United States eventually have the necessary quantity. Atherosclerosis is infrequently hereditary in origin. Most of us get atherosclerosis because we consume too much fat, cholesterol, and calories. The consequence is an elevated ( > 150 mg/dl) serum total cholesterol level, and the higher the number is above 150, the greater is the quantity of plaque deposited in our arteries. If the serum total cholesterol level can be prevented from rising to more than 150 mg/dl, plaques are not laid down; if elevated levels are lowered to 150 mg/dl, further plaque does not form, and parts of those present may vanish. A fruit-vegetarian-starch diet is necessary as a rule to achieve the 150 mg/dl level in most adults. Lipid-lowering drugs are required in the patients with familial hypercholesterolemia and in most patients with atherosclerotic events. The best news about atherosclerosis is that it can be prevented in those without the hereditary form, and it can be arrested by lowering elevated serum total (and LDL) cholesterol to the 150 mg/dl level.",
+  "sanitized_text": "Preventing and arresting coronary atherosclerosis.\nThe good news about coronary atherosclerosis is that it takes an awful lot of plaque before symptoms of myocardial ischemia occur. The bad news is that despite the need for large quantities of plaque for symptoms to occur, nevertheless nearly half of us in the United States eventually have the necessary quantity. Atherosclerosis is infrequently hereditary in origin. Most of us get atherosclerosis because we consume too much fat, cholesterol, and calories. The consequence is an elevated ( > 150 mg/dl) serum total cholesterol level, and the higher the number is above 150, the greater is the quantity of plaque deposited in our arteries. If the serum total cholesterol level can be prevented from rising to more than 150 mg/dl, plaques are not laid down; if elevated levels are lowered to 150 mg/dl, further plaque does not form, and parts of those present may vanish. A fruit-vegetarian-starch diet is necessary as a rule to achieve the 150 mg/dl level in most adults. Lipid-lowering drugs are required in the patients with familial hypercholesterolemia and in most patients with atherosclerotic events. The best news about atherosclerosis is that it can be prevented in those without the hereditary form, and it can be arrested by lowering elevated serum total (and LDL) cholesterol to the 150 mg/dl level.",
+  "modified": false,
+  "original_char_count": 1363,
+  "sanitized_char_count": 1363,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1160,
+      "boundary_end": 1363,
+      "context": "Preventing and arresting coronary atherosclerosis. The good news about coronary atherosclerosis is that it takes an awful lot of plaque before symptoms of myocardial ischemia occur. The bad news is that despite the need for large quantities of plaque for symptoms to occur, nevertheless nearly half of us in the United States eventually have the necessary quantity. Atherosclerosis is infrequently hereditary in origin. Most of us get atherosclerosis because we consume too much fat, cholesterol, and calories. The consequence is an elevated ( > 150 mg/dl) serum total cholesterol level, and the higher the number is above 150, the greater is the quantity of plaque deposited in our arteries. If the serum total cholesterol level can be prevented from rising to more than 150 mg/dl, plaques are not laid down; if elevated levels are lowered to 150 mg/dl, further plaque does not form, and parts of those present may vanish. A fruit-vegetarian-starch diet is necessary as a rule to achieve the 150 mg/dl level in most adults. Lipid-lowering drugs are required in the patients with familial hypercholesterolemia and in most patients with atherosclerotic events.",
+      "target": "The best news about atherosclerosis is that it can be prevented in those without the hereditary form, and it can be arrested by lowering elevated serum total (and LDL) cholesterol to the 150 mg/dl level.",
+      "loss_target": 2.565641164779663,
+      "loss_target_given_context": 1.441199779510498,
+      "delta_loss": 1.124441385269165,
+      "gain_ratio": 0.438269154979719,
+      "score": -0.438269154979719,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

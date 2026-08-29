@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-942",
+  "source_doc_id": "MED-942",
+  "title": "Esophageal injury by apple cider vinegar tablets and subsequent evaluation of products.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Esophageal injury by apple cider vinegar tablets and subsequent evaluation of products.\nApple cider vinegar products are advertised in the popular press and over the Internet for treatment of a variety of conditions. After an adverse event was reported to the authors, eight apple cider vinegar tablet products were tested for pH, component acid content, and microbial growth. Considerable variability was found between the brands in tablet size, pH, component acid content, and label claims. Doubt remains as to whether apple cider vinegar was in fact an ingredient in the evaluated products. The inconsistency and inaccuracy in labeling, recommended dosages, and unsubstantiated health claims make it easy to question the quality of the products.",
+  "sanitized_text": "Esophageal injury by apple cider vinegar tablets and subsequent evaluation of products.\nApple cider vinegar products are advertised in the popular press and over the Internet for treatment of a variety of conditions. After an adverse event was reported to the authors, eight apple cider vinegar tablet products were tested for pH, component acid content, and microbial growth. Considerable variability was found between the brands in tablet size, pH, component acid content, and label claims. Doubt remains as to whether apple cider vinegar was in fact an ingredient in the evaluated products. The inconsistency and inaccuracy in labeling, recommended dosages, and unsubstantiated health claims make it easy to question the quality of the products.",
+  "modified": false,
+  "original_char_count": 748,
+  "sanitized_char_count": 748,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 594,
+      "boundary_end": 748,
+      "context": "Esophageal injury by apple cider vinegar tablets and subsequent evaluation of products. Apple cider vinegar products are advertised in the popular press and over the Internet for treatment of a variety of conditions. After an adverse event was reported to the authors, eight apple cider vinegar tablet products were tested for pH, component acid content, and microbial growth. Considerable variability was found between the brands in tablet size, pH, component acid content, and label claims. Doubt remains as to whether apple cider vinegar was in fact an ingredient in the evaluated products.",
+      "target": "The inconsistency and inaccuracy in labeling, recommended dosages, and unsubstantiated health claims make it easy to question the quality of the products.",
+      "loss_target": 3.068516254425049,
+      "loss_target_given_context": 2.353044271469116,
+      "delta_loss": 0.7154719829559326,
+      "gain_ratio": 0.23316545314829737,
+      "score": -0.23316545314829737,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

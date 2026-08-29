@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3791",
+  "source_doc_id": "MED-3791",
+  "title": "Recommendations for the prevention of chronic disease: the application for breast disease.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Recommendations for the prevention of chronic disease: the application for breast disease.\nExperimental and epidemiological evidence suggest that a diet with dietary fat as low as 20% of kcal may be necessary to reduce the risk of breast cancer. Two groups of women, postmenopausal women treated for breast cancer and premenopausal women with cystic breast disease accompanied by cyclical mastaligia, participated in an intervention program to determine the feasibility of such a low-fat diet. After 3 mo of intervention both groups were consuming a low-fat diet; in the premenopausal groups serum estrogen levels decreased in response to the fat reduction. Other nutrition-education programs in research institutions, restaurants, and schools are attempting to influence the public's knowledge and behavior regarding the importance of dietary fat reduction.",
+  "sanitized_text": "Recommendations for the prevention of chronic disease: the application for breast disease.\nExperimental and epidemiological evidence suggest that a diet with dietary fat as low as 20% of kcal may be necessary to reduce the risk of breast cancer. Two groups of women, postmenopausal women treated for breast cancer and premenopausal women with cystic breast disease accompanied by cyclical mastaligia, participated in an intervention program to determine the feasibility of such a low-fat diet. After 3 mo of intervention both groups were consuming a low-fat diet; in the premenopausal groups serum estrogen levels decreased in response to the fat reduction.",
+  "modified": true,
+  "original_char_count": 858,
+  "sanitized_char_count": 657,
+  "deleted_char_count": 201,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 658,
+      "boundary_end": 858,
+      "context": "Recommendations for the prevention of chronic disease: the application for breast disease. Experimental and epidemiological evidence suggest that a diet with dietary fat as low as 20% of kcal may be necessary to reduce the risk of breast cancer. Two groups of women, postmenopausal women treated for breast cancer and premenopausal women with cystic breast disease accompanied by cyclical mastaligia, participated in an intervention program to determine the feasibility of such a low-fat diet. After 3 mo of intervention both groups were consuming a low-fat diet; in the premenopausal groups serum estrogen levels decreased in response to the fat reduction.",
+      "target": "Other nutrition-education programs in research institutions, restaurants, and schools are attempting to influence the public's knowledge and behavior regarding the importance of dietary fat reduction.",
+      "loss_target": 3.0822255611419678,
+      "loss_target_given_context": 2.7029662132263184,
+      "delta_loss": 0.3792593479156494,
+      "gain_ratio": 0.12304723985714187,
+      "score": -0.12304723985714187,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 494,
+      "boundary_end": 657,
+      "context": "Recommendations for the prevention of chronic disease: the application for breast disease. Experimental and epidemiological evidence suggest that a diet with dietary fat as low as 20% of kcal may be necessary to reduce the risk of breast cancer. Two groups of women, postmenopausal women treated for breast cancer and premenopausal women with cystic breast disease accompanied by cyclical mastaligia, participated in an intervention program to determine the feasibility of such a low-fat diet.",
+      "target": "After 3 mo of intervention both groups were consuming a low-fat diet; in the premenopausal groups serum estrogen levels decreased in response to the fat reduction.",
+      "loss_target": 3.3547027111053467,
+      "loss_target_given_context": 1.9578728675842285,
+      "delta_loss": 1.3968298435211182,
+      "gain_ratio": 0.4163796210308228,
+      "score": -0.4163796210308228,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 658,
+      "target": "Other nutrition-education programs in research institutions, restaurants, and schools are attempting to influence the public's knowledge and behavior regarding the importance of dietary fat reduction.",
+      "score": -0.12304723985714187,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "Other nutrition-education programs in research institutions, restaurants, and schools are attempting to influence the public's knowledge and behavior regarding the importance of dietary fat reduction.",
+      "deleted_char_count": 200
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

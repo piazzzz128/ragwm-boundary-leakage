@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4179",
+  "source_doc_id": "MED-4179",
+  "title": "Pesticides in rain in four agricultural watersheds in the United States.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Pesticides in rain in four agricultural watersheds in the United States.\nRainfall samples were collected during the 2003 and 2004 growing seasons at four agricultural locales across the USA in Maryland, Indiana, Nebraska, and California. The samples were analyzed for 21 insecticides, 18 herbicides, three fungicides, and 40 pesticide degradates. Data from all sites combined show that 7 of the 10 most frequently detected pesticides were herbicides, with atrazine (70%) and metolachlor (83%) detected at every site. Dacthal, acetochlor, simazine, alachlor, and pendimethalin were detected in more than 50% of the samples. Chlorpyrifos, carbaryl, and diazinon were the only insecticides among the 10 most frequently detected compounds. Of the remaining pesticide parent compounds, 18 were detected in fewer than 30% of the samples, and 13 were not detected. The most frequently detected degradates were deethylatrazine; the oxygen analogs (OAs) of the organophosphorus insecticides chlorpyrifos, diazinon, and malathion; and 1-napthol (degradate of carbaryl). Deethylatrazine was detected in nearly 70% of the samples collected in Maryland, Indiana, and Nebraska but was detected only once in California. The OAs of chlorpyrifos and diazinon were detected primarily in California. Degradates of the acetanilide herbicides were rarely detected in rain, indicating that they are not formed in the atmosphere or readily volatilized from soils. Herbicides accounted for 91 to 98% of the total pesticide mass deposited by rain except in California, where insecticides accounted for 61% in 2004. The mass of pesticides deposited by rainfall was estimated to be less than 2% of the total applied in these agricultural areas.",
+  "sanitized_text": "Pesticides in rain in four agricultural watersheds in the United States.\nRainfall samples were collected during the 2003 and 2004 growing seasons at four agricultural locales across the USA in Maryland, Indiana, Nebraska, and California. The samples were analyzed for 21 insecticides, 18 herbicides, three fungicides, and 40 pesticide degradates. Data from all sites combined show that 7 of the 10 most frequently detected pesticides were herbicides, with atrazine (70%) and metolachlor (83%) detected at every site. Dacthal, acetochlor, simazine, alachlor, and pendimethalin were detected in more than 50% of the samples. Chlorpyrifos, carbaryl, and diazinon were the only insecticides among the 10 most frequently detected compounds. Of the remaining pesticide parent compounds, 18 were detected in fewer than 30% of the samples, and 13 were not detected. The most frequently detected degradates were deethylatrazine; the oxygen analogs (OAs) of the organophosphorus insecticides chlorpyrifos, diazinon, and malathion; and 1-napthol (degradate of carbaryl). Deethylatrazine was detected in nearly 70% of the samples collected in Maryland, Indiana, and Nebraska but was detected only once in California. The OAs of chlorpyrifos and diazinon were detected primarily in California. Degradates of the acetanilide herbicides were rarely detected in rain, indicating that they are not formed in the atmosphere or readily volatilized from soils. Herbicides accounted for 91 to 98% of the total pesticide mass deposited by rain except in California, where insecticides accounted for 61% in 2004. The mass of pesticides deposited by rainfall was estimated to be less than 2% of the total applied in these agricultural areas.",
+  "modified": false,
+  "original_char_count": 1717,
+  "sanitized_char_count": 1717,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1590,
+      "boundary_end": 1717,
+      "context": "the 10 most frequently detected pesticides were herbicides, with atrazine (70%) and metolachlor (83%) detected at every site. Dacthal, acetochlor, simazine, alachlor, and pendimethalin were detected in more than 50% of the samples. Chlorpyrifos, carbaryl, and diazinon were the only insecticides among the 10 most frequently detected compounds. Of the remaining pesticide parent compounds, 18 were detected in fewer than 30% of the samples, and 13 were not detected. The most frequently detected degradates were deethylatrazine; the oxygen analogs (OAs) of the organophosphorus insecticides chlorpyrifos, diazinon, and malathion; and 1-napthol (degradate of carbaryl). Deethylatrazine was detected in nearly 70% of the samples collected in Maryland, Indiana, and Nebraska but was detected only once in California. The OAs of chlorpyrifos and diazinon were detected primarily in California. Degradates of the acetanilide herbicides were rarely detected in rain, indicating that they are not formed in the atmosphere or readily volatilized from soils. Herbicides accounted for 91 to 98% of the total pesticide mass deposited by rain except in California, where insecticides accounted for 61% in 2004.",
+      "target": "The mass of pesticides deposited by rainfall was estimated to be less than 2% of the total applied in these agricultural areas.",
+      "loss_target": 2.9329168796539307,
+      "loss_target_given_context": 1.626235842704773,
+      "delta_loss": 1.3066810369491577,
+      "gain_ratio": 0.4455226965393371,
+      "score": -0.4455226965393371,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

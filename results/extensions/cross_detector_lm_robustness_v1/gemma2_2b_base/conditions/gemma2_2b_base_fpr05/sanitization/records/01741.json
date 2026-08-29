@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3376",
+  "source_doc_id": "MED-3376",
+  "title": "\"Split them!\" smaller item sizes of cookies lead to a decrease in energy intake in children.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "\"Split them!\" smaller item sizes of cookies lead to a decrease in energy intake in children.\nOBJECTIVE: Examine the influence of altering the size of snack food (ie, small vs large cookies) on short-term energy intake. METHODS: First- and sixth-graders (n = 77) participated in a between-subjects experimental design. All participants were offered the same gram weight of cookies during an afternoon tea at their school. For half of the participants, food was cut in 2 to make the small item size. Food intake (number of cookies, gram weight, and energy intake) was examined using ANOVA. RESULTS: Decreasing the item size of food led to a decrease of 25% in gram weight intake, corresponding to 68 kcal. Appetitive ratings and subject and food characteristics had no moderating effect. CONCLUSIONS AND IMPLICATIONS: Reducing the item size of food could prove a useful dietary prevention strategy based on decreased consumption, aimed at countering obesity-promoting eating behaviors favored by the easy availability of large food portions. Copyright © 2012 Society for Nutrition Education and Behavior. Published by Elsevier Inc. All rights reserved.",
+  "sanitized_text": "\"Split them!\" smaller item sizes of cookies lead to a decrease in energy intake in children.\nOBJECTIVE: Examine the influence of altering the size of snack food (ie, small vs large cookies) on short-term energy intake. METHODS: First- and sixth-graders (n = 77) participated in a between-subjects experimental design. All participants were offered the same gram weight of cookies during an afternoon tea at their school. For half of the participants, food was cut in 2 to make the small item size. Food intake (number of cookies, gram weight, and energy intake) was examined using ANOVA. RESULTS: Decreasing the item size of food led to a decrease of 25% in gram weight intake, corresponding to 68 kcal. Appetitive ratings and subject and food characteristics had no moderating effect. CONCLUSIONS AND IMPLICATIONS: Reducing the item size of food could prove a useful dietary prevention strategy based on decreased consumption, aimed at countering obesity-promoting eating behaviors favored by the easy availability of large food portions. Copyright © 2012 Society for Nutrition Education and Behavior. Published by Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1150,
+  "sanitized_char_count": 1150,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1103,
+      "boundary_end": 1129,
+      "context": "\"Split them!\" smaller item sizes of cookies lead to a decrease in energy intake in children. OBJECTIVE: Examine the influence of altering the size of snack food (ie, small vs large cookies) on short-term energy intake. METHODS: First- and sixth-graders (n = 77) participated in a between-subjects experimental design. All participants were offered the same gram weight of cookies during an afternoon tea at their school. For half of the participants, food was cut in 2 to make the small item size. Food intake (number of cookies, gram weight, and energy intake) was examined using ANOVA. RESULTS: Decreasing the item size of food led to a decrease of 25% in gram weight intake, corresponding to 68 kcal. Appetitive ratings and subject and food characteristics had no moderating effect. CONCLUSIONS AND IMPLICATIONS: Reducing the item size of food could prove a useful dietary prevention strategy based on decreased consumption, aimed at countering obesity-promoting eating behaviors favored by the easy availability of large food portions. Copyright © 2012 Society for Nutrition Education and Behavior.",
+      "target": "Published by Elsevier Inc.",
+      "loss_target": 4.656734943389893,
+      "loss_target_given_context": 2.134294033050537,
+      "delta_loss": 2.5224409103393555,
+      "gain_ratio": 0.541675861092307,
+      "score": -0.541675861092307,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3426",
+  "source_doc_id": "MED-3426",
+  "title": "Subclinical coronary artery atherosclerosis in patients with erectile dysfunction.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Subclinical coronary artery atherosclerosis in patients with erectile dysfunction.\nOBJECTIVES: The purpose of our study was to assess the prevalence and extent of coronary artery atherosclerosis in asymptomatic patients with vascular erectile dysfunction (ED). BACKGROUND: An association between ED and ischemic heart disease has been suggested, but it is unknown if it represents a marker of subclinical coronary atherosclerosis. METHODS: We studied 70 consecutive patients with vascular ED, evaluated by penile Doppler, and 73 control subjects with no history of coronary artery disease. We measured traditional coronary risk factors, circulating levels of C-reactive protein (CRP), endothelial function by ultrasound of brachial artery, and coronary artery calcification by multi-slice computed tomography. RESULTS: The patients and the control group were similar for age, race, and coronary risk score. Patients with ED had significantly higher high-sensitivity C-reactive protein levels (2.62 vs. 1.03 mg/l, p < 0.001). Flow-mediated dilation of the brachial artery was more impaired in patients with ED than in controls (2.36 vs. 3.92, p < 0.001). Coronary artery calcification was more frequent in individuals with ED than in control subjects (p = 0.01). Multiple logistic regression analysis showed that patients with ED had an overall odds ratio of 3.68 for having calcium score above the 75th percentile, compared to the controls. CONCLUSIONS: Coronary atherosclerosis is more severe in patients with vascular ED; ED predicts the presence and extent of subclinical atherosclerosis independent of traditional risk factors for cardiovascular disease. Thus, ED may be considered an additional, early warning sign of coronary atherosclerosis.",
+  "sanitized_text": "Subclinical coronary artery atherosclerosis in patients with erectile dysfunction.\nOBJECTIVES: The purpose of our study was to assess the prevalence and extent of coronary artery atherosclerosis in asymptomatic patients with vascular erectile dysfunction (ED). BACKGROUND: An association between ED and ischemic heart disease has been suggested, but it is unknown if it represents a marker of subclinical coronary atherosclerosis. METHODS: We studied 70 consecutive patients with vascular ED, evaluated by penile Doppler, and 73 control subjects with no history of coronary artery disease. We measured traditional coronary risk factors, circulating levels of C-reactive protein (CRP), endothelial function by ultrasound of brachial artery, and coronary artery calcification by multi-slice computed tomography. RESULTS: The patients and the control group were similar for age, race, and coronary risk score. Patients with ED had significantly higher high-sensitivity C-reactive protein levels (2.62 vs. 1.03 mg/l, p < 0.001). Flow-mediated dilation of the brachial artery was more impaired in patients with ED than in controls (2.36 vs. 3.92, p < 0.001). Coronary artery calcification was more frequent in individuals with ED than in control subjects (p = 0.01). Multiple logistic regression analysis showed that patients with ED had an overall odds ratio of 3.68 for having calcium score above the 75th percentile, compared to the controls. CONCLUSIONS: Coronary atherosclerosis is more severe in patients with vascular ED; ED predicts the presence and extent of subclinical atherosclerosis independent of traditional risk factors for cardiovascular disease. Thus, ED may be considered an additional, early warning sign of coronary atherosclerosis.",
+  "modified": false,
+  "original_char_count": 1748,
+  "sanitized_char_count": 1748,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1659,
+      "boundary_end": 1748,
+      "context": "patients with vascular ED, evaluated by penile Doppler, and 73 control subjects with no history of coronary artery disease. We measured traditional coronary risk factors, circulating levels of C-reactive protein (CRP), endothelial function by ultrasound of brachial artery, and coronary artery calcification by multi-slice computed tomography. RESULTS: The patients and the control group were similar for age, race, and coronary risk score. Patients with ED had significantly higher high-sensitivity C-reactive protein levels (2.62 vs. 1.03 mg/l, p < 0.001). Flow-mediated dilation of the brachial artery was more impaired in patients with ED than in controls (2.36 vs. 3.92, p < 0.001). Coronary artery calcification was more frequent in individuals with ED than in control subjects (p = 0.01). Multiple logistic regression analysis showed that patients with ED had an overall odds ratio of 3.68 for having calcium score above the 75th percentile, compared to the controls. CONCLUSIONS: Coronary atherosclerosis is more severe in patients with vascular ED; ED predicts the presence and extent of subclinical atherosclerosis independent of traditional risk factors for cardiovascular disease.",
+      "target": "Thus, ED may be considered an additional, early warning sign of coronary atherosclerosis.",
+      "loss_target": 3.1489899158477783,
+      "loss_target_given_context": 1.5768027305603027,
+      "delta_loss": 1.5721871852874756,
+      "gain_ratio": 0.49926713876573586,
+      "score": -0.49926713876573586,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

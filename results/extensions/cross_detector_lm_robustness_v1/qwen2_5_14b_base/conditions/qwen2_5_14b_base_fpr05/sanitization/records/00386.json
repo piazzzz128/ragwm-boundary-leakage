@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1476",
+  "source_doc_id": "MED-1476",
+  "title": "Neanderthal cannibalism at Moula-Guercy, Ardèche, France.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Neanderthal cannibalism at Moula-Guercy, Ardèche, France.\nThe cave site of Moula-Guercy, 80 meters above the modern Rhone River, was occupied by Neanderthals approximately 100,000 years ago. Excavations since 1991 have yielded rich paleontological, paleobotanical, and archaeological assemblages, including parts of six Neanderthals. The Neanderthals are contemporary with stone tools and faunal remains in the same tightly controlled stratigraphic and spatial contexts. The inference of Neanderthal cannibalism at Moula-Guercy is based on comparative analysis of hominid and ungulate bone spatial distributions, modifications by stone tools, and skeletal part representations.",
+  "sanitized_text": "Neanderthal cannibalism at Moula-Guercy, Ardèche, France.\nThe cave site of Moula-Guercy, 80 meters above the modern Rhone River, was occupied by Neanderthals approximately 100,000 years ago. Excavations since 1991 have yielded rich paleontological, paleobotanical, and archaeological assemblages, including parts of six Neanderthals. The Neanderthals are contemporary with stone tools and faunal remains in the same tightly controlled stratigraphic and spatial contexts. The inference of Neanderthal cannibalism at Moula-Guercy is based on comparative analysis of hominid and ungulate bone spatial distributions, modifications by stone tools, and skeletal part representations.",
+  "modified": false,
+  "original_char_count": 677,
+  "sanitized_char_count": 677,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 471,
+      "boundary_end": 677,
+      "context": "Neanderthal cannibalism at Moula-Guercy, Ardèche, France. The cave site of Moula-Guercy, 80 meters above the modern Rhone River, was occupied by Neanderthals approximately 100,000 years ago. Excavations since 1991 have yielded rich paleontological, paleobotanical, and archaeological assemblages, including parts of six Neanderthals. The Neanderthals are contemporary with stone tools and faunal remains in the same tightly controlled stratigraphic and spatial contexts.",
+      "target": "The inference of Neanderthal cannibalism at Moula-Guercy is based on comparative analysis of hominid and ungulate bone spatial distributions, modifications by stone tools, and skeletal part representations.",
+      "loss_target": 2.2879161834716797,
+      "loss_target_given_context": 1.4495298862457275,
+      "delta_loss": 0.8383862972259521,
+      "gain_ratio": 0.3664410013280235,
+      "score": -0.3664410013280235,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2404",
+  "source_doc_id": "MED-2404",
+  "title": "Increased Rate of Hospitalization for Diabetes and Residential Proximity of Hazardous Waste Sites",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Increased Rate of Hospitalization for Diabetes and Residential Proximity of Hazardous Waste Sites\nBackground Epidemiologic studies suggest that there may be an association between environmental exposure to persistent organic pollutants (POPs) and diabetes. Objective The aim of this study was to test the hypothesis that residential proximity to POP-contaminated waste sites result in increased rates of hospitalization for diabetes. Methods We determined the number of hospitalized patients 25–74 years of age diagnosed with diabetes in New York State exclusive of New York City for the years 1993–2000. Descriptive statistics and negative binomial regression were used to compare diabetes hospitalization rates in individuals who resided in ZIP codes containing or abutting hazardous waste sites containing POPs (“POP” sites); ZIP codes containing hazardous waste sites but with wastes other than POPs (“other” sites); and ZIP codes without any identified hazardous waste sites (“clean” sites). Results Compared with the hospitalization rates for diabetes in clean sites, the rate ratios for diabetes discharges for people residing in POP sites and “other” sites, after adjustment for potential confounders were 1.23 [95% confidence interval (CI), 1.15–1.32] and 1.25 (95% CI, 1.16–1.34), respectively. In a subset of POP sites along the Hudson River, where there is higher income, less smoking, better diet, and more exercise, the rate ratio was 1.36 (95% CI, 1.26–1.47) compared to clean sites. Conclusions After controlling for major confounders, we found a statistically significant increase in the rate of hospitalization for diabetes among the population residing in the ZIP codes containing toxic waste sites.",
+  "sanitized_text": "Increased Rate of Hospitalization for Diabetes and Residential Proximity of Hazardous Waste Sites\nBackground Epidemiologic studies suggest that there may be an association between environmental exposure to persistent organic pollutants (POPs) and diabetes. Objective The aim of this study was to test the hypothesis that residential proximity to POP-contaminated waste sites result in increased rates of hospitalization for diabetes. Methods We determined the number of hospitalized patients 25–74 years of age diagnosed with diabetes in New York State exclusive of New York City for the years 1993–2000. Descriptive statistics and negative binomial regression were used to compare diabetes hospitalization rates in individuals who resided in ZIP codes containing or abutting hazardous waste sites containing POPs (“POP” sites); ZIP codes containing hazardous waste sites but with wastes other than POPs (“other” sites); and ZIP codes without any identified hazardous waste sites (“clean” sites). Results Compared with the hospitalization rates for diabetes in clean sites, the rate ratios for diabetes discharges for people residing in POP sites and “other” sites, after adjustment for potential confounders were 1.23 [95% confidence interval (CI), 1.15–1.32] and 1.25 (95% CI, 1.16–1.34), respectively. In a subset of POP sites along the Hudson River, where there is higher income, less smoking, better diet, and more exercise, the rate ratio was 1.36 (95% CI, 1.26–1.47) compared to clean sites. Conclusions After controlling for major confounders, we found a statistically significant increase in the rate of hospitalization for diabetes among the population residing in the ZIP codes containing toxic waste sites.",
+  "modified": false,
+  "original_char_count": 1718,
+  "sanitized_char_count": 1718,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1499,
+      "boundary_end": 1718,
+      "context": "the hypothesis that residential proximity to POP-contaminated waste sites result in increased rates of hospitalization for diabetes. Methods We determined the number of hospitalized patients 25–74 years of age diagnosed with diabetes in New York State exclusive of New York City for the years 1993–2000. Descriptive statistics and negative binomial regression were used to compare diabetes hospitalization rates in individuals who resided in ZIP codes containing or abutting hazardous waste sites containing POPs (“POP” sites); ZIP codes containing hazardous waste sites but with wastes other than POPs (“other” sites); and ZIP codes without any identified hazardous waste sites (“clean” sites). Results Compared with the hospitalization rates for diabetes in clean sites, the rate ratios for diabetes discharges for people residing in POP sites and “other” sites, after adjustment for potential confounders were 1.23 [95% confidence interval (CI), 1.15–1.32] and 1.25 (95% CI, 1.16–1.34), respectively. In a subset of POP sites along the Hudson River, where there is higher income, less smoking, better diet, and more exercise, the rate ratio was 1.36 (95% CI, 1.26–1.47) compared to clean sites.",
+      "target": "Conclusions After controlling for major confounders, we found a statistically significant increase in the rate of hospitalization for diabetes among the population residing in the ZIP codes containing toxic waste sites.",
+      "loss_target": 2.390598773956299,
+      "loss_target_given_context": 1.300307273864746,
+      "delta_loss": 1.0902915000915527,
+      "gain_ratio": 0.45607465040533973,
+      "score": -0.45607465040533973,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

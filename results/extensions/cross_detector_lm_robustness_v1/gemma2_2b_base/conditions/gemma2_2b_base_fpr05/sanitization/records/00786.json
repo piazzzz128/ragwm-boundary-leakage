@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1961",
+  "source_doc_id": "MED-1961",
+  "title": "Reducing exposure to dioxins and related compounds through foods in the next generation.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Reducing exposure to dioxins and related compounds through foods in the next generation.\nDioxins and related compounds are undesirable and unintended contaminants in the food supply, and dietary intake is the major route of exposure. Reducing dietary exposure to dioxins among the most vulnerable segments of the population (i.e., pregnant women, infants, and young girls) is an effective strategy for reducing body burdens in future generations. Exposure to dioxins through foods can be minimized by selecting lower-fat versions of meats, poultry, and dairy products. Consuming all foods, including fatty fish, in recommended amounts is congruent with the goal of reducing dioxin intake exposure and maintaining good health. In studies, dietary factors are used as a basis for measuring dioxins.",
+  "sanitized_text": "Reducing exposure to dioxins and related compounds through foods in the next generation.\nDioxins and related compounds are undesirable and unintended contaminants in the food supply, and dietary intake is the major route of exposure. Reducing dietary exposure to dioxins among the most vulnerable segments of the population (i.e., pregnant women, infants, and young girls) is an effective strategy for reducing body burdens in future generations. Exposure to dioxins through foods can be minimized by selecting lower-fat versions of meats, poultry, and dairy products. Consuming all foods, including fatty fish, in recommended amounts is congruent with the goal of reducing dioxin intake exposure and maintaining good health. In studies, dietary factors are used as a basis for measuring dioxins.",
+  "modified": false,
+  "original_char_count": 796,
+  "sanitized_char_count": 796,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 726,
+      "boundary_end": 796,
+      "context": "Reducing exposure to dioxins and related compounds through foods in the next generation. Dioxins and related compounds are undesirable and unintended contaminants in the food supply, and dietary intake is the major route of exposure. Reducing dietary exposure to dioxins among the most vulnerable segments of the population (i.e., pregnant women, infants, and young girls) is an effective strategy for reducing body burdens in future generations. Exposure to dioxins through foods can be minimized by selecting lower-fat versions of meats, poultry, and dairy products. Consuming all foods, including fatty fish, in recommended amounts is congruent with the goal of reducing dioxin intake exposure and maintaining good health.",
+      "target": "In studies, dietary factors are used as a basis for measuring dioxins.",
+      "loss_target": 9.739400863647461,
+      "loss_target_given_context": 4.339728355407715,
+      "delta_loss": 5.399672508239746,
+      "gain_ratio": 0.5544152647411966,
+      "score": -0.5544152647411966,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

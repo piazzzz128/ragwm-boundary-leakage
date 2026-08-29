@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2227",
+  "source_doc_id": "MED-2227",
+  "title": "Chocolate--guilty pleasure or healthy supplement?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Chocolate--guilty pleasure or healthy supplement?\nDark chocolate and other cocoa products are popular in the population as a whole, but their overall health benefit remains controversial. Observations from the Kuna Indian population have shown an impressive cardiovascular health benefit from cocoa. For various reasons, this benefit has not been as robust as in other populations. Additionally, several mechanisms have been proposed that might confer cocoa's possible health benefit, but no consensus has been reached on cocoa's physiologic role in promoting cardiovascular health. Flavanols, as well as theobromine, may contribute to enhancements in endothelial function and subsequent improvements in various contributors to cardiovascular disease (CVD) including hypertension, platelet aggregation and adhesion, insulin resistance, and hypercholesterolemia. While the benefits of cocoa may be altered at the various stages of growth, development, and production, it appears that for many people \"healthy\" dark chocolate may, indeed, provide a pleasurable role in CVD risk reduction. The objectives of this review are to discuss the associations of cocoa with decreased blood pressure and improved CVD risk, to describe the possible mechanisms for these potential benefits, and to highlight considerations for the use of cocoa as a dietary supplement.",
+  "sanitized_text": "Chocolate--guilty pleasure or healthy supplement?\nDark chocolate and other cocoa products are popular in the population as a whole, but their overall health benefit remains controversial. Observations from the Kuna Indian population have shown an impressive cardiovascular health benefit from cocoa. For various reasons, this benefit has not been as robust as in other populations. Additionally, several mechanisms have been proposed that might confer cocoa's possible health benefit, but no consensus has been reached on cocoa's physiologic role in promoting cardiovascular health. Flavanols, as well as theobromine, may contribute to enhancements in endothelial function and subsequent improvements in various contributors to cardiovascular disease (CVD) including hypertension, platelet aggregation and adhesion, insulin resistance, and hypercholesterolemia. While the benefits of cocoa may be altered at the various stages of growth, development, and production, it appears that for many people \"healthy\" dark chocolate may, indeed, provide a pleasurable role in CVD risk reduction. The objectives of this review are to discuss the associations of cocoa with decreased blood pressure and improved CVD risk, to describe the possible mechanisms for these potential benefits, and to highlight considerations for the use of cocoa as a dietary supplement.",
+  "modified": false,
+  "original_char_count": 1354,
+  "sanitized_char_count": 1354,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1087,
+      "boundary_end": 1354,
+      "context": "Chocolate--guilty pleasure or healthy supplement? Dark chocolate and other cocoa products are popular in the population as a whole, but their overall health benefit remains controversial. Observations from the Kuna Indian population have shown an impressive cardiovascular health benefit from cocoa. For various reasons, this benefit has not been as robust as in other populations. Additionally, several mechanisms have been proposed that might confer cocoa's possible health benefit, but no consensus has been reached on cocoa's physiologic role in promoting cardiovascular health. Flavanols, as well as theobromine, may contribute to enhancements in endothelial function and subsequent improvements in various contributors to cardiovascular disease (CVD) including hypertension, platelet aggregation and adhesion, insulin resistance, and hypercholesterolemia. While the benefits of cocoa may be altered at the various stages of growth, development, and production, it appears that for many people \"healthy\" dark chocolate may, indeed, provide a pleasurable role in CVD risk reduction.",
+      "target": "The objectives of this review are to discuss the associations of cocoa with decreased blood pressure and improved CVD risk, to describe the possible mechanisms for these potential benefits, and to highlight considerations for the use of cocoa as a dietary supplement.",
+      "loss_target": 2.3206350803375244,
+      "loss_target_given_context": 1.8202592134475708,
+      "delta_loss": 0.5003758668899536,
+      "gain_ratio": 0.2156202287596103,
+      "score": -0.2156202287596103,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1685",
+  "source_doc_id": "MED-1685",
+  "title": "Effects of tomato extract on human platelet aggregation in vitro.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effects of tomato extract on human platelet aggregation in vitro.\nAmong all fruits tested in vitro for their anti-platelet property, tomato had the highest activity followed by grapefruit, melon, and strawberry, whereas pear and apple had little or no activity. Tomato extract (20-50 microl of 100% juice) inhibited both ADP- and collagen-induced aggregation by up to 70% but could not inhibit arachidonic acid-induced platelet aggregation and concomitant thromboxane synthesis under similar experimental conditions. The anti-platelet components (MW <1000 Da) in tomatoes are water soluble, heat stable and are concentrated in the yellow fluid around the seeds. The active fractions were separated using gel filtration and HPLC. The aqueous fraction (110 000 xg supernatant) of tomatoes containing anti-platelet activity was subjected to gel filtration column chromatography (Biogel P2 column). The activity was fractionated into two peaks, peak-3 and peak-4 (major peak). Subsequently, peak-4 was further purified by HPLC using a reversed-phase column. NMR and mass spectroscopy studies indicated that peak F2 (obtained from peak 4) contained adenosine and cytidine. Deamination of peak F2 with adenosine deaminase almost completely abolished its anti-platelet activity, confirming the presence of adenosine in this fraction. In comparison, deamination of peak-4 resulted in only partial loss of inhibitory activity while the activity of peak-3 remained unaffected. These results indicate that tomatoes contain anti-platelet compounds in addition to adenosine. Unlike aspirin, the tomato-derived compounds inhibit thrombin-induced platelet aggregation. All these data indicate that tomato contains very potent anti-platelet components, and consuming tomatoes might be beneficial both as a preventive and therapeutic regime for cardiovascular disease.",
+  "sanitized_text": "Effects of tomato extract on human platelet aggregation in vitro.\nAmong all fruits tested in vitro for their anti-platelet property, tomato had the highest activity followed by grapefruit, melon, and strawberry, whereas pear and apple had little or no activity. Tomato extract (20-50 microl of 100% juice) inhibited both ADP- and collagen-induced aggregation by up to 70% but could not inhibit arachidonic acid-induced platelet aggregation and concomitant thromboxane synthesis under similar experimental conditions. The anti-platelet components (MW <1000 Da) in tomatoes are water soluble, heat stable and are concentrated in the yellow fluid around the seeds. The active fractions were separated using gel filtration and HPLC. The aqueous fraction (110 000 xg supernatant) of tomatoes containing anti-platelet activity was subjected to gel filtration column chromatography (Biogel P2 column). The activity was fractionated into two peaks, peak-3 and peak-4 (major peak). Subsequently, peak-4 was further purified by HPLC using a reversed-phase column. NMR and mass spectroscopy studies indicated that peak F2 (obtained from peak 4) contained adenosine and cytidine. Deamination of peak F2 with adenosine deaminase almost completely abolished its anti-platelet activity, confirming the presence of adenosine in this fraction. In comparison, deamination of peak-4 resulted in only partial loss of inhibitory activity while the activity of peak-3 remained unaffected. These results indicate that tomatoes contain anti-platelet compounds in addition to adenosine. Unlike aspirin, the tomato-derived compounds inhibit thrombin-induced platelet aggregation. All these data indicate that tomato contains very potent anti-platelet components, and consuming tomatoes might be beneficial both as a preventive and therapeutic regime for cardiovascular disease.",
+  "modified": false,
+  "original_char_count": 1851,
+  "sanitized_char_count": 1851,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1654,
+      "boundary_end": 1851,
+      "context": "thromboxane synthesis under similar experimental conditions. The anti-platelet components (MW <1000 Da) in tomatoes are water soluble, heat stable and are concentrated in the yellow fluid around the seeds. The active fractions were separated using gel filtration and HPLC. The aqueous fraction (110 000 xg supernatant) of tomatoes containing anti-platelet activity was subjected to gel filtration column chromatography (Biogel P2 column). The activity was fractionated into two peaks, peak-3 and peak-4 (major peak). Subsequently, peak-4 was further purified by HPLC using a reversed-phase column. NMR and mass spectroscopy studies indicated that peak F2 (obtained from peak 4) contained adenosine and cytidine. Deamination of peak F2 with adenosine deaminase almost completely abolished its anti-platelet activity, confirming the presence of adenosine in this fraction. In comparison, deamination of peak-4 resulted in only partial loss of inhibitory activity while the activity of peak-3 remained unaffected. These results indicate that tomatoes contain anti-platelet compounds in addition to adenosine. Unlike aspirin, the tomato-derived compounds inhibit thrombin-induced platelet aggregation.",
+      "target": "All these data indicate that tomato contains very potent anti-platelet components, and consuming tomatoes might be beneficial both as a preventive and therapeutic regime for cardiovascular disease.",
+      "loss_target": 8.719304084777832,
+      "loss_target_given_context": 3.757462739944458,
+      "delta_loss": 4.961841344833374,
+      "gain_ratio": 0.5690639180133379,
+      "score": -0.5690639180133379,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

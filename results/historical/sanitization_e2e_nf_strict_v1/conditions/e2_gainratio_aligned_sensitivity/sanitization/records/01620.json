@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3165",
+  "source_doc_id": "MED-3165",
+  "title": "Free radicals in skin and muscle: damaging agents or signals for adaptation?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Free radicals in skin and muscle: damaging agents or signals for adaptation?\nMuch of the current literature regarding the biological effects of antioxidant nutrients has concentrated on their potential role in inhibiting or preventing tissue damage induced by free radical species produced during metabolism. Recent findings indicate that antioxidants may also have more subtle roles, regulating changes in gene expression induced by oxidizing free radical species. There is increasing evidence that free radicals act as signals for cell adaptation in a variety of cell types and the nature of the mechanisms by which free radical species influence gene expression is the subject of much current research. Processes such as these may be particularly important in tissues regularly exposed to varying amounts of oxidative stress as part of their normal physiological functions. Examples of such tissues include skin exposed to u.v. light and skeletal muscle subjected to repeated bouts of exercise.",
+  "sanitized_text": "Free radicals in skin and muscle: damaging agents or signals for adaptation?\nMuch of the current literature regarding the biological effects of antioxidant nutrients has concentrated on their potential role in inhibiting or preventing tissue damage induced by free radical species produced during metabolism. Recent findings indicate that antioxidants may also have more subtle roles, regulating changes in gene expression induced by oxidizing free radical species. There is increasing evidence that free radicals act as signals for cell adaptation in a variety of cell types and the nature of the mechanisms by which free radical species influence gene expression is the subject of much current research. Processes such as these may be particularly important in tissues regularly exposed to varying amounts of oxidative stress as part of their normal physiological functions. Examples of such tissues include skin exposed to u.v. light and skeletal muscle subjected to repeated bouts of exercise.",
+  "modified": false,
+  "original_char_count": 997,
+  "sanitized_char_count": 997,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 931,
+      "boundary_end": 997,
+      "context": "Free radicals in skin and muscle: damaging agents or signals for adaptation? Much of the current literature regarding the biological effects of antioxidant nutrients has concentrated on their potential role in inhibiting or preventing tissue damage induced by free radical species produced during metabolism. Recent findings indicate that antioxidants may also have more subtle roles, regulating changes in gene expression induced by oxidizing free radical species. There is increasing evidence that free radicals act as signals for cell adaptation in a variety of cell types and the nature of the mechanisms by which free radical species influence gene expression is the subject of much current research. Processes such as these may be particularly important in tissues regularly exposed to varying amounts of oxidative stress as part of their normal physiological functions. Examples of such tissues include skin exposed to u.v.",
+      "target": "light and skeletal muscle subjected to repeated bouts of exercise.",
+      "loss_target": 4.038430690765381,
+      "loss_target_given_context": 0.9312912821769714,
+      "delta_loss": 3.1071394085884094,
+      "gain_ratio": 0.7693927781634234,
+      "score": -0.7693927781634234,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

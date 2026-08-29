@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4349",
+  "source_doc_id": "MED-4349",
+  "title": "Anti-inflammatory effects of plant-based foods and of their constituents.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Anti-inflammatory effects of plant-based foods and of their constituents.\nInflammation is a pathological condition underlying a number of diseases including cardiovascular diseases, cancer, and chronic inflammatory diseases. In addition, healthy, obese subjects also express markers of inflammation in their blood. Diet provides a variety of nutrients as well as non-nutritive bioactive constituents which modulate immunomodulatory and inflammatory processes. Epidemiological data suggest that dietary patterns strongly affect inflammatory processes. Primarily the intake of fruit and vegetables as well as of whole wheat is inversely associated with the risk of inflammation. In addition to observational studies there are also data from human intervention studies suggesting an anti-inflammatory potential of these plant foods. At the level of bioactive compounds occurring in plant foods, primarily carotenoids and flavonoids seem to modulate inflammatory as well as immunological processes. In conclusion, there is convincing evidence that plant foods and non-nutritive constituents associated with these foods modulate immunological and inflammatory processes. By means of anti-inflammatory activities a plant-based diet may contribute to the lower risk of cardiovascular diseases and cancer. A high intake of vegetables, fruit, and whole wheat as recommended by all international nutrition authorities provides a wide spectrum of bioactive compounds at health-promoting concentrations. Researchers use animal studies to explore the mechanisms of inflammatory diseases.",
+  "sanitized_text": "Anti-inflammatory effects of plant-based foods and of their constituents.\nInflammation is a pathological condition underlying a number of diseases including cardiovascular diseases, cancer, and chronic inflammatory diseases. In addition, healthy, obese subjects also express markers of inflammation in their blood. Diet provides a variety of nutrients as well as non-nutritive bioactive constituents which modulate immunomodulatory and inflammatory processes. Epidemiological data suggest that dietary patterns strongly affect inflammatory processes. Primarily the intake of fruit and vegetables as well as of whole wheat is inversely associated with the risk of inflammation. In addition to observational studies there are also data from human intervention studies suggesting an anti-inflammatory potential of these plant foods. At the level of bioactive compounds occurring in plant foods, primarily carotenoids and flavonoids seem to modulate inflammatory as well as immunological processes. In conclusion, there is convincing evidence that plant foods and non-nutritive constituents associated with these foods modulate immunological and inflammatory processes. By means of anti-inflammatory activities a plant-based diet may contribute to the lower risk of cardiovascular diseases and cancer. A high intake of vegetables, fruit, and whole wheat as recommended by all international nutrition authorities provides a wide spectrum of bioactive compounds at health-promoting concentrations. Researchers use animal studies to explore the mechanisms of inflammatory diseases.",
+  "modified": false,
+  "original_char_count": 1574,
+  "sanitized_char_count": 1574,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1492,
+      "boundary_end": 1574,
+      "context": "in their blood. Diet provides a variety of nutrients as well as non-nutritive bioactive constituents which modulate immunomodulatory and inflammatory processes. Epidemiological data suggest that dietary patterns strongly affect inflammatory processes. Primarily the intake of fruit and vegetables as well as of whole wheat is inversely associated with the risk of inflammation. In addition to observational studies there are also data from human intervention studies suggesting an anti-inflammatory potential of these plant foods. At the level of bioactive compounds occurring in plant foods, primarily carotenoids and flavonoids seem to modulate inflammatory as well as immunological processes. In conclusion, there is convincing evidence that plant foods and non-nutritive constituents associated with these foods modulate immunological and inflammatory processes. By means of anti-inflammatory activities a plant-based diet may contribute to the lower risk of cardiovascular diseases and cancer. A high intake of vegetables, fruit, and whole wheat as recommended by all international nutrition authorities provides a wide spectrum of bioactive compounds at health-promoting concentrations.",
+      "target": "Researchers use animal studies to explore the mechanisms of inflammatory diseases.",
+      "loss_target": 10.315138816833496,
+      "loss_target_given_context": 4.857375621795654,
+      "delta_loss": 5.457763195037842,
+      "gain_ratio": 0.5291022536828298,
+      "score": -0.5291022536828298,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

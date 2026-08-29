@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-2643",
+  "source_doc_id": "MED-2643",
+  "title": "Endocrine-Disrupting Chemicals: Associated Disorders and Mechanisms of Action",
+  "original_text": "Endocrine-Disrupting Chemicals: Associated Disorders and Mechanisms of Action\nThe incidence and/or prevalence of health problems associated with endocrine-disruption have increased. Many chemicals have endocrine-disrupting properties, including bisphenol A, some organochlorines, polybrominated flame retardants, perfluorinated substances, alkylphenols, phthalates, pesticides, polycyclic aromatic hydrocarbons, alkylphenols, solvents, and some household products including some cleaning products, air fresheners, hair dyes, cosmetics, and sunscreens. Even some metals were shown to have endocrine-disrupting properties. Many observations suggesting that endocrine disruptors do contribute to cancer, diabetes, obesity, the metabolic syndrome, and infertility are listed in this paper. An overview is presented of mechanisms contributing to endocrine disruption. Endocrine disruptors can act through classical nuclear receptors, but also through estrogen-related receptors, membrane-bound estrogen-receptors, and interaction with targets in the cytosol resulting in activation of the Src/Ras/Erk pathway or modulation of nitric oxide. In addition, changes in metabolism of endogenous hormones, cross-talk between genomic and nongenomic pathways, cross talk with estrogen receptors after binding on other receptors, interference with feedback regulation and neuroendocrine cells, changes in DNA methylation or histone modifications, and genomic instability by interference with the spindle figure can play a role. Also it was found that effects of receptor activation can differ in function of the ligand.",
+  "sanitized_text": "Endocrine-Disrupting Chemicals: Associated Disorders and Mechanisms of Action\nThe incidence and/or prevalence of health problems associated with endocrine-disruption have increased. Many chemicals have endocrine-disrupting properties, including bisphenol A, some organochlorines, polybrominated flame retardants, perfluorinated substances, alkylphenols, phthalates, pesticides, polycyclic aromatic hydrocarbons, alkylphenols, solvents, and some household products including some cleaning products, air fresheners, hair dyes, cosmetics, and sunscreens. Even some metals were shown to have endocrine-disrupting properties. Many observations suggesting that endocrine disruptors do contribute to cancer, diabetes, obesity, the metabolic syndrome, and infertility are listed in this paper. An overview is presented of mechanisms contributing to endocrine disruption. Endocrine disruptors can act through classical nuclear receptors, but also through estrogen-related receptors, membrane-bound estrogen-receptors, and interaction with targets in the cytosol resulting in activation of the Src/Ras/Erk pathway or modulation of nitric oxide. In addition, changes in metabolism of endogenous hormones, cross-talk between genomic and nongenomic pathways, cross talk with estrogen receptors after binding on other receptors, interference with feedback regulation and neuroendocrine cells, changes in DNA methylation or histone modifications, and genomic instability by interference with the spindle figure can play a role.",
+  "modified": true,
+  "original_char_count": 1604,
+  "sanitized_char_count": 1512,
+  "deleted_char_count": 92,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1513,
+      "boundary_end": 1604,
+      "context": "perfluorinated substances, alkylphenols, phthalates, pesticides, polycyclic aromatic hydrocarbons, alkylphenols, solvents, and some household products including some cleaning products, air fresheners, hair dyes, cosmetics, and sunscreens. Even some metals were shown to have endocrine-disrupting properties. Many observations suggesting that endocrine disruptors do contribute to cancer, diabetes, obesity, the metabolic syndrome, and infertility are listed in this paper. An overview is presented of mechanisms contributing to endocrine disruption. Endocrine disruptors can act through classical nuclear receptors, but also through estrogen-related receptors, membrane-bound estrogen-receptors, and interaction with targets in the cytosol resulting in activation of the Src/Ras/Erk pathway or modulation of nitric oxide. In addition, changes in metabolism of endogenous hormones, cross-talk between genomic and nongenomic pathways, cross talk with estrogen receptors after binding on other receptors, interference with feedback regulation and neuroendocrine cells, changes in DNA methylation or histone modifications, and genomic instability by interference with the spindle figure can play a role.",
+      "target": "Also it was found that effects of receptor activation can differ in function of the ligand.",
+      "loss_target": 3.705219030380249,
+      "loss_target_given_context": 3.6123881340026855,
+      "delta_loss": 0.09283089637756348,
+      "gain_ratio": 0.02505409143600255,
+      "score": -0.02505409143600255,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1135,
+      "boundary_end": 1512,
+      "context": "Endocrine-Disrupting Chemicals: Associated Disorders and Mechanisms of Action The incidence and/or prevalence of health problems associated with endocrine-disruption have increased. Many chemicals have endocrine-disrupting properties, including bisphenol A, some organochlorines, polybrominated flame retardants, perfluorinated substances, alkylphenols, phthalates, pesticides, polycyclic aromatic hydrocarbons, alkylphenols, solvents, and some household products including some cleaning products, air fresheners, hair dyes, cosmetics, and sunscreens. Even some metals were shown to have endocrine-disrupting properties. Many observations suggesting that endocrine disruptors do contribute to cancer, diabetes, obesity, the metabolic syndrome, and infertility are listed in this paper. An overview is presented of mechanisms contributing to endocrine disruption. Endocrine disruptors can act through classical nuclear receptors, but also through estrogen-related receptors, membrane-bound estrogen-receptors, and interaction with targets in the cytosol resulting in activation of the Src/Ras/Erk pathway or modulation of nitric oxide.",
+      "target": "In addition, changes in metabolism of endogenous hormones, cross-talk between genomic and nongenomic pathways, cross talk with estrogen receptors after binding on other receptors, interference with feedback regulation and neuroendocrine cells, changes in DNA methylation or histone modifications, and genomic instability by interference with the spindle figure can play a role.",
+      "loss_target": 3.135558605194092,
+      "loss_target_given_context": 2.4738504886627197,
+      "delta_loss": 0.6617081165313721,
+      "gain_ratio": 0.2110335668532058,
+      "score": -0.2110335668532058,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1513,
+      "target": "Also it was found that effects of receptor activation can differ in function of the ligand.",
+      "score": -0.02505409143600255,
+      "deleted_suffix": "Also it was found that effects of receptor activation can differ in function of the ligand.",
+      "deleted_char_count": 91
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

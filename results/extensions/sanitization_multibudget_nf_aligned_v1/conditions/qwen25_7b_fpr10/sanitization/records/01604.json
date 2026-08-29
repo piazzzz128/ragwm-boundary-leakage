@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3144",
+  "source_doc_id": "MED-3144",
+  "title": "Optimized LC/MS/MS analysis of morphine and codeine in poppy seed and evaluation of their fate during food processing as a basis for risk analysis.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Optimized LC/MS/MS analysis of morphine and codeine in poppy seed and evaluation of their fate during food processing as a basis for risk analysis.\nThe opiate alkaloids present in poppy seed intended for use in food recently have raised major concerns. An efficient method for routine analysis of morphine and codeine using liquid chromatography in combination with tandem mass spectrometry on a triple quadrupole instrument (LC/MS/MS) was therefore developed. The optimal sample preparation was found to be cold extraction of 10 g of unground poppy seed with 30 mL of methanol containing 0.1% acetic acid for 60 min shaken at 250 rpm. The fate of morphine during food processing was also studied. All experiments led to a significant reduction of morphine and codeine. For poppy cake only 16-50% of the morphine was recovered, and in poppy buns at the highest temperature (220 degrees C) only 3% of the original morphine content was found. Ground poppy seed showed significantly lower recoveries than untreated seed. Morphine elimination during food processing has to be taken into account in the current discussion about its maximum limits in poppy seed.",
+  "sanitized_text": "Optimized LC/MS/MS analysis of morphine and codeine in poppy seed and evaluation of their fate during food processing as a basis for risk analysis.\nThe opiate alkaloids present in poppy seed intended for use in food recently have raised major concerns. An efficient method for routine analysis of morphine and codeine using liquid chromatography in combination with tandem mass spectrometry on a triple quadrupole instrument (LC/MS/MS) was therefore developed. The optimal sample preparation was found to be cold extraction of 10 g of unground poppy seed with 30 mL of methanol containing 0.1% acetic acid for 60 min shaken at 250 rpm. The fate of morphine during food processing was also studied. All experiments led to a significant reduction of morphine and codeine. For poppy cake only 16-50% of the morphine was recovered, and in poppy buns at the highest temperature (220 degrees C) only 3% of the original morphine content was found. Ground poppy seed showed significantly lower recoveries than untreated seed. Morphine elimination during food processing has to be taken into account in the current discussion about its maximum limits in poppy seed.",
+  "modified": false,
+  "original_char_count": 1156,
+  "sanitized_char_count": 1156,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1018,
+      "boundary_end": 1156,
+      "context": "Optimized LC/MS/MS analysis of morphine and codeine in poppy seed and evaluation of their fate during food processing as a basis for risk analysis. The opiate alkaloids present in poppy seed intended for use in food recently have raised major concerns. An efficient method for routine analysis of morphine and codeine using liquid chromatography in combination with tandem mass spectrometry on a triple quadrupole instrument (LC/MS/MS) was therefore developed. The optimal sample preparation was found to be cold extraction of 10 g of unground poppy seed with 30 mL of methanol containing 0.1% acetic acid for 60 min shaken at 250 rpm. The fate of morphine during food processing was also studied. All experiments led to a significant reduction of morphine and codeine. For poppy cake only 16-50% of the morphine was recovered, and in poppy buns at the highest temperature (220 degrees C) only 3% of the original morphine content was found. Ground poppy seed showed significantly lower recoveries than untreated seed.",
+      "target": "Morphine elimination during food processing has to be taken into account in the current discussion about its maximum limits in poppy seed.",
+      "loss_target": 3.9349780082702637,
+      "loss_target_given_context": 2.10608172416687,
+      "delta_loss": 1.8288962841033936,
+      "gain_ratio": 0.4647792898103995,
+      "score": -0.4647792898103995,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

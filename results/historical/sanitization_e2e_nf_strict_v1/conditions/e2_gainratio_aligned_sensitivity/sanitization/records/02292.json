@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4069",
+  "source_doc_id": "MED-4069",
+  "title": "Meat, fat and risk of breast cancer: a case-control study from Uruguay.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Meat, fat and risk of breast cancer: a case-control study from Uruguay.\nTo examine whether meat intake modifies breast-cancer risk, a case-control study was conducted in Uruguay. Dietary patterns were assessed in detail (for cases, before diagnosis or symptoms occurred) using a food frequency questionnaire involving 64 food items, which allowed total energy intake to be calculated. Nutrient residuals were calculated through regression analysis. After adjustment for potential confounders (which included family history of breast cancer, menopausal status, body-mass index, total energy and total alcohol intake), an increased risk associated with consumption of total meat intake, red meat intake, total fat and saturated fat intake was observed. The strongest effect was observed for red meat intake (OR 4.2, 95% CL 2.3-7.7) for consumption in the upper quartile, after controlling for protein and fat intake. This suggests an independent effect for meat. Since experimental studies have shown a strong effect of heterocyclic amines in rat mammary carcinogenesis, further studies should be performed in human epidemiology, perhaps using biomarkers of heterocyclic amine exposure.",
+  "sanitized_text": "Meat, fat and risk of breast cancer: a case-control study from Uruguay.\nTo examine whether meat intake modifies breast-cancer risk, a case-control study was conducted in Uruguay. Dietary patterns were assessed in detail (for cases, before diagnosis or symptoms occurred) using a food frequency questionnaire involving 64 food items, which allowed total energy intake to be calculated. Nutrient residuals were calculated through regression analysis. After adjustment for potential confounders (which included family history of breast cancer, menopausal status, body-mass index, total energy and total alcohol intake), an increased risk associated with consumption of total meat intake, red meat intake, total fat and saturated fat intake was observed. The strongest effect was observed for red meat intake (OR 4.2, 95% CL 2.3-7.7) for consumption in the upper quartile, after controlling for protein and fat intake. This suggests an independent effect for meat. Since experimental studies have shown a strong effect of heterocyclic amines in rat mammary carcinogenesis, further studies should be performed in human epidemiology, perhaps using biomarkers of heterocyclic amine exposure.",
+  "modified": false,
+  "original_char_count": 1184,
+  "sanitized_char_count": 1184,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 961,
+      "boundary_end": 1184,
+      "context": "Meat, fat and risk of breast cancer: a case-control study from Uruguay. To examine whether meat intake modifies breast-cancer risk, a case-control study was conducted in Uruguay. Dietary patterns were assessed in detail (for cases, before diagnosis or symptoms occurred) using a food frequency questionnaire involving 64 food items, which allowed total energy intake to be calculated. Nutrient residuals were calculated through regression analysis. After adjustment for potential confounders (which included family history of breast cancer, menopausal status, body-mass index, total energy and total alcohol intake), an increased risk associated with consumption of total meat intake, red meat intake, total fat and saturated fat intake was observed. The strongest effect was observed for red meat intake (OR 4.2, 95% CL 2.3-7.7) for consumption in the upper quartile, after controlling for protein and fat intake. This suggests an independent effect for meat.",
+      "target": "Since experimental studies have shown a strong effect of heterocyclic amines in rat mammary carcinogenesis, further studies should be performed in human epidemiology, perhaps using biomarkers of heterocyclic amine exposure.",
+      "loss_target": 2.2019145488739014,
+      "loss_target_given_context": 1.729470133781433,
+      "delta_loss": 0.47244441509246826,
+      "gain_ratio": 0.2145607400314807,
+      "score": -0.2145607400314807,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

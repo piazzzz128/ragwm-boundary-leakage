@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-1768",
+  "source_doc_id": "MED-1768",
+  "title": "Is milk responsible for male reproductive disorders?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Is milk responsible for male reproductive disorders?\nThe role of environmental compounds with estrogenic activity in the development of male reproductive disorders has been a source of great concern. Among the routes of human exposure to estrogens, we are particularly concerned about cows' milk, which contains considerable amounts of estrogens. The major sources of animal-derived estrogens in the human diet are milk and dairy products, which account for 60-70% of the estrogens consumed. Humans consume milk obtained from heifers in the latter half of pregnancy, when the estrogen levels in cows are markedly elevated. The milk that we now consume may be quite unlike that consumed 100 years ago. Modern genetically-improved dairy cows, such as the Holstein, are usually fed a combination of grass and concentrates (grain/protein mixes and various by-products), allowing them to lactate during the latter half of pregnancy, even at 220 days of gestation. We hypothesize that milk is responsible, at least in part, for some male reproductive disorders. Copyright 2001 Harcourt Publishers Ltd. The use of illegal hormones can lead to the onset of disease.",
+  "sanitized_text": "Is milk responsible for male reproductive disorders?\nThe role of environmental compounds with estrogenic activity in the development of male reproductive disorders has been a source of great concern. Among the routes of human exposure to estrogens, we are particularly concerned about cows' milk, which contains considerable amounts of estrogens. The major sources of animal-derived estrogens in the human diet are milk and dairy products, which account for 60-70% of the estrogens consumed. Humans consume milk obtained from heifers in the latter half of pregnancy, when the estrogen levels in cows are markedly elevated. The milk that we now consume may be quite unlike that consumed 100 years ago. Modern genetically-improved dairy cows, such as the Holstein, are usually fed a combination of grass and concentrates (grain/protein mixes and various by-products), allowing them to lactate during the latter half of pregnancy, even at 220 days of gestation. We hypothesize that milk is responsible, at least in part, for some male reproductive disorders. Copyright 2001 Harcourt Publishers Ltd.",
+  "modified": true,
+  "original_char_count": 1157,
+  "sanitized_char_count": 1095,
+  "deleted_char_count": 62,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1096,
+      "boundary_end": 1157,
+      "context": "Is milk responsible for male reproductive disorders? The role of environmental compounds with estrogenic activity in the development of male reproductive disorders has been a source of great concern. Among the routes of human exposure to estrogens, we are particularly concerned about cows' milk, which contains considerable amounts of estrogens. The major sources of animal-derived estrogens in the human diet are milk and dairy products, which account for 60-70% of the estrogens consumed. Humans consume milk obtained from heifers in the latter half of pregnancy, when the estrogen levels in cows are markedly elevated. The milk that we now consume may be quite unlike that consumed 100 years ago. Modern genetically-improved dairy cows, such as the Holstein, are usually fed a combination of grass and concentrates (grain/protein mixes and various by-products), allowing them to lactate during the latter half of pregnancy, even at 220 days of gestation. We hypothesize that milk is responsible, at least in part, for some male reproductive disorders. Copyright 2001 Harcourt Publishers Ltd.",
+      "target": "The use of illegal hormones can lead to the onset of disease.",
+      "loss_target": 3.926117181777954,
+      "loss_target_given_context": 3.8253891468048096,
+      "delta_loss": 0.10072803497314453,
+      "gain_ratio": 0.02565589112842769,
+      "score": -0.02565589112842769,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1056,
+      "boundary_end": 1095,
+      "context": "Is milk responsible for male reproductive disorders? The role of environmental compounds with estrogenic activity in the development of male reproductive disorders has been a source of great concern. Among the routes of human exposure to estrogens, we are particularly concerned about cows' milk, which contains considerable amounts of estrogens. The major sources of animal-derived estrogens in the human diet are milk and dairy products, which account for 60-70% of the estrogens consumed. Humans consume milk obtained from heifers in the latter half of pregnancy, when the estrogen levels in cows are markedly elevated. The milk that we now consume may be quite unlike that consumed 100 years ago. Modern genetically-improved dairy cows, such as the Holstein, are usually fed a combination of grass and concentrates (grain/protein mixes and various by-products), allowing them to lactate during the latter half of pregnancy, even at 220 days of gestation. We hypothesize that milk is responsible, at least in part, for some male reproductive disorders.",
+      "target": "Copyright 2001 Harcourt Publishers Ltd.",
+      "loss_target": 2.3148696422576904,
+      "loss_target_given_context": 0.7654923796653748,
+      "delta_loss": 1.5493772625923157,
+      "gain_ratio": 0.6693151244064047,
+      "score": -0.6693151244064047,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1096,
+      "target": "The use of illegal hormones can lead to the onset of disease.",
+      "score": -0.02565589112842769,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "The use of illegal hormones can lead to the onset of disease.",
+      "deleted_char_count": 61
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

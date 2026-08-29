@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3918",
+  "source_doc_id": "MED-3918",
+  "title": "Herbal infusions as a source of calcium, magnesium, iron, zinc and copper in human nutrition.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Herbal infusions as a source of calcium, magnesium, iron, zinc and copper in human nutrition.\nThe study material consisted of five herbs: chamomile (flowers), mint (leaves), St John's wort (flowers and leaves), sage (leaves) and nettle (leaves), sourced from three producers. The calcium, magnesium, iron, zinc and copper contents were determined for both dried herb samples and prepared infusions, and the extraction rates were calculated. Mineral components were determined using atomic absorption spectrometry. Analysis showed that the contents of individual elements in herbs and infusions depended on the type of raw material, as well as on its origin. Moreover, it was found that iron penetrated the herbal infusions to the lowest degree (4.4-12.4%), while copper did so to the highest (26.7-50.7%). It is felt that in average consumption the herbal infusions are not important as calcium, magnesium, iron, zinc and copper sources in human nutrition.",
+  "sanitized_text": "Herbal infusions as a source of calcium, magnesium, iron, zinc and copper in human nutrition.\nThe study material consisted of five herbs: chamomile (flowers), mint (leaves), St John's wort (flowers and leaves), sage (leaves) and nettle (leaves), sourced from three producers. The calcium, magnesium, iron, zinc and copper contents were determined for both dried herb samples and prepared infusions, and the extraction rates were calculated. Mineral components were determined using atomic absorption spectrometry. Analysis showed that the contents of individual elements in herbs and infusions depended on the type of raw material, as well as on its origin. Moreover, it was found that iron penetrated the herbal infusions to the lowest degree (4.4-12.4%), while copper did so to the highest (26.7-50.7%). It is felt that in average consumption the herbal infusions are not important as calcium, magnesium, iron, zinc and copper sources in human nutrition.",
+  "modified": false,
+  "original_char_count": 956,
+  "sanitized_char_count": 956,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 806,
+      "boundary_end": 956,
+      "context": "Herbal infusions as a source of calcium, magnesium, iron, zinc and copper in human nutrition. The study material consisted of five herbs: chamomile (flowers), mint (leaves), St John's wort (flowers and leaves), sage (leaves) and nettle (leaves), sourced from three producers. The calcium, magnesium, iron, zinc and copper contents were determined for both dried herb samples and prepared infusions, and the extraction rates were calculated. Mineral components were determined using atomic absorption spectrometry. Analysis showed that the contents of individual elements in herbs and infusions depended on the type of raw material, as well as on its origin. Moreover, it was found that iron penetrated the herbal infusions to the lowest degree (4.4-12.4%), while copper did so to the highest (26.7-50.7%).",
+      "target": "It is felt that in average consumption the herbal infusions are not important as calcium, magnesium, iron, zinc and copper sources in human nutrition.",
+      "loss_target": 3.795905590057373,
+      "loss_target_given_context": 2.2122838497161865,
+      "delta_loss": 1.5836217403411865,
+      "gain_ratio": 0.41719207782437256,
+      "score": -0.41719207782437256,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

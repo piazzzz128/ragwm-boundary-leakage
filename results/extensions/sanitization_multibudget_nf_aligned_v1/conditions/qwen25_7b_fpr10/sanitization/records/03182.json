@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-5123",
+  "source_doc_id": "MED-5123",
+  "title": "Tea or coffee? A case study on evidence for dietary advice.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Tea or coffee? A case study on evidence for dietary advice.\nThe present paper explores the level of evidence required to justify giving dietary advice to the public. There are important practical differences between the development of public health nutrition guidelines and guidelines for clinical practice. While the gold standard for evidence for clinical practice guidelines is a meta-analysis of a number of randomised controlled trials, this is often unrealistic and sometimes unethical for the evaluation of public health nutrition interventions. Hence, epidemiological studies make up the bulk of evidence for nutrition guidelines. Tea and coffee are an interesting case study in relation to this issue. They are two of the most commonly consumed beverages worldwide, yet there is little dietary advice on their use. The evidence for a relationship between coffee or tea consumption and several diseases is discussed. The available studies, predominantly epidemiological, together with animal and in vitro studies, indicate that coffee and tea are both safe beverages. However, tea is the healthier option because it has a possible role in the prevention of several cancers and CVD. While the evidence for such relationships is not strong, the public will continue to drink both tea and coffee, and will continue to ask nutritionists to make recommendations. It is therefore argued that advice should be given on the best available data, as waiting for complete data to become available could have severe consequences for public health.",
+  "sanitized_text": "Tea or coffee? A case study on evidence for dietary advice.\nThe present paper explores the level of evidence required to justify giving dietary advice to the public. There are important practical differences between the development of public health nutrition guidelines and guidelines for clinical practice. While the gold standard for evidence for clinical practice guidelines is a meta-analysis of a number of randomised controlled trials, this is often unrealistic and sometimes unethical for the evaluation of public health nutrition interventions. Hence, epidemiological studies make up the bulk of evidence for nutrition guidelines. Tea and coffee are an interesting case study in relation to this issue. They are two of the most commonly consumed beverages worldwide, yet there is little dietary advice on their use. The evidence for a relationship between coffee or tea consumption and several diseases is discussed. The available studies, predominantly epidemiological, together with animal and in vitro studies, indicate that coffee and tea are both safe beverages. However, tea is the healthier option because it has a possible role in the prevention of several cancers and CVD. While the evidence for such relationships is not strong, the public will continue to drink both tea and coffee, and will continue to ask nutritionists to make recommendations.",
+  "modified": true,
+  "original_char_count": 1543,
+  "sanitized_char_count": 1365,
+  "deleted_char_count": 178,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1366,
+      "boundary_end": 1543,
+      "context": "There are important practical differences between the development of public health nutrition guidelines and guidelines for clinical practice. While the gold standard for evidence for clinical practice guidelines is a meta-analysis of a number of randomised controlled trials, this is often unrealistic and sometimes unethical for the evaluation of public health nutrition interventions. Hence, epidemiological studies make up the bulk of evidence for nutrition guidelines. Tea and coffee are an interesting case study in relation to this issue. They are two of the most commonly consumed beverages worldwide, yet there is little dietary advice on their use. The evidence for a relationship between coffee or tea consumption and several diseases is discussed. The available studies, predominantly epidemiological, together with animal and in vitro studies, indicate that coffee and tea are both safe beverages. However, tea is the healthier option because it has a possible role in the prevention of several cancers and CVD. While the evidence for such relationships is not strong, the public will continue to drink both tea and coffee, and will continue to ask nutritionists to make recommendations.",
+      "target": "It is therefore argued that advice should be given on the best available data, as waiting for complete data to become available could have severe consequences for public health.",
+      "loss_target": 2.9586892127990723,
+      "loss_target_given_context": 2.4655072689056396,
+      "delta_loss": 0.4931819438934326,
+      "gain_ratio": 0.16668933721053356,
+      "score": -0.16668933721053356,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1190,
+      "boundary_end": 1365,
+      "context": "Tea or coffee? A case study on evidence for dietary advice. The present paper explores the level of evidence required to justify giving dietary advice to the public. There are important practical differences between the development of public health nutrition guidelines and guidelines for clinical practice. While the gold standard for evidence for clinical practice guidelines is a meta-analysis of a number of randomised controlled trials, this is often unrealistic and sometimes unethical for the evaluation of public health nutrition interventions. Hence, epidemiological studies make up the bulk of evidence for nutrition guidelines. Tea and coffee are an interesting case study in relation to this issue. They are two of the most commonly consumed beverages worldwide, yet there is little dietary advice on their use. The evidence for a relationship between coffee or tea consumption and several diseases is discussed. The available studies, predominantly epidemiological, together with animal and in vitro studies, indicate that coffee and tea are both safe beverages. However, tea is the healthier option because it has a possible role in the prevention of several cancers and CVD.",
+      "target": "While the evidence for such relationships is not strong, the public will continue to drink both tea and coffee, and will continue to ask nutritionists to make recommendations.",
+      "loss_target": 3.033719778060913,
+      "loss_target_given_context": 1.9457613229751587,
+      "delta_loss": 1.0879584550857544,
+      "gain_ratio": 0.3586219343505594,
+      "score": -0.3586219343505594,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1366,
+      "target": "It is therefore argued that advice should be given on the best available data, as waiting for complete data to become available could have severe consequences for public health.",
+      "score": -0.16668933721053356,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "It is therefore argued that advice should be given on the best available data, as waiting for complete data to become available could have severe consequences for public health.",
+      "deleted_char_count": 177
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

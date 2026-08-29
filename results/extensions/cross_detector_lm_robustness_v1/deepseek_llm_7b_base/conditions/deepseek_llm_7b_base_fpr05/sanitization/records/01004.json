@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2219",
+  "source_doc_id": "MED-2219",
+  "title": "No harmful effect of different Coca-cola beverages after 6 months of intake on rat testes.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "No harmful effect of different Coca-cola beverages after 6 months of intake on rat testes.\nOur laboratory recently reported that a 3-month exposure of rats to cola-like beverages induced sex hormone changes. The aim of the study was to investigate the effects of various types of Coca-cola intake with different composition for 6 months on oxidative status in testes and testosterone in adult male rats. Fifty adult male Wistar rats were divided into control group drinking water, and groups drinking different Coca-cola beverages (regular Coca-cola, Coca-cola caffeine-free, Coca-cola Light and Coca-cola Zero). Oxidative and carbonyl stress markers were measured in the testicular tissue to assess oxidative status together with testicular and plasma testosterone. StAR expression in testes as a marker of steroidogenesis was quantified. No significant differences were found between the groups in any of the measured parameters. In conclusion, oxidative and carbonyl stress in testicular tissue were not influenced by drinking any type of Coca-cola. Additionally, testosterone in testes and in plasma, as well as testicular StAR expression were comparable among the groups. Copyright © 2013 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "No harmful effect of different Coca-cola beverages after 6 months of intake on rat testes.\nOur laboratory recently reported that a 3-month exposure of rats to cola-like beverages induced sex hormone changes. The aim of the study was to investigate the effects of various types of Coca-cola intake with different composition for 6 months on oxidative status in testes and testosterone in adult male rats. Fifty adult male Wistar rats were divided into control group drinking water, and groups drinking different Coca-cola beverages (regular Coca-cola, Coca-cola caffeine-free, Coca-cola Light and Coca-cola Zero). Oxidative and carbonyl stress markers were measured in the testicular tissue to assess oxidative status together with testicular and plasma testosterone. StAR expression in testes as a marker of steroidogenesis was quantified. No significant differences were found between the groups in any of the measured parameters. In conclusion, oxidative and carbonyl stress in testicular tissue were not influenced by drinking any type of Coca-cola. Additionally, testosterone in testes and in plasma, as well as testicular StAR expression were comparable among the groups. Copyright © 2013 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1228,
+  "sanitized_char_count": 1228,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1177,
+      "boundary_end": 1207,
+      "context": "No harmful effect of different Coca-cola beverages after 6 months of intake on rat testes. Our laboratory recently reported that a 3-month exposure of rats to cola-like beverages induced sex hormone changes. The aim of the study was to investigate the effects of various types of Coca-cola intake with different composition for 6 months on oxidative status in testes and testosterone in adult male rats. Fifty adult male Wistar rats were divided into control group drinking water, and groups drinking different Coca-cola beverages (regular Coca-cola, Coca-cola caffeine-free, Coca-cola Light and Coca-cola Zero). Oxidative and carbonyl stress markers were measured in the testicular tissue to assess oxidative status together with testicular and plasma testosterone. StAR expression in testes as a marker of steroidogenesis was quantified. No significant differences were found between the groups in any of the measured parameters. In conclusion, oxidative and carbonyl stress in testicular tissue were not influenced by drinking any type of Coca-cola. Additionally, testosterone in testes and in plasma, as well as testicular StAR expression were comparable among the groups.",
+      "target": "Copyright © 2013 Elsevier Ltd.",
+      "loss_target": 1.1298823356628418,
+      "loss_target_given_context": 0.5381065607070923,
+      "delta_loss": 0.5917757749557495,
+      "gain_ratio": 0.5237499129576056,
+      "score": -0.5237499129576056,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

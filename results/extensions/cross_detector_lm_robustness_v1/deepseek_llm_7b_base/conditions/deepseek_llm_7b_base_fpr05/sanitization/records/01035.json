@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2254",
+  "source_doc_id": "MED-2254",
+  "title": "Dietary cadmium intake by the Belgian adult population.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Dietary cadmium intake by the Belgian adult population.\nThe aim of this study was to estimate the dietary cadmium (Cd) intake of the Belgian adult population, to compare this dietary Cd exposure to the tolerable weekly intake (TWI) recently established by the European Food Safety Authority (EFSA) and to determine the major food groups that contribute to dietary Cd exposure in Belgium. Food consumption data were derived from the 2004 Belgian food consumption survey (two 24 h recalls, 3083 participants). Cadmium concentrations in food items (n = 4000) were gathered from the control program of the Belgian Federal Agency for the Safety of the Food Chain for the period 2006-2008. Dietary intake per individual was calculated from consumption data and median Cd concentrations. The population mean, median and 95th percentile of the dietary intake values were 0.98, 0.85 and 2.02 µg kg⁻¹ body weight per week respectively. Two percent of the Belgian adult population has a dietary Cd intake above the recent TWI of 2.5 µg kg⁻¹ body weight established by EFSA in 2009. Cereal products and potatoes contribute for more than 60% to Cd intake.",
+  "sanitized_text": "Dietary cadmium intake by the Belgian adult population.\nThe aim of this study was to estimate the dietary cadmium (Cd) intake of the Belgian adult population, to compare this dietary Cd exposure to the tolerable weekly intake (TWI) recently established by the European Food Safety Authority (EFSA) and to determine the major food groups that contribute to dietary Cd exposure in Belgium. Food consumption data were derived from the 2004 Belgian food consumption survey (two 24 h recalls, 3083 participants). Cadmium concentrations in food items (n = 4000) were gathered from the control program of the Belgian Federal Agency for the Safety of the Food Chain for the period 2006-2008. Dietary intake per individual was calculated from consumption data and median Cd concentrations. The population mean, median and 95th percentile of the dietary intake values were 0.98, 0.85 and 2.02 µg kg⁻¹ body weight per week respectively. Two percent of the Belgian adult population has a dietary Cd intake above the recent TWI of 2.5 µg kg⁻¹ body weight established by EFSA in 2009. Cereal products and potatoes contribute for more than 60% to Cd intake.",
+  "modified": false,
+  "original_char_count": 1142,
+  "sanitized_char_count": 1142,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1071,
+      "boundary_end": 1142,
+      "context": "Dietary cadmium intake by the Belgian adult population. The aim of this study was to estimate the dietary cadmium (Cd) intake of the Belgian adult population, to compare this dietary Cd exposure to the tolerable weekly intake (TWI) recently established by the European Food Safety Authority (EFSA) and to determine the major food groups that contribute to dietary Cd exposure in Belgium. Food consumption data were derived from the 2004 Belgian food consumption survey (two 24 h recalls, 3083 participants). Cadmium concentrations in food items (n = 4000) were gathered from the control program of the Belgian Federal Agency for the Safety of the Food Chain for the period 2006-2008. Dietary intake per individual was calculated from consumption data and median Cd concentrations. The population mean, median and 95th percentile of the dietary intake values were 0.98, 0.85 and 2.02 µg kg⁻¹ body weight per week respectively. Two percent of the Belgian adult population has a dietary Cd intake above the recent TWI of 2.5 µg kg⁻¹ body weight established by EFSA in 2009.",
+      "target": "Cereal products and potatoes contribute for more than 60% to Cd intake.",
+      "loss_target": 3.832494020462036,
+      "loss_target_given_context": 1.9776277542114258,
+      "delta_loss": 1.8548662662506104,
+      "gain_ratio": 0.48398412531038787,
+      "score": -0.48398412531038787,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4814",
+  "source_doc_id": "MED-4814",
+  "title": "National mortality rates from chronic liver disease and consumption of alcohol and pig meat.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "National mortality rates from chronic liver disease and consumption of alcohol and pig meat.\nA correlation between national pig-meat consumption and mortality rates from chronic liver disease (CLD) across developed countries was reported in 1985. One possible mechanism explaining this may be hepatitis E infection spread via pig meat. We aimed to re-examine the original association in more recent international data. Regression models were used to estimate associations between national pig-meat consumption and CLD mortality, adjusting for confounders. Data on CLD mortality, alcohol consumption, hepatitis B virus (HBV) and hepatitis C virus (HCV) seroprevalence for 18 developed countries (1990-2000) were obtained from WHO databases. Data on national pig-meat and beef consumption were obtained from the UN database. Univariate regression showed that alcohol and pig-meat consumption were associated with mortality from CLD, but beef consumption, HBV and HCV seroprevalence were not. A 1 litre per capita increase in alcohol consumption was associated with an increase in mortality from CLD in excess of 1.6 deaths/100,000 population. A 10 kg higher national annual average per capita consumption of pork meat was associated with an increase in mortality from CLD of between 4 and 5 deaths/100,000 population. Multivariate regression showed that alcohol, pig-meat consumption and HBV seroprevalence were independently associated with mortality from CLD, but HCV seroprevalence was not. Pig-meat consumption remained independently associated with mortality from CLD in developed countries in the 1990-2000 period. Further work is needed to establish the mechanism.",
+  "sanitized_text": "National mortality rates from chronic liver disease and consumption of alcohol and pig meat.\nA correlation between national pig-meat consumption and mortality rates from chronic liver disease (CLD) across developed countries was reported in 1985. One possible mechanism explaining this may be hepatitis E infection spread via pig meat. We aimed to re-examine the original association in more recent international data. Regression models were used to estimate associations between national pig-meat consumption and CLD mortality, adjusting for confounders. Data on CLD mortality, alcohol consumption, hepatitis B virus (HBV) and hepatitis C virus (HCV) seroprevalence for 18 developed countries (1990-2000) were obtained from WHO databases. Data on national pig-meat and beef consumption were obtained from the UN database. Univariate regression showed that alcohol and pig-meat consumption were associated with mortality from CLD, but beef consumption, HBV and HCV seroprevalence were not. A 1 litre per capita increase in alcohol consumption was associated with an increase in mortality from CLD in excess of 1.6 deaths/100,000 population. A 10 kg higher national annual average per capita consumption of pork meat was associated with an increase in mortality from CLD of between 4 and 5 deaths/100,000 population. Multivariate regression showed that alcohol, pig-meat consumption and HBV seroprevalence were independently associated with mortality from CLD, but HCV seroprevalence was not. Pig-meat consumption remained independently associated with mortality from CLD in developed countries in the 1990-2000 period. Further work is needed to establish the mechanism.",
+  "modified": false,
+  "original_char_count": 1669,
+  "sanitized_char_count": 1669,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1619,
+      "boundary_end": 1669,
+      "context": "Regression models were used to estimate associations between national pig-meat consumption and CLD mortality, adjusting for confounders. Data on CLD mortality, alcohol consumption, hepatitis B virus (HBV) and hepatitis C virus (HCV) seroprevalence for 18 developed countries (1990-2000) were obtained from WHO databases. Data on national pig-meat and beef consumption were obtained from the UN database. Univariate regression showed that alcohol and pig-meat consumption were associated with mortality from CLD, but beef consumption, HBV and HCV seroprevalence were not. A 1 litre per capita increase in alcohol consumption was associated with an increase in mortality from CLD in excess of 1.6 deaths/100,000 population. A 10 kg higher national annual average per capita consumption of pork meat was associated with an increase in mortality from CLD of between 4 and 5 deaths/100,000 population. Multivariate regression showed that alcohol, pig-meat consumption and HBV seroprevalence were independently associated with mortality from CLD, but HCV seroprevalence was not. Pig-meat consumption remained independently associated with mortality from CLD in developed countries in the 1990-2000 period.",
+      "target": "Further work is needed to establish the mechanism.",
+      "loss_target": 8.94838809967041,
+      "loss_target_given_context": 2.972507953643799,
+      "delta_loss": 5.975880146026611,
+      "gain_ratio": 0.6678163798289791,
+      "score": -0.6678163798289791,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2061",
+  "source_doc_id": "MED-2061",
+  "title": "Chronic constipation as a symptom of cow milk allergy.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Chronic constipation as a symptom of cow milk allergy.\nTwenty-seven consecutive infants (mean age, 20.6 months) with chronic \"idiopathic\" constipation were studied to investigate the possible relation between constipation and cow milk protein allergy (CMPA). The infants were initially observed on an unrestricted diet, and the number of stools per day was recorded. Subsequently the infants were put on a diet free of cow milk protein (CMP) for two periods of 1 month each, separated by two challenges with CMP. During the CMP-free diet, there was a resolution of symptoms in 21 patients; during the two consecutive challenges, constipation reappeared within 48 to 72 hours. In another six patients the CMP-free diet did not lead to improvement of constipation. Only four of the patients who improved on the CMP-free diet had concomitant symptoms of suspected CMPA, but a medical history of CMPA was found in 15 of the 21 patients cured and in only one of the six patients whose condition had not improved (p < 0.05); in addition, in 15 of the 21 cured patients, results of one or more laboratory tests (specific IgE, IgG, anti-beta-lactoglobulin, circulating eosinophils) were positive at the time of diagnosis, indicating hypersensitivity, compared with one of the six patients whose condition did not improve (p < 0.05). The endoscopic and histologic findings at the time of diagnosis showed proctitis with monocytic infiltration in two patients cured with the CMP-free diet; after 1 month on this diet, they were completely normal. We conclude that constipation in infants may have an allergic pathogenesis.",
+  "sanitized_text": "Chronic constipation as a symptom of cow milk allergy.\nTwenty-seven consecutive infants (mean age, 20.6 months) with chronic \"idiopathic\" constipation were studied to investigate the possible relation between constipation and cow milk protein allergy (CMPA). The infants were initially observed on an unrestricted diet, and the number of stools per day was recorded. Subsequently the infants were put on a diet free of cow milk protein (CMP) for two periods of 1 month each, separated by two challenges with CMP. During the CMP-free diet, there was a resolution of symptoms in 21 patients; during the two consecutive challenges, constipation reappeared within 48 to 72 hours. In another six patients the CMP-free diet did not lead to improvement of constipation. Only four of the patients who improved on the CMP-free diet had concomitant symptoms of suspected CMPA, but a medical history of CMPA was found in 15 of the 21 patients cured and in only one of the six patients whose condition had not improved (p < 0.05); in addition, in 15 of the 21 cured patients, results of one or more laboratory tests (specific IgE, IgG, anti-beta-lactoglobulin, circulating eosinophils) were positive at the time of diagnosis, indicating hypersensitivity, compared with one of the six patients whose condition did not improve (p < 0.05). The endoscopic and histologic findings at the time of diagnosis showed proctitis with monocytic infiltration in two patients cured with the CMP-free diet; after 1 month on this diet, they were completely normal. We conclude that constipation in infants may have an allergic pathogenesis.",
+  "modified": false,
+  "original_char_count": 1612,
+  "sanitized_char_count": 1612,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1537,
+      "boundary_end": 1612,
+      "context": "stools per day was recorded. Subsequently the infants were put on a diet free of cow milk protein (CMP) for two periods of 1 month each, separated by two challenges with CMP. During the CMP-free diet, there was a resolution of symptoms in 21 patients; during the two consecutive challenges, constipation reappeared within 48 to 72 hours. In another six patients the CMP-free diet did not lead to improvement of constipation. Only four of the patients who improved on the CMP-free diet had concomitant symptoms of suspected CMPA, but a medical history of CMPA was found in 15 of the 21 patients cured and in only one of the six patients whose condition had not improved (p < 0.05); in addition, in 15 of the 21 cured patients, results of one or more laboratory tests (specific IgE, IgG, anti-beta-lactoglobulin, circulating eosinophils) were positive at the time of diagnosis, indicating hypersensitivity, compared with one of the six patients whose condition did not improve (p < 0.05). The endoscopic and histologic findings at the time of diagnosis showed proctitis with monocytic infiltration in two patients cured with the CMP-free diet; after 1 month on this diet, they were completely normal.",
+      "target": "We conclude that constipation in infants may have an allergic pathogenesis.",
+      "loss_target": 3.717219829559326,
+      "loss_target_given_context": 1.379558801651001,
+      "delta_loss": 2.337661027908325,
+      "gain_ratio": 0.6288734955407395,
+      "score": -0.6288734955407395,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

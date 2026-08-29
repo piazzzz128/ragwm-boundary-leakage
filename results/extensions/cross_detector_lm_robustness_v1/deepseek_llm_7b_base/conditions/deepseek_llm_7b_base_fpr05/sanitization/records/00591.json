@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1710",
+  "source_doc_id": "MED-1710",
+  "title": "Energy and Fructose From Beverages Sweetened With Sugar or High-Fructose Corn Syrup Pose a Health Risk for Some People",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Energy and Fructose From Beverages Sweetened With Sugar or High-Fructose Corn Syrup Pose a Health Risk for Some People\nSugar intake in the United States has increased by >40 fold since the American Revolution. The health concerns that have been raised about the amounts of sugar that are in the current diet, primarily as beverages, are the subject of this review. Just less than 50% of the added sugars (sugar and high-fructose corn syrup) are found in soft drinks and fruit drinks. The intake of soft drinks has increased 5-fold between 1950 and 2000. Most meta-analyses have shown that the risk of obesity, diabetes, cardiovascular disease, and metabolic syndrome are related to consumption of beverages sweetened with sugar or high-fructose corn syrup. Calorically sweetened beverage intake has also been related to the risk of nonalcoholic fatty liver disease, and, in men, gout. Calorically sweetened beverages contribute to obesity through their caloric load, and the intake of beverages does not produce a corresponding reduction in the intake of other food, suggesting that beverage calories are “add-on” calories. The increase in plasma triglyceride concentrations by sugar-sweetened beverages can be attributed to fructose rather than glucose in sugar. Several randomized trials of sugar-containing soft drinks versus low-calorie or calorie-free beverages show that either sugar, 50% of which is fructose, or fructose alone increases triglycerides, body weight, visceral adipose tissue, muscle fat, and liver fat. Fructose is metabolized primarily in the liver. When it is taken up by the liver, ATP decreases rapidly as the phosphate is transferred to fructose in a form that makes it easy to convert to lipid precursors. Fructose intake enhances lipogenesis and the production of uric acid. By worsening blood lipids, contributing to obesity, diabetes, fatty liver, and gout, fructose in the amounts currently consumed is hazardous to the health of some people.",
+  "sanitized_text": "Energy and Fructose From Beverages Sweetened With Sugar or High-Fructose Corn Syrup Pose a Health Risk for Some People\nSugar intake in the United States has increased by >40 fold since the American Revolution. The health concerns that have been raised about the amounts of sugar that are in the current diet, primarily as beverages, are the subject of this review. Just less than 50% of the added sugars (sugar and high-fructose corn syrup) are found in soft drinks and fruit drinks. The intake of soft drinks has increased 5-fold between 1950 and 2000. Most meta-analyses have shown that the risk of obesity, diabetes, cardiovascular disease, and metabolic syndrome are related to consumption of beverages sweetened with sugar or high-fructose corn syrup. Calorically sweetened beverage intake has also been related to the risk of nonalcoholic fatty liver disease, and, in men, gout. Calorically sweetened beverages contribute to obesity through their caloric load, and the intake of beverages does not produce a corresponding reduction in the intake of other food, suggesting that beverage calories are “add-on” calories. The increase in plasma triglyceride concentrations by sugar-sweetened beverages can be attributed to fructose rather than glucose in sugar. Several randomized trials of sugar-containing soft drinks versus low-calorie or calorie-free beverages show that either sugar, 50% of which is fructose, or fructose alone increases triglycerides, body weight, visceral adipose tissue, muscle fat, and liver fat. Fructose is metabolized primarily in the liver. When it is taken up by the liver, ATP decreases rapidly as the phosphate is transferred to fructose in a form that makes it easy to convert to lipid precursors. Fructose intake enhances lipogenesis and the production of uric acid. By worsening blood lipids, contributing to obesity, diabetes, fatty liver, and gout, fructose in the amounts currently consumed is hazardous to the health of some people.",
+  "modified": false,
+  "original_char_count": 1974,
+  "sanitized_char_count": 1974,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1804,
+      "boundary_end": 1974,
+      "context": "diabetes, cardiovascular disease, and metabolic syndrome are related to consumption of beverages sweetened with sugar or high-fructose corn syrup. Calorically sweetened beverage intake has also been related to the risk of nonalcoholic fatty liver disease, and, in men, gout. Calorically sweetened beverages contribute to obesity through their caloric load, and the intake of beverages does not produce a corresponding reduction in the intake of other food, suggesting that beverage calories are “add-on” calories. The increase in plasma triglyceride concentrations by sugar-sweetened beverages can be attributed to fructose rather than glucose in sugar. Several randomized trials of sugar-containing soft drinks versus low-calorie or calorie-free beverages show that either sugar, 50% of which is fructose, or fructose alone increases triglycerides, body weight, visceral adipose tissue, muscle fat, and liver fat. Fructose is metabolized primarily in the liver. When it is taken up by the liver, ATP decreases rapidly as the phosphate is transferred to fructose in a form that makes it easy to convert to lipid precursors. Fructose intake enhances lipogenesis and the production of uric acid.",
+      "target": "By worsening blood lipids, contributing to obesity, diabetes, fatty liver, and gout, fructose in the amounts currently consumed is hazardous to the health of some people.",
+      "loss_target": 3.2327635288238525,
+      "loss_target_given_context": 2.332084894180298,
+      "delta_loss": 0.9006786346435547,
+      "gain_ratio": 0.27860950131766693,
+      "score": -0.27860950131766693,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4030",
+  "source_doc_id": "MED-4030",
+  "title": "Diet and prevention of oral cancer: strategies for clinical practice.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diet and prevention of oral cancer: strategies for clinical practice.\nBACKGROUND: Oral health care professionals can play an important role in preventing oral cancer by performing oral mucosal examinations to detect pre-cancerous changes and by educating patients about oral cancer prevention strategies, including dietary approaches. CONCLUSIONS: Current evidence supports a diet high in fruits, vegetables and plant-based foods for prevention of oral cancer. Dietary supplements-including vitamins and minerals-have not been shown to be effective as substitutes for a diet high in fruits and vegetables. CLINICAL IMPLICATIONS: In addition to discussing tobacco and alcohol use with patients (and, if relevant, betel nut and gutka consumption), as well as the risk of sexual transmission of human papillo-mavirus, clinicians should provide dietary advice for the prevention of oral cancer as part of routine patient education practices.",
+  "sanitized_text": "Diet and prevention of oral cancer: strategies for clinical practice.\nBACKGROUND: Oral health care professionals can play an important role in preventing oral cancer by performing oral mucosal examinations to detect pre-cancerous changes and by educating patients about oral cancer prevention strategies, including dietary approaches. CONCLUSIONS: Current evidence supports a diet high in fruits, vegetables and plant-based foods for prevention of oral cancer. Dietary supplements-including vitamins and minerals-have not been shown to be effective as substitutes for a diet high in fruits and vegetables. CLINICAL IMPLICATIONS: In addition to discussing tobacco and alcohol use with patients (and, if relevant, betel nut and gutka consumption), as well as the risk of sexual transmission of human papillo-mavirus, clinicians should provide dietary advice for the prevention of oral cancer as part of routine patient education practices.",
+  "modified": false,
+  "original_char_count": 937,
+  "sanitized_char_count": 937,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 606,
+      "boundary_end": 937,
+      "context": "Diet and prevention of oral cancer: strategies for clinical practice. BACKGROUND: Oral health care professionals can play an important role in preventing oral cancer by performing oral mucosal examinations to detect pre-cancerous changes and by educating patients about oral cancer prevention strategies, including dietary approaches. CONCLUSIONS: Current evidence supports a diet high in fruits, vegetables and plant-based foods for prevention of oral cancer. Dietary supplements-including vitamins and minerals-have not been shown to be effective as substitutes for a diet high in fruits and vegetables.",
+      "target": "CLINICAL IMPLICATIONS: In addition to discussing tobacco and alcohol use with patients (and, if relevant, betel nut and gutka consumption), as well as the risk of sexual transmission of human papillo-mavirus, clinicians should provide dietary advice for the prevention of oral cancer as part of routine patient education practices.",
+      "loss_target": 6.999741077423096,
+      "loss_target_given_context": 5.232343673706055,
+      "delta_loss": 1.767397403717041,
+      "gain_ratio": 0.25249468289871313,
+      "score": -0.25249468289871313,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

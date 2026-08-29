@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4163",
+  "source_doc_id": "MED-4163",
+  "title": "Protein dietary reference intakes may be inadequate for vegetarians if low amounts of animal protein are consumed.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Protein dietary reference intakes may be inadequate for vegetarians if low amounts of animal protein are consumed.\nOBJECTIVE: The health benefits of vegetarian diets are well-recognized; however, long-term adherence to these diets may be associated with nutrient inadequacies, particularly vitamins B12 and D, calcium, iron, zinc, and protein. The dietary reference intakes (DRIs) expert panels recommended adjustments to the iron, zinc, and calcium DRIs for vegetarians to account for decreased bioavailability, but no adjustments were considered necessary for the protein DRI under the assumption that vegetarians consume about 50% of protein from animal (dairy/egg) sources. This study examined dietary protein sources in a convenience sample of 21 young adult vegetarian women who completed food logs on 4 consecutive days (3 weekdays and 1 weekend day). METHODS: The daily contribution percentages of protein consumed from cereals, legumes, nuts/seeds, fruits/vegetables, and dairy/egg were computed, and the protein digestibility corrected amino acid score of the daily diets was calculated. RESULTS: The calculated total dietary protein digestibility score for participants was 82 ± 1%, which differed significantly (P < 0.001) from the DRI reference score, 88%, and the 4-d average protein digestibility corrected amino acid score for the sample was 80 ± 2%, which also differed significantly (P < 0.001) from the DRI reference value, 100%. The analyses indicated that animal protein accounted for only 21% of dietary protein. CONCLUSION: This research suggests that the protein DRI for vegetarians consuming less than the expected amounts of animal protein (45% to 50% of total protein) may need to be adjusted from 0.8 to about 1.0 g/kg to account for decreased protein bioavailability. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "sanitized_text": "Protein dietary reference intakes may be inadequate for vegetarians if low amounts of animal protein are consumed.\nOBJECTIVE: The health benefits of vegetarian diets are well-recognized; however, long-term adherence to these diets may be associated with nutrient inadequacies, particularly vitamins B12 and D, calcium, iron, zinc, and protein. The dietary reference intakes (DRIs) expert panels recommended adjustments to the iron, zinc, and calcium DRIs for vegetarians to account for decreased bioavailability, but no adjustments were considered necessary for the protein DRI under the assumption that vegetarians consume about 50% of protein from animal (dairy/egg) sources. This study examined dietary protein sources in a convenience sample of 21 young adult vegetarian women who completed food logs on 4 consecutive days (3 weekdays and 1 weekend day). METHODS: The daily contribution percentages of protein consumed from cereals, legumes, nuts/seeds, fruits/vegetables, and dairy/egg were computed, and the protein digestibility corrected amino acid score of the daily diets was calculated. RESULTS: The calculated total dietary protein digestibility score for participants was 82 ± 1%, which differed significantly (P < 0.001) from the DRI reference score, 88%, and the 4-d average protein digestibility corrected amino acid score for the sample was 80 ± 2%, which also differed significantly (P < 0.001) from the DRI reference value, 100%. The analyses indicated that animal protein accounted for only 21% of dietary protein. CONCLUSION: This research suggests that the protein DRI for vegetarians consuming less than the expected amounts of animal protein (45% to 50% of total protein) may need to be adjusted from 0.8 to about 1.0 g/kg to account for decreased protein bioavailability. Copyright © 2011 Elsevier Inc. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1848,
+  "sanitized_char_count": 1848,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1797,
+      "boundary_end": 1827,
+      "context": "that vegetarians consume about 50% of protein from animal (dairy/egg) sources. This study examined dietary protein sources in a convenience sample of 21 young adult vegetarian women who completed food logs on 4 consecutive days (3 weekdays and 1 weekend day). METHODS: The daily contribution percentages of protein consumed from cereals, legumes, nuts/seeds, fruits/vegetables, and dairy/egg were computed, and the protein digestibility corrected amino acid score of the daily diets was calculated. RESULTS: The calculated total dietary protein digestibility score for participants was 82 ± 1%, which differed significantly (P < 0.001) from the DRI reference score, 88%, and the 4-d average protein digestibility corrected amino acid score for the sample was 80 ± 2%, which also differed significantly (P < 0.001) from the DRI reference value, 100%. The analyses indicated that animal protein accounted for only 21% of dietary protein. CONCLUSION: This research suggests that the protein DRI for vegetarians consuming less than the expected amounts of animal protein (45% to 50% of total protein) may need to be adjusted from 0.8 to about 1.0 g/kg to account for decreased protein bioavailability.",
+      "target": "Copyright © 2011 Elsevier Inc.",
+      "loss_target": 1.1415737867355347,
+      "loss_target_given_context": 0.5696225762367249,
+      "delta_loss": 0.5719512104988098,
+      "gain_ratio": 0.5010199227983081,
+      "score": -0.5010199227983081,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

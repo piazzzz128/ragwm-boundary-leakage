@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3215",
+  "source_doc_id": "MED-3215",
+  "title": "Excess dietary protein can adversely affect bone.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Excess dietary protein can adversely affect bone.\nThe average American diet, which is high in protein and low in fruits and vegetables, generates a large amount of acid, mainly as sulfates and phosphates. The kidneys respond to this dietary acid challenge with net acid excretion, as well as ammonium and titratable acid excretion. Concurrently, the skeleton supplies buffer by active resorption of bone. Indeed, calciuria is directly related to net acid excretion. Different food proteins differ greatly in their potential acid load, and therefore in their acidogenic effect. A diet high in acid-ash proteins causes excessive calcium loss because of its acidogenic content. The addition of exogenous buffers, as chemical salts or as fruits and vegetables, to a high protein diet results in a less acid urine, a reduction in net acid excretion, reduced ammonium and titratable acid excretion, and decreased calciuria. Bone resorption may be halted, and bone accretion may actually occur. Alkali buffers, whether chemical salts or dietary fruits and vegetables high in potassium, reverse acid-induced obligatory urinary calcium loss. We conclude that excessive dietary protein from foods with high potential renal acid load adversely affects bone, unless buffered by the consumption of alkali-rich foods or supplements.",
+  "sanitized_text": "Excess dietary protein can adversely affect bone.\nThe average American diet, which is high in protein and low in fruits and vegetables, generates a large amount of acid, mainly as sulfates and phosphates. The kidneys respond to this dietary acid challenge with net acid excretion, as well as ammonium and titratable acid excretion. Concurrently, the skeleton supplies buffer by active resorption of bone. Indeed, calciuria is directly related to net acid excretion. Different food proteins differ greatly in their potential acid load, and therefore in their acidogenic effect. A diet high in acid-ash proteins causes excessive calcium loss because of its acidogenic content. The addition of exogenous buffers, as chemical salts or as fruits and vegetables, to a high protein diet results in a less acid urine, a reduction in net acid excretion, reduced ammonium and titratable acid excretion, and decreased calciuria. Bone resorption may be halted, and bone accretion may actually occur. Alkali buffers, whether chemical salts or dietary fruits and vegetables high in potassium, reverse acid-induced obligatory urinary calcium loss. We conclude that excessive dietary protein from foods with high potential renal acid load adversely affects bone, unless buffered by the consumption of alkali-rich foods or supplements.",
+  "modified": false,
+  "original_char_count": 1318,
+  "sanitized_char_count": 1318,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1133,
+      "boundary_end": 1318,
+      "context": "Excess dietary protein can adversely affect bone. The average American diet, which is high in protein and low in fruits and vegetables, generates a large amount of acid, mainly as sulfates and phosphates. The kidneys respond to this dietary acid challenge with net acid excretion, as well as ammonium and titratable acid excretion. Concurrently, the skeleton supplies buffer by active resorption of bone. Indeed, calciuria is directly related to net acid excretion. Different food proteins differ greatly in their potential acid load, and therefore in their acidogenic effect. A diet high in acid-ash proteins causes excessive calcium loss because of its acidogenic content. The addition of exogenous buffers, as chemical salts or as fruits and vegetables, to a high protein diet results in a less acid urine, a reduction in net acid excretion, reduced ammonium and titratable acid excretion, and decreased calciuria. Bone resorption may be halted, and bone accretion may actually occur. Alkali buffers, whether chemical salts or dietary fruits and vegetables high in potassium, reverse acid-induced obligatory urinary calcium loss.",
+      "target": "We conclude that excessive dietary protein from foods with high potential renal acid load adversely affects bone, unless buffered by the consumption of alkali-rich foods or supplements.",
+      "loss_target": 3.128058910369873,
+      "loss_target_given_context": 1.9211004972457886,
+      "delta_loss": 1.2069584131240845,
+      "gain_ratio": 0.3858490033940471,
+      "score": -0.3858490033940471,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

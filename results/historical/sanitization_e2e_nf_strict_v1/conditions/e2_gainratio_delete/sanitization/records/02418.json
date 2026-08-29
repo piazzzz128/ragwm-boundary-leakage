@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-4226",
+  "source_doc_id": "MED-4226",
+  "title": "Mechanisms of breast cancer bone metastasis.",
+  "original_text": "Mechanisms of breast cancer bone metastasis.\nBone, as well as liver and lung, is one of the most preferential metastatic target sites for cancers including breast, prostate, and lung cancers and the consequences are always devastating. Like other metastasis, breast cancer bone metastasis consists of several steps from the escape of primary site to the colonization in target site. This review focuses on several key steps including: 1. Invasion and escape from primary tumor site. 2. Target migration toward bone. 3. Specific adhesion and arrest in bone. 4. Establishment of metastasis in bone. The factors involved in this process will provide good targets for therapy. Copyright (c) 2009 Elsevier Ireland Ltd. All rights reserved.",
+  "sanitized_text": "Mechanisms of breast cancer bone metastasis.\nBone, as well as liver and lung, is one of the most preferential metastatic target sites for cancers including breast, prostate, and lung cancers and the consequences are always devastating. Like other metastasis, breast cancer bone metastasis consists of several steps from the escape of primary site to the colonization in target site. This review focuses on several key steps including: 1. Invasion and escape from primary tumor site. 2. Target migration toward bone. 3. Specific adhesion and arrest in bone. 4. Establishment of metastasis in bone. The factors involved in this process will provide good targets for therapy.",
+  "modified": true,
+  "original_char_count": 734,
+  "sanitized_char_count": 672,
+  "deleted_char_count": 62,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 673,
+      "boundary_end": 713,
+      "context": "Mechanisms of breast cancer bone metastasis. Bone, as well as liver and lung, is one of the most preferential metastatic target sites for cancers including breast, prostate, and lung cancers and the consequences are always devastating. Like other metastasis, breast cancer bone metastasis consists of several steps from the escape of primary site to the colonization in target site. This review focuses on several key steps including: 1. Invasion and escape from primary tumor site. 2. Target migration toward bone. 3. Specific adhesion and arrest in bone. 4. Establishment of metastasis in bone. The factors involved in this process will provide good targets for therapy.",
+      "target": "Copyright (c) 2009 Elsevier Ireland Ltd.",
+      "loss_target": 1.4776322841644287,
+      "loss_target_given_context": 1.731249213218689,
+      "delta_loss": -0.25361692905426025,
+      "gain_ratio": -0.17163737674943635,
+      "score": 0.17163737674943635,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 597,
+      "boundary_end": 672,
+      "context": "Mechanisms of breast cancer bone metastasis. Bone, as well as liver and lung, is one of the most preferential metastatic target sites for cancers including breast, prostate, and lung cancers and the consequences are always devastating. Like other metastasis, breast cancer bone metastasis consists of several steps from the escape of primary site to the colonization in target site. This review focuses on several key steps including: 1. Invasion and escape from primary tumor site. 2. Target migration toward bone. 3. Specific adhesion and arrest in bone. 4. Establishment of metastasis in bone.",
+      "target": "The factors involved in this process will provide good targets for therapy.",
+      "loss_target": 4.582971096038818,
+      "loss_target_given_context": 3.8465020656585693,
+      "delta_loss": 0.736469030380249,
+      "gain_ratio": 0.1606968525323667,
+      "score": -0.1606968525323667,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 673,
+      "target": "Copyright (c) 2009 Elsevier Ireland Ltd.",
+      "score": 0.17163737674943635,
+      "deleted_suffix": "Copyright (c) 2009 Elsevier Ireland Ltd. All rights reserved.",
+      "deleted_char_count": 61
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

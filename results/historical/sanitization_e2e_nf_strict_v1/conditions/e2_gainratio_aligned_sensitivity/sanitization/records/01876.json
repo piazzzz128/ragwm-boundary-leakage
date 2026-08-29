@@ -1,0 +1,61 @@
+{
+  "internal_id": "MED-3540",
+  "source_doc_id": "MED-3540",
+  "title": "Monoaminergic neurotransmission: the history of the discovery of antidepressants from 1950s until today.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Monoaminergic neurotransmission: the history of the discovery of antidepressants from 1950s until today.\nThe 1950s saw the clinical introduction of the first two specifically antidepressant drugs: iproniazid, a monoamine-oxidase inhibitor that had been used in the treatment of tuberculosis, and imipramine, the first drug in the tricyclic antidepressant family. Iproniazid and imipramine made two fundamental contributions to the development of psychiatry: one of a social-health nature, consisting in an authentic change in the psychiatric care of depressive patients; and the other of a purely pharmacological nature, since these agents have constituted an indispensable research tool for neurobiology and psychopharmacology, permitting, among other things, the postulation of the first aetiopathogenic hypotheses of depressive disorders. The clinical introduction of fluoxetine, a selective serotonin reuptake inhibitor, in the late 1980s, once again revolutionized therapy for depression, opening the way for new families of antidepressants. The present work reviews, from a historical perspective, the entire process that led to the discovery of these drugs, as well as their contribution to the development of the neuroscientific disciplines. However, all of these antidepressants, like the rest of those currently available for clinical practice, share the same action mechanism, which involves the modulation of monoaminergic neurotransmission at a synaptic level, so that the future of antidepressant therapy would seem to revolve around the search for extraneuronal non-aminergic mechanisms or mechanisms that modulate the intraneuronal biochemical pathways.",
+  "sanitized_text": "Monoaminergic neurotransmission: the history of the discovery of antidepressants from 1950s until today.\nThe 1950s saw the clinical introduction of the first two specifically antidepressant drugs: iproniazid, a monoamine-oxidase inhibitor that had been used in the treatment of tuberculosis, and imipramine, the first drug in the tricyclic antidepressant family. Iproniazid and imipramine made two fundamental contributions to the development of psychiatry: one of a social-health nature, consisting in an authentic change in the psychiatric care of depressive patients; and the other of a purely pharmacological nature, since these agents have constituted an indispensable research tool for neurobiology and psychopharmacology, permitting, among other things, the postulation of the first aetiopathogenic hypotheses of depressive disorders. The clinical introduction of fluoxetine, a selective serotonin reuptake inhibitor, in the late 1980s, once again revolutionized therapy for depression, opening the way for new families of antidepressants. The present work reviews, from a historical perspective, the entire process that led to the discovery of these drugs, as well as their contribution to the development of the neuroscientific disciplines.",
+  "modified": true,
+  "original_char_count": 1669,
+  "sanitized_char_count": 1249,
+  "deleted_char_count": 420,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1250,
+      "boundary_end": 1669,
+      "context": "discovery of antidepressants from 1950s until today. The 1950s saw the clinical introduction of the first two specifically antidepressant drugs: iproniazid, a monoamine-oxidase inhibitor that had been used in the treatment of tuberculosis, and imipramine, the first drug in the tricyclic antidepressant family. Iproniazid and imipramine made two fundamental contributions to the development of psychiatry: one of a social-health nature, consisting in an authentic change in the psychiatric care of depressive patients; and the other of a purely pharmacological nature, since these agents have constituted an indispensable research tool for neurobiology and psychopharmacology, permitting, among other things, the postulation of the first aetiopathogenic hypotheses of depressive disorders. The clinical introduction of fluoxetine, a selective serotonin reuptake inhibitor, in the late 1980s, once again revolutionized therapy for depression, opening the way for new families of antidepressants. The present work reviews, from a historical perspective, the entire process that led to the discovery of these drugs, as well as their contribution to the development of the neuroscientific disciplines.",
+      "target": "However, all of these antidepressants, like the rest of those currently available for clinical practice, share the same action mechanism, which involves the modulation of monoaminergic neurotransmission at a synaptic level, so that the future of antidepressant therapy would seem to revolve around the search for extraneuronal non-aminergic mechanisms or mechanisms that modulate the intraneuronal biochemical pathways.",
+      "loss_target": 2.388162851333618,
+      "loss_target_given_context": 2.068147897720337,
+      "delta_loss": 0.32001495361328125,
+      "gain_ratio": 0.13400047380963814,
+      "score": -0.13400047380963814,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 1047,
+      "boundary_end": 1249,
+      "context": "Monoaminergic neurotransmission: the history of the discovery of antidepressants from 1950s until today. The 1950s saw the clinical introduction of the first two specifically antidepressant drugs: iproniazid, a monoamine-oxidase inhibitor that had been used in the treatment of tuberculosis, and imipramine, the first drug in the tricyclic antidepressant family. Iproniazid and imipramine made two fundamental contributions to the development of psychiatry: one of a social-health nature, consisting in an authentic change in the psychiatric care of depressive patients; and the other of a purely pharmacological nature, since these agents have constituted an indispensable research tool for neurobiology and psychopharmacology, permitting, among other things, the postulation of the first aetiopathogenic hypotheses of depressive disorders. The clinical introduction of fluoxetine, a selective serotonin reuptake inhibitor, in the late 1980s, once again revolutionized therapy for depression, opening the way for new families of antidepressants.",
+      "target": "The present work reviews, from a historical perspective, the entire process that led to the discovery of these drugs, as well as their contribution to the development of the neuroscientific disciplines.",
+      "loss_target": 2.4326820373535156,
+      "loss_target_given_context": 1.4633352756500244,
+      "delta_loss": 0.9693467617034912,
+      "gain_ratio": 0.3984683352856222,
+      "score": -0.3984683352856222,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1250,
+      "target": "However, all of these antidepressants, like the rest of those currently available for clinical practice, share the same action mechanism, which involves the modulation of monoaminergic neurotransmission at a synaptic level, so that the future of antidepressant therapy would seem to revolve around the search for extraneuronal non-aminergic mechanisms or mechanisms that modulate the intraneuronal biochemical pathways.",
+      "score": -0.13400047380963814,
+      "scoring_version": "aligned_minimal_v1",
+      "deleted_suffix": "However, all of these antidepressants, like the rest of those currently available for clinical practice, share the same action mechanism, which involves the modulation of monoaminergic neurotransmission at a synaptic level, so that the future of antidepressant therapy would seem to revolve around the search for extraneuronal non-aminergic mechanisms or mechanisms that modulate the intraneuronal biochemical pathways.",
+      "deleted_char_count": 419
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

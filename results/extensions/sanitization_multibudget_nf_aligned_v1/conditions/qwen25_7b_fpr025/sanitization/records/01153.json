@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2402",
+  "source_doc_id": "MED-2402",
+  "title": "Fish Intake and Risks of Total and Cause-specific Mortality in 2 Population-based Cohort Studies of 134,296 Men and Women",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Fish Intake and Risks of Total and Cause-specific Mortality in 2 Population-based Cohort Studies of 134,296 Men and Women\nDespite a proposed protective effect of fish intake on the risk of cardiovascular disease, epidemiologic evidence on fish intake and mortality is inconsistent. We investigated associations of fish intake, assessed through a validated food frequency questionnaire, with risks of total and cause-specific mortality in 2 prospective cohort studies of 134,296 Chinese men and women (1997–2009). Vital status and date and cause of death were ascertained through annual linkage to the Shanghai Vital Statistics Registry database and biennial home visits. Cox regression was used to calculate hazard ratios and corresponding 95% confidence intervals. After excluding the first year of observation, the analysis included 3,666 deaths among women and 2,170 deaths among men. Fish intake was inversely associated with risks of total, ischemic stroke, and diabetes mortality; the corresponding hazard ratios for the highest quintiles of intake compared with the lowest were 0.84 (95% confidence interval (CI): 0.76, 0.92), 0.63 (95% CI: 0.41, 0.94), and 0.61 (95% CI: 0.39, 0.95), respectively. No associations with cancer or ischemic heart disease mortality were observed. Further analyses suggested that the inverse associations with total, ischemic stroke, and diabetes mortality were primarily related to consumption of saltwater fish and intake of long-chain n-3 fatty acids. Overall, our findings support the postulated health benefits of fish consumption.",
+  "sanitized_text": "Fish Intake and Risks of Total and Cause-specific Mortality in 2 Population-based Cohort Studies of 134,296 Men and Women\nDespite a proposed protective effect of fish intake on the risk of cardiovascular disease, epidemiologic evidence on fish intake and mortality is inconsistent. We investigated associations of fish intake, assessed through a validated food frequency questionnaire, with risks of total and cause-specific mortality in 2 prospective cohort studies of 134,296 Chinese men and women (1997–2009). Vital status and date and cause of death were ascertained through annual linkage to the Shanghai Vital Statistics Registry database and biennial home visits. Cox regression was used to calculate hazard ratios and corresponding 95% confidence intervals. After excluding the first year of observation, the analysis included 3,666 deaths among women and 2,170 deaths among men. Fish intake was inversely associated with risks of total, ischemic stroke, and diabetes mortality; the corresponding hazard ratios for the highest quintiles of intake compared with the lowest were 0.84 (95% confidence interval (CI): 0.76, 0.92), 0.63 (95% CI: 0.41, 0.94), and 0.61 (95% CI: 0.39, 0.95), respectively. No associations with cancer or ischemic heart disease mortality were observed. Further analyses suggested that the inverse associations with total, ischemic stroke, and diabetes mortality were primarily related to consumption of saltwater fish and intake of long-chain n-3 fatty acids. Overall, our findings support the postulated health benefits of fish consumption.",
+  "modified": false,
+  "original_char_count": 1573,
+  "sanitized_char_count": 1573,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1492,
+      "boundary_end": 1573,
+      "context": "associations of fish intake, assessed through a validated food frequency questionnaire, with risks of total and cause-specific mortality in 2 prospective cohort studies of 134,296 Chinese men and women (1997–2009). Vital status and date and cause of death were ascertained through annual linkage to the Shanghai Vital Statistics Registry database and biennial home visits. Cox regression was used to calculate hazard ratios and corresponding 95% confidence intervals. After excluding the first year of observation, the analysis included 3,666 deaths among women and 2,170 deaths among men. Fish intake was inversely associated with risks of total, ischemic stroke, and diabetes mortality; the corresponding hazard ratios for the highest quintiles of intake compared with the lowest were 0.84 (95% confidence interval (CI): 0.76, 0.92), 0.63 (95% CI: 0.41, 0.94), and 0.61 (95% CI: 0.39, 0.95), respectively. No associations with cancer or ischemic heart disease mortality were observed. Further analyses suggested that the inverse associations with total, ischemic stroke, and diabetes mortality were primarily related to consumption of saltwater fish and intake of long-chain n-3 fatty acids.",
+      "target": "Overall, our findings support the postulated health benefits of fish consumption.",
+      "loss_target": 2.8026983737945557,
+      "loss_target_given_context": 1.6308528184890747,
+      "delta_loss": 1.171845555305481,
+      "gain_ratio": 0.41811333187414196,
+      "score": -0.41811333187414196,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4871",
+  "source_doc_id": "MED-4871",
+  "title": "Monosodium glutamate 'allergy': menace or myth?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Monosodium glutamate 'allergy': menace or myth?\nMonosodium glutamate (MSG) is a salt form of a non-essential amino acid commonly used as a food additive for its unique flavour enhancing qualities. Since the first description of the 'Monosodium glutamate symptom complex', originally described in 1968 as the 'Chinese restaurant syndrome', a number of anecdotal reports and small clinical studies of variable quality have attributed a variety of symptoms to the dietary ingestion of MSG. Descriptions of MSG-induced asthma, urticaria, angio-oedema, and rhinitis have prompted some to suggest that MSG should be an aetiologic consideration in patients presenting with these conditions. This review prevents a critical review of the available literature related to the possible role of MSG in the so-called 'Chinese restaurant syndrome' and in eliciting asthmatic bronchospasm, urticaria, angio-oedema, and rhinitis. Despite concerns raised by early reports, decades of research have failed to demonstrate a clear and consistent relationship between MSG ingestion and the development of these conditions.",
+  "sanitized_text": "Monosodium glutamate 'allergy': menace or myth?\nMonosodium glutamate (MSG) is a salt form of a non-essential amino acid commonly used as a food additive for its unique flavour enhancing qualities. Since the first description of the 'Monosodium glutamate symptom complex', originally described in 1968 as the 'Chinese restaurant syndrome', a number of anecdotal reports and small clinical studies of variable quality have attributed a variety of symptoms to the dietary ingestion of MSG. Descriptions of MSG-induced asthma, urticaria, angio-oedema, and rhinitis have prompted some to suggest that MSG should be an aetiologic consideration in patients presenting with these conditions. This review prevents a critical review of the available literature related to the possible role of MSG in the so-called 'Chinese restaurant syndrome' and in eliciting asthmatic bronchospasm, urticaria, angio-oedema, and rhinitis. Despite concerns raised by early reports, decades of research have failed to demonstrate a clear and consistent relationship between MSG ingestion and the development of these conditions.",
+  "modified": false,
+  "original_char_count": 1101,
+  "sanitized_char_count": 1101,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 914,
+      "boundary_end": 1101,
+      "context": "Monosodium glutamate 'allergy': menace or myth? Monosodium glutamate (MSG) is a salt form of a non-essential amino acid commonly used as a food additive for its unique flavour enhancing qualities. Since the first description of the 'Monosodium glutamate symptom complex', originally described in 1968 as the 'Chinese restaurant syndrome', a number of anecdotal reports and small clinical studies of variable quality have attributed a variety of symptoms to the dietary ingestion of MSG. Descriptions of MSG-induced asthma, urticaria, angio-oedema, and rhinitis have prompted some to suggest that MSG should be an aetiologic consideration in patients presenting with these conditions. This review prevents a critical review of the available literature related to the possible role of MSG in the so-called 'Chinese restaurant syndrome' and in eliciting asthmatic bronchospasm, urticaria, angio-oedema, and rhinitis.",
+      "target": "Despite concerns raised by early reports, decades of research have failed to demonstrate a clear and consistent relationship between MSG ingestion and the development of these conditions.",
+      "loss_target": 2.8407626152038574,
+      "loss_target_given_context": 1.6223955154418945,
+      "delta_loss": 1.218367099761963,
+      "gain_ratio": 0.4288873323104229,
+      "score": -0.4288873323104229,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

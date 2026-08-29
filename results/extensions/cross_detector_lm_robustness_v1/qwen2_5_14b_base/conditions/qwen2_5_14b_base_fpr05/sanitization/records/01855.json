@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3518",
+  "source_doc_id": "MED-3518",
+  "title": "Melatonin in traditional Mediterranean diets.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Melatonin in traditional Mediterranean diets.\nCompared with other industrialized countries, the lower incidence of chronic-degenerative disorders in Mediterranean populations has been emphasized in recent decades. The health-promoting effects arising from Mediterranean dietary habits have been attributed to the large intake of plant foodstuffs rich in bioactive phytochemicals, such as melatonin. Recently, it has been suggested that melatonin present in edible plants may improve human health, by virtue of its biological activities and its good bioavailability. Plant melatonin, besides contributing to optimize the physiological functions regulated, in humans, by endogenous melatonin, may be involved in nutritional therapy to reduce the risk of cancer, cardiovascular and neurodegenerative diseases in western populations. In this view, the presence of melatonin in some Mediterranean foods and beverages adds a new element to the hypothesis of health benefits associated to Mediterranean dietary patterns, although the available data are still preliminary and incomplete.",
+  "sanitized_text": "Melatonin in traditional Mediterranean diets.\nCompared with other industrialized countries, the lower incidence of chronic-degenerative disorders in Mediterranean populations has been emphasized in recent decades. The health-promoting effects arising from Mediterranean dietary habits have been attributed to the large intake of plant foodstuffs rich in bioactive phytochemicals, such as melatonin. Recently, it has been suggested that melatonin present in edible plants may improve human health, by virtue of its biological activities and its good bioavailability. Plant melatonin, besides contributing to optimize the physiological functions regulated, in humans, by endogenous melatonin, may be involved in nutritional therapy to reduce the risk of cancer, cardiovascular and neurodegenerative diseases in western populations. In this view, the presence of melatonin in some Mediterranean foods and beverages adds a new element to the hypothesis of health benefits associated to Mediterranean dietary patterns, although the available data are still preliminary and incomplete.",
+  "modified": false,
+  "original_char_count": 1079,
+  "sanitized_char_count": 1079,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 830,
+      "boundary_end": 1079,
+      "context": "Melatonin in traditional Mediterranean diets. Compared with other industrialized countries, the lower incidence of chronic-degenerative disorders in Mediterranean populations has been emphasized in recent decades. The health-promoting effects arising from Mediterranean dietary habits have been attributed to the large intake of plant foodstuffs rich in bioactive phytochemicals, such as melatonin. Recently, it has been suggested that melatonin present in edible plants may improve human health, by virtue of its biological activities and its good bioavailability. Plant melatonin, besides contributing to optimize the physiological functions regulated, in humans, by endogenous melatonin, may be involved in nutritional therapy to reduce the risk of cancer, cardiovascular and neurodegenerative diseases in western populations.",
+      "target": "In this view, the presence of melatonin in some Mediterranean foods and beverages adds a new element to the hypothesis of health benefits associated to Mediterranean dietary patterns, although the available data are still preliminary and incomplete.",
+      "loss_target": 3.1288979053497314,
+      "loss_target_given_context": 2.162808895111084,
+      "delta_loss": 0.9660890102386475,
+      "gain_ratio": 0.3087633535715072,
+      "score": -0.3087633535715072,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

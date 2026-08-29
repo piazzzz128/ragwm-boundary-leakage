@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-985",
+  "source_doc_id": "MED-985",
+  "title": "Is Hyperhomocysteinemia an Alzheimer’s disease (AD) risk factor, an AD marker or neither?",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Is Hyperhomocysteinemia an Alzheimer’s disease (AD) risk factor, an AD marker or neither?\nAlzheimer’s disease (AD) is the most common form of neurodegenerative disease. The vast majority cases of AD are sporadic, without clear cause, and a combination of environmental and genetic factors have been implicated. The hypothesis that homocysteine (Hcy) is a risk factor for AD was initially prompted by the observation that patients with histologically confirmed AD had higher plasma levels of Hcy, also called hyperhomocysteinemia (HHcy), than age-matched controls. Most evidence accumulated so far implicates HHcy as a risk factor for AD onset, but conflicting results also exist. In this review, we summarize reports on the relationship between HHCy and AD from epidemiological investigations, including observational studies and randomized controlled clinical trials. We also examine recent in vivo and in vitro studies of potential mechanisms whereby HHcy may influence AD development. Finally, we discuss possible reasons for the existing conflicting data, and provide suggestions for future studies. Dyslipidemia participates in the effects of ethanol consumption.",
+  "sanitized_text": "Is Hyperhomocysteinemia an Alzheimer’s disease (AD) risk factor, an AD marker or neither?\nAlzheimer’s disease (AD) is the most common form of neurodegenerative disease. The vast majority cases of AD are sporadic, without clear cause, and a combination of environmental and genetic factors have been implicated. The hypothesis that homocysteine (Hcy) is a risk factor for AD was initially prompted by the observation that patients with histologically confirmed AD had higher plasma levels of Hcy, also called hyperhomocysteinemia (HHcy), than age-matched controls. Most evidence accumulated so far implicates HHcy as a risk factor for AD onset, but conflicting results also exist. In this review, we summarize reports on the relationship between HHCy and AD from epidemiological investigations, including observational studies and randomized controlled clinical trials. We also examine recent in vivo and in vitro studies of potential mechanisms whereby HHcy may influence AD development. Finally, we discuss possible reasons for the existing conflicting data, and provide suggestions for future studies. Dyslipidemia participates in the effects of ethanol consumption.",
+  "modified": false,
+  "original_char_count": 1168,
+  "sanitized_char_count": 1168,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1104,
+      "boundary_end": 1168,
+      "context": "Is Hyperhomocysteinemia an Alzheimer’s disease (AD) risk factor, an AD marker or neither? Alzheimer’s disease (AD) is the most common form of neurodegenerative disease. The vast majority cases of AD are sporadic, without clear cause, and a combination of environmental and genetic factors have been implicated. The hypothesis that homocysteine (Hcy) is a risk factor for AD was initially prompted by the observation that patients with histologically confirmed AD had higher plasma levels of Hcy, also called hyperhomocysteinemia (HHcy), than age-matched controls. Most evidence accumulated so far implicates HHcy as a risk factor for AD onset, but conflicting results also exist. In this review, we summarize reports on the relationship between HHCy and AD from epidemiological investigations, including observational studies and randomized controlled clinical trials. We also examine recent in vivo and in vitro studies of potential mechanisms whereby HHcy may influence AD development. Finally, we discuss possible reasons for the existing conflicting data, and provide suggestions for future studies.",
+      "target": "Dyslipidemia participates in the effects of ethanol consumption.",
+      "loss_target": 11.237699508666992,
+      "loss_target_given_context": 5.827526092529297,
+      "delta_loss": 5.410173416137695,
+      "gain_ratio": 0.4814306889025765,
+      "score": -0.4814306889025765,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

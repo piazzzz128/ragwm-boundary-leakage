@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4295",
+  "source_doc_id": "MED-4295",
+  "title": "Phytosterol composition of nuts and seeds commonly consumed in the United States.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Phytosterol composition of nuts and seeds commonly consumed in the United States.\nPhytosterols were quantified in nuts and seeds commonly consumed in the United States. Total lipid extracts were subjected to acid hydrolysis and then alkaline saponfication, and free sterols were analyzed as trimethylsilyl derivatives by capillary GC-FID and GC-MS. Delta5-Avenasterol was quantified after alkaline saponification plus direct analysis of the glucoside. Sesame seed and wheat germ had the highest total phytosterol content (400-413 mg/100 g) and Brazil nuts the lowest (95 mg/100 g). Of the products typically consumed as snack foods, pistachio and sunflower kernel were richest in phytosterols (270-289 mg/100 g). beta-Sitosterol, Delta5-avenasterol, and campesterol were predominant. Campestanol ranged from 1.0 to 12.7 mg/100 g. Only 13 mg/100 g beta-sitosterol was found in pumpkin seed kernel, although total sterol content was high (265 mg/100 g). Phytosterol concentrations were greater than reported in existing food composition databases, probably due to the inclusion of steryl glycosides, which represent a significant portion of total sterols in nuts and seeds.",
+  "sanitized_text": "Phytosterol composition of nuts and seeds commonly consumed in the United States.\nPhytosterols were quantified in nuts and seeds commonly consumed in the United States. Total lipid extracts were subjected to acid hydrolysis and then alkaline saponfication, and free sterols were analyzed as trimethylsilyl derivatives by capillary GC-FID and GC-MS. Delta5-Avenasterol was quantified after alkaline saponification plus direct analysis of the glucoside. Sesame seed and wheat germ had the highest total phytosterol content (400-413 mg/100 g) and Brazil nuts the lowest (95 mg/100 g). Of the products typically consumed as snack foods, pistachio and sunflower kernel were richest in phytosterols (270-289 mg/100 g). beta-Sitosterol, Delta5-avenasterol, and campesterol were predominant. Campestanol ranged from 1.0 to 12.7 mg/100 g. Only 13 mg/100 g beta-sitosterol was found in pumpkin seed kernel, although total sterol content was high (265 mg/100 g). Phytosterol concentrations were greater than reported in existing food composition databases, probably due to the inclusion of steryl glycosides, which represent a significant portion of total sterols in nuts and seeds.",
+  "modified": false,
+  "original_char_count": 1171,
+  "sanitized_char_count": 1171,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 952,
+      "boundary_end": 1171,
+      "context": "Phytosterol composition of nuts and seeds commonly consumed in the United States. Phytosterols were quantified in nuts and seeds commonly consumed in the United States. Total lipid extracts were subjected to acid hydrolysis and then alkaline saponfication, and free sterols were analyzed as trimethylsilyl derivatives by capillary GC-FID and GC-MS. Delta5-Avenasterol was quantified after alkaline saponification plus direct analysis of the glucoside. Sesame seed and wheat germ had the highest total phytosterol content (400-413 mg/100 g) and Brazil nuts the lowest (95 mg/100 g). Of the products typically consumed as snack foods, pistachio and sunflower kernel were richest in phytosterols (270-289 mg/100 g). beta-Sitosterol, Delta5-avenasterol, and campesterol were predominant. Campestanol ranged from 1.0 to 12.7 mg/100 g. Only 13 mg/100 g beta-sitosterol was found in pumpkin seed kernel, although total sterol content was high (265 mg/100 g).",
+      "target": "Phytosterol concentrations were greater than reported in existing food composition databases, probably due to the inclusion of steryl glycosides, which represent a significant portion of total sterols in nuts and seeds.",
+      "loss_target": 2.3491854667663574,
+      "loss_target_given_context": 1.771999716758728,
+      "delta_loss": 0.5771857500076294,
+      "gain_ratio": 0.24569611815372025,
+      "score": -0.24569611815372025,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4053",
+  "source_doc_id": "MED-4053",
+  "title": "Occurrence of heterocyclic amines in cooked meat products.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Occurrence of heterocyclic amines in cooked meat products.\nHeterocyclic amines (HCAs), potent mutagens and a risk factor for human cancers, are produced in meats cooked at high temperature. The aim of this study was to determine the HCA content in cooked meat products (beef, chicken, pork, fish) prepared by various cooking methods (pan frying, oven broiling, and oven baking at 170 to 230°C) that are preferred by U.S. meat consumers. The primary HCAs in these samples were PhIP (2-amino-1-methyl-6-phenylimidazo [4,5-b]pyridine) (1.49-10.89ng/g), MeIQx (2-amino-3,8-dimethylimidazo [4,5-f]quinoxaline) (not detected-4.0ng/g), and DiMeIQx (2-amino-3,4,8-trimethyl-imidazo [4,5-f]quinoxaline) (not detected-3.57ng/g). Type and content of HCAs in cooked meat samples were highly dependent on cooking conditions. The total HCA content in well-done meat was 3.5 times higher than that of medium-rare meat. Fried pork (13.91ng/g) had higher levels of total HCAs than fried beef (8.92ng/g) and fried chicken (7.00ng/g). Among the samples, fried bacon contained the highest total HCA content (17.59ng/g). Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "sanitized_text": "Occurrence of heterocyclic amines in cooked meat products.\nHeterocyclic amines (HCAs), potent mutagens and a risk factor for human cancers, are produced in meats cooked at high temperature. The aim of this study was to determine the HCA content in cooked meat products (beef, chicken, pork, fish) prepared by various cooking methods (pan frying, oven broiling, and oven baking at 170 to 230°C) that are preferred by U.S. meat consumers. The primary HCAs in these samples were PhIP (2-amino-1-methyl-6-phenylimidazo [4,5-b]pyridine) (1.49-10.89ng/g), MeIQx (2-amino-3,8-dimethylimidazo [4,5-f]quinoxaline) (not detected-4.0ng/g), and DiMeIQx (2-amino-3,4,8-trimethyl-imidazo [4,5-f]quinoxaline) (not detected-3.57ng/g). Type and content of HCAs in cooked meat samples were highly dependent on cooking conditions. The total HCA content in well-done meat was 3.5 times higher than that of medium-rare meat. Fried pork (13.91ng/g) had higher levels of total HCAs than fried beef (8.92ng/g) and fried chicken (7.00ng/g). Among the samples, fried bacon contained the highest total HCA content (17.59ng/g). Copyright © 2011 Elsevier Ltd. All rights reserved.",
+  "modified": false,
+  "original_char_count": 1151,
+  "sanitized_char_count": 1151,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1100,
+      "boundary_end": 1130,
+      "context": "Occurrence of heterocyclic amines in cooked meat products. Heterocyclic amines (HCAs), potent mutagens and a risk factor for human cancers, are produced in meats cooked at high temperature. The aim of this study was to determine the HCA content in cooked meat products (beef, chicken, pork, fish) prepared by various cooking methods (pan frying, oven broiling, and oven baking at 170 to 230°C) that are preferred by U.S. meat consumers. The primary HCAs in these samples were PhIP (2-amino-1-methyl-6-phenylimidazo [4,5-b]pyridine) (1.49-10.89ng/g), MeIQx (2-amino-3,8-dimethylimidazo [4,5-f]quinoxaline) (not detected-4.0ng/g), and DiMeIQx (2-amino-3,4,8-trimethyl-imidazo [4,5-f]quinoxaline) (not detected-3.57ng/g). Type and content of HCAs in cooked meat samples were highly dependent on cooking conditions. The total HCA content in well-done meat was 3.5 times higher than that of medium-rare meat. Fried pork (13.91ng/g) had higher levels of total HCAs than fried beef (8.92ng/g) and fried chicken (7.00ng/g). Among the samples, fried bacon contained the highest total HCA content (17.59ng/g).",
+      "target": "Copyright © 2011 Elsevier Ltd.",
+      "loss_target": 1.1462852954864502,
+      "loss_target_given_context": 0.5427720546722412,
+      "delta_loss": 0.603513240814209,
+      "gain_ratio": 0.5264947942633212,
+      "score": -0.5264947942633212,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

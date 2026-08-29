@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-3654",
+  "source_doc_id": "MED-3654",
+  "title": "Nutrient profiling of foods: creating a nutrient-rich food index.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Nutrient profiling of foods: creating a nutrient-rich food index.\nNutrient profiling of foods, described as the science of ranking foods based on their nutrient content, is fast becoming the basis for regulating nutrition labels, health claims, and marketing and advertising to children. A number of nutrient profile models have now been developed by research scientists, regulatory agencies, and by the food industry. Whereas some of these models have focused on nutrients to limit, others have emphasized nutrients known to be beneficial to health, or some combination of both. Although nutrient profile models are often tailored to specific goals, the development process ought to follow the same science-driven rules. These include the selection of index nutrients and reference amounts, the development of an appropriate algorithm for calculating nutrient density, and the validation of the chosen nutrient profile model against healthy diets. It is extremely important that nutrient profiles be validated rather than merely compared to prevailing public opinion. Regulatory agencies should act only when they are satisfied that the scientific process has been followed, that the algorithms are transparent, and that the profile model has been validated with respect to objective measures of a healthy diet.",
+  "sanitized_text": "Nutrient profiling of foods: creating a nutrient-rich food index.\nNutrient profiling of foods, described as the science of ranking foods based on their nutrient content, is fast becoming the basis for regulating nutrition labels, health claims, and marketing and advertising to children. A number of nutrient profile models have now been developed by research scientists, regulatory agencies, and by the food industry. Whereas some of these models have focused on nutrients to limit, others have emphasized nutrients known to be beneficial to health, or some combination of both. Although nutrient profile models are often tailored to specific goals, the development process ought to follow the same science-driven rules. These include the selection of index nutrients and reference amounts, the development of an appropriate algorithm for calculating nutrient density, and the validation of the chosen nutrient profile model against healthy diets. It is extremely important that nutrient profiles be validated rather than merely compared to prevailing public opinion. Regulatory agencies should act only when they are satisfied that the scientific process has been followed, that the algorithms are transparent, and that the profile model has been validated with respect to objective measures of a healthy diet.",
+  "modified": false,
+  "original_char_count": 1312,
+  "sanitized_char_count": 1312,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1069,
+      "boundary_end": 1312,
+      "context": "Nutrient profiling of foods: creating a nutrient-rich food index. Nutrient profiling of foods, described as the science of ranking foods based on their nutrient content, is fast becoming the basis for regulating nutrition labels, health claims, and marketing and advertising to children. A number of nutrient profile models have now been developed by research scientists, regulatory agencies, and by the food industry. Whereas some of these models have focused on nutrients to limit, others have emphasized nutrients known to be beneficial to health, or some combination of both. Although nutrient profile models are often tailored to specific goals, the development process ought to follow the same science-driven rules. These include the selection of index nutrients and reference amounts, the development of an appropriate algorithm for calculating nutrient density, and the validation of the chosen nutrient profile model against healthy diets. It is extremely important that nutrient profiles be validated rather than merely compared to prevailing public opinion.",
+      "target": "Regulatory agencies should act only when they are satisfied that the scientific process has been followed, that the algorithms are transparent, and that the profile model has been validated with respect to objective measures of a healthy diet.",
+      "loss_target": 2.9883477687835693,
+      "loss_target_given_context": 1.7162522077560425,
+      "delta_loss": 1.2720955610275269,
+      "gain_ratio": 0.4256852479875003,
+      "score": -0.4256852479875003,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

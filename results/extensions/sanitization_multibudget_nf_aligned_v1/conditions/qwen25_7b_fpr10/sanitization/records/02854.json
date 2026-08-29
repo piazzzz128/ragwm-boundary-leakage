@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4769",
+  "source_doc_id": "MED-4769",
+  "title": "Effect of adenovirus infection on adiposity in chicken.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Effect of adenovirus infection on adiposity in chicken.\nExcessive fat accumulation has been observed in the field in chickens infected with adenovirus. In the present study this has been verified under experimental conditions. Chickens inoculated with adenovirus showed lesser weight gain but excessive adiposity compared to normal control chickens. These changes could not be explained by variation in food consumption. Chickens acquiring adenovirus naturally from the inoculated group showed similar adiposity. Serum cholesterol and triglyceride levels of inoculated and naturally infected chickens were significantly lower compared to those of the control group. Such an association between adenovirus infection and adiposity has been shown, probably, for the first time, which might help in further understanding of the complex problem of obesity.",
+  "sanitized_text": "Effect of adenovirus infection on adiposity in chicken.\nExcessive fat accumulation has been observed in the field in chickens infected with adenovirus. In the present study this has been verified under experimental conditions. Chickens inoculated with adenovirus showed lesser weight gain but excessive adiposity compared to normal control chickens. These changes could not be explained by variation in food consumption. Chickens acquiring adenovirus naturally from the inoculated group showed similar adiposity. Serum cholesterol and triglyceride levels of inoculated and naturally infected chickens were significantly lower compared to those of the control group. Such an association between adenovirus infection and adiposity has been shown, probably, for the first time, which might help in further understanding of the complex problem of obesity.",
+  "modified": false,
+  "original_char_count": 851,
+  "sanitized_char_count": 851,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 666,
+      "boundary_end": 851,
+      "context": "Effect of adenovirus infection on adiposity in chicken. Excessive fat accumulation has been observed in the field in chickens infected with adenovirus. In the present study this has been verified under experimental conditions. Chickens inoculated with adenovirus showed lesser weight gain but excessive adiposity compared to normal control chickens. These changes could not be explained by variation in food consumption. Chickens acquiring adenovirus naturally from the inoculated group showed similar adiposity. Serum cholesterol and triglyceride levels of inoculated and naturally infected chickens were significantly lower compared to those of the control group.",
+      "target": "Such an association between adenovirus infection and adiposity has been shown, probably, for the first time, which might help in further understanding of the complex problem of obesity.",
+      "loss_target": 2.879847288131714,
+      "loss_target_given_context": 1.7537134885787964,
+      "delta_loss": 1.1261337995529175,
+      "gain_ratio": 0.3910394152474283,
+      "score": -0.3910394152474283,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4616",
+  "source_doc_id": "MED-4616",
+  "title": "Can lifestyle changes reverse coronary heart disease? The Lifestyle Heart Trial.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Can lifestyle changes reverse coronary heart disease? The Lifestyle Heart Trial.\nIn a prospective, randomised, controlled trial to determine whether comprehensive lifestyle changes affect coronary atherosclerosis after 1 year, 28 patients were assigned to an experimental group (low-fat vegetarian diet, stopping smoking, stress management training, and moderate exercise) and 20 to a usual-care control group. 195 coronary artery lesions were analysed by quantitative coronary angiography. The average percentage diameter stenosis regressed from 40.0 (SD 16.9)% to 37.8 (16.5)% in the experimental group yet progressed from 42.7 (15.5)% to 46.1 (18.5)% in the control group. When only lesions greater than 50% stenosed were analysed, the average percentage diameter stenosis regressed from 61.1 (8.8)% to 55.8 (11.0)% in the experimental group and progressed from 61.7 (9.5)% to 64.4 (16.3)% in the control group. Overall, 82% of experimental-group patients had an average change towards regression. Comprehensive lifestyle changes may be able to bring about regression of even severe coronary atherosclerosis after only 1 year, without use of lipid-lowering drugs.",
+  "sanitized_text": "Can lifestyle changes reverse coronary heart disease? The Lifestyle Heart Trial.\nIn a prospective, randomised, controlled trial to determine whether comprehensive lifestyle changes affect coronary atherosclerosis after 1 year, 28 patients were assigned to an experimental group (low-fat vegetarian diet, stopping smoking, stress management training, and moderate exercise) and 20 to a usual-care control group. 195 coronary artery lesions were analysed by quantitative coronary angiography. The average percentage diameter stenosis regressed from 40.0 (SD 16.9)% to 37.8 (16.5)% in the experimental group yet progressed from 42.7 (15.5)% to 46.1 (18.5)% in the control group. When only lesions greater than 50% stenosed were analysed, the average percentage diameter stenosis regressed from 61.1 (8.8)% to 55.8 (11.0)% in the experimental group and progressed from 61.7 (9.5)% to 64.4 (16.3)% in the control group. Overall, 82% of experimental-group patients had an average change towards regression. Comprehensive lifestyle changes may be able to bring about regression of even severe coronary atherosclerosis after only 1 year, without use of lipid-lowering drugs.",
+  "modified": false,
+  "original_char_count": 1166,
+  "sanitized_char_count": 1166,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1001,
+      "boundary_end": 1166,
+      "context": "Can lifestyle changes reverse coronary heart disease? The Lifestyle Heart Trial. In a prospective, randomised, controlled trial to determine whether comprehensive lifestyle changes affect coronary atherosclerosis after 1 year, 28 patients were assigned to an experimental group (low-fat vegetarian diet, stopping smoking, stress management training, and moderate exercise) and 20 to a usual-care control group. 195 coronary artery lesions were analysed by quantitative coronary angiography. The average percentage diameter stenosis regressed from 40.0 (SD 16.9)% to 37.8 (16.5)% in the experimental group yet progressed from 42.7 (15.5)% to 46.1 (18.5)% in the control group. When only lesions greater than 50% stenosed were analysed, the average percentage diameter stenosis regressed from 61.1 (8.8)% to 55.8 (11.0)% in the experimental group and progressed from 61.7 (9.5)% to 64.4 (16.3)% in the control group. Overall, 82% of experimental-group patients had an average change towards regression.",
+      "target": "Comprehensive lifestyle changes may be able to bring about regression of even severe coronary atherosclerosis after only 1 year, without use of lipid-lowering drugs.",
+      "loss_target": 2.6184895038604736,
+      "loss_target_given_context": 1.4173158407211304,
+      "delta_loss": 1.2011736631393433,
+      "gain_ratio": 0.45872769830409366,
+      "score": -0.45872769830409366,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

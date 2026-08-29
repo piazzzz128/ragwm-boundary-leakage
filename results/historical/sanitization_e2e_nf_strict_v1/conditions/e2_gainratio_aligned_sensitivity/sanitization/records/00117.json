@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1158",
+  "source_doc_id": "MED-1158",
+  "title": "Behaviour of some organophosphorus and organochlorine pesticides in potatoes during soaking in different solutions.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Behaviour of some organophosphorus and organochlorine pesticides in potatoes during soaking in different solutions.\nThe efficiencies of acidic solutions (radish, citric acid, ascorbic acid, acetic acid and hydrogen peroxide), neutral solutions (sodium chloride) and alkaline solution (sodium carbonate) as well as tap water in the elimination of organochlorine and organophosphorus pesticides from naturally contaminated potatoes were examined. The results indicated that acidic solutions were more effective than neutral and alkaline solutions in the elimination of the organochlorine compounds under investigation, Radish solutions eliminated pesticides completely, except o,p'-DDE (73.1% loss), followed by citric and ascorbic acid solutions. On the other hand, organophosphorus pesticides (pirimphos methyl, malathion and profenofos) were eliminated more by acidic, neutral and alkaline solutions than by organochlorines. The percentage of removal ranged from 98.5 to 100% for pirimphos methyl, 87.9 to 100% for malathion and 100% for profenofos.",
+  "sanitized_text": "Behaviour of some organophosphorus and organochlorine pesticides in potatoes during soaking in different solutions.\nThe efficiencies of acidic solutions (radish, citric acid, ascorbic acid, acetic acid and hydrogen peroxide), neutral solutions (sodium chloride) and alkaline solution (sodium carbonate) as well as tap water in the elimination of organochlorine and organophosphorus pesticides from naturally contaminated potatoes were examined. The results indicated that acidic solutions were more effective than neutral and alkaline solutions in the elimination of the organochlorine compounds under investigation, Radish solutions eliminated pesticides completely, except o,p'-DDE (73.1% loss), followed by citric and ascorbic acid solutions. On the other hand, organophosphorus pesticides (pirimphos methyl, malathion and profenofos) were eliminated more by acidic, neutral and alkaline solutions than by organochlorines. The percentage of removal ranged from 98.5 to 100% for pirimphos methyl, 87.9 to 100% for malathion and 100% for profenofos.",
+  "modified": false,
+  "original_char_count": 1050,
+  "sanitized_char_count": 1050,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 926,
+      "boundary_end": 1050,
+      "context": "Behaviour of some organophosphorus and organochlorine pesticides in potatoes during soaking in different solutions. The efficiencies of acidic solutions (radish, citric acid, ascorbic acid, acetic acid and hydrogen peroxide), neutral solutions (sodium chloride) and alkaline solution (sodium carbonate) as well as tap water in the elimination of organochlorine and organophosphorus pesticides from naturally contaminated potatoes were examined. The results indicated that acidic solutions were more effective than neutral and alkaline solutions in the elimination of the organochlorine compounds under investigation, Radish solutions eliminated pesticides completely, except o,p'-DDE (73.1% loss), followed by citric and ascorbic acid solutions. On the other hand, organophosphorus pesticides (pirimphos methyl, malathion and profenofos) were eliminated more by acidic, neutral and alkaline solutions than by organochlorines.",
+      "target": "The percentage of removal ranged from 98.5 to 100% for pirimphos methyl, 87.9 to 100% for malathion and 100% for profenofos.",
+      "loss_target": 1.9165033102035522,
+      "loss_target_given_context": 0.8416935205459595,
+      "delta_loss": 1.0748097896575928,
+      "gain_ratio": 0.5608181232639964,
+      "score": -0.5608181232639964,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

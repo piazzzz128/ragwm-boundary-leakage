@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4364",
+  "source_doc_id": "MED-4364",
+  "title": "Occupational transmission of hepatitis C virus resulting from use of the same supermarket meat slicer.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Occupational transmission of hepatitis C virus resulting from use of the same supermarket meat slicer.\nTracing risk factors for acquiring hepatitis C virus (HCV) in an HCV-infected patient, the only identified risk was working at the same butcher's counter of a supermarket as another HCV-infected patient, using a common ham cutting machine, with frequent bleeding hand injuries. A phylogenetic analysis showed a high percentage of nucleotide homology between the two patients' strains. © 2010 European Society of Clinical Microbiology and Infectious Diseases. No claim to original US government works.",
+  "sanitized_text": "Occupational transmission of hepatitis C virus resulting from use of the same supermarket meat slicer.\nTracing risk factors for acquiring hepatitis C virus (HCV) in an HCV-infected patient, the only identified risk was working at the same butcher's counter of a supermarket as another HCV-infected patient, using a common ham cutting machine, with frequent bleeding hand injuries. A phylogenetic analysis showed a high percentage of nucleotide homology between the two patients' strains. © 2010 European Society of Clinical Microbiology and Infectious Diseases. No claim to original US government works.",
+  "modified": false,
+  "original_char_count": 603,
+  "sanitized_char_count": 603,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 562,
+      "boundary_end": 603,
+      "context": "Occupational transmission of hepatitis C virus resulting from use of the same supermarket meat slicer. Tracing risk factors for acquiring hepatitis C virus (HCV) in an HCV-infected patient, the only identified risk was working at the same butcher's counter of a supermarket as another HCV-infected patient, using a common ham cutting machine, with frequent bleeding hand injuries. A phylogenetic analysis showed a high percentage of nucleotide homology between the two patients' strains. © 2010 European Society of Clinical Microbiology and Infectious Diseases.",
+      "target": "No claim to original US government works.",
+      "loss_target": 2.7271645069122314,
+      "loss_target_given_context": 1.088899850845337,
+      "delta_loss": 1.6382646560668945,
+      "gain_ratio": 0.6007208776421711,
+      "score": -0.6007208776421711,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.13007188598091768,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

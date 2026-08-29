@@ -1,0 +1,53 @@
+{
+  "internal_id": "MED-3552",
+  "source_doc_id": "MED-3552",
+  "title": "Purple rice (Oryza sativa L.) extract and its constituents inhibit VEGF-induced angiogenesis.",
+  "original_text": "Purple rice (Oryza sativa L.) extract and its constituents inhibit VEGF-induced angiogenesis.\nThe study evaluated the protective effects of purple rice (Oryza sativa L.) bran extract (PRE) and its constituents, cyanidin and peonidin, against angiogenesis induced by vascular endothelial growth factor (VEGF). The effects of VEGF and PRE were examined by in vitro tube formation assays and following 14-day co-culture of human umbilical vein endothelial cells (HUVECs) and fibroblasts. The antiangiogenic mechanism of PRE was evaluated by VEGF-induced proliferation and migration of HUVECs and/or human retinal microvascular endothelial cells (HRMECs) and phosphorylation of extracellular signal-regulated kinase (ERK) and p38. The PRE significantly suppressed VEGF-induced tube formation, proliferation and migration in HUVECs and HRMECs as well as phosphorylation of ERK and p38. Cyanidin and peonidin also suppressed the proliferation and migration induced by VEGF. These findings indicate that PRE and anthocyanidins suppress VEGF-induced angiogenesis by inhibiting proliferation and migration and suggest that the inhibition of phosphorylated-ERK and -p38 may be involved in the underlying mechanism. Copyright © 2011 John Wiley & Sons, Ltd.",
+  "sanitized_text": "Purple rice (Oryza sativa L.) extract and its constituents inhibit VEGF-induced angiogenesis.\nThe study evaluated the protective effects of purple rice (Oryza sativa L.) bran extract (PRE) and its constituents, cyanidin and peonidin, against angiogenesis induced by vascular endothelial growth factor (VEGF). The effects of VEGF and PRE were examined by in vitro tube formation assays and following 14-day co-culture of human umbilical vein endothelial cells (HUVECs) and fibroblasts. The antiangiogenic mechanism of PRE was evaluated by VEGF-induced proliferation and migration of HUVECs and/or human retinal microvascular endothelial cells (HRMECs) and phosphorylation of extracellular signal-regulated kinase (ERK) and p38. The PRE significantly suppressed VEGF-induced tube formation, proliferation and migration in HUVECs and HRMECs as well as phosphorylation of ERK and p38. Cyanidin and peonidin also suppressed the proliferation and migration induced by VEGF. These findings indicate that PRE and anthocyanidins suppress VEGF-induced angiogenesis by inhibiting proliferation and migration and suggest that the inhibition of phosphorylated-ERK and -p38 may be involved in the underlying mechanism.",
+  "modified": true,
+  "original_char_count": 1245,
+  "sanitized_char_count": 1204,
+  "deleted_char_count": 41,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1205,
+      "boundary_end": 1245,
+      "context": "rice (Oryza sativa L.) extract and its constituents inhibit VEGF-induced angiogenesis. The study evaluated the protective effects of purple rice (Oryza sativa L.) bran extract (PRE) and its constituents, cyanidin and peonidin, against angiogenesis induced by vascular endothelial growth factor (VEGF). The effects of VEGF and PRE were examined by in vitro tube formation assays and following 14-day co-culture of human umbilical vein endothelial cells (HUVECs) and fibroblasts. The antiangiogenic mechanism of PRE was evaluated by VEGF-induced proliferation and migration of HUVECs and/or human retinal microvascular endothelial cells (HRMECs) and phosphorylation of extracellular signal-regulated kinase (ERK) and p38. The PRE significantly suppressed VEGF-induced tube formation, proliferation and migration in HUVECs and HRMECs as well as phosphorylation of ERK and p38. Cyanidin and peonidin also suppressed the proliferation and migration induced by VEGF. These findings indicate that PRE and anthocyanidins suppress VEGF-induced angiogenesis by inhibiting proliferation and migration and suggest that the inhibition of phosphorylated-ERK and -p38 may be involved in the underlying mechanism.",
+      "target": "Copyright © 2011 John Wiley & Sons, Ltd.",
+      "loss_target": 0.9106405973434448,
+      "loss_target_given_context": 1.2599626779556274,
+      "delta_loss": -0.3493220806121826,
+      "gain_ratio": -0.3836003815679184,
+      "score": 0.3836003815679184,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": true
+    },
+    {
+      "step": 2,
+      "boundary_start": 968,
+      "boundary_end": 1204,
+      "context": "Purple rice (Oryza sativa L.) extract and its constituents inhibit VEGF-induced angiogenesis. The study evaluated the protective effects of purple rice (Oryza sativa L.) bran extract (PRE) and its constituents, cyanidin and peonidin, against angiogenesis induced by vascular endothelial growth factor (VEGF). The effects of VEGF and PRE were examined by in vitro tube formation assays and following 14-day co-culture of human umbilical vein endothelial cells (HUVECs) and fibroblasts. The antiangiogenic mechanism of PRE was evaluated by VEGF-induced proliferation and migration of HUVECs and/or human retinal microvascular endothelial cells (HRMECs) and phosphorylation of extracellular signal-regulated kinase (ERK) and p38. The PRE significantly suppressed VEGF-induced tube formation, proliferation and migration in HUVECs and HRMECs as well as phosphorylation of ERK and p38. Cyanidin and peonidin also suppressed the proliferation and migration induced by VEGF.",
+      "target": "These findings indicate that PRE and anthocyanidins suppress VEGF-induced angiogenesis by inhibiting proliferation and migration and suggest that the inhibition of phosphorylated-ERK and -p38 may be involved in the underlying mechanism.",
+      "loss_target": 2.499762773513794,
+      "loss_target_given_context": 1.4747906923294067,
+      "delta_loss": 1.0249720811843872,
+      "gain_ratio": 0.41002774024978145,
+      "score": -0.41002774024978145,
+      "threshold": -0.03845528815765987,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [
+    {
+      "step": 1,
+      "boundary_start": 1205,
+      "target": "Copyright © 2011 John Wiley & Sons, Ltd.",
+      "score": 0.3836003815679184,
+      "deleted_suffix": "Copyright © 2011 John Wiley & Sons, Ltd.",
+      "deleted_char_count": 40
+    }
+  ],
+  "deletion_step_count": 1,
+  "stop_reason": "score_below_threshold"
+}

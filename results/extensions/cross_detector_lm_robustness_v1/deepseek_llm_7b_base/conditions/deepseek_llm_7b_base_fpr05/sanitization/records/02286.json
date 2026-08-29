@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4055",
+  "source_doc_id": "MED-4055",
+  "title": "Diallyl sulfide inhibits PhIP-induced DNA strand breaks in normal human breast epithelial cells.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Diallyl sulfide inhibits PhIP-induced DNA strand breaks in normal human breast epithelial cells.\nHeterocyclic amines (HCAs) are formed when meat products such as beef, chicken, pork and fish are cooked at high temperatures. The most abundant HCA found in the human diet is 2-amino-1-methyl-6-phenylimidazo[4,5-b] pyridine (PhIP). PhIP causes mammary carcinomas in female rats and mice, and is associated with an increased risk of developing colon, breast, and prostate cancer in humans. PhIP is metabolized by cytochrome P-450s producing N-OH-PhIP. The N-OH-PhIP can be esterified by phase II enzymes forming an arylnitrenium ion that binds to DNA causing adducts. Furthermore, N-OH-PhIP may be reduced by cytochrome b5 reductase producing superoxide anions and hydroxyl radicals causing DNA strand breaks. Diallyl sulfide (DAS) has been shown to prevent cancer in several animal models, presumably by metabolic modulation. We hypothesize that PhIP produces reactive oxygen species causing DNA strand breaks and that DAS will inhibit the formation of PhIP induced DNA strand breaks. To test this hypothesis we treated normal breast epithelial (MCF-10A) cells with PhIP, DAS and a combination of PhIP and DAS. The detection of lipid peroxides was used as a surrogate for ROS. Lipid peroxides were detected using a PeroxiDetect kit (Sigma). PhIP increased the production of lipid peroxides and DAS decreased the PhIP-induced peroxidation by 47%. To determine if PhIP causes DNA strand breaks in MCF-10A cells, cells were treated for 3, 6, 9, and 24 h with PhIP (100 microM), DAS (100 microM) and a combination of PhIP (100 microM) and DAS (100 microM). DNA strand breaks were evaluated using the Comet assay. PhIP produced DNA strand breaks in a dose- and time-dependent fashion. We have shown that DAS inhibits PhIP-induced DNA strand breaks by inhibiting the production of reactive oxygen species. Therefore, we propose that DAS can prevent PhIP-induced breast cancer.",
+  "sanitized_text": "Diallyl sulfide inhibits PhIP-induced DNA strand breaks in normal human breast epithelial cells.\nHeterocyclic amines (HCAs) are formed when meat products such as beef, chicken, pork and fish are cooked at high temperatures. The most abundant HCA found in the human diet is 2-amino-1-methyl-6-phenylimidazo[4,5-b] pyridine (PhIP). PhIP causes mammary carcinomas in female rats and mice, and is associated with an increased risk of developing colon, breast, and prostate cancer in humans. PhIP is metabolized by cytochrome P-450s producing N-OH-PhIP. The N-OH-PhIP can be esterified by phase II enzymes forming an arylnitrenium ion that binds to DNA causing adducts. Furthermore, N-OH-PhIP may be reduced by cytochrome b5 reductase producing superoxide anions and hydroxyl radicals causing DNA strand breaks. Diallyl sulfide (DAS) has been shown to prevent cancer in several animal models, presumably by metabolic modulation. We hypothesize that PhIP produces reactive oxygen species causing DNA strand breaks and that DAS will inhibit the formation of PhIP induced DNA strand breaks. To test this hypothesis we treated normal breast epithelial (MCF-10A) cells with PhIP, DAS and a combination of PhIP and DAS. The detection of lipid peroxides was used as a surrogate for ROS. Lipid peroxides were detected using a PeroxiDetect kit (Sigma). PhIP increased the production of lipid peroxides and DAS decreased the PhIP-induced peroxidation by 47%. To determine if PhIP causes DNA strand breaks in MCF-10A cells, cells were treated for 3, 6, 9, and 24 h with PhIP (100 microM), DAS (100 microM) and a combination of PhIP (100 microM) and DAS (100 microM). DNA strand breaks were evaluated using the Comet assay. PhIP produced DNA strand breaks in a dose- and time-dependent fashion. We have shown that DAS inhibits PhIP-induced DNA strand breaks by inhibiting the production of reactive oxygen species. Therefore, we propose that DAS can prevent PhIP-induced breast cancer.",
+  "modified": false,
+  "original_char_count": 1968,
+  "sanitized_char_count": 1968,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1898,
+      "boundary_end": 1968,
+      "context": "by cytochrome b5 reductase producing superoxide anions and hydroxyl radicals causing DNA strand breaks. Diallyl sulfide (DAS) has been shown to prevent cancer in several animal models, presumably by metabolic modulation. We hypothesize that PhIP produces reactive oxygen species causing DNA strand breaks and that DAS will inhibit the formation of PhIP induced DNA strand breaks. To test this hypothesis we treated normal breast epithelial (MCF-10A) cells with PhIP, DAS and a combination of PhIP and DAS. The detection of lipid peroxides was used as a surrogate for ROS. Lipid peroxides were detected using a PeroxiDetect kit (Sigma). PhIP increased the production of lipid peroxides and DAS decreased the PhIP-induced peroxidation by 47%. To determine if PhIP causes DNA strand breaks in MCF-10A cells, cells were treated for 3, 6, 9, and 24 h with PhIP (100 microM), DAS (100 microM) and a combination of PhIP (100 microM) and DAS (100 microM). DNA strand breaks were evaluated using the Comet assay. PhIP produced DNA strand breaks in a dose- and time-dependent fashion. We have shown that DAS inhibits PhIP-induced DNA strand breaks by inhibiting the production of reactive oxygen species.",
+      "target": "Therefore, we propose that DAS can prevent PhIP-induced breast cancer.",
+      "loss_target": 3.64450740814209,
+      "loss_target_given_context": 1.085081696510315,
+      "delta_loss": 2.559425711631775,
+      "gain_ratio": 0.7022693124217103,
+      "score": -0.7022693124217103,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

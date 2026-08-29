@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2006",
+  "source_doc_id": "MED-2006",
+  "title": "Identification of peptide hormones of the amphipathic helix class using the helical hydrophobic moment algorithm.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Identification of peptide hormones of the amphipathic helix class using the helical hydrophobic moment algorithm.\nEisenberg's helical hydrophobic moment (less than mu H greater than) algorithm was applied to the analysis of the primary structure of amphipathic alpha-helical peptide hormones and an optimal method for identifying other peptides of this class determined. We quantitate and compare known amphipathic helical peptide hormones with a second group of peptides with proven nonamphipathic properties and determine the best method of distinguishing between them. The respective means of the maximum 11 residue less than mu H greater than for the amphipathic helical and control peptides were 0.46 (+/-/-0.07) and 0.33 (0.07) (P + 0.004). To better reflect the amphipathic potential of the entire peptide, the percent of 11 residue segments in each peptide above a particular less than mu H greater than was plotted vs less than mu H greater than. The resulting curves are referred to as HM-C. The mean HM-C (of the two groups) was highly significantly different such that the HM-C method was superior to others in its ability to distinguish amphipathic from nonamphipathic peptides. Several potential new members of this structural class were identified using this approach. Molecular modeling of a portion of one of these, prolactin inhibitory factor, reveals a strongly amphipathic alpha helix at residues 4-21. This computer-based method may enable rapid identification of peptides of the amphipathic alpha-helix class.",
+  "sanitized_text": "Identification of peptide hormones of the amphipathic helix class using the helical hydrophobic moment algorithm.\nEisenberg's helical hydrophobic moment (less than mu H greater than) algorithm was applied to the analysis of the primary structure of amphipathic alpha-helical peptide hormones and an optimal method for identifying other peptides of this class determined. We quantitate and compare known amphipathic helical peptide hormones with a second group of peptides with proven nonamphipathic properties and determine the best method of distinguishing between them. The respective means of the maximum 11 residue less than mu H greater than for the amphipathic helical and control peptides were 0.46 (+/-/-0.07) and 0.33 (0.07) (P + 0.004). To better reflect the amphipathic potential of the entire peptide, the percent of 11 residue segments in each peptide above a particular less than mu H greater than was plotted vs less than mu H greater than. The resulting curves are referred to as HM-C. The mean HM-C (of the two groups) was highly significantly different such that the HM-C method was superior to others in its ability to distinguish amphipathic from nonamphipathic peptides. Several potential new members of this structural class were identified using this approach. Molecular modeling of a portion of one of these, prolactin inhibitory factor, reveals a strongly amphipathic alpha helix at residues 4-21. This computer-based method may enable rapid identification of peptides of the amphipathic alpha-helix class.",
+  "modified": false,
+  "original_char_count": 1531,
+  "sanitized_char_count": 1531,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1423,
+      "boundary_end": 1531,
+      "context": "the primary structure of amphipathic alpha-helical peptide hormones and an optimal method for identifying other peptides of this class determined. We quantitate and compare known amphipathic helical peptide hormones with a second group of peptides with proven nonamphipathic properties and determine the best method of distinguishing between them. The respective means of the maximum 11 residue less than mu H greater than for the amphipathic helical and control peptides were 0.46 (+/-/-0.07) and 0.33 (0.07) (P + 0.004). To better reflect the amphipathic potential of the entire peptide, the percent of 11 residue segments in each peptide above a particular less than mu H greater than was plotted vs less than mu H greater than. The resulting curves are referred to as HM-C. The mean HM-C (of the two groups) was highly significantly different such that the HM-C method was superior to others in its ability to distinguish amphipathic from nonamphipathic peptides. Several potential new members of this structural class were identified using this approach. Molecular modeling of a portion of one of these, prolactin inhibitory factor, reveals a strongly amphipathic alpha helix at residues 4-21.",
+      "target": "This computer-based method may enable rapid identification of peptides of the amphipathic alpha-helix class.",
+      "loss_target": 10.341469764709473,
+      "loss_target_given_context": 3.9516232013702393,
+      "delta_loss": 6.389846563339233,
+      "gain_ratio": 0.6178857269538945,
+      "score": -0.6178857269538945,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

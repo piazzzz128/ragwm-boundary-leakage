@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-5023",
+  "source_doc_id": "MED-5023",
+  "title": "Green algal infection in a human.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Green algal infection in a human.\nInfection by unicellular green algae has not been described in humans. A case is reported in a 30-year-old woman who developed persistent infection of a healing operative wound on the dorsum of the right foot, after possible contamination by river water while canoeing. The wound was debrided 2 months later. Histologically, infected tissues contained mixed suppurative and granulomatous inflammation associated with endosporulating, round to oval microorganisms, ranging from 6-9 microns in diameter. Many of these organisms contained multiple, strongly periodic acid-Schiff, Gomori methenamine-silver, and Gridley fungus-positive granules in the cytoplasm. The organisms in tissue did not stain with fluorescent antibody conjugates specific for the two known pathogenic Prototheca species. In some organisms, electron microscopy revealed membranous cytoplasmic profiles considered to be remnants of degenerated chloroplasts. These findings are consistent with the presence of a green algal infection.",
+  "sanitized_text": "Green algal infection in a human.\nInfection by unicellular green algae has not been described in humans. A case is reported in a 30-year-old woman who developed persistent infection of a healing operative wound on the dorsum of the right foot, after possible contamination by river water while canoeing. The wound was debrided 2 months later. Histologically, infected tissues contained mixed suppurative and granulomatous inflammation associated with endosporulating, round to oval microorganisms, ranging from 6-9 microns in diameter. Many of these organisms contained multiple, strongly periodic acid-Schiff, Gomori methenamine-silver, and Gridley fungus-positive granules in the cytoplasm. The organisms in tissue did not stain with fluorescent antibody conjugates specific for the two known pathogenic Prototheca species. In some organisms, electron microscopy revealed membranous cytoplasmic profiles considered to be remnants of degenerated chloroplasts. These findings are consistent with the presence of a green algal infection.",
+  "modified": false,
+  "original_char_count": 1036,
+  "sanitized_char_count": 1036,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 961,
+      "boundary_end": 1036,
+      "context": "Green algal infection in a human. Infection by unicellular green algae has not been described in humans. A case is reported in a 30-year-old woman who developed persistent infection of a healing operative wound on the dorsum of the right foot, after possible contamination by river water while canoeing. The wound was debrided 2 months later. Histologically, infected tissues contained mixed suppurative and granulomatous inflammation associated with endosporulating, round to oval microorganisms, ranging from 6-9 microns in diameter. Many of these organisms contained multiple, strongly periodic acid-Schiff, Gomori methenamine-silver, and Gridley fungus-positive granules in the cytoplasm. The organisms in tissue did not stain with fluorescent antibody conjugates specific for the two known pathogenic Prototheca species. In some organisms, electron microscopy revealed membranous cytoplasmic profiles considered to be remnants of degenerated chloroplasts.",
+      "target": "These findings are consistent with the presence of a green algal infection.",
+      "loss_target": 3.2953600883483887,
+      "loss_target_given_context": 0.9342095255851746,
+      "delta_loss": 2.361150562763214,
+      "gain_ratio": 0.7165076044683804,
+      "score": -0.7165076044683804,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1194",
+  "source_doc_id": "MED-1194",
+  "title": "Can noncommunicable diseases be prevented? Lessons from studies of populations and individuals.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Can noncommunicable diseases be prevented? Lessons from studies of populations and individuals.\nNoncommunicable diseases (NCDs)--mainly cancers, cardiovascular diseases, diabetes, and chronic respiratory diseases--are responsible for about two-thirds of deaths worldwide, mostly in low- and middle-income countries. There is an urgent need for policies and strategies that prevent NCDs by reducing their major risk factors. Effective approaches for large-scale NCD prevention include comprehensive tobacco and alcohol control through taxes and regulation of sales and advertising; reducing dietary salt, unhealthy fats, and sugars through regulation and well-designed public education; increasing the consumption of fresh fruits and vegetables, healthy fats, and whole grains by lowering prices and improving availability; and implementing a universal, effective, and equitable primary-care system that reduces NCD risk factors, including cardiometabolic risk factors and infections that are precursors to NCDs, through clinical interventions.",
+  "sanitized_text": "Can noncommunicable diseases be prevented? Lessons from studies of populations and individuals.\nNoncommunicable diseases (NCDs)--mainly cancers, cardiovascular diseases, diabetes, and chronic respiratory diseases--are responsible for about two-thirds of deaths worldwide, mostly in low- and middle-income countries. There is an urgent need for policies and strategies that prevent NCDs by reducing their major risk factors. Effective approaches for large-scale NCD prevention include comprehensive tobacco and alcohol control through taxes and regulation of sales and advertising; reducing dietary salt, unhealthy fats, and sugars through regulation and well-designed public education; increasing the consumption of fresh fruits and vegetables, healthy fats, and whole grains by lowering prices and improving availability; and implementing a universal, effective, and equitable primary-care system that reduces NCD risk factors, including cardiometabolic risk factors and infections that are precursors to NCDs, through clinical interventions.",
+  "modified": false,
+  "original_char_count": 1043,
+  "sanitized_char_count": 1043,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 424,
+      "boundary_end": 1043,
+      "context": "Can noncommunicable diseases be prevented? Lessons from studies of populations and individuals. Noncommunicable diseases (NCDs)--mainly cancers, cardiovascular diseases, diabetes, and chronic respiratory diseases--are responsible for about two-thirds of deaths worldwide, mostly in low- and middle-income countries. There is an urgent need for policies and strategies that prevent NCDs by reducing their major risk factors.",
+      "target": "Effective approaches for large-scale NCD prevention include comprehensive tobacco and alcohol control through taxes and regulation of sales and advertising; reducing dietary salt, unhealthy fats, and sugars through regulation and well-designed public education; increasing the consumption of fresh fruits and vegetables, healthy fats, and whole grains by lowering prices and improving availability; and implementing a universal, effective, and equitable primary-care system that reduces NCD risk factors, including cardiometabolic risk factors and infections that are precursors to NCDs, through clinical interventions.",
+      "loss_target": 6.838058948516846,
+      "loss_target_given_context": 3.982621192932129,
+      "delta_loss": 2.855437755584717,
+      "gain_ratio": 0.4175801608443362,
+      "score": -0.4175801608443362,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1776604795758094,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

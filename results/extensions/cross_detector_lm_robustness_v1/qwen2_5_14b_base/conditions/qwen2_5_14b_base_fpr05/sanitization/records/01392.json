@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2765",
+  "source_doc_id": "MED-2765",
+  "title": "The value of current nutrition information.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "The value of current nutrition information.\nTo prevent or delay the occurrence of chronic diseases, scientific bodies from the cardiologic and oncologic disciplines have made recommendations regarding the daily dietary intake of certain macro- and micronutrients. This study assessed the knowledge of a random population of 2,305 individuals comprising members of the public, health care workers, university graduate students, and health club attendees. Segments of this population might be expected to have a greater understanding and ability to implement these dietary recommendations. We found that over 90% of the participants were unaware of the recommendations for calcium, salt, vitamin A, and fiber, and the fiber content in a high fiber cereal. Approximately 80% of the participants were unaware of the recommendations regarding fat intake and could not calculate the fat content of a food product. Almost half of the study population took a vitamin pill daily. Of the subjects who were aware of the correct unit measurement for vitamin A (IU), almost 25% of gave a response that exceeded the recommended daily intake. A majority of this study population were unaware of the dietary recommendations regarding the prevention of cardiovascular events and cancer. Subgroups of this study population that might be expected to have more information regarding these recommendations (i.e., having higher education or being a health care professional) did not display a satisfactory level of knowledge. To further compound the problems of adhering to the recommended guidelines, the labeling of many food products is misleading. The recommendations on dietary intake and the information on food product content must be transmitted to the public in a form that allows for ready application when purchasing and consuming food.",
+  "sanitized_text": "The value of current nutrition information.\nTo prevent or delay the occurrence of chronic diseases, scientific bodies from the cardiologic and oncologic disciplines have made recommendations regarding the daily dietary intake of certain macro- and micronutrients. This study assessed the knowledge of a random population of 2,305 individuals comprising members of the public, health care workers, university graduate students, and health club attendees. Segments of this population might be expected to have a greater understanding and ability to implement these dietary recommendations. We found that over 90% of the participants were unaware of the recommendations for calcium, salt, vitamin A, and fiber, and the fiber content in a high fiber cereal. Approximately 80% of the participants were unaware of the recommendations regarding fat intake and could not calculate the fat content of a food product. Almost half of the study population took a vitamin pill daily. Of the subjects who were aware of the correct unit measurement for vitamin A (IU), almost 25% of gave a response that exceeded the recommended daily intake. A majority of this study population were unaware of the dietary recommendations regarding the prevention of cardiovascular events and cancer. Subgroups of this study population that might be expected to have more information regarding these recommendations (i.e., having higher education or being a health care professional) did not display a satisfactory level of knowledge. To further compound the problems of adhering to the recommended guidelines, the labeling of many food products is misleading. The recommendations on dietary intake and the information on food product content must be transmitted to the public in a form that allows for ready application when purchasing and consuming food.",
+  "modified": false,
+  "original_char_count": 1825,
+  "sanitized_char_count": 1825,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 1630,
+      "boundary_end": 1825,
+      "context": "health club attendees. Segments of this population might be expected to have a greater understanding and ability to implement these dietary recommendations. We found that over 90% of the participants were unaware of the recommendations for calcium, salt, vitamin A, and fiber, and the fiber content in a high fiber cereal. Approximately 80% of the participants were unaware of the recommendations regarding fat intake and could not calculate the fat content of a food product. Almost half of the study population took a vitamin pill daily. Of the subjects who were aware of the correct unit measurement for vitamin A (IU), almost 25% of gave a response that exceeded the recommended daily intake. A majority of this study population were unaware of the dietary recommendations regarding the prevention of cardiovascular events and cancer. Subgroups of this study population that might be expected to have more information regarding these recommendations (i.e., having higher education or being a health care professional) did not display a satisfactory level of knowledge. To further compound the problems of adhering to the recommended guidelines, the labeling of many food products is misleading.",
+      "target": "The recommendations on dietary intake and the information on food product content must be transmitted to the public in a form that allows for ready application when purchasing and consuming food.",
+      "loss_target": 3.1605589389801025,
+      "loss_target_given_context": 2.535914897918701,
+      "delta_loss": 0.6246440410614014,
+      "gain_ratio": 0.19763720693750803,
+      "score": -0.19763720693750803,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.16983939416116475,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

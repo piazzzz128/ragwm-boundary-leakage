@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-1942",
+  "source_doc_id": "MED-1942",
+  "title": "Curry consumption and cognitive function in the elderly.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Curry consumption and cognitive function in the elderly.\nCurcumin, from the curry spice turmeric, has been shown to possess potent antioxidant and antiinflammatory properties and to reduce beta-amyloid and plaque burden in experimental studies, but epidemiologic evidence is lacking. The authors investigated the association between usual curry consumption level and cognitive function in elderly Asians. In a population-based cohort (n = 1,010) of nondemented elderly Asian subjects aged 60-93 years in 2003, the authors compared Mini-Mental State Examination (MMSE) scores for three categories of regular curry consumption, taking into account known sociodemographic, health, and behavioral correlates of MMSE performance. Those who consumed curry \"occasionally\" and \"often or very often\" had significantly better MMSE scores than did subjects who \"never or rarely\" consumed curry. The authors reported tentative evidence of better cognitive performance from curry consumption in nondemented elderly Asians, which should be confirmed in future studies.",
+  "sanitized_text": "Curry consumption and cognitive function in the elderly.\nCurcumin, from the curry spice turmeric, has been shown to possess potent antioxidant and antiinflammatory properties and to reduce beta-amyloid and plaque burden in experimental studies, but epidemiologic evidence is lacking. The authors investigated the association between usual curry consumption level and cognitive function in elderly Asians. In a population-based cohort (n = 1,010) of nondemented elderly Asian subjects aged 60-93 years in 2003, the authors compared Mini-Mental State Examination (MMSE) scores for three categories of regular curry consumption, taking into account known sociodemographic, health, and behavioral correlates of MMSE performance. Those who consumed curry \"occasionally\" and \"often or very often\" had significantly better MMSE scores than did subjects who \"never or rarely\" consumed curry. The authors reported tentative evidence of better cognitive performance from curry consumption in nondemented elderly Asians, which should be confirmed in future studies.",
+  "modified": false,
+  "original_char_count": 1054,
+  "sanitized_char_count": 1054,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 884,
+      "boundary_end": 1054,
+      "context": "Curry consumption and cognitive function in the elderly. Curcumin, from the curry spice turmeric, has been shown to possess potent antioxidant and antiinflammatory properties and to reduce beta-amyloid and plaque burden in experimental studies, but epidemiologic evidence is lacking. The authors investigated the association between usual curry consumption level and cognitive function in elderly Asians. In a population-based cohort (n = 1,010) of nondemented elderly Asian subjects aged 60-93 years in 2003, the authors compared Mini-Mental State Examination (MMSE) scores for three categories of regular curry consumption, taking into account known sociodemographic, health, and behavioral correlates of MMSE performance. Those who consumed curry \"occasionally\" and \"often or very often\" had significantly better MMSE scores than did subjects who \"never or rarely\" consumed curry.",
+      "target": "The authors reported tentative evidence of better cognitive performance from curry consumption in nondemented elderly Asians, which should be confirmed in future studies.",
+      "loss_target": 3.653517723083496,
+      "loss_target_given_context": 2.0397226810455322,
+      "delta_loss": 1.6137950420379639,
+      "gain_ratio": 0.4417099257085177,
+      "score": -0.4417099257085177,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1832180580405571,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

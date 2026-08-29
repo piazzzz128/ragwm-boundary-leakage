@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4372",
+  "source_doc_id": "MED-4372",
+  "title": "Health information provided by retail health food outlets.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Health information provided by retail health food outlets.\nAlternative health practices have become increasingly popular in recent years. Many patients visit specific complementary practitioners, while others attempt to educate themselves, trusting advice from employees at local health food stores or the Internet. Thirty-two retail health food stores were surveyed on the nature of the information provided by their staff. A research assistant visited the stores and presented as the mother of a child in whom Crohn's disease had been diagnosed. Seventy-two per cent (23 of 32) of store employees offered advice, such as to take nutritional and herbal supplements. Of the 23 stores where recommendations were made, 15 (65%) based their recommendation on a source of information. Fourteen of the 15 stores using information sources used the same reference book. This had a significant impact on the recommendations; the use of nutritional supplements was favoured. In conclusion, retail health food stores are not as inconsistent as hypothesized, although there are many variances in the types of supplements recommended for the same chronic disease.",
+  "sanitized_text": "Health information provided by retail health food outlets.\nAlternative health practices have become increasingly popular in recent years. Many patients visit specific complementary practitioners, while others attempt to educate themselves, trusting advice from employees at local health food stores or the Internet. Thirty-two retail health food stores were surveyed on the nature of the information provided by their staff. A research assistant visited the stores and presented as the mother of a child in whom Crohn's disease had been diagnosed. Seventy-two per cent (23 of 32) of store employees offered advice, such as to take nutritional and herbal supplements. Of the 23 stores where recommendations were made, 15 (65%) based their recommendation on a source of information. Fourteen of the 15 stores using information sources used the same reference book. This had a significant impact on the recommendations; the use of nutritional supplements was favoured. In conclusion, retail health food stores are not as inconsistent as hypothesized, although there are many variances in the types of supplements recommended for the same chronic disease.",
+  "modified": false,
+  "original_char_count": 1151,
+  "sanitized_char_count": 1151,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 966,
+      "boundary_end": 1151,
+      "context": "Health information provided by retail health food outlets. Alternative health practices have become increasingly popular in recent years. Many patients visit specific complementary practitioners, while others attempt to educate themselves, trusting advice from employees at local health food stores or the Internet. Thirty-two retail health food stores were surveyed on the nature of the information provided by their staff. A research assistant visited the stores and presented as the mother of a child in whom Crohn's disease had been diagnosed. Seventy-two per cent (23 of 32) of store employees offered advice, such as to take nutritional and herbal supplements. Of the 23 stores where recommendations were made, 15 (65%) based their recommendation on a source of information. Fourteen of the 15 stores using information sources used the same reference book. This had a significant impact on the recommendations; the use of nutritional supplements was favoured.",
+      "target": "In conclusion, retail health food stores are not as inconsistent as hypothesized, although there are many variances in the types of supplements recommended for the same chronic disease.",
+      "loss_target": 3.625788927078247,
+      "loss_target_given_context": 2.351422071456909,
+      "delta_loss": 1.274366855621338,
+      "gain_ratio": 0.3514729845700795,
+      "score": -0.3514729845700795,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.12495927631268061,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

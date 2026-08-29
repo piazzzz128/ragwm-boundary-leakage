@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-2823",
+  "source_doc_id": "MED-2823",
+  "title": "Curcumin in Cell Death Processes: A Challenge for CAM of Age-Related Pathologies",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Curcumin in Cell Death Processes: A Challenge for CAM of Age-Related Pathologies\nCurcumin, the yellow pigment from the rhizoma of Curcuma longa, is a widely studied phytochemical which has a variety of biological activities: anti-inflammatory and anti-oxidative. In this review we discuss the biological mechanisms and possible clinical effects of curcumin treatment on cancer therapy, and neurodegenerative diseases such as Alzheimer's Disease, with particular attention to the cell death processes induced by curcumin. Since oxidative stress and inflammation are major determinants of the aging process, we also argue that curcumin can have a more general effect that slows down the rate of aging. Finally, the effects of curcumin can be described as xenohormetic, since it activates a sort of stress response in mammalian cells.",
+  "sanitized_text": "Curcumin in Cell Death Processes: A Challenge for CAM of Age-Related Pathologies\nCurcumin, the yellow pigment from the rhizoma of Curcuma longa, is a widely studied phytochemical which has a variety of biological activities: anti-inflammatory and anti-oxidative. In this review we discuss the biological mechanisms and possible clinical effects of curcumin treatment on cancer therapy, and neurodegenerative diseases such as Alzheimer's Disease, with particular attention to the cell death processes induced by curcumin. Since oxidative stress and inflammation are major determinants of the aging process, we also argue that curcumin can have a more general effect that slows down the rate of aging. Finally, the effects of curcumin can be described as xenohormetic, since it activates a sort of stress response in mammalian cells.",
+  "modified": false,
+  "original_char_count": 831,
+  "sanitized_char_count": 831,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 700,
+      "boundary_end": 831,
+      "context": "Curcumin in Cell Death Processes: A Challenge for CAM of Age-Related Pathologies Curcumin, the yellow pigment from the rhizoma of Curcuma longa, is a widely studied phytochemical which has a variety of biological activities: anti-inflammatory and anti-oxidative. In this review we discuss the biological mechanisms and possible clinical effects of curcumin treatment on cancer therapy, and neurodegenerative diseases such as Alzheimer's Disease, with particular attention to the cell death processes induced by curcumin. Since oxidative stress and inflammation are major determinants of the aging process, we also argue that curcumin can have a more general effect that slows down the rate of aging.",
+      "target": "Finally, the effects of curcumin can be described as xenohormetic, since it activates a sort of stress response in mammalian cells.",
+      "loss_target": 2.7016146183013916,
+      "loss_target_given_context": 2.066715717315674,
+      "delta_loss": 0.6348989009857178,
+      "gain_ratio": 0.23500720520416157,
+      "score": -0.23500720520416157,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.1640843956343344,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}

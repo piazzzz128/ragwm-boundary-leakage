@@ -1,0 +1,35 @@
+{
+  "internal_id": "MED-4498",
+  "source_doc_id": "MED-4498",
+  "title": "Trial of garlic as an adjunct therapy for multidrug resistant Pseudomonas aeruginosa pneumonia in a critically ill infant.",
+  "experiment_role": "aligned_end_to_end_sensitivity",
+  "scoring_version": "aligned_minimal_v1",
+  "alignment_policy": "exclude_first_target_token_in_both_conditions",
+  "original_text": "Trial of garlic as an adjunct therapy for multidrug resistant Pseudomonas aeruginosa pneumonia in a critically ill infant.\nWe present a case of a critically ill infant with severe multidrug-resistant Pseudomonas aeruginosa pneumonia and bacteremia who was treated with garlic and antibiotics after in vitro demonstration of a change in the resistance pattern via the disc diffusion method on garlic-treated Mueller Hinton agar. To our knowledge, this is the first report of therapeutic garlic use in a critically ill infant in the literature.",
+  "sanitized_text": "Trial of garlic as an adjunct therapy for multidrug resistant Pseudomonas aeruginosa pneumonia in a critically ill infant.\nWe present a case of a critically ill infant with severe multidrug-resistant Pseudomonas aeruginosa pneumonia and bacteremia who was treated with garlic and antibiotics after in vitro demonstration of a change in the resistance pattern via the disc diffusion method on garlic-treated Mueller Hinton agar. To our knowledge, this is the first report of therapeutic garlic use in a critically ill infant in the literature.",
+  "modified": false,
+  "original_char_count": 542,
+  "sanitized_char_count": 542,
+  "deleted_char_count": 0,
+  "candidate_evaluations": [
+    {
+      "step": 1,
+      "boundary_start": 428,
+      "boundary_end": 542,
+      "context": "Trial of garlic as an adjunct therapy for multidrug resistant Pseudomonas aeruginosa pneumonia in a critically ill infant. We present a case of a critically ill infant with severe multidrug-resistant Pseudomonas aeruginosa pneumonia and bacteremia who was treated with garlic and antibiotics after in vitro demonstration of a change in the resistance pattern via the disc diffusion method on garlic-treated Mueller Hinton agar.",
+      "target": "To our knowledge, this is the first report of therapeutic garlic use in a critically ill infant in the literature.",
+      "loss_target": 2.7993264198303223,
+      "loss_target_given_context": 1.1719021797180176,
+      "delta_loss": 1.6274242401123047,
+      "gain_ratio": 0.5813627980587377,
+      "score": -0.5813627980587377,
+      "scoring_version": "aligned_minimal_v1",
+      "alignment_policy": "exclude_first_target_token_in_both_conditions",
+      "threshold": -0.20519773948364803,
+      "selected_for_deletion": false
+    }
+  ],
+  "deletions": [],
+  "deletion_step_count": 0,
+  "stop_reason": "score_below_threshold"
+}
