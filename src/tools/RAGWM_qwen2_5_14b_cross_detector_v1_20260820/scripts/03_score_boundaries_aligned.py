@@ -112,7 +112,7 @@ def main() -> None:
     parser.add_argument("--model-path", required=True, type=Path)
     parser.add_argument("--model-name", default="Qwen2.5-14B")
     parser.add_argument(
-        "--dataset", required=True, choices=["nfcorpus", "trec-covid"]
+       "--dataset", required=True, choices=["nfcorpus", "trec-covid", "nq"]
     )
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--reset", action="store_true")
@@ -138,7 +138,11 @@ def main() -> None:
         )
 
     rows = load_json(args.input)
-    expected_count = 446 if args.dataset == "nfcorpus" else 458
+    expected_count = {
+    "nfcorpus": 446,
+    "trec-covid": 458,
+    "nq": 442,
+}[args.dataset]
     expected_each_label = expected_count // 2
     label_counts = {
         "clean": sum(int(row["label"]) == 0 for row in rows),
