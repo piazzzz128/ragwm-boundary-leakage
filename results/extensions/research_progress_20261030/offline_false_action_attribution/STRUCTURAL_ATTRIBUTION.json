@@ -1,0 +1,251 @@
+{
+  "all_observed_actions_by_category": {
+    "calibration": {
+      "BIN": {
+        "categories": {
+          "BODY_CONTEXT_PRESENT": {
+            "characters": 2093,
+            "documents": 17
+          },
+          "NO_BODY_CONTEXT": {
+            "characters": 105,
+            "documents": 1
+          },
+          "WITHIN_TITLE_METADATA": {
+            "characters": 377,
+            "documents": 1
+          }
+        },
+        "observed_FP": 19,
+        "observed_characters": 2575
+      },
+      "RAW": {
+        "categories": {
+          "BODY_CONTEXT_PRESENT": {
+            "characters": 2317,
+            "documents": 9
+          },
+          "NO_BODY_CONTEXT": {
+            "characters": 105,
+            "documents": 1
+          },
+          "WITHIN_TITLE_METADATA": {
+            "characters": 377,
+            "documents": 1
+          }
+        },
+        "observed_FP": 11,
+        "observed_characters": 2799
+      },
+      "VIRTUAL_GR": {
+        "categories": {
+          "BODY_CONTEXT_PRESENT": {
+            "characters": 180,
+            "documents": 2
+          },
+          "NO_BODY_CONTEXT": {
+            "characters": 2559,
+            "documents": 16
+          },
+          "WITHIN_TITLE_METADATA": {
+            "characters": 0,
+            "documents": 0
+          }
+        },
+        "observed_FP": 18,
+        "observed_characters": 2739
+      }
+    },
+    "independent_clean": {
+      "BIN": {
+        "categories": {
+          "BODY_CONTEXT_PRESENT": {
+            "characters": 3504,
+            "documents": 24
+          },
+          "NO_BODY_CONTEXT": {
+            "characters": 0,
+            "documents": 0
+          },
+          "WITHIN_TITLE_METADATA": {
+            "characters": 455,
+            "documents": 3
+          }
+        },
+        "observed_FP": 27,
+        "observed_characters": 3959
+      },
+      "RAW": {
+        "categories": {
+          "BODY_CONTEXT_PRESENT": {
+            "characters": 4571,
+            "documents": 18
+          },
+          "NO_BODY_CONTEXT": {
+            "characters": 0,
+            "documents": 0
+          },
+          "WITHIN_TITLE_METADATA": {
+            "characters": 135,
+            "documents": 1
+          }
+        },
+        "observed_FP": 19,
+        "observed_characters": 4706
+      },
+      "VIRTUAL_GR": {
+        "categories": {
+          "BODY_CONTEXT_PRESENT": {
+            "characters": 848,
+            "documents": 7
+          },
+          "NO_BODY_CONTEXT": {
+            "characters": 5222,
+            "documents": 26
+          },
+          "WITHIN_TITLE_METADATA": {
+            "characters": 153,
+            "documents": 1
+          }
+        },
+        "observed_FP": 34,
+        "observed_characters": 6223
+      }
+    }
+  },
+  "body_context_focal_cases": [
+    {
+      "characters": 165,
+      "context_excerpt": "Out-group homogeneity\nThe implications of this effect on stereotyping have been noted.[5] ",
+      "doc_id": "doc2056284",
+      "nC": 18,
+      "prefix_ends_with_bracketed_citation": true,
+      "score": 0.04757248899227925,
+      "target_excerpt": "Perceivers tend to have impressions about the diversity or variability of group members around those central tendencies or typical attributes of those group members.",
+      "title": "Out-group homogeneity"
+    },
+    {
+      "characters": 117,
+      "context_excerpt": "apse rates when typicals are used at low to moderate dosages.[14] There is a good response in 40–50% of patients, a partial response in 30–40%, and treatment resistance (failure of symptoms to respond satisfactorily after six weeks to two of three different antipsychotics) in the remaining 20%.[15] ",
+      "doc_id": "doc241678",
+      "nC": 145,
+      "prefix_ends_with_bracketed_citation": true,
+      "score": 0.3088318123509766,
+      "target_excerpt": "Clozapine is considered a first choice treatment for treatment-refactory schizophrenia, especially in the short term;",
+      "title": "Atypical antipsychotic"
+    },
+    {
+      "characters": 115,
+      "context_excerpt": "Immigration Act of 1990\nThe bill also introduced a cap of 65,000 per year to H-1B and excluded nurses, entertainers, athletes, and artists from qualifying.[2] ",
+      "doc_id": "doc1975327",
+      "nC": 46,
+      "prefix_ends_with_bracketed_citation": true,
+      "score": -0.005707706787385715,
+      "target_excerpt": "Another short term visa is \"D\" category nonimmigrants who work \"aboard sea or air carriers or as longshore workers\"",
+      "title": "Immigration Act of 1990"
+    }
+  ],
+  "focal30_categories": {
+    "BODY_CONTEXT_PRESENT": {
+      "characters": 397,
+      "context_tokens": [
+        18,
+        145,
+        46
+      ],
+      "doc_ids": [
+        "doc2056284",
+        "doc241678",
+        "doc1975327"
+      ],
+      "documents": 3,
+      "score_nonnegative_count": 2
+    },
+    "NO_BODY_CONTEXT": {
+      "characters": 5222,
+      "context_tokens": [
+        4,
+        4,
+        2,
+        3,
+        5,
+        7,
+        8,
+        2,
+        9,
+        4,
+        6,
+        5,
+        5,
+        3,
+        3,
+        11,
+        4,
+        4,
+        3,
+        5,
+        6,
+        4,
+        1,
+        4,
+        9,
+        5
+      ],
+      "doc_ids": [
+        "doc2482160",
+        "doc929687",
+        "doc563385",
+        "doc478461",
+        "doc520987",
+        "doc2655163",
+        "doc1282843",
+        "doc1495340",
+        "doc875945",
+        "doc2664861",
+        "doc834637",
+        "doc2244069",
+        "doc2414161",
+        "doc1778043",
+        "doc230628",
+        "doc2425020",
+        "doc1376023",
+        "doc264360",
+        "doc2330566",
+        "doc166706",
+        "doc1104866",
+        "doc2018101",
+        "doc796681",
+        "doc2077832",
+        "doc1172905",
+        "doc1876224"
+      ],
+      "documents": 26,
+      "score_nonnegative_count": 20
+    },
+    "WITHIN_TITLE_METADATA": {
+      "characters": 153,
+      "context_tokens": [
+        2
+      ],
+      "doc_ids": [
+        "doc1302299"
+      ],
+      "documents": 1,
+      "score_nonnegative_count": 0
+    }
+  },
+  "metadata_binding_checks": 3016,
+  "metadata_related_focal_characters": 5375,
+  "metadata_related_focal_documents": 27,
+  "metadata_related_share_of_30_new_document_cost": 0.9312196812196812,
+  "metadata_related_share_of_all_virtual_actual_cost": 0.8637313192993733,
+  "new_GPU_API": 0,
+  "new_WSN": "NOT_RUN",
+  "new_threshold_fitted": false,
+  "prototype_sha256": "a32e0bc6f342e9153710f6b94abdda4e9ed1f0b827709e12c438178bfc1d9c69",
+  "prototype_used_as_validated_detector": false,
+  "source_allocation_sha256": "bf961ce2acc820684babc74327a9ca96a702768a423e05868d3510abea000602",
+  "source_construction_evidence": "source_worker.py line44: title=x.get(title); body=x.get(text); text=title+newline+body. Exact archived source/title hashes verified.",
+  "source_worker_sha256": "bd31ed206f05e5edafe42c39e4cdcb2e8db7f23a889ab1affbb6e73cc4660a9b",
+  "status": "COMPLETE_POSTHOC_METADATA_ATTRIBUTION"
+}

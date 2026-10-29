@@ -1,5 +1,22 @@
 # RAG-WM Boundary Leakage
 
+## Research update · 2026-10-30
+
+The project remains ongoing: **target WSN ≤4 (preferably ≤3), not achieved**.
+The new unknown-seam NQ40 study measures untreated / RAW / BIN / VIRTUAL_GR WSN
+of **34 / 33 / 31 / 14**, all Unknown=0. First-action localization improves from
+32/151 to 127/151, while the new method's normal-character damage **0.815% >
+0.5%** fails the frozen low-damage gate. These findings do not replace the
+formal NFCorpus **26→21/30** result below.
+
+See the [four-study progress report](results/extensions/research_progress_20261030/README.md),
+[中文进展](results/extensions/research_progress_20261030/README_zh-CN.md),
+[frozen results](results/extensions/research_progress_20261030/body_context_boundary/RESULTS.json),
+and [CPU reference code](src/experiments/body_context_boundary_20261029).
+
+---
+
+
 ### GainRatio-Guided Targeted Suffix Deletion for Authorized Red-Team Evaluation
 
 [简体中文](README_zh-CN.md)

@@ -1,5 +1,20 @@
 # RAG-WM Boundary Leakage
 
+## 近期科研进展 · 2026-10-30
+
+项目仍在推进：**目标WSN≤4、争取≤3，尚未达成**。新的未知接缝NQ40同期
+WSN为未处理34 / RAW33 / BIN31 / 虚拟14，Unknown0；首动作定位32/151→127/151，
+但虚拟方法正常字符损伤 **0.815%>冻结0.5%**，低损伤联合资格FAIL。此处新NQ40
+与下方正式NFCorpus **26→21/30** 分开，不跨campaign拼接。
+
+[四项近期实验与失败门](results/extensions/research_progress_20261030/README_zh-CN.md) ·
+[English](results/extensions/research_progress_20261030/README.md) ·
+[冻结结果JSON](results/extensions/research_progress_20261030/body_context_boundary/RESULTS.json) ·
+[CPU参考源码](src/experiments/body_context_boundary_20261029)
+
+---
+
+
 ### GainRatio-Guided Targeted Suffix Deletion for Authorized Red-Team Evaluation
 
 本仓库公开 **RAG-WM 边界泄漏（Boundary Leakage）** 研究的代码、实验结果、审计记录与可复现性材料。

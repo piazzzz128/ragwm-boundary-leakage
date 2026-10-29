@@ -1,5 +1,22 @@
 # Artifact Index
 
+## Latest independent progress · 2026-10-30
+
+- [Research progress and scientific limits](results/extensions/research_progress_20261030/README.md)
+- [中文报告](results/extensions/research_progress_20261030/README_zh-CN.md)
+- [Body-context frozen machine results](results/extensions/research_progress_20261030/body_context_boundary/RESULTS.json)
+- [Public protocol projection](results/extensions/research_progress_20261030/body_context_boundary/PUBLIC_PROTOCOL_PROJECTION.json)
+- [Controlled seam frozen results](results/extensions/research_progress_20261030/sentence_seam_intervention/RESULTS.json)
+- [Prior clean-gate failure](results/extensions/research_progress_20261030/virtual_boundary_clean_gate/RESULTS.json)
+- [Offline metadata-confounding diagnosis](results/extensions/research_progress_20261030/offline_false_action_attribution/SCOPE.json)
+- [New public artifact hashes](results/extensions/research_progress_20261030/PUBLICATION_MANIFEST.json)
+
+NQ40 ownership14 is a diagnostic with failed damage qualification; the WSN≤4
+project target is unmet. Historical formal artifacts below are unchanged.
+
+---
+
+
 This document maps the major experimental claims to the corresponding frozen artifacts in this repository.
 
 ## 1. Current Formal Verification Campaign

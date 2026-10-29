@@ -1,0 +1,199 @@
+{
+  "WSN": {
+    "Unknown": "Keep all320 slots. No conversion toNO, no dropping, WSN bounds[YES,YES+Unknown]. No complete40-unit paired estimate if Unknown exists.",
+    "conditions": [
+      "CLEAN",
+      "WATERMARKED",
+      "RAW",
+      "BIN",
+      "VIRTUAL_GR",
+      "CLEAN_RAW",
+      "CLEAN_BIN",
+      "CLEAN_VIRTUAL_GR"
+    ],
+    "generation_model_and_prompt": "Original ePhone/gpt-4o-mini/temp0/max1024/char-newline wrap behavior, no explicit generation seed/top_p.",
+    "primary_role": "Separately registered fixed-policy diagnostic. Low-damage/localization qualification evaluated independently.",
+    "slots": 320,
+    "units": 40
+  },
+  "actual_damage_utility_gates": {
+    "all3_mean_normal_document_fraction_max": 0.03,
+    "all3_mean_normal_original_character_fraction_max": 0.005,
+    "new_minus_baselines_char_damage_CI95_upper_max": 0.001,
+    "new_minus_baselines_document_damage_CI95_upper_max": 0.01,
+    "official_independent_QA_or_qrel_utility": "UNAVAILABLE; explicitly no general utility claim",
+    "queries": 200,
+    "title_proxy_nDCG10_vs_untreated_CI95_lower_min": -0.02
+  },
+  "attack": "Initial backward depth3, first acceptance by rank, full ORIGINAL target deletion once per document; no trajectory, graph expansion, GT selection, threshold update, or generation-feedback selection of attack variants",
+  "body_context_eligibility": true,
+  "boundary_model_assets": {
+    "config.json": "d2c62254d34bd83a7eebbf513259a871cb15b5ecc12562359ef2834b2d505a08",
+    "model.safetensors": "270f27d7398a5fdad43bdf9953ea532fbe62c5f5227ed5f5316e9bd64a9255e1",
+    "sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+    "special_tokens_map.json": "378eb3bf733eb16e65792d7e3fda5b8a4631387ca04d2015199c4d4f22ae554d",
+    "tokenizer.json": "de3788bb2f349135f2ad2e2b10dff3cee7f23fab906a5fbdadf20bc963b05b4c",
+    "tokenizer_config.json": "92d6060e3ddcb17443d26f36b7b68ec53e2965e8c087f74e75b2eb5b821b3685"
+  },
+  "boundary_model_id": "oliverguhr/fullstop-punctuation-multilang-large",
+  "boundary_model_policy": "FP32,actual joined-string fast-tokenizer offsets,last-subtoken argmax,width480,overlap32; invisible format characters follow tokenizer normalization and raw text stays intact; normalized-away words get0; author nonnumeric-punctuation preprocessing; raw word-end mapping; . or ? labels; no punctuation inserted into scoring or editing text",
+  "boundary_model_revision": "345e80adc07e761d3a35feafd20f2f44a151f453",
+  "damage_budget": {
+    "calibration": "Most permissive clean-only scalar cutoff satisfying both monotone caps; per-document max candidate span upper-bounds first-action characters; whole score ties",
+    "calibration_document_rate": 0.03,
+    "original_char_fraction": 0.005,
+    "scope": "New independently fixed budget for this continuation only, not a universal5pct/181-document law"
+  },
+  "development_gates": {
+    "GT_first_read": "After full ACTUAL_MASKS_FROZEN.json; no labels in selector inputs",
+    "all_unenumerated_true_boundaries_are_FN": true,
+    "all_units_and_fallbacks_retained": true,
+    "generation_units_components_min": 30,
+    "new_acceptance_and_first_action_TPR_not_below_BIN_points": true,
+    "paired_two_way_multinomial_CI95_lower_strictly_positive": true,
+    "primary": "VIRTUAL_GR minus RAW all-copy first-action exact true-start TPR",
+    "primary_point_min": 0.1,
+    "selected_direct_and_sim_YES_units_min": 30
+  },
+  "eligibility": "After each original/virtual initial-depth3 enumeration, discard candidates whose preceding raw context has no non-whitespace body characters after exact bound source-title metadata. Do not refill, rerank, change C/T, alter GainRatio or remove documents from denominators. The same predicate applies to RAW, BIN and VIRTUAL_GR.",
+  "frozen_thresholds": {
+    "BIN": {
+      "actual_first_action_characters": 2445,
+      "char_budget": 2918,
+      "char_rate": 0.005,
+      "conservative_char_upper": 2445,
+      "doc_budget": 30,
+      "doc_rate": 0.03,
+      "selected_documents": 21,
+      "threshold": -0.011780104712041885
+    },
+    "RAW": {
+      "actual_first_action_characters": 2851,
+      "char_budget": 2918,
+      "char_rate": 0.005,
+      "conservative_char_upper": 2851,
+      "doc_budget": 30,
+      "doc_rate": 0.03,
+      "selected_documents": 12,
+      "threshold": -0.05006352565991365
+    },
+    "VIRTUAL_GR": {
+      "actual_first_action_characters": 2891,
+      "char_budget": 2918,
+      "char_rate": 0.005,
+      "conservative_char_upper": 2891,
+      "doc_budget": 30,
+      "doc_rate": 0.03,
+      "selected_documents": 17,
+      "threshold": -0.061922304220334984
+    }
+  },
+  "generation": {
+    "K": 5,
+    "allowed_effective_models": [
+      "gpt-4o-mini",
+      "gpt-4o-mini-2024-07-18"
+    ],
+    "engineering_units": 2,
+    "generation_seed_or_top_p_sent": false,
+    "initial_generation_format_tries_max": 10,
+    "max_feedback_per_payload": 11,
+    "max_output_tokens": 1024,
+    "model_alias": "gpt-4o-mini",
+    "mutual_times": 10,
+    "near_duplicate_audit": "All selected payloads vs771 archived units (729 original+42 context-order); NFKC/casefold/whitespace exact or word5-shingle Jaccard>=.8. Shared normalized new entities or near-identical payloads unite new unit components. Require>=30 components and>=30/40 units with selected original direct/sim bothYES. All fallbacks retained; any archive contamination stops without filtering/replacement.",
+    "original_wrap_prompt": "Preserve frozen wrap_prompt(...,4) string behavior, including character newline joining. Do not silently fix this while claiming protocol fidelity.",
+    "privacy": "Only frozen non-person public-concept unit labels and pre-screened public source texts; no old16 contact-locked requests, no contact redaction/substitution or API model switching.",
+    "retrieval": "Exact original Contriever FP32 masked mean/L2/first512/cosine,clean top5 frozen before original generation; effective RAG k1. Fresh full-NQ articles; each unit is a separate KB intervention world.",
+    "source_process": "Original Advisor WATERMARK_GENERATE, feedback_both, direct_check and simulate_check; original WD precedence and append with single space; no treatment attack/verifier results enter generation or selector.",
+    "system_prompt": "You are a helpful assistant.",
+    "temperature": 0,
+    "transport": "Fresh campaign durable chunked raw envelopes; successful logical steps cached; max2 attempts per logical step only for timeout/connection I/O or500/502/503/504; no retry of success,model/auth/privacy/429/malformed response. One first valid response,not chosen from successes. Attempts/unknown fees retained.",
+    "units": 40
+  },
+  "id": "gr_body_context_boundary_20261029_v1",
+  "independent_clean_gates": {
+    "each_method_Wilson95_document_FPR_upper_max": 0.05,
+    "each_method_actual_original_char_fraction_max": 0.005,
+    "failed_gate": "STOP before watermark generation; do not infer localization or WSN from clean feasibility",
+    "new_minus_each_baseline_paired_FPR_CI95_upper_max": 0.01,
+    "new_minus_each_baseline_paired_char_fraction_CI95_upper_max": 0.001
+  },
+  "methods": {
+    "BIN": "Original parser + same body eligibility + unchanged frozen BIN reference CDF + new clean-only joint-budget cutoff",
+    "RAW": "Original parser + body eligibility + raw score + new clean-only joint-budget cutoff",
+    "VIRTUAL_GR": "Fixed original-plus-FullStop virtual parser + same body eligibility + raw score + new clean-only joint-budget cutoff"
+  },
+  "original_protocol_sha256": "5eddc45ba8189fab70d1c3ab8a29c85c3f9feb0622185877ef48263b84ec15b1",
+  "publication_note": "PUBLIC PROJECTION, not the original frozen protocol bytes. Machine-specific paths, host information, and endpoint configuration are omitted; scientific methods/gates are retained.",
+  "question": "Does requiring nonempty body context remove title-metadata confounding from candidate enumeration/calibration, improving unknown append-boundary acceptance under a common predeclared budget?",
+  "request_identity": {
+    "alignment": "exclude_first_target_token_in_both_conditions",
+    "model": "cfacd4ce42991e558d8eb36e0313c9c7d91ef4bdcc393369b4598d13f9f0fd0c",
+    "scorer": "1180d0f3898fc6a1dc029149f353fc4416803cd9a819e3a6ebe705412baf1235"
+  },
+  "resource_caps": {
+    "API_concurrency": 4,
+    "API_timeout": 120,
+    "CPU_audit_wall_seconds": 3600,
+    "GPU_wall_seconds": 3600,
+    "Qwen_effective_input_tokens": 26000000,
+    "boundary_worker_wall_seconds": 3600,
+    "engineering_new_NLL": 0,
+    "generation_API_wall_seconds": 14400,
+    "generation_HTTP_attempts": 21840,
+    "generation_body_UTF8_bytes": 536870912,
+    "necessity": "Old42 units are identities only; original-flow payloads have never been generated. New confirmation1000/hosts1000 and <=200 generated variants require exact new primitives after cache audit. Engineering16 and calibration1000 must reuse all existing boundary/NLL inputs; zero new forwards allowed there. New retrieval uses exact cached vectors and dot products, no rebuilt index.",
+    "new_Contriever_embeddings": 5500,
+    "new_NLL_total": 40000,
+    "new_boundary_documents": 2200,
+    "new_boundary_input_tokens": 5000000,
+    "pipeline_wall_seconds": 21600,
+    "verifier_HTTP_attempts": 1280
+  },
+  "separate_WSN_diagnostic": {
+    "HTTP_attempt_upper": 1280,
+    "Unknown": "Keep all320 slots. No conversion toNO, no dropping, WSN bounds[YES,YES+Unknown]. No complete40-unit paired estimate if Unknown exists.",
+    "conditions": [
+      "CLEAN",
+      "WATERMARKED",
+      "RAW",
+      "BIN",
+      "VIRTUAL_GR",
+      "CLEAN_RAW",
+      "CLEAN_BIN",
+      "CLEAN_VIRTUAL_GR"
+    ],
+    "enabled": true,
+    "entry": "All42 original-flow units generated completely; source/model/input integrity holds; actual predictions, masks and top1 inputs frozen. No selection based on method outcomes.",
+    "id": "gr_body_context_boundary_20261029_v1/separate_WSN_diagnostic",
+    "low_damage_failures": "Remain FAIL. A pre-registered fixed-policy diagnostic still measures WSN/damage/proxy utility on the same40 units; it does not authorize parameter search, larger deletions, reclassification as a low-damage attack, or a general utility claim.",
+    "old_failed_run_resumed": false,
+    "question": "What are the actual ownership outcomes of all pre-fixed body-qualified methods, separately from whether low-damage qualification succeeds?",
+    "slots": 320,
+    "timing": "Registered before any new model effect, generated payload or verifier response.",
+    "units": 40
+  },
+  "source_and_units": {
+    "calibration": "Original preallocated1000 clean documents reused as development calibration, not a new blind confirmation.",
+    "development_units": 40,
+    "engineering_documents": 16,
+    "engineering_units": 2,
+    "hosts": 1000,
+    "independent_clean": "1000 unscored unused qualified components[3016:4016] from the exact previously selected pool.",
+    "key_commitment": "fcf8be6e23062461a7c18ab64eeae21f1d52481d0e6d3ca9968061c8da412c9c",
+    "key_redraw": false,
+    "new_payloads_preexisting": false,
+    "old2000_4000_confirmations_used": false,
+    "old_exposed1000_used_as_confirmation": false
+  },
+  "statistics": {
+    "independent_clean": "Source-document paired ordinary bootstrap; character fractions use paired ratio bootstrap",
+    "positive_exponential_weights": false,
+    "primary": "Discrete two-way multinomial pigeonhole bootstrap over generated unit components and host source components",
+    "repetitions": 10000,
+    "secondary_WSN": "All40 unit-component paired bootstrap; exact signflip if<=20 nonzero otherwise100000+one correction",
+    "seed": 20261029,
+    "shared_clean_not40000_independent": true
+  }
+}
